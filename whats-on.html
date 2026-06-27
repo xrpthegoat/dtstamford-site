@@ -141,7 +141,15 @@
   .tchip.reset.dirty{color:#0a0a0b;background:var(--gold);border-color:var(--gold);border-style:solid;box-shadow:0 0 0 4px rgba(227,196,126,.18)}
   .tchip.reset.dirty:hover{background:var(--gold-l);border-color:var(--gold-l)}
 
-  .filters{padding:8px 18px 10px;border-top:1px solid var(--line-2);border-bottom:1px solid var(--line-2)}
+  .filtersToggle{display:flex;align-items:center;gap:8px;width:100%;padding:9px 18px;background:transparent;border:0;border-top:1px solid var(--line-2);color:var(--fg-soft);font-family:var(--mono);font-size:.62rem;letter-spacing:.16em;text-transform:uppercase;cursor:pointer;text-align:left;transition:.16s var(--ease)}
+  .filtersToggle:hover{color:var(--gold-l);background:rgba(255,255,255,.02)}
+  .filtersToggle .ftI{display:inline-block;font-size:.75rem;color:var(--gold-l);transition:transform .22s var(--ease);width:14px}
+  .filtersToggle[aria-expanded="false"] .ftI{transform:rotate(-90deg)}
+  .filtersToggle .ftN{margin-left:auto;font-family:var(--mono);font-size:.58rem;color:#0a0a0b;background:var(--gold);border-radius:999px;padding:2px 9px;letter-spacing:.05em;display:none}
+  .filtersToggle .ftN.show{display:inline-block}
+  .filters{padding:8px 18px 10px;border-top:1px solid var(--line-2);border-bottom:1px solid var(--line-2);max-height:min(34dvh,260px);overflow-y:auto;overscroll-behavior:contain;scrollbar-width:thin;scrollbar-color:rgba(255,255,255,.18) transparent;transition:max-height .26s var(--ease),padding .26s var(--ease)}
+  .filters::-webkit-scrollbar{width:7px}.filters::-webkit-scrollbar-thumb{background:rgba(255,255,255,.16);border-radius:8px}
+  .filters.collapsed{max-height:0;padding-top:0;padding-bottom:0;border-bottom-width:0;overflow:hidden}
   .frow{display:flex;gap:7px;flex-wrap:wrap}
   .cchip{display:inline-flex;align-items:center;gap:7px;font-size:.76rem;font-weight:500;padding:6px 11px 6px 9px;border-radius:999px;border:1px solid var(--line);color:var(--fg-soft);cursor:pointer;transition:.18s var(--ease);background:transparent;user-select:none}
   .cchip:hover{border-color:rgba(255,255,255,.26)}
@@ -348,7 +356,7 @@
   <div class="p-head">
     <div class="p-kicker"><span class="pulse"></span> Stamford Live · What's On</div>
     <h1 class="p-title">What's on near you</h1>
-    <p class="p-sub"><b id="count">—</b> events · tap to fly · <a id="srcLink">sources</a></p>
+    <p class="p-sub"><b id="count">—</b> events · <a id="loginLink" href="#">log in</a> to save favorites · <a id="srcLink">sources</a></p>
     <div class="searchrow">
       <div class="search">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
@@ -367,11 +375,14 @@
       <button class="tchip reset" id="resetChip" type="button" title="Clear all filters">↺ Reset</button>
     </div>
   </div>
-  <div class="filters">
+  <button class="filtersToggle" id="filtersToggle" aria-expanded="true" type="button">
+    <span class="ftI">▾</span><span>Filters</span><span class="ftN" id="filtersOnCount"></span>
+  </button>
+  <div class="filters" id="filtersBox">
     <div class="featwrap" id="featWrap" hidden><div class="featlbl">🔥 Featured now</div><div class="featrow" id="feat" role="group" aria-label="Featured filters"></div></div>
     <div class="frow" id="cats" role="group" aria-label="Category filter"></div>
-    <button class="actToggle" id="actToggle" aria-expanded="true">Pick a vibe <span class="chev">▾</span><span class="ac" id="actCount"></span></button>
-    <div class="acts" id="acts" role="group" aria-label="Activity filter"></div>
+    <button class="actToggle" id="actToggle" aria-expanded="false">Pick a vibe <span class="chev">▾</span><span class="ac" id="actCount"></span></button>
+    <div class="acts collapsed" id="acts" role="group" aria-label="Activity filter"></div>
   </div>
   <div id="list"></div>
 </aside>
@@ -384,14 +395,13 @@
   <div class="mcard">
     <button class="x" id="signX" aria-label="Close">×</button>
     <div id="signStep1">
-      <h2>Save your events</h2>
-      <p>Quick free sign-in to save favorites + RSVP. We send a one-tap login link — <b>no password</b>.</p>
-      <label for="signName">Name <span class="opt">(optional)</span></label>
-      <input id="signName" type="text" placeholder="First name" autocomplete="given-name">
-      <label for="signEmail">Email</label>
+      <h2>Create your free account</h2>
+      <p>Save events as ♥ favorites, RSVP, and they stick around — on this phone <i>and</i> any other device you log in on. Just type your email and we'll send a <b>one-tap sign-in link</b>. No password.</p>
+      <label for="signEmail">Your email</label>
       <input id="signEmail" type="email" placeholder="you@email.com" autocomplete="email">
-      <button class="go" id="signGo">Send my magic link</button>
-      <div class="fine">No password to remember. Email only — we keep your name + your activity (events you favorite / RSVP). <a href="#" id="signPriv">Privacy</a> · <a href="#" id="signWipe">Delete my data</a></div>
+      <input id="signName" type="hidden">
+      <button class="go" id="signGo">Email me a sign-in link</button>
+      <div class="fine">Already used this email here? Same link will log you back in. We store your email and the events you save — nothing else. <a href="#" id="signPriv">Privacy</a> · <a href="#" id="signWipe">Delete my account</a></div>
     </div>
     <div id="signStep2" style="display:none">
       <h2>📩 Check your inbox</h2>
@@ -549,6 +559,7 @@ async function syncAuth(){
   SB.auth.onAuthStateChange((_evt,session)=>{
     if(session&&session.user){USER={id:session.user.id,email:session.user.email,name:(session.user.user_metadata&&session.user.user_metadata.name)||""};localStorage.setItem("sl_user",JSON.stringify(USER));logActivity("signup",{});}
     else{USER=null;localStorage.removeItem("sl_user");}
+    try{updateLoginLink();}catch(_){ }
   });
 }
 function logActivity(kind,extra){
@@ -644,8 +655,13 @@ function visibleEvents(){
 function uniqueVenues(evs){const m=new Map();for(const e of evs){const id=vid(e.venue);if(!m.has(id))m.set(id,VENUES.get(id));}return[...m.values()].filter(Boolean);}
 function domColorForVenue(v,evs){const c={};v.events.forEach(e=>{if(!evs||evs.includes(e)){const k=catOf(e.category);c[k]=(c[k]||0)+1;}});const t=Object.entries(c).sort((a,b)=>b[1]-a[1])[0];return colorOf(t?t[0]:catOf(v.events[0].category));}
 
+function updateLoginLink(){const a=document.getElementById("loginLink");if(!a)return;
+  if(USER){a.textContent="♥ saved as "+(USER.email||"you");a.title="Tap to sign out";}
+  else{a.textContent="log in";a.title="Sign in to save favorites + RSVPs across devices";}}
 function isFiltered(){return !!(activeCats.size||activeTags.size||timeFilter!=="all"||(query||"").trim()||savedOnly||activeTowns.size<3);}
-function updateResetChip(){const el=document.getElementById("resetChip");if(el)el.classList.toggle("dirty",isFiltered());}
+function activeFilterCount(){let n=0;if(activeCats.size)n++;if(activeTags.size)n++;if(activeTowns.size<3)n++;if(timeFilter!=="all")n++;if((query||"").trim())n++;if(savedOnly)n++;return n;}
+function updateResetChip(){const el=document.getElementById("resetChip");if(el)el.classList.toggle("dirty",isFiltered());
+  const c=document.getElementById("filtersOnCount");if(c){const n=activeFilterCount();c.textContent=n?n+" on":"";c.classList.toggle("show",!!n);}}
 function apply(opts){
   opts=opts||{};const evs=visibleEvents();
   renderList(evs);renderMap(evs);document.getElementById("count").textContent=evs.length;
@@ -906,6 +922,29 @@ function initMap(deepId){
     MAP.addLayer({id:"border-glow",type:"line",source:"borders",layout:{"line-join":"round"},paint:{"line-color":["get","color"],"line-width":7,"line-blur":4,"line-opacity":.2,"line-emissive-strength":1}});
     MAP.addLayer({id:"border-line",type:"line",source:"borders",layout:{"line-join":"round"},paint:{"line-color":["get","color"],"line-width":1.8,"line-opacity":.85,"line-emissive-strength":1,"line-dasharray":[3,2]}});
     updateBorders();
+    /* Parks: big bold 3D-feeling labels laid on the ground (pitch-aligned to map → tilts with the camera). */
+    MAP.addSource("parks",{type:"geojson",data:"parks.geojson"});
+    MAP.addLayer({id:"park-label",type:"symbol",source:"parks",minzoom:11.4,
+      layout:{
+        "text-field":["get","name"],
+        "text-font":["DIN Pro Bold","Arial Unicode MS Bold"],
+        "text-size":["interpolate",["linear"],["zoom"],11.4,11,13,15,15.5,22,18,30],
+        "text-letter-spacing":0.08,"text-transform":"uppercase",
+        "text-pitch-alignment":"map","text-rotation-alignment":"map",
+        "text-anchor":"center","text-padding":4,"text-allow-overlap":false
+      },
+      paint:{
+        "text-color":["get","color"],
+        "text-halo-color":"rgba(8,8,12,.92)","text-halo-width":1.6,"text-halo-blur":1.4,
+        "text-emissive-strength":1.4,"text-opacity":["interpolate",["linear"],["zoom"],11.4,.55,13,.85,15,1]
+      }});
+    MAP.on("mouseenter","park-label",()=>MAP.getCanvas().style.cursor="pointer");
+    MAP.on("mouseleave","park-label",()=>MAP.getCanvas().style.cursor="");
+    MAP.on("click","park-label",ev=>{
+      const f=ev.features[0],c=f.geometry.coordinates,nm=f.properties.name;
+      MAP.easeTo({center:c,zoom:16.2,pitch:64,bearing:-18,duration:1400,essential:true});
+      toast("🌳 "+nm,(f.properties.town||"")+" — flying in");
+    });
     MAP.addSource("venues",{type:"geojson",data:{type:"FeatureCollection",features:[]}});
     MAP.addSource("pools",{type:"geojson",data:{type:"FeatureCollection",features:[]}});
     MAP.addLayer({id:"pool-outer",type:"circle",source:"pools",paint:{"circle-color":["get","color"],"circle-radius":54,"circle-blur":1,"circle-opacity":.18,"circle-emissive-strength":1}});
@@ -956,8 +995,15 @@ function wireControls(){
   const at=document.getElementById("actToggle"),acts=document.getElementById("acts");
   if(isMobile()){at.setAttribute("aria-expanded","false");acts.classList.add("collapsed");}
   at.onclick=()=>{const open=at.getAttribute("aria-expanded")==="true";at.setAttribute("aria-expanded",String(!open));acts.classList.toggle("collapsed",open);};
+  /* Filters compactor: cap height + collapse toggle (persisted). Default collapsed so events sit higher. */
+  const ft=document.getElementById("filtersToggle"),fb=document.getElementById("filtersBox");
+  const fOpen=(localStorage.getItem("filtersOpen")||"0")==="1";
+  ft.setAttribute("aria-expanded",String(fOpen));fb.classList.toggle("collapsed",!fOpen);
+  ft.onclick=()=>{const o=ft.getAttribute("aria-expanded")==="true";ft.setAttribute("aria-expanded",String(!o));fb.classList.toggle("collapsed",o);localStorage.setItem("filtersOpen",o?"0":"1");};
   window.addEventListener("keydown",e=>{if(e.target.tagName==="INPUT")return;if(e.key==="r"||e.key==="R")surprise();});
   document.getElementById("srcLink").onclick=e=>{e.preventDefault();openSources();};
+  document.getElementById("loginLink").onclick=e=>{e.preventDefault();if(USER){if(confirm("Signed in as "+USER.email+". Sign out?"))signOut().then(updateLoginLink);}else openSignup();};
+  updateLoginLink();
   // signup modal
   document.getElementById("signX").onclick=closeSignup;
   document.getElementById("signModal").addEventListener("click",e=>{if(e.target.id==="signModal")closeSignup();});

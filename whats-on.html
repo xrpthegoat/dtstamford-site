@@ -69,6 +69,10 @@
   .nav-links a[aria-current]::after{content:"";position:absolute;left:0;bottom:-3px;height:1px;width:100%;background:var(--gold-l)}
   .hbtn{display:inline-flex;align-items:center;gap:8px;padding:9px 15px;border-radius:999px;font-family:var(--mono);font-size:.7rem;letter-spacing:.06em;text-transform:uppercase;background:var(--gold);color:#0a0a0b;font-weight:700;white-space:nowrap;transition:.2s var(--ease)}
   .hbtn:hover{background:var(--gold-l);box-shadow:0 10px 26px -14px rgba(201,162,74,.8)}
+  .navshare{display:inline-flex;align-items:center;gap:7px;padding:9px 14px;border-radius:999px;border:1px solid var(--line);background:rgba(255,255,255,.03);color:var(--fg-soft);font-family:var(--mono);font-size:.7rem;letter-spacing:.06em;text-transform:uppercase;font-weight:600;cursor:pointer;transition:.2s var(--ease);white-space:nowrap}
+  .navshare:hover{color:#fff;border-color:rgba(255,255,255,.28)}
+  .navshare svg{width:15px;height:15px}
+  @media(max-width:560px){.navshare .lb{display:none}}
   @media(max-width:920px){.nav-links{display:none}}
 
   #map{position:fixed;inset:0;z-index:0;background:#0a0c10}
@@ -172,8 +176,12 @@
   .card .venue{display:flex;align-items:center;gap:5px;margin-top:5px;font-size:.78rem;color:var(--fg-soft)}
   .card .venue svg{width:12px;height:12px;color:var(--faint);flex:0 0 auto}
   .card .venue span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-  .card .fav{position:absolute;top:9px;right:9px;width:26px;height:26px;border:0;background:transparent;color:var(--faint);cursor:pointer;font-size:15px;line-height:1;transition:.15s;border-radius:50%}
+  .card .fav{position:absolute;top:8px;right:8px;width:26px;height:26px;border:0;background:transparent;color:var(--faint);cursor:pointer;font-size:15px;line-height:1;transition:.15s;border-radius:50%}
   .card .fav:hover{color:#ff5da2}.card .fav.on{color:#ff5da2}
+  .card .cshare{position:absolute;top:10px;right:36px;width:24px;height:24px;border:0;background:transparent;color:var(--faint);cursor:pointer;transition:.15s;display:grid;place-items:center;border-radius:50%}
+  .card .cshare svg{width:14px;height:14px}
+  .card .cshare:hover{color:var(--gold-l)}
+  .card .body{padding-right:54px}
   .thumb{flex:0 0 52px;width:52px;height:52px;border-radius:10px;object-fit:cover;background:#16161b}
   .badge{font-family:var(--mono);font-size:.6rem;letter-spacing:.06em;text-transform:uppercase;padding:3px 7px;border-radius:6px;font-weight:700}
   .badge.free{background:rgba(95,224,138,.16);color:#7af0a6}
@@ -275,7 +283,10 @@
     <a href="neighborhoods.html">Neighborhoods</a><a href="living-in-stamford.html">Living</a>
     <a href="whats-on.html" aria-current="page">What's On</a><a href="blog.html">Blog</a>
   </nav>
-  <a class="hbtn" href="contact.html">Work with John</a>
+  <div style="display:flex;align-items:center;gap:10px">
+    <button id="navShare" class="navshare" title="Share this map" aria-label="Share this map"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="m8.6 13.5 6.8 4M15.4 6.5 8.6 10.5"/></svg><span class="lb">Share</span></button>
+    <a class="hbtn" href="contact.html">Work with John</a>
+  </div>
 </header>
 
 <div id="map"></div>
@@ -356,6 +367,17 @@ const CATS={music:{label:"Music",color:"#b98cff"},nightlife:{label:"Nightlife",c
 const CAT_ORDER=["music","nightlife","arts","family","sports","food","community","other"];
 const catOf=c=>CATS[c]?c:"other";
 const colorOf=c=>CATS[catOf(c)].color;
+/* Safe fallback photos — John's own Stamford images (copyright-clean) so every event has a picture. */
+const CAT_IMG={
+  music:"assets/stamford-ct-downtown-avon-theatre-sunset.jpg",
+  nightlife:"assets/stamford-ct-luxury-rooftop-deck-views.jpg",
+  arts:"assets/stamford-ct-downtown-avon-theatre-sunset.jpg",
+  family:"assets/stamford-harbor-point-commons.jpg",
+  sports:"assets/stamford-ct-north-state-street-winter.jpg",
+  food:"assets/downtown-stamford-ct-winter-streetscape.jpg",
+  community:"assets/downtown-stamford-ct-landmark-square-skyline.jpg",
+  other:"assets/skyline.jpg"};
+const imgFor=e=>e.image||CAT_IMG[catOf(e.category)]||CAT_IMG.other;
 
 const kw=(...w)=>(e)=>w.some(x=>e._hay.includes(x));
 const TAGS=[
@@ -499,21 +521,24 @@ function renderList(evs){
     const col=colorOf(e.category),dk=e._dt?dayKey(e._dt):"tbd";
     if(dk!==lastDay){lastDay=dk;html+=`<div class="daygroup">${e._dt?esc(relDayLabel(e._dt)):"Date TBD"}</div>`;}
     const when=e._dt?fmtTime(e._dt):(e.recurring?esc(e.recurring):"See details");
-    const thumb=e.image?`<img class="thumb" src="${esc(e.image)}" alt="" loading="lazy" onerror="this.remove()">`:"";
+    const thumb=`<img class="thumb" src="${esc(imgFor(e))}" alt="" loading="lazy" onerror="this.onerror=null;this.src='${esc(CAT_IMG[catOf(e.category)]||CAT_IMG.other)}'">`;
     const faved=FAVS.has(eid(e))?"on":"";
     html+=`<div class="card" data-id="${esc(eid(e))}" style="--cc:${col}" role="button" tabindex="0">
       <div class="stripe"></div>${thumb}<div class="body">
         <div class="t">${esc(e.title)}</div>
         <div class="meta"><span class="when">${esc(when)}</span>${badges(e)}</div>
         <div class="venue"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-5.3-7-11a7 7 0 0 1 14 0c0 5.7-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg><span>${esc(e.venue.name||"")}</span></div>
-      </div><button class="fav ${faved}" data-fav="${esc(eid(e))}" title="Save" aria-label="Save event">${faved?"♥":"♡"}</button></div>`;
+      </div>
+      <button class="cshare" data-share="${esc(eid(e))}" title="Share" aria-label="Share event"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="m8.6 13.5 6.8 4M15.4 6.5 8.6 10.5"/></svg></button>
+      <button class="fav ${faved}" data-fav="${esc(eid(e))}" title="Save" aria-label="Save event">${faved?"♥":"♡"}</button></div>`;
   }
   list.innerHTML=html;
   list.querySelectorAll(".card").forEach(card=>{
     const e=evs.find(x=>eid(x)===card.dataset.id);
-    card.addEventListener("click",ev=>{if(ev.target.closest(".fav"))return;focusVenue(vid(e.venue),{card,event:e});});
+    card.addEventListener("click",ev=>{if(ev.target.closest(".fav")||ev.target.closest(".cshare"))return;focusVenue(vid(e.venue),{card,event:e});});
     card.addEventListener("keydown",ev=>{if(ev.key==="Enter"||ev.key===" "){ev.preventDefault();focusVenue(vid(e.venue),{card,event:e});}});
     card.querySelector(".fav").addEventListener("click",()=>toggleFav(eid(e)));
+    card.querySelector(".cshare").addEventListener("click",()=>shareEvent(eid(e)));
   });
 }
 
@@ -583,6 +608,12 @@ function shareEvent(id){
   if(navigator.share){navigator.share({title:e.title,text,url}).catch(()=>{});}
   else{navigator.clipboard.writeText(url).then(()=>toast("Link copied","Share it with a friend")).catch(()=>toast("Share",url));}
 }
+function sharePage(){
+  const url=`${location.origin}${location.pathname}`;
+  const text="See what's happening in Stamford, Greenwich & Norwalk on this live events map";
+  if(navigator.share){navigator.share({title:"What's On in Stamford",text,url}).catch(()=>{});}
+  else{navigator.clipboard.writeText(url).then(()=>toast("Link copied","Share the Stamford events map with friends")).catch(()=>toast("Share",url));}
+}
 function pad2(n){return String(n).padStart(2,"0");}
 function icsStamp(d){return d.getUTCFullYear()+pad2(d.getUTCMonth()+1)+pad2(d.getUTCDate())+"T"+pad2(d.getUTCHours())+pad2(d.getUTCMinutes())+"00Z";}
 function addToCalendar(id){
@@ -613,7 +644,7 @@ function venuePopup(id,preferEvent){
   const col=colorOf(hero.category),id0=eid(hero);
   const when=hero._dt?`${fmtDayShort(hero._dt)} · ${fmtTime(hero._dt)}`:(hero.recurring||"");
   const faved=FAVS.has(id0),going=RSVPS.has(id0);
-  const heroStyle=hero.image?`style="background-image:url('${esc(hero.image)}')"`:"";
+  const heroStyle=`style="background-image:url('${esc(imgFor(hero))}')"`;
   const html=`<div class="pcard" style="--cc:${col}">
     <div class="hero ${hero.image?'':'noimg'}" ${heroStyle}>
       <button class="hx" data-act="close">×</button>
@@ -726,6 +757,7 @@ function wireControls(){
   }));
   document.getElementById("surprise").onclick=surprise;
   document.getElementById("ctlSurprise").onclick=surprise;
+  document.getElementById("navShare").onclick=sharePage;
   document.getElementById("ctlReset").onclick=()=>{selectedVenue=null;if(popup)popup.remove();document.querySelectorAll(".card.active").forEach(c=>c.classList.remove("active"));const vens=uniqueVenues(visibleEvents());vens.length?frameVenues(vens):MAP.easeTo({...HOME,duration:1300});};
   document.getElementById("ctlLight").onclick=()=>{lightIdx=(lightIdx+1)%LIGHTS.length;try{MAP.setConfigProperty("basemap","lightPreset",LIGHTS[lightIdx]);}catch(e){}};
   const at=document.getElementById("actToggle"),acts=document.getElementById("acts");

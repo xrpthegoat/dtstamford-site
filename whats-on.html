@@ -34,6 +34,7 @@
 
 <link href="https://api.mapbox.com/mapbox-gl-js/v3.9.0/mapbox-gl.css" rel="stylesheet">
 <script src="https://api.mapbox.com/mapbox-gl-js/v3.9.0/mapbox-gl.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
 
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"WebPage","name":"What's On in Stamford — Live Events Map",
@@ -377,14 +378,21 @@
 <div class="modal" id="signModal" role="dialog" aria-modal="true">
   <div class="mcard">
     <button class="x" id="signX" aria-label="Close">×</button>
-    <h2 id="signTitle">Save your events</h2>
-    <p id="signMsg">Create a quick (free) profile to save favorites and RSVP. We'll only use this to keep your list and let John send you Stamford event picks.</p>
-    <label for="signName">Name</label>
-    <input id="signName" type="text" placeholder="First name" autocomplete="given-name">
-    <label for="signEmail">Email</label>
-    <input id="signEmail" type="email" placeholder="you@email.com" autocomplete="email">
-    <button class="go" id="signGo">Save my events</button>
-    <div class="fine">No spam. Unsubscribe anytime.</div>
+    <div id="signStep1">
+      <h2>Save your events</h2>
+      <p>Quick free sign-in to save favorites + RSVP. We send a one-tap login link — <b>no password</b>.</p>
+      <label for="signName">Name <span class="opt">(optional)</span></label>
+      <input id="signName" type="text" placeholder="First name" autocomplete="given-name">
+      <label for="signEmail">Email</label>
+      <input id="signEmail" type="email" placeholder="you@email.com" autocomplete="email">
+      <button class="go" id="signGo">Send my magic link</button>
+      <div class="fine">No password to remember. Email only — we keep your name + your activity (events you favorite / RSVP). <a href="#" id="signPriv">Privacy</a> · <a href="#" id="signWipe">Delete my data</a></div>
+    </div>
+    <div id="signStep2" style="display:none">
+      <h2>📩 Check your inbox</h2>
+      <p>We sent a one-tap login link to <b id="signEmailSent"></b>. Open it on this device — you'll come right back here, signed in.</p>
+      <div class="fine">No link in 30 seconds? Check spam, or close this and try again.</div>
+    </div>
   </div>
 </div>
 
@@ -395,6 +403,11 @@
    STAMFORD LIVE — what's-on map  (dtstamford.com)  v3
    =================================================================== */
 const MAPBOX_TOKEN = "__MAPBOX_TOKEN__";
+/* Supabase: public-safe anon key; service key never lands here. Injected at deploy. */
+const SUPABASE_URL = "__SUPABASE_URL__", SUPABASE_ANON_KEY = "__SUPABASE_ANON_KEY__";
+const SB = (window.supabase && SUPABASE_URL && !SUPABASE_URL.startsWith("__"))
+  ? window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY, {auth:{persistSession:true,autoRefreshToken:true,detectSessionInUrl:true}})
+  : null;
 /* Lead capture: paste a Formspree endpoint (https://formspree.io/f/xxxx) to email
    John every sign-up / RSVP. If blank, profiles still save on the visitor's device. */
 const FORM_ENDPOINT = "https://formspree.io/f/xkolbwvd";
@@ -521,10 +534,48 @@ function inTimeWindow(d){
 /* ---- profile / saved (localStorage) ---- */
 function loadUser(){try{USER=JSON.parse(localStorage.getItem("sl_user")||"null");FAVS=new Set(JSON.parse(localStorage.getItem("sl_favs")||"[]"));RSVPS=new Set(JSON.parse(localStorage.getItem("sl_rsvps")||"[]"));}catch(_){}}
 function saveSets(){localStorage.setItem("sl_favs",JSON.stringify([...FAVS]));localStorage.setItem("sl_rsvps",JSON.stringify([...RSVPS]));}
-function postLead(type,extra){if(!FORM_ENDPOINT||!USER)return;try{fetch(FORM_ENDPOINT,{method:"POST",headers:{"Content-Type":"application/json",Accept:"application/json"},body:JSON.stringify({type,name:USER.name,email:USER.email,...extra})});}catch(_){}}
+/* Supabase auth: sync USER from the session, log everything to the activity table.
+   Formspree kept as a parallel email-notify so John still gets pinged. */
+async function syncAuth(){
+  if(!SB)return;
+  const {data}=await SB.auth.getSession();
+  const s=data&&data.session;
+  if(s&&s.user){USER={id:s.user.id,email:s.user.email,name:(s.user.user_metadata&&s.user.user_metadata.name)||""};localStorage.setItem("sl_user",JSON.stringify(USER));}
+  SB.auth.onAuthStateChange((_evt,session)=>{
+    if(session&&session.user){USER={id:session.user.id,email:session.user.email,name:(session.user.user_metadata&&session.user.user_metadata.name)||""};localStorage.setItem("sl_user",JSON.stringify(USER));logActivity("signup",{});}
+    else{USER=null;localStorage.removeItem("sl_user");}
+  });
+}
+function logActivity(kind,extra){
+  if(!USER)return;
+  if(SB){try{SB.from("activity").insert({user_id:USER.id,kind,event_id:(extra&&extra.event_id)||null,event_title:(extra&&extra.event_title)||null,venue:(extra&&extra.venue)||null,meta:(extra&&extra.meta)||{}});}catch(_){ }}
+  if(FORM_ENDPOINT){try{fetch(FORM_ENDPOINT,{method:"POST",headers:{"Content-Type":"application/json",Accept:"application/json"},body:JSON.stringify({type:kind,name:USER.name||"",email:USER.email||"",...(extra||{})})});}catch(_){ }}
+}
+function postLead(type,extra){logActivity(type,extra);}
 function requireUser(cb){ if(USER){cb();return;} pendingAction=cb; openSignup(); }
-function openSignup(){document.getElementById("signModal").classList.add("show");setTimeout(()=>document.getElementById("signName").focus(),60);}
+function openSignup(){document.getElementById("signModal").classList.add("show");setTimeout(()=>document.getElementById("signEmail").focus(),60);}
 function closeSignup(){document.getElementById("signModal").classList.remove("show");}
+async function submitSignup(){
+  const name=document.getElementById("signName").value.trim();
+  const email=document.getElementById("signEmail").value.trim();
+  if(!email||!/^\S+@\S+\.\S+$/.test(email)){toast("Need a real email","We'll send a one-tap login link");return;}
+  if(!SB){USER={id:"local-"+email,email,name};localStorage.setItem("sl_user",JSON.stringify(USER));closeSignup();logActivity("signup",{});if(pendingAction){const c=pendingAction;pendingAction=null;c();}return;}
+  const btn=document.getElementById("signGo");btn.disabled=true;btn.textContent="Sending…";
+  const {error}=await SB.auth.signInWithOtp({email,options:{data:{name},emailRedirectTo:location.origin+location.pathname}});
+  btn.disabled=false;btn.textContent="Send my magic link";
+  if(error){toast("Couldn't send",error.message||"Try again");return;}
+  document.getElementById("signEmailSent").textContent=email;
+  document.getElementById("signStep1").style.display="none";
+  document.getElementById("signStep2").style.display="";
+}
+async function signOut(){if(SB){await SB.auth.signOut();}USER=null;localStorage.removeItem("sl_user");toast("Signed out","See you next time");}
+async function deleteMyData(){
+  if(!USER)return;
+  if(!confirm("Delete your saved data? This removes your sign-up + all activity (favorites, RSVPs). It can't be undone."))return;
+  if(SB){try{await SB.from("activity").delete().eq("user_id",USER.id);await SB.from("profiles").delete().eq("id",USER.id);await SB.auth.signOut();}catch(_){ }}
+  USER=null;FAVS.clear();RSVPS.clear();saveSets();localStorage.removeItem("sl_user");
+  toast("Deleted","Your data is gone. Refreshing.");setTimeout(()=>location.reload(),1500);
+}
 
 /* ---- data ---- */
 async function load(){
@@ -669,7 +720,7 @@ function findEvent(id){return EVENTS.find(e=>eid(e)===id);}
 function toggleFav(id){
   requireUser(()=>{
     if(FAVS.has(id)){FAVS.delete(id);toast("Removed","Taken off your saved list");ctBump(favKey(id),-1).then(()=>refreshCountUI(id));}
-    else{FAVS.add(id);const e=findEvent(id);toast("♥ Saved",e?e.title:"Added to your list");postLead("favorite",{event:(findEvent(id)||{}).title});ctBump(favKey(id),1).then(()=>refreshCountUI(id));}
+    else{FAVS.add(id);const e=findEvent(id);toast("♥ Saved",e?e.title:"Added to your list");logActivity("favorite",{event_id:id,event_title:e&&e.title,venue:e&&e.venue&&e.venue.name});ctBump(favKey(id),1).then(()=>refreshCountUI(id));}
     saveSets();refreshFavUI(id);
   });
 }
@@ -677,7 +728,7 @@ function doRSVP(id){
   requireUser(()=>{
     const e=findEvent(id);if(!e)return;
     if(RSVPS.has(id)){RSVPS.delete(id);toast("RSVP cancelled",e.title);}
-    else{RSVPS.add(id);FAVS.add(id);toast("You're going! 🎉",e.title+" — added to your saved events");postLead("rsvp",{event:e.title,when:e.startTime,venue:e.venue.name,source:e.sourceUrl||""});}
+    else{RSVPS.add(id);FAVS.add(id);toast("You're going! 🎉",e.title+" — added to your saved events");logActivity("rsvp",{event_id:id,event_title:e.title,venue:e.venue.name,meta:{when:e.startTime,source:e.sourceUrl||""}});}
     saveSets();refreshFavUI(id);
     const b=document.querySelector(`[data-rsvp="${CSS.escape(id)}"]`);if(b){const g=RSVPS.has(id);b.classList.toggle("going",g);b.innerHTML=g?"✓ Going":"RSVP";}
   });
@@ -707,7 +758,7 @@ function directions(id){
   const apple=/iPad|iPhone|Macintosh/.test(navigator.userAgent);
   const url=apple?`https://maps.apple.com/?daddr=${dest}&q=${encodeURIComponent(v.name||"Event")}`
                 :`https://www.google.com/maps/dir/?api=1&destination=${dest}`;
-  window.open(url,"_blank","noopener"); postLead("directions",{event:(findEvent(id)||{}).title,venue:v.name});
+  window.open(url,"_blank","noopener"); logActivity("directions",{event_id:id,event_title:e.title,venue:v.name});
 }
 function pad2(n){return String(n).padStart(2,"0");}
 function icsStamp(d){return d.getUTCFullYear()+pad2(d.getUTCMonth()+1)+pad2(d.getUTCDate())+"T"+pad2(d.getUTCHours())+pad2(d.getUTCMinutes())+"00Z";}
@@ -902,6 +953,8 @@ function wireControls(){
   document.getElementById("signX").onclick=closeSignup;
   document.getElementById("signModal").addEventListener("click",e=>{if(e.target.id==="signModal")closeSignup();});
   document.getElementById("signGo").onclick=submitSignup;
+  const sp=document.getElementById("signPriv");if(sp)sp.onclick=e=>{e.preventDefault();alert("Privacy\n\nWe collect: your email + first name (if you share it) + the events you favorite/RSVP/view.\nWe DO NOT collect: passwords (magic-link only), location, contacts, or anything else.\nWe DO NOT share or sell your data. Only Jhonatan (the site owner) sees it.\nTap 'Delete my data' anytime to wipe yourself out completely.");};
+  const sw=document.getElementById("signWipe");if(sw)sw.onclick=e=>{e.preventDefault();deleteMyData();};
   document.getElementById("signEmail").addEventListener("keydown",e=>{if(e.key==="Enter")submitSignup();});
   window.addEventListener("keydown",e=>{if(e.key==="Escape"){closeSources();closeSignup();closeSitter();}});
 }
@@ -967,7 +1020,7 @@ function wireSheet(){
 
 /* ---- boot ---- */
 (async function(){
-  loadUser();wireControls();wireSheet();
+  loadUser();wireControls();wireSheet();syncAuth();
   const deepId=await load();
   buildCats();buildTags();buildFeatured();updateActCount();
   initMap(deepId);

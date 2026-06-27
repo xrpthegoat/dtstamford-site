@@ -309,6 +309,18 @@
   .mcard .go{width:100%;margin-top:18px;padding:13px;border-radius:12px;border:0;background:var(--gold);color:#0a0a0b;font-weight:700;font-size:.95rem;cursor:pointer;transition:.18s}
   .mcard .go:hover{background:var(--gold-l)}
   .mcard .fine{font-size:.72rem;color:var(--faint);margin-top:12px;text-align:center}
+  .mcard .oauthrow{display:flex;flex-direction:column;gap:9px;margin:14px 0 0}
+  .mcard .oa{display:flex;align-items:center;justify-content:center;gap:10px;width:100%;padding:11px 14px;border-radius:12px;border:1px solid var(--line);font-size:.92rem;font-weight:600;cursor:pointer;transition:.16s var(--ease);font-family:var(--sans)}
+  .mcard .oa svg{width:18px;height:18px;flex:none}
+  .mcard .oa.google{background:#fff;color:#1f1f1f;border-color:#dadce0}
+  .mcard .oa.google:hover{background:#f8f9fb;box-shadow:0 4px 14px -8px rgba(0,0,0,.4)}
+  .mcard .oa.apple{background:#000;color:#fff;border-color:#000}
+  .mcard .oa.apple:hover{background:#1a1a1a}
+  .mcard .oa:disabled{opacity:.55;cursor:wait}
+  .mcard .oadiv{position:relative;text-align:center;margin:16px 0 4px;font-family:var(--mono);font-size:.6rem;letter-spacing:.16em;text-transform:uppercase;color:var(--faint)}
+  .mcard .oadiv::before,.mcard .oadiv::after{content:"";position:absolute;top:50%;width:38%;height:1px;background:var(--line-2)}
+  .mcard .oadiv::before{left:0}.mcard .oadiv::after{right:0}
+  .mcard .oadiv span{background:rgba(16,16,20,.98);padding:0 12px;position:relative}
 
   #boot{position:fixed;inset:0;z-index:200;display:grid;place-items:center;background:var(--bg);transition:opacity .6s ease}
   #boot.gone{opacity:0;pointer-events:none}
@@ -396,7 +408,12 @@
     <button class="x" id="signX" aria-label="Close">×</button>
     <div id="signStep1">
       <h2>Create your free account</h2>
-      <p>Save events as ♥ favorites, RSVP, and they stick around — on this phone <i>and</i> any other device you log in on. Just type your email and we'll send a <b>one-tap sign-in link</b>. No password.</p>
+      <p>Save events as ♥ favorites, RSVP, and they stick around — on this phone <i>and</i> any other device you log in on. <b>No password.</b></p>
+      <div class="oauthrow">
+        <button class="oa google" id="oaGoogle" type="button" aria-label="Continue with Google"><svg viewBox="0 0 18 18"><path d="M17.64 9.205c0-.638-.057-1.252-.164-1.841H9v3.481h4.844a4.14 4.14 0 0 1-1.796 2.717v2.258h2.908c1.702-1.567 2.684-3.875 2.684-6.615Z" fill="#4285F4"/><path d="M9 18c2.43 0 4.467-.806 5.956-2.18l-2.908-2.259c-.806.54-1.836.86-3.048.86-2.344 0-4.328-1.584-5.036-3.711H.957v2.332A9 9 0 0 0 9 18Z" fill="#34A853"/><path d="M3.964 10.71A5.41 5.41 0 0 1 3.682 9c0-.593.102-1.17.282-1.71V4.958H.957A9 9 0 0 0 0 9c0 1.452.348 2.827.957 4.042l3.007-2.332Z" fill="#FBBC05"/><path d="M9 3.58c1.321 0 2.508.454 3.44 1.345l2.582-2.58C13.463.891 11.426 0 9 0A9 9 0 0 0 .957 4.958L3.964 7.29C4.672 5.164 6.656 3.58 9 3.58Z" fill="#EA4335"/></svg><span>Continue with Google</span></button>
+        <button class="oa apple"  id="oaApple"  type="button" aria-label="Continue with Apple"><svg viewBox="0 0 17 20"><path d="M14.05 17.41c-.86 1.24-1.74 2.46-3.13 2.48-1.39.03-1.84-.81-3.42-.81-1.59 0-2.08.79-3.4.84-1.34.05-2.36-1.34-3.23-2.58-1.78-2.55-3.13-7.21-1.31-10.35.91-1.56 2.53-2.55 4.29-2.57 1.34-.03 2.61.9 3.43.9.82 0 2.36-1.11 3.99-.95.68.03 2.59.28 3.81 2.07-.1.06-2.28 1.33-2.25 3.96.03 3.15 2.78 4.2 2.81 4.21-.02.07-.44 1.52-1.46 3.01zM10.97 1.94c.74-.89 1.23-2.13 1.1-3.36-1.06.04-2.34.71-3.1 1.6-.69.8-1.28 2.06-1.12 3.27 1.18.09 2.39-.6 3.12-1.51z" fill="currentColor"/></svg><span>Continue with Apple</span></button>
+      </div>
+      <div class="oadiv"><span>or use email</span></div>
       <label for="signEmail">Your email</label>
       <input id="signEmail" type="email" placeholder="you@email.com" autocomplete="email">
       <input id="signName" type="hidden">
@@ -571,6 +588,20 @@ function postLead(type,extra){logActivity(type,extra);}
 function requireUser(cb){ if(USER){cb();return;} pendingAction=cb; openSignup(); }
 function openSignup(){document.getElementById("signModal").classList.add("show");setTimeout(()=>document.getElementById("signEmail").focus(),60);}
 function closeSignup(){document.getElementById("signModal").classList.remove("show");}
+async function oauthSignIn(provider){
+  if(!SB){toast("Not configured","Sign-in providers aren't wired yet.");return;}
+  const btn=document.getElementById(provider==="google"?"oaGoogle":"oaApple");
+  if(btn){btn.disabled=true;btn.querySelector("span").textContent="Redirecting…";}
+  try{
+    const {error}=await SB.auth.signInWithOAuth({provider,options:{redirectTo:location.origin+location.pathname}});
+    if(error)throw error;
+  }catch(e){
+    if(btn){btn.disabled=false;btn.querySelector("span").textContent="Continue with "+(provider==="google"?"Google":"Apple");}
+    const msg=String(e&&e.message||e);
+    if(/not enabled|not configured|provider/i.test(msg))toast("Not enabled yet","John hasn't turned on "+(provider==="google"?"Google":"Apple")+" sign-in in Supabase yet. Use email below for now.");
+    else toast("Sign-in error",msg.slice(0,80));
+  }
+}
 async function submitSignup(){
   const name=document.getElementById("signName").value.trim();
   const email=document.getElementById("signEmail").value.trim();
@@ -1008,6 +1039,8 @@ function wireControls(){
   document.getElementById("signX").onclick=closeSignup;
   document.getElementById("signModal").addEventListener("click",e=>{if(e.target.id==="signModal")closeSignup();});
   document.getElementById("signGo").onclick=submitSignup;
+  document.getElementById("oaGoogle").onclick=()=>oauthSignIn("google");
+  document.getElementById("oaApple").onclick=()=>oauthSignIn("apple");
   const sp=document.getElementById("signPriv");if(sp)sp.onclick=e=>{e.preventDefault();alert("Privacy\n\nWe collect: your email + first name (if you share it) + the events you favorite/RSVP/view.\nWe DO NOT collect: passwords (magic-link only), location, contacts, or anything else.\nWe DO NOT share or sell your data. Only Jhonatan (the site owner) sees it.\nTap 'Delete my data' anytime to wipe yourself out completely.");};
   const sw=document.getElementById("signWipe");if(sw)sw.onclick=e=>{e.preventDefault();deleteMyData();};
   document.getElementById("signEmail").addEventListener("keydown",e=>{if(e.key==="Enter")submitSignup();});

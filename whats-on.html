@@ -160,6 +160,31 @@
   .achip .e{font-size:.85rem;line-height:1}.achip .n{font-family:var(--mono);font-size:.6rem;color:var(--faint)}
   .achip[aria-pressed="true"]{border-color:var(--gold-l);background:linear-gradient(180deg,rgba(227,196,126,.2),rgba(201,162,74,.08));color:#fff}
   .achip[aria-pressed="true"] .n{color:var(--gold-l)}
+  /* featured row */
+  .featwrap{margin:0 0 11px}
+  .featlbl{font-family:var(--mono);font-size:.58rem;letter-spacing:.16em;text-transform:uppercase;color:var(--gold-l);margin-bottom:7px}
+  .featrow{display:flex;gap:7px;flex-wrap:wrap}
+  .fchip{position:relative;display:inline-flex;align-items:center;gap:6px;padding:7px 12px;border-radius:999px;cursor:pointer;user-select:none;font-size:.78rem;font-weight:600;color:#fff;border:1px solid rgba(227,196,126,.5);background:linear-gradient(180deg,rgba(227,196,126,.16),rgba(201,162,74,.05));transition:.16s var(--ease);white-space:nowrap}
+  .fchip .fe{font-size:.96rem;line-height:1}
+  .fchip .n{font-family:var(--mono);font-size:.62rem;color:var(--gold-l)}
+  .fchip:hover{border-color:var(--gold-l);box-shadow:0 7px 20px -12px rgba(201,162,74,.85)}
+  .fchip[aria-pressed="true"]{background:var(--gold);border-color:var(--gold);color:#0a0a0b}
+  .fchip[aria-pressed="true"] .n{color:#0a0a0b}
+  .fchip.hot{border-color:rgba(255,122,60,.65);background:linear-gradient(180deg,rgba(255,122,60,.22),rgba(255,80,40,.07))}
+  .fchip.hot .n{color:#ffb89a}
+  .fchip.hot[aria-pressed="true"]{background:linear-gradient(180deg,#ff7a3c,#ff5a28);border-color:#ff7a3c;color:#190a04}
+  .fchip.hot[aria-pressed="true"] .n{color:#190a04}
+  .fchip .hotbadge{font-family:var(--mono);font-size:.5rem;font-weight:800;letter-spacing:.08em;background:#ff5a28;color:#fff;padding:2px 5px;border-radius:5px;margin-left:1px;animation:hotpulse 1.9s var(--ease) infinite}
+  @keyframes hotpulse{0%,100%{box-shadow:0 0 0 0 rgba(255,90,40,.55)}50%{box-shadow:0 0 13px 2px rgba(255,90,40,.75)}}
+  /* engagement counts */
+  .card .cstat{display:inline-flex;gap:9px;font-family:var(--mono);font-size:.66rem;color:var(--faint)}
+  .card .cstat b{font-weight:600;color:var(--muted)}
+  .pcard .pstat{display:flex;gap:15px;margin-top:9px;font-family:var(--mono);font-size:.72rem;color:var(--muted)}
+  .pcard .pstat b{color:var(--gold-l);font-weight:600}
+  /* keep the whole popup card on-screen */
+  .pcard{max-height:min(80dvh,580px);display:flex;flex-direction:column}
+  .pcard .hero{flex:0 0 auto}
+  .pcard .pbody{overflow-y:auto;overscroll-behavior:contain}
 
   #list{overflow-y:auto;overflow-x:hidden;padding:8px 10px 16px;scrollbar-width:thin;scrollbar-color:rgba(255,255,255,.18) transparent;flex:1}
   #list::-webkit-scrollbar{width:8px}#list::-webkit-scrollbar-thumb{background:rgba(255,255,255,.16);border-radius:8px}
@@ -337,6 +362,7 @@
     </div>
   </div>
   <div class="filters">
+    <div class="featwrap" id="featWrap" hidden><div class="featlbl">🔥 Featured now</div><div class="featrow" id="feat" role="group" aria-label="Featured filters"></div></div>
     <div class="frow" id="cats" role="group" aria-label="Category filter"></div>
     <button class="actToggle" id="actToggle" aria-expanded="true">Pick a vibe <span class="chev">▾</span><span class="ac" id="actCount"></span></button>
     <div class="acts" id="acts" role="group" aria-label="Activity filter"></div>
@@ -406,6 +432,48 @@ const ACT_IMG={};ACT_KEYS.forEach(k=>ACT_IMG[k]="assets/events/"+k+".jpg");
 const TAG_ORDER=TAGS.flatMap(g=>g.items.map(t=>t.k));
 function imgFor(e){ if(e.image)return e.image; for(const t of TAG_ORDER){if(e._tags.has(t)&&ACT_IMG[t])return ACT_IMG[t];} return CAT_IMG[catOf(e.category)]||CAT_IMG.other; }
 let CREDITS={};
+
+/* ---- featured (timely picks) — toggles the same activity tags ---- */
+const FEATURED=[{k:"worldcup",hot:true},{k:"livemusic"},{k:"karaoke"},{k:"watch"},{k:"outdoors"}];
+function buildFeatured(){
+  const c={};EVENTS.forEach(e=>e._tags.forEach(k=>c[k]=(c[k]||0)+1));
+  const live=FEATURED.filter(f=>c[f.k]);
+  const wrap=document.getElementById("featWrap"),box=document.getElementById("feat");
+  if(!live.length){wrap.hidden=true;return;}
+  wrap.hidden=false;box.innerHTML="";
+  live.forEach(f=>{const t=TAG_BY_KEY[f.k];if(!t)return;
+    const b=document.createElement("button");b.className="fchip"+(f.hot?" hot":"");b.dataset.tag=f.k;
+    b.setAttribute("aria-pressed",String(activeTags.has(f.k)));
+    b.innerHTML=`<span class="fe">${t.e}</span><span class="fl">${t.l}</span><span class="n">${c[f.k]}</span>`+(f.hot?'<span class="hotbadge">HOT</span>':'');
+    b.onclick=()=>toggleTag(f.k);box.appendChild(b);});
+}
+function toggleTag(k){if(activeTags.has(k))activeTags.delete(k);else activeTags.add(k);syncTagChips();updateActCount();apply({frame:true});}
+function syncTagChips(){document.querySelectorAll("[data-tag]").forEach(b=>b.setAttribute("aria-pressed",String(activeTags.has(b.dataset.tag))));}
+
+/* ---- engagement counters (shared view + favorite counts via counterapi.dev) ---- */
+const CT_BASE="https://api.counterapi.dev/v1/stamfordlive/";
+const ctCache=new Map();
+function ctKey(p,id){let h=2166136261;for(let i=0;i<id.length;i++){h=(h^id.charCodeAt(i))>>>0;h=Math.imul(h,16777619)>>>0;}return p+h.toString(36);}
+const viewKey=id=>ctKey("v",id), favKey=id=>ctKey("f",id);
+function fmtCount(n){n=Math.max(0,+n||0);return n>=1000?(n/1000).toFixed(n>=10000?0:1).replace(/\.0$/,"")+"k":""+n;}
+function cssAttr(s){return String(s).replace(/(["\\])/g,"\\$1");}
+function ctRead(key){if(ctCache.has(key))return Promise.resolve(ctCache.get(key));
+  return fetch(CT_BASE+key+"/").then(r=>r.ok?r.json():null).then(j=>{const n=j&&typeof j.count==="number"?j.count:0;ctCache.set(key,n);return n;}).catch(()=>0);}
+function ctBump(key,dir){const op=dir<0?"down":"up";
+  return fetch(CT_BASE+key+"/"+op).then(r=>r.ok?r.json():null).then(j=>{const n=j&&typeof j.count==="number"?j.count:((ctCache.get(key)||0)+(dir<0?-1:1));ctCache.set(key,Math.max(0,n));return ctCache.get(key);})
+  .catch(()=>{const n=Math.max(0,(ctCache.get(key)||0)+(dir<0?-1:1));ctCache.set(key,n);return n;});}
+function setCount(kind,id,n){document.querySelectorAll(`[data-${kind}="${cssAttr(id)}"]`).forEach(el=>el.textContent=fmtCount(n));}
+function refreshCountUI(id){if(ctCache.has(favKey(id)))setCount("fc",id,ctCache.get(favKey(id)));if(ctCache.has(viewKey(id)))setCount("vc",id,ctCache.get(viewKey(id)));}
+let cardObserver=null;
+function observeCards(){
+  if(!("IntersectionObserver"in window))return;
+  if(cardObserver)cardObserver.disconnect();
+  cardObserver=new IntersectionObserver(ents=>{ents.forEach(en=>{if(!en.isIntersecting)return;
+    const card=en.target;cardObserver.unobserve(card);const id=card.dataset.id;
+    ctRead(viewKey(id)).then(n=>setCount("vc",id,n));
+    ctRead(favKey(id)).then(n=>setCount("fc",id,n));});},{rootMargin:"160px"});
+  document.querySelectorAll("#list .card").forEach(c=>cardObserver.observe(c));
+}
 const TOWNS={stamford:"Stamford",greenwich:"Greenwich",norwalk:"Norwalk"};
 
 const HOME={center:[-73.5387,41.0534],zoom:12.4,pitch:55,bearing:-18};
@@ -496,7 +564,7 @@ function buildTags(){
     const row=document.createElement("div");row.className="achips";
     live.forEach(t=>{const b=document.createElement("button");b.className="achip";b.dataset.tag=t.k;b.setAttribute("aria-pressed","false");
       b.innerHTML=`<span class="e">${t.e}</span>${t.l} <span class="n">${c[t.k]}</span>`;
-      b.onclick=()=>{const on=b.getAttribute("aria-pressed")==="true";on?activeTags.delete(t.k):activeTags.add(t.k);b.setAttribute("aria-pressed",String(!on));updateActCount();apply({frame:true});};
+      b.onclick=()=>toggleTag(t.k);
       row.appendChild(b);});
     box.appendChild(row);});
 }
@@ -543,7 +611,7 @@ function renderList(evs){
     html+=`<div class="card" data-id="${esc(eid(e))}" style="--cc:${col}" role="button" tabindex="0">
       <div class="stripe"></div>${thumb}<div class="body">
         <div class="t">${esc(e.title)}</div>
-        <div class="meta"><span class="when">${esc(when)}</span>${badges(e)}</div>
+        <div class="meta"><span class="when">${esc(when)}</span>${badges(e)}<span class="cstat"><span>👁 <b data-vc="${esc(eid(e))}">·</b></span><span>♥ <b data-fc="${esc(eid(e))}">·</b></span></span></div>
         <div class="venue"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-5.3-7-11a7 7 0 0 1 14 0c0 5.7-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg><span>${esc(e.venue.name||"")}</span></div>
       </div>
       <button class="cshare" data-share="${esc(eid(e))}" title="Share" aria-label="Share event"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="m8.6 13.5 6.8 4M15.4 6.5 8.6 10.5"/></svg></button>
@@ -557,6 +625,7 @@ function renderList(evs){
     card.querySelector(".fav").addEventListener("click",()=>toggleFav(eid(e)));
     card.querySelector(".cshare").addEventListener("click",()=>shareEvent(eid(e)));
   });
+  observeCards();
 }
 
 /* ---- markers ---- */
@@ -599,8 +668,8 @@ function frameVenues(venues){
 function findEvent(id){return EVENTS.find(e=>eid(e)===id);}
 function toggleFav(id){
   requireUser(()=>{
-    if(FAVS.has(id)){FAVS.delete(id);toast("Removed","Taken off your saved list");}
-    else{FAVS.add(id);const e=findEvent(id);toast("♥ Saved",e?e.title:"Added to your list");postLead("favorite",{event:(findEvent(id)||{}).title});}
+    if(FAVS.has(id)){FAVS.delete(id);toast("Removed","Taken off your saved list");ctBump(favKey(id),-1).then(()=>refreshCountUI(id));}
+    else{FAVS.add(id);const e=findEvent(id);toast("♥ Saved",e?e.title:"Added to your list");postLead("favorite",{event:(findEvent(id)||{}).title});ctBump(favKey(id),1).then(()=>refreshCountUI(id));}
     saveSets();refreshFavUI(id);
   });
 }
@@ -684,6 +753,7 @@ function venuePopup(id,preferEvent){
     <div class="pbody">
       <div class="pmeta"><span class="when">${esc(when)}</span>${badges(hero)}</div>
       <div class="paddr">${ICON.pin}${esc(v.name)}${v.address?" · "+esc(v.address):""}</div>
+      <div class="pstat"><span>👁 <b data-vc="${esc(id0)}">·</b> views</span><span>♥ <b data-fc="${esc(id0)}">·</b> saved</span></div>
       <div class="pacts">
         <button class="pbtn rsvp ${going?'going':''}" data-act="rsvp" data-rsvp="${esc(id0)}">${going?'✓ Going':'RSVP'}</button>
         <button class="pbtn" data-act="dir">${ICON.dir} Directions</button>
@@ -709,17 +779,32 @@ function venuePopup(id,preferEvent){
     else if(a==="sitter")openSitter();
   }));
   root.querySelectorAll(".prow").forEach(r=>r.addEventListener("click",()=>{const e=findEvent(r.dataset.go);if(e)venuePopup(id,e);}));
+  ctBump(viewKey(id0),1).then(n=>setCount("vc",id0,n));
+  ctRead(favKey(id0)).then(n=>setCount("fc",id0,n));
+}
+function focusOffset(){const H=innerHeight;if(isMobile())return[0,Math.round(H*0.14)];return[180,Math.round(H*0.16)];}
+function ensurePopupVisible(){
+  if(!popup)return;const el=popup.getElement();if(!el)return;
+  const card=el.querySelector(".pcard")||el;const r=card.getBoundingClientRect();
+  const head=(document.querySelector("header")?.getBoundingClientRect().bottom)||64;
+  const sheet=isMobile()?innerHeight*0.16:0;
+  const topM=head+10,botM=innerHeight-sheet-10,leftM=isMobile()?10:438,rightM=innerWidth-10;
+  let dx=0,dy=0;
+  if(r.top<topM)dy=r.top-topM;else if(r.bottom>botM)dy=r.bottom-botM;
+  if(r.left<leftM)dx=r.left-leftM;else if(r.right>rightM)dx=r.right-rightM;
+  if(dx||dy)MAP.panBy([dx,dy],{duration:450,essential:true});
 }
 function focusVenue(id,opts){
   opts=opts||{};const v=VENUES.get(id);if(!v)return;selectedVenue=id;
   if(!beamEls.some(el=>el._id===id))setBeams([v],visibleEvents());else applyBeamFocus();
-  MAP.easeTo({center:[v.lng,v.lat],zoom:17,pitch:64,bearing:-18,duration:1400,essential:true});
+  if(isMobile())setSheet(0.16);
+  MAP.easeTo({center:[v.lng,v.lat],zoom:17,pitch:54,bearing:-18,offset:focusOffset(),duration:1300,essential:true});
   venuePopup(id,opts.event);
+  MAP.once("moveend",ensurePopupVisible);
   document.querySelectorAll(".card.active").forEach(c=>c.classList.remove("active"));
   let card=opts.card;
   if(!card){const first=visibleEvents().find(e=>vid(e.venue)===id);if(first)card=document.querySelector(`.card[data-id="${CSS.escape(eid(first))}"]`);}
   if(card){card.classList.add("active");card.scrollIntoView({behavior:"smooth",block:"center"});}
-  if(isMobile())setSheet(0.4);
 }
 
 /* ---- surprise ---- */
@@ -783,7 +868,7 @@ function pulse(){if(reduced())return;pT+=0.045;if(MAP&&MAP.getLayer("pool-outer"
 function resetFilters(){
   activeCats.clear();activeTags.clear();timeFilter="all";query="";savedOnly=false;activeTowns=new Set(["stamford","greenwich","norwalk"]);
   document.getElementById("q").value="";document.getElementById("qClear").classList.remove("show");
-  document.querySelectorAll(".cchip,.achip").forEach(b=>b.setAttribute("aria-pressed","false"));
+  document.querySelectorAll(".cchip,.achip,.fchip").forEach(b=>b.setAttribute("aria-pressed","false"));
   document.querySelectorAll(".tchip").forEach(b=>b.setAttribute("aria-pressed",b.dataset.t==="all"?"true":"false"));
   document.querySelectorAll("#towns .tw").forEach(b=>b.setAttribute("aria-pressed","true"));
   updateActCount();updateBorders();selectedVenue=null;if(popup)popup.remove();apply({frame:true});
@@ -884,7 +969,7 @@ function wireSheet(){
 (async function(){
   loadUser();wireControls();wireSheet();
   const deepId=await load();
-  buildCats();buildTags();updateActCount();
+  buildCats();buildTags();buildFeatured();updateActCount();
   initMap(deepId);
 })();
 </script>

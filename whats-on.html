@@ -223,13 +223,15 @@
   .pcard .pmeta .when{font-family:var(--mono);font-size:.72rem;color:var(--gold-l)}
   .pcard .paddr{display:flex;align-items:center;gap:5px;margin-top:7px;font-size:.76rem;color:var(--muted)}
   .pcard .paddr svg{width:12px;height:12px}
-  .pcard .pacts{display:grid;grid-template-columns:1fr 1fr 1fr;gap:7px;margin-top:12px}
-  .pcard .pbtn{display:inline-flex;align-items:center;justify-content:center;gap:5px;padding:9px 6px;border-radius:10px;border:1px solid var(--line);background:rgba(255,255,255,.03);color:var(--fg-soft);font-size:.72rem;font-weight:600;cursor:pointer;transition:.15s}
+  .pcard .pacts{display:flex;flex-wrap:wrap;gap:7px;margin-top:12px}
+  .pcard .pbtn{flex:1 1 calc(50% - 4px);display:inline-flex;align-items:center;justify-content:center;gap:5px;padding:9px 6px;border-radius:10px;border:1px solid var(--line);background:rgba(255,255,255,.03);color:var(--fg-soft);font-size:.72rem;font-weight:600;cursor:pointer;transition:.15s}
   .pcard .pbtn:hover{border-color:rgba(255,255,255,.26);color:#fff}
   .pcard .pbtn svg{width:14px;height:14px}
-  .pcard .pbtn.rsvp{grid-column:1 / -1;background:var(--gold);border-color:var(--gold);color:#0a0a0b;font-weight:700;padding:11px}
+  .pcard .pbtn.rsvp{flex-basis:100%;background:var(--gold);border-color:var(--gold);color:#0a0a0b;font-weight:700;padding:11px}
   .pcard .pbtn.rsvp:hover{background:var(--gold-l);border-color:var(--gold-l)}
   .pcard .pbtn.rsvp.going{background:rgba(95,224,138,.16);border-color:rgba(95,224,138,.5);color:#7af0a6}
+  .pcard .psitter{margin-top:10px;font-size:.72rem;color:var(--gold-l);cursor:pointer;opacity:.85;transition:.15s}
+  .pcard .psitter:hover{opacity:1;text-decoration:underline}
   .pcard .pmore{margin-top:11px;border-top:1px solid var(--line-2);padding-top:9px;display:flex;flex-direction:column;gap:8px}
   .pcard .prow{display:flex;gap:8px;align-items:flex-start;cursor:pointer}
   .pcard .prow:hover .pt{color:#fff}
@@ -243,6 +245,8 @@
   #toast.show{opacity:1;transform:translate(-50%,0)}
   #toast .tk{font-family:var(--mono);font-size:.6rem;letter-spacing:.14em;text-transform:uppercase;color:var(--gold-l)}
   #toast .tt{font-weight:600;font-size:.9rem;margin-top:2px;line-height:1.25}
+  #toast .tbtn{margin-top:9px;padding:8px 15px;border-radius:10px;border:0;background:var(--gold);color:#0a0a0b;font-weight:700;font-size:.78rem;cursor:pointer;transition:.15s}
+  #toast .tbtn:hover{background:var(--gold-l)}
   @media(max-width:920px){#toast{bottom:calc(var(--sheet-h,48dvh) + 16px)}}
 
   /* modals (sources + signup) */
@@ -254,7 +258,9 @@
   .mcard .x{float:right;font-size:22px;color:var(--muted);cursor:pointer;background:transparent;border:0;line-height:1}
   .mcard h3{font-family:var(--mono);font-size:.62rem;letter-spacing:.14em;text-transform:uppercase;color:var(--gold-l);margin:14px 0 7px}
   .mcard ul{list-style:none;display:flex;flex-wrap:wrap;gap:7px}
-  .mcard li{font-size:.8rem;color:var(--fg-soft);border:1px solid var(--line);border-radius:999px;padding:5px 11px}
+  .mcard li{font-size:.8rem;color:var(--fg-soft);border:1px solid var(--line);border-radius:999px;padding:5px 11px;transition:.15s}
+  .mcard li a{color:var(--gold-l)}
+  .mcard li:hover{border-color:rgba(227,196,126,.5)}
   .mcard .foot{margin-top:16px;font-size:.76rem;color:var(--faint);border-top:1px solid var(--line-2);padding-top:12px}
   .mcard label{display:block;font-size:.72rem;color:var(--fg-soft);margin:12px 0 5px;font-weight:500}
   .mcard input{width:100%;padding:12px 13px;border-radius:12px;border:1px solid var(--line);background:rgba(255,255,255,.03);color:var(--fg);font-size:.95rem;outline:none}
@@ -335,9 +341,10 @@
   <div id="list"></div>
 </aside>
 
-<div id="toast"><div class="tk" id="toastK"></div><div class="tt" id="toastT"></div></div>
+<div id="toast"><div class="tk" id="toastK"></div><div class="tt" id="toastT"></div><button class="tbtn" id="toastBtn" style="display:none"></button></div>
 
 <div class="modal" id="srcModal" role="dialog" aria-modal="true"><div class="mcard" id="srcCard"></div></div>
+<div class="modal" id="sitterModal" role="dialog" aria-modal="true"><div class="mcard" id="sitterCard"></div></div>
 <div class="modal" id="signModal" role="dialog" aria-modal="true">
   <div class="mcard">
     <button class="x" id="signX" aria-label="Close">×</button>
@@ -387,7 +394,7 @@ const TAGS=[
   {g:"Sip & savor",items:[{k:"wine",l:"Wine Tasting",e:"🍷",m:kw("wine","vino","sommelier")},{k:"beer",l:"Beer & Brewery",e:"🍺",m:kw("beer","brewery","taproom"," ale","ipa","oktoberfest")},{k:"coffee",l:"Coffee",e:"☕",m:kw("coffee","latte","espresso","cafe","café")},{k:"foodfest",l:"Food Festival",e:"🍔",m:kw("food festival","food truck","taste of","chili","bbq","rib fest","restaurant week","food fair","street food")},{k:"brunch",l:"Brunch",e:"🥂",m:kw("brunch")},{k:"happyhour",l:"Happy Hour",e:"🍸",m:kw("happy hour")}]},
   {g:"Browse & buy",items:[{k:"flea",l:"Flea Market",e:"🛍️",m:kw("flea market","vintage market","makers market","maker's market","swap meet")},{k:"farmers",l:"Farmers Market",e:"🥕",m:kw("farmers market","farmer's market")},{k:"market",l:"Pop-up Market",e:"🧺",m:kw(" market","pop-up","popup","bazaar","craft fair","artisan")}]},
   {g:"Make & create",items:[{k:"paint",l:"Paint & Sip",e:"🎨",m:kw("paint","finger paint","sip and paint","sip & paint")},{k:"crafts",l:"Crafts & DIY",e:"✂️",m:kw("craft","diy","pottery","ceramic","knit","sewing","workshop")},{k:"art",l:"Galleries & Art",e:"🖼️",m:kw("gallery","exhibit","art show","museum","sculpture","mural","art walk")}]},
-  {g:"Family",items:[{k:"kids",l:"Kids & Family",e:"🧒",m:kw("kids","children","family","story time","storytime","puppet","magician","toddler")},{k:"carousel",l:"Carousel",e:"🎠",m:kw("carousel")}]},
+  {g:"Family",items:[{k:"kids",l:"Kids & Family",e:"🧒",m:kw("kids","children","family","story time","storytime","puppet","magician","toddler")},{k:"carousel",l:"Carousel",e:"🎠",m:kw("carousel")},{k:"dogs",l:"Dog-friendly",e:"🐶",m:kw(" dog","dogs","puppy","canine","k9","dog-friendly","leash"," paws","pet adopt","pup-up","yappy")}]},
   {g:"Vibes",items:[{k:"datenight",l:"Date Night",e:"💞",m:kw("romantic","candlelight","rooftop","sunset","jazz","wine tasting","comedy")},{k:"outdoors",l:"Outdoors",e:"🌳",m:kw("park","beach","garden","outdoor","trail","hike","waterfront","arboretum")},{k:"free",l:"Free",e:"🎟️",m:e=>e.isFree===true}]},
 ];
 const TAG_BY_KEY={};TAGS.forEach(g=>g.items.forEach(t=>TAG_BY_KEY[t.k]=t));
@@ -488,6 +495,7 @@ function updateActCount(){const el=document.getElementById("actCount");el.textCo
 
 /* ---- filtering ---- */
 function townPass(e){ if(activeTowns.size>=3)return true; return activeTowns.has(e._town); }
+function updateBorders(){ if(!MAP||!MAP.getLayer("border-line"))return; const f=["in",["get","town"],["literal",[...activeTowns]]]; ["border-glow","border-line"].forEach(L=>MAP.setFilter(L,f)); }
 function visibleEvents(){
   const q=query.trim().toLowerCase();
   return EVENTS.filter(e=>{
@@ -614,6 +622,15 @@ function sharePage(){
   if(navigator.share){navigator.share({title:"What's On in Stamford",text,url}).catch(()=>{});}
   else{navigator.clipboard.writeText(url).then(()=>toast("Link copied","Share the Stamford events map with friends")).catch(()=>toast("Share",url));}
 }
+/* tag outbound source/ticket links so venues see the referral came from dtstamford */
+function srcUrl(u){ if(!u)return u; try{const x=new URL(u);x.searchParams.set("utm_source","dtstamford.com");x.searchParams.set("utm_medium","whats-on-map");x.searchParams.set("utm_campaign","stamford-live");return x.toString();}catch(_){return u;} }
+function directions(id){
+  const e=findEvent(id);if(!e)return;const v=e.venue;const dest=`${v.lat},${v.lng}`;
+  const apple=/iPad|iPhone|Macintosh/.test(navigator.userAgent);
+  const url=apple?`https://maps.apple.com/?daddr=${dest}&q=${encodeURIComponent(v.name||"Event")}`
+                :`https://www.google.com/maps/dir/?api=1&destination=${dest}`;
+  window.open(url,"_blank","noopener"); postLead("directions",{event:(findEvent(id)||{}).title,venue:v.name});
+}
 function pad2(n){return String(n).padStart(2,"0");}
 function icsStamp(d){return d.getUTCFullYear()+pad2(d.getUTCMonth()+1)+pad2(d.getUTCDate())+"T"+pad2(d.getUTCHours())+pad2(d.getUTCMinutes())+"00Z";}
 function addToCalendar(id){
@@ -635,7 +652,8 @@ function addToCalendar(id){
 const ICON={share:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="m8.6 13.5 6.8 4M15.4 6.5 8.6 10.5"/></svg>',
   cal:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>',
   pin:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-5.3-7-11a7 7 0 0 1 14 0c0 5.7-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg>',
-  ext:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 4h6v6"/><path d="M10 14 20 4"/><path d="M20 14v6H4V4h6"/></svg>'};
+  ext:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 4h6v6"/><path d="M10 14 20 4"/><path d="M20 14v6H4V4h6"/></svg>',
+  dir:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m3 11 19-9-9 19-2-8-8-2z"/></svg>'};
 function venuePopup(id,preferEvent){
   const v=VENUES.get(id);if(!v)return;
   const vis=visibleEvents().filter(e=>vid(e.venue)===id);const arr=(vis.length?vis:v.events).slice();
@@ -659,12 +677,14 @@ function venuePopup(id,preferEvent){
       <div class="paddr">${ICON.pin}${esc(v.name)}${v.address?" · "+esc(v.address):""}</div>
       <div class="pacts">
         <button class="pbtn rsvp ${going?'going':''}" data-act="rsvp" data-rsvp="${esc(id0)}">${going?'✓ Going':'RSVP'}</button>
+        <button class="pbtn" data-act="dir">${ICON.dir} Directions</button>
         <button class="pbtn" data-act="share">${ICON.share} Share</button>
         <button class="pbtn" data-act="cal">${ICON.cal} Calendar</button>
         <button class="pbtn" data-act="fav2" data-fav="${esc(id0)}">${faved?'♥ Saved':'♡ Save'}</button>
       </div>
+      <div class="psitter" data-act="sitter">🐾 Going out? Line up a babysitter or dog sitter →</div>
       ${others.length?`<div class="pmore">${others.map(e=>`<div class="prow" data-go="${esc(eid(e))}"><span class="pd" style="--cc:${colorOf(e.category)}"></span><div><div class="pt">${esc(e.title)}</div><div class="pw">${esc(e._dt?fmtDayShort(e._dt)+" · "+fmtTime(e._dt):(e.recurring||""))}</div></div></div>`).join("")}</div>`:""}
-      ${hero.sourceUrl?`<a class="psrc" href="${esc(hero.sourceUrl)}" target="_blank" rel="noopener">${ICON.ext} ${esc(hero.sourceName||"Event details")}</a>`:""}
+      ${hero.sourceUrl?`<a class="psrc" href="${esc(srcUrl(hero.sourceUrl))}" target="_blank" rel="noopener">${ICON.ext} ${esc(hero.sourceName||"Event details")}</a>`:""}
     </div></div>`;
   if(popup)popup.remove();
   popup=new mapboxgl.Popup({offset:20,closeButton:false,maxWidth:"340px"}).setLngLat([v.lng,v.lat]).setHTML(html).addTo(MAP);
@@ -676,6 +696,8 @@ function venuePopup(id,preferEvent){
     else if(a==="rsvp")doRSVP(id0);
     else if(a==="share")shareEvent(id0);
     else if(a==="cal")addToCalendar(id0);
+    else if(a==="dir")directions(id0);
+    else if(a==="sitter")openSitter();
   }));
   root.querySelectorAll(".prow").forEach(r=>r.addEventListener("click",()=>{const e=findEvent(r.dataset.go);if(e)venuePopup(id,e);}));
 }
@@ -698,10 +720,23 @@ function surprise(){
   const btn=document.getElementById("surprise");btn.classList.add("rolling");setTimeout(()=>btn.classList.remove("rolling"),600);
   focusVenue(vid(e.venue),{event:e});
   const when=e._dt?`${fmtDayShort(e._dt)} · ${fmtTime(e._dt)}`:(e.recurring||"");
-  toast("🎲 Your pick",`${e.title} — ${e.venue.name}${when?" · "+when:""}`);
+  toast("🎲 Your pick",`${e.title} — ${e.venue.name}${when?" · "+when:""}`,{label:"🎉 Invite a friend",fn:()=>inviteToEvent(e)});
 }
 let toastT;
-function toast(k,t){document.getElementById("toastK").textContent=k;document.getElementById("toastT").textContent=t;const el=document.getElementById("toast");el.classList.add("show");clearTimeout(toastT);toastT=setTimeout(()=>el.classList.remove("show"),4200);}
+function toast(k,t,action){
+  document.getElementById("toastK").textContent=k;document.getElementById("toastT").textContent=t;
+  const btn=document.getElementById("toastBtn");
+  if(action){btn.textContent=action.label;btn.style.display="";btn.onclick=action.fn;}else btn.style.display="none";
+  const el=document.getElementById("toast");el.classList.add("show");
+  clearTimeout(toastT);toastT=setTimeout(()=>el.classList.remove("show"),action?7500:4200);
+}
+function inviteToEvent(e){
+  const url=`${location.origin}${location.pathname}?e=${encodeURIComponent(eid(e))}`;
+  const when=e._dt?` ${fmtDayShort(e._dt)} ${fmtTime(e._dt)}`:"";
+  const text=`Let's go to ${e.title} at ${e.venue.name}${when}! Found it on the Stamford Live map:`;
+  if(navigator.share){navigator.share({title:"Let's go out!",text,url}).catch(()=>{});}
+  else{navigator.clipboard.writeText(text+" "+url).then(()=>toast("Invite copied","Paste it to your friends ✨")).catch(()=>toast("Invite",url));}
+}
 
 /* ---- map ---- */
 function initMap(deepId){
@@ -714,6 +749,10 @@ function initMap(deepId){
   MAP.on("style.load",()=>{
     try{MAP.setConfigProperty("basemap","lightPreset",LIGHTS[lightIdx]);}catch(e){}
     try{MAP.setConfigProperty("basemap","showPointOfInterestLabels",false);}catch(e){}
+    MAP.addSource("borders",{type:"geojson",data:"town-borders.geojson"});
+    MAP.addLayer({id:"border-glow",type:"line",source:"borders",layout:{"line-join":"round"},paint:{"line-color":["get","color"],"line-width":7,"line-blur":4,"line-opacity":.2,"line-emissive-strength":1}});
+    MAP.addLayer({id:"border-line",type:"line",source:"borders",layout:{"line-join":"round"},paint:{"line-color":["get","color"],"line-width":1.8,"line-opacity":.85,"line-emissive-strength":1,"line-dasharray":[3,2]}});
+    updateBorders();
     MAP.addSource("venues",{type:"geojson",data:{type:"FeatureCollection",features:[]}});
     MAP.addSource("pools",{type:"geojson",data:{type:"FeatureCollection",features:[]}});
     MAP.addLayer({id:"pool-outer",type:"circle",source:"pools",paint:{"circle-color":["get","color"],"circle-radius":54,"circle-blur":1,"circle-opacity":.18,"circle-emissive-strength":1}});
@@ -738,7 +777,7 @@ function resetFilters(){
   document.querySelectorAll(".cchip,.achip").forEach(b=>b.setAttribute("aria-pressed","false"));
   document.querySelectorAll(".tchip").forEach(b=>b.setAttribute("aria-pressed",b.dataset.t==="all"?"true":"false"));
   document.querySelectorAll("#towns .tw").forEach(b=>b.setAttribute("aria-pressed","true"));
-  updateActCount();selectedVenue=null;if(popup)popup.remove();apply({frame:true});
+  updateActCount();updateBorders();selectedVenue=null;if(popup)popup.remove();apply({frame:true});
 }
 function wireControls(){
   const q=document.getElementById("q"),clr=document.getElementById("qClear");let deb;
@@ -753,7 +792,7 @@ function wireControls(){
   document.querySelectorAll("#towns .tw").forEach(b=>b.addEventListener("click",()=>{
     const t=b.dataset.town,on=b.getAttribute("aria-pressed")==="true";
     if(on&&activeTowns.size===1)return; // keep at least one
-    on?activeTowns.delete(t):activeTowns.add(t);b.setAttribute("aria-pressed",String(!on));apply({frame:true});
+    on?activeTowns.delete(t):activeTowns.add(t);b.setAttribute("aria-pressed",String(!on));updateBorders();apply({frame:true});
   }));
   document.getElementById("surprise").onclick=surprise;
   document.getElementById("ctlSurprise").onclick=surprise;
@@ -770,7 +809,7 @@ function wireControls(){
   document.getElementById("signModal").addEventListener("click",e=>{if(e.target.id==="signModal")closeSignup();});
   document.getElementById("signGo").onclick=submitSignup;
   document.getElementById("signEmail").addEventListener("keydown",e=>{if(e.key==="Enter")submitSignup();});
-  window.addEventListener("keydown",e=>{if(e.key==="Escape"){closeSources();closeSignup();}});
+  window.addEventListener("keydown",e=>{if(e.key==="Escape"){closeSources();closeSignup();closeSitter();}});
 }
 function submitSignup(){
   const name=document.getElementById("signName").value.trim(),email=document.getElementById("signEmail").value.trim();
@@ -796,6 +835,25 @@ function openSources(){
 }
 function closeSources(){document.getElementById("srcModal").classList.remove("show");}
 document.getElementById("srcModal").addEventListener("click",e=>{if(e.target.id==="srcModal")closeSources();});
+
+function openSitter(){
+  document.getElementById("sitterCard").innerHTML=`<button class="x" id="sitterX" aria-label="Close">×</button>
+    <h2>Going out? Sort the sitter first 🐾</h2>
+    <p>Line up care so you can actually enjoy the night out. Trusted options serving the Stamford area:</p>
+    <h3>Babysitters &amp; nannies</h3><ul>
+      <li><a target="_blank" rel="noopener" href="https://www.care.com/babysitters/stamford-ct">Care.com</a></li>
+      <li><a target="_blank" rel="noopener" href="https://www.sittercity.com/babysitters/ct/stamford">Sittercity</a></li>
+      <li><a target="_blank" rel="noopener" href="https://www.urbansitter.com/">UrbanSitter</a></li></ul>
+    <h3>Dog sitters &amp; walkers</h3><ul>
+      <li><a target="_blank" rel="noopener" href="https://www.rover.com/sitters/stamford-ct/">Rover</a></li>
+      <li><a target="_blank" rel="noopener" href="https://wagwalking.com/">Wag!</a></li>
+      <li><a target="_blank" rel="noopener" href="https://www.care.com/pet-care/stamford-ct">Care.com Pet Care</a></li></ul>
+    <div class="foot">Know a great local sitter we should list? <a href="contact.html" style="color:var(--gold-l)">Tell John →</a></div>`;
+  document.getElementById("sitterModal").classList.add("show");
+  document.getElementById("sitterX").onclick=closeSitter;
+}
+function closeSitter(){document.getElementById("sitterModal").classList.remove("show");}
+document.getElementById("sitterModal").addEventListener("click",e=>{if(e.target.id==="sitterModal")closeSitter();});
 
 /* ---- mobile sheet ---- */
 function setSheet(frac){document.getElementById("panel").style.setProperty("--sheet-h",(frac*100)+"dvh");}

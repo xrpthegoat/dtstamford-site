@@ -261,6 +261,9 @@
   .mcard li{font-size:.8rem;color:var(--fg-soft);border:1px solid var(--line);border-radius:999px;padding:5px 11px;transition:.15s}
   .mcard li a{color:var(--gold-l)}
   .mcard li:hover{border-color:rgba(227,196,126,.5)}
+  .mcard .creds{max-height:150px;overflow-y:auto;border:1px solid var(--line-2);border-radius:10px;padding:8px 10px}
+  .mcard .cr{font-size:.71rem;color:var(--fg-soft);margin:3px 0}
+  .mcard .cr span{color:var(--faint)}
   .mcard .foot{margin-top:16px;font-size:.76rem;color:var(--faint);border-top:1px solid var(--line-2);padding-top:12px}
   .mcard label{display:block;font-size:.72rem;color:var(--fg-soft);margin:12px 0 5px;font-weight:500}
   .mcard input{width:100%;padding:12px 13px;border-radius:12px;border:1px solid var(--line);background:rgba(255,255,255,.03);color:var(--fg);font-size:.95rem;outline:none}
@@ -384,7 +387,6 @@ const CAT_IMG={
   food:"assets/downtown-stamford-ct-winter-streetscape.jpg",
   community:"assets/downtown-stamford-ct-landmark-square-skyline.jpg",
   other:"assets/skyline.jpg"};
-const imgFor=e=>e.image||CAT_IMG[catOf(e.category)]||CAT_IMG.other;
 
 const kw=(...w)=>(e)=>w.some(x=>e._hay.includes(x));
 const TAGS=[
@@ -398,6 +400,12 @@ const TAGS=[
   {g:"Vibes",items:[{k:"datenight",l:"Date Night",e:"💞",m:kw("romantic","candlelight","rooftop","sunset","jazz","wine tasting","comedy")},{k:"outdoors",l:"Outdoors",e:"🌳",m:kw("park","beach","garden","outdoor","trail","hike","waterfront","arboretum")},{k:"free",l:"Free",e:"🎟️",m:e=>e.isFree===true}]},
 ];
 const TAG_BY_KEY={};TAGS.forEach(g=>g.items.forEach(t=>TAG_BY_KEY[t.k]=t));
+/* activity photos (free/CC, hosted in assets/events) keyed by tag — credits in _credits.json */
+const ACT_KEYS=["worldcup","watch","livemusic","karaoke","dj","comedy","trivia","yoga","zumba","pilates","running","pickleball","fitness","cycling","wine","beer","coffee","foodfest","brunch","happyhour","flea","farmers","market","crafts","art","kids","carousel","dogs"];
+const ACT_IMG={};ACT_KEYS.forEach(k=>ACT_IMG[k]="assets/events/"+k+".jpg");
+const TAG_ORDER=TAGS.flatMap(g=>g.items.map(t=>t.k));
+function imgFor(e){ if(e.image)return e.image; for(const t of TAG_ORDER){if(e._tags.has(t)&&ACT_IMG[t])return ACT_IMG[t];} return CAT_IMG[catOf(e.category)]||CAT_IMG.other; }
+let CREDITS={};
 const TOWNS={stamford:"Stamford",greenwich:"Greenwich",norwalk:"Norwalk"};
 
 const HOME={center:[-73.5387,41.0534],zoom:12.4,pitch:55,bearing:-18};
@@ -465,6 +473,7 @@ async function load(){
     EVENTS.sort((a,b)=>(a._dt?a._dt:8.6e15)-(b._dt?b._dt:8.6e15));
     for(const e of EVENTS){const v=e.venue,id=vid(v);if(!VENUES.has(id))VENUES.set(id,{id,name:v.name,address:v.address,lat:v.lat,lng:v.lng,events:[]});VENUES.get(id).events.push(e);}
   }catch(err){console.error("load failed",err);document.getElementById("boot").innerHTML='<div class="t" style="color:#b9bac2">Couldn\'t load events. Refresh to retry.</div>';throw err;}
+  try{CREDITS=await (await fetch("assets/events/_credits.json",{cache:"no-cache"})).json();}catch(_){CREDITS={};}
   return params.get("e");
 }
 
@@ -825,10 +834,12 @@ function openSources(){
   const key=["Ticketmaster","SeatGeek"];
   const next=["Hey Stamford!","Stamford Patch","Eventbrite (per-venue)","Trivia aggregators","The Palace Theatre","District Music Hall","Avon Theatre","Ferguson Library","Maritime Aquarium"];
   const li=a=>a.map(s=>`<li>${esc(s)}</li>`).join("");
+  const creds=Object.values(CREDITS||{}).map(c=>{const cr=(c.creator||"").replace(/<[^>]+>/g,"").trim();return `<div class="cr">${esc((c.title||c.file||"").replace(/^File:/,"").slice(0,46))}<span> · ${esc(cr||"unknown")} · ${esc(c.license||"")}</span></div>`;}).join("");
   document.getElementById("srcCard").innerHTML=`<button class="x" id="srcX" aria-label="Close">×</button>
     <h2>Where these events come from</h2>
     <p>An automated scout sweeps these sources, then de-duplicates, geocodes and maps everything. The list grows as more sources are switched on.</p>
     <h3>Live now</h3><ul>${li(live)}</ul><h3>One switch away (free key)</h3><ul>${li(key)}</ul><h3>Mapped &amp; coming next</h3><ul>${li(next)}</ul>
+    ${creds?`<h3>Event photo credits</h3><p style="font-size:.76rem;margin:0 0 8px">Activity photos are free / Creative-Commons (Openverse &amp; Wikimedia Commons); event-specific photos come from the listing; your own Stamford photos are the fallback.</p><div class="creds">${creds}</div>`:""}
     <div class="foot">Spot a venue or series we should add? <a href="contact.html" style="color:var(--gold-l)">Tell John →</a></div>`;
   document.getElementById("srcModal").classList.add("show");
   document.getElementById("srcX").onclick=closeSources;

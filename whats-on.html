@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#08080a">
+
+<!-- ===== SEO ===== -->
+<title>What's On in Stamford — Live Events Map | Downtown Stamford</title>
+<meta name="description" content="Discover what's happening in Stamford, CT on a glowing 3D map. Live music, nightlife, arts, family, sports, food and community events — tap any event to fly to the venue.">
+<meta name="keywords" content="Stamford events, things to do Stamford CT, Stamford live music, Stamford nightlife, Stamford this weekend, Fairfield County events, what's on Stamford">
+<meta name="author" content="John Restrepo">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<link rel="canonical" href="https://dtstamford.com/whats-on.html">
+<meta name="geo.region" content="US-CT">
+<meta name="geo.placename" content="Stamford, Connecticut">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Downtown Stamford">
+<meta property="og:title" content="What's On in Stamford — Live Events Map">
+<meta property="og:description" content="A glowing 3D map of Stamford-area events. Tap an event to fly to the venue.">
+<meta property="og:url" content="https://dtstamford.com/whats-on.html">
+<meta property="og:image" content="https://dtstamford.com/assets/downtown-stamford-ct-landmark-square-skyline.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="What's On in Stamford — Live Events Map">
+<meta name="twitter:description" content="A glowing 3D map of Stamford-area events. Tap an event to fly to the venue.">
+<meta name="twitter:image" content="https://dtstamford.com/assets/downtown-stamford-ct-landmark-square-skyline.jpg">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="icon" href="assets/logo-black.png">
+<link rel="apple-touch-icon" href="assets/logo-black.png">
+
+<link href="https://api.mapbox.com/mapbox-gl-js/v3.9.0/mapbox-gl.css" rel="stylesheet">
+<script src="https://api.mapbox.com/mapbox-gl-js/v3.9.0/mapbox-gl.js"></script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "What's On in Stamford — Live Events Map",
+  "url": "https://dtstamford.com/whats-on.html",
+  "description": "A glowing 3D map of Stamford-area events, curated by John Restrepo / Downtown Stamford.",
+  "isPartOf": { "@type": "WebSite", "name": "Downtown Stamford", "url": "https://dtstamford.com/" },
+  "about": { "@type": "Place", "name": "Stamford, Connecticut" }
+}
+</script>
+
+<style>
+  :root{
+    --bg:#08080a; --ink:#08080a; --fg:#f3f3f5; --fg-soft:#b9bac2; --muted:#7e7f8a; --faint:#54555f;
+    --line:rgba(255,255,255,.10); --line-2:rgba(255,255,255,.06);
+    --gold:#c9a24a; --gold-l:#e3c47e;
+    --sans:"Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+    --disp:"Space Grotesk","Inter",sans-serif;
+    --mono:"Space Mono",ui-monospace,Menlo,monospace;
+    --ease:cubic-bezier(.22,1,.36,1);
+    --panel:rgba(14,14,17,.82);
+    /* category color contract — one source of truth, mirrored in JS CATS */
+    --c-music:#b98cff; --c-nightlife:#ff5da2; --c-arts:#43d4ff; --c-family:#ffd23f;
+    --c-sports:#5fe08a; --c-food:#ff8d4a; --c-community:#6ea8ff; --c-other:#aab0bd;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{height:100%}
+  body{
+    font-family:var(--sans); background:var(--bg); color:var(--fg);
+    overflow:hidden; -webkit-font-smoothing:antialiased; text-rendering:optimizeLegibility;
+    overscroll-behavior:none;
+  }
+  a{color:inherit;text-decoration:none}
+  ::selection{background:rgba(227,196,126,.28)}
+
+  /* ============ HEADER ============ */
+  header{
+    position:fixed; inset:0 0 auto 0; z-index:60; height:64px;
+    display:flex; align-items:center; justify-content:space-between; gap:16px;
+    padding:0 clamp(14px,3vw,28px);
+    background:linear-gradient(180deg,rgba(8,8,10,.92),rgba(8,8,10,.55) 70%,transparent);
+    backdrop-filter:saturate(160%) blur(10px);
+  }
+  .brand{display:flex;align-items:center;gap:11px;min-width:0}
+  .brand .logo{height:26px;width:auto;flex:0 0 auto}
+  .brand .wordmark{font-family:var(--disp);font-weight:500;font-size:1rem;letter-spacing:-.01em;white-space:nowrap;color:var(--fg)}
+  .nav-links{display:flex;gap:26px;font-family:var(--mono);font-size:.7rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+  .nav-links a{position:relative;padding:3px 0;transition:color .2s}
+  .nav-links a:hover,.nav-links a[aria-current]{color:var(--fg)}
+  .nav-links a[aria-current]::after{content:"";position:absolute;left:0;bottom:-3px;height:1px;width:100%;background:var(--gold-l)}
+  .hbtn{
+    display:inline-flex;align-items:center;gap:8px;padding:9px 15px;border-radius:999px;
+    font-family:var(--mono);font-size:.7rem;letter-spacing:.06em;text-transform:uppercase;
+    background:var(--gold);color:#0a0a0b;font-weight:700;white-space:nowrap;transition:.2s var(--ease)}
+  .hbtn:hover{background:var(--gold-l);box-shadow:0 10px 26px -14px rgba(201,162,74,.8)}
+  @media(max-width:920px){.nav-links{display:none}}
+
+  /* ============ MAP ============ */
+  #map{position:fixed;inset:0;z-index:0;background:#0a0c10}
+  .mapboxgl-ctrl-logo{opacity:.5}
+  .mapboxgl-ctrl-bottom-right{margin-bottom:6px}
+
+  /* map controls (top-right) */
+  .mapctl{position:fixed;z-index:40;right:clamp(12px,3vw,22px);top:78px;display:flex;flex-direction:column;gap:8px}
+  .mapctl button{
+    width:42px;height:42px;border:1px solid var(--line);border-radius:12px;cursor:pointer;
+    background:var(--panel);backdrop-filter:blur(10px);color:var(--fg-soft);
+    display:grid;place-items:center;transition:.18s var(--ease)}
+  .mapctl button:hover{color:var(--fg);border-color:rgba(255,255,255,.24);transform:translateY(-1px)}
+  .mapctl button svg{width:18px;height:18px}
+  .mapctl .light{position:relative}
+  .mapctl .light .dot{position:absolute;top:6px;right:6px;width:6px;height:6px;border-radius:50%;background:var(--gold-l);box-shadow:0 0 8px var(--gold-l)}
+
+  /* ============ PANEL (desktop sidebar / mobile sheet) ============ */
+  #panel{
+    position:fixed;z-index:50;top:74px;left:clamp(12px,2.4vw,22px);
+    width:380px;max-width:calc(100vw - 24px);max-height:calc(100dvh - 88px);
+    display:flex;flex-direction:column;
+    background:var(--panel);backdrop-filter:saturate(160%) blur(18px);
+    border:1px solid var(--line);border-radius:20px;overflow:hidden;
+    box-shadow:0 30px 80px -40px rgba(0,0,0,.9), inset 0 1px 0 rgba(255,255,255,.05);
+  }
+  .p-head{padding:16px 18px 12px;border-bottom:1px solid var(--line-2)}
+  .p-kicker{font-family:var(--mono);font-size:.62rem;letter-spacing:.22em;text-transform:uppercase;color:var(--gold-l);display:flex;align-items:center;gap:8px}
+  .p-kicker .pulse{width:7px;height:7px;border-radius:50%;background:#5fe08a;box-shadow:0 0 0 0 rgba(95,224,138,.7);animation:livepulse 2.4s var(--ease) infinite}
+  @keyframes livepulse{0%{box-shadow:0 0 0 0 rgba(95,224,138,.6)}70%{box-shadow:0 0 0 7px rgba(95,224,138,0)}100%{box-shadow:0 0 0 0 rgba(95,224,138,0)}}
+  .p-title{font-family:var(--disp);font-weight:600;font-size:1.5rem;letter-spacing:-.02em;margin-top:7px;line-height:1.05}
+  .p-sub{font-size:.82rem;color:var(--muted);margin-top:4px}
+  .p-sub b{color:var(--fg-soft);font-weight:600}
+
+  /* search */
+  .search{position:relative;margin:12px 18px 0}
+  .search input{
+    width:100%;padding:11px 12px 11px 38px;border-radius:12px;border:1px solid var(--line);
+    background:rgba(255,255,255,.03);color:var(--fg);font-family:var(--sans);font-size:.9rem;outline:none;transition:.2s}
+  .search input::placeholder{color:var(--faint)}
+  .search input:focus{border-color:rgba(227,196,126,.5);background:rgba(255,255,255,.05)}
+  .search svg{position:absolute;left:12px;top:50%;transform:translateY(-50%);width:16px;height:16px;color:var(--faint)}
+  .search .clr{position:absolute;right:9px;top:50%;transform:translateY(-50%);width:22px;height:22px;border:0;border-radius:50%;background:rgba(255,255,255,.08);color:var(--fg-soft);cursor:pointer;display:none;place-items:center;font-size:14px}
+  .search .clr.show{display:grid}
+
+  /* time chips */
+  .times{display:flex;gap:7px;padding:12px 18px 2px;flex-wrap:wrap}
+  .tchip{font-family:var(--mono);font-size:.66rem;letter-spacing:.05em;text-transform:uppercase;padding:6px 11px;border-radius:999px;border:1px solid var(--line);color:var(--muted);cursor:pointer;transition:.18s var(--ease);background:transparent}
+  .tchip:hover{color:var(--fg-soft);border-color:rgba(255,255,255,.22)}
+  .tchip[aria-pressed="true"]{color:#0a0a0b;background:var(--fg);border-color:var(--fg);font-weight:700}
+
+  /* category chips */
+  .cats{display:flex;gap:7px;padding:11px 18px 14px;flex-wrap:wrap;border-bottom:1px solid var(--line-2)}
+  .cchip{
+    display:inline-flex;align-items:center;gap:7px;font-size:.76rem;font-weight:500;
+    padding:6px 11px 6px 9px;border-radius:999px;border:1px solid var(--line);color:var(--fg-soft);
+    cursor:pointer;transition:.18s var(--ease);background:transparent;user-select:none}
+  .cchip:hover{border-color:rgba(255,255,255,.26)}
+  .cchip .d{width:9px;height:9px;border-radius:50%;background:var(--cc);box-shadow:0 0 8px -1px var(--cc)}
+  .cchip .n{font-family:var(--mono);font-size:.64rem;color:var(--faint)}
+  .cchip[aria-pressed="true"]{border-color:var(--cc);background:color-mix(in srgb,var(--cc) 16%,transparent);color:#fff}
+  .cchip[aria-pressed="true"] .n{color:var(--fg-soft)}
+
+  /* list */
+  #list{overflow-y:auto;overflow-x:hidden;padding:8px 10px 14px;scrollbar-width:thin;scrollbar-color:rgba(255,255,255,.18) transparent}
+  #list::-webkit-scrollbar{width:8px}
+  #list::-webkit-scrollbar-thumb{background:rgba(255,255,255,.16);border-radius:8px}
+  .daygroup{font-family:var(--mono);font-size:.62rem;letter-spacing:.18em;text-transform:uppercase;color:var(--faint);padding:14px 10px 7px;position:sticky;top:0;background:linear-gradient(180deg,var(--panel),rgba(14,14,17,.4));backdrop-filter:blur(6px);z-index:1}
+  .daygroup:first-child{padding-top:6px}
+  .card{
+    position:relative;display:flex;gap:12px;padding:11px;border-radius:14px;cursor:pointer;
+    border:1px solid transparent;transition:.16s var(--ease)}
+  .card:hover{background:rgba(255,255,255,.04);border-color:var(--line)}
+  .card.active{background:color-mix(in srgb,var(--gold) 12%,transparent);border-color:rgba(227,196,126,.45)}
+  .card .stripe{flex:0 0 4px;border-radius:4px;background:var(--cc);box-shadow:0 0 12px -2px var(--cc);align-self:stretch}
+  .card .body{min-width:0;flex:1}
+  .card .t{font-weight:600;font-size:.92rem;line-height:1.25;letter-spacing:-.01em;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+  .card .meta{display:flex;align-items:center;gap:7px;margin-top:5px;font-size:.76rem;color:var(--muted);flex-wrap:wrap}
+  .card .meta .when{color:var(--gold-l);font-family:var(--mono);font-size:.7rem;letter-spacing:.02em}
+  .card .venue{display:flex;align-items:center;gap:5px;margin-top:5px;font-size:.78rem;color:var(--fg-soft)}
+  .card .venue svg{width:12px;height:12px;color:var(--faint);flex:0 0 auto}
+  .card .venue span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .badge{font-family:var(--mono);font-size:.6rem;letter-spacing:.06em;text-transform:uppercase;padding:3px 7px;border-radius:6px;font-weight:700}
+  .badge.free{background:rgba(95,224,138,.16);color:#7af0a6}
+  .badge.tick{background:rgba(227,196,126,.16);color:var(--gold-l)}
+  .badge.rec{background:rgba(110,168,255,.14);color:#9cc1ff}
+  .empty{padding:46px 22px;text-align:center;color:var(--muted)}
+  .empty .big{font-family:var(--disp);font-size:1.05rem;color:var(--fg-soft);margin-bottom:6px}
+  .empty button{margin-top:14px;font-family:var(--mono);font-size:.7rem;text-transform:uppercase;letter-spacing:.06em;color:var(--gold-l);background:transparent;border:1px solid var(--line);padding:8px 14px;border-radius:999px;cursor:pointer}
+
+  /* mobile sheet handle (hidden on desktop) */
+  .grab{display:none}
+
+  @media(max-width:920px){
+    #panel{
+      top:auto;bottom:0;left:0;width:100%;max-width:100%;border-radius:22px 22px 0 0;
+      max-height:88dvh;height:var(--sheet-h,46dvh);transition:height .34s var(--ease);
+      border-bottom:0;padding-bottom:env(safe-area-inset-bottom)}
+    #panel.dragging{transition:none}
+    .grab{display:flex;justify-content:center;padding:9px 0 3px;cursor:grab;touch-action:none}
+    .grab i{width:38px;height:4px;border-radius:4px;background:rgba(255,255,255,.26)}
+    .p-title{font-size:1.25rem}
+    .mapctl{top:auto;bottom:calc(var(--sheet-h,46dvh) + 14px);transition:bottom .34s var(--ease)}
+  }
+
+  /* ============ MAPBOX POPUP ============ */
+  .mapboxgl-popup{max-width:300px!important;z-index:55}
+  .mapboxgl-popup-content{
+    background:rgba(16,16,20,.94);backdrop-filter:blur(14px);color:var(--fg);
+    border:1px solid var(--line);border-radius:16px;padding:14px 15px;
+    box-shadow:0 26px 60px -30px #000;font-family:var(--sans)}
+  .mapboxgl-popup-close-button{color:var(--muted);font-size:18px;padding:4px 8px;right:2px;top:2px}
+  .mapboxgl-popup-close-button:hover{color:var(--fg);background:transparent}
+  .mapboxgl-popup-tip{display:none}
+  .pop-v{font-family:var(--disp);font-weight:600;font-size:1.02rem;letter-spacing:-.01em;padding-right:16px}
+  .pop-a{font-size:.76rem;color:var(--muted);margin-top:2px;display:flex;align-items:center;gap:5px}
+  .pop-a svg{width:12px;height:12px}
+  .pop-ev{margin-top:11px;display:flex;flex-direction:column;gap:9px}
+  .pop-row{display:flex;gap:9px;align-items:flex-start}
+  .pop-row .pd{flex:0 0 7px;height:7px;border-radius:50%;margin-top:5px;background:var(--cc);box-shadow:0 0 8px -1px var(--cc)}
+  .pop-row .pt{font-size:.82rem;font-weight:500;line-height:1.25}
+  .pop-row .pw{font-family:var(--mono);font-size:.68rem;color:var(--gold-l);margin-top:2px}
+  .pop-more{margin-top:10px;font-family:var(--mono);font-size:.66rem;letter-spacing:.05em;text-transform:uppercase;color:var(--muted)}
+  .pop-src{display:inline-flex;align-items:center;gap:5px;margin-top:9px;font-family:var(--mono);font-size:.66rem;letter-spacing:.04em;text-transform:uppercase;color:var(--gold-l);border-top:1px solid var(--line-2);padding-top:9px}
+  .pop-src svg{width:12px;height:12px}
+
+  /* loading */
+  #boot{position:fixed;inset:0;z-index:200;display:grid;place-items:center;background:var(--bg);transition:opacity .6s ease}
+  #boot.gone{opacity:0;pointer-events:none}
+  #boot .inner{text-align:center}
+  #boot .ring{width:46px;height:46px;margin:0 auto 16px;border-radius:50%;border:2px solid rgba(255,255,255,.12);border-top-color:var(--gold-l);animation:spin .9s linear infinite}
+  @keyframes spin{to{transform:rotate(360deg)}}
+  #boot .t{font-family:var(--mono);font-size:.74rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+
+  @media(prefers-reduced-motion:reduce){
+    *{animation-duration:.001ms!important;transition-duration:.05ms!important}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <a class="brand" href="index.html" aria-label="Downtown Stamford — home">
+    <img class="logo" src="assets/logo-white.png" alt="Downtown Stamford logo"
+         onerror="this.style.display='none'">
+    <span class="wordmark">Downtown Stamford</span>
+  </a>
+  <nav class="nav-links" aria-label="Primary">
+    <a href="stamford-market.html">Market</a>
+    <a href="homes-for-sale-stamford.html">Homes for Sale</a>
+    <a href="neighborhoods.html">Neighborhoods</a>
+    <a href="living-in-stamford.html">Living</a>
+    <a href="whats-on.html" aria-current="page">What's On</a>
+    <a href="blog.html">Blog</a>
+  </nav>
+  <a class="hbtn" href="contact.html">Work with John</a>
+</header>
+
+<div id="map"></div>
+
+<div class="mapctl">
+  <button id="ctlReset" title="Reset view" aria-label="Reset map view">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 1 0 9-9 9 9 0 0 0-6.5 2.8L3 8"/><path d="M3 4v4h4"/></svg>
+  </button>
+  <button id="ctlLight" class="light" title="Cycle lighting (dusk / day / night)" aria-label="Cycle map lighting">
+    <span class="dot"></span>
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+  </button>
+</div>
+
+<aside id="panel" aria-label="Event browser">
+  <div class="grab" id="grab"><i></i></div>
+  <div class="p-head">
+    <div class="p-kicker"><span class="pulse"></span> Stamford Live · What's On</div>
+    <h1 class="p-title">What's on in Stamford</h1>
+    <p class="p-sub"><b id="count">—</b> events · tap one to fly to the venue</p>
+    <div class="search">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+      <input id="q" type="search" placeholder="Search events, venues…" autocomplete="off" aria-label="Search events">
+      <button class="clr" id="qClear" aria-label="Clear search">×</button>
+    </div>
+    <div class="times" id="times" role="group" aria-label="Time filter">
+      <button class="tchip" data-t="all" aria-pressed="true">All dates</button>
+      <button class="tchip" data-t="today" aria-pressed="false">Today</button>
+      <button class="tchip" data-t="weekend" aria-pressed="false">This weekend</button>
+      <button class="tchip" data-t="week" aria-pressed="false">Next 7 days</button>
+    </div>
+    <div class="cats" id="cats" role="group" aria-label="Category filter"></div>
+  </div>
+  <div id="list"></div>
+</aside>
+
+<div id="boot"><div class="inner"><div class="ring"></div><div class="t">Loading Stamford…</div></div></div>
+
+<script>
+/* =====================================================================
+   STAMFORD LIVE  —  what's-on map  (self-contained, brand: dtstamford.com)
+   Data: events.json  (regenerated by the events-scout agent)
+   ===================================================================== */
+
+/* --- Mapbox token ---------------------------------------------------
+   Replace with YOUR OWN free token from https://account.mapbox.com/access-tokens/
+   (free tier = 50k map loads/month). Restrict it to dtstamford.com in the
+   Mapbox dashboard. The default below is a temporary working token. */
+const MAPBOX_TOKEN = "__MAPBOX_TOKEN__";
+
+/* category color contract — must match the CSS --c-* vars */
+const CATS = {
+  music:     {label:"Music",        color:"#b98cff", emoji:"🎵"},
+  nightlife: {label:"Nightlife",    color:"#ff5da2", emoji:"🌙"},
+  arts:      {label:"Arts",         color:"#43d4ff", emoji:"🎭"},
+  family:    {label:"Family",       color:"#ffd23f", emoji:"🎠"},
+  sports:    {label:"Sports",       color:"#5fe08a", emoji:"⚽"},
+  food:      {label:"Food & Drink", color:"#ff8d4a", emoji:"🍽️"},
+  community: {label:"Community",    color:"#6ea8ff", emoji:"🤝"},
+  other:     {label:"Other",        color:"#aab0bd", emoji:"✨"},
+};
+const CAT_ORDER = ["music","nightlife","arts","family","sports","food","community","other"];
+const catOf = c => CATS[c] ? c : "other";
+const colorOf = c => CATS[catOf(c)].color;
+
+const HOME = {center:[-73.5387,41.0534], zoom:12.4, pitch:55, bearing:-18};
+const LIGHTS = ["dusk","day","night","dawn"];
+
+/* ---------- state ---------- */
+let MAP, EVENTS = [], VENUES = new Map();
+let activeCats = new Set();      // empty = all
+let timeFilter = "all";
+let query = "";
+let selectedVenue = null;
+let lightIdx = 0;
+let popup = null;
+
+/* ---------- helpers ---------- */
+const esc = s => String(s==null?"":s).replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[m]));
+const parseDT = s => { if(!s) return null; const d = new Date(s); return isNaN(d)? null : d; };
+const fmtTime = d => d.toLocaleTimeString("en-US",{hour:"numeric",minute:d.getMinutes()?"2-digit":undefined}).replace(":00","");
+const fmtDayShort = d => d.toLocaleDateString("en-US",{weekday:"short",month:"short",day:"numeric"});
+const fmtDayLong = d => d.toLocaleDateString("en-US",{weekday:"long",month:"long",day:"numeric"});
+const sameDay = (a,b)=>a.getFullYear()===b.getFullYear()&&a.getMonth()===b.getMonth()&&a.getDate()===b.getDate();
+const dayKey = d => `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,"0")}-${String(d.getDate()).padStart(2,"0")}`;
+
+function relDayLabel(d){
+  const now=new Date(); const t0=new Date(now.getFullYear(),now.getMonth(),now.getDate());
+  const diff=Math.round((new Date(d.getFullYear(),d.getMonth(),d.getDate())-t0)/86400000);
+  if(diff===0) return "Today · "+fmtDayLong(d);
+  if(diff===1) return "Tomorrow · "+fmtDayLong(d);
+  return fmtDayLong(d);
+}
+
+function inTimeWindow(d){
+  if(!d) return timeFilter==="all";
+  if(timeFilter==="all") return true;
+  const now=new Date();
+  const t0=new Date(now.getFullYear(),now.getMonth(),now.getDate());
+  const dd=new Date(d.getFullYear(),d.getMonth(),d.getDate());
+  const diff=Math.round((dd-t0)/86400000);
+  if(timeFilter==="today") return diff===0;
+  if(timeFilter==="week")  return diff>=0 && diff<7;
+  if(timeFilter==="weekend"){
+    // upcoming Sat+Sun (incl. today if it's already the weekend)
+    const dow=now.getDay();                 // 0 Sun ... 6 Sat
+    const toSat=(6-dow+7)%7;                 // days until Sat
+    const satStart=new Date(t0); satStart.setDate(t0.getDate()+(dow===0?-1:toSat));
+    const sunEnd=new Date(satStart); sunEnd.setDate(satStart.getDate()+1); sunEnd.setHours(23,59,59,999);
+    return d>=satStart && d<=sunEnd;
+  }
+  return true;
+}
+
+/* ---------- data load ---------- */
+async function load(){
+  try{
+    const r = await fetch("events.json",{cache:"no-cache"});
+    const j = await r.json();
+    EVENTS = (j.events||j||[]).map(e=>({...e, _dt:parseDT(e.startTime)}))
+      .filter(e=>e.venue && typeof e.venue.lat==="number" && typeof e.venue.lng==="number");
+    EVENTS.sort((a,b)=>(a._dt?a._dt:8.6e15)-(b._dt?b._dt:8.6e15));
+    // index venues
+    for(const e of EVENTS){
+      const v=e.venue, id=v.id||v.name;
+      if(!VENUES.has(id)) VENUES.set(id,{id,name:v.name,address:v.address,lat:v.lat,lng:v.lng,events:[]});
+      VENUES.get(id).events.push(e);
+    }
+  }catch(err){
+    console.error("events load failed",err);
+    document.getElementById("boot").innerHTML='<div class="inner"><div class="t">Couldn\'t load events. Refresh to retry.</div></div>';
+    throw err;
+  }
+}
+
+/* ---------- category chips ---------- */
+function buildCats(){
+  const counts={}; EVENTS.forEach(e=>{const c=catOf(e.category);counts[c]=(counts[c]||0)+1});
+  const box=document.getElementById("cats"); box.innerHTML="";
+  CAT_ORDER.filter(c=>counts[c]).forEach(c=>{
+    const b=document.createElement("button");
+    b.className="cchip"; b.dataset.cat=c; b.setAttribute("aria-pressed","false");
+    b.style.setProperty("--cc",CATS[c].color);
+    b.innerHTML=`<span class="d"></span>${CATS[c].label} <span class="n">${counts[c]}</span>`;
+    b.onclick=()=>{ b.getAttribute("aria-pressed")==="true" ? (activeCats.delete(c),b.setAttribute("aria-pressed","false")) : (activeCats.add(c),b.setAttribute("aria-pressed","true")); apply(); };
+    box.appendChild(b);
+  });
+}
+
+/* ---------- filtering ---------- */
+function visibleEvents(){
+  const q=query.trim().toLowerCase();
+  return EVENTS.filter(e=>{
+    if(activeCats.size && !activeCats.has(catOf(e.category))) return false;
+    if(!inTimeWindow(e._dt)) return false;
+    if(q){
+      const hay=(e.title+" "+(e.venue.name||"")+" "+(e.venue.address||"")+" "+(e.description||"")).toLowerCase();
+      if(!hay.includes(q)) return false;
+    }
+    return true;
+  });
+}
+
+function apply(){
+  const evs=visibleEvents();
+  renderList(evs);
+  renderMap(evs);
+  document.getElementById("count").textContent=evs.length;
+}
+
+/* ---------- list ---------- */
+function badges(e){
+  let h="";
+  if(e.isFree) h+='<span class="badge free">Free</span>';
+  else if(e.priceMin) h+=`<span class="badge tick">From $${e.priceMin}</span>`;
+  else h+='<span class="badge tick">Ticketed</span>';
+  if(e.recurring) h+='<span class="badge rec">Recurring</span>';
+  return h;
+}
+function eid(e){ return (e.id||e.title)+"@"+(e.venue.id||e.venue.name); }
+
+function renderList(evs){
+  const list=document.getElementById("list");
+  if(!evs.length){
+    list.innerHTML=`<div class="empty"><div class="big">No events match</div>Try a different category, date range, or search.<br><button id="reset2">Reset filters</button></div>`;
+    document.getElementById("reset2").onclick=resetFilters; return;
+  }
+  let html="", lastDay="";
+  for(const e of evs){
+    const c=catOf(e.category), col=CATS[c].color;
+    const dk=e._dt?dayKey(e._dt):"tbd";
+    if(dk!==lastDay){ lastDay=dk; html+=`<div class="daygroup">${e._dt?esc(relDayLabel(e._dt)):"Date TBD"}</div>`; }
+    const when=e._dt?fmtTime(e._dt):(e.recurring?esc(e.recurring):"See details");
+    html+=`<div class="card" data-id="${esc(eid(e))}" style="--cc:${col}" role="button" tabindex="0">
+      <div class="stripe"></div>
+      <div class="body">
+        <div class="t">${esc(e.title)}</div>
+        <div class="meta"><span class="when">${esc(when)}</span>${badges(e)}</div>
+        <div class="venue"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-5.3-7-11a7 7 0 0 1 14 0c0 5.7-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg><span>${esc(e.venue.name||"")}</span></div>
+      </div>
+    </div>`;
+  }
+  list.innerHTML=html;
+  list.querySelectorAll(".card").forEach(card=>{
+    const e=evs.find(x=>eid(x)===card.dataset.id);
+    const go=()=>focusEvent(e,card);
+    card.addEventListener("click",go);
+    card.addEventListener("keydown",ev=>{if(ev.key==="Enter"||ev.key===" "){ev.preventDefault();go();}});
+  });
+}
+
+/* ---------- map ---------- */
+function venueFeatures(evs){
+  // aggregate visible events by venue → one point each
+  const m=new Map();
+  for(const e of evs){
+    const id=e.venue.id||e.venue.name;
+    if(!m.has(id)) m.set(id,{id,name:e.venue.name,address:e.venue.address,lng:e.venue.lng,lat:e.venue.lat,events:[],cats:{}});
+    const o=m.get(id); o.events.push(e); o.cats[catOf(e.category)]=(o.cats[catOf(e.category)]||0)+1;
+  }
+  return [...m.values()].map(o=>{
+    const dom=Object.entries(o.cats).sort((a,b)=>b[1]-a[1])[0][0];
+    return {type:"Feature",
+      properties:{id:o.id,name:o.name,count:o.events.length,category:dom,color:colorOf(dom)},
+      geometry:{type:"Point",coordinates:[o.lng,o.lat]}};
+  });
+}
+
+function renderMap(evs){
+  if(!MAP||!MAP.getSource("venues")) return;
+  MAP.getSource("venues").setData({type:"FeatureCollection",features:venueFeatures(evs)});
+  if(selectedVenue && !VENUES.get(selectedVenue)?.events.some(e=>evs.includes(e))){
+    setSelected(null);
+    if(popup) popup.remove();
+    document.querySelectorAll(".card.active").forEach(c=>c.classList.remove("active"));
+  }
+}
+
+function setSelected(id){
+  selectedVenue=id;
+  const src=MAP.getSource("selected");
+  if(!src) return;
+  if(!id){ src.setData({type:"FeatureCollection",features:[]}); return; }
+  const v=VENUES.get(id);
+  src.setData({type:"FeatureCollection",features:[{type:"Feature",
+    properties:{color:colorOf(v.events[0].category)},
+    geometry:{type:"Point",coordinates:[v.lng,v.lat]}}]});
+}
+
+function venuePopup(id){
+  const v=VENUES.get(id); if(!v) return;
+  const vis=visibleEvents().filter(e=>(e.venue.id||e.venue.name)===id);
+  const shown=(vis.length?vis:v.events).slice(0,3);
+  let rows=shown.map(e=>{
+    const col=colorOf(e.category);
+    const when=e._dt?`${fmtDayShort(e._dt)} · ${fmtTime(e._dt)}`:(e.recurring||"");
+    return `<div class="pop-row"><span class="pd" style="--cc:${col}"></span><div><div class="pt">${esc(e.title)}</div><div class="pw">${esc(when)}</div></div></div>`;
+  }).join("");
+  const total=(vis.length?vis:v.events).length;
+  const more=total>3?`<div class="pop-more">+ ${total-3} more at this venue</div>`:"";
+  const src=v.events[0].sourceUrl?`<a class="pop-src" href="${esc(v.events[0].sourceUrl)}" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 13a5 5 0 0 0 7 0l3-3a5 5 0 0 0-7-7l-1 1"/><path d="M14 11a5 5 0 0 0-7 0l-3 3a5 5 0 0 0 7 7l1-1"/></svg>Event details</a>`:"";
+  const html=`<div class="pop-v">${esc(v.name)}</div>
+    ${v.address?`<div class="pop-a"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-5.3-7-11a7 7 0 0 1 14 0c0 5.7-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg>${esc(v.address)}</div>`:""}
+    <div class="pop-ev">${rows}</div>${more}${src}`;
+  if(popup) popup.remove();
+  popup=new mapboxgl.Popup({offset:18,closeButton:true,maxWidth:"300px"})
+    .setLngLat([v.lng,v.lat]).setHTML(html).addTo(MAP);
+}
+
+function flyToVenue(v,pitch){
+  MAP.flyTo({center:[v.lng,v.lat],zoom:15.6,pitch:pitch==null?60:pitch,bearing:-18,duration:1500,essential:true});
+}
+
+function focusEvent(e,card){
+  const id=e.venue.id||e.venue.name;
+  document.querySelectorAll(".card.active").forEach(c=>c.classList.remove("active"));
+  if(card) card.classList.add("active");
+  setSelected(id);
+  flyToVenue(VENUES.get(id));
+  venuePopup(id);
+  if(window.matchMedia("(max-width:920px)").matches) setSheet(0.46);
+}
+
+/* ---------- map init ---------- */
+function initMap(){
+  mapboxgl.accessToken=MAPBOX_TOKEN;
+  MAP=new mapboxgl.Map({
+    container:"map", style:"mapbox://styles/mapbox/standard",
+    center:HOME.center, zoom:HOME.zoom, pitch:HOME.pitch, bearing:HOME.bearing,
+    antialias:true, attributionControl:false, cooperativeGestures:false
+  });
+  MAP.addControl(new mapboxgl.AttributionControl({compact:true}),"bottom-right");
+  MAP.addControl(new mapboxgl.NavigationControl({showCompass:true,visualizePitch:true}),"bottom-right");
+
+  MAP.on("style.load",()=>{
+    try{ MAP.setConfigProperty("basemap","lightPreset",LIGHTS[lightIdx]); }catch(e){}
+    try{ MAP.setConfigProperty("basemap","showPointOfInterestLabels",false); }catch(e){}
+
+    MAP.addSource("venues",{type:"geojson",data:{type:"FeatureCollection",features:[]}});
+    MAP.addSource("selected",{type:"geojson",data:{type:"FeatureCollection",features:[]}});
+
+    // selected pulsing pool (the "spotlight" landing glow)
+    MAP.addLayer({id:"sel-glow",type:"circle",source:"selected",paint:{
+      "circle-radius":34,"circle-color":["get","color"],"circle-blur":1,
+      "circle-opacity":.34,"circle-emissive-strength":1}});
+
+    // glow halo
+    MAP.addLayer({id:"venue-glow",type:"circle",source:"venues",paint:{
+      "circle-color":["get","color"],
+      "circle-radius":["interpolate",["linear"],["zoom"],
+        10,["+",7,["*",1.6,["get","count"]]], 15,["+",13,["*",2.4,["get","count"]]]],
+      "circle-blur":1,"circle-opacity":.42,"circle-emissive-strength":1}});
+
+    // solid core
+    MAP.addLayer({id:"venue-core",type:"circle",source:"venues",paint:{
+      "circle-color":["get","color"],
+      "circle-radius":["interpolate",["linear"],["zoom"], 10,4.2, 15,6.5],
+      "circle-stroke-color":"#0a0a0c","circle-stroke-width":1.4,
+      "circle-emissive-strength":1,"circle-opacity":.96}});
+
+    // count label for multi-event venues
+    MAP.addLayer({id:"venue-count",type:"symbol",source:"venues",
+      filter:[">",["get","count"],1],
+      layout:{"text-field":["to-string",["get","count"]],
+        "text-font":["DIN Pro Medium","Arial Unicode MS Bold"],"text-size":10,
+        "text-allow-overlap":true,"text-ignore-placement":true},
+      paint:{"text-color":"#0a0a0c","text-halo-width":0}});
+
+    const hit=["venue-core","venue-glow"];
+    hit.forEach(L=>{
+      MAP.on("mouseenter",L,()=>MAP.getCanvas().style.cursor="pointer");
+      MAP.on("mouseleave",L,()=>MAP.getCanvas().style.cursor="");
+      MAP.on("click",L,ev=>{
+        const f=ev.features[0]; const id=f.properties.id;
+        setSelected(id); flyToVenue(VENUES.get(id),58); venuePopup(id);
+        // reflect in list
+        const first=visibleEvents().find(e=>(e.venue.id||e.venue.name)===id);
+        if(first){
+          const card=document.querySelector(`.card[data-id="${CSS.escape(eid(first))}"]`);
+          document.querySelectorAll(".card.active").forEach(c=>c.classList.remove("active"));
+          if(card){card.classList.add("active");card.scrollIntoView({behavior:"smooth",block:"center"});}
+        }
+        if(window.matchMedia("(max-width:920px)").matches) setSheet(0.46);
+      });
+    });
+
+    pulse();
+    apply();
+    document.getElementById("boot").classList.add("gone");
+  });
+}
+
+/* selected-pool breathing */
+let pulseT=0;
+function pulse(){
+  if(window.matchMedia("(prefers-reduced-motion:reduce)").matches) return;
+  pulseT+=0.05;
+  if(MAP&&MAP.getLayer("sel-glow")&&selectedVenue){
+    const r=34+Math.sin(pulseT)*8;
+    MAP.setPaintProperty("sel-glow","circle-radius",r);
+    MAP.setPaintProperty("sel-glow","circle-opacity",.3+Math.sin(pulseT)*.08);
+  }
+  requestAnimationFrame(pulse);
+}
+
+/* ---------- controls ---------- */
+function resetFilters(){
+  activeCats.clear(); timeFilter="all"; query="";
+  document.getElementById("q").value=""; document.getElementById("qClear").classList.remove("show");
+  document.querySelectorAll(".cchip").forEach(b=>b.setAttribute("aria-pressed","false"));
+  document.querySelectorAll(".tchip").forEach(b=>b.setAttribute("aria-pressed",b.dataset.t==="all"?"true":"false"));
+  apply();
+}
+
+function wireControls(){
+  // search
+  const q=document.getElementById("q"), clr=document.getElementById("qClear");
+  let deb; q.addEventListener("input",()=>{ query=q.value; clr.classList.toggle("show",!!q.value); clearTimeout(deb); deb=setTimeout(apply,160); });
+  clr.addEventListener("click",()=>{q.value="";query="";clr.classList.remove("show");apply();q.focus();});
+  // time chips
+  document.querySelectorAll(".tchip").forEach(b=>b.addEventListener("click",()=>{
+    document.querySelectorAll(".tchip").forEach(x=>x.setAttribute("aria-pressed","false"));
+    b.setAttribute("aria-pressed","true"); timeFilter=b.dataset.t; apply();
+  }));
+  // map controls
+  document.getElementById("ctlReset").onclick=()=>{ setSelected(null); if(popup)popup.remove(); MAP.flyTo({...HOME,duration:1400,essential:true}); };
+  document.getElementById("ctlLight").onclick=()=>{ lightIdx=(lightIdx+1)%LIGHTS.length; try{MAP.setConfigProperty("basemap","lightPreset",LIGHTS[lightIdx]);}catch(e){} };
+}
+
+/* ---------- mobile bottom sheet ---------- */
+function setSheet(frac){ document.getElementById("panel").style.setProperty("--sheet-h",(frac*100)+"dvh"); }
+function wireSheet(){
+  const panel=document.getElementById("panel"), grab=document.getElementById("grab");
+  const snaps=[0.14,0.46,0.88]; let startY=0,startH=0,dragging=false;
+  const hPx=()=>panel.getBoundingClientRect().height;
+  const onDown=e=>{dragging=true;panel.classList.add("dragging");startY=(e.touches?e.touches[0].clientY:e.clientY);startH=hPx();};
+  const onMove=e=>{ if(!dragging)return; const y=(e.touches?e.touches[0].clientY:e.clientY);
+    const h=Math.min(window.innerHeight*0.88,Math.max(window.innerHeight*0.12,startH+(startY-y)));
+    panel.style.setProperty("--sheet-h",(h/window.innerHeight*100)+"dvh"); };
+  const onUp=()=>{ if(!dragging)return; dragging=false;panel.classList.remove("dragging");
+    const frac=hPx()/window.innerHeight; const near=snaps.reduce((a,b)=>Math.abs(b-frac)<Math.abs(a-frac)?b:a); setSheet(near); };
+  grab.addEventListener("mousedown",onDown); window.addEventListener("mousemove",onMove); window.addEventListener("mouseup",onUp);
+  grab.addEventListener("touchstart",onDown,{passive:true}); window.addEventListener("touchmove",onMove,{passive:true}); window.addEventListener("touchend",onUp);
+  grab.addEventListener("click",()=>{ const frac=hPx()/window.innerHeight; setSheet(frac<0.3?0.46:(frac<0.7?0.88:0.14)); });
+  if(window.matchMedia("(max-width:920px)").matches) setSheet(0.46);
+}
+
+/* ---------- boot ---------- */
+(async function(){
+  wireControls(); wireSheet();
+  await load();
+  buildCats();
+  initMap();
+})();
+</script>
+</body>
+</html>

@@ -427,7 +427,7 @@ const TAGS=[
 ];
 const TAG_BY_KEY={};TAGS.forEach(g=>g.items.forEach(t=>TAG_BY_KEY[t.k]=t));
 /* activity photos (free/CC, hosted in assets/events) keyed by tag — credits in _credits.json */
-const ACT_KEYS=["worldcup","watch","livemusic","karaoke","dj","comedy","trivia","yoga","zumba","pilates","running","pickleball","fitness","cycling","wine","beer","coffee","foodfest","brunch","happyhour","flea","farmers","market","crafts","art","kids","carousel","dogs"];
+const ACT_KEYS=["worldcup","watch","livemusic","karaoke","dj","comedy","trivia","yoga","zumba","pilates","running","pickleball","fitness","cycling","wine","beer","coffee","foodfest","brunch","happyhour","flea","farmers","market","crafts","art","kids","carousel","dogs","paint","outdoors","datenight"];
 const ACT_IMG={};ACT_KEYS.forEach(k=>ACT_IMG[k]="assets/events/"+k+".jpg");
 const TAG_ORDER=TAGS.flatMap(g=>g.items.map(t=>t.k));
 function imgFor(e){ if(e.image)return e.image; for(const t of TAG_ORDER){if(e._tags.has(t)&&ACT_IMG[t])return ACT_IMG[t];} return CAT_IMG[catOf(e.category)]||CAT_IMG.other; }

@@ -136,6 +136,10 @@
   .tchip:hover{color:var(--fg-soft);border-color:rgba(255,255,255,.22)}
   .tchip[aria-pressed="true"]{color:#0a0a0b;background:var(--fg);border-color:var(--fg);font-weight:700}
   .tchip.saved[aria-pressed="true"]{background:#ff5da2;border-color:#ff5da2;color:#0a0a0b}
+  .tchip.reset{margin-left:auto;color:var(--faint);font-weight:600;border-style:dashed}
+  .tchip.reset:hover{color:var(--gold-l);border-color:var(--gold-l);border-style:solid}
+  .tchip.reset.dirty{color:#0a0a0b;background:var(--gold);border-color:var(--gold);border-style:solid;box-shadow:0 0 0 4px rgba(227,196,126,.18)}
+  .tchip.reset.dirty:hover{background:var(--gold-l);border-color:var(--gold-l)}
 
   .filters{padding:8px 18px 10px;border-top:1px solid var(--line-2);border-bottom:1px solid var(--line-2)}
   .frow{display:flex;gap:7px;flex-wrap:wrap}
@@ -360,6 +364,7 @@
       <button class="tchip" data-t="weekend" aria-pressed="false">Weekend</button>
       <button class="tchip" data-t="week" aria-pressed="false">Next 7 days</button>
       <button class="tchip saved" id="savedChip" data-t="saved" aria-pressed="false">♥ Saved</button>
+      <button class="tchip reset" id="resetChip" type="button" title="Clear all filters">↺ Reset</button>
     </div>
   </div>
   <div class="filters">
@@ -639,11 +644,14 @@ function visibleEvents(){
 function uniqueVenues(evs){const m=new Map();for(const e of evs){const id=vid(e.venue);if(!m.has(id))m.set(id,VENUES.get(id));}return[...m.values()].filter(Boolean);}
 function domColorForVenue(v,evs){const c={};v.events.forEach(e=>{if(!evs||evs.includes(e)){const k=catOf(e.category);c[k]=(c[k]||0)+1;}});const t=Object.entries(c).sort((a,b)=>b[1]-a[1])[0];return colorOf(t?t[0]:catOf(v.events[0].category));}
 
+function isFiltered(){return !!(activeCats.size||activeTags.size||timeFilter!=="all"||(query||"").trim()||savedOnly||activeTowns.size<3);}
+function updateResetChip(){const el=document.getElementById("resetChip");if(el)el.classList.toggle("dirty",isFiltered());}
 function apply(opts){
   opts=opts||{};const evs=visibleEvents();
   renderList(evs);renderMap(evs);document.getElementById("count").textContent=evs.length;
   const vens=uniqueVenues(evs);
   setBeams(vens.length<=BEAM_CAP?vens:[],evs);
+  updateResetChip();
   if(opts.frame)frameVenues(vens);
 }
 
@@ -928,12 +936,13 @@ function wireControls(){
   const q=document.getElementById("q"),clr=document.getElementById("qClear");let deb;
   q.addEventListener("input",()=>{query=q.value;clr.classList.toggle("show",!!q.value);clearTimeout(deb);deb=setTimeout(()=>apply(),170);});
   clr.addEventListener("click",()=>{q.value="";query="";clr.classList.remove("show");apply();q.focus();});
-  document.querySelectorAll(".tchip").forEach(b=>b.addEventListener("click",()=>{
+  document.querySelectorAll(".tchip:not(.reset)").forEach(b=>b.addEventListener("click",()=>{
     if(b.dataset.t==="saved"){savedOnly=!savedOnly;b.setAttribute("aria-pressed",String(savedOnly));apply({frame:true});return;}
     savedOnly=false;document.getElementById("savedChip").setAttribute("aria-pressed","false");
-    document.querySelectorAll(".tchip:not(.saved)").forEach(x=>x.setAttribute("aria-pressed","false"));
+    document.querySelectorAll(".tchip:not(.saved):not(.reset)").forEach(x=>x.setAttribute("aria-pressed","false"));
     b.setAttribute("aria-pressed","true");timeFilter=b.dataset.t;apply({frame:true});
   }));
+  document.getElementById("resetChip").addEventListener("click",resetFilters);
   document.querySelectorAll("#towns .tw").forEach(b=>b.addEventListener("click",()=>{
     const t=b.dataset.town,on=b.getAttribute("aria-pressed")==="true";
     if(on&&activeTowns.size===1)return; // keep at least one

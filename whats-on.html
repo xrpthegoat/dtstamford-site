@@ -245,8 +245,11 @@
   .lback{display:none}
   @media(max-width:920px){
     /* Panel becomes a LEFT slide-in drawer (replaces the bottom-sheet) */
-    #panel{top:62px;bottom:auto;left:0;width:min(420px,92vw);max-width:92vw;height:calc(100dvh - 80px);max-height:calc(100dvh - 80px);border-radius:0 22px 22px 0;border-left:0;transform:translateX(-104%);transition:transform .32s var(--ease);pointer-events:none;padding-bottom:env(safe-area-inset-bottom);box-shadow:0 30px 80px -20px rgba(0,0,0,.95)}
+    #panel{top:62px;bottom:auto;left:0;width:min(420px,92vw);max-width:92vw;height:calc(100dvh - 80px);max-height:calc(100dvh - 80px);border-radius:0 22px 22px 0;border-left:0;transform:translateX(-104%);transition:transform .32s var(--ease);pointer-events:none;padding-bottom:env(safe-area-inset-bottom);box-shadow:0 30px 80px -20px rgba(0,0,0,.95);overflow-y:auto;overflow-x:hidden;overscroll-behavior:contain;-webkit-overflow-scrolling:touch}
     #panel.open{transform:translateX(0);pointer-events:auto}
+    /* Mobile: let everything flow inside the single scrollable panel — no nested caps. */
+    #panel .filters{max-height:none;overflow:visible}
+    #panel #list{overflow:visible;flex:0 0 auto}
     .grab{display:none}
     .p-title{font-size:1.2rem}
     .acts{max-height:150px}
@@ -271,11 +274,12 @@
     .lback{display:block;position:fixed;inset:0;z-index:47;background:rgba(5,7,11,.55);backdrop-filter:blur(2px);opacity:0;pointer-events:none;transition:.25s var(--ease)}
     .lback.on{opacity:1;pointer-events:auto}
 
-    /* Close button in drawer header */
-    .pclose{position:absolute;top:10px;right:10px;width:32px;height:32px;border-radius:50%;border:1px solid var(--line);background:rgba(15,15,19,.7);color:var(--fg-soft);font-size:18px;cursor:pointer;display:flex;align-items:center;justify-content:center;line-height:1;z-index:5}
-    .pclose:hover{color:#fff;border-color:rgba(255,255,255,.3)}
+    /* Floating Close button on top-right of the SCREEN (lives outside #panel so the panel can scroll under it). Only visible when drawer is open. */
+    .pclose{position:fixed;top:74px;right:14px;width:46px;height:46px;border-radius:50%;border:1px solid var(--gold-l);background:linear-gradient(180deg,rgba(227,196,126,.22),rgba(201,162,74,.06));color:#fff;font-size:24px;font-weight:600;cursor:pointer;display:none;align-items:center;justify-content:center;line-height:1;z-index:60;backdrop-filter:saturate(160%) blur(14px);box-shadow:0 12px 30px -10px rgba(0,0,0,.8);opacity:0;transform:translateY(-6px);transition:opacity .22s var(--ease),transform .22s var(--ease)}
+    .pclose.show{display:flex;opacity:1;transform:translateY(0)}
+    .pclose:hover,.pclose:active{background:var(--gold);color:#0a0a0b;border-color:var(--gold)}
   }
-  @media(min-width:921px){.pclose{display:none}}
+  @media(min-width:921px){.pclose{display:none!important}}
 
   /* ===== rich photo popup ===== */
   .mapboxgl-popup{max-width:340px!important;z-index:55}
@@ -405,7 +409,6 @@
 
 <aside id="panel" aria-label="Event browser">
   <div class="grab" id="grab"><i></i></div>
-  <button class="pclose" id="pClose" aria-label="Close panel" type="button">×</button>
   <div class="p-head">
     <div class="p-kicker"><span class="pulse"></span> Stamford Live · What's On</div>
     <h1 class="p-title">What's on near you</h1>
@@ -444,8 +447,9 @@
   <div id="list"></div>
 </aside>
 
-<!-- Mobile left-edge rail + drawer backdrop (CSS hides both on desktop) -->
+<!-- Mobile left-edge rail + drawer backdrop + floating close (CSS hides all on desktop) -->
 <div class="lback" id="lBack"></div>
+<button class="pclose" id="pClose" aria-label="Close panel" type="button">×</button>
 <nav class="lrail" id="lRail" aria-label="Open panel">
   <button class="lbtn hot" data-rail="featured" type="button"><span class="lic">🔥</span><span class="llb">Featured<span class="lcount" id="lcFeat"></span></span><span class="ldot"></span></button>
   <button class="lbtn"     data-rail="filters"  type="button"><span class="lic">🎯</span><span class="llb">Filters<span class="lcount" id="lcFilt"></span></span></button>
@@ -1201,6 +1205,7 @@ function openMobilePanel(which){
   _mRail=which||"featured";
   document.getElementById("panel").classList.add("open");
   document.getElementById("lBack").classList.add("on");
+  document.getElementById("pClose").classList.add("show");
   document.querySelectorAll(".lrail .lbtn").forEach(b=>b.classList.toggle("on",b.dataset.rail===_mRail));
   /* if categories haven't been opened yet on mobile and user tapped Filters, auto-open the More-filters group */
   if(which==="filters"){const fb=document.getElementById("filtersBox"),ft=document.getElementById("filtersToggle");
@@ -1210,6 +1215,7 @@ function openMobilePanel(which){
 function closeMobilePanel(){
   document.getElementById("panel").classList.remove("open");
   document.getElementById("lBack").classList.remove("on");
+  document.getElementById("pClose").classList.remove("show");
   document.querySelectorAll(".lrail .lbtn").forEach(b=>b.classList.remove("on"));
   _mRail="";
 }

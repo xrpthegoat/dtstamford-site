@@ -117,12 +117,13 @@
   .p-sub{font-size:.8rem;color:var(--muted);margin-top:4px}
   .p-sub b{color:var(--fg-soft);font-weight:600}
   .p-sub a{color:var(--gold-l);border-bottom:1px dotted rgba(227,196,126,.4);cursor:pointer}
-  .signInBtn{display:flex;align-items:center;gap:11px;width:100%;margin-top:11px;padding:11px 14px;border-radius:14px;border:1px solid rgba(227,196,126,.55);background:linear-gradient(180deg,rgba(227,196,126,.22),rgba(201,162,74,.08));color:var(--fg);cursor:pointer;text-align:left;font-family:var(--sans);transition:.18s var(--ease)}
-  .signInBtn:hover{border-color:var(--gold);background:linear-gradient(180deg,rgba(227,196,126,.32),rgba(201,162,74,.14));box-shadow:0 8px 22px -12px rgba(201,162,74,.7)}
-  .signInBtn .siAv{flex:0 0 32px;width:32px;height:32px;border-radius:50%;background:var(--gold);color:#0a0a0b;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:.95rem;font-family:var(--disp);box-shadow:0 0 0 1px rgba(255,255,255,.08) inset}
-  .signInBtn .siTxt{display:flex;flex-direction:column;min-width:0;flex:1}
-  .signInBtn .siLb{font-weight:700;font-size:.92rem;color:#fff;letter-spacing:-.01em;line-height:1.15}
-  .signInBtn .siSub{font-size:.7rem;color:var(--gold-l);margin-top:2px;font-family:var(--mono);letter-spacing:.02em}
+  .signInBtn{display:inline-flex;align-items:center;gap:9px;margin-top:9px;padding:7px 13px 7px 7px;border-radius:999px;border:1px solid rgba(227,196,126,.55);background:linear-gradient(180deg,rgba(227,196,126,.22),rgba(201,162,74,.08));color:var(--fg);cursor:pointer;text-align:left;font-family:var(--sans);transition:.18s var(--ease)}
+  .signInBtn:hover{border-color:var(--gold);background:linear-gradient(180deg,rgba(227,196,126,.32),rgba(201,162,74,.14));box-shadow:0 6px 18px -10px rgba(201,162,74,.7)}
+  .signInBtn .siAv{flex:0 0 24px;width:24px;height:24px;border-radius:50%;background:var(--gold);color:#0a0a0b;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:.75rem;font-family:var(--disp)}
+  .signInBtn .siTxt{display:flex;align-items:baseline;gap:8px;min-width:0}
+  .signInBtn .siLb{font-weight:700;font-size:.84rem;color:#fff;letter-spacing:-.01em;line-height:1;white-space:nowrap}
+  .signInBtn .siSub{font-size:.62rem;color:var(--gold-l);font-family:var(--mono);letter-spacing:.02em;white-space:nowrap}
+  @media (max-width:480px){.signInBtn .siSub{display:none}}
   .signInBtn.signedIn{border-color:rgba(95,224,138,.45);background:linear-gradient(180deg,rgba(95,224,138,.16),rgba(95,224,138,.04))}
   .signInBtn.signedIn .siAv{background:#7af0a6;color:#062013}
   .signInBtn.signedIn .siSub{color:#7af0a6}
@@ -183,7 +184,7 @@
   .achip[aria-pressed="true"]{border-color:var(--gold-l);background:linear-gradient(180deg,rgba(227,196,126,.2),rgba(201,162,74,.08));color:#fff}
   .achip[aria-pressed="true"] .n{color:var(--gold-l)}
   /* featured row */
-  .featwrap{margin:0 0 11px}
+  .featwrap{padding:11px 18px 12px;border-top:1px solid var(--line-2);border-bottom:1px solid var(--line-2);background:linear-gradient(180deg,rgba(255,90,40,.04),transparent 60%)}
   .featlbl{font-family:var(--mono);font-size:.58rem;letter-spacing:.16em;text-transform:uppercase;color:var(--gold-l);margin-bottom:7px}
   .featrow{display:flex;gap:7px;flex-wrap:wrap}
   .fchip{position:relative;display:inline-flex;align-items:center;gap:6px;padding:7px 12px;border-radius:999px;cursor:pointer;user-select:none;font-size:.78rem;font-weight:600;color:#fff;border:1px solid rgba(227,196,126,.5);background:linear-gradient(180deg,rgba(227,196,126,.16),rgba(201,162,74,.05));transition:.16s var(--ease);white-space:nowrap}
@@ -403,11 +404,11 @@
       <button class="tchip reset" id="resetChip" type="button" title="Clear all filters">↺ Reset</button>
     </div>
   </div>
+  <div class="featwrap" id="featWrap" hidden><div class="featlbl">🔥 Featured now</div><div class="featrow" id="feat" role="group" aria-label="Featured filters"></div></div>
   <button class="filtersToggle" id="filtersToggle" aria-expanded="true" type="button">
-    <span class="ftI">▾</span><span>Filters</span><span class="ftN" id="filtersOnCount"></span>
+    <span class="ftI">▾</span><span>More filters</span><span class="ftN" id="filtersOnCount"></span>
   </button>
   <div class="filters" id="filtersBox">
-    <div class="featwrap" id="featWrap" hidden><div class="featlbl">🔥 Featured now</div><div class="featrow" id="feat" role="group" aria-label="Featured filters"></div></div>
     <div class="frow" id="cats" role="group" aria-label="Category filter"></div>
     <button class="actToggle" id="actToggle" aria-expanded="false">Pick a vibe <span class="chev">▾</span><span class="ac" id="actCount"></span></button>
     <div class="acts collapsed" id="acts" role="group" aria-label="Activity filter"></div>

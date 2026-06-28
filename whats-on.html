@@ -240,15 +240,42 @@
   .empty button{margin-top:14px;font-family:var(--mono);font-size:.7rem;text-transform:uppercase;letter-spacing:.06em;color:var(--gold-l);background:transparent;border:1px solid var(--line);padding:8px 14px;border-radius:999px;cursor:pointer}
 
   .grab{display:none}
+  /* mobile rail + drawer (default hidden on desktop) */
+  .lrail{display:none}
+  .lback{display:none}
   @media(max-width:920px){
-    #panel{top:auto;bottom:0;left:0;width:100%;max-width:100%;border-radius:22px 22px 0 0;max-height:90dvh;height:var(--sheet-h,48dvh);transition:height .34s var(--ease);border-bottom:0;padding-bottom:env(safe-area-inset-bottom)}
-    #panel.dragging{transition:none}
-    .grab{display:flex;justify-content:center;padding:9px 0 3px;cursor:grab;touch-action:none}
-    .grab i{width:38px;height:4px;border-radius:4px;background:rgba(255,255,255,.26)}
+    /* Panel becomes a LEFT slide-in drawer (replaces the bottom-sheet) */
+    #panel{top:62px;bottom:auto;left:0;width:min(420px,92vw);max-width:92vw;height:calc(100dvh - 80px);max-height:calc(100dvh - 80px);border-radius:0 22px 22px 0;border-left:0;transform:translateX(-104%);transition:transform .32s var(--ease);pointer-events:none;padding-bottom:env(safe-area-inset-bottom);box-shadow:0 30px 80px -20px rgba(0,0,0,.95)}
+    #panel.open{transform:translateX(0);pointer-events:auto}
+    .grab{display:none}
     .p-title{font-size:1.2rem}
-    .mapctl{top:auto;bottom:calc(var(--sheet-h,48dvh) + 14px);transition:bottom .34s var(--ease)}
     .acts{max-height:150px}
+    /* map controls float top-right always now (no bottom sheet to dodge) */
+    .mapctl{top:auto;bottom:18px}
+
+    /* Left-edge rail — stacked pill buttons that open the drawer */
+    .lrail{display:flex;flex-direction:column;gap:9px;position:fixed;left:0;top:50%;transform:translateY(-50%);z-index:48;padding:8px 0;align-items:flex-start;pointer-events:none}
+    .lrail .lbtn{pointer-events:auto;position:relative;display:flex;align-items:center;gap:6px;padding:11px 14px 11px 11px;border:1px solid var(--line);border-left:0;border-radius:0 16px 16px 0;background:var(--panel);backdrop-filter:saturate(160%) blur(14px);color:var(--fg-soft);font-family:var(--mono);font-size:.62rem;letter-spacing:.12em;text-transform:uppercase;font-weight:700;cursor:pointer;box-shadow:0 14px 36px -22px #000;transition:.18s var(--ease);white-space:nowrap;max-width:54px;overflow:hidden}
+    .lrail .lbtn:hover,.lrail .lbtn.on{max-width:220px;border-color:rgba(227,196,126,.55);color:#fff}
+    .lrail .lbtn .lic{font-size:.95rem;line-height:1;flex:0 0 22px;width:22px;text-align:center}
+    .lrail .lbtn .llb{opacity:0;transform:translateX(-6px);transition:.22s var(--ease)}
+    .lrail .lbtn:hover .llb,.lrail .lbtn.on .llb{opacity:1;transform:translateX(0)}
+    .lrail .lbtn .lcount{margin-left:6px;background:var(--gold);color:#0a0a0b;border-radius:999px;padding:1px 7px;font-size:.55rem;font-weight:800}
+    .lrail .lbtn.on{background:linear-gradient(180deg,rgba(227,196,126,.22),rgba(201,162,74,.06))}
+    .lrail .lbtn.hot.on{background:linear-gradient(180deg,rgba(255,90,40,.24),rgba(255,90,40,.05));border-color:rgba(255,122,60,.6)}
+    .lrail .lbtn.hot .lic{color:#ff7a3c}
+    .lrail .lbtn .ldot{position:absolute;right:-3px;top:8px;width:7px;height:7px;border-radius:50%;background:#ff5a28;box-shadow:0 0 8px 1px rgba(255,90,40,.7);display:none}
+    .lrail .lbtn.hot .ldot{display:block}
+
+    /* Dim backdrop while drawer is open */
+    .lback{display:block;position:fixed;inset:0;z-index:47;background:rgba(5,7,11,.55);backdrop-filter:blur(2px);opacity:0;pointer-events:none;transition:.25s var(--ease)}
+    .lback.on{opacity:1;pointer-events:auto}
+
+    /* Close button in drawer header */
+    .pclose{position:absolute;top:10px;right:10px;width:32px;height:32px;border-radius:50%;border:1px solid var(--line);background:rgba(15,15,19,.7);color:var(--fg-soft);font-size:18px;cursor:pointer;display:flex;align-items:center;justify-content:center;line-height:1;z-index:5}
+    .pclose:hover{color:#fff;border-color:rgba(255,255,255,.3)}
   }
+  @media(min-width:921px){.pclose{display:none}}
 
   /* ===== rich photo popup ===== */
   .mapboxgl-popup{max-width:340px!important;z-index:55}
@@ -295,7 +322,7 @@
   #toast .tt{font-weight:600;font-size:.9rem;margin-top:2px;line-height:1.25}
   #toast .tbtn{margin-top:9px;padding:8px 15px;border-radius:10px;border:0;background:var(--gold);color:#0a0a0b;font-weight:700;font-size:.78rem;cursor:pointer;transition:.15s}
   #toast .tbtn:hover{background:var(--gold-l)}
-  @media(max-width:920px){#toast{bottom:calc(var(--sheet-h,48dvh) + 16px)}}
+  @media(max-width:920px){#toast{bottom:20px;left:50%;transform:translateX(-50%);right:auto}}
 
   /* modals (sources + signup) */
   .modal{position:fixed;inset:0;z-index:95;display:none;place-items:center;background:rgba(6,6,8,.7);backdrop-filter:blur(5px);padding:20px}
@@ -378,6 +405,7 @@
 
 <aside id="panel" aria-label="Event browser">
   <div class="grab" id="grab"><i></i></div>
+  <button class="pclose" id="pClose" aria-label="Close panel" type="button">×</button>
   <div class="p-head">
     <div class="p-kicker"><span class="pulse"></span> Stamford Live · What's On</div>
     <h1 class="p-title">What's on near you</h1>
@@ -415,6 +443,14 @@
   </div>
   <div id="list"></div>
 </aside>
+
+<!-- Mobile left-edge rail + drawer backdrop (CSS hides both on desktop) -->
+<div class="lback" id="lBack"></div>
+<nav class="lrail" id="lRail" aria-label="Open panel">
+  <button class="lbtn hot" data-rail="featured" type="button"><span class="lic">🔥</span><span class="llb">Featured<span class="lcount" id="lcFeat"></span></span><span class="ldot"></span></button>
+  <button class="lbtn"     data-rail="filters"  type="button"><span class="lic">🎯</span><span class="llb">Filters<span class="lcount" id="lcFilt"></span></span></button>
+  <button class="lbtn"     data-rail="events"   type="button"><span class="lic">📋</span><span class="llb">Events<span class="lcount" id="lcEv"></span></span></button>
+</nav>
 
 <div id="toast"><div class="tk" id="toastK"></div><div class="tt" id="toastT"></div><button class="tbtn" id="toastBtn" style="display:none"></button></div>
 
@@ -742,6 +778,7 @@ function apply(opts){
   const vens=uniqueVenues(evs);
   setBeams(vens.length<=BEAM_CAP?vens:[],evs);
   updateResetChip();
+  try{updateRailCounts();}catch(_){}
   if(opts.frame)frameVenues(vens);
 }
 
@@ -769,8 +806,8 @@ function renderList(evs){
   list.innerHTML=html;
   list.querySelectorAll(".card").forEach(card=>{
     const e=evs.find(x=>eid(x)===card.dataset.id);
-    card.addEventListener("click",ev=>{if(ev.target.closest(".fav")||ev.target.closest(".cshare"))return;focusVenue(vid(e.venue),{card,event:e});});
-    card.addEventListener("keydown",ev=>{if(ev.key==="Enter"||ev.key===" "){ev.preventDefault();focusVenue(vid(e.venue),{card,event:e});}});
+    card.addEventListener("click",ev=>{if(ev.target.closest(".fav")||ev.target.closest(".cshare"))return;if(isMobile())closeMobilePanel();focusVenue(vid(e.venue),{card,event:e});});
+    card.addEventListener("keydown",ev=>{if(ev.key==="Enter"||ev.key===" "){ev.preventDefault();if(isMobile())closeMobilePanel();focusVenue(vid(e.venue),{card,event:e});}});
     card.querySelector(".fav").addEventListener("click",()=>toggleFav(eid(e)));
     card.querySelector(".cshare").addEventListener("click",()=>shareEvent(eid(e)));
   });
@@ -804,7 +841,14 @@ function positionBeams(){
 }
 
 /* ---- camera ---- */
-function padObj(){if(isMobile()){const sh=parseFloat(getComputedStyle(document.getElementById("panel")).height)||300;return{top:120,bottom:Math.min(sh+24,innerHeight*0.6),left:30,right:30};}return{top:130,bottom:70,left:430,right:70};}
+function padObj(){
+  if(isMobile()){
+    const drawerOpen=document.getElementById("panel")&&document.getElementById("panel").classList.contains("open");
+    const drawerW=drawerOpen?Math.min(innerWidth*0.92,420):0;
+    return{top:120,bottom:90,left:drawerW+22,right:22};
+  }
+  return{top:130,bottom:70,left:430,right:70};
+}
 function frameVenues(venues){
   if(!MAP||!venues.length)return;
   if(venues.length===1){const v=venues[0];MAP.easeTo({center:[v.lng,v.lat],zoom:17,pitch:64,bearing:-18,duration:1400,essential:true});return;}
@@ -931,7 +975,15 @@ function venuePopup(id,preferEvent){
   ctBump(viewKey(id0),1).then(n=>setCount("vc",id0,n));
   ctRead(favKey(id0)).then(n=>setCount("fc",id0,n));
 }
-function focusOffset(){const H=innerHeight;if(isMobile())return[0,Math.round(H*0.14)];return[180,Math.round(H*0.16)];}
+function focusOffset(){
+  const H=innerHeight;
+  if(isMobile()){
+    const drawerOpen=document.getElementById("panel")&&document.getElementById("panel").classList.contains("open");
+    const drawerW=drawerOpen?Math.min(innerWidth*0.92,420):0;
+    return[Math.round(drawerW*0.5),0];
+  }
+  return[180,Math.round(H*0.16)];
+}
 function ensurePopupVisible(){
   if(!popup)return;const el=popup.getElement();if(!el)return;
   const card=el.querySelector(".pcard")||el;const r=card.getBoundingClientRect();
@@ -1127,18 +1179,60 @@ function openSitter(){
 function closeSitter(){document.getElementById("sitterModal").classList.remove("show");}
 document.getElementById("sitterModal").addEventListener("click",e=>{if(e.target.id==="sitterModal")closeSitter();});
 
-/* ---- mobile sheet ---- */
-function setSheet(frac){document.getElementById("panel").style.setProperty("--sheet-h",(frac*100)+"dvh");}
+/* ---- mobile drawer (replaces old bottom-sheet) ----
+   Three left-edge rail buttons open the panel as a left slide-in, scrolled to
+   the relevant section (Featured / Filters / Events). Re-tap closes. */
+function setSheet(_){/* legacy no-op kept so older calls don't throw */}
+let _mRail="";
+function panelScrollTo(which){
+  const p=document.getElementById("panel");if(!p)return;
+  const tgt = which==="featured" ? document.getElementById("featWrap")
+           : which==="filters"  ? document.getElementById("filtersToggle")
+           : document.getElementById("list");
+  if(!tgt) return;
+  /* offset so the section sits below the sticky panel head */
+  const head=document.querySelector("#panel .p-head");
+  const offset=(head?head.getBoundingClientRect().height:0)+8;
+  const top=tgt.offsetTop-offset;
+  p.scrollTo({top:Math.max(0,top),behavior:"smooth"});
+}
+function openMobilePanel(which){
+  if(!isMobile())return;
+  _mRail=which||"featured";
+  document.getElementById("panel").classList.add("open");
+  document.getElementById("lBack").classList.add("on");
+  document.querySelectorAll(".lrail .lbtn").forEach(b=>b.classList.toggle("on",b.dataset.rail===_mRail));
+  /* if categories haven't been opened yet on mobile and user tapped Filters, auto-open the More-filters group */
+  if(which==="filters"){const fb=document.getElementById("filtersBox"),ft=document.getElementById("filtersToggle");
+    if(fb.classList.contains("collapsed")){fb.classList.remove("collapsed");ft.setAttribute("aria-expanded","true");}}
+  requestAnimationFrame(()=>panelScrollTo(_mRail));
+}
+function closeMobilePanel(){
+  document.getElementById("panel").classList.remove("open");
+  document.getElementById("lBack").classList.remove("on");
+  document.querySelectorAll(".lrail .lbtn").forEach(b=>b.classList.remove("on"));
+  _mRail="";
+}
 function wireSheet(){
-  const panel=document.getElementById("panel"),grab=document.getElementById("grab");const snaps=[0.14,0.48,0.9];let sy=0,sh=0,drag=false;
-  const hPx=()=>panel.getBoundingClientRect().height;
-  const dn=e=>{drag=true;panel.classList.add("dragging");sy=(e.touches?e.touches[0].clientY:e.clientY);sh=hPx();};
-  const mv=e=>{if(!drag)return;const y=(e.touches?e.touches[0].clientY:e.clientY);const h=Math.min(innerHeight*.9,Math.max(innerHeight*.12,sh+(sy-y)));panel.style.setProperty("--sheet-h",(h/innerHeight*100)+"dvh");};
-  const up=()=>{if(!drag)return;drag=false;panel.classList.remove("dragging");const f=hPx()/innerHeight;setSheet(snaps.reduce((a,b)=>Math.abs(b-f)<Math.abs(a-f)?b:a));};
-  grab.addEventListener("mousedown",dn);addEventListener("mousemove",mv);addEventListener("mouseup",up);
-  grab.addEventListener("touchstart",dn,{passive:true});addEventListener("touchmove",mv,{passive:true});addEventListener("touchend",up);
-  grab.addEventListener("click",()=>{const f=hPx()/innerHeight;setSheet(f<0.3?0.48:(f<0.7?0.9:0.14));});
-  if(isMobile())setSheet(0.48);
+  /* rail buttons + backdrop */
+  document.querySelectorAll(".lrail .lbtn").forEach(b=>{
+    b.addEventListener("click",()=>{const w=b.dataset.rail;_mRail===w?closeMobilePanel():openMobilePanel(w);});
+  });
+  document.getElementById("lBack").addEventListener("click",closeMobilePanel);
+  document.getElementById("pClose").addEventListener("click",closeMobilePanel);
+  /* if the viewport grows (rotate / window resize) close any open drawer */
+  matchMedia("(min-width:921px)").addEventListener("change",e=>{if(e.matches)closeMobilePanel();});
+  updateRailCounts();
+}
+function updateRailCounts(){
+  const f=document.getElementById("lcFeat"),fl=document.getElementById("lcFilt"),ev=document.getElementById("lcEv");
+  if(!f)return;
+  const featCount=(()=>{let n=0;document.querySelectorAll('.fchip[aria-pressed="true"]').forEach(()=>n++);return n;})();
+  const filtCount=(typeof activeFilterCount==='function')?activeFilterCount():0;
+  const evCount=(typeof visibleEvents==='function'&&EVENTS&&EVENTS.length)?visibleEvents().length:(EVENTS||[]).length;
+  f.textContent=featCount?String(featCount):"";
+  fl.textContent=filtCount?String(filtCount):"";
+  ev.textContent=evCount?String(evCount):"";
 }
 
 /* ---- boot ---- */

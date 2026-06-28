@@ -123,7 +123,6 @@
   .signInBtn .siTxt{display:flex;align-items:baseline;gap:8px;min-width:0}
   .signInBtn .siLb{font-weight:700;font-size:.84rem;color:#fff;letter-spacing:-.01em;line-height:1;white-space:nowrap}
   .signInBtn .siSub{font-size:.62rem;color:var(--gold-l);font-family:var(--mono);letter-spacing:.02em;white-space:nowrap}
-  @media (max-width:480px){.signInBtn .siSub{display:none}}
   .signInBtn.signedIn{border-color:rgba(95,224,138,.45);background:linear-gradient(180deg,rgba(95,224,138,.16),rgba(95,224,138,.04))}
   .signInBtn.signedIn .siAv{background:#7af0a6;color:#062013}
   .signInBtn.signedIn .siSub{color:#7af0a6}
@@ -160,6 +159,14 @@
   .filters{padding:8px 18px 10px;border-top:1px solid var(--line-2);border-bottom:1px solid var(--line-2);max-height:min(34dvh,260px);overflow-y:auto;overscroll-behavior:contain;scrollbar-width:thin;scrollbar-color:rgba(255,255,255,.18) transparent;transition:max-height .26s var(--ease),padding .26s var(--ease)}
   .filters::-webkit-scrollbar{width:7px}.filters::-webkit-scrollbar-thumb{background:rgba(255,255,255,.16);border-radius:8px}
   .filters.collapsed{max-height:0;padding-top:0;padding-bottom:0;border-bottom-width:0;overflow:hidden}
+  /* Results toggle — mirrors .filtersToggle so the panel has matching affordances above + below the filters */
+  .resultsToggle{display:flex;align-items:center;gap:8px;width:100%;padding:9px 18px;background:transparent;border:0;border-top:1px solid var(--line-2);border-bottom:1px solid var(--line-2);color:var(--fg-soft);font-family:var(--mono);font-size:.62rem;letter-spacing:.16em;text-transform:uppercase;cursor:pointer;text-align:left;transition:.16s var(--ease)}
+  .resultsToggle:hover{color:var(--gold-l);background:rgba(255,255,255,.02)}
+  .resultsToggle .rtI{display:inline-block;font-size:.75rem;color:var(--gold-l);transition:transform .22s var(--ease);width:14px}
+  .resultsToggle[aria-expanded="false"] .rtI{transform:rotate(-90deg)}
+  .resultsToggle .rtN{margin-left:auto;font-family:var(--mono);font-size:.58rem;color:#0a0a0b;background:var(--gold-l);border-radius:999px;padding:2px 9px;letter-spacing:.05em;display:none}
+  .resultsToggle .rtN.show{display:inline-block}
+  #list.collapsed{display:none}
   .frow{display:flex;gap:7px;flex-wrap:wrap}
   .cchip{display:inline-flex;align-items:center;gap:7px;font-size:.76rem;font-weight:500;padding:6px 11px 6px 9px;border-radius:999px;border:1px solid var(--line);color:var(--fg-soft);cursor:pointer;transition:.18s var(--ease);background:transparent;user-select:none}
   .cchip:hover{border-color:rgba(255,255,255,.26)}
@@ -415,7 +422,7 @@
     <p class="p-sub"><b id="count">—</b> events · <a id="srcLink">sources</a></p>
     <button class="signInBtn" id="signInBtn" type="button">
       <span class="siAv" id="siAv">↪</span>
-      <span class="siTxt"><span class="siLb" id="siLb">Sign in / Sign up</span><span class="siSub" id="siSub">save your favorites · sync across devices</span></span>
+      <span class="siTxt"><span class="siLb" id="siLb">Sign in / Sign up</span><span class="siSub" id="siSub">save faves · sync devices</span></span>
     </button>
     <div class="searchrow">
       <div class="search">
@@ -444,6 +451,9 @@
     <button class="actToggle" id="actToggle" aria-expanded="false">Pick a vibe <span class="chev">▾</span><span class="ac" id="actCount"></span></button>
     <div class="acts collapsed" id="acts" role="group" aria-label="Activity filter"></div>
   </div>
+  <button class="resultsToggle" id="resultsToggle" aria-expanded="true" type="button">
+    <span class="rtI">▾</span><span>Results</span><span class="rtN" id="resultsCount"></span>
+  </button>
   <div id="list"></div>
 </aside>
 
@@ -764,12 +774,12 @@ function updateAuthBtn(){const b=document.getElementById("signInBtn");if(!b)retu
     const first=USER.first_name||(USER.name||"").split(" ")[0]||(USER.email||"").split("@")[0]||"Friend";
     const initials=((first[0]||"")+((USER.last_name||(USER.name||"").split(" ")[1]||"")[0]||"")).toUpperCase()||"♥";
     av.textContent=initials; lb.textContent="Hey, "+first;
-    sub.textContent="signed in · tap to sign out";
+    sub.textContent="tap to sign out";
     b.title="Signed in as "+(USER.email||"");
   } else {
     b.classList.remove("signedIn");
     av.textContent="↪"; lb.textContent="Sign in / Sign up";
-    sub.textContent="save your favorites · sync across devices";
+    sub.textContent="save faves · sync devices";
     b.title="Create a free account in 5 seconds";
   }}
 function isFiltered(){return !!(activeCats.size||activeTags.size||timeFilter!=="all"||(query||"").trim()||savedOnly||activeTowns.size<3);}
@@ -779,6 +789,8 @@ function updateResetChip(){const el=document.getElementById("resetChip");if(el)e
 function apply(opts){
   opts=opts||{};const evs=visibleEvents();
   renderList(evs);renderMap(evs);document.getElementById("count").textContent=evs.length;
+  const rn=document.getElementById("resultsCount");
+  if(rn){rn.textContent=evs.length;rn.classList.toggle("show",evs.length>0);}
   const vens=uniqueVenues(evs);
   setBeams(vens.length<=BEAM_CAP?vens:[],evs);
   updateResetChip();
@@ -1130,6 +1142,11 @@ function wireControls(){
   const fOpen=(localStorage.getItem("filtersOpen")||"0")==="1";
   ft.setAttribute("aria-expanded",String(fOpen));fb.classList.toggle("collapsed",!fOpen);
   ft.onclick=()=>{const o=ft.getAttribute("aria-expanded")==="true";ft.setAttribute("aria-expanded",String(!o));fb.classList.toggle("collapsed",o);localStorage.setItem("filtersOpen",o?"0":"1");};
+  /* Results hide/expand toggle — same pattern. Default expanded; persisted. */
+  const rt=document.getElementById("resultsToggle"),list=document.getElementById("list");
+  const rOpen=(localStorage.getItem("resultsOpen")||"1")==="1";
+  rt.setAttribute("aria-expanded",String(rOpen));list.classList.toggle("collapsed",!rOpen);
+  rt.onclick=()=>{const o=rt.getAttribute("aria-expanded")==="true";rt.setAttribute("aria-expanded",String(!o));list.classList.toggle("collapsed",o);localStorage.setItem("resultsOpen",o?"0":"1");};
   window.addEventListener("keydown",e=>{if(e.target.tagName==="INPUT")return;if(e.key==="r"||e.key==="R")surprise();});
   document.getElementById("srcLink").onclick=e=>{e.preventDefault();openSources();};
   document.getElementById("signInBtn").onclick=()=>{if(USER){if(confirm("Signed in as "+USER.email+". Sign out?"))signOut().then(updateAuthBtn);}else openSignup();};

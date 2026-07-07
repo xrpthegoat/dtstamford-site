@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#08080a">
+<title>Stamford Live — Events Map | Downtown Stamford</title>
+<meta name="description" content="The live Stamford Live events map — every happening across Stamford, Greenwich &amp; Norwalk on one glowing map. Presented by Downtown Stamford.">
+<link rel="canonical" href="https://dtstamford.com/live-map.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Downtown Stamford">
+<meta property="og:title" content="Stamford Live — Events Map">
+<meta property="og:description" content="Every Stamford-area event on one live map. Presented by Downtown Stamford.">
+<meta property="og:url" content="https://dtstamford.com/live-map.html">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="icon" href="assets/logo-black.png">
+<link rel="apple-touch-icon" href="assets/logo-black.png">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","name":"Stamford Live — Events Map","url":"https://dtstamford.com/live-map.html","description":"The live Stamford Live events map, presented by Downtown Stamford.","isPartOf":{"@type":"WebSite","name":"Downtown Stamford","url":"https://dtstamford.com/"},"about":{"@type":"Place","name":"Stamford, Connecticut"}}
+</script>
+<style>
+  :root{
+    --bg:#08080a; --fg:#f3f3f5; --muted:#7e7f8a; --line:rgba(255,255,255,.10);
+    --gold:#c9a24a; --gold-l:#e3c47e;
+    --sans:"Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+    --disp:"Space Grotesk","Inter",sans-serif; --mono:"Space Mono",ui-monospace,Menlo,monospace;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{height:100%}
+  body{font-family:var(--sans);background:var(--bg);color:var(--fg);overflow:hidden;-webkit-font-smoothing:antialiased;display:flex;flex-direction:column}
+  a{color:inherit;text-decoration:none}
+  /* slim branded bar */
+  .lm-bar{flex:0 0 auto;display:flex;align-items:center;gap:16px;padding:12px 20px;border-bottom:1px solid var(--line);background:rgba(8,8,10,.92);backdrop-filter:blur(10px)}
+  .lm-back{font-family:var(--mono);font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);transition:color .2s;white-space:nowrap}
+  .lm-back:hover{color:var(--fg)}
+  .lm-brand{display:flex;align-items:center;gap:9px;font-family:var(--disp);font-weight:600;font-size:.98rem;letter-spacing:-.01em}
+  .lm-brand .dot{width:7px;height:7px;border-radius:50%;background:var(--gold-l);box-shadow:0 0 10px var(--gold-l)}
+  .lm-tag{margin-left:auto;font-family:var(--mono);font-size:.66rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+  .lm-open{font-family:var(--mono);font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;color:var(--gold-l);border:1px solid rgba(201,162,74,.4);border-radius:8px;padding:7px 12px;transition:.2s}
+  .lm-open:hover{background:rgba(201,162,74,.12)}
+  /* full-page map widget */
+  .lm-frame{flex:1 1 auto;position:relative;background:#08080a}
+  .lm-frame iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+  .lm-load{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:14px;color:var(--muted);font-family:var(--mono);font-size:.78rem;letter-spacing:.08em;pointer-events:none;transition:opacity .5s}
+  .lm-load .ring{width:34px;height:34px;border:2px solid rgba(255,255,255,.12);border-top-color:var(--gold-l);border-radius:50%;animation:sp 1s linear infinite}
+  @keyframes sp{to{transform:rotate(360deg)}}
+  @media(max-width:560px){.lm-tag{display:none}}
+</style>
+</head>
+<body>
+  <div class="lm-bar">
+    <a class="lm-back" href="index.html">&larr; Downtown Stamford</a>
+    <span class="lm-brand"><span class="dot"></span>Stamford Live</span>
+    <span class="lm-tag">Live Events Map</span>
+    <a class="lm-open" href="https://stamfordlive.com" target="_blank" rel="noopener">Open full site &nearr;</a>
+  </div>
+  <div class="lm-frame">
+    <div class="lm-load" id="lmLoad"><div class="ring"></div>Loading the live map…</div>
+    <iframe src="https://stamfordlive.com" title="Stamford Live — live events map"
+      loading="eager" allow="geolocation; fullscreen; clipboard-write"
+      referrerpolicy="no-referrer-when-downgrade"
+      onload="var l=document.getElementById('lmLoad');if(l){l.style.opacity=0;setTimeout(function(){l.remove()},500);}"></iframe>
+  </div>
+</body>
+</html>

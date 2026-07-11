@@ -67,7 +67,7 @@
   "address": { "@type": "PostalAddress", "addressLocality": "Stamford", "addressRegion": "CT", "addressCountry": "US" },
   "geo": { "@type": "GeoCoordinates", "latitude": 41.0534, "longitude": -73.5387 },
   "memberOf": { "@type": "Organization", "name": "Jarah Tuttle LLC" },
-  "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "85", "bestRating": "5", "worstRating": "1" },
+  "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "89", "bestRating": "5", "worstRating": "1" },
   "sameAs": [
     "https://www.instagram.com/downtownstamford",
     "https://www.facebook.com/Stamfordrealtornear",
@@ -211,10 +211,15 @@
   .nav-links a::after{content:"";position:absolute;left:0;bottom:-2px;height:1px;width:0;background:var(--gold-l);transition:width .35s var(--spring)}
   .nav-links a:hover::after{width:100%}
   .nav-right{display:flex;align-items:center;gap:10px;flex:0 0 auto}
-  .btn-call{padding:10px 12px 10px 18px;font-size:.76rem}
-  .btn-call .ic{width:30px;height:30px}
+  /* live Events pill — links to the Stamford Live events map */
+  .btn-events{display:inline-flex;align-items:center;gap:9px;padding:10px 18px;border-radius:999px;font-family:var(--sans);font-size:.8rem;font-weight:600;letter-spacing:.01em;white-space:nowrap;color:var(--fg);
+    border:1px solid rgba(238,214,163,.3);background:rgba(238,214,163,.06);box-shadow:inset 0 1px 0 rgba(255,255,255,.05);transition:transform .5s var(--spring),background .35s,border-color .35s}
+  .btn-events:hover{background:rgba(238,214,163,.13);border-color:rgba(238,214,163,.55);transform:translateY(-1px)}
+  .btn-events .livedot{position:relative;width:8px;height:8px;border-radius:50%;background:var(--gold-l);flex:0 0 auto;box-shadow:0 0 8px 1px rgba(238,214,163,.75)}
+  .btn-events .livedot::after{content:"";position:absolute;inset:-4px;border-radius:50%;border:1px solid var(--gold-l);animation:elive 1.9s var(--spring) infinite}
+  @keyframes elive{0%{transform:scale(.5);opacity:.9}100%{transform:scale(1.9);opacity:0}}
   @media(max-width:1080px){.nav-links{display:none}}
-  @media(max-width:600px){.brand .wordmark{display:none}.btn-call .lbl{display:none}}
+  @media(max-width:600px){.brand .wordmark{display:none}}
 
   /* hamburger */
   .navtoggle{display:none;position:relative;width:44px;height:44px;border:1px solid var(--line);border-radius:999px;background:rgba(255,255,255,.03);cursor:pointer;flex:0 0 auto}
@@ -225,23 +230,39 @@
   .navtoggle[aria-expanded="true"] span:nth-child(3){top:22px;transform:rotate(-45deg)}
   @media(max-width:1080px){.navtoggle{display:block}}
 
-  /* full-screen glass menu */
-  .mmenu{position:fixed;inset:0;z-index:79;display:flex;flex-direction:column;justify-content:center;padding:90px 30px 40px;
-    background:rgba(6,6,8,.86);backdrop-filter:blur(28px) saturate(140%);-webkit-backdrop-filter:blur(28px) saturate(140%);
-    opacity:0;visibility:hidden;transition:opacity .5s var(--spring),visibility .5s}
-  .mmenu.open{opacity:1;visibility:visible}
-  .mmenu-links{display:flex;flex-direction:column;gap:4px}
-  .mmenu-links a{font-family:var(--disp);font-weight:600;font-size:2rem;letter-spacing:-.03em;color:var(--fg-soft);padding:9px 0;
-    opacity:0;transform:translateY(26px);transition:color .25s,opacity .6s var(--spring),transform .6s var(--spring)}
+  /* mobile drawer menu + swipe-to-close */
+  .mmenu{position:fixed;inset:0;z-index:90;visibility:hidden;transition:visibility .55s}
+  .mmenu.open{visibility:visible}
+  .mmenu-scrim{position:absolute;inset:0;background:rgba(4,4,6,.62);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);opacity:0;transition:opacity .55s var(--spring)}
+  .mmenu.open .mmenu-scrim{opacity:1}
+  .mmenu-panel{position:absolute;top:0;right:0;height:100%;width:min(87vw,412px);display:flex;flex-direction:column;
+    padding:18px 24px calc(22px + env(safe-area-inset-bottom));
+    background:linear-gradient(180deg,rgba(15,15,19,.99),rgba(8,8,11,.99));border-left:1px solid var(--line);
+    box-shadow:-34px 0 90px -30px rgba(0,0,0,.95);transform:translateX(100%);transition:transform .55s var(--spring);will-change:transform;overflow-y:auto;overscroll-behavior:contain}
+  .mmenu.open .mmenu-panel{transform:translateX(0)}
+  .mmenu.dragging .mmenu-panel,.mmenu.dragging .mmenu-scrim{transition:none}
+  .mmenu-head{display:flex;align-items:center;justify-content:space-between;padding:6px 0 16px;border-bottom:1px solid var(--line-2)}
+  .mmenu-head .mtitle{font-family:var(--mono);font-size:.6rem;letter-spacing:.22em;text-transform:uppercase;color:var(--muted)}
+  .mclose{width:38px;height:38px;border:1px solid var(--line);border-radius:999px;background:rgba(255,255,255,.03);color:var(--fg);display:grid;place-items:center;font-size:.95rem;cursor:pointer;transition:border-color .3s,transform .4s var(--spring)}
+  .mclose:hover{border-color:rgba(255,255,255,.25);transform:rotate(90deg)}
+  .mmenu-links{display:flex;flex-direction:column;margin-top:6px}
+  .mmenu-links a{display:flex;align-items:center;gap:14px;padding:15px 2px;border-bottom:1px solid var(--line-2);color:var(--fg-soft);
+    opacity:0;transform:translateX(24px);transition:color .25s,padding .4s var(--spring),opacity .5s var(--spring),transform .5s var(--spring)}
   .mmenu.open .mmenu-links a{opacity:1;transform:none}
-  .mmenu.open .mmenu-links a:nth-child(1){transition-delay:.06s}.mmenu.open .mmenu-links a:nth-child(2){transition-delay:.11s}
-  .mmenu.open .mmenu-links a:nth-child(3){transition-delay:.16s}.mmenu.open .mmenu-links a:nth-child(4){transition-delay:.21s}
-  .mmenu.open .mmenu-links a:nth-child(5){transition-delay:.26s}.mmenu.open .mmenu-links a:nth-child(6){transition-delay:.31s}
-  .mmenu.open .mmenu-links a:nth-child(7){transition-delay:.36s}.mmenu.open .mmenu-links a:nth-child(8){transition-delay:.41s}
-  .mmenu-links a:active{color:var(--gold-l)}
-  .mmenu-cta{display:flex;flex-direction:column;gap:11px;margin-top:34px;opacity:0;transform:translateY(26px);transition:opacity .6s var(--spring) .46s,transform .6s var(--spring) .46s}
-  .mmenu.open .mmenu-cta{opacity:1;transform:none}
-  .mmenu-cta .btn{justify-content:space-between}
+  .mmenu.open .mmenu-links a:nth-child(1){transition-delay:.1s}.mmenu.open .mmenu-links a:nth-child(2){transition-delay:.15s}
+  .mmenu.open .mmenu-links a:nth-child(3){transition-delay:.2s}.mmenu.open .mmenu-links a:nth-child(4){transition-delay:.25s}
+  .mmenu.open .mmenu-links a:nth-child(5){transition-delay:.3s}.mmenu.open .mmenu-links a:nth-child(6){transition-delay:.35s}
+  .mmenu.open .mmenu-links a:nth-child(7){transition-delay:.4s}.mmenu.open .mmenu-links a:nth-child(8){transition-delay:.45s}
+  .mmenu-links a .ix{font-family:var(--mono);font-size:.6rem;letter-spacing:.05em;color:var(--gold-l);opacity:.75;width:22px;flex:0 0 auto}
+  .mmenu-links a .lb{font-family:var(--disp);font-size:1.34rem;font-weight:600;letter-spacing:-.02em;flex:1}
+  .mmenu-links a .ar{color:var(--faint);transition:transform .4s var(--spring),color .25s}
+  .mmenu-links a:hover,.mmenu-links a:active{color:#fff;padding-left:9px}
+  .mmenu-links a:hover .ar{transform:translateX(4px);color:var(--gold-l)}
+  .mmenu-foot{margin-top:auto;padding-top:22px}
+  .mmenu-foot .btn{width:100%;justify-content:space-between;margin-bottom:14px}
+  .mmenu-social{display:flex;gap:9px}
+  .mmenu-social a{width:40px;height:40px;border:1px solid var(--line);border-radius:999px;display:grid;place-items:center;color:#cfd0d6;transition:border-color .3s,color .3s}
+  .mmenu-social a:hover{border-color:var(--gold);color:var(--gold-l)}
 
   /* HERO */
   .hero{position:relative;min-height:100dvh;display:flex;align-items:flex-end;overflow:hidden}
@@ -320,7 +341,7 @@
   /* GALLERY — bento */
   .gal{display:grid;grid-template-columns:repeat(12,1fr);gap:14px}
   .frame{position:relative;overflow:hidden;border-radius:20px;background:#101015;border:1px solid var(--line-2)}
-  .frame .img{position:absolute;top:-6%;left:0;width:100%;height:112%;object-fit:cover;object-position:center;will-change:transform;transition:transform .8s var(--spring)}
+  .frame .img{position:absolute;top:-6%;left:0;width:100%;height:112%;object-fit:cover;object-position:center;transition:transform .8s var(--spring)}
   .frame::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 50%,rgba(0,0,0,.6))}
   .frame:hover .img{transform:scale(1.05)}
   .frame .cap{position:absolute;left:18px;bottom:15px;z-index:2;font-family:var(--mono);font-size:.66rem;letter-spacing:.1em;text-transform:uppercase;color:#fff}
@@ -342,20 +363,34 @@
   .hgrid span:hover{background:rgba(255,255,255,.07);color:#fff;transform:translateY(-3px)}
   @media(max-width:860px){.hoods .row{grid-template-columns:1fr;gap:34px}.hgrid{grid-template-columns:repeat(2,1fr)}}
 
-  /* INSTAGRAM */
+  /* INSTAGRAM — feed card */
   .ig{position:relative;overflow:hidden}
   .ig .wrap{position:relative;z-index:1}
   .ig-live{display:inline-flex;align-items:center;gap:9px;font-family:var(--mono);font-size:.68rem;letter-spacing:.16em;text-transform:uppercase;color:var(--gold-l);border:1px solid var(--line);border-radius:999px;padding:7px 16px;background:rgba(255,255,255,.03)}
   .ig-live .dot{width:7px;height:7px;border-radius:50%;background:var(--gold-l);animation:pulse 1.9s infinite}
   @keyframes pulse{0%{box-shadow:0 0 0 0 rgba(238,214,163,.55)}70%{box-shadow:0 0 0 10px rgba(238,214,163,0)}100%{box-shadow:0 0 0 0 rgba(238,214,163,0)}}
-  .ig-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;border-radius:calc(var(--r) - 7px);overflow:hidden}
+  .ig-card .core{padding:0;overflow:hidden}
+  .ig-profile{display:flex;align-items:center;gap:15px;padding:22px 24px}
+  .ig-avatar{width:58px;height:58px;border-radius:999px;padding:2.5px;background:conic-gradient(from 220deg,#eed6a3,#cbab68,#8f7638,#eed6a3);flex:0 0 auto}
+  .ig-avatar span{display:grid;place-items:center;width:100%;height:100%;border-radius:999px;background:#0c0c10;overflow:hidden}
+  .ig-avatar img{width:66%;height:66%;object-fit:contain}
+  .ig-id{flex:1;min-width:0}
+  .ig-handle{display:flex;align-items:center;gap:7px;font-family:var(--disp);font-weight:600;font-size:1.14rem;color:#fff;letter-spacing:-.01em}
+  .ig-handle .ig-glyph{color:var(--gold-l);flex:0 0 auto}
+  .ig-handle .vf{color:#5b9df0;flex:0 0 auto}
+  .ig-sub{color:var(--muted);font-size:.86rem;margin-top:3px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .ig-follow{padding:10px 22px;font-size:.8rem;flex:0 0 auto}
+  .ig-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:3px;border-top:1px solid var(--line-2)}
   .ig-tile{position:relative;aspect-ratio:1/1;overflow:hidden;display:block}
   .ig-tile img{width:100%;height:100%;object-fit:cover;transition:transform .6s var(--spring)}
-  .ig-tile::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 50%,rgba(0,0,0,.45));opacity:0;transition:opacity .3s}
-  .ig-tile .ov{position:absolute;inset:0;z-index:2;display:flex;align-items:flex-end;justify-content:flex-end;padding:12px;color:#fff;font-family:var(--mono);font-size:.64rem;letter-spacing:.1em;text-transform:uppercase;opacity:0;transition:opacity .3s}
-  .ig-tile:hover img{transform:scale(1.09)}
+  .ig-tile::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.05),rgba(0,0,0,.6));opacity:0;transition:opacity .35s}
+  .ig-tile .ov{position:absolute;inset:0;z-index:2;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;color:#fff;font-family:var(--mono);font-size:.58rem;letter-spacing:.16em;text-transform:uppercase;opacity:0;transition:opacity .35s}
+  .ig-tile:hover img{transform:scale(1.07)}
   .ig-tile:hover::after,.ig-tile:hover .ov{opacity:1}
-  @media(max-width:620px){.ig-grid{grid-template-columns:repeat(2,1fr)}}
+  .ig-foot{display:flex;align-items:center;justify-content:space-between;gap:14px;padding:16px 22px 18px;border-top:1px solid var(--line-2);flex-wrap:wrap}
+  .ig-foot .txt{color:var(--muted);font-size:.9rem}
+  .ig-foot .txt b{color:#fff;font-weight:600}
+  @media(max-width:620px){.ig-profile{padding:18px;gap:12px}.ig-avatar{width:50px;height:50px}.ig-handle{font-size:1.02rem}.ig-follow{padding:9px 16px}}
 
   /* CTA */
   .cta{position:relative;padding:clamp(110px,16vw,200px) 0;text-align:center;overflow:hidden;border-top:1px solid var(--line-2)}
@@ -406,33 +441,43 @@
       <a href="homes-for-sale-stamford.html">Homes</a>
       <a href="neighborhoods.html">Neighborhoods</a>
       <a href="living-in-stamford.html">Living</a>
-      <a href="live-map.html">Live Map</a>
       <a href="blog.html">Blog</a>
       <a href="contact.html">Contact</a>
     </nav>
     <div class="nav-right">
-      <a class="btn btn-gold btn-call" href="tel:2038833399"><span class="lbl">Call John</span><span class="ic" aria-hidden="true">↗</span></a>
+      <a class="btn-events" href="live-map.html" aria-label="See live Stamford events on the map"><span class="livedot" aria-hidden="true"></span> Events</a>
       <button class="navtoggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu"><span></span><span></span><span></span></button>
     </div>
   </div>
 </header>
 
-<!-- MOBILE MENU -->
+<!-- MOBILE DRAWER MENU -->
 <div class="mmenu" id="mobileMenu" aria-hidden="true">
-  <nav class="mmenu-links" aria-label="Mobile">
-    <a href="stamford-market.html">Market</a>
-    <a href="homes-for-sale-stamford.html">Homes for Sale</a>
-    <a href="neighborhoods.html">Neighborhoods</a>
-    <a href="living-in-stamford.html">Living</a>
-    <a href="live-map.html">Live Map</a>
-    <a href="blog.html">Blog</a>
-    <a href="compare.html">Compare</a>
-    <a href="contact.html">Contact</a>
-  </nav>
-  <div class="mmenu-cta">
-    <a class="btn btn-gold" href="tel:2038833399">Call 203·883·3399 <span class="ic" aria-hidden="true">↗</span></a>
-    <a class="btn btn-out" href="mailto:John@dtstamford.com">Email John <span class="ic" aria-hidden="true">↗</span></a>
-  </div>
+  <div class="mmenu-scrim" id="mmScrim"></div>
+  <aside class="mmenu-panel" id="mmPanel" role="dialog" aria-modal="true" aria-label="Menu">
+    <div class="mmenu-head">
+      <span class="mtitle">Downtown Stamford</span>
+      <button class="mclose" id="mmClose" aria-label="Close menu">✕</button>
+    </div>
+    <nav class="mmenu-links" aria-label="Mobile">
+      <a href="stamford-market.html"><span class="ix">01</span><span class="lb">Market</span><span class="ar" aria-hidden="true">→</span></a>
+      <a href="homes-for-sale-stamford.html"><span class="ix">02</span><span class="lb">Homes for Sale</span><span class="ar" aria-hidden="true">→</span></a>
+      <a href="neighborhoods.html"><span class="ix">03</span><span class="lb">Neighborhoods</span><span class="ar" aria-hidden="true">→</span></a>
+      <a href="living-in-stamford.html"><span class="ix">04</span><span class="lb">Living</span><span class="ar" aria-hidden="true">→</span></a>
+      <a href="live-map.html"><span class="ix">05</span><span class="lb">Events Map</span><span class="ar" aria-hidden="true">→</span></a>
+      <a href="blog.html"><span class="ix">06</span><span class="lb">Blog</span><span class="ar" aria-hidden="true">→</span></a>
+      <a href="compare.html"><span class="ix">07</span><span class="lb">Compare</span><span class="ar" aria-hidden="true">→</span></a>
+      <a href="contact.html"><span class="ix">08</span><span class="lb">Contact</span><span class="ar" aria-hidden="true">→</span></a>
+    </nav>
+    <div class="mmenu-foot">
+      <a class="btn btn-gold" href="tel:2038833399">Call 203·883·3399 <span class="ic" aria-hidden="true">↗</span></a>
+      <div class="mmenu-social">
+        <a href="https://www.instagram.com/downtownstamford" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.1" cy="6.9" r="1.1" fill="currentColor" stroke="none"/></svg></a>
+        <a href="https://www.facebook.com/Stamfordrealtornear" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M24 12.073C24 5.404 18.627 0 12 0S0 5.404 0 12.073c0 6.026 4.388 11.02 10.125 11.927v-8.437H7.078v-3.49h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.49h-2.796v8.437C19.612 23.094 24 18.1 24 12.073z"/></svg></a>
+        <a href="mailto:John@dtstamford.com" aria-label="Email John"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="M4 7l8 6 8-6"/></svg></a>
+      </div>
+    </div>
+  </aside>
 </div>
 
 <main>
@@ -444,7 +489,7 @@
       <h1 class="rv d1">Stamford real estate,<br><span class="g">made simple.</span></h1>
       <p class="sub rv d2">Buy, sell, or rent in Stamford with John Restrepo — the realtor with real exposure and real results, not just a flashy website buyers ignore.</p>
       <br>
-      <a class="reviews-badge rv d2" href="https://share.google/b5ZSejPgG8Nurn7cr" target="_blank" rel="noopener" aria-label="5.0 stars from 85 Google reviews"><span class="stars">★★★★★</span> <strong>5.0</strong> · 85 Google reviews</a>
+      <a class="reviews-badge rv d2" href="https://share.google/b5ZSejPgG8Nurn7cr" target="_blank" rel="noopener" aria-label="5.0 stars from 89 Google reviews"><span class="stars">★★★★★</span> <strong>5.0</strong> · 89 Google reviews</a>
       <div class="cta-row rv d3">
         <a class="btn btn-gold" href="tel:2038833399">Free valuation <span class="ic" aria-hidden="true">↗</span></a>
         <a class="btn btn-out" href="homes-for-sale-stamford.html">Browse homes <span class="ic" aria-hidden="true">↗</span></a>
@@ -563,22 +608,37 @@
   <section class="block ig" id="instagram">
     <div class="wrap">
       <div class="sec-head rv">
-        <span class="ig-live"><span class="dot"></span> Instagram · @downtownstamford</span>
-        <h2 style="margin-top:18px">Where can I see live <span style="background:linear-gradient(120deg,var(--gold-l),var(--gold));-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent">Stamford</span> listings?</h2>
-        <p>Follow <a href="https://www.instagram.com/downtownstamford" target="_blank" rel="noopener" style="color:var(--gold-l)">@downtownstamford</a> for daily Stamford listings, tours, and neighborhood updates — the largest real estate feed in the city.</p>
+        <span class="ig-live"><span class="dot"></span> Instagram</span>
+        <h2 style="margin-top:18px">See live <span style="background:linear-gradient(120deg,var(--gold-l),var(--gold));-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent">Stamford</span> listings &amp; tours</h2>
+        <p>The largest real estate feed in the city — daily listings, walkthroughs, and neighborhood updates.</p>
       </div>
-      <div class="bezel rv">
-        <div class="ig-grid">
-          <a class="ig-tile" href="https://www.instagram.com/downtownstamford" target="_blank" rel="noopener"><img src="assets/downtown-stamford-ct-landmark-square-skyline.jpg" alt="Downtown Stamford skyline on Instagram" loading="lazy"><span class="ov">View ↗</span></a>
-          <a class="ig-tile" href="https://www.instagram.com/downtownstamford" target="_blank" rel="noopener"><img src="assets/stamford-ct-luxury-rooftop-deck-views.jpg" alt="Stamford rooftop on Instagram" loading="lazy"><span class="ov">View ↗</span></a>
-          <a class="ig-tile" href="https://www.instagram.com/downtownstamford" target="_blank" rel="noopener"><img src="assets/stamford-ct-home-modern-designer-kitchen.jpg" alt="Stamford home interior on Instagram" loading="lazy"><span class="ov">View ↗</span></a>
-          <a class="ig-tile" href="https://www.instagram.com/downtownstamford" target="_blank" rel="noopener"><img src="assets/stamford-ct-north-state-street-winter.jpg" alt="Snowy Stamford street on Instagram" loading="lazy"><span class="ov">View ↗</span></a>
-          <a class="ig-tile" href="https://www.instagram.com/downtownstamford" target="_blank" rel="noopener"><img src="assets/stamford-ct-single-family-home-for-sale.jpg" alt="Stamford home for sale on Instagram" loading="lazy"><span class="ov">View ↗</span></a>
-          <a class="ig-tile" href="https://www.instagram.com/downtownstamford" target="_blank" rel="noopener"><img src="assets/downtown-stamford-ct-winter-streetscape.jpg" alt="Downtown Stamford on Instagram" loading="lazy"><span class="ov">View ↗</span></a>
+      <div class="ig-card bezel rv">
+        <div class="core">
+          <div class="ig-profile">
+            <span class="ig-avatar"><span><img src="assets/logo-gold.png" alt="@downtownstamford avatar"></span></span>
+            <div class="ig-id">
+              <div class="ig-handle">
+                <svg class="ig-glyph" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.1" cy="6.9" r="1.1" fill="currentColor" stroke="none"/></svg>
+                @downtownstamford
+                <svg class="vf" viewBox="0 0 24 24" width="15" height="15" fill="currentColor" aria-label="Verified"><path d="M12 1l2.4 1.8 3-.2 1 2.8 2.6 1.5-.6 2.9 1.6 2.5-2.2 2 .1 3-2.9.8-1.5 2.6-2.9-.7L12 23l-2.7-1.7-2.9.7-1.5-2.6-2.9-.8.1-3-2.2-2 1.6-2.5-.6-2.9L4 5.4l1-2.8 3 .2L12 1z"/><path d="M10.6 14.6l-2.2-2.2-1.2 1.2 3.4 3.4 6-6-1.2-1.2-4.8 4.8z" fill="#0b0b0e"/></svg>
+              </div>
+              <div class="ig-sub">Downtown Stamford · Real estate made simple</div>
+            </div>
+            <a class="btn btn-gold ig-follow" href="https://www.instagram.com/downtownstamford" target="_blank" rel="noopener">Follow</a>
+          </div>
+          <div class="ig-grid">
+            <a class="ig-tile" href="https://www.instagram.com/downtownstamford" target="_blank" rel="noopener" aria-label="View post on Instagram"><img src="assets/downtown-stamford-ct-landmark-square-skyline.jpg" alt="Downtown Stamford skyline on Instagram" loading="lazy"><span class="ov"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.1" cy="6.9" r="1.1" fill="currentColor" stroke="none"/></svg>View post</span></a>
+            <a class="ig-tile" href="https://www.instagram.com/downtownstamford" target="_blank" rel="noopener" aria-label="View post on Instagram"><img src="assets/stamford-ct-luxury-rooftop-deck-views.jpg" alt="Stamford rooftop on Instagram" loading="lazy"><span class="ov"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.1" cy="6.9" r="1.1" fill="currentColor" stroke="none"/></svg>View post</span></a>
+            <a class="ig-tile" href="https://www.instagram.com/downtownstamford" target="_blank" rel="noopener" aria-label="View post on Instagram"><img src="assets/stamford-ct-home-modern-designer-kitchen.jpg" alt="Stamford home interior on Instagram" loading="lazy"><span class="ov"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.1" cy="6.9" r="1.1" fill="currentColor" stroke="none"/></svg>View post</span></a>
+            <a class="ig-tile" href="https://www.instagram.com/downtownstamford" target="_blank" rel="noopener" aria-label="View post on Instagram"><img src="assets/stamford-ct-north-state-street-winter.jpg" alt="Snowy Stamford street on Instagram" loading="lazy"><span class="ov"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.1" cy="6.9" r="1.1" fill="currentColor" stroke="none"/></svg>View post</span></a>
+            <a class="ig-tile" href="https://www.instagram.com/downtownstamford" target="_blank" rel="noopener" aria-label="View post on Instagram"><img src="assets/stamford-ct-single-family-home-for-sale.jpg" alt="Stamford home for sale on Instagram" loading="lazy"><span class="ov"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.1" cy="6.9" r="1.1" fill="currentColor" stroke="none"/></svg>View post</span></a>
+            <a class="ig-tile" href="https://www.instagram.com/downtownstamford" target="_blank" rel="noopener" aria-label="View post on Instagram"><img src="assets/downtown-stamford-ct-winter-streetscape.jpg" alt="Downtown Stamford on Instagram" loading="lazy"><span class="ov"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.1" cy="6.9" r="1.1" fill="currentColor" stroke="none"/></svg>View post</span></a>
+          </div>
+          <div class="ig-foot">
+            <span class="txt">Follow <b>@downtownstamford</b> for daily Stamford real estate</span>
+            <a class="btn btn-out" href="https://www.instagram.com/downtownstamford" target="_blank" rel="noopener">Open Instagram <span class="ic" aria-hidden="true">↗</span></a>
+          </div>
         </div>
-      </div>
-      <div class="rv" style="text-align:center;margin-top:42px">
-        <a class="btn btn-gold" href="https://www.instagram.com/downtownstamford" target="_blank" rel="noopener">Follow on Instagram <span class="ic" aria-hidden="true">↗</span></a>
       </div>
     </div>
   </section>
@@ -680,8 +740,8 @@
     stats.forEach(function(s){sio.observe(s);});
   }else{stats.forEach(countUp);}
 
-  // subtle parallax (transform-only)
-  var pNodes=[].slice.call(document.querySelectorAll('.hero-media .img, .frame .img'));
+  // subtle parallax — hero image only (transform-only, one node = smooth)
+  var pNodes=[].slice.call(document.querySelectorAll('.hero-media .img'));
   var pt=false;
   function parallax(){
     var vh=innerHeight;
@@ -696,17 +756,35 @@
   addEventListener('scroll',function(){if(!pt){pt=true;requestAnimationFrame(parallax);}},{passive:true});
   addEventListener('resize',parallax);parallax();
 
-  // mobile menu
-  var mt=document.getElementById('navToggle'),mm=document.getElementById('mobileMenu');
+  // mobile drawer menu + swipe-to-close
+  var mt=document.getElementById('navToggle'),mm=document.getElementById('mobileMenu'),
+      mp=document.getElementById('mmPanel'),msc=document.getElementById('mmScrim'),mcl=document.getElementById('mmClose');
   function setMenu(open){
     mt.setAttribute('aria-expanded',open);mm.setAttribute('aria-hidden',!open);
     mm.classList.toggle('open',open);mt.setAttribute('aria-label',open?'Close menu':'Open menu');
     document.body.style.overflow=open?'hidden':'';
+    if(!open){mm.classList.remove('dragging');mp.style.transform='';}
   }
   mt.addEventListener('click',function(){setMenu(!mm.classList.contains('open'));});
-  mm.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){setMenu(false);});});
+  mcl.addEventListener('click',function(){setMenu(false);});
+  msc.addEventListener('click',function(){setMenu(false);});
+  mm.querySelectorAll('.mmenu-links a').forEach(function(a){a.addEventListener('click',function(){setMenu(false);});});
   addEventListener('keydown',function(e){if(e.key==='Escape'&&mm.classList.contains('open'))setMenu(false);});
   addEventListener('resize',function(){if(innerWidth>1080&&mm.classList.contains('open'))setMenu(false);});
+  // swipe the panel to the right to dismiss
+  var sx=0,sy=0,dx=0,drag=false;
+  mp.addEventListener('touchstart',function(e){var t=e.touches[0];sx=t.clientX;sy=t.clientY;dx=0;drag=false;},{passive:true});
+  mp.addEventListener('touchmove',function(e){
+    var t=e.touches[0],mx=t.clientX-sx,my=t.clientY-sy;
+    if(!drag){ if(Math.abs(mx)>10&&Math.abs(mx)>Math.abs(my)){drag=true;mm.classList.add('dragging');} else return; }
+    dx=Math.max(0,mx);mp.style.transform='translateX('+dx+'px)';
+  },{passive:true});
+  mp.addEventListener('touchend',function(){
+    if(!drag)return;
+    mm.classList.remove('dragging');
+    if(dx>90)setMenu(false); else mp.style.transform='';
+    drag=false;dx=0;
+  });
 </script>
 </body>
 </html>

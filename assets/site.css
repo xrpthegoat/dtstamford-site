@@ -175,3 +175,26 @@ footer .col a:hover{color:#fff}
 .reviews-badge:hover{border-color:var(--gold-l);background:rgba(203,171,104,.08)}
 .reviews-badge .stars{color:var(--gold-l);letter-spacing:1px;font-size:.9rem}
 .reviews-badge strong{color:var(--gold-l);font-weight:700}
+
+/* hamburger + full-screen glass menu (inner pages) */
+.navtoggle{display:none;position:relative;width:44px;height:44px;border:1px solid var(--line);border-radius:999px;background:rgba(255,255,255,.03);cursor:pointer;flex:0 0 auto}
+.navtoggle span{position:absolute;left:13px;width:18px;height:1.6px;background:var(--fg);border-radius:2px;transition:transform .5s var(--ease),opacity .3s}
+.navtoggle span:nth-child(1){top:17px}.navtoggle span:nth-child(2){top:22px}.navtoggle span:nth-child(3){top:27px}
+.navtoggle[aria-expanded="true"] span:nth-child(1){top:22px;transform:rotate(45deg)}
+.navtoggle[aria-expanded="true"] span:nth-child(2){opacity:0}
+.navtoggle[aria-expanded="true"] span:nth-child(3){top:22px;transform:rotate(-45deg)}
+@media(max-width:1000px){.navtoggle{display:block}.nav .btn-call{display:none}}
+.mmenu{position:fixed;inset:0;z-index:99;display:flex;flex-direction:column;justify-content:center;padding:92px 30px 40px;background:rgba(6,6,8,.86);backdrop-filter:blur(28px) saturate(140%);-webkit-backdrop-filter:blur(28px) saturate(140%);opacity:0;visibility:hidden;transition:opacity .5s var(--ease),visibility .5s}
+.mmenu.open{opacity:1;visibility:visible}
+.mmenu-links{display:flex;flex-direction:column;gap:4px}
+.mmenu-links a{font-family:var(--disp);font-weight:600;font-size:2rem;letter-spacing:-.03em;color:var(--fg-soft);padding:9px 0;opacity:0;transform:translateY(26px);transition:color .25s,opacity .6s var(--ease),transform .6s var(--ease)}
+.mmenu.open .mmenu-links a{opacity:1;transform:none}
+.mmenu.open .mmenu-links a:nth-child(1){transition-delay:.06s}.mmenu.open .mmenu-links a:nth-child(2){transition-delay:.11s}
+.mmenu.open .mmenu-links a:nth-child(3){transition-delay:.16s}.mmenu.open .mmenu-links a:nth-child(4){transition-delay:.21s}
+.mmenu.open .mmenu-links a:nth-child(5){transition-delay:.26s}.mmenu.open .mmenu-links a:nth-child(6){transition-delay:.31s}
+.mmenu.open .mmenu-links a:nth-child(7){transition-delay:.36s}.mmenu.open .mmenu-links a:nth-child(8){transition-delay:.41s}
+.mmenu-links a:active,.mmenu-links a.active{color:var(--gold-l)}
+.mmenu-cta{display:flex;flex-direction:column;gap:11px;margin-top:34px;opacity:0;transform:translateY(26px);transition:opacity .6s var(--ease) .46s,transform .6s var(--ease) .46s}
+.mmenu.open .mmenu-cta{opacity:1;transform:none}
+.mmenu-cta .btn{justify-content:space-between}
+@media(min-width:1001px){.mmenu{display:none}}

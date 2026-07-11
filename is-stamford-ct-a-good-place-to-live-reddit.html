@@ -39,8 +39,26 @@
       <a href="stamford-market.html">Market</a><a href="homes-for-sale-stamford.html">Homes for Sale</a><a href="neighborhoods.html">Neighborhoods</a><a href="living-in-stamford.html">Living</a><a href="blog.html" class="active">Blog</a><a href="compare.html">Compare</a><a href="contact.html">Contact</a>
     </nav>
     <a class="btn-call" href="tel:2038833399">Call 203·883·3399</a>
+    <button class="navtoggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu"><span></span><span></span><span></span></button>
   </div>
 </header>
+
+<div class="mmenu" id="mobileMenu" aria-hidden="true">
+  <nav class="mmenu-links" aria-label="Mobile">
+    <a href="stamford-market.html">Market</a>
+    <a href="homes-for-sale-stamford.html">Homes for Sale</a>
+    <a href="neighborhoods.html">Neighborhoods</a>
+    <a href="living-in-stamford.html">Living</a>
+    <a href="live-map.html">Live Map</a>
+    <a href="blog.html">Blog</a>
+    <a href="compare.html">Compare</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+  <div class="mmenu-cta">
+    <a class="btn btn-gold" href="tel:2038833399">Call 203·883·3399 <span aria-hidden="true">↗</span></a>
+    <a class="btn btn-out" href="mailto:John@dtstamford.com">Email John <span aria-hidden="true">↗</span></a>
+  </div>
+</div>
 
 <section class="phero">
   <div class="wrap">
@@ -121,5 +139,20 @@
   </div>
 </footer>
 <div class="callbar"><a class="btn btn-gold" href="tel:2038833399">Call John</a><a class="btn btn-out" href="sms:2038833399">Text</a></div>
+<script>
+(function(){
+  var mt=document.getElementById('navToggle'),mm=document.getElementById('mobileMenu');
+  if(!mt||!mm)return;
+  function setMenu(open){
+    mt.setAttribute('aria-expanded',open);mm.setAttribute('aria-hidden',!open);
+    mm.classList.toggle('open',open);mt.setAttribute('aria-label',open?'Close menu':'Open menu');
+    document.body.style.overflow=open?'hidden':'';
+  }
+  mt.addEventListener('click',function(){setMenu(!mm.classList.contains('open'));});
+  mm.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){setMenu(false);});});
+  addEventListener('keydown',function(e){if(e.key==='Escape'&&mm.classList.contains('open'))setMenu(false);});
+  addEventListener('resize',function(){if(innerWidth>1000&&mm.classList.contains('open'))setMenu(false);});
+})();
+</script>
 </body>
 </html>

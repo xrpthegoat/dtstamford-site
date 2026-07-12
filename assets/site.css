@@ -233,6 +233,7 @@ footer .col a:hover{color:#fff}
 .nhero-bg svg{width:100%;height:100%;display:block}
 /* photo hero variant */
 .nhero-photo{position:absolute;inset:0;z-index:0;overflow:hidden}
+.nhero-photo picture{display:block;width:100%;height:100%}
 .nhero-photo img{width:100%;height:100%;object-fit:cover;object-position:center}
 .nhero-photo::after{content:"";position:absolute;inset:0;background:
   linear-gradient(95deg, rgba(6,6,8,.94) 0%, rgba(6,6,8,.82) 38%, rgba(6,6,8,.5) 72%, rgba(6,6,8,.34) 100%),

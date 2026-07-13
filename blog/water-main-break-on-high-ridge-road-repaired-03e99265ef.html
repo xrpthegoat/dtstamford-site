@@ -13,7 +13,7 @@
 <meta property="og:title" content="Water Main Break on High Ridge Road Repaired">
 <meta property="og:description" content="Residents of High Ridge Road in Stamford breathed a sigh of relief as emergency services successfully repaired the water main break that had caused si">
 <meta property="og:url" content="https://dtstamford.com/blog/water-main-break-on-high-ridge-road-repaired-03e99265ef.html">
-<meta property="og:image" content="https://images.pexels.com/photos/37631324/pexels-photo-37631324.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=650&amp;w=940">
+<meta property="og:image" content="https://dtstamford.com/assets/journal-water-main-break-on-high-ridge-road-repaired-03e99265ef-1783909473.jpg">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
@@ -89,7 +89,7 @@
   <p class="lede">Residents of High Ridge Road in Stamford breathed a sigh of relief as emergency services successfully repaired the water main break that had caused si</p>
 
 <figure>
-  <img src="https://images.pexels.com/photos/37631324/pexels-photo-37631324.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=650&amp;w=940" alt="Water Main Break on High Ridge Road Repaired — Stamford, CT" width="940" height="650" loading="lazy">
+  <img src="https://dtstamford.com/assets/journal-water-main-break-on-high-ridge-road-repaired-03e99265ef-1783909473.jpg" alt="Water Main Break on High Ridge Road Repaired — Stamford, CT" width="940" height="650" loading="lazy">
 </figure>
 <!--LEGACY:START--><p>Residents of High Ridge Road in Stamford breathed a sigh of relief as emergency services successfully repaired the water main break that had caused significant disruption. The break led to temporary water supply issues, inconveniencing local residents and businesses. With quick action by officials, normalcy is gradually returning to the area. Community resilience shone through as neighbors helped each other navigate the challenges brought on by the unexpected event.</p><!--LEGACY:END-->
 <p><em>Reported from <a href="https://www.stamfordadvocate.com/local/" rel="nofollow noopener" target="_blank">stamfordadvocate.com</a>.</em></p>
@@ -183,6 +183,20 @@
   var hi=document.querySelector('.prose figure img');
   if(hi)gsap.to(hi,{yPercent:10,ease:'none',
     scrollTrigger:{trigger:hi,start:'top bottom',end:'bottom top',scrub:true}});
+  /* Failsafe: reveals run 0.7s — but in throttled/stalled environments (background tabs,
+     low-power mode, in-app webviews like Instagram's) rAF or scroll events can stall, leaving
+     a tween mid-fade OR never fired at all → invisible content. Every 3s, complete any
+     non-scrub reveal whose trigger is on-screen, started or not — a poor-man's
+     IntersectionObserver. No visible effect in healthy browsers (tweens finish in 0.7s). */
+  setInterval(function(){
+    ScrollTrigger.getAll().forEach(function(st){
+      var a=st.animation;
+      if(!a||st.vars.scrub||a.progress()>=1)return;
+      var el=st.trigger; if(!el)return;
+      var r=el.getBoundingClientRect();
+      if(r.top<innerHeight*0.95&&r.bottom>0)a.progress(1);
+    });
+  },3000);
 })();
 </script>
 </body>

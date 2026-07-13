@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#08080a">
+<title>Search Stamford Homes & Rentals — Live MLS Map | John Restrepo</title>
+<meta name="description" content="Search every home for sale and for rent in Stamford, CT on a live map — straight from the MLS. Filter by price, beds, and neighborhood. New listings first, often before Zillow. Call 203-883-3399.">
+<meta name="keywords" content="Stamford CT homes for sale map, Stamford MLS search, homes for rent Stamford, Stamford real estate search, condos for sale Stamford">
+<link rel="canonical" href="https://dtstamford.com/search.html">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Search Stamford Homes & Rentals — Live MLS Map">
+<meta property="og:description" content="Search every Stamford home for sale and rent on a live map, straight from the MLS. New listings first.">
+<meta property="og:url" content="https://dtstamford.com/search.html">
+<meta property="og:image" content="https://dtstamford.com/assets/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600;12..96,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="icon" href="assets/logo-black.png">
+<link rel="apple-touch-icon" href="assets/logo-black.png">
+<link rel="stylesheet" href="assets/site.css">
+<!-- Leaflet (map) -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+<link rel="stylesheet" href="assets/homes/app.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebApplication","name":"Stamford MLS Home Search","applicationCategory":"RealEstateApplication","url":"https://dtstamford.com/search.html","operatingSystem":"Web","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"author":{"@type":"Person","name":"John Restrepo","telephone":"+12038833399","url":"https://dtstamford.com/"}}
+</script>
+</head>
+<body id="top" class="app-body">
+
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="/"><img class="logo" src="assets/logo-white.png" alt="Downtown Stamford logo"><span class="wordmark">Downtown Stamford</span></a>
+    <nav class="nav-links">
+      <a href="stamford-market.html">Market</a>
+      <a href="homes-for-sale-stamford.html">Homes for Sale</a>
+      <a href="search.html" class="active">Search</a>
+      <a href="neighborhoods.html">Neighborhoods</a>
+      <a href="blog.html">Blog</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <a class="btn-call" href="tel:2038833399">Call 203·883·3399</a>
+    <button class="navtoggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<div class="mmenu" id="mobileMenu" aria-hidden="true">
+  <div class="mmenu-scrim" id="mmScrim"></div>
+  <aside class="mmenu-panel" id="mmPanel" role="dialog" aria-modal="true" aria-label="Menu">
+    <div class="mmenu-head">
+      <span class="mtitle">Downtown Stamford</span>
+      <button class="mclose" id="mmClose" aria-label="Close menu">✕</button>
+    </div>
+    <nav class="mmenu-links" aria-label="Mobile">
+      <a href="stamford-market.html"><span class="ix">01</span><span class="lb">Market</span><span class="ar" aria-hidden="true">→</span></a>
+      <a href="homes-for-sale-stamford.html"><span class="ix">02</span><span class="lb">Homes for Sale</span><span class="ar" aria-hidden="true">→</span></a>
+      <a href="neighborhoods.html"><span class="ix">03</span><span class="lb">Neighborhoods</span><span class="ar" aria-hidden="true">→</span></a>
+      <a href="living-in-stamford.html"><span class="ix">04</span><span class="lb">Living</span><span class="ar" aria-hidden="true">→</span></a>
+      <a href="live-map.html"><span class="ix">05</span><span class="lb">Events Map</span><span class="ar" aria-hidden="true">→</span></a>
+      <a href="blog.html"><span class="ix">06</span><span class="lb">Blog</span><span class="ar" aria-hidden="true">→</span></a>
+      <a href="compare.html"><span class="ix">07</span><span class="lb">Compare</span><span class="ar" aria-hidden="true">→</span></a>
+      <a href="contact.html"><span class="ix">08</span><span class="lb">Contact</span><span class="ar" aria-hidden="true">→</span></a>
+    </nav>
+    <div class="mmenu-foot">
+      <a class="btn btn-gold" href="tel:2038833399">Call 203·883·3399 <span aria-hidden="true">↗</span></a>
+      <div class="mmenu-social">
+        <a href="https://www.instagram.com/downtownstamford" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.1" cy="6.9" r="1.1" fill="currentColor" stroke="none"/></svg></a>
+        <a href="https://www.facebook.com/Stamfordrealtornear" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M24 12.073C24 5.404 18.627 0 12 0S0 5.404 0 12.073c0 6.026 4.388 11.02 10.125 11.927v-8.437H7.078v-3.49h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.49h-2.796v8.437C19.612 23.094 24 18.1 24 12.073z"/></svg></a>
+        <a href="mailto:John@dtstamford.com" aria-label="Email John"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="M4 7l8 6 8-6"/></svg></a>
+      </div>
+    </div>
+  </aside>
+</div>
+
+<!-- ============ FILTER BAR ============ -->
+<div class="filterbar" id="filterbar">
+  <div class="fb-inner">
+    <div class="fb-search">
+      <svg class="fb-ico" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M21 21l-4.3-4.3M11 19a8 8 0 100-16 8 8 0 000 16z"/></svg>
+      <input id="q" type="search" placeholder="City or neighborhood — Stamford, Harbor Point, Shippan…" autocomplete="off" aria-label="Search location">
+    </div>
+
+    <div class="fb-seg" role="tablist" aria-label="Sale or rent">
+      <button class="seg-btn is-on" data-type="sale" role="tab" aria-selected="true">Buy</button>
+      <button class="seg-btn" data-type="rent" role="tab" aria-selected="false">Rent</button>
+    </div>
+
+    <div class="fb-drops">
+      <div class="drop" data-drop="price">
+        <button class="drop-btn" aria-haspopup="true" aria-expanded="false"><span class="drop-lbl">Price</span><span class="chev">▾</span></button>
+        <div class="drop-panel" role="dialog" aria-label="Price">
+          <div class="dp-row">
+            <label>Min<select id="priceMin"></select></label>
+            <span class="dp-dash">—</span>
+            <label>Max<select id="priceMax"></select></label>
+          </div>
+          <div class="dp-actions"><button class="dp-clear" data-clear="price">Clear</button><button class="dp-done btn-mini">Done</button></div>
+        </div>
+      </div>
+
+      <div class="drop" data-drop="beds">
+        <button class="drop-btn" aria-haspopup="true" aria-expanded="false"><span class="drop-lbl">Beds</span><span class="chev">▾</span></button>
+        <div class="drop-panel" role="dialog" aria-label="Bedrooms">
+          <div class="pill-row" id="bedsRow" role="group" aria-label="Minimum bedrooms">
+            <button class="pillx is-on" data-beds="0">Any</button>
+            <button class="pillx" data-beds="1">1+</button>
+            <button class="pillx" data-beds="2">2+</button>
+            <button class="pillx" data-beds="3">3+</button>
+            <button class="pillx" data-beds="4">4+</button>
+            <button class="pillx" data-beds="5">5+</button>
+          </div>
+          <div class="dp-label">Baths</div>
+          <div class="pill-row" id="bathsRow" role="group" aria-label="Minimum bathrooms">
+            <button class="pillx is-on" data-baths="0">Any</button>
+            <button class="pillx" data-baths="1">1+</button>
+            <button class="pillx" data-baths="2">2+</button>
+            <button class="pillx" data-baths="3">3+</button>
+          </div>
+          <div class="dp-actions"><button class="dp-clear" data-clear="beds">Clear</button><button class="dp-done btn-mini">Done</button></div>
+        </div>
+      </div>
+
+      <div class="drop" data-drop="type">
+        <button class="drop-btn" aria-haspopup="true" aria-expanded="false"><span class="drop-lbl">Home type</span><span class="chev">▾</span></button>
+        <div class="drop-panel" role="dialog" aria-label="Home type">
+          <div class="check-col" id="typeCol"></div>
+          <div class="dp-actions"><button class="dp-clear" data-clear="type">Clear</button><button class="dp-done btn-mini">Done</button></div>
+        </div>
+      </div>
+
+      <div class="drop" data-drop="sort">
+        <button class="drop-btn" aria-haspopup="true" aria-expanded="false"><span class="drop-lbl">Sort: Newest</span><span class="chev">▾</span></button>
+        <div class="drop-panel dp-narrow" role="dialog" aria-label="Sort">
+          <div class="radio-col" id="sortCol">
+            <button class="radx is-on" data-sort="new">Newest</button>
+            <button class="radx" data-sort="price-asc">Price ↑</button>
+            <button class="radx" data-sort="price-desc">Price ↓</button>
+            <button class="radx" data-sort="beds">Most beds</button>
+            <button class="radx" data-sort="sqft">Largest</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <button class="fb-reset" id="resetBtn" title="Reset all filters">Reset</button>
+    <div class="fb-viewtoggle" role="group" aria-label="View">
+      <button class="vt-btn is-on" data-view="split" title="Map + list">Split</button>
+      <button class="vt-btn" data-view="list" title="List only">List</button>
+      <button class="vt-btn" data-view="map" title="Map only">Map</button>
+    </div>
+  </div>
+</div>
+
+<!-- ============ APP ============ -->
+<main class="app" id="app" data-view="split">
+  <section class="results" id="results" aria-label="Listings">
+    <div class="results-head">
+      <div class="rh-count"><strong id="count">—</strong> <span id="countLabel">homes</span> <span class="rh-loc" id="locLabel"></span></div>
+      <div class="rh-updated" id="updated"></div>
+    </div>
+    <div class="sample-note" id="sampleNote" hidden>
+      <span class="dot"></span> Preview data — this is a working demo. Live SmartMLS listings appear once John connects the IDX feed.
+    </div>
+    <div class="cards" id="cards" aria-live="polite"></div>
+    <div class="empty" id="empty" hidden>
+      <div class="empty-emoji">🔭</div>
+      <h3>No homes match those filters</h3>
+      <p>Try widening your price range or clearing a filter. Or tell John exactly what you want and he'll set up a live alert.</p>
+      <a class="btn btn-gold" href="homes-for-sale-stamford.html#alerts">Set up a listing alert <span class="arr">→</span></a>
+    </div>
+    <div class="idx-legal" id="idxLegal"></div>
+  </section>
+
+  <section class="mapwrap" id="mapwrap" aria-label="Map of listings">
+    <div id="map"></div>
+    <button class="map-search-here" id="searchHere" hidden>Search this area</button>
+  </section>
+</main>
+
+<!-- ============ DETAIL DRAWER ============ -->
+<div class="drawer-scrim" id="scrim" hidden></div>
+<aside class="drawer" id="drawer" aria-hidden="true" aria-label="Listing detail" tabindex="-1">
+  <button class="drawer-close" id="drawerClose" aria-label="Close">✕</button>
+  <div class="drawer-body" id="drawerBody"></div>
+</aside>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<script type="module" src="assets/homes/app.js"></script>
+<script>
+/* mobile menu (matches site.js pattern) */
+(function(){var t=document.getElementById('navToggle'),m=document.getElementById('mobileMenu');if(t&&m){t.addEventListener('click',function(){var o=m.classList.toggle('open');t.setAttribute('aria-expanded',o);m.setAttribute('aria-hidden',!o);});}})();
+</script>
+</body>
+</html>

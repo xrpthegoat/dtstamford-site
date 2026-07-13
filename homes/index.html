@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#060608">
+<title>Stamford, CT Listings — Homes for Sale &amp; Rent | Downtown Stamford</title>
+<meta name="description" content="Browse current Stamford, CT listings from the local MLS: homes for sale, condos, and rentals. Updated regularly by John Restrepo. Call 203-883-3399.">
+<link rel="canonical" href="https://dtstamford.com/homes/">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Stamford, CT Listings — Homes for Sale &amp; Rent | Downtown Stamford">
+<meta property="og:description" content="Browse current Stamford, CT listings from the local MLS: homes for sale, condos, and rentals. Updated regularly by John Restrepo. Call 203-883-3399.">
+<meta property="og:url" content="https://dtstamford.com/homes/">
+<meta property="og:image" content="https://dtstamford.com/assets/hero.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..700&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="icon" href="/assets/logo-black.png">
+<link rel="apple-touch-icon" href="/assets/logo-black.png">
+<link rel="stylesheet" href="/assets/site.css">
+<style>
+/* IDX detail-page styles (scoped, layered on top of site.css) */
+.idx-hero{padding:clamp(96px,12vw,140px) 0 24px}
+.idx-crumbs{font-family:var(--mono);font-size:.68rem;letter-spacing:.06em;text-transform:uppercase;color:var(--faint);margin-bottom:18px}
+.idx-crumbs a:hover{color:var(--gold-l)}
+.idx-status{display:inline-block;font-family:var(--mono);font-size:.62rem;letter-spacing:.14em;text-transform:uppercase;color:var(--gold-l);border:1px solid var(--line);border-radius:999px;padding:5px 12px;margin-bottom:14px}
+.idx-price{font-family:var(--disp);font-size:clamp(2.2rem,5vw,3.4rem);color:#fff;letter-spacing:-.03em;line-height:1}
+.idx-addr{color:var(--fg-soft);font-size:1.15rem;margin-top:10px}
+.idx-quick{display:flex;flex-wrap:wrap;gap:10px 26px;margin-top:18px;font-family:var(--mono);font-size:.8rem;color:var(--fg-soft)}
+.idx-quick b{color:#fff;font-weight:700}
+.idx-gallery{display:grid;grid-template-columns:2fr 1fr 1fr;gap:10px;margin:26px 0 8px}
+.idx-gallery img{width:100%;height:100%;object-fit:cover;border-radius:14px;border:1px solid var(--line);background:var(--bg2);aspect-ratio:4/3}
+.idx-gallery img.lead{grid-row:span 2;aspect-ratio:auto;min-height:280px}
+@media(max-width:760px){.idx-gallery{grid-template-columns:1fr 1fr}.idx-gallery img.lead{grid-column:span 2}}
+.idx-body{display:grid;grid-template-columns:1.6fr .9fr;gap:40px;align-items:start;padding:8px 0 40px}
+@media(max-width:860px){.idx-body{grid-template-columns:1fr}}
+.idx-facts{display:grid;grid-template-columns:repeat(2,1fr);gap:0;border:1px solid var(--line);border-radius:16px;overflow:hidden;margin:20px 0}
+.idx-facts div{padding:14px 16px;border-bottom:1px solid var(--line-2);border-right:1px solid var(--line-2)}
+.idx-facts .k{font-family:var(--mono);font-size:.62rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.idx-facts .v{color:#fff;font-size:1.02rem;margin-top:3px}
+.idx-feats{display:flex;flex-wrap:wrap;gap:8px;margin:16px 0}
+.idx-feats span{font-family:var(--mono);font-size:.68rem;letter-spacing:.04em;color:var(--fg-soft);border:1px solid var(--line);border-radius:999px;padding:6px 12px}
+.idx-cta{position:sticky;top:90px;border:1px solid var(--line);border-radius:20px;padding:26px;background:rgba(255,255,255,.02);box-shadow:inset 0 1px 0 rgba(255,255,255,.05)}
+.idx-cta h3{font-size:1.3rem;color:#fff;margin-bottom:6px}
+.idx-cta p{color:var(--fg-soft);font-size:.95rem;margin-bottom:16px}
+.idx-cta .btn{width:100%;justify-content:center;margin-bottom:10px}
+.idx-remarks{color:var(--fg-soft);font-size:1.06rem;line-height:1.7;margin:8px 0 4px;white-space:pre-line}
+.idx-attrib{font-family:var(--mono);font-size:.66rem;line-height:1.6;color:var(--muted);border-top:1px solid var(--line-2);margin-top:36px;padding-top:18px}
+.idx-agent{font-size:.9rem;color:var(--fg-soft);margin-top:6px}
+
+.lgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:20px;padding:8px 0 40px}
+.lcard{border:1px solid var(--line);border-radius:18px;overflow:hidden;background:rgba(255,255,255,.02);transition:transform .5s var(--ease),border-color .4s}
+.lcard:hover{transform:translateY(-4px);border-color:rgba(255,255,255,.22)}
+.lcard img{width:100%;aspect-ratio:4/3;object-fit:cover;background:var(--bg2)}
+.lcard-b{padding:16px 18px}
+.lcard-price{font-family:var(--disp);font-size:1.4rem;color:#fff;letter-spacing:-.02em}
+.lcard-addr{color:var(--fg-soft);margin-top:4px}
+.lcard-sub{font-family:var(--mono);font-size:.68rem;letter-spacing:.05em;text-transform:uppercase;color:var(--muted);margin-top:6px}
+.lcard-meta{color:var(--fg-soft);font-size:.9rem;margin-top:8px}
+.lcard-status{display:inline-block;font-family:var(--mono);font-size:.6rem;letter-spacing:.12em;text-transform:uppercase;color:var(--gold-l);border:1px solid var(--line);border-radius:999px;padding:4px 10px;margin-top:12px}
+</style>
+<body id="top">
+<header><div class="wrap nav"><a class="brand" href="/"><img class="logo" src="/assets/logo-white.png" alt="Downtown Stamford"><span class="wordmark">Downtown Stamford</span></a><nav class="nav-links"><a href="/homes-for-sale-stamford.html">Homes for Sale</a><a href="/search.html">Search</a><a href="/neighborhoods.html">Neighborhoods</a><a href="/blog.html">Blog</a><a href="/contact.html">Contact</a></nav><a class="btn-call" href="tel:2038833399">Call 203·883·3399</a></div></header>
+<section class="phero"><div class="wrap">
+  <div class="crumbs"><a href="/">Home</a> / Listings</div>
+  <span class="tag">Live from the MLS</span>
+  <h1>Stamford Listings</h1>
+  <p class="lead">Homes for sale, condos, and rentals across Stamford — straight from the local MLS. 24 active listings.</p>
+  <div class="updated">Listing data provided courtesy of SmartMLS. Information deemed reliable but not guaranteed.</div>
+</div></section>
+<main class="wrap"><div class="lgrid">
+<a class="lcard" href="/homes/12-harbor-point-rd-4b-stamford-ct.html">
+  <img src="https://images.unsplash.com/photo-1600585152220-90363fe7e115?w=1200&amp;q=80&amp;auto=format&amp;fit=crop" alt="12 Harbor Point Rd #4B" loading="lazy" decoding="async">
+  <div class="lcard-b">
+    <div class="lcard-price">$749,000</div>
+    <div class="lcard-addr">12 Harbor Point Rd #4B</div>
+    <div class="lcard-sub">Harbor Point, Stamford</div>
+    <div class="lcard-meta">2 bd · 2 ba · 1,290 sqft · Condo</div>
+    <div class="lcard-status">Active</div>
+  </div>
+</a>
+<a class="lcard" href="/homes/1-broad-st-1907-stamford-ct.html">
+  <img src="https://images.unsplash.com/photo-1600585152220-90363fe7e115?w=1200&amp;q=80&amp;auto=format&amp;fit=crop" alt="1 Broad St #1907" loading="lazy" decoding="async">
+  <div class="lcard-b">
+    <div class="lcard-price">$985,000</div>
+    <div class="lcard-addr">1 Broad St #1907</div>
+    <div class="lcard-sub">Harbor Point, Stamford</div>
+    <div class="lcard-meta">2 bd · 2.5 ba · 1,540 sqft · Condo</div>
+    <div class="lcard-status">Active</div>
+  </div>
+</a>
+<a class="lcard" href="/homes/84-ocean-dr-w-stamford-ct.html">
+  <img src="https://images.unsplash.com/photo-1600607688969-a5bfcd646154?w=1200&amp;q=80&amp;auto=format&amp;fit=crop" alt="84 Ocean Dr W" loading="lazy" decoding="async">
+  <div class="lcard-b">
+    <div class="lcard-price">$2,795,000</div>
+    <div class="lcard-addr">84 Ocean Dr W</div>
+    <div class="lcard-sub">Shippan, Stamford</div>
+    <div class="lcard-meta">5 bd · 4.5 ba · 4,620 sqft · Single Family</div>
+    <div class="lcard-status">Active</div>
+  </div>
+</a>
+<a class="lcard" href="/homes/31-saddle-rock-rd-stamford-ct.html">
+  <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1200&amp;q=80&amp;auto=format&amp;fit=crop" alt="31 Saddle Rock Rd" loading="lazy" decoding="async">
+  <div class="lcard-b">
+    <div class="lcard-price">$1,685,000</div>
+    <div class="lcard-addr">31 Saddle Rock Rd</div>
+    <div class="lcard-sub">Shippan, Stamford</div>
+    <div class="lcard-meta">4 bd · 3 ba · 3,120 sqft · Single Family</div>
+    <div class="lcard-status">Coming Soon</div>
+  </div>
+</a>
+<a class="lcard" href="/homes/101-park-pl-612-stamford-ct.html">
+  <img src="https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=1200&amp;q=80&amp;auto=format&amp;fit=crop" alt="101 Park Pl #612" loading="lazy" decoding="async">
+  <div class="lcard-b">
+    <div class="lcard-price">$545,000</div>
+    <div class="lcard-addr">101 Park Pl #612</div>
+    <div class="lcard-sub">Downtown, Stamford</div>
+    <div class="lcard-meta">1 bd · 1 ba · 860 sqft · Condo</div>
+    <div class="lcard-status">Active</div>
+  </div>
+</a>
+<a class="lcard" href="/homes/75-tresser-blvd-21c-stamford-ct.html">
+  <img src="https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=1200&amp;q=80&amp;auto=format&amp;fit=crop" alt="75 Tresser Blvd #21C" loading="lazy" decoding="async">
+  <div class="lcard-b">
+    <div class="lcard-price">$419,000</div>
+    <div class="lcard-addr">75 Tresser Blvd #21C</div>
+    <div class="lcard-sub">Downtown, Stamford</div>
+    <div class="lcard-meta">1 bd · 1 ba · 780 sqft · Condo</div>
+    <div class="lcard-status">Active</div>
+  </div>
+</a>
+<a class="lcard" href="/homes/19-weed-ave-stamford-ct.html">
+  <img src="https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=1200&amp;q=80&amp;auto=format&amp;fit=crop" alt="19 Weed Ave" loading="lazy" decoding="async">
+  <div class="lcard-b">
+    <div class="lcard-price">$899,000</div>
+    <div class="lcard-addr">19 Weed Ave</div>
+    <div class="lcard-sub">Cove, Stamford</div>
+    <div class="lcard-meta">3 bd · 2.5 ba · 2,140 sqft · Single Family</div>
+    <div class="lcard-status">Active</div>
+  </div>
+</a>
+<a class="lcard" href="/homes/260-cove-rd-stamford-ct.html">
+  <img src="https://images.unsplash.com/photo-1613977257363-707ba9348227?w=1200&amp;q=80&amp;auto=format&amp;fit=crop" alt="260 Cove Rd" loading="lazy" decoding="async">
+  <div class="lcard-b">
+    <div class="lcard-price">$780,000</div>
+    <div class="lcard-addr">260 Cove Rd</div>
+    <div class="lcard-sub">Cove, Stamford</div>
+    <div class="lcard-meta">4 bd · 2 ba · 2,480 sqft · Multi-Family</div>
+    <div class="lcard-status">Under Contract</div>
+  </div>
+</a>
+<a class="lcard" href="/homes/54-church-st-stamford-ct.html">
+  <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1200&amp;q=80&amp;auto=format&amp;fit=crop" alt="54 Church St" loading="lazy" decoding="async">
+  <div class="lcard-b">
+    <div class="lcard-price">$615,000</div>
+    <div class="lcard-addr">54 Church St</div>
+    <div class="lcard-sub">Glenbrook, Stamford</div>
+    <div class="lcard-meta">3 bd · 2.5 ba · 1,780 sqft · Townhouse</div>
+    <div class="lcard-status">Active</div>
+  </div>
+</a>
+<a class="lcard" href="/homes/38-bregman-ln-stamford-ct.html">
+  <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1200&amp;q=80&amp;auto=format&amp;fit=crop" alt="38 Bregman Ln" loading="lazy" decoding="async">
+  <div class="lcard-b">
+    <div class="lcard-price">$725,000</div>
+    <div class="lcard-addr">38 Bregman Ln</div>
+    <div class="lcard-sub">Glenbrook, Stamford</div>
+    <div class="lcard-meta">3 bd · 2 ba · 1,920 sqft · Single Family</div>
+    <div class="lcard-status">Active</div>
+  </div>
+</a>
+<a class="lcard" href="/homes/120-woodway-rd-stamford-ct.html">
+  <img src="https://images.unsplash.com/photo-1600607688969-a5bfcd646154?w=1200&amp;q=80&amp;auto=format&amp;fit=crop" alt="120 Woodway Rd" loading="lazy" decoding="async">
+  <div class="lcard-b">
+    <div class="lcard-price">$849,000</div>
+    <div class="lcard-addr">120 Woodway Rd</div>
+    <div class="lcard-sub">Springdale, Stamford</div>
+    <div class="lcard-meta">4 bd · 2.5 ba · 2,560 sqft · Single Family</div>
+    <div class="lcard-status">Active</div>
+  </div>
+</a>
+<a class="lcard" href="/homes/47-ferndale-dr-stamford-ct.html">
+  <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1200&amp;q=80&amp;auto=format&amp;fit=crop" alt="47 Ferndale Dr" loading="lazy" decoding="async">
+  <div class="lcard-b">
+    <div class="lcard-price">$679,000</div>
+    <div class="lcard-addr">47 Ferndale Dr</div>
+    <div class="lcard-sub">Springdale, Stamford</div>
+    <div class="lcard-meta">3 bd · 2 ba · 1,740 sqft · Single Family</div>
+    <div class="lcard-status">Coming Soon</div>
+  </div>
+</a>
+<a class="lcard" href="/homes/88-hope-st-3-stamford-ct.html">
+  <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200&amp;q=80&amp;auto=format&amp;fit=crop" alt="88 Hope St #3" loading="lazy" decoding="async">
+  <div class="lcard-b">
+    <div class="lcard-price">$385,000</div>
+    <div class="lcard-addr">88 Hope St #3</div>
+    <div class="lcard-sub">Belltown, Stamford</div>
+    <div class="lcard-meta">2 bd · 1 ba · 940 sqft · Condo</div>
+    <div class="lcard-status">Active</div>
+  </div>
+</a>
+<a class="lcard" href="/homes/440-wire-mill-rd-stamford-ct.html">
+  <img src="https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=1200&amp;q=80&amp;auto=format&amp;fit=crop" alt="440 Wire Mill Rd" loading="lazy" decoding="async">
+  <div class="lcard-b">
+    <div class="lcard-price">$1,425,000</div>
+    <div class="lcard-addr">440 Wire Mill Rd</div>
+    <div class="lcard-sub">North Stamford, Stamford</div>
+    <div class="lcard-meta">5 bd · 4 ba · 4,180 sqft · Single Family</div>
+    <div class="lcard-status">Active</div>
+  </div>
+</a>
+<a class="lcard" href="/homes/17-chestnut-hill-rd-stamford-ct.html">
+  <img src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=1200&amp;q=80&amp;auto=format&amp;fit=crop" alt="17 Chestnut Hill Rd" loading="lazy" decoding="async">
+  <div class="lcard-b">
+    <div class="lcard-price">$1,150,000</div>
+    <div class="lcard-addr">17 Chestnut Hill Rd</div>
+    <div class="lcard-sub">North Stamford, Stamford</div>
+    <div class="lcard-meta">4 bd · 3.5 ba · 3,480 sqft · Single Family</div>
+    <div class="lcard-status">Active</div>
+  </div>
+</a>
+<a class="lcard" href="/homes/210-cedar-heights-rd-stamford-ct.html">
+  <img src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=1200&amp;q=80&amp;auto=format&amp;fit=crop" alt="210 Cedar Heights Rd" loading="lazy" decoding="async">
+  <div class="lcard-b">
+    <div class="lcard-price">$965,000</div>
+    <div class="lcard-addr">210 Cedar Heights Rd</div>
+    <div class="lcard-sub">Turn of River, Stamford</div>
+    <div class="lcard-meta">4 bd · 2.5 ba · 2,880 sqft · Single Family</div>
+    <div class="lcard-status">Active</div>
+  </div>
+</a>
+<a class="lcard" href="/homes/35-hunting-ridge-rd-stamford-ct.html">
+  <img src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=1200&amp;q=80&amp;auto=format&amp;fit=crop" alt="35 Hunting Ridge Rd" loading="lazy" decoding="async">
+  <div class="lcard-b">
+    <div class="lcard-price">$1,320,000</div>
+    <div class="lcard-addr">35 Hunting Ridge Rd</div>
+    <div class="lcard-sub">Westover, Stamford</div>
+    <div class="lcard-meta">5 bd · 3.5 ba · 3,760 sqft · Single Family</div>
+    <div class="lcard-status">Under Contract</div>
+  </div>
+</a>
+<a class="lcard" href="/homes/62-very-merry-rd-stamford-ct.html">
+  <img src="https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=1200&amp;q=80&amp;auto=format&amp;fit=crop" alt="62 Very Merry Rd" loading="lazy" decoding="async">
+  <div class="lcard-b">
+    <div class="lcard-price">$799,000</div>
+    <div class="lcard-addr">62 Very Merry Rd</div>
+    <div class="lcard-sub">Newfield, Stamford</div>
+    <div class="lcard-meta">4 bd · 2.5 ba · 2,340 sqft · Single Family</div>
+    <div class="lcard-status">Active</div>
+  </div>
+</a>
+<a class="lcard" href="/homes/150-fifth-st-stamford-ct.html">
+  <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1200&amp;q=80&amp;auto=format&amp;fit=crop" alt="150 Fifth St" loading="lazy" decoding="async">
+  <div class="lcard-b">
+    <div class="lcard-price">$469,000</div>
+    <div class="lcard-addr">150 Fifth St</div>
+    <div class="lcard-sub">Ridgeway, Stamford</div>
+    <div class="lcard-meta">2 bd · 2 ba · 1,120 sqft · Condo</div>
+    <div class="lcard-status">Active</div>
+  </div>
+</a>
+<a class="lcard" href="/homes/100-commons-park-n-815-stamford-ct.html">
+  <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1200&amp;q=80&amp;auto=format&amp;fit=crop" alt="100 Commons Park N #815" loading="lazy" decoding="async">
+  <div class="lcard-b">
+    <div class="lcard-price">$3,450/mo</div>
+    <div class="lcard-addr">100 Commons Park N #815</div>
+    <div class="lcard-sub">Harbor Point, Stamford</div>
+    <div class="lcard-meta">2 bd · 2 ba · 1,180 sqft · Condo</div>
+    <div class="lcard-status">Active</div>
+  </div>
+</a>
+<a class="lcard" href="/homes/66-summer-st-9d-stamford-ct.html">
+  <img src="https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=1200&amp;q=80&amp;auto=format&amp;fit=crop" alt="66 Summer St #9D" loading="lazy" decoding="async">
+  <div class="lcard-b">
+    <div class="lcard-price">$1,900/mo</div>
+    <div class="lcard-addr">66 Summer St #9D</div>
+    <div class="lcard-sub">Downtown, Stamford</div>
+    <div class="lcard-meta">Studio · 1 ba · 520 sqft · Condo</div>
+    <div class="lcard-status">Active</div>
+  </div>
+</a>
+<a class="lcard" href="/homes/25-southfield-ave-2-stamford-ct.html">
+  <img src="https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=1200&amp;q=80&amp;auto=format&amp;fit=crop" alt="25 Southfield Ave #2" loading="lazy" decoding="async">
+  <div class="lcard-b">
+    <div class="lcard-price">$2,650/mo</div>
+    <div class="lcard-addr">25 Southfield Ave #2</div>
+    <div class="lcard-sub">Waterside, Stamford</div>
+    <div class="lcard-meta">1 bd · 1 ba · 720 sqft · Condo</div>
+    <div class="lcard-status">Active</div>
+  </div>
+</a>
+<a class="lcard" href="/homes/412-glenbrook-rd-b-stamford-ct.html">
+  <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1200&amp;q=80&amp;auto=format&amp;fit=crop" alt="412 Glenbrook Rd #B" loading="lazy" decoding="async">
+  <div class="lcard-b">
+    <div class="lcard-price">$3,100/mo</div>
+    <div class="lcard-addr">412 Glenbrook Rd #B</div>
+    <div class="lcard-sub">Glenbrook, Stamford</div>
+    <div class="lcard-meta">3 bd · 2 ba · 1,460 sqft · Townhouse</div>
+    <div class="lcard-status">Active</div>
+  </div>
+</a>
+<a class="lcard" href="/homes/9-fairview-ave-stamford-ct.html">
+  <img src="https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=1200&amp;q=80&amp;auto=format&amp;fit=crop" alt="9 Fairview Ave" loading="lazy" decoding="async">
+  <div class="lcard-b">
+    <div class="lcard-price">$4,500/mo</div>
+    <div class="lcard-addr">9 Fairview Ave</div>
+    <div class="lcard-sub">Shippan, Stamford</div>
+    <div class="lcard-meta">3 bd · 2.5 ba · 2,020 sqft · Single Family</div>
+    <div class="lcard-status">Coming Soon</div>
+  </div>
+</a>
+</div>
+<p class="idx-attrib" style="font-family:var(--mono);font-size:.66rem;color:var(--muted);border-top:1px solid var(--line-2);margin:20px 0 0;padding-top:18px">Listing data provided courtesy of SmartMLS. Information deemed reliable but not guaranteed.</p>
+</main>
+<footer><div class="wrap"><div class="fgrid">
+<div class="col"><div class="fbrand"><img src="/assets/logo-white.png" alt="Downtown Stamford logo"><span class="wm">Downtown Stamford</span></div>
+<p>Real estate made simple. Helping Stamford, CT buy, sell, and rent with real exposure and real results.</p></div>
+<div class="col"><h4>Explore</h4><a href="/homes-for-sale-stamford.html">Homes for Sale</a><a href="/homes/">All Listings</a><a href="/neighborhoods.html">Neighborhoods</a><a href="/blog.html">Blog</a><a href="/contact.html">Contact</a></div>
+<div class="col"><h4>Contact</h4><a href="tel:2038833399">203·883·3399</a><a href="mailto:John@dtstamford.com">John@dtstamford.com</a><p>Stamford, Connecticut</p><p>Jarah Tuttle LLC</p></div>
+</div><div class="fbot"><span>© 2026 Downtown Stamford · John Restrepo</span><span>Real Estate Made Simple.</span></div></div></footer>
+</body>
+</html>

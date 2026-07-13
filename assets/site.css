@@ -48,7 +48,10 @@ header .nav{max-width:1120px;width:100%;margin:0 auto;padding:0 12px 0 22px;heig
   display:flex;align-items:center;justify-content:space-between;gap:18px;
   border-radius:999px;border:1px solid var(--line);background:rgba(11,11,14,.6);backdrop-filter:saturate(170%) blur(20px);-webkit-backdrop-filter:saturate(170%) blur(20px);
   box-shadow:0 12px 46px -22px rgba(0,0,0,.95),inset 0 1px 0 rgba(255,255,255,.06)}
-.brand{display:flex;align-items:center;gap:12px;min-width:0}
+.brand{display:flex;align-items:center;gap:12px;min-width:0;position:relative}
+.brand::after{content:"Home";position:absolute;top:calc(100% + 9px);left:2px;font-family:var(--mono);font-size:.58rem;letter-spacing:.16em;text-transform:uppercase;color:var(--gold-l);background:rgba(14,14,18,.96);border:1px solid var(--line);padding:5px 11px;border-radius:8px;white-space:nowrap;opacity:0;transform:translateY(-4px);pointer-events:none;transition:opacity .25s var(--ease),transform .3s var(--ease);box-shadow:0 12px 30px -16px rgba(0,0,0,.9)}
+.brand:hover::after{opacity:1;transform:none}
+@media(max-width:1000px){.brand::after{display:none}}
 .brand .logo{height:26px;width:auto}
 .brand .wordmark{font-family:var(--disp);font-weight:600;font-size:1.02rem;letter-spacing:-.02em;white-space:nowrap}
 .nav-links{display:flex;gap:24px;font-family:var(--mono);font-size:.7rem;letter-spacing:.09em;text-transform:uppercase;color:var(--muted)}

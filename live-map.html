@@ -35,10 +35,10 @@
   .lm-bar{flex:0 0 auto;display:flex;align-items:center;gap:16px;padding:12px 20px;border-bottom:1px solid var(--line);background:rgba(8,8,10,.92);backdrop-filter:blur(10px)}
   .lm-back{font-family:var(--mono);font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);transition:color .2s;white-space:nowrap}
   .lm-back:hover{color:var(--fg)}
-  .lm-brand{display:flex;align-items:center;gap:9px;font-family:var(--disp);font-weight:600;font-size:.98rem;letter-spacing:-.01em}
+  .lm-brand{display:flex;align-items:center;gap:9px;font-family:var(--disp);font-weight:600;font-size:.98rem;letter-spacing:-.01em;white-space:nowrap}
   .lm-brand .dot{width:7px;height:7px;border-radius:50%;background:var(--gold-l);box-shadow:0 0 10px var(--gold-l)}
   .lm-tag{margin-left:auto;font-family:var(--mono);font-size:.66rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
-  .lm-open{font-family:var(--mono);font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;color:var(--gold-l);border:1px solid rgba(201,162,74,.4);border-radius:8px;padding:7px 12px;transition:.2s}
+  .lm-open{font-family:var(--mono);font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;color:var(--gold-l);border:1px solid rgba(201,162,74,.4);border-radius:8px;padding:7px 12px;transition:.2s;white-space:nowrap}
   .lm-open:hover{background:rgba(201,162,74,.12)}
   /* full-page map widget */
   .lm-frame{flex:1 1 auto;position:relative;background:#08080a}
@@ -46,12 +46,12 @@
   .lm-load{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:14px;color:var(--muted);font-family:var(--mono);font-size:.78rem;letter-spacing:.08em;pointer-events:none;transition:opacity .5s}
   .lm-load .ring{width:34px;height:34px;border:2px solid rgba(255,255,255,.12);border-top-color:var(--gold-l);border-radius:50%;animation:sp 1s linear infinite}
   @keyframes sp{to{transform:rotate(360deg)}}
-  @media(max-width:560px){.lm-tag{display:none}}
+  @media(max-width:560px){.lm-tag{display:none}.lm-bt{display:none}.lm-bar{gap:10px;padding:10px 14px}.lm-brand{font-size:.92rem}.lm-open{margin-left:auto;padding:6px 10px;font-size:.62rem}}
 </style>
 </head>
 <body>
   <div class="lm-bar">
-    <a class="lm-back" href="index.html">&larr; Downtown Stamford</a>
+    <a class="lm-back" href="index.html" aria-label="Back to Downtown Stamford">&larr;<span class="lm-bt"> Downtown Stamford</span></a>
     <span class="lm-brand"><span class="dot"></span>Stamford Live</span>
     <span class="lm-tag">Live Events Map</span>
     <a class="lm-open" href="https://stamfordlive.com" target="_blank" rel="noopener">Open full site &nearr;</a>

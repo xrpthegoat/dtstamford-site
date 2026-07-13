@@ -213,13 +213,18 @@
   var hi=document.querySelector('.prose figure img');
   if(hi)gsap.to(hi,{yPercent:10,ease:'none',
     scrollTrigger:{trigger:hi,start:'top bottom',end:'bottom top',scrub:true}});
-  /* Failsafe: reveals run 0.7s — if rAF is throttled (background tab, low-power, embedded
-     webviews) a tween can stall mid-fade and leave content half-visible. Every 3s, force any
-     STARTED-but-unfinished non-scrub tween to its end state. No effect in healthy browsers. */
+  /* Failsafe: reveals run 0.7s — but in throttled/stalled environments (background tabs,
+     low-power mode, in-app webviews like Instagram's) rAF or scroll events can stall, leaving
+     a tween mid-fade OR never fired at all → invisible content. Every 3s, complete any
+     non-scrub reveal whose trigger is on-screen, started or not — a poor-man's
+     IntersectionObserver. No visible effect in healthy browsers (tweens finish in 0.7s). */
   setInterval(function(){
     ScrollTrigger.getAll().forEach(function(st){
       var a=st.animation;
-      if(a&&!st.vars.scrub&&a.progress()>0&&a.progress()<1)a.progress(1);
+      if(!a||st.vars.scrub||a.progress()>=1)return;
+      var el=st.trigger; if(!el)return;
+      var r=el.getBoundingClientRect();
+      if(r.top<innerHeight*0.95&&r.bottom>0)a.progress(1);
     });
   },3000);
 })();

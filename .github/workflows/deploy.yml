@@ -9,7 +9,10 @@ permissions:
   id-token: write
 concurrency:
   group: pages
-  cancel-in-progress: true
+  # false (not true): a frequently-pushed Pages repo must let an in-flight deployment
+  # FINISH. Cancelling mid-swap leaves the live site serving 404 until the next good
+  # deploy — the cause of the intermittent dtstamford.com 404s. GitHub's own guidance.
+  cancel-in-progress: false
 jobs:
   deploy:
     environment:

@@ -213,6 +213,15 @@
   var hi=document.querySelector('.prose figure img');
   if(hi)gsap.to(hi,{yPercent:10,ease:'none',
     scrollTrigger:{trigger:hi,start:'top bottom',end:'bottom top',scrub:true}});
+  /* Failsafe: reveals run 0.7s — if rAF is throttled (background tab, low-power, embedded
+     webviews) a tween can stall mid-fade and leave content half-visible. Every 3s, force any
+     STARTED-but-unfinished non-scrub tween to its end state. No effect in healthy browsers. */
+  setInterval(function(){
+    ScrollTrigger.getAll().forEach(function(st){
+      var a=st.animation;
+      if(a&&!st.vars.scrub&&a.progress()>0&&a.progress()<1)a.progress(1);
+    });
+  },3000);
 })();
 </script>
 </body>

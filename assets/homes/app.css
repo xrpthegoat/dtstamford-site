@@ -14,14 +14,22 @@
 .app-body::before{opacity:.7}
 
 /* ---------- FILTER BAR ---------- */
-.filterbar{position:sticky;top:0;z-index:80;padding:10px 16px 12px;display:flex;justify-content:center;
+/* sticks BELOW the glass header island (z-index:100 in site.css), never under it */
+.filterbar{position:sticky;top:var(--hdr-h);z-index:90;padding:10px 16px 12px;display:flex;justify-content:center;
   background:linear-gradient(180deg,rgba(6,6,8,.92),rgba(6,6,8,.72) 70%,transparent);backdrop-filter:blur(6px)}
 .fb-inner{max-width:1560px;width:100%;display:flex;align-items:center;gap:10px;flex-wrap:nowrap;
   padding:8px;border-radius:999px;border:1px solid var(--line);background:rgba(13,13,17,.7);
   backdrop-filter:saturate(160%) blur(18px);-webkit-backdrop-filter:saturate(160%) blur(18px);
   box-shadow:0 14px 46px -26px rgba(0,0,0,.95),inset 0 1px 0 rgba(255,255,255,.05)}
-.fb-search{display:flex;align-items:center;gap:9px;flex:1 1 260px;min-width:180px;padding:0 8px 0 16px;
-  border-right:1px solid var(--line)}
+
+/* visual groups: [search + buy/rent] | [filters] | [saved + view] */
+.fb-group{display:flex;align-items:center;gap:10px}
+.fb-group-search{flex:1 1 300px;min-width:0}
+.fb-group-filters{flex:none}
+.fb-group-view{flex:none;margin-left:auto}
+.fb-divider{width:1px;align-self:stretch;margin:6px 0;background:var(--line);flex:none}
+
+.fb-search{display:flex;align-items:center;gap:9px;flex:1 1 220px;min-width:140px;padding:0 8px 0 16px}
 .fb-ico{color:var(--muted);flex:none}
 .fb-search input{flex:1;background:none;border:0;outline:none;color:var(--fg);font-family:var(--sans);
   font-size:.92rem;padding:12px 0;min-width:0}
@@ -40,15 +48,20 @@
   font-size:.82rem;font-weight:500;white-space:nowrap;transition:border-color .25s,background .25s,color .25s}
 .drop-btn:hover{border-color:rgba(255,255,255,.22);color:var(--fg)}
 .drop.is-active .drop-btn{border-color:var(--gold-d);color:var(--fg);background:rgba(203,171,104,.08)}
-.drop-btn.has-val{border-color:var(--gold-d);color:var(--gold-l)}
+.drop-btn.has-val{border-color:var(--gold-d);color:var(--gold-l);background:rgba(203,171,104,.06)}
+.drop-btn.has-val::after{content:"";display:inline-block;width:6px;height:6px;border-radius:50%;background:var(--gold);margin-left:2px}
 .chev{font-size:.6rem;color:var(--muted);transition:transform .3s var(--ease)}
 .drop.is-active .chev{transform:rotate(180deg)}
-.drop-panel{position:absolute;top:calc(100% + 10px);left:0;z-index:90;min-width:264px;padding:16px;
+/* z-index sits above the header (100) so an open panel is never clipped by it, even
+   when the filter bar is stuck directly under the header on scroll */
+.drop-panel{position:absolute;top:calc(100% + 10px);left:0;z-index:150;min-width:264px;padding:16px;
   border-radius:20px;border:1px solid var(--line);background:rgba(16,16,20,.96);
   backdrop-filter:blur(24px);-webkit-backdrop-filter:blur(24px);
   box-shadow:0 30px 70px -30px rgba(0,0,0,.95),inset 0 1px 0 rgba(255,255,255,.05);
-  opacity:0;transform:translateY(-6px) scale(.98);pointer-events:none;transition:opacity .2s,transform .25s var(--ease)}
+  opacity:0;transform:translateY(-6px) scale(.98);pointer-events:none;
+  transition:opacity .22s var(--ease),transform .28s var(--ease)}
 .drop.is-active .drop-panel{opacity:1;transform:none;pointer-events:auto}
+.drop-panel.align-right{left:auto;right:0}
 .dp-narrow{min-width:180px}
 .dp-row{display:flex;align-items:flex-end;gap:10px}
 .dp-row label{flex:1;display:flex;flex-direction:column;gap:6px;font-family:var(--mono);font-size:.62rem;
@@ -78,10 +91,24 @@
 .dp-clear:hover{color:var(--fg)}
 .btn-mini{padding:8px 18px;border-radius:999px;border:0;cursor:pointer;font-family:var(--sans);font-weight:600;font-size:.8rem;
   background:linear-gradient(180deg,var(--gold-l),var(--gold));color:#161006}
+.fb-badge{display:inline-flex;align-items:center;gap:6px;padding:8px 12px;border-radius:999px;cursor:pointer;
+  border:1px solid var(--gold-d);background:rgba(203,171,104,.12);color:var(--gold-l);font-family:var(--mono);
+  font-size:.62rem;letter-spacing:.08em;text-transform:uppercase;transition:background .2s,transform .2s;flex:none}
+.fb-badge[hidden]{display:none}
+.fb-badge:hover{background:rgba(203,171,104,.2);transform:translateY(-1px)}
+.fb-badge span{display:inline-flex;align-items:center;justify-content:center;min-width:16px;height:16px;padding:0 4px;
+  border-radius:50%;background:var(--gold);color:#161006;font-weight:700;font-size:.62rem}
 .fb-reset{background:none;border:0;color:var(--muted);font-family:var(--mono);font-size:.64rem;letter-spacing:.12em;
-  text-transform:uppercase;cursor:pointer;padding:0 4px;transition:color .2s;flex:none}
+  text-transform:uppercase;cursor:pointer;padding:8px 6px;transition:color .2s;flex:none}
 .fb-reset:hover{color:var(--fg)}
-.fb-viewtoggle{display:inline-flex;padding:3px;border-radius:999px;background:rgba(255,255,255,.04);border:1px solid var(--line);flex:none;margin-left:auto}
+.fb-saved{display:inline-flex;align-items:center;gap:7px;padding:9px 14px;border-radius:999px;cursor:pointer;
+  border:1px solid var(--line);background:rgba(255,255,255,.03);color:var(--fg-soft);font-family:var(--sans);
+  font-size:.8rem;font-weight:500;transition:border-color .25s,background .25s,color .25s;flex:none}
+.fb-saved:hover{border-color:rgba(255,255,255,.22);color:var(--fg)}
+.fb-saved svg{transition:fill .25s,stroke .25s}
+.fb-saved.is-on{border-color:var(--gold-d);color:var(--gold-l);background:rgba(203,171,104,.08)}
+.fb-saved.is-on svg{fill:var(--gold-l);stroke:var(--gold-l)}
+.fb-viewtoggle{display:inline-flex;padding:3px;border-radius:999px;background:rgba(255,255,255,.04);border:1px solid var(--line);flex:none}
 .vt-btn{padding:8px 13px;border:0;background:none;color:var(--muted);font-family:var(--mono);font-size:.64rem;letter-spacing:.1em;
   text-transform:uppercase;border-radius:999px;cursor:pointer;transition:all .2s}
 .vt-btn.is-on{color:var(--fg);background:rgba(255,255,255,.08)}
@@ -142,11 +169,18 @@
 .card-specs{display:flex;gap:14px;margin:10px 0 8px;font-size:.86rem;color:var(--fg-soft)}
 .card-specs b{color:#fff;font-weight:600}
 .card-specs span{display:inline-flex;gap:5px;align-items:baseline}
+.card-ppsf{font-size:.76rem;color:var(--muted)}
 .card-addr{font-size:.88rem;color:var(--fg-soft);line-height:1.4}
-.card-hood{font-family:var(--mono);font-size:.62rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-top:7px}
+.card-hoodrow{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-top:7px}
+.card-hood{font-family:var(--mono);font-size:.62rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.card-commute{display:inline-flex;align-items:center;gap:4px;font-family:var(--mono);font-size:.6rem;letter-spacing:.06em;
+  text-transform:uppercase;color:var(--gold-l);padding:3px 8px;border-radius:7px;border:1px solid rgba(203,171,104,.3);background:rgba(203,171,104,.06)}
 .card-foot{display:flex;justify-content:space-between;align-items:center;margin-top:11px;padding-top:11px;border-top:1px solid var(--line-2)}
 .card-dom{font-family:var(--mono);font-size:.62rem;letter-spacing:.06em;text-transform:uppercase;color:var(--faint)}
 .card-broker{font-size:.66rem;color:var(--faint);max-width:52%;text-align:right;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.d-commute{display:inline-flex;align-items:center;gap:6px;font-family:var(--mono);font-size:.64rem;letter-spacing:.08em;
+  text-transform:uppercase;color:var(--gold-l);padding:5px 10px;border-radius:8px;border:1px solid rgba(203,171,104,.3);
+  background:rgba(203,171,104,.06);margin-bottom:10px}
 
 /* ---------- MAP MARKERS ---------- */
 .leaflet-container{background:#0a0a0d;font-family:var(--sans)}
@@ -222,12 +256,28 @@
 @keyframes shim{0%{background-position:200% 0}100%{background-position:-200% 0}}
 
 /* ---------- RESPONSIVE ---------- */
+/* intermediate breakpoint: before wrapping at 1000px, tighten spacing so the
+   search input doesn't get squeezed down to its min-width in the 1000-1300px band */
+@media(max-width:1300px){
+  .fb-inner{gap:6px}
+  .fb-group{gap:7px}
+  .fb-drops{gap:6px}
+  .drop-btn{padding:10px 12px;font-size:.78rem}
+  .fb-search{flex:1 1 170px;min-width:120px;padding:0 6px 0 14px}
+  .fb-search input{font-size:.86rem}
+  .fb-saved span{display:none}
+  .fb-saved{padding:9px 11px}
+}
 @media(max-width:1000px){
   :root{--hdr-h:70px}
-  .fb-inner{flex-wrap:wrap;border-radius:26px;padding:10px}
-  .fb-search{flex:1 1 100%;border-right:0;border-bottom:1px solid var(--line);padding-bottom:4px}
+  .fb-inner{flex-wrap:wrap;border-radius:26px;padding:10px;row-gap:10px}
+  .fb-group-search{flex:1 1 100%;padding-bottom:8px;border-bottom:1px solid var(--line)}
+  .fb-search{flex:1 1 auto}
+  .fb-divider{display:none}
+  .fb-group-filters{flex:1 1 auto;flex-wrap:wrap}
   .fb-drops{flex-wrap:wrap}
-  .fb-viewtoggle{margin-left:0}
+  .fb-group-view{margin-left:auto}
+  .fb-saved span{display:inline}
   .app{flex-direction:column;height:auto;overflow:visible}
   .app-body{overflow:auto}
   .app[data-view="split"] .mapwrap{position:sticky;top:calc(var(--hdr-h) + var(--fb-h));height:42vh;flex:none}
@@ -235,9 +285,25 @@
   .mapwrap{height:60vh;border-left:0;border-top:1px solid var(--line)}
   .results{padding:8px 16px 80px}
 }
+@media(max-width:760px){
+  .fb-group-view{width:100%;justify-content:space-between}
+}
 @media(max-width:560px){
   .cards{grid-template-columns:1fr}
-  .drop-panel{left:auto;right:0}
+  .fb-inner{padding:10px 8px;gap:8px}
+  .fb-group{gap:6px}
+  .fb-search{padding:0 4px 0 10px;min-height:44px}
+  .fb-search input{padding:11px 0;font-size:.9rem}
+  .fb-seg{padding:2px}
+  .seg-btn{padding:10px 14px;min-height:40px}
+  .fb-drops{gap:6px;width:100%}
+  .drop{flex:1 1 auto}
+  .drop-btn{width:100%;justify-content:center;padding:11px 10px;min-height:42px}
+  .drop-panel{left:auto;right:0;min-width:min(280px,88vw);max-width:88vw}
+  .fb-badge{padding:9px 12px;min-height:40px}
+  .fb-reset{padding:10px 8px;min-height:40px}
+  .fb-saved{padding:10px 12px;min-height:40px}
+  .vt-btn{padding:9px 11px;min-height:36px}
   .card-price{font-size:1.35rem}
 }
 @media(prefers-reduced-motion:reduce){*{animation-duration:.001ms!important;transition-duration:.001ms!important}}

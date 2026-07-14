@@ -12,11 +12,36 @@ const HOME_TYPES = ['Single Family', 'Condo', 'Multi-Family', 'Townhouse', 'Co-o
 const SALE_STEPS = [0, 200000, 300000, 400000, 500000, 600000, 750000, 900000, 1000000, 1250000, 1500000, 2000000, 3000000, 5000000];
 const RENT_STEPS = [0, 1500, 1800, 2000, 2250, 2500, 3000, 3500, 4000, 5000, 7500, 10000];
 
+/* Commute copy kept consistent with the published numbers on living-in-stamford.html /
+   stamford-to-nyc-commute.html: express Metro-North trains run ~50 min to Grand Central,
+   peak trains 50-60 min, off-peak/local 60-70 min. This is informational, not live transit data. */
+const COMMUTE_INFO = {
+  'Downtown': 'Walk to the train · ~50 min express to GCT',
+  'South End': 'Shuttle to the train · ~50 min express to GCT',
+  'Harbor Point': 'Shuttle to the train · ~50 min express to GCT',
+  'Shippan': 'Short drive to the train · ~50 min express to GCT',
+  'Cove': 'Short drive to the train · ~50 min express to GCT',
+  'Waterside': 'Short drive to the train · ~50 min express to GCT',
+  'Springdale': 'New Canaan branch / short drive to main line · ~55-60 min to GCT',
+  'Glenbrook': 'New Canaan branch / short drive to main line · ~55-60 min to GCT',
+  'North Stamford': 'Drive to the train · ~50 min express to GCT',
+  'Westover': 'Short drive to the train · ~50 min express to GCT',
+  'Turn of River': 'Short drive to the train · ~50 min express to GCT',
+  'Belltown': 'Short drive to the train · ~50 min express to GCT',
+  'Newfield': 'Short drive to the train · ~50 min express to GCT',
+  'Ridgeway': 'Short drive to the train · ~50 min express to GCT',
+};
+const COMMUTE_DEFAULT = 'Drive to Stamford Transportation Center · ~50 min express to GCT';
+function commuteFor(l) {
+  const hood = l.address && l.address.neighborhood;
+  return (hood && COMMUTE_INFO[hood]) || COMMUTE_DEFAULT;
+}
+
 const state = {
   all: [], meta: null,
   type: 'sale', q: '', priceMin: 0, priceMax: 0,
   beds: 0, baths: 0, types: [], sort: 'new',
-  view: 'split', bounds: null,
+  view: 'split', bounds: null, savedOnly: false,
   favs: new Set(JSON.parse(localStorage.getItem('dts_favs') || '[]')),
   cardIndex: {},        // mls -> current photo index
 };
@@ -96,6 +121,7 @@ function filtered() {
       if (!hay.includes(q)) return false;
     }
     if (state.bounds && !state.bounds.contains([l.geo.lat, l.geo.lng])) return false;
+    if (state.savedOnly && !state.favs.has(l.mls)) return false;
     return true;
   });
   const s = state.sort;
@@ -139,6 +165,11 @@ function renderCards(list) {
   list.forEach(l => wireCard(l));
 }
 
+function ppsf(l) {
+  if (!l.sqft || !l.price || l.listingType === 'rent') return null;
+  return Math.round(l.price / l.sqft);
+}
+
 function cardHTML(l) {
   const b = badgeFor(l);
   const idx = state.cardIndex[l.mls] || 0;
@@ -146,6 +177,8 @@ function cardHTML(l) {
   const fav = state.favs.has(l.mls);
   const dots = photos.length > 1 ? `<div class="card-dots">${photos.map((_, i) => `<i class="${i === idx ? 'on' : ''}"></i>`).join('')}</div>` : '';
   const navs = photos.length > 1 ? `<button class="card-nav prev" data-nav="-1" aria-label="Previous photo">‹</button><button class="card-nav next" data-nav="1" aria-label="Next photo">›</button>` : '';
+  const psf = ppsf(l);
+  const commute = commuteFor(l);
   return `<article class="card" data-mls="${l.mls}">
     <div class="card-media">
       <img src="${esc(photos[idx])}" alt="${esc(l.address.line)}, ${esc(l.address.city)}" loading="lazy" onerror="this.src='assets/house.jpg'">
@@ -159,9 +192,13 @@ function cardHTML(l) {
         <span><b>${l.beds ?? '—'}</b> bd</span>
         <span><b>${l.baths != null ? bathStr(l.baths) : '—'}</b> ba</span>
         <span><b>${l.sqft ? l.sqft.toLocaleString() : '—'}</b> sqft</span>
+        ${psf ? `<span class="card-ppsf">$${psf}/sqft</span>` : ''}
       </div>
       <div class="card-addr">${esc(l.address.line)}, ${esc(l.address.city)} ${esc(l.address.state)}</div>
-      ${l.address.neighborhood ? `<div class="card-hood">${esc(l.address.neighborhood)}</div>` : ''}
+      <div class="card-hoodrow">
+        ${l.address.neighborhood ? `<span class="card-hood">${esc(l.address.neighborhood)}</span>` : ''}
+        <span class="card-commute" title="Estimated Metro-North commute — see stamford-to-nyc-commute.html">${esc(commute)}</span>
+      </div>
       <div class="card-foot">
         <span class="card-dom">${l.daysOnMarket != null ? (l.daysOnMarket === 0 ? 'Just listed' : l.daysOnMarket + ' days on market') : ''}</span>
         <span class="card-broker">${esc((l.listingAgent && l.listingAgent.brokerage) || '')}</span>
@@ -204,10 +241,12 @@ function toggleFav(mls) {
   if (state.favs.has(mls)) state.favs.delete(mls); else state.favs.add(mls);
   localStorage.setItem('dts_favs', JSON.stringify([...state.favs]));
   const on = state.favs.has(mls);
+  if (state.savedOnly) { render(); return; }  // list itself changes when viewing "Saved"
   $$(`.card[data-mls="${cssq(mls)}"] [data-fav]`).forEach(b => { b.classList.toggle('on', on); b.textContent = on ? '♥' : '♡'; });
   const m = markers[mls]; if (m) m.getElement() && m.getElement().classList.toggle('fav', on);
   const dfav = $(`#drawer [data-fav="${cssq(mls)}"]`);
   if (dfav) { dfav.classList.toggle('on', on); dfav.textContent = on ? '♥ Saved' : '♡ Save'; }
+  syncFilterChrome();
 }
 
 /* ---------- map ---------- */
@@ -274,11 +313,13 @@ function openDetail(l) {
   let gi = 0;
   const b = badgeFor(l);
   const fav = state.favs.has(l.mls);
+  const psf = ppsf(l);
   const facts = [
     ['Property type', l.propertyType],
     ['Status', l.status],
     ['Beds', l.beds], ['Baths', l.baths != null ? bathStr(l.baths) : null],
     ['Interior', l.sqft ? l.sqft.toLocaleString() + ' sqft' : null],
+    ['Price / sqft', psf ? '$' + psf : null],
     ['Lot', l.lotSqft ? l.lotSqft.toLocaleString() + ' sqft' : null],
     ['Year built', l.yearBuilt],
     ['Days on market', l.daysOnMarket],
@@ -306,6 +347,7 @@ function openDetail(l) {
       </div>
       <div class="d-addr">${esc(l.address.line)}, ${esc(l.address.city)}, ${esc(l.address.state)} ${esc(l.address.zip || '')}</div>
       ${l.address.neighborhood ? `<div class="d-hood">${esc(l.address.neighborhood)}</div>` : ''}
+      <div class="d-commute" title="Estimated Metro-North commute — see stamford-to-nyc-commute.html">${esc(commuteFor(l))}</div>
       <div class="d-cta">
         <a class="btn btn-gold" href="tel:${PHONE}">Call John · 203·883·3399</a>
         <a class="btn btn-act" href="mailto:${EMAIL}?subject=${encodeURIComponent('Tour request: ' + l.address.line)}&body=${mailBody}">Request a tour</a>
@@ -370,6 +412,23 @@ function syncFilterChrome() {
   $('.drop[data-drop="type"] .drop-lbl').textContent = state.types.length ? `${state.types.length} type${state.types.length > 1 ? 's' : ''}` : 'Home type';
   const sortNames = { new: 'Newest', 'price-asc': 'Price ↑', 'price-desc': 'Price ↓', beds: 'Most beds', sqft: 'Largest' };
   $('.drop[data-drop="sort"] .drop-lbl').textContent = 'Sort: ' + sortNames[state.sort];
+
+  // active-filter count badge (search + price + beds/baths + type; sort/view aren't "filters")
+  const activeCount = (state.q ? 1 : 0) + ((state.priceMin || state.priceMax) ? 1 : 0) +
+    ((state.beds || state.baths) ? 1 : 0) + (state.types.length ? 1 : 0);
+  const badge = $('#filterBadge');
+  if (badge) {
+    badge.hidden = activeCount === 0;
+    $('#filterCount').textContent = activeCount;
+  }
+
+  // saved button reflects count + active state
+  const savedBtn = $('#savedBtn');
+  if (savedBtn) {
+    savedBtn.classList.toggle('is-on', state.savedOnly);
+    savedBtn.setAttribute('aria-pressed', state.savedOnly);
+    $('#savedLabel').textContent = state.favs.size ? `Saved (${state.favs.size})` : 'Saved';
+  }
 }
 
 function wireControls() {
@@ -387,19 +446,35 @@ function wireControls() {
     render();
   }));
 
-  // dropdown open/close
+  // dropdown open/close (+ right-edge collision detection so a panel near the
+  // right edge of the bar, e.g. "Sort", never overflows the viewport)
   $$('.drop').forEach(d => {
     const btn = d.querySelector('.drop-btn');
+    const panel = d.querySelector('.drop-panel');
     btn.addEventListener('click', e => {
       e.stopPropagation();
       const open = d.classList.contains('is-active');
       closeDrops();
-      if (!open) { d.classList.add('is-active'); btn.setAttribute('aria-expanded', 'true'); }
+      if (!open) {
+        d.classList.add('is-active');
+        btn.setAttribute('aria-expanded', 'true');
+        if (panel) {
+          panel.classList.remove('align-right');
+          const r = panel.getBoundingClientRect();
+          if (r.right > window.innerWidth - 8) panel.classList.add('align-right');
+        }
+      }
     });
     d.querySelectorAll('.drop-panel').forEach(p => p.addEventListener('click', e => e.stopPropagation()));
     const done = d.querySelector('.dp-done'); done && done.addEventListener('click', () => closeDrops());
   });
   document.addEventListener('click', closeDrops);
+
+  // saved / favorites view
+  $('#savedBtn').addEventListener('click', () => {
+    state.savedOnly = !state.savedOnly;
+    render();
+  });
 
   // price selects
   $('#priceMin').addEventListener('change', e => { state.priceMin = +e.target.value; render(); });
@@ -436,7 +511,10 @@ function wireControls() {
     render();
   }));
 
-  // reset
+  // filter badge click = same as reset
+  $('#filterBadge').addEventListener('click', () => $('#resetBtn').click());
+
+  // reset (note: intentionally does NOT clear the Saved view — that's a separate lens, not a filter)
   $('#resetBtn').addEventListener('click', () => {
     Object.assign(state, { q: '', priceMin: 0, priceMax: 0, beds: 0, baths: 0, types: [], sort: 'new', bounds: null });
     $('#q').value = '';

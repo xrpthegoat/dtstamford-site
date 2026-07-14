@@ -77,78 +77,94 @@
 <!-- ============ FILTER BAR ============ -->
 <div class="filterbar" id="filterbar">
   <div class="fb-inner">
-    <div class="fb-search">
-      <svg class="fb-ico" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M21 21l-4.3-4.3M11 19a8 8 0 100-16 8 8 0 000 16z"/></svg>
-      <input id="q" type="search" placeholder="City or neighborhood — Stamford, Harbor Point, Shippan…" autocomplete="off" aria-label="Search location">
-    </div>
-
-    <div class="fb-seg" role="tablist" aria-label="Sale or rent">
-      <button class="seg-btn is-on" data-type="sale" role="tab" aria-selected="true">Buy</button>
-      <button class="seg-btn" data-type="rent" role="tab" aria-selected="false">Rent</button>
-    </div>
-
-    <div class="fb-drops">
-      <div class="drop" data-drop="price">
-        <button class="drop-btn" aria-haspopup="true" aria-expanded="false"><span class="drop-lbl">Price</span><span class="chev">▾</span></button>
-        <div class="drop-panel" role="dialog" aria-label="Price">
-          <div class="dp-row">
-            <label>Min<select id="priceMin"></select></label>
-            <span class="dp-dash">—</span>
-            <label>Max<select id="priceMax"></select></label>
-          </div>
-          <div class="dp-actions"><button class="dp-clear" data-clear="price">Clear</button><button class="dp-done btn-mini">Done</button></div>
-        </div>
+    <div class="fb-group fb-group-search">
+      <div class="fb-search">
+        <svg class="fb-ico" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M21 21l-4.3-4.3M11 19a8 8 0 100-16 8 8 0 000 16z"/></svg>
+        <input id="q" type="search" placeholder="City or neighborhood — Stamford, Harbor Point, Shippan…" autocomplete="off" aria-label="Search location">
       </div>
 
-      <div class="drop" data-drop="beds">
-        <button class="drop-btn" aria-haspopup="true" aria-expanded="false"><span class="drop-lbl">Beds</span><span class="chev">▾</span></button>
-        <div class="drop-panel" role="dialog" aria-label="Bedrooms">
-          <div class="pill-row" id="bedsRow" role="group" aria-label="Minimum bedrooms">
-            <button class="pillx is-on" data-beds="0">Any</button>
-            <button class="pillx" data-beds="1">1+</button>
-            <button class="pillx" data-beds="2">2+</button>
-            <button class="pillx" data-beds="3">3+</button>
-            <button class="pillx" data-beds="4">4+</button>
-            <button class="pillx" data-beds="5">5+</button>
-          </div>
-          <div class="dp-label">Baths</div>
-          <div class="pill-row" id="bathsRow" role="group" aria-label="Minimum bathrooms">
-            <button class="pillx is-on" data-baths="0">Any</button>
-            <button class="pillx" data-baths="1">1+</button>
-            <button class="pillx" data-baths="2">2+</button>
-            <button class="pillx" data-baths="3">3+</button>
-          </div>
-          <div class="dp-actions"><button class="dp-clear" data-clear="beds">Clear</button><button class="dp-done btn-mini">Done</button></div>
-        </div>
-      </div>
-
-      <div class="drop" data-drop="type">
-        <button class="drop-btn" aria-haspopup="true" aria-expanded="false"><span class="drop-lbl">Home type</span><span class="chev">▾</span></button>
-        <div class="drop-panel" role="dialog" aria-label="Home type">
-          <div class="check-col" id="typeCol"></div>
-          <div class="dp-actions"><button class="dp-clear" data-clear="type">Clear</button><button class="dp-done btn-mini">Done</button></div>
-        </div>
-      </div>
-
-      <div class="drop" data-drop="sort">
-        <button class="drop-btn" aria-haspopup="true" aria-expanded="false"><span class="drop-lbl">Sort: Newest</span><span class="chev">▾</span></button>
-        <div class="drop-panel dp-narrow" role="dialog" aria-label="Sort">
-          <div class="radio-col" id="sortCol">
-            <button class="radx is-on" data-sort="new">Newest</button>
-            <button class="radx" data-sort="price-asc">Price ↑</button>
-            <button class="radx" data-sort="price-desc">Price ↓</button>
-            <button class="radx" data-sort="beds">Most beds</button>
-            <button class="radx" data-sort="sqft">Largest</button>
-          </div>
-        </div>
+      <div class="fb-seg" role="tablist" aria-label="Sale or rent">
+        <button class="seg-btn is-on" data-type="sale" role="tab" aria-selected="true">Buy</button>
+        <button class="seg-btn" data-type="rent" role="tab" aria-selected="false">Rent</button>
       </div>
     </div>
 
-    <button class="fb-reset" id="resetBtn" title="Reset all filters">Reset</button>
-    <div class="fb-viewtoggle" role="group" aria-label="View">
-      <button class="vt-btn is-on" data-view="split" title="Map + list">Split</button>
-      <button class="vt-btn" data-view="list" title="List only">List</button>
-      <button class="vt-btn" data-view="map" title="Map only">Map</button>
+    <div class="fb-divider" aria-hidden="true"></div>
+
+    <div class="fb-group fb-group-filters">
+      <div class="fb-drops">
+        <div class="drop" data-drop="price">
+          <button class="drop-btn" aria-haspopup="true" aria-expanded="false"><span class="drop-lbl">Price</span><span class="chev">▾</span></button>
+          <div class="drop-panel" role="dialog" aria-label="Price">
+            <div class="dp-row">
+              <label>Min<select id="priceMin"></select></label>
+              <span class="dp-dash">—</span>
+              <label>Max<select id="priceMax"></select></label>
+            </div>
+            <div class="dp-actions"><button class="dp-clear" data-clear="price">Clear</button><button class="dp-done btn-mini">Done</button></div>
+          </div>
+        </div>
+
+        <div class="drop" data-drop="beds">
+          <button class="drop-btn" aria-haspopup="true" aria-expanded="false"><span class="drop-lbl">Beds</span><span class="chev">▾</span></button>
+          <div class="drop-panel" role="dialog" aria-label="Bedrooms">
+            <div class="pill-row" id="bedsRow" role="group" aria-label="Minimum bedrooms">
+              <button class="pillx is-on" data-beds="0">Any</button>
+              <button class="pillx" data-beds="1">1+</button>
+              <button class="pillx" data-beds="2">2+</button>
+              <button class="pillx" data-beds="3">3+</button>
+              <button class="pillx" data-beds="4">4+</button>
+              <button class="pillx" data-beds="5">5+</button>
+            </div>
+            <div class="dp-label">Baths</div>
+            <div class="pill-row" id="bathsRow" role="group" aria-label="Minimum bathrooms">
+              <button class="pillx is-on" data-baths="0">Any</button>
+              <button class="pillx" data-baths="1">1+</button>
+              <button class="pillx" data-baths="2">2+</button>
+              <button class="pillx" data-baths="3">3+</button>
+            </div>
+            <div class="dp-actions"><button class="dp-clear" data-clear="beds">Clear</button><button class="dp-done btn-mini">Done</button></div>
+          </div>
+        </div>
+
+        <div class="drop" data-drop="type">
+          <button class="drop-btn" aria-haspopup="true" aria-expanded="false"><span class="drop-lbl">Home type</span><span class="chev">▾</span></button>
+          <div class="drop-panel" role="dialog" aria-label="Home type">
+            <div class="check-col" id="typeCol"></div>
+            <div class="dp-actions"><button class="dp-clear" data-clear="type">Clear</button><button class="dp-done btn-mini">Done</button></div>
+          </div>
+        </div>
+
+        <div class="drop" data-drop="sort">
+          <button class="drop-btn" aria-haspopup="true" aria-expanded="false"><span class="drop-lbl">Sort: Newest</span><span class="chev">▾</span></button>
+          <div class="drop-panel dp-narrow" role="dialog" aria-label="Sort">
+            <div class="radio-col" id="sortCol">
+              <button class="radx is-on" data-sort="new">Newest</button>
+              <button class="radx" data-sort="price-asc">Price ↑</button>
+              <button class="radx" data-sort="price-desc">Price ↓</button>
+              <button class="radx" data-sort="beds">Most beds</button>
+              <button class="radx" data-sort="sqft">Largest</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <button class="fb-badge" id="filterBadge" hidden><span id="filterCount">0</span> active</button>
+      <button class="fb-reset" id="resetBtn" title="Reset all filters">Reset</button>
+    </div>
+
+    <div class="fb-divider" aria-hidden="true"></div>
+
+    <div class="fb-group fb-group-view">
+      <button class="fb-saved" id="savedBtn" title="Saved homes" aria-pressed="false">
+        <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7.5-4.7-10-9.3C.6 8.1 2.4 4.5 6 4c2-.3 3.7.7 6 3 2.3-2.3 4-3.3 6-3 3.6.5 5.4 4.1 4 7.7C19.5 16.3 12 21 12 21z"/></svg>
+        <span id="savedLabel">Saved</span>
+      </button>
+      <div class="fb-viewtoggle" role="group" aria-label="View">
+        <button class="vt-btn is-on" data-view="split" title="Map + list">Split</button>
+        <button class="vt-btn" data-view="list" title="List only">List</button>
+        <button class="vt-btn" data-view="map" title="Map only">Map</button>
+      </div>
     </div>
   </div>
 </div>

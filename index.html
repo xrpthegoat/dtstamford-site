@@ -452,11 +452,11 @@
       <span class="wordmark">Downtown Stamford</span>
     </a>
     <nav class="nav-links" aria-label="Primary">
-      <a href="stamford-market.html">Market</a>
-      <a href="homes-for-sale-stamford.html">Homes</a>
+      <a href="search.html?type=sale">Buy</a>
+      <a href="search.html?type=rent">Rent</a>
       <a href="neighborhoods.html">Neighborhoods</a>
-      <a href="living-in-stamford.html">Living</a>
-      <a href="blog.html">Blog</a>
+      <a href="stamford-market.html">Market Trends</a>
+      <a href="buyer-guides.html">Guides</a>
       <a href="contact.html">Contact</a>
     </nav>
     <div class="nav-right">
@@ -476,14 +476,13 @@
     </div>
     <nav class="mmenu-links" aria-label="Mobile">
       <a href="/"><span class="ix">⌂</span><span class="lb">Home</span><span class="ar" aria-hidden="true">→</span></a>
-      <a href="stamford-market.html"><span class="ix">01</span><span class="lb">Market</span><span class="ar" aria-hidden="true">→</span></a>
-      <a href="homes-for-sale-stamford.html"><span class="ix">02</span><span class="lb">Homes for Sale</span><span class="ar" aria-hidden="true">→</span></a>
+      <a href="search.html?type=sale"><span class="ix">01</span><span class="lb">Buy</span><span class="ar" aria-hidden="true">→</span></a>
+      <a href="search.html?type=rent"><span class="ix">02</span><span class="lb">Rent</span><span class="ar" aria-hidden="true">→</span></a>
       <a href="neighborhoods.html"><span class="ix">03</span><span class="lb">Neighborhoods</span><span class="ar" aria-hidden="true">→</span></a>
-      <a href="living-in-stamford.html"><span class="ix">04</span><span class="lb">Living</span><span class="ar" aria-hidden="true">→</span></a>
-      <a href="live-map.html"><span class="ix">05</span><span class="lb">Events Map</span><span class="ar" aria-hidden="true">→</span></a>
-      <a href="blog.html"><span class="ix">06</span><span class="lb">Blog</span><span class="ar" aria-hidden="true">→</span></a>
-      <a href="compare.html"><span class="ix">07</span><span class="lb">Compare</span><span class="ar" aria-hidden="true">→</span></a>
-      <a href="contact.html"><span class="ix">08</span><span class="lb">Contact</span><span class="ar" aria-hidden="true">→</span></a>
+      <a href="stamford-market.html"><span class="ix">04</span><span class="lb">Market Trends</span><span class="ar" aria-hidden="true">→</span></a>
+      <a href="buyer-guides.html"><span class="ix">05</span><span class="lb">Guides</span><span class="ar" aria-hidden="true">→</span></a>
+      <a href="live-map.html"><span class="ix">06</span><span class="lb">Events Map</span><span class="ar" aria-hidden="true">→</span></a>
+      <a href="contact.html"><span class="ix">07</span><span class="lb">Contact</span><span class="ar" aria-hidden="true">→</span></a>
     </nav>
     <div class="mmenu-foot">
       <a class="btn btn-gold" href="tel:2038833399">Call 203·883·3399 <span class="ic" aria-hidden="true">↗</span></a>
@@ -500,18 +499,22 @@
   <!-- HERO -->
   <section class="hero">
     <div class="hero-media" data-parallax><picture>
+      <!-- MOBILE (<=760px): vertical crop of the same Avon Theatre sunset scene. First matching source wins, so these MUST precede the desktop webp source. -->
+      <source type="image/webp" media="(max-width:760px)" srcset="assets/stamford-ct-downtown-avon-theatre-sunset-vertical.webp" width="1800" height="2299">
+      <source media="(max-width:760px)" srcset="assets/stamford-ct-downtown-avon-theatre-sunset-vertical.jpg" width="1800" height="2299">
+      <!-- DESKTOP/TABLET (>760px): existing wide hero -->
       <source type="image/webp" srcset="assets/stamford-ct-downtown-avon-theatre-sunset-ext.webp">
-      <img class="img" src="assets/stamford-ct-downtown-avon-theatre-sunset-ext.jpg" alt="Downtown Stamford CT at sunset by the Avon Theatre — Stamford realtor" title="Stamford real estate agent — Downtown Stamford, CT" width="1800" height="2291" fetchpriority="high">
+      <img class="img" src="assets/stamford-ct-downtown-avon-theatre-sunset-ext.jpg" alt="Downtown Stamford, CT at sunset by the historic Avon Theatre — Stamford real estate agent John Restrepo" title="Stamford real estate agent — Downtown Stamford, CT" width="1800" height="2291" fetchpriority="high">
     </picture></div>
     <div class="wrap">
       <span class="eyebrow rv"><span class="dot"></span> Stamford · Connecticut</span>
       <h1 class="rv d1">Stamford real estate,<br><span class="g">made simple.</span></h1>
-      <p class="sub rv d2">Stamford is about 50 minutes from Grand Central by train — close enough to commute, far enough to actually have a backyard. John Restrepo is the local real estate agent who helps you buy, sell, and rent across it, from Harbor Point high-rises to North Stamford's quiet acres.</p>
+      <p class="sub rv d2">Buy, sell, or rent in Stamford, CT with a local agent who walks these streets every week — from Harbor Point condos to North Stamford acres.</p>
       <br>
       <a class="reviews-badge rv d2" href="https://share.google/b5ZSejPgG8Nurn7cr" target="_blank" rel="noopener" aria-label="5.0 stars from 89 Google reviews"><span class="stars">★★★★★</span> <strong>5.0</strong> · 89 Google reviews</a>
       <div class="cta-row rv d3">
         <a class="btn btn-gold" href="tel:2038833399">Free valuation <span class="ic" aria-hidden="true">↗</span></a>
-        <a class="btn btn-out" href="search.html">Browse homes <span class="ic" aria-hidden="true">↗</span></a>
+        <a class="btn btn-out" href="search.html">Search Homes <span class="ic" aria-hidden="true">↗</span></a>
       </div>
     </div>
     <div class="scrollcue">Scroll</div>
@@ -520,7 +523,7 @@
   <!-- STATEMENT -->
   <section class="statement">
     <div class="wrap">
-      <p class="big rv">I live here, and I walk these streets every week. <span class="mute">That's not a tagline —</span> it's why I know which block, which building, which showing time actually gets <span class="g">real buyers through the door</span>.</p>
+      <p class="big rv">Stamford is about 50 minutes from Grand Central by train — <span class="mute">close enough to commute,</span> far enough to actually have a backyard. John Restrepo is the local real estate agent who helps you <span class="g">buy, sell, and rent</span> across it, from Harbor Point high-rises to North Stamford's quiet acres.</p>
     </div>
   </section>
 
@@ -574,7 +577,7 @@
           <span class="k">/ 02</span>
           <h3>How do I buy a home in Stamford, CT?</h3>
           <p>Start with real-time MLS access and an agent who knows the market — exclusive listings, private tours, and end-to-end support built for first-time buyers and out-of-state movers.</p>
-          <a class="go" href="search.html">Browse homes &amp; condos <span class="arr">→</span></a>
+          <a class="go" href="search.html?type=sale">Search homes &amp; condos <span class="arr">→</span></a>
         </div></div>
         <div class="cell rv d2"><div class="core">
           <span class="k">/ 03</span>

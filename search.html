@@ -32,12 +32,12 @@
 <header>
   <div class="wrap nav">
     <a class="brand" href="/"><img class="logo" src="assets/logo-white.png" alt="Downtown Stamford logo"><span class="wordmark">Downtown Stamford</span></a>
-    <nav class="nav-links">
-      <a href="stamford-market.html">Market</a>
-      <a href="homes-for-sale-stamford.html">Homes for Sale</a>
-      <a href="search.html" class="active">Search</a>
+    <nav class="nav-links" aria-label="Primary">
+      <a href="search.html?type=sale">Buy</a>
+      <a href="search.html?type=rent">Rent</a>
       <a href="neighborhoods.html">Neighborhoods</a>
-      <a href="blog.html">Blog</a>
+      <a href="stamford-market.html">Market Trends</a>
+      <a href="buyer-guides.html">Guides</a>
       <a href="contact.html">Contact</a>
     </nav>
     <a class="btn-call" href="tel:2038833399">Call 203·883·3399</a>
@@ -54,14 +54,13 @@
     </div>
     <nav class="mmenu-links" aria-label="Mobile">
       <a href="/"><span class="ix">⌂</span><span class="lb">Home</span><span class="ar" aria-hidden="true">→</span></a>
-      <a href="stamford-market.html"><span class="ix">01</span><span class="lb">Market</span><span class="ar" aria-hidden="true">→</span></a>
-      <a href="homes-for-sale-stamford.html"><span class="ix">02</span><span class="lb">Homes for Sale</span><span class="ar" aria-hidden="true">→</span></a>
+      <a href="search.html?type=sale"><span class="ix">01</span><span class="lb">Buy</span><span class="ar" aria-hidden="true">→</span></a>
+      <a href="search.html?type=rent"><span class="ix">02</span><span class="lb">Rent</span><span class="ar" aria-hidden="true">→</span></a>
       <a href="neighborhoods.html"><span class="ix">03</span><span class="lb">Neighborhoods</span><span class="ar" aria-hidden="true">→</span></a>
-      <a href="living-in-stamford.html"><span class="ix">04</span><span class="lb">Living</span><span class="ar" aria-hidden="true">→</span></a>
-      <a href="live-map.html"><span class="ix">05</span><span class="lb">Events Map</span><span class="ar" aria-hidden="true">→</span></a>
-      <a href="blog.html"><span class="ix">06</span><span class="lb">Blog</span><span class="ar" aria-hidden="true">→</span></a>
-      <a href="compare.html"><span class="ix">07</span><span class="lb">Compare</span><span class="ar" aria-hidden="true">→</span></a>
-      <a href="contact.html"><span class="ix">08</span><span class="lb">Contact</span><span class="ar" aria-hidden="true">→</span></a>
+      <a href="stamford-market.html"><span class="ix">04</span><span class="lb">Market Trends</span><span class="ar" aria-hidden="true">→</span></a>
+      <a href="buyer-guides.html"><span class="ix">05</span><span class="lb">Guides</span><span class="ar" aria-hidden="true">→</span></a>
+      <a href="live-map.html"><span class="ix">06</span><span class="lb">Events Map</span><span class="ar" aria-hidden="true">→</span></a>
+      <a href="contact.html"><span class="ix">07</span><span class="lb">Contact</span><span class="ar" aria-hidden="true">→</span></a>
     </nav>
     <div class="mmenu-foot">
       <a class="btn btn-gold" href="tel:2038833399">Call 203·883·3399 <span aria-hidden="true">↗</span></a>
@@ -207,6 +206,76 @@
 <script>
 /* mobile menu (matches site.js pattern) */
 (function(){var t=document.getElementById('navToggle'),m=document.getElementById('mobileMenu');if(t&&m){t.addEventListener('click',function(){var o=m.classList.toggle('open');t.setAttribute('aria-expanded',o);m.setAttribute('aria-hidden',!o);});}})();
+</script>
+<script>
+/* ---------------------------------------------------------------------------
+   Neighborhood deep-link support.
+   Lets the /neighborhoods pages link into a centered, labeled map, e.g.
+     search.html?n=shippan&type=rent
+   Drives the existing search app (assets/homes/app.js) purely through its
+   public DOM surface — the #q box, the Buy/Rent segment, and the Leaflet map
+   instance — so app.js itself is never modified. Absent params => default view.
+   --------------------------------------------------------------------------- */
+(function(){
+  var NEIGHBORHOODS = {"downtown":{"name":"Downtown","lat":41.052,"lng":-73.539,"zoom":15},"harbor-point":{"name":"South End / Harbor Point","q":"Harbor Point","lat":41.038,"lng":-73.545,"zoom":15},"shippan":{"name":"Shippan","lat":41.028,"lng":-73.525,"zoom":15},"springdale":{"name":"Springdale","lat":41.083,"lng":-73.522,"zoom":15},"glenbrook":{"name":"Glenbrook","lat":41.065,"lng":-73.522,"zoom":15},"cove":{"name":"Cove","lat":41.045,"lng":-73.515,"zoom":15},"north-stamford":{"name":"North Stamford","lat":41.13,"lng":-73.56,"zoom":13},"waterside":{"name":"Waterside","lat":41.04,"lng":-73.56,"zoom":15},"belltown":{"name":"Belltown","lat":41.075,"lng":-73.54,"zoom":15},"newfield":{"name":"Newfield","lat":41.1,"lng":-73.545,"zoom":14},"westover":{"name":"Westover","lat":41.075,"lng":-73.56,"zoom":15},"turn-of-river":{"name":"Turn of River","lat":41.11,"lng":-73.555,"zoom":14}};
+
+  var params = new URLSearchParams(location.search);
+  var slug = (params.get('n') || '').toLowerCase().trim();
+  var type = (params.get('type') || '').toLowerCase().trim();
+  var hood = Object.prototype.hasOwnProperty.call(NEIGHBORHOODS, slug) ? NEIGHBORHOODS[slug] : null;
+
+  // Nothing to do → leave app.js's default behavior untouched.
+  if (!hood && type !== 'sale' && type !== 'rent') return;
+
+  // Capture the main Leaflet map instance app.js creates, without touching app.js.
+  // Classic inline scripts run before the deferred type="module" app.js, so this
+  // patch is in place before L.map('map', ...) is ever called. The drawer's
+  // mini-map (#dMap) is ignored — we only want the main #map.
+  var mapInstance = null;
+  if (window.L && typeof L.map === 'function') {
+    var _origMap = L.map;
+    L.map = function(el){
+      var m = _origMap.apply(this, arguments);
+      var id = (el && el.id) || el; // el is the string 'map'/'dMap' or an element
+      if (id === 'map' && !mapInstance) mapInstance = m;
+      return m;
+    };
+  }
+
+  function apply(){
+    // 1) Pre-select the Buy(sale)/Rent segment via its normal click handler.
+    if (type === 'sale' || type === 'rent'){
+      var seg = document.querySelector('.seg-btn[data-type="' + type + '"]');
+      if (seg && !seg.classList.contains('is-on')) seg.click();
+    }
+    if (hood){
+      // 2) Put the neighborhood name in the search box and fire the same 'input'
+      //    event the box normally dispatches, so app.js filters + relabels to it.
+      var q = document.getElementById('q');
+      if (q){
+        q.value = hood.q || hood.name;   // matchable search term (compound names like "South End / Harbor Point" over-filter)
+        q.dispatchEvent(new Event('input', { bubbles: true }));
+      }
+      // 3) Recenter + zoom the map so the area is visibly shown and labeled,
+      //    even while listings are demo/empty (no markers to fit-bounds to).
+      if (mapInstance){
+        mapInstance.setView([hood.lat, hood.lng], hood.zoom);
+        setTimeout(function(){ mapInstance.invalidateSize(); }, 80);
+      }
+    }
+  }
+
+  // Wait until app.js has booted (search box wired + map created), then apply once.
+  var tries = 0;
+  var timer = setInterval(function(){
+    tries++;
+    var ready = document.getElementById('q') && (!hood || mapInstance);
+    if (ready || tries > 80){ // ~4s safety cap → degrade gracefully
+      clearInterval(timer);
+      apply();
+    }
+  }, 50);
+})();
 </script>
 <script src="/track.js" defer></script>
 </body>

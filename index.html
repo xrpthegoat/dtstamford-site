@@ -302,12 +302,11 @@
      full width, natural height, never cropped, never letterboxed, on any phone.
      iPad / tablet / desktop (>760px) keep the wide landscape photo (cover) untouched.
      Parallax transform is neutralized here so the un-buffered image can't reveal a gap. */
+  /* PHONES ONLY (≤760px): keep the overlay hero (text on the photo) — just frame the vertical
+     photo a little better: drop the parallax over-zoom so more of the scene shows, and center
+     the crop on the theatre + street. iPad/desktop (>760px) unchanged. */
   @media(max-width:760px){
-    .hero{min-height:auto;display:block;overflow:visible}
-    .hero-media{position:relative}
-    .hero-media .img{position:relative;top:0;left:0;width:100%;height:auto;transform:none!important}
-    .hero-media::after,.hero-media::before{display:none}   /* clean, unobstructed photo — no scrim needed since text sits below */
-    .hero .wrap{position:relative;padding-top:26px;padding-bottom:34px}
+    .hero-media .img{top:0;height:100%;object-position:center 42%;transform:none!important}
   }
 
   /* section rhythm */

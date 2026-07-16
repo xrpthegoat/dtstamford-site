@@ -95,18 +95,6 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    { "@type": "Question", "name": "How much does it cost to list my home with John?", "acceptedAnswer": { "@type": "Answer", "text": "John offers competitive, savings-focused listing terms — you save when you list with us. Call 203-883-3399 for a free, no-obligation home valuation." } },
-    { "@type": "Question", "name": "What areas of Stamford do you cover?", "acceptedAnswer": { "@type": "Answer", "text": "All of Stamford, CT — Downtown, the South End, Shippan, Springdale, Glenbrook, Cove, North Stamford, and surrounding Fairfield County, for sales and rentals." } },
-    { "@type": "Question", "name": "Do you help renters as well as buyers and sellers?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. John helps renters find apartments throughout Stamford and supports first-time buyers, sellers, and landlords." } },
-    { "@type": "Question", "name": "What makes John different from other Stamford real estate agents?", "acceptedAnswer": { "@type": "Answer", "text": "7+ years, $20M+ closed, and the largest real estate social media audience in Stamford — real local buyers and renters daily, plus professional photography and marketing." } }
-  ]
-}
-</script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
   "@type": "Person",
   "name": "John Restrepo",
   "jobTitle": "Real Estate Agent",
@@ -281,7 +269,7 @@
   /* HERO */
   .hero{position:relative;min-height:100dvh;display:flex;align-items:flex-end;overflow:hidden}
   .hero-media{position:absolute;inset:0;z-index:0}
-  .hero-media .img{position:absolute;top:-6%;left:0;width:100%;height:112%;object-fit:cover;object-position:center 32%;background:#0d0b12;will-change:transform}
+  .hero-media .img{position:absolute;top:-10%;left:-3.5%;width:107%;height:120%;object-fit:cover;object-position:center 32%;background:#0d0b12;will-change:transform}
   .hero-media::after{content:"";position:absolute;inset:0;background:
     linear-gradient(180deg,rgba(6,6,8,.55),rgba(6,6,8,.04) 30%,rgba(6,6,8,.72) 78%,var(--bg) 99%)}
   .hero-media::before{content:"";position:absolute;inset:0;z-index:1;background:radial-gradient(120% 80% at 80% 0%,transparent 40%,rgba(6,6,8,.4))}
@@ -296,6 +284,19 @@
   .hero .funfacts .ff::before{content:"◆";font-size:.62em;color:var(--gold,#c9a24a);opacity:.85;transform:translateY(-1px)}
   .hero .funfacts .ff.on{opacity:1}
   @media(prefers-reduced-motion:reduce){.hero .funfacts .ff{transition:none}}
+  /* FAQ — every Q&A lives in static HTML for SEO + LLM extraction (no JS, always crawlable) */
+  .faq{border-top:1px solid rgba(255,255,255,.06)}
+  .faq .faq-cats{display:grid;gap:38px;margin-top:34px}
+  .faq .faq-cat>h3{font-family:var(--disp);font-weight:600;font-size:clamp(1.05rem,1.7vw,1.4rem);color:var(--gold-l);letter-spacing:-.015em;margin:0 0 18px;display:flex;align-items:center;gap:12px}
+  .faq .faq-cat>h3::before{content:"";width:26px;height:2px;background:linear-gradient(90deg,var(--gold),transparent);border-radius:2px;flex:none}
+  .faq .faq-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+  .faq .qa{background:#0d0e14;border:1px solid rgba(255,255,255,.07);border-radius:16px;padding:20px 22px;transition:border-color .2s ease,transform .2s ease}
+  .faq .qa:hover{border-color:rgba(203,171,104,.35);transform:translateY(-2px)}
+  .faq .qa h4{font-family:var(--sans);font-weight:600;font-size:1rem;color:#f0eefb;margin:0 0 8px;line-height:1.35}
+  .faq .qa p{font-size:.92rem;color:#c4c5d0;line-height:1.62;margin:0}
+  .faq .qa a{color:var(--gold-l);text-decoration:none;border-bottom:1px solid rgba(203,171,104,.45)}
+  .faq .qa a:hover{border-bottom-color:var(--gold-l)}
+  @media(max-width:820px){.faq .faq-list{grid-template-columns:1fr;gap:12px}}
   .reviews-badge{display:inline-flex;align-items:center;gap:9px;margin:22px 0 0;font-family:var(--mono);font-size:.78rem;color:var(--fg-soft);
     border:1px solid var(--line);border-radius:999px;padding:8px 15px;background:rgba(255,255,255,.03)}
   .reviews-badge .stars{color:var(--gold-l);letter-spacing:1px}
@@ -720,6 +721,129 @@
       </div>
     </div>
   </section>
+
+  <!-- FAQ -->
+  <section class="block faq" id="faq">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="tag rv"><span class="i">/ 07</span>Answers</span>
+        <h2 class="rv d1">Stamford, CT real estate — your questions, answered</h2>
+        <p class="rv d2">The things people ask me most about living in, buying in, and renting in Stamford. Figures are approximate and reflect the 2026 market — reach out and I'll pull current numbers for your situation.</p>
+      </div>
+      <div class="faq-cats">
+
+        <div class="faq-cat rv d1">
+          <h3>Living in Stamford</h3>
+          <div class="faq-list">
+            <div class="qa"><h4>Is Stamford, CT a good place to live?</h4><p>Stamford is Connecticut's second-largest city and a major Fairfield County job center, with a walkable downtown, waterfront parks on Long Island Sound, and about a 50-minute Metro-North ride to Manhattan. It draws people who want city amenities with easy NYC access.</p></div>
+            <div class="qa"><h4>What is Stamford known for?</h4><p>Corporate headquarters, the Harbor Point waterfront district, a lively downtown dining and arts scene — the Avon Theatre and Palace Theatre — and shoreline spots like Cove Island Park along Long Island Sound.</p></div>
+            <div class="qa"><h4>How big is Stamford?</h4><p>About 135,000 residents, making it Connecticut's second-largest city after Bridgeport. It stretches from dense downtown ZIP codes to wooded North Stamford.</p></div>
+            <div class="qa"><h4>What is the weather like in Stamford?</h4><p>Four distinct seasons on the Long Island Sound coast — warm, humid summers and cold winters with occasional snow. Spring and fall are mild.</p></div>
+          </div>
+        </div>
+
+        <div class="faq-cat rv d1">
+          <h3>Commuting to New York City</h3>
+          <div class="faq-list">
+            <div class="qa"><h4>How far is Stamford from New York City?</h4><p>About 35 miles. On the Metro-North New Haven Line, express trains reach Grand Central in roughly 50 minutes.</p></div>
+            <div class="qa"><h4>How long is the train from Stamford to Grand Central?</h4><p>Express trains run as little as about 50 minutes; local trains typically take an hour to an hour and 15 minutes.</p></div>
+            <div class="qa"><h4>How often do trains run from Stamford to Manhattan?</h4><p>Frequently — often about every 15 minutes during peak commuting hours from the Stamford Transportation Center downtown.</p></div>
+            <div class="qa"><h4>Does Stamford have Amtrak service?</h4><p>Yes. The Stamford Transportation Center serves Metro-North and Amtrak, plus CTtransit and intercity buses, with parking and rideshare pickup.</p></div>
+          </div>
+        </div>
+
+        <div class="faq-cat rv d1">
+          <h3>Cost of living &amp; taxes</h3>
+          <div class="faq-list">
+            <div class="qa"><h4>How expensive is it to live in Stamford?</h4><p>Cost of living runs meaningfully above the U.S. average, driven mainly by housing — though it is generally more affordable than neighboring Greenwich or New York City.</p></div>
+            <div class="qa"><h4>What is the property tax rate in Stamford?</h4><p>The mill rate is around 23 (2024–25). Connecticut assesses at 70% of market value, so the effective rate is roughly 1.7–1.8% of a home's value — a $650,000 home runs about $10,500 a year, varying by district. <a href="what-is-the-property-tax-rate-in-stamford-ct.html">See the full property-tax breakdown</a>.</p></div>
+            <div class="qa"><h4>How much do homes cost in Stamford, CT?</h4><p>As of 2026 the median sale price is roughly $640,000–$710,000, up modestly year over year, at about $405 per square foot. Prices vary widely by neighborhood and home type.</p></div>
+            <div class="qa"><h4>How much is rent in Stamford?</h4><p>Median rent is around $2,300 a month. A one-bedroom downtown often runs about $2,500 and a two-bedroom closer to $3,400, depending on the building and location.</p></div>
+          </div>
+        </div>
+
+        <div class="faq-cat rv d1">
+          <h3>Buying a home in Stamford</h3>
+          <div class="faq-list">
+            <div class="qa"><h4>Is the Stamford housing market competitive?</h4><p>Yes — inventory is tight. Homes have recently averaged around four offers and about a month on market, with many selling at or above asking price.</p></div>
+            <div class="qa"><h4>What are closing costs when buying in Stamford?</h4><p>Buyer closing costs typically run about 2–5% of the purchase price, covering the attorney, title, inspection, lender fees, and state conveyance items.</p></div>
+            <div class="qa"><h4>Do I need a real estate attorney to buy in Connecticut?</h4><p>Yes. Connecticut is an attorney-closing state, so a real estate attorney handles the title search and closing rather than a title company alone.</p></div>
+            <div class="qa"><h4>What does the home-buying process look like in Connecticut?</h4><p>Get pre-approved, tour homes, and make an offer; once accepted you enter due diligence — inspection and attorney title review — then finalize your mortgage and close, often within 45–60 days.</p></div>
+            <div class="qa"><h4>How much do I need for a down payment?</h4><p>It depends on the loan — some programs allow as little as 3–5% down, while 20% avoids mortgage insurance. I can connect you with local lenders to run your numbers.</p></div>
+            <div class="qa"><h4>Is now a good time to buy in Stamford?</h4><p>That depends on your timeline and budget more than the calendar. In a low-inventory market, being pre-approved and ready to move quickly matters most — let's talk through your specifics.</p></div>
+          </div>
+        </div>
+
+        <div class="faq-cat rv d1">
+          <h3>Renting in Stamford</h3>
+          <div class="faq-list">
+            <div class="qa"><h4>How do I rent an apartment in Stamford?</h4><p>You submit an application with a credit and income check; approved renters sign a lease and pay a deposit. I help match you to listings and guide the paperwork.</p></div>
+            <div class="qa"><h4>What credit score and income do landlords look for?</h4><p>It varies by landlord, but many look for a credit score in the low-600s or higher and monthly income around three times the rent. Requirements differ building to building.</p></div>
+            <div class="qa"><h4>Where are the waterfront apartments in Stamford?</h4><p>The Harbor Point district in the South End has the largest concentration of newer waterfront apartments and condos along Long Island Sound.</p></div>
+          </div>
+        </div>
+
+        <div class="faq-cat rv d1">
+          <h3>Neighborhoods &amp; getting started</h3>
+          <div class="faq-list">
+            <div class="qa"><h4>What are the best neighborhoods in Stamford?</h4><p>It depends what you want — Downtown for walkability, Harbor Point/South End for waterfront living, Shippan and Cove for coastal single-families, Springdale and Glenbrook for value near the train, and North Stamford for wooded space. <a href="neighborhoods.html">Full neighborhood guide</a>.</p></div>
+            <div class="qa"><h4>What is the difference between Downtown and North Stamford?</h4><p>Downtown is dense and walkable, mostly condos and apartments near the train and nightlife. North Stamford is wooded and residential, with larger lots, single-family homes, and reservoirs.</p></div>
+            <div class="qa"><h4>Which Stamford ZIP codes are which?</h4><p>Stamford runs 06901–06907 — 06901 covers Downtown, with surrounding codes spanning the South End, Shippan, Glenbrook, Springdale, Cove, and North Stamford (06903).</p></div>
+            <div class="qa"><h4>Why work with a local Stamford real estate agent?</h4><p>A local agent knows pricing block by block, which streets back up to the train, and how fast to move in a tight market — details national portals miss. I live and work here.</p></div>
+            <div class="qa"><h4>Does John Restrepo handle rentals as well as sales?</h4><p>Yes — I help clients buy, sell, and rent across Stamford, from Harbor Point condos to North Stamford homes.</p></div>
+            <div class="qa"><h4>How do I get started?</h4><p>Reach out for a free, no-pressure consultation — tell me your budget, timeline, and must-haves, and I'll send matching listings and next steps. <a href="#contact">Contact John</a>.</p></div>
+          </div>
+        </div>
+
+        <div class="faq-cat rv d1">
+          <h3>Working with John</h3>
+          <div class="faq-list">
+            <div class="qa"><h4>What makes John different from other Stamford agents?</h4><p>7+ years in the market, more than $20M closed, and the largest real estate social-media audience in Stamford — real local buyers and renters every day, plus professional photography and marketing on every listing.</p></div>
+            <div class="qa"><h4>How much does it cost to list my home with John?</h4><p>Competitive, savings-focused listing terms — you keep more when you list with us. <a href="#contact">Ask for a free, no-obligation home valuation</a> and I'll walk you through the numbers.</p></div>
+            <div class="qa"><h4>What areas does John cover?</h4><p>All of Stamford — Downtown, the South End, Shippan, Springdale, Glenbrook, Cove, and North Stamford — plus surrounding Fairfield County, for both sales and rentals.</p></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      { "@type": "Question", "name": "Is Stamford, CT a good place to live?", "acceptedAnswer": { "@type": "Answer", "text": "Stamford is Connecticut's second-largest city and a major Fairfield County job center, with a walkable downtown, waterfront parks on Long Island Sound, and about a 50-minute Metro-North ride to Manhattan." } },
+      { "@type": "Question", "name": "What is Stamford known for?", "acceptedAnswer": { "@type": "Answer", "text": "Corporate headquarters, the Harbor Point waterfront district, a lively downtown dining and arts scene including the Avon Theatre and Palace Theatre, and shoreline spots like Cove Island Park along Long Island Sound." } },
+      { "@type": "Question", "name": "How big is Stamford?", "acceptedAnswer": { "@type": "Answer", "text": "About 135,000 residents, making it Connecticut's second-largest city after Bridgeport. It stretches from dense downtown ZIP codes to wooded North Stamford." } },
+      { "@type": "Question", "name": "What is the weather like in Stamford?", "acceptedAnswer": { "@type": "Answer", "text": "Four distinct seasons on the Long Island Sound coast, with warm humid summers, cold winters with occasional snow, and mild spring and fall." } },
+      { "@type": "Question", "name": "How far is Stamford from New York City?", "acceptedAnswer": { "@type": "Answer", "text": "About 35 miles. On the Metro-North New Haven Line, express trains reach Grand Central in roughly 50 minutes." } },
+      { "@type": "Question", "name": "How long is the train from Stamford to Grand Central?", "acceptedAnswer": { "@type": "Answer", "text": "Express trains run as little as about 50 minutes; local trains typically take an hour to an hour and 15 minutes." } },
+      { "@type": "Question", "name": "How often do trains run from Stamford to Manhattan?", "acceptedAnswer": { "@type": "Answer", "text": "Frequently, often about every 15 minutes during peak commuting hours from the Stamford Transportation Center downtown." } },
+      { "@type": "Question", "name": "Does Stamford have Amtrak service?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. The Stamford Transportation Center serves Metro-North and Amtrak, plus CTtransit and intercity buses, with parking and rideshare pickup." } },
+      { "@type": "Question", "name": "How expensive is it to live in Stamford?", "acceptedAnswer": { "@type": "Answer", "text": "Cost of living runs meaningfully above the U.S. average, driven mainly by housing, though it is generally more affordable than neighboring Greenwich or New York City." } },
+      { "@type": "Question", "name": "What is the property tax rate in Stamford?", "acceptedAnswer": { "@type": "Answer", "text": "The mill rate is around 23 (2024-25). Connecticut assesses at 70% of market value, so the effective rate is roughly 1.7 to 1.8% of a home's value. A $650,000 home runs about $10,500 a year, varying by district." } },
+      { "@type": "Question", "name": "How much do homes cost in Stamford, CT?", "acceptedAnswer": { "@type": "Answer", "text": "As of 2026 the median sale price is roughly $640,000 to $710,000, up modestly year over year, at about $405 per square foot. Prices vary widely by neighborhood and home type." } },
+      { "@type": "Question", "name": "How much is rent in Stamford?", "acceptedAnswer": { "@type": "Answer", "text": "Median rent is around $2,300 a month. A one-bedroom downtown often runs about $2,500 and a two-bedroom closer to $3,400, depending on the building and location." } },
+      { "@type": "Question", "name": "Is the Stamford housing market competitive?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Inventory is tight, with homes recently averaging around four offers and about a month on market, and many selling at or above asking price." } },
+      { "@type": "Question", "name": "What are closing costs when buying in Stamford?", "acceptedAnswer": { "@type": "Answer", "text": "Buyer closing costs typically run about 2 to 5% of the purchase price, covering the attorney, title, inspection, lender fees, and state conveyance items." } },
+      { "@type": "Question", "name": "Do I need a real estate attorney to buy in Connecticut?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Connecticut is an attorney-closing state, so a real estate attorney handles the title search and closing rather than a title company alone." } },
+      { "@type": "Question", "name": "What does the home-buying process look like in Connecticut?", "acceptedAnswer": { "@type": "Answer", "text": "Get pre-approved, tour homes, and make an offer. Once accepted you enter due diligence with an inspection and attorney title review, then finalize your mortgage and close, often within 45 to 60 days." } },
+      { "@type": "Question", "name": "How much do I need for a down payment?", "acceptedAnswer": { "@type": "Answer", "text": "It depends on the loan. Some programs allow as little as 3 to 5% down, while 20% avoids mortgage insurance. A local lender can run your numbers." } },
+      { "@type": "Question", "name": "How do I rent an apartment in Stamford?", "acceptedAnswer": { "@type": "Answer", "text": "You submit an application with a credit and income check; approved renters sign a lease and pay a deposit. An agent can match you to listings and guide the paperwork." } },
+      { "@type": "Question", "name": "What credit score and income do landlords look for?", "acceptedAnswer": { "@type": "Answer", "text": "It varies by landlord, but many look for a credit score in the low-600s or higher and monthly income around three times the rent. Requirements differ building to building." } },
+      { "@type": "Question", "name": "Where are the waterfront apartments in Stamford?", "acceptedAnswer": { "@type": "Answer", "text": "The Harbor Point district in the South End has the largest concentration of newer waterfront apartments and condos along Long Island Sound." } },
+      { "@type": "Question", "name": "What are the best neighborhoods in Stamford?", "acceptedAnswer": { "@type": "Answer", "text": "It depends what you want. Downtown for walkability, Harbor Point and the South End for waterfront living, Shippan and Cove for coastal single-families, Springdale and Glenbrook for value near the train, and North Stamford for wooded space." } },
+      { "@type": "Question", "name": "What is the difference between Downtown and North Stamford?", "acceptedAnswer": { "@type": "Answer", "text": "Downtown is dense and walkable, mostly condos and apartments near the train and nightlife. North Stamford is wooded and residential, with larger lots, single-family homes, and reservoirs." } },
+      { "@type": "Question", "name": "Which Stamford ZIP codes are which?", "acceptedAnswer": { "@type": "Answer", "text": "Stamford runs 06901 to 06907. 06901 covers Downtown, with surrounding codes spanning the South End, Shippan, Glenbrook, Springdale, Cove, and North Stamford (06903)." } },
+      { "@type": "Question", "name": "Why work with a local Stamford real estate agent?", "acceptedAnswer": { "@type": "Answer", "text": "A local agent knows pricing block by block, which streets back up to the train, and how fast to move in a tight market, details national portals miss." } },
+      { "@type": "Question", "name": "Does John Restrepo handle rentals as well as sales?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. John Restrepo helps clients buy, sell, and rent across Stamford, from Harbor Point condos to North Stamford homes." } },
+      { "@type": "Question", "name": "How do I get started with a Stamford agent?", "acceptedAnswer": { "@type": "Answer", "text": "Reach out for a free, no-pressure consultation. Share your budget, timeline, and must-haves, and you'll get matching listings and clear next steps." } },
+      { "@type": "Question", "name": "What makes John different from other Stamford agents?", "acceptedAnswer": { "@type": "Answer", "text": "More than 7 years in the market, over $20M closed, and the largest real estate social-media audience in Stamford, plus professional photography and marketing on every listing." } },
+      { "@type": "Question", "name": "How much does it cost to list my home with John?", "acceptedAnswer": { "@type": "Answer", "text": "Competitive, savings-focused listing terms so you keep more when you list. Ask for a free, no-obligation home valuation to walk through the numbers." } },
+      { "@type": "Question", "name": "What areas of Stamford does John cover?", "acceptedAnswer": { "@type": "Answer", "text": "All of Stamford, including Downtown, the South End, Shippan, Springdale, Glenbrook, Cove, and North Stamford, plus surrounding Fairfield County, for both sales and rentals." } }
+    ]
+  }
+  </script>
 
   <!-- CTA -->
   <section class="cta" id="contact">

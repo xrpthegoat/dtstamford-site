@@ -292,7 +292,7 @@
   /* rotating Stamford facts — ALL facts live in the static HTML (crawlers + LLMs read every one); the
      crossfade only animates which is visible. SEO/LLM-safe by construction. */
   .hero .funfacts{position:relative;display:grid;margin:16px 0 2px;min-height:1.5em;max-width:560px}
-  .hero .funfacts .ff{grid-area:1/1;font-family:var(--mono,ui-monospace,monospace);font-size:clamp(.78rem,1.1vw,.94rem);letter-spacing:.02em;line-height:1.4;color:var(--gold-l,#e8c98a);opacity:0;transition:opacity .8s ease;display:flex;align-items:baseline;gap:9px}
+  .hero .funfacts .ff{grid-area:1/1;font-family:var(--sans);font-weight:500;font-size:clamp(.82rem,1.15vw,.98rem);letter-spacing:.005em;line-height:1.4;color:var(--gold-l,#e8c98a);opacity:0;transition:opacity .5s ease;display:flex;align-items:baseline;gap:9px}
   .hero .funfacts .ff::before{content:"◆";font-size:.62em;color:var(--gold,#c9a24a);opacity:.85;transform:translateY(-1px)}
   .hero .funfacts .ff.on{opacity:1}
   @media(prefers-reduced-motion:reduce){.hero .funfacts .ff{transition:none}}
@@ -530,8 +530,8 @@
       <span class="eyebrow rv"><span class="dot"></span> Stamford · Connecticut</span>
       <h1 class="rv d1">Stamford real estate,<br><span class="g">made simple.</span></h1>
       <div class="funfacts rv d2" aria-label="Stamford facts">
-        <span class="ff on">About 50 minutes to Grand Central by Metro-North</span>
-        <span class="ff">Connecticut's second-largest city</span>
+        <span class="ff on">About 50 minutes to Midtown Manhattan on Metro-North</span>
+        <span class="ff">Connecticut's second-largest city — about 135,000 residents</span>
         <span class="ff">Harbor Point — a walkable waterfront on Long Island Sound</span>
         <span class="ff">Cove Island Park: a public beach, marina &amp; shoreline trails</span>
         <span class="ff">Mill River Park brings a downtown greenway, carousel &amp; winter ice rink</span>
@@ -871,7 +871,12 @@
   var ff=document.querySelectorAll('.funfacts .ff'); if(ff.length<2) return;
   if(window.matchMedia && matchMedia('(prefers-reduced-motion:reduce)').matches) return;
   var i=0;
-  setInterval(function(){ ff[i].classList.remove('on'); i=(i+1)%ff.length; ff[i].classList.add('on'); }, 5200);
+  var FADE=550;                                  // must match the CSS opacity transition (.5s + buffer)
+  setInterval(function(){
+    ff[i].classList.remove('on');                // fade the current fact fully OUT first
+    var next=(i+1)%ff.length;
+    setTimeout(function(){ ff[next].classList.add('on'); i=next; }, FADE);  // then fade the next one in — no overlap
+  }, 5200);
 })();
 </script>
 <script src="/track.js" defer></script>

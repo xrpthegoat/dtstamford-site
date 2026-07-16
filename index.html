@@ -269,7 +269,8 @@
   /* HERO */
   .hero{position:relative;min-height:100dvh;display:flex;align-items:flex-end;overflow:hidden}
   .hero-media{position:absolute;inset:0;z-index:0}
-  .hero-media .img{position:absolute;top:-10%;left:-3.5%;width:107%;height:120%;object-fit:cover;object-position:center 32%;background:#0d0b12;will-change:transform}
+  .hero-media .hfill{position:absolute;inset:0;z-index:0;background:#0d0b12 url("assets/stamford-ct-downtown-avon-theatre-sunset-ext.jpg") center 32%/cover;transform:scale(1.14);filter:blur(30px) brightness(.6) saturate(1.05)}
+  .hero-media .img{position:absolute;top:-5%;left:3.5%;width:93%;height:110%;object-fit:cover;object-position:center 32%;background:transparent;will-change:transform}
   .hero-media::after{content:"";position:absolute;inset:0;background:
     linear-gradient(180deg,rgba(6,6,8,.55),rgba(6,6,8,.04) 30%,rgba(6,6,8,.72) 78%,var(--bg) 99%)}
   .hero-media::before{content:"";position:absolute;inset:0;z-index:1;background:radial-gradient(120% 80% at 80% 0%,transparent 40%,rgba(6,6,8,.4))}
@@ -315,7 +316,8 @@
      the crop on the theatre + street. iPad/desktop (>760px) unchanged. */
   @media(max-width:760px){
     .hero{min-height:84vh}
-    .hero-media .img{top:0;height:100%;object-position:center 45%;transform:none!important}
+    .hero-media .img{top:0;left:0;width:100%;height:100%;object-position:center 45%;transform:none!important}
+    .hero-media .hfill{display:none}
   }
 
   /* section rhythm */
@@ -519,7 +521,7 @@
 <main>
   <!-- HERO -->
   <section class="hero">
-    <div class="hero-media" data-parallax><picture>
+    <div class="hero-media" data-parallax><div class="hfill" aria-hidden="true"></div><picture>
       <!-- MOBILE (<=760px): vertical crop of the same Avon Theatre sunset scene. First matching source wins, so these MUST precede the desktop webp source. -->
       <source type="image/webp" media="(max-width:760px)" srcset="assets/stamford-ct-downtown-avon-theatre-sunset-vertical.webp" width="1800" height="2299">
       <source media="(max-width:760px)" srcset="assets/stamford-ct-downtown-avon-theatre-sunset-vertical.jpg" width="1800" height="2299">

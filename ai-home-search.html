@@ -469,9 +469,22 @@ const Brain = {
     return Modules.run(id, turn);
   },
   async llm(turn){
+    // Worker returns { reply, filters, ask }. The LLM does UNDERSTANDING + voice;
+    // the SEARCH still runs here against real listings (so nothing is hallucinated).
     const r = await fetch(CONFIG.llmEndpoint, { method:'POST', headers:{'Content-Type':'application/json'},
-      body: JSON.stringify({ messages: State.messages, prefs: State.prefs, listings: State.listings.slice(0,60) }) });
-    return await r.json();   // { html, results?, ask? } — same shape the modules return
+      body: JSON.stringify({ messages: State.messages, prefs: State.prefs }) });
+    const d = await r.json();
+    if (d.error || (!d.reply && !d.filters)) throw new Error(d.error || 'empty');   // → fall back to local engine
+    const f = d.filters || {};
+    const hasSearch = (f.wants && f.wants.length) || f.priceMax || f.priceMin || f.beds || f.type || f.neighborhood;
+    let results = null, analysis = false;
+    if (hasSearch){
+      mergePrefs(normalizeFilters(f));
+      const res = Data.search(prefsToFilters());
+      const top = res.slice(0, 4); State.lastResults = top.map(x=>x.listing);
+      results = top.length ? top : null; analysis = top.length > 1;
+    }
+    return { html:`<p>${esc(d.reply || 'Here\'s what fits:')}</p>`, results, ask: d.ask || null, analysis };
   },
 
   modules: {
@@ -603,6 +616,12 @@ function prefsToFilters(){
   const p = State.prefs;
   return { wants:p.wants, avoid:p.avoid, priceMax:p.priceMax, priceMin:p.priceMin, beds:p.beds, baths:p.baths,
     type:p.type, neighborhood:p.neighborhood, listingType:p.listingType || 'sale' };
+}
+/* Map the LLM Worker's filter object → the NLU shape mergePrefs() expects */
+function normalizeFilters(f){
+  return { wants:f.wants||[], avoid:f.avoid||[], priceMax:f.priceMax??null, priceMin:f.priceMin??null,
+    beds:f.beds??null, baths:f.baths??null, type:f.type||null,
+    neighborhood:(f.neighborhood||'').toLowerCase()||null, listingType:f.listingType||null };
 }
 function medianPrice(){ return median(State.listings.map(l=>l.price)) || 700000; }
 function medianTax(){ return median(State.listings.map(l=>l.taxAnnual).filter(Boolean)) || 10500; }

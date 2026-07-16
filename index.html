@@ -289,6 +289,13 @@
   .hero h1{font-size:clamp(3rem,9vw,7.6rem);color:#fff;font-weight:600;letter-spacing:-.045em;margin:24px 0 0;max-width:16ch}
   .hero h1 .g{background:linear-gradient(120deg,var(--gold-l),var(--gold));-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
   .hero .sub{max-width:540px;margin:24px 0 0;font-size:clamp(1rem,1.5vw,1.22rem);color:#d6d7dd;line-height:1.55}
+  /* rotating Stamford facts — ALL facts live in the static HTML (crawlers + LLMs read every one); the
+     crossfade only animates which is visible. SEO/LLM-safe by construction. */
+  .hero .funfacts{position:relative;display:grid;margin:16px 0 2px;min-height:1.5em;max-width:560px}
+  .hero .funfacts .ff{grid-area:1/1;font-family:var(--mono,ui-monospace,monospace);font-size:clamp(.78rem,1.1vw,.94rem);letter-spacing:.02em;line-height:1.4;color:var(--gold-l,#e8c98a);opacity:0;transition:opacity .8s ease;display:flex;align-items:baseline;gap:9px}
+  .hero .funfacts .ff::before{content:"◆";font-size:.62em;color:var(--gold,#c9a24a);opacity:.85;transform:translateY(-1px)}
+  .hero .funfacts .ff.on{opacity:1}
+  @media(prefers-reduced-motion:reduce){.hero .funfacts .ff{transition:none}}
   .reviews-badge{display:inline-flex;align-items:center;gap:9px;margin:22px 0 0;font-family:var(--mono);font-size:.78rem;color:var(--fg-soft);
     border:1px solid var(--line);border-radius:999px;padding:8px 15px;background:rgba(255,255,255,.03)}
   .reviews-badge .stars{color:var(--gold-l);letter-spacing:1px}
@@ -522,6 +529,16 @@
     <div class="wrap">
       <span class="eyebrow rv"><span class="dot"></span> Stamford · Connecticut</span>
       <h1 class="rv d1">Stamford real estate,<br><span class="g">made simple.</span></h1>
+      <div class="funfacts rv d2" aria-label="Stamford facts">
+        <span class="ff on">About 50 minutes to Grand Central by Metro-North</span>
+        <span class="ff">Connecticut's second-largest city</span>
+        <span class="ff">Harbor Point — a walkable waterfront on Long Island Sound</span>
+        <span class="ff">Cove Island Park: a public beach, marina &amp; shoreline trails</span>
+        <span class="ff">Mill River Park brings a downtown greenway, carousel &amp; winter ice rink</span>
+        <span class="ff">North Stamford — wooded acres and reservoirs, minutes from the train</span>
+        <span class="ff">The Avon Theatre, a historic independent cinema downtown</span>
+        <span class="ff">A Fairfield County corporate hub with a fast-growing downtown</span>
+      </div>
       <p class="sub rv d2">Buy, sell, or rent in Stamford, CT the easy way — with a local agent who walks these streets every day, from Harbor Point condos to North Stamford acres.</p>
       <br>
       <a class="reviews-badge rv d2" href="https://share.google/b5ZSejPgG8Nurn7cr" target="_blank" rel="noopener" aria-label="5.0 stars from 90 Google reviews"><span class="stars">★★★★★</span> <strong>5.0</strong> · 90 Google reviews</a>
@@ -846,6 +863,16 @@
     if(dx>90)setMenu(false); else mp.style.transform='';
     drag=false;dx=0;
   });
+</script>
+<script>
+/* Stamford facts crossfade — every fact is already in the HTML above; this only rotates which is visible.
+   Honors reduced-motion (shows the first fact, no cycling) and no-JS (CSS shows the .on fact). */
+(function(){
+  var ff=document.querySelectorAll('.funfacts .ff'); if(ff.length<2) return;
+  if(window.matchMedia && matchMedia('(prefers-reduced-motion:reduce)').matches) return;
+  var i=0;
+  setInterval(function(){ ff[i].classList.remove('on'); i=(i+1)%ff.length; ff[i].classList.add('on'); }, 5200);
+})();
 </script>
 <script src="/track.js" defer></script>
 </body>

@@ -275,12 +275,12 @@
     linear-gradient(180deg,rgba(6,6,8,.55),rgba(6,6,8,.04) 30%,rgba(6,6,8,.72) 78%,var(--bg) 99%)}
   .hero-media::before{content:"";position:absolute;inset:0;z-index:1;background:radial-gradient(120% 80% at 80% 0%,transparent 40%,rgba(6,6,8,.4))}
   .hero .wrap{position:relative;z-index:2;width:100%;padding-bottom:11vh}
-  .hero h1{font-size:clamp(3rem,9vw,7.6rem);color:#fff;font-weight:600;letter-spacing:-.045em;margin:24px 0 0;max-width:16ch}
+  .hero h1{font-size:clamp(3rem,9vw,7.6rem);color:#fff;font-weight:600;letter-spacing:-.045em;margin:clamp(24px,3.2vw,36px) 0 0;max-width:16ch}
   .hero h1 .g{background:linear-gradient(120deg,var(--gold-l),var(--gold));-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
-  .hero .sub{max-width:540px;margin:24px 0 0;font-size:clamp(1rem,1.5vw,1.22rem);color:#d6d7dd;line-height:1.55}
+  .hero .sub{max-width:540px;margin:clamp(22px,3vw,32px) 0 0;font-size:clamp(1rem,1.5vw,1.22rem);color:#d6d7dd;line-height:1.55}
   /* rotating Stamford facts — ALL facts live in the static HTML (crawlers + LLMs read every one); the
      crossfade only animates which is visible. SEO/LLM-safe by construction. */
-  .hero .funfacts{position:relative;display:grid;margin:16px 0 2px;min-height:1.5em;max-width:560px}
+  .hero .funfacts{position:relative;display:grid;margin:clamp(18px,2.6vw,28px) 0 clamp(4px,1vw,8px);min-height:1.5em;max-width:560px}
   .hero .funfacts .ff{grid-area:1/1;font-family:var(--sans);font-weight:500;font-size:clamp(.82rem,1.15vw,.98rem);letter-spacing:.005em;line-height:1.4;color:var(--gold-l,#e8c98a);opacity:0;transition:opacity .5s ease;display:flex;align-items:baseline;gap:9px}
   .hero .funfacts .ff::before{content:"◆";font-size:.62em;color:var(--gold,#c9a24a);opacity:.85;transform:translateY(-1px)}
   .hero .funfacts .ff.on{opacity:1}
@@ -905,8 +905,8 @@
 </footer>
 
 <div class="callbar">
-  <a class="btn btn-gold" href="tel:2038833399">Call John <span class="ic" aria-hidden="true">↗</span></a>
-  <a class="btn btn-out" href="sms:2038833399">Text <span class="ic" aria-hidden="true">↗</span></a>
+  <a class="btn btn-gold" href="sms:2038833399">Text John <span class="ic" aria-hidden="true">↗</span></a>
+  <a class="btn btn-out" href="ai-home-search.html">AI Search <span class="ic" aria-hidden="true">↗</span></a>
 </div>
 
 <script>

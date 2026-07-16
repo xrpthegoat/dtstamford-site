@@ -3,6 +3,12 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<script>
+/* A GitHub-Pages rebuild (the Journal auto-publishes a few times a day) can briefly 404 a REAL
+   page for a few seconds. Retry ONCE per path, per tab, before showing this page — a genuine
+   404 just reloads a single time and lands right back here. Guarded so it can never loop. */
+(function(){try{var k='dts_r404:'+location.pathname;if(!sessionStorage.getItem(k)){sessionStorage.setItem(k,'1');location.reload();}}catch(e){}})();
+</script>
 <meta name="theme-color" content="#08080a">
 <title>Page Not Found | Downtown Stamford — John Restrepo</title>
 <meta name="robots" content="noindex, follow">

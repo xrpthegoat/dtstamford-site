@@ -1,0 +1,841 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#08080a">
+<title>AI Home Search — Find Your Stamford Home in Plain English | John Restrepo</title>
+<meta name="description" content="Describe your ideal Stamford home in plain English and let AI do the searching. Our conversational assistant turns 'condos under $700k near the train, no HOA' into real MLS matches — and explains why each one fits.">
+<meta name="keywords" content="AI home search Stamford, conversational real estate search, Stamford MLS AI, find a home with AI, Stamford CT real estate assistant">
+<link rel="canonical" href="https://dtstamford.com/ai-home-search.html">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta property="og:type" content="website">
+<meta property="og:title" content="AI Home Search — Find Your Stamford Home in Plain English">
+<meta property="og:description" content="Describe what you want. The AI turns it into real MLS filters and explains why each home fits.">
+<meta property="og:url" content="https://dtstamford.com/ai-home-search.html">
+<meta property="og:image" content="https://dtstamford.com/assets/og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600;12..96,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="icon" href="assets/logo-black.png">
+<link rel="apple-touch-icon" href="assets/logo-black.png">
+<link rel="stylesheet" href="assets/site.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebApplication","name":"Stamford AI Home Search","applicationCategory":"RealEstateApplication","url":"https://dtstamford.com/ai-home-search.html","operatingSystem":"Web","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"author":{"@type":"Person","name":"John Restrepo","telephone":"+12038833399","url":"https://dtstamford.com/"}}
+</script>
+<style>
+/* ===== AI Home Search — scoped styles (chrome comes from site.css) ===== */
+.aihs{--bg:#060608;--panel:#0d0e14;--panel2:#11131b;--line:rgba(255,255,255,.08);--fg:#f2f2f5;--mut:#9a9ba6;--gold:#cbab68;--goldl:#eed6a3;
+  --sans:"Plus Jakarta Sans",-apple-system,system-ui,sans-serif;--disp:"Bricolage Grotesque",var(--sans);--mono:"Space Mono",ui-monospace,monospace;
+  font-family:var(--sans);color:var(--fg);position:relative;min-height:100dvh;display:flex;flex-direction:column}
+.aihs *{box-sizing:border-box}
+.aihs .col{width:100%;max-width:820px;margin:0 auto;padding:0 20px}
+
+/* ---- Empty state (ChatGPT-style) ---- */
+.aihs-stage{flex:1;display:flex;flex-direction:column;justify-content:center;padding:64px 0 40px;transition:padding .3s ease}
+.aihs.started .aihs-stage{justify-content:flex-start;padding:26px 0 150px}
+.aihs-hero{text-align:center;transition:opacity .3s ease,max-height .4s ease,margin .3s ease}
+.aihs.started .aihs-hero{opacity:0;max-height:0;margin:0;overflow:hidden;pointer-events:none}
+.aihs-eyebrow{font-family:var(--mono);font-size:.66rem;letter-spacing:.24em;text-transform:uppercase;color:var(--goldl);display:inline-flex;align-items:center;gap:9px;margin-bottom:18px}
+.aihs-eyebrow .dot{width:7px;height:7px;border-radius:50%;background:var(--gold);box-shadow:0 0 12px var(--gold)}
+.aihs-hero h1{font-family:var(--disp);font-weight:600;font-size:clamp(2.3rem,5.6vw,3.9rem);line-height:1.02;letter-spacing:-.03em;margin:0 0 14px;
+  background:linear-gradient(150deg,#fff 40%,var(--goldl));-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+.aihs-hero p.sub{color:var(--mut);font-size:clamp(1rem,1.6vw,1.18rem);margin:0 auto 30px;max-width:30ch}
+
+/* ---- Composer ---- */
+.aihs-composer{width:100%;max-width:760px;margin:0 auto}
+.aihs.started .aihs-composer{position:fixed;left:0;right:0;bottom:0;z-index:40;max-width:none;margin:0;padding:14px 20px 20px;
+  background:linear-gradient(180deg,rgba(6,6,8,0),var(--bg) 32%)}
+.aihs.started .aihs-composer .cbox{max-width:820px;margin:0 auto}
+.cbox{display:flex;align-items:flex-end;gap:10px;background:var(--panel2);border:1px solid var(--line);border-radius:20px;padding:10px 10px 10px 18px;
+  box-shadow:0 12px 40px -18px rgba(0,0,0,.8);transition:border-color .2s ease}
+.cbox:focus-within{border-color:rgba(203,171,104,.5)}
+.cbox textarea{flex:1;background:transparent;border:0;outline:0;resize:none;color:var(--fg);font-family:var(--sans);font-size:1.02rem;line-height:1.5;
+  max-height:160px;padding:8px 0}
+.cbox textarea::placeholder{color:#63646f}
+.csend{flex:none;width:42px;height:42px;border-radius:13px;border:0;cursor:pointer;background:linear-gradient(135deg,var(--goldl),var(--gold));color:#20170a;
+  display:grid;place-items:center;transition:transform .15s ease,filter .15s ease}
+.csend:hover{filter:brightness(1.08)}.csend:active{transform:scale(.94)}.csend:disabled{opacity:.4;cursor:default}
+.csend svg{width:20px;height:20px}
+.aihs-hint{text-align:center;color:#54555f;font-size:.76rem;margin:11px auto 0;font-family:var(--mono);letter-spacing:.03em}
+
+/* ---- Suggested prompts ---- */
+.aihs-chips{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin:22px auto 0;max-width:720px}
+.aihs.started .aihs-chips{display:none}
+.chip{background:var(--panel);border:1px solid var(--line);color:#cfd0d8;font-size:.86rem;padding:10px 15px;border-radius:12px;cursor:pointer;
+  text-align:left;transition:all .18s ease;line-height:1.35}
+.chip:hover{border-color:rgba(203,171,104,.45);color:#fff;transform:translateY(-2px);background:var(--panel2)}
+.chip .k{color:var(--gold);margin-right:7px}
+
+/* ---- Thread ---- */
+.aihs-thread{display:none;flex-direction:column;gap:22px;padding-top:8px}
+.aihs.started .aihs-thread{display:flex}
+.msg{display:flex;gap:13px;align-items:flex-start;animation:rise .4s ease both}
+@keyframes rise{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+.msg .av{flex:none;width:34px;height:34px;border-radius:10px;display:grid;place-items:center;font-size:.9rem;font-weight:700}
+.msg.ai .av{background:linear-gradient(135deg,#1a1c26,#0c0d13);border:1px solid rgba(203,171,104,.4);color:var(--goldl)}
+.msg.me .av{background:#23242e;color:#cfd0d8;font-family:var(--mono);font-size:.72rem}
+.msg .bubble{flex:1;min-width:0;padding-top:5px}
+.msg.me .bubble{color:#e7e8ee}
+.msg .bubble p{margin:0 0 10px;line-height:1.62}.msg .bubble p:last-child{margin-bottom:0}
+.msg .bubble strong{color:#fff}
+.msg .bubble .em{color:var(--goldl)}
+.typing{display:inline-flex;gap:5px;padding:5px 0}
+.typing i{width:7px;height:7px;border-radius:50%;background:var(--goldl);opacity:.5;animation:bl 1s infinite}
+.typing i:nth-child(2){animation-delay:.15s}.typing i:nth-child(3){animation-delay:.3s}
+@keyframes bl{0%,100%{opacity:.3;transform:translateY(0)}50%{opacity:1;transform:translateY(-3px)}}
+
+/* ---- Memory chips ---- */
+.mem{display:flex;flex-wrap:wrap;gap:8px;margin:2px 0 4px}
+.mem .mchip{display:inline-flex;align-items:center;gap:7px;background:rgba(203,171,104,.1);border:1px solid rgba(203,171,104,.3);color:var(--goldl);
+  font-size:.76rem;padding:5px 9px;border-radius:8px;font-family:var(--mono);letter-spacing:.02em}
+.mem .mchip b{font-weight:400;color:#e7d9b6}
+.mem .mchip x{cursor:pointer;color:#9a8a5f;font-style:normal;font-weight:700;line-height:1}.mem .mchip x:hover{color:#fff}
+.mem .mlabel{font-size:.72rem;color:#5a5b64;font-family:var(--mono);letter-spacing:.06em;text-transform:uppercase;align-self:center;margin-right:2px}
+
+/* ---- Result cards ---- */
+.results{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:6px 0 4px}
+@media(max-width:640px){.results{grid-template-columns:1fr}}
+.lcard{background:var(--panel);border:1px solid var(--line);border-radius:16px;overflow:hidden;display:flex;flex-direction:column;transition:border-color .2s ease,transform .2s ease}
+.lcard:hover{border-color:rgba(203,171,104,.35);transform:translateY(-2px)}
+.lcard .ph{position:relative;aspect-ratio:16/10;background:#15161d;overflow:hidden}
+.lcard .ph img{width:100%;height:100%;object-fit:cover;display:block}
+.lcard .badge{position:absolute;top:10px;left:10px;background:rgba(6,6,8,.72);backdrop-filter:blur(6px);border:1px solid var(--line);color:#fff;
+  font-size:.68rem;font-family:var(--mono);letter-spacing:.05em;padding:4px 8px;border-radius:7px}
+.lcard .sv{position:absolute;top:9px;right:9px;width:32px;height:32px;border-radius:9px;border:1px solid var(--line);background:rgba(6,6,8,.6);
+  backdrop-filter:blur(6px);cursor:pointer;display:grid;place-items:center;color:#cfd0d8;transition:all .15s ease}
+.lcard .sv:hover{color:var(--goldl);border-color:rgba(203,171,104,.5)}.lcard .sv.on{color:var(--gold);border-color:var(--gold)}
+.lcard .bd{padding:13px 15px 15px;display:flex;flex-direction:column;gap:9px;flex:1}
+.lcard .price{font-family:var(--disp);font-weight:600;font-size:1.32rem;color:#fff;letter-spacing:-.01em}
+.lcard .addr{color:#c7c8d1;font-size:.9rem;line-height:1.35;margin-top:-2px}
+.lcard .addr .nb{color:var(--mut);font-size:.8rem}
+.lcard .specs{display:flex;flex-wrap:wrap;gap:5px 7px;font-size:.78rem;color:#b9bac4}
+.lcard .specs span{background:var(--panel2);border:1px solid var(--line);border-radius:7px;padding:3px 8px;white-space:nowrap}
+.lcard .why{background:linear-gradient(180deg,rgba(203,171,104,.07),rgba(203,171,104,.02));border:1px solid rgba(203,171,104,.18);border-radius:11px;
+  padding:10px 12px;font-size:.83rem;line-height:1.5;color:#dcd2b8}
+.lcard .why b{color:var(--goldl);font-weight:600}
+.lcard .fin{display:flex;gap:14px;font-size:.74rem;color:#8d8e98;font-family:var(--mono);border-top:1px solid var(--line);padding-top:9px;margin-top:2px;flex-wrap:wrap}
+.lcard .fin em{color:#c7c8d1;font-style:normal}
+.lcard .acts{display:flex;gap:7px;margin-top:auto;padding-top:4px}
+.lcard .acts button, .lcard .acts a{flex:1;text-align:center;font-size:.8rem;font-weight:600;padding:9px 6px;border-radius:10px;cursor:pointer;
+  text-decoration:none;transition:all .15s ease;border:1px solid var(--line);font-family:var(--sans)}
+.lcard .acts .primary{background:linear-gradient(135deg,var(--goldl),var(--gold));color:#20170a;border-color:transparent}
+.lcard .acts .primary:hover{filter:brightness(1.07)}
+.lcard .acts .ghost{background:var(--panel2);color:#cfd0d8}.lcard .acts .ghost:hover{border-color:rgba(203,171,104,.4);color:#fff}
+
+.qbtns{display:flex;flex-wrap:wrap;gap:8px;margin-top:4px}
+.qbtn{background:var(--panel2);border:1px solid var(--line);color:#cfd0d8;font-size:.8rem;padding:8px 13px;border-radius:10px;cursor:pointer;transition:all .15s ease}
+.qbtn:hover{border-color:rgba(203,171,104,.45);color:#fff}
+
+/* ---- Analysis table ---- */
+.ana{background:var(--panel);border:1px solid var(--line);border-radius:14px;overflow:hidden;margin:4px 0}
+.ana .row{display:grid;grid-template-columns:1fr auto;gap:12px;padding:11px 15px;border-bottom:1px solid var(--line);font-size:.87rem}
+.ana .row:last-child{border-bottom:0}.ana .row .q{color:#b9bac4}.ana .row .a{color:#fff;font-weight:600;text-align:right}
+.ana .row .a small{display:block;color:var(--mut);font-weight:400;font-family:var(--mono);font-size:.72rem}
+
+/* ---- Detail modal ---- */
+.mscrim{position:fixed;inset:0;z-index:80;background:rgba(4,4,6,.82);backdrop-filter:blur(5px);display:none;align-items:center;justify-content:center;padding:20px}
+.mscrim.on{display:flex;animation:fade .2s ease}
+@keyframes fade{from{opacity:0}to{opacity:1}}
+.modal{background:var(--panel);border:1px solid var(--line);border-radius:20px;max-width:660px;width:100%;max-height:88dvh;overflow:auto}
+.modal .mph{aspect-ratio:16/9;background:#15161d;position:relative}.modal .mph img{width:100%;height:100%;object-fit:cover}
+.modal .mx{position:absolute;top:12px;right:12px;width:36px;height:36px;border-radius:10px;border:0;background:rgba(6,6,8,.7);color:#fff;cursor:pointer;font-size:1.1rem}
+.modal .mbd{padding:20px 22px 24px}
+.modal h3{font-family:var(--disp);font-size:1.6rem;margin:0 0 4px;color:#fff}
+.modal .msub{color:var(--mut);margin-bottom:14px}
+.modal .mgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:9px;margin:14px 0}
+.modal .mgrid .c{background:var(--panel2);border:1px solid var(--line);border-radius:11px;padding:11px}
+.modal .mgrid .c .l{font-size:.7rem;color:var(--mut);font-family:var(--mono);text-transform:uppercase;letter-spacing:.05em}
+.modal .mgrid .c .v{font-size:1.05rem;color:#fff;font-weight:600;margin-top:3px}
+.modal .feats{display:flex;flex-wrap:wrap;gap:7px;margin:14px 0}
+.modal .feats span{background:rgba(203,171,104,.09);border:1px solid rgba(203,171,104,.25);color:var(--goldl);font-size:.78rem;padding:5px 10px;border-radius:8px}
+.modal .rmk{color:#c7c8d1;line-height:1.65;font-size:.92rem}
+.modal .macts{display:flex;gap:9px;margin-top:18px}
+.modal .macts a{flex:1;text-align:center;padding:12px;border-radius:11px;font-weight:600;text-decoration:none}
+.modal .macts .primary{background:linear-gradient(135deg,var(--goldl),var(--gold));color:#20170a}
+.modal .macts .ghost{background:var(--panel2);border:1px solid var(--line);color:#cfd0d8}
+
+/* ---- Footer / disclosure ---- */
+.aihs-foot{border-top:1px solid var(--line);padding:20px;margin-top:20px}
+.aihs-foot .col{color:#63646f;font-size:.72rem;line-height:1.6}
+.aihs-foot a{color:#8d8e98}
+.toast{position:fixed;bottom:96px;left:50%;transform:translateX(-50%) translateY(20px);background:#15161d;border:1px solid rgba(203,171,104,.4);color:#fff;
+  padding:11px 18px;border-radius:12px;font-size:.86rem;opacity:0;pointer-events:none;transition:all .25s ease;z-index:90}
+.toast.on{opacity:1;transform:translateX(-50%) translateY(0)}
+
+/* module pills under empty hero */
+.aihs-mods{display:flex;flex-wrap:wrap;gap:7px;justify-content:center;margin:26px auto 0;max-width:640px}
+.aihs.started .aihs-mods{display:none}
+.aihs-mods .m{font-size:.72rem;font-family:var(--mono);letter-spacing:.03em;color:#6d6e78;border:1px solid var(--line);border-radius:20px;padding:5px 11px}
+.aihs-mods .m.live{color:var(--goldl);border-color:rgba(203,171,104,.35)}
+</style>
+</head>
+<body id="top">
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="/"><img class="logo" src="assets/logo-white.png" alt="Downtown Stamford logo"><span class="wordmark">Downtown Stamford</span></a>
+    <nav class="nav-links" aria-label="Primary">
+      <a href="search.html?type=sale">Buy</a>
+      <a href="search.html?type=rent">Rent</a>
+      <a href="ai-home-search.html" aria-current="page">AI Search</a>
+      <a href="neighborhoods.html">Neighborhoods</a>
+      <a href="stamford-market.html">Market Trends</a>
+      <a href="blog.html">Blog</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <a class="btn-call" href="tel:2038833399">Call 203·883·3399</a>
+    <button class="navtoggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+<div class="mmenu" id="mobileMenu" aria-hidden="true">
+  <div class="mmenu-scrim" id="mmScrim"></div>
+  <aside class="mmenu-panel" role="dialog" aria-modal="true" aria-label="Menu">
+    <nav class="mmenu-links" aria-label="Mobile">
+      <a href="/">Home</a><a href="search.html?type=sale">Buy</a><a href="search.html?type=rent">Rent</a>
+      <a href="ai-home-search.html">AI Search</a><a href="neighborhoods.html">Neighborhoods</a>
+      <a href="stamford-market.html">Market Trends</a><a href="blog.html">Blog</a><a href="contact.html">Contact</a>
+    </nav>
+  </aside>
+</div>
+
+<main class="aihs" id="aihs">
+  <div class="aihs-stage">
+    <div class="col">
+      <div class="aihs-hero">
+        <span class="aihs-eyebrow"><span class="dot"></span> AI Home Search · Stamford, CT</span>
+        <h1>Find Your Home With AI</h1>
+        <p class="sub">Describe what you're looking for in plain English.</p>
+      </div>
+
+      <div class="aihs-composer" id="composerWrap">
+        <div class="cbox">
+          <textarea id="q" rows="1" placeholder="e.g. Condos under $700k, walkable to the train, no HOA…" autocomplete="off"></textarea>
+          <button class="csend" id="send" aria-label="Send" disabled>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+          </button>
+        </div>
+        <div class="aihs-hint" id="hint">Powered by a local search engine over live SmartMLS data — ask anything, then refine.</div>
+      </div>
+
+      <div class="aihs-chips" id="chips"></div>
+
+      <div class="aihs-mods">
+        <span class="m live">Search AI</span><span class="m live">Mortgage AI</span><span class="m live">Investment AI</span>
+        <span class="m live">Rental AI</span><span class="m live">Market AI</span><span class="m live">Neighborhood AI</span>
+        <span class="m">School AI</span><span class="m">Offer AI</span><span class="m">Seller AI</span>
+      </div>
+
+      <div class="aihs-thread" id="thread" aria-live="polite"></div>
+    </div>
+  </div>
+
+  <footer class="aihs-foot">
+    <div class="col" id="idxLegal"></div>
+  </footer>
+</main>
+
+<div class="mscrim" id="mscrim"><div class="modal" id="modal"></div></div>
+<div class="toast" id="toast"></div>
+
+<script>
+/* ============================================================================
+   AI Home Search — dtstamford.com
+   Modular conversational real-estate assistant over the SAME data as search.html
+   (data/listings.json, written by idx-sync). No build step; matches the static site.
+
+   TWO SWAPPABLE SEAMS (see below to make it fully live):
+     1. DATA   — Data.search(filters)  → today reads data/listings.json.
+     2. BRAIN  — Brain.reply(turn)      → today a deterministic local engine.
+                 Set CONFIG.llmEndpoint to a backend that accepts {messages,tools}
+                 and the same UI upgrades to a true LLM with zero UI changes.
+   MODULES are a registry (Modules.list) — each is independently callable via
+     Modules.run(id, ctx). Add Neighborhood/School/Investment/etc. without touching
+     the UI.  Router.route(text) picks the module; SearchAI is the default.
+   ============================================================================ */
+const CONFIG = {
+  llmEndpoint: null,                        // e.g. 'https://api.dtstamford.com/ai' → flips to real LLM
+  station: { lat: 41.0473, lng: -73.5419 }, // Stamford Transportation Center (train)
+  mortgageRate: 0.065, downPct: 0.20, termYears: 30,
+  rentPerSqftMo: 2.65                        // rough Stamford rent proxy for Investment/Rental AI
+};
+
+/* ---------- tiny DOM helpers ---------- */
+const $ = s => document.querySelector(s);
+const el = (t, c, h) => { const n = document.createElement(t); if (c) n.className = c; if (h != null) n.innerHTML = h; return n; };
+const esc = s => String(s == null ? '' : s).replace(/[&<>"]/g, m => ({ '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;' }[m]));
+const money = n => n == null ? '—' : '$' + Math.round(n).toLocaleString();
+const money0 = n => n == null ? '—' : '$' + Math.round(n).toLocaleString();
+
+/* =====================================================================
+   STATE + MEMORY
+   ===================================================================== */
+const State = {
+  listings: [], meta: {}, messages: [], lastResults: [],
+  saved: new Set(JSON.parse(localStorage.getItem('aihs_saved') || '[]')),
+  prefs: { wants: [], avoid: [], price: null, beds: null, baths: null, type: null, neighborhood: null, listingType: 'sale' },
+  asked: {}                       // follow-up questions already asked (never repeat)
+};
+
+/* =====================================================================
+   DATA SEAM  —  Data.load() / Data.search(filters)
+   ===================================================================== */
+const Data = {
+  async load() {
+    try {
+      const r = await fetch('data/listings.json', { cache: 'no-cache' });
+      const d = await r.json();
+      State.listings = (d.listings || []).filter(l => l && l.price);
+      State.meta = d.meta || {};
+    } catch (e) { State.listings = []; State.meta = { error: String(e) }; }
+  },
+  /* filters is a normalized preference object; returns [{listing, score, reasons[]}] */
+  search(f) {
+    const wants = new Set(f.wants || []);
+    const scored = State.listings
+      .filter(l => !f.listingType || l.listingType === f.listingType)
+      .map(l => {
+        const t = Feat.text(l), st = Geo.station(l.geo);
+        let score = 0; const reasons = [];
+        // hard-ish numeric filters (soft: near-misses still rank, just lower)
+        if (f.priceMax != null) { if (l.price <= f.priceMax) { score += 3; } else if (l.price <= f.priceMax * 1.08) { score += 0.5; reasons.push('slightly over budget'); } else return null; }
+        if (f.priceMin != null && l.price >= f.priceMin) score += 1;
+        if (f.beds != null) { if (l.beds >= f.beds) score += 2; else return null; }
+        if (f.baths != null) { if (l.baths >= f.baths) score += 1; else score -= 0.5; }
+        if (f.type && l.propertyType) { if (Feat.typeMatch(l.propertyType, f.type)) score += 2; else score -= 1; }
+        if (f.neighborhood && l.address && l.address.neighborhood) { if (l.address.neighborhood.toLowerCase().includes(f.neighborhood)) { score += 2.5; reasons.push('in ' + l.address.neighborhood); } }
+        // preference (memory) — avoid list is a hard exclude
+        if ((f.avoid || []).includes('hoa') && l.hoa) return null;
+        if ((f.avoid || []).includes('flood') && /flood/i.test(t)) return null;
+        // feature "wants" → score + reasons (this is the natural-language magic)
+        wants.forEach(w => { const hit = Feat.match(w, l, st, t); if (hit) { score += hit.weight; if (hit.reason) reasons.push(hit.reason); } });
+        // always surface the commute fact when relevant
+        if ((wants.has('train') || wants.has('nyc')) && st) reasons.unshift(st.walkMin <= 18 ? `${st.walkMin}-min walk to Stamford Station` : `${st.driveMin} min to Stamford Station`);
+        if (!reasons.length) reasons.push(Feat.headline(l, st));
+        return { listing: l, score, reasons: [...new Set(reasons)].slice(0, 4) };
+      })
+      .filter(Boolean)
+      .sort((a, b) => b.score - a.score);
+    return scored;
+  }
+};
+
+/* =====================================================================
+   GEO — real commute math from lat/lng
+   ===================================================================== */
+const Geo = {
+  km(a, b) { const R = 6371, dLat = (b.lat - a.lat) * Math.PI / 180, dLng = (b.lng - a.lng) * Math.PI / 180,
+    x = Math.sin(dLat / 2) ** 2 + Math.cos(a.lat * Math.PI / 180) * Math.cos(b.lat * Math.PI / 180) * Math.sin(dLng / 2) ** 2;
+    return R * 2 * Math.atan2(Math.sqrt(x), Math.sqrt(1 - x)); },
+  station(geo) { if (!geo || !geo.lat) return null; const km = Geo.km(geo, CONFIG.station);
+    return { km, walkMin: Math.max(1, Math.round(km / 4.8 * 60)), driveMin: Math.max(1, Math.round(km / 32 * 60)) }; }
+};
+
+/* =====================================================================
+   FEATURES — map plain-English wants onto listing fields
+   ===================================================================== */
+const Feat = {
+  text: l => [(l.features || []).join(' '), l.remarks || '', l.propertyType || '', (l.address && l.address.neighborhood) || ''].join(' ').toLowerCase(),
+  typeMatch(pt, want) { pt = pt.toLowerCase();
+    if (want === 'condo') return /condo|co-?op/.test(pt);
+    if (want === 'house') return /single|house|colonial|ranch|cape|contemporary/.test(pt);
+    if (want === 'multi') return /multi|two-family|2-family|duplex/.test(pt);
+    return pt.includes(want); },
+  headline(l, st) { if (l.hoa === 0 || l.hoa == null) { if (st && st.walkMin <= 18) return `${st.walkMin}-min walk to the train`; }
+    if (/renovat|updated|new construction/i.test(l.remarks || '')) return 'recently updated';
+    if (st) return st.walkMin <= 20 ? `${st.walkMin} min to Stamford Station` : `${st.driveMin} min to the train`;
+    return 'solid Stamford option'; },
+  /* returns {weight, reason} or null */
+  match(want, l, st, t) {
+    const has = re => re.test(t);
+    switch (want) {
+      case 'train': case 'nyc': return st ? { weight: st.walkMin <= 18 ? 3 : 1, reason: null } : null; // reason supplied once by Data.search unshift (avoids dup)
+      case 'highway': return has(/i-?95|merritt|route 1|highway|quick access/) ? { weight: 2, reason: 'quick highway access' } : null;
+      case 'dogs': { const fence = has(/fenc|yard|backyard/); return fence ? { weight: 2, reason: 'fenced yard for the dogs' } : (l.lotSqft > 6000 ? { weight: 1, reason: 'room for a dog run' } : null); }
+      case 'movein': return (has(/renovat|updated|move-?in|new construction|redone|modern kitchen/) || l.yearBuilt >= 2015) ? { weight: 2, reason: l.yearBuilt >= 2018 ? `move-in ready (built ${l.yearBuilt})` : 'renovated / move-in ready' } : null;
+      case 'new': return (has(/new construction/) || l.yearBuilt >= 2022) ? { weight: 2, reason: `new construction (${l.yearBuilt})` } : null;
+      case 'privacy': return (l.lotSqft >= 15000 || has(/cul-?de-?sac|wooded|private|acre/)) ? { weight: 2, reason: l.lotSqft >= 15000 ? `private ${(l.lotSqft/43560).toFixed(2)}-acre lot` : 'private / wooded setting' } : null;
+      case 'waterfront': return has(/waterfront|water view|harbor|on the water|sound/) ? { weight: 3, reason: 'waterfront' } : null;
+      case 'pool': return has(/pool/) ? { weight: 2, reason: 'has a pool' } : null;
+      case 'garage': return has(/garage/) ? { weight: 1, reason: 'garage parking' } : null;
+      case 'fireplace': return has(/fireplace/) ? { weight: 1, reason: 'fireplace' } : null;
+      case 'basement': return has(/finished basement|walk-?out basement|lower level/) ? { weight: 1.5, reason: 'finished basement' } : null;
+      case 'office': return has(/office|study|den|work from home|bonus room/) ? { weight: 2, reason: 'dedicated office/den' } : null;
+      case 'gym': return has(/gym|exercise|fitness|bonus room/) ? { weight: 1, reason: 'space for a home gym' } : null;
+      case 'firstfloor': case 'accessible': return has(/first-?floor bed|main-?level|primary on main|single level|ranch|no stairs|accessible|elevator/) ? { weight: 2, reason: 'first-floor / single-level living' } : null;
+      case 'schools': return has(/school|district/) ? { weight: 1, reason: 'noted for schools' } : { weight: 0.3 };
+      case 'quiet': return (has(/cul-?de-?sac|quiet|dead-?end|wooded/) || l.lotSqft >= 12000) ? { weight: 1.5, reason: 'quiet street' } : null;
+      case 'view': return has(/view|skyline|water view|vista/) ? { weight: 1.5, reason: 'nice views' } : null;
+      case 'invest': case 'rental': return (Feat.typeMatch(l.propertyType || '', 'multi') || has(/income|rental potential|in-?law|adu|accessory|multi/)) ? { weight: 2, reason: 'strong rental / income potential' } : (l.hoa < 300 ? { weight: 0.8, reason: 'rentable, low carrying cost' } : null);
+      case 'nohoa': return !l.hoa ? { weight: 1.5, reason: 'no HOA fees' } : null;
+      case 'yard': return (l.lotSqft >= 8000 || has(/yard|backyard/)) ? { weight: 1.5, reason: l.lotSqft ? `${(l.lotSqft/43560).toFixed(2)}-acre lot` : 'big backyard' } : null;
+      default: return has(new RegExp(want.replace(/[^a-z0-9 ]/gi, ''), 'i')) ? { weight: 1, reason: want } : null;
+    }
+  }
+};
+
+/* =====================================================================
+   NLU — plain English → normalized filters + memory updates + module hint
+   ===================================================================== */
+const NLU = {
+  hoods: ['downtown','harbor point','south end','shippan','springdale','glenbrook','cove','north stamford','waterside','belltown','newfield','westover','turn of river'],
+  parse(text) {
+    const s = ' ' + text.toLowerCase() + ' ';
+    const out = { wants: [], avoid: [], priceMax: null, priceMin: null, beds: null, baths: null, type: null, neighborhood: null, listingType: null, raw: text };
+
+    // price
+    const num = m => { let n = parseFloat(m.replace(/[,$\s]/g, '')); if (/m/i.test(m)) n *= 1e6; else if (/k/i.test(m)) n *= 1e3; else if (n < 10000) n *= 1000; return n; };
+    let m;
+    if (m = s.match(/(?:under|below|less than|up to|max)\s*\$?([\d,.]+\s*[km]?)/i)) out.priceMax = num(m[1]);
+    if (m = s.match(/(?:over|above|more than|at least|min)\s*\$?([\d,.]+\s*[km]?)/i)) out.priceMin = num(m[1]);
+    if (m = s.match(/\$?([\d,.]+\s*[km]?)\s*(?:-|to|and)\s*\$?([\d,.]+\s*[km]?)/i)) { out.priceMin = num(m[1]); out.priceMax = num(m[2]); }
+
+    // beds / baths
+    if (m = s.match(/(\d+)\s*\+?\s*(?:bed|br|bdr|bedroom)/)) out.beds = +m[1];
+    if (m = s.match(/(\d+)\s*\+?\s*(?:bath|ba)/)) out.baths = +m[1];
+    if (/studio/.test(s)) out.beds = 0;
+
+    // type + listing type
+    if (/\bcondo|apartment\b/.test(s)) out.type = 'condo';
+    else if (/single-?family|\bhouse\b|colonial|ranch|cape/.test(s)) out.type = 'house';
+    else if (/multi-?family|two-?family|duplex|2-?family/.test(s)) out.type = 'multi';
+    if (/\brent(al)?\b|lease|for rent/.test(s)) out.listingType = 'rent';
+    if (/\bbuy|purchase|for sale\b/.test(s)) out.listingType = 'sale';
+
+    // neighborhood / station
+    this.hoods.forEach(h => { if (s.includes(h)) out.neighborhood = h; });
+    if (/station|metro-?north|train/.test(s)) out.wants.push('train');
+
+    // lifestyle → wants (the spec's mappings)
+    const map = [
+      [/work in nyc|commute to (nyc|new york|the city|manhattan)|to grand central/, 'nyc'],
+      [/hate traffic|easy highway|highway access|off the highway|near i-?95|near the merritt/, 'highway'],
+      [/\bdogs?\b|\bpets?\b|fenced|dog park/, 'dogs'],
+      [/move-?in ready|turn-?key|renovated|updated|newer home/, 'movein'],
+      [/new construction|brand new/, 'new'],
+      [/privacy|private|secluded|cul-?de-?sac|wooded|more land/, 'privacy'],
+      [/waterfront|on the water|water view|harbor/, 'waterfront'],
+      [/\bpool\b/, 'pool'], [/\bgarage\b/, 'garage'], [/fireplace/, 'fireplace'],
+      [/finished basement|walk-?out basement/, 'basement'],
+      [/office|study|\bden\b|work from home|home office/, 'office'],
+      [/home gym|gym space|workout room/, 'gym'],
+      [/first-?floor bed|main-?level bed|single level|no stairs|one story|accessib|wheelchair|elevator/, 'firstfloor'],
+      [/good schools?|school district|top schools?/, 'schools'],
+      [/quiet( neighborhood| street)?|peaceful/, 'quiet'],
+      [/\bview(s)?\b|skyline/, 'view'],
+      [/investment|rental potential|income property|cash flow|cap rate|adu|in-?law/, 'invest'],
+      [/big (back)?yard|large yard|backyard|room to (play|garden)/, 'yard'],
+      [/large lot|big lot|acre/, 'privacy']
+    ];
+    map.forEach(([re, tag]) => { if (re.test(s)) out.wants.push(tag); });
+
+    // memory: avoid
+    if (/no hoa|without hoa|no hoa fees|don'?t want hoa|hate hoa|avoid hoa/.test(s)) out.avoid.push('hoa');
+    if (/no flood|avoid flood|not in a flood/.test(s)) out.avoid.push('flood');
+
+    out.wants = [...new Set(out.wants)];
+    return out;
+  }
+};
+
+/* =====================================================================
+   MODULES — registry; each independently callable (future-ready)
+   ===================================================================== */
+const Modules = {
+  list: [
+    { id:'search',       label:'Search AI',       live:true,  match:()=>true },
+    { id:'mortgage',     label:'Mortgage AI',     live:true,  match:s=>/mortgage|afford|monthly payment|down payment|interest rate|how much house/.test(s) },
+    { id:'invest',       label:'Investment AI',   live:true,  match:s=>/invest|cap rate|cash flow|roi|rental income|income property/.test(s) },
+    { id:'rental',       label:'Rental AI',       live:true,  match:s=>/rent it out|rental estimate|how much rent|rentab/.test(s) },
+    { id:'market',       label:'Market AI',       live:true,  match:s=>/market|median price|price per (sq|square)|trend|how'?s the market|inventory|snapshot/.test(s) },
+    { id:'neighborhood', label:'Neighborhood AI', live:true,  match:s=>!/school/.test(s) && /tell me about|what'?s .* like|\bneighborhood|\barea\b|which part of|compare (downtown|north)/.test(s) },
+    { id:'school',       label:'School AI',       live:false, match:s=>/school|district rating|elementary|high school/.test(s) },
+    { id:'offer',        label:'Offer AI',        live:false, match:s=>/offer|how much should i (bid|offer)|negotiat|over asking|contingenc/.test(s) },
+    { id:'seller',       label:'Seller AI',       live:false, match:s=>/sell my|list my|what'?s my home worth|home valuation|thinking of selling/.test(s) }
+  ],
+  get(id){ return this.list.find(m=>m.id===id); },
+  run(id, ctx){ const fn = Brain.modules[id]; return fn ? fn(ctx) : Brain.modules.search(ctx); }
+};
+const Router = {
+  route(text){ const s=text.toLowerCase(); const hit=Modules.list.slice(1).find(m=>m.match(s)); return hit? hit.id : 'search'; }
+};
+
+/* =====================================================================
+   BRAIN SEAM — deterministic realtor-voice engine (LLM-swappable)
+   ===================================================================== */
+const Brain = {
+  async reply(turn){
+    if (CONFIG.llmEndpoint) { try { return await this.llm(turn); } catch(e){ /* fall through */ } }
+    const id = Router.route(turn.text);
+    return Modules.run(id, turn);
+  },
+  async llm(turn){
+    const r = await fetch(CONFIG.llmEndpoint, { method:'POST', headers:{'Content-Type':'application/json'},
+      body: JSON.stringify({ messages: State.messages, prefs: State.prefs, listings: State.listings.slice(0,60) }) });
+    return await r.json();   // { html, results?, ask? } — same shape the modules return
+  },
+
+  modules: {
+    /* ---------- SEARCH ---------- */
+    search(turn){
+      mergePrefs(turn.nlu);
+      const f = prefsToFilters();
+      let res = Data.search(f);
+      const n = res.length;
+      let html, ask = null;
+      if (!n) {
+        html = `<p>I don't have a listing that hits <em class="em">every</em> box right now — inventory in Stamford is tight. `+
+               `Want me to loosen one thing? Often the fastest unlock is nudging the budget up a little or dropping a nice-to-have. `+
+               `Tell me which matters most and I'll re-run it.</p>`;
+      } else {
+        const top = res.slice(0, 4);
+        State.lastResults = top.map(r=>r.listing);
+        html = `<p>${leadLine(f, n)}</p>`;
+        // ONE smart follow-up, only when it truly helps and hasn't been asked
+        if (f.priceMax == null && f.priceMin == null && !State.asked.price && n > 3) { ask = 'What price range are you comfortable with?'; State.asked.price = 1; }
+        else if (!f.neighborhood && !State.asked.place && spread(top) && !State.asked.price) { ask = 'Would you rather be close to downtown, or have more land further out?'; State.asked.place = 1; }
+        return { html, results: top, ask, analysis: n>1 };
+      }
+      return { html, ask };
+    },
+
+    /* ---------- MORTGAGE (functional) ---------- */
+    mortgage(turn){
+      const price = turn.nlu.priceMax || turn.nlu.priceMin || State.prefs.price || medianPrice() ;
+      const down = price*CONFIG.downPct, loan = price-down, r = CONFIG.mortgageRate/12, nMo = CONFIG.termYears*12;
+      const pi = loan * r / (1 - Math.pow(1+r, -nMo));
+      const tax = (medianTax()/12), pmi = 0;
+      const total = pi + tax;
+      return { html:
+        `<p>On a <strong>${money(price)}</strong> home with <strong>20% down</strong> (${money(down)}) at today's ~${(CONFIG.mortgageRate*100).toFixed(1)}% on a 30-year fixed:</p>`+
+        `<p>&nbsp;•&nbsp; Loan amount: <strong>${money(loan)}</strong><br>`+
+        `&nbsp;•&nbsp; Principal &amp; interest: <strong>${money(pi)}/mo</strong><br>`+
+        `&nbsp;•&nbsp; Est. property tax: <strong>${money(tax)}/mo</strong><br>`+
+        `&nbsp;•&nbsp; <em class="em">Ballpark total: ${money(total)}/mo</em> (before insurance/HOA)</p>`+
+        `<p>That's an estimate to frame the search — a local lender will give you a real pre-approval. Want me to filter homes to a monthly budget instead of a price?</p>` };
+    },
+
+    /* ---------- INVESTMENT (functional) ---------- */
+    invest(turn){
+      const pool = (State.lastResults.length? State.lastResults : State.listings).slice(0,8);
+      const ranked = pool.map(l=>({ l, ...capRate(l) })).sort((a,b)=>b.cap-a.cap).slice(0,3);
+      const rows = ranked.map(x=>`<div class="row"><div class="q">${esc(x.l.address.line)}</div><div class="a">${x.cap.toFixed(1)}% cap<small>~${money(x.rent)}/mo rent · ${money(x.l.price)}</small></div></div>`).join('');
+      return { html:
+        `<p>Here's a quick <strong>investment read</strong> on the strongest candidates — estimated cap rate (net yield) using a ${'~$'+CONFIG.rentPerSqftMo}/sq ft rent proxy, taxes, and HOA. Higher = better cash yield:</p>`+
+        `<div class="ana">${rows}</div>`+
+        `<p>Multi-family and low-HOA condos near the train rent fastest here. Want me to pull only income / multi-family properties?</p>` };
+    },
+
+    /* ---------- RENTAL (functional) ---------- */
+    rental(turn){
+      const l = State.lastResults[0] || State.listings[0];
+      if (!l) return { html:`<p>Show me a home first and I'll estimate what it would rent for.</p>` };
+      const rent = Math.round(l.sqft*CONFIG.rentPerSqftMo/50)*50;
+      return { html:
+        `<p><strong>${esc(l.address.line)}</strong> (${l.sqft.toLocaleString()} sq ft) would likely rent around <strong>${money(rent)}/mo</strong> in this market. `+
+        `Against a ${money(l.price)} price that's roughly a <em class="em">${((rent*12/l.price)*100).toFixed(1)}% gross yield</em>. `+
+        `Condos near Harbor Point and the train lease the fastest. Want the full cap-rate breakdown?</p>` };
+    },
+
+    /* ---------- MARKET (functional, from the dataset) ---------- */
+    market(){
+      const arr = State.listings; const med = medianPrice();
+      const pps = median(arr.map(l=>l.price/l.sqft).filter(Boolean));
+      const dom = median(arr.map(l=>l.daysOnMarket).filter(x=>x!=null));
+      return { html:
+        `<p><strong>Stamford snapshot</strong> — from the ${arr.length} active listings I'm searching right now:</p>`+
+        `<p>&nbsp;•&nbsp; Median price: <strong>${money(med)}</strong><br>`+
+        `&nbsp;•&nbsp; Median $/sq ft: <strong>$${Math.round(pps)}</strong><br>`+
+        `&nbsp;•&nbsp; Typical days on market: <strong>${Math.round(dom)}</strong></p>`+
+        `<p>It's a tight, quick-moving market — well-priced homes near the train go fast. Want the full 2026 market report, or homes in a specific range?</p>` };
+    },
+
+    /* ---------- NEIGHBORHOOD (real facts) ---------- */
+    neighborhood(turn){
+      const facts = {
+        'downtown':'Downtown is the walkable core — condos and apartments steps from restaurants, the Palace Theatre, and a ~10-minute walk to the train. Best if you want to skip the car.',
+        'harbor point':'Harbor Point / the South End is the newer waterfront district on Long Island Sound — modern condos, a marina, a free trolley to the station. Very commuter- and lifestyle-friendly.',
+        'south end':'The South End (Harbor Point) is waterfront and brand-new — walkable, marina, trolley to the train.',
+        'shippan':'Shippan Point is a quieter coastal residential peninsula — single-family homes, beach and marina access, a short drive downtown.',
+        'north stamford':'North Stamford is wooded and spread out — larger lots, single-family homes, and reservoirs, about 10–15 minutes from the train. Best for space and privacy.',
+        'glenbrook':'Glenbrook and Springdale are the value sweet spot — their own Metro-North stops, tighter-knit streets, more house for the money.',
+        'springdale':'Springdale has its own train stop and some of the better value single-families in the city.',
+        'cove':'Cove is coastal and family-friendly near Cove Island Park — a mix of single-families close to the water.'
+      };
+      const key = Object.keys(facts).find(k => turn.text.toLowerCase().includes(k));
+      const body = key ? facts[key] : `Quick lay of the land: <strong>Downtown</strong> for walkability, <strong>Harbor Point</strong> for waterfront-new, <strong>Shippan/Cove</strong> for coastal single-families, <strong>Glenbrook/Springdale</strong> for value near the train, and <strong>North Stamford</strong> for wooded space. Which trade-off matters most — walkability, water, value, or land?`;
+      return { html:`<p>${body}</p>${key?'<p>Want me to pull active listings there?</p>':''}` };
+    },
+
+    /* ---------- SCHOOL (honest scaffold — future module) ---------- */
+    school(){
+      return { html:`<p>School-level ratings aren't wired into my live data yet — I won't guess on something that important. Here's how I'd handle it: tell me the grade levels and I'll flag which listings fall in each Stamford school zone, then connect you with the district's current numbers. Coming soon as a dedicated <em class="em">School AI</em> module. In the meantime, want me to search by neighborhood?</p>` };
+    },
+
+    /* ---------- OFFER (honest scaffold) ---------- */
+    offer(){
+      const dom = Math.round(median(State.listings.map(l=>l.daysOnMarket).filter(x=>x!=null))||20);
+      return { html:`<p>Offer strategy is deal-specific, so the real answer comes once we pick a home — but the shape of this market: homes are moving in about <strong>${dom} days</strong> and many go at or above ask. On a fresh, well-priced listing you usually lead strong with clean terms; on something that's sat, there's room. Point me at a specific listing and I'll give you a concrete play. (Full <em class="em">Offer Strategy AI</em> is on the roadmap.)</p>` };
+    },
+
+    /* ---------- SELLER (honest scaffold + CTA) ---------- */
+    seller(){
+      return { html:`<p>Thinking of selling? I can ballpark your home's value from comps and walk you through prep, timing, and net proceeds — that's the upcoming <em class="em">Seller AI</em> module. For a real number today, the fastest path is a quick valuation with John. Want me to set that up?</p>`,
+        cta:{ label:'Get a free home valuation', href:'contact.html' } };
+    }
+  }
+};
+
+/* ---------- prefs / filters glue ---------- */
+function mergePrefs(nlu){
+  const p = State.prefs;
+  nlu.wants.forEach(w => { if (!p.wants.includes(w)) p.wants.push(w); });
+  nlu.avoid.forEach(a => { if (!p.avoid.includes(a)) p.avoid.push(a); });
+  if (nlu.priceMax != null) p.priceMax = nlu.priceMax;
+  if (nlu.priceMin != null) p.priceMin = nlu.priceMin;
+  if (nlu.beds != null) p.beds = nlu.beds;
+  if (nlu.baths != null) p.baths = nlu.baths;
+  if (nlu.type) p.type = nlu.type;
+  if (nlu.neighborhood) p.neighborhood = nlu.neighborhood;
+  if (nlu.listingType) p.listingType = nlu.listingType;
+  renderMemory();
+}
+function prefsToFilters(){
+  const p = State.prefs;
+  return { wants:p.wants, avoid:p.avoid, priceMax:p.priceMax, priceMin:p.priceMin, beds:p.beds, baths:p.baths,
+    type:p.type, neighborhood:p.neighborhood, listingType:p.listingType || 'sale' };
+}
+function medianPrice(){ return median(State.listings.map(l=>l.price)) || 700000; }
+function medianTax(){ return median(State.listings.map(l=>l.taxAnnual).filter(Boolean)) || 10500; }
+function median(a){ a=a.filter(x=>x!=null).sort((x,y)=>x-y); return a.length? (a.length%2? a[(a.length-1)/2] : (a[a.length/2-1]+a[a.length/2])/2) : null; }
+function capRate(l){ const rent = Math.round(l.sqft*CONFIG.rentPerSqftMo); const gross = rent*12;
+  const exp = (l.taxAnnual||medianTax()) + (l.hoa||0)*12 + gross*0.12; const cap = (gross-exp)/l.price*100; return { cap, rent }; }
+function spread(top){ const set = new Set(top.map(r=>r.listing.address && r.listing.address.neighborhood)); return set.size >= 3; }
+
+function leadLine(f, n){
+  const bits = [];
+  if (f.type==='condo') bits.push('condos'); else if (f.type==='house') bits.push('houses'); else if (f.type==='multi') bits.push('multi-families'); else bits.push('homes');
+  if (f.priceMax) bits.splice(bits.length,0,'under '+money(f.priceMax));
+  const want = f.wants[0];
+  const tail = { train:'walkable to the train', nyc:'built for the NYC commute', waterfront:'on the water', privacy:'with real privacy',
+    movein:'that are move-in ready', dogs:'with room for the dogs', office:'with a proper office', yard:'with a big yard' }[want] || '';
+  const lead = `Alright — I found <strong>${n}</strong> ${bits.join(' ')} ${tail}`.replace(/\s+/g,' ').trim();
+  const closers = [' Here\'s what stands out, and why:', ' A couple of these are genuinely worth a look:', ' Let me tell you why each one fits:'];
+  return lead + '.' + closers[n % closers.length];
+}
+
+/* =====================================================================
+   RENDER
+   ===================================================================== */
+function addMsg(role, html){
+  const m = el('div', 'msg ' + (role==='me'?'me':'ai'));
+  m.appendChild(el('div','av', role==='me' ? 'YOU' : '◆'));
+  const b = el('div','bubble'); b.innerHTML = html; m.appendChild(b);
+  $('#thread').appendChild(m); scrollDown(); return b;
+}
+function typing(){ const b = addMsg('ai', '<div class="typing"><i></i><i></i><i></i></div>'); return b; }
+function scrollDown(){ requestAnimationFrame(()=>window.scrollTo({top:document.body.scrollHeight,behavior:'smooth'})); }
+
+function renderResults(container, items){
+  const grid = el('div','results');
+  items.forEach(r => grid.appendChild(cardEl(r)));
+  container.appendChild(grid);
+}
+function cardEl(r){
+  const l = r.listing, st = Geo.station(l.geo), a = l.address || {};
+  const on = State.saved.has(l.mls) ? ' on' : '';
+  const c = el('div','lcard');
+  c.innerHTML =
+    `<div class="ph">
+       <img alt="${esc(a.line)}" loading="lazy">
+       <span class="badge">${l.daysOnMarket!=null?l.daysOnMarket+' days on market':esc(l.status||'Active')}</span>
+       <button class="sv${on}" data-mls="${esc(l.mls)}" aria-label="Save">♥</button>
+     </div>
+     <div class="bd">
+       <div class="price">${money(l.price)}${l.listingType==='rent'?'<span style="font-size:.9rem;color:#9a9ba6">/mo</span>':''}</div>
+       <div class="addr">${esc(a.line)}<br><span class="nb">${esc([a.neighborhood,a.city,a.zip].filter(Boolean).join(' · '))}</span></div>
+       <div class="specs">
+         <span>${l.beds} bd</span><span>${l.baths} ba</span><span>${(l.sqft||0).toLocaleString()} sqft</span>
+         ${l.hoa?`<span>HOA ${money(l.hoa)}/mo</span>`:'<span>No HOA</span>'}
+         ${st?`<span>${st.walkMin<=18?st.walkMin+'-min walk':st.driveMin+' min'} to train</span>`:''}
+       </div>
+       <div class="why"><b>Why it fits:</b> ${esc(r.reasons.join(' · '))}.</div>
+       <div class="fin">
+         <span>Taxes <em>${l.taxAnnual?money(l.taxAnnual)+'/yr':'—'}</em></span>
+         <span>Built <em>${l.yearBuilt||'—'}</em></span>
+         <span>$/sqft <em>${l.sqft?'$'+Math.round(l.price/l.sqft):'—'}</em></span>
+       </div>
+       <div class="acts">
+         <a class="primary" href="#" data-detail="${esc(l.mls)}">View Details</a>
+         <a class="ghost" href="contact.html">Schedule Tour</a>
+         <button class="ghost" data-save="${esc(l.mls)}">${State.saved.has(l.mls)?'Saved':'Save'}</button>
+       </div>
+     </div>`;
+  const img = c.querySelector('.ph img');
+  img.onerror = function(){ this.onerror=null; this.src='assets/house.jpg'; };
+  img.src = (l.photos && l.photos[0]) || 'assets/house.jpg';
+  return c;
+}
+
+function renderMemory(){
+  const p = State.prefs, host = $('#thread');
+  let bar = $('#memBar');
+  const chips = [];
+  if (p.priceMax) chips.push(['budget', 'under '+money(p.priceMax), ()=>{p.priceMax=null;}]);
+  if (p.beds!=null) chips.push(['beds', p.beds+'+ bd', ()=>{p.beds=null;}]);
+  if (p.type) chips.push(['type', p.type, ()=>{p.type=null;}]);
+  if (p.neighborhood) chips.push(['area', p.neighborhood, ()=>{p.neighborhood=null;}]);
+  p.avoid.forEach(a => chips.push(['avoid', 'no '+a, ()=>{p.avoid = p.avoid.filter(x=>x!==a);}]));
+  p.wants.forEach(w => chips.push(['want', WANT_LABEL[w]||w, ()=>{p.wants = p.wants.filter(x=>x!==w);}]));
+  if (!chips.length){ if (bar) bar.remove(); return; }
+  if (!bar){ bar = el('div','mem'); bar.id='memBar'; }
+  bar.innerHTML = '<span class="mlabel">Remembering</span>';
+  chips.forEach(([k,v],i)=>{ const ch = el('span','mchip', `<b>${esc(v)}</b><x data-i="${i}">×</x>`); bar.appendChild(ch); });
+  bar._removers = chips.map(c=>c[2]);
+  // keep the memory bar pinned just above the composer, outside the thread flow
+  if (bar.parentElement !== $('#composerWrap')) $('#composerWrap').prepend(bar);
+}
+const WANT_LABEL = { train:'near the train', nyc:'NYC commute', highway:'easy highways', dogs:'dog-friendly', movein:'move-in ready',
+  new:'new construction', privacy:'privacy', waterfront:'waterfront', pool:'pool', garage:'garage', fireplace:'fireplace',
+  basement:'finished basement', office:'home office', gym:'gym space', firstfloor:'first-floor bed', schools:'good schools',
+  quiet:'quiet', view:'views', invest:'investment', yard:'big yard', nohoa:'no HOA' };
+
+/* =====================================================================
+   TURN HANDLER
+   ===================================================================== */
+let busy = false;
+async function handle(text){
+  text = text.trim(); if (!text || busy) return;
+  busy = true;
+  document.getElementById('aihs').classList.add('started');
+  addMsg('me', esc(text).replace(/\n/g,'<br>'));
+  State.messages.push({ role:'user', content:text });
+  const nlu = NLU.parse(text);
+  const t = typing();
+  await sleep(360 + Math.random()*420);
+
+  const res = await Brain.reply({ text, nlu });
+  t.parentElement.remove(); // remove typing bubble
+
+  const bubble = addMsg('ai', res.html);
+  if (res.results && res.results.length) renderResults(bubble, res.results);
+  if (res.analysis && res.results && res.results.length>1) {
+    const q = el('div','qbtns',
+      `<button class="qbtn" data-ana="rent">Which is easiest to rent?</button>`+
+      `<button class="qbtn" data-ana="cost">Lowest long-term cost?</button>`+
+      `<button class="qbtn" data-ana="commute">Best commute?</button>`+
+      `<button class="qbtn" data-ana="resale">Best resale value?</button>`);
+    bubble.appendChild(q);
+  }
+  if (res.cta) { const a = el('a','qbtn'); a.href=res.cta.href; a.textContent=res.cta.label; a.style.display='inline-block'; a.style.marginTop='4px'; bubble.appendChild(a); }
+  if (res.ask) addMsg('ai', `<p class="em">${esc(res.ask)}</p>`);
+  State.messages.push({ role:'assistant', content: bubble.textContent });
+  scrollDown(); busy = false; sizeInput();
+}
+
+/* ---------- AI analysis over current results ---------- */
+function analyse(kind){
+  const items = State.lastResults; if (items.length<1) return;
+  let title, rows;
+  const st = l => Geo.station(l.geo);
+  if (kind==='commute'){ title='Best commute to the train';
+    rows = items.map(l=>({l, v: st(l)? st(l).walkMin : 999})).sort((a,b)=>a.v-b.v)
+      .map(x=>`<div class="row"><div class="q">${esc(x.l.address.line)}</div><div class="a">${x.v<999?x.v+'-min walk':'—'}<small>${money(x.l.price)}</small></div></div>`).join(''); }
+  else if (kind==='rent'){ title='Easiest to rent out';
+    rows = items.map(l=>({l, ...capRate(l), walk: st(l)?st(l).walkMin:99})).sort((a,b)=>(b.cap-a.cap)||(a.walk-b.walk))
+      .map(x=>`<div class="row"><div class="q">${esc(x.l.address.line)}</div><div class="a">~${money(x.rent)}/mo<small>${x.cap.toFixed(1)}% cap · ${x.walk}-min to train</small></div></div>`).join(''); }
+  else if (kind==='cost'){ title='Lowest long-term ownership cost (tax + HOA + est. upkeep)';
+    rows = items.map(l=>({l, c:(l.taxAnnual||medianTax()) + (l.hoa||0)*12 + (2026-(l.yearBuilt||2000))*180})).sort((a,b)=>a.c-b.c)
+      .map(x=>`<div class="row"><div class="q">${esc(x.l.address.line)}</div><div class="a">~${money(x.c)}/yr<small>tax + HOA + upkeep</small></div></div>`).join(''); }
+  else { title='Best resale value (newer + below-median $/sqft)';
+    const pps = median(State.listings.map(l=>l.price/l.sqft));
+    rows = items.map(l=>({l, s:(l.yearBuilt-1990)/5 + (pps-(l.price/l.sqft))/20})).sort((a,b)=>b.s-a.s)
+      .map(x=>`<div class="row"><div class="q">${esc(x.l.address.line)}</div><div class="a">$${Math.round(x.l.price/x.l.sqft)}/sqft<small>built ${x.l.yearBuilt}</small></div></div>`).join(''); }
+  const b = addMsg('ai', `<p><strong>${title}.</strong> Ranked best-first:</p><div class="ana">${rows}</div>`);
+  scrollDown();
+}
+
+/* ---------- detail modal ---------- */
+function openDetail(mls){
+  const l = State.listings.find(x=>x.mls===mls); if (!l) return;
+  const a=l.address||{}, st=Geo.station(l.geo);
+  $('#modal').innerHTML =
+    `<div class="mph"><img alt="${esc(a.line)}" data-mph="1">
+       <button class="mx" id="mClose" aria-label="Close">×</button></div>
+     <div class="mbd">
+       <h3>${money(l.price)}${l.listingType==='rent'?'/mo':''}</h3>
+       <div class="msub">${esc(a.line)} · ${esc([a.neighborhood,a.city,a.zip].filter(Boolean).join(', '))}</div>
+       <div class="mgrid">
+         <div class="c"><div class="l">Beds</div><div class="v">${l.beds}</div></div>
+         <div class="c"><div class="l">Baths</div><div class="v">${l.baths}</div></div>
+         <div class="c"><div class="l">Sq Ft</div><div class="v">${(l.sqft||0).toLocaleString()}</div></div>
+         <div class="c"><div class="l">Taxes</div><div class="v">${l.taxAnnual?money(l.taxAnnual):'—'}</div></div>
+         <div class="c"><div class="l">HOA</div><div class="v">${l.hoa?money(l.hoa)+'/mo':'None'}</div></div>
+         <div class="c"><div class="l">To Train</div><div class="v">${st?(st.walkMin<=18?st.walkMin+'m walk':st.driveMin+'m'):'—'}</div></div>
+       </div>
+       ${(l.features&&l.features.length)?`<div class="feats">${l.features.map(f=>`<span>${esc(f)}</span>`).join('')}</div>`:''}
+       <p class="rmk">${esc(l.remarks||'')}</p>
+       <div class="macts"><a class="primary" href="contact.html">Schedule a Tour</a><a class="ghost" href="tel:2038833399">Call John</a></div>
+       <p style="color:#54555f;font-size:.7rem;margin-top:14px">${esc(l.attribution||'Courtesy of SmartMLS.')}</p>
+     </div>`;
+  const mimg = $('#modal img[data-mph]');
+  mimg.onerror = function(){ this.onerror=null; this.src='assets/house.jpg'; };
+  mimg.src = (l.photos && l.photos[0]) || 'assets/house.jpg';
+  $('#mscrim').classList.add('on');
+  $('#mClose').onclick = ()=>$('#mscrim').classList.remove('on');
+}
+
+/* ---------- save ---------- */
+function toggleSave(mls){
+  if (State.saved.has(mls)) State.saved.delete(mls); else State.saved.add(mls);
+  localStorage.setItem('aihs_saved', JSON.stringify([...State.saved]));
+  document.querySelectorAll(`[data-save="${CSS.escape(mls)}"]`).forEach(b=>b.textContent = State.saved.has(mls)?'Saved':'Save');
+  document.querySelectorAll(`.sv[data-mls="${CSS.escape(mls)}"]`).forEach(b=>b.classList.toggle('on', State.saved.has(mls)));
+  toast(State.saved.has(mls)?'Saved to your list':'Removed');
+}
+function toast(t){ const n=$('#toast'); n.textContent=t; n.classList.add('on'); clearTimeout(n._t); n._t=setTimeout(()=>n.classList.remove('on'),1800); }
+
+/* =====================================================================
+   WIRING
+   ===================================================================== */
+const PROMPTS = [
+  'Find me condos under $700,000 near Stamford Station.',
+  'I want a quiet neighborhood with good schools.',
+  'Show me homes with a first-floor bedroom.',
+  'Find investment properties with rental potential.',
+  'I need a home with an office and a large backyard.'
+];
+function renderChips(){ const c=$('#chips'); PROMPTS.forEach(p=>{ const b=el('button','chip', `<span class="k">›</span>${esc(p)}`); b.onclick=()=>{ $('#q').value=p; handle(p); $('#q').value=''; sizeInput(); }; c.appendChild(b); }); }
+function sizeInput(){ const q=$('#q'); q.style.height='auto'; q.style.height=Math.min(160,q.scrollHeight)+'px'; $('#send').disabled = !q.value.trim(); }
+const sleep = ms => new Promise(r=>setTimeout(r,ms));
+
+function boot(){
+  renderChips();
+  const q=$('#q');
+  q.addEventListener('input', sizeInput);
+  q.addEventListener('keydown', e=>{ if (e.key==='Enter' && !e.shiftKey){ e.preventDefault(); const v=q.value; q.value=''; sizeInput(); handle(v); } });
+  $('#send').onclick = ()=>{ const v=q.value; q.value=''; sizeInput(); handle(v); };
+
+  // event delegation for cards / analysis
+  document.addEventListener('click', e=>{
+    const d=e.target.closest('[data-detail]'); if (d){ e.preventDefault(); openDetail(d.getAttribute('data-detail')); return; }
+    const s=e.target.closest('[data-save],.sv'); if (s){ e.preventDefault(); toggleSave(s.getAttribute('data-save')||s.getAttribute('data-mls')); return; }
+    const an=e.target.closest('[data-ana]'); if (an){ analyse(an.getAttribute('data-ana')); return; }
+    const x=e.target.closest('#memBar x'); if (x){ const bar=$('#memBar'); bar._removers[+x.getAttribute('data-i')](); renderMemory(); toast('Updated — re-run your search to apply'); return; }
+    if (e.target.id==='mscrim') $('#mscrim').classList.remove('on');
+  });
+
+  // IDX disclosure (legal — same as search.html)
+  const attr = (State.meta && State.meta.attribution) || 'Listing data provided courtesy of SmartMLS. Information deemed reliable but not guaranteed.';
+  $('#idxLegal').innerHTML = `<strong>MLS disclosure.</strong> ${esc(attr)} Listings are subject to prior sale, change, or withdrawal. AI-generated summaries and match reasons are informational estimates, not professional advice. © ${new Date().getFullYear()} SmartMLS, Inc. Displayed by John Restrepo, licensed CT real estate agent. Equal Housing Opportunity.`;
+
+  // mobile menu
+  const mm=$('#mobileMenu'), nt=$('#navToggle');
+  if (nt) nt.onclick=()=>{ const open=mm.classList.toggle('open'); mm.setAttribute('aria-hidden', open?'false':'true'); nt.setAttribute('aria-expanded', open?'true':'false'); };
+  const scrim=$('#mmScrim'); if (scrim) scrim.onclick=()=>{ mm.classList.remove('open'); };
+}
+
+Data.load().then(()=>{ boot(); if (State.meta.error) $('#hint').textContent = 'Listing feed offline — try again shortly.'; });
+</script>
+<script src="/track.js" defer></script>
+</body>
+</html>

@@ -30,8 +30,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..700&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-<link rel="icon" href="assets/logo-black.png">
-<link rel="apple-touch-icon" href="assets/logo-black.png">
+<link rel="icon" href="assets/logo-black.webp">
+<link rel="apple-touch-icon" href="assets/logo-black.webp">
 <link rel="manifest" href="/site.webmanifest">
 
 <!-- ===== STRUCTURED DATA ===== -->
@@ -89,7 +89,11 @@
       { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Condos & Waterfront Homes in Stamford", "serviceType": "Luxury and waterfront real estate", "description": "Condo, co-op, and waterfront home sales across Stamford, CT — Harbor Point, Shippan Point, the Cove, and Downtown high-rises — with deep local knowledge of buildings and pricing.", "areaServed": { "@type": "City", "name": "Stamford, CT" }, "provider": { "@id": "https://dtstamford.com/#realestateagent" } } },
       { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Investment & Multi-Family Property", "serviceType": "Real estate investing", "description": "Buy or sell investment and multi-family property in Stamford, CT and Fairfield County — rent-comp analysis, cash-flow guidance, and off-market opportunities for investors.", "areaServed": { "@type": "Place", "name": "Fairfield County, CT" }, "provider": { "@id": "https://dtstamford.com/#realestateagent" } } }
     ]
-  }
+  },
+  "openingHoursSpecification": [
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"], "opens": "09:00", "closes": "19:00" },
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": "Sunday", "opens": "10:00", "closes": "17:00" }
+  ]
 }
 </script>
 <script type="application/ld+json">
@@ -269,7 +273,7 @@
   /* HERO */
   .hero{position:relative;min-height:100dvh;display:flex;align-items:flex-end;overflow:hidden}
   .hero-media{position:absolute;inset:0;z-index:0}
-  .hero-media .hfill{position:absolute;inset:0;z-index:0;background:#0d0b12 url("assets/stamford-ct-downtown-avon-theatre-sunset-ext.jpg") center 32%/cover;transform:scale(1.2);filter:blur(32px) brightness(.6) saturate(1.05)}
+  .hero-media .hfill{position:absolute;inset:0;z-index:0;background:#0d0b12 url("assets/stamford-ct-downtown-avon-theatre-sunset-ext.webp") center 32%/cover;transform:scale(1.2);filter:blur(32px) brightness(.6) saturate(1.05)}
   .hero-media .img{position:absolute;top:-5%;left:7%;width:86%;height:110%;object-fit:cover;object-position:center 32%;background:transparent;will-change:transform}
   .hero-media::after{content:"";position:absolute;inset:0;background:
     linear-gradient(180deg,rgba(6,6,8,.55),rgba(6,6,8,.04) 30%,rgba(6,6,8,.72) 78%,var(--bg) 99%)}
@@ -386,6 +390,7 @@
   .g-12{grid-column:span 12;aspect-ratio:24/9}
   .f-skyline .img{object-position:center 60%}
   .f-downtown .img{object-position:center 55%}
+  .f-summer .img{object-position:center 42%}
   @media(max-width:760px){.gal{grid-template-columns:1fr}.g-7,.g-5,.g-4,.g-12{grid-column:span 1;aspect-ratio:3/2}}
 
   /* NEIGHBORHOODS */
@@ -460,6 +465,14 @@
   @media(max-width:1080px){.callbar{display:flex}body{padding-bottom:76px}}
 </style>
 <link rel="alternate" type="application/rss+xml" title="The Stamford Journal" href="/feed.xml">
+<!-- Google Analytics 4 — replace G-XXXXXXXXXX with your Measurement ID (analytics.google.com > Admin > Data Streams) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-XXXXXXXXXX');
+</script>
 </head>
 <body id="top">
 
@@ -469,7 +482,7 @@
 <header id="hdr">
   <div class="nav">
     <a class="brand" href="#top" aria-label="Downtown Stamford — home">
-      <img class="logo" src="assets/logo-white.png" alt="Downtown Stamford logo">
+      <img class="logo" src="assets/logo-white.webp" alt="Downtown Stamford logo">
       <span class="wordmark">Downtown Stamford</span>
     </a>
     <nav class="nav-links" aria-label="Primary">
@@ -526,10 +539,10 @@
     <div class="hero-media" data-parallax><div class="hfill" aria-hidden="true"></div><picture>
       <!-- MOBILE (<=760px): vertical crop of the same Avon Theatre sunset scene. First matching source wins, so these MUST precede the desktop webp source. -->
       <source type="image/webp" media="(max-width:760px)" srcset="assets/stamford-ct-downtown-avon-theatre-sunset-vertical.webp" width="1800" height="2299">
-      <source media="(max-width:760px)" srcset="assets/stamford-ct-downtown-avon-theatre-sunset-vertical.jpg" width="1800" height="2299">
+      <source media="(max-width:760px)" srcset="assets/stamford-ct-downtown-avon-theatre-sunset-vertical.webp" width="1800" height="2299">
       <!-- DESKTOP/TABLET (>760px): existing wide hero -->
       <source type="image/webp" srcset="assets/stamford-ct-downtown-avon-theatre-sunset-ext.webp">
-      <img class="img" src="assets/stamford-ct-downtown-avon-theatre-sunset-ext.jpg" alt="Downtown Stamford, CT at sunset by the historic Avon Theatre — Stamford real estate agent John Restrepo" title="Stamford real estate agent — Downtown Stamford, CT" width="1800" height="2291" fetchpriority="high">
+      <img class="img" src="assets/stamford-ct-downtown-avon-theatre-sunset-ext.webp" alt="Downtown Stamford, CT at sunset by the historic Avon Theatre — Stamford real estate agent John Restrepo" title="Stamford real estate agent — Downtown Stamford, CT" width="1800" height="2291" fetchpriority="high">
     </picture></div>
     <div class="wrap">
       <span class="eyebrow rv"><span class="dot"></span> Stamford · Connecticut</span>
@@ -578,7 +591,7 @@
         <div class="bezel"><div class="core">
           <picture>
             <source type="image/webp" srcset="assets/john-restrepo-stamford-ct-realtor.webp">
-            <img class="img" src="assets/john-restrepo-stamford-ct-realtor.jpg" alt="John Restrepo — Stamford realtor, Stamford CT real estate agent" title="John Restrepo — Stamford real estate agent" width="1100" height="1375" loading="lazy">
+            <img class="img" src="assets/john-restrepo-stamford-ct-realtor.webp" alt="John Restrepo — Stamford realtor, Stamford CT real estate agent" title="John Restrepo — Stamford real estate agent" width="1100" height="1375" loading="lazy">
           </picture>
           <span class="pin">John Restrepo · Jarah Tuttle LLC</span>
         </div></div>
@@ -636,32 +649,37 @@
         <div class="frame g-7 f-skyline rv" data-parallax-child><picture>
           <source type="image/webp" media="(max-width:760px)" srcset="assets/downtown-stamford-ct-landmark-square-skyline-800w.webp">
           <source type="image/webp" srcset="assets/downtown-stamford-ct-landmark-square-skyline.webp">
-          <img class="img" src="assets/downtown-stamford-ct-landmark-square-skyline.jpg" alt="Downtown Stamford CT skyline at sunset — Stamford realtor" title="Stamford real estate agent — Downtown Stamford skyline" width="1900" height="1266" loading="lazy">
+          <img class="img" src="assets/downtown-stamford-ct-landmark-square-skyline.webp" alt="Downtown Stamford CT skyline at sunset — Stamford realtor" title="Stamford real estate agent — Downtown Stamford skyline" width="1900" height="1266" loading="lazy">
         </picture><span class="cap">Downtown · Landmark Square</span></div>
         <div class="frame g-5 f-winter rv d1" data-parallax-child><picture>
           <source type="image/webp" media="(max-width:760px)" srcset="assets/stamford-ct-north-state-street-winter-800w.webp">
           <source type="image/webp" srcset="assets/stamford-ct-north-state-street-winter.webp">
-          <img class="img" src="assets/stamford-ct-north-state-street-winter.jpg" alt="North State Street, downtown Stamford CT in winter — Stamford realtor" title="Stamford real estate agent — North State Street, Stamford" width="1500" height="1125" loading="lazy">
+          <img class="img" src="assets/stamford-ct-north-state-street-winter.webp" alt="North State Street, downtown Stamford CT in winter — Stamford realtor" title="Stamford real estate agent — North State Street, Stamford" width="1500" height="1125" loading="lazy">
         </picture><span class="cap">North State St · Winter</span></div>
         <div class="frame g-4 f-rooftop rv" data-parallax-child><picture>
           <source type="image/webp" media="(max-width:760px)" srcset="assets/stamford-ct-luxury-rooftop-deck-views-800w.webp">
           <source type="image/webp" srcset="assets/stamford-ct-luxury-rooftop-deck-views.webp">
-          <img class="img" src="assets/stamford-ct-luxury-rooftop-deck-views.jpg" alt="Luxury rooftop deck with skyline views in Stamford CT — Stamford realtor" title="Stamford real estate agent — Stamford rooftop living" width="1600" height="1200" loading="lazy">
+          <img class="img" src="assets/stamford-ct-luxury-rooftop-deck-views.webp" alt="Luxury rooftop deck with skyline views in Stamford CT — Stamford realtor" title="Stamford real estate agent — Stamford rooftop living" width="1600" height="1200" loading="lazy">
         </picture><span class="cap">Rooftop living</span></div>
         <div class="frame g-4 f-kitchen rv d1" data-parallax-child><picture>
           <source type="image/webp" srcset="assets/stamford-ct-home-modern-designer-kitchen.webp">
-          <img class="img" src="assets/stamford-ct-home-modern-designer-kitchen.jpg" alt="Modern designer kitchen in a Stamford CT home — Stamford realtor" title="Stamford real estate agent — Stamford home kitchen" width="1600" height="1200" loading="lazy">
+          <img class="img" src="assets/stamford-ct-home-modern-designer-kitchen.webp" alt="Modern designer kitchen in a Stamford CT home — Stamford realtor" title="Stamford real estate agent — Stamford home kitchen" width="1600" height="1200" loading="lazy">
         </picture><span class="cap">Designed interiors</span></div>
         <div class="frame g-4 f-house rv d2" data-parallax-child><picture>
           <source type="image/webp" media="(max-width:760px)" srcset="assets/stamford-ct-single-family-home-for-sale-800w.webp">
           <source type="image/webp" srcset="assets/stamford-ct-single-family-home-for-sale.webp">
-          <img class="img" src="assets/stamford-ct-single-family-home-for-sale.jpg" alt="Single-family home for sale in Stamford CT — Stamford realtor" title="Stamford real estate agent — Stamford home for sale" width="1500" height="1000" loading="lazy">
+          <img class="img" src="assets/stamford-ct-single-family-home-for-sale.webp" alt="Single-family home for sale in Stamford CT — Stamford realtor" title="Stamford real estate agent — Stamford home for sale" width="1500" height="1000" loading="lazy">
         </picture><span class="cap">Single-family homes</span></div>
         <div class="frame g-12 f-downtown rv" data-parallax-child><picture>
           <source type="image/webp" media="(max-width:760px)" srcset="assets/downtown-stamford-ct-winter-streetscape-800w.webp">
           <source type="image/webp" srcset="assets/downtown-stamford-ct-winter-streetscape.webp">
-          <img class="img" src="assets/downtown-stamford-ct-winter-streetscape.jpg" alt="Downtown Stamford CT winter streetscape — Stamford realtor" title="Stamford real estate agent — Downtown Stamford streetscape" width="1500" height="1125" loading="lazy">
+          <img class="img" src="assets/downtown-stamford-ct-winter-streetscape.webp" alt="Downtown Stamford CT winter streetscape — Stamford realtor" title="Stamford real estate agent — Downtown Stamford streetscape" width="1500" height="1125" loading="lazy">
         </picture><span class="cap">Stamford, block by block</span></div>
+        <div class="frame g-12 f-summer rv d1" data-parallax-child><picture>
+          <source type="image/webp" media="(max-width:760px)" srcset="assets/summer-street-stamford-ct-new-construction-800w.webp">
+          <source type="image/webp" srcset="assets/summer-street-stamford-ct-new-construction.webp">
+          <img class="img" src="assets/summer-street-stamford-ct-new-construction.jpg" alt="Summer Street in downtown Stamford, CT — new apartment construction rising over tree-lined blocks; the streets your local Stamford realtor near me, John Restrepo, works every day" title="Stamford real estate agent near me — Summer Street, Downtown Stamford" width="1900" height="1425" loading="lazy">
+        </picture><span class="cap">Summer Street · new homes rising</span></div>
       </div>
     </div>
   </section>
@@ -698,7 +716,7 @@
       <div class="ig-card bezel rv">
         <div class="core">
           <div class="ig-profile">
-            <span class="ig-avatar"><span><img src="assets/logo-gold.png" alt="@downtownstamford avatar"></span></span>
+            <span class="ig-avatar"><span><img src="assets/logo-gold.webp" alt="@downtownstamford avatar"></span></span>
             <div class="ig-id">
               <div class="ig-handle">
                 <svg class="ig-glyph" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.1" cy="6.9" r="1.1" fill="currentColor" stroke="none"/></svg>
@@ -710,12 +728,12 @@
             <a class="btn btn-gold ig-follow" href="https://www.instagram.com/downtownstamford" target="_blank" rel="noopener">Follow</a>
           </div>
           <div class="ig-grid">
-            <a class="ig-tile" href="https://www.instagram.com/downtownstamford" target="_blank" rel="noopener" aria-label="View post on Instagram"><img src="assets/downtown-stamford-ct-landmark-square-skyline.jpg" alt="Downtown Stamford skyline on Instagram" loading="lazy"><span class="ov"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.1" cy="6.9" r="1.1" fill="currentColor" stroke="none"/></svg>View post</span></a>
-            <a class="ig-tile" href="https://www.instagram.com/downtownstamford" target="_blank" rel="noopener" aria-label="View post on Instagram"><img src="assets/stamford-ct-luxury-rooftop-deck-views.jpg" alt="Stamford rooftop on Instagram" loading="lazy"><span class="ov"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.1" cy="6.9" r="1.1" fill="currentColor" stroke="none"/></svg>View post</span></a>
-            <a class="ig-tile" href="https://www.instagram.com/downtownstamford" target="_blank" rel="noopener" aria-label="View post on Instagram"><img src="assets/stamford-ct-home-modern-designer-kitchen.jpg" alt="Stamford home interior on Instagram" loading="lazy"><span class="ov"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.1" cy="6.9" r="1.1" fill="currentColor" stroke="none"/></svg>View post</span></a>
-            <a class="ig-tile" href="https://www.instagram.com/downtownstamford" target="_blank" rel="noopener" aria-label="View post on Instagram"><img src="assets/stamford-ct-north-state-street-winter.jpg" alt="Snowy Stamford street on Instagram" loading="lazy"><span class="ov"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.1" cy="6.9" r="1.1" fill="currentColor" stroke="none"/></svg>View post</span></a>
-            <a class="ig-tile" href="https://www.instagram.com/downtownstamford" target="_blank" rel="noopener" aria-label="View post on Instagram"><img src="assets/stamford-ct-single-family-home-for-sale.jpg" alt="Stamford home for sale on Instagram" loading="lazy"><span class="ov"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.1" cy="6.9" r="1.1" fill="currentColor" stroke="none"/></svg>View post</span></a>
-            <a class="ig-tile" href="https://www.instagram.com/downtownstamford" target="_blank" rel="noopener" aria-label="View post on Instagram"><img src="assets/downtown-stamford-ct-winter-streetscape.jpg" alt="Downtown Stamford on Instagram" loading="lazy"><span class="ov"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.1" cy="6.9" r="1.1" fill="currentColor" stroke="none"/></svg>View post</span></a>
+            <a class="ig-tile" href="https://www.instagram.com/downtownstamford" target="_blank" rel="noopener" aria-label="View post on Instagram"><img src="assets/downtown-stamford-ct-landmark-square-skyline.webp" alt="Downtown Stamford skyline on Instagram" loading="lazy"><span class="ov"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.1" cy="6.9" r="1.1" fill="currentColor" stroke="none"/></svg>View post</span></a>
+            <a class="ig-tile" href="https://www.instagram.com/downtownstamford" target="_blank" rel="noopener" aria-label="View post on Instagram"><img src="assets/stamford-ct-luxury-rooftop-deck-views.webp" alt="Stamford rooftop on Instagram" loading="lazy"><span class="ov"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.1" cy="6.9" r="1.1" fill="currentColor" stroke="none"/></svg>View post</span></a>
+            <a class="ig-tile" href="https://www.instagram.com/downtownstamford" target="_blank" rel="noopener" aria-label="View post on Instagram"><img src="assets/stamford-ct-home-modern-designer-kitchen.webp" alt="Stamford home interior on Instagram" loading="lazy"><span class="ov"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.1" cy="6.9" r="1.1" fill="currentColor" stroke="none"/></svg>View post</span></a>
+            <a class="ig-tile" href="https://www.instagram.com/downtownstamford" target="_blank" rel="noopener" aria-label="View post on Instagram"><img src="assets/stamford-ct-north-state-street-winter.webp" alt="Snowy Stamford street on Instagram" loading="lazy"><span class="ov"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.1" cy="6.9" r="1.1" fill="currentColor" stroke="none"/></svg>View post</span></a>
+            <a class="ig-tile" href="https://www.instagram.com/downtownstamford" target="_blank" rel="noopener" aria-label="View post on Instagram"><img src="assets/stamford-ct-single-family-home-for-sale.webp" alt="Stamford home for sale on Instagram" loading="lazy"><span class="ov"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.1" cy="6.9" r="1.1" fill="currentColor" stroke="none"/></svg>View post</span></a>
+            <a class="ig-tile" href="https://www.instagram.com/downtownstamford" target="_blank" rel="noopener" aria-label="View post on Instagram"><img src="assets/downtown-stamford-ct-winter-streetscape.webp" alt="Downtown Stamford on Instagram" loading="lazy"><span class="ov"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.1" cy="6.9" r="1.1" fill="currentColor" stroke="none"/></svg>View post</span></a>
           </div>
           <div class="ig-foot">
             <span class="txt">Follow <b>@downtownstamford</b> for daily Stamford real estate</span>
@@ -871,7 +889,7 @@
   <div class="wrap">
     <div class="fgrid">
       <div class="col">
-        <div class="fbrand"><img src="assets/logo-white.png" alt="Downtown Stamford logo"><span class="wm">Downtown Stamford</span></div>
+        <div class="fbrand"><img src="assets/logo-white.webp" alt="Downtown Stamford logo"><span class="wm">Downtown Stamford</span></div>
         <p>Real estate made simple. Helping Stamford, CT buy, sell, and rent with real exposure and real results.</p>
         <div class="social">
           <a href="https://www.instagram.com/downtownstamford" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.1" cy="6.9" r="1.1" fill="currentColor" stroke="none"/></svg></a>

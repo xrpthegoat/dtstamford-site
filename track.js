@@ -50,6 +50,8 @@
     try { var h = new URL(ref).hostname.replace(/^www\./, ''); return h === location.hostname ? 'internal' : h; } catch (e) { return 'referral'; }
   }
 
+  var REPORTED = false;   // one-shot guard: a broken endpoint logs once, not once per event
+
   function send(type, extra) {
     if (OWNER) return;   // never count the agent's own visits/clicks
     var body = Object.assign({
@@ -65,7 +67,27 @@
         method: 'POST', keepalive: true,
         headers: { 'Content-Type': 'application/json', apikey: SUPABASE_ANON_KEY, Authorization: 'Bearer ' + SUPABASE_ANON_KEY, Prefer: 'return=minimal' },
         body: JSON.stringify(body)
+      }).then(function (res) {
+        if (res.ok) { window.__trackOk = true; return; }
+        // A dropped write used to be invisible: the table was never created, so every visit since
+        // 2026-07-07 was discarded while the client looked perfectly healthy. Surface it ONCE per
+        // page load with the PostgREST code (PGRST205 = relation does not exist).
+        if (REPORTED) return; REPORTED = true;
+        res.text().then(function (t) { fail(res.status, t); }, function () { fail(res.status, ''); });
+      }, function (err) {
+        if (REPORTED) return; REPORTED = true;
+        fail(0, (err && err.message) ? err.message : String(err));
       });
+    } catch (e) { fail(-1, (e && e.message) ? e.message : String(e)); }
+  }
+
+  // One-shot, loud, and inspectable. window.__trackError lets a synthetic check assert the
+  // FAILURE state, not just the happy path — a check that can't see "silently broken" isn't a check.
+  function fail(status, detail) {
+    window.__trackError = { status: status, detail: detail || '', at: new Date().toISOString() };
+    try {
+      console.error('[track] web_events write FAILED — HTTP ' + status + ' — ' + (detail || '(no body)') +
+        (String(detail).indexOf('PGRST205') >= 0 ? '  ← the web_events table does not exist' : ''));
     } catch (e) {}
   }
 

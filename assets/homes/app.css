@@ -121,7 +121,12 @@
 .app{display:flex;height:calc(100vh - var(--hdr-h) - var(--fb-h));gap:0;overflow:hidden}
 .results{flex:1 1 54%;overflow-y:auto;padding:8px 22px 60px;scroll-behavior:smooth;scrollbar-width:thin;scrollbar-color:rgba(255,255,255,.14) transparent}
 .results::-webkit-scrollbar{width:9px}.results::-webkit-scrollbar-thumb{background:rgba(255,255,255,.12);border-radius:9px;border:2px solid transparent;background-clip:content-box}
-.mapwrap{flex:1 1 46%;position:relative;border-left:1px solid var(--line)}
+/* isolation:isolate contains Leaflet's internal panes (z-index 400) inside the map's own stacking
+   context. Without it those 400s escape to the root and paint OVER the filter dropdowns (z-150),
+   the listing drawer (z-200) and the filter bar (z-90) — so in Split view a filter opened over the
+   map was invisible and expanding a listing let the map cover the detail. Contained here, the map
+   sits below all app chrome. */
+.mapwrap{flex:1 1 46%;position:relative;isolation:isolate;z-index:0;border-left:1px solid var(--line)}
 #map{position:absolute;inset:0;background:#0a0a0d}
 
 /* view modes */

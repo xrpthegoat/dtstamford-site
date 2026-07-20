@@ -221,8 +221,6 @@ function cardHTML(l) {
   const fav = state.favs.has(l.mls);
   const dots = photos.length > 1 ? `<div class="card-dots">${photos.map((_, i) => `<i class="${i === idx ? 'on' : ''}"></i>`).join('')}</div>` : '';
   const navs = photos.length > 1 ? `<button class="card-nav prev" data-nav="-1" aria-label="Previous photo">‹</button><button class="card-nav next" data-nav="1" aria-label="Next photo">›</button>` : '';
-  const psf = ppsf(l);
-  const commute = commuteFor(l);
   return `<article class="card" data-mls="${l.mls}">
     <div class="card-media">
       <img src="${esc(photos[idx])}" alt="${esc(addrFull(l))}" loading="lazy" onerror="this.src='assets/stamford-ct-single-family-home-exterior.jpg'">
@@ -232,24 +230,37 @@ function cardHTML(l) {
     </div>
     <div class="card-body">
       <div class="card-price">${priceLabel(l)}</div>
-      <div class="card-specs">
-        <span><b>${l.beds ?? '—'}</b> bd</span>
-        <span><b>${l.baths != null ? bathStr(l.baths) : '—'}</b> ba</span>
-        <span><b>${l.sqft ? l.sqft.toLocaleString() : '—'}</b> sqft</span>
-        ${psf ? `<span class="card-ppsf">$${psf}/sqft</span>` : ''}
-      </div>
+      <div class="card-specs">${specRow(l)}</div>
       <div class="card-addr">${esc(addrFull(l))}</div>
+      <div class="card-meta">${cardMeta(l)}</div>
       ${mlsAttrib(l)}
-      <div class="card-hoodrow">
-        ${l.address.neighborhood ? `<span class="card-hood">${esc(l.address.neighborhood)}</span>` : ''}
-        <span class="card-commute" title="Estimated Metro-North commute — see stamford-to-nyc-commute.html">${esc(commute)}</span>
-      </div>
-      <div class="card-foot">
-        <span class="card-dom">${l.daysOnMarket != null ? (l.daysOnMarket === 0 ? 'Just listed' : l.daysOnMarket + ' days on market') : ''}</span>
-        <span class="card-broker">${esc((l.listingAgent && l.listingAgent.brokerage) || '')}</span>
-      </div>
     </div>
   </article>`;
+}
+
+// One clean spec row. Beds/baths/sqft for homes; lot size for land/commercial (where beds are 0).
+function specRow(l) {
+  const isLand = /land|lot|commercial/i.test(l.propertyType || '');
+  const parts = [];
+  if (!isLand) {
+    parts.push(`<span><b>${l.beds != null ? l.beds : '—'}</b> bd</span>`);
+    parts.push(`<span><b>${l.baths != null ? bathStr(l.baths) : '—'}</b> ba</span>`);
+  }
+  if (l.sqft) parts.push(`<span><b>${l.sqft.toLocaleString()}</b> sqft</span>`);
+  else if (l.acres) parts.push(`<span><b>${l.acres}</b> ac</span>`);
+  const psf = ppsf(l);
+  if (psf) parts.push(`<span class="card-ppsf">$${psf}/sqft</span>`);
+  return parts.join('');
+}
+
+// One subtle meta line: how long it's been listed + a short NYC-commute hint. Replaces the old
+// heavy full-width commute band and the redundant brokerage footer (attribution already shows it).
+function cardMeta(l) {
+  const bits = [];
+  if (l.daysOnMarket != null) bits.push(l.daysOnMarket === 0 ? 'Just listed' : `${l.daysOnMarket} days listed`);
+  if (l.yearBuilt) bits.push(`Built ${l.yearBuilt}`);
+  bits.push('~50 min to NYC');
+  return bits.map(b => `<span>${esc(b)}</span>`).join('<i class="dot">·</i>');
 }
 
 function wireCard(l) {
@@ -302,7 +313,25 @@ function initMap() {
     attribution: '&copy; OpenStreetMap &copy; CARTO',
     subdomains: 'abcd', maxZoom: 20,
   }).addTo(map);
-  markerLayer = L.layerGroup().addTo(map);
+  // Clustered markers. 1,100+ price pins on one screen was an unreadable dark blob; clustering
+  // collapses dense areas into one count bubble that satisfyingly breaks apart as you zoom in.
+  // Falls back to a plain layer group if the plugin didn't load (offline / CDN blocked).
+  markerLayer = (typeof L.markerClusterGroup === 'function')
+    ? L.markerClusterGroup({
+        showCoverageOnHover: false,
+        spiderfyOnMaxZoom: true,
+        maxClusterRadius: 72,
+        chunkedLoading: true,
+        iconCreateFunction: (cluster) => {
+          const n = cluster.getChildCount();
+          const size = n < 10 ? 34 : n < 50 ? 42 : n < 200 ? 52 : 62;
+          return L.divIcon({
+            html: `<div class="mk-cluster" style="width:${size}px;height:${size}px">${n}</div>`,
+            className: '', iconSize: L.point(size, size),
+          });
+        },
+      }).addTo(map)
+    : L.layerGroup().addTo(map);
   let moved = false;
   map.on('movestart', () => { moved = true; });
   map.on('moveend', () => { if (moved) $('#searchHere').hidden = false; });
@@ -317,24 +346,29 @@ function renderMarkers(list) {
   markerLayer.clearLayers();
   markers = {};
   const pts = [];
+  const batch = [];
   list.forEach(l => {
     const compact = l.listingType === 'rent'
-      ? '$' + Math.round(l.price / 100) / 10 + 'k'
+      ? '$' + (l.price >= 1000 ? (l.price / 1000).toFixed(1).replace(/\.0$/, '') + 'k' : l.price)
       : (l.price >= 1e6 ? '$' + (l.price / 1e6).toFixed(l.price >= 1e7 ? 0 : 2).replace(/\.?0+$/, '') + 'M' : '$' + Math.round(l.price / 1000) + 'k');
     const fav = state.favs.has(l.mls) ? ' fav' : '';
     const icon = L.divIcon({
-      className: '', html: `<div class="price-pin${fav}" data-mls="${esc(l.mls)}">${l.listingType === 'rent' ? '$' + (l.price >= 1000 ? (l.price / 1000).toFixed(1) + 'k' : l.price) + '/mo' : compact}</div>`,
+      className: '', html: `<div class="price-pin${fav}" data-mls="${esc(l.mls)}">${compact}</div>`,
       iconSize: null,
     });
-    const m = L.marker([l.geo.lat, l.geo.lng], { icon, riseOnHover: true }).addTo(markerLayer);
+    const m = L.marker([l.geo.lat, l.geo.lng], { icon, riseOnHover: true });
     m.on('click', () => openDetail(l));
     m.on('mouseover', () => highlightCard(l.mls, true));
     m.on('mouseout', () => highlightCard(l.mls, false));
     markers[l.mls] = m;
+    batch.push(m);
     pts.push([l.geo.lat, l.geo.lng]);
   });
+  // One batched add — with a cluster group, per-marker addTo() rebuilds the whole cluster each time.
+  if (markerLayer.addLayers) markerLayer.addLayers(batch);
+  else batch.forEach(m => m.addTo(markerLayer));
   if (pts.length && !state.bounds) {
-    try { map.fitBounds(pts, { padding: [50, 50], maxZoom: 14 }); } catch (e) {}
+    try { map.fitBounds(pts, { padding: [40, 40], maxZoom: 15 }); } catch (e) {}
   }
   setTimeout(() => map.invalidateSize(), 60);
 }
@@ -501,6 +535,22 @@ function wireControls() {
 
   // dropdown open/close (+ right-edge collision detection so a panel near the
   // right edge of the bar, e.g. "Sort", never overflows the viewport)
+  // Place a fixed-position dropdown under its button, clamped so no edge runs off-screen.
+  function positionPanel(btn, panel) {
+    const b = btn.getBoundingClientRect();
+    panel.style.top = Math.round(b.bottom + 10) + 'px';
+    // measure width with left temporarily set, then clamp horizontally
+    panel.style.left = '0px';
+    const pw = panel.offsetWidth;
+    const left = Math.max(10, Math.min(b.left, window.innerWidth - pw - 10));
+    panel.style.left = Math.round(left) + 'px';
+  }
+  // keep an open panel glued to its button on resize/scroll
+  window.addEventListener('resize', () => {
+    const d = document.querySelector('.drop.is-active');
+    if (d) positionPanel(d.querySelector('.drop-btn'), d.querySelector('.drop-panel'));
+  });
+
   $$('.drop').forEach(d => {
     const btn = d.querySelector('.drop-btn');
     const panel = d.querySelector('.drop-panel');
@@ -511,11 +561,7 @@ function wireControls() {
       if (!open) {
         d.classList.add('is-active');
         btn.setAttribute('aria-expanded', 'true');
-        if (panel) {
-          panel.classList.remove('align-right');
-          const r = panel.getBoundingClientRect();
-          if (r.right > window.innerWidth - 8) panel.classList.add('align-right');
-        }
+        if (panel) positionPanel(btn, panel);
       }
     });
     d.querySelectorAll('.drop-panel').forEach(p => p.addEventListener('click', e => e.stopPropagation()));

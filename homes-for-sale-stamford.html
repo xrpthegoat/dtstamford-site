@@ -104,9 +104,12 @@
   <div class="tool" id="alerts">
     <h3>Get new Stamford listings before Zillow</h3>
     <p class="sub">Tell me what you're looking for and I'll set up a live MLS feed + instant alerts — free, no obligation.</p>
-    <form name="listing-alerts" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="thanks.html">
-      <input type="hidden" name="form-name" value="listing-alerts">
-      <p class="hidden" aria-hidden="true"><label>Skip this: <input name="bot-field"></label></p>
+    <form name="listing-alerts" method="POST" action="https://api.web3forms.com/submit">
+      <input type="hidden" name="access_key" value="2b2b377e-df45-443d-94ff-5abfa2eb6284">
+      <input type="hidden" name="subject" value="New lead from website — Listing alerts">
+      <input type="hidden" name="from_name" value="dtstamford.com">
+      <input type="hidden" name="redirect" value="https://dtstamford.com/thanks.html">
+      <input type="checkbox" name="botcheck" class="hidden" style="display:none" tabindex="-1" autocomplete="off">
       <div class="grid2">
         <div class="fld"><label for="a_price">Budget / price range</label><input id="a_price" name="price_range" placeholder="e.g. $500K–$750K"></div>
         <div class="fld"><label for="a_type">Property type</label>

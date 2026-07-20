@@ -93,9 +93,12 @@
   <div class="tool">
     <h3>What's my Stamford home worth?</h3>
     <p class="sub">Tell me about your property and I'll send a personalized market valuation.</p>
-    <form name="home-valuation" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="thanks.html">
-      <input type="hidden" name="form-name" value="home-valuation">
-      <p class="hidden" aria-hidden="true"><label>Skip this: <input name="bot-field"></label></p>
+    <form name="home-valuation" method="POST" action="https://api.web3forms.com/submit">
+      <input type="hidden" name="access_key" value="2b2b377e-df45-443d-94ff-5abfa2eb6284">
+      <input type="hidden" name="subject" value="New lead from website — Home valuation">
+      <input type="hidden" name="from_name" value="dtstamford.com">
+      <input type="hidden" name="redirect" value="https://dtstamford.com/thanks.html">
+      <input type="checkbox" name="botcheck" class="hidden" style="display:none" tabindex="-1" autocomplete="off">
       <div class="fld"><label for="v_addr">Property address</label><input id="v_addr" name="address" placeholder="123 Bedford St, Stamford, CT" required></div>
       <div class="grid2">
         <div class="fld"><label for="v_type">Property type</label>

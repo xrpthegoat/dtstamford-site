@@ -58,6 +58,43 @@ const priceLabel = l => l.listingType === 'rent'
 const esc = s => String(s == null ? '' : s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 const bathStr = b => (b % 1 === 0 ? b : b.toFixed(1));
 
+// SmartMLS §12.2.3 / §12.8 — when a seller withholds the address, the listing still appears but
+// the street number+name must NOT render. The sync sets address.line = null and addressWithheld
+// = true for those. This helper is the ONE place that decides what an address shows, so no card,
+// modal, alt-text, map query or mailto can accidentally leak a withheld street address.
+function addrLine(l) {
+  const a = (l && l.address) || {};
+  return a.line ? a.line : 'Address available on request';
+}
+function addrFull(l) {
+  const a = (l && l.address) || {};
+  const head = a.line ? a.line + ', ' : '';
+  return head + [a.city, a.state].filter(Boolean).join(' ');
+}
+// The listing firm + agent contact SmartMLS requires on every card (§12.3.2 / §12.3.4). Attribution
+// travels on the record so it can never be dropped by the template.
+function mlsAttrib(l) {
+  const at = (l && l.attribution) || {};
+  if (!at.office) return '';
+  const contact = at.agentPhone || at.agentEmail || '';
+  const agent = [at.agent, contact].filter(Boolean).join(' · ');
+  return `<div class="idx-attrib">Listing courtesy of <strong>${esc(at.office)}</strong>` +
+         (agent ? ` — ${esc(agent)}` : '') + `</div>`;
+}
+
+// Map a short filter label to the MLS's verbose propertyType string.
+function propMatches(label, pt) {
+  pt = (pt || '').toLowerCase();
+  const l = label.toLowerCase();
+  if (l === 'condo') return pt.includes('condo') || pt.includes('co-op');
+  if (l === 'co-op') return pt.includes('co-op');
+  if (l === 'multi-family') return pt.includes('multi-family') || pt.includes('multi family');
+  if (l === 'single family') return pt.includes('single family');
+  if (l === 'townhouse') return pt.includes('town');
+  if (l === 'land') return pt.includes('land') || pt.includes('lot');
+  return pt.includes(l);
+}
+
 function badgeFor(l) {
   const s = (l.status || '').toLowerCase();
   if (s.includes('coming')) return { cls: 'soon', txt: 'Coming Soon' };
@@ -87,8 +124,12 @@ async function load() {
   readURL();
   render();
   const note = $('#sampleNote');
-  if (state.meta && state.meta.source && state.meta.source !== 'reso' && state.meta.source !== 'rets') note.hidden = false;
-  else note.hidden = true;
+  // Show the "preview data" banner ONLY when the feed is not real MLS. A real feed's source is
+  // "smartmls-rets"/"reso"; "sample"/"none" is placeholder. Test for the real ones, not an exact
+  // string — the earlier `!== 'rets'` check left the demo banner up over live SmartMLS data.
+  const src = (state.meta && state.meta.source) || 'none';
+  const isLive = /rets|reso|smartmls/i.test(src);
+  if (note) note.hidden = isLive;
   renderLegal();
 }
 
@@ -115,9 +156,12 @@ function filtered() {
     if (state.priceMax && l.price > state.priceMax) return false;
     if (state.beds && (l.beds || 0) < state.beds) return false;
     if (state.baths && (l.baths || 0) < state.baths) return false;
-    if (state.types.length && !state.types.includes(l.propertyType)) return false;
+    // The filter chips are short labels ("Single Family", "Condo"); the MLS propertyType is verbose
+    // ("Single Family For Sale", "Condo/Co-Op For Sale"). Match by substring, not equality, or the
+    // type filter silently returns nothing against real feed data.
+    if (state.types.length && !state.types.some(t => propMatches(t, l.propertyType))) return false;
     if (q) {
-      const hay = `${l.address.line} ${l.address.city} ${l.address.neighborhood || ''} ${l.address.zip || ''}`.toLowerCase();
+      const hay = `${l.address.line || ''} ${l.address.city} ${l.address.neighborhood || ''} ${l.address.zip || ''}`.toLowerCase();
       if (!hay.includes(q)) return false;
     }
     if (state.bounds && !state.bounds.contains([l.geo.lat, l.geo.lng])) return false;
@@ -181,7 +225,7 @@ function cardHTML(l) {
   const commute = commuteFor(l);
   return `<article class="card" data-mls="${l.mls}">
     <div class="card-media">
-      <img src="${esc(photos[idx])}" alt="${esc(l.address.line)}, ${esc(l.address.city)}" loading="lazy" onerror="this.src='assets/stamford-ct-single-family-home-exterior.jpg'">
+      <img src="${esc(photos[idx])}" alt="${esc(addrFull(l))}" loading="lazy" onerror="this.src='assets/stamford-ct-single-family-home-exterior.jpg'">
       <div class="card-badges">${b ? `<span class="badge ${b.cls}">${b.txt}</span>` : ''}</div>
       <button class="card-fav ${fav ? 'on' : ''}" data-fav aria-label="Save home">${fav ? '♥' : '♡'}</button>
       ${navs}${dots}
@@ -194,7 +238,8 @@ function cardHTML(l) {
         <span><b>${l.sqft ? l.sqft.toLocaleString() : '—'}</b> sqft</span>
         ${psf ? `<span class="card-ppsf">$${psf}/sqft</span>` : ''}
       </div>
-      <div class="card-addr">${esc(l.address.line)}, ${esc(l.address.city)} ${esc(l.address.state)}</div>
+      <div class="card-addr">${esc(addrFull(l))}</div>
+      ${mlsAttrib(l)}
       <div class="card-hoodrow">
         ${l.address.neighborhood ? `<span class="card-hood">${esc(l.address.neighborhood)}</span>` : ''}
         <span class="card-commute" title="Estimated Metro-North commute — see stamford-to-nyc-commute.html">${esc(commute)}</span>
@@ -328,12 +373,12 @@ function openDetail(l) {
     ['MLS #', l.mls],
     ['Neighborhood', l.address.neighborhood],
   ].filter(f => f[1] != null && f[1] !== '');
-  const mapsQ = encodeURIComponent(`${l.address.line}, ${l.address.city}, ${l.address.state} ${l.address.zip || ''}`);
-  const mailBody = encodeURIComponent(`Hi John, I'm interested in ${l.address.line}, ${l.address.city} (MLS #${l.mls}, ${money(l.price)}). Can we set up a tour?`);
+  const mapsQ = encodeURIComponent(l.address.line ? `${l.address.line}, ${l.address.city}, ${l.address.state} ${l.address.zip || ''}` : `${l.address.city}, ${l.address.state}`);
+  const mailBody = encodeURIComponent(`Hi John, I'm interested in ${addrFull(l)} (MLS #${l.mls}, ${money(l.price)}). Can we set up a tour?`);
 
   $('#drawerBody').innerHTML = `
     <div class="d-gallery">
-      <img id="dImg" src="${esc(photos[0])}" alt="${esc(l.address.line)}" onerror="this.src='assets/stamford-ct-single-family-home-exterior.jpg'">
+      <img id="dImg" src="${esc(photos[0])}" alt="${esc(addrFull(l))}" onerror="this.src='assets/stamford-ct-single-family-home-exterior.jpg'">
       ${photos.length > 1 ? `<button class="d-gnav prev" id="dPrev" aria-label="Previous">‹</button><button class="d-gnav next" id="dNext" aria-label="Next">›</button><div class="d-gcount" id="dCount">1 / ${photos.length}</div>` : ''}
     </div>
     <div class="d-body">
@@ -345,12 +390,13 @@ function openDetail(l) {
         <div class="d-spec"><b>${l.sqft ? l.sqft.toLocaleString() : '—'}</b><span>Sq Ft</span></div>
         ${l.yearBuilt ? `<div class="d-spec"><b>${l.yearBuilt}</b><span>Built</span></div>` : ''}
       </div>
-      <div class="d-addr">${esc(l.address.line)}, ${esc(l.address.city)}, ${esc(l.address.state)} ${esc(l.address.zip || '')}</div>
+      <div class="d-addr">${esc(addrFull(l))}${l.address.zip ? ' '+esc(l.address.zip) : ''}</div>
+      ${mlsAttrib(l)}
       ${l.address.neighborhood ? `<div class="d-hood">${esc(l.address.neighborhood)}</div>` : ''}
       <div class="d-commute" title="Estimated Metro-North commute — see stamford-to-nyc-commute.html">${esc(commuteFor(l))}</div>
       <div class="d-cta">
         <a class="btn btn-gold" href="tel:${PHONE}">Call John · 203·883·3399</a>
-        <a class="btn btn-act" href="mailto:${EMAIL}?subject=${encodeURIComponent('Tour request: ' + l.address.line)}&body=${mailBody}">Request a tour</a>
+        <a class="btn btn-act" href="mailto:${EMAIL}?subject=${encodeURIComponent('Tour request: ' + addrFull(l))}&body=${mailBody}">Request a tour</a>
         <button class="btn btn-out" data-fav="${esc(l.mls)}">${fav ? '♥ Saved' : '♡ Save'}</button>
       </div>
       ${l.remarks ? `<div class="d-section"><h4>About this home</h4><p class="d-remarks">${esc(l.remarks)}</p></div>` : ''}
@@ -359,7 +405,8 @@ function openDetail(l) {
       </div>
       ${(l.features && l.features.length) ? `<div class="d-section"><h4>Highlights</h4><div class="d-feats">${l.features.map(f => `<span class="d-feat">${esc(f)}</span>`).join('')}</div></div>` : ''}
       <div class="d-section"><h4>Location</h4><div class="d-map" id="dMap"></div></div>
-      <div class="d-legal">${esc(l.attribution || '')} ${state.meta && state.meta.attribution ? esc(state.meta.attribution) : ''}
+      ${mlsAttrib(l)}
+      <div class="d-legal">${state.meta && state.meta.disclaimer ? esc(state.meta.disclaimer) : (state.meta && state.meta.attribution ? esc(state.meta.attribution) : '')}
         ${l.slug ? `<br><a class="d-seo-link" href="homes/${esc(l.slug)}.html">View full listing page ↗</a>` : ''}
       </div>
     </div>`;

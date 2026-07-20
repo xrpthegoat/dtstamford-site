@@ -233,7 +233,6 @@ function cardHTML(l) {
       <div class="card-specs">${specRow(l)}</div>
       <div class="card-addr">${esc(addrFull(l))}</div>
       <div class="card-meta">${cardMeta(l)}</div>
-      ${mlsAttrib(l)}
     </div>
   </article>`;
 }
@@ -367,10 +366,25 @@ function renderMarkers(list) {
   // One batched add — with a cluster group, per-marker addTo() rebuilds the whole cluster each time.
   if (markerLayer.addLayers) markerLayer.addLayers(batch);
   else batch.forEach(m => m.addTo(markerLayer));
+  state._pts = pts;   // stored so fitAllMarkers() can re-fit when the map becomes visible
   if (pts.length && !state.bounds) {
     try { map.fitBounds(pts, { padding: [40, 40], maxZoom: 15 }); } catch (e) {}
   }
   setTimeout(() => map.invalidateSize(), 60);
+}
+
+// Fit the map to show EVERY filtered listing on one screen. Needed because on mobile the map
+// starts hidden (0-size) in List view, so its first fitBounds runs against a broken viewport and
+// the map opens zoomed into one random spot. When the user taps Map we resize the container, then
+// fit to all current markers so "show me everything under my criteria" actually works.
+function fitAllMarkers() {
+  if (!map) return;
+  setTimeout(() => {
+    map.invalidateSize();
+    const pts = state._pts || [];
+    if (!pts.length) return;
+    try { map.fitBounds(pts, { padding: [36, 36], maxZoom: 14 }); } catch (e) {}
+  }, 130);   // after the container has actually painted at its new size
 }
 
 function highlightMarker(mls, on) {
@@ -425,7 +439,6 @@ function openDetail(l) {
         ${l.yearBuilt ? `<div class="d-spec"><b>${l.yearBuilt}</b><span>Built</span></div>` : ''}
       </div>
       <div class="d-addr">${esc(addrFull(l))}${l.address.zip ? ' '+esc(l.address.zip) : ''}</div>
-      ${mlsAttrib(l)}
       ${l.address.neighborhood ? `<div class="d-hood">${esc(l.address.neighborhood)}</div>` : ''}
       <div class="d-commute" title="Estimated Metro-North commute — see stamford-to-nyc-commute.html">${esc(commuteFor(l))}</div>
       <div class="d-cta">
@@ -630,7 +643,16 @@ function wireControls() {
     state.view = v.dataset.view;
     $$('.vt-btn').forEach(x => x.classList.toggle('is-on', x === v));
     $('#app').dataset.view = state.view;
-    if (map) setTimeout(() => map.invalidateSize(), 80);
+    if (state.view === 'map') {
+      // "Show me all my listings on one map." Clear any previously-panned bounds and re-render so
+      // the full filtered set is on the map, then fit to all of them once the container is sized.
+      state.bounds = null;
+      const sh = $('#searchHere'); if (sh) sh.hidden = true;
+      render();
+      fitAllMarkers();
+    } else if (map) {
+      setTimeout(() => map.invalidateSize(), 80);
+    }
     syncURL();
   }));
 

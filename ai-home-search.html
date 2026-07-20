@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="#08080a">
 <title>AI Home Search — Find Your Stamford Home in Plain English | John Restrepo</title>
-<meta name="description" content="Describe your ideal Stamford home in plain English and let AI do the searching. Our conversational assistant turns 'condos under $700k near the train, no HOA' into real MLS matches — and explains why each one fits.">
+<meta name="description" content="Describe what you want and AI finds your Stamford CT home. Try 'condo under $700k near the train, no HOA' — AI matches that to real MLS listings instantly.">
 <meta name="keywords" content="AI home search Stamford, conversational real estate search, Stamford MLS AI, find a home with AI, Stamford CT real estate assistant">
 <link rel="canonical" href="https://dtstamford.com/ai-home-search.html">
 <meta name="robots" content="index, follow, max-image-preview:large">
@@ -13,7 +13,7 @@
 <meta property="og:title" content="AI Home Search — Find Your Stamford Home in Plain English">
 <meta property="og:description" content="Describe what you want. The AI turns it into real MLS filters and explains why each home fits.">
 <meta property="og:url" content="https://dtstamford.com/ai-home-search.html">
-<meta property="og:image" content="https://dtstamford.com/assets/og-image.jpg">
+<meta property="og:image" content="https://dtstamford.com/assets/stamford-ct-realtor-john-restrepo-social-preview.jpg">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600;12..96,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
@@ -690,8 +690,8 @@ function cardEl(r){
        </div>
      </div>`;
   const img = c.querySelector('.ph img');
-  img.onerror = function(){ this.onerror=null; this.src='assets/house.jpg'; };
-  img.src = (l.photos && l.photos[0]) || 'assets/house.jpg';
+  img.onerror = function(){ this.onerror=null; this.src='assets/stamford-ct-single-family-home-exterior.jpg'; };
+  img.src = (l.photos && l.photos[0]) || 'assets/stamford-ct-single-family-home-exterior.jpg';
   return c;
 }
 
@@ -797,8 +797,8 @@ function openDetail(mls){
        <p style="color:#54555f;font-size:.7rem;margin-top:14px">${esc(l.attribution||'Courtesy of SmartMLS.')}</p>
      </div>`;
   const mimg = $('#modal img[data-mph]');
-  mimg.onerror = function(){ this.onerror=null; this.src='assets/house.jpg'; };
-  mimg.src = (l.photos && l.photos[0]) || 'assets/house.jpg';
+  mimg.onerror = function(){ this.onerror=null; this.src='assets/stamford-ct-single-family-home-exterior.jpg'; };
+  mimg.src = (l.photos && l.photos[0]) || 'assets/stamford-ct-single-family-home-exterior.jpg';
   $('#mscrim').classList.add('on');
   $('#mClose').onclick = ()=>$('#mscrim').classList.remove('on');
 }

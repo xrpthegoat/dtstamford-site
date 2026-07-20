@@ -173,7 +173,7 @@ function ppsf(l) {
 function cardHTML(l) {
   const b = badgeFor(l);
   const idx = state.cardIndex[l.mls] || 0;
-  const photos = (l.photos && l.photos.length) ? l.photos : ['assets/house.jpg'];
+  const photos = (l.photos && l.photos.length) ? l.photos : ['assets/stamford-ct-single-family-home-exterior.jpg'];
   const fav = state.favs.has(l.mls);
   const dots = photos.length > 1 ? `<div class="card-dots">${photos.map((_, i) => `<i class="${i === idx ? 'on' : ''}"></i>`).join('')}</div>` : '';
   const navs = photos.length > 1 ? `<button class="card-nav prev" data-nav="-1" aria-label="Previous photo">‹</button><button class="card-nav next" data-nav="1" aria-label="Next photo">›</button>` : '';
@@ -181,7 +181,7 @@ function cardHTML(l) {
   const commute = commuteFor(l);
   return `<article class="card" data-mls="${l.mls}">
     <div class="card-media">
-      <img src="${esc(photos[idx])}" alt="${esc(l.address.line)}, ${esc(l.address.city)}" loading="lazy" onerror="this.src='assets/house.jpg'">
+      <img src="${esc(photos[idx])}" alt="${esc(l.address.line)}, ${esc(l.address.city)}" loading="lazy" onerror="this.src='assets/stamford-ct-single-family-home-exterior.jpg'">
       <div class="card-badges">${b ? `<span class="badge ${b.cls}">${b.txt}</span>` : ''}</div>
       <button class="card-fav ${fav ? 'on' : ''}" data-fav aria-label="Save home">${fav ? '♥' : '♡'}</button>
       ${navs}${dots}
@@ -225,7 +225,7 @@ function wireCard(l) {
 }
 
 function stepPhoto(l, dir) {
-  const photos = (l.photos && l.photos.length) ? l.photos : ['assets/house.jpg'];
+  const photos = (l.photos && l.photos.length) ? l.photos : ['assets/stamford-ct-single-family-home-exterior.jpg'];
   const n = photos.length;
   const cur = state.cardIndex[l.mls] || 0;
   const next = (cur + dir + n) % n;
@@ -309,7 +309,7 @@ function highlightCard(mls, on) {
 
 /* ---------- detail drawer ---------- */
 function openDetail(l) {
-  const photos = (l.photos && l.photos.length) ? l.photos : ['assets/house.jpg'];
+  const photos = (l.photos && l.photos.length) ? l.photos : ['assets/stamford-ct-single-family-home-exterior.jpg'];
   let gi = 0;
   const b = badgeFor(l);
   const fav = state.favs.has(l.mls);
@@ -333,7 +333,7 @@ function openDetail(l) {
 
   $('#drawerBody').innerHTML = `
     <div class="d-gallery">
-      <img id="dImg" src="${esc(photos[0])}" alt="${esc(l.address.line)}" onerror="this.src='assets/house.jpg'">
+      <img id="dImg" src="${esc(photos[0])}" alt="${esc(l.address.line)}" onerror="this.src='assets/stamford-ct-single-family-home-exterior.jpg'">
       ${photos.length > 1 ? `<button class="d-gnav prev" id="dPrev" aria-label="Previous">‹</button><button class="d-gnav next" id="dNext" aria-label="Next">›</button><div class="d-gcount" id="dCount">1 / ${photos.length}</div>` : ''}
     </div>
     <div class="d-body">

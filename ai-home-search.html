@@ -843,9 +843,14 @@ function boot(){
     if (e.target.id==='mscrim') $('#mscrim').classList.remove('on');
   });
 
-  // IDX disclosure (legal — same as search.html)
-  const attr = (State.meta && State.meta.attribution) || 'Listing data provided courtesy of SmartMLS. Information deemed reliable but not guaranteed.';
-  $('#idxLegal').innerHTML = `<strong>MLS disclosure.</strong> ${esc(attr)} Listings are subject to prior sale, change, or withdrawal. AI-generated summaries and match reasons are informational estimates, not professional advice. © ${new Date().getFullYear()} SmartMLS, Inc. Displayed by John Restrepo, licensed CT real estate agent. Equal Housing Opportunity.`;
+  // IDX disclosure (legal — same as search.html). Only claim MLS provenance when MLS data is
+  // actually displayed; crediting SmartMLS with zero listings is a false attribution.
+  if (State.listings && State.listings.length) {
+    const attr = (State.meta && State.meta.attribution) || 'Listing data provided courtesy of SmartMLS. Information deemed reliable but not guaranteed.';
+    $('#idxLegal').innerHTML = `<strong>MLS disclosure.</strong> ${esc(attr)} Listings are subject to prior sale, change, or withdrawal. AI-generated summaries and match reasons are informational estimates, not professional advice. © ${new Date().getFullYear()} SmartMLS, Inc. Displayed by John Restrepo, licensed CT real estate agent. Equal Housing Opportunity.`;
+  } else {
+    $('#idxLegal').innerHTML = '';
+  }
 
   // mobile menu
   const mm=$('#mobileMenu'), nt=$('#navToggle');

@@ -391,8 +391,14 @@ function closeDetail() {
 
 /* ---------- IDX legal ---------- */
 function renderLegal() {
+  // Only claim MLS provenance when MLS data is actually on the page. Crediting SmartMLS with
+  // zero listings displayed is a false attribution — and the hardcoded fallback below used to
+  // fire even when listings.json was empty.
+  const el = $('#idxLegal');
+  if (!el) return;
+  if (!(state.all && state.all.length)) { el.innerHTML = ''; return; }
   const a = (state.meta && state.meta.attribution) || 'Listing data provided courtesy of SmartMLS. Information deemed reliable but not guaranteed.';
-  $('#idxLegal').innerHTML = `<strong>MLS disclosure.</strong> ${esc(a)} Listings are subject to prior sale, change, or withdrawal. © ${new Date().getFullYear()} SmartMLS, Inc. Displayed by John Restrepo, licensed CT real estate agent. Equal Housing Opportunity.`;
+  el.innerHTML = `<strong>MLS disclosure.</strong> ${esc(a)} Listings are subject to prior sale, change, or withdrawal. © ${new Date().getFullYear()} SmartMLS, Inc. Displayed by John Restrepo, licensed CT real estate agent. Equal Housing Opportunity.`;
 }
 
 /* ---------- filter chrome sync + events ---------- */

@@ -634,6 +634,20 @@ function wireControls() {
     syncURL();
   }));
 
+  // On a phone, "Split" (map + list side by side) has no room — fall back to List so the whole
+  // screen is homes, with Map as its own full-screen mode. Only converts the default 'split';
+  // an explicit Map/List choice is left alone.
+  function applyMobileView() {
+    if (window.innerWidth <= 760 && state.view === 'split') {
+      state.view = 'list';
+      $$('.vt-btn').forEach(x => x.classList.toggle('is-on', x.dataset.view === 'list'));
+      $('#app').dataset.view = 'list';
+      if (map) setTimeout(() => map.invalidateSize(), 80);
+    }
+  }
+  applyMobileView();
+  window.addEventListener('resize', applyMobileView);
+
   // drawer close
   $('#drawerClose').addEventListener('click', closeDetail);
   $('#scrim').addEventListener('click', closeDetail);

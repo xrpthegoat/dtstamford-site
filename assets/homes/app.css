@@ -303,24 +303,47 @@
   .results{padding:8px 16px 80px}
 }
 @media(max-width:760px){
-  .fb-group-view{width:100%;justify-content:space-between}
-}
-@media(max-width:560px){
+  /* MOBILE FILTER BAR — was ~295px (5 stacked rows), which pushed the first home off the first
+     screen. Now 3 compact rows: (1) search + Buy/Rent, (2) ONE horizontal-scrolling chip row,
+     (3) a thin Saved + List/Map strip. Same chips, same look — just laid out for a thumb. */
+  :root{--fb-h:60px}
   .cards{grid-template-columns:1fr}
-  .fb-inner{padding:10px 8px;gap:8px}
-  .fb-group{gap:6px}
-  .fb-search{padding:0 4px 0 10px;min-height:44px}
-  .fb-search input{padding:11px 0;font-size:.9rem}
-  .fb-seg{padding:2px}
-  .seg-btn{padding:10px 14px;min-height:40px}
-  .fb-drops{gap:6px;width:100%}
-  .drop{flex:1 1 auto}
-  .drop-btn{width:100%;justify-content:center;padding:11px 10px;min-height:42px}
-  .drop-panel{left:auto;right:0;min-width:min(280px,88vw);max-width:88vw}
-  .fb-badge{padding:9px 12px;min-height:40px}
-  .fb-reset{padding:10px 8px;min-height:40px}
-  .fb-saved{padding:10px 12px;min-height:40px}
-  .vt-btn{padding:9px 11px;min-height:36px}
+  .fb-inner{padding:8px;gap:8px;border-radius:22px}
+
+  /* row 1: search + Buy/Rent, no divider line eating height */
+  .fb-group-search{flex:1 1 100%;order:1;padding-bottom:0;border-bottom:0;gap:8px}
+  .fb-search{flex:1 1 auto;padding:0 4px 0 12px;min-height:42px}
+  .fb-search input{padding:10px 0;font-size:.92rem}
+  .fb-seg{padding:2px;flex:none}
+  .seg-btn{padding:9px 14px;min-height:38px}
+
+  /* row 2: filters as a single swipeable strip — content-width chips, no wrap, no scrollbar */
+  .fb-group-filters{flex:1 1 100%;order:2;flex-wrap:nowrap;min-width:0}
+  .fb-drops{flex-wrap:nowrap;overflow-x:auto;width:100%;gap:8px;padding-bottom:1px;
+    -webkit-overflow-scrolling:touch;scrollbar-width:none;-webkit-mask-image:linear-gradient(90deg,#000 92%,transparent)}
+  .fb-drops::-webkit-scrollbar{display:none}
+  .drop{flex:0 0 auto}
+  .drop-btn{width:auto;justify-content:center;padding:10px 15px;min-height:40px;white-space:nowrap}
+  .drop-panel{min-width:min(300px,92vw);max-width:92vw}
+
+  /* row 3: thin Saved + view toggle; Split is meaningless on a phone → hidden */
+  .fb-group-view{flex:1 1 100%;order:3;margin:0;justify-content:space-between;align-items:center}
+  .vt-btn[data-view="split"]{display:none}
+  .vt-btn{padding:8px 14px;min-height:34px}
+  .fb-saved{padding:8px 12px;min-height:34px}
+  .fb-badge{padding:8px 12px;min-height:34px}
+  .fb-reset{padding:8px 6px;min-height:34px}
+
+  /* Split has no room on a phone. Render it exactly like List (map hidden, full-width cards),
+     independent of the JS default — so even if view state is 'split', the phone never shows the
+     cramped sticky map. The JS also flips the toggle to List; this is the CSS safety net. */
+  .app[data-view="split"] .mapwrap{display:none}
+  .app[data-view="split"] .results{max-height:none}
+  .app[data-view="split"] .cards{grid-template-columns:1fr}
+
+  /* Map = full-screen mode on a phone (the floating toggle switches to it) */
+  .app[data-view="map"] .mapwrap{height:calc(100vh - var(--hdr-h) - var(--fb-h) - 20px);min-height:70vh}
+
   .card-price{font-size:1.35rem}
 }
 @media(prefers-reduced-motion:reduce){*{animation-duration:.001ms!important;transition-duration:.001ms!important}}

@@ -14,7 +14,21 @@
 <meta property="og:description" content="Search every Stamford home for sale and rent on a live map, straight from the MLS. New listings first.">
 <meta property="og:url" content="https://dtstamford.com/search.html">
 <meta property="og:image" content="https://dtstamford.com/assets/stamford-ct-realtor-john-restrepo-social-preview.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Stamford, CT homes for sale and rent on a live MLS map">
+<meta property="og:site_name" content="Downtown Stamford">
+<meta property="og:locale" content="en_US">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Search Stamford Homes & Rentals — Live MLS Map">
+<meta name="twitter:description" content="Search every Stamford home for sale and rent on a live map, straight from the MLS. New listings first.">
+<meta name="twitter:image" content="https://dtstamford.com/assets/stamford-ct-realtor-john-restrepo-social-preview.jpg">
+<meta name="author" content="John Restrepo">
+<meta name="geo.region" content="US-CT">
+<meta name="geo.placename" content="Stamford, Connecticut">
+<meta name="geo.position" content="41.053;-73.538">
+<meta name="ICBM" content="41.053, -73.538">
+<link rel="manifest" href="site.webmanifest">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600;12..96,700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
 <link rel="icon" href="assets/logo-black.png">
@@ -23,9 +37,17 @@
 <!-- Leaflet (map) -->
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
 <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" crossorigin="">
-<link rel="stylesheet" href="assets/homes/app.css?v=1784586641">
+<link rel="stylesheet" href="assets/homes/app.css?v=1784589732">
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"WebApplication","name":"Stamford MLS Home Search","applicationCategory":"RealEstateApplication","url":"https://dtstamford.com/search.html","operatingSystem":"Web","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"author":{"@type":"Person","name":"John Restrepo","telephone":"+12038833399","url":"https://dtstamford.com/"}}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[
+{"@type":"WebSite","@id":"https://dtstamford.com/#website","url":"https://dtstamford.com/","name":"Downtown Stamford","publisher":{"@type":"RealEstateAgent","name":"John Restrepo","telephone":"+12038833399","areaServed":"Stamford, CT"},"potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://dtstamford.com/search.html?q={search_term_string}"},"query-input":"required name=search_term_string"}},
+{"@type":"BreadcrumbList","itemListElement":[
+{"@type":"ListItem","position":1,"name":"Home","item":"https://dtstamford.com/"},
+{"@type":"ListItem","position":2,"name":"Search Homes & Rentals"}]}
+]}
 </script>
 </head>
 <body id="top" class="app-body">
@@ -174,6 +196,7 @@
 <!-- ============ APP ============ -->
 <main class="app" id="app" data-view="split">
   <section class="results" id="results" aria-label="Listings">
+    <h1 class="sr-only">Search Stamford, CT Homes for Sale &amp; Rentals — Live MLS Map</h1>
     <div class="results-head">
       <div class="rh-count"><strong id="count">—</strong> <span id="countLabel">homes</span> <span class="rh-loc" id="locLabel"></span></div>
       <div class="rh-updated" id="updated"></div>
@@ -182,6 +205,23 @@
       <span class="dot"></span> Preview data — this is a working demo. Live SmartMLS listings appear once John connects the IDX feed.
     </div>
     <div class="cards" id="cards" aria-live="polite"></div>
+    <noscript>
+      <div class="idx-attrib" style="padding:14px 4px">
+        <p>The live map search needs JavaScript. Browse Stamford real estate directly:
+        <a href="homes-for-sale-stamford.html">Homes for sale in Stamford</a> ·
+        <a href="stamford-apartments-for-rent.html">Apartments for rent</a> ·
+        <a href="stamford-condos-for-sale.html">Condos for sale</a> ·
+        <a href="neighborhoods.html">All neighborhoods</a> ·
+        <a href="downtown-stamford-homes-for-sale.html">Downtown</a> ·
+        <a href="harbor-point-stamford-homes-for-sale.html">Harbor Point</a> ·
+        <a href="shippan-stamford-homes-for-sale.html">Shippan</a> ·
+        <a href="north-stamford-homes-for-sale.html">North Stamford</a> ·
+        <a href="waterside-stamford-homes-for-sale.html">Waterside</a> ·
+        <a href="glenbrook-stamford-homes-for-sale.html">Glenbrook</a> ·
+        <a href="springdale-stamford-homes-for-sale.html">Springdale</a> ·
+        <a href="cove-stamford-homes-for-sale.html">Cove</a>.</p>
+      </div>
+    </noscript>
     <div class="empty" id="empty" hidden>
       <div class="empty-emoji">🔭</div>
       <h3>No homes match those filters</h3>
@@ -206,7 +246,7 @@
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js" crossorigin=""></script>
-<script type="module" src="assets/homes/app.js?v=1784586641"></script>
+<script type="module" src="assets/homes/app.js?v=1784589732"></script>
 <script>
 /* mobile menu (matches site.js pattern) */
 (function(){var t=document.getElementById('navToggle'),m=document.getElementById('mobileMenu');if(t&&m){t.addEventListener('click',function(){var o=m.classList.toggle('open');t.setAttribute('aria-expanded',o);m.setAttribute('aria-hidden',!o);});}})();

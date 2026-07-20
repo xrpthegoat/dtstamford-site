@@ -150,11 +150,19 @@
 .sample-note .dot{width:8px;height:8px;border-radius:50%;background:var(--gold);box-shadow:0 0 12px var(--gold);animation:pulse 2s infinite;flex:none}
 @keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
 
+/* Screen-reader / SEO-only text (a real <h1> for crawlers without altering the visual layout). */
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
+
 /* ---------- CARDS ---------- */
 .cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:18px;padding:8px 4px}
+/* content-visibility:auto lets the browser skip layout+paint for the ~1,000 cards that are off-screen
+   (contain-intrinsic-size reserves each card's box so the scrollbar stays honest and there's no jump).
+   will-change is scoped to :hover — applying it to the base rule promoted every one of ~1,100 cards to
+   its own permanent GPU layer up front, which was a major source of the scroll jank. */
 .card{border-radius:var(--card-r);overflow:hidden;border:1px solid var(--line);background:var(--bg2);cursor:pointer;
-  transition:transform .45s var(--ease),border-color .3s,box-shadow .45s;will-change:transform;position:relative}
-.card:hover,.card.is-hi{transform:translateY(-4px);border-color:rgba(255,255,255,.2);box-shadow:0 26px 60px -30px rgba(0,0,0,.95)}
+  transition:transform .45s var(--ease),border-color .3s,box-shadow .45s;position:relative;
+  content-visibility:auto;contain-intrinsic-size:auto 380px}
+.card:hover,.card.is-hi{transform:translateY(-4px);border-color:rgba(255,255,255,.2);box-shadow:0 26px 60px -30px rgba(0,0,0,.95);will-change:transform}
 .card-media{position:relative;aspect-ratio:4/3;overflow:hidden;background:#111}
 .card-media img{width:100%;height:100%;object-fit:cover;transition:transform .7s var(--ease)}
 .card:hover .card-media img{transform:scale(1.05)}

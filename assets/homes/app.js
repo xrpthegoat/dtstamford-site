@@ -44,6 +44,7 @@ const state = {
   view: 'split', bounds: null, savedOnly: false,
   favs: new Set(JSON.parse(localStorage.getItem('dts_favs') || '[]')),
   cardIndex: {},        // mls -> current photo index
+  byMls: {},            // mls -> listing, for delegated card events
 };
 
 let map, markerLayer, markers = {};
@@ -117,6 +118,9 @@ async function load() {
     state.meta = { error: String(err) };
     console.warn('listings load failed:', err);
   }
+  // mls -> listing index so delegated card events can resolve the record without a DOM scan
+  state.byMls = {};
+  state.all.forEach(l => { state.byMls[l.mls] = l; });
   // default price ceiling stays "Any"; nothing preset
   buildTypeChecks();
   buildPriceSelects();
@@ -206,7 +210,7 @@ function renderCards(list) {
   if (!list.length) { wrap.innerHTML = ''; empty.hidden = false; return; }
   empty.hidden = true;
   wrap.innerHTML = list.map(cardHTML).join('');
-  list.forEach(l => wireCard(l));
+  wireCardsOnce();
 }
 
 function ppsf(l) {
@@ -223,7 +227,7 @@ function cardHTML(l) {
   const navs = photos.length > 1 ? `<button class="card-nav prev" data-nav="-1" aria-label="Previous photo">‹</button><button class="card-nav next" data-nav="1" aria-label="Next photo">›</button>` : '';
   return `<article class="card" data-mls="${l.mls}">
     <div class="card-media">
-      <img src="${esc(photos[idx])}" alt="${esc(addrFull(l))}" loading="lazy" onerror="this.src='assets/stamford-ct-single-family-home-exterior.jpg'">
+      <img src="${esc(photos[idx])}" alt="${esc(addrFull(l))}" loading="lazy" decoding="async" onerror="this.src='assets/stamford-ct-single-family-home-exterior.jpg'">
       <div class="card-badges">${b ? `<span class="badge ${b.cls}">${b.txt}</span>` : ''}</div>
       <button class="card-fav ${fav ? 'on' : ''}" data-fav aria-label="Save home">${fav ? '♥' : '♡'}</button>
       ${navs}${dots}
@@ -262,21 +266,40 @@ function cardMeta(l) {
   return bits.map(b => `<span>${esc(b)}</span>`).join('<i class="dot">·</i>');
 }
 
-function wireCard(l) {
-  const el = $(`.card[data-mls="${cssq(l.mls)}"]`);
-  if (!el) return;
-  el.addEventListener('click', e => {
-    if (e.target.closest('[data-fav]') || e.target.closest('[data-nav]')) return;
+// Delegated card events, wired ONCE on the #cards container. Wiring each of ~1,100 cards individually
+// meant ~6,600 listeners plus an O(n²) document scan (a $('.card[data-mls=…]') per card right after the
+// innerHTML write). One listener set resolves the listing by mls (state.byMls) and keeps working when
+// cards are re-rendered, appended, or recycled.
+let _cardsWired = false;
+function wireCardsOnce() {
+  if (_cardsWired) return;
+  const wrap = $('#cards');
+  if (!wrap) return;
+  _cardsWired = true;
+  wrap.addEventListener('click', e => {
+    const el = e.target.closest('.card');
+    if (!el) return;
+    const l = state.byMls[el.dataset.mls];
+    if (!l) return;
+    const nav = e.target.closest('[data-nav]');
+    if (nav) { e.stopPropagation(); stepPhoto(l, parseInt(nav.dataset.nav, 10)); return; }
+    if (e.target.closest('[data-fav]')) { e.stopPropagation(); toggleFav(l.mls); return; }
     openDetail(l);
   });
-  const favBtn = el.querySelector('[data-fav]');
-  favBtn && favBtn.addEventListener('click', e => { e.stopPropagation(); toggleFav(l.mls); });
-  el.querySelectorAll('[data-nav]').forEach(btn => btn.addEventListener('click', e => {
-    e.stopPropagation();
-    stepPhoto(l, parseInt(btn.dataset.nav, 10));
-  }));
-  el.addEventListener('mouseenter', () => highlightMarker(l.mls, true));
-  el.addEventListener('mouseleave', () => highlightMarker(l.mls, false));
+  // hover a card -> highlight its map pin. Delegated mouseover/out with a per-card guard reproduces the
+  // old mouseenter/leave (fires once per card, not per descendant).
+  wrap.addEventListener('mouseover', e => {
+    const el = e.target.closest('.card');
+    if (!el || el._hov) return;
+    el._hov = true;
+    highlightMarker(el.dataset.mls, true);
+  }, { passive: true });
+  wrap.addEventListener('mouseout', e => {
+    const el = e.target.closest('.card');
+    if (!el || el.contains(e.relatedTarget)) return;
+    el._hov = false;
+    highlightMarker(el.dataset.mls, false);
+  }, { passive: true });
 }
 
 function stepPhoto(l, dir) {
@@ -426,7 +449,7 @@ function openDetail(l) {
 
   $('#drawerBody').innerHTML = `
     <div class="d-gallery">
-      <img id="dImg" src="${esc(photos[0])}" alt="${esc(addrFull(l))}" onerror="this.src='assets/stamford-ct-single-family-home-exterior.jpg'">
+      <img id="dImg" src="${esc(photos[0])}" alt="${esc(addrFull(l))}" decoding="async" onerror="this.src='assets/stamford-ct-single-family-home-exterior.jpg'">
       ${photos.length > 1 ? `<button class="d-gnav prev" id="dPrev" aria-label="Previous">‹</button><button class="d-gnav next" id="dNext" aria-label="Next">›</button><div class="d-gcount" id="dCount">1 / ${photos.length}</div>` : ''}
     </div>
     <div class="d-body">

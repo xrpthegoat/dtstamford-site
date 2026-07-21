@@ -208,11 +208,13 @@
 .leaflet-control-attribution{background:rgba(6,6,8,.7)!important;color:var(--faint)!important;font-size:9px!important}
 .leaflet-control-attribution a{color:var(--muted)!important}
 .leaflet-bar a{background:rgba(16,16,20,.9)!important;color:var(--fg)!important;border-color:var(--line)!important}
-.price-pin{background:linear-gradient(180deg,rgba(20,20,26,.96),rgba(12,12,16,.96));border:1px solid var(--line);
-  color:#fff;font-family:var(--sans);font-weight:600;font-size:.76rem;padding:6px 11px;border-radius:999px;white-space:nowrap;
+/* Light pill (dark text) so individual price labels stand out on the dark basemap — the old dark
+   pill blended into the map and read as invisible. Clusters stay gold; hover/selected go gold too. */
+.price-pin{background:linear-gradient(180deg,#fbf9f4,#ece6d8);border:1px solid rgba(0,0,0,.22);
+  color:#1a160c;font-family:var(--sans);font-weight:700;font-size:.76rem;padding:6px 11px;border-radius:999px;white-space:nowrap;
   box-shadow:0 8px 22px -10px rgba(0,0,0,.9);transition:transform .2s var(--ease),background .2s,border-color .2s;cursor:pointer}
 .price-pin:hover,.price-pin.hi{transform:scale(1.14);z-index:1000;background:linear-gradient(180deg,var(--gold-l),var(--gold));color:#161006;border-color:transparent}
-.price-pin.seen{background:rgba(12,12,16,.85);color:var(--muted)}
+.price-pin.seen{background:rgba(226,221,210,.82);color:#6b6659;border-color:rgba(0,0,0,.12)}
 .price-pin.fav{border-color:var(--gold-d)}
 .cluster-pin{background:linear-gradient(180deg,var(--gold-l),var(--gold));color:#161006;font-weight:700;font-family:var(--sans);
   border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 8px 22px -8px rgba(203,171,104,.8);border:2px solid rgba(255,255,255,.3)}
@@ -264,7 +266,10 @@
 .d-hood{font-family:var(--mono);font-size:.66rem;letter-spacing:.14em;text-transform:uppercase;color:var(--gold-l);margin-bottom:18px}
 .d-badges{display:flex;gap:7px;margin:16px 0}
 .d-cta{display:flex;gap:10px;margin:20px 0;flex-wrap:wrap}
-.d-cta .btn{flex:1;justify-content:center;min-width:150px}
+.d-cta .btn{flex:1;justify-content:center;min-width:150px;white-space:nowrap}
+/* Call John is the primary CTA and its phone number is long — give it a full row so the number
+   never gets clipped/squeezed; "Request a tour" + "Save" share the row below. */
+.d-cta .btn-gold{flex:1 1 100%}
 .d-section{margin:24px 0}
 .d-section h4{font-family:var(--mono);font-size:.66rem;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);margin-bottom:12px}
 .d-remarks{color:var(--fg-soft);line-height:1.7;font-size:.94rem}

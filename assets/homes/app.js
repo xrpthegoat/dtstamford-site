@@ -64,6 +64,12 @@ const priceLabel = l => l.listingType === 'rent'
   ? `${money(l.price)}<span class="per">/mo</span>`
   : money(l.price);
 const esc = s => String(s == null ? '' : s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+// The MLS feed arrives HTML-entity-encoded ("chef&apos;s kitchen") — decode common entities so text
+// reads normally. Run BEFORE esc(): deEnt un-encodes, esc re-encodes safely for the DOM.
+const deEnt = s => String(s == null ? '' : s)
+  .replace(/&apos;/g, "'").replace(/&#0*39;/g, "'").replace(/&rsquo;|&lsquo;/g, "'")
+  .replace(/&quot;/g, '"').replace(/&#0*34;/g, '"').replace(/&rdquo;|&ldquo;/g, '"')
+  .replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&nbsp;/g, ' ').replace(/&amp;/g, '&');
 const bathStr = b => (b % 1 === 0 ? b : b.toFixed(1));
 // The index record carries only `primaryPhoto`; the full record (drawer detail / listings.json) carries
 // `photos[]`. Resolve to a non-empty array so cards, the gallery and photo-stepping have something to show.
@@ -79,11 +85,11 @@ function photosOf(l) {
 // modal, alt-text, map query or mailto can accidentally leak a withheld street address.
 function addrLine(l) {
   const a = (l && l.address) || {};
-  return a.line ? a.line : 'Address available on request';
+  return a.line ? deEnt(a.line) : 'Address available on request';
 }
 function addrFull(l) {
   const a = (l && l.address) || {};
-  const head = a.line ? a.line + ', ' : '';
+  const head = a.line ? deEnt(a.line) + ', ' : '';
   return head + [a.city, a.state].filter(Boolean).join(' ');
 }
 // The listing firm + agent contact SmartMLS requires on every card (§12.3.2 / §12.3.4). Attribution
@@ -646,7 +652,7 @@ function renderDrawer(l) {
         <a class="btn btn-act" href="mailto:${EMAIL}?subject=${encodeURIComponent('Tour request: ' + addrFull(l))}&body=${mailBody}">Request a tour</a>
         <button class="btn btn-out" data-fav="${esc(l.mls)}">${fav ? '♥ Saved' : '♡ Save'}</button>
       </div>
-      ${l.remarks ? `<div class="d-section"><h4>About this home</h4><p class="d-remarks">${esc(l.remarks)}</p></div>` : ''}
+      ${l.remarks ? `<div class="d-section"><h4>About this home</h4><p class="d-remarks">${esc(deEnt(l.remarks))}</p></div>` : ''}
       <div class="d-section"><h4>Facts &amp; features</h4>
         <div class="d-facts">${facts.map(f => `<div class="d-fact"><span>${esc(f[0])}</span><b>${esc(f[1])}</b></div>`).join('')}</div>
       </div>

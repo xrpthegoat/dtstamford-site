@@ -188,7 +188,7 @@ function filtered() {
     // type filter silently returns nothing against real feed data.
     if (state.types.length && !state.types.some(t => propMatches(t, l.propertyType))) return false;
     if (q) {
-      const hay = `${l.address.line || ''} ${l.address.city} ${l.address.neighborhood || ''} ${l.address.zip || ''}`.toLowerCase();
+      const hay = `${l.mls || ''} ${l.address.line || ''} ${l.address.city} ${l.address.neighborhood || ''} ${l.address.zip || ''}`.toLowerCase();
       if (!hay.includes(q)) return false;
     }
     if (state.bounds && !state.bounds.contains([l.geo.lat, l.geo.lng])) return false;

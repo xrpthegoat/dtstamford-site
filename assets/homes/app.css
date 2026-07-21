@@ -256,6 +256,23 @@ html{overflow-x:hidden;overscroll-behavior:none}
   font-size:.8rem;font-weight:600;cursor:pointer;box-shadow:0 14px 34px -18px rgba(0,0,0,.9)}
 .map-search-here:hover{border-color:var(--gold-d);color:var(--gold-l)}
 
+/* ---- Draw-area tool ---- */
+.map-draw-btn{position:absolute;top:14px;right:14px;z-index:500;padding:10px 16px;border-radius:999px;
+  border:1px solid var(--line);background:rgba(16,16,20,.92);backdrop-filter:blur(14px);color:var(--fg);
+  font-family:var(--sans);font-size:.8rem;font-weight:600;cursor:pointer;box-shadow:0 14px 34px -18px rgba(0,0,0,.9)}
+.map-draw-btn:hover{border-color:var(--gold-d);color:var(--gold-l)}
+.map-draw-btn.is-on{background:linear-gradient(180deg,var(--gold-l),var(--gold));color:#161006;border-color:transparent}
+.map-clear-area{position:absolute;top:58px;right:14px;z-index:500;padding:8px 14px;border-radius:999px;
+  border:1px solid var(--gold-d);background:rgba(16,16,20,.92);backdrop-filter:blur(14px);color:var(--gold-l);
+  font-family:var(--sans);font-size:.78rem;font-weight:600;cursor:pointer;box-shadow:0 14px 34px -18px rgba(0,0,0,.9)}
+.map-clear-area[hidden]{display:none}
+.map-clear-area:hover{color:#fff;border-color:var(--gold)}
+/* crosshair cursor while DRAW mode is armed / dragging */
+.leaflet-container.drawing,.leaflet-container.drawing .leaflet-grab,
+.leaflet-container.drawing .leaflet-marker-icon{cursor:crosshair!important}
+/* the drawn circle overlay never intercepts clicks */
+.draw-circle{pointer-events:none}
+
 /* ---------- EMPTY / LEGAL ---------- */
 .empty{text-align:center;padding:60px 24px;max-width:440px;margin:20px auto}
 .empty-emoji{font-size:2.4rem;margin-bottom:14px}

@@ -44,17 +44,72 @@ function commuteFor(l) {
   return (hood && COMMUTE_INFO[hood]) || COMMUTE_DEFAULT;
 }
 
+/* ---------- nearest train station (walk-time filter) ----------
+   Metro-North New Haven Line + New Canaan/Danbury branch stops near Stamford, INLINED here (not a
+   window global) so there is zero dependency on inline-script load order on this static page. Straight-
+   line (haversine) distance -> walking minutes at ~5 km/h (83.33 m/min). Deliberately as-the-crow-flies
+   (real walks run longer) — good enough to filter "roughly within an X-minute walk of a train". */
+const STATIONS = [
+  {name:'Greenwich', lat:41.0217, lng:-73.6262},
+  {name:'Cos Cob', lat:41.0313, lng:-73.5987},
+  {name:'Riverside', lat:41.0353, lng:-73.5817},
+  {name:'Old Greenwich', lat:41.0369, lng:-73.5658},
+  {name:'Stamford', lat:41.0466, lng:-73.5420},
+  {name:'Noroton Heights', lat:41.0637, lng:-73.4977},
+  {name:'Darien', lat:41.0776, lng:-73.4693},
+  {name:'Rowayton', lat:41.0897, lng:-73.4438},
+  {name:'South Norwalk', lat:41.0965, lng:-73.4222},
+  {name:'East Norwalk', lat:41.1004, lng:-73.4025},
+  {name:'Westport', lat:41.1189, lng:-73.3703},
+  {name:"Green's Farms", lat:41.1233, lng:-73.3154},
+  {name:'Glenbrook', lat:41.0578, lng:-73.5257},
+  {name:'Springdale', lat:41.0722, lng:-73.5236},
+  {name:'Talmadge Hill', lat:41.1160, lng:-73.4981},
+  {name:'New Canaan', lat:41.1463, lng:-73.4956},
+  {name:'Merritt 7', lat:41.1480, lng:-73.4277},
+  {name:'Wilton', lat:41.1959, lng:-73.4321},
+  {name:'Cannondale', lat:41.2167, lng:-73.4267},
+  {name:'Branchville', lat:41.2667, lng:-73.4409},
+];
+const WALK_M_PER_MIN = 83.33;   // 5 km/h / 60 min, in meters
+
+// Great-circle distance in METERS (haversine). R = 6371000 matches Leaflet's L.CRS.Earth, so this is
+// ALSO the exact cutoff for the drawn-circle area filter (state.circle) — the two features share it.
+function haversineM(lat1, lng1, lat2, lng2) {
+  const R = 6371000, toRad = d => d * Math.PI / 180;
+  const dLat = toRad(lat2 - lat1), dLng = toRad(lng2 - lng1);
+  const a = Math.sin(dLat / 2) ** 2 +
+            Math.cos(toRad(lat1)) * Math.cos(toRad(lat2)) * Math.sin(dLng / 2) ** 2;
+  return 2 * R * Math.asin(Math.min(1, Math.sqrt(a)));
+}
+
+// Nearest-station walk minutes for a listing, MEMOIZED (l._trainMin) so the ~20-station sweep runs
+// ONCE per listing, not per keystroke over ~1,700 rows. Infinity when uncomputable.
+function trainMinFor(l) {
+  if (l._trainMin !== undefined) return l._trainMin;
+  if (!STATIONS.length || !l.geo || !Number.isFinite(l.geo.lat)) { l._trainMin = Infinity; l._trainStation = null; return Infinity; }
+  let best = Infinity, bestSt = null;
+  for (const st of STATIONS) {
+    const m = haversineM(l.geo.lat, l.geo.lng, st.lat, st.lng);
+    if (m < best) { best = m; bestSt = st; }
+  }
+  l._trainMin = Math.round(best / WALK_M_PER_MIN);
+  l._trainStation = bestSt;
+  return l._trainMin;
+}
+
 const state = {
   all: [], meta: null,
   type: 'sale', q: '', priceMin: 0, priceMax: 0,
-  beds: 0, baths: 0, types: [], cities: [], sort: 'new',
-  view: 'split', bounds: null, savedOnly: false,
+  beds: 0, baths: 0, types: [], cities: [], maxTrainMin: 0, sort: 'new',
+  view: 'split', bounds: null, circle: null, savedOnly: false,
   favs: new Set(JSON.parse(localStorage.getItem('dts_favs') || '[]')),
   cardIndex: {},        // mls -> current photo index
   byMls: {},            // mls -> listing, for delegated card events
 };
 
 let map, markerLayer, markers = {};
+let drawMode = false, drawnCircle = null, _drawStart = null;
 
 /* ---------- helpers ---------- */
 const $ = (s, r = document) => r.querySelector(s);
@@ -196,11 +251,17 @@ function filtered() {
     // type filter silently returns nothing against real feed data.
     if (state.types.length && !state.types.some(t => propMatches(t, l.propertyType))) return false;
     if (state.cities.length && !state.cities.includes(l.address && l.address.city)) return false;
+    // Max walk-minutes to nearest train. trainMinFor is memoized (l._trainMin) -> O(1) after the first
+    // pass, and only evaluated when the filter is active (no cost when maxTrainMin is 0/Any).
+    if (state.maxTrainMin && trainMinFor(l) > state.maxTrainMin) return false;
     if (q) {
       const hay = `${l.mls || ''} ${l.address.line || ''} ${l.address.city} ${l.address.neighborhood || ''} ${l.address.zip || ''}`.toLowerCase();
       if (!hay.includes(q)) return false;
     }
     if (state.bounds && !state.bounds.contains([l.geo.lat, l.geo.lng])) return false;
+    // Draw-a-circle area filter. Mutually exclusive with state.bounds (setCircle nulls bounds); shares
+    // haversineM with the train filter so the cutoff equals the drawn L.circle's edge exactly.
+    if (state.circle && haversineM(state.circle.lat, state.circle.lng, l.geo.lat, l.geo.lng) > state.circle.radius) return false;
     if (state.savedOnly && !state.favs.has(l.mls)) return false;
     return true;
   });
@@ -509,9 +570,85 @@ function initMap() {
   map.on('moveend', () => { if (moved) $('#searchHere').hidden = false; });
   $('#searchHere').addEventListener('click', () => {
     state.bounds = map.getBounds();
+    // rectangle supersedes any drawn circle - the two area filters are mutually exclusive
+    if (state.circle) { state.circle = null; if (drawnCircle) { map.removeLayer(drawnCircle); drawnCircle = null; } }
     $('#searchHere').hidden = true;
     render();
   });
+
+  // ---- Draw-a-circle area tool ----
+  const drawBtn = $('#drawArea');
+  if (drawBtn) drawBtn.addEventListener('click', (e) => {
+    e.stopPropagation();
+    if (drawMode) { exitDrawMode(); if (drawnCircle && !state.circle) { map.removeLayer(drawnCircle); drawnCircle = null; } }
+    else enterDrawMode();
+  });
+  const clearBtn = $('#clearArea');
+  if (clearBtn) clearBtn.addEventListener('click', (e) => { e.stopPropagation(); clearCircle(); });
+
+  // Mouse draw (desktop): Leaflet supplies e.latlng on each event.
+  map.on('mousedown', (e) => { if (drawMode) { L.DomEvent.preventDefault(e.originalEvent); drawStart(e.latlng); } });
+  map.on('mousemove', (e) => { if (drawMode && _drawStart) drawMove(e.latlng); });
+  map.on('mouseup',   (e) => { if (drawMode && _drawStart) drawEnd(e.latlng); });
+
+  // Touch draw (mobile map view): Leaflet's synthetic mouse events don't cover a touch-drag, so map raw
+  // container touches to latlng ourselves and preventDefault so the page/map doesn't scroll while drawing.
+  const mc = map.getContainer();
+  mc.addEventListener('touchstart', (e) => { if (!drawMode || !e.touches[0]) return; e.preventDefault(); drawStart(map.mouseEventToLatLng(e.touches[0])); }, { passive: false });
+  mc.addEventListener('touchmove', (e) => { if (!drawMode || !_drawStart || !e.touches[0]) return; e.preventDefault(); drawMove(map.mouseEventToLatLng(e.touches[0])); }, { passive: false });
+  mc.addEventListener('touchend', (e) => { if (!drawMode || !_drawStart) return; e.preventDefault(); drawEnd(map.mouseEventToLatLng(e.changedTouches[0])); }, { passive: false });
+}
+
+/* ---------- draw-a-circle area tool ---------- */
+function enterDrawMode() {
+  if (!map) return;
+  drawMode = true;
+  map.dragging.disable(); map.doubleClickZoom.disable();
+  L.DomUtil.addClass(map.getContainer(), 'drawing');
+  const b = $('#drawArea'); if (b) { b.classList.add('is-on'); b.setAttribute('aria-pressed', 'true'); }
+}
+function exitDrawMode() {
+  drawMode = false;
+  if (map) { map.dragging.enable(); map.doubleClickZoom.enable(); L.DomUtil.removeClass(map.getContainer(), 'drawing'); }
+  const b = $('#drawArea'); if (b) { b.classList.remove('is-on'); b.setAttribute('aria-pressed', 'false'); }
+}
+function drawStart(latlng) {
+  if (!drawMode) return;
+  _drawStart = latlng;
+  if (drawnCircle) { map.removeLayer(drawnCircle); drawnCircle = null; }
+  drawnCircle = L.circle(latlng, { radius: 0, className: 'draw-circle', color: '#cbab68', weight: 2, fillColor: '#cbab68', fillOpacity: .12, interactive: false }).addTo(map);
+}
+function drawMove(latlng) {
+  if (!drawMode || !_drawStart || !drawnCircle) return;
+  drawnCircle.setRadius(_drawStart.distanceTo(latlng));   // meters (Leaflet spherical) - matches haversineM
+}
+function drawEnd(latlng) {
+  if (!drawMode || !_drawStart) return;
+  const center = _drawStart, r = _drawStart.distanceTo(latlng || _drawStart);
+  _drawStart = null;
+  exitDrawMode();
+  if (r < 30) { if (drawnCircle) { map.removeLayer(drawnCircle); drawnCircle = null; } return; }   // a tap, not a drag -> cancel
+  setCircle({ lat: +center.lat.toFixed(6), lng: +center.lng.toFixed(6), radius: Math.round(r) });
+}
+// Commit a circle filter (fresh draw OR URL restore). Clears the rectangle bounds - mutually exclusive.
+function setCircle(c) {
+  state.circle = c;
+  state.bounds = null;
+  const sh = $('#searchHere'); if (sh) sh.hidden = true;
+  drawCircleOverlay();
+  render();
+}
+function clearCircle() {
+  state.circle = null;
+  if (drawnCircle && map) { map.removeLayer(drawnCircle); drawnCircle = null; }
+  render();
+}
+// (Re)paint the persisted overlay from state.circle - after a URL load and to normalize a fresh circle.
+function drawCircleOverlay() {
+  if (!map) return;
+  if (drawnCircle) { map.removeLayer(drawnCircle); drawnCircle = null; }
+  if (!state.circle) return;
+  drawnCircle = L.circle([state.circle.lat, state.circle.lng], { radius: state.circle.radius, className: 'draw-circle', color: '#cbab68', weight: 2, fillColor: '#cbab68', fillOpacity: .12, interactive: false }).addTo(map);
 }
 
 function renderMarkers(list) {
@@ -540,7 +677,8 @@ function renderMarkers(list) {
   if (markerLayer.addLayers) markerLayer.addLayers(batch);
   else batch.forEach(m => m.addTo(markerLayer));
   state._pts = pts;   // stored so fitAllMarkers() can re-fit when the map becomes visible
-  if (pts.length && !state.bounds) {
+  // Also skip auto-fit while a circle is active, so drawing one doesn't zoom the viewport away from it.
+  if (pts.length && !state.bounds && !state.circle) {
     try { map.fitBounds(pts, { padding: [40, 40], maxZoom: 15 }); } catch (e) {}
   }
   setTimeout(() => map.invalidateSize(), 60);
@@ -796,12 +934,21 @@ function syncFilterChrome() {
     cityBtn.classList.toggle('has-val', state.cities.length > 0);
     $('.drop[data-drop="city"] .drop-lbl').textContent = state.cities.length ? `${state.cities.length} cit${state.cities.length > 1 ? 'ies' : 'y'}` : 'City';
   }
+  const trainBtn = $('.drop[data-drop="train"] .drop-btn');
+  if (trainBtn) {
+    trainBtn.classList.toggle('has-val', !!state.maxTrainMin);
+    $('.drop[data-drop="train"] .drop-lbl').textContent = state.maxTrainMin ? `≤ ${state.maxTrainMin} min` : 'Train';
+  }
+  // circle area filter: the map's Clear-area button tracks state.circle each render (folded in here
+  // instead of a separate syncAreaChrome()/render() edit).
+  const clearAreaBtn = $('#clearArea'); if (clearAreaBtn) clearAreaBtn.hidden = !state.circle;
   const sortNames = { new: 'Newest', 'price-asc': 'Price ↑', 'price-desc': 'Price ↓', beds: 'Most beds', sqft: 'Largest' };
   $('.drop[data-drop="sort"] .drop-lbl').textContent = 'Sort: ' + sortNames[state.sort];
 
-  // active-filter count badge (search + price + beds/baths + type; sort/view aren't "filters")
+  // active-filter count badge (search + price + beds/baths + type + city + train + area circle)
   const activeCount = (state.q ? 1 : 0) + ((state.priceMin || state.priceMax) ? 1 : 0) +
-    ((state.beds || state.baths) ? 1 : 0) + (state.types.length ? 1 : 0) + (state.cities.length ? 1 : 0);
+    ((state.beds || state.baths) ? 1 : 0) + (state.types.length ? 1 : 0) + (state.cities.length ? 1 : 0) +
+    (state.maxTrainMin ? 1 : 0) + (state.circle ? 1 : 0);
   const badge = $('#filterBadge');
   if (badge) {
     badge.hidden = activeCount === 0;
@@ -916,6 +1063,12 @@ function wireControls() {
     $$('#sortCol .radx').forEach(x => x.classList.toggle('is-on', x === r));
     render(); closeDrops();
   }));
+  // train walk-time radios (mirrors the sort radios: pick one, re-render, close)
+  $$('#trainCol .radx').forEach(r => r.addEventListener('click', () => {
+    state.maxTrainMin = +r.dataset.train;
+    $$('#trainCol .radx').forEach(x => x.classList.toggle('is-on', x === r));
+    render(); closeDrops();
+  }));
 
   // clear buttons
   $$('[data-clear]').forEach(c => c.addEventListener('click', () => {
@@ -932,13 +1085,15 @@ function wireControls() {
 
   // reset (note: intentionally does NOT clear the Saved view — that's a separate lens, not a filter)
   $('#resetBtn').addEventListener('click', () => {
-    Object.assign(state, { q: '', priceMin: 0, priceMax: 0, beds: 0, baths: 0, types: [], cities: [], sort: 'new', bounds: null });
+    Object.assign(state, { q: '', priceMin: 0, priceMax: 0, beds: 0, baths: 0, types: [], cities: [], maxTrainMin: 0, sort: 'new', bounds: null, circle: null });
+    if (drawnCircle && map) { map.removeLayer(drawnCircle); drawnCircle = null; }
     $('#q').value = '';
     buildPriceSelects();
     $$('#bedsRow .pillx').forEach(x => x.classList.toggle('is-on', x.dataset.beds === '0'));
     $$('#bathsRow .pillx').forEach(x => x.classList.toggle('is-on', x.dataset.baths === '0'));
     $$('#typeCol input').forEach(i => i.checked = false);
     $$('#cityCol input').forEach(i => i.checked = false);
+    $$('#trainCol .radx').forEach(x => x.classList.toggle('is-on', x.dataset.train === '0'));
     $$('#sortCol .radx').forEach(x => x.classList.toggle('is-on', x.dataset.sort === 'new'));
     render();
   });
@@ -985,6 +1140,7 @@ function wireControls() {
       if (e.key === 'ArrowRight') { stepFS(1); return; }
       return;
     }
+    if (e.key === 'Escape' && drawMode) { exitDrawMode(); if (drawnCircle && !state.circle) { map.removeLayer(drawnCircle); drawnCircle = null; } return; }
     if (e.key === 'Escape') { closeDrops(); closeDetail(); }
   });
   // hardware/browser Back (or the history.back() from closeDetail) pops our entry → tear the drawer down,
@@ -1006,8 +1162,10 @@ function syncURL() {
   if (state.baths) p.set('ba', state.baths);
   if (state.types.length) p.set('ty', state.types.join(','));
   if (state.cities.length) p.set('ci', state.cities.join(','));
+  if (state.maxTrainMin) p.set('train', state.maxTrainMin);
   if (state.sort !== 'new') p.set('s', state.sort);
   if (state.view !== 'split') p.set('v', state.view);
+  if (state.circle) p.set('circle', `${state.circle.lat},${state.circle.lng},${state.circle.radius}`);
   const qs = p.toString();
   history.replaceState(null, '', qs ? '?' + qs : location.pathname);
 }
@@ -1021,8 +1179,13 @@ function readURL() {
   if (p.get('ba')) { state.baths = +p.get('ba'); $$('#bathsRow .pillx').forEach(x => x.classList.toggle('is-on', x.dataset.baths === p.get('ba'))); }
   if (p.get('ty')) { state.types = p.get('ty').split(','); $$('#typeCol input').forEach(i => i.checked = state.types.includes(i.value)); }
   if (p.get('ci')) { state.cities = p.get('ci').split(','); $$('#cityCol input').forEach(i => i.checked = state.cities.includes(i.value)); }
+  if (p.get('train')) { state.maxTrainMin = +p.get('train'); $$('#trainCol .radx').forEach(x => x.classList.toggle('is-on', x.dataset.train === p.get('train'))); }
   if (p.get('s')) { state.sort = p.get('s'); $$('#sortCol .radx').forEach(x => x.classList.toggle('is-on', x.dataset.sort === state.sort)); }
   if (p.get('v')) { state.view = p.get('v'); $$('.vt-btn').forEach(x => x.classList.toggle('is-on', x.dataset.view === state.view)); $('#app').dataset.view = state.view; }
+  if (p.get('circle')) {
+    const c = p.get('circle').split(',').map(Number);
+    if (c.length === 3 && c.every(Number.isFinite) && c[2] > 0) { state.circle = { lat: c[0], lng: c[1], radius: c[2] }; drawCircleOverlay(); }
+  }
 }
 
 /* CSS.escape shim for attribute selectors (MLS ids are alnum, but be safe) */

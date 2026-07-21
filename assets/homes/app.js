@@ -17,7 +17,7 @@ const PLACEHOLDER_PHOTO = 'assets/stamford-ct-single-family-home-exterior.jpg';
 
 const HOME_TYPES = ['Single Family', 'Condo', 'Multi-Family', 'Townhouse', 'Co-op', 'Land'];
 const SALE_STEPS = [0, 200000, 300000, 400000, 500000, 600000, 750000, 900000, 1000000, 1250000, 1500000, 2000000, 3000000, 5000000];
-const RENT_STEPS = [0, 1500, 1800, 2000, 2250, 2500, 3000, 3500, 4000, 5000, 7500, 10000];
+const RENT_STEPS = [0, 1500, 1800, 2000, 2200, 2250, 2500, 3000, 3500, 4000, 5000, 7500, 10000];
 
 /* Commute copy kept consistent with the published numbers on living-in-stamford.html /
    stamford-to-nyc-commute.html: express Metro-North trains run ~50 min to Grand Central,

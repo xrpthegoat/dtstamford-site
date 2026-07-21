@@ -590,7 +590,14 @@
     .li-card .lc-price{font-family:"Space Grotesk",system-ui,sans-serif;font-weight:700;font-size:1.05rem;color:#e3c47e;letter-spacing:-.01em}
     .li-card .lc-addr{font-size:.82rem;color:#d7d7db;margin-top:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
     .li-card .lc-meta{font-family:"Space Mono",ui-monospace,monospace;font-size:.6rem;letter-spacing:.06em;text-transform:uppercase;color:#8b8b93;margin-top:4px}
-    @media(max-width:760px){.li-stat{padding:6px 16px}.li-div{height:30px}}
+    .li-bands{max-width:1120px;margin:14px auto 2px;padding:0 20px;display:flex;flex-direction:column;gap:8px}
+    .li-band-row{display:flex;align-items:center;gap:8px;flex-wrap:wrap;font-size:.8rem;color:#c7c7cf}
+    .li-band-lbl{font-family:"Space Mono",ui-monospace,monospace;font-size:.6rem;letter-spacing:.14em;text-transform:uppercase;color:#8b8b93;min-width:52px}
+    .li-chip{display:inline-flex;align-items:center;gap:5px;text-decoration:none;color:#c7c7cf;border:1px solid rgba(255,255,255,.10);border-radius:999px;padding:4px 11px;transition:border-color .2s,color .2s}
+    .li-chip:hover{border-color:rgba(227,196,126,.5);color:#e3c47e}
+    .li-chip b{color:#e3c47e;font-family:"Space Grotesk",system-ui,sans-serif;font-weight:700;font-variant-numeric:tabular-nums}
+    .li-med{font-family:"Space Mono",ui-monospace,monospace;font-size:.64rem;letter-spacing:.04em;color:#8b8b93;margin-left:auto}
+    @media(max-width:760px){.li-stat{padding:6px 16px}.li-div{height:30px}.li-med{margin-left:0;width:100%}}
   </style>
   <section class="liveinv" id="liveInv" hidden aria-label="Stamford homes for sale and rent right now">
     <div class="wrap">
@@ -600,6 +607,22 @@
         <a class="li-stat" href="search.html?type=rent"><span class="li-n" id="liRent">—</span><span class="li-l">for rent</span></a>
         <span class="li-div" aria-hidden="true"></span>
         <a class="li-stat" href="search.html"><span class="li-n" id="liTotal">—</span><span class="li-l">total in Stamford</span></a>
+      </div>
+      <div class="li-bands" id="liBands" hidden>
+        <div class="li-band-row">
+          <span class="li-band-lbl">For sale</span>
+          <a class="li-chip" href="search.html?type=sale"><b id="lbSale300">—</b> under $300K</a>
+          <a class="li-chip" href="search.html?type=sale"><b id="lbSale600">—</b> under $600K</a>
+          <a class="li-chip" href="search.html?type=sale"><b id="lbSale1m">—</b> under $1M</a>
+          <span class="li-med" id="lbMedSale"></span>
+        </div>
+        <div class="li-band-row">
+          <span class="li-band-lbl">For rent</span>
+          <a class="li-chip" href="search.html?type=rent"><b id="lbRent18">—</b> under $1,800</a>
+          <a class="li-chip" href="search.html?type=rent"><b id="lbRent22">—</b> under $2,200</a>
+          <a class="li-chip" href="search.html?type=rent"><b id="lbRent30">—</b> under $3,000</a>
+          <span class="li-med" id="lbMedRent"></span>
+        </div>
       </div>
       <div class="li-new" id="liNew" hidden>
         <div class="li-new-hd"><span class="li-dot"></span> Added today <span class="li-new-n" id="liNewN"></span></div>
@@ -616,6 +639,15 @@
       var set=function(id,v){ var e=document.getElementById(id); if(e) e.textContent=Number(v||0).toLocaleString('en-US'); };
       set('liSale',s.forSale); set('liRent',s.forRent); set('liTotal',s.total);
       document.getElementById('liveInv').hidden=false;
+      // price bands + medians (recomputed server-side every refresh)
+      var setT=function(id,v){var e=document.getElementById(id); if(e) e.textContent=Number(v||0).toLocaleString('en-US');};
+      var sb=s.saleBands||{}, rb=s.rentBands||{};
+      setT('lbSale300',sb.u300k); setT('lbSale600',sb.u600k); setT('lbSale1m',sb.u1m);
+      setT('lbRent18',rb.u1800); setT('lbRent22',rb.u2200); setT('lbRent30',rb.u3000);
+      var shortM=function(n){ if(n==null) return ''; if(n>=1e6) return '$'+(n/1e6).toFixed(n%1e6?1:0)+'M'; if(n>=1e3) return '$'+Math.round(n/1e3)+'K'; return '$'+Math.round(n); };
+      if(s.medianSale){ var ms=document.getElementById('lbMedSale'); if(ms) ms.textContent='median '+shortM(s.medianSale); }
+      if(s.medianRent){ var mr=document.getElementById('lbMedRent'); if(mr) mr.textContent='median $'+Math.round(s.medianRent).toLocaleString('en-US')+'/mo'; }
+      if(s.saleBands||s.rentBands){ var lb=document.getElementById('liBands'); if(lb) lb.hidden=false; }
       var nt=s.newToday||[];
       if(nt.length){
         document.getElementById('liNewN').textContent='· '+(s.newTodayCount||nt.length);

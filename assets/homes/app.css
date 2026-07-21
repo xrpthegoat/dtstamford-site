@@ -108,9 +108,10 @@ html{overflow-x:hidden;overscroll-behavior:none}
 .fb-badge:hover{background:rgba(203,171,104,.2);transform:translateY(-1px)}
 .fb-badge span{display:inline-flex;align-items:center;justify-content:center;min-width:16px;height:16px;padding:0 4px;
   border-radius:50%;background:var(--gold);color:#161006;font-weight:700;font-size:.62rem}
-.fb-reset{background:none;border:0;color:var(--muted);font-family:var(--mono);font-size:.64rem;letter-spacing:.12em;
-  text-transform:uppercase;cursor:pointer;padding:8px 6px;transition:color .2s;flex:none}
-.fb-reset:hover{color:var(--fg)}
+.fb-reset{display:inline-flex;align-items:center;border-radius:999px;border:1px solid var(--line);background:rgba(255,255,255,.03);
+  color:var(--muted);font-family:var(--mono);font-size:.64rem;letter-spacing:.12em;
+  text-transform:uppercase;cursor:pointer;padding:9px 14px;transition:color .2s,border-color .2s,background .2s;flex:none}
+.fb-reset:hover{color:var(--fg);border-color:rgba(255,255,255,.22)}
 .fb-saved{display:inline-flex;align-items:center;gap:7px;padding:9px 14px;border-radius:999px;cursor:pointer;
   border:1px solid var(--line);background:rgba(255,255,255,.03);color:var(--fg-soft);font-family:var(--sans);
   font-size:.8rem;font-weight:500;transition:border-color .25s,background .25s,color .25s;flex:none}
@@ -401,12 +402,14 @@ html{overflow-x:hidden;overscroll-behavior:none}
   .drop-panel{min-width:min(300px,92vw);max-width:92vw}
 
   /* row 3: thin Saved + view toggle; Split is meaningless on a phone → hidden */
-  .fb-group-view{flex:1 1 100%;order:3;margin:0;justify-content:space-between;align-items:center}
+  /* row 3: Saved + Reset grouped on the left, List/Map pushed to the right */
+  .fb-group-view{flex:1 1 100%;order:3;margin:0;justify-content:flex-start;align-items:center;gap:10px}
+  .fb-group-view .fb-viewtoggle{margin-left:auto}
   .vt-btn[data-view="split"]{display:none}
   .vt-btn{padding:8px 14px;min-height:34px}
   .fb-saved{padding:8px 12px;min-height:34px}
   .fb-badge{padding:8px 12px;min-height:34px}
-  .fb-reset{padding:8px 6px;min-height:34px;flex:0 0 auto;align-self:center}
+  .fb-reset{padding:9px 13px;min-height:34px;flex:0 0 auto}
 
   /* Split has no room on a phone. Render it exactly like List (map hidden, full-width cards),
      independent of the JS default — so even if view state is 'split', the phone never shows the

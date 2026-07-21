@@ -458,7 +458,10 @@ function initMap() {
     ? L.markerClusterGroup({
         showCoverageOnHover: false,
         spiderfyOnMaxZoom: true,
-        maxClusterRadius: 72,
+        // Below zoom 15, keep a readable 72px clump. At 15+ the radius drops to ~6px so clusters break
+        // apart into individual pins as you zoom — and ONLY listings at (near) the same coordinates, i.e.
+        // the same building, stay grouped (click the count to fan the units out).
+        maxClusterRadius: (zoom) => (zoom >= 15 ? 6 : 72),
         chunkedLoading: true,
         iconCreateFunction: (cluster) => {
           const n = cluster.getChildCount();
@@ -631,7 +634,9 @@ function renderDrawer(l) {
         <div class="d-facts">${facts.map(f => `<div class="d-fact"><span>${esc(f[0])}</span><b>${esc(f[1])}</b></div>`).join('')}</div>
       </div>
       ${(l.features && l.features.length) ? `<div class="d-section"><h4>Highlights</h4><div class="d-feats">${l.features.map(f => `<span class="d-feat">${esc(f)}</span>`).join('')}</div></div>` : ''}
-      <div class="d-section"><h4>Location</h4><div class="d-map" id="dMap"></div></div>
+      <div class="d-section"><h4>Location</h4><div class="d-map" id="dMap"></div>
+        ${l.address.line ? `<a class="d-directions" href="https://www.google.com/maps/dir/?api=1&destination=${mapsQ}" target="_blank" rel="noopener">🧭 Get directions · drive by</a>` : ''}
+      </div>
       ${mlsAttrib(l)}
       <div class="d-legal">${state.meta && state.meta.disclaimer ? esc(state.meta.disclaimer) : (state.meta && state.meta.attribution ? esc(state.meta.attribution) : '')}
         ${l.slug ? `<br><a class="d-seo-link" href="homes/${esc(l.slug)}.html">View full listing page ↗</a>` : ''}
@@ -730,14 +735,28 @@ function wireControls() {
   // dropdown open/close (+ right-edge collision detection so a panel near the
   // right edge of the bar, e.g. "Sort", never overflows the viewport)
   // Place a fixed-position dropdown under its button, clamped so no edge runs off-screen.
+  // The panel is position:fixed, but the filter bar's backdrop-filter makes .fb-inner the CONTAINING
+  // BLOCK for fixed descendants — so "fixed" coords are relative to that box, not the viewport, and the
+  // panel drifted ~90px below/right of its button. Find the nearest such ancestor and subtract its
+  // offset so the panel lands exactly under the button.
+  function fixedCB(el) {
+    for (let p = el.parentElement; p; p = p.parentElement) {
+      const s = getComputedStyle(p);
+      if (s.transform !== 'none' || s.perspective !== 'none' || s.filter !== 'none' ||
+          s.backdropFilter !== 'none' || /transform|filter/.test(s.willChange)) return p.getBoundingClientRect();
+    }
+    return null;
+  }
   function positionPanel(btn, panel) {
     const b = btn.getBoundingClientRect();
-    panel.style.top = Math.round(b.bottom + 10) + 'px';
+    const cb = fixedCB(panel);
+    const ox = cb ? cb.left : 0, oy = cb ? cb.top : 0;
+    panel.style.top = Math.round(b.bottom + 10 - oy) + 'px';
     // measure width with left temporarily set, then clamp horizontally
     panel.style.left = '0px';
     const pw = panel.offsetWidth;
     const left = Math.max(10, Math.min(b.left, window.innerWidth - pw - 10));
-    panel.style.left = Math.round(left) + 'px';
+    panel.style.left = Math.round(left - ox) + 'px';
   }
   // keep an open panel glued to its button on resize/scroll
   window.addEventListener('resize', () => {

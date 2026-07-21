@@ -265,11 +265,16 @@
 .drawer{position:fixed;top:0;right:0;bottom:0;z-index:210;width:min(560px,94vw);background:var(--bg2);border-left:1px solid var(--line);
   transform:translateX(100%);transition:transform .5s var(--ease);overflow-y:auto;box-shadow:-30px 0 80px -30px rgba(0,0,0,.9)}
 .drawer.show{transform:none}
-.drawer-close{position:sticky;top:14px;float:right;margin:14px 14px 0;z-index:5;width:40px;height:40px;border-radius:50%;
-  border:1px solid var(--line);background:rgba(6,6,8,.7);backdrop-filter:blur(10px);color:#fff;font-size:1rem;cursor:pointer;transition:transform .3s,background .3s}
+/* ✕ sits INSIDE the photo, top-left (not floated — the float pushed the gallery down and off). */
+.drawer-close{position:absolute;top:12px;left:12px;z-index:6;width:40px;height:40px;border-radius:50%;
+  border:1px solid rgba(255,255,255,.38);background:rgba(6,6,8,.72);backdrop-filter:blur(10px);color:#fff;font-size:1rem;cursor:pointer;
+  display:flex;align-items:center;justify-content:center;box-shadow:0 6px 18px -6px rgba(0,0,0,.85);transition:transform .3s,background .3s}
 .drawer-close:hover{transform:scale(1.1);background:rgba(6,6,8,.95)}
+/* photo fills the full drawer width, flush to the top (no wrap gap now the ✕ is absolute). */
 .d-gallery{position:relative;aspect-ratio:16/11;background:#111;overflow:hidden}
-.d-gallery img{width:100%;height:100%;object-fit:cover}
+.d-gallery img{display:block;width:100%;height:100%;object-fit:cover;object-position:center}
+/* compact share icon that lives in the CTA row next to Save (overrides .d-cta .btn's flex:1). */
+.d-cta .d-cta-share{flex:0 0 auto;min-width:0;width:54px;padding:0}
 .d-gnav{position:absolute;top:50%;transform:translateY(-50%);width:40px;height:40px;border-radius:50%;border:0;background:rgba(6,6,8,.55);
   backdrop-filter:blur(6px);color:#fff;cursor:pointer;font-size:1.1rem;display:flex;align-items:center;justify-content:center}
 .d-gnav.prev{left:12px}.d-gnav.next{right:12px}
@@ -296,14 +301,8 @@
   font-weight:600;font-size:.86rem;text-decoration:none;transition:background .2s,border-color .2s}
 .d-directions:hover{background:rgba(203,171,104,.14);border-color:rgba(203,171,104,.55)}
 
-/* Share-this-listing icon — top-LEFT of the detail photo gallery (clear of the ✕ close), on every
-   listing (card OR map-pin detail). Prominent: bright ring + shadow so it reads on any photo. */
-.d-share{position:absolute;top:12px;left:12px;z-index:4;width:44px;height:44px;border-radius:50%;
-  border:1.5px solid rgba(255,255,255,.42);background:rgba(6,6,8,.72);backdrop-filter:blur(8px);color:#fff;cursor:pointer;
-  display:flex;align-items:center;justify-content:center;box-shadow:0 6px 18px -6px rgba(0,0,0,.85);
-  transition:transform .25s var(--ease),background .25s,border-color .25s}
-.d-share:hover{transform:scale(1.1);background:rgba(6,6,8,.9);border-color:var(--gold-l)}
-.d-share.copied{background:linear-gradient(180deg,var(--gold-l),var(--gold));color:#161006;border-color:transparent}
+/* share-copied feedback (desktop clipboard) on the CTA-row share icon. */
+.d-cta .d-cta-share.copied{background:linear-gradient(180deg,var(--gold-l),var(--gold));color:#161006;border-color:transparent}
 .d-section{margin:24px 0}
 .d-section h4{font-family:var(--mono);font-size:.66rem;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);margin-bottom:12px}
 .d-remarks{color:var(--fg-soft);line-height:1.7;font-size:.94rem}

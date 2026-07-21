@@ -632,7 +632,6 @@ function renderDrawer(l) {
   $('#drawerBody').innerHTML = `
     <div class="d-gallery">
       <img id="dImg" src="${esc(photos[0])}" alt="${esc(addrFull(l))}" decoding="async" onerror="this.src='assets/stamford-ct-single-family-home-exterior.jpg'">
-      <button class="d-share" id="dShare" aria-label="Share this listing" title="Share this listing"><svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v13M8 7l4-4 4 4M5 12v7a2 2 0 002 2h10a2 2 0 002-2v-7"/></svg></button>
       ${photos.length > 1 ? `<button class="d-gnav prev" id="dPrev" aria-label="Previous">‹</button><button class="d-gnav next" id="dNext" aria-label="Next">›</button><div class="d-gcount" id="dCount">1 / ${photos.length}</div>` : ''}
     </div>
     <div class="d-body">
@@ -651,6 +650,7 @@ function renderDrawer(l) {
         <a class="btn btn-gold" href="tel:${PHONE}">Call John · 203·883·3399</a>
         <a class="btn btn-act" href="mailto:${EMAIL}?subject=${encodeURIComponent('Tour request: ' + addrFull(l))}&body=${mailBody}">Request a tour</a>
         <button class="btn btn-out" data-fav="${esc(l.mls)}">${fav ? '♥ Saved' : '♡ Save'}</button>
+        <button class="btn btn-out d-cta-share" id="dShare" aria-label="Share this listing" title="Share this listing"><svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v13M8 7l4-4 4 4M5 12v7a2 2 0 002 2h10a2 2 0 002-2v-7"/></svg></button>
       </div>
       ${l.remarks ? `<div class="d-section"><h4>About this home</h4><p class="d-remarks">${esc(deEnt(l.remarks))}</p></div>` : ''}
       <div class="d-section"><h4>Facts &amp; features</h4>

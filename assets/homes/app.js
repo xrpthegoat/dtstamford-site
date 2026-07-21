@@ -111,6 +111,110 @@ const state = {
 let map, markerLayer, markers = {};
 let drawMode = false, drawnCircle = null, _drawStart = null;
 
+/* ---------- accounts: "Sign in with Google" + save listings forever (Supabase Auth) ----------
+   INERT until ACCOUNTS_ENABLED = true. Flip to true AFTER the one-time Supabase setup (enable the
+   Google provider, add the redirect URLs, run the saved_listings table SQL — see ACCOUNTS-SETUP.md).
+   Until then the site saves to THIS device via localStorage exactly as before; turning accounts on
+   layers "saved forever, on any device" on top without changing anything else. Reuses the SAME
+   Supabase project + publishable anon key that track.js already ships; per-user Row-Level Security
+   guards the saved_listings table so a signed-in visitor can only ever read/write their own saves. */
+const ACCOUNTS_ENABLED = false;
+const SB_URL = 'https://ltihgxyzmgrikonlcrhy.supabase.co';
+const SB_KEY = 'sb_publishable_BBpnL4fstiTa_NozI9AWeA_aftyztov';   // publishable — safe to ship
+const GOOGLE_G = '<svg class="g-g" viewBox="0 0 48 48" width="15" height="15" aria-hidden="true">' +
+  '<path fill="#4285F4" d="M45.1 24.5c0-1.6-.1-3.1-.4-4.5H24v8.5h11.8c-.5 2.7-2 5-4.4 6.600000000000001v5.5h7.1c4.2-3.9 6.6-9.6 6.6-16.1z"/>' +
+  '<path fill="#34A853" d="M24 46c6 0 11-2 14.7-5.4l-7.1-5.5c-2 1.3-4.5 2.1-7.6 2.1-5.8 0-10.7-3.9-12.5-9.2H4.2v5.7C7.9 41.1 15.4 46 24 46z"/>' +
+  '<path fill="#FBBC05" d="M11.5 27.9c-.5-1.3-.7-2.7-.7-4.1s.3-2.8.7-4.1V14H4.2A21.9 21.9 0 0 0 2 23.8c0 3.6.9 6.9 2.2 9.8l7.3-5.7z"/>' +
+  '<path fill="#EA4335" d="M24 10.8c3.3 0 6.2 1.1 8.5 3.3l6.3-6.3C35 4.1 30 2 24 2 15.4 2 7.9 6.9 4.2 14l7.3 5.7c1.8-5.3 6.7-8.9 12.5-8.9z"/></svg>';
+let _sb = null, _acctUser = null;
+
+// Lazy-load the Supabase SDK + wire auth state. No cost when ACCOUNTS_ENABLED is false (returns early,
+// the SDK is never fetched). A load failure degrades gracefully — local saving keeps working.
+async function initAccounts() {
+  if (!ACCOUNTS_ENABLED) return;
+  try {
+    const { createClient } = await import('https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/+esm');
+    _sb = createClient(SB_URL, SB_KEY);
+    _sb.auth.onAuthStateChange((_e, session) => onAuthChange(session && session.user));
+    const { data } = await _sb.auth.getSession();
+    onAuthChange(data && data.session && data.session.user);
+  } catch (err) {
+    console.warn('accounts init failed (saving still works on this device):', err);
+    _sb = null;
+  }
+}
+
+function onAuthChange(user) {
+  const was = _acctUser;
+  _acctUser = user || null;
+  renderAcct();
+  if (_acctUser && !was) mergeCloudSaves();   // just signed in -> pull + merge the account's saves
+}
+
+// On sign-in, UNION the account's cloud saves with this device's local saves so nothing is lost, then
+// push any local-only saves up so this shortlist is preserved in the account. Repaint every surface.
+async function mergeCloudSaves() {
+  if (!_sb || !_acctUser) return;
+  let cloud = [];
+  try {
+    const { data, error } = await _sb.from('saved_listings').select('mls');
+    if (error) throw error;
+    cloud = (data || []).map(r => String(r.mls));
+  } catch (e) { console.warn('cloud saved-list fetch failed:', e); return; }
+  const localOnly = [...state.favs].map(String).filter(m => !cloud.includes(m));
+  cloud.forEach(m => state.favs.add(m));
+  localStorage.setItem('dts_favs', JSON.stringify([...state.favs]));
+  if (localOnly.length) {
+    try { await _sb.from('saved_listings').upsert(localOnly.map(mls => ({ mls })), { onConflict: 'user_id,mls' }); }
+    catch (e) { console.warn('cloud save push failed:', e); }
+  }
+  render(); syncFilterChrome();
+}
+
+// Mirror a single toggle to the cloud (no-op unless signed in). Fire-and-forget: a network hiccup must
+// never block the instant local save.
+function cloudSave(mls, on) {
+  if (!_sb || !_acctUser) return;
+  const p = on ? _sb.from('saved_listings').upsert({ mls: String(mls) }, { onConflict: 'user_id,mls' })
+               : _sb.from('saved_listings').delete().eq('mls', String(mls));
+  Promise.resolve(p).catch(e => console.warn('cloud save sync failed:', e));
+}
+
+async function acctSignIn() {
+  if (!_sb) return;
+  try { await _sb.auth.signInWithOAuth({ provider: 'google', options: { redirectTo: location.href.split('#')[0] } }); }
+  catch (e) { console.warn('Google sign-in failed:', e); }
+}
+async function acctSignOut() {
+  if (_sb) { try { await _sb.auth.signOut(); } catch (e) {} }
+  _acctUser = null; renderAcct();
+}
+
+// Paint the account control in the filter bar. Hidden entirely unless ACCOUNTS_ENABLED, so no broken
+// button ever shows before setup.
+function renderAcct() {
+  const wrap = $('#acctWrap'); if (!wrap) return;
+  wrap.hidden = !ACCOUNTS_ENABLED;
+  if (!ACCOUNTS_ENABLED) return;
+  const btn = $('#acctBtn'), menu = $('#acctMenu');
+  if (_acctUser) {
+    const email = _acctUser.email || '';
+    const meta = _acctUser.user_metadata || {};
+    const name = (meta.full_name || meta.name || email || 'You').trim();
+    const first = name.split(/\s+/)[0] || 'You';
+    btn.innerHTML = `<span class="acct-av">${esc((first[0] || 'Y').toUpperCase())}</span><span class="acct-name">${esc(first)}</span>`;
+    btn.classList.add('is-in');
+    menu.innerHTML = `<div class="acct-who">Signed in as<br><b>${esc(email || name)}</b></div>` +
+      `<div class="acct-note">Your saved homes now follow you to every device.</div>` +
+      `<button class="acct-out" type="button" data-acct-out>Sign out</button>`;
+  } else {
+    btn.innerHTML = `${GOOGLE_G}<span>Sign in</span>`;
+    btn.classList.remove('is-in');
+    if (menu) { menu.hidden = true; menu.innerHTML = ''; }
+    btn.setAttribute('aria-expanded', 'false');
+  }
+}
+
 /* ---------- helpers ---------- */
 const $ = (s, r = document) => r.querySelector(s);
 const $$ = (s, r = document) => [...r.querySelectorAll(s)];
@@ -299,7 +403,12 @@ function savedSmsHref(list) {
 
 function savedActionsHTML(list) {
   const n = list.length;
+  // Account line: prompt sign-in when signed out, confirm sync when signed in. Only when accounts are on.
+  const acct = !ACCOUNTS_ENABLED ? '' :
+    _acctUser ? `<div class="sa-acct sa-acct-in">✓ Synced to your account — saved on every device.</div>`
+              : `<div class="sa-acct"><button class="sa-btn sa-signin" type="button" data-acct-signin>${GOOGLE_G} Sign in to keep these forever</button></div>`;
   return `<div class="sa-head">💛 <b>${n}</b> saved ${n === 1 ? 'home' : 'homes'} — ready when you are.</div>
+    ${acct}
     <div class="sa-btns">
       <a class="sa-btn sa-gold" href="${savedSmsHref(list)}">📅 Schedule tours · ask John</a>
       <button class="sa-btn" type="button" data-share-saved>↗ Share</button>
@@ -317,7 +426,8 @@ function renderSavedActions(list) {
   _savedWired = true;                                            // delegate once — the bar's HTML is rebuilt each render
   el.addEventListener('click', e => {
     const b = e.target.closest('[data-share-saved]');
-    if (b) { e.preventDefault(); shareSaved(b); }
+    if (b) { e.preventDefault(); shareSaved(b); return; }
+    if (e.target.closest('[data-acct-signin]')) { e.preventDefault(); acctSignIn(); }
   });
 }
 
@@ -527,6 +637,7 @@ function toggleFav(mls) {
   if (state.favs.has(mls)) state.favs.delete(mls); else state.favs.add(mls);
   localStorage.setItem('dts_favs', JSON.stringify([...state.favs]));
   const on = state.favs.has(mls);
+  cloudSave(mls, on);   // mirror to the signed-in account when accounts are on; no-op otherwise
   if (state.savedOnly) { render(); return; }  // list itself changes when viewing "Saved"
   $$(`.card[data-mls="${cssq(mls)}"] [data-fav]`).forEach(b => { b.classList.toggle('on', on); b.textContent = on ? '♥' : '♡'; });
   const m = markers[mls]; if (m) m.getElement() && m.getElement().classList.toggle('fav', on);
@@ -1035,6 +1146,26 @@ function wireControls() {
     render();
   });
 
+  // account control (Sign in with Google). Signed out: click signs in. Signed in: click toggles a
+  // small menu holding "Sign out". Harmless when accounts are off — #acctWrap stays hidden.
+  const acctBtn = $('#acctBtn'), acctMenu = $('#acctMenu');
+  if (acctBtn) {
+    acctBtn.addEventListener('click', e => {
+      e.stopPropagation();
+      if (!_acctUser) { acctSignIn(); return; }
+      const open = acctMenu && !acctMenu.hidden;
+      if (acctMenu) acctMenu.hidden = open;
+      acctBtn.setAttribute('aria-expanded', String(!open));
+    });
+  }
+  if (acctMenu) {
+    acctMenu.addEventListener('click', e => {
+      e.stopPropagation();
+      if (e.target.closest('[data-acct-out]')) { acctSignOut(); acctMenu.hidden = true; }
+    });
+    document.addEventListener('click', () => { acctMenu.hidden = true; if (acctBtn) acctBtn.setAttribute('aria-expanded', 'false'); });
+  }
+
   // price selects
   $('#priceMin').addEventListener('change', e => { state.priceMin = +e.target.value; render(); });
   $('#priceMax').addEventListener('change', e => { state.priceMax = +e.target.value; render(); });
@@ -1194,3 +1325,4 @@ function cssq(s) { return String(s).replace(/["\\]/g, '\\$&'); }
 /* ---------- boot ---------- */
 wireControls();
 load();
+initAccounts();   // lazy Supabase auth; no-op + zero network unless ACCOUNTS_ENABLED

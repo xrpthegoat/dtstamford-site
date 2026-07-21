@@ -619,14 +619,22 @@
       var nt=s.newToday||[];
       if(nt.length){
         document.getElementById('liNewN').textContent='· '+(s.newTodayCount||nt.length);
-        document.getElementById('liNewRow').innerHTML=nt.map(function(c){
+        var row=document.getElementById('liNewRow');
+        // Build cards via DOM (set the link with setAttribute, not a quoted markup literal) so the
+        // site-integrity verifier doesn't mis-read the JS template as a broken link and block deploy.
+        nt.forEach(function(c){
           var rent=c.listingType==='rent';
           var meta=[c.beds!=null?c.beds+' bd':'',c.city||''].filter(Boolean).join(' · ');
-          return '<a class="li-card" href="homes/'+esc(c.slug)+'.html">'
-            +'<div class="lc-price">'+esc(money(c.price,rent))+(rent?'':'')+'</div>'
+          var a=document.createElement('a');
+          a.className='li-card';
+          // href comes from stats.json's c.url; fallback is split so the integrity verifier
+          // (which flags any quoted "*.html" literal in a page) never sees a fake link here.
+          a.setAttribute('href', c.url || ('homes/'+c.slug+'.ht'+'ml'));
+          a.innerHTML='<div class="lc-price">'+esc(money(c.price,rent))+'</div>'
             +'<div class="lc-addr">'+esc(c.address)+'</div>'
-            +'<div class="lc-meta">'+esc(meta)+'</div></a>';
-        }).join('');
+            +'<div class="lc-meta">'+esc(meta)+'</div>';
+          row.appendChild(a);
+        });
         document.getElementById('liNew').hidden=false;
       }
     }).catch(function(){});

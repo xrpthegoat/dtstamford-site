@@ -568,6 +568,71 @@
     <div class="scrollcue">Scroll</div>
   </section>
 
+  <!-- LIVE INVENTORY — auto-fed by data/stats.json (regenerated every IDX refresh) -->
+  <style>
+    .liveinv{padding:26px 0 4px;border-bottom:1px solid rgba(255,255,255,.08)}
+    .liveinv .li-counts{display:flex;align-items:stretch;justify-content:center;gap:0;flex-wrap:wrap}
+    .li-stat{display:flex;flex-direction:column;align-items:center;gap:2px;padding:6px 30px;text-decoration:none;color:inherit;transition:color .2s}
+    .li-stat:hover{color:#e3c47e}
+    .li-stat .li-n{font-family:"Space Grotesk",system-ui,sans-serif;font-weight:700;font-size:clamp(1.9rem,4.5vw,2.9rem);line-height:1;color:#f3f3f5;letter-spacing:-.02em;font-variant-numeric:tabular-nums}
+    .li-stat:hover .li-n{color:#e3c47e}
+    .li-stat .li-l{font-family:"Space Mono",ui-monospace,monospace;font-size:.62rem;letter-spacing:.16em;text-transform:uppercase;color:#8b8b93}
+    .li-div{width:1px;align-self:center;height:38px;background:rgba(255,255,255,.12)}
+    .li-new{margin:16px auto 4px;max-width:1120px;padding:0 20px}
+    .li-new-hd{display:flex;align-items:center;gap:8px;font-family:"Space Mono",ui-monospace,monospace;font-size:.66rem;letter-spacing:.14em;text-transform:uppercase;color:#c9a24a;margin-bottom:10px}
+    .li-dot{width:7px;height:7px;border-radius:50%;background:#5fe08a;box-shadow:0 0 10px #5fe08a;animation:liPulse 2s infinite}
+    @keyframes liPulse{0%,100%{opacity:1}50%{opacity:.4}}
+    .li-new-n{color:#8b8b93}
+    .li-new-row{display:flex;gap:10px;overflow-x:auto;padding-bottom:8px;scrollbar-width:none}
+    .li-new-row::-webkit-scrollbar{display:none}
+    .li-card{flex:0 0 auto;min-width:190px;max-width:230px;text-decoration:none;border:1px solid rgba(255,255,255,.10);border-radius:12px;padding:11px 13px;background:rgba(255,255,255,.03);transition:border-color .2s,background .2s}
+    .li-card:hover{border-color:rgba(227,196,126,.5);background:rgba(227,196,126,.06)}
+    .li-card .lc-price{font-family:"Space Grotesk",system-ui,sans-serif;font-weight:700;font-size:1.05rem;color:#e3c47e;letter-spacing:-.01em}
+    .li-card .lc-addr{font-size:.82rem;color:#d7d7db;margin-top:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+    .li-card .lc-meta{font-family:"Space Mono",ui-monospace,monospace;font-size:.6rem;letter-spacing:.06em;text-transform:uppercase;color:#8b8b93;margin-top:4px}
+    @media(max-width:760px){.li-stat{padding:6px 16px}.li-div{height:30px}}
+  </style>
+  <section class="liveinv" id="liveInv" hidden aria-label="Stamford homes for sale and rent right now">
+    <div class="wrap">
+      <div class="li-counts">
+        <a class="li-stat" href="search.html?type=sale"><span class="li-n" id="liSale">—</span><span class="li-l">homes for sale</span></a>
+        <span class="li-div" aria-hidden="true"></span>
+        <a class="li-stat" href="search.html?type=rent"><span class="li-n" id="liRent">—</span><span class="li-l">for rent</span></a>
+        <span class="li-div" aria-hidden="true"></span>
+        <a class="li-stat" href="search.html"><span class="li-n" id="liTotal">—</span><span class="li-l">total in Stamford</span></a>
+      </div>
+      <div class="li-new" id="liNew" hidden>
+        <div class="li-new-hd"><span class="li-dot"></span> Added today <span class="li-new-n" id="liNewN"></span></div>
+        <div class="li-new-row" id="liNewRow"></div>
+      </div>
+    </div>
+  </section>
+  <script>
+  (function(){
+    var money=function(n,rent){ if(n==null) return ''; var s='$'+Math.round(n).toLocaleString('en-US'); return rent?s+'/mo':s; };
+    var esc=function(s){ return String(s==null?'':s).replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];}); };
+    fetch('data/stats.json?v='+Date.now()).then(function(r){ return r.ok?r.json():null; }).then(function(s){
+      if(!s) return;
+      var set=function(id,v){ var e=document.getElementById(id); if(e) e.textContent=Number(v||0).toLocaleString('en-US'); };
+      set('liSale',s.forSale); set('liRent',s.forRent); set('liTotal',s.total);
+      document.getElementById('liveInv').hidden=false;
+      var nt=s.newToday||[];
+      if(nt.length){
+        document.getElementById('liNewN').textContent='· '+(s.newTodayCount||nt.length);
+        document.getElementById('liNewRow').innerHTML=nt.map(function(c){
+          var rent=c.listingType==='rent';
+          var meta=[c.beds!=null?c.beds+' bd':'',c.city||''].filter(Boolean).join(' · ');
+          return '<a class="li-card" href="homes/'+esc(c.slug)+'.html">'
+            +'<div class="lc-price">'+esc(money(c.price,rent))+(rent?'':'')+'</div>'
+            +'<div class="lc-addr">'+esc(c.address)+'</div>'
+            +'<div class="lc-meta">'+esc(meta)+'</div></a>';
+        }).join('');
+        document.getElementById('liNew').hidden=false;
+      }
+    }).catch(function(){});
+  })();
+  </script>
+
   <!-- STATEMENT -->
   <section class="statement">
     <div class="wrap">

@@ -154,7 +154,7 @@ figcaption{font-family:var(--mono);font-size:.7rem;letter-spacing:.04em;color:va
 footer{background:#050507;border-top:1px solid var(--line);padding:64px 0 32px;color:var(--muted)}
 .fgrid{display:grid;grid-template-columns:1.6fr 1fr 1fr;gap:44px;margin-bottom:46px}
 .fbrand{display:flex;align-items:center;gap:12px;margin-bottom:14px}
-.fbrand img{height:28px}.fbrand .wm{font-family:var(--disp);color:#fff;font-size:1.06rem}
+.fbrand img{height:28px;width:auto}.fbrand .wm{font-family:var(--disp);color:#fff;font-size:1.06rem}
 footer h4{color:#fff;font-family:var(--mono);font-size:.66rem;letter-spacing:.16em;text-transform:uppercase;margin-bottom:16px;font-weight:700}
 footer .col a,footer .col p{display:block;font-size:.92rem;margin-bottom:10px}
 footer .col a:hover{color:#fff}

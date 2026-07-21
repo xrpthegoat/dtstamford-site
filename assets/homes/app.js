@@ -264,6 +264,22 @@ function shareSaved(btn) {
   }
 }
 
+// Share ONE listing (the top-of-detail share icon) — native share sheet on mobile, clipboard fallback
+// on desktop, using the listing's own indexable /homes/<slug>.html page.
+function shareListing(l, btn) {
+  const url = l.slug ? `https://dtstamford.com/homes/${l.slug}.html` : 'https://dtstamford.com/search.html';
+  const title = `${priceLabel(l).replace(/<[^>]+>/g, '')} · ${addrFull(l)}`;
+  if (navigator.share) {
+    navigator.share({ title: 'Downtown Stamford', text: title, url }).catch(() => {});
+  } else if (navigator.clipboard) {
+    navigator.clipboard.writeText(url).then(() => {
+      if (btn) { btn.classList.add('copied'); setTimeout(() => btn.classList.remove('copied'), 1500); }
+    }).catch(() => prompt('Copy this link:', url));
+  } else {
+    prompt('Copy this link:', url);
+  }
+}
+
 function renderHead(list) {
   $('#count').textContent = list.length;
   $('#countLabel').textContent = state.type === 'rent' ? (list.length === 1 ? 'rental' : 'rentals') : (list.length === 1 ? 'home' : 'homes');
@@ -610,6 +626,7 @@ function renderDrawer(l) {
   $('#drawerBody').innerHTML = `
     <div class="d-gallery">
       <img id="dImg" src="${esc(photos[0])}" alt="${esc(addrFull(l))}" decoding="async" onerror="this.src='assets/stamford-ct-single-family-home-exterior.jpg'">
+      <button class="d-share" id="dShare" aria-label="Share this listing" title="Share this listing"><svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v13M8 7l4-4 4 4M5 12v7a2 2 0 002 2h10a2 2 0 002-2v-7"/></svg></button>
       ${photos.length > 1 ? `<button class="d-gnav prev" id="dPrev" aria-label="Previous">‹</button><button class="d-gnav next" id="dNext" aria-label="Next">›</button><div class="d-gcount" id="dCount">1 / ${photos.length}</div>` : ''}
     </div>
     <div class="d-body">
@@ -648,6 +665,7 @@ function renderDrawer(l) {
   $('#dPrev') && $('#dPrev').addEventListener('click', () => { gi = (gi - 1 + photos.length) % photos.length; setG(); });
   $('#dNext') && $('#dNext').addEventListener('click', () => { gi = (gi + 1) % photos.length; setG(); });
   $('#drawerBody').querySelector('[data-fav]').addEventListener('click', () => toggleFav(l.mls));
+  $('#dShare') && $('#dShare').addEventListener('click', () => shareListing(l, $('#dShare')));
 
   // mini map
   const dm = L.map('dMap', { zoomControl: false, attributionControl: false, dragging: false, scrollWheelZoom: false, doubleClickZoom: false })

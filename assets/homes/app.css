@@ -295,6 +295,13 @@
   border:1px solid rgba(203,171,104,.35);background:rgba(203,171,104,.07);color:var(--gold-l);font-family:var(--sans);
   font-weight:600;font-size:.86rem;text-decoration:none;transition:background .2s,border-color .2s}
 .d-directions:hover{background:rgba(203,171,104,.14);border-color:rgba(203,171,104,.55)}
+
+/* Share-this-listing icon, top-right of the detail photo gallery (on every listing). */
+.d-share{position:absolute;top:12px;right:12px;z-index:3;width:38px;height:38px;border-radius:50%;
+  border:1px solid var(--line);background:rgba(6,6,8,.5);backdrop-filter:blur(8px);color:#fff;cursor:pointer;
+  display:flex;align-items:center;justify-content:center;transition:transform .3s var(--ease),background .3s}
+.d-share:hover{transform:scale(1.1);background:rgba(6,6,8,.82)}
+.d-share.copied{background:linear-gradient(180deg,var(--gold-l),var(--gold));color:#161006;border-color:transparent}
 .d-section{margin:24px 0}
 .d-section h4{font-family:var(--mono);font-size:.66rem;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);margin-bottom:12px}
 .d-remarks{color:var(--fg-soft);line-height:1.7;font-size:.94rem}

@@ -1,6 +1,10 @@
 # Downtown Stamford Realty — dtstamford.com
 User-agent: *
 Allow: /
+# Live IDX inventory: the /homes/ listing hub + per-listing pages, and the
+# JSON feeds under /data/ that power the search app, are all crawlable.
+Allow: /homes/
+Allow: /data/
 
 # Explicitly welcome the major AI / answer-engine crawlers so the site can be
 # read and cited by ChatGPT, Perplexity, Claude, Gemini, and AI Overviews.

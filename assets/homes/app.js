@@ -4,9 +4,16 @@
    No framework, no build step — matches the static site.
    ============================================================ */
 
+// Prefer the light index (grid+map payload: primaryPhoto only, no photos[]/remarks) and fall back to
+// the full listings.json if the index 404s, so the page never blanks during a migration/partial deploy.
+const INDEX_URL = 'data/listings-index.json';
 const DATA_URL = 'data/listings.json';
+// Per-listing detail file, lazy-fetched on drawer open to hydrate photos[] + remarks the index omits.
+const detailURL = slug => `data/listings/${encodeURIComponent(slug)}.json`;
 const PHONE = '2038833399';
 const EMAIL = 'John@dtstamford.com';
+const PAGE_SIZE = 24;      // cards rendered per IntersectionObserver page
+const PLACEHOLDER_PHOTO = 'assets/stamford-ct-single-family-home-exterior.jpg';
 
 const HOME_TYPES = ['Single Family', 'Condo', 'Multi-Family', 'Townhouse', 'Co-op', 'Land'];
 const SALE_STEPS = [0, 200000, 300000, 400000, 500000, 600000, 750000, 900000, 1000000, 1250000, 1500000, 2000000, 3000000, 5000000];
@@ -58,6 +65,13 @@ const priceLabel = l => l.listingType === 'rent'
   : money(l.price);
 const esc = s => String(s == null ? '' : s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 const bathStr = b => (b % 1 === 0 ? b : b.toFixed(1));
+// The index record carries only `primaryPhoto`; the full record (drawer detail / listings.json) carries
+// `photos[]`. Resolve to a non-empty array so cards, the gallery and photo-stepping have something to show.
+function photosOf(l) {
+  if (l && l.photos && l.photos.length) return l.photos;
+  if (l && l.primaryPhoto) return [l.primaryPhoto];
+  return [PLACEHOLDER_PHOTO];
+}
 
 // SmartMLS §12.2.3 / §12.8 — when a seller withholds the address, the listing still appears but
 // the street number+name must NOT render. The sync sets address.line = null and addressWithheld
@@ -108,7 +122,10 @@ function badgeFor(l) {
 async function load() {
   showSkeleton();
   try {
-    const res = await fetch(DATA_URL, { cache: 'no-cache' });
+    // Prefer the light index; if it 404s (not yet generated / partial deploy) fall back to the full
+    // master feed so the grid+map never blank. Both share the { meta, listings:[…] } envelope.
+    let res = await fetch(INDEX_URL, { cache: 'no-cache' });
+    if (!res.ok) res = await fetch(DATA_URL, { cache: 'no-cache' });
     if (!res.ok) throw new Error('HTTP ' + res.status);
     const data = await res.json();
     state.all = (data.listings || []).filter(l => l && l.geo && Number.isFinite(l.geo.lat));
@@ -178,7 +195,7 @@ function filtered() {
     s === 'price-desc' ? b.price - a.price :
     s === 'beds' ? (b.beds || 0) - (a.beds || 0) :
     s === 'sqft' ? (b.sqft || 0) - (a.sqft || 0) :
-    /* new */ new Date(b.listDate || 0) - new Date(a.listDate || 0));
+    /* new */ new Date(b.listDate || b.updated || 0) - new Date(a.listDate || a.updated || 0));
   return list;
 }
 
@@ -196,7 +213,9 @@ function renderHead(list) {
   $('#count').textContent = list.length;
   $('#countLabel').textContent = state.type === 'rent' ? (list.length === 1 ? 'rental' : 'rentals') : (list.length === 1 ? 'home' : 'homes');
   $('#locLabel').textContent = state.q ? `in “${state.q}”` : 'in Stamford & nearby';
-  const u = state.meta && state.meta.updatedAt ? new Date(state.meta.updatedAt) : null;
+  // listings.json uses meta.updatedAt; the light index uses meta.syncedAt/generatedAt — accept any.
+  const uRaw = state.meta && (state.meta.updatedAt || state.meta.syncedAt || state.meta.generatedAt);
+  const u = uRaw ? new Date(uRaw) : null;
   $('#updated').textContent = u && !isNaN(u) ? `Updated ${u.toLocaleString('en-US', { month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit' })}` : '';
 }
 
@@ -205,12 +224,54 @@ function showSkeleton() {
     `<div class="sk"><div class="sk-media"></div><div class="sk-line"></div><div class="sk-line s"></div></div>`).join('');
 }
 
+// Paginated render. The full filtered list can be ~1,700 rows; painting them all at once froze the
+// grid. We render in pages of PAGE_SIZE behind an IntersectionObserver sentinel: the first render
+// resets #cards, subsequent pages are APPENDED (never a whole-list innerHTML on scroll) so scroll
+// position and already-painted cards are untouched. Card events are delegated on #cards (wireCardsOnce),
+// so appended cards need no per-card wiring.
+let _io = null;
+let _pageList = [];
+let _pageShown = 0;
+
 function renderCards(list) {
   const wrap = $('#cards'), empty = $('#empty');
-  if (!list.length) { wrap.innerHTML = ''; empty.hidden = false; return; }
+  if (_io) { _io.disconnect(); _io = null; }   // tear down any observer from the previous filter set
+  wrap.innerHTML = '';
+  wireCardsOnce();                              // delegation lives on the container, wire before/after fill
+  if (!list.length) { empty.hidden = false; return; }
   empty.hidden = true;
-  wrap.innerHTML = list.map(cardHTML).join('');
-  wireCardsOnce();
+  _pageList = list;
+  _pageShown = 0;
+  // No IntersectionObserver (very old browser): paint everything so nothing is hidden.
+  if (typeof IntersectionObserver === 'undefined') {
+    wrap.insertAdjacentHTML('beforeend', list.map(cardHTML).join(''));
+    _pageShown = list.length;
+    return;
+  }
+  appendNextPage();
+}
+
+function appendNextPage() {
+  const wrap = $('#cards');
+  if (!wrap) return;
+  const oldSentinel = $('#cardsMore');
+  if (oldSentinel) oldSentinel.remove();       // the sentinel always sits at the end; re-add after appending
+  const next = _pageList.slice(_pageShown, _pageShown + PAGE_SIZE);
+  _pageShown += next.length;
+  wrap.insertAdjacentHTML('beforeend', next.map(cardHTML).join(''));
+  if (_pageShown < _pageList.length) {
+    wrap.insertAdjacentHTML('beforeend',
+      `<div id="cardsMore" class="cards-more" aria-hidden="true" style="grid-column:1/-1"></div>`);
+    const sentinel = $('#cardsMore');
+    if (_io) _io.disconnect();
+    _io = new IntersectionObserver(entries => {
+      if (entries.some(e => e.isIntersecting)) appendNextPage();
+    }, { rootMargin: '600px 0px' });           // prefetch the next page before the user reaches the end
+    _io.observe(sentinel);
+  } else if (_io) {
+    _io.disconnect();
+    _io = null;                                // whole list rendered — stop observing
+  }
 }
 
 function ppsf(l) {
@@ -221,7 +282,7 @@ function ppsf(l) {
 function cardHTML(l) {
   const b = badgeFor(l);
   const idx = state.cardIndex[l.mls] || 0;
-  const photos = (l.photos && l.photos.length) ? l.photos : ['assets/stamford-ct-single-family-home-exterior.jpg'];
+  const photos = photosOf(l);
   const fav = state.favs.has(l.mls);
   const dots = photos.length > 1 ? `<div class="card-dots">${photos.map((_, i) => `<i class="${i === idx ? 'on' : ''}"></i>`).join('')}</div>` : '';
   const navs = photos.length > 1 ? `<button class="card-nav prev" data-nav="-1" aria-label="Previous photo">‹</button><button class="card-nav next" data-nav="1" aria-label="Next photo">›</button>` : '';
@@ -303,7 +364,7 @@ function wireCardsOnce() {
 }
 
 function stepPhoto(l, dir) {
-  const photos = (l.photos && l.photos.length) ? l.photos : ['assets/stamford-ct-single-family-home-exterior.jpg'];
+  const photos = photosOf(l);
   const n = photos.length;
   const cur = state.cardIndex[l.mls] || 0;
   const next = (cur + dir + n) % n;
@@ -424,8 +485,49 @@ function highlightCard(mls, on) {
 }
 
 /* ---------- detail drawer ---------- */
-function openDetail(l) {
-  const photos = (l.photos && l.photos.length) ? l.photos : ['assets/stamford-ct-single-family-home-exterior.jpg'];
+// A monotonically increasing token guards the async detail fetch: if the drawer is closed or a
+// different listing is opened while a fetch is in flight, the stale response is dropped instead of
+// rendering into the wrong (or closed) drawer.
+let _drawerToken = 0;
+
+// Public entry. The light index record carries only primaryPhoto + no remarks, so we lazy-fetch the
+// per-listing detail JSON, merge it into the record in place (so state.byMls / cards see the richer
+// data too), then render. The drawer is shown immediately with a loading state so it never hangs; if
+// the fetch fails we fall back to rendering whatever we already have (graceful, never blank).
+async function openDetail(l) {
+  const token = ++_drawerToken;
+  const needsDetail = l && l.slug && !l._detailLoaded &&
+    (!(l.photos && l.photos.length) || l.remarks == null);
+  if (!needsDetail) { renderDrawer(l); return; }
+  openDrawerShell();
+  try {
+    const res = await fetch(detailURL(l.slug), { cache: 'no-cache' });
+    if (res.ok) {
+      const full = await res.json();
+      Object.assign(l, full);      // hydrate in place; byMls + the card keep pointing at this record
+      l._detailLoaded = true;
+    } else {
+      console.warn('detail load failed: HTTP ' + res.status);
+    }
+  } catch (err) {
+    console.warn('detail load failed:', err);
+  }
+  if (token !== _drawerToken) return;   // superseded by a newer open/close — don't clobber the drawer
+  renderDrawer(l);
+}
+
+// Open the drawer chrome immediately with a loading placeholder, before the detail fetch resolves.
+function openDrawerShell() {
+  $('#drawerBody').innerHTML =
+    '<div class="d-loading" role="status" aria-live="polite"><span class="d-spin" aria-hidden="true"></span>Loading listing…</div>';
+  $('#scrim').hidden = false;
+  requestAnimationFrame(() => { $('#scrim').classList.add('show'); $('#drawer').classList.add('show'); });
+  $('#drawer').setAttribute('aria-hidden', 'false');
+  $('#drawer').focus();
+}
+
+function renderDrawer(l) {
+  const photos = photosOf(l);
   let gi = 0;
   const b = badgeFor(l);
   const fav = state.favs.has(l.mls);
@@ -500,6 +602,7 @@ function openDetail(l) {
   $('#drawer').focus();
 }
 function closeDetail() {
+  _drawerToken++;   // invalidate any in-flight detail fetch so it won't render into a closed drawer
   $('#drawer').classList.remove('show');
   $('#scrim').classList.remove('show');
   $('#drawer').setAttribute('aria-hidden', 'true');

@@ -360,3 +360,75 @@
   .card-price{font-size:1.35rem}
 }
 @media(prefers-reduced-motion:reduce){*{animation-duration:.001ms!important;transition-duration:.001ms!important}}
+
+/* ============================================================
+   SEARCH-APP AFFORDANCES (T4) — paginated grid, lazy drawer fetch, hub grid
+   Added for the split index/detail data model: app.js renders the grid in
+   pages of ~24 behind an IntersectionObserver sentinel and lazy-fetches the
+   per-slug detail JSON on drawer open. Reuses existing --gold/--action/--line
+   tokens and the shimmer keyframe defined above. Does NOT touch the .card perf
+   rules (content-visibility / scoped will-change) or the .idx-* detail CSS
+   (that ships inline from genlistings.py).
+   ============================================================ */
+
+/* ---------- LOAD-MORE SENTINEL + BUTTON ---------- */
+/* The sentinel is an empty tripwire the IntersectionObserver watches; it also
+   hosts a real, clickable fallback button so pagination works with JS-driven
+   observers disabled and stays a crawlable anchor for the /homes/ hub. */
+.load-more{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;
+  grid-column:1/-1;padding:26px 4px 10px;min-height:56px}
+.load-more[hidden]{display:none}                 /* honor JS hiding it at end-of-list */
+
+.load-more-btn{display:inline-flex;align-items:center;gap:9px;padding:12px 26px;border-radius:999px;cursor:pointer;
+  border:1px solid var(--line);background:rgba(255,255,255,.03);color:var(--fg-soft);font-family:var(--sans);
+  font-weight:600;font-size:.86rem;transition:border-color .25s,background .25s,color .25s,transform .2s}
+.load-more-btn:hover{border-color:var(--gold-d);color:var(--gold-l);background:rgba(203,171,104,.06);transform:translateY(-1px)}
+.load-more-btn:focus-visible{outline:2px solid var(--gold-d);outline-offset:2px}
+.load-more-btn[disabled]{cursor:default;opacity:.55;pointer-events:none}
+
+/* progress line under the button: "Showing 48 of 1,686" */
+.load-more-count{font-family:var(--mono);font-size:.62rem;letter-spacing:.1em;text-transform:uppercase;color:var(--faint)}
+.load-more-count strong{color:var(--muted);font-weight:600}
+
+/* auto-fetch spinner shown while the next page's observer callback runs */
+.load-more.is-loading .load-more-btn{color:transparent;position:relative}
+.load-more.is-loading .load-more-btn::after{content:"";position:absolute;width:18px;height:18px;border-radius:50%;
+  border:2px solid rgba(203,171,104,.28);border-top-color:var(--gold-l);animation:lm-spin .7s linear infinite}
+@keyframes lm-spin{to{transform:rotate(360deg)}}
+
+/* end-of-list marker (all pages rendered) */
+.load-more.is-done .load-more-btn{display:none}
+.load-more.is-done .load-more-count::before{content:"·  ";color:var(--line-2)}
+
+/* ---------- LAZY DRAWER FETCH — LOADING STATE ---------- */
+/* On drawer open app.js paints from the light index record, then fetches
+   data/listings/<slug>.json for full photos[] + remarks. These cover the gap. */
+.drawer.is-loading{cursor:progress}
+/* thin indeterminate progress bar pinned under the sticky close control */
+.drawer.is-loading::after{content:"";position:sticky;top:0;left:0;display:block;height:2px;z-index:6;
+  background:linear-gradient(90deg,transparent,var(--gold-l),transparent);background-size:40% 100%;
+  background-repeat:no-repeat;animation:d-load 1.1s ease-in-out infinite}
+@keyframes d-load{0%{background-position:-40% 0}100%{background-position:140% 0}}
+
+/* shimmer placeholders the drawer swaps in for gallery / remarks while fetching */
+.d-loading-media{aspect-ratio:16/11;background:linear-gradient(90deg,#111 25%,#171720 50%,#111 75%);
+  background-size:200% 100%;animation:shim 1.4s infinite}
+.d-loading-line{height:13px;margin:14px 0;border-radius:6px;
+  background:linear-gradient(90deg,#111 25%,#171720 50%,#111 75%);background-size:200% 100%;animation:shim 1.4s infinite}
+.d-loading-line.s{width:55%}
+.d-loading-line.m{width:78%}
+
+/* graceful failure if the detail JSON 404s — drawer keeps the index-level info */
+.d-fetch-err{margin:16px 0;padding:12px 15px;border-radius:12px;border:1px solid rgba(160,80,60,.4);
+  background:rgba(160,80,60,.1);color:var(--fg-soft);font-size:.84rem;line-height:1.5}
+.d-fetch-err[hidden]{display:none}
+
+/* ---------- HUB-GRID TWEAKS (/homes/ hub cards) ---------- */
+/* The generated hub reuses .cards/.card wholesale; these are minor niceties so
+   the static hub grid breathes without a map column beside it. */
+.hub .cards{max-width:1560px;margin:0 auto;padding-top:16px}
+.hub-head{max-width:1560px;margin:0 auto;padding:8px 4px 0;display:flex;align-items:baseline;
+  justify-content:space-between;gap:16px;flex-wrap:wrap}
+.hub-head h1{font-family:var(--disp);font-size:1.5rem;color:var(--fg);letter-spacing:-.01em}
+.hub-head .hub-count{font-family:var(--mono);font-size:.64rem;letter-spacing:.1em;text-transform:uppercase;color:var(--faint)}
+.hub-head .hub-count strong{color:var(--gold-l);font-weight:600}

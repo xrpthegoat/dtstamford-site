@@ -47,7 +47,7 @@ function commuteFor(l) {
 const state = {
   all: [], meta: null,
   type: 'sale', q: '', priceMin: 0, priceMax: 0,
-  beds: 0, baths: 0, types: [], sort: 'new',
+  beds: 0, baths: 0, types: [], cities: [], sort: 'new',
   view: 'split', bounds: null, savedOnly: false,
   favs: new Set(JSON.parse(localStorage.getItem('dts_favs') || '[]')),
   cardIndex: {},        // mls -> current photo index
@@ -146,6 +146,7 @@ async function load() {
   state.all.forEach(l => { state.byMls[l.mls] = l; });
   // default price ceiling stays "Any"; nothing preset
   buildTypeChecks();
+  buildCityChecks();
   buildPriceSelects();
   initMap();
   readURL();
@@ -164,6 +165,13 @@ async function load() {
 function buildTypeChecks() {
   $('#typeCol').innerHTML = HOME_TYPES.map(t =>
     `<label class="chk"><input type="checkbox" value="${t}"> ${t}</label>`).join('');
+}
+// City multi-select — the distinct towns actually present in the feed (Stamford, Norwalk, …), sorted.
+// A buyer open to "Stamford OR Norwalk" checks both and sees the combined results.
+function buildCityChecks() {
+  const cities = [...new Set(state.all.map(l => l.address && l.address.city).filter(Boolean))].sort();
+  $('#cityCol').innerHTML = cities.map(c =>
+    `<label class="chk"><input type="checkbox" value="${esc(c)}"> ${esc(c)}</label>`).join('');
 }
 function buildPriceSelects() {
   const steps = state.type === 'rent' ? RENT_STEPS : SALE_STEPS;
@@ -187,6 +195,7 @@ function filtered() {
     // ("Single Family For Sale", "Condo/Co-Op For Sale"). Match by substring, not equality, or the
     // type filter silently returns nothing against real feed data.
     if (state.types.length && !state.types.some(t => propMatches(t, l.propertyType))) return false;
+    if (state.cities.length && !state.cities.includes(l.address && l.address.city)) return false;
     if (q) {
       const hay = `${l.mls || ''} ${l.address.line || ''} ${l.address.city} ${l.address.neighborhood || ''} ${l.address.zip || ''}`.toLowerCase();
       if (!hay.includes(q)) return false;
@@ -782,12 +791,17 @@ function syncFilterChrome() {
   const typeBtn = $('.drop[data-drop="type"] .drop-btn');
   typeBtn.classList.toggle('has-val', state.types.length > 0);
   $('.drop[data-drop="type"] .drop-lbl').textContent = state.types.length ? `${state.types.length} type${state.types.length > 1 ? 's' : ''}` : 'Home type';
+  const cityBtn = $('.drop[data-drop="city"] .drop-btn');
+  if (cityBtn) {
+    cityBtn.classList.toggle('has-val', state.cities.length > 0);
+    $('.drop[data-drop="city"] .drop-lbl').textContent = state.cities.length ? `${state.cities.length} cit${state.cities.length > 1 ? 'ies' : 'y'}` : 'City';
+  }
   const sortNames = { new: 'Newest', 'price-asc': 'Price ↑', 'price-desc': 'Price ↓', beds: 'Most beds', sqft: 'Largest' };
   $('.drop[data-drop="sort"] .drop-lbl').textContent = 'Sort: ' + sortNames[state.sort];
 
   // active-filter count badge (search + price + beds/baths + type; sort/view aren't "filters")
   const activeCount = (state.q ? 1 : 0) + ((state.priceMin || state.priceMax) ? 1 : 0) +
-    ((state.beds || state.baths) ? 1 : 0) + (state.types.length ? 1 : 0);
+    ((state.beds || state.baths) ? 1 : 0) + (state.types.length ? 1 : 0) + (state.cities.length ? 1 : 0);
   const badge = $('#filterBadge');
   if (badge) {
     badge.hidden = activeCount === 0;
@@ -892,6 +906,9 @@ function wireControls() {
   $('#typeCol').addEventListener('change', () => {
     state.types = $$('#typeCol input:checked').map(i => i.value); render();
   });
+  $('#cityCol').addEventListener('change', () => {
+    state.cities = $$('#cityCol input:checked').map(i => i.value); render();
+  });
 
   // sort radios
   $$('#sortCol .radx').forEach(r => r.addEventListener('click', () => {
@@ -906,6 +923,7 @@ function wireControls() {
     if (k === 'price') { state.priceMin = 0; state.priceMax = 0; buildPriceSelects(); }
     if (k === 'beds') { state.beds = 0; state.baths = 0; $$('#bedsRow .pillx').forEach(x => x.classList.toggle('is-on', x.dataset.beds === '0')); $$('#bathsRow .pillx').forEach(x => x.classList.toggle('is-on', x.dataset.baths === '0')); }
     if (k === 'type') { state.types = []; $$('#typeCol input').forEach(i => i.checked = false); }
+    if (k === 'city') { state.cities = []; $$('#cityCol input').forEach(i => i.checked = false); }
     render();
   }));
 
@@ -914,12 +932,13 @@ function wireControls() {
 
   // reset (note: intentionally does NOT clear the Saved view — that's a separate lens, not a filter)
   $('#resetBtn').addEventListener('click', () => {
-    Object.assign(state, { q: '', priceMin: 0, priceMax: 0, beds: 0, baths: 0, types: [], sort: 'new', bounds: null });
+    Object.assign(state, { q: '', priceMin: 0, priceMax: 0, beds: 0, baths: 0, types: [], cities: [], sort: 'new', bounds: null });
     $('#q').value = '';
     buildPriceSelects();
     $$('#bedsRow .pillx').forEach(x => x.classList.toggle('is-on', x.dataset.beds === '0'));
     $$('#bathsRow .pillx').forEach(x => x.classList.toggle('is-on', x.dataset.baths === '0'));
     $$('#typeCol input').forEach(i => i.checked = false);
+    $$('#cityCol input').forEach(i => i.checked = false);
     $$('#sortCol .radx').forEach(x => x.classList.toggle('is-on', x.dataset.sort === 'new'));
     render();
   });
@@ -986,6 +1005,7 @@ function syncURL() {
   if (state.beds) p.set('bd', state.beds);
   if (state.baths) p.set('ba', state.baths);
   if (state.types.length) p.set('ty', state.types.join(','));
+  if (state.cities.length) p.set('ci', state.cities.join(','));
   if (state.sort !== 'new') p.set('s', state.sort);
   if (state.view !== 'split') p.set('v', state.view);
   const qs = p.toString();
@@ -1000,6 +1020,7 @@ function readURL() {
   if (p.get('bd')) { state.beds = +p.get('bd'); $$('#bedsRow .pillx').forEach(x => x.classList.toggle('is-on', x.dataset.beds === p.get('bd'))); }
   if (p.get('ba')) { state.baths = +p.get('ba'); $$('#bathsRow .pillx').forEach(x => x.classList.toggle('is-on', x.dataset.baths === p.get('ba'))); }
   if (p.get('ty')) { state.types = p.get('ty').split(','); $$('#typeCol input').forEach(i => i.checked = state.types.includes(i.value)); }
+  if (p.get('ci')) { state.cities = p.get('ci').split(','); $$('#cityCol input').forEach(i => i.checked = state.cities.includes(i.value)); }
   if (p.get('s')) { state.sort = p.get('s'); $$('#sortCol .radx').forEach(x => x.classList.toggle('is-on', x.dataset.sort === state.sort)); }
   if (p.get('v')) { state.view = p.get('v'); $$('.vt-btn').forEach(x => x.classList.toggle('is-on', x.dataset.view === state.view)); $('#app').dataset.view = state.view; }
 }

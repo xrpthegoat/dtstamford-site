@@ -7,7 +7,11 @@
   --fb-h:60px;           /* filter bar height */
   --card-r:18px;
 }
-.app-body{overflow:hidden}                       /* the app owns scrolling, not the page */
+/* App shell locks the page: no horizontal drift, no rubber-band overscroll; only the results list and
+   the filter chip strip scroll. touch-action:pan-x pan-y also blunts page pinch-zoom (belt + the
+   viewport lock). The full-screen photo viewer sets its own touch-action:none, so it keeps raw touch. */
+html{overflow-x:hidden;overscroll-behavior:none}
+.app-body{overflow:hidden;overflow-x:hidden;overscroll-behavior:none;touch-action:pan-x pan-y}   /* the app owns scrolling, not the page */
 .app-body body{overflow:hidden}
 
 /* keep the ambient backdrop but calm it under the app */
@@ -121,7 +125,7 @@
 
 /* ---------- APP SPLIT ---------- */
 .app{display:flex;height:calc(100vh - var(--hdr-h) - var(--fb-h));gap:0;overflow:hidden}
-.results{flex:1 1 54%;overflow-y:auto;padding:8px 22px 60px;scroll-behavior:smooth;scrollbar-width:thin;scrollbar-color:rgba(255,255,255,.14) transparent}
+.results{flex:1 1 54%;overflow-y:auto;overscroll-behavior:contain;padding:8px 22px 60px;scroll-behavior:smooth;scrollbar-width:thin;scrollbar-color:rgba(255,255,255,.14) transparent}
 .results::-webkit-scrollbar{width:9px}.results::-webkit-scrollbar-thumb{background:rgba(255,255,255,.12);border-radius:9px;border:2px solid transparent;background-clip:content-box}
 /* isolation:isolate contains Leaflet's internal panes (z-index 400) inside the map's own stacking
    context. Without it those 400s escape to the root and paint OVER the filter dropdowns (z-150),
@@ -274,11 +278,27 @@
 .d-gallery{position:relative;aspect-ratio:16/11;background:#111;overflow:hidden}
 .d-gallery img{display:block;width:100%;height:100%;object-fit:cover;object-position:center}
 /* compact share icon that lives in the CTA row next to Save (overrides .d-cta .btn's flex:1). */
-.d-cta .d-cta-share{flex:0 0 auto;min-width:0;width:54px;padding:0}
+.d-cta .btn.d-cta-share{flex:0 0 auto;min-width:0;width:54px;padding:0}
 .d-gnav{position:absolute;top:50%;transform:translateY(-50%);width:40px;height:40px;border-radius:50%;border:0;background:rgba(6,6,8,.55);
   backdrop-filter:blur(6px);color:#fff;cursor:pointer;font-size:1.1rem;display:flex;align-items:center;justify-content:center}
 .d-gnav.prev{left:12px}.d-gnav.next{right:12px}
 .d-gcount{position:absolute;bottom:12px;right:14px;font-family:var(--mono);font-size:.66rem;padding:5px 10px;border-radius:8px;background:rgba(6,6,8,.65);color:#fff;backdrop-filter:blur(6px)}
+/* ---- full-screen photo viewer (lightbox) — z above drawer(210)/scrim(200); page pinch is disabled,
+   so this viewer owns raw touch (touch-action:none) for swipe/magnify ---- */
+.d-gallery{cursor:zoom-in}
+.photo-fs{position:fixed;inset:0;z-index:220;background:#000;display:flex;align-items:center;justify-content:center;
+  opacity:0;visibility:hidden;transition:opacity .25s;touch-action:none}
+.photo-fs.show{opacity:1;visibility:visible}
+.photo-fs img{max-width:100%;max-height:100%;width:auto;height:auto;object-fit:contain;user-select:none;-webkit-user-drag:none}
+.photo-fs-close{position:absolute;top:calc(12px + env(safe-area-inset-top,0));right:14px;z-index:2;
+  width:44px;height:44px;border-radius:50%;border:0;background:rgba(20,20,24,.6);backdrop-filter:blur(6px);
+  color:#fff;font-size:1.15rem;display:flex;align-items:center;justify-content:center;cursor:pointer}
+.photo-fs-nav{position:absolute;top:50%;transform:translateY(-50%);width:48px;height:48px;border-radius:50%;border:0;
+  background:rgba(20,20,24,.5);backdrop-filter:blur(6px);color:#fff;font-size:1.5rem;cursor:pointer;
+  display:flex;align-items:center;justify-content:center}
+.photo-fs-nav.prev{left:10px}.photo-fs-nav.next{right:10px}
+.photo-fs-count{position:absolute;bottom:calc(16px + env(safe-area-inset-bottom,0));left:50%;transform:translateX(-50%);
+  font-family:var(--mono);font-size:.72rem;padding:6px 12px;border-radius:8px;background:rgba(20,20,24,.6);backdrop-filter:blur(6px);color:#fff}
 .d-body{padding:24px 26px 40px}
 .d-price{font-family:var(--disp);font-size:2.3rem;font-weight:600;letter-spacing:-.03em;color:#fff;line-height:1}
 .d-price .per{font-family:var(--sans);font-size:1rem;color:var(--muted);font-weight:500}
@@ -302,7 +322,7 @@
 .d-directions:hover{background:rgba(203,171,104,.14);border-color:rgba(203,171,104,.55)}
 
 /* share-copied feedback (desktop clipboard) on the CTA-row share icon. */
-.d-cta .d-cta-share.copied{background:linear-gradient(180deg,var(--gold-l),var(--gold));color:#161006;border-color:transparent}
+.d-cta .btn.d-cta-share.copied{background:linear-gradient(180deg,var(--gold-l),var(--gold));color:#161006;border-color:transparent}
 .d-section{margin:24px 0}
 .d-section h4{font-family:var(--mono);font-size:.66rem;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);margin-bottom:12px}
 .d-remarks{color:var(--fg-soft);line-height:1.7;font-size:.94rem}
@@ -368,9 +388,12 @@
   .fb-seg{padding:2px;flex:none}
   .seg-btn{padding:9px 14px;min-height:38px}
 
-  /* row 2: filters as a single swipeable strip — content-width chips, no wrap, no scrollbar */
+  /* row 2: filters as a single swipeable strip. flex:1 1 auto + min-width:0 (was width:100%) lets the
+     strip SHRINK so Reset stays on-row instead of shoved off the right edge; overscroll-behavior-x +
+     touch-action:pan-x keep the swipe from rubber-banding / panning the whole page. */
   .fb-group-filters{flex:1 1 100%;order:2;flex-wrap:nowrap;min-width:0}
-  .fb-drops{flex-wrap:nowrap;overflow-x:auto;width:100%;gap:8px;padding-bottom:1px;
+  .fb-drops{flex:1 1 auto;min-width:0;width:auto;flex-wrap:nowrap;overflow-x:auto;gap:8px;padding-bottom:1px;
+    overscroll-behavior-x:contain;touch-action:pan-x;
     -webkit-overflow-scrolling:touch;scrollbar-width:none;-webkit-mask-image:linear-gradient(90deg,#000 92%,transparent)}
   .fb-drops::-webkit-scrollbar{display:none}
   .drop{flex:0 0 auto}
@@ -383,7 +406,7 @@
   .vt-btn{padding:8px 14px;min-height:34px}
   .fb-saved{padding:8px 12px;min-height:34px}
   .fb-badge{padding:8px 12px;min-height:34px}
-  .fb-reset{padding:8px 6px;min-height:34px}
+  .fb-reset{padding:8px 6px;min-height:34px;flex:0 0 auto;align-self:center}
 
   /* Split has no room on a phone. Render it exactly like List (map hidden, full-width cards),
      independent of the JS default — so even if view state is 'split', the phone never shows the
@@ -396,6 +419,15 @@
   .app[data-view="map"] .mapwrap{height:calc(100vh - var(--hdr-h) - var(--fb-h) - 20px);min-height:70vh}
 
   .card-price{font-size:1.35rem}
+
+  /* MOBILE DETAIL DRAWER — full-page cover, not a 94vw slide-over */
+  .drawer{width:100vw;height:100dvh;border-left:0;box-shadow:none}
+
+  /* DETAIL CTA — Request a tour full-width on its own row, then Save + the compact share icon paired
+     on the row below so Share never strands on its own empty bar. */
+  .d-cta .btn-act{flex:1 1 100%}
+  .d-cta .btn[data-fav]{flex:1 1 auto;min-width:0}
+  .d-cta .btn.d-cta-share{flex:0 0 54px;min-width:0;width:54px;padding:0}
 }
 @media(prefers-reduced-motion:reduce){*{animation-duration:.001ms!important;transition-duration:.001ms!important}}
 

@@ -569,12 +569,16 @@ function highlightCard(mls, on) {
 // different listing is opened while a fetch is in flight, the stale response is dropped instead of
 // rendering into the wrong (or closed) drawer.
 let _drawerToken = 0;
+let _drawerHistOpen = false;   // one history entry per drawer session, so hardware Back closes the detail
 
 // Public entry. The light index record carries only primaryPhoto + no remarks, so we lazy-fetch the
 // per-listing detail JSON, merge it into the record in place (so state.byMls / cards see the richer
 // data too), then render. The drawer is shown immediately with a loading state so it never hangs; if
 // the fetch fails we fall back to rendering whatever we already have (graceful, never blank).
 async function openDetail(l) {
+  // Push one poppable history entry (guarded so opening B over A doesn't stack) — hardware/browser
+  // Back then pops it and closes the detail instead of navigating away. '' URL keeps the address bar.
+  if (!_drawerHistOpen) { _drawerHistOpen = true; history.pushState({ drawer: true }, ''); }
   const token = ++_drawerToken;
   const needsDetail = l && l.slug && !l._detailLoaded &&
     (!(l.photos && l.photos.length) || l.remarks == null);
@@ -672,6 +676,7 @@ function renderDrawer(l) {
   $('#dNext') && $('#dNext').addEventListener('click', () => { gi = (gi + 1) % photos.length; setG(); });
   $('#drawerBody').querySelector('[data-fav]').addEventListener('click', () => toggleFav(l.mls));
   $('#dShare') && $('#dShare').addEventListener('click', () => shareListing(l, $('#dShare')));
+  $('#dImg') && $('#dImg').addEventListener('click', () => openFS(photos, gi));   // tap photo → full-screen viewer
 
   // mini map
   const dm = L.map('dMap', { zoomControl: false, attributionControl: false, dragging: false, scrollWheelZoom: false, doubleClickZoom: false })
@@ -685,12 +690,69 @@ function renderDrawer(l) {
   $('#drawer').setAttribute('aria-hidden', 'false');
   $('#drawer').focus();
 }
-function closeDetail() {
+function teardownDrawer() {
+  closeFS();        // dismiss the full-screen photo viewer if it's open (covers every close route)
   _drawerToken++;   // invalidate any in-flight detail fetch so it won't render into a closed drawer
   $('#drawer').classList.remove('show');
   $('#scrim').classList.remove('show');
   $('#drawer').setAttribute('aria-hidden', 'true');
   setTimeout(() => { $('#scrim').hidden = true; $('#drawerBody').innerHTML = ''; }, 400);
+}
+function closeDetail() {
+  if (_drawerHistOpen) { history.back(); }   // symmetric with the pushState on open → popstate tears down
+  else { teardownDrawer(); }                 // fallback when no history entry was pushed
+}
+
+/* ---------- full-screen photo viewer (lightbox) ---------- */
+let _fs = null, _fsPhotos = [], _fsI = 0;
+function ensureFS() {
+  if (_fs) return _fs;
+  _fs = document.createElement('div');
+  _fs.className = 'photo-fs';
+  _fs.setAttribute('role', 'dialog');
+  _fs.setAttribute('aria-modal', 'true');
+  _fs.setAttribute('aria-label', 'Photo viewer');
+  _fs.innerHTML =
+    '<button class="photo-fs-close" aria-label="Close photos">✕</button>' +
+    '<button class="photo-fs-nav prev" aria-label="Previous photo">‹</button>' +
+    '<img alt="">' +
+    '<button class="photo-fs-nav next" aria-label="Next photo">›</button>' +
+    '<div class="photo-fs-count"></div>';
+  document.body.appendChild(_fs);
+  const img = _fs.querySelector('img');
+  _fs.querySelector('.photo-fs-close').addEventListener('click', closeFS);
+  _fs.querySelector('.prev').addEventListener('click', e => { e.stopPropagation(); stepFS(-1); });
+  _fs.querySelector('.next').addEventListener('click', e => { e.stopPropagation(); stepFS(1); });
+  _fs.addEventListener('click', e => { if (e.target === _fs) closeFS(); });
+  let x0 = null, y0 = null;
+  img.addEventListener('touchstart', e => { const t = e.changedTouches[0]; x0 = t.clientX; y0 = t.clientY; }, { passive: true });
+  img.addEventListener('touchend', e => {
+    if (x0 == null) return;
+    const t = e.changedTouches[0], dx = t.clientX - x0, dy = t.clientY - y0;
+    if (Math.abs(dx) > 45 && Math.abs(dx) > Math.abs(dy)) stepFS(dx < 0 ? 1 : -1);
+    x0 = y0 = null;
+  }, { passive: true });
+  return _fs;
+}
+function setFS() {
+  _fs.querySelector('img').src = _fsPhotos[_fsI];
+  _fs.querySelector('.photo-fs-count').textContent = `${_fsI + 1} / ${_fsPhotos.length}`;
+  const multi = _fsPhotos.length > 1 ? '' : 'none';
+  _fs.querySelector('.prev').style.display = multi;
+  _fs.querySelector('.next').style.display = multi;
+  _fs.querySelector('.photo-fs-count').style.display = multi;
+}
+function stepFS(dir) { const n = _fsPhotos.length; _fsI = (_fsI + dir + n) % n; setFS(); }
+function openFS(photos, i) {
+  if (!photos || !photos.length) return;
+  ensureFS(); _fsPhotos = photos; _fsI = i || 0; setFS();
+  requestAnimationFrame(() => _fs.classList.add('show'));
+  document.body.style.overflow = 'hidden';
+}
+function closeFS() {
+  if (!_fs) return;
+  _fs.classList.remove('show');
+  document.body.style.overflow = '';
 }
 
 /* ---------- IDX legal ---------- */
@@ -897,7 +959,20 @@ function wireControls() {
   // drawer close
   $('#drawerClose').addEventListener('click', closeDetail);
   $('#scrim').addEventListener('click', closeDetail);
-  document.addEventListener('keydown', e => { if (e.key === 'Escape') { closeDrops(); closeDetail(); } });
+  document.addEventListener('keydown', e => {
+    if (_fs && _fs.classList.contains('show')) {                  // lightbox open → it owns the keys
+      if (e.key === 'Escape') { closeFS(); return; }
+      if (e.key === 'ArrowLeft') { stepFS(-1); return; }
+      if (e.key === 'ArrowRight') { stepFS(1); return; }
+      return;
+    }
+    if (e.key === 'Escape') { closeDrops(); closeDetail(); }
+  });
+  // hardware/browser Back (or the history.back() from closeDetail) pops our entry → tear the drawer down,
+  // page stays put. Flag cleared so the next open pushes a fresh entry.
+  window.addEventListener('popstate', () => {
+    if (_drawerHistOpen) { _drawerHistOpen = false; teardownDrawer(); }
+  });
 }
 function closeDrops() { $$('.drop.is-active').forEach(d => { d.classList.remove('is-active'); d.querySelector('.drop-btn').setAttribute('aria-expanded', 'false'); }); }
 

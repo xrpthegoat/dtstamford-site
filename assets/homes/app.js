@@ -205,8 +205,63 @@ function render() {
   renderHead(list);
   renderCards(list);
   renderMarkers(list);
+  renderSavedActions(list);   // the "Saved" view's action bar: text John, share, get alerts
   syncFilterChrome();
   syncURL();
+}
+
+/* ---------- Saved view → next step (text John / share / alerts) ---------- */
+const PHONE_SMS = '+1' + PHONE;                                  // sms: wants E.164
+const savedList = () => state.all.filter(l => state.favs.has(l.mls));
+
+// A ready-to-send text to John listing the saved addresses + MLS #s — his lead, one tap.
+function savedSmsHref(list) {
+  const lines = list.slice(0, 25).map(l => `• ${addrFull(l)}${l.mls ? ` (MLS ${l.mls})` : ''}`).join('\n');
+  const body = `Hi John, I'd like to schedule tours / ask about these saved Stamford listings:\n${lines}\n\n(sent from dtstamford.com)`;
+  return `sms:${PHONE_SMS}?&body=${encodeURIComponent(body)}`;
+}
+
+function savedActionsHTML(list) {
+  const n = list.length;
+  return `<div class="sa-head">💛 <b>${n}</b> saved ${n === 1 ? 'home' : 'homes'} — ready when you are.</div>
+    <div class="sa-btns">
+      <a class="sa-btn sa-gold" href="${savedSmsHref(list)}">📅 Schedule tours · ask John</a>
+      <button class="sa-btn" type="button" data-share-saved>↗ Share</button>
+      <a class="sa-btn" href="homes-for-sale-stamford.html#alerts">🔔 Alert me to new ones like these</a>
+    </div>`;
+}
+
+let _savedWired = false;
+function renderSavedActions(list) {
+  const el = $('#savedActions');
+  if (!el) return;
+  if (state.savedOnly && list.length) { el.innerHTML = savedActionsHTML(list); el.hidden = false; }
+  else { el.innerHTML = ''; el.hidden = true; }
+  if (_savedWired) return;
+  _savedWired = true;                                            // delegate once — the bar's HTML is rebuilt each render
+  el.addEventListener('click', e => {
+    const b = e.target.closest('[data-share-saved]');
+    if (b) { e.preventDefault(); shareSaved(b); }
+  });
+}
+
+// Share the shortlist — native share sheet on mobile, clipboard fallback on desktop. Uses each listing's
+// own indexable page URL so recipients land on a real, shareable page.
+function shareSaved(btn) {
+  const list = savedList();
+  if (!list.length) return;
+  const url = l => (l.slug ? `https://dtstamford.com/homes/${l.slug}.html` : 'https://dtstamford.com/search.html');
+  const text = `Stamford homes I'm looking at:\n` + list.slice(0, 25).map(l => `${addrFull(l)} — ${url(l)}`).join('\n');
+  if (navigator.share) {
+    navigator.share({ title: 'Saved Stamford homes', text }).catch(() => {});
+  } else if (navigator.clipboard) {
+    navigator.clipboard.writeText(text).then(() => {
+      const old = btn.textContent; btn.textContent = '✓ Links copied';
+      setTimeout(() => { btn.textContent = old; }, 1800);
+    }).catch(() => prompt('Copy these links to share:', text));
+  } else {
+    prompt('Copy these links to share:', text);
+  }
 }
 
 function renderHead(list) {

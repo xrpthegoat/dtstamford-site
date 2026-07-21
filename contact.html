@@ -114,12 +114,19 @@
       </div>
       <div class="grid2">
         <div class="fld"><label for="v_name">Your name</label><input id="v_name" name="name" required></div>
-        <div class="fld"><label for="v_phone">Phone</label><input id="v_phone" name="phone" type="tel"></div>
+        <div class="fld"><label for="v_phone">Phone</label><input id="v_phone" name="phone" type="tel" inputmode="numeric" autocomplete="tel" pattern="[0-9()+.\s-]{7,}" title="Please enter a valid phone number (digits only)."></div>
       </div>
       <div class="fld"><label for="v_email">Email</label><input id="v_email" name="email" type="email" required></div>
       <div class="fld"><label for="v_notes">Anything else? (optional)</label><textarea id="v_notes" name="notes" rows="3"></textarea></div>
       <button class="btn btn-gold" type="submit">Get my home value <span class="arr">→</span></button>
     </form>
+    <script>
+    /* Phone fields accept only digits + basic phone punctuation, so a name/word can't be submitted
+       as a phone number. Strips invalid chars live; the pattern attribute also blocks submit. */
+    (function(){document.querySelectorAll('input[type="tel"]').forEach(function(el){
+      el.addEventListener('input',function(){var v=el.value.replace(/[^0-9()+.\s-]/g,'');if(v!==el.value)el.value=v;});
+    });})();
+    </script>
   </div>
 
   <!-- MORTGAGE CALCULATOR -->

@@ -126,11 +126,18 @@
       </div>
       <div class="grid2">
         <div class="fld"><label for="a_name">Your name</label><input id="a_name" name="name" required></div>
-        <div class="fld"><label for="a_phone">Phone</label><input id="a_phone" name="phone" type="tel"></div>
+        <div class="fld"><label for="a_phone">Phone</label><input id="a_phone" name="phone" type="tel" inputmode="numeric" autocomplete="tel" pattern="[0-9()+.\s-]{7,}" title="Please enter a valid phone number (digits only)."></div>
       </div>
       <div class="fld"><label for="a_email">Email</label><input id="a_email" name="email" type="email" required></div>
       <button class="btn btn-gold" type="submit">Send me new listings <span class="arr">→</span></button>
     </form>
+    <script>
+    /* Phone fields accept only digits + basic phone punctuation, so a name/word can't be submitted
+       as a phone number (the "parr" lead). Strips invalid chars live; pattern also blocks submit. */
+    (function(){document.querySelectorAll('input[type="tel"]').forEach(function(el){
+      el.addEventListener('input',function(){var v=el.value.replace(/[^0-9()+.\s-]/g,'');if(v!==el.value)el.value=v;});
+    });})();
+    </script>
   </div>
 
   <h2>Which Stamford neighborhood should I search for homes in?</h2>

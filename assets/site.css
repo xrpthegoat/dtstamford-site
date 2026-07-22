@@ -261,3 +261,12 @@ footer .col a:hover{color:#fff}
 .nlinks a::before{content:"";width:5px;height:5px;border-radius:50%;background:var(--gold-l);flex:0 0 auto}
 .nlinks a:hover{background:rgba(255,255,255,.07);color:#fff;transform:translateY(-3px)}
 @media(max-width:860px){.nlinks{grid-template-columns:repeat(2,1fr)}}
+/* author box — E-E-A-T signal on every post */
+.author-box{display:flex;align-items:center;gap:16px;margin-top:40px;padding:20px 24px;border:1px solid var(--line);border-radius:14px;background:rgba(255,255,255,.03)}
+.author-photo{width:72px;height:72px;border-radius:50%;object-fit:cover;flex:0 0 72px;border:2px solid var(--line)}
+.author-info{display:flex;flex-direction:column;gap:5px}
+.author-name{font-family:var(--disp);font-size:1rem;font-weight:600;color:#fff;letter-spacing:-.01em}
+.author-creds{font-family:var(--mono);font-size:.72rem;letter-spacing:.04em;color:var(--muted)}
+.author-creds a{color:var(--gold-l,#eed6a3);text-decoration:none}
+.author-creds a:hover{text-decoration:underline}
+@media(max-width:560px){.author-box{flex-direction:column;text-align:center;align-items:center}}

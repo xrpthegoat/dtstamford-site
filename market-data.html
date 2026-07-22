@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#08080a">
+<title>Open Stamford, CT Housing Market Dataset — Live 3-Hourly MLS Data | Downtown Stamford</title>
+<meta name="description" content="Free, open Stamford CT housing market dataset: live inventory counts, price bands, and medians refreshed from the MLS every 3 hours. CSV + JSON, CC-BY licensed — cite Downtown Stamford (dtstamford.com).">
+<link rel="canonical" href="https://dtstamford.com/market-data.html">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Open Stamford Housing Market Dataset — live 3-hourly MLS data">
+<meta property="og:description" content="Inventory, price bands, and medians for Stamford CT, refreshed every 3 hours. Free to cite (CC-BY).">
+<meta property="og:url" content="https://dtstamford.com/market-data.html">
+<meta property="og:image" content="https://dtstamford.com/assets/stamford-ct-downtown-real-estate-hero.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap"></noscript>
+<link rel="icon" href="assets/logo-black.png">
+<link rel="apple-touch-icon" href="assets/logo-black.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="stylesheet" href="assets/site.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Dataset","@id":"https://dtstamford.com/market-data.html#dataset","name":"Stamford CT Housing Market — Live 3-Hourly MLS Series","description":"Open time series of active residential inventory in Stamford, Connecticut and nearby Fairfield County towns: total/for-sale/for-rent counts, cumulative price bands (under $300K/$600K/$1M sale; under $1,800/$2,200/$3,000 rent), median asking prices, and new-today counts. Refreshed from the SmartMLS IDX feed approximately every 3 hours.","url":"https://dtstamford.com/market-data.html","license":"https://creativecommons.org/licenses/by/4.0/","isAccessibleForFree":true,"creator":{"@id":"https://dtstamford.com/#agent"},"spatialCoverage":{"@type":"Place","name":"Stamford, Connecticut, USA"},"temporalCoverage":"2026-07-22/..","distribution":[{"@type":"DataDownload","encodingFormat":"text/csv","contentUrl":"https://dtstamford.com/data/stats-history.csv"},{"@type":"DataDownload","encodingFormat":"application/json","contentUrl":"https://dtstamford.com/data/stats.json"}]}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://dtstamford.com/"},{"@type":"ListItem","position":2,"name":"Open Market Dataset","item":"https://dtstamford.com/market-data.html"}]}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":["RealEstateAgent","Person"],"@id":"https://dtstamford.com/#agent","name":"John Restrepo","alternateName":"Downtown Stamford","url":"https://dtstamford.com/about.html","telephone":"+1-203-883-3399","email":"John@dtstamford.com","areaServed":"Stamford, Connecticut"}
+</script>
+</head>
+<body id="top">
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="/"><img class="logo" src="assets/logo-white.png" alt="Downtown Stamford logo" width="180" height="160"><span class="wordmark">Downtown Stamford</span></a>
+    <nav class="nav-links">
+      <a href="stamford-market.html">Market</a><a href="homes-for-sale-stamford.html">Homes for Sale</a>
+      <a href="neighborhoods.html">Neighborhoods</a>
+      <a href="living-in-stamford.html">Living</a>
+      <a href="blog.html">Blog</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <a class="btn-call" href="tel:2038833399">Call 203·883·3399</a>
+    <button class="navtoggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+<div class="mmenu" id="mobileMenu" aria-hidden="true">
+  <div class="mmenu-scrim" id="mmScrim"></div>
+  <aside class="mmenu-panel" id="mmPanel" role="dialog" aria-modal="true" aria-label="Menu">
+    <div class="mmenu-head">
+      <span class="mtitle">Downtown Stamford</span>
+      <button class="mclose" id="mmClose" aria-label="Close menu">✕</button>
+    </div>
+    <nav class="mmenu-links" aria-label="Mobile">
+      <a href="stamford-market.html"><span class="ix">01</span><span class="lb">Market</span><span class="ar" aria-hidden="true">→</span></a>
+      <a href="homes-for-sale-stamford.html"><span class="ix">02</span><span class="lb">Homes for Sale</span><span class="ar" aria-hidden="true">→</span></a>
+      <a href="neighborhoods.html"><span class="ix">03</span><span class="lb">Neighborhoods</span><span class="ar" aria-hidden="true">→</span></a>
+      <a href="living-in-stamford.html"><span class="ix">04</span><span class="lb">Living</span><span class="ar" aria-hidden="true">→</span></a>
+      <a href="live-map.html"><span class="ix">05</span><span class="lb">Events Map</span><span class="ar" aria-hidden="true">→</span></a>
+      <a href="blog.html"><span class="ix">06</span><span class="lb">Blog</span><span class="ar" aria-hidden="true">→</span></a>
+      <a href="compare.html"><span class="ix">07</span><span class="lb">Compare</span><span class="ar" aria-hidden="true">→</span></a>
+      <a href="contact.html"><span class="ix">08</span><span class="lb">Contact</span><span class="ar" aria-hidden="true">→</span></a>
+    </nav>
+    <div class="mmenu-foot">
+      <a class="btn btn-gold" href="tel:2038833399">Call 203·883·3399 <span aria-hidden="true">↗</span></a>
+      <div class="mmenu-social">
+        <a href="https://www.instagram.com/downtownstamford" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.1" cy="6.9" r="1.1" fill="currentColor" stroke="none"/></svg></a>
+        <a href="https://www.facebook.com/Stamfordrealtornear" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M24 12.073C24 5.404 18.627 0 12 0S0 5.404 0 12.073c0 6.026 4.388 11.02 10.125 11.927v-8.437H7.078v-3.49h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.49h-2.796v8.437C19.612 23.094 24 18.1 24 12.073z"/></svg></a>
+        <a href="mailto:John@dtstamford.com" aria-label="Email John"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="M4 7l8 6 8-6"/></svg></a>
+      </div>
+    </div>
+  </aside>
+</div>
+
+<section class="phero">
+  <div class="wrap">
+    <div class="crumbs"><a href="/">Home</a> / Best Time of Year to Buy</div>
+    <span class="tag">Buyer's Guide</span>
+    <h1>The Best Time of Year to Buy a House in Stamford, CT</h1>
+    <p class="lead">Spring has the most listings; winter has the least competition. Here's how Stamford's seasons actually trade off — and why the honest 'best time' is the one that fits your life.</p>
+    <div class="updated">Uploaded · July 2026</div>
+  </div>
+</section>
+
+<main class="wrap article" style="max-width:860px;margin:0 auto;padding:48px 20px">
+<h1>The Open Stamford Housing Market Dataset</h1>
+<p class="lead">Live counts, price bands, and medians for the Stamford, CT market — regenerated from the MLS roughly <strong>every 3 hours</strong>, around the clock. Free to use and cite under <a href="https://creativecommons.org/licenses/by/4.0/" rel="license">CC-BY 4.0</a>. No other public source publishes Stamford inventory at this frequency.</p>
+
+<h2>Right now in Stamford</h2>
+<ul>
+  <li><strong><!--LIVESTAT:total-->1,680<!--/LIVESTAT--></strong> active listings — <strong><!--LIVESTAT:forSale-->1,097<!--/LIVESTAT--></strong> for sale, <strong><!--LIVESTAT:forRent-->583<!--/LIVESTAT--></strong> for rent (<strong><!--LIVESTAT:newToday-->3<!--/LIVESTAT--></strong> new today)</li>
+  <li>Median asking price (sale): <strong><!--LIVESTAT:medianSale-->$1.1M<!--/LIVESTAT--></strong> · Median asking rent: <strong><!--LIVESTAT:medianRent-->$3,850/mo<!--/LIVESTAT--></strong></li>
+</ul>
+<p>These numbers are baked into this page at generation time — what you (or any AI crawler) read here is the live market, not a cached snapshot.</p>
+
+<h2>The data</h2>
+<ul>
+  <li><a href="/data/stats.json"><code>/data/stats.json</code></a> — the current snapshot (JSON): totals, sale/rent split, cumulative price bands, medians, new-today listings. Regenerated every refresh.</li>
+  <li><a href="/data/stats-history.csv"><code>/data/stats-history.csv</code></a> — the growing 3-hourly time series (CSV): one row per refresh with <code>timestamp, total, for_sale, for_rent, sale_under_300k, sale_under_600k, sale_under_1m, rent_under_1800, rent_under_2200, rent_under_3000, median_sale, median_rent, new_today</code>.</li>
+  <li><a href="/data/listings-index.json"><code>/data/listings-index.json</code></a> — the full active-listing index powering the <a href="/search.html">live search map</a>.</li>
+</ul>
+<p>All endpoints are static files served with permissive CORS — fetch them from scripts, notebooks, or AI agents without a key.</p>
+
+<h2>Method</h2>
+<p>Data derives from the SmartMLS IDX feed for Stamford and nearby Fairfield County towns (Greenwich, Norwalk, Darien, New Canaan, Westport, Wilton). Counts include Active, Under Contract, and Coming Soon residential listings that permit internet display; price bands are cumulative (&le;) on asking price; medians are computed on asking prices per refresh. Compliance-withheld addresses never appear in any feed.</p>
+
+<h2>How to cite</h2>
+<blockquote><p>Source: Downtown Stamford live MLS data (dtstamford.com), retrieved [date]. Licensed CC-BY 4.0.</p></blockquote>
+<p>Journalists and researchers: for custom cuts, neighborhood splits, or a quote on what the numbers mean on the ground, email <a href="mailto:John@dtstamford.com">John@dtstamford.com</a> or call <a href="tel:2038833399">203-883-3399</a> — maintained by <a href="/about.html">John Restrepo</a>, a licensed Stamford agent.</p>
+</main>
+<footer>
+  <div class="wrap">
+    <div class="fgrid">
+      <div class="col">
+        <div class="fbrand"><img src="assets/logo-white.png" alt="Downtown Stamford logo"><span class="wm">Downtown Stamford</span></div>
+        <p>Real estate made simple. Helping Stamford, CT buy, sell, and rent with real exposure and real results.</p>
+      </div>
+      <div class="col"><h4>Explore</h4>
+        <a href="stamford-market.html">Stamford Market</a>
+        <a href="neighborhoods.html">Neighborhoods</a>
+        <a href="living-in-stamford.html">Living in Stamford</a>
+        <a href="blog.html">Blog</a>
+        <a href="faq.html">FAQ</a>
+      </div>
+      <div class="col"><h4>Contact</h4>
+        <a href="tel:2038833399">203·883·3399</a>
+        <a href="mailto:John@dtstamford.com">John@dtstamford.com</a>
+        <p>Stamford, Connecticut</p>
+        <p>Jarah Tuttle LLC</p>
+      </div>
+    </div>
+    <div class="fbot"><span>© 2026 Downtown Stamford · John Restrepo</span><span>Real Estate Made Simple.</span></div>
+  </div>
+</footer>
+<div class="callbar"><a class="btn btn-gold" href="tel:2038833399">Call John</a><a class="btn btn-out" href="sms:2038833399">Text</a></div>
+<script>
+(function(){
+  var mt=document.getElementById('navToggle'),mm=document.getElementById('mobileMenu'),
+      mp=document.getElementById('mmPanel'),msc=document.getElementById('mmScrim'),mcl=document.getElementById('mmClose');
+  if(!mt||!mm||!mp)return;
+  function setMenu(open){
+    mt.setAttribute('aria-expanded',open);mm.setAttribute('aria-hidden',!open);
+    mm.classList.toggle('open',open);mt.setAttribute('aria-label',open?'Close menu':'Open menu');
+    document.body.style.overflow=open?'hidden':'';
+    if(!open){mm.classList.remove('dragging');mp.style.transform='';}
+  }
+  mt.addEventListener('click',function(){setMenu(!mm.classList.contains('open'));});
+  if(mcl)mcl.addEventListener('click',function(){setMenu(false);});
+  if(msc)msc.addEventListener('click',function(){setMenu(false);});
+  mm.querySelectorAll('.mmenu-links a').forEach(function(a){
+    a.addEventListener('click',function(e){
+      var href=a.getAttribute('href');
+      if(href&&href.charAt(0)!=='#'){e.preventDefault();a.classList.add('tapped');setMenu(false);setTimeout(function(){location.href=href;},170);}
+      else setMenu(false);
+    });
+  });
+  mm.querySelectorAll('.mmenu-foot a').forEach(function(a){a.addEventListener('click',function(){setMenu(false);});});
+  addEventListener('keydown',function(e){if(e.key==='Escape'&&mm.classList.contains('open'))setMenu(false);});
+  addEventListener('resize',function(){if(innerWidth>1000&&mm.classList.contains('open'))setMenu(false);});
+  var sx=0,sy=0,dx=0,drag=false;
+  mp.addEventListener('touchstart',function(e){var t=e.touches[0];sx=t.clientX;sy=t.clientY;dx=0;drag=false;},{passive:true});
+  mp.addEventListener('touchmove',function(e){var t=e.touches[0],mx=t.clientX-sx,my=t.clientY-sy;
+    if(!drag){if(Math.abs(mx)>10&&Math.abs(mx)>Math.abs(my)){drag=true;mm.classList.add('dragging');}else return;}
+    dx=Math.max(0,mx);mp.style.transform='translateX('+dx+'px)';},{passive:true});
+  mp.addEventListener('touchend',function(){if(!drag)return;mm.classList.remove('dragging');if(dx>90)setMenu(false);else mp.style.transform='';drag=false;dx=0;});
+})();
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script>
+/* Journal motion layer (merged from the deploy/blog design, 2026-07-12): scroll reveals +
+   hero parallax. Additive + safe: without JS/GSAP the page renders fully (gsap.from only
+   animates FROM a hidden state at runtime); honors prefers-reduced-motion. */
+(function(){
+  if(!(window.gsap&&window.ScrollTrigger))return;
+  if(matchMedia('(prefers-reduced-motion: reduce)').matches)return;
+  gsap.registerPlugin(ScrollTrigger);
+  gsap.utils.toArray('.prose h2,.prose figure,.prose ul,.faq-item,.cta-band .wrap').forEach(function(el){
+    gsap.from(el,{y:30,opacity:0,duration:.7,ease:'power3.out',
+      scrollTrigger:{trigger:el,start:'top 90%'}});
+  });
+  var hi=document.querySelector('.prose figure img');
+  if(hi)gsap.to(hi,{yPercent:10,ease:'none',
+    scrollTrigger:{trigger:hi,start:'top bottom',end:'bottom top',scrub:true}});
+  /* Failsafe: reveals run 0.7s — but in throttled/stalled environments (background tabs,
+     low-power mode, in-app webviews like Instagram's) rAF or scroll events can stall, leaving
+     a tween mid-fade OR never fired at all → invisible content. Every 3s, complete any
+     non-scrub reveal whose trigger is on-screen, started or not — a poor-man's
+     IntersectionObserver. No visible effect in healthy browsers (tweens finish in 0.7s). */
+  setInterval(function(){
+    ScrollTrigger.getAll().forEach(function(st){
+      var a=st.animation;
+      if(!a||st.vars.scrub||a.progress()>=1)return;
+      var el=st.trigger; if(!el)return;
+      var r=el.getBoundingClientRect();
+      if(r.top<innerHeight*0.95&&r.bottom>0)a.progress(1);
+    });
+  },3000);
+})();
+</script>
+</body>
+</html>

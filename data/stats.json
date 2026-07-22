@@ -1,12 +1,12 @@
 {
- "generatedAt": "2026-07-22T19:25:47Z",
+ "generatedAt": "2026-07-22T22:25:03Z",
  "date": "2026-07-22",
- "total": 1686,
- "forSale": 1102,
- "forRent": 584,
+ "total": 1678,
+ "forSale": 1097,
+ "forRent": 581,
  "active": 1041,
  "comingSoon": 15,
- "newTodayCount": 26,
+ "newTodayCount": 32,
  "newToday": [
   {
    "mls": "24193530",
@@ -65,6 +65,18 @@
    "price": 1775000.0,
    "listingType": "sale",
    "beds": 3,
+   "baths": 3.0,
+   "withheld": false
+  },
+  {
+   "mls": "24192365",
+   "slug": "185-middle-ridge-road-new-canaan-connecticut-24192365",
+   "url": "homes/185-middle-ridge-road-new-canaan-connecticut-24192365.html",
+   "address": "185 Middle Ridge Road",
+   "city": "New Canaan",
+   "price": 1649900.0,
+   "listingType": "sale",
+   "beds": 4,
    "baths": 3.0,
    "withheld": false
   },
@@ -138,6 +150,18 @@
    "listingType": "sale",
    "beds": 2,
    "baths": 3.0,
+   "withheld": false
+  },
+  {
+   "mls": "24175156",
+   "slug": "8-ground-pine-road-wilton-connecticut-24175156",
+   "url": "homes/8-ground-pine-road-wilton-connecticut-24175156.html",
+   "address": "8 Ground Pine Road",
+   "city": "Wilton",
+   "price": 975000.0,
+   "listingType": "sale",
+   "beds": 3,
+   "baths": 2.0,
    "withheld": false
   },
   {
@@ -271,43 +295,19 @@
    "beds": 3,
    "baths": 2.0,
    "withheld": false
-  },
-  {
-   "mls": "24193510",
-   "slug": "523-danbury-road-wilton-connecticut-24193510",
-   "url": "homes/523-danbury-road-wilton-connecticut-24193510.html",
-   "address": "523 Danbury Road",
-   "city": "Wilton",
-   "price": 3075.0,
-   "listingType": "rent",
-   "beds": 1,
-   "baths": 1.0,
-   "withheld": false
-  },
-  {
-   "mls": "24192098",
-   "slug": "25-west-main-street-norwalk-connecticut-24192098",
-   "url": "homes/25-west-main-street-norwalk-connecticut-24192098.html",
-   "address": "25 West Main Street",
-   "city": "Norwalk",
-   "price": 2400.0,
-   "listingType": "rent",
-   "beds": 1,
-   "baths": 2.0,
-   "withheld": false
   }
  ],
  "refreshHours": 12,
  "saleBands": {
   "u300k": 70,
   "u600k": 254,
-  "u1m": 533
+  "u1m": 529
  },
  "rentBands": {
   "u1800": 26,
-  "u2200": 82,
+  "u2200": 81,
   "u3000": 215
  },
- "medianSale": 1095000,
- "medianRent": 3850
+ "medianSale": 1095000.0,
+ "medianRent": 3850.0
 }

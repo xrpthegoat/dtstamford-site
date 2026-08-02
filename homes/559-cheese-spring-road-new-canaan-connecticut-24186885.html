@@ -26,7 +26,16 @@
 .idx-hero{padding:clamp(96px,12vw,140px) 0 24px}
 .idx-crumbs{font-family:var(--mono);font-size:.68rem;letter-spacing:.06em;text-transform:uppercase;color:var(--faint);margin-bottom:18px}
 .idx-crumbs a:hover{color:var(--gold-l)}
-.idx-status{display:inline-block;font-family:var(--mono);font-size:.62rem;letter-spacing:.14em;text-transform:uppercase;color:var(--gold-l);border:1px solid var(--line);border-radius:999px;padding:5px 12px;margin-bottom:14px}
+/* Status pill — colour-coded by market state (2026-08-02): green = available, amber = under
+   contract, cyan = coming soon. Tokens live here so the hub cards and detail hero share them. */
+:root{--st-on:#5fd39a;--st-uc:#f0a44e;--st-ucs:#f5c168;--st-soon:#6fc9ea}
+.idx-status{display:inline-flex;align-items:center;gap:7px;font-family:var(--mono);font-size:.62rem;letter-spacing:.14em;text-transform:uppercase;color:var(--gold-l);border:1px solid var(--line);border-radius:999px;padding:6px 13px;margin-bottom:14px;background:rgba(255,255,255,.03)}
+.idx-status .dot{width:6px;height:6px;border-radius:50%;background:currentColor;flex:none;box-shadow:0 0 0 3px color-mix(in srgb,currentColor 18%,transparent)}
+.st-on{color:var(--st-on);border-color:color-mix(in srgb,var(--st-on) 34%,transparent);background:color-mix(in srgb,var(--st-on) 9%,transparent)}
+.st-uc{color:var(--st-uc);border-color:color-mix(in srgb,var(--st-uc) 34%,transparent);background:color-mix(in srgb,var(--st-uc) 9%,transparent)}
+.st-ucs{color:var(--st-ucs);border-color:color-mix(in srgb,var(--st-ucs) 34%,transparent);background:color-mix(in srgb,var(--st-ucs) 9%,transparent)}
+.st-soon{color:var(--st-soon);border-color:color-mix(in srgb,var(--st-soon) 34%,transparent);background:color-mix(in srgb,var(--st-soon) 9%,transparent)}
+.idx-status .st-sep{opacity:.45}
 .idx-price{font-family:var(--disp);font-size:clamp(2.2rem,5vw,3.4rem);color:#fff;letter-spacing:-.03em;line-height:1}
 .idx-addr{color:var(--fg-soft);font-size:1.15rem;margin-top:10px}
 .idx-quick{display:flex;flex-wrap:wrap;gap:10px 26px;margin-top:18px;font-family:var(--mono);font-size:.8rem;color:var(--fg-soft)}
@@ -35,12 +44,32 @@
 .idx-gallery img{width:100%;height:100%;object-fit:cover;border-radius:14px;border:1px solid var(--line);background:var(--bg2);aspect-ratio:4/3}
 .idx-gallery img.lead{grid-row:span 2;aspect-ratio:auto;min-height:280px}
 @media(max-width:760px){.idx-gallery{grid-template-columns:1fr 1fr}.idx-gallery img.lead{grid-column:span 2}}
-.idx-body{display:grid;grid-template-columns:1.6fr .9fr;gap:40px;align-items:start;padding:8px 0 40px}
-@media(max-width:860px){.idx-body{grid-template-columns:1fr}}
-.idx-facts{display:grid;grid-template-columns:repeat(2,1fr);gap:0;border:1px solid var(--line);border-radius:16px;overflow:hidden;margin:20px 0}
-.idx-facts div{padding:14px 16px;border-bottom:1px solid var(--line-2);border-right:1px solid var(--line-2)}
+/* NOTE: padding-top/bottom ONLY — the horizontal padding comes from .wrap (0 28px). The old
+   shorthand `padding:8px 0 40px` zeroed it, so on phones every block (remarks, facts, aside) ran
+   edge-to-edge with no gutter. Longhand keeps .wrap's gutter and inherits any future change. */
+.idx-body{display:grid;grid-template-columns:1.6fr .9fr;gap:40px;align-items:start;padding-top:8px;padding-bottom:40px}
+@media(max-width:860px){.idx-body{grid-template-columns:1fr;gap:28px}.idx-cta{position:static;padding:22px}}
+.idx-facts{display:grid;grid-template-columns:repeat(2,1fr);gap:0;border:1px solid var(--line);border-radius:16px;overflow:hidden;margin:20px 0;background:rgba(255,255,255,.015)}
+/* DIRECT children only: `.idx-facts div` also matched the .k/.v children, giving every label and
+   value its own padding + underline (tall rows with stray rules). */
+.idx-facts>div{padding:14px 16px;border-bottom:1px solid var(--line-2);border-right:1px solid var(--line-2);min-width:0;overflow-wrap:anywhere}
+.idx-facts>div:nth-child(2n){border-right:0}
 .idx-facts .k{font-family:var(--mono);font-size:.62rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
-.idx-facts .v{color:#fff;font-size:1.02rem;margin-top:3px}
+.idx-facts .v{color:#fff;font-size:1.02rem;margin-top:3px;line-height:1.35}
+.idx-flood{margin:6px 2px 0}
+/* Phones: a real gutter on every block, tighter type, single-column facts so long utility values
+   ("Public Sewer Connected") stop wrapping into unreadable slivers. */
+@media(max-width:560px){
+  .idx-hero .wrap,.idx-body{padding-left:20px;padding-right:20px}
+  .idx-hero{padding-top:clamp(84px,22vw,110px)}
+  .idx-quick{gap:8px 18px;font-size:.75rem}
+  .idx-facts{grid-template-columns:1fr;margin:18px 0}
+  .idx-facts>div{border-right:0;padding:12px 15px;display:flex;align-items:baseline;justify-content:space-between;gap:14px}
+  .idx-facts .k{flex:none}
+  .idx-facts .v{margin-top:0;text-align:right;font-size:.98rem}
+  .idx-remarks{font-size:1.01rem;line-height:1.68}
+  .idx-gallery{gap:8px;margin:20px 0 6px}
+}
 .idx-cta{position:sticky;top:90px;border:1px solid var(--line);border-radius:20px;padding:26px;background:rgba(255,255,255,.02);box-shadow:inset 0 1px 0 rgba(255,255,255,.05)}
 .idx-cta h3{font-size:1.3rem;color:#fff;margin-bottom:6px}
 .idx-cta p{color:var(--fg-soft);font-size:.95rem;margin-bottom:16px}
@@ -60,7 +89,7 @@
 <header><div class="wrap nav"><a class="brand" href="/"><img class="logo" src="/assets/logo-white.png" alt="Downtown Stamford"><span class="wordmark">Downtown Stamford</span></a><nav class="nav-links"><a href="/homes-for-sale-stamford.html">Homes for Sale</a><a href="/homes/">All Listings</a><a href="/search.html">Search</a><a href="/neighborhoods.html">Neighborhoods</a><a href="/blog.html">Blog</a><a href="/contact.html">Contact</a></nav><a class="btn-call" href="tel:2038833399">Call 203·883·3399</a></div></header>
 <section class="idx-hero"><div class="wrap">
   <div class="idx-crumbs"><a href="/">Home</a> / <a href="/homes/">Listings</a> / New Canaan</div>
-  <span class="idx-status">Under Contract · For Sale</span>
+  <span class="idx-status st-uc"><span class="dot"></span>Under Contract<span class="st-sep"> · For Sale</span></span>
   <div class="idx-price">$2,395,000</div>
   <div class="idx-addr">559 Cheese Spring Road, New Canaan, Connecticut 06840</div>
   <div class="idx-quick">

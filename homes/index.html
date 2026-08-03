@@ -40,10 +40,10 @@
 .idx-addr{color:var(--fg-soft);font-size:1.15rem;margin-top:10px}
 .idx-quick{display:flex;flex-wrap:wrap;gap:10px 26px;margin-top:18px;font-family:var(--mono);font-size:.8rem;color:var(--fg-soft)}
 .idx-quick b{color:#fff;font-weight:700}
-.idx-gallery{display:grid;grid-template-columns:2fr 1fr 1fr;gap:10px;margin:26px 0 8px}
-.idx-gallery img{width:100%;height:100%;object-fit:cover;border-radius:14px;border:1px solid var(--line);background:var(--bg2);aspect-ratio:4/3}
-.idx-gallery img.lead{grid-row:span 2;aspect-ratio:auto;min-height:280px}
-@media(max-width:760px){.idx-gallery{grid-template-columns:1fr 1fr}.idx-gallery img.lead{grid-column:span 2}}
+.idx-gallery{display:grid;grid-template-columns:2fr 1fr 1fr;gap:10px;margin:26px 0 8px;position:relative}
+.idx-gallery img,.idx-gallery .idx-shot{width:100%;height:100%;object-fit:cover;border-radius:14px;border:1px solid var(--line);background:var(--bg2);aspect-ratio:4/3}
+.idx-gallery img.lead,.idx-gallery .idx-shot.lead{grid-row:span 2;aspect-ratio:auto;min-height:280px}
+@media(max-width:760px){.idx-gallery{grid-template-columns:1fr 1fr}.idx-gallery img.lead,.idx-gallery .idx-shot.lead{grid-column:span 2}}
 /* NOTE: padding-top/bottom ONLY — the horizontal padding comes from .wrap (0 28px). The old
    shorthand `padding:8px 0 40px` zeroed it, so on phones every block (remarks, facts, aside) ran
    edge-to-edge with no gutter. Longhand keeps .wrap's gutter and inherits any future change. */
@@ -102,7 +102,7 @@
   <div class="idx-crumbs"><a href="/">Home</a> / Listings</div>
   <span class="idx-status">Live from the MLS</span>
   <div class="idx-price">Stamford Listings</div>
-  <p class="idx-addr">Homes for sale, condos, and rentals across the Stamford area — straight from the local MLS. 1714 active listings.</p>
+  <p class="idx-addr">Homes for sale, condos, and rentals across the Stamford area — straight from the local MLS. 1711 active listings.</p>
 </div></section>
 <main class="wrap">
 <div class="lgrid">
@@ -4792,17 +4792,6 @@
     <div class="lcard-attrib">Listing courtesy of <strong>Coldwell Banker Realty</strong></div>
   </div>
 </a>
-<a class="lcard" href="/homes/54-w-north-street-stamford-connecticut-24168171.html">
-  <img src="https://smartmls-assets.cdn-connectmls.com/pics/521DAED282D24E84E0631A01100A51F2/HD_1779146017850_IMG_2992.JPEG" alt="54 W North Street, Stamford" loading="lazy" decoding="async">
-  <div class="lcard-b">
-    <div class="lcard-price">$175,000</div>
-    <div class="lcard-addr">54 W North Street</div>
-    <div class="lcard-sub">Stamford</div>
-    <div class="lcard-meta">2 bd · 1 ba · 900 sqft · Condo/Co-Op For Sale</div>
-    <div class="lcard-status st-ucs"><span class="dot"></span>Under Contract - Continue to Show</div>
-    <div class="lcard-attrib">Listing courtesy of <strong>Coldwell Banker Realty</strong></div>
-  </div>
-</a>
 <a class="lcard" href="/homes/125-prospect-street-stamford-connecticut-24191547.html">
   <img src="https://smartmls-assets.cdn-connectmls.com/pics/569955F556EBD2FDE0631A01100A6460/HD_1784071934725_Screenshot_2026_07_14_at_7.32.10___PM.JPEG" alt="125 Prospect Street, Stamford" loading="lazy" decoding="async">
   <div class="lcard-b">
@@ -5549,17 +5538,6 @@
     <div class="lcard-meta">3 bd · 2 ba · 1,444 sqft · Single Family For Sale</div>
     <div class="lcard-status st-uc"><span class="dot"></span>Under Contract</div>
     <div class="lcard-attrib">Listing courtesy of <strong>Keller Williams Realty</strong></div>
-  </div>
-</a>
-<a class="lcard" href="/homes/700-summer-street-stamford-connecticut-24180832.html">
-  <img src="https://smartmls-assets.cdn-connectmls.com/pics/53C079D17FF22940E0631A01100A3F20/HD_1780936257533_orig__MG_5696_1714305.JPEG" alt="700 Summer Street, Stamford" loading="lazy" decoding="async">
-  <div class="lcard-b">
-    <div class="lcard-price">$2,550/mo</div>
-    <div class="lcard-addr">700 Summer Street</div>
-    <div class="lcard-sub">Stamford</div>
-    <div class="lcard-meta">1 bd · 1 ba · 889 sqft · Residential Rental</div>
-    <div class="lcard-status st-ucs"><span class="dot"></span>Under Contract - Continue to Show</div>
-    <div class="lcard-attrib">Listing courtesy of <strong>Brown Harris Stevens</strong></div>
   </div>
 </a>
 <a class="lcard" href="/homes/255-strawberry-hill-avenue-stamford-connecticut-24192298.html">
@@ -6453,17 +6431,6 @@
     <div class="lcard-attrib">Listing courtesy of <strong>Keller Williams Prestige Prop.</strong></div>
   </div>
 </a>
-<a class="lcard" href="/homes/113-dogwood-lane-stamford-connecticut-24194350.html">
-  <img src="https://smartmls-assets.cdn-connectmls.com/pics/5762C02E2838C92BE0631A01100AE5E3/HD_1784932276967_DSC_1361_HDR_Edit.JPEG" alt="113 Dogwood Lane, Stamford" loading="lazy" decoding="async">
-  <div class="lcard-b">
-    <div class="lcard-price">$5,500/mo</div>
-    <div class="lcard-addr">113 Dogwood Lane</div>
-    <div class="lcard-sub">Stamford</div>
-    <div class="lcard-meta">3 bd · 3 ba · 3,389 sqft · Residential Rental</div>
-    <div class="lcard-status st-on"><span class="dot"></span>Active</div>
-    <div class="lcard-attrib">Listing courtesy of <strong>Coldwell Banker Realty</strong></div>
-  </div>
-</a>
 <a class="lcard" href="/homes/50-glenbrook-road-stamford-connecticut-24182013.html">
   <img src="https://smartmls-assets.cdn-connectmls.com/pics/57CAD1BD2590F8FBE0631A01100A1A02/HD_1785417638345_01.JPEG" alt="50 Glenbrook Road, Stamford" loading="lazy" decoding="async">
   <div class="lcard-b">
@@ -6693,6 +6660,39 @@
     <div class="lcard-meta">1 bd · 1 ba · 585 sqft · Residential Rental</div>
     <div class="lcard-status st-on"><span class="dot"></span>Active</div>
     <div class="lcard-attrib">Listing courtesy of <strong>William Raveis Real Estate</strong></div>
+  </div>
+</a>
+<a class="lcard" href="/homes/700-summer-street-stamford-connecticut-24180832.html">
+  <img src="https://smartmls-assets.cdn-connectmls.com/pics/53C079D17FF22940E0631A01100A3F20/HD_1780936257533_orig__MG_5696_1714305.JPEG" alt="700 Summer Street, Stamford" loading="lazy" decoding="async">
+  <div class="lcard-b">
+    <div class="lcard-price">$2,550/mo</div>
+    <div class="lcard-addr">700 Summer Street</div>
+    <div class="lcard-sub">Stamford</div>
+    <div class="lcard-meta">1 bd · 1 ba · 889 sqft · Residential Rental</div>
+    <div class="lcard-status st-uc"><span class="dot"></span>Under Contract</div>
+    <div class="lcard-attrib">Listing courtesy of <strong>Brown Harris Stevens</strong></div>
+  </div>
+</a>
+<a class="lcard" href="/homes/54-w-north-street-stamford-connecticut-24168171.html">
+  <img src="https://smartmls-assets.cdn-connectmls.com/pics/521DAED282D24E84E0631A01100A51F2/HD_1779146017850_IMG_2992.JPEG" alt="54 W North Street, Stamford" loading="lazy" decoding="async">
+  <div class="lcard-b">
+    <div class="lcard-price">$175,000</div>
+    <div class="lcard-addr">54 W North Street</div>
+    <div class="lcard-sub">Stamford</div>
+    <div class="lcard-meta">2 bd · 1 ba · 900 sqft · Condo/Co-Op For Sale</div>
+    <div class="lcard-status st-on"><span class="dot"></span>Active</div>
+    <div class="lcard-attrib">Listing courtesy of <strong>Coldwell Banker Realty</strong></div>
+  </div>
+</a>
+<a class="lcard" href="/homes/113-dogwood-lane-stamford-connecticut-24194350.html">
+  <img src="https://smartmls-assets.cdn-connectmls.com/pics/5762C02E2838C92BE0631A01100AE5E3/HD_1784932276967_DSC_1361_HDR_Edit.JPEG" alt="113 Dogwood Lane, Stamford" loading="lazy" decoding="async">
+  <div class="lcard-b">
+    <div class="lcard-price">$5,500/mo</div>
+    <div class="lcard-addr">113 Dogwood Lane</div>
+    <div class="lcard-sub">Stamford</div>
+    <div class="lcard-meta">3 bd · 3 ba · 3,389 sqft · Residential Rental</div>
+    <div class="lcard-status st-on"><span class="dot"></span>Active</div>
+    <div class="lcard-attrib">Listing courtesy of <strong>Coldwell Banker Realty</strong></div>
   </div>
 </a>
 <a class="lcard" href="/homes/333-rock-rimmon-road-stamford-connecticut-24195672.html">
@@ -7056,17 +7056,6 @@
     <div class="lcard-meta">4 bd · 3 ba · 4,735 sqft · Residential Rental</div>
     <div class="lcard-status st-on"><span class="dot"></span>Active</div>
     <div class="lcard-attrib">Listing courtesy of <strong>Houlihan Lawrence</strong></div>
-  </div>
-</a>
-<a class="lcard" href="/homes/243-glenville-road-greenwich-connecticut-24186615.html">
-  <img src="https://smartmls-assets.cdn-connectmls.com/pics/556960CEF492FDA7E063E201100AC8FC/HD_1782766013882_1.JPEG" alt="243 Glenville Road, Greenwich" loading="lazy" decoding="async">
-  <div class="lcard-b">
-    <div class="lcard-price">$2,400/mo</div>
-    <div class="lcard-addr">243 Glenville Road</div>
-    <div class="lcard-sub">Greenwich</div>
-    <div class="lcard-meta">1 bd · 1 ba · 700 sqft · Residential Rental</div>
-    <div class="lcard-status st-on"><span class="dot"></span>Active</div>
-    <div class="lcard-attrib">Listing courtesy of <strong>Berkshire Hathaway NE Prop.</strong></div>
   </div>
 </a>
 <a class="lcard" href="/homes/118-halstead-avenue-greenwich-connecticut-24184465.html">
@@ -7595,17 +7584,6 @@
     <div class="lcard-meta">3 bd · 4 ba · 2,364 sqft · Residential Rental</div>
     <div class="lcard-status st-on"><span class="dot"></span>Active</div>
     <div class="lcard-attrib">Listing courtesy of <strong>Anderson Associates LTD</strong></div>
-  </div>
-</a>
-<a class="lcard" href="/homes/58-halsey-drive-greenwich-connecticut-24188747.html">
-  <img src="https://smartmls-assets.cdn-connectmls.com/pics/55A6DC295C94C4C3E063E201100AC35D/HD_1783029390564_1_1.JPEG" alt="58 Halsey Drive, Greenwich" loading="lazy" decoding="async">
-  <div class="lcard-b">
-    <div class="lcard-price">$3,995,000</div>
-    <div class="lcard-addr">58 Halsey Drive</div>
-    <div class="lcard-sub">Greenwich</div>
-    <div class="lcard-meta">5 bd · 7 ba · 5,497 sqft · Single Family For Sale</div>
-    <div class="lcard-status st-on"><span class="dot"></span>Active</div>
-    <div class="lcard-attrib">Listing courtesy of <strong>William Raveis Real Estate</strong></div>
   </div>
 </a>
 <a class="lcard" href="/homes/63-church-street-greenwich-connecticut-24179060.html">
@@ -10347,17 +10325,6 @@
     <div class="lcard-attrib">Listing courtesy of <strong>BHHS Darien/New Canaan</strong></div>
   </div>
 </a>
-<a class="lcard" href="/homes/1-saint-john-street-norwalk-connecticut-24190284.html">
-  <img src="https://smartmls-assets.cdn-connectmls.com/pics/562F7ABDE8564D02E0631A01100AABCA/HD_SMARTMLS_1739810744821_DSCN5649_CL.JPEG" alt="1 Saint John Street, Norwalk" loading="lazy" decoding="async">
-  <div class="lcard-b">
-    <div class="lcard-price">$2,400/mo</div>
-    <div class="lcard-addr">1 Saint John Street</div>
-    <div class="lcard-sub">Norwalk</div>
-    <div class="lcard-meta">2 bd · 1 ba · 716 sqft · Residential Rental</div>
-    <div class="lcard-status st-on"><span class="dot"></span>Active</div>
-    <div class="lcard-attrib">Listing courtesy of <strong>Michael Church</strong></div>
-  </div>
-</a>
 <a class="lcard" href="/homes/31-harriet-street-norwalk-connecticut-24193206.html">
   <img src="https://smartmls-assets.cdn-connectmls.com/pics/5720CAC51D912AC1E063E201100AC352/HD_1784644413520_57F7B807_EF48_4732_AD69_3563431A62EC.JPEG" alt="31 Harriet Street, Norwalk" loading="lazy" decoding="async">
   <div class="lcard-b">
@@ -11766,17 +11733,6 @@
     <div class="lcard-attrib">Listing courtesy of <strong>Berkshire Hathaway NE Prop.</strong></div>
   </div>
 </a>
-<a class="lcard" href="/homes/10-shorehaven-road-norwalk-connecticut-24172989.html">
-  <img src="https://smartmls-assets.cdn-connectmls.com/pics/511463015505E7E0E0631A01100A7DA3/HD_1775703598385_Waterside_view_10_Shorehaven_Road_Norwalk_CT_09_CL.JPEG" alt="10 Shorehaven Road, Norwalk" loading="lazy" decoding="async">
-  <div class="lcard-b">
-    <div class="lcard-price">$11,500,000</div>
-    <div class="lcard-addr">10 Shorehaven Road</div>
-    <div class="lcard-sub">Norwalk</div>
-    <div class="lcard-meta">5 bd · 10 ba · 9,564 sqft · Single Family For Sale</div>
-    <div class="lcard-status st-on"><span class="dot"></span>Active</div>
-    <div class="lcard-attrib">Listing courtesy of <strong>Compass Connecticut, LLC</strong></div>
-  </div>
-</a>
 <a class="lcard" href="/homes/25-west-main-street-norwalk-connecticut-24192098.html">
   <img src="https://smartmls-assets.cdn-connectmls.com/pics/56BC28AFFC642AE7E0631A01100A3008/HD_SMARTMLS_1719581462052_GetMedia__1_.JPEG" alt="25 West Main Street, Norwalk" loading="lazy" decoding="async">
   <div class="lcard-b">
@@ -12283,17 +12239,6 @@
     <div class="lcard-attrib">Listing courtesy of <strong>Coldwell Banker Realty</strong></div>
   </div>
 </a>
-<a class="lcard" href="/homes/2-winthrop-avenue-norwalk-connecticut-24189765.html">
-  <img src="https://smartmls-assets.cdn-connectmls.com/pics/56581FB7664A3257E0631A01100AF8FB/HD_1783801505106_1_copy.JPEG" alt="2 Winthrop Avenue, Norwalk" loading="lazy" decoding="async">
-  <div class="lcard-b">
-    <div class="lcard-price">$845,000</div>
-    <div class="lcard-addr">2 Winthrop Avenue</div>
-    <div class="lcard-sub">Norwalk</div>
-    <div class="lcard-meta">2 bd · 3 ba · 1,402 sqft · Single Family For Sale</div>
-    <div class="lcard-status st-on"><span class="dot"></span>Active</div>
-    <div class="lcard-attrib">Listing courtesy of <strong>Dagny&#39;s Real Estate</strong></div>
-  </div>
-</a>
 <a class="lcard" href="/homes/10-grumman-avenue-norwalk-connecticut-24191178.html">
   <img src="https://smartmls-assets.cdn-connectmls.com/pics/574A56EF92B41BCFE063E201100A3C0A/HD_1784827959308_bArhPyGZ.JPEG" alt="10 Grumman Avenue, Norwalk" loading="lazy" decoding="async">
   <div class="lcard-b">
@@ -12512,17 +12457,6 @@
     <div class="lcard-meta">3 bd · 2 ba · 1,644 sqft · Single Family For Sale</div>
     <div class="lcard-status st-on"><span class="dot"></span>Active</div>
     <div class="lcard-attrib">Listing courtesy of <strong>Brown Harris Stevens</strong></div>
-  </div>
-</a>
-<a class="lcard" href="/homes/9-oakledge-circle-norwalk-connecticut-24196252.html">
-  <img src="https://smartmls-assets.cdn-connectmls.com/pics/58164A736C857ED5E063E201100AC52E/HD_1785709747367_IMG_5865.JPEG" alt="9 Oakledge Circle, Norwalk" loading="lazy" decoding="async">
-  <div class="lcard-b">
-    <div class="lcard-price">$7,000/mo</div>
-    <div class="lcard-addr">9 Oakledge Circle</div>
-    <div class="lcard-sub">Norwalk</div>
-    <div class="lcard-meta">4 bd · 2 ba · 1,157 sqft · Residential Rental</div>
-    <div class="lcard-status st-on"><span class="dot"></span>Active</div>
-    <div class="lcard-attrib">Listing courtesy of <strong>BHHS Darien/New Canaan</strong></div>
   </div>
 </a>
 <a class="lcard" href="/homes/83-washington-street-norwalk-connecticut-24150810.html">
@@ -12798,6 +12732,39 @@
     <div class="lcard-meta">4 bd · 2 ba · 2,330 sqft · Single Family For Sale</div>
     <div class="lcard-status st-on"><span class="dot"></span>Active</div>
     <div class="lcard-attrib">Listing courtesy of <strong>Guy Bocicaut Real Estate</strong></div>
+  </div>
+</a>
+<a class="lcard" href="/homes/10-shorehaven-road-norwalk-connecticut-24172989.html">
+  <img src="https://smartmls-assets.cdn-connectmls.com/pics/511463015505E7E0E0631A01100A7DA3/HD_1775703598385_Waterside_view_10_Shorehaven_Road_Norwalk_CT_09_CL.JPEG" alt="10 Shorehaven Road, Norwalk" loading="lazy" decoding="async">
+  <div class="lcard-b">
+    <div class="lcard-price">$11,500,000</div>
+    <div class="lcard-addr">10 Shorehaven Road</div>
+    <div class="lcard-sub">Norwalk</div>
+    <div class="lcard-meta">5 bd · 10 ba · 9,564 sqft · Single Family For Sale</div>
+    <div class="lcard-status st-uc"><span class="dot"></span>Under Contract</div>
+    <div class="lcard-attrib">Listing courtesy of <strong>Compass Connecticut, LLC</strong></div>
+  </div>
+</a>
+<a class="lcard" href="/homes/2-winthrop-avenue-norwalk-connecticut-24189765.html">
+  <img src="https://smartmls-assets.cdn-connectmls.com/pics/56581FB7664A3257E0631A01100AF8FB/HD_1783801505106_1_copy.JPEG" alt="2 Winthrop Avenue, Norwalk" loading="lazy" decoding="async">
+  <div class="lcard-b">
+    <div class="lcard-price">$845,000</div>
+    <div class="lcard-addr">2 Winthrop Avenue</div>
+    <div class="lcard-sub">Norwalk</div>
+    <div class="lcard-meta">2 bd · 3 ba · 1,402 sqft · Single Family For Sale</div>
+    <div class="lcard-status st-on"><span class="dot"></span>Active</div>
+    <div class="lcard-attrib">Listing courtesy of <strong>Dagny&#39;s Real Estate</strong></div>
+  </div>
+</a>
+<a class="lcard" href="/homes/9-oakledge-circle-norwalk-connecticut-24196252.html">
+  <img src="https://smartmls-assets.cdn-connectmls.com/pics/58164A736C857ED5E063E201100AC52E/HD_1785709747367_IMG_5865.JPEG" alt="9 Oakledge Circle, Norwalk" loading="lazy" decoding="async">
+  <div class="lcard-b">
+    <div class="lcard-price">$7,000/mo</div>
+    <div class="lcard-addr">9 Oakledge Circle</div>
+    <div class="lcard-sub">Norwalk</div>
+    <div class="lcard-meta">4 bd · 2 ba · 1,157 sqft · Residential Rental</div>
+    <div class="lcard-status st-on"><span class="dot"></span>Active</div>
+    <div class="lcard-attrib">Listing courtesy of <strong>BHHS Darien/New Canaan</strong></div>
   </div>
 </a>
 <a class="lcard" href="/homes/2646-boston-post-road-darien-connecticut-24162337.html">
@@ -17904,17 +17871,6 @@
     <div class="lcard-attrib">Listing courtesy of <strong>Brown Harris Stevens</strong></div>
   </div>
 </a>
-<a class="lcard" href="/homes/8-pleasant-valley-lane-westport-connecticut-24172635.html">
-  <img src="https://smartmls-assets.cdn-connectmls.com/pics/5828BB0F65500A10E0631A01100A7AAD/HD_1785780976903_IMG_2024.JPEG" alt="8 Pleasant Valley Lane, Westport" loading="lazy" decoding="async">
-  <div class="lcard-b">
-    <div class="lcard-price">$5,650,000</div>
-    <div class="lcard-addr">8 Pleasant Valley Lane</div>
-    <div class="lcard-sub">Westport</div>
-    <div class="lcard-meta">7 bd · 9 ba · 8,762 sqft · Single Family For Sale</div>
-    <div class="lcard-status st-on"><span class="dot"></span>Active</div>
-    <div class="lcard-attrib">Listing courtesy of <strong>Coldwell Banker Realty</strong></div>
-  </div>
-</a>
 <a class="lcard" href="/homes/21-covlee-drive-westport-connecticut-24165538.html">
   <img src="https://smartmls-assets.cdn-connectmls.com/pics/57D5CD9519FE4D34E0631A01100AC8EF/HD_1785431056614_21_Back_Aerial_Sound_.JPEG" alt="21 Covlee Drive, Westport" loading="lazy" decoding="async">
   <div class="lcard-b">
@@ -17924,6 +17880,17 @@
     <div class="lcard-meta">4 bd · 5 ba · 4,444 sqft · Single Family For Sale</div>
     <div class="lcard-status st-on"><span class="dot"></span>Active</div>
     <div class="lcard-attrib">Listing courtesy of <strong>Compass Connecticut, LLC</strong></div>
+  </div>
+</a>
+<a class="lcard" href="/homes/8-pleasant-valley-lane-westport-connecticut-24172635.html">
+  <img src="https://smartmls-assets.cdn-connectmls.com/pics/5828BB0F65500A10E0631A01100A7AAD/HD_1785780976903_IMG_2024.JPEG" alt="8 Pleasant Valley Lane, Westport" loading="lazy" decoding="async">
+  <div class="lcard-b">
+    <div class="lcard-price">$5,650,000</div>
+    <div class="lcard-addr">8 Pleasant Valley Lane</div>
+    <div class="lcard-sub">Westport</div>
+    <div class="lcard-meta">7 bd · 9 ba · 8,762 sqft · Single Family For Sale</div>
+    <div class="lcard-status st-on"><span class="dot"></span>Active</div>
+    <div class="lcard-attrib">Listing courtesy of <strong>Coldwell Banker Realty</strong></div>
   </div>
 </a>
 <a class="lcard" href="/homes/0-mountain-road-wilton-connecticut-24047255.html">
@@ -18188,17 +18155,6 @@
     <div class="lcard-meta">4 bd · 3 ba · 3,442 sqft · Single Family For Sale</div>
     <div class="lcard-status st-uc"><span class="dot"></span>Under Contract</div>
     <div class="lcard-attrib">Listing courtesy of <strong>Compass Connecticut, LLC</strong></div>
-  </div>
-</a>
-<a class="lcard" href="/homes/567-danbury-road-wilton-connecticut-24186046.html">
-  <img src="https://smartmls-assets.cdn-connectmls.com/pics/54F15D209382F3D7E0631A01100ADE7B/HD_1782243711151_Edited_front_of_house.JPEG" alt="567 Danbury Road, Wilton" loading="lazy" decoding="async">
-  <div class="lcard-b">
-    <div class="lcard-price">$1,350,000</div>
-    <div class="lcard-addr">567 Danbury Road</div>
-    <div class="lcard-sub">Wilton</div>
-    <div class="lcard-meta">3 bd · 3 ba · 3,593 sqft · Single Family For Sale</div>
-    <div class="lcard-status st-ucs"><span class="dot"></span>Under Contract - Continue to Show</div>
-    <div class="lcard-attrib">Listing courtesy of <strong>Keller Williams Prestige Prop.</strong></div>
   </div>
 </a>
 <a class="lcard" href="/homes/211-newtown-turnpike-wilton-connecticut-24182637.html">
@@ -18958,6 +18914,17 @@
     <div class="lcard-meta">4 bd · 3 ba · 2,076 sqft · Single Family For Sale</div>
     <div class="lcard-status st-ucs"><span class="dot"></span>Under Contract - Continue to Show</div>
     <div class="lcard-attrib">Listing courtesy of <strong>Houlihan Lawrence</strong></div>
+  </div>
+</a>
+<a class="lcard" href="/homes/567-danbury-road-wilton-connecticut-24186046.html">
+  <img src="https://smartmls-assets.cdn-connectmls.com/pics/54F15D209382F3D7E0631A01100ADE7B/HD_1782243711151_Edited_front_of_house.JPEG" alt="567 Danbury Road, Wilton" loading="lazy" decoding="async">
+  <div class="lcard-b">
+    <div class="lcard-price">$1,350,000</div>
+    <div class="lcard-addr">567 Danbury Road</div>
+    <div class="lcard-sub">Wilton</div>
+    <div class="lcard-meta">3 bd · 3 ba · 3,593 sqft · Single Family For Sale</div>
+    <div class="lcard-status st-uc"><span class="dot"></span>Under Contract</div>
+    <div class="lcard-attrib">Listing courtesy of <strong>Keller Williams Prestige Prop.</strong></div>
   </div>
 </a>
 </div>

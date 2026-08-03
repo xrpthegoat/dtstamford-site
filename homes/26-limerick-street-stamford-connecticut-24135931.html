@@ -40,10 +40,10 @@
 .idx-addr{color:var(--fg-soft);font-size:1.15rem;margin-top:10px}
 .idx-quick{display:flex;flex-wrap:wrap;gap:10px 26px;margin-top:18px;font-family:var(--mono);font-size:.8rem;color:var(--fg-soft)}
 .idx-quick b{color:#fff;font-weight:700}
-.idx-gallery{display:grid;grid-template-columns:2fr 1fr 1fr;gap:10px;margin:26px 0 8px}
-.idx-gallery img{width:100%;height:100%;object-fit:cover;border-radius:14px;border:1px solid var(--line);background:var(--bg2);aspect-ratio:4/3}
-.idx-gallery img.lead{grid-row:span 2;aspect-ratio:auto;min-height:280px}
-@media(max-width:760px){.idx-gallery{grid-template-columns:1fr 1fr}.idx-gallery img.lead{grid-column:span 2}}
+.idx-gallery{display:grid;grid-template-columns:2fr 1fr 1fr;gap:10px;margin:26px 0 8px;position:relative}
+.idx-gallery img,.idx-gallery .idx-shot{width:100%;height:100%;object-fit:cover;border-radius:14px;border:1px solid var(--line);background:var(--bg2);aspect-ratio:4/3}
+.idx-gallery img.lead,.idx-gallery .idx-shot.lead{grid-row:span 2;aspect-ratio:auto;min-height:280px}
+@media(max-width:760px){.idx-gallery{grid-template-columns:1fr 1fr}.idx-gallery img.lead,.idx-gallery .idx-shot.lead{grid-column:span 2}}
 /* NOTE: padding-top/bottom ONLY — the horizontal padding comes from .wrap (0 28px). The old
    shorthand `padding:8px 0 40px` zeroed it, so on phones every block (remarks, facts, aside) ran
    edge-to-edge with no gutter. Longhand keeps .wrap's gutter and inherits any future change. */

@@ -56,6 +56,18 @@
 .idx-facts>div:nth-child(2n){border-right:0}
 .idx-facts .k{font-family:var(--mono);font-size:.62rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
 .idx-facts .v{color:#fff;font-size:1.02rem;margin-top:3px;line-height:1.35}
+/* Status "chip" inside the STATUS fact cell (John 2026-08-04): a colored pulsing dot next to the
+   value ("Active"/"Under Contract"/...). Reuses the .st-on/.st-uc/.st-ucs/.st-soon color tokens
+   the hero pill already defines. Active pulses; the rest show a steady dot (a Coming Soon or Under
+   Contract listing isn't "live-available", so a heartbeat animation would misread the state). */
+.idx-facts .idx-st{display:inline-flex;align-items:center;gap:8px}
+.idx-facts .idx-st .dot{width:9px;height:9px;border-radius:50%;background:currentColor;flex:none;box-shadow:0 0 0 4px color-mix(in srgb,currentColor 20%,transparent)}
+.idx-facts .idx-st.st-on .dot{animation:idx-pulse 1.9s ease-in-out infinite}
+@keyframes idx-pulse{
+  0%,100%{box-shadow:0 0 0 4px color-mix(in srgb,currentColor 22%,transparent),0 0 0 4px color-mix(in srgb,currentColor 0%,transparent)}
+  50%    {box-shadow:0 0 0 4px color-mix(in srgb,currentColor 22%,transparent),0 0 10px 6px color-mix(in srgb,currentColor 55%,transparent)}
+}
+@media (prefers-reduced-motion:reduce){.idx-facts .idx-st.st-on .dot{animation:none}}
 .idx-flood{margin:6px 2px 0}
 /* Phones: a real gutter on every block, tighter type, single-column facts so long utility values
    ("Public Sewer Connected") stop wrapping into unreadable slivers. */
@@ -134,7 +146,7 @@
   <div class="idx-main">
     <h2>About this home</h2>
     <p class="idx-remarks">1-bedroom apartment in Stamford. Conveniently located near public transportation, I-95, shopping, and parks. Please note: no on-site parking and no in-building laundry.</p>
-    <div class="idx-facts"><div><div class="k">Status</div><div class="v">Active</div></div><div><div class="k">Type</div><div class="v">Residential Rental</div></div><div><div class="k">Price</div><div class="v">$1,700/mo</div></div><div><div class="k">Beds</div><div class="v">1</div></div><div><div class="k">Baths</div><div class="v">1</div></div><div><div class="k">Interior</div><div class="v">1,178 sq ft</div></div><div><div class="k">Year Built</div><div class="v">1927</div></div><div><div class="k">MLS #</div><div class="v">24191734</div></div><div><div class="k">ZIP</div><div class="v">06902</div></div><div><div class="k">Days on Market</div><div class="v">20</div></div><div><div class="k">Heat</div><div class="v">Gas In Street · Baseboard</div></div><div><div class="k">Water</div><div class="v">Public Water Connected</div></div><div><div class="k">Sewer</div><div class="v">Public Sewer Connected</div></div><div><div class="k">Laundry</div><div class="v">none</div></div></div><p class="idx-flood" style="font-size:.85em;opacity:.8;margin:6px 0 0">Flood risk: <a href="https://msc.fema.gov/portal/search?AddressQuery=236%20Greenwich%20Avenue%2C%20Stamford%2C%20Connecticut%2006902" target="_blank" rel="noopener">check the FEMA flood map for this address</a>.</p>
+    <div class="idx-facts"><div><div class="k">Status</div><div class="v"><span class="idx-st st-on"><span class="dot" aria-hidden="true"></span>Active</span></div></div><div><div class="k">Type</div><div class="v">Residential Rental</div></div><div><div class="k">Price</div><div class="v">$1,700/mo</div></div><div><div class="k">Beds</div><div class="v">1</div></div><div><div class="k">Baths</div><div class="v">1</div></div><div><div class="k">Interior</div><div class="v">1,178 sq ft</div></div><div><div class="k">Year Built</div><div class="v">1927</div></div><div><div class="k">MLS #</div><div class="v">24191734</div></div><div><div class="k">ZIP</div><div class="v">06902</div></div><div><div class="k">Days on Market</div><div class="v">20</div></div><div><div class="k">Heat</div><div class="v">Gas In Street · Baseboard</div></div><div><div class="k">Water</div><div class="v">Public Water Connected</div></div><div><div class="k">Sewer</div><div class="v">Public Sewer Connected</div></div><div><div class="k">Laundry</div><div class="v">none</div></div></div><p class="idx-flood" style="font-size:.85em;opacity:.8;margin:6px 0 0">Flood risk: <a href="https://msc.fema.gov/portal/search?AddressQuery=236%20Greenwich%20Avenue%2C%20Stamford%2C%20Connecticut%2006902" target="_blank" rel="noopener">check the FEMA flood map for this address</a>.</p>
     <h2>Pets &amp; Lease</h2>
     <div class="idx-facts"><div><div class="k">Pets</div><div class="v">No</div></div></div>
     <h2>Schools</h2>

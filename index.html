@@ -486,9 +486,8 @@
       <span class="wordmark">Downtown Stamford</span>
     </a>
     <nav class="nav-links" aria-label="Primary">
-      <a href="search.html?type=sale">Buy</a>
-      <a href="search.html?type=rent">Rent</a>
-      <a href="ai-home-search.html">AI Search</a>
+      <a href="homes-for-sale-stamford.html">Buy</a>
+      <a href="stamford-apartments-for-rent.html">Rent</a>
       <a href="neighborhoods.html">Neighborhoods</a>
       <a href="stamford-market.html">Market Trends</a>
       <a href="buyer-guides.html">Guides</a>
@@ -512,9 +511,8 @@
     </div>
     <nav class="mmenu-links" aria-label="Mobile">
       <a href="/"><span class="ix">⌂</span><span class="lb">Home</span><span class="ar" aria-hidden="true">→</span></a>
-      <a href="search.html?type=sale"><span class="ix">01</span><span class="lb">Buy</span><span class="ar" aria-hidden="true">→</span></a>
-      <a href="search.html?type=rent"><span class="ix">02</span><span class="lb">Rent</span><span class="ar" aria-hidden="true">→</span></a>
-      <a href="ai-home-search.html"><span class="ix">AI</span><span class="lb">AI Search</span><span class="ar" aria-hidden="true">→</span></a>
+      <a href="homes-for-sale-stamford.html"><span class="ix">01</span><span class="lb">Buy</span><span class="ar" aria-hidden="true">→</span></a>
+      <a href="stamford-apartments-for-rent.html"><span class="ix">02</span><span class="lb">Rent</span><span class="ar" aria-hidden="true">→</span></a>
       <a href="neighborhoods.html"><span class="ix">03</span><span class="lb">Neighborhoods</span><span class="ar" aria-hidden="true">→</span></a>
       <a href="stamford-market.html"><span class="ix">04</span><span class="lb">Market Trends</span><span class="ar" aria-hidden="true">→</span></a>
       <a href="buyer-guides.html"><span class="ix">05</span><span class="lb">Guides</span><span class="ar" aria-hidden="true">→</span></a>
@@ -602,31 +600,78 @@
   <section class="liveinv" id="liveInv" aria-label="Stamford homes for sale and rent right now">
     <div class="wrap">
       <div class="li-counts">
-        <a class="li-stat" href="search.html?type=sale"><span class="li-n" id="liSale">1,117</span><span class="li-l">homes for sale</span></a>
+        <a class="li-stat" href="search.html?type=sale"><span class="li-n" id="liSale">1,098</span><span class="li-l">homes for sale</span></a>
         <span class="li-div" aria-hidden="true"></span>
-        <a class="li-stat" href="search.html?t=rent"><span class="li-n" id="liRent">594</span><span class="li-l">for rent</span></a>
+        <a class="li-stat" href="search.html?t=rent"><span class="li-n" id="liRent">604</span><span class="li-l">for rent</span></a>
         <span class="li-div" aria-hidden="true"></span>
-        <a class="li-stat" href="search.html"><span class="li-n" id="liTotal">1,711</span><span class="li-l">total in Stamford</span></a>
+        <a class="li-stat" href="search.html"><span class="li-n" id="liTotal">1,702</span><span class="li-l">total in Stamford</span></a>
       </div>
+
       <div class="li-bands" id="liBands">
         <div class="li-band-row">
           <span class="li-band-lbl">For sale</span>
-          <a class="li-chip" href="search.html?pmax=300000"><b id="lbSale300">71</b> under $300K</a>
-          <a class="li-chip" href="search.html?pmax=600000"><b id="lbSale600">256</b> under $600K</a>
-          <a class="li-chip" href="search.html?pmax=1000000"><b id="lbSale1m">537</b> under $1M</a>
+          <a class="li-chip" href="search.html?pmax=300000"><b id="lbSale300">67</b> under $300K</a>
+          <a class="li-chip" href="search.html?pmax=600000"><b id="lbSale600">254</b> under $600K</a>
+          <a class="li-chip" href="search.html?pmax=1000000"><b id="lbSale1m">535</b> under $1M</a>
           <span class="li-med" id="lbMedSale">median $1.1M</span>
         </div>
         <div class="li-band-row">
           <span class="li-band-lbl">For rent</span>
           <a class="li-chip" href="search.html?t=rent&amp;pmax=1800"><b id="lbRent18">24</b> under $1,800</a>
-          <a class="li-chip" href="search.html?t=rent&amp;pmax=2200"><b id="lbRent22">76</b> under $2,200</a>
-          <a class="li-chip" href="search.html?t=rent&amp;pmax=3000"><b id="lbRent30">211</b> under $3,000</a>
-          <span class="li-med" id="lbMedRent">median $3,898/mo</span>
+          <a class="li-chip" href="search.html?t=rent&amp;pmax=2200"><b id="lbRent22">78</b> under $2,200</a>
+          <a class="li-chip" href="search.html?t=rent&amp;pmax=3000"><b id="lbRent30">217</b> under $3,000</a>
+          <span class="li-med" id="lbMedRent">median $3,850/mo</span>
         </div>
       </div>
       <div class="li-new" id="liNew" hidden>
         <div class="li-new-hd"><span class="li-dot"></span> Added today <span class="li-new-n" id="liNewN"></span></div>
         <div class="li-new-row" id="liNewRow"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ MAGIC SEARCH ============ -->
+  <!-- The plain-English front door to the whole search, sitting right below the live inventory +
+       new-today carousel. A plain GET form → search.html?ai=<question>, which opens the map search
+       with the question already running (assets/homes/ai-search.js parses it and sets real filters).
+       No JS needed here — it works for crawlers and before any script loads, and the example chips
+       are real, indexable links (good for GEO: they expose sample queries as crawlable URLs). -->
+  <style>
+    .magicsearch{padding:38px 0 34px;border-bottom:1px solid rgba(255,255,255,.08)}
+    .ms-wrap{max-width:840px;margin:0 auto;padding:0 20px;text-align:center}
+    .ms-eyebrow{display:inline-flex;align-items:center;gap:7px;font-family:"Space Mono",ui-monospace,monospace;font-size:.66rem;letter-spacing:.16em;text-transform:uppercase;color:#e3c47e}
+    .ms-eyebrow .s{font-size:.9rem}
+    .magicsearch h2{font-family:"Bricolage Grotesque","Space Grotesk",system-ui,sans-serif;font-weight:700;font-size:clamp(1.55rem,3.6vw,2.35rem);line-height:1.08;letter-spacing:-.02em;color:#f3f3f5;margin:12px 0 7px}
+    .magicsearch h2 .g{color:#e3c47e}
+    .magicsearch .ms-sub{color:#a9a9b2;font-size:.96rem;margin-bottom:20px}
+    .ms-bar{display:flex;align-items:center;gap:10px;max-width:690px;margin:0 auto;padding:8px 8px 8px 18px;border:1px solid rgba(227,196,126,.42);border-radius:999px;background:rgba(255,255,255,.045);box-shadow:0 24px 55px -32px rgba(0,0,0,.92);transition:border-color .25s,background .25s,box-shadow .25s}
+    .ms-bar:focus-within{border-color:rgba(227,196,126,.78);background:rgba(227,196,126,.06);box-shadow:0 0 0 4px rgba(227,196,126,.1)}
+    .ms-bar .s{color:#e3c47e;font-size:1.1rem;line-height:1;flex:none}
+    .ms-bar input{flex:1;min-width:0;border:0;outline:none;background:none;color:#f3f3f5;font-family:inherit;font-size:1rem;padding:14px 0}
+    .ms-bar input::placeholder{color:#8b8b93}
+    .ms-bar button{flex:none;border:0;cursor:pointer;border-radius:999px;padding:13px 28px;font-family:inherit;font-weight:700;font-size:.92rem;color:#161006;background:linear-gradient(180deg,#eed6a3,#cbab68);transition:transform .2s}
+    .ms-bar button:hover{transform:translateY(-1px)}
+    .ms-egs{display:flex;flex-wrap:wrap;justify-content:center;gap:8px;margin-top:16px}
+    .ms-eg{font-family:inherit;font-size:.8rem;color:#c0c1cb;text-decoration:none;border:1px solid rgba(255,255,255,.12);border-radius:20px;padding:8px 14px;background:rgba(255,255,255,.03);transition:border-color .2s,color .2s,background .2s}
+    .ms-eg:hover{border-color:rgba(227,196,126,.5);color:#e3c47e;background:rgba(227,196,126,.06)}
+    @media(max-width:600px){.magicsearch{padding:28px 0 26px}.ms-bar{padding:6px 6px 6px 14px}.ms-bar input{font-size:.92rem;padding:12px 0}.ms-bar button{padding:12px 18px}}
+  </style>
+  <section class="magicsearch" aria-label="Search Stamford homes in plain English">
+    <div class="ms-wrap">
+      <span class="ms-eyebrow"><span class="s" aria-hidden="true">✦</span> Magic Search</span>
+      <h2>Describe your home. <span class="g">We'll find it.</span></h2>
+      <p class="ms-sub">Say it the way you'd say it out loud — beds, budget, the train, the dog. No filters to fiddle with.</p>
+      <form class="ms-bar" action="search.html" method="get" role="search">
+        <span class="s" aria-hidden="true">✦</span>
+        <input type="text" name="ai" autocomplete="off" aria-label="Describe the home you want, in plain English"
+               placeholder="2-bed under $3,500 that takes dogs, walk to the train">
+        <button type="submit">Search</button>
+      </form>
+      <div class="ms-egs">
+        <a class="ms-eg" href="search.html?ai=Condo%20under%20%24700k%20with%20a%20garage">Condo under $700k with a garage</a>
+        <a class="ms-eg" href="search.html?ai=Single%20family%2C%20big%20yard%2C%20quiet%20street">Single family, big yard, quiet street</a>
+        <a class="ms-eg" href="search.html?ai=Just%20listed%2C%20walkable%20to%20the%20train">Just listed, walkable to the train</a>
+        <a class="ms-eg" href="search.html?ai=Waterfront%20in%20Stamford%20under%20%242M">Waterfront under $2M</a>
       </div>
     </div>
   </section>
@@ -1019,6 +1064,9 @@
         <a href="living-in-stamford.html">Living in Stamford</a>
         <a href="blog.html">Blog</a>
         <a href="market-data.html">Live Market Data</a>
+        <!-- Off the nav (2026-08-05) but deliberately still linked: it's the indexed landing page for
+             "AI home search Stamford", and an orphan page loses its crawl path. -->
+        <a href="ai-home-search.html">AI Home Search</a>
         <a href="dog-parks-stamford.html">Dog Parks</a>
         <a href="contact.html">Contact &amp; Home Value</a>
       </div>
@@ -1039,7 +1087,7 @@
 
 <div class="callbar">
   <a class="btn btn-gold" href="sms:2038833399">Text John <span class="ic" aria-hidden="true">↗</span></a>
-  <a class="btn btn-out" href="ai-home-search.html">AI Search <span class="ic" aria-hidden="true">↗</span></a>
+  <a class="btn btn-out" href="search.html?ai=1">Magic Search <span class="ic" aria-hidden="true">↗</span></a>
 </div>
 
 <script>

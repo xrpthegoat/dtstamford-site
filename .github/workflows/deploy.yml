@@ -29,14 +29,44 @@ jobs:
       - uses: actions/upload-pages-artifact@v3
         with:
           path: "."
+      # ---------------------------------------------------------------------------------------
+      # WHY THIS STEP IS KILLED AT 9 MINUTES (2026-08-06):
+      # deploy-pages@v4 hard-clamps its timeout input to 600000ms — the log literally prints
+      # "timeout value is greater than the allowed maximum - timeout set to the maximum of
+      # 600000 milliseconds", so the earlier 30-min bump could never work. Worse, when its own
+      # 10-min timer fires it CANCELS the in-flight Pages deployment ("Canceling Pages
+      # deployment..."), so a site that needs 11 minutes to process can never ship. Since the
+      # sold-listings launch doubled the tree (3,986 → 9,341 files), processing legitimately
+      # runs past 10:00 (verified 2026-08-06: status deployment_in_progress on all 115 polls,
+      # then the action killed it). The runner-level timeout-minutes below stops the step
+      # BEFORE the action's own timer, which skips its cancel — the deployment keeps
+      # processing server-side, and the next step polls it to completion with no cap.
+      # ---------------------------------------------------------------------------------------
       - id: deployment
         uses: actions/deploy-pages@v4
-        with:
-          # deploy-pages waits for GitHub to unpack and publish the artifact, then gives up at its
-          # DEFAULT 600000ms (10 min). On 2026-08-06 the site grew from ~1,700 to 4,380 listings
-          # (2,682 sold pages added) and every deploy began dying exactly at the 10-minute mark with
-          # "Timeout reached, aborting!" while still deployment_queued — the upload succeeded and the
-          # integrity gate passed, so this was purely the action giving up before Pages finished a
-          # now-bigger site. 30 min leaves headroom as inventory grows. Raising the ceiling does not
-          # slow a normal deploy: it returns as soon as the deployment reports success.
-          timeout: 1800000
+        timeout-minutes: 9
+        continue-on-error: true
+      - name: Wait for the Pages deployment to actually finish (no 10-min cap, never cancels)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          # The Pages deployment ID is the commit SHA (deploy-pages logs "Created deployment
+          # for <sha>, ID: <sha>"). Poll it up to 40 min. This step NEVER cancels a deployment.
+          echo "Polling Pages deployment status for ${GITHUB_SHA}…"
+          for i in $(seq 1 160); do
+            STATUS=$(gh api "repos/${GITHUB_REPOSITORY}/pages/deployments/${GITHUB_SHA}" --jq .status 2>/dev/null || echo "api_error")
+            echo "[$i] status: ${STATUS}"
+            case "$STATUS" in
+              succeed|succeeded|active)
+                echo "✓ Pages deployment succeeded."; exit 0 ;;
+              deployment_failed|deployment_content_failed|deployment_attempt_error|deployment_lost|deployment_cancelled)
+                echo "✗ Pages deployment ended: ${STATUS}"; exit 1 ;;
+              api_error)
+                # No deployment to poll (deploy-pages died before creating one) → fail fast
+                # instead of spinning 40 min on a nonexistent ID.
+                if [ "$i" -ge 8 ]; then echo "✗ No pollable deployment after 2 min — deploy-pages likely failed before creating one. See its step log."; exit 1; fi ;;
+            esac
+            sleep 15
+          done
+          echo "✗ Still not finished after 40 min of polling — inspect manually (do NOT assume failure: check the live site)."
+          exit 1

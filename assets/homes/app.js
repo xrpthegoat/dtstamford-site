@@ -1128,6 +1128,10 @@ function syncFilterChrome() {
     savedBtn.setAttribute('aria-pressed', state.savedOnly);
     $('#savedLabel').textContent = state.favs.size ? `Saved (${state.favs.size})` : 'Saved';
   }
+
+  // Chip labels just changed width ("Price" → "Any–$1,200,000"), which can rewrap the bar onto
+  // another row with no viewport resize to trigger it. Re-measure so .app keeps sizing correctly.
+  syncBarHeight();
 }
 
 function wireControls() {
@@ -1394,6 +1398,33 @@ function readURL() {
 
 /* CSS.escape shim for attribute selectors (MLS ids are alnum, but be safe) */
 function cssq(s) { return String(s).replace(/["\\]/g, '\\$&'); }
+
+/* ---------------------------------------------------------------------------
+   Keep --fb-h honest. .app is sized calc(100vh - hdr - fb), but the filter bar's real height
+   depends on BOTH the viewport and how many filters are active — active chips are wider
+   ("Any–$1,200,000", "3 cities"), so the bar wraps to 2 or even 3 rows and a per-breakpoint
+   constant goes stale, clipping the bottom of the map/list. Measure the element instead of
+   guessing: this self-corrects at every width and every filter state.
+   (+2 preserves the original 60-for-a-58px-bar relationship the layout was tuned around.)
+   --------------------------------------------------------------------------- */
+function syncBarHeight() {
+  const inner = document.querySelector('.fb-inner');
+  if (!inner) return;
+  const h = Math.round(inner.getBoundingClientRect().height) + 2;
+  if (h > 2) document.documentElement.style.setProperty('--fb-h', h + 'px');
+}
+(function trackFilterBarHeight() {
+  const inner = document.querySelector('.fb-inner');
+  if (!inner) return;
+  // Three triggers on purpose — the bar's height changes for two independent reasons and neither
+  // signal alone is reliable: a viewport resize (window resize), and a filter-label change that
+  // rewraps the rows with no resize at all (syncFilterChrome calls this directly). ResizeObserver
+  // should cover both, but it does not fire under emulated/devtools viewport resizes, so it is the
+  // belt here rather than the braces.
+  if (typeof ResizeObserver !== 'undefined') new ResizeObserver(syncBarHeight).observe(inner);
+  window.addEventListener('resize', syncBarHeight);
+  syncBarHeight();
+})();
 
 /* ---------------------------------------------------------------------------
    PUBLIC SURFACE — for optional add-on modules (today: assets/homes/ai-search.js)

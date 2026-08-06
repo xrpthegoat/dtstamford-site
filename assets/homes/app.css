@@ -31,10 +31,19 @@ html{overflow-x:hidden;overscroll-behavior:none}
   backdrop-filter:saturate(160%) blur(18px);-webkit-backdrop-filter:saturate(160%) blur(18px);
   box-shadow:0 14px 46px -26px rgba(0,0,0,.95),inset 0 1px 0 rgba(255,255,255,.05)}
 
-/* visual groups: [search + buy/rent] | [filters] | [saved + view] */
+/* visual groups: [search + buy/rent] | [filters] | [saved + view]
+   OVERFLOW SAFETY NET (2026-08-06): the filter chips are variable width — "Price" becomes
+   "Any–$1,200,000", "City" becomes "3 cities" — so the bar's real requirement depends on how many
+   filters the visitor has set, not on the viewport. Twice this shipped the Buy/Rent segment printed
+   on top of the price chip. The rule now: the search group has a hard min-width it can never be
+   crushed below, and the chip strip is the thing that gives — it shrinks and scrolls horizontally
+   (the same treatment ≤760px already uses) instead of pushing its neighbours off. */
 .fb-group{display:flex;align-items:center;gap:10px}
-.fb-group-search{flex:1 1 340px;min-width:0}   /* holds the ✦ box + Buy/Rent (no separate button now) */
-.fb-group-filters{flex:none}
+.fb-group-search{flex:1 1 340px;min-width:265px}   /* ✦ box + Buy/Rent — never crushed below this */
+.fb-group-filters{flex:0 1 auto;min-width:0}
+.fb-drops{min-width:0;overflow-x:auto;overscroll-behavior-x:contain;scrollbar-width:none;
+  -webkit-mask-image:linear-gradient(90deg,#000 94%,transparent)}
+.fb-drops::-webkit-scrollbar{display:none}
 .fb-group-view{flex:none;margin-left:auto}
 .fb-divider{width:1px;align-self:stretch;margin:6px 0;background:var(--line);flex:none}
 
@@ -495,11 +504,15 @@ html{overflow-x:hidden;overscroll-behavior:none}
   .fb-saved span{display:none}
   .fb-saved{padding:9px 11px}
 }
-/* Above ~1400 the whole bar fits one row with a comfortable search box. Below that (down to 1001)
-   the box would get crushed to make room for the filter chips + view controls, so give the
-   ✦ search box + Buy/Rent their own full-width row — the shape ≤1000px already uses. --fb-h grows
-   to match, since .app height is calc(100vh - hdr - fb). */
-@media(max-width:1400px) and (min-width:1001px){
+/* One row only fits on a genuinely wide screen. MEASURE, don't guess: the filter chips GROW when
+   filters are active — "Price" becomes "Any–$1,200,000", "City" becomes "3 cities" — and the right
+   group gains the Sold/Saved labels, so the bar's requirement is ~1590px with only 3 filters set
+   (measured live at 1440: search group had 81px, needed 279 → the Buy/Rent segment printed on top
+   of the price chip). Budget for the ACTIVE-filter case plus headroom, not the idle one: below
+   ~1780 the ✦ search box + Buy/Rent get their own full-width row, the shape ≤1000px already uses.
+   (1400 was tried on 2026-08-06 and shipped this exact overlap to production.) --fb-h grows to
+   match, since .app height is calc(100vh - hdr - fb). */
+@media(max-width:1780px) and (min-width:1001px){
   :root{--fb-h:126px}   /* measured 2-row bar: .fb-inner 125px (the single-row value was 60 for a 58px bar) */
   .fb-inner{flex-wrap:wrap;row-gap:10px;border-radius:26px;padding:10px}
   .fb-group-search{flex:1 1 100%;padding-bottom:8px;border-bottom:1px solid var(--line)}

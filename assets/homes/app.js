@@ -102,6 +102,15 @@ const state = {
   all: [], meta: null,
   type: 'sale', q: '', priceMin: 0, priceMax: 0,
   beds: 0, baths: 0, types: [], cities: [], maxTrainMin: 0, sort: 'new',
+  // AI layer (assets/homes/ai-search.js). null = off. When on:
+  //   { text, keep(listing)->bool, score(listing)->number }
+  // It is a FILTER like any other — the map, the count and the list all read the same
+  // filtered() output, so the AI can never show a different set of homes than the page does.
+  ai: null,
+  // Sold/closed listings (IDX_CLOSED=1 since 2026-08-05) are COMPS, not inventory — they are ~61%
+  // of the feed, so leaving them in by default buries live homes and lets a buyer click a house
+  // that sold months ago. Off by default, one toggle away, deep-linkable as ?sold=1.
+  showSold: false,
   view: 'split', bounds: null, circle: null, savedOnly: false,
   favs: new Set(JSON.parse(localStorage.getItem('dts_favs') || '[]')),
   cardIndex: {},        // mls -> current photo index
@@ -275,8 +284,20 @@ function propMatches(label, pt) {
   return pt.includes(l);
 }
 
+// Sold/closed test. Deliberately the SAME rule as genlistings.py is_closed() and mls-sync.py:337 —
+// if the three ever disagree about what "sold" means, a sold home shows up badged as available on
+// one surface and hidden on another. One definition, every direction.
+function isSold(l) {
+  const s = ((l && l.status) || '').toLowerCase();
+  return s.includes('closed') || s.includes('sold');
+}
+
 function badgeFor(l) {
   const s = (l.status || '').toLowerCase();
+  // Sold is tested FIRST and returns unconditionally. A closed listing still carries its original
+  // daysOnMarket, so 378 of them fell through to the green "New" badge — a sold house advertised
+  // as just-listed. Nothing below this line may run for a sold record.
+  if (isSold(l)) return { cls: 'sold', txt: 'Sold' };
   if (s.includes('coming')) return { cls: 'soon', txt: 'Coming Soon' };
   if (s.includes('under') || s.includes('pending')) return { cls: 'uc', txt: 'Under Contract' };
   if (l.daysOnMarket != null && l.daysOnMarket <= 7) return { cls: 'new', txt: 'New' };
@@ -345,6 +366,8 @@ function buildPriceSelects() {
 function filtered() {
   const q = state.q.trim().toLowerCase();
   let list = state.all.filter(l => {
+    // Sold first + cheapest: with IDX_CLOSED=1 this drops ~61% of the feed before any other test runs.
+    if (!state.showSold && isSold(l)) return false;
     if (l.listingType !== state.type) return false;
     if (state.priceMin && l.price < state.priceMin) return false;
     if (state.priceMax && l.price > state.priceMax) return false;
@@ -367,10 +390,14 @@ function filtered() {
     // haversineM with the train filter so the cutoff equals the drawn L.circle's edge exactly.
     if (state.circle && haversineM(state.circle.lat, state.circle.lng, l.geo.lat, l.geo.lng) > state.circle.radius) return false;
     if (state.savedOnly && !state.favs.has(l.mls)) return false;
+    // AI hard excludes ("no HOA", "not in a flood zone", "must be waterfront"). Soft wants are
+    // handled by the 'ai' sort below, so a near-miss still shows — just lower down.
+    if (state.ai && !state.ai.keep(l)) return false;
     return true;
   });
   const s = state.sort;
   list.sort((a, b) =>
+    s === 'ai' && state.ai ? state.ai.score(b) - state.ai.score(a) :
     s === 'price-asc' ? a.price - b.price :
     s === 'price-desc' ? b.price - a.price :
     s === 'beds' ? (b.beds || 0) - (a.beds || 0) :
@@ -543,7 +570,7 @@ function cardHTML(l) {
   const fav = state.favs.has(l.mls);
   const dots = photos.length > 1 ? `<div class="card-dots">${photos.map((_, i) => `<i class="${i === idx ? 'on' : ''}"></i>`).join('')}</div>` : '';
   const navs = photos.length > 1 ? `<button class="card-nav prev" data-nav="-1" aria-label="Previous photo">‹</button><button class="card-nav next" data-nav="1" aria-label="Next photo">›</button>` : '';
-  return `<article class="card" data-mls="${l.mls}">
+  return `<article class="card${isSold(l) ? ' is-sold' : ''}" data-mls="${l.mls}">
     <div class="card-media">
       <img src="${esc(photos[idx])}" alt="${esc(addrFull(l))}" loading="lazy" decoding="async" onerror="this.src='assets/stamford-ct-single-family-home-exterior.jpg'">
       <div class="card-badges">${b ? `<span class="badge ${b.cls}">${b.txt}</span>` : ''}</div>
@@ -578,7 +605,10 @@ function specRow(l) {
 // heavy full-width commute band and the redundant brokerage footer (attribution already shows it).
 function cardMeta(l) {
   const bits = [];
-  if (l.daysOnMarket != null) bits.push(l.daysOnMarket === 0 ? 'Just listed' : `${l.daysOnMarket} days listed`);
+  // "Just listed" / "N days listed" describes live inventory. On a closed record daysOnMarket is
+  // the span it took to sell, so printing it here reads as "still on the market for N days".
+  if (isSold(l)) bits.push(l.daysOnMarket != null ? `Sold after ${l.daysOnMarket} days` : 'Sold');
+  else if (l.daysOnMarket != null) bits.push(l.daysOnMarket === 0 ? 'Just listed' : `${l.daysOnMarket} days listed`);
   if (l.yearBuilt) bits.push(`Built ${l.yearBuilt}`);
   bits.push('~50 min to NYC');
   return bits.map(b => `<span>${esc(b)}</span>`).join('<i class="dot">·</i>');
@@ -772,8 +802,10 @@ function renderMarkers(list) {
       ? '$' + (l.price >= 1000 ? (l.price / 1000).toFixed(1).replace(/\.0$/, '') + 'k' : l.price)
       : (l.price >= 1e6 ? '$' + (l.price / 1e6).toFixed(l.price >= 1e7 ? 0 : 2).replace(/\.?0+$/, '') + 'M' : '$' + Math.round(l.price / 1000) + 'k');
     const fav = state.favs.has(l.mls) ? ' fav' : '';
+    // A sold pin must not read as an available home at map zoom, where there is no card to explain it.
+    const sold = isSold(l) ? ' sold' : '';
     const icon = L.divIcon({
-      className: '', html: `<div class="price-pin${fav}" data-mls="${esc(l.mls)}">${compact}</div>`,
+      className: '', html: `<div class="price-pin${fav}${sold}" data-mls="${esc(l.mls)}">${compact}</div>`,
       iconSize: null,
     });
     const m = L.marker([l.geo.lat, l.geo.lng], { icon, riseOnHover: true });
@@ -872,6 +904,7 @@ function renderDrawer(l) {
   const photos = photosOf(l);
   let gi = 0;
   const b = badgeFor(l);
+  const sold = isSold(l);
   const fav = state.favs.has(l.mls);
   const psf = ppsf(l);
   const facts = [
@@ -882,14 +915,22 @@ function renderDrawer(l) {
     ['Price / sqft', psf ? '$' + psf : null],
     ['Lot', l.lotSqft ? l.lotSqft.toLocaleString() + ' sqft' : null],
     ['Year built', l.yearBuilt],
-    ['Days on market', l.daysOnMarket],
+    [sold ? 'Days on market before sale' : 'Days on market', l.daysOnMarket],
     ['HOA', l.hoa ? money(l.hoa) + '/mo' : null],
     ['Taxes', l.taxAnnual ? money(l.taxAnnual) + '/yr' : null],
     ['MLS #', l.mls],
     ['Neighborhood', l.address.neighborhood],
   ].filter(f => f[1] != null && f[1] !== '');
   const mapsQ = encodeURIComponent(l.address.line ? `${l.address.line}, ${l.address.city}, ${l.address.state} ${l.address.zip || ''}` : `${l.address.city}, ${l.address.state}`);
-  const mailBody = encodeURIComponent(`Hi John, I'm interested in ${addrFull(l)} (MLS #${l.mls}, ${money(l.price)}). Can we set up a tour?`);
+  // A sold listing cannot be toured. Asking for one wastes John's time and reads as a broken site —
+  // and the person looking at a sold comp is usually pricing their OWN home, which is a listing lead,
+  // not a showing request. The close price is deliberately absent from the public feed
+  // (mls-sync.py:142), so the CTA asks John rather than pretending the page knows it.
+  const mailBody = encodeURIComponent(sold
+    ? `Hi John, I saw that ${addrFull(l)} (MLS #${l.mls}) sold. What did it actually close at, and what would that mean for a home like mine nearby?`
+    : `Hi John, I'm interested in ${addrFull(l)} (MLS #${l.mls}, ${money(l.price)}). Can we set up a tour?`);
+  const ctaSubject = sold ? 'Sold comp: ' + addrFull(l) : 'Tour request: ' + addrFull(l);
+  const ctaLabel = sold ? 'Ask what it sold for' : 'Request a tour';
 
   $('#drawerBody').innerHTML = `
     <div class="d-gallery">
@@ -910,7 +951,7 @@ function renderDrawer(l) {
       <div class="d-commute" title="Estimated Metro-North commute — see stamford-to-nyc-commute.html">${esc(commuteFor(l))}</div>
       <div class="d-cta">
         <a class="btn btn-gold" href="tel:${PHONE}">Call John · 203·883·3399</a>
-        <a class="btn btn-act" href="mailto:${EMAIL}?subject=${encodeURIComponent('Tour request: ' + addrFull(l))}&body=${mailBody}">Request a tour</a>
+        <a class="btn btn-act" href="mailto:${EMAIL}?subject=${encodeURIComponent(ctaSubject)}&body=${mailBody}">${ctaLabel}</a>
         <button class="btn btn-out" data-fav="${esc(l.mls)}">${fav ? '♥ Saved' : '♡ Save'}</button>
         <button class="btn btn-out d-cta-share" id="dShare" aria-label="Share this listing" title="Share this listing"><svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v13M8 7l4-4 4 4M5 12v7a2 2 0 002 2h10a2 2 0 002-2v-7"/></svg></button>
       </div>
@@ -1053,17 +1094,29 @@ function syncFilterChrome() {
   // circle area filter: the map's Clear-area button tracks state.circle each render (folded in here
   // instead of a separate syncAreaChrome()/render() edit).
   const clearAreaBtn = $('#clearArea'); if (clearAreaBtn) clearAreaBtn.hidden = !state.circle;
-  const sortNames = { new: 'Newest', 'price-asc': 'Price ↑', 'price-desc': 'Price ↓', beds: 'Most beds', sqft: 'Largest' };
-  $('.drop[data-drop="sort"] .drop-lbl').textContent = 'Sort: ' + sortNames[state.sort];
+  const sortNames = { new: 'Newest', 'price-asc': 'Price ↑', 'price-desc': 'Price ↓', beds: 'Most beds', sqft: 'Largest', ai: 'Best match' };
+  $('.drop[data-drop="sort"] .drop-lbl').textContent = 'Sort: ' + (sortNames[state.sort] || 'Newest');
+  // "Best match" only means something while an AI answer is driving the results — hide it otherwise
+  // rather than offer a sort that would silently behave like Newest.
+  const aiSort = $('#sortCol .radx[data-sort="ai"]'); if (aiSort) aiSort.hidden = !state.ai;
 
-  // active-filter count badge (search + price + beds/baths + type + city + train + area circle)
+  // active-filter count badge (search + price + beds/baths + type + city + train + area circle + AI)
   const activeCount = (state.q ? 1 : 0) + ((state.priceMin || state.priceMax) ? 1 : 0) +
     ((state.beds || state.baths) ? 1 : 0) + (state.types.length ? 1 : 0) + (state.cities.length ? 1 : 0) +
-    (state.maxTrainMin ? 1 : 0) + (state.circle ? 1 : 0);
+    (state.maxTrainMin ? 1 : 0) + (state.circle ? 1 : 0) + (state.ai ? 1 : 0);
   const badge = $('#filterBadge');
   if (badge) {
     badge.hidden = activeCount === 0;
     $('#filterCount').textContent = activeCount;
+  }
+
+  // sold toggle. Deliberately NOT counted in #filterBadge above: every other filter in that count
+  // NARROWS the result set, so "1 active" while the visitor is looking at MORE homes would misread.
+  // Reset still clears it, because reset means "back to the default buyer view".
+  const soldBtn = $('#soldBtn');
+  if (soldBtn) {
+    soldBtn.classList.toggle('is-on', state.showSold);
+    soldBtn.setAttribute('aria-pressed', String(state.showSold));
   }
 
   // saved button reflects count + active state
@@ -1139,6 +1192,14 @@ function wireControls() {
     const done = d.querySelector('.dp-done'); done && done.addEventListener('click', () => closeDrops());
   });
   document.addEventListener('click', closeDrops);
+
+  // sold comps on/off
+  const soldToggle = $('#soldBtn');
+  if (soldToggle) soldToggle.addEventListener('click', () => {
+    state.showSold = !state.showSold;
+    state.bounds = null;          // the old map box was fitted to a different result set
+    render();
+  });
 
   // saved / favorites view
   $('#savedBtn').addEventListener('click', () => {
@@ -1216,7 +1277,11 @@ function wireControls() {
 
   // reset (note: intentionally does NOT clear the Saved view — that's a separate lens, not a filter)
   $('#resetBtn').addEventListener('click', () => {
-    Object.assign(state, { q: '', priceMin: 0, priceMax: 0, beds: 0, baths: 0, types: [], cities: [], maxTrainMin: 0, sort: 'new', bounds: null, circle: null });
+    const hadAI = !!state.ai;
+    Object.assign(state, { q: '', priceMin: 0, priceMax: 0, beds: 0, baths: 0, types: [], cities: [], maxTrainMin: 0, sort: 'new', bounds: null, circle: null, ai: null, showSold: false });
+    // Reset means reset: an AI answer is a filter too, so it clears with the rest — and the AI
+    // panel is told, so its summary can't sit there describing results that are no longer on screen.
+    if (hadAI) window.dispatchEvent(new CustomEvent('dts:ai-cleared'));
     if (drawnCircle && map) { map.removeLayer(drawnCircle); drawnCircle = null; }
     $('#q').value = '';
     buildPriceSelects();
@@ -1297,6 +1362,11 @@ function syncURL() {
   if (state.sort !== 'new') p.set('s', state.sort);
   if (state.view !== 'split') p.set('v', state.view);
   if (state.circle) p.set('circle', `${state.circle.lat},${state.circle.lng},${state.circle.radius}`);
+  if (state.showSold) p.set('sold', '1');
+  // Keep the plain-English question in the URL so an AI search is shareable and survives a reload
+  // (ai-search.js re-runs it on boot). Without this, syncURL — which rebuilds the query from
+  // scratch on every render — would silently drop it the moment any other filter moved.
+  if (state.ai && state.ai.text) p.set('ai', state.ai.text);
   const qs = p.toString();
   history.replaceState(null, '', qs ? '?' + qs : location.pathname);
 }
@@ -1311,6 +1381,7 @@ function readURL() {
   if (p.get('ty')) { state.types = p.get('ty').split(','); $$('#typeCol input').forEach(i => i.checked = state.types.includes(i.value)); }
   if (p.get('ci')) { state.cities = p.get('ci').split(','); $$('#cityCol input').forEach(i => i.checked = state.cities.includes(i.value)); }
   if (p.get('train')) { state.maxTrainMin = +p.get('train'); $$('#trainCol .radx').forEach(x => x.classList.toggle('is-on', x.dataset.train === p.get('train'))); }
+  if (p.get('sold') === '1') state.showSold = true;   // chrome is synced by syncFilterChrome on first render
   if (p.get('s')) { state.sort = p.get('s'); $$('#sortCol .radx').forEach(x => x.classList.toggle('is-on', x.dataset.sort === state.sort)); }
   if (p.get('v')) { state.view = p.get('v'); $$('.vt-btn').forEach(x => x.classList.toggle('is-on', x.dataset.view === state.view)); $('#app').dataset.view = state.view; }
   if (p.get('circle')) {
@@ -1322,7 +1393,84 @@ function readURL() {
 /* CSS.escape shim for attribute selectors (MLS ids are alnum, but be safe) */
 function cssq(s) { return String(s).replace(/["\\]/g, '\\$&'); }
 
+/* ---------------------------------------------------------------------------
+   PUBLIC SURFACE — for optional add-on modules (today: assets/homes/ai-search.js)
+   The point of this seam: an add-on drives the SAME state + render path the filter
+   bar does, so whatever it sets is a normal, VISIBLE filter change the visitor can
+   see, tweak, or clear by hand — never a second parallel set of results next to the
+   real ones. applyFilters also moves the controls, so the bar always tells the truth.
+   --------------------------------------------------------------------------- */
+// The price dropdowns hold fixed steps. An AI-parsed budget ("under $725k") often isn't one of
+// them, so add it as a real option rather than snapping the number to something the user
+// didn't say — otherwise the button label (from state) and the open panel (from the select)
+// would disagree.
+function ensureOption(sel, v) {
+  if (!v) return;
+  if ([...sel.options].some(o => +o.value === +v)) return;
+  const o = document.createElement('option');
+  o.value = String(v);
+  o.textContent = money(v) + (state.type === 'rent' ? '/mo' : '');
+  const at = [...sel.options].find(x => +x.value > +v && +x.value !== 0);
+  sel.insertBefore(o, at || null);
+}
+function applyFilters(f) {
+  if (f.type && f.type !== state.type) {
+    state.type = f.type;
+    $$('.seg-btn').forEach(b => { const on = b.dataset.type === state.type; b.classList.toggle('is-on', on); b.setAttribute('aria-selected', on); });
+    state.priceMin = 0; state.priceMax = 0;          // sale and rent use different price ladders
+    buildPriceSelects();
+  }
+  if ('q' in f) { state.q = f.q || ''; $('#q').value = state.q; }
+  if ('priceMin' in f || 'priceMax' in f) {
+    if ('priceMin' in f) state.priceMin = f.priceMin || 0;
+    if ('priceMax' in f) state.priceMax = f.priceMax || 0;
+    ensureOption($('#priceMin'), state.priceMin); ensureOption($('#priceMax'), state.priceMax);
+    $('#priceMin').value = String(state.priceMin || 0);
+    $('#priceMax').value = String(state.priceMax || 0);
+  }
+  if ('beds' in f) { state.beds = f.beds || 0; $$('#bedsRow .pillx').forEach(x => x.classList.toggle('is-on', +x.dataset.beds === state.beds)); }
+  if ('baths' in f) { state.baths = f.baths || 0; $$('#bathsRow .pillx').forEach(x => x.classList.toggle('is-on', +x.dataset.baths === state.baths)); }
+  if ('types' in f) { state.types = f.types || []; $$('#typeCol input').forEach(i => i.checked = state.types.includes(i.value)); }
+  if ('cities' in f) { state.cities = f.cities || []; $$('#cityCol input').forEach(i => i.checked = state.cities.includes(i.value)); }
+  if ('maxTrainMin' in f) { state.maxTrainMin = f.maxTrainMin || 0; $$('#trainCol .radx').forEach(x => x.classList.toggle('is-on', +x.dataset.train === state.maxTrainMin)); }
+  if ('sort' in f) { state.sort = f.sort || 'new'; $$('#sortCol .radx').forEach(x => x.classList.toggle('is-on', x.dataset.sort === state.sort)); }
+  // Lets an Ask AI question about comps ("what sold on Cove Road this year") flip the real toggle
+  // rather than silently returning nothing — syncFilterChrome then shows the visitor it is on.
+  if ('showSold' in f) state.showSold = !!f.showSold;
+  if ('ai' in f) state.ai = f.ai;
+  state.bounds = null;                                // a fresh answer shouldn't stay boxed into the old map view
+  render();
+  return filtered().length;                           // what the visitor is now looking at
+}
+// Count-only dry run: what WOULD this filter set return? Never renders, never leaves state
+// changed. filtered() is a pure function of state, so snapshot → mutate → count → restore is
+// exact — which matters, because the alternative (an add-on re-implementing the filter logic
+// to predict a count) is how a UI ends up promising 23 homes and showing 19.
+const PREVIEW_KEYS = ['type', 'q', 'priceMin', 'priceMax', 'beds', 'baths', 'types', 'cities', 'maxTrainMin', 'ai', 'bounds', 'circle', 'savedOnly', 'showSold'];
+function preview(f) {
+  const snap = {};
+  PREVIEW_KEYS.forEach(k => { snap[k] = state[k]; });
+  PREVIEW_KEYS.forEach(k => { if (k in f) state[k] = f[k]; });
+  let n = 0;
+  try { n = filtered().length; } finally { Object.assign(state, snap); }
+  return n;
+}
+const DTSSearch = {
+  state,
+  render,
+  applyFilters,
+  preview,
+  results: filtered,        // exactly what the map and the list are showing, in their order
+  trainMin: trainMinFor,
+  citiesInFeed: () => [...new Set(state.all.map(l => l.address && l.address.city).filter(Boolean))],
+  reset: () => $('#resetBtn').click(),
+  ready: false,
+  // Data lands async; an add-on that needs listings waits on this instead of polling.
+  onReady(fn) { this.ready ? fn() : window.addEventListener('dts:ready', () => fn(), { once: true }); }
+};
+window.DTSSearch = DTSSearch;
+
 /* ---------- boot ---------- */
 wireControls();
-load();
+load().then(() => { DTSSearch.ready = true; window.dispatchEvent(new CustomEvent('dts:ready')); });
 initAccounts();   // lazy Supabase auth; no-op + zero network unless ACCOUNTS_ENABLED

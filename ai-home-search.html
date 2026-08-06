@@ -163,6 +163,13 @@
   padding:11px 18px;border-radius:12px;font-size:.86rem;opacity:0;pointer-events:none;transition:all .25s ease;z-index:90}
 .toast.on{opacity:1;transform:translateX(-50%) translateY(0)}
 
+/* funnel into the map search, where Ask AI now lives inside the real product */
+.aihs-tomap{display:inline-block;margin-top:14px;font-family:var(--mono);font-size:.68rem;letter-spacing:.06em;
+  text-transform:uppercase;color:var(--goldl);text-decoration:none;border-bottom:1px solid rgba(203,171,104,.35);
+  padding-bottom:3px;transition:color .2s,border-color .2s}
+.aihs-tomap:hover{color:#fff;border-color:rgba(255,255,255,.5)}
+.aihs.started .aihs-tomap{display:none}
+
 /* module pills under empty hero */
 .aihs-mods{display:flex;flex-wrap:wrap;gap:7px;justify-content:center;margin:26px auto 0;max-width:640px}
 .aihs.started .aihs-mods{display:none}
@@ -177,7 +184,6 @@
     <nav class="nav-links" aria-label="Primary">
       <a href="search.html?type=sale">Buy</a>
       <a href="search.html?type=rent">Rent</a>
-      <a href="ai-home-search.html" aria-current="page">AI Search</a>
       <a href="neighborhoods.html">Neighborhoods</a>
       <a href="stamford-market.html">Market Trends</a>
       <a href="blog.html">Blog</a>
@@ -192,7 +198,7 @@
   <aside class="mmenu-panel" role="dialog" aria-modal="true" aria-label="Menu">
     <nav class="mmenu-links" aria-label="Mobile">
       <a href="/">Home</a><a href="search.html?type=sale">Buy</a><a href="search.html?type=rent">Rent</a>
-      <a href="ai-home-search.html">AI Search</a><a href="neighborhoods.html">Neighborhoods</a>
+      <a href="neighborhoods.html">Neighborhoods</a>
       <a href="stamford-market.html">Market Trends</a><a href="blog.html">Blog</a><a href="contact.html">Contact</a>
     </nav>
   </aside>
@@ -205,6 +211,7 @@
         <span class="aihs-eyebrow"><span class="dot"></span> AI Home Search · Stamford, CT</span>
         <h1>Find Your Home With AI</h1>
         <p class="sub">Describe what you're looking for in plain English.</p>
+        <a class="aihs-tomap" href="search.html?ai=1">Ask the same thing on the live map search — results plot straight onto the map <span aria-hidden="true">→</span></a>
       </div>
 
       <div class="aihs-composer" id="composerWrap">

@@ -21,10 +21,10 @@
 <link rel="manifest" href="/site.webmanifest">
 <link rel="stylesheet" href="assets/site.css">
 <script type="application/ld+json" id="md-dataset">
-{"@context": "https://schema.org", "@type": "Dataset", "@id": "https://dtstamford.com/market-data.html#dataset", "name": "Stamford CT Housing Market — Live 3-Hourly MLS Series", "description": "Open time series of active residential inventory in Stamford, Connecticut and nearby Fairfield County towns (Greenwich, Norwalk, Darien, New Canaan, Westport, Wilton): total/for-sale/for-rent counts, cumulative price bands (under $300K/$600K/$1M sale; under $1,800/$2,200/$3,000 rent), median asking prices, and new-today counts. Refreshed from the SmartMLS IDX feed approximately every 3 hours.", "url": "https://dtstamford.com/market-data.html", "license": "https://creativecommons.org/licenses/by/4.0/", "isAccessibleForFree": true, "creator": {"@id": "https://dtstamford.com/#agent"}, "dateModified": "2026-08-04T13:25:08Z", "temporalCoverage": "2026-07-22/2026-08-04", "measurementTechnique": "SmartMLS IDX feed extraction, deduplicated by MLS number", "spatialCoverage": [{"@type": "Place", "name": "Stamford, Connecticut, USA"}, {"@type": "Place", "name": "Greenwich, Connecticut, USA"}, {"@type": "Place", "name": "Norwalk, Connecticut, USA"}, {"@type": "Place", "name": "Darien, Connecticut, USA"}, {"@type": "Place", "name": "New Canaan, Connecticut, USA"}, {"@type": "Place", "name": "Westport, Connecticut, USA"}, {"@type": "Place", "name": "Wilton, Connecticut, USA"}], "variableMeasured": [{"@type": "PropertyValue", "name": "total", "description": "Active listings in the feed", "value": 1711}, {"@type": "PropertyValue", "name": "for_sale", "description": "Active for-sale listings", "value": 1117}, {"@type": "PropertyValue", "name": "for_rent", "description": "Active rental listings", "value": 594}, {"@type": "PropertyValue", "name": "median_sale", "unitText": "USD", "description": "Median asking price, active for-sale listings", "value": 1099000}, {"@type": "PropertyValue", "name": "median_rent", "unitText": "USD", "description": "Median monthly asking rent, active rental listings", "value": 3898}], "distribution": [{"@type": "DataDownload", "name": "3-hourly time series", "encodingFormat": "text/csv", "contentUrl": "https://dtstamford.com/data/stats-history.csv"}, {"@type": "DataDownload", "name": "Current snapshot", "encodingFormat": "application/json", "contentUrl": "https://dtstamford.com/data/stats.json"}]}
+{"@context": "https://schema.org", "@type": "Dataset", "@id": "https://dtstamford.com/market-data.html#dataset", "name": "Stamford CT Housing Market — Live 3-Hourly MLS Series", "description": "Open time series of active residential inventory in Stamford, Connecticut and nearby Fairfield County towns (Greenwich, Norwalk, Darien, New Canaan, Westport, Wilton): total/for-sale/for-rent counts, cumulative price bands (under $300K/$600K/$1M sale; under $1,800/$2,200/$3,000 rent), median asking prices, and new-today counts. Refreshed from the SmartMLS IDX feed approximately every 3 hours.", "url": "https://dtstamford.com/market-data.html", "license": "https://creativecommons.org/licenses/by/4.0/", "isAccessibleForFree": true, "creator": {"@id": "https://dtstamford.com/#agent"}, "dateModified": "2026-08-06T12:06:03Z", "temporalCoverage": "2026-07-22/2026-08-06", "measurementTechnique": "SmartMLS IDX feed extraction, deduplicated by MLS number", "spatialCoverage": [{"@type": "Place", "name": "Stamford, Connecticut, USA"}, {"@type": "Place", "name": "Greenwich, Connecticut, USA"}, {"@type": "Place", "name": "Norwalk, Connecticut, USA"}, {"@type": "Place", "name": "Darien, Connecticut, USA"}, {"@type": "Place", "name": "New Canaan, Connecticut, USA"}, {"@type": "Place", "name": "Westport, Connecticut, USA"}, {"@type": "Place", "name": "Wilton, Connecticut, USA"}], "variableMeasured": [{"@type": "PropertyValue", "name": "total", "description": "Active listings in the feed", "value": 1701}, {"@type": "PropertyValue", "name": "for_sale", "description": "Active for-sale listings", "value": 1097}, {"@type": "PropertyValue", "name": "for_rent", "description": "Active rental listings", "value": 604}, {"@type": "PropertyValue", "name": "median_sale", "unitText": "USD", "description": "Median asking price, active for-sale listings", "value": 1095000}, {"@type": "PropertyValue", "name": "median_rent", "unitText": "USD", "description": "Median monthly asking rent, active rental listings", "value": 3850}], "distribution": [{"@type": "DataDownload", "name": "3-hourly time series", "encodingFormat": "text/csv", "contentUrl": "https://dtstamford.com/data/stats-history.csv"}, {"@type": "DataDownload", "name": "Current snapshot", "encodingFormat": "application/json", "contentUrl": "https://dtstamford.com/data/stats.json"}]}
 </script>
 <script type="application/ld+json" id="md-faq">
-{"@context": "https://schema.org", "@type": "FAQPage", "@id": "https://dtstamford.com/market-data.html#faq", "mainEntity": [{"@type": "Question", "name": "How many homes are for sale in Stamford, CT?", "acceptedAnswer": {"@type": "Answer", "text": "As of August 4, 2026, 13:25 UTC, there are 380 active for-sale listings in Stamford, Connecticut in the SmartMLS feed, alongside 224 active rental listings."}}, {"@type": "Question", "name": "What is the median asking price for a home for sale in Stamford, CT?", "acceptedAnswer": {"@type": "Answer", "text": "As of August 4, 2026, 13:25 UTC, the median asking price across active for-sale listings in Stamford, Connecticut is $725,000. This is a median of asking prices, not of closed sale prices."}}, {"@type": "Question", "name": "What is the median asking rent in Stamford, CT?", "acceptedAnswer": {"@type": "Answer", "text": "As of August 4, 2026, 13:25 UTC, the median asking rent across active rental listings in Stamford, Connecticut is $3,000 per month."}}, {"@type": "Question", "name": "How often is this Stamford market data updated?", "acceptedAnswer": {"@type": "Answer", "text": "The dataset is rebuilt from the SmartMLS IDX feed roughly every 3 hours, around the clock. The snapshot on this page was generated August 4, 2026, 13:25 UTC, and every refresh also appends a row to the public time series at /data/stats-history.csv."}}, {"@type": "Question", "name": "Can I reuse or cite this Stamford housing data?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. The dataset is published under CC-BY 4.0. Cite it as \"Downtown Stamford live MLS data (dtstamford.com), retrieved [date]\". The machine-readable files are /data/stats.json for the current snapshot and /data/stats-history.csv for the series."}}]}
+{"@context": "https://schema.org", "@type": "FAQPage", "@id": "https://dtstamford.com/market-data.html#faq", "mainEntity": [{"@type": "Question", "name": "How many homes are for sale in Stamford, CT?", "acceptedAnswer": {"@type": "Answer", "text": "As of August 6, 2026, 12:06 UTC, there are 367 active for-sale listings in Stamford, Connecticut in the SmartMLS feed, alongside 229 active rental listings."}}, {"@type": "Question", "name": "What is the median asking price for a home for sale in Stamford, CT?", "acceptedAnswer": {"@type": "Answer", "text": "As of August 6, 2026, 12:06 UTC, the median asking price across active for-sale listings in Stamford, Connecticut is $700,000. This is a median of asking prices, not of closed sale prices."}}, {"@type": "Question", "name": "What is the median asking rent in Stamford, CT?", "acceptedAnswer": {"@type": "Answer", "text": "As of August 6, 2026, 12:06 UTC, the median asking rent across active rental listings in Stamford, Connecticut is $3,000 per month."}}, {"@type": "Question", "name": "How often is this Stamford market data updated?", "acceptedAnswer": {"@type": "Answer", "text": "The dataset is rebuilt from the SmartMLS IDX feed roughly every 3 hours, around the clock. The snapshot on this page was generated August 6, 2026, 12:06 UTC, and every refresh also appends a row to the public time series at /data/stats-history.csv."}}, {"@type": "Question", "name": "Can I reuse or cite this Stamford housing data?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. The dataset is published under CC-BY 4.0. Cite it as \"Downtown Stamford live MLS data (dtstamford.com), retrieved [date]\". The machine-readable files are /data/stats.json for the current snapshot and /data/stats-history.csv for the series."}}]}
 </script>
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://dtstamford.com/"},{"@type":"ListItem","position":2,"name":"Open Market Dataset","item":"https://dtstamford.com/market-data.html"}]}
@@ -82,7 +82,7 @@
     <span class="tag">Open Data · CC-BY 4.0</span>
     <h1>The Open Stamford, CT Housing Market Dataset</h1>
     <p class="lead">Live inventory counts, price bands, and median asking prices for Stamford and six neighboring Fairfield County towns — rebuilt from the SmartMLS feed roughly every 3 hours, around the clock.</p>
-    <div class="updated">Data as of <!--MDASOF-->August 4, 2026, 13:25 UTC<!--/MDASOF--></div>
+    <div class="updated">Data as of <!--MDASOF-->August 6, 2026, 12:06 UTC<!--/MDASOF--></div>
   </div>
 </section>
 
@@ -92,52 +92,52 @@
 
 <h2>Right now across the dataset</h2>
 <ul>
-  <li><strong><!--LIVESTAT:total-->1,711<!--/LIVESTAT--></strong> active listings — <strong><!--LIVESTAT:forSale-->1,117<!--/LIVESTAT--></strong> for sale, <strong><!--LIVESTAT:forRent-->594<!--/LIVESTAT--></strong> for rent (<strong><!--LIVESTAT:newToday-->7<!--/LIVESTAT--></strong> new today)</li>
-  <li>Median asking price (sale): <strong><!--LIVESTAT:medianSale-->$1.1M<!--/LIVESTAT--></strong> · Median asking rent: <strong><!--LIVESTAT:medianRent-->$3,898/mo<!--/LIVESTAT--></strong></li>
+  <li><strong><!--LIVESTAT:total-->1,701<!--/LIVESTAT--></strong> active listings — <strong><!--LIVESTAT:forSale-->1,097<!--/LIVESTAT--></strong> for sale, <strong><!--LIVESTAT:forRent-->604<!--/LIVESTAT--></strong> for rent (<strong><!--LIVESTAT:newToday-->3<!--/LIVESTAT--></strong> new today)</li>
+  <li>Median asking price (sale): <strong><!--LIVESTAT:medianSale-->$1.1M<!--/LIVESTAT--></strong> · Median asking rent: <strong><!--LIVESTAT:medianRent-->$3,850/mo<!--/LIVESTAT--></strong></li>
 </ul>
 
 <h2>Summary you can quote</h2>
 <p>Each line below is self-contained — it carries its own date and source, so it stays accurate when lifted on its own.</p>
 <ul class="quotable"><!--MDQUOTE-->
-  <li>As of August 4, 2026, Stamford, CT has 604 active MLS listings (380 for sale, 224 for rent). Source: dtstamford.com live SmartMLS feed, updated every 3 hours.</li>
-  <li>As of August 4, 2026, the median asking price for a home for sale in Stamford, CT is $725,000, and the median asking rent is $3,000 per month. Source: dtstamford.com live SmartMLS feed, updated every 3 hours.</li>
-  <li>As of August 4, 2026, this dataset tracks 1,711 active listings across seven Fairfield County towns: Stamford, Greenwich, Norwalk, Darien, New Canaan, Westport, and Wilton. Source: dtstamford.com live SmartMLS feed, updated every 3 hours.</li>
-  <li>As of August 4, 2026, 256 Stamford-area homes for sale are asking under $600,000 and 537 are asking under $1,000,000. Source: dtstamford.com live SmartMLS feed, updated every 3 hours.</li>
-  <li>As of August 4, 2026, 76 Stamford-area rentals are asking under $2,200 per month and 211 are asking under $3,000 per month. Source: dtstamford.com live SmartMLS feed, updated every 3 hours.</li>
-  <li>Over the 6 days ending August 4, 2026, total active MLS inventory across the Stamford, CT dataset changed by −70 (−3.9%). Source: dtstamford.com live SmartMLS feed, updated every 3 hours.</li>
+  <li>As of August 6, 2026, Stamford, CT has 596 active MLS listings (367 for sale, 229 for rent). Source: dtstamford.com live SmartMLS feed, updated every 3 hours.</li>
+  <li>As of August 6, 2026, the median asking price for a home for sale in Stamford, CT is $700,000, and the median asking rent is $3,000 per month. Source: dtstamford.com live SmartMLS feed, updated every 3 hours.</li>
+  <li>As of August 6, 2026, this dataset tracks 1,701 active listings across seven Fairfield County towns: Stamford, Greenwich, Norwalk, Darien, New Canaan, Westport, and Wilton. Source: dtstamford.com live SmartMLS feed, updated every 3 hours.</li>
+  <li>As of August 6, 2026, 254 Stamford-area homes for sale are asking under $600,000 and 533 are asking under $1,000,000. Source: dtstamford.com live SmartMLS feed, updated every 3 hours.</li>
+  <li>As of August 6, 2026, 78 Stamford-area rentals are asking under $2,200 per month and 217 are asking under $3,000 per month. Source: dtstamford.com live SmartMLS feed, updated every 3 hours.</li>
+  <li>Over the 6 days ending August 6, 2026, total active MLS inventory across the Stamford, CT dataset changed by −61 (−3.5%). Source: dtstamford.com live SmartMLS feed, updated every 3 hours.</li>
 <!--/MDQUOTE--></ul>
 
 <h2>Active inventory by town</h2>
-<p>Counts are active listings in the SmartMLS feed as of <strong><!--MDASOF2-->August 4, 2026, 13:25 UTC<!--/MDASOF2--></strong>. Medians are of asking price, computed per town at that same moment. Towns with no listings in a column show an em dash.</p>
+<p>Counts are active listings in the SmartMLS feed as of <strong><!--MDASOF2-->August 6, 2026, 12:06 UTC<!--/MDASOF2--></strong>. Medians are of asking price, computed per town at that same moment. Towns with no listings in a column show an em dash.</p>
 <div style="overflow-x:auto">
 <table class="tbl">
   <thead><tr><th scope="col">Town</th><th scope="col">For sale</th><th scope="col">For rent</th><th scope="col">Median asking price</th><th scope="col">Median asking rent</th></tr></thead>
   <tbody><!--MDTOWNS-->
-    <tr><th scope="row">Stamford, CT</th><td>380</td><td>224</td><td>$725,000</td><td>$3,000/mo</td></tr>
-    <tr><th scope="row">Greenwich, CT</th><td>83</td><td>57</td><td>$2,500,000</td><td>$7,500/mo</td></tr>
-    <tr><th scope="row">Norwalk, CT</th><td>268</td><td>142</td><td>$743,500</td><td>$3,012/mo</td></tr>
-    <tr><th scope="row">Darien, CT</th><td>69</td><td>35</td><td>$2,895,000</td><td>$7,500/mo</td></tr>
-    <tr><th scope="row">New Canaan, CT</th><td>116</td><td>33</td><td>$2,395,000</td><td>$9,000/mo</td></tr>
-    <tr><th scope="row">Westport, CT</th><td>126</td><td>82</td><td>$2,998,000</td><td>$9,000/mo</td></tr>
-    <tr><th scope="row">Wilton, CT</th><td>74</td><td>20</td><td>$1,099,500</td><td>$5,262/mo</td></tr>
+    <tr><th scope="row">Stamford, CT</th><td>367</td><td>229</td><td>$700,000</td><td>$3,000/mo</td></tr>
+    <tr><th scope="row">Greenwich, CT</th><td>81</td><td>58</td><td>$2,499,000</td><td>$7,600/mo</td></tr>
+    <tr><th scope="row">Norwalk, CT</th><td>269</td><td>143</td><td>$748,000</td><td>$3,100/mo</td></tr>
+    <tr><th scope="row">Darien, CT</th><td>68</td><td>34</td><td>$2,922,500</td><td>$7,500/mo</td></tr>
+    <tr><th scope="row">New Canaan, CT</th><td>114</td><td>35</td><td>$2,395,000</td><td>$9,000/mo</td></tr>
+    <tr><th scope="row">Westport, CT</th><td>122</td><td>84</td><td>$2,998,000</td><td>$8,975/mo</td></tr>
+    <tr><th scope="row">Wilton, CT</th><td>75</td><td>20</td><td>$1,099,000</td><td>$5,262/mo</td></tr>
     <tr><th scope="row">Other Fairfield County towns</th><td>1</td><td>1</td><td>$2,499,000</td><td>$9,500/mo</td></tr>
-    <tr><th scope="row">All towns</th><td><strong>1,117</strong></td><td><strong>594</strong></td><td>$1,099,000</td><td>$3,898/mo</td></tr>
+    <tr><th scope="row">All towns</th><td><strong>1,097</strong></td><td><strong>604</strong></td><td>$1,095,000</td><td>$3,850/mo</td></tr>
   <!--/MDTOWNS--></tbody>
 </table>
 </div>
 
 <!--MDTREND-->
 <h2>Change over the past 6 days</h2>
-<p>Compared with the snapshot taken July 29, 2026 — the most recent reading at least six days before the current one. Both endpoints come from the published <a href="/data/stats-history.csv"><code>stats-history.csv</code></a> series.</p>
+<p>Compared with the snapshot taken July 31, 2026 — the most recent reading at least six days before the current one. Both endpoints come from the published <a href="/data/stats-history.csv"><code>stats-history.csv</code></a> series.</p>
 <div style="overflow-x:auto">
 <table class="tbl">
   <thead><tr><th scope="col">Measure</th><th scope="col">Now</th><th scope="col">Change vs. 6 days ago</th></tr></thead>
   <tbody>
-    <tr><th scope="row">Total active listings</th><td>1,711</td><td>−70 (−3.9%)</td></tr>
-    <tr><th scope="row">For sale</th><td>1,117</td><td>−31 (−2.7%)</td></tr>
-    <tr><th scope="row">For rent</th><td>594</td><td>−39 (−6.2%)</td></tr>
-    <tr><th scope="row">Median asking price</th><td>$1,099,000</td><td>−$51,000 (−4.4%)</td></tr>
-    <tr><th scope="row">Median asking rent</th><td>$3,898/mo</td><td>+$98 (+2.6%)</td></tr>
+    <tr><th scope="row">Total active listings</th><td>1,701</td><td>−61 (−3.5%)</td></tr>
+    <tr><th scope="row">For sale</th><td>1,097</td><td>−38 (−3.3%)</td></tr>
+    <tr><th scope="row">For rent</th><td>604</td><td>−23 (−3.7%)</td></tr>
+    <tr><th scope="row">Median asking price</th><td>$1,095,000</td><td>−$5,000 (−0.5%)</td></tr>
+    <tr><th scope="row">Median asking rent</th><td>$3,850/mo</td><td>+$50 (+1.3%)</td></tr>
   </tbody>
 </table>
 </div>
@@ -154,16 +154,29 @@
 <h2>Method</h2>
 <p>Data derives from the SmartMLS IDX feed for Stamford and nearby Fairfield County towns (Greenwich, Norwalk, Darien, New Canaan, Westport, Wilton). Counts include Active, Under Contract, and Coming Soon residential listings that permit internet display; price bands are cumulative (&le;) on asking price; medians are computed on asking prices per refresh. Compliance-withheld addresses never appear in any feed.</p>
 
+<h3>Correction — 2026-08-05 to 2026-08-06</h3>
+<p>On 2026-08-05 the IDX sync began also pulling <strong>Closed</strong> (sold) listings, which this
+site publishes as comparables. For roughly 14 hours those sold records were counted as active
+inventory, so 15 rows appended to <a href="/data/stats-history.csv"><code>stats-history.csv</code></a>
+between <time datetime="2026-08-05T21:42Z">2026-08-05 21:42 UTC</time> and
+<time datetime="2026-08-06T11:37Z">2026-08-06 11:37 UTC</time> reported roughly 4,380 listings instead
+of roughly 1,700, and moved the median asking figures accordingly. Those 15 rows describe a
+population this dataset never intended to measure, so they have been <strong>removed</strong> rather
+than restated; the series resumes on its published definition with the next refresh. No other row was
+altered. If you pulled the CSV during that window, please re-fetch it. Sold listings remain on the
+site as comparables — see <a href="/sold/">recently sold</a> — but are excluded from every count,
+band and median on this page.</p>
+
 <h2>Common questions</h2>
 <div class="faq"><!--MDFAQ-->
   <h3>How many homes are for sale in Stamford, CT?</h3>
-  <p>As of August 4, 2026, 13:25 UTC, there are 380 active for-sale listings in Stamford, Connecticut in the SmartMLS feed, alongside 224 active rental listings.</p>
+  <p>As of August 6, 2026, 12:06 UTC, there are 367 active for-sale listings in Stamford, Connecticut in the SmartMLS feed, alongside 229 active rental listings.</p>
   <h3>What is the median asking price for a home for sale in Stamford, CT?</h3>
-  <p>As of August 4, 2026, 13:25 UTC, the median asking price across active for-sale listings in Stamford, Connecticut is $725,000. This is a median of asking prices, not of closed sale prices.</p>
+  <p>As of August 6, 2026, 12:06 UTC, the median asking price across active for-sale listings in Stamford, Connecticut is $700,000. This is a median of asking prices, not of closed sale prices.</p>
   <h3>What is the median asking rent in Stamford, CT?</h3>
-  <p>As of August 4, 2026, 13:25 UTC, the median asking rent across active rental listings in Stamford, Connecticut is $3,000 per month.</p>
+  <p>As of August 6, 2026, 12:06 UTC, the median asking rent across active rental listings in Stamford, Connecticut is $3,000 per month.</p>
   <h3>How often is this Stamford market data updated?</h3>
-  <p>The dataset is rebuilt from the SmartMLS IDX feed roughly every 3 hours, around the clock. The snapshot on this page was generated August 4, 2026, 13:25 UTC, and every refresh also appends a row to the public time series at /data/stats-history.csv.</p>
+  <p>The dataset is rebuilt from the SmartMLS IDX feed roughly every 3 hours, around the clock. The snapshot on this page was generated August 6, 2026, 12:06 UTC, and every refresh also appends a row to the public time series at /data/stats-history.csv.</p>
   <h3>Can I reuse or cite this Stamford housing data?</h3>
   <p>Yes. The dataset is published under CC-BY 4.0. Cite it as &quot;Downtown Stamford live MLS data (dtstamford.com), retrieved [date]&quot;. The machine-readable files are /data/stats.json for the current snapshot and /data/stats-history.csv for the series.</p>
 <!--/MDFAQ--></div>

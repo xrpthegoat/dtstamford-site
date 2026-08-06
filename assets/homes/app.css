@@ -6,6 +6,11 @@
   --hdr-h:78px;          /* header island + top gap */
   --fb-h:60px;           /* filter bar height */
   --card-r:18px;
+  /* Off-market slate. Deliberately outside the site's gold/teal language: gold = saved, teal = new,
+     amber = under contract. Sold is the absence of availability, so it gets a neutral, not a hue
+     that competes with the live-status colours. Mirrors --st-sold on the generated detail pages. */
+  --sold-l:#a8b4cb;
+  --sold-d:#3f4a5f;
 }
 /* App shell locks the page: no horizontal drift, no rubber-band overscroll; only the results list and
    the filter chip strip scroll. touch-action:pan-x pan-y also blunts page pinch-zoom (belt + the
@@ -28,7 +33,7 @@ html{overflow-x:hidden;overscroll-behavior:none}
 
 /* visual groups: [search + buy/rent] | [filters] | [saved + view] */
 .fb-group{display:flex;align-items:center;gap:10px}
-.fb-group-search{flex:1 1 300px;min-width:0}
+.fb-group-search{flex:1 1 400px;min-width:0}   /* holds the box + Ask AI + Buy/Rent — needs the room */
 .fb-group-filters{flex:none}
 .fb-group-view{flex:none;margin-left:auto}
 .fb-divider{width:1px;align-self:stretch;margin:6px 0;background:var(--line);flex:none}
@@ -119,6 +124,11 @@ html{overflow-x:hidden;overscroll-behavior:none}
 .fb-saved svg{transition:fill .25s,stroke .25s}
 .fb-saved.is-on{border-color:var(--gold-d);color:var(--gold-l);background:rgba(203,171,104,.08)}
 .fb-saved.is-on svg{fill:var(--gold-l);stroke:var(--gold-l)}
+/* Sold toggle borrows .fb-saved's shape (and every one of its responsive rules — the label hides at
+   1300px with the Saved label) but never its gold "on" state: gold means saved, and two gold pills
+   side by side would read as one control. Slate = off-market, matching the .badge.sold card badge. */
+.fb-sold.is-on{border-color:var(--sold-d);color:var(--sold-l);background:rgba(148,163,190,.10)}
+.fb-sold.is-on svg{fill:none;stroke:var(--sold-l)}
 
 /* ---- account control (Sign in with Google + saved-forever) ---- */
 .fb-acct{position:relative;flex:none}
@@ -152,6 +162,76 @@ html{overflow-x:hidden;overscroll-behavior:none}
 .vt-btn{padding:8px 13px;border:0;background:none;color:var(--muted);font-family:var(--mono);font-size:.64rem;letter-spacing:.1em;
   text-transform:uppercase;border-radius:999px;cursor:pointer;transition:all .2s}
 .vt-btn.is-on{color:var(--fg);background:rgba(255,255,255,.08)}
+
+/* ---------- ASK AI (plain-English search, inside the search) ----------
+   Deliberately attached to the search box, not the site nav: the visitor types
+   where they already type. is-hot = the box holds a sentence, so Enter will ask;
+   is-on = an AI answer is currently driving the results. */
+.fb-ai{display:inline-flex;align-items:center;gap:7px;flex:none;padding:11px 15px;border-radius:999px;cursor:pointer;
+  border:1px solid rgba(203,171,104,.4);background:rgba(203,171,104,.07);color:var(--gold-l);
+  font-family:var(--sans);font-size:.82rem;font-weight:600;white-space:nowrap;
+  transition:border-color .25s,background .25s,color .25s,box-shadow .3s}
+.fb-ai:hover{border-color:var(--gold);background:rgba(203,171,104,.14)}
+.fb-ai .spark{font-size:.9rem;line-height:1;transform:translateY(-.5px)}
+.fb-ai.is-hot{border-color:var(--gold);box-shadow:0 0 0 3px rgba(203,171,104,.13)}
+.fb-ai.is-on{color:#161006;background:linear-gradient(180deg,var(--gold-l),var(--gold));border-color:transparent;
+  box-shadow:0 1px 0 rgba(255,255,255,.35) inset,0 10px 24px -14px rgba(203,171,104,.8)}
+.fb-ai.is-busy{opacity:.65;pointer-events:none}
+
+.ai-sheet{position:fixed;z-index:140;left:50%;transform:translateX(-50%) translateY(-8px);
+  width:min(680px,calc(100vw - 28px));max-height:min(70vh,620px);overflow-y:auto;overscroll-behavior:contain;
+  padding:18px 20px 16px;border-radius:24px;border:1px solid rgba(203,171,104,.24);background:rgba(14,14,18,.98);
+  backdrop-filter:saturate(150%) blur(22px);-webkit-backdrop-filter:saturate(150%) blur(22px);
+  box-shadow:0 40px 90px -34px rgba(0,0,0,.96),inset 0 1px 0 rgba(255,255,255,.05);
+  opacity:0;pointer-events:none;transition:opacity .22s var(--ease),transform .3s var(--ease)}
+.ai-sheet.is-open{opacity:1;transform:translateX(-50%) translateY(0);pointer-events:auto}
+.ai-sheet[hidden]{display:none}
+.ai-head{display:flex;align-items:center;gap:10px;margin-bottom:12px}
+.ai-eyebrow{font-family:var(--mono);font-size:.62rem;letter-spacing:.16em;text-transform:uppercase;color:var(--gold-l)}
+.ai-eyebrow .dot{display:inline-block;width:6px;height:6px;border-radius:50%;background:var(--gold);margin-right:7px;vertical-align:middle}
+.ai-x{margin-left:auto;width:30px;height:30px;border-radius:50%;border:1px solid var(--line);background:rgba(255,255,255,.03);
+  color:var(--muted);font-size:.9rem;line-height:1;cursor:pointer;transition:color .2s,border-color .2s}
+.ai-x:hover{color:var(--fg);border-color:rgba(255,255,255,.25)}
+.ai-box{display:flex;align-items:flex-end;gap:10px;padding:12px 12px 12px 16px;border-radius:18px;
+  border:1px solid var(--line);background:rgba(255,255,255,.035)}
+.ai-box:focus-within{border-color:rgba(203,171,104,.5)}
+.ai-box textarea{flex:1;min-height:24px;max-height:120px;resize:none;border:0;outline:none;background:none;color:var(--fg);
+  font-family:var(--sans);font-size:.95rem;line-height:1.5}
+.ai-box textarea::placeholder{color:var(--faint)}
+.ai-send{flex:none;width:38px;height:38px;border-radius:50%;border:0;cursor:pointer;color:#161006;
+  background:linear-gradient(180deg,var(--gold-l),var(--gold));font-size:1rem;line-height:1;
+  box-shadow:0 10px 22px -14px rgba(203,171,104,.9);transition:transform .2s var(--ease)}
+.ai-send:hover{transform:translateY(-1px)}
+.ai-busy{margin:10px 2px 0;font-family:var(--mono);font-size:.66rem;letter-spacing:.1em;text-transform:uppercase;color:var(--gold-l)}
+.ai-busy[hidden]{display:none}
+.ai-body{margin-top:14px}
+.ai-lede{font-size:.92rem;line-height:1.6;color:var(--fg-soft)}
+.ai-lede b{color:var(--gold-l);font-weight:700}
+.ai-chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:11px}
+.ai-chip{font-family:var(--mono);font-size:.64rem;letter-spacing:.05em;color:var(--fg-soft);
+  border:1px solid var(--line);border-radius:20px;padding:5px 10px;background:rgba(255,255,255,.03)}
+.ai-top{display:flex;flex-direction:column;gap:8px;margin-top:14px}
+.ai-hit{display:grid;grid-template-columns:auto 1fr;gap:2px 12px;text-align:left;width:100%;cursor:pointer;
+  padding:11px 13px;border-radius:14px;border:1px solid var(--line);background:rgba(255,255,255,.03);
+  transition:border-color .2s,background .2s}
+.ai-hit:hover{border-color:rgba(203,171,104,.45);background:rgba(203,171,104,.06)}
+.ai-hit-price{grid-row:1/3;align-self:center;font-family:var(--disp);font-size:1.02rem;font-weight:700;color:var(--fg)}
+.ai-hit-price i{font-style:normal;font-size:.68rem;color:var(--muted);font-weight:500}
+.ai-hit-addr{font-size:.84rem;color:var(--fg-soft);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.ai-hit-why{font-family:var(--mono);font-size:.63rem;letter-spacing:.03em;color:var(--gold-l);
+  overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.ai-egs{display:flex;flex-wrap:wrap;gap:7px;margin-top:12px}
+.ai-eg{cursor:pointer;font-family:var(--sans);font-size:.79rem;color:var(--fg-soft);border:1px solid var(--line);
+  border-radius:20px;padding:8px 13px;background:rgba(255,255,255,.03);transition:border-color .2s,color .2s,background .2s}
+.ai-eg:hover{border-color:rgba(203,171,104,.45);color:var(--gold-l);background:rgba(203,171,104,.06)}
+.ai-note,.ai-foot{margin-top:13px;font-size:.75rem;line-height:1.6;color:var(--muted)}
+.ai-foot a{color:var(--gold-l)}
+.ai-clear,.ai-relax{cursor:pointer;font-family:var(--sans);font-size:.75rem;font-weight:600;padding:6px 12px;
+  border-radius:20px;border:1px solid var(--line);background:rgba(255,255,255,.03);color:var(--fg-soft);
+  margin-left:6px;transition:border-color .2s,color .2s}
+.ai-clear:hover{border-color:rgba(255,255,255,.28);color:var(--fg)}
+.ai-relax{margin-left:0;border-color:rgba(203,171,104,.45);color:var(--gold-l)}
+.ai-relax:hover{background:rgba(203,171,104,.1)}
 
 /* ---------- APP SPLIT ---------- */
 .app{display:flex;height:calc(100vh - var(--hdr-h) - var(--fb-h));gap:0;overflow:hidden}
@@ -223,6 +303,14 @@ html{overflow-x:hidden;overscroll-behavior:none}
 .badge.new{background:linear-gradient(180deg,var(--action-l),var(--action));color:#fff;border-color:transparent}
 .badge.soon{background:linear-gradient(180deg,var(--gold-l),var(--gold));color:#161006;border-color:transparent}
 .badge.uc{background:rgba(160,80,60,.85);color:#fff;border-color:transparent}
+/* Sold is the one badge that must survive a glance at a thumbnail: solid slate (no blur, no
+   transparency) so it never blends into a bright primary photo the way the default .badge does. */
+.badge.sold{background:var(--sold-d);color:#fff;border-color:transparent;backdrop-filter:none}
+/* The whole card is muted while sold results are mixed in with live ones, so "not available" is
+   legible from the grid without reading a word. Hover restores it — it is still a real listing. */
+.card.is-sold .card-media img{filter:saturate(.45) brightness(.82)}
+.card.is-sold:hover .card-media img{filter:none}
+.card.is-sold .card-price{color:var(--sold-l)}
 .card-fav{position:absolute;top:10px;right:10px;z-index:2;width:36px;height:36px;border-radius:50%;border:1px solid var(--line);
   background:rgba(6,6,8,.55);backdrop-filter:blur(8px);color:#fff;cursor:pointer;display:flex;align-items:center;justify-content:center;
   font-size:1rem;transition:transform .3s var(--ease),background .3s}
@@ -269,6 +357,10 @@ html{overflow-x:hidden;overscroll-behavior:none}
 .price-pin:hover,.price-pin.hi{transform:scale(1.14);z-index:1000;background:linear-gradient(180deg,var(--gold-l),var(--gold));color:#161006;border-color:transparent}
 .price-pin.seen{background:rgba(15,15,21,.72);color:var(--muted);border-color:rgba(203,171,104,.28)}
 .price-pin.fav{border-color:var(--gold-d)}
+/* Sold pins drop the gold outline entirely and sit visually behind live ones. Placed after .fav so a
+   saved sold home still reads as sold — the map is the one place with no card text to disambiguate. */
+.price-pin.sold{background:rgba(20,24,33,.9);border-color:var(--sold-d);color:var(--sold-l);font-weight:500}
+.price-pin.sold::after{content:"·SOLD";font-size:.58rem;letter-spacing:.06em;opacity:.8;margin-left:4px}
 .cluster-pin{background:linear-gradient(180deg,var(--gold-l),var(--gold));color:#161006;font-weight:700;font-family:var(--sans);
   border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 8px 22px -8px rgba(203,171,104,.8);border:2px solid rgba(255,255,255,.3)}
 /* Marker-cluster count bubbles. Replaces the unreadable 1,100-pin blob with one gold circle per
@@ -403,6 +495,22 @@ html{overflow-x:hidden;overscroll-behavior:none}
   .fb-saved span{display:none}
   .fb-saved{padding:9px 11px}
 }
+/* One row only fits on a very wide screen (measured at 1700: the search group still needed 368px and
+   only had 316; filters alone run 833 and the right-hand controls 350). Below ~1780 the search group
+   was the only flexible thing left, so it got crushed and the Buy/Rent segment printed on top of
+   the Price chip. Wrap the search onto its own full-width row — the shape ≤1000px already uses —
+   instead of shaving pixels off the one box people type in. --fb-h grows to match, since .app height
+   calc(100vh - hdr - fb). */
+@media(max-width:1780px) and (min-width:1001px){
+  :root{--fb-h:126px}   /* measured 2-row bar: .fb-inner 125px (the single-row value was 60 for a 58px bar) */
+  .fb-inner{flex-wrap:wrap;row-gap:10px;border-radius:26px;padding:10px}
+  .fb-group-search{flex:1 1 100%;padding-bottom:8px;border-bottom:1px solid var(--line)}
+  .fb-search{flex:1 1 auto;min-width:160px}
+  .fb-divider{display:none}
+  .fb-group-filters{flex:1 1 auto}
+  .fb-group-view{margin-left:auto}
+  .fb-saved span{display:inline}
+}
 @media(max-width:1000px){
   :root{--hdr-h:70px}
   .fb-inner{flex-wrap:wrap;border-radius:26px;padding:10px;row-gap:10px}
@@ -434,6 +542,14 @@ html{overflow-x:hidden;overscroll-behavior:none}
   .fb-search input{padding:10px 0;font-size:.92rem}
   .fb-seg{padding:2px;flex:none}
   .seg-btn{padding:9px 14px;min-height:38px}
+  .fb-ai{padding:10px 13px;min-height:38px;font-size:.8rem}
+
+  /* Ask AI becomes a bottom sheet — a composer you type into belongs under the thumb,
+     and it can use the full width instead of hanging off a filter bar that is 3 rows tall here. */
+  .ai-sheet{left:0;right:0;bottom:0;top:auto!important;width:100%;max-height:82vh;
+    transform:translateY(14px);border-radius:24px 24px 0 0;padding:16px 16px calc(18px + env(safe-area-inset-bottom))}
+  .ai-sheet.is-open{transform:translateY(0)}
+  .ai-hit-why{white-space:normal}
 
   /* row 2: filters as a single swipeable strip. flex:1 1 auto + min-width:0 (was width:100%) lets the
      strip SHRINK so Reset stays on-row instead of shoved off the right edge; overscroll-behavior-x +
@@ -477,6 +593,12 @@ html{overflow-x:hidden;overscroll-behavior:none}
   .d-cta .btn-act{flex:1 1 100%}
   .d-cta .btn[data-fav]{flex:1 1 auto;min-width:0}
   .d-cta .btn.d-cta-share{flex:0 0 54px;min-width:0;width:54px;padding:0}
+}
+/* Narrow phones: row 1 is search + Ask AI + Buy/Rent. Drop the word, keep the spark (the
+   button keeps its aria-label, so it is still announced as "Ask AI"). */
+@media(max-width:430px){
+  .fb-ai{padding:10px 11px}
+  .fb-ai .lbl{display:none}
 }
 @media(prefers-reduced-motion:reduce){*{animation-duration:.001ms!important;transition-duration:.001ms!important}}
 

@@ -37,7 +37,7 @@
 <!-- Leaflet (map) -->
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
 <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" crossorigin="">
-<link rel="stylesheet" href="assets/homes/app.css?v=1785966813">
+<link rel="stylesheet" href="assets/homes/app.css?v=1786019702">
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"WebApplication","name":"Stamford MLS Home Search","applicationCategory":"RealEstateApplication","url":"https://dtstamford.com/search.html","operatingSystem":"Web","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"author":{"@type":"Person","name":"John Restrepo","telephone":"+12038833399","url":"https://dtstamford.com/"}}
 </script>
@@ -56,8 +56,8 @@
   <div class="wrap nav">
     <a class="brand" href="/"><picture><source type="image/avif" srcset="assets/logo-white.avif"><source type="image/webp" srcset="assets/logo-white.webp"><img class="logo" src="assets/logo-white.png" alt="Downtown Stamford logo" width="180" height="160"></picture><span class="wordmark">Downtown Stamford</span></a>
     <nav class="nav-links" aria-label="Primary">
-      <a href="search.html?type=sale">Buy</a>
-      <a href="search.html?type=rent">Rent</a>
+      <a href="homes-for-sale-stamford.html">Buy</a>
+      <a href="stamford-apartments-for-rent.html">Rent</a>
       <a href="neighborhoods.html">Neighborhoods</a>
       <a href="stamford-market.html">Market Trends</a>
       <a href="buyer-guides.html">Guides</a>
@@ -78,8 +78,8 @@
     </div>
     <nav class="mmenu-links" aria-label="Mobile">
       <a href="/"><span class="ix">⌂</span><span class="lb">Home</span><span class="ar" aria-hidden="true">→</span></a>
-      <a href="search.html?type=sale"><span class="ix">01</span><span class="lb">Buy</span><span class="ar" aria-hidden="true">→</span></a>
-      <a href="search.html?type=rent"><span class="ix">02</span><span class="lb">Rent</span><span class="ar" aria-hidden="true">→</span></a>
+      <a href="homes-for-sale-stamford.html"><span class="ix">01</span><span class="lb">Buy</span><span class="ar" aria-hidden="true">→</span></a>
+      <a href="stamford-apartments-for-rent.html"><span class="ix">02</span><span class="lb">Rent</span><span class="ar" aria-hidden="true">→</span></a>
       <a href="neighborhoods.html"><span class="ix">03</span><span class="lb">Neighborhoods</span><span class="ar" aria-hidden="true">→</span></a>
       <a href="stamford-market.html"><span class="ix">04</span><span class="lb">Market Trends</span><span class="ar" aria-hidden="true">→</span></a>
       <a href="buyer-guides.html"><span class="ix">05</span><span class="lb">Guides</span><span class="ar" aria-hidden="true">→</span></a>
@@ -102,18 +102,19 @@
 <div class="filterbar" id="filterbar">
   <div class="fb-inner">
     <div class="fb-group fb-group-search">
+      <!-- Magic Search Bar. ONE box does all three jobs: a city/address search AND a plain-English
+           request ("2-bed near the train that takes dogs") — a sentence + Enter runs the smart
+           search and sets the real filters below. The leading ✦ (id=aiBtn) opens the composer for
+           anyone who'd rather be prompted. No separate "Ask AI" button — the box IS the magic search.
+           Behavior: assets/homes/ai-search.js -->
       <div class="fb-search">
-        <svg class="fb-ico" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M21 21l-4.3-4.3M11 19a8 8 0 100-16 8 8 0 000 16z"/></svg>
-        <input id="q" type="search" placeholder="City or address — or ask in plain English" autocomplete="off" aria-label="Search location, or ask in plain English">
+        <button class="fb-magic" id="aiBtn" type="button" aria-haspopup="dialog" aria-expanded="false" aria-controls="aiSheet"
+                title="Magic Search — describe the home you want in plain English"
+                aria-label="Magic Search — describe the home you want in plain English">
+          <span class="spark" aria-hidden="true">✦</span>
+        </button>
+        <input id="q" type="search" placeholder="City, address — or describe it: “2-bed near the train, takes dogs”" autocomplete="off" aria-label="Search by city or address, or describe the home in plain English">
       </div>
-
-      <!-- Plain-English search. Lives on the search box (not the site nav) because the answer
-           to "2-bed that takes dogs near the train" IS a filtered search — it sets the real
-           filters below and sorts the best matches first. Behavior: assets/homes/ai-search.js -->
-      <button class="fb-ai" id="aiBtn" type="button" aria-haspopup="dialog" aria-expanded="false" aria-controls="aiSheet"
-              aria-label="Ask AI — describe the home you want in plain English">
-        <span class="spark" aria-hidden="true">✦</span><span class="lbl">Ask AI</span>
-      </button>
 
       <div class="fb-seg" role="tablist" aria-label="Sale or rent">
         <button class="seg-btn is-on" data-type="sale" role="tab" aria-selected="true">Buy</button>
@@ -283,12 +284,12 @@
   </section>
 </main>
 
-<!-- ============ ASK AI SHEET ============ -->
+<!-- ============ MAGIC SEARCH SHEET ============ -->
 <!-- Sits outside .filterbar on purpose: the bar's backdrop-filter makes it the containing block
      for fixed-position descendants, which would break this panel's positioning. -->
-<div class="ai-sheet" id="aiSheet" role="dialog" aria-label="Ask about homes in plain English" hidden>
+<div class="ai-sheet" id="aiSheet" role="dialog" aria-label="Magic Search — describe the home you want" hidden>
   <div class="ai-head">
-    <span class="ai-eyebrow"><span class="dot"></span> Ask in plain English</span>
+    <span class="ai-eyebrow"><span class="dot"></span> Magic Search</span>
     <button class="ai-x" id="aiClose" type="button" aria-label="Close">✕</button>
   </div>
   <div class="ai-box">
@@ -309,9 +310,9 @@
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js" crossorigin=""></script>
-<script type="module" src="assets/homes/app.js?v=1785966813"></script>
+<script type="module" src="assets/homes/app.js?v=1786019702"></script>
 <!-- Ask AI. Loads after app.js on purpose — it drives that app's filters through window.DTSSearch. -->
-<script type="module" src="assets/homes/ai-search.js?v=1785966813"></script>
+<script type="module" src="assets/homes/ai-search.js?v=1786019702"></script>
 <script>
 /* mobile menu (matches site.js pattern) */
 (function(){var t=document.getElementById('navToggle'),m=document.getElementById('mobileMenu');if(t&&m){t.addEventListener('click',function(){var o=m.classList.toggle('open');t.setAttribute('aria-expanded',o);m.setAttribute('aria-hidden',!o);});}})();

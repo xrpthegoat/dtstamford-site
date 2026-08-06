@@ -33,12 +33,12 @@ html{overflow-x:hidden;overscroll-behavior:none}
 
 /* visual groups: [search + buy/rent] | [filters] | [saved + view] */
 .fb-group{display:flex;align-items:center;gap:10px}
-.fb-group-search{flex:1 1 400px;min-width:0}   /* holds the box + Ask AI + Buy/Rent — needs the room */
+.fb-group-search{flex:1 1 340px;min-width:0}   /* holds the ✦ box + Buy/Rent (no separate button now) */
 .fb-group-filters{flex:none}
 .fb-group-view{flex:none;margin-left:auto}
 .fb-divider{width:1px;align-self:stretch;margin:6px 0;background:var(--line);flex:none}
 
-.fb-search{display:flex;align-items:center;gap:9px;flex:1 1 220px;min-width:140px;padding:0 8px 0 16px}
+.fb-search{display:flex;align-items:center;gap:9px;flex:1 1 220px;min-width:140px;padding:0 8px 0 8px}
 .fb-ico{color:var(--muted);flex:none}
 .fb-search input{flex:1;background:none;border:0;outline:none;color:var(--fg);font-family:var(--sans);
   font-size:.92rem;padding:12px 0;min-width:0}
@@ -163,20 +163,20 @@ html{overflow-x:hidden;overscroll-behavior:none}
   text-transform:uppercase;border-radius:999px;cursor:pointer;transition:all .2s}
 .vt-btn.is-on{color:var(--fg);background:rgba(255,255,255,.08)}
 
-/* ---------- ASK AI (plain-English search, inside the search) ----------
-   Deliberately attached to the search box, not the site nav: the visitor types
-   where they already type. is-hot = the box holds a sentence, so Enter will ask;
-   is-on = an AI answer is currently driving the results. */
-.fb-ai{display:inline-flex;align-items:center;gap:7px;flex:none;padding:11px 15px;border-radius:999px;cursor:pointer;
-  border:1px solid rgba(203,171,104,.4);background:rgba(203,171,104,.07);color:var(--gold-l);
-  font-family:var(--sans);font-size:.82rem;font-weight:600;white-space:nowrap;
-  transition:border-color .25s,background .25s,color .25s,box-shadow .3s}
-.fb-ai:hover{border-color:var(--gold);background:rgba(203,171,104,.14)}
-.fb-ai .spark{font-size:.9rem;line-height:1;transform:translateY(-.5px)}
-.fb-ai.is-hot{border-color:var(--gold);box-shadow:0 0 0 3px rgba(203,171,104,.13)}
-.fb-ai.is-on{color:#161006;background:linear-gradient(180deg,var(--gold-l),var(--gold));border-color:transparent;
-  box-shadow:0 1px 0 rgba(255,255,255,.35) inset,0 10px 24px -14px rgba(203,171,104,.8)}
-.fb-ai.is-busy{opacity:.65;pointer-events:none}
+/* ---------- MAGIC SEARCH (plain-English search, IS the search box) ----------
+   No separate button — the ✦ leads the one search box. Type a city/address OR a full
+   sentence; Enter on a sentence runs the smart search. Clicking ✦ opens the composer.
+   is-hot = the box holds a sentence, so Enter will run magic search;
+   is-on = a magic-search answer is currently driving the results. */
+.fb-magic{flex:none;display:inline-flex;align-items:center;justify-content:center;width:32px;height:32px;
+  margin-left:-4px;border-radius:50%;cursor:pointer;border:1px solid rgba(203,171,104,.4);
+  background:rgba(203,171,104,.08);color:var(--gold-l);transition:border-color .25s,background .25s,color .25s,box-shadow .3s,transform .2s}
+.fb-magic:hover{border-color:var(--gold);background:rgba(203,171,104,.16);transform:scale(1.05)}
+.fb-magic .spark{font-size:.95rem;line-height:1}
+.fb-magic.is-hot{border-color:var(--gold);box-shadow:0 0 0 3px rgba(203,171,104,.16)}
+.fb-magic.is-on{color:#161006;background:linear-gradient(180deg,var(--gold-l),var(--gold));border-color:transparent;
+  box-shadow:0 1px 0 rgba(255,255,255,.35) inset,0 8px 20px -12px rgba(203,171,104,.85)}
+.fb-magic.is-busy{opacity:.6;pointer-events:none}
 
 .ai-sheet{position:fixed;z-index:140;left:50%;transform:translateX(-50%) translateY(-8px);
   width:min(680px,calc(100vw - 28px));max-height:min(70vh,620px);overflow-y:auto;overscroll-behavior:contain;
@@ -495,13 +495,11 @@ html{overflow-x:hidden;overscroll-behavior:none}
   .fb-saved span{display:none}
   .fb-saved{padding:9px 11px}
 }
-/* One row only fits on a very wide screen (measured at 1700: the search group still needed 368px and
-   only had 316; filters alone run 833 and the right-hand controls 350). Below ~1780 the search group
-   was the only flexible thing left, so it got crushed and the Buy/Rent segment printed on top of
-   the Price chip. Wrap the search onto its own full-width row — the shape ≤1000px already uses —
-   instead of shaving pixels off the one box people type in. --fb-h grows to match, since .app height
-   calc(100vh - hdr - fb). */
-@media(max-width:1780px) and (min-width:1001px){
+/* Above ~1400 the whole bar fits one row with a comfortable search box. Below that (down to 1001)
+   the box would get crushed to make room for the filter chips + view controls, so give the
+   ✦ search box + Buy/Rent their own full-width row — the shape ≤1000px already uses. --fb-h grows
+   to match, since .app height is calc(100vh - hdr - fb). */
+@media(max-width:1400px) and (min-width:1001px){
   :root{--fb-h:126px}   /* measured 2-row bar: .fb-inner 125px (the single-row value was 60 for a 58px bar) */
   .fb-inner{flex-wrap:wrap;row-gap:10px;border-radius:26px;padding:10px}
   .fb-group-search{flex:1 1 100%;padding-bottom:8px;border-bottom:1px solid var(--line)}
@@ -538,13 +536,12 @@ html{overflow-x:hidden;overscroll-behavior:none}
 
   /* row 1: search + Buy/Rent, no divider line eating height */
   .fb-group-search{flex:1 1 100%;order:1;padding-bottom:0;border-bottom:0;gap:8px}
-  .fb-search{flex:1 1 auto;padding:0 4px 0 12px;min-height:42px}
+  .fb-search{flex:1 1 auto;padding:0 4px 0 8px;min-height:42px}
   .fb-search input{padding:10px 0;font-size:.92rem}
   .fb-seg{padding:2px;flex:none}
   .seg-btn{padding:9px 14px;min-height:38px}
-  .fb-ai{padding:10px 13px;min-height:38px;font-size:.8rem}
 
-  /* Ask AI becomes a bottom sheet — a composer you type into belongs under the thumb,
+  /* Magic Search composer becomes a bottom sheet — a box you type into belongs under the thumb,
      and it can use the full width instead of hanging off a filter bar that is 3 rows tall here. */
   .ai-sheet{left:0;right:0;bottom:0;top:auto!important;width:100%;max-height:82vh;
     transform:translateY(14px);border-radius:24px 24px 0 0;padding:16px 16px calc(18px + env(safe-area-inset-bottom))}
@@ -593,12 +590,6 @@ html{overflow-x:hidden;overscroll-behavior:none}
   .d-cta .btn-act{flex:1 1 100%}
   .d-cta .btn[data-fav]{flex:1 1 auto;min-width:0}
   .d-cta .btn.d-cta-share{flex:0 0 54px;min-width:0;width:54px;padding:0}
-}
-/* Narrow phones: row 1 is search + Ask AI + Buy/Rent. Drop the word, keep the spark (the
-   button keeps its aria-label, so it is still announced as "Ask AI"). */
-@media(max-width:430px){
-  .fb-ai{padding:10px 11px}
-  .fb-ai .lbl{display:none}
 }
 @media(prefers-reduced-motion:reduce){*{animation-duration:.001ms!important;transition-duration:.001ms!important}}
 

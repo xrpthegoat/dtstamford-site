@@ -1,5 +1,5 @@
 /* ============================================================================
-   ai-search.js — "Ask in plain English", INSIDE the map search
+   ai-search.js — "Magic Search" (plain English), INSIDE the map search
    ============================================================================
    WHY IT LIVES HERE and not on its own page: the answer to "2-bed rental under
    $3,500 that takes dogs, near the train" IS a filtered search. As a separate

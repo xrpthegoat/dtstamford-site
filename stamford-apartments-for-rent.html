@@ -79,11 +79,62 @@
     <h1>Stamford Apartments<br><span class="a">for Rent</span></h1>
     <p class="lead">Looking for an apartment in Stamford? Skip the endless scrolling — get real, current openings and a local who helps you tour and apply fast.</p>
     <div class="nstats"><div class="nstat"><span class="k">Typical 1-BR</span><span class="v">~$2,300–2,900/mo (est.)</span></div><div class="nstat"><span class="k">Where</span><span class="v">Downtown · Harbor Point · Glenbrook</span></div><div class="nstat"><span class="k">To NYC</span><span class="v">~50 min express</span></div></div>
-    <div class="cta-row">
-      <a class="btn btn-gold" href="search.html?type=rent">Search rentals on the live map <span class="arr">→</span></a>
-      <a class="btn btn-out" href="search.html?ai=1"><span aria-hidden="true">✦</span> Magic Search</a>
-      <a class="btn btn-out" href="tel:2038833399">Call 203·883·3399</a>
+    <!-- Search-first door (John, 2026-08-06): a renter who clicks "Rent" wants to search. Plain GET
+         → search.html (?t=rent + pmax/bd read from the URL by the app); results land on the live
+         map. The script below upgrades a plain-English sentence to Magic Search (?ai=). -->
+    <style>
+      .door-search{display:flex;flex-wrap:wrap;gap:8px;max-width:760px;margin:20px 0 10px;padding:8px;
+        border:1px solid rgba(203,171,104,.42);border-radius:18px;background:rgba(255,255,255,.045)}
+      .door-search:focus-within{border-color:rgba(203,171,104,.75);box-shadow:0 0 0 4px rgba(203,171,104,.1)}
+      .door-search input[type=text]{flex:1 1 240px;min-width:0;border:0;outline:none;background:none;color:var(--fg);
+        font-family:var(--sans);font-size:.95rem;padding:12px 8px 12px 12px}
+      .door-search input::placeholder{color:var(--faint)}
+      .door-search select{flex:0 1 auto;border:1px solid var(--line);border-radius:12px;background:rgba(255,255,255,.04);
+        color:var(--fg-soft);font-family:var(--sans);font-size:.85rem;padding:10px 8px;cursor:pointer;color-scheme:dark}
+      .door-search button{flex:0 0 auto;border:0;cursor:pointer;border-radius:12px;padding:12px 26px;
+        font-family:var(--sans);font-weight:700;font-size:.92rem;color:#161006;
+        background:linear-gradient(180deg,var(--gold-l),var(--gold));transition:transform .2s}
+      .door-search button:hover{transform:translateY(-1px)}
+      .door-links{display:flex;flex-wrap:wrap;gap:16px;margin:10px 2px 6px;font-size:.85rem}
+      .door-links a{color:var(--gold-l);text-decoration:none;border-bottom:1px solid rgba(203,171,104,.35);padding-bottom:2px}
+      .door-links a:hover{color:var(--fg);border-color:rgba(255,255,255,.4)}
+      @media(max-width:560px){.door-search{padding:6px}.door-search button{flex:1 1 100%;padding:12px}}
+    </style>
+    <form class="door-search" action="search.html" method="get" role="search" id="doorSearch">
+      <input type="hidden" name="t" value="rent">
+      <input type="text" name="q" autocomplete="off"
+             placeholder="Neighborhood, address — or “2 bed that takes dogs near the train”"
+             aria-label="Search rentals — by place, or describe what you want">
+      <select name="pmax" aria-label="Max rent">
+        <option value="">Max rent</option>
+        <option value="1800">$1,800</option><option value="2000">$2,000</option>
+        <option value="2200">$2,200</option><option value="2500">$2,500</option>
+        <option value="3000">$3,000</option><option value="3500">$3,500</option>
+        <option value="4000">$4,000</option><option value="5000">$5,000</option>
+      </select>
+      <select name="bd" aria-label="Min bedrooms">
+        <option value="">Beds</option>
+        <option value="1">1+</option><option value="2">2+</option>
+        <option value="3">3+</option><option value="4">4+</option>
+      </select>
+      <button type="submit">Search</button>
+    </form>
+    <div class="door-links">
+      <a href="search.html?type=rent">Browse all rentals on the live map →</a>
+      <a href="search.html?ai=1"><span aria-hidden="true">✦</span> Magic Search</a>
+      <a href="tel:2038833399">Call 203·883·3399</a>
     </div>
+    <script>
+    document.getElementById('doorSearch').addEventListener('submit', function(){
+      var q=this.querySelector('input[name=q], input[name=ai]');
+      var s=(q.value||'').trim();
+      var sentence = s.length>=12 && s.split(/\s+/).length>=3 &&
+        !/^\d+\s+.+\b(st|street|ave|avenue|rd|road|ln|lane|dr|drive|ct|court|pl|place|blvd|way|ter|cir)\b\.?$/i.test(s) &&
+        /under|over|below|with|near|walk|bed|bath|pet|dog|garage|parking|pool|yard|quiet|\$|sq ?ft|hoa|train|view|waterfront|laundry|studio/i.test(s);
+      if (sentence && !/\brent/i.test(s)) q.value = s + ' for rent';   // keep Magic Search on rentals
+      q.name = sentence ? 'ai' : 'q';
+    });
+    </script>
   </div>
 </section>
 <main class="wrap prose">

@@ -89,10 +89,64 @@
     <span class="tag">Buy in Stamford</span>
     <h1>Homes for Sale in Stamford, CT</h1>
     <p class="lead">See Stamford listings the moment they hit the MLS — often before Zillow even updates. Get new-listing alerts matched to your budget, beds, and neighborhoods.</p>
-    <div class="cta-row" style="margin:18px 0 10px">
-      <a class="btn btn-gold" href="search.html?type=sale">Search homes on the live map <span class="arr" aria-hidden="true">→</span></a>
-      <a class="btn btn-out" href="search.html?ai=1"><span aria-hidden="true">✦</span> Magic Search</a>
+
+    <!-- Search-first door (John, 2026-08-06): someone who clicks "Buy" wants to search. A plain GET
+         form → search.html, whose app reads q/pmin/pmax/bd from the URL — results land on the live
+         map with these filters applied. No JS required; the tiny script below only upgrades a
+         plain-English sentence to Magic Search (?ai=) before submit. -->
+    <style>
+      .door-search{display:flex;flex-wrap:wrap;gap:8px;max-width:760px;margin:20px 0 10px;padding:8px;
+        border:1px solid rgba(203,171,104,.42);border-radius:18px;background:rgba(255,255,255,.045)}
+      .door-search:focus-within{border-color:rgba(203,171,104,.75);box-shadow:0 0 0 4px rgba(203,171,104,.1)}
+      .door-search input[type=text]{flex:1 1 240px;min-width:0;border:0;outline:none;background:none;color:var(--fg);
+        font-family:var(--sans);font-size:.95rem;padding:12px 8px 12px 12px}
+      .door-search input::placeholder{color:var(--faint)}
+      .door-search select{flex:0 1 auto;border:1px solid var(--line);border-radius:12px;background:rgba(255,255,255,.04);
+        color:var(--fg-soft);font-family:var(--sans);font-size:.85rem;padding:10px 8px;cursor:pointer;color-scheme:dark}
+      .door-search button{flex:0 0 auto;border:0;cursor:pointer;border-radius:12px;padding:12px 26px;
+        font-family:var(--sans);font-weight:700;font-size:.92rem;color:#161006;
+        background:linear-gradient(180deg,var(--gold-l),var(--gold));transition:transform .2s}
+      .door-search button:hover{transform:translateY(-1px)}
+      .door-links{display:flex;flex-wrap:wrap;gap:16px;margin:10px 2px 6px;font-size:.85rem}
+      .door-links a{color:var(--gold-l);text-decoration:none;border-bottom:1px solid rgba(203,171,104,.35);padding-bottom:2px}
+      .door-links a:hover{color:var(--fg);border-color:rgba(255,255,255,.4)}
+      @media(max-width:560px){.door-search{padding:6px}.door-search button{flex:1 1 100%;padding:12px}}
+    </style>
+    <form class="door-search" action="search.html" method="get" role="search" id="doorSearch">
+      <input type="text" name="q" autocomplete="off"
+             placeholder="City, address, neighborhood — or “3 bed with a yard under $900k”"
+             aria-label="Search homes for sale — by place, or describe what you want">
+      <select name="pmax" aria-label="Max price">
+        <option value="">Max price</option>
+        <option value="400000">$400K</option><option value="500000">$500K</option>
+        <option value="600000">$600K</option><option value="750000">$750K</option>
+        <option value="900000">$900K</option><option value="1000000">$1M</option>
+        <option value="1250000">$1.25M</option><option value="1500000">$1.5M</option>
+        <option value="2000000">$2M</option><option value="3000000">$3M</option>
+      </select>
+      <select name="bd" aria-label="Min bedrooms">
+        <option value="">Beds</option>
+        <option value="1">1+</option><option value="2">2+</option>
+        <option value="3">3+</option><option value="4">4+</option><option value="5">5+</option>
+      </select>
+      <button type="submit">Search</button>
+    </form>
+    <div class="door-links">
+      <a href="search.html?type=sale">Browse all on the live map →</a>
+      <a href="search.html?ai=1"><span aria-hidden="true">✦</span> Magic Search</a>
     </div>
+    <script>
+    /* A sentence ("3 bed with a yard under $900k") beats dropdowns — hand it to Magic Search, which
+       parses it into real filters on the map. A place/address stays a literal q search. */
+    document.getElementById('doorSearch').addEventListener('submit', function(){
+      var q=this.querySelector('input[name=q], input[name=ai]');
+      var s=(q.value||'').trim();
+      var sentence = s.length>=12 && s.split(/\s+/).length>=3 &&
+        !/^\d+\s+.+\b(st|street|ave|avenue|rd|road|ln|lane|dr|drive|ct|court|pl|place|blvd|way|ter|cir)\b\.?$/i.test(s) &&
+        /under|over|below|with|near|walk|bed|bath|pet|dog|garage|parking|pool|yard|quiet|\$|sq ?ft|hoa|train|view|waterfront|acre/i.test(s);
+      q.name = sentence ? 'ai' : 'q';
+    });
+    </script>
     <div class="updated">Updated continuously · Local MLS</div>
   </div>
 </section>

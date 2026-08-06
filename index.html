@@ -558,9 +558,22 @@
       <p class="sub rv d2">Buy, sell, or rent in Stamford, CT the easy way — with a local agent who walks these streets every day, from Harbor Point condos to North Stamford acres.</p>
       <br>
       <a class="reviews-badge rv d2" href="https://share.google/b5ZSejPgG8Nurn7cr" target="_blank" rel="noopener" aria-label="5.0 stars from 89 Google reviews"><span class="stars">★★★★★</span> <strong>5.0</strong> · 89 Google reviews</a>
+      <style>
+        /* Pulsating ring on the hero Search Homes button (John, 2026-08-06). Gold ring breathes
+           outward; pauses while hovered (the hover state is its own affordance) and fully off
+           under prefers-reduced-motion. */
+        @keyframes heroSearchPulse{
+          0%{box-shadow:0 0 0 0 rgba(227,196,126,.5)}
+          70%{box-shadow:0 0 0 16px rgba(227,196,126,0)}
+          100%{box-shadow:0 0 0 0 rgba(227,196,126,0)}
+        }
+        .btn-pulse{animation:heroSearchPulse 2.2s cubic-bezier(.4,0,.6,1) infinite}
+        .btn-pulse:hover{animation-play-state:paused}
+        @media(prefers-reduced-motion:reduce){.btn-pulse{animation:none}}
+      </style>
       <div class="cta-row rv d3">
         <a class="btn btn-gold" href="tel:2038833399">Free valuation <span class="ic" aria-hidden="true">↗</span></a>
-        <a class="btn btn-out" href="search.html">Search Homes <span class="ic" aria-hidden="true">↗</span></a>
+        <a class="btn btn-out btn-pulse" href="search.html">Search Homes <span class="ic" aria-hidden="true">↗</span></a>
       </div>
     </div>
     <div class="scrollcue">Scroll</div>
@@ -600,27 +613,27 @@
   <section class="liveinv" id="liveInv" aria-label="Stamford homes for sale and rent right now">
     <div class="wrap">
       <div class="li-counts">
-        <a class="li-stat" href="search.html?type=sale"><span class="li-n" id="liSale">1,098</span><span class="li-l">homes for sale</span></a>
+        <a class="li-stat" href="search.html?type=sale"><span class="li-n" id="liSale">1,088</span><span class="li-l">homes for sale</span></a>
         <span class="li-div" aria-hidden="true"></span>
-        <a class="li-stat" href="search.html?t=rent"><span class="li-n" id="liRent">604</span><span class="li-l">for rent</span></a>
+        <a class="li-stat" href="search.html?t=rent"><span class="li-n" id="liRent">608</span><span class="li-l">for rent</span></a>
         <span class="li-div" aria-hidden="true"></span>
-        <a class="li-stat" href="search.html"><span class="li-n" id="liTotal">1,702</span><span class="li-l">total in Stamford</span></a>
+        <a class="li-stat" href="search.html"><span class="li-n" id="liTotal">1,696</span><span class="li-l">total in Stamford</span></a>
       </div>
 
       <div class="li-bands" id="liBands">
         <div class="li-band-row">
           <span class="li-band-lbl">For sale</span>
-          <a class="li-chip" href="search.html?pmax=300000"><b id="lbSale300">67</b> under $300K</a>
-          <a class="li-chip" href="search.html?pmax=600000"><b id="lbSale600">254</b> under $600K</a>
-          <a class="li-chip" href="search.html?pmax=1000000"><b id="lbSale1m">535</b> under $1M</a>
+          <a class="li-chip" href="search.html?pmax=300000"><b id="lbSale300">68</b> under $300K</a>
+          <a class="li-chip" href="search.html?pmax=600000"><b id="lbSale600">253</b> under $600K</a>
+          <a class="li-chip" href="search.html?pmax=1000000"><b id="lbSale1m">531</b> under $1M</a>
           <span class="li-med" id="lbMedSale">median $1.1M</span>
         </div>
         <div class="li-band-row">
           <span class="li-band-lbl">For rent</span>
-          <a class="li-chip" href="search.html?t=rent&amp;pmax=1800"><b id="lbRent18">24</b> under $1,800</a>
-          <a class="li-chip" href="search.html?t=rent&amp;pmax=2200"><b id="lbRent22">78</b> under $2,200</a>
-          <a class="li-chip" href="search.html?t=rent&amp;pmax=3000"><b id="lbRent30">217</b> under $3,000</a>
-          <span class="li-med" id="lbMedRent">median $3,850/mo</span>
+          <a class="li-chip" href="search.html?t=rent&amp;pmax=1800"><b id="lbRent18">25</b> under $1,800</a>
+          <a class="li-chip" href="search.html?t=rent&amp;pmax=2200"><b id="lbRent22">81</b> under $2,200</a>
+          <a class="li-chip" href="search.html?t=rent&amp;pmax=3000"><b id="lbRent30">220</b> under $3,000</a>
+          <span class="li-med" id="lbMedRent">median $3,825/mo</span>
         </div>
       </div>
       <div class="li-new" id="liNew" hidden>

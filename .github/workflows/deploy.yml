@@ -31,3 +31,12 @@ jobs:
           path: "."
       - id: deployment
         uses: actions/deploy-pages@v4
+        with:
+          # deploy-pages waits for GitHub to unpack and publish the artifact, then gives up at its
+          # DEFAULT 600000ms (10 min). On 2026-08-06 the site grew from ~1,700 to 4,380 listings
+          # (2,682 sold pages added) and every deploy began dying exactly at the 10-minute mark with
+          # "Timeout reached, aborting!" while still deployment_queued — the upload succeeded and the
+          # integrity gate passed, so this was purely the action giving up before Pages finished a
+          # now-bigger site. 30 min leaves headroom as inventory grows. Raising the ceiling does not
+          # slow a normal deploy: it returns as soon as the deployment reports success.
+          timeout: 1800000

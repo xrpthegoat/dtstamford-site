@@ -310,8 +310,10 @@ async function load() {
   try {
     // Prefer the light index; if it 404s (not yet generated / partial deploy) fall back to the full
     // master feed so the grid+map never blank. Both share the { meta, listings:[…] } envelope.
-    let res = await fetch(INDEX_URL, { cache: 'no-cache' });
-    if (!res.ok) res = await fetch(DATA_URL, { cache: 'no-cache' });
+    // Default HTTP caching (GitHub Pages caps max-age at 600s, data changes every 3h) — 'no-cache'
+    // forced a revalidation round-trip on every view, including back/forward seconds later.
+    let res = await fetch(INDEX_URL);
+    if (!res.ok) res = await fetch(DATA_URL);
     if (!res.ok) throw new Error('HTTP ' + res.status);
     const data = await res.json();
     state.all = (data.listings || []).filter(l => l && l.geo && Number.isFinite(l.geo.lat));

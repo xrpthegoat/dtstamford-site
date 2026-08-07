@@ -59,7 +59,10 @@ html{overflow-x:hidden;overscroll-behavior:none}
 .seg-btn.is-on{color:#161006;background:linear-gradient(180deg,var(--gold-l),var(--gold));
   box-shadow:0 1px 0 rgba(255,255,255,.35) inset,0 10px 24px -14px rgba(203,171,104,.8)}
 
-.fb-drops{display:flex;gap:8px;flex:none}
+/* flex:0 1 auto, NOT flex:none — this rule comes after the safety net above, so `none`
+   (= flex-shrink:0) silently made it inert: the strip would overflow its group instead of
+   shrinking into its own scroll. Shrinking is exactly what protects the search box. */
+.fb-drops{display:flex;gap:8px;flex:0 1 auto}
 .drop{position:relative}
 .drop-btn{display:inline-flex;align-items:center;gap:8px;padding:11px 15px;border-radius:999px;cursor:pointer;
   border:1px solid var(--line);background:rgba(255,255,255,.03);color:var(--fg-soft);font-family:var(--sans);
@@ -260,6 +263,23 @@ html{overflow-x:hidden;overscroll-behavior:none}
 .app[data-view="map"] .results{display:none}
 .app[data-view="map"] .mapwrap{border-left:0}
 
+/* Results greeting. Deliberately NOT inside .results-head — that row is sticky, so a title in it
+   would sit on screen forever; this scrolls away once you start browsing. */
+.results-hero{padding:18px 4px 2px}
+.rh-title{font-family:var(--disp);font-size:1.6rem;line-height:1.15;letter-spacing:-.01em;color:var(--fg);margin:0}
+.rh-sub{margin:7px 0 0;font-size:.9rem;line-height:1.5;color:var(--muted);max-width:56ch}
+.rh-eg{font:inherit;color:var(--gold-l);background:none;border:0;padding:0;cursor:pointer;
+  border-bottom:1px dashed color-mix(in srgb,var(--gold-l) 55%,transparent);transition:color .15s,border-color .15s}
+.rh-eg:hover{color:var(--fg);border-bottom-color:var(--fg)}
+.rh-eg:focus-visible{outline:2px solid var(--gold-l);outline-offset:3px;border-radius:3px}
+/* Phone: keep the invitation, but get to the listings faster — this sits above the fold on every
+   visit, so every extra line is a listing the visitor has to scroll past. */
+@media (max-width:760px){
+  .results-hero{padding:12px 4px 0}
+  .rh-title{font-size:1.18rem;letter-spacing:-.015em}
+  .rh-sub{font-size:.8rem;line-height:1.45;margin-top:5px}
+}
+@media (prefers-reduced-motion:reduce){ .rh-eg{transition:none} }
 .results-head{display:flex;align-items:baseline;justify-content:space-between;gap:16px;padding:16px 4px 6px;position:sticky;top:0;z-index:5;
   background:linear-gradient(180deg,var(--bg) 60%,transparent)}
 .rh-count{font-family:var(--disp);font-size:1.05rem;color:var(--fg)}

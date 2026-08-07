@@ -5,13 +5,13 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="#08080a">
 <title>Homes for Sale in Stamford, CT — New MLS Listings First | John Restrepo</title>
-<meta name="description" content="See homes for sale in Stamford, CT the moment they hit the MLS — often before Zillow. Get instant new-listing alerts from local real estate agent John Restrepo. Call 203-883-3399.">
+<meta name="description" content="See homes for sale in Stamford, CT the moment they hit the MLS — before Zillow. Get instant new-listing alerts from local real estate agent John Restrepo. Call 203-883-3399.">
 <meta name="keywords" content="homes for sale Stamford CT, houses for sale Stamford, Stamford homes for sale, Stamford CT real estate listings, condos for sale Stamford, new listings Stamford">
 <link rel="canonical" href="https://dtstamford.com/homes-for-sale-stamford.html">
 <meta name="robots" content="index, follow, max-image-preview:large">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Homes for Sale in Stamford, CT — New MLS Listings First">
-<meta property="og:description" content="See Stamford listings the moment they hit the MLS — often before Zillow. Get instant new-listing alerts.">
+<meta property="og:description" content="See Stamford listings the moment they hit the MLS — before Zillow. Get instant new-listing alerts.">
 <meta property="og:url" content="https://dtstamford.com/homes-for-sale-stamford.html">
 <meta property="og:image" content="https://dtstamford.com/assets/stamford-ct-single-family-home-for-sale.jpg">
 <meta name="twitter:card" content="summary_large_image">
@@ -88,7 +88,7 @@
     <div class="crumbs"><a href="/">Home</a> / Homes for Sale</div>
     <span class="tag">Buy in Stamford</span>
     <h1>Homes for Sale in Stamford, CT</h1>
-    <p class="lead">See Stamford listings the moment they hit the MLS — often before Zillow even updates. Get new-listing alerts matched to your budget, beds, and neighborhoods.</p>
+    <p class="lead">See Stamford listings the moment they hit the MLS — before Zillow even updates. Get new-listing alerts matched to your budget, beds, and neighborhoods.</p>
 
     <!-- Search-first door (John, 2026-08-06): someone who clicks "Buy" wants to search. A plain GET
          form → search.html, whose app reads q/pmin/pmax/bd from the URL — results land on the live
@@ -187,6 +187,9 @@
         <div class="fld"><label for="a_phone">Phone</label><input id="a_phone" name="phone" type="tel" inputmode="numeric" autocomplete="tel" pattern="[0-9()+.\s-]{7,}" title="Please enter a valid phone number (digits only)."></div>
       </div>
       <div class="fld"><label for="a_email">Email</label><input id="a_email" name="email" type="email" required></div>
+      <!-- hCaptcha — see the note on contact.html's valuation form. Verified server-side by
+           Web3Forms, so the public access_key above can't be scraped and POSTed directly. -->
+      <div class="h-captcha" data-captcha="true" data-theme="dark"></div>
       <button class="btn btn-gold" type="submit">Send me new listings <span class="arr">→</span></button>
     </form>
     <script>
@@ -307,5 +310,23 @@
 })();
 </script>
 <script src="/track.js" defer></script>
+<!-- Web3Forms hCaptcha renderer + a client-side guard so an unsolved captcha never submits.
+     The guard is UX only — the real enforcement is Web3Forms' server-side token check. -->
+<script src="https://web3forms.com/client/script.js" async defer></script>
+<script>
+(function(){
+  document.querySelectorAll('form[action*="api.web3forms.com"]').forEach(function(form){
+    if (!form.querySelector('.h-captcha')) return;
+    form.addEventListener('submit', function(e){
+      var t = form.querySelector('textarea[name="h-captcha-response"]');
+      if (!t || !t.value) {
+        e.preventDefault();
+        var w = form.querySelector('.h-captcha');
+        if (w) { w.scrollIntoView({block:'center', behavior:'smooth'}); w.style.outline = '2px solid #cbab68'; w.style.outlineOffset = '6px'; }
+      }
+    });
+  });
+})();
+</script>
 </body>
 </html>

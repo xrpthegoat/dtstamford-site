@@ -118,6 +118,12 @@
       </div>
       <div class="fld"><label for="v_email">Email</label><input id="v_email" name="email" type="email" required></div>
       <div class="fld"><label for="v_notes">Anything else? (optional)</label><textarea id="v_notes" name="notes" rows="3"></textarea></div>
+      <!-- hCaptcha. The botcheck honeypot above is the weak, deprecated layer — an SEO-pitch spammer
+           walked straight through it on 2026-08-06. This is the layer that actually holds: Web3Forms
+           verifies the captcha token SERVER-side, so scraping the (public) access_key out of this
+           HTML and POSTing api.web3forms.com directly no longer works. Zero-config: Web3Forms
+           proxies its own hCaptcha keys, nothing to register. -->
+      <div class="h-captcha" data-captcha="true" data-theme="dark"></div>
       <button class="btn btn-gold" type="submit">Get my home value <span class="arr">→</span></button>
     </form>
     <script>
@@ -257,5 +263,23 @@
 })();
 </script>
 <script src="/track.js" defer></script>
+<!-- Web3Forms hCaptcha renderer + a client-side guard so an unsolved captcha never submits.
+     The guard is UX only — the real enforcement is Web3Forms' server-side token check. -->
+<script src="https://web3forms.com/client/script.js" async defer></script>
+<script>
+(function(){
+  document.querySelectorAll('form[action*="api.web3forms.com"]').forEach(function(form){
+    if (!form.querySelector('.h-captcha')) return;
+    form.addEventListener('submit', function(e){
+      var t = form.querySelector('textarea[name="h-captcha-response"]');
+      if (!t || !t.value) {
+        e.preventDefault();
+        var w = form.querySelector('.h-captcha');
+        if (w) { w.scrollIntoView({block:'center', behavior:'smooth'}); w.style.outline = '2px solid #cbab68'; w.style.outlineOffset = '6px'; }
+      }
+    });
+  });
+})();
+</script>
 </body>
 </html>

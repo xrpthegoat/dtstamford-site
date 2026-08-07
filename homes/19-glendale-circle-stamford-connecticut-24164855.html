@@ -121,6 +121,20 @@
   .idx-fs,.idx-fs img,.idx-shot,.idx-more{transition:none!important}
   .idx-fs.is-load::after{animation:none}
 }
+.ph-note,.pr-note{color:var(--muted);font-size:.88rem;line-height:1.65;margin:-4px 0 14px}
+.ph-table{width:100%;border-collapse:collapse;margin:0 0 26px}
+.ph-table td{padding:11px 8px;border-bottom:1px solid var(--line);font-size:.93rem;vertical-align:top}
+.ph-table tr:last-child td{border-bottom:0}
+.ph-date{color:var(--muted);font-family:var(--mono);font-size:.78rem;white-space:nowrap;width:104px}
+.ph-mls{color:var(--faint);font-family:var(--mono);font-size:.72rem;text-align:right;white-space:nowrap}
+.ph-this{color:var(--gold-l);font-family:var(--mono);font-size:.7rem;letter-spacing:.04em}
+.pr-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(168px,1fr));gap:1px;
+  background:var(--line);border:1px solid var(--line);border-radius:14px;overflow:hidden;margin:0 0 26px}
+.pr-cell{background:var(--bg2,#0a0a0d);padding:13px 15px;display:flex;flex-direction:column;gap:4px}
+.pr-k{font-family:var(--mono);font-size:.66rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.pr-v{font-size:.98rem;color:var(--fg)}
+@media(max-width:560px){.ph-date{width:86px;font-size:.72rem}.ph-mls{display:none}}
+
 </style>
 <script type="application/ld+json">
 {"@context": "https://schema.org", "@graph": [{"@type": "RealEstateListing", "@id": "https://dtstamford.com/homes/19-glendale-circle-stamford-connecticut-24164855.html#listing", "name": "19 Glendale Circle, Stamford, Connecticut", "url": "https://dtstamford.com/homes/19-glendale-circle-stamford-connecticut-24164855.html", "datePosted": "2026-05-22T19:05:46", "dateModified": "2026-05-22T19:05:46", "image": ["https://smartmls-assets.cdn-connectmls.com/pics/4F59B45E84B1F12BE0631A01100A8987/HD_1776093191605_ChatGPT_Image_Apr_13__2026__11_13_02_AM.JPEG"], "description": "Welcome home to 19 Glendale Circle, located in the heart of Stamford's sought-after Glenbrook area. This charming home offers the perfect blend of quiet cul-de-sac living and easy access to city conveniences. Enjoy a spacious layout, perfect for entertaining, along with a sunny backyard. Located just minutes from the Glenbrook train station, parks, and top-rated restaurants, this is suburban living at its finest!", "identifier": {"@type": "PropertyValue", "name": "MLS", "value": "24164855"}, "offers": {"@id": "https://dtstamford.com/homes/19-glendale-circle-stamford-connecticut-24164855.html#offer"}, "about": {"@id": "https://dtstamford.com/homes/19-glendale-circle-stamford-connecticut-24164855.html#residence"}, "provider": {"@id": "https://dtstamford.com/#agent"}}, {"@type": "Offer", "@id": "https://dtstamford.com/homes/19-glendale-circle-stamford-connecticut-24164855.html#offer", "priceCurrency": "USD", "availability": "https://schema.org/SoldOut", "price": 599000, "offeredBy": {"@id": "https://dtstamford.com/#agent"}}, {"@type": "SingleFamilyResidence", "@id": "https://dtstamford.com/homes/19-glendale-circle-stamford-connecticut-24164855.html#residence", "numberOfBedrooms": 3, "numberOfBathroomsTotal": 2, "floorSize": {"@type": "QuantitativeValue", "value": 2260, "unitCode": "FTK"}, "yearBuilt": 1950, "address": {"@type": "PostalAddress", "streetAddress": "19 Glendale Circle", "addressLocality": "Stamford", "addressRegion": "Connecticut", "postalCode": "06906"}, "geo": {"@type": "GeoCoordinates", "latitude": 41.074552, "longitude": -73.526871}, "amenityFeature": [{"@type": "LocationFeatureSpecification", "name": "Heating", "value": "Oil · Hot Water"}, {"@type": "LocationFeatureSpecification", "name": "Water Source", "value": "Public Water Connected"}, {"@type": "LocationFeatureSpecification", "name": "Sewer", "value": "Public Sewer Connected"}, {"@type": "LocationFeatureSpecification", "name": "Parking", "value": "Under House Garage"}]}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://dtstamford.com/"}, {"@type": "ListItem", "position": 2, "name": "Recently Sold", "item": "https://dtstamford.com/sold/"}, {"@type": "ListItem", "position": 3, "name": "19 Glendale Circle", "item": "https://dtstamford.com/homes/19-glendale-circle-stamford-connecticut-24164855.html"}]}, {"@type": ["RealEstateAgent", "Person"], "@id": "https://dtstamford.com/#agent", "name": "John Restrepo", "alternateName": "Downtown Stamford", "url": "https://dtstamford.com/about.html", "telephone": "+12038833399", "areaServed": "Stamford, CT"}, {"@type": "ImageObject", "@id": "https://dtstamford.com/homes/19-glendale-circle-stamford-connecticut-24164855.html#primaryImage", "contentUrl": "https://smartmls-assets.cdn-connectmls.com/pics/4F59B45E84B1F12BE0631A01100A8987/HD_1776093191605_ChatGPT_Image_Apr_13__2026__11_13_02_AM.JPEG", "caption": "19 Glendale Circle, Stamford, Connecticut"}]}
@@ -157,7 +171,18 @@
     <div class="idx-facts"><div><div class="k">Style</div><div class="v">Ranch</div></div><div><div class="k">Roof</div><div class="v">Asphalt Shingle</div></div><div><div class="k">Siding</div><div class="v">Vinyl Siding</div></div><div><div class="k">Foundation</div><div class="v">Concrete</div></div><div><div class="k">New construction</div><div class="v">No/Resale</div></div></div>
     <h2>Lot &amp; Land</h2>
     <div class="idx-facts"><div><div class="k">Zoning</div><div class="v">R75</div></div><div><div class="k">Lot</div><div class="v">Level Lot</div></div></div>
-    <div class="idx-attrib">Listing courtesy of <strong>Keller Williams Prestige Prop.</strong> — Adam Wagner · (203) 327-6700</div>
+    <h2>Public record</h2>
+<p class="pr-note">From the Stamford assessor's public property record. These figures describe the property as the town has it on file and can differ from the listing — a finished basement or an addition may not be reflected in the assessor's living area.</p>
+<div class="pr-grid"><div class="pr-cell"><span class="pr-k">Year built</span><span class="pr-v">1950</span></div>
+<div class="pr-cell"><span class="pr-k">Living area</span><span class="pr-v">2,260 sq ft</span></div>
+<div class="pr-cell"><span class="pr-k">Total rooms</span><span class="pr-v">6</span></div>
+<div class="pr-cell"><span class="pr-k">Lot size</span><span class="pr-v">0.23 acres</span></div>
+<div class="pr-cell"><span class="pr-k">Stories</span><span class="pr-v">1</span></div>
+<div class="pr-cell"><span class="pr-k">Heat</span><span class="pr-v">Hot Wtr Bbd</span></div>
+<div class="pr-cell"><span class="pr-k">Exterior</span><span class="pr-v">Aluminum/Vinyl</span></div>
+<div class="pr-cell"><span class="pr-k">Assessed value</span><span class="pr-v">$378,180</span></div>
+<div class="pr-cell"><span class="pr-k">Town appraisal</span><span class="pr-v">$540,250</span></div>
+<div class="pr-cell"><span class="pr-k">Last recorded sale</span><span class="pr-v">1994</span></div></div><div class="idx-attrib">Listing courtesy of <strong>Keller Williams Prestige Prop.</strong> — Adam Wagner · (203) 327-6700</div>
     <div class="d-legal">Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers&#39; personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.</div>
     <h2>More homes in Stamford</h2>
     <ul class="idx-sibs"><li><a href="/homes/19-jamroga-lane-stamford-connecticut-24164643.html">19 Jamroga Lane — $799,000</a></li><li><a href="/homes/19-piave-street-stamford-connecticut-24180986.html">19 Piave Street — $1,995/mo</a></li><li><a href="/homes/19-stillwater-avenue-stamford-connecticut-24141892.html">19 Stillwater Avenue — $525,000</a></li><li><a href="/homes/19-timber-mill-circle-stamford-connecticut-24173258.html">19 Timber Mill Circle — $950,000</a></li><li><a href="/homes/19-woodway-road-stamford-connecticut-24154183.html">19 Woodway Road — $525,000</a></li><li><a href="/homes/190-red-fox-road-stamford-connecticut-24174989.html">190 Red Fox Road — $799,000</a></li></ul>

@@ -121,6 +121,20 @@
   .idx-fs,.idx-fs img,.idx-shot,.idx-more{transition:none!important}
   .idx-fs.is-load::after{animation:none}
 }
+.ph-note,.pr-note{color:var(--muted);font-size:.88rem;line-height:1.65;margin:-4px 0 14px}
+.ph-table{width:100%;border-collapse:collapse;margin:0 0 26px}
+.ph-table td{padding:11px 8px;border-bottom:1px solid var(--line);font-size:.93rem;vertical-align:top}
+.ph-table tr:last-child td{border-bottom:0}
+.ph-date{color:var(--muted);font-family:var(--mono);font-size:.78rem;white-space:nowrap;width:104px}
+.ph-mls{color:var(--faint);font-family:var(--mono);font-size:.72rem;text-align:right;white-space:nowrap}
+.ph-this{color:var(--gold-l);font-family:var(--mono);font-size:.7rem;letter-spacing:.04em}
+.pr-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(168px,1fr));gap:1px;
+  background:var(--line);border:1px solid var(--line);border-radius:14px;overflow:hidden;margin:0 0 26px}
+.pr-cell{background:var(--bg2,#0a0a0d);padding:13px 15px;display:flex;flex-direction:column;gap:4px}
+.pr-k{font-family:var(--mono);font-size:.66rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.pr-v{font-size:.98rem;color:var(--fg)}
+@media(max-width:560px){.ph-date{width:86px;font-size:.72rem}.ph-mls{display:none}}
+
 </style>
 <script type="application/ld+json">
 {"@context": "https://schema.org", "@graph": [{"@type": "RealEstateListing", "@id": "https://dtstamford.com/homes/20-woods-grove-road-westport-connecticut-24158907.html#listing", "name": "20 Woods Grove Road, Westport, Connecticut", "url": "https://dtstamford.com/homes/20-woods-grove-road-westport-connecticut-24158907.html", "datePosted": "2026-07-23T19:42:38", "dateModified": "2026-07-23T19:42:38", "image": ["https://smartmls-assets.cdn-connectmls.com/pics/4DA2C06984E56EA5E0631A01100A79F9/HD_1774225233643_002_20WoodsGroveRoad_Westport_CT_06880_SMALL.JPEG", "https://smartmls-assets.cdn-connectmls.com/pics/4DA2C06984E56EA5E0631A01100A79F9/HD_1774225232286_001_20WoodsGroveRoad_Westport_CT_06880_SMALL.JPEG", "https://smartmls-assets.cdn-connectmls.com/pics/4DA2C06984E56EA5E0631A01100A79F9/HD_1774225234711_004_20WoodsGroveRoad_Westport_CT_06880_SMALL.JPEG"], "description": "Set on a picturesque 0.30-acre lot, this ranch-style home is full of potential and waiting for your creative vision. While the home is being sold as-is the possibilities are endless. Whether you're an investor, a builder, or a homeowner with a vision, this property offers the perfect canvas to bring your ideas to life. Situated in a sought-after neighborhood with close proximity to downtown, shopping, beaches and parks, this property pairs endless possibilities with an unbeatable location. In this private road residence has access to a dock on the on the picturesque Saugatuck River where neighbors can go kayaking tubing or simply soak in the serene views", "identifier": {"@type": "PropertyValue", "name": "MLS", "value": "24158907"}, "offers": {"@id": "https://dtstamford.com/homes/20-woods-grove-road-westport-connecticut-24158907.html#offer"}, "about": {"@id": "https://dtstamford.com/homes/20-woods-grove-road-westport-connecticut-24158907.html#residence"}, "provider": {"@id": "https://dtstamford.com/#agent"}}, {"@type": "Offer", "@id": "https://dtstamford.com/homes/20-woods-grove-road-westport-connecticut-24158907.html#offer", "priceCurrency": "USD", "availability": "https://schema.org/InStock", "price": 999000, "offeredBy": {"@id": "https://dtstamford.com/#agent"}}, {"@type": "SingleFamilyResidence", "@id": "https://dtstamford.com/homes/20-woods-grove-road-westport-connecticut-24158907.html#residence", "address": {"@type": "PostalAddress", "streetAddress": "20 Woods Grove Road", "addressLocality": "Westport", "addressRegion": "Connecticut", "postalCode": "06880"}, "geo": {"@type": "GeoCoordinates", "latitude": 41.151188, "longitude": -73.364189}, "amenityFeature": [{"@type": "LocationFeatureSpecification", "name": "Water Source", "value": "Public Water Connected"}, {"@type": "LocationFeatureSpecification", "name": "Sewer", "value": "Public Sewer Connected"}, {"@type": "LocationFeatureSpecification", "name": "Flood Zone", "value": false}]}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://dtstamford.com/"}, {"@type": "ListItem", "position": 2, "name": "Listings", "item": "https://dtstamford.com/homes/"}, {"@type": "ListItem", "position": 3, "name": "20 Woods Grove Road", "item": "https://dtstamford.com/homes/20-woods-grove-road-westport-connecticut-24158907.html"}]}, {"@type": ["RealEstateAgent", "Person"], "@id": "https://dtstamford.com/#agent", "name": "John Restrepo", "alternateName": "Downtown Stamford", "url": "https://dtstamford.com/about.html", "telephone": "+12038833399", "areaServed": "Stamford, CT"}, {"@type": "ImageObject", "@id": "https://dtstamford.com/homes/20-woods-grove-road-westport-connecticut-24158907.html#primaryImage", "contentUrl": "https://smartmls-assets.cdn-connectmls.com/pics/4DA2C06984E56EA5E0631A01100A79F9/HD_1774225233643_002_20WoodsGroveRoad_Westport_CT_06880_SMALL.JPEG", "caption": "20 Woods Grove Road, Westport, Connecticut"}]}
@@ -153,7 +167,23 @@
     <div class="idx-facts"><div><div class="k">Property tax</div><div class="v">$9,509 (July 2025-June 2026)</div></div><div><div class="k">Assessed value</div><div class="v">$720,400</div></div></div>
     <h2>Lot &amp; Land</h2>
     <div class="idx-facts"><div><div class="k">Zoning</div><div class="v">A</div></div><div><div class="k">Lot</div><div class="v">Level Lot</div></div><div><div class="k">Lot improvements</div><div class="v">Shed</div></div><div><div class="k">Waterfront</div><div class="v">Brook, Access</div></div><div><div class="k">Direct waterfront</div><div class="v">Yes</div></div><div><div class="k">Road frontage</div><div class="v">Private Road</div></div></div>
-    <div class="idx-attrib">Listing courtesy of <strong>Compass Connecticut, LLC</strong> — Miki Scarfo · (203) 293-9715</div>
+    <h2>Listing history</h2>
+<p class="ph-note">Every time this exact home has come to market in the MLS data this site tracks. Prices shown are the asking price at the time, not the recorded sale price.</p>
+<table class="ph-table"><tbody>
+<tr><td class="ph-date">2026-07-23</td><td><b>Under contract — $999,000</b> <span class="ph-this">(this listing)</span></td><td class="ph-mls">MLS 24158907</td></tr>
+<tr><td class="ph-date">2026-07-23</td><td><a href="/homes/20-woods-grove-road-westport-connecticut-24158900.html">Under contract — $999,000</a></td><td class="ph-mls">MLS 24158900</td></tr>
+</tbody></table><h2>Public record</h2>
+<p class="pr-note">From the Westport assessor's public property record. These figures describe the property as the town has it on file and can differ from the listing — a finished basement or an addition may not be reflected in the assessor's living area.</p>
+<div class="pr-grid"><div class="pr-cell"><span class="pr-k">Year built</span><span class="pr-v">1952</span></div>
+<div class="pr-cell"><span class="pr-k">Living area</span><span class="pr-v">1,941 sq ft</span></div>
+<div class="pr-cell"><span class="pr-k">Total rooms</span><span class="pr-v">7</span></div>
+<div class="pr-cell"><span class="pr-k">Lot size</span><span class="pr-v">0.3 acres</span></div>
+<div class="pr-cell"><span class="pr-k">Stories</span><span class="pr-v">1</span></div>
+<div class="pr-cell"><span class="pr-k">Heat</span><span class="pr-v">Hot Water</span></div>
+<div class="pr-cell"><span class="pr-k">Exterior</span><span class="pr-v">Cedar or Redwd</span></div>
+<div class="pr-cell"><span class="pr-k">Assessed value</span><span class="pr-v">$428,000</span></div>
+<div class="pr-cell"><span class="pr-k">Town appraisal</span><span class="pr-v">$611,500</span></div>
+<div class="pr-cell"><span class="pr-k">Last recorded sale</span><span class="pr-v">2012</span></div></div><div class="idx-attrib">Listing courtesy of <strong>Compass Connecticut, LLC</strong> — Miki Scarfo · (203) 293-9715</div>
     <div class="d-legal">Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers&#39; personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.</div>
     <h2>More homes in Westport</h2>
     <ul class="idx-sibs"><li><a href="/homes/201-main-street-westport-connecticut-24179083.html">201 Main Street — $4,700/mo</a></li><li><a href="/homes/201-main-street-westport-connecticut-24184955.html">201 Main Street — $4,900/mo</a></li><li><a href="/homes/201-main-street-westport-connecticut-24186244.html">201 Main Street — $3,800/mo</a></li><li><a href="/homes/201-main-street-westport-connecticut-24196438.html">201 Main Street — $3,900/mo</a></li><li><a href="/homes/208-bayberry-lane-westport-connecticut-24169643.html">208 Bayberry Lane — $8,000/mo</a></li><li><a href="/homes/21-compo-parkway-westport-connecticut-24180715.html">21 Compo Parkway — $6,795,000</a></li></ul>

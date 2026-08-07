@@ -121,6 +121,20 @@
   .idx-fs,.idx-fs img,.idx-shot,.idx-more{transition:none!important}
   .idx-fs.is-load::after{animation:none}
 }
+.ph-note,.pr-note{color:var(--muted);font-size:.88rem;line-height:1.65;margin:-4px 0 14px}
+.ph-table{width:100%;border-collapse:collapse;margin:0 0 26px}
+.ph-table td{padding:11px 8px;border-bottom:1px solid var(--line);font-size:.93rem;vertical-align:top}
+.ph-table tr:last-child td{border-bottom:0}
+.ph-date{color:var(--muted);font-family:var(--mono);font-size:.78rem;white-space:nowrap;width:104px}
+.ph-mls{color:var(--faint);font-family:var(--mono);font-size:.72rem;text-align:right;white-space:nowrap}
+.ph-this{color:var(--gold-l);font-family:var(--mono);font-size:.7rem;letter-spacing:.04em}
+.pr-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(168px,1fr));gap:1px;
+  background:var(--line);border:1px solid var(--line);border-radius:14px;overflow:hidden;margin:0 0 26px}
+.pr-cell{background:var(--bg2,#0a0a0d);padding:13px 15px;display:flex;flex-direction:column;gap:4px}
+.pr-k{font-family:var(--mono);font-size:.66rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.pr-v{font-size:.98rem;color:var(--fg)}
+@media(max-width:560px){.ph-date{width:86px;font-size:.72rem}.ph-mls{display:none}}
+
 </style>
 <script type="application/ld+json">
 {"@context": "https://schema.org", "@graph": [{"@type": "RealEstateListing", "@id": "https://dtstamford.com/homes/48-fair-street-norwalk-connecticut-24131710.html#listing", "name": "48 Fair Street, Norwalk, Connecticut", "url": "https://dtstamford.com/homes/48-fair-street-norwalk-connecticut-24131710.html", "datePosted": "2026-04-17T12:50:08", "dateModified": "2026-04-17T12:50:08", "image": ["https://smartmls-assets.cdn-connectmls.com/pics/42B2AC89E9CE63F4E063E201100AD3F0/HD_1762192381321_Front_of_home___Copy.JPEG"], "description": "older home with hardwood floors on first level and plastic wood on 2nd level. more room than you would expect. 2 full baths and separate laundry room in the rear of home.", "identifier": {"@type": "PropertyValue", "name": "MLS", "value": "24131710"}, "offers": {"@id": "https://dtstamford.com/homes/48-fair-street-norwalk-connecticut-24131710.html#offer"}, "about": {"@id": "https://dtstamford.com/homes/48-fair-street-norwalk-connecticut-24131710.html#residence"}, "provider": {"@id": "https://dtstamford.com/#agent"}}, {"@type": "Offer", "@id": "https://dtstamford.com/homes/48-fair-street-norwalk-connecticut-24131710.html#offer", "priceCurrency": "USD", "availability": "https://schema.org/SoldOut", "price": 581000, "offeredBy": {"@id": "https://dtstamford.com/#agent"}}, {"@type": "SingleFamilyResidence", "@id": "https://dtstamford.com/homes/48-fair-street-norwalk-connecticut-24131710.html#residence", "numberOfBedrooms": 3, "numberOfBathroomsTotal": 2, "floorSize": {"@type": "QuantitativeValue", "value": 1643, "unitCode": "FTK"}, "yearBuilt": 1920, "address": {"@type": "PostalAddress", "streetAddress": "48 Fair Street", "addressLocality": "Norwalk", "addressRegion": "Connecticut", "postalCode": "06851"}, "geo": {"@type": "GeoCoordinates", "latitude": 41.12358, "longitude": -73.422843}, "amenityFeature": [{"@type": "LocationFeatureSpecification", "name": "Heating", "value": "Gas In Street · Hot Air"}, {"@type": "LocationFeatureSpecification", "name": "Water Source", "value": "Public Water Connected"}, {"@type": "LocationFeatureSpecification", "name": "Sewer", "value": "Public Sewer In Street"}, {"@type": "LocationFeatureSpecification", "name": "Parking", "value": "Off Street Parking"}, {"@type": "LocationFeatureSpecification", "name": "Laundry", "value": "first floor rear of home past kitchen"}, {"@type": "LocationFeatureSpecification", "name": "Flood Zone", "value": false}]}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://dtstamford.com/"}, {"@type": "ListItem", "position": 2, "name": "Recently Sold", "item": "https://dtstamford.com/sold/"}, {"@type": "ListItem", "position": 3, "name": "48 Fair Street", "item": "https://dtstamford.com/homes/48-fair-street-norwalk-connecticut-24131710.html"}]}, {"@type": ["RealEstateAgent", "Person"], "@id": "https://dtstamford.com/#agent", "name": "John Restrepo", "alternateName": "Downtown Stamford", "url": "https://dtstamford.com/about.html", "telephone": "+12038833399", "areaServed": "Stamford, CT"}, {"@type": "ImageObject", "@id": "https://dtstamford.com/homes/48-fair-street-norwalk-connecticut-24131710.html#primaryImage", "contentUrl": "https://smartmls-assets.cdn-connectmls.com/pics/42B2AC89E9CE63F4E063E201100AD3F0/HD_1762192381321_Front_of_home___Copy.JPEG", "caption": "48 Fair Street, Norwalk, Connecticut"}]}
@@ -159,7 +173,18 @@
     <div class="idx-facts"><div><div class="k">Zoning</div><div class="v">C</div></div><div><div class="k">Lot</div><div class="v">Level Lot</div></div></div>
     <h2>Energy</h2>
     <div class="idx-facts"><div><div class="k">Energy features</div><div class="v">Storm Windows</div></div></div>
-    <div class="idx-attrib">Listing courtesy of <strong>Acorn Action LLC</strong> — Thomas McNeill · (860) 242-5192</div>
+    <h2>Public record</h2>
+<p class="pr-note">From the Norwalk assessor's public property record. These figures describe the property as the town has it on file and can differ from the listing — a finished basement or an addition may not be reflected in the assessor's living area.</p>
+<div class="pr-grid"><div class="pr-cell"><span class="pr-k">Year built</span><span class="pr-v">1920</span></div>
+<div class="pr-cell"><span class="pr-k">Living area</span><span class="pr-v">1,643 sq ft</span></div>
+<div class="pr-cell"><span class="pr-k">Total rooms</span><span class="pr-v">7</span></div>
+<div class="pr-cell"><span class="pr-k">Lot size</span><span class="pr-v">0.17 acres</span></div>
+<div class="pr-cell"><span class="pr-k">Stories</span><span class="pr-v">1.75</span></div>
+<div class="pr-cell"><span class="pr-k">Heat</span><span class="pr-v">Forced Air</span></div>
+<div class="pr-cell"><span class="pr-k">Exterior</span><span class="pr-v">Clapboard</span></div>
+<div class="pr-cell"><span class="pr-k">Assessed value</span><span class="pr-v">$312,270</span></div>
+<div class="pr-cell"><span class="pr-k">Town appraisal</span><span class="pr-v">$446,100</span></div>
+<div class="pr-cell"><span class="pr-k">Last recorded sale</span><span class="pr-v">2023</span></div></div><div class="idx-attrib">Listing courtesy of <strong>Acorn Action LLC</strong> — Thomas McNeill · (860) 242-5192</div>
     <div class="d-legal">Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers&#39; personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.</div>
     <h2>More homes in Norwalk</h2>
     <ul class="idx-sibs"><li><a href="/homes/49-day-street-norwalk-connecticut-24157880.html">49 Day Street — $245,000</a></li><li><a href="/homes/49-osborne-avenue-norwalk-connecticut-24151683.html">49 Osborne Avenue — $2,100/mo</a></li><li><a href="/homes/49-spring-hill-avenue-norwalk-connecticut-24171044.html">49 Spring Hill Avenue — $4,950/mo</a></li><li><a href="/homes/49-weed-avenue-norwalk-connecticut-24172799.html">49 Weed Avenue — $1,695,000</a></li><li><a href="/homes/5-1-2-lenox-avenue-norwalk-connecticut-24157993.html">5-1/2 Lenox Avenue — $2,500/mo</a></li><li><a href="/homes/5-craw-avenue-norwalk-connecticut-24184787.html">5 Craw Avenue — $2,785,000</a></li></ul>

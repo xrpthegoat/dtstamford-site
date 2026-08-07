@@ -121,6 +121,20 @@
   .idx-fs,.idx-fs img,.idx-shot,.idx-more{transition:none!important}
   .idx-fs.is-load::after{animation:none}
 }
+.ph-note,.pr-note{color:var(--muted);font-size:.88rem;line-height:1.65;margin:-4px 0 14px}
+.ph-table{width:100%;border-collapse:collapse;margin:0 0 26px}
+.ph-table td{padding:11px 8px;border-bottom:1px solid var(--line);font-size:.93rem;vertical-align:top}
+.ph-table tr:last-child td{border-bottom:0}
+.ph-date{color:var(--muted);font-family:var(--mono);font-size:.78rem;white-space:nowrap;width:104px}
+.ph-mls{color:var(--faint);font-family:var(--mono);font-size:.72rem;text-align:right;white-space:nowrap}
+.ph-this{color:var(--gold-l);font-family:var(--mono);font-size:.7rem;letter-spacing:.04em}
+.pr-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(168px,1fr));gap:1px;
+  background:var(--line);border:1px solid var(--line);border-radius:14px;overflow:hidden;margin:0 0 26px}
+.pr-cell{background:var(--bg2,#0a0a0d);padding:13px 15px;display:flex;flex-direction:column;gap:4px}
+.pr-k{font-family:var(--mono);font-size:.66rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.pr-v{font-size:.98rem;color:var(--fg)}
+@media(max-width:560px){.ph-date{width:86px;font-size:.72rem}.ph-mls{display:none}}
+
 </style>
 <script type="application/ld+json">
 {"@context": "https://schema.org", "@graph": [{"@type": "RealEstateListing", "@id": "https://dtstamford.com/homes/13-rock-spring-road-stamford-connecticut-24161347.html#listing", "name": "13 Rock Spring Road, Stamford, Connecticut", "url": "https://dtstamford.com/homes/13-rock-spring-road-stamford-connecticut-24161347.html", "datePosted": "2026-05-12T20:30:12", "dateModified": "2026-05-12T20:30:12", "image": ["https://smartmls-assets.cdn-connectmls.com/pics/4D87B33297096A20E063E201100A83CF/HD_1774113853805_20260317_172600.JPEG"], "description": "Adorable Studio apartment that includes heat, hot water and 1 off street parking within walking distance to the Tully Center. Laundromat on Hope St.", "identifier": {"@type": "PropertyValue", "name": "MLS", "value": "24161347"}, "offers": {"@id": "https://dtstamford.com/homes/13-rock-spring-road-stamford-connecticut-24161347.html#offer"}, "about": {"@id": "https://dtstamford.com/homes/13-rock-spring-road-stamford-connecticut-24161347.html#residence"}, "provider": {"@id": "https://dtstamford.com/#agent"}}, {"@type": "Offer", "@id": "https://dtstamford.com/homes/13-rock-spring-road-stamford-connecticut-24161347.html#offer", "priceCurrency": "USD", "availability": "https://schema.org/SoldOut", "price": 1400, "businessFunction": "http://purl.org/goodrelations/v1#LeaseOut", "offeredBy": {"@id": "https://dtstamford.com/#agent"}}, {"@type": "SingleFamilyResidence", "@id": "https://dtstamford.com/homes/13-rock-spring-road-stamford-connecticut-24161347.html#residence", "numberOfBathroomsTotal": 1, "floorSize": {"@type": "QuantitativeValue", "value": 350, "unitCode": "FTK"}, "yearBuilt": 1950, "address": {"@type": "PostalAddress", "streetAddress": "13 Rock Spring Road", "addressLocality": "Stamford", "addressRegion": "Connecticut", "postalCode": "06906"}, "geo": {"@type": "GeoCoordinates", "latitude": 41.065662, "longitude": -73.532519}, "amenityFeature": [{"@type": "LocationFeatureSpecification", "name": "Heating", "value": "Natural Gas · Radiator"}, {"@type": "LocationFeatureSpecification", "name": "Water Source", "value": "Public Water Connected"}, {"@type": "LocationFeatureSpecification", "name": "Sewer", "value": "Public Sewer Connected"}, {"@type": "LocationFeatureSpecification", "name": "Parking", "value": "Off Street Parking"}]}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://dtstamford.com/"}, {"@type": "ListItem", "position": 2, "name": "Recently Sold", "item": "https://dtstamford.com/sold/"}, {"@type": "ListItem", "position": 3, "name": "13 Rock Spring Road", "item": "https://dtstamford.com/homes/13-rock-spring-road-stamford-connecticut-24161347.html"}]}, {"@type": ["RealEstateAgent", "Person"], "@id": "https://dtstamford.com/#agent", "name": "John Restrepo", "alternateName": "Downtown Stamford", "url": "https://dtstamford.com/about.html", "telephone": "+12038833399", "areaServed": "Stamford, CT"}, {"@type": "ImageObject", "@id": "https://dtstamford.com/homes/13-rock-spring-road-stamford-connecticut-24161347.html#primaryImage", "contentUrl": "https://smartmls-assets.cdn-connectmls.com/pics/4D87B33297096A20E063E201100A83CF/HD_1774113853805_20260317_172600.JPEG", "caption": "13 Rock Spring Road, Stamford, Connecticut"}]}
@@ -157,7 +171,18 @@
     <div class="idx-facts"><div><div class="k">Style</div><div class="v">Studio Apt</div></div><div><div class="k">New construction</div><div class="v">No/Resale</div></div></div>
     <h2>Lot &amp; Land</h2>
     <div class="idx-facts"><div><div class="k">Zoning</div><div class="v">R6</div></div></div>
-    <div class="idx-attrib">Listing courtesy of <strong>Keller Williams Prestige Prop.</strong> — Roxanna Bajra · (203) 327-6700</div>
+    <h2>Public record</h2>
+<p class="pr-note">From the Stamford assessor's public property record. These figures describe the property as the town has it on file and can differ from the listing — a finished basement or an addition may not be reflected in the assessor's living area.</p>
+<div class="pr-grid"><div class="pr-cell"><span class="pr-k">Year built</span><span class="pr-v">1950</span></div>
+<div class="pr-cell"><span class="pr-k">Living area</span><span class="pr-v">2,667 sq ft</span></div>
+<div class="pr-cell"><span class="pr-k">Total rooms</span><span class="pr-v">10</span></div>
+<div class="pr-cell"><span class="pr-k">Lot size</span><span class="pr-v">0.127 acres</span></div>
+<div class="pr-cell"><span class="pr-k">Stories</span><span class="pr-v">2</span></div>
+<div class="pr-cell"><span class="pr-k">Heat</span><span class="pr-v">Hot Wtr Bbd</span></div>
+<div class="pr-cell"><span class="pr-k">Exterior</span><span class="pr-v">Aluminum/Vinyl</span></div>
+<div class="pr-cell"><span class="pr-k">Assessed value</span><span class="pr-v">$508,660</span></div>
+<div class="pr-cell"><span class="pr-k">Town appraisal</span><span class="pr-v">$726,640</span></div>
+<div class="pr-cell"><span class="pr-k">Last recorded sale</span><span class="pr-v">2021</span></div></div><div class="idx-attrib">Listing courtesy of <strong>Keller Williams Prestige Prop.</strong> — Roxanna Bajra · (203) 327-6700</div>
     <div class="d-legal">Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers&#39; personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.</div>
     <h2>More homes in Stamford</h2>
     <ul class="idx-sibs"><li><a href="/homes/130-forest-street-stamford-connecticut-24180052.html">130 Forest Street — $4,500/mo</a></li><li><a href="/homes/130-mulberry-street-stamford-connecticut-24150631.html">130 Mulberry Street — $780,000</a></li><li><a href="/homes/130-toms-road-stamford-connecticut-24170208.html">130 Toms Road — $675,000</a></li><li><a href="/homes/130-wood-ridge-drive-stamford-connecticut-24156887.html">130 Wood Ridge Drive — $749,000</a></li><li><a href="/homes/1312-hope-street-stamford-connecticut-24157858.html">1312 Hope Street — $3,750/mo</a></li><li><a href="/homes/132-hope-street-stamford-connecticut-24151897.html">132 Hope Street — $695,000</a></li></ul>

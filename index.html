@@ -613,27 +613,27 @@
   <section class="liveinv" id="liveInv" aria-label="Stamford homes for sale and rent right now">
     <div class="wrap">
       <div class="li-counts">
-        <a class="li-stat" href="search.html?type=sale"><span class="li-n" id="liSale">1,084</span><span class="li-l">homes for sale</span></a>
+        <a class="li-stat" href="search.html?type=sale"><span class="li-n" id="liSale">1,086</span><span class="li-l">homes for sale</span></a>
         <span class="li-div" aria-hidden="true"></span>
-        <a class="li-stat" href="search.html?t=rent"><span class="li-n" id="liRent">611</span><span class="li-l">for rent</span></a>
+        <a class="li-stat" href="search.html?t=rent"><span class="li-n" id="liRent">616</span><span class="li-l">for rent</span></a>
         <span class="li-div" aria-hidden="true"></span>
-        <a class="li-stat" href="search.html"><span class="li-n" id="liTotal">1,695</span><span class="li-l">total in Stamford</span></a>
+        <a class="li-stat" href="search.html"><span class="li-n" id="liTotal">1,702</span><span class="li-l">total in Stamford</span></a>
       </div>
 
       <div class="li-bands" id="liBands">
         <div class="li-band-row">
           <span class="li-band-lbl">For sale</span>
-          <a class="li-chip" href="search.html?pmax=300000"><b id="lbSale300">68</b> under $300K</a>
-          <a class="li-chip" href="search.html?pmax=600000"><b id="lbSale600">251</b> under $600K</a>
-          <a class="li-chip" href="search.html?pmax=1000000"><b id="lbSale1m">528</b> under $1M</a>
+          <a class="li-chip" href="search.html?pmax=300000"><b id="lbSale300">69</b> under $300K</a>
+          <a class="li-chip" href="search.html?pmax=600000"><b id="lbSale600">254</b> under $600K</a>
+          <a class="li-chip" href="search.html?pmax=1000000"><b id="lbSale1m">531</b> under $1M</a>
           <span class="li-med" id="lbMedSale">median $1.1M</span>
         </div>
         <div class="li-band-row">
           <span class="li-band-lbl">For rent</span>
           <a class="li-chip" href="search.html?t=rent&amp;pmax=1800"><b id="lbRent18">25</b> under $1,800</a>
           <a class="li-chip" href="search.html?t=rent&amp;pmax=2200"><b id="lbRent22">82</b> under $2,200</a>
-          <a class="li-chip" href="search.html?t=rent&amp;pmax=3000"><b id="lbRent30">220</b> under $3,000</a>
-          <span class="li-med" id="lbMedRent">median $3,850/mo</span>
+          <a class="li-chip" href="search.html?t=rent&amp;pmax=3000"><b id="lbRent30">222</b> under $3,000</a>
+          <span class="li-med" id="lbMedRent">median $3,825/mo</span>
         </div>
       </div>
       <div class="li-new" id="liNew" hidden>
@@ -657,17 +657,33 @@
     .magicsearch h2{font-family:"Bricolage Grotesque","Space Grotesk",system-ui,sans-serif;font-weight:700;font-size:clamp(1.55rem,3.6vw,2.35rem);line-height:1.08;letter-spacing:-.02em;color:#f3f3f5;margin:12px 0 7px}
     .magicsearch h2 .g{color:#e3c47e}
     .magicsearch .ms-sub{color:#a9a9b2;font-size:.96rem;margin-bottom:20px}
-    .ms-bar{display:flex;align-items:center;gap:10px;max-width:690px;margin:0 auto;padding:8px 8px 8px 18px;border:1px solid rgba(227,196,126,.42);border-radius:999px;background:rgba(255,255,255,.045);box-shadow:0 24px 55px -32px rgba(0,0,0,.92);transition:border-color .25s,background .25s,box-shadow .25s}
-    .ms-bar:focus-within{border-color:rgba(227,196,126,.78);background:rgba(227,196,126,.06);box-shadow:0 0 0 4px rgba(227,196,126,.1)}
-    .ms-bar .s{color:#e3c47e;font-size:1.1rem;line-height:1;flex:none}
-    .ms-bar input{flex:1;min-width:0;border:0;outline:none;background:none;color:#f3f3f5;font-family:inherit;font-size:1rem;padding:14px 0}
+    /* Sized up 2026-08-07 (John: "looks small — wider or even taller"). This is the primary entry
+       point to the whole product, so it now reads as the hero control: wider (860 vs 690), a taller
+       touch target (~64px vs ~50), a 2px accent border, and a soft accent glow so it separates from
+       the near-black section instead of sinking into it. */
+    .ms-bar{display:flex;align-items:center;gap:12px;max-width:860px;margin:0 auto;padding:10px 10px 10px 24px;
+      border:2px solid rgba(227,196,126,.5);border-radius:999px;background:rgba(255,255,255,.05);
+      box-shadow:0 24px 60px -30px rgba(0,0,0,.95), 0 0 44px -22px rgba(227,196,126,.45);
+      transition:border-color .25s,background .25s,box-shadow .25s,transform .25s}
+    .ms-bar:hover{border-color:rgba(227,196,126,.7);transform:translateY(-1px)}
+    .ms-bar:focus-within{border-color:rgba(227,196,126,.9);background:rgba(227,196,126,.07);box-shadow:0 0 0 5px rgba(227,196,126,.13),0 24px 60px -30px rgba(0,0,0,.95)}
+    .ms-bar .s{color:#e3c47e;font-size:1.35rem;line-height:1;flex:none}
+    .ms-bar input{flex:1;min-width:0;border:0;outline:none;background:none;color:#f3f3f5;font-family:inherit;font-size:1.1rem;padding:19px 0}
     .ms-bar input::placeholder{color:#8b8b93}
-    .ms-bar button{flex:none;border:0;cursor:pointer;border-radius:999px;padding:13px 28px;font-family:inherit;font-weight:700;font-size:.92rem;color:#161006;background:linear-gradient(180deg,#eed6a3,#cbab68);transition:transform .2s}
-    .ms-bar button:hover{transform:translateY(-1px)}
+    .ms-bar button{flex:none;border:0;cursor:pointer;border-radius:999px;padding:17px 38px;font-family:inherit;font-weight:700;font-size:1rem;color:#161006;background:linear-gradient(180deg,#eed6a3,#cbab68);box-shadow:0 10px 26px -14px rgba(227,196,126,.75);transition:transform .2s,box-shadow .2s}
+    .ms-bar button:hover{transform:translateY(-1px);box-shadow:0 14px 30px -14px rgba(227,196,126,.9)}
     .ms-egs{display:flex;flex-wrap:wrap;justify-content:center;gap:8px;margin-top:16px}
     .ms-eg{font-family:inherit;font-size:.8rem;color:#c0c1cb;text-decoration:none;border:1px solid rgba(255,255,255,.12);border-radius:20px;padding:8px 14px;background:rgba(255,255,255,.03);transition:border-color .2s,color .2s,background .2s}
     .ms-eg:hover{border-color:rgba(227,196,126,.5);color:#e3c47e;background:rgba(227,196,126,.06)}
-    @media(max-width:600px){.magicsearch{padding:28px 0 26px}.ms-bar{padding:6px 6px 6px 14px}.ms-bar input{font-size:.92rem;padding:12px 0}.ms-bar button{padding:12px 18px}}
+    /* Phone: keep it generous but stack the button full-width so the input never shrinks to a sliver
+       (a 38px-padded button beside a text field on a 375px screen leaves ~120px to type in). */
+    @media(max-width:600px){
+      .magicsearch{padding:30px 0 28px}
+      .ms-bar{flex-wrap:wrap;padding:12px 14px;border-radius:26px;gap:10px}
+      .ms-bar .s{font-size:1.2rem}
+      .ms-bar input{font-size:1rem;padding:8px 0;flex:1 1 auto}
+      .ms-bar button{flex:1 1 100%;padding:15px 18px;font-size:.98rem}
+    }
   </style>
   <section class="magicsearch" aria-label="Search Stamford homes in plain English">
     <div class="ms-wrap">

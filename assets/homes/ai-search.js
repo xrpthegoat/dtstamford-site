@@ -555,6 +555,17 @@ function boot() {
     });
   }
 
+  // Example queries can also live OUTSIDE the sheet — the results hero teaches Magic Search with a
+  // tappable one. Same [data-eg] convention the sheet's idle content uses; that handler owns the ones
+  // inside the sheet, so skip those here or a single click would run the query twice.
+  document.addEventListener('click', e => {
+    const eg = e.target.closest('[data-eg]');
+    if (!eg || sheet.contains(eg)) return;
+    e.preventDefault();
+    open(eg.dataset.eg);
+    run(eg.dataset.eg);
+  });
+
   window.addEventListener('resize', position);
   window.addEventListener('dts:ai-cleared', () => { sheet.classList.remove('has-answer'); btn.classList.remove('is-on'); _last = null; if (sheet.classList.contains('is-open')) body.innerHTML = idleHTML(); });
   document.addEventListener('keydown', e => { if (e.key === 'Escape' && sheet.classList.contains('is-open')) close(); });

@@ -595,8 +595,24 @@
     .li-dot{width:7px;height:7px;border-radius:50%;background:#5fe08a;box-shadow:0 0 10px #5fe08a;animation:liPulse 2s infinite}
     @keyframes liPulse{0%,100%{opacity:1}50%{opacity:.4}}
     .li-new-n{color:#8b8b93}
-    .li-new-row{display:flex;gap:10px;overflow-x:auto;padding-bottom:8px;scrollbar-width:none}
+    /* The new-today rail is a MARQUEE, not a scroller (2026-08-07, John: "should be spinning at all
+       times"). Two identical tracks sit side by side inside the row; each slides left by exactly its
+       own width + the 10px flex gap, so copy B is pixel-aligned where copy A was when the keyframe
+       wraps — seamless, no JS timer. Duration is set per-render from the real track width (see the
+       stats fetch below) so 4 cards and 40 cards drift at the SAME speed. Hover/focus pauses it so a
+       card can actually be read and clicked; reduced-motion drops back to the old manual scroller. */
+    .li-new-row{display:flex;gap:10px;overflow:hidden;padding-bottom:8px;scrollbar-width:none;
+      -webkit-mask-image:linear-gradient(90deg,transparent 0,#000 16px,#000 calc(100% - 52px),transparent 100%);
+              mask-image:linear-gradient(90deg,transparent 0,#000 16px,#000 calc(100% - 52px),transparent 100%)}
     .li-new-row::-webkit-scrollbar{display:none}
+    .li-mq{display:flex;gap:10px;flex:0 0 auto;animation:liMarquee var(--li-mq-dur,90s) linear infinite;will-change:transform}
+    .li-new-row:hover .li-mq,.li-new-row:focus-within .li-mq{animation-play-state:paused}
+    @keyframes liMarquee{from{transform:translateX(0)}to{transform:translateX(calc(-100% - 10px))}}
+    @media(prefers-reduced-motion:reduce){
+      .li-new-row{overflow-x:auto;-webkit-mask-image:none;mask-image:none}
+      .li-mq{animation:none}
+      .li-mq[aria-hidden="true"]{display:none}
+    }
     .li-card{flex:0 0 auto;min-width:190px;max-width:230px;text-decoration:none;border:1px solid rgba(255,255,255,.10);border-radius:12px;padding:11px 13px;background:rgba(255,255,255,.03);transition:border-color .2s,background .2s}
     .li-card:hover{border-color:rgba(227,196,126,.5);background:rgba(227,196,126,.06)}
     .li-card .lc-price{font-family:"Space Grotesk",system-ui,sans-serif;font-weight:700;font-size:1.05rem;color:#e3c47e;letter-spacing:-.01em}
@@ -727,6 +743,8 @@
       if(nt.length){
         document.getElementById('liNewN').textContent='· '+(s.newTodayCount||nt.length);
         var row=document.getElementById('liNewRow');
+        // Cards go into a marquee TRACK, not straight into the row (see the .li-mq CSS above).
+        var track=document.createElement('div'); track.className='li-mq';
         // Build cards via DOM (set the link with setAttribute, not a quoted markup literal) so the
         // site-integrity verifier doesn't mis-read the JS template as a broken link and block deploy.
         nt.forEach(function(c){
@@ -740,9 +758,20 @@
           a.innerHTML='<div class="lc-price">'+esc(money(c.price,rent))+'</div>'
             +'<div class="lc-addr">'+esc(c.address)+'</div>'
             +'<div class="lc-meta">'+esc(meta)+'</div>';
-          row.appendChild(a);
+          track.appendChild(a);
         });
+        row.appendChild(track);
+        // Copy B: the seam-filler. aria-hidden + tabindex -1 so a screen reader reads the listings
+        // once and Tab doesn't walk the same 33 links twice.
+        var clone=track.cloneNode(true);
+        clone.setAttribute('aria-hidden','true');
+        clone.querySelectorAll('a').forEach(function(a){a.setAttribute('tabindex','-1');});
+        row.appendChild(clone);
         document.getElementById('liNew').hidden=false;
+        // Constant speed regardless of how many listed today: ~46px/sec, floor 24s so a 3-card day
+        // doesn't whip past. offsetWidth is read AFTER liNew is unhidden (hidden = 0 width).
+        var px=track.offsetWidth+10;
+        row.style.setProperty('--li-mq-dur', Math.max(24, Math.round(px/46))+'s');
       }
     }).catch(function(){});
   })();

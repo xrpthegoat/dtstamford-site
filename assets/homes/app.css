@@ -265,6 +265,10 @@ html{overflow-x:hidden;overscroll-behavior:none}
 
 /* Results greeting. Deliberately NOT inside .results-head — that row is sticky, so a title in it
    would sit on screen forever; this scrolls away once you start browsing. */
+/* Intro sits above the (sticky) filter bar and scrolls away for good — it introduces the search
+   box, so it must be readable BEFORE the box, and must not permanently eat vertical space. */
+.search-intro{padding:20px 16px 12px}
+.si-inner{max-width:1560px;margin:0 auto}
 .results-hero{padding:18px 4px 2px}
 .rh-title{font-family:var(--disp);font-size:1.6rem;line-height:1.15;letter-spacing:-.01em;color:var(--fg);margin:0}
 .rh-sub{margin:7px 0 0;font-size:.9rem;line-height:1.5;color:var(--muted);max-width:56ch}
@@ -697,3 +701,87 @@ html{overflow-x:hidden;overscroll-behavior:none}
 .hub-head h1{font-family:var(--disp);font-size:1.5rem;color:var(--fg);letter-spacing:-.01em}
 .hub-head .hub-count{font-family:var(--mono);font-size:.64rem;letter-spacing:.1em;text-transform:uppercase;color:var(--faint)}
 .hub-head .hub-count strong{color:var(--gold-l);font-weight:600}
+
+/* ============================================================
+   MOBILE FILTER SHEET (2026-08-07)
+   Replaces the horizontal chip carousel on phones. A swipe strip hides most of its own options —
+   you cannot consider what you have not scrolled to — so on a phone every filter is laid out at
+   once in a sheet under the thumb. app.js is untouched: filters.js MOVES the real .fb-drops
+   element in and out, so all existing handlers keep working and there is no duplicate state.
+   ============================================================ */
+.fb-filters-btn{display:none;align-items:center;gap:7px;flex:none;padding:10px 15px;min-height:40px;
+  border-radius:999px;cursor:pointer;border:1px solid var(--line);background:rgba(255,255,255,.04);
+  color:var(--fg-soft);font-family:var(--sans);font-size:.85rem;font-weight:600;white-space:nowrap;
+  transition:border-color .2s,background .2s,color .2s}
+.fb-filters-btn:hover{border-color:rgba(255,255,255,.22);color:var(--fg)}
+.fb-filters-btn.has-val{border-color:var(--gold-d);color:var(--gold-l);background:rgba(203,171,104,.08)}
+.fb-fcount[hidden]{display:none}   /* an explicit display: beats [hidden]'s UA rule — must re-hide */
+.fb-fcount{display:inline-flex;align-items:center;justify-content:center;min-width:18px;height:18px;
+  padding:0 5px;border-radius:999px;background:var(--gold);color:#161006;font-size:.68rem;font-weight:700}
+
+.fsheet-scrim{position:fixed;inset:0;z-index:180;background:rgba(0,0,0,.6);
+  backdrop-filter:blur(3px);-webkit-backdrop-filter:blur(3px);
+  opacity:0;transition:opacity .3s var(--ease)}
+.fsheet-scrim.is-open{opacity:1}
+
+.fsheet{position:fixed;z-index:190;left:0;right:0;bottom:0;display:flex;flex-direction:column;
+  max-height:86vh;border-radius:26px 26px 0 0;
+  border:1px solid var(--line);border-bottom:0;background:rgba(14,14,18,.98);
+  backdrop-filter:saturate(160%) blur(24px);-webkit-backdrop-filter:saturate(160%) blur(24px);
+  box-shadow:0 -30px 70px -30px rgba(0,0,0,.95),inset 0 1px 0 rgba(255,255,255,.06);
+  transform:translateY(102%);
+  /* Spring-ish easing: overshoots slightly then settles — the reason a native sheet feels alive
+     where a linear slide feels like a div moving. */
+  transition:transform .42s cubic-bezier(.16,1.02,.3,1)}
+.fsheet.is-open{transform:translateY(0)}
+.fsheet-grab{width:38px;height:4px;border-radius:99px;background:rgba(255,255,255,.22);margin:10px auto 4px;flex:none}
+.fsheet-head{display:flex;align-items:center;justify-content:space-between;padding:6px 20px 12px;flex:none}
+.fsheet-title{font-family:var(--disp);font-size:1.15rem;color:var(--fg)}
+.fsheet-clear{background:none;border:0;color:var(--muted);font-family:var(--mono);font-size:.7rem;
+  letter-spacing:.12em;text-transform:uppercase;cursor:pointer;padding:6px 2px}
+.fsheet-clear:hover{color:var(--fg)}
+.fsheet-body{flex:1 1 auto;overflow-y:auto;overscroll-behavior:contain;
+  -webkit-overflow-scrolling:touch;padding:0 20px 8px}
+.fsheet-foot{flex:none;padding:12px 20px calc(16px + env(safe-area-inset-bottom));
+  border-top:1px solid var(--line);background:rgba(10,10,13,.7)}
+.fsheet-apply{width:100%;border:0;cursor:pointer;border-radius:999px;padding:16px 20px;
+  font-family:var(--sans);font-weight:700;font-size:1rem;color:#161006;
+  background:linear-gradient(180deg,var(--gold-l),var(--gold));
+  box-shadow:0 12px 28px -14px rgba(203,171,104,.85)}
+
+/* Inside the sheet the chip strip becomes a full-width stack and every panel is INLINE — no
+   dropdown, no positioning, nothing hidden behind a tap. Each filter reads as its own section. */
+.fsheet .fb-drops{display:flex;flex-direction:column;gap:0;overflow:visible;width:100%;
+  mask-image:none;-webkit-mask-image:none;touch-action:auto}
+.fsheet .drop{width:100%;border-bottom:1px solid var(--line-2,rgba(255,255,255,.05))}
+.fsheet .drop:last-child{border-bottom:0}
+.fsheet .drop-btn{width:100%;justify-content:space-between;border:0;background:none;border-radius:0;
+  padding:15px 2px;font-size:.95rem;font-weight:600;color:var(--fg)}
+.fsheet .drop-btn .chev{display:none}
+.fsheet .drop-btn.has-val{background:none;color:var(--gold-l)}
+.fsheet .drop-btn.has-val::after{display:none}
+.fsheet .drop-panel{position:static!important;opacity:1;transform:none;pointer-events:auto;
+  min-width:0;max-width:none;max-height:none;overflow:visible;padding:0 2px 16px;
+  border:0;background:none;box-shadow:none;backdrop-filter:none;-webkit-backdrop-filter:none}
+.fsheet .dp-actions{display:none}          /* the sheet has one Apply; per-panel Done is noise */
+.fsheet .dp-label{margin-top:4px}
+.fsheet .check-col{max-height:210px;overflow-y:auto;overscroll-behavior:contain}
+
+@media(max-width:760px){
+  .fb-filters-btn{display:inline-flex}
+  /* Row 2 held 459px of controls in a 343px bar, so List/Map was cut off the right edge.
+     Reset goes: the sheet has its own Reset and app.js's active-filter badge already resets.
+     The rest may wrap rather than overflow — a control you cannot reach is worse than a
+     control on a second line. */
+  .fb-group-view{flex-wrap:wrap;justify-content:flex-end;row-gap:8px}
+  #resetBtn{display:none}
+  /* The strip itself is hidden in the bar — filters.js relocates it into the sheet. */
+  .fb-group-filters .fb-drops{display:none}
+  .fb-group-filters{flex:0 0 auto;order:2}
+  .search-intro{padding:14px 16px 10px}
+  .search-intro .rh-title{font-size:1.28rem}
+  .search-intro .rh-sub{font-size:.86rem}
+}
+@media(min-width:761px){
+  .fsheet,.fsheet-scrim{display:none!important}
+}

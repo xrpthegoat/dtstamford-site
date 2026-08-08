@@ -122,8 +122,11 @@
            walked straight through it on 2026-08-06. This is the layer that actually holds: Web3Forms
            verifies the captcha token SERVER-side, so scraping the (public) access_key out of this
            HTML and POSTing api.web3forms.com directly no longer works. Zero-config: Web3Forms
-           proxies its own hCaptcha keys, nothing to register. -->
-      <div class="h-captcha" data-captcha="true" data-theme="dark"></div>
+           proxies its own hCaptcha keys, nothing to register.
+           INVISIBLE since 2026-08-07 (John: the checkbox "is a bit too strict"). The server check is
+           unchanged — assets/swipe-send.js just triggers it from the slide-to-send gesture, so only
+           visitors hCaptcha finds suspicious ever see a challenge. -->
+      <div class="h-captcha" data-captcha="true" data-theme="dark" data-size="invisible" data-callback="dtsCaptchaDone"></div>
       <button class="btn btn-gold" type="submit">Get my home value <span class="arr">→</span></button>
     </form>
     <script>
@@ -263,23 +266,11 @@
 })();
 </script>
 <script src="/track.js" defer></script>
-<!-- Web3Forms hCaptcha renderer + a client-side guard so an unsolved captcha never submits.
-     The guard is UX only — the real enforcement is Web3Forms' server-side token check. -->
+<!-- Web3Forms hCaptcha renderer. The captcha is INVISIBLE now (data-size on the widget above), so
+     the old "did you tick the box?" submit guard is gone — swipe-send.js owns submission: it runs
+     hcaptcha.execute() when the slide-to-send completes and only then POSTs. Server-side token
+     verification at Web3Forms is unchanged. -->
 <script src="https://web3forms.com/client/script.js" async defer></script>
-<script>
-(function(){
-  document.querySelectorAll('form[action*="api.web3forms.com"]').forEach(function(form){
-    if (!form.querySelector('.h-captcha')) return;
-    form.addEventListener('submit', function(e){
-      var t = form.querySelector('textarea[name="h-captcha-response"]');
-      if (!t || !t.value) {
-        e.preventDefault();
-        var w = form.querySelector('.h-captcha');
-        if (w) { w.scrollIntoView({block:'center', behavior:'smooth'}); w.style.outline = '2px solid #cbab68'; w.style.outlineOffset = '6px'; }
-      }
-    });
-  });
-})();
-</script>
+<script src="assets/swipe-send.js" defer></script>
 </body>
 </html>

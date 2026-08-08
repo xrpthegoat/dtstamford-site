@@ -29,14 +29,33 @@ if (btn && sheet && scrim && body && bar) {
   const drops = () => document.querySelector('.fb-drops');
   let open = false;
 
-  /* ---- relocate the REAL strip, never clone it ---- */
+  /* ---- relocate the REAL controls, never clone them ----
+     Sold and Saved ride along so the phone bar is just search + Buy/Rent + Filters. They are
+     lenses rather than filters, so they land in their own strip above the filter list. Their
+     home in the bar is .fb-group-view, and they must be put back in their original order. */
+  const lenses = $('#fsheetLenses');
+  const viewGroup = document.querySelector('.fb-group-view');
+  const soldBtn = $('#soldBtn');
+  const savedBtn = $('#savedBtn');
+  const viewToggle = document.querySelector('.fb-viewtoggle');
+
   function intoSheet() {
     const d = drops();
     if (d && d.parentElement !== body) body.appendChild(d);
+    if (lenses) {
+      [soldBtn, savedBtn].forEach(b => { if (b && b.parentElement !== lenses) lenses.appendChild(b); });
+    }
   }
   function intoBar() {
     const d = drops();
     if (d && d.parentElement !== bar) bar.appendChild(d);
+    // Restore the ORIGINAL desktop order: … Sold · Saved · Reset · view toggle. Anchoring on the
+    // view toggle alone put both buttons after Reset, so a phone→desktop resize silently reordered
+    // the bar. Anchor on Reset when it exists; appendChild order keeps Sold before Saved.
+    const anchor = $('#resetBtn') || viewToggle || null;
+    [soldBtn, savedBtn].forEach(b => {
+      if (b && viewGroup && b.parentElement !== viewGroup) viewGroup.insertBefore(b, anchor);
+    });
   }
 
   /* ---- count reflection ---- */
@@ -118,13 +137,20 @@ if (btn && sheet && scrim && body && bar) {
     setTimeout(() => { syncTrigger(); syncApply(); }, 60);   // after app.js re-renders
   });
 
-  // Rotating to landscape/desktop must hand the strip back to the bar, or the filters vanish.
+  /* Placement is decided by viewport, NOT by whether the sheet is open: on a phone Sold/Saved must
+     already be out of the bar when the page loads, or they sit in the bar AND in the sheet. Run it
+     once now, then again whenever we cross the breakpoint (rotation, desktop resize) — coming back
+     to desktop has to hand every control back or the filters simply vanish. */
+  function place() { (MOBILE() ? intoSheet : intoBar)(); }
+  place();
+
   let wasMobile = MOBILE();
   window.addEventListener('resize', () => {
     const m = MOBILE();
     if (m === wasMobile) return;
     wasMobile = m;
-    if (m) { if (!open) intoBar(); } else { closeSheet(); intoBar(); }
+    if (!m) closeSheet();
+    place();
   });
 
   /* Keep the trigger + Apply count honest no matter WHAT changed the filters — a tap in the sheet,

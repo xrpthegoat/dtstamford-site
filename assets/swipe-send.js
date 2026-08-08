@@ -106,7 +106,10 @@
       travel = maxTravel();
       btn.style.transform = 'translateX(' + (progress * travel) + 'px)';
       fill.style.width = (progress * 100) + '%';
-      label.style.opacity = String(1 - Math.min(1, progress * 1.4));
+      // The label fades out as the knob crosses it — except once we're sending, where the label IS
+      // the status text (a resize repaint used to blank "Sending…" mid-flight).
+      var sending = wrap.dataset.state === 'wait' || wrap.dataset.state === 'done';
+      label.style.opacity = sending ? '1' : String(1 - Math.min(1, progress * 1.4));
     }
 
     function reset() {

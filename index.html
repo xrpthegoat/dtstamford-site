@@ -486,8 +486,8 @@
       <span class="wordmark">Downtown Stamford</span>
     </a>
     <nav class="nav-links" aria-label="Primary">
-      <a href="homes-for-sale-stamford.html">Buy</a>
-      <a href="stamford-apartments-for-rent.html">Rent</a>
+      <a href="search.html">Buy</a>
+      <a href="search.html?t=rent">Rent</a>
       <a href="/sold/">Sold</a>
       <a href="neighborhoods.html">Neighborhoods</a>
       <a href="stamford-market.html">Market Trends</a>
@@ -512,8 +512,8 @@
     </div>
     <nav class="mmenu-links" aria-label="Mobile">
       <a href="/"><span class="ix">⌂</span><span class="lb">Home</span><span class="ar" aria-hidden="true">→</span></a>
-      <a href="homes-for-sale-stamford.html"><span class="ix">01</span><span class="lb">Buy</span><span class="ar" aria-hidden="true">→</span></a>
-      <a href="stamford-apartments-for-rent.html"><span class="ix">02</span><span class="lb">Rent</span><span class="ar" aria-hidden="true">→</span></a>
+      <a href="search.html"><span class="ix">01</span><span class="lb">Buy</span><span class="ar" aria-hidden="true">→</span></a>
+      <a href="search.html?t=rent"><span class="ix">02</span><span class="lb">Rent</span><span class="ar" aria-hidden="true">→</span></a>
       <a href="neighborhoods.html"><span class="ix">03</span><span class="lb">Neighborhoods</span><span class="ar" aria-hidden="true">→</span></a>
       <a href="stamford-market.html"><span class="ix">04</span><span class="lb">Market Trends</span><span class="ar" aria-hidden="true">→</span></a>
       <a href="buyer-guides.html"><span class="ix">05</span><span class="lb">Guides</span><span class="ar" aria-hidden="true">→</span></a>
@@ -626,6 +626,20 @@
     .li-chip b{color:#e3c47e;font-family:"Space Grotesk",system-ui,sans-serif;font-weight:700;font-variant-numeric:tabular-nums}
     .li-med{font-family:"Space Mono",ui-monospace,monospace;font-size:.64rem;letter-spacing:.04em;color:#8b8b93;margin-left:auto}
     @media(max-width:760px){.li-stat{padding:6px 16px}.li-div{height:30px}.li-med{margin-left:0;width:100%}}
+    /* Phone: the label + three chips + median never fit one wrapping flex row — it broke to a
+       ragged 2-then-1 with the median dangling on its own line. Give each band a header row
+       (label left, median right) and lay the three price chips out as equal-width mini-stats,
+       echoing the number-over-label pattern of the .li-stat counts directly above. */
+    @media(max-width:600px){
+      .li-bands{gap:16px;padding:0 16px}
+      .li-band-row{display:grid;grid-template-columns:repeat(3,1fr);grid-template-areas:"lbl med med";gap:7px;align-items:stretch;font-size:.62rem}
+      .li-band-lbl{grid-area:lbl;min-width:0}
+      /* two columns wide and nowrap — "median $3,850/mo" is the longest string here and wrapped
+         onto a second line when it only had one column. */
+      .li-med{grid-area:med;justify-self:end;text-align:right;margin-left:0;width:auto;white-space:nowrap}
+      .li-chip{flex-direction:column;align-items:center;justify-content:center;gap:2px;padding:9px 5px;text-align:center;line-height:1.2}
+      .li-chip b{font-size:1.02rem;line-height:1}
+    }
   </style>
   <section class="liveinv" id="liveInv" aria-label="Stamford homes for sale and rent right now">
     <div class="wrap">

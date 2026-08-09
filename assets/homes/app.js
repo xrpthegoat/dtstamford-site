@@ -1378,7 +1378,11 @@ function syncURL() {
 }
 function readURL() {
   const p = new URLSearchParams(location.search);
-  if (p.get('t') === 'rent') { state.type = 'rent'; $$('.seg-btn').forEach(b => { const on = b.dataset.type === 'rent'; b.classList.toggle('is-on', on); b.setAttribute('aria-selected', on); }); buildPriceSelects(); }
+  // `t` is what this page writes back into the URL, but the rest of the site has always linked in
+  // with `?type=sale|rent` (the rentals door page, every downtown building page, the homepage
+  // counts). Those were silently ignored, so "See all rentals" landed the visitor on for-sale
+  // results. Accept both spellings; `t` wins if somehow both are present.
+  if ((p.get('t') || p.get('type')) === 'rent') { state.type = 'rent'; $$('.seg-btn').forEach(b => { const on = b.dataset.type === 'rent'; b.classList.toggle('is-on', on); b.setAttribute('aria-selected', on); }); buildPriceSelects(); }
   if (p.get('q')) { state.q = p.get('q'); $('#q').value = state.q; }
   if (p.get('pmin')) { state.priceMin = +p.get('pmin'); $('#priceMin').value = p.get('pmin'); }
   if (p.get('pmax')) { state.priceMax = +p.get('pmax'); $('#priceMax').value = p.get('pmax'); }

@@ -1376,6 +1376,36 @@ function syncURL() {
   const qs = p.toString();
   history.replaceState(null, '', qs ? '?' + qs : location.pathname);
 }
+/* ---------- neighborhood deep links (?n=<slug>) ----------
+   Every neighborhood page, and the neighborhoods hub, links into the search with ?n=downtown,
+   ?n=shippan and so on — 13 links that did nothing at all, because readURL() never read `n` and
+   there is no neighborhood to filter ON: address.neighborhood is null on all 4,396 listings (the
+   SmartMLS feed simply never populates it, though the schema and the detail-page renderer both
+   expect it). Every listing DOES carry geo.lat/lng, and the page already has a working, already
+   deep-linkable radius filter (state.circle), so a neighborhood is expressed as a centre + radius
+   and reuses that filter wholesale — map overlay, "Clear area" button and active-filter badge all
+   come along for free.
+
+   Centres were checked against the real feed, not guessed: each circle was run over the 1,574
+   geocoded Stamford listings and its street names read back (downtown → Atlantic/Summer/Bedford,
+   shippan → Shippan Ave/Ocean Dr, westover → Westover Rd/West Hill, north-stamford →
+   Scofieldtown/Chestnut Hill, …). Radii are deliberately generous: adjacent Stamford
+   neighborhoods genuinely overlap at the edges, and under-covering hides real homes. */
+const NEIGHBORHOODS = {
+  'downtown':       { lat: 41.0534, lng: -73.5387, radius: 1000 },
+  'harbor-point':   { lat: 41.0330, lng: -73.5430, radius: 900 },
+  'shippan':        { lat: 41.0250, lng: -73.5250, radius: 1600 },
+  'cove':           { lat: 41.0430, lng: -73.5150, radius: 1300 },
+  'waterside':      { lat: 41.0390, lng: -73.5540, radius: 1100 },
+  'springdale':     { lat: 41.0830, lng: -73.5270, radius: 1400 },
+  'glenbrook':      { lat: 41.0650, lng: -73.5230, radius: 1200 },
+  'belltown':       { lat: 41.0720, lng: -73.5130, radius: 1200 },
+  'newfield':       { lat: 41.0850, lng: -73.5420, radius: 1400 },
+  'turn-of-river':  { lat: 41.0950, lng: -73.5480, radius: 1500 },
+  'north-stamford': { lat: 41.1300, lng: -73.5600, radius: 3500 },
+  'westover':       { lat: 41.0750, lng: -73.5700, radius: 1400 },
+};
+
 function readURL() {
   const p = new URLSearchParams(location.search);
   // `t` is what this page writes back into the URL, but the rest of the site has always linked in
@@ -1394,6 +1424,17 @@ function readURL() {
   if (p.get('sold') === '1') state.showSold = true;   // chrome is synced by syncFilterChrome on first render
   if (p.get('s')) { state.sort = p.get('s'); $$('#sortCol .radx').forEach(x => x.classList.toggle('is-on', x.dataset.sort === state.sort)); }
   if (p.get('v')) { state.view = p.get('v'); $$('.vt-btn').forEach(x => x.classList.toggle('is-on', x.dataset.view === state.view)); $('#app').dataset.view = state.view; }
+  // ?n=<slug> resolves to a circle. An explicit ?circle= below wins if both are present, since that
+  // is a user-drawn area and this is only a shorthand for one.
+  const hood = NEIGHBORHOODS[String(p.get('n') || '').toLowerCase()];
+  if (hood) {
+    state.circle = { ...hood };
+    drawCircleOverlay();
+    // render()'s auto-fit deliberately stands down while a circle is active, so frame the
+    // neighborhood explicitly — otherwise the visitor lands on the whole-county default view with
+    // a filtered list and no idea where the area they clicked actually is.
+    if (map && drawnCircle) map.fitBounds(drawnCircle.getBounds(), { padding: [24, 24] });
+  }
   if (p.get('circle')) {
     const c = p.get('circle').split(',').map(Number);
     if (c.length === 3 && c.every(Number.isFinite) && c[2] > 0) { state.circle = { lat: c[0], lng: c[1], radius: c[2] }; drawCircleOverlay(); }

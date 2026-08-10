@@ -41,9 +41,15 @@ html{overflow-x:hidden;overscroll-behavior:none}
 .fb-group{display:flex;align-items:center;gap:10px}
 .fb-group-search{flex:1 1 340px;min-width:265px}   /* ✦ box + Buy/Rent — never crushed below this */
 .fb-group-filters{flex:0 1 auto;min-width:0}
-.fb-drops{min-width:0;overflow-x:auto;overscroll-behavior-x:contain;scrollbar-width:none;
-  -webkit-mask-image:linear-gradient(90deg,#000 94%,transparent)}
-.fb-drops::-webkit-scrollbar{display:none}
+/* NO overflow here. Setting overflow-x makes the computed overflow-y `auto` too (CSS spec: the
+   two cannot be visible/auto in combination), and .fb-drops then becomes a CLIPPING context for
+   its position:fixed descendants — .fb-inner's backdrop-filter is the panels' containing block,
+   so .fb-drops sits between the two and clips them. Every filter dropdown rendered 7px below a
+   41px-tall strip's clip box: laid out, sized, is-active, and completely invisible + unclickable.
+   Shrinking is handled by min-width:0 alone; the ≤760px block re-adds overflow for the phone chip
+   strip, where the panels have been moved into the sheet and are position:static, so nothing to
+   clip. 2026-08-10 — regression from the overlap fix two commits earlier. */
+.fb-drops{min-width:0}
 .fb-group-view{flex:none;margin-left:auto}
 .fb-divider{width:1px;align-self:stretch;margin:6px 0;background:var(--line);flex:none}
 

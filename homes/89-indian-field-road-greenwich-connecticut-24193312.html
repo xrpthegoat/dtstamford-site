@@ -141,7 +141,15 @@
 .pr-cell{background:var(--bg2,#0a0a0d);padding:13px 15px;display:flex;flex-direction:column;gap:4px}
 .pr-k{font-family:var(--mono);font-size:.66rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
 .pr-v{font-size:.98rem;color:var(--fg)}
-@media(max-width:560px){.ph-date{width:86px;font-size:.72rem}.ph-mls{display:none}}
+.pr-sales{list-style:none;margin:0 0 26px;padding:0;border:1px solid var(--line);border-radius:14px;overflow:hidden}
+.pr-sale{display:flex;align-items:baseline;gap:14px;padding:11px 15px;background:var(--bg2,#0a0a0d)}
+.pr-sale+.pr-sale{border-top:1px solid var(--line)}
+.pr-sale-d{font-family:var(--mono);font-size:.72rem;letter-spacing:.04em;color:var(--muted);flex:0 0 88px}
+.pr-sale-p{font-size:.98rem;color:var(--fg);font-variant-numeric:tabular-nums}
+.pr-sale-t{margin-left:auto;font-family:var(--mono);font-size:.66rem;letter-spacing:.08em;
+  text-transform:uppercase;color:var(--faint)}
+@media(max-width:560px){.ph-date{width:86px;font-size:.72rem}.ph-mls{display:none}
+  .pr-sale-d{flex:0 0 74px}.pr-sale-t{display:none}}
 
 </style>
 <script type="application/ld+json">
@@ -180,7 +188,10 @@
     <div class="idx-facts"><div><div class="k">Style</div><div class="v">Colonial</div></div><div><div class="k">Roof</div><div class="v">Asphalt Shingle</div></div><div><div class="k">Siding</div><div class="v">Hardie Board</div></div><div><div class="k">Exterior features</div><div class="v">Deck, French Doors, Underground Sprinkler</div></div><div><div class="k">Foundation</div><div class="v">Concrete</div></div><div><div class="k">New construction</div><div class="v">Torn Down &amp; Rebuilt</div></div></div>
     <h2>Lot &amp; Land</h2>
     <div class="idx-facts"><div><div class="k">Zoning</div><div class="v">R-12</div></div><div><div class="k">Lot</div><div class="v">Level Lot</div></div></div>
-    <div class="idx-attrib">Listing courtesy of <strong>Serhant Connecticut, LLC</strong> — Danielle Malloy · (203) 489-7800</div>
+    <h2>Recorded sales</h2>
+<p class="pr-note">Deed transfers on file with the Greenwich land records, newest first. These are recordings rather than MLS sales, so they include transfers that were never listed. Nominal and $0 transfers (estate, trust and family conveyances) are excluded.</p>
+<ul class="pr-sales"><li class="pr-sale"><span class="pr-sale-d">2020-02-14</span><span class="pr-sale-p">$680,750</span><span class="pr-sale-t">Single Family</span></li>
+<li class="pr-sale"><span class="pr-sale-d">2020-02-11</span><span class="pr-sale-p">$30,000</span></li></ul><div class="idx-attrib">Listing courtesy of <strong>Serhant Connecticut, LLC</strong> — Danielle Malloy · (203) 489-7800</div>
     <div class="d-legal">Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers&#39; personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.</div>
     <h2>More homes in Greenwich</h2>
     <ul class="idx-sibs"><li><a href="/homes/9-columbus-avenue-greenwich-connecticut-24191640.html">9 Columbus Avenue — $1,990,000</a></li><li><a href="/homes/9-deluca-drive-greenwich-connecticut-24182954.html">9 Deluca Drive — $2,395,000</a></li><li><a href="/homes/97-riverside-avenue-greenwich-connecticut-24188623.html">97 Riverside Avenue — $20,000/mo</a></li><li><a href="/homes/98-valley-road-greenwich-connecticut-24195203.html">98 Valley Road — $4,300/mo</a></li><li><a href="/homes/991-lake-avenue-greenwich-connecticut-24182061.html">991 Lake Avenue — $6,750,000</a></li><li><a href="/homes/993-lake-avenue-greenwich-connecticut-24188047.html">993 Lake Avenue — $3,500,000</a></li></ul>

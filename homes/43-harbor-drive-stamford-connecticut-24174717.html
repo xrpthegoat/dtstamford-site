@@ -141,7 +141,15 @@
 .pr-cell{background:var(--bg2,#0a0a0d);padding:13px 15px;display:flex;flex-direction:column;gap:4px}
 .pr-k{font-family:var(--mono);font-size:.66rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
 .pr-v{font-size:.98rem;color:var(--fg)}
-@media(max-width:560px){.ph-date{width:86px;font-size:.72rem}.ph-mls{display:none}}
+.pr-sales{list-style:none;margin:0 0 26px;padding:0;border:1px solid var(--line);border-radius:14px;overflow:hidden}
+.pr-sale{display:flex;align-items:baseline;gap:14px;padding:11px 15px;background:var(--bg2,#0a0a0d)}
+.pr-sale+.pr-sale{border-top:1px solid var(--line)}
+.pr-sale-d{font-family:var(--mono);font-size:.72rem;letter-spacing:.04em;color:var(--muted);flex:0 0 88px}
+.pr-sale-p{font-size:.98rem;color:var(--fg);font-variant-numeric:tabular-nums}
+.pr-sale-t{margin-left:auto;font-family:var(--mono);font-size:.66rem;letter-spacing:.08em;
+  text-transform:uppercase;color:var(--faint)}
+@media(max-width:560px){.ph-date{width:86px;font-size:.72rem}.ph-mls{display:none}
+  .pr-sale-d{flex:0 0 74px}.pr-sale-t{display:none}}
 
 </style>
 <script type="application/ld+json">
@@ -190,7 +198,10 @@
 <tr><td class="ph-date">2026-08-07</td><td><a href="/homes/43-harbor-drive-stamford-connecticut-24196458.html">Listed — $7,800/mo</a></td><td class="ph-mls">MLS 24196458</td></tr>
 <tr><td class="ph-date">2026-07-06</td><td>Sold — <b>$640,000</b> <span class="ph-ask">asked $675,000</span> <span class="ph-this">(this listing)</span></td><td class="ph-mls">MLS 24174717</td></tr>
 </tbody></table><h2>About this building</h2>
-<p class="pr-note">The Stamford assessor lists this building as built in 1989 with 3 units on the town's record. Unit-level assessor detail is not shown here: the town and the MLS identify individual units differently, and matching them by guesswork would attach the wrong home's numbers to this page. Ask John for the exact record on this unit.</p><div class="idx-attrib">Listing courtesy of <strong>William Pitt Sotheby&#39;s Int&#39;l</strong> — Robbie Blosio · (203) 966-2633</div>
+<p class="pr-note">The Stamford assessor lists this building as built in 1989 with 3 units on the town's record. Unit-level assessor detail is not shown here: the town and the MLS identify individual units differently, and matching them by guesswork would attach the wrong home's numbers to this page. Ask John for the exact record on this unit.</p><h2>Recorded sales</h2>
+<p class="pr-note">Deed transfers on file with the Stamford land records, newest first. These are recordings rather than MLS sales, so they include transfers that were never listed. Nominal and $0 transfers (estate, trust and family conveyances) are excluded.</p>
+<ul class="pr-sales"><li class="pr-sale"><span class="pr-sale-d">2023-06-29</span><span class="pr-sale-p">$550,000</span><span class="pr-sale-t">Condo</span></li>
+<li class="pr-sale"><span class="pr-sale-d">2011-04-18</span><span class="pr-sale-p">$390,000</span><span class="pr-sale-t">Condo</span></li></ul><div class="idx-attrib">Listing courtesy of <strong>William Pitt Sotheby&#39;s Int&#39;l</strong> — Robbie Blosio · (203) 966-2633</div>
     <div class="d-legal">Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers&#39; personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.</div>
     <h2>More homes in Stamford</h2>
     <ul class="idx-sibs"><li><a href="/homes/43-hidden-brook-drive-stamford-connecticut-24167894.html">43 Hidden Brook Drive — $825,000</a></li><li><a href="/homes/43-randall-avenue-stamford-connecticut-24169239.html">43 Randall Avenue — $749,000</a></li><li><a href="/homes/43-ridgecrest-road-stamford-connecticut-24154380.html">43 Ridgecrest Road — $1,925,000</a></li><li><a href="/homes/431-glenbrook-road-stamford-connecticut-24163698.html">431 Glenbrook Road — $2,850/mo</a></li><li><a href="/homes/44-davenport-drive-stamford-connecticut-24168214.html">44 Davenport Drive — $9,500/mo</a></li><li><a href="/homes/44-pleasant-street-stamford-connecticut-24153966.html">44 Pleasant Street — $560,000</a></li></ul>

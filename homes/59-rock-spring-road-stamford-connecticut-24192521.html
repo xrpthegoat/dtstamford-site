@@ -141,7 +141,15 @@
 .pr-cell{background:var(--bg2,#0a0a0d);padding:13px 15px;display:flex;flex-direction:column;gap:4px}
 .pr-k{font-family:var(--mono);font-size:.66rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
 .pr-v{font-size:.98rem;color:var(--fg)}
-@media(max-width:560px){.ph-date{width:86px;font-size:.72rem}.ph-mls{display:none}}
+.pr-sales{list-style:none;margin:0 0 26px;padding:0;border:1px solid var(--line);border-radius:14px;overflow:hidden}
+.pr-sale{display:flex;align-items:baseline;gap:14px;padding:11px 15px;background:var(--bg2,#0a0a0d)}
+.pr-sale+.pr-sale{border-top:1px solid var(--line)}
+.pr-sale-d{font-family:var(--mono);font-size:.72rem;letter-spacing:.04em;color:var(--muted);flex:0 0 88px}
+.pr-sale-p{font-size:.98rem;color:var(--fg);font-variant-numeric:tabular-nums}
+.pr-sale-t{margin-left:auto;font-family:var(--mono);font-size:.66rem;letter-spacing:.08em;
+  text-transform:uppercase;color:var(--faint)}
+@media(max-width:560px){.ph-date{width:86px;font-size:.72rem}.ph-mls{display:none}
+  .pr-sale-d{flex:0 0 74px}.pr-sale-t{display:none}}
 
 </style>
 <script type="application/ld+json">
@@ -183,7 +191,11 @@
     <div class="idx-facts"><div><div class="k">Style</div><div class="v">Townhouse</div></div><div><div class="k">Siding</div><div class="v">Brick</div></div><div><div class="k">Exterior features</div><div class="v">Balcony</div></div><div><div class="k">Pool</div><div class="v">In Ground Pool</div></div><div><div class="k">New construction</div><div class="v">No/Resale</div></div></div>
     <h2>Lot &amp; Land</h2>
     <div class="idx-facts"><div><div class="k">Zoning</div><div class="v">R5</div></div></div>
-    <div class="idx-attrib">Listing courtesy of <strong>Compass Connecticut, LLC</strong> — Rachel Levi · (203) 343-0141</div>
+    <h2>Recorded sales</h2>
+<p class="pr-note">Deed transfers on file with the Stamford land records, newest first. These are recordings rather than MLS sales, so they include transfers that were never listed. Nominal and $0 transfers (estate, trust and family conveyances) are excluded.</p>
+<ul class="pr-sales"><li class="pr-sale"><span class="pr-sale-d">2024-08-16</span><span class="pr-sale-p">$560,000</span><span class="pr-sale-t">Condo</span></li>
+<li class="pr-sale"><span class="pr-sale-d">2020-09-15</span><span class="pr-sale-p">$395,000</span><span class="pr-sale-t">Condo</span></li>
+<li class="pr-sale"><span class="pr-sale-d">2015-04-29</span><span class="pr-sale-p">$325,000</span><span class="pr-sale-t">Condo</span></li></ul><div class="idx-attrib">Listing courtesy of <strong>Compass Connecticut, LLC</strong> — Rachel Levi · (203) 343-0141</div>
     <div class="d-legal">Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers&#39; personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.</div>
     <h2>More homes in Stamford</h2>
     <ul class="idx-sibs"><li><a href="/homes/6-east-walnut-street-stamford-connecticut-24180982.html">6 East Walnut Street — $2,925/mo</a></li><li><a href="/homes/6-minivale-road-stamford-connecticut-24190016.html">6 Minivale Road — $3,000/mo</a></li><li><a href="/homes/6-nottingham-drive-stamford-connecticut-24184101.html">6 Nottingham Drive — $5,200/mo</a></li><li><a href="/homes/6-sanford-lane-stamford-connecticut-24173203.html">6 Sanford Lane — $1,300,000</a></li><li><a href="/homes/6-walnut-ridge-court-stamford-connecticut-24172829.html">6 Walnut Ridge Court — $1,849,000</a></li><li><a href="/homes/60-arden-lane-stamford-connecticut-24192701.html">60 Arden Lane — $725,000</a></li></ul>

@@ -141,7 +141,15 @@
 .pr-cell{background:var(--bg2,#0a0a0d);padding:13px 15px;display:flex;flex-direction:column;gap:4px}
 .pr-k{font-family:var(--mono);font-size:.66rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
 .pr-v{font-size:.98rem;color:var(--fg)}
-@media(max-width:560px){.ph-date{width:86px;font-size:.72rem}.ph-mls{display:none}}
+.pr-sales{list-style:none;margin:0 0 26px;padding:0;border:1px solid var(--line);border-radius:14px;overflow:hidden}
+.pr-sale{display:flex;align-items:baseline;gap:14px;padding:11px 15px;background:var(--bg2,#0a0a0d)}
+.pr-sale+.pr-sale{border-top:1px solid var(--line)}
+.pr-sale-d{font-family:var(--mono);font-size:.72rem;letter-spacing:.04em;color:var(--muted);flex:0 0 88px}
+.pr-sale-p{font-size:.98rem;color:var(--fg);font-variant-numeric:tabular-nums}
+.pr-sale-t{margin-left:auto;font-family:var(--mono);font-size:.66rem;letter-spacing:.08em;
+  text-transform:uppercase;color:var(--faint)}
+@media(max-width:560px){.ph-date{width:86px;font-size:.72rem}.ph-mls{display:none}
+  .pr-sale-d{flex:0 0 74px}.pr-sale-t{display:none}}
 
 </style>
 <script type="application/ld+json">
@@ -190,7 +198,10 @@
 <div class="pr-cell"><span class="pr-k">Exterior</span><span class="pr-v">Wood Shingle</span></div>
 <div class="pr-cell"><span class="pr-k">Assessed value</span><span class="pr-v">$1,210,720</span></div>
 <div class="pr-cell"><span class="pr-k">Town appraisal</span><span class="pr-v">$1,729,600</span></div>
-<div class="pr-cell"><span class="pr-k">Last recorded sale</span><span class="pr-v">2014 — $1,250,000</span></div></div><div class="idx-attrib">Listing courtesy of <strong>Higgins Group Bedford Square</strong> — Nalini Hage · (203) 226-0300</div>
+<div class="pr-cell"><span class="pr-k">Last recorded sale</span><span class="pr-v">2014 — $1,250,000</span></div></div><h2>Recorded sales</h2>
+<p class="pr-note">Deed transfers on file with the Wilton land records, newest first. These are recordings rather than MLS sales, so they include transfers that were never listed. Nominal and $0 transfers (estate, trust and family conveyances) are excluded.</p>
+<ul class="pr-sales"><li class="pr-sale"><span class="pr-sale-d">2014-07-18</span><span class="pr-sale-p">$1,250,000</span><span class="pr-sale-t">Single Family</span></li>
+<li class="pr-sale"><span class="pr-sale-d">2005-06-28</span><span class="pr-sale-p">$1,772,500</span></li></ul><div class="idx-attrib">Listing courtesy of <strong>Higgins Group Bedford Square</strong> — Nalini Hage · (203) 226-0300</div>
     <div class="d-legal">Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers&#39; personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.</div>
     <h2>More homes in Wilton</h2>
     <ul class="idx-sibs"><li><a href="/homes/183-range-road-wilton-connecticut-24178624.html">183 Range Road — $1,275,000</a></li><li><a href="/homes/195-range-road-wilton-connecticut-24186255.html">195 Range Road — $879,000</a></li><li><a href="/homes/2-deerfield-road-wilton-connecticut-24183185.html">2 Deerfield Road — $2,249,000</a></li><li><a href="/homes/20-cherry-lane-wilton-connecticut-24165364.html">20 Cherry Lane — $2,679,000</a></li><li><a href="/homes/20-wicks-end-lane-wilton-connecticut-24185095.html">20 Wicks End Lane — $1,599,000</a></li><li><a href="/homes/205-mountain-road-wilton-connecticut-24193359.html">205 Mountain Road — $3,000/mo</a></li></ul>

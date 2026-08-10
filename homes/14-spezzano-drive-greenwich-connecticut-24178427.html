@@ -141,7 +141,15 @@
 .pr-cell{background:var(--bg2,#0a0a0d);padding:13px 15px;display:flex;flex-direction:column;gap:4px}
 .pr-k{font-family:var(--mono);font-size:.66rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
 .pr-v{font-size:.98rem;color:var(--fg)}
-@media(max-width:560px){.ph-date{width:86px;font-size:.72rem}.ph-mls{display:none}}
+.pr-sales{list-style:none;margin:0 0 26px;padding:0;border:1px solid var(--line);border-radius:14px;overflow:hidden}
+.pr-sale{display:flex;align-items:baseline;gap:14px;padding:11px 15px;background:var(--bg2,#0a0a0d)}
+.pr-sale+.pr-sale{border-top:1px solid var(--line)}
+.pr-sale-d{font-family:var(--mono);font-size:.72rem;letter-spacing:.04em;color:var(--muted);flex:0 0 88px}
+.pr-sale-p{font-size:.98rem;color:var(--fg);font-variant-numeric:tabular-nums}
+.pr-sale-t{margin-left:auto;font-family:var(--mono);font-size:.66rem;letter-spacing:.08em;
+  text-transform:uppercase;color:var(--faint)}
+@media(max-width:560px){.ph-date{width:86px;font-size:.72rem}.ph-mls{display:none}
+  .pr-sale-d{flex:0 0 74px}.pr-sale-t{display:none}}
 
 </style>
 <script type="application/ld+json">
@@ -183,7 +191,9 @@
 <p class="ph-note">Every time this exact home has come to market in the MLS data this site tracks. Where a sale closed, the recorded sale price is shown; "asking" marks a price the home was listed at rather than what it sold for.</p>
 <table class="ph-table"><tbody>
 <tr><td class="ph-date">2026-07-02</td><td>Sold — <b>$1,015,000</b> <span class="ph-ask">asked $735,000</span> <span class="ph-this">(this listing)</span></td><td class="ph-mls">MLS 24178427</td></tr>
-</tbody></table><div class="idx-attrib">Listing courtesy of <strong>Coldwell Banker Realty</strong> — Lorin Pratley · (203) 622-1100</div>
+</tbody></table><h2>Recorded sales</h2>
+<p class="pr-note">Deed transfers on file with the Greenwich land records, newest first. These are recordings rather than MLS sales, so they include transfers that were never listed. Nominal and $0 transfers (estate, trust and family conveyances) are excluded.</p>
+<ul class="pr-sales"><li class="pr-sale"><span class="pr-sale-d">2022-12-22</span><span class="pr-sale-p">$669,000</span><span class="pr-sale-t">Single Family</span></li></ul><div class="idx-attrib">Listing courtesy of <strong>Coldwell Banker Realty</strong> — Lorin Pratley · (203) 622-1100</div>
     <div class="d-legal">Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers&#39; personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.</div>
     <h2>More homes in Greenwich</h2>
     <ul class="idx-sibs"><li><a href="/homes/140-field-point-road-greenwich-connecticut-24158334.html">140 Field Point Road — $4,000/mo</a></li><li><a href="/homes/1465-east-putnam-avenue-greenwich-connecticut-24151269.html">1465 East Putnam Avenue — $3,000/mo</a></li><li><a href="/homes/1465-east-putnam-avenue-greenwich-connecticut-24175843.html">1465 East Putnam Avenue — $425,000</a></li><li><a href="/homes/148-putnam-park-greenwich-connecticut-24164334.html">148 Putnam Park — $775,000</a></li><li><a href="/homes/15-bowman-drive-greenwich-connecticut-24160748.html">15 Bowman Drive — $10,000/mo</a></li><li><a href="/homes/15-henry-street-greenwich-connecticut-24141403.html">15 Henry Street — $650,000</a></li></ul>

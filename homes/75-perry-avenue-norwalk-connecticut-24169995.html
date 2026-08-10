@@ -141,7 +141,15 @@
 .pr-cell{background:var(--bg2,#0a0a0d);padding:13px 15px;display:flex;flex-direction:column;gap:4px}
 .pr-k{font-family:var(--mono);font-size:.66rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
 .pr-v{font-size:.98rem;color:var(--fg)}
-@media(max-width:560px){.ph-date{width:86px;font-size:.72rem}.ph-mls{display:none}}
+.pr-sales{list-style:none;margin:0 0 26px;padding:0;border:1px solid var(--line);border-radius:14px;overflow:hidden}
+.pr-sale{display:flex;align-items:baseline;gap:14px;padding:11px 15px;background:var(--bg2,#0a0a0d)}
+.pr-sale+.pr-sale{border-top:1px solid var(--line)}
+.pr-sale-d{font-family:var(--mono);font-size:.72rem;letter-spacing:.04em;color:var(--muted);flex:0 0 88px}
+.pr-sale-p{font-size:.98rem;color:var(--fg);font-variant-numeric:tabular-nums}
+.pr-sale-t{margin-left:auto;font-family:var(--mono);font-size:.66rem;letter-spacing:.08em;
+  text-transform:uppercase;color:var(--faint)}
+@media(max-width:560px){.ph-date{width:86px;font-size:.72rem}.ph-mls{display:none}
+  .pr-sale-d{flex:0 0 74px}.pr-sale-t{display:none}}
 
 </style>
 <script type="application/ld+json">
@@ -196,7 +204,12 @@
 <div class="pr-cell"><span class="pr-k">Exterior</span><span class="pr-v">Aluminum Sidng</span></div>
 <div class="pr-cell"><span class="pr-k">Assessed value</span><span class="pr-v">$340,200</span></div>
 <div class="pr-cell"><span class="pr-k">Town appraisal</span><span class="pr-v">$485,990</span></div>
-<div class="pr-cell"><span class="pr-k">Last recorded sale</span><span class="pr-v">2015 — $435,000</span></div></div><div class="idx-attrib">Listing courtesy of <strong>Realty ONE Group Connect</strong> — Dean Papadopoulos · (203) 590-1111</div>
+<div class="pr-cell"><span class="pr-k">Last recorded sale</span><span class="pr-v">2015 — $435,000</span></div></div><h2>Recorded sales</h2>
+<p class="pr-note">Deed transfers on file with the Norwalk land records, newest first. These are recordings rather than MLS sales, so they include transfers that were never listed. Nominal and $0 transfers (estate, trust and family conveyances) are excluded.</p>
+<ul class="pr-sales"><li class="pr-sale"><span class="pr-sale-d">2015-11-13</span><span class="pr-sale-p">$435,000</span><span class="pr-sale-t">Single Family</span></li>
+<li class="pr-sale"><span class="pr-sale-d">2012-10-19</span><span class="pr-sale-p">$420,000</span><span class="pr-sale-t">Single Family</span></li>
+<li class="pr-sale"><span class="pr-sale-d">2007-09-13</span><span class="pr-sale-p">$170,000</span><span class="pr-sale-t">Condo</span></li>
+<li class="pr-sale"><span class="pr-sale-d">2007-09-11</span><span class="pr-sale-p">$170,000</span><span class="pr-sale-t">Single Family</span></li></ul><div class="idx-attrib">Listing courtesy of <strong>Realty ONE Group Connect</strong> — Dean Papadopoulos · (203) 590-1111</div>
     <div class="d-legal">Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers&#39; personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.</div>
     <h2>More homes in Norwalk</h2>
     <ul class="idx-sibs"><li><a href="/homes/76-fawn-ridge-lane-norwalk-connecticut-24151523.html">76 Fawn Ridge Lane — $619,000</a></li><li><a href="/homes/76-gillies-lane-norwalk-connecticut-24167486.html">76 Gillies Lane — $539,000</a></li><li><a href="/homes/76-new-canaan-avenue-norwalk-connecticut-24174385.html">76 New Canaan Avenue — $489,900</a></li><li><a href="/homes/78-osborne-avenue-norwalk-connecticut-24170595.html">78 Osborne Avenue — $1,800/mo</a></li><li><a href="/homes/8-bartlett-manor-norwalk-connecticut-24165229.html">8 Bartlett Manor — $550,000</a></li><li><a href="/homes/8-dorset-road-norwalk-connecticut-24159302.html">8 Dorset Road — $835,000</a></li></ul>

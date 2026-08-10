@@ -141,7 +141,15 @@
 .pr-cell{background:var(--bg2,#0a0a0d);padding:13px 15px;display:flex;flex-direction:column;gap:4px}
 .pr-k{font-family:var(--mono);font-size:.66rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
 .pr-v{font-size:.98rem;color:var(--fg)}
-@media(max-width:560px){.ph-date{width:86px;font-size:.72rem}.ph-mls{display:none}}
+.pr-sales{list-style:none;margin:0 0 26px;padding:0;border:1px solid var(--line);border-radius:14px;overflow:hidden}
+.pr-sale{display:flex;align-items:baseline;gap:14px;padding:11px 15px;background:var(--bg2,#0a0a0d)}
+.pr-sale+.pr-sale{border-top:1px solid var(--line)}
+.pr-sale-d{font-family:var(--mono);font-size:.72rem;letter-spacing:.04em;color:var(--muted);flex:0 0 88px}
+.pr-sale-p{font-size:.98rem;color:var(--fg);font-variant-numeric:tabular-nums}
+.pr-sale-t{margin-left:auto;font-family:var(--mono);font-size:.66rem;letter-spacing:.08em;
+  text-transform:uppercase;color:var(--faint)}
+@media(max-width:560px){.ph-date{width:86px;font-size:.72rem}.ph-mls{display:none}
+  .pr-sale-d{flex:0 0 74px}.pr-sale-t{display:none}}
 
 </style>
 <script type="application/ld+json">
@@ -194,7 +202,12 @@
 <div class="pr-cell"><span class="pr-k">Exterior</span><span class="pr-v">Board & Batten</span></div>
 <div class="pr-cell"><span class="pr-k">Assessed value</span><span class="pr-v">$530,180</span></div>
 <div class="pr-cell"><span class="pr-k">Town appraisal</span><span class="pr-v">$757,400</span></div>
-<div class="pr-cell"><span class="pr-k">Last recorded sale</span><span class="pr-v">2020 — $662,000</span></div></div><div class="idx-attrib">Listing courtesy of <strong>Compass Connecticut, LLC</strong> — Jessica Sigmund · (203) 343-0141</div>
+<div class="pr-cell"><span class="pr-k">Last recorded sale</span><span class="pr-v">2020 — $662,000</span></div></div><h2>Recorded sales</h2>
+<p class="pr-note">Deed transfers on file with the Wilton land records, newest first. These are recordings rather than MLS sales, so they include transfers that were never listed. Nominal and $0 transfers (estate, trust and family conveyances) are excluded.</p>
+<ul class="pr-sales"><li class="pr-sale"><span class="pr-sale-d">2020-05-29</span><span class="pr-sale-p">$662,000</span><span class="pr-sale-t">Single Family</span></li>
+<li class="pr-sale"><span class="pr-sale-d">2008-12-12</span><span class="pr-sale-p">$675,000</span><span class="pr-sale-t">Single Family</span></li>
+<li class="pr-sale"><span class="pr-sale-d">2005-06-29</span><span class="pr-sale-p">$819,000</span></li>
+<li class="pr-sale"><span class="pr-sale-d">2002-09-10</span><span class="pr-sale-p">$650,000</span></li></ul><div class="idx-attrib">Listing courtesy of <strong>Compass Connecticut, LLC</strong> — Jessica Sigmund · (203) 343-0141</div>
     <div class="d-legal">Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers&#39; personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.</div>
     <h2>More homes in Wilton</h2>
     <ul class="idx-sibs"><li><a href="/homes/35-marvin-ridge-place-wilton-connecticut-24159746.html">35 Marvin Ridge Place — $1,489,000</a></li><li><a href="/homes/35-orchard-drive-wilton-connecticut-24165402.html">35 Orchard Drive — $829,000</a></li><li><a href="/homes/36-rockhouse-road-wilton-connecticut-24187186.html">36 Rockhouse Road — $1,349,000</a></li><li><a href="/homes/36-scribner-hill-road-wilton-connecticut-24168387.html">36 Scribner Hill Road — $405,000</a></li><li><a href="/homes/360-thayer-pond-road-wilton-connecticut-24128928.html">360 Thayer Pond Road — $1,425,000</a></li><li><a href="/homes/38-honey-hill-road-wilton-connecticut-24125610.html">38 Honey Hill Road — $1,735,000</a></li></ul>

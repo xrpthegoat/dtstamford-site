@@ -141,7 +141,15 @@
 .pr-cell{background:var(--bg2,#0a0a0d);padding:13px 15px;display:flex;flex-direction:column;gap:4px}
 .pr-k{font-family:var(--mono);font-size:.66rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
 .pr-v{font-size:.98rem;color:var(--fg)}
-@media(max-width:560px){.ph-date{width:86px;font-size:.72rem}.ph-mls{display:none}}
+.pr-sales{list-style:none;margin:0 0 26px;padding:0;border:1px solid var(--line);border-radius:14px;overflow:hidden}
+.pr-sale{display:flex;align-items:baseline;gap:14px;padding:11px 15px;background:var(--bg2,#0a0a0d)}
+.pr-sale+.pr-sale{border-top:1px solid var(--line)}
+.pr-sale-d{font-family:var(--mono);font-size:.72rem;letter-spacing:.04em;color:var(--muted);flex:0 0 88px}
+.pr-sale-p{font-size:.98rem;color:var(--fg);font-variant-numeric:tabular-nums}
+.pr-sale-t{margin-left:auto;font-family:var(--mono);font-size:.66rem;letter-spacing:.08em;
+  text-transform:uppercase;color:var(--faint)}
+@media(max-width:560px){.ph-date{width:86px;font-size:.72rem}.ph-mls{display:none}
+  .pr-sale-d{flex:0 0 74px}.pr-sale-t{display:none}}
 
 </style>
 <script type="application/ld+json">
@@ -197,7 +205,9 @@
 <div class="pr-cell"><span class="pr-k">Heat</span><span class="pr-v">Forced Air</span></div>
 <div class="pr-cell"><span class="pr-k">Assessed value</span><span class="pr-v">$443,330</span></div>
 <div class="pr-cell"><span class="pr-k">Town appraisal</span><span class="pr-v">$633,330</span></div>
-<div class="pr-cell"><span class="pr-k">Last recorded sale</span><span class="pr-v">2008 — $678,000</span></div></div><div class="idx-attrib">Listing courtesy of <strong>Compass Connecticut, LLC</strong> — Andrea Viscuso · (203) 489-6499</div>
+<div class="pr-cell"><span class="pr-k">Last recorded sale</span><span class="pr-v">2008 — $678,000</span></div></div><h2>Recorded sales</h2>
+<p class="pr-note">Deed transfers on file with the Norwalk land records, newest first. These are recordings rather than MLS sales, so they include transfers that were never listed. Nominal and $0 transfers (estate, trust and family conveyances) are excluded.</p>
+<ul class="pr-sales"><li class="pr-sale"><span class="pr-sale-d">2008-04-01</span><span class="pr-sale-p">$678,000</span><span class="pr-sale-t">Condo</span></li></ul><div class="idx-attrib">Listing courtesy of <strong>Compass Connecticut, LLC</strong> — Andrea Viscuso · (203) 489-6499</div>
     <div class="d-legal">Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers&#39; personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.</div>
     <h2>More homes in Norwalk</h2>
     <ul class="idx-sibs"><li><a href="/homes/33-purdy-road-east-norwalk-connecticut-24147515.html">33 Purdy Road East — $850,000</a></li><li><a href="/homes/33-strathmore-lane-norwalk-connecticut-24180910.html">33 Strathmore Lane — $4,100/mo</a></li><li><a href="/homes/34-channel-avenue-norwalk-connecticut-24173410.html">34 Channel Avenue — $2,275,000</a></li><li><a href="/homes/34-dr-martin-luther-king-jr-drive-norwalk-connecticut-24174230.html">34 Dr Martin Luther King Jr Drive — $2,425/mo</a></li><li><a href="/homes/34-sunrise-hill-road-norwalk-connecticut-24135575.html">34 Sunrise Hill Road — $542,000</a></li><li><a href="/homes/35-fox-run-road-norwalk-connecticut-170330913.html">35 Fox Run Road — $629,000</a></li></ul>

@@ -141,7 +141,15 @@
 .pr-cell{background:var(--bg2,#0a0a0d);padding:13px 15px;display:flex;flex-direction:column;gap:4px}
 .pr-k{font-family:var(--mono);font-size:.66rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
 .pr-v{font-size:.98rem;color:var(--fg)}
-@media(max-width:560px){.ph-date{width:86px;font-size:.72rem}.ph-mls{display:none}}
+.pr-sales{list-style:none;margin:0 0 26px;padding:0;border:1px solid var(--line);border-radius:14px;overflow:hidden}
+.pr-sale{display:flex;align-items:baseline;gap:14px;padding:11px 15px;background:var(--bg2,#0a0a0d)}
+.pr-sale+.pr-sale{border-top:1px solid var(--line)}
+.pr-sale-d{font-family:var(--mono);font-size:.72rem;letter-spacing:.04em;color:var(--muted);flex:0 0 88px}
+.pr-sale-p{font-size:.98rem;color:var(--fg);font-variant-numeric:tabular-nums}
+.pr-sale-t{margin-left:auto;font-family:var(--mono);font-size:.66rem;letter-spacing:.08em;
+  text-transform:uppercase;color:var(--faint)}
+@media(max-width:560px){.ph-date{width:86px;font-size:.72rem}.ph-mls{display:none}
+  .pr-sale-d{flex:0 0 74px}.pr-sale-t{display:none}}
 
 </style>
 <script type="application/ld+json">
@@ -187,7 +195,9 @@
 <p class="ph-note">Every time this exact home has come to market in the MLS data this site tracks. Where a sale closed, the recorded sale price is shown; "asking" marks a price the home was listed at rather than what it sold for.</p>
 <table class="ph-table"><tbody>
 <tr><td class="ph-date">2026-05-11</td><td>Sold — <b>$495,000</b> <span class="ph-ask">asked $450,000</span> <span class="ph-this">(this listing)</span></td><td class="ph-mls">MLS 24130036</td></tr>
-</tbody></table><div class="idx-attrib">Listing courtesy of <strong>eXp Realty</strong> — Eva Casoria · (866) 828-3951</div>
+</tbody></table><h2>Recorded sales</h2>
+<p class="pr-note">Deed transfers on file with the Stamford land records, newest first. These are recordings rather than MLS sales, so they include transfers that were never listed. Nominal and $0 transfers (estate, trust and family conveyances) are excluded.</p>
+<ul class="pr-sales"><li class="pr-sale"><span class="pr-sale-d">2021-01-13</span><span class="pr-sale-p">$325,000</span><span class="pr-sale-t">Condo</span></li></ul><div class="idx-attrib">Listing courtesy of <strong>eXp Realty</strong> — Eva Casoria · (866) 828-3951</div>
     <div class="d-legal">Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers&#39; personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.</div>
     <h2>More homes in Stamford</h2>
     <ul class="idx-sibs"><li><a href="/homes/56-hubbard-avenue-stamford-connecticut-24170637.html">56 Hubbard Avenue — $995,000</a></li><li><a href="/homes/56-lakeview-drive-stamford-connecticut-24170014.html">56 lakeview Drive — $985,000</a></li><li><a href="/homes/56-windsor-road-stamford-connecticut-24147530.html">56 Windsor Road — $786,000</a></li><li><a href="/homes/566-newfield-avenue-stamford-connecticut-24191453.html">566 Newfield Avenue — $3,900/mo</a></li><li><a href="/homes/57-dean-street-stamford-connecticut-24156121.html">57 Dean Street — $3,900/mo</a></li><li><a href="/homes/57-drum-hill-lane-stamford-connecticut-24162460.html">57 Drum Hill Lane — $8,750/mo</a></li></ul>

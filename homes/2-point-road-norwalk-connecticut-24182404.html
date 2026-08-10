@@ -141,7 +141,15 @@
 .pr-cell{background:var(--bg2,#0a0a0d);padding:13px 15px;display:flex;flex-direction:column;gap:4px}
 .pr-k{font-family:var(--mono);font-size:.66rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
 .pr-v{font-size:.98rem;color:var(--fg)}
-@media(max-width:560px){.ph-date{width:86px;font-size:.72rem}.ph-mls{display:none}}
+.pr-sales{list-style:none;margin:0 0 26px;padding:0;border:1px solid var(--line);border-radius:14px;overflow:hidden}
+.pr-sale{display:flex;align-items:baseline;gap:14px;padding:11px 15px;background:var(--bg2,#0a0a0d)}
+.pr-sale+.pr-sale{border-top:1px solid var(--line)}
+.pr-sale-d{font-family:var(--mono);font-size:.72rem;letter-spacing:.04em;color:var(--muted);flex:0 0 88px}
+.pr-sale-p{font-size:.98rem;color:var(--fg);font-variant-numeric:tabular-nums}
+.pr-sale-t{margin-left:auto;font-family:var(--mono);font-size:.66rem;letter-spacing:.08em;
+  text-transform:uppercase;color:var(--faint)}
+@media(max-width:560px){.ph-date{width:86px;font-size:.72rem}.ph-mls{display:none}
+  .pr-sale-d{flex:0 0 74px}.pr-sale-t{display:none}}
 
 </style>
 <script type="application/ld+json">
@@ -196,7 +204,9 @@
 <div class="pr-cell"><span class="pr-k">Exterior</span><span class="pr-v">Wood</span></div>
 <div class="pr-cell"><span class="pr-k">Assessed value</span><span class="pr-v">$1,537,830</span></div>
 <div class="pr-cell"><span class="pr-k">Town appraisal</span><span class="pr-v">$2,196,880</span></div>
-<div class="pr-cell"><span class="pr-k">Last recorded sale</span><span class="pr-v">2020 — $1,775,000</span></div></div><div class="idx-attrib">Listing courtesy of <strong>Compass Connecticut, LLC</strong> — Zoe Hamann · (203) 423-3100</div>
+<div class="pr-cell"><span class="pr-k">Last recorded sale</span><span class="pr-v">2020 — $1,775,000</span></div></div><h2>Recorded sales</h2>
+<p class="pr-note">Deed transfers on file with the Norwalk land records, newest first. These are recordings rather than MLS sales, so they include transfers that were never listed. Nominal and $0 transfers (estate, trust and family conveyances) are excluded.</p>
+<ul class="pr-sales"><li class="pr-sale"><span class="pr-sale-d">2020-11-24</span><span class="pr-sale-p">$1,775,000</span><span class="pr-sale-t">Single Family</span></li></ul><div class="idx-attrib">Listing courtesy of <strong>Compass Connecticut, LLC</strong> — Zoe Hamann · (203) 423-3100</div>
     <div class="d-legal">Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers&#39; personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.</div>
     <h2>More homes in Norwalk</h2>
     <ul class="idx-sibs"><li><a href="/homes/2-redbird-lane-norwalk-connecticut-24160771.html">2 Redbird Lane — $654,900</a></li><li><a href="/homes/2-rising-road-norwalk-connecticut-24172973.html">2 Rising Road — $949,000</a></li><li><a href="/homes/2-rochelle-road-norwalk-connecticut-24150904.html">2 Rochelle Road — $670,000</a></li><li><a href="/homes/2-south-main-street-norwalk-connecticut-24128453.html">2 South Main Street — $2,200/mo</a></li><li><a href="/homes/2-studio-lane-norwalk-connecticut-24173363.html">2 Studio Lane — $899,000</a></li><li><a href="/homes/2-thistle-road-norwalk-connecticut-24161629.html">2 Thistle Road — $845,000</a></li></ul>

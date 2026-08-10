@@ -141,7 +141,15 @@
 .pr-cell{background:var(--bg2,#0a0a0d);padding:13px 15px;display:flex;flex-direction:column;gap:4px}
 .pr-k{font-family:var(--mono);font-size:.66rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
 .pr-v{font-size:.98rem;color:var(--fg)}
-@media(max-width:560px){.ph-date{width:86px;font-size:.72rem}.ph-mls{display:none}}
+.pr-sales{list-style:none;margin:0 0 26px;padding:0;border:1px solid var(--line);border-radius:14px;overflow:hidden}
+.pr-sale{display:flex;align-items:baseline;gap:14px;padding:11px 15px;background:var(--bg2,#0a0a0d)}
+.pr-sale+.pr-sale{border-top:1px solid var(--line)}
+.pr-sale-d{font-family:var(--mono);font-size:.72rem;letter-spacing:.04em;color:var(--muted);flex:0 0 88px}
+.pr-sale-p{font-size:.98rem;color:var(--fg);font-variant-numeric:tabular-nums}
+.pr-sale-t{margin-left:auto;font-family:var(--mono);font-size:.66rem;letter-spacing:.08em;
+  text-transform:uppercase;color:var(--faint)}
+@media(max-width:560px){.ph-date{width:86px;font-size:.72rem}.ph-mls{display:none}
+  .pr-sale-d{flex:0 0 74px}.pr-sale-t{display:none}}
 
 </style>
 <script type="application/ld+json">
@@ -192,7 +200,9 @@
 <div class="pr-cell"><span class="pr-k">Heat</span><span class="pr-v">Central Heat</span></div>
 <div class="pr-cell"><span class="pr-k">Assessed value</span><span class="pr-v">$198,720</span></div>
 <div class="pr-cell"><span class="pr-k">Town appraisal</span><span class="pr-v">$283,880</span></div>
-<div class="pr-cell"><span class="pr-k">Last recorded sale</span><span class="pr-v">2023 — $440,000</span></div></div><div class="idx-attrib">Listing courtesy of <strong>Keller Williams Prestige Prop.</strong> — Franki Delgado · (203) 327-6700</div>
+<div class="pr-cell"><span class="pr-k">Last recorded sale</span><span class="pr-v">2023 — $440,000</span></div></div><h2>Recorded sales</h2>
+<p class="pr-note">Deed transfers on file with the Stamford land records, newest first. These are recordings rather than MLS sales, so they include transfers that were never listed. Nominal and $0 transfers (estate, trust and family conveyances) are excluded.</p>
+<ul class="pr-sales"><li class="pr-sale"><span class="pr-sale-d">2023-11-28</span><span class="pr-sale-p">$440,000</span><span class="pr-sale-t">Condo</span></li></ul><div class="idx-attrib">Listing courtesy of <strong>Keller Williams Prestige Prop.</strong> — Franki Delgado · (203) 327-6700</div>
     <div class="d-legal">Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers&#39; personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.</div>
     <h2>More homes in Stamford</h2>
     <ul class="idx-sibs"><li><a href="/homes/12-chestnut-street-stamford-connecticut-24196946.html">12 Chestnut Street — $555,000</a></li><li><a href="/homes/12-old-mill-lane-stamford-connecticut-24186784.html">12 Old Mill Lane — $1,785,000</a></li><li><a href="/homes/12-regent-court-stamford-connecticut-24188660.html">12 Regent Court — $789,000</a></li><li><a href="/homes/12-walnut-ridge-court-stamford-connecticut-24172831.html">12 Walnut Ridge Court — $1,495,000</a></li><li><a href="/homes/12-woodbine-way-stamford-connecticut-24172956.html">12 Woodbine Way — $2,275,000</a></li><li><a href="/homes/120a-towne-street-stamford-connecticut-24174858.html">120a Towne Street — $3,141/mo</a></li></ul>

@@ -141,7 +141,15 @@
 .pr-cell{background:var(--bg2,#0a0a0d);padding:13px 15px;display:flex;flex-direction:column;gap:4px}
 .pr-k{font-family:var(--mono);font-size:.66rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
 .pr-v{font-size:.98rem;color:var(--fg)}
-@media(max-width:560px){.ph-date{width:86px;font-size:.72rem}.ph-mls{display:none}}
+.pr-sales{list-style:none;margin:0 0 26px;padding:0;border:1px solid var(--line);border-radius:14px;overflow:hidden}
+.pr-sale{display:flex;align-items:baseline;gap:14px;padding:11px 15px;background:var(--bg2,#0a0a0d)}
+.pr-sale+.pr-sale{border-top:1px solid var(--line)}
+.pr-sale-d{font-family:var(--mono);font-size:.72rem;letter-spacing:.04em;color:var(--muted);flex:0 0 88px}
+.pr-sale-p{font-size:.98rem;color:var(--fg);font-variant-numeric:tabular-nums}
+.pr-sale-t{margin-left:auto;font-family:var(--mono);font-size:.66rem;letter-spacing:.08em;
+  text-transform:uppercase;color:var(--faint)}
+@media(max-width:560px){.ph-date{width:86px;font-size:.72rem}.ph-mls{display:none}
+  .pr-sale-d{flex:0 0 74px}.pr-sale-t{display:none}}
 
 </style>
 <script type="application/ld+json">
@@ -195,7 +203,9 @@
 <div class="pr-cell"><span class="pr-k">Exterior</span><span class="pr-v">Vinyl Siding</span></div>
 <div class="pr-cell"><span class="pr-k">Assessed value</span><span class="pr-v">$527,030</span></div>
 <div class="pr-cell"><span class="pr-k">Town appraisal</span><span class="pr-v">$752,900</span></div>
-<div class="pr-cell"><span class="pr-k">Last recorded sale</span><span class="pr-v">2022 — $655,000</span></div></div><div class="idx-attrib">Listing courtesy of <strong>Compass Connecticut, LLC</strong> — Marion Filley · (203) 293-9715</div>
+<div class="pr-cell"><span class="pr-k">Last recorded sale</span><span class="pr-v">2022 — $655,000</span></div></div><h2>Recorded sales</h2>
+<p class="pr-note">Deed transfers on file with the Wilton land records, newest first. These are recordings rather than MLS sales, so they include transfers that were never listed. Nominal and $0 transfers (estate, trust and family conveyances) are excluded.</p>
+<ul class="pr-sales"><li class="pr-sale"><span class="pr-sale-d">2022-01-24</span><span class="pr-sale-p">$655,000</span><span class="pr-sale-t">Single Family</span></li></ul><div class="idx-attrib">Listing courtesy of <strong>Compass Connecticut, LLC</strong> — Marion Filley · (203) 293-9715</div>
     <div class="d-legal">Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers&#39; personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.</div>
     <h2>More homes in Wilton</h2>
     <ul class="idx-sibs"><li><a href="/homes/115-pine-ridge-road-wilton-connecticut-24164766.html">115 Pine Ridge Road — $1,779,000</a></li><li><a href="/homes/116-scarlet-oak-drive-wilton-connecticut-24189779.html">116 Scarlet Oak Drive — $7,500/mo</a></li><li><a href="/homes/117-whipstick-road-wilton-connecticut-24166495.html">117 Whipstick Road — $1,250,000</a></li><li><a href="/homes/118-old-kings-highway-wilton-connecticut-24183854.html">118 Old Kings Highway — $1,189,000</a></li><li><a href="/homes/118-silver-spring-road-wilton-connecticut-24175132.html">118 Silver Spring Road — $1,595,000</a></li><li><a href="/homes/12-brandon-circle-wilton-connecticut-24161566.html">12 Brandon Circle — $2,995,000</a></li></ul>

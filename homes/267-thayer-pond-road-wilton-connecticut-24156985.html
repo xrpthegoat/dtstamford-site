@@ -141,7 +141,15 @@
 .pr-cell{background:var(--bg2,#0a0a0d);padding:13px 15px;display:flex;flex-direction:column;gap:4px}
 .pr-k{font-family:var(--mono);font-size:.66rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
 .pr-v{font-size:.98rem;color:var(--fg)}
-@media(max-width:560px){.ph-date{width:86px;font-size:.72rem}.ph-mls{display:none}}
+.pr-sales{list-style:none;margin:0 0 26px;padding:0;border:1px solid var(--line);border-radius:14px;overflow:hidden}
+.pr-sale{display:flex;align-items:baseline;gap:14px;padding:11px 15px;background:var(--bg2,#0a0a0d)}
+.pr-sale+.pr-sale{border-top:1px solid var(--line)}
+.pr-sale-d{font-family:var(--mono);font-size:.72rem;letter-spacing:.04em;color:var(--muted);flex:0 0 88px}
+.pr-sale-p{font-size:.98rem;color:var(--fg);font-variant-numeric:tabular-nums}
+.pr-sale-t{margin-left:auto;font-family:var(--mono);font-size:.66rem;letter-spacing:.08em;
+  text-transform:uppercase;color:var(--faint)}
+@media(max-width:560px){.ph-date{width:86px;font-size:.72rem}.ph-mls{display:none}
+  .pr-sale-d{flex:0 0 74px}.pr-sale-t{display:none}}
 
 </style>
 <script type="application/ld+json">
@@ -194,7 +202,9 @@
 <div class="pr-cell"><span class="pr-k">Exterior</span><span class="pr-v">Wood Shingle</span></div>
 <div class="pr-cell"><span class="pr-k">Assessed value</span><span class="pr-v">$576,870</span></div>
 <div class="pr-cell"><span class="pr-k">Town appraisal</span><span class="pr-v">$824,100</span></div>
-<div class="pr-cell"><span class="pr-k">Last recorded sale</span><span class="pr-v">2004 — $785,000</span></div></div><div class="idx-attrib">Listing courtesy of <strong>Berkshire Hathaway NE Prop.</strong> — Cindy Watkins · (203) 762-8331</div>
+<div class="pr-cell"><span class="pr-k">Last recorded sale</span><span class="pr-v">2004 — $785,000</span></div></div><h2>Recorded sales</h2>
+<p class="pr-note">Deed transfers on file with the Wilton land records, newest first. These are recordings rather than MLS sales, so they include transfers that were never listed. Nominal and $0 transfers (estate, trust and family conveyances) are excluded.</p>
+<ul class="pr-sales"><li class="pr-sale"><span class="pr-sale-d">2004-12-21</span><span class="pr-sale-p">$785,000</span></li></ul><div class="idx-attrib">Listing courtesy of <strong>Berkshire Hathaway NE Prop.</strong> — Cindy Watkins · (203) 762-8331</div>
     <div class="d-legal">Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers&#39; personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.</div>
     <h2>More homes in Wilton</h2>
     <ul class="idx-sibs"><li><a href="/homes/270-old-grumman-hill-road-wilton-connecticut-24180489.html">270 Old Grumman Hill Road — $1,027,800</a></li><li><a href="/homes/279-cheesespring-road-wilton-connecticut-24172360.html">279 Cheesespring Road — $1,040,000</a></li><li><a href="/homes/29-spruce-drive-wilton-connecticut-24160941.html">29 Spruce Drive — $1,199,000</a></li><li><a href="/homes/3-deerfield-road-wilton-connecticut-24131722.html">3 Deerfield Road — $849,000</a></li><li><a href="/homes/3-millstone-road-wilton-connecticut-24180788.html">3 Millstone Road — $5,700/mo</a></li><li><a href="/homes/30-freshwater-lane-wilton-connecticut-24149503.html">30 Freshwater Lane — $559,000</a></li></ul>

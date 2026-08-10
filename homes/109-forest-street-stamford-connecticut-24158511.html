@@ -141,7 +141,15 @@
 .pr-cell{background:var(--bg2,#0a0a0d);padding:13px 15px;display:flex;flex-direction:column;gap:4px}
 .pr-k{font-family:var(--mono);font-size:.66rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
 .pr-v{font-size:.98rem;color:var(--fg)}
-@media(max-width:560px){.ph-date{width:86px;font-size:.72rem}.ph-mls{display:none}}
+.pr-sales{list-style:none;margin:0 0 26px;padding:0;border:1px solid var(--line);border-radius:14px;overflow:hidden}
+.pr-sale{display:flex;align-items:baseline;gap:14px;padding:11px 15px;background:var(--bg2,#0a0a0d)}
+.pr-sale+.pr-sale{border-top:1px solid var(--line)}
+.pr-sale-d{font-family:var(--mono);font-size:.72rem;letter-spacing:.04em;color:var(--muted);flex:0 0 88px}
+.pr-sale-p{font-size:.98rem;color:var(--fg);font-variant-numeric:tabular-nums}
+.pr-sale-t{margin-left:auto;font-family:var(--mono);font-size:.66rem;letter-spacing:.08em;
+  text-transform:uppercase;color:var(--faint)}
+@media(max-width:560px){.ph-date{width:86px;font-size:.72rem}.ph-mls{display:none}
+  .pr-sale-d{flex:0 0 74px}.pr-sale-t{display:none}}
 
 </style>
 <script type="application/ld+json">
@@ -186,7 +194,11 @@
 <table class="ph-table"><tbody>
 <tr><td class="ph-date">2026-05-26</td><td>Sold — <b>$4,300/mo</b> <span class="ph-this">(this listing)</span></td><td class="ph-mls">MLS 24158511</td></tr>
 </tbody></table><h2>About this building</h2>
-<p class="pr-note">The Stamford assessor lists this building as built in 2008 with 16 units on the town's record. Unit-level assessor detail is not shown here: the town and the MLS identify individual units differently, and matching them by guesswork would attach the wrong home's numbers to this page. Ask John for the exact record on this unit.</p><div class="idx-attrib">Listing courtesy of <strong>Keller Williams Prestige Prop.</strong> — Jessica Buckley · (203) 327-6700</div>
+<p class="pr-note">The Stamford assessor lists this building as built in 2008 with 16 units on the town's record. Unit-level assessor detail is not shown here: the town and the MLS identify individual units differently, and matching them by guesswork would attach the wrong home's numbers to this page. Ask John for the exact record on this unit.</p><h2>Recorded sales</h2>
+<p class="pr-note">Deed transfers on file with the Stamford land records, newest first. These are recordings rather than MLS sales, so they include transfers that were never listed. Nominal and $0 transfers (estate, trust and family conveyances) are excluded.</p>
+<ul class="pr-sales"><li class="pr-sale"><span class="pr-sale-d">2021-01-22</span><span class="pr-sale-p">$525,000</span><span class="pr-sale-t">Condo</span></li>
+<li class="pr-sale"><span class="pr-sale-d">2017-09-28</span><span class="pr-sale-p">$500,000</span><span class="pr-sale-t">Condo</span></li>
+<li class="pr-sale"><span class="pr-sale-d">2010-08-31</span><span class="pr-sale-p">$490,000</span><span class="pr-sale-t">Condo</span></li></ul><div class="idx-attrib">Listing courtesy of <strong>Keller Williams Prestige Prop.</strong> — Jessica Buckley · (203) 327-6700</div>
     <div class="d-legal">Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers&#39; personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.</div>
     <h2>More homes in Stamford</h2>
     <ul class="idx-sibs"><li><a href="/homes/109-oaklawn-avenue-stamford-connecticut-24162905.html">109 Oaklawn Avenue — $949,000</a></li><li><a href="/homes/11-barmore-drive-west-stamford-connecticut-24171481.html">11 Barmore Drive West — $650,000</a></li><li><a href="/homes/11-barmore-drive-west-stamford-connecticut-24188580.html">11 Barmore Drive West — $4,500/mo</a></li><li><a href="/homes/11-belltown-road-stamford-connecticut-24156278.html">11 Belltown Road — $270,000</a></li><li><a href="/homes/11-belltown-road-stamford-connecticut-24183815.html">11 Belltown Road — $2,900/mo</a></li><li><a href="/homes/11-klondike-avenue-stamford-connecticut-24173882.html">11 Klondike Avenue — $698,000</a></li></ul>

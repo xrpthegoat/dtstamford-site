@@ -141,7 +141,15 @@
 .pr-cell{background:var(--bg2,#0a0a0d);padding:13px 15px;display:flex;flex-direction:column;gap:4px}
 .pr-k{font-family:var(--mono);font-size:.66rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
 .pr-v{font-size:.98rem;color:var(--fg)}
-@media(max-width:560px){.ph-date{width:86px;font-size:.72rem}.ph-mls{display:none}}
+.pr-sales{list-style:none;margin:0 0 26px;padding:0;border:1px solid var(--line);border-radius:14px;overflow:hidden}
+.pr-sale{display:flex;align-items:baseline;gap:14px;padding:11px 15px;background:var(--bg2,#0a0a0d)}
+.pr-sale+.pr-sale{border-top:1px solid var(--line)}
+.pr-sale-d{font-family:var(--mono);font-size:.72rem;letter-spacing:.04em;color:var(--muted);flex:0 0 88px}
+.pr-sale-p{font-size:.98rem;color:var(--fg);font-variant-numeric:tabular-nums}
+.pr-sale-t{margin-left:auto;font-family:var(--mono);font-size:.66rem;letter-spacing:.08em;
+  text-transform:uppercase;color:var(--faint)}
+@media(max-width:560px){.ph-date{width:86px;font-size:.72rem}.ph-mls{display:none}
+  .pr-sale-d{flex:0 0 74px}.pr-sale-t{display:none}}
 
 </style>
 <script type="application/ld+json">
@@ -192,7 +200,9 @@
 <div class="pr-cell"><span class="pr-k">Exterior</span><span class="pr-v">Clapboard</span></div>
 <div class="pr-cell"><span class="pr-k">Assessed value</span><span class="pr-v">$499,940</span></div>
 <div class="pr-cell"><span class="pr-k">Town appraisal</span><span class="pr-v">$714,200</span></div>
-<div class="pr-cell"><span class="pr-k">Last recorded sale</span><span class="pr-v">2010 — $305,000</span></div></div><div class="idx-attrib">Listing courtesy of <strong>RE/MAX Right Choice</strong> — Matt Nuzie · (203) 268-1118</div>
+<div class="pr-cell"><span class="pr-k">Last recorded sale</span><span class="pr-v">2010 — $305,000</span></div></div><h2>Recorded sales</h2>
+<p class="pr-note">Deed transfers on file with the Wilton land records, newest first. These are recordings rather than MLS sales, so they include transfers that were never listed. Nominal and $0 transfers (estate, trust and family conveyances) are excluded.</p>
+<ul class="pr-sales"><li class="pr-sale"><span class="pr-sale-d">2010-07-30</span><span class="pr-sale-p">$305,000</span><span class="pr-sale-t">Single Family</span></li></ul><div class="idx-attrib">Listing courtesy of <strong>RE/MAX Right Choice</strong> — Matt Nuzie · (203) 268-1118</div>
     <div class="d-legal">Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers&#39; personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.</div>
     <h2>More homes in Wilton</h2>
     <ul class="idx-sibs"><li><a href="/homes/137-sturges-ridge-road-wilton-connecticut-24185031.html">137 Sturges Ridge Road — $1,695,000</a></li><li><a href="/homes/14-powder-horn-hill-road-wilton-connecticut-24194109.html">14 Powder Horn Hill Road — $2,399,000</a></li><li><a href="/homes/147-thayer-pond-road-wilton-connecticut-24192871.html">147 Thayer Pond Road — $999,500</a></li><li><a href="/homes/17-danbury-road-wilton-connecticut-24170258.html">17 Danbury Road — $36/mo</a></li><li><a href="/homes/175-mountain-road-wilton-connecticut-24181353.html">175 Mountain Road — $899,000</a></li><li><a href="/homes/18-west-meadow-road-wilton-connecticut-24181450.html">18 West Meadow Road — $1,999,000</a></li></ul>

@@ -141,7 +141,15 @@
 .pr-cell{background:var(--bg2,#0a0a0d);padding:13px 15px;display:flex;flex-direction:column;gap:4px}
 .pr-k{font-family:var(--mono);font-size:.66rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
 .pr-v{font-size:.98rem;color:var(--fg)}
-@media(max-width:560px){.ph-date{width:86px;font-size:.72rem}.ph-mls{display:none}}
+.pr-sales{list-style:none;margin:0 0 26px;padding:0;border:1px solid var(--line);border-radius:14px;overflow:hidden}
+.pr-sale{display:flex;align-items:baseline;gap:14px;padding:11px 15px;background:var(--bg2,#0a0a0d)}
+.pr-sale+.pr-sale{border-top:1px solid var(--line)}
+.pr-sale-d{font-family:var(--mono);font-size:.72rem;letter-spacing:.04em;color:var(--muted);flex:0 0 88px}
+.pr-sale-p{font-size:.98rem;color:var(--fg);font-variant-numeric:tabular-nums}
+.pr-sale-t{margin-left:auto;font-family:var(--mono);font-size:.66rem;letter-spacing:.08em;
+  text-transform:uppercase;color:var(--faint)}
+@media(max-width:560px){.ph-date{width:86px;font-size:.72rem}.ph-mls{display:none}
+  .pr-sale-d{flex:0 0 74px}.pr-sale-t{display:none}}
 
 </style>
 <script type="application/ld+json">
@@ -188,7 +196,9 @@
 <p class="ph-note">Every time this exact home has come to market in the MLS data this site tracks. Where a sale closed, the recorded sale price is shown; "asking" marks a price the home was listed at rather than what it sold for.</p>
 <table class="ph-table"><tbody>
 <tr><td class="ph-date">2026-04-30</td><td>Sold — <b>$1,170,000</b> <span class="ph-ask">asked $1,100,000</span> <span class="ph-this">(this listing)</span></td><td class="ph-mls">MLS 24152041</td></tr>
-</tbody></table><div class="idx-attrib">Listing courtesy of <strong>William Raveis Real Estate</strong> — Liz Eckert · (203) 869-9263</div>
+</tbody></table><h2>Recorded sales</h2>
+<p class="pr-note">Deed transfers on file with the Greenwich land records, newest first. These are recordings rather than MLS sales, so they include transfers that were never listed. Nominal and $0 transfers (estate, trust and family conveyances) are excluded.</p>
+<ul class="pr-sales"><li class="pr-sale"><span class="pr-sale-d">2013-06-28</span><span class="pr-sale-p">$500,000</span></li></ul><div class="idx-attrib">Listing courtesy of <strong>William Raveis Real Estate</strong> — Liz Eckert · (203) 869-9263</div>
     <div class="d-legal">Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers&#39; personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.</div>
     <h2>More homes in Greenwich</h2>
     <ul class="idx-sibs"><li><a href="/homes/17-artic-street-greenwich-connecticut-24160613.html">17 Artic Street — $3,850/mo</a></li><li><a href="/homes/17-artic-street-greenwich-connecticut-24160646.html">17 Artic Street — $3,500/mo</a></li><li><a href="/homes/17-kenilworth-terrace-greenwich-connecticut-24185753.html">17 Kenilworth Terrace — $4,450,000</a></li><li><a href="/homes/17-pintail-lane-greenwich-connecticut-24149951.html">17 Pintail Lane — $3,950,000</a></li><li><a href="/homes/175-cat-rock-road-greenwich-connecticut-24166724.html">175 Cat Rock Road — $26,000/mo</a></li><li><a href="/homes/178-milbank-avenue-greenwich-connecticut-24168623.html">178 Milbank Avenue — $2,500,000</a></li></ul>

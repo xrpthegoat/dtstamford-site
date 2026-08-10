@@ -141,7 +141,15 @@
 .pr-cell{background:var(--bg2,#0a0a0d);padding:13px 15px;display:flex;flex-direction:column;gap:4px}
 .pr-k{font-family:var(--mono);font-size:.66rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
 .pr-v{font-size:.98rem;color:var(--fg)}
-@media(max-width:560px){.ph-date{width:86px;font-size:.72rem}.ph-mls{display:none}}
+.pr-sales{list-style:none;margin:0 0 26px;padding:0;border:1px solid var(--line);border-radius:14px;overflow:hidden}
+.pr-sale{display:flex;align-items:baseline;gap:14px;padding:11px 15px;background:var(--bg2,#0a0a0d)}
+.pr-sale+.pr-sale{border-top:1px solid var(--line)}
+.pr-sale-d{font-family:var(--mono);font-size:.72rem;letter-spacing:.04em;color:var(--muted);flex:0 0 88px}
+.pr-sale-p{font-size:.98rem;color:var(--fg);font-variant-numeric:tabular-nums}
+.pr-sale-t{margin-left:auto;font-family:var(--mono);font-size:.66rem;letter-spacing:.08em;
+  text-transform:uppercase;color:var(--faint)}
+@media(max-width:560px){.ph-date{width:86px;font-size:.72rem}.ph-mls{display:none}
+  .pr-sale-d{flex:0 0 74px}.pr-sale-t{display:none}}
 
 </style>
 <script type="application/ld+json">
@@ -196,7 +204,9 @@
 <div class="pr-cell"><span class="pr-k">Exterior</span><span class="pr-v">Stone/Masonry</span></div>
 <div class="pr-cell"><span class="pr-k">Assessed value</span><span class="pr-v">$3,510,200</span></div>
 <div class="pr-cell"><span class="pr-k">Town appraisal</span><span class="pr-v">$5,014,700</span></div>
-<div class="pr-cell"><span class="pr-k">Last recorded sale</span><span class="pr-v">2017 — $5,375,000</span></div></div><div class="idx-attrib">Listing courtesy of <strong>Compass Connecticut, LLC</strong> — Leslie Clarke · (203) 293-9715</div>
+<div class="pr-cell"><span class="pr-k">Last recorded sale</span><span class="pr-v">2017 — $5,375,000</span></div></div><h2>Recorded sales</h2>
+<p class="pr-note">Deed transfers on file with the Westport land records, newest first. These are recordings rather than MLS sales, so they include transfers that were never listed. Nominal and $0 transfers (estate, trust and family conveyances) are excluded.</p>
+<ul class="pr-sales"><li class="pr-sale"><span class="pr-sale-d">2005-09-08</span><span class="pr-sale-p">$3,812,500</span></li></ul><div class="idx-attrib">Listing courtesy of <strong>Compass Connecticut, LLC</strong> — Leslie Clarke · (203) 293-9715</div>
     <div class="d-legal">Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers&#39; personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.</div>
     <h2>More homes in Westport</h2>
     <ul class="idx-sibs"><li><a href="/homes/71-high-point-road-westport-connecticut-24178245.html">71 High Point Road — $1,995,000</a></li><li><a href="/homes/72-compo-road-north-westport-connecticut-24178717.html">72 Compo Road North — $2,950,000</a></li><li><a href="/homes/74-bulkley-avenue-north-westport-connecticut-24157309.html">74 Bulkley Avenue North — $15,500/mo</a></li><li><a href="/homes/781-post-road-east-westport-connecticut-24151662.html">781 Post Road East — $1,430,000</a></li><li><a href="/homes/783-post-road-east-westport-connecticut-24169714.html">783 Post Road East — $1,525,000</a></li><li><a href="/homes/785-post-road-east-westport-connecticut-24092996.html">785 Post Road East — $1,385,000</a></li></ul>

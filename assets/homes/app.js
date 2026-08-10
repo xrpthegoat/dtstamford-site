@@ -127,9 +127,20 @@ let drawMode = false, drawnCircle = null, _drawStart = null;
    layers "saved forever, on any device" on top without changing anything else. Reuses the SAME
    Supabase project + publishable anon key that track.js already ships; per-user Row-Level Security
    guards the saved_listings table so a signed-in visitor can only ever read/write their own saves. */
+/* ⚠ 2026-08-09 — THE PROJECT BELOW NO LONGER EXISTS. `ltihgxyzmgrikonlcrhy.supabase.co` does not
+   resolve in DNS; it is in neither of John's Supabase orgs, so it was deleted (free-tier projects
+   pause when idle and are removed if the pause runs long). track.js pointed at the same project and
+   had been failing silently on every page load for weeks — it has been retired in favour of
+   Cloudflare Web Analytics.
+
+   Flipping ACCOUNTS_ENABLED to true as-is will NOT work: sign-in would fail against a dead host.
+   Turning accounts on now means (1) create a new Supabase project, (2) enable the Google provider
+   and add the redirect URLs, (3) run the saved_listings SQL from ACCOUNTS-SETUP.md, (4) replace both
+   constants below, and (5) prove a real save round-trips before announcing it. Until then this stays
+   inert and saves go to localStorage on the visitor's own device, exactly as they do today. */
 const ACCOUNTS_ENABLED = false;
-const SB_URL = 'https://ltihgxyzmgrikonlcrhy.supabase.co';
-const SB_KEY = 'sb_publishable_BBpnL4fstiTa_NozI9AWeA_aftyztov';   // publishable — safe to ship
+const SB_URL = '';   // was ltihgxyzmgrikonlcrhy.supabase.co — project deleted, see note above
+const SB_KEY = '';   // set together with SB_URL when a new project exists
 const GOOGLE_G = '<svg class="g-g" viewBox="0 0 48 48" width="15" height="15" aria-hidden="true">' +
   '<path fill="#4285F4" d="M45.1 24.5c0-1.6-.1-3.1-.4-4.5H24v8.5h11.8c-.5 2.7-2 5-4.4 6.600000000000001v5.5h7.1c4.2-3.9 6.6-9.6 6.6-16.1z"/>' +
   '<path fill="#34A853" d="M24 46c6 0 11-2 14.7-5.4l-7.1-5.5c-2 1.3-4.5 2.1-7.6 2.1-5.8 0-10.7-3.9-12.5-9.2H4.2v5.7C7.9 41.1 15.4 46 24 46z"/>' +

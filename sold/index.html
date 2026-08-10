@@ -38,7 +38,13 @@
 .idx-status .st-sep{opacity:.45}
 .idx-price{font-family:var(--disp);font-size:clamp(2.2rem,5vw,3.4rem);color:#fff;letter-spacing:-.03em;line-height:1}
 .idx-price-sub{margin-top:7px;font-family:var(--mono);font-size:.74rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
-.idx-addr{color:var(--fg-soft);font-size:1.15rem;margin-top:10px}
+/* This is an h1, not a div (2026-08-09): every one of the 4,397 listing pages previously had NO
+   h1 at all — the first heading was "About this home" — so the strongest on-page relevance signal
+   was missing sitewide, on exactly the pages meant to rank for an address. The ADDRESS is what the
+   page is about; the price is a fact about it, so the price keeps the visual weight and the
+   address takes the semantic one. Sizes pinned because h1 carries UA margins and 2em sizing. */
+.idx-addr{color:var(--fg-soft);font-size:1.15rem;margin:10px 0 0;font-weight:400;
+  font-family:var(--sans);letter-spacing:normal;line-height:1.35}
 .idx-quick{display:flex;flex-wrap:wrap;gap:10px 26px;margin-top:18px;font-family:var(--mono);font-size:.8rem;color:var(--fg-soft)}
 .idx-quick b{color:#fff;font-weight:700}
 .idx-gallery{display:grid;grid-template-columns:2fr 1fr 1fr;gap:10px;margin:26px 0 8px;position:relative}

@@ -38,7 +38,13 @@
 .idx-status .st-sep{opacity:.45}
 .idx-price{font-family:var(--disp);font-size:clamp(2.2rem,5vw,3.4rem);color:#fff;letter-spacing:-.03em;line-height:1}
 .idx-price-sub{margin-top:7px;font-family:var(--mono);font-size:.74rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
-.idx-addr{color:var(--fg-soft);font-size:1.15rem;margin-top:10px}
+/* This is an h1, not a div (2026-08-09): every one of the 4,397 listing pages previously had NO
+   h1 at all — the first heading was "About this home" — so the strongest on-page relevance signal
+   was missing sitewide, on exactly the pages meant to rank for an address. The ADDRESS is what the
+   page is about; the price is a fact about it, so the price keeps the visual weight and the
+   address takes the semantic one. Sizes pinned because h1 carries UA margins and 2em sizing. */
+.idx-addr{color:var(--fg-soft);font-size:1.15rem;margin:10px 0 0;font-weight:400;
+  font-family:var(--sans);letter-spacing:normal;line-height:1.35}
 .idx-quick{display:flex;flex-wrap:wrap;gap:10px 26px;margin-top:18px;font-family:var(--mono);font-size:.8rem;color:var(--fg-soft)}
 .idx-quick b{color:#fff;font-weight:700}
 .idx-gallery{display:grid;grid-template-columns:2fr 1fr 1fr;gap:10px;margin:26px 0 8px;position:relative}
@@ -147,7 +153,7 @@
   <div class="idx-crumbs"><a href="/">Home</a> / <a href="/sold/">Recently Sold</a> / Norwalk</div>
   <span class="idx-status "><span class="dot"></span>Closed<span class="st-sep"> · For Sale</span></span>
   <div class="idx-price">$335,000</div><div class="idx-price-sub">Asked $330,000 · Sold 2026-05-29</div>
-  <div class="idx-addr">126 Washington Street, Norwalk, Connecticut 06854</div>
+  <h1 class="idx-addr">126 Washington Street, Norwalk, Connecticut 06854</h1>
   <div class="idx-quick">
     <span><b>1</b> beds</span>
     <span><b>2</b> baths</span>
@@ -205,6 +211,6 @@
 <div class="col"><h4>Contact</h4><a href="tel:2038833399">203·883·3399</a><a href="mailto:John@dtstamford.com">John@dtstamford.com</a><p>Stamford, Connecticut</p><p>Jarah Tuttle LLC</p></div>
 </div><div class="fbot"><span>© 2026 Downtown Stamford · John Restrepo</span><span>Real Estate Made Simple.</span></div></div></footer>
 <script src="/assets/homes/gallery-fs.js" defer></script>
-<script src="/track.js" defer></script>
+<!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "fcdcc63885554c618f3fea8816534803"}'></script><!-- End Cloudflare Web Analytics -->
 </body>
 </html>

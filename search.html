@@ -35,8 +35,12 @@
 <link rel="apple-touch-icon" href="assets/logo-black.png">
 <link rel="stylesheet" href="assets/site.css">
 <!-- Leaflet (map) -->
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
-<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" crossorigin="">
+<!-- Leaflet is SELF-HOSTED as of 2026-08-09. It used to load from a public CDN: an unguarded
+     third-party dependency on the critical path. A slow CDN stalled first paint; a failed one threw
+     on L.map and took the whole search app down. ~55 KB gzipped, served same-origin.
+     integrity/crossorigin dropped — both are meaningless for same-origin assets. -->
+<link rel="stylesheet" href="assets/vendor/leaflet/leaflet.css">
+<link rel="stylesheet" href="assets/vendor/leaflet/MarkerCluster.css">
 <link rel="stylesheet" href="assets/homes/app.css?v=1786160241">
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"WebApplication","name":"Stamford MLS Home Search","applicationCategory":"RealEstateApplication","url":"https://dtstamford.com/search.html","operatingSystem":"Web","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"author":{"@type":"Person","name":"John Restrepo","telephone":"+12038833399","url":"https://dtstamford.com/"}}
@@ -355,8 +359,8 @@
   <div class="drawer-body" id="drawerBody"></div>
 </aside>
 
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
-<script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js" crossorigin=""></script>
+<script src="assets/vendor/leaflet/leaflet.js"></script>
+<script src="assets/vendor/leaflet/leaflet.markercluster.js"></script>
 <script type="module" src="assets/homes/app.js?v=1786160241"></script>
 <!-- Ask AI. Loads after app.js on purpose — it drives that app's filters through window.DTSSearch. -->
 <script type="module" src="assets/homes/ai-search.js?v=1786160241"></script>

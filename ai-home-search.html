@@ -175,7 +175,23 @@
 .aihs.started .aihs-mods{display:none}
 .aihs-mods .m{font-size:.72rem;font-family:var(--mono);letter-spacing:.03em;color:#6d6e78;border:1px solid var(--line);border-radius:20px;padding:5px 11px}
 .aihs-mods .m.live{color:var(--goldl);border-color:rgba(203,171,104,.35)}
+/* Server-rendered prose. Hidden the moment a search starts — it is orientation for a first-time
+   visitor and for crawlers, not something to scroll past once you are looking at results. */
+.aihs.started .aihs-prose{display:none}
+.aihs-prose{max-width:68ch;margin:44px auto 0;text-align:left;color:var(--fg-soft);line-height:1.75;font-size:.97rem}
+.aihs-prose h2{font-family:var(--disp);font-size:1.35rem;color:#fff;letter-spacing:-.015em;margin:34px 0 10px}
+.aihs-prose h3{font-size:1rem;color:#fff;margin:20px 0 4px;font-weight:600}
+.aihs-prose p{margin:0 0 12px}
+.aihs-prose a{color:var(--goldl)}
+.aihs-eg-list{list-style:none;padding:0;margin:0 0 14px;display:flex;flex-direction:column;gap:7px}
+.aihs-eg-list a{display:block;padding:11px 14px;border:1px solid var(--line);border-radius:12px;
+  text-decoration:none;color:var(--fg-soft);transition:border-color .2s,color .2s}
+.aihs-eg-list a:hover{border-color:var(--gold);color:#fff}
+.aihs-cta{margin-top:26px}
 </style>
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Is this a chatbot?", "acceptedAnswer": {"@type": "Answer", "text": "No. There is no model writing prose about homes. It parses your sentence, sets the search filters, and shows you the actual listings that match &mdash; the same listings on the map, in the same order it ranked them."}}, {"@type": "Question", "name": "Does it cost anything or need an account?", "acceptedAnswer": {"@type": "Answer", "text": "No. No sign-up, no email gate. The listings are John Restrepo&rsquo;s licensed IDX feed from SmartMLS, shown in full."}}, {"@type": "Question", "name": "How current are the results?", "acceptedAnswer": {"@type": "Answer", "text": "The feed re-syncs every three hours, so new listings usually appear here the same day they hit the MLS &mdash; often before they finish propagating to the national portals."}}, {"@type": "Question", "name": "Can I search sold homes too?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Turn on Sold in the search filters, or browse recently sold homes by town with their recorded sale prices."}}]}
+</script>
 </head>
 <body id="top">
 <header>
@@ -231,6 +247,69 @@
         <span class="m live">Rental AI</span><span class="m live">Market AI</span><span class="m live">Neighborhood AI</span>
         <span class="m">School AI</span><span class="m">Offer AI</span><span class="m">Seller AI</span>
       </div>
+
+
+      <!-- Real content added 2026-08-09. This page targets a genuine query ("AI home search
+           Stamford") and carried a correct title, canonical and h1 — but only ~615 characters of
+           visible text, nearly all of it nav chrome, because the substance was rendered by JS.
+           An answer engine runs no JavaScript, so to the readers this page exists FOR it was
+           effectively blank. Everything below is server-rendered; the live counts are LIVESTAT
+           markers, rebaked every 3 hours by genlistings.py, so no figure here can go stale. -->
+      <section class="aihs-prose">
+        <h2>What Magic Search actually does</h2>
+        <p>Most property search makes you translate a life decision into dropdowns: a price band, a
+        bedroom count, a checkbox for parking. Magic Search skips the translation. You write the
+        sentence you would say out loud &mdash; <em>&ldquo;two bedrooms under $3,500 that takes dogs,
+        walkable to the train&rdquo;</em> &mdash; and it sets the real filters for you, then ranks
+        what is left by how well each home actually matches.</p>
+        <p>It reads the same live SmartMLS data as the map: <strong><!--LIVESTAT:total-->1,706<!--/LIVESTAT--></strong>
+        active listings across Stamford and six neighbouring Fairfield County towns
+        (<!--LIVESTAT:forSale-->1,082<!--/LIVESTAT--> for sale,
+        <!--LIVESTAT:forRent-->622<!--/LIVESTAT--> for rent), refreshed every three hours straight
+        from the MLS. Nothing is invented and nothing is scraped.</p>
+
+        <h2>How to phrase it</h2>
+        <p>Plain sentences work better than keywords. Each of these runs the real search:</p>
+        <ul class="aihs-eg-list">
+          <li><a href="search.html?ai=2%20bed%20under%20%243%2C500%20that%20takes%20dogs%2C%20near%20the%20train">2 bed under $3,500 that takes dogs, near the train</a></li>
+          <li><a href="search.html?ai=condo%20under%20%24700k%20with%20a%20garage">Condo under $700k with a garage</a></li>
+          <li><a href="search.html?ai=single%20family%2C%20big%20yard%2C%20quiet%20street">Single family, big yard, quiet street</a></li>
+          <li><a href="search.html?ai=waterfront%20under%20%242M">Waterfront under $2M</a></li>
+          <li><a href="search.html?ai=just%20listed%2C%20walkable%20to%20the%20train">Just listed, walkable to the train</a></li>
+          <li><a href="search.html?ai=in-unit%20laundry%20and%20parking%20under%20%242%2C800">In-unit laundry and parking under $2,800</a></li>
+        </ul>
+        <p>Budget, bedrooms, bathrooms, town, home type and walking distance to a Metro-North station
+        become real filters you can see and adjust afterwards. Things the filter bar has no control
+        for &mdash; pets, a garage, central air, in-unit laundry, a finished basement, no HOA &mdash;
+        are matched against the listing&rsquo;s structured fields and used to rank the results.</p>
+
+        <h2>What it will not do</h2>
+        <p>It never ranks or scores schools, and it never describes a neighbourhood as good, safe, or
+        right for a particular kind of buyer. Assigned school names are reported as facts because they
+        are facts; steering is illegal under the Fair Housing Act, and a search tool that quietly
+        ranked neighbourhoods would be doing exactly that.</p>
+        <p>It also will not guess. A home missing a field is never counted as a match for it, and a
+        listing is only excluded on an explicit value &mdash; &ldquo;Pets: No&rdquo; hides a home,
+        a blank pet field does not.</p>
+
+        <h2>Questions</h2>
+        <div class="aihs-faq">
+          <h3>Is this a chatbot?</h3>
+          <p>No. There is no model writing prose about homes. It parses your sentence, sets the
+          search filters, and shows you the actual listings that match &mdash; the same listings on
+          the map, in the same order it ranked them.</p>
+          <h3>Does it cost anything or need an account?</h3>
+          <p>No. No sign-up, no email gate. The listings are John Restrepo&rsquo;s licensed IDX feed
+          from SmartMLS, shown in full.</p>
+          <h3>How current are the results?</h3>
+          <p>The feed re-syncs every three hours, so new listings usually appear here the same day
+          they hit the MLS &mdash; often before they finish propagating to the national portals.</p>
+          <h3>Can I search sold homes too?</h3>
+          <p>Yes. Turn on <a href="search.html">Sold</a> in the search filters, or browse
+          <a href="sold/">recently sold homes by town</a> with their recorded sale prices.</p>
+        </div>
+        <p class="aihs-cta"><a class="btn btn-gold" href="search.html">Try it on the live map &rarr;</a></p>
+      </section>
 
       <div class="aihs-thread" id="thread" aria-live="polite"></div>
     </div>

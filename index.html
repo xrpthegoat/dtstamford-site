@@ -340,6 +340,25 @@
   .statement .big .mute{color:var(--faint)}
   .statement .big .g{background:linear-gradient(120deg,var(--gold-l),var(--gold));-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
 
+  /* Statement diptych (desktop only). The type keeps its 19ch measure — widening it to fill the
+     row would hurt the thing that is actually working — so the freed space goes to two images
+     rather than a longer line. Offset vertically so it reads as an editorial pair, not a slot. */
+  .statement-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,.85fr);gap:clamp(32px,5vw,86px);align-items:center}
+  .statement-art{display:grid;grid-template-columns:1fr 1fr;gap:clamp(12px,1.6vw,22px);align-items:start}
+  .sa-fig{margin:0;position:relative}
+  .sa-fig img{width:100%;height:100%;object-fit:cover;display:block;border-radius:18px;
+    border:1px solid var(--line);box-shadow:0 30px 60px -34px rgba(0,0,0,.95)}
+  .sa-fig-a img{aspect-ratio:4/5}
+  .sa-fig-b img{aspect-ratio:4/5}
+  .sa-fig-b{margin-top:clamp(26px,4vw,58px)}      /* the offset that makes it a pair, not a grid */
+  .sa-fig figcaption{margin-top:10px;font-family:var(--mono);font-size:.63rem;letter-spacing:.14em;
+    text-transform:uppercase;color:var(--muted)}
+  /* Below the two-column threshold the statement returns to exactly what it was. */
+  @media(max-width:1000px){
+    .statement-grid{display:block}
+    .statement-art{display:none}
+  }
+
   /* STATS — bento bezel cards */
   .stats .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
   .stat{padding:44px 34px;min-height:230px;display:flex;flex-direction:column;justify-content:space-between}
@@ -792,9 +811,32 @@
   </script>
 
   <!-- STATEMENT -->
+  <!-- The sentence names a RANGE — "Harbor Point high-rises to North Stamford's quiet acres" — which
+       one photo cannot say, so the right column is a diptych of those two exact places. John's own
+       portrait is deliberately not reused here; it already carries the "meet" section two blocks
+       below, and repeating it would weaken both. Images are desktop-only: on a phone the statement
+       is already the full width and the type is the point. -->
   <section class="statement">
-    <div class="wrap">
+    <div class="wrap statement-grid">
       <p class="big rv">John Restrepo is a <span class="g">Stamford, CT real estate agent</span> who helps you buy, sell, and rent — from Harbor Point high-rises to North Stamford's quiet acres, <span class="mute">50 minutes from Grand Central.</span></p>
+      <div class="statement-art rv d1" aria-hidden="true">
+        <figure class="sa-fig sa-fig-a">
+          <picture>
+            <source type="image/avif" srcset="assets/stamford-harbor-point-waterfront-boats.avif">
+            <source type="image/webp" srcset="assets/stamford-harbor-point-waterfront-boats.webp">
+            <img src="assets/stamford-harbor-point-waterfront-boats.jpg" alt="" width="1600" height="1200" loading="lazy" decoding="async">
+          </picture>
+          <figcaption>Harbor Point</figcaption>
+        </figure>
+        <figure class="sa-fig sa-fig-b">
+          <picture>
+            <source type="image/avif" srcset="assets/nb-north-stamford-portrait.avif">
+            <source type="image/webp" srcset="assets/nb-north-stamford-portrait.webp">
+            <img src="assets/nb-north-stamford-portrait.jpg" alt="" width="1200" height="1600" loading="lazy" decoding="async">
+          </picture>
+          <figcaption>North Stamford</figcaption>
+        </figure>
+      </div>
     </div>
   </section>
 

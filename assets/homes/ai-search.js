@@ -260,21 +260,34 @@ let _factsPromise = null;
 function loadFacts() {
   if (_factsPromise) return _factsPromise;
   _factsState = 'loading';
-  _factsPromise = fetch('data/listings.json', { cache: 'force-cache' })
+  // data/ai-facts.json, not data/listings.json: the same fields, without the ~70% of the feed
+  // Magic Search never reads. 3.4 MB -> 1.3 MB transferred, 18 MB -> 5.6 MB parsed, which on a
+  // phone is the difference between a pause and a stall. Falls back to the full feed if the slim
+  // file is missing, so an old deploy or a failed bake degrades instead of breaking.
+  const merge = (by, get) => {
+    S.state.all.forEach(l => {
+      const full = by[l.mls];
+      if (!full) return;
+      const m = get(full);
+      l._facts = m.facts; l._acres = m.acres; l._yearBuilt = m.yearBuilt; l._blob = m.blob;
+    });
+    _factsState = 'ready';
+  };
+  _factsPromise = fetch('data/ai-facts.json', { cache: 'force-cache' })
     .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
-    .then(d => {
-      const by = {};
-      (d.listings || []).forEach(x => { by[x.mls] = x; });
-      S.state.all.forEach(l => {
-        const full = by[l.mls];
-        if (!full) return;
-        l._facts = full.facts || {};
-        l._acres = full.acres;
-        l._yearBuilt = full.yearBuilt;
-        l._blob = `${full.remarks || ''} ${Object.values(full.facts || {}).join(' ')}`.toLowerCase();
-      });
-      _factsState = 'ready';
-    })
+    .then(d => merge(d.listings || {}, x => ({
+      facts: x.f || {}, acres: x.a, yearBuilt: x.y, blob: x.b || '',
+    })))
+    .catch(() => fetch('data/listings.json', { cache: 'force-cache' })
+      .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+      .then(d => {
+        const by = {};
+        (d.listings || []).forEach(x => { by[x.mls] = x; });
+        merge(by, full => ({
+          facts: full.facts || {}, acres: full.acres, yearBuilt: full.yearBuilt,
+          blob: `${full.remarks || ''} ${Object.values(full.facts || {}).join(' ')}`.toLowerCase(),
+        }));
+      }))
     .catch(err => { _factsState = 'failed'; console.warn('listing details load failed:', err); });
   return _factsPromise;
 }

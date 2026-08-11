@@ -599,6 +599,63 @@
     <div class="scrollcue">Scroll</div>
   </section>
 
+  <!-- The plain-English front door to the whole search, sitting right below the live inventory +
+       new-today carousel. A plain GET form → search.html?ai=<question>, which opens the map search
+       with the question already running (assets/homes/ai-search.js parses it and sets real filters).
+       No JS needed here — it works for crawlers and before any script loads, and the example chips
+       are real, indexable links (good for GEO: they expose sample queries as crawlable URLs). -->
+  <style>
+    .magicsearch{padding:38px 0 34px;border-bottom:1px solid rgba(255,255,255,.08)}
+    .ms-wrap{max-width:840px;margin:0 auto;padding:0 20px;text-align:center}
+    .ms-eyebrow{display:inline-flex;align-items:center;gap:7px;font-family:"Space Mono",ui-monospace,monospace;font-size:.66rem;letter-spacing:.16em;text-transform:uppercase;color:#e3c47e}
+    .ms-eyebrow .s{font-size:.9rem}
+    .magicsearch h2{font-family:"Bricolage Grotesque","Space Grotesk",system-ui,sans-serif;font-weight:700;font-size:clamp(1.55rem,3.6vw,2.35rem);line-height:1.08;letter-spacing:-.02em;color:#f3f3f5;margin:12px 0 7px}
+    .magicsearch h2 .g{color:#e3c47e}
+    .magicsearch .ms-sub{color:#a9a9b2;font-size:.96rem;margin-bottom:20px}
+    /* Sized up 2026-08-07 (John: "looks small — wider or even taller"). This is the primary entry
+       point to the whole product, so it now reads as the hero control: wider (860 vs 690), a taller
+       touch target (~64px vs ~50), a 2px accent border, and a soft accent glow so it separates from
+       the near-black section instead of sinking into it. */
+    .ms-bar{display:flex;align-items:center;gap:12px;max-width:860px;margin:0 auto;padding:10px 10px 10px 24px;
+      border:2px solid rgba(227,196,126,.5);border-radius:999px;background:rgba(255,255,255,.05);
+      box-shadow:0 24px 60px -30px rgba(0,0,0,.95), 0 0 44px -22px rgba(227,196,126,.45);
+      transition:border-color .25s,background .25s,box-shadow .25s,transform .25s}
+    .ms-bar:hover{border-color:rgba(227,196,126,.7);transform:translateY(-1px)}
+    .ms-bar:focus-within{border-color:rgba(227,196,126,.9);background:rgba(227,196,126,.07);box-shadow:0 0 0 5px rgba(227,196,126,.13),0 24px 60px -30px rgba(0,0,0,.95)}
+    .ms-bar .s{color:#e3c47e;font-size:1.35rem;line-height:1;flex:none}
+    .ms-bar input{flex:1;min-width:0;border:0;outline:none;background:none;color:#f3f3f5;font-family:inherit;font-size:1.1rem;padding:19px 0}
+    .ms-bar input::placeholder{color:#8b8b93}
+    .ms-bar button{flex:none;border:0;cursor:pointer;border-radius:999px;padding:17px 38px;font-family:inherit;font-weight:700;font-size:1rem;color:#161006;background:linear-gradient(180deg,#eed6a3,#cbab68);box-shadow:0 10px 26px -14px rgba(227,196,126,.75);transition:transform .2s,box-shadow .2s}
+    .ms-bar button:hover{transform:translateY(-1px);box-shadow:0 14px 30px -14px rgba(227,196,126,.9)}
+    /* Phone: keep it generous but stack the button full-width so the input never shrinks to a sliver
+       (a 38px-padded button beside a text field on a 375px screen leaves ~120px to type in). */
+    @media(max-width:600px){
+      .magicsearch{padding:30px 0 28px}
+      .ms-bar{flex-wrap:wrap;padding:12px 14px;border-radius:26px;gap:10px}
+      .ms-bar .s{font-size:1.2rem}
+      .ms-bar input{font-size:1rem;padding:8px 0;flex:1 1 auto}
+      .ms-bar button{flex:1 1 100%;padding:15px 18px;font-size:.98rem}
+    }
+  </style>
+  <section class="magicsearch" aria-label="Search Stamford homes in plain English">
+    <div class="ms-wrap">
+      <span class="ms-eyebrow"><span class="s" aria-hidden="true">✦</span> Magic Search</span>
+      <h2>Describe your home. <span class="g">We'll find it.</span></h2>
+      <p class="ms-sub">Say it the way you'd say it out loud — beds, budget, the train, the dog. No filters to fiddle with.</p>
+      <form class="ms-bar" action="search.html" method="get" role="search">
+        <span class="s" aria-hidden="true">✦</span>
+        <input type="text" name="ai" autocomplete="off" aria-label="Describe the home you want, in plain English"
+               placeholder="2-bed under $3,500 that takes dogs, walk to the train">
+        <button type="submit">Search</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- ORDER (2026-08-10, John): Magic Search sits ABOVE the live-inventory numbers. The search
+       box is the primary action on this page, so it comes first and the counts, price bands and
+       "added today" rail read as evidence underneath it rather than as a wall to scroll past.
+       The stats <script> travels WITH the inventory markup and must stay after it — it is a plain
+       inline script doing getElementById at parse time, so moving it above would silently no-op. -->
   <!-- LIVE INVENTORY — auto-fed by data/stats.json (regenerated every IDX refresh) -->
   <style>
     .liveinv{padding:26px 0 4px;border-bottom:1px solid rgba(255,255,255,.08)}
@@ -663,9 +720,9 @@
   <section class="liveinv" id="liveInv" aria-label="Stamford homes for sale and rent right now">
     <div class="wrap">
       <div class="li-counts">
-        <a class="li-stat" href="search.html?type=sale"><span class="li-n" id="liSale">1,068</span><span class="li-l">homes for sale</span></a>
+        <a class="li-stat" href="search.html?type=sale"><span class="li-n" id="liSale">1,069</span><span class="li-l">homes for sale</span></a>
         <span class="li-div" aria-hidden="true"></span>
-        <a class="li-stat" href="search.html?t=rent"><span class="li-n" id="liRent">622</span><span class="li-l">for rent</span></a>
+        <a class="li-stat" href="search.html?t=rent"><span class="li-n" id="liRent">621</span><span class="li-l">for rent</span></a>
         <span class="li-div" aria-hidden="true"></span>
         <a class="li-stat" href="search.html"><span class="li-n" id="liTotal">1,690</span><span class="li-l">in Stamford &amp; nearby</span></a>
       </div>
@@ -673,9 +730,9 @@
       <div class="li-bands" id="liBands">
         <div class="li-band-row">
           <span class="li-band-lbl">For sale</span>
-          <a class="li-chip" href="search.html?pmax=300000"><b id="lbSale300">70</b> under $300K</a>
-          <a class="li-chip" href="search.html?pmax=600000"><b id="lbSale600">261</b> under $600K</a>
-          <a class="li-chip" href="search.html?pmax=1000000"><b id="lbSale1m">533</b> under $1M</a>
+          <a class="li-chip" href="search.html?pmax=300000"><b id="lbSale300">72</b> under $300K</a>
+          <a class="li-chip" href="search.html?pmax=600000"><b id="lbSale600">263</b> under $600K</a>
+          <a class="li-chip" href="search.html?pmax=1000000"><b id="lbSale1m">535</b> under $1M</a>
           <span class="li-med" id="lbMedSale">Stamford median $696K</span>
         </div>
         <div class="li-band-row">
@@ -689,68 +746,6 @@
       <div class="li-new" id="liNew" hidden>
         <div class="li-new-hd"><span class="li-dot"></span> Added today <span class="li-new-n" id="liNewN"></span></div>
         <div class="li-new-row" id="liNewRow"></div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ============ MAGIC SEARCH ============ -->
-  <!-- The plain-English front door to the whole search, sitting right below the live inventory +
-       new-today carousel. A plain GET form → search.html?ai=<question>, which opens the map search
-       with the question already running (assets/homes/ai-search.js parses it and sets real filters).
-       No JS needed here — it works for crawlers and before any script loads, and the example chips
-       are real, indexable links (good for GEO: they expose sample queries as crawlable URLs). -->
-  <style>
-    .magicsearch{padding:38px 0 34px;border-bottom:1px solid rgba(255,255,255,.08)}
-    .ms-wrap{max-width:840px;margin:0 auto;padding:0 20px;text-align:center}
-    .ms-eyebrow{display:inline-flex;align-items:center;gap:7px;font-family:"Space Mono",ui-monospace,monospace;font-size:.66rem;letter-spacing:.16em;text-transform:uppercase;color:#e3c47e}
-    .ms-eyebrow .s{font-size:.9rem}
-    .magicsearch h2{font-family:"Bricolage Grotesque","Space Grotesk",system-ui,sans-serif;font-weight:700;font-size:clamp(1.55rem,3.6vw,2.35rem);line-height:1.08;letter-spacing:-.02em;color:#f3f3f5;margin:12px 0 7px}
-    .magicsearch h2 .g{color:#e3c47e}
-    .magicsearch .ms-sub{color:#a9a9b2;font-size:.96rem;margin-bottom:20px}
-    /* Sized up 2026-08-07 (John: "looks small — wider or even taller"). This is the primary entry
-       point to the whole product, so it now reads as the hero control: wider (860 vs 690), a taller
-       touch target (~64px vs ~50), a 2px accent border, and a soft accent glow so it separates from
-       the near-black section instead of sinking into it. */
-    .ms-bar{display:flex;align-items:center;gap:12px;max-width:860px;margin:0 auto;padding:10px 10px 10px 24px;
-      border:2px solid rgba(227,196,126,.5);border-radius:999px;background:rgba(255,255,255,.05);
-      box-shadow:0 24px 60px -30px rgba(0,0,0,.95), 0 0 44px -22px rgba(227,196,126,.45);
-      transition:border-color .25s,background .25s,box-shadow .25s,transform .25s}
-    .ms-bar:hover{border-color:rgba(227,196,126,.7);transform:translateY(-1px)}
-    .ms-bar:focus-within{border-color:rgba(227,196,126,.9);background:rgba(227,196,126,.07);box-shadow:0 0 0 5px rgba(227,196,126,.13),0 24px 60px -30px rgba(0,0,0,.95)}
-    .ms-bar .s{color:#e3c47e;font-size:1.35rem;line-height:1;flex:none}
-    .ms-bar input{flex:1;min-width:0;border:0;outline:none;background:none;color:#f3f3f5;font-family:inherit;font-size:1.1rem;padding:19px 0}
-    .ms-bar input::placeholder{color:#8b8b93}
-    .ms-bar button{flex:none;border:0;cursor:pointer;border-radius:999px;padding:17px 38px;font-family:inherit;font-weight:700;font-size:1rem;color:#161006;background:linear-gradient(180deg,#eed6a3,#cbab68);box-shadow:0 10px 26px -14px rgba(227,196,126,.75);transition:transform .2s,box-shadow .2s}
-    .ms-bar button:hover{transform:translateY(-1px);box-shadow:0 14px 30px -14px rgba(227,196,126,.9)}
-    .ms-egs{display:flex;flex-wrap:wrap;justify-content:center;gap:8px;margin-top:16px}
-    .ms-eg{font-family:inherit;font-size:.8rem;color:#c0c1cb;text-decoration:none;border:1px solid rgba(255,255,255,.12);border-radius:20px;padding:8px 14px;background:rgba(255,255,255,.03);transition:border-color .2s,color .2s,background .2s}
-    .ms-eg:hover{border-color:rgba(227,196,126,.5);color:#e3c47e;background:rgba(227,196,126,.06)}
-    /* Phone: keep it generous but stack the button full-width so the input never shrinks to a sliver
-       (a 38px-padded button beside a text field on a 375px screen leaves ~120px to type in). */
-    @media(max-width:600px){
-      .magicsearch{padding:30px 0 28px}
-      .ms-bar{flex-wrap:wrap;padding:12px 14px;border-radius:26px;gap:10px}
-      .ms-bar .s{font-size:1.2rem}
-      .ms-bar input{font-size:1rem;padding:8px 0;flex:1 1 auto}
-      .ms-bar button{flex:1 1 100%;padding:15px 18px;font-size:.98rem}
-    }
-  </style>
-  <section class="magicsearch" aria-label="Search Stamford homes in plain English">
-    <div class="ms-wrap">
-      <span class="ms-eyebrow"><span class="s" aria-hidden="true">✦</span> Magic Search</span>
-      <h2>Describe your home. <span class="g">We'll find it.</span></h2>
-      <p class="ms-sub">Say it the way you'd say it out loud — beds, budget, the train, the dog. No filters to fiddle with.</p>
-      <form class="ms-bar" action="search.html" method="get" role="search">
-        <span class="s" aria-hidden="true">✦</span>
-        <input type="text" name="ai" autocomplete="off" aria-label="Describe the home you want, in plain English"
-               placeholder="2-bed under $3,500 that takes dogs, walk to the train">
-        <button type="submit">Search</button>
-      </form>
-      <div class="ms-egs">
-        <a class="ms-eg" href="search.html?ai=Condo%20under%20%24700k%20with%20a%20garage">Condo under $700k with a garage</a>
-        <a class="ms-eg" href="search.html?ai=Single%20family%2C%20big%20yard%2C%20quiet%20street">Single family, big yard, quiet street</a>
-        <a class="ms-eg" href="search.html?ai=Just%20listed%2C%20walkable%20to%20the%20train">Just listed, walkable to the train</a>
-        <a class="ms-eg" href="search.html?ai=Waterfront%20in%20Stamford%20under%20%242M">Waterfront under $2M</a>
       </div>
     </div>
   </section>

@@ -19,6 +19,13 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
+    # A JOB-level cap, not just the step-level one below. With `cancel-in-progress: false` a single
+    # run that never finishes holds the `pages` concurrency lock and every later run queues behind
+    # it — that is exactly how one wedged run on 2026-08-08 froze the live site for 37.5 hours while
+    # every 3-hourly refresh logged "✓ pushed". GitHub's default job timeout is 6 HOURS, far too long
+    # to be a backstop here: a healthy run is ~1 min, and the internal poller already gives up at 40.
+    # 55 leaves headroom above the poller while guaranteeing the lock frees within the hour.
+    timeout-minutes: 55
     steps:
       - uses: actions/checkout@v4
       - name: Verify site integrity (block deploy if a page/link/asset is missing)

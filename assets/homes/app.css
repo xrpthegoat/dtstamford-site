@@ -826,11 +826,12 @@ html{overflow-x:hidden;overscroll-behavior:none}
   border-radius:6px; padding:1px 7px; white-space:nowrap; }
 .card-city{ flex:1 1 100%; font-size:.82rem; color:#9aa3b2; margin-top:1px; }
 
-.badge-dom{ white-space:nowrap; background:rgba(9,12,18,.78); color:#e8eaef; border:1px solid rgba(255,255,255,.22);
+.badge-dom{ white-space:nowrap; flex:0 0 auto; background:rgba(9,12,18,.78); color:#e8eaef; border:1px solid rgba(255,255,255,.22);
   backdrop-filter:blur(4px); font-weight:600; }
 
 .card-chips{ display:flex; flex-wrap:wrap; gap:6px; margin:9px 0 0; }
-.card-chip{ display:inline-flex; align-items:baseline; gap:6px; font-size:.75rem; line-height:1.5;
+.card-chip{ display:inline-flex; align-items:baseline; gap:6px; white-space:nowrap;
+  overflow:hidden; text-overflow:ellipsis; font-size:.75rem; line-height:1.5;
   color:#dbe2ec; background:rgba(255,255,255,.045); border:1px solid rgba(255,255,255,.09);
   border-radius:8px; padding:3px 9px; max-width:100%; }
 /* the label, not an emoji — "Laundry · Main Level" reads; "🧺 Main Level" does not say what it is */
@@ -877,3 +878,11 @@ html{overflow-x:hidden;overscroll-behavior:none}
 @media(max-width:560px){
   .d-street{ font-size:1.36rem; }
   .card-street{ font-size:.97rem; } }
+
+/* the fav button sits top-right over the photo — reserve its lane so a status pill plus the
+   day-count can never be clipped behind it (they were: "67D ON M"). */
+.card-badges{ display:flex; flex-wrap:wrap; gap:6px; padding-right:46px; }
+.card-badges .badge{ min-width:0; overflow:hidden; text-overflow:ellipsis; }
+/* No percentage clamp: at two-up card width, 50% left room for the LABEL and almost none for the
+   value ("PARKING Unde…"). Chips size to content and a long one simply takes its own line. */
+.card-chip{ max-width:100%; }

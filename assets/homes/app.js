@@ -660,21 +660,25 @@ function domOf(l) {
   const f = F(l);
   return f.dom != null && f.dom !== '' ? Number(f.dom) : (l.daysOnMarket != null ? l.daysOnMarket : null);
 }
-function parkingText(l) {
+function parkingText(l, tight) {
   const f = F(l);
   const bits = [];
   const g = Number(f.garages || 0);
   if (g > 0) bits.push(g + '-car garage');
   const sp = Number(f.parkingSpaces || 0);
   if (sp > 0) bits.push(sp + ' space' + (sp > 1 ? 's' : ''));
-  const kind = mlsList(f.parking, 2);
+  const kind = mlsList(f.parking, tight ? 1 : 2);
   if (kind) bits.push(kind);
-  return bits.length ? bits.join(' · ') : null;
+  if (!bits.length) return null;
+  return tight ? bits[0] : bits.join(' · ');      // card chips get the single strongest fact
 }
-function laundryText(l) {
+function laundryText(l, tight) {
   const f = F(l);
-  const a = mlsList(f.laundry, 2), b = mlsList(f.laundryLoc, 1);
+  const a = mlsList(f.laundry, tight ? 1 : 2), b = mlsList(f.laundryLoc, 1);
   if (!a && !b) return null;
+  // The light index pre-joins location into this field ("Lower Level — basement"), so splitting on
+  // commas alone still leaves a long string. Cut at the dash for the chip.
+  if (tight) return String(a || b).split(/\s+—\s+/)[0].trim();
   if (a && b && b.toLowerCase() !== a.toLowerCase()) return a + ' — ' + b;
   return a || b;
 }
@@ -701,16 +705,16 @@ function keyChips(l) {
   const f = F(l), out = [];
   const push = (k, v, tone) => { if (v) out.push({ k: k, v: v, tone: tone || '' }); };
   if (isRental(l)) {
-    push('Laundry', laundryText(l));
-    push('Parking', parkingText(l));
+    push('Laundry', laundryText(l, true));
+    push('Parking', parkingText(l, true));
     const p = yn(f.pets);
     const pt = petsText(l);
     if (pt) push('Pets', pt.replace(/^Pets(: | — |)/, '') || (p ? 'Allowed' : 'No'), p === false ? 'no' : 'yes');
   } else {
     const h = hoaText(l); if (h) push('HOA', h);
-    push('Parking', parkingText(l));
+    push('Parking', parkingText(l, true));
     const t = taxText(l); if (t) push('Taxes', t);
-    push('Laundry', laundryText(l));
+    push('Laundry', laundryText(l, true));
   }
   return out.slice(0, 3);
 }
@@ -783,7 +787,7 @@ function cardHTML(l) {
       <img src="${esc(photos[idx])}" alt="${esc(addrFull(l))}" loading="lazy" decoding="async" onerror="this.src='assets/stamford-ct-single-family-home-exterior.jpg'">
       <div class="card-badges">${b ? `<span class="badge ${b.cls}">${b.txt}</span>` : ''}${(() => {
         const d = domOf(l); if (d == null) return '';
-        return `<span class="badge badge-dom">${isSold(l) ? `Sold in ${d}d` : (d === 0 ? 'Just listed' : `${d}d on market`)}</span>`;
+        return `<span class="badge badge-dom" title="${isSold(l) ? `Sold after ${d} days on market` : `${d} days on market`}">${isSold(l) ? `Sold ${d}d` : (d === 0 ? 'New today' : `${d}d`)}</span>`;
       })()}</div>
       <button class="card-fav ${fav ? 'on' : ''}" data-fav aria-label="Save home">${fav ? '♥' : '♡'}</button>
       ${navs}${dots}

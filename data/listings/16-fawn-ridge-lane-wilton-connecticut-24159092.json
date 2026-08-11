@@ -108,5 +108,46 @@
    "mi": 0.36,
    "walk": 7
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "117-fawn-ridge-lane-norwalk-connecticut-24180057",
+     "addr": "117 Fawn Ridge Lane Unit 117",
+     "unit": "Unit 117",
+     "beds": 2.0,
+     "baths": 3.0,
+     "sqft": 1214.0,
+     "price": 3600.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-15",
+     "ppsf": 3,
+     "mi": 0.08
+    },
+    {
+     "slug": "606-foxboro-drive-norwalk-connecticut-24187399",
+     "addr": "606 Foxboro Drive Unit 606",
+     "unit": "Unit 606",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1392.0,
+     "price": 3500.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-21",
+     "ppsf": 3,
+     "mi": 0.26
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 3500.0,
+    "high": 3600.0,
+    "median": 3550
+   },
+   "radiusMi": 0.75
+  }
  }
 }

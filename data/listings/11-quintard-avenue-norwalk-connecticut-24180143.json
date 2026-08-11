@@ -122,5 +122,71 @@
    "n": "Bus stop",
    "mi": 1.43
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "25-quintard-avenue-norwalk-connecticut-24188939",
+     "addr": "25 Quintard Avenue Unit A",
+     "unit": "Unit A",
+     "beds": 4.0,
+     "baths": 2.0,
+     "sqft": 2469.0,
+     "price": 4500.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-08-10",
+     "ppsf": 2,
+     "mi": 0.06
+    },
+    {
+     "slug": "149-south-main-street-norwalk-connecticut-24195433",
+     "addr": "149 South Main Street Unit D",
+     "unit": "Unit D",
+     "beds": 4.0,
+     "baths": 2.0,
+     "sqft": 816.0,
+     "price": 3800.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 5,
+     "mi": 0.27
+    },
+    {
+     "slug": "134-woodward-avenue-norwalk-connecticut-24166039",
+     "addr": "134 Woodward Avenue Unit 2",
+     "unit": "Unit 2",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 1681.0,
+     "price": 3500.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 2,
+     "mi": 0.32
+    },
+    {
+     "slug": "2-third-street-norwalk-connecticut-24180199",
+     "addr": "2 Third Street Unit 1",
+     "unit": "Unit 1",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 1750.0,
+     "price": 5500.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 3,
+     "mi": 0.72
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 4500.0,
+    "high": 4500.0,
+    "median": 4500
+   },
+   "radiusMi": 0.75
+  }
  }
 }

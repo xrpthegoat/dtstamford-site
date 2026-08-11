@@ -128,5 +128,59 @@
    "mi": 2.35,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "121-thornwood-road-stamford-connecticut-24180810",
+     "addr": "121 Thornwood Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 2948.0,
+     "price": 1480000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-31",
+     "ppsf": 502,
+     "mi": 0.1
+    },
+    {
+     "slug": "12-woodbine-way-stamford-connecticut-24172956",
+     "addr": "12 Woodbine Way",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 7.0,
+     "sqft": 6891.0,
+     "price": 2275000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-08-10",
+     "ppsf": 330,
+     "mi": 0.41
+    },
+    {
+     "slug": "46-fernwood-drive-stamford-connecticut-24194755",
+     "addr": "46 Fernwood Drive",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 6.0,
+     "sqft": 6124.0,
+     "price": 1425000.0,
+     "kind": "asking",
+     "status": "Under Contract - Continue to Show",
+     "ppsf": 233,
+     "mi": 0.47
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 1480000.0,
+    "high": 2275000.0,
+    "median": 1877500
+   },
+   "radiusMi": 0.75
+  }
  }
 }

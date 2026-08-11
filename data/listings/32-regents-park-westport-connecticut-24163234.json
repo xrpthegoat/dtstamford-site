@@ -103,5 +103,45 @@
    "mi": 3.18,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "24-mills-street-westport-connecticut-24178569",
+     "addr": "24 Mills Street",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 2108.0,
+     "price": 7500.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-30",
+     "ppsf": 4,
+     "mi": 0.11
+    },
+    {
+     "slug": "23-turkey-hill-road-north-westport-connecticut-24191745",
+     "addr": "23 Turkey Hill Road North",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 1940.0,
+     "price": 7000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 4,
+     "mi": 0.46
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 7500.0,
+    "high": 7500.0,
+    "median": 7500
+   },
+   "radiusMi": 0.75
+  }
  }
 }

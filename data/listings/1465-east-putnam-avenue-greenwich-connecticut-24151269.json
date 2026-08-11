@@ -104,5 +104,50 @@
    "mi": 0.1,
    "walk": 2
   }
+ },
+ "comps": {
+  "building": {
+   "rows": [
+    {
+     "slug": "1465-east-putnam-avenue-greenwich-connecticut-24180752",
+     "addr": "1465 East Putnam Avenue Unit 327",
+     "unit": "Unit 327",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 912.0,
+     "price": 3500.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 4
+    }
+   ],
+   "summary": null,
+   "label": "1465 East Putnam Avenue"
+  },
+  "area": {
+   "rows": [
+    {
+     "slug": "19-piave-street-stamford-connecticut-24180986",
+     "addr": "19 Piave Street",
+     "unit": "",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 501.0,
+     "price": 1995.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-09",
+     "ppsf": 4,
+     "mi": 0.68
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 1995.0,
+    "high": 1995.0,
+    "median": 1995
+   },
+   "radiusMi": 0.75
+  }
  }
 }

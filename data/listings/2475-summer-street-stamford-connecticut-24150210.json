@@ -106,5 +106,120 @@
    "mi": 0.06,
    "walk": 1
   }
+ },
+ "comps": {
+  "building": {
+   "rows": [
+    {
+     "slug": "2475-summer-street-stamford-connecticut-24190231",
+     "addr": "2475 Summer Street Unit 1N",
+     "unit": "Unit 1N",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 689.0,
+     "price": 2000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 3
+    }
+   ],
+   "summary": null,
+   "label": "2475 Summer Street"
+  },
+  "area": {
+   "rows": [
+    {
+     "slug": "2289-bedford-street-stamford-connecticut-24179598",
+     "addr": "2289 Bedford Street Unit D13",
+     "unit": "Unit D13",
+     "beds": 1.0,
+     "baths": 2.0,
+     "sqft": 1066.0,
+     "price": 3200.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-30",
+     "ppsf": 3,
+     "mi": 0.16
+    },
+    {
+     "slug": "9-old-north-stamford-road-stamford-connecticut-24180915",
+     "addr": "9 Old North Stamford Road Unit 35G",
+     "unit": "Unit 35G",
+     "beds": 1.0,
+     "baths": 3.0,
+     "sqft": 1916.0,
+     "price": 2700.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-03",
+     "ppsf": 1,
+     "mi": 0.17
+    },
+    {
+     "slug": "140-summer-street-stamford-connecticut-24171932",
+     "addr": "140 Summer Street Unit 1A",
+     "unit": "Unit 1A",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 816.0,
+     "price": 2300.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-11",
+     "ppsf": 3,
+     "mi": 0.19
+    },
+    {
+     "slug": "2437-bedford-street-stamford-connecticut-24152334",
+     "addr": "2437 Bedford Street Unit F17",
+     "unit": "Unit F17",
+     "beds": 1.0,
+     "baths": 2.0,
+     "sqft": 1066.0,
+     "price": 3100.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-15",
+     "ppsf": 3,
+     "mi": 0.23
+    },
+    {
+     "slug": "2437-bedford-street-stamford-connecticut-24164640",
+     "addr": "2437 Bedford Street Unit F21",
+     "unit": "Unit F21",
+     "beds": 1.0,
+     "baths": 2.0,
+     "sqft": 1069.0,
+     "price": 3000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-01",
+     "ppsf": 3,
+     "mi": 0.23
+    },
+    {
+     "slug": "30-riverside-avenue-stamford-connecticut-24159111",
+     "addr": "30 Riverside Avenue Unit B",
+     "unit": "Unit B",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 730.0,
+     "price": 2500.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-18",
+     "ppsf": 3,
+     "mi": 0.23
+    }
+   ],
+   "summary": {
+    "n": 6,
+    "low": 2300.0,
+    "high": 3200.0,
+    "median": 2850
+   },
+   "radiusMi": 0.75
+  }
  }
 }

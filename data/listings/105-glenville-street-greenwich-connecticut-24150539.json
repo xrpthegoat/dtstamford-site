@@ -108,5 +108,45 @@
    "n": "Bus stop",
    "mi": 1.67
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "40-ettl-lane-greenwich-connecticut-24149318",
+     "addr": "40 Ettl Lane Unit 17",
+     "unit": "Unit 17",
+     "beds": 3.0,
+     "baths": 4.0,
+     "sqft": 2990.0,
+     "price": 1850000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-16",
+     "ppsf": 619,
+     "mi": 0.22
+    },
+    {
+     "slug": "22-nedley-lane-greenwich-connecticut-24176923",
+     "addr": "22 Nedley Lane",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 1620.0,
+     "price": 990000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 611,
+     "mi": 0.21
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 1850000.0,
+    "high": 1850000.0,
+    "median": 1850000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

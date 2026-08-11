@@ -129,5 +129,45 @@
    "n": "Bus stop",
    "mi": 1.58
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "25-cove-avenue-norwalk-connecticut-24161858",
+     "addr": "25 Cove Avenue Unit 1",
+     "unit": "Unit 1",
+     "beds": 5.0,
+     "baths": 2.0,
+     "sqft": 1577.0,
+     "price": 4450.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-01",
+     "ppsf": 3,
+     "mi": 0.23
+    },
+    {
+     "slug": "25-quintard-avenue-norwalk-connecticut-24189758",
+     "addr": "25 Quintard Avenue",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 3.0,
+     "sqft": 2349.0,
+     "price": 7725.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 3,
+     "mi": 0.67
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 4450.0,
+    "high": 4450.0,
+    "median": 4450
+   },
+   "radiusMi": 0.75
+  }
  }
 }

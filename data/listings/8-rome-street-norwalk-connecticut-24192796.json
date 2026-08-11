@@ -123,5 +123,87 @@
    "n": "Bus stop",
    "mi": 0.6
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "42-county-street-norwalk-connecticut-24179019",
+     "addr": "42 County Street",
+     "unit": "",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 910.0,
+     "price": 3680.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-01",
+     "ppsf": 4,
+     "mi": 0.32
+    },
+    {
+     "slug": "2-margaret-street-norwalk-connecticut-24180735",
+     "addr": "2 Margaret Street",
+     "unit": "",
+     "beds": 2.0,
+     "baths": 1.0,
+     "sqft": 1351.0,
+     "price": 3800.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-15",
+     "ppsf": 3,
+     "mi": 0.71
+    },
+    {
+     "slug": "9-park-street-norwalk-connecticut-24183776",
+     "addr": "9 Park Street Unit 2L",
+     "unit": "Unit 2L",
+     "beds": 2.0,
+     "baths": 1.0,
+     "sqft": 1056.0,
+     "price": 2500.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-15",
+     "ppsf": 2,
+     "mi": 0.71
+    },
+    {
+     "slug": "104-east-avenue-norwalk-connecticut-24127829",
+     "addr": "104 East Avenue #2nd Floor",
+     "unit": "#2nd Floor",
+     "beds": 2.0,
+     "baths": 3.0,
+     "sqft": 1584.0,
+     "price": 2800.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-27",
+     "ppsf": 2,
+     "mi": 0.72
+    },
+    {
+     "slug": "10a-willard-road-norwalk-connecticut-24192128",
+     "addr": "10a Willard Road Unit 222",
+     "unit": "Unit 222",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1050.0,
+     "price": 3100.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 3,
+     "mi": 0.65
+    }
+   ],
+   "summary": {
+    "n": 4,
+    "low": 2500.0,
+    "high": 3800.0,
+    "median": 3240
+   },
+   "radiusMi": 0.75
+  }
  }
 }

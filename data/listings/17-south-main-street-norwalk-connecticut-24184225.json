@@ -113,5 +113,102 @@
    "n": "Bus stop",
    "mi": 0.9
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "8-haviland-street-norwalk-connecticut-24170015",
+     "addr": "8 Haviland Street Unit A",
+     "unit": "Unit A",
+     "beds": 2.0,
+     "baths": 1.0,
+     "sqft": 1100.0,
+     "price": 2900.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-02",
+     "ppsf": 3,
+     "mi": 0.08
+    },
+    {
+     "slug": "70-south-main-street-norwalk-connecticut-24159755",
+     "addr": "70 South Main Street Unit 3B",
+     "unit": "Unit 3B",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 890.0,
+     "price": 2800.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-11",
+     "ppsf": 3,
+     "mi": 0.13
+    },
+    {
+     "slug": "70-south-main-street-norwalk-connecticut-24159738",
+     "addr": "70 South Main Street Unit 3D",
+     "unit": "Unit 3D",
+     "beds": 2.0,
+     "baths": 4.0,
+     "sqft": 2000.0,
+     "price": 4500.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-11",
+     "ppsf": 2,
+     "mi": 0.13
+    },
+    {
+     "slug": "19-day-street-norwalk-connecticut-24147318",
+     "addr": "19 Day Street Unit 311",
+     "unit": "Unit 311",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1341.0,
+     "price": 3500.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-16",
+     "ppsf": 3,
+     "mi": 0.2
+    },
+    {
+     "slug": "19-day-street-norwalk-connecticut-24147317",
+     "addr": "19 Day Street Unit 402",
+     "unit": "Unit 402",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1086.0,
+     "price": 3100.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-28",
+     "ppsf": 3,
+     "mi": 0.2
+    },
+    {
+     "slug": "115-flax-hill-road-norwalk-connecticut-24176759",
+     "addr": "115 Flax Hill Road Unit 10",
+     "unit": "Unit 10",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 862.0,
+     "price": 2750.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-29",
+     "ppsf": 3,
+     "mi": 0.25
+    }
+   ],
+   "summary": {
+    "n": 6,
+    "low": 2750.0,
+    "high": 4500.0,
+    "median": 3000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

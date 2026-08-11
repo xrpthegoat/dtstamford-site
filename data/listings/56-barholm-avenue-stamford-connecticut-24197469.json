@@ -125,5 +125,74 @@
    "mi": 0.97,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "53-dagmar-road-stamford-connecticut-24170188",
+     "addr": "53 Dagmar Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 2963.0,
+     "price": 6028.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-19",
+     "ppsf": 2,
+     "mi": 0.43
+    },
+    {
+     "slug": "46-prudence-drive-stamford-connecticut-24157278",
+     "addr": "46 Prudence Drive",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 2.0,
+     "sqft": 1628.0,
+     "price": 5300.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-18",
+     "ppsf": 3,
+     "mi": 0.48
+    },
+    {
+     "slug": "1312-hope-street-stamford-connecticut-24157858",
+     "addr": "1312 Hope Street Unit 2",
+     "unit": "Unit 2",
+     "beds": 4.0,
+     "baths": 2.0,
+     "sqft": 1625.0,
+     "price": 3750.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-30",
+     "ppsf": 2,
+     "mi": 0.61
+    },
+    {
+     "slug": "17-oenoke-place-stamford-connecticut-24180929",
+     "addr": "17 Oenoke Place Unit REAR Home",
+     "unit": "Unit REAR Home",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 2350.0,
+     "price": 5300.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-13",
+     "ppsf": 2,
+     "mi": 0.62
+    }
+   ],
+   "summary": {
+    "n": 4,
+    "low": 3750.0,
+    "high": 6028.0,
+    "median": 5300
+   },
+   "radiusMi": 0.75
+  }
  }
 }

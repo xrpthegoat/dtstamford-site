@@ -107,5 +107,58 @@
    "n": "Bus stop",
    "mi": 1.34
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "11-bethel-street-norwalk-connecticut-24169396",
+     "addr": "11 Bethel Street",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 2244.0,
+     "price": 770000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-31",
+     "ppsf": 343,
+     "mi": 0.29
+    },
+    {
+     "slug": "47-second-street-norwalk-connecticut-24189302",
+     "addr": "47 Second Street",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 2.0,
+     "sqft": 2472.0,
+     "price": 989000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 400,
+     "mi": 0.14
+    },
+    {
+     "slug": "12-first-street-norwalk-connecticut-24190567",
+     "addr": "12 First Street",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 2.0,
+     "sqft": 1904.0,
+     "price": 819000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 430,
+     "mi": 0.28
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 770000.0,
+    "high": 770000.0,
+    "median": 770000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

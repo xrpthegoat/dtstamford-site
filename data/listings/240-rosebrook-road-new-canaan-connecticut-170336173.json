@@ -108,5 +108,72 @@
    "mi": 1.46,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "114-ferris-hill-road-new-canaan-connecticut-24132650",
+     "addr": "114 Ferris Hill Road",
+     "unit": "",
+     "beds": 6.0,
+     "baths": 9.0,
+     "sqft": 7700.0,
+     "price": 4925000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-10",
+     "ppsf": 640,
+     "mi": 0.45
+    },
+    {
+     "slug": "42-sturbridge-hill-road-new-canaan-connecticut-24140410",
+     "addr": "42 Sturbridge Hill Road",
+     "unit": "",
+     "beds": 6.0,
+     "baths": 5.0,
+     "sqft": 4085.0,
+     "price": 2275000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-10",
+     "ppsf": 557,
+     "mi": 0.72
+    },
+    {
+     "slug": "46-norholt-drive-new-canaan-connecticut-24184383",
+     "addr": "46 Norholt Drive",
+     "unit": "",
+     "beds": 6.0,
+     "baths": 10.0,
+     "sqft": 9429.0,
+     "price": 7499000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 795,
+     "mi": 0.45
+    },
+    {
+     "slug": "190-brookwood-lane-new-canaan-connecticut-24184237",
+     "addr": "190 Brookwood Lane",
+     "unit": "",
+     "beds": 6.0,
+     "baths": 8.0,
+     "sqft": 10495.0,
+     "price": 8250000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 786,
+     "mi": 0.6
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 2275000.0,
+    "high": 4925000.0,
+    "median": 3600000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

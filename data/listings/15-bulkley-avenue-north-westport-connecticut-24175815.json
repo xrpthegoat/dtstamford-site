@@ -106,5 +106,46 @@
    "mi": 3.93,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "30-maple-avenue-north-westport-connecticut-24187276",
+     "addr": "30 Maple Avenue North",
+     "unit": "",
+     "beds": 6.0,
+     "baths": 6.0,
+     "sqft": 6477.0,
+     "price": 18500.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-27",
+     "ppsf": 3,
+     "mi": 0.56
+    },
+    {
+     "slug": "355-greens-farms-road-westport-connecticut-24160487",
+     "addr": "355 Greens Farms Road",
+     "unit": "",
+     "beds": 6.0,
+     "baths": 8.0,
+     "sqft": 7447.0,
+     "price": 35000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-01",
+     "ppsf": 5,
+     "mi": 0.61
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 18500.0,
+    "high": 35000.0,
+    "median": 26750
+   },
+   "radiusMi": 0.75
+  }
  }
 }

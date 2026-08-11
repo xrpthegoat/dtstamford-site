@@ -95,5 +95,117 @@
    "walk": 3,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "building": {
+   "rows": [
+    {
+     "slug": "351-greenwich-avenue-greenwich-connecticut-24183367",
+     "addr": "351 Greenwich Avenue Unit 3",
+     "unit": "Unit 3",
+     "beds": 3.0,
+     "baths": 1.0,
+     "sqft": 988.0,
+     "price": 3600.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 4
+    }
+   ],
+   "summary": null,
+   "label": "351 Greenwich Avenue"
+  },
+  "area": {
+   "rows": [
+    {
+     "slug": "47-indian-harbor-drive-greenwich-connecticut-24168846",
+     "addr": "47 Indian Harbor Drive Unit 7",
+     "unit": "Unit 7",
+     "beds": 3.0,
+     "baths": 4.0,
+     "sqft": 2830.0,
+     "price": 10000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-14",
+     "ppsf": 4,
+     "mi": 0.36
+    },
+    {
+     "slug": "72-prospect-street-greenwich-connecticut-24159979",
+     "addr": "72 Prospect Street",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 2736.0,
+     "price": 4200.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-13",
+     "ppsf": 2,
+     "mi": 0.47
+    },
+    {
+     "slug": "28-home-place-greenwich-connecticut-24164099",
+     "addr": "28 Home Place Unit A-2",
+     "unit": "Unit A-2",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 2565.0,
+     "price": 6550.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-17",
+     "ppsf": 3,
+     "mi": 0.48
+    },
+    {
+     "slug": "347-greenwich-avenue-greenwich-connecticut-24192350",
+     "addr": "347 Greenwich Avenue",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 1.0,
+     "sqft": 3572.0,
+     "price": 3300.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 1,
+     "mi": 0.01
+    },
+    {
+     "slug": "288-davis-avenue-greenwich-connecticut-24190768",
+     "addr": "288 Davis Avenue Unit 1",
+     "unit": "Unit 1",
+     "beds": 3.0,
+     "baths": 4.0,
+     "sqft": 3571.0,
+     "price": 9500.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 3,
+     "mi": 0.26
+    },
+    {
+     "slug": "20-church-street-greenwich-connecticut-24178865",
+     "addr": "20 Church Street Unit A24",
+     "unit": "Unit A24",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1578.0,
+     "price": 10500.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 7,
+     "mi": 0.63
+    }
+   ],
+   "summary": {
+    "n": 3,
+    "low": 4200.0,
+    "high": 10000.0,
+    "median": 6550
+   },
+   "radiusMi": 0.75
+  }
  }
 }

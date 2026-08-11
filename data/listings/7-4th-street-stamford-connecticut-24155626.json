@@ -112,5 +112,120 @@
    "mi": 0.07,
    "walk": 1
   }
+ },
+ "comps": {
+  "building": {
+   "rows": [
+    {
+     "slug": "7-4th-street-stamford-connecticut-24163358",
+     "addr": "7 4th Street Unit 3C",
+     "unit": "Unit 3C",
+     "beds": 2.0,
+     "baths": 1.0,
+     "sqft": 1064.0,
+     "price": 415000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 390
+    }
+   ],
+   "summary": null,
+   "label": "7 4th Street"
+  },
+  "area": {
+   "rows": [
+    {
+     "slug": "34-4th-street-stamford-connecticut-24151048",
+     "addr": "34 4th Street Unit 34",
+     "unit": "Unit 34",
+     "beds": 2.0,
+     "baths": 1.0,
+     "sqft": 1054.0,
+     "price": 393000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-30",
+     "ppsf": 373,
+     "mi": 0.05
+    },
+    {
+     "slug": "1900-summer-street-stamford-connecticut-24179775",
+     "addr": "1900 Summer Street Unit 19",
+     "unit": "Unit 19",
+     "beds": 2.0,
+     "baths": 3.0,
+     "sqft": 1571.0,
+     "price": 640000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-15",
+     "ppsf": 407,
+     "mi": 0.08
+    },
+    {
+     "slug": "118-woodside-green-stamford-connecticut-24154472",
+     "addr": "118 Woodside Green Unit 1A",
+     "unit": "Unit 1A",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1696.0,
+     "price": 420000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-20",
+     "ppsf": 248,
+     "mi": 0.14
+    },
+    {
+     "slug": "1515-summer-street-stamford-connecticut-24155357",
+     "addr": "1515 Summer Street Unit 407",
+     "unit": "Unit 407",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1117.0,
+     "price": 575000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-15",
+     "ppsf": 515,
+     "mi": 0.16
+    },
+    {
+     "slug": "1633-washington-boulevard-stamford-connecticut-24149222",
+     "addr": "1633 Washington Boulevard Apt 3D",
+     "unit": "Apt 3D",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1315.0,
+     "price": 425000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-12",
+     "ppsf": 323,
+     "mi": 0.18
+    },
+    {
+     "slug": "1633-washington-boulevard-stamford-connecticut-24166450",
+     "addr": "1633 Washington Boulevard Unit 4D",
+     "unit": "Unit 4D",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1315.0,
+     "price": 445000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-15",
+     "ppsf": 338,
+     "mi": 0.18
+    }
+   ],
+   "summary": {
+    "n": 6,
+    "low": 393000.0,
+    "high": 640000.0,
+    "median": 435000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

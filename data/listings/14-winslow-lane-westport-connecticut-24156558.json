@@ -107,5 +107,101 @@
    "mi": 2.0,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "16-sue-terrace-westport-connecticut-24182475",
+     "addr": "16 Sue Terrace",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 3355.0,
+     "price": 13500.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-30",
+     "ppsf": 4,
+     "mi": 0.27
+    },
+    {
+     "slug": "59-crescent-road-westport-connecticut-24162571",
+     "addr": "59 Crescent Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 4.0,
+     "sqft": 4508.0,
+     "price": 10000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-22",
+     "ppsf": 2,
+     "mi": 0.52
+    },
+    {
+     "slug": "95-compo-road-north-westport-connecticut-24158398",
+     "addr": "95 Compo Road North",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 4.0,
+     "sqft": 4225.0,
+     "price": 19000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-17",
+     "ppsf": 4,
+     "mi": 0.54
+    },
+    {
+     "slug": "11-beechwood-lane-westport-connecticut-24163215",
+     "addr": "11 Beechwood Lane",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 1886.0,
+     "price": 6500.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-06",
+     "ppsf": 3,
+     "mi": 0.59
+    },
+    {
+     "slug": "118-roseville-road-westport-connecticut-24169484",
+     "addr": "118 Roseville Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 4243.0,
+     "price": 13000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-01",
+     "ppsf": 3,
+     "mi": 0.61
+    },
+    {
+     "slug": "5-turtleback-lane-westport-connecticut-24195243",
+     "addr": "5 Turtleback Lane",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 2408.0,
+     "price": 8200.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 3,
+     "mi": 0.06
+    }
+   ],
+   "summary": {
+    "n": 5,
+    "low": 6500.0,
+    "high": 19000.0,
+    "median": 13000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

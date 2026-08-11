@@ -105,5 +105,72 @@
    "mi": 0.59,
    "walk": 12
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "46-young-dixon-way-stamford-connecticut-24159917",
+     "addr": "46 Young Dixon Way Unit 46",
+     "unit": "Unit 46",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 1380.0,
+     "price": 366060.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-22",
+     "ppsf": 265,
+     "mi": 0.36
+    },
+    {
+     "slug": "34-davenport-drive-stamford-connecticut-24172980",
+     "addr": "34 Davenport Drive",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 2268.0,
+     "price": 1200000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-23",
+     "ppsf": 529,
+     "mi": 0.5
+    },
+    {
+     "slug": "11-hendrie-court-stamford-connecticut-24187753",
+     "addr": "11 Hendrie Court",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1690.0,
+     "price": 845000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 500,
+     "mi": 0.65
+    },
+    {
+     "slug": "2-joshua-slocum-dock-stamford-connecticut-24173089",
+     "addr": "2 Joshua Slocum Dock",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 2615.0,
+     "price": 2200000.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 841,
+     "mi": 0.71
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 366060.0,
+    "high": 1200000.0,
+    "median": 783030
+   },
+   "radiusMi": 0.75
+  }
  }
 }

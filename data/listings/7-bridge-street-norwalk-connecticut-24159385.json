@@ -101,5 +101,100 @@
    "n": "Bus stop",
    "mi": 0.61
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "247-east-avenue-norwalk-connecticut-24161586",
+     "addr": "247 East Avenue Unit 2",
+     "unit": "Unit 2",
+     "beds": 1.0,
+     "baths": 2.0,
+     "sqft": 850.0,
+     "price": 2500.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-15",
+     "ppsf": 3,
+     "mi": 0.55
+    },
+    {
+     "slug": "61-van-zant-street-norwalk-connecticut-24152360",
+     "addr": "61 Van Zant Street Unit 2",
+     "unit": "Unit 2",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 900.0,
+     "price": 2100.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-01",
+     "ppsf": 2,
+     "mi": 0.58
+    },
+    {
+     "slug": "78-osborne-avenue-norwalk-connecticut-24170595",
+     "addr": "78 Osborne Avenue Unit 2",
+     "unit": "Unit 2",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 650.0,
+     "price": 1900.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-01",
+     "ppsf": 3,
+     "mi": 0.65
+    },
+    {
+     "slug": "49-osborne-avenue-norwalk-connecticut-24151683",
+     "addr": "49 Osborne Avenue",
+     "unit": "",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 850.0,
+     "price": 2100.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-18",
+     "ppsf": 2,
+     "mi": 0.67
+    },
+    {
+     "slug": "54-first-street-norwalk-connecticut-24197934",
+     "addr": "54 First Street",
+     "unit": "",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 800.0,
+     "price": 2600.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 3,
+     "mi": 0.64
+    },
+    {
+     "slug": "276-east-avenue-norwalk-connecticut-24180532",
+     "addr": "276 East Avenue",
+     "unit": "",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 3374.0,
+     "price": 1700.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 1,
+     "mi": 0.65
+    }
+   ],
+   "summary": {
+    "n": 4,
+    "low": 1900.0,
+    "high": 2500.0,
+    "median": 2100
+   },
+   "radiusMi": 0.75
+  }
  }
 }

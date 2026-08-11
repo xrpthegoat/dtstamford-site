@@ -105,5 +105,86 @@
    "mi": 0.42,
    "walk": 8
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "113-range-road-wilton-connecticut-24164761",
+     "addr": "113 Range Road",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 2496.0,
+     "price": 1290000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-25",
+     "ppsf": 517,
+     "mi": 0.36
+    },
+    {
+     "slug": "25-arrowhead-road-wilton-connecticut-24150645",
+     "addr": "25 Arrowhead Road",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 2679.0,
+     "price": 900000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-03",
+     "ppsf": 336,
+     "mi": 0.48
+    },
+    {
+     "slug": "20-arrowhead-road-wilton-connecticut-24149192",
+     "addr": "20 Arrowhead Road",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 1980.0,
+     "price": 650000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-29",
+     "ppsf": 328,
+     "mi": 0.53
+    },
+    {
+     "slug": "195-range-road-wilton-connecticut-24186255",
+     "addr": "195 Range Road",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1816.0,
+     "price": 879000.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 484,
+     "mi": 0.39
+    },
+    {
+     "slug": "512-belden-hill-road-wilton-connecticut-24191982",
+     "addr": "512 Belden Hill Road",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 2738.0,
+     "price": 979000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 358,
+     "mi": 0.63
+    }
+   ],
+   "summary": {
+    "n": 3,
+    "low": 650000.0,
+    "high": 1290000.0,
+    "median": 900000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

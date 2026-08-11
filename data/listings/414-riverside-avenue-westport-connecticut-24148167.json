@@ -107,5 +107,101 @@
    "n": "Bus stop",
    "mi": 1.24
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "5-treadwell-avenue-westport-connecticut-24184256",
+     "addr": "5 Treadwell Avenue",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1552.0,
+     "price": 4950.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-29",
+     "ppsf": 3,
+     "mi": 0.16
+    },
+    {
+     "slug": "4-river-view-road-westport-connecticut-24172561",
+     "addr": "4 River View Road",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1258.0,
+     "price": 7300.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-13",
+     "ppsf": 6,
+     "mi": 0.45
+    },
+    {
+     "slug": "188-compo-road-south-westport-connecticut-24155993",
+     "addr": "188 Compo Road South",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 4.0,
+     "sqft": 3090.0,
+     "price": 10750.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-21",
+     "ppsf": 3,
+     "mi": 0.59
+    },
+    {
+     "slug": "26-hiawatha-lane-extension-westport-connecticut-24155254",
+     "addr": "26 Hiawatha Lane Extension",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1056.0,
+     "price": 5000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-01",
+     "ppsf": 5,
+     "mi": 0.71
+    },
+    {
+     "slug": "12-burr-road-westport-connecticut-24169311",
+     "addr": "12 Burr Road",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 4.0,
+     "sqft": 3310.0,
+     "price": 7500.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-30",
+     "ppsf": 2,
+     "mi": 0.73
+    },
+    {
+     "slug": "462-riverside-avenue-westport-connecticut-24180588",
+     "addr": "462 Riverside Avenue",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 2235.0,
+     "price": 11750.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 5,
+     "mi": 0.11
+    }
+   ],
+   "summary": {
+    "n": 5,
+    "low": 4950.0,
+    "high": 10750.0,
+    "median": 7300
+   },
+   "radiusMi": 0.75
+  }
  }
 }

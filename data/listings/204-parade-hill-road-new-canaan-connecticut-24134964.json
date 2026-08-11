@@ -105,5 +105,73 @@
    "mi": 0.83,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "3-holmewood-lane-new-canaan-connecticut-24169658",
+     "addr": "3 Holmewood Lane",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 5.0,
+     "sqft": 3742.0,
+     "price": 2413250.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-26",
+     "ppsf": 645,
+     "mi": 0.18
+    },
+    {
+     "slug": "94-glen-drive-new-canaan-connecticut-24153070",
+     "addr": "94 Glen Drive",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 4.0,
+     "sqft": 3086.0,
+     "price": 2305000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-30",
+     "ppsf": 747,
+     "mi": 0.19
+    },
+    {
+     "slug": "113-brushy-ridge-road-new-canaan-connecticut-24131013",
+     "addr": "113 Brushy Ridge Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 7.0,
+     "sqft": 6528.0,
+     "price": 2900875.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-15",
+     "ppsf": 444,
+     "mi": 0.63
+    },
+    {
+     "slug": "565-oenoke-ridge-new-canaan-connecticut-24189751",
+     "addr": "565 Oenoke Ridge",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 5.0,
+     "sqft": 4927.0,
+     "price": 4000000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 812,
+     "mi": 0.68
+    }
+   ],
+   "summary": {
+    "n": 3,
+    "low": 2305000.0,
+    "high": 2900875.0,
+    "median": 2413250
+   },
+   "radiusMi": 0.75
+  }
  }
 }

@@ -100,5 +100,45 @@
    "mi": 3.72,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "32-bauer-place-extension-westport-connecticut-24156275",
+     "addr": "32 Bauer Place Extension",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 1752.0,
+     "price": 1410000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-15",
+     "ppsf": 805,
+     "mi": 0.59
+    },
+    {
+     "slug": "10-grist-mill-lane-westport-connecticut-24172940",
+     "addr": "10 Grist Mill Lane",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 2138.0,
+     "price": 1689000.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 790,
+     "mi": 0.38
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 1410000.0,
+    "high": 1410000.0,
+    "median": 1410000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

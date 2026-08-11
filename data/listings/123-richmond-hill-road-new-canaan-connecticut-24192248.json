@@ -140,5 +140,132 @@
    "walk": 7,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "building": {
+   "rows": [
+    {
+     "slug": "123-richmond-hill-road-new-canaan-connecticut-24188242",
+     "addr": "123 Richmond Hill Road Unit 9",
+     "unit": "Unit 9",
+     "beds": 3.0,
+     "baths": 4.0,
+     "sqft": 2364.0,
+     "price": 1425000.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 603
+    },
+    {
+     "slug": "123-richmond-hill-road-new-canaan-connecticut-24188193",
+     "addr": "123 Richmond Hill Road Unit 18",
+     "unit": "Unit 18",
+     "beds": 3.0,
+     "baths": 4.0,
+     "sqft": 2406.0,
+     "price": 1399000.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 581
+    }
+   ],
+   "summary": null,
+   "label": "123 Richmond Hill Road"
+  },
+  "area": {
+   "rows": [
+    {
+     "slug": "312-elm-street-new-canaan-connecticut-24127288",
+     "addr": "312 Elm Street Unit 20",
+     "unit": "Unit 20",
+     "beds": 3.0,
+     "baths": 4.0,
+     "sqft": 2220.0,
+     "price": 1950000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-15",
+     "ppsf": 878,
+     "mi": 0.13
+    },
+    {
+     "slug": "705-weed-street-new-canaan-connecticut-24158437",
+     "addr": "705 Weed Street Unit 7",
+     "unit": "Unit 7",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 2044.0,
+     "price": 1611500.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-27",
+     "ppsf": 788,
+     "mi": 0.15
+    },
+    {
+     "slug": "36-richmond-hill-road-new-canaan-connecticut-24176189",
+     "addr": "36 Richmond Hill Road",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 4.0,
+     "sqft": 3802.0,
+     "price": 2800000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-29",
+     "ppsf": 736,
+     "mi": 0.25
+    },
+    {
+     "slug": "205-main-street-new-canaan-connecticut-24157292",
+     "addr": "205 Main Street Unit 33",
+     "unit": "Unit 33",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 2620.0,
+     "price": 1475000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-09",
+     "ppsf": 563,
+     "mi": 0.51
+    },
+    {
+     "slug": "205-main-street-new-canaan-connecticut-24174815",
+     "addr": "205 Main Street Unit 36",
+     "unit": "Unit 36",
+     "beds": 3.0,
+     "baths": 4.0,
+     "sqft": 2806.0,
+     "price": 1500000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-30",
+     "ppsf": 535,
+     "mi": 0.55
+    },
+    {
+     "slug": "39-park-place-new-canaan-connecticut-24167247",
+     "addr": "39 Park Place Unit 39",
+     "unit": "Unit 39",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 2393.0,
+     "price": 1500000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-17",
+     "ppsf": 627,
+     "mi": 0.59
+    }
+   ],
+   "summary": {
+    "n": 6,
+    "low": 1475000.0,
+    "high": 2800000.0,
+    "median": 1555750
+   },
+   "radiusMi": 0.75
+  }
  }
 }

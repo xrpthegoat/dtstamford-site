@@ -118,5 +118,133 @@
    "n": "Bus stop",
    "mi": 1.64
   }
+ },
+ "comps": {
+  "building": {
+   "rows": [
+    {
+     "slug": "253-riverside-avenue-westport-connecticut-24175550",
+     "addr": "253 Riverside Avenue Unit 201",
+     "unit": "Unit 201",
+     "beds": 2.0,
+     "baths": 3.0,
+     "sqft": 1300.0,
+     "price": 11500.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-31",
+     "ppsf": 9
+    },
+    {
+     "slug": "253-riverside-avenue-westport-connecticut-24175657",
+     "addr": "253 Riverside Avenue Unit 202",
+     "unit": "Unit 202",
+     "beds": 2.0,
+     "baths": 3.0,
+     "sqft": 1200.0,
+     "price": 11500.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 10
+    },
+    {
+     "slug": "253-riverside-avenue-westport-connecticut-24175629",
+     "addr": "253 Riverside Avenue Unit 102",
+     "unit": "Unit 102",
+     "beds": 2.0,
+     "baths": 3.0,
+     "sqft": 1300.0,
+     "price": 9950.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 8
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 11500.0,
+    "high": 11500.0,
+    "median": 11500
+   },
+   "label": "253 Riverside Avenue"
+  },
+  "area": {
+   "rows": [
+    {
+     "slug": "251-riverside-avenue-westport-connecticut-24175707",
+     "addr": "251 Riverside Avenue Unit 251 A - 2nd floor",
+     "unit": "Unit 251 A - 2nd floor",
+     "beds": 2.0,
+     "baths": 3.0,
+     "sqft": 1560.0,
+     "price": 11000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-31",
+     "ppsf": 7,
+     "mi": 0.0
+    },
+    {
+     "slug": "20-cross-street-westport-connecticut-24172100",
+     "addr": "20 Cross Street Unit 5",
+     "unit": "Unit 5",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1182.0,
+     "price": 4900.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-06",
+     "ppsf": 4,
+     "mi": 0.5
+    },
+    {
+     "slug": "251-riverside-avenue-westport-connecticut-24175700",
+     "addr": "251 Riverside Avenue Unit 251 B - Main Level",
+     "unit": "Unit 251 B - Main Level",
+     "beds": 2.0,
+     "baths": 3.0,
+     "sqft": 1420.0,
+     "price": 10500.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 7,
+     "mi": 0.0
+    },
+    {
+     "slug": "18-riverside-avenue-westport-connecticut-24189068",
+     "addr": "18 Riverside Avenue Unit 2",
+     "unit": "Unit 2",
+     "beds": 2.0,
+     "baths": 1.0,
+     "sqft": 600.0,
+     "price": 3450.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 6,
+     "mi": 0.6
+    },
+    {
+     "slug": "34-franklin-street-westport-connecticut-24188317",
+     "addr": "34 Franklin Street Unit 1",
+     "unit": "Unit 1",
+     "beds": 2.0,
+     "baths": 1.0,
+     "sqft": 750.0,
+     "price": 3000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 4,
+     "mi": 0.75
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 4900.0,
+    "high": 11000.0,
+    "median": 7950
+   },
+   "radiusMi": 0.75
+  }
  }
 }

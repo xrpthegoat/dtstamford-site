@@ -109,5 +109,46 @@
    "n": "Route 107 Intersection",
    "mi": 1.64
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "36-rockhouse-road-wilton-connecticut-24187186",
+     "addr": "36 Rockhouse Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 3442.0,
+     "price": 1390000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-08-03",
+     "ppsf": 404,
+     "mi": 0.54
+    },
+    {
+     "slug": "349-mountain-road-wilton-connecticut-24151997",
+     "addr": "349 Mountain Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 2884.0,
+     "price": 1195000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-21",
+     "ppsf": 414,
+     "mi": 0.65
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 1195000.0,
+    "high": 1390000.0,
+    "median": 1292500
+   },
+   "radiusMi": 0.75
+  }
  }
 }

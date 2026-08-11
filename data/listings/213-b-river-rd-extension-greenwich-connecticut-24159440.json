@@ -101,5 +101,72 @@
    "n": "Bus stop",
    "mi": 1.14
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "156-river-rd-extension-greenwich-connecticut-24146768",
+     "addr": "156 River Rd Extension Unit 3",
+     "unit": "Unit 3",
+     "beds": 3.0,
+     "baths": 1.0,
+     "sqft": 1500.0,
+     "price": 3150.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-17",
+     "ppsf": 2,
+     "mi": 0.06
+    },
+    {
+     "slug": "20-orchard-street-greenwich-connecticut-24174811",
+     "addr": "20 Orchard Street",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 2681.0,
+     "price": 8600.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-26",
+     "ppsf": 3,
+     "mi": 0.37
+    },
+    {
+     "slug": "78-river-road-greenwich-connecticut-24173464",
+     "addr": "78 River Road Unit 15",
+     "unit": "Unit 15",
+     "beds": 3.0,
+     "baths": 4.0,
+     "sqft": 2381.0,
+     "price": 12000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 5,
+     "mi": 0.29
+    },
+    {
+     "slug": "45-sound-beach-ave-extension-greenwich-connecticut-24197554",
+     "addr": "45 Sound Beach Ave Extension",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 2556.0,
+     "price": 7999.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 3,
+     "mi": 0.6
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 3150.0,
+    "high": 8600.0,
+    "median": 5875
+   },
+   "radiusMi": 0.75
+  }
  }
 }

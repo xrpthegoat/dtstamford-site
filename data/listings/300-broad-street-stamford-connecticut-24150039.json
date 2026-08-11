@@ -100,5 +100,139 @@
    "mi": 0.29,
    "walk": 6
   }
+ },
+ "comps": {
+  "building": {
+   "rows": [
+    {
+     "slug": "300-broad-street-stamford-connecticut-24140652",
+     "addr": "300 Broad Street Unit 107",
+     "unit": "Unit 107",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 517.0,
+     "price": 2100.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-15",
+     "ppsf": 4
+    },
+    {
+     "slug": "300-broad-street-stamford-connecticut-24164774",
+     "addr": "300 Broad Street Unit 307",
+     "unit": "Unit 307",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 654.0,
+     "price": 2150.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-14",
+     "ppsf": 3
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 2100.0,
+    "high": 2150.0,
+    "median": 2125
+   },
+   "label": "300 Broad Street"
+  },
+  "area": {
+   "rows": [
+    {
+     "slug": "22-glenbrook-road-stamford-connecticut-24159907",
+     "addr": "22 Glenbrook Road Apt 304",
+     "unit": "Apt 304",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 740.0,
+     "price": 1900.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-03",
+     "ppsf": 3,
+     "mi": 0.08
+    },
+    {
+     "slug": "30-glenbrook-road-stamford-connecticut-24150366",
+     "addr": "30 Glenbrook Road Unit 3A",
+     "unit": "Unit 3A",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 790.0,
+     "price": 2300.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-16",
+     "ppsf": 3,
+     "mi": 0.1
+    },
+    {
+     "slug": "30-glenbrook-road-stamford-connecticut-24173806",
+     "addr": "30 Glenbrook Road Unit 10F",
+     "unit": "Unit 10F",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 800.0,
+     "price": 2300.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-01",
+     "ppsf": 3,
+     "mi": 0.1
+    },
+    {
+     "slug": "30-glenbrook-road-stamford-connecticut-24174890",
+     "addr": "30 Glenbrook Road Unit 5F",
+     "unit": "Unit 5F",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 800.0,
+     "price": 2300.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-01",
+     "ppsf": 3,
+     "mi": 0.1
+    },
+    {
+     "slug": "30-glenbrook-road-stamford-connecticut-24187435",
+     "addr": "30 Glenbrook Road Unit 6A",
+     "unit": "Unit 6A",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 790.0,
+     "price": 2000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-14",
+     "ppsf": 3,
+     "mi": 0.1
+    },
+    {
+     "slug": "50-glenbrook-road-stamford-connecticut-24188408",
+     "addr": "50 Glenbrook Road Unit 6E",
+     "unit": "Unit 6E",
+     "beds": 1.0,
+     "baths": 2.0,
+     "sqft": 1079.0,
+     "price": 2400.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-09",
+     "ppsf": 2,
+     "mi": 0.13
+    }
+   ],
+   "summary": {
+    "n": 6,
+    "low": 1900.0,
+    "high": 2400.0,
+    "median": 2300
+   },
+   "radiusMi": 0.75
+  }
  }
 }

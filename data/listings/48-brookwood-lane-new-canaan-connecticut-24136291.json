@@ -106,5 +106,45 @@
    "mi": 1.53,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "101-parade-hill-road-new-canaan-connecticut-24150007",
+     "addr": "101 Parade Hill Road",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1404.0,
+     "price": 1100000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-14",
+     "ppsf": 783,
+     "mi": 0.72
+    },
+    {
+     "slug": "277-indian-rock-road-new-canaan-connecticut-24181313",
+     "addr": "277 Indian Rock Road",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 2460.0,
+     "price": 2000000.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 813,
+     "mi": 0.66
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 1100000.0,
+    "high": 1100000.0,
+    "median": 1100000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

@@ -102,5 +102,60 @@
    "n": "Bus stop",
    "mi": 0.76
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "30-1-2-bartlett-avenue-norwalk-connecticut-24161335",
+     "addr": "30-1/2 Bartlett Avenue Unit B",
+     "unit": "Unit B",
+     "beds": 3.0,
+     "baths": 1.0,
+     "sqft": 2036.0,
+     "price": 3300.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-24",
+     "ppsf": 2,
+     "mi": 0.51
+    },
+    {
+     "slug": "3-vail-street-norwalk-connecticut-24192795",
+     "addr": "3 Vail Street Unit B",
+     "unit": "Unit B",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1122.0,
+     "price": 3550.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-29",
+     "ppsf": 3,
+     "mi": 0.54
+    },
+    {
+     "slug": "11-cornwall-road-norwalk-connecticut-24179677",
+     "addr": "11 Cornwall Road",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 2128.0,
+     "price": 4500.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-24",
+     "ppsf": 2,
+     "mi": 0.72
+    }
+   ],
+   "summary": {
+    "n": 3,
+    "low": 3300.0,
+    "high": 4500.0,
+    "median": 3550
+   },
+   "radiusMi": 0.75
+  }
  }
 }

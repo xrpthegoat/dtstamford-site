@@ -118,5 +118,59 @@
    "mi": 1.27,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "240-rosebrook-road-new-canaan-connecticut-170336173",
+     "addr": "240 Rosebrook Road",
+     "unit": "",
+     "beds": 6.0,
+     "baths": 8.0,
+     "sqft": 6700.0,
+     "price": 2970797.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-12",
+     "ppsf": 443,
+     "mi": 0.6
+    },
+    {
+     "slug": "91-sunset-hill-road-new-canaan-connecticut-24147271",
+     "addr": "91 Sunset Hill Road",
+     "unit": "",
+     "beds": 6.0,
+     "baths": 8.0,
+     "sqft": 8020.0,
+     "price": 5715000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-01",
+     "ppsf": 713,
+     "mi": 0.72
+    },
+    {
+     "slug": "46-norholt-drive-new-canaan-connecticut-24184383",
+     "addr": "46 Norholt Drive",
+     "unit": "",
+     "beds": 6.0,
+     "baths": 10.0,
+     "sqft": 9429.0,
+     "price": 7499000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 795,
+     "mi": 0.21
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 2970797.0,
+    "high": 5715000.0,
+    "median": 4342898
+   },
+   "radiusMi": 0.75
+  }
  }
 }

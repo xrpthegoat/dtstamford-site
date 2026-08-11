@@ -112,5 +112,99 @@
    "n": "Bus stop",
    "mi": 1.45
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "4-nursery-street-norwalk-connecticut-24149822",
+     "addr": "4 Nursery Street",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 4.0,
+     "sqft": 5480.0,
+     "price": 1200000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-28",
+     "ppsf": 219,
+     "mi": 0.28
+    },
+    {
+     "slug": "15-forbell-drive-norwalk-connecticut-24184210",
+     "addr": "15 Forbell Drive",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1955.0,
+     "price": 855000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-24",
+     "ppsf": 437,
+     "mi": 0.33
+    },
+    {
+     "slug": "7-douglas-drive-norwalk-connecticut-24158941",
+     "addr": "7 Douglas Drive",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 2022.0,
+     "price": 960000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-24",
+     "ppsf": 475,
+     "mi": 0.51
+    },
+    {
+     "slug": "134-ponus-avenue-norwalk-connecticut-24192635",
+     "addr": "134 Ponus Avenue",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 3136.0,
+     "price": 750000.0,
+     "kind": "asking",
+     "status": "Under Contract - Continue to Show",
+     "ppsf": 239,
+     "mi": 0.39
+    },
+    {
+     "slug": "3-may-drive-norwalk-connecticut-24175960",
+     "addr": "3 May Drive",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 3492.0,
+     "price": 899000.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 257,
+     "mi": 0.58
+    },
+    {
+     "slug": "170-new-canaan-avenue-norwalk-connecticut-24175399",
+     "addr": "170 New Canaan Avenue",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 3011.0,
+     "price": 949000.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 315,
+     "mi": 0.6
+    }
+   ],
+   "summary": {
+    "n": 3,
+    "low": 855000.0,
+    "high": 1200000.0,
+    "median": 960000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

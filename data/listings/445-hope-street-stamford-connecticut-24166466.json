@@ -108,5 +108,69 @@
    "n": "Bedford St @ Fifth St",
    "mi": 1.17
   }
+ },
+ "comps": {
+  "building": {
+   "rows": [
+    {
+     "slug": "445-hope-street-stamford-connecticut-24158854",
+     "addr": "445 Hope Street Unit 11",
+     "unit": "Unit 11",
+     "beds": 0.0,
+     "baths": 1.0,
+     "sqft": 500.0,
+     "price": 1625.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-01",
+     "ppsf": 3
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 1625.0,
+    "high": 1625.0,
+    "median": 1625
+   },
+   "label": "445 Hope Street"
+  },
+  "area": {
+   "rows": [
+    {
+     "slug": "15-rose-street-stamford-connecticut-24152504",
+     "addr": "15 Rose Street Unit (Garage)",
+     "unit": "Unit (Garage)",
+     "beds": 0.0,
+     "baths": 0.0,
+     "sqft": 600.0,
+     "price": 900.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-28",
+     "ppsf": 2,
+     "mi": 0.32
+    },
+    {
+     "slug": "68-leonard-street-stamford-connecticut-24197513",
+     "addr": "68 Leonard Street #3",
+     "unit": "#3",
+     "beds": 0.0,
+     "baths": 1.0,
+     "sqft": 450.0,
+     "price": 2000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 4,
+     "mi": 0.33
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 900.0,
+    "high": 900.0,
+    "median": 900
+   },
+   "radiusMi": 0.75
+  }
  }
 }

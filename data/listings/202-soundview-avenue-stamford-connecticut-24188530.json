@@ -134,5 +134,120 @@
    "n": "Broad St @ Greyrock Pl",
    "mi": 1.26
   }
+ },
+ "comps": {
+  "building": {
+   "rows": [
+    {
+     "slug": "202-soundview-avenue-stamford-connecticut-24191534",
+     "addr": "202 Soundview Avenue Unit 10",
+     "unit": "Unit 10",
+     "beds": 2.0,
+     "baths": 3.0,
+     "sqft": 2331.0,
+     "price": 549900.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 236
+    }
+   ],
+   "summary": null,
+   "label": "202 Soundview Avenue"
+  },
+  "area": {
+   "rows": [
+    {
+     "slug": "75-van-buskirk-avenue-stamford-connecticut-24149691",
+     "addr": "75 Van Buskirk Avenue Unit 75",
+     "unit": "Unit 75",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1427.0,
+     "price": 503000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-03",
+     "ppsf": 352,
+     "mi": 0.14
+    },
+    {
+     "slug": "77-van-buskirk-avenue-stamford-connecticut-24167136",
+     "addr": "77 Van Buskirk Avenue Unit 77",
+     "unit": "Unit 77",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1503.0,
+     "price": 485000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-16",
+     "ppsf": 323,
+     "mi": 0.15
+    },
+    {
+     "slug": "48-dean-street-stamford-connecticut-24170725",
+     "addr": "48 Dean Street Unit 4",
+     "unit": "Unit 4",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1038.0,
+     "price": 426000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-02",
+     "ppsf": 410,
+     "mi": 0.45
+    },
+    {
+     "slug": "61-seaview-avenue-stamford-connecticut-24150586",
+     "addr": "61 Seaview Avenue Apt 42",
+     "unit": "Apt 42",
+     "beds": 2.0,
+     "baths": 3.0,
+     "sqft": 1450.0,
+     "price": 551700.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-06",
+     "ppsf": 380,
+     "mi": 0.46
+    },
+    {
+     "slug": "421-sylvan-knoll-road-stamford-connecticut-24063009",
+     "addr": "421 Sylvan Knoll Road",
+     "unit": "",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1100.0,
+     "price": 251250.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-30",
+     "ppsf": 228,
+     "mi": 0.48
+    },
+    {
+     "slug": "113-sylvan-knoll-road-stamford-connecticut-24168928",
+     "addr": "113 Sylvan Knoll Road",
+     "unit": "",
+     "beds": 2.0,
+     "baths": 1.0,
+     "sqft": 1100.0,
+     "price": 325000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-23",
+     "ppsf": 295,
+     "mi": 0.57
+    }
+   ],
+   "summary": {
+    "n": 6,
+    "low": 251250.0,
+    "high": 551700.0,
+    "median": 455500
+   },
+   "radiusMi": 0.75
+  }
  }
 }

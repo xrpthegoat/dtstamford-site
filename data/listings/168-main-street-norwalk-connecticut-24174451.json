@@ -99,5 +99,126 @@
    "mi": 0.56,
    "walk": 11
   }
+ },
+ "comps": {
+  "building": {
+   "rows": [
+    {
+     "slug": "168-main-street-norwalk-connecticut-24182641",
+     "addr": "168 Main Street Unit 3A",
+     "unit": "Unit 3A",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 650.0,
+     "price": 1950.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-13",
+     "ppsf": 3
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 1950.0,
+    "high": 1950.0,
+    "median": 1950
+   },
+   "label": "168 Main Street"
+  },
+  "area": {
+   "rows": [
+    {
+     "slug": "14-center-avenue-norwalk-connecticut-24161730",
+     "addr": "14 Center Avenue Unit 1N",
+     "unit": "Unit 1N",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 500.0,
+     "price": 1900.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-13",
+     "ppsf": 4,
+     "mi": 0.09
+    },
+    {
+     "slug": "14-center-avenue-norwalk-connecticut-24194519",
+     "addr": "14 Center Avenue Unit 1S",
+     "unit": "Unit 1S",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 600.0,
+     "price": 1925.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-08-03",
+     "ppsf": 3,
+     "mi": 0.09
+    },
+    {
+     "slug": "25-west-main-street-norwalk-connecticut-24192098",
+     "addr": "25 West Main Street Unit 8",
+     "unit": "Unit 8",
+     "beds": 1.0,
+     "baths": 2.0,
+     "sqft": 634.0,
+     "price": 2300.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-08-11",
+     "ppsf": 4,
+     "mi": 0.15
+    },
+    {
+     "slug": "66-wilton-avenue-norwalk-connecticut-24171850",
+     "addr": "66 Wilton Avenue Unit 9",
+     "unit": "Unit 9",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 800.0,
+     "price": 1995.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-30",
+     "ppsf": 2,
+     "mi": 0.16
+    },
+    {
+     "slug": "25-grand-street-norwalk-connecticut-24166642",
+     "addr": "25 Grand Street Unit 105",
+     "unit": "Unit 105",
+     "beds": 1.0,
+     "baths": 2.0,
+     "sqft": 725.0,
+     "price": 2650.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-01",
+     "ppsf": 4,
+     "mi": 0.23
+    },
+    {
+     "slug": "25-grand-street-norwalk-connecticut-24173553",
+     "addr": "25 Grand Street Unit 240",
+     "unit": "Unit 240",
+     "beds": 1.0,
+     "baths": 2.0,
+     "sqft": 825.0,
+     "price": 2500.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-02",
+     "ppsf": 3,
+     "mi": 0.23
+    }
+   ],
+   "summary": {
+    "n": 6,
+    "low": 1900.0,
+    "high": 2650.0,
+    "median": 2148
+   },
+   "radiusMi": 0.75
+  }
  }
 }

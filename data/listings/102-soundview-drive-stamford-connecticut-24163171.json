@@ -112,5 +112,99 @@
    "n": "Bus stop",
    "mi": 1.59
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "70-kenilworth-drive-east-stamford-connecticut-24167138",
+     "addr": "70 Kenilworth Drive East",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 4.0,
+     "sqft": 3741.0,
+     "price": 2750000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-15",
+     "ppsf": 735,
+     "mi": 0.13
+    },
+    {
+     "slug": "14-park-street-stamford-connecticut-24160789",
+     "addr": "14 Park Street",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 2.0,
+     "sqft": 2580.0,
+     "price": 810000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-15",
+     "ppsf": 314,
+     "mi": 0.72
+    },
+    {
+     "slug": "64-ocean-drive-east-stamford-connecticut-24125614",
+     "addr": "64 Ocean Drive East",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 4.0,
+     "sqft": 3132.0,
+     "price": 2775000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-22",
+     "ppsf": 886,
+     "mi": 0.73
+    },
+    {
+     "slug": "62-64-wallacks-drive-stamford-connecticut-24179654",
+     "addr": "62-64 Wallacks Drive",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 5.0,
+     "sqft": 4599.0,
+     "price": 2995000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 651,
+     "mi": 0.29
+    },
+    {
+     "slug": "128-soundview-court-stamford-connecticut-24190963",
+     "addr": "128 Soundview Court",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 2085.0,
+     "price": 1150000.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 552,
+     "mi": 0.31
+    },
+    {
+     "slug": "22-ocean-drive-north-stamford-connecticut-24178294",
+     "addr": "22 Ocean Drive North",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 5.0,
+     "sqft": 3866.0,
+     "price": 3100000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 802,
+     "mi": 0.64
+    }
+   ],
+   "summary": {
+    "n": 3,
+    "low": 810000.0,
+    "high": 2775000.0,
+    "median": 2750000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

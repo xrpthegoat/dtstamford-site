@@ -107,5 +107,101 @@
    "mi": 0.52,
    "walk": 10
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "4-austin-avenue-stamford-connecticut-24146033",
+     "addr": "4 Austin Avenue",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1776.0,
+     "price": 700000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-16",
+     "ppsf": 394,
+     "mi": 0.28
+    },
+    {
+     "slug": "5-halliwell-drive-stamford-connecticut-24155832",
+     "addr": "5 Halliwell Drive",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 4.0,
+     "sqft": 2502.0,
+     "price": 1596000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-04",
+     "ppsf": 638,
+     "mi": 0.54
+    },
+    {
+     "slug": "1100-stillwater-road-stamford-connecticut-24176186",
+     "addr": "1100 Stillwater Road",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 2252.0,
+     "price": 925000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-09",
+     "ppsf": 411,
+     "mi": 0.56
+    },
+    {
+     "slug": "117-bridge-street-stamford-connecticut-24178086",
+     "addr": "117 Bridge Street",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 4.0,
+     "sqft": 1736.0,
+     "price": 800000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-23",
+     "ppsf": 461,
+     "mi": 0.62
+    },
+    {
+     "slug": "250-high-ridge-road-stamford-connecticut-24178584",
+     "addr": "250 High Ridge Road",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 2256.0,
+     "price": 799000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-07",
+     "ppsf": 354,
+     "mi": 0.74
+    },
+    {
+     "slug": "17-reynolds-avenue-stamford-connecticut-24197482",
+     "addr": "17 Reynolds Avenue",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1495.0,
+     "price": 610000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 408,
+     "mi": 0.28
+    }
+   ],
+   "summary": {
+    "n": 5,
+    "low": 700000.0,
+    "high": 1596000.0,
+    "median": 800000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

@@ -135,5 +135,59 @@
    "n": "Bus stop",
    "mi": 1.84
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "70-kenilworth-drive-east-stamford-connecticut-24167138",
+     "addr": "70 Kenilworth Drive East",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 4.0,
+     "sqft": 3741.0,
+     "price": 2750000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-15",
+     "ppsf": 735,
+     "mi": 0.16
+    },
+    {
+     "slug": "102-soundview-drive-stamford-connecticut-24163171",
+     "addr": "102 Soundview Drive",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 2146.0,
+     "price": 1850000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-15",
+     "ppsf": 862,
+     "mi": 0.29
+    },
+    {
+     "slug": "128-soundview-court-stamford-connecticut-24190963",
+     "addr": "128 Soundview Court",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 2085.0,
+     "price": 1150000.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 552,
+     "mi": 0.4
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 1850000.0,
+    "high": 2750000.0,
+    "median": 2300000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

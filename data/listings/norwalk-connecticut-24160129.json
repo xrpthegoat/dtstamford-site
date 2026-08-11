@@ -98,5 +98,72 @@
    "n": "Bus stop",
    "mi": 1.26
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "13-joemar-road-norwalk-connecticut-24179818",
+     "addr": "13 Joemar Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 1.0,
+     "sqft": 1080.0,
+     "price": 3950.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-04",
+     "ppsf": 4,
+     "mi": 0.54
+    },
+    {
+     "slug": "40-marlin-drive-norwalk-connecticut-24154538",
+     "addr": "40 Marlin Drive",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 2240.0,
+     "price": 4800.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-10",
+     "ppsf": 2,
+     "mi": 0.69
+    },
+    {
+     "slug": "50-north-taylor-avenue-norwalk-connecticut-24192480",
+     "addr": "50 North Taylor Avenue",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 1.0,
+     "sqft": 1668.0,
+     "price": 2850.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 2,
+     "mi": 0.57
+    },
+    {
+     "slug": "9-oakledge-circle-norwalk-connecticut-24196252",
+     "addr": "9 Oakledge Circle",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 2.0,
+     "sqft": 1157.0,
+     "price": 7000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 6,
+     "mi": 0.68
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 3950.0,
+    "high": 4800.0,
+    "median": 4375
+   },
+   "radiusMi": 0.75
+  }
  }
 }

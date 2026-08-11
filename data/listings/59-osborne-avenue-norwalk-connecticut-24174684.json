@@ -113,5 +113,59 @@
    "n": "Bus stop",
    "mi": 0.74
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "33-north-water-street-norwalk-connecticut-24138234",
+     "addr": "33 North Water Street Unit 804",
+     "unit": "Unit 804",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 2147.0,
+     "price": 1299000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-27",
+     "ppsf": 605,
+     "mi": 0.49
+    },
+    {
+     "slug": "1-howard-avenue-norwalk-connecticut-24157220",
+     "addr": "1 Howard Avenue Unit C4",
+     "unit": "Unit C4",
+     "beds": 3.0,
+     "baths": 4.0,
+     "sqft": 1731.0,
+     "price": 815000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-08",
+     "ppsf": 471,
+     "mi": 0.75
+    },
+    {
+     "slug": "1-howard-avenue-norwalk-connecticut-24178510",
+     "addr": "1 Howard Avenue Unit C3",
+     "unit": "Unit C3",
+     "beds": 3.0,
+     "baths": 4.0,
+     "sqft": 1655.0,
+     "price": 799000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 483,
+     "mi": 0.75
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 815000.0,
+    "high": 1299000.0,
+    "median": 1057000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

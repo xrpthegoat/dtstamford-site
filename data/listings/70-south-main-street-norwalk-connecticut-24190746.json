@@ -108,5 +108,139 @@
    "n": "Bus stop",
    "mi": 1.02
   }
+ },
+ "comps": {
+  "building": {
+   "rows": [
+    {
+     "slug": "70-south-main-street-norwalk-connecticut-24159755",
+     "addr": "70 South Main Street Unit 3B",
+     "unit": "Unit 3B",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 890.0,
+     "price": 2800.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-11",
+     "ppsf": 3
+    },
+    {
+     "slug": "70-south-main-street-norwalk-connecticut-24159738",
+     "addr": "70 South Main Street Unit 3D",
+     "unit": "Unit 3D",
+     "beds": 2.0,
+     "baths": 4.0,
+     "sqft": 2000.0,
+     "price": 4500.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-11",
+     "ppsf": 2
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 2800.0,
+    "high": 4500.0,
+    "median": 3650
+   },
+   "label": "70 South Main Street"
+  },
+  "area": {
+   "rows": [
+    {
+     "slug": "8-haviland-street-norwalk-connecticut-24170015",
+     "addr": "8 Haviland Street Unit A",
+     "unit": "Unit A",
+     "beds": 2.0,
+     "baths": 1.0,
+     "sqft": 1100.0,
+     "price": 2900.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-02",
+     "ppsf": 3,
+     "mi": 0.07
+    },
+    {
+     "slug": "19-day-street-norwalk-connecticut-24147318",
+     "addr": "19 Day Street Unit 311",
+     "unit": "Unit 311",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1341.0,
+     "price": 3500.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-16",
+     "ppsf": 3,
+     "mi": 0.07
+    },
+    {
+     "slug": "19-day-street-norwalk-connecticut-24147317",
+     "addr": "19 Day Street Unit 402",
+     "unit": "Unit 402",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1086.0,
+     "price": 3100.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-28",
+     "ppsf": 3,
+     "mi": 0.07
+    },
+    {
+     "slug": "178-flax-hill-road-norwalk-connecticut-24157859",
+     "addr": "178 Flax Hill Road Apt C203",
+     "unit": "Apt C203",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1130.0,
+     "price": 2900.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-18",
+     "ppsf": 3,
+     "mi": 0.29
+    },
+    {
+     "slug": "7-hamilton-avenue-norwalk-connecticut-24147839",
+     "addr": "7 Hamilton Avenue Unit 32",
+     "unit": "Unit 32",
+     "beds": 2.0,
+     "baths": 1.0,
+     "sqft": 980.0,
+     "price": 2975.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-01",
+     "ppsf": 3,
+     "mi": 0.31
+    },
+    {
+     "slug": "115-flax-hill-road-norwalk-connecticut-24176759",
+     "addr": "115 Flax Hill Road Unit 10",
+     "unit": "Unit 10",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 862.0,
+     "price": 2750.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-29",
+     "ppsf": 3,
+     "mi": 0.32
+    }
+   ],
+   "summary": {
+    "n": 6,
+    "low": 2750.0,
+    "high": 3500.0,
+    "median": 2938
+   },
+   "radiusMi": 0.75
+  }
  }
 }

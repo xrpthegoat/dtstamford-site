@@ -127,5 +127,45 @@
    "mi": 6.66,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "1020-north-street-greenwich-connecticut-24150733",
+     "addr": "1020 North Street",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 1812.0,
+     "price": 1600000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-08",
+     "ppsf": 883,
+     "mi": 0.68
+    },
+    {
+     "slug": "1018-north-street-greenwich-connecticut-24176002",
+     "addr": "1018 North Street",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1546.0,
+     "price": 999000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 646,
+     "mi": 0.68
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 1600000.0,
+    "high": 1600000.0,
+    "median": 1600000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

@@ -107,5 +107,58 @@
    "mi": 3.49,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "39-mcintosh-road-stamford-connecticut-24157712",
+     "addr": "39 McIntosh Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 2272.0,
+     "price": 1000000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-16",
+     "ppsf": 440,
+     "mi": 0.45
+    },
+    {
+     "slug": "2596-high-ridge-road-stamford-connecticut-24177896",
+     "addr": "2596 High Ridge Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 3160.0,
+     "price": 1000000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 316,
+     "mi": 0.6
+    },
+    {
+     "slug": "46-fernwood-drive-stamford-connecticut-24194755",
+     "addr": "46 Fernwood Drive",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 6.0,
+     "sqft": 6124.0,
+     "price": 1425000.0,
+     "kind": "asking",
+     "status": "Under Contract - Continue to Show",
+     "ppsf": 233,
+     "mi": 0.68
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 1000000.0,
+    "high": 1000000.0,
+    "median": 1000000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

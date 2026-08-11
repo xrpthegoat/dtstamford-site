@@ -118,5 +118,85 @@
    "mi": 2.61,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "24-mills-street-westport-connecticut-24178569",
+     "addr": "24 Mills Street",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 2108.0,
+     "price": 7500.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-30",
+     "ppsf": 4,
+     "mi": 0.69
+    },
+    {
+     "slug": "34-crescent-road-westport-connecticut-24186243",
+     "addr": "34 Crescent Road",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1326.0,
+     "price": 5400.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-28",
+     "ppsf": 4,
+     "mi": 0.73
+    },
+    {
+     "slug": "61-hillandale-road-westport-connecticut-24150954",
+     "addr": "61 Hillandale Road",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1724.0,
+     "price": 7500.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 4,
+     "mi": 0.26
+    },
+    {
+     "slug": "17-b-long-lots-road-westport-connecticut-24186952",
+     "addr": "17-B Long Lots Road",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 1456.0,
+     "price": 6500.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 4,
+     "mi": 0.28
+    },
+    {
+     "slug": "23-turkey-hill-road-north-westport-connecticut-24191745",
+     "addr": "23 Turkey Hill Road North",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 1940.0,
+     "price": 7000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 4,
+     "mi": 0.39
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 5400.0,
+    "high": 7500.0,
+    "median": 6450
+   },
+   "radiusMi": 0.75
+  }
  }
 }

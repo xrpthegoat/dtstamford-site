@@ -107,5 +107,100 @@
    "mi": 0.57,
    "walk": 11
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "60-walter-avenue-norwalk-connecticut-24161289",
+     "addr": "60 Walter Avenue",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1320.0,
+     "price": 3700.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-14",
+     "ppsf": 3,
+     "mi": 0.39
+    },
+    {
+     "slug": "10-olmstead-place-norwalk-connecticut-24148627",
+     "addr": "10 Olmstead Place",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1254.0,
+     "price": 3750.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-03",
+     "ppsf": 3,
+     "mi": 0.5
+    },
+    {
+     "slug": "4-villaway-road-norwalk-connecticut-24150485",
+     "addr": "4 Villaway Road Unit Left Side",
+     "unit": "Unit Left Side",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 2226.0,
+     "price": 3300.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-01",
+     "ppsf": 1,
+     "mi": 0.67
+    },
+    {
+     "slug": "24-highbrook-road-norwalk-connecticut-24178349",
+     "addr": "24 Highbrook Road",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1815.0,
+     "price": 5050.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-15",
+     "ppsf": 3,
+     "mi": 0.72
+    },
+    {
+     "slug": "24-heather-lane-norwalk-connecticut-24192384",
+     "addr": "24 Heather Lane",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1393.0,
+     "price": 4500.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 3,
+     "mi": 0.18
+    },
+    {
+     "slug": "5-amundsen-street-norwalk-connecticut-24194493",
+     "addr": "5 Amundsen Street Unit 3",
+     "unit": "Unit 3",
+     "beds": 3.0,
+     "baths": 1.0,
+     "sqft": 2868.0,
+     "price": 2950.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 1,
+     "mi": 0.67
+    }
+   ],
+   "summary": {
+    "n": 4,
+    "low": 3300.0,
+    "high": 5050.0,
+    "median": 3725
+   },
+   "radiusMi": 0.75
+  }
  }
 }

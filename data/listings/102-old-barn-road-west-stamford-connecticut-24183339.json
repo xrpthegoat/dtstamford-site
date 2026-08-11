@@ -102,5 +102,58 @@
    "mi": 0.35,
    "walk": 7
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "2700-bedford-street-stamford-connecticut-24169832",
+     "addr": "2700 Bedford Street Unit O",
+     "unit": "Unit O",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 1410.0,
+     "price": 4000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-28",
+     "ppsf": 3,
+     "mi": 0.46
+    },
+    {
+     "slug": "16-fowler-street-stamford-connecticut-24197192",
+     "addr": "16 Fowler Street Unit 1",
+     "unit": "Unit 1",
+     "beds": 3.0,
+     "baths": 1.0,
+     "sqft": 974.0,
+     "price": 3550.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 4,
+     "mi": 0.31
+    },
+    {
+     "slug": "125-bridge-street-stamford-connecticut-24189556",
+     "addr": "125 Bridge Street",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 1694.0,
+     "price": 5600.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 3,
+     "mi": 0.49
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 4000.0,
+    "high": 4000.0,
+    "median": 4000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

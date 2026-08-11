@@ -116,5 +116,45 @@
    "n": "Bus stop",
    "mi": 1.36
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "80-county-street-norwalk-connecticut-24169489",
+     "addr": "80 County Street Unit 8A",
+     "unit": "Unit 8A",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 1320.0,
+     "price": 445000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-09",
+     "ppsf": 337,
+     "mi": 0.55
+    },
+    {
+     "slug": "80-county-street-norwalk-connecticut-24167137",
+     "addr": "80 County Street Unit 10F",
+     "unit": "Unit 10F",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1119.0,
+     "price": 435000.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 389,
+     "mi": 0.59
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 445000.0,
+    "high": 445000.0,
+    "median": 445000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

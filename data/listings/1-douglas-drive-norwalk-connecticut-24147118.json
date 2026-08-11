@@ -109,5 +109,59 @@
    "n": "Bus stop",
    "mi": 1.89
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "21-redcoat-road-norwalk-connecticut-24175074",
+     "addr": "21 Redcoat Road",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 4.0,
+     "sqft": 2554.0,
+     "price": 960000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-03",
+     "ppsf": 376,
+     "mi": 0.43
+    },
+    {
+     "slug": "201-ponus-avenue-extension-norwalk-connecticut-24168724",
+     "addr": "201 Ponus Avenue Extension",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 5.0,
+     "sqft": 6132.0,
+     "price": 2000000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-18",
+     "ppsf": 326,
+     "mi": 0.65
+    },
+    {
+     "slug": "5-betmarlea-road-norwalk-connecticut-24183017",
+     "addr": "5 Betmarlea Road",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 5.0,
+     "sqft": 2670.0,
+     "price": 1349000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 505,
+     "mi": 0.6
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 960000.0,
+    "high": 2000000.0,
+    "median": 1480000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

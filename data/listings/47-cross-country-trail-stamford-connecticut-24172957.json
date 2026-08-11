@@ -128,5 +128,58 @@
    "mi": 3.67,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "422-scofieldtown-road-stamford-connecticut-24155820",
+     "addr": "422 Scofieldtown Road",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 6.0,
+     "sqft": 5662.0,
+     "price": 2000000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-28",
+     "ppsf": 353,
+     "mi": 0.56
+    },
+    {
+     "slug": "37-haviland-court-stamford-connecticut-24165055",
+     "addr": "37 Haviland Court",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 4.0,
+     "sqft": 4227.0,
+     "price": 1500000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 355,
+     "mi": 0.14
+    },
+    {
+     "slug": "333-rock-rimmon-road-stamford-connecticut-24195672",
+     "addr": "333 Rock Rimmon Road",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 6.0,
+     "sqft": 7633.0,
+     "price": 2500000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 328,
+     "mi": 0.71
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 2000000.0,
+    "high": 2000000.0,
+    "median": 2000000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

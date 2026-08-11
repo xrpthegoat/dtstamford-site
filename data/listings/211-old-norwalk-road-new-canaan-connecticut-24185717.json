@@ -131,5 +131,58 @@
    "mi": 1.5,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "224-marvin-ridge-road-new-canaan-connecticut-24169054",
+     "addr": "224 Marvin Ridge Road",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 3122.0,
+     "price": 1450000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-18",
+     "ppsf": 464,
+     "mi": 0.42
+    },
+    {
+     "slug": "19-s-down-river-road-new-canaan-connecticut-24195555",
+     "addr": "19 S Down River Road",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1440.0,
+     "price": 1095000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 760,
+     "mi": 0.64
+    },
+    {
+     "slug": "97-overlook-drive-new-canaan-connecticut-24194440",
+     "addr": "97 Overlook Drive",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 3132.0,
+     "price": 1795000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 573,
+     "mi": 0.66
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 1450000.0,
+    "high": 1450000.0,
+    "median": 1450000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

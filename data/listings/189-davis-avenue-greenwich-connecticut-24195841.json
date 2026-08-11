@@ -130,5 +130,46 @@
    "walk": 10,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "115-east-elm-street-greenwich-connecticut-24188694",
+     "addr": "115 East Elm Street",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 4.0,
+     "sqft": 2228.0,
+     "price": 14950.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-08-10",
+     "ppsf": 7,
+     "mi": 0.1
+    },
+    {
+     "slug": "181-east-putnam-avenue-greenwich-connecticut-24146165",
+     "addr": "181 East Putnam Avenue",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 2.0,
+     "sqft": 1904.0,
+     "price": 8400.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-03",
+     "ppsf": 4,
+     "mi": 0.72
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 8400.0,
+    "high": 14950.0,
+    "median": 11675
+   },
+   "radiusMi": 0.75
+  }
  }
 }

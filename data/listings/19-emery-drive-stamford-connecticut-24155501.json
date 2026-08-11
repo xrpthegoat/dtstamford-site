@@ -111,5 +111,86 @@
    "n": "Bus stop",
    "mi": 0.91
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "516-stillwater-road-stamford-connecticut-24182098",
+     "addr": "516 Stillwater Road",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 2240.0,
+     "price": 975000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-30",
+     "ppsf": 435,
+     "mi": 0.16
+    },
+    {
+     "slug": "5-halliwell-drive-stamford-connecticut-24155832",
+     "addr": "5 Halliwell Drive",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 4.0,
+     "sqft": 2502.0,
+     "price": 1596000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-04",
+     "ppsf": 638,
+     "mi": 0.34
+    },
+    {
+     "slug": "4-austin-avenue-stamford-connecticut-24146033",
+     "addr": "4 Austin Avenue",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1776.0,
+     "price": 700000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-16",
+     "ppsf": 394,
+     "mi": 0.75
+    },
+    {
+     "slug": "189-westover-road-stamford-connecticut-24172894",
+     "addr": "189 Westover Road",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 2980.0,
+     "price": 1100000.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 369,
+     "mi": 0.32
+    },
+    {
+     "slug": "147-west-broad-street-stamford-connecticut-24157126",
+     "addr": "147 West Broad Street",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1759.0,
+     "price": 650000.0,
+     "kind": "asking",
+     "status": "Under Contract - Continue to Show",
+     "ppsf": 370,
+     "mi": 0.66
+    }
+   ],
+   "summary": {
+    "n": 3,
+    "low": 700000.0,
+    "high": 1596000.0,
+    "median": 975000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

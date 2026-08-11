@@ -133,5 +133,62 @@
    "mi": 2.05,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "building": {
+   "rows": [
+    {
+     "slug": "180-turn-of-river-road-stamford-connecticut-24190856",
+     "addr": "180 Turn Of River Road Unit 10D",
+     "unit": "Unit 10D",
+     "beds": 2.0,
+     "baths": 3.0,
+     "sqft": 1945.0,
+     "price": 835000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 429
+    },
+    {
+     "slug": "180-turn-of-river-road-stamford-connecticut-24182123",
+     "addr": "180 Turn Of River Road Unit 13A",
+     "unit": "Unit 13A",
+     "beds": 2.0,
+     "baths": 3.0,
+     "sqft": 1945.0,
+     "price": 789000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 406
+    }
+   ],
+   "summary": null,
+   "label": "180 Turn Of River Road"
+  },
+  "area": {
+   "rows": [
+    {
+     "slug": "865-high-ridge-road-stamford-connecticut-24152488",
+     "addr": "865 High Ridge Road Unit 1",
+     "unit": "Unit 1",
+     "beds": 2.0,
+     "baths": 4.0,
+     "sqft": 2785.0,
+     "price": 910000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-20",
+     "ppsf": 327,
+     "mi": 0.66
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 910000.0,
+    "high": 910000.0,
+    "median": 910000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

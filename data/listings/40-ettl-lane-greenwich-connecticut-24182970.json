@@ -132,5 +132,77 @@
    "n": "Bus stop",
    "mi": 1.89
   }
+ },
+ "comps": {
+  "building": {
+   "rows": [
+    {
+     "slug": "40-ettl-lane-greenwich-connecticut-24179084",
+     "addr": "40 Ettl Lane Unit 23",
+     "unit": "Unit 23",
+     "beds": 3.0,
+     "baths": 4.0,
+     "sqft": 2364.0,
+     "price": 7700.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 3
+    }
+   ],
+   "summary": null,
+   "label": "40 Ettl Lane"
+  },
+  "area": {
+   "rows": [
+    {
+     "slug": "57-grey-rock-drive-greenwich-connecticut-24163088",
+     "addr": "57 Grey Rock Drive",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 1372.0,
+     "price": 5800.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-04",
+     "ppsf": 4,
+     "mi": 0.29
+    },
+    {
+     "slug": "60-greenwich-hills-drive-greenwich-connecticut-24166893",
+     "addr": "60 Greenwich Hills Drive Unit 60",
+     "unit": "Unit 60",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 1900.0,
+     "price": 5500.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-01",
+     "ppsf": 3,
+     "mi": 0.58
+    },
+    {
+     "slug": "120-pilgrim-drive-greenwich-connecticut-24187985",
+     "addr": "120 Pilgrim Drive",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1204.0,
+     "price": 6200.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 5,
+     "mi": 0.71
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 5500.0,
+    "high": 5800.0,
+    "median": 5650
+   },
+   "radiusMi": 0.75
+  }
  }
 }

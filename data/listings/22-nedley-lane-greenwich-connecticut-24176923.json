@@ -131,5 +131,73 @@
    "n": "Bus stop",
    "mi": 1.86
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "105-glenville-street-greenwich-connecticut-24150539",
+     "addr": "105 Glenville Street",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1713.0,
+     "price": 977500.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-17",
+     "ppsf": 571,
+     "mi": 0.21
+    },
+    {
+     "slug": "40-ettl-lane-greenwich-connecticut-24149318",
+     "addr": "40 Ettl Lane Unit 17",
+     "unit": "Unit 17",
+     "beds": 3.0,
+     "baths": 4.0,
+     "sqft": 2990.0,
+     "price": 1850000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-16",
+     "ppsf": 619,
+     "mi": 0.23
+    },
+    {
+     "slug": "1-pilgrim-drive-greenwich-connecticut-24186503",
+     "addr": "1 Pilgrim Drive",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 1.0,
+     "sqft": 1276.0,
+     "price": 980000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-08-07",
+     "ppsf": 768,
+     "mi": 0.66
+    },
+    {
+     "slug": "52-francis-lane-greenwich-connecticut-24182873",
+     "addr": "52 Francis Lane",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 4.0,
+     "sqft": 3049.0,
+     "price": 1895000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 622,
+     "mi": 0.68
+    }
+   ],
+   "summary": {
+    "n": 3,
+    "low": 977500.0,
+    "high": 1850000.0,
+    "median": 980000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

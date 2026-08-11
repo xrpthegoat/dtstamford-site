@@ -121,5 +121,60 @@
    "mi": 0.25,
    "walk": 5
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "70-fawn-ridge-lane-norwalk-connecticut-24175703",
+     "addr": "70 Fawn Ridge Lane Unit 70",
+     "unit": "Unit 70",
+     "beds": 1.0,
+     "baths": 3.0,
+     "sqft": 2434.0,
+     "price": 750000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-08",
+     "ppsf": 308,
+     "mi": 0.61
+    },
+    {
+     "slug": "8-oakwood-avenue-norwalk-connecticut-24160577",
+     "addr": "8 Oakwood Avenue Apt B13",
+     "unit": "Apt B13",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 514.0,
+     "price": 270000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-13",
+     "ppsf": 525,
+     "mi": 0.71
+    },
+    {
+     "slug": "1-glenrock-norwalk-connecticut-24180806",
+     "addr": "1 Glenrock Unit 1",
+     "unit": "Unit 1",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 735.0,
+     "price": 360000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-21",
+     "ppsf": 490,
+     "mi": 0.75
+    }
+   ],
+   "summary": {
+    "n": 3,
+    "low": 270000.0,
+    "high": 750000.0,
+    "median": 360000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

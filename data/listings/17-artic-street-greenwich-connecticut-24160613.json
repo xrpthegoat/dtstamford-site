@@ -98,5 +98,112 @@
    "mi": 0.8,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "building": {
+   "rows": [
+    {
+     "slug": "17-artic-street-greenwich-connecticut-24160646",
+     "addr": "17 Artic Street Unit 2",
+     "unit": "Unit 2",
+     "beds": 2.0,
+     "baths": 1.0,
+     "sqft": 850.0,
+     "price": 3350.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-24",
+     "ppsf": 4
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 3350.0,
+    "high": 3350.0,
+    "median": 3350
+   },
+   "label": "17 Artic Street"
+  },
+  "area": {
+   "rows": [
+    {
+     "slug": "225-hamilton-avenue-greenwich-connecticut-24190685",
+     "addr": "225 Hamilton Avenue Unit 1",
+     "unit": "Unit 1",
+     "beds": 2.0,
+     "baths": 1.0,
+     "sqft": 1200.0,
+     "price": 3600.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-20",
+     "ppsf": 3,
+     "mi": 0.21
+    },
+    {
+     "slug": "5-glen-street-greenwich-connecticut-24168868",
+     "addr": "5 Glen Street Unit 305",
+     "unit": "Unit 305",
+     "beds": 2.0,
+     "baths": 3.0,
+     "sqft": 1804.0,
+     "price": 5300.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-30",
+     "ppsf": 3,
+     "mi": 0.29
+    },
+    {
+     "slug": "150-prospect-street-greenwich-connecticut-24165479",
+     "addr": "150 Prospect Street Unit 7",
+     "unit": "Unit 7",
+     "beds": 2.0,
+     "baths": 3.0,
+     "sqft": 1224.0,
+     "price": 4400.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-20",
+     "ppsf": 4,
+     "mi": 0.37
+    },
+    {
+     "slug": "140-field-point-road-greenwich-connecticut-24158334",
+     "addr": "140 Field Point Road Unit 2",
+     "unit": "Unit 2",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1226.0,
+     "price": 3950.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-25",
+     "ppsf": 3,
+     "mi": 0.56
+    },
+    {
+     "slug": "81-pemberwick-road-greenwich-connecticut-24167246",
+     "addr": "81 Pemberwick Road Unit A",
+     "unit": "Unit A",
+     "beds": 2.0,
+     "baths": 4.0,
+     "sqft": 2092.0,
+     "price": 4950.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-15",
+     "ppsf": 2,
+     "mi": 0.71
+    }
+   ],
+   "summary": {
+    "n": 5,
+    "low": 3600.0,
+    "high": 5300.0,
+    "median": 4400
+   },
+   "radiusMi": 0.75
+  }
  }
 }

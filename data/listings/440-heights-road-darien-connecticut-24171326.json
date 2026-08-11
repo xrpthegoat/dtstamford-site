@@ -108,5 +108,89 @@
    "mi": 0.1,
    "walk": 2
   }
+ },
+ "comps": {
+  "building": {
+   "rows": [
+    {
+     "slug": "440-heights-road-darien-connecticut-24176925",
+     "addr": "440 Heights Road Unit 301",
+     "unit": "Unit 301",
+     "beds": 1.0,
+     "baths": 2.0,
+     "sqft": 1185.0,
+     "price": 6350.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 5
+    }
+   ],
+   "summary": null,
+   "label": "440 Heights Road"
+  },
+  "area": {
+   "rows": [
+    {
+     "slug": "340-heights-road-darien-connecticut-24160295",
+     "addr": "340 Heights Road Unit 308",
+     "unit": "Unit 308",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 965.0,
+     "price": 4600.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-24",
+     "ppsf": 5,
+     "mi": 0.0
+    },
+    {
+     "slug": "340-heights-road-darien-connecticut-24188423",
+     "addr": "340 Heights Road Unit 307",
+     "unit": "Unit 307",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 777.0,
+     "price": 4000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 5,
+     "mi": 0.03
+    },
+    {
+     "slug": "410-west-avenue-darien-connecticut-24179639",
+     "addr": "410 West Avenue Unit 107",
+     "unit": "Unit 107",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 900.0,
+     "price": 3200.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 4,
+     "mi": 0.63
+    },
+    {
+     "slug": "darien-connecticut-24187499",
+     "addr": null,
+     "unit": "",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 1040.0,
+     "price": 2800.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 3,
+     "mi": 0.64
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 4600.0,
+    "high": 4600.0,
+    "median": 4600
+   },
+   "radiusMi": 0.75
+  }
  }
 }

@@ -112,5 +112,91 @@
    "n": "Heights Rd @ 310 Heights Rd",
    "mi": 1.94
   }
+ },
+ "comps": {
+  "building": {
+   "rows": [
+    {
+     "slug": "970-hope-street-stamford-connecticut-24171555",
+     "addr": "970 Hope Street Unit 3D",
+     "unit": "Unit 3D",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 844.0,
+     "price": 339000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 402
+    }
+   ],
+   "summary": null,
+   "label": "970 Hope Street"
+  },
+  "area": {
+   "rows": [
+    {
+     "slug": "27-northill-street-stamford-connecticut-24176083",
+     "addr": "27 Northill Street Unit 1P",
+     "unit": "Unit 1P",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 706.0,
+     "price": 281000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-08-10",
+     "ppsf": 398,
+     "mi": 0.09
+    },
+    {
+     "slug": "27-northill-street-stamford-connecticut-24175257",
+     "addr": "27 Northill Street Unit 2B",
+     "unit": "Unit 2B",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 600.0,
+     "price": 225000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-28",
+     "ppsf": 375,
+     "mi": 0.1
+    },
+    {
+     "slug": "40-cerretta-street-stamford-connecticut-24171221",
+     "addr": "40 Cerretta Street Unit 16D",
+     "unit": "Unit 16D",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 660.0,
+     "price": 315000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-17",
+     "ppsf": 477,
+     "mi": 0.42
+    },
+    {
+     "slug": "143-columbus-place-stamford-connecticut-24174182",
+     "addr": "143 Columbus Place Unit 8",
+     "unit": "Unit 8",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 560.0,
+     "price": 269000.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 480,
+     "mi": 0.69
+    }
+   ],
+   "summary": {
+    "n": 3,
+    "low": 225000.0,
+    "high": 315000.0,
+    "median": 281000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

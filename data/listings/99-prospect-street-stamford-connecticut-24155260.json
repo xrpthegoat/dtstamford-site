@@ -106,5 +106,139 @@
    "mi": 0.11,
    "walk": 2
   }
+ },
+ "comps": {
+  "building": {
+   "rows": [
+    {
+     "slug": "99-prospect-street-stamford-connecticut-24167211",
+     "addr": "99 Prospect Street Unit 7K",
+     "unit": "Unit 7K",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 630.0,
+     "price": 1995.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-01",
+     "ppsf": 3
+    },
+    {
+     "slug": "99-prospect-street-stamford-connecticut-24147085",
+     "addr": "99 Prospect Street Apt 6I",
+     "unit": "Apt 6I",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 611.0,
+     "price": 1850.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-17",
+     "ppsf": 3
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 1850.0,
+    "high": 1995.0,
+    "median": 1922
+   },
+   "label": "99 Prospect Street"
+  },
+  "area": {
+   "rows": [
+    {
+     "slug": "140-grove-street-stamford-connecticut-24146364",
+     "addr": "140 Grove Street Apt 2A",
+     "unit": "Apt 2A",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 472.0,
+     "price": 1750.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-01",
+     "ppsf": 4,
+     "mi": 0.01
+    },
+    {
+     "slug": "140-grove-street-stamford-connecticut-24156064",
+     "addr": "140 Grove Street Apt 5B",
+     "unit": "Apt 5B",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 599.0,
+     "price": 2100.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-01",
+     "ppsf": 4,
+     "mi": 0.01
+    },
+    {
+     "slug": "140-grove-street-stamford-connecticut-24177669",
+     "addr": "140 Grove Street #3G",
+     "unit": "#3G",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 599.0,
+     "price": 2100.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-01",
+     "ppsf": 4,
+     "mi": 0.01
+    },
+    {
+     "slug": "140-grove-street-stamford-connecticut-24194619",
+     "addr": "140 Grove Street Unit 4G",
+     "unit": "Unit 4G",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 599.0,
+     "price": 1995.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-08-04",
+     "ppsf": 3,
+     "mi": 0.01
+    },
+    {
+     "slug": "53-prospect-street-stamford-connecticut-24171260",
+     "addr": "53 Prospect Street Unit 112",
+     "unit": "Unit 112",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 400.0,
+     "price": 1800.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-05",
+     "ppsf": 4,
+     "mi": 0.12
+    },
+    {
+     "slug": "86-grove-street-stamford-connecticut-24177523",
+     "addr": "86 Grove Street Unit a2",
+     "unit": "Unit a2",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 580.0,
+     "price": 1750.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-01",
+     "ppsf": 3,
+     "mi": 0.15
+    }
+   ],
+   "summary": {
+    "n": 6,
+    "low": 1750.0,
+    "high": 2100.0,
+    "median": 1898
+   },
+   "radiusMi": 0.75
+  }
  }
 }

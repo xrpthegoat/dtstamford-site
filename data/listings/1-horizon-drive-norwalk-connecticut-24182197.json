@@ -128,5 +128,126 @@
    "n": "Bus stop",
    "mi": 0.99
   }
+ },
+ "comps": {
+  "building": {
+   "rows": [
+    {
+     "slug": "1-horizon-drive-norwalk-connecticut-24150892",
+     "addr": "1 Horizon Drive Apt 2",
+     "unit": "Apt 2",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1258.0,
+     "price": 3150.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-26",
+     "ppsf": 3
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 3150.0,
+    "high": 3150.0,
+    "median": 3150
+   },
+   "label": "1 Horizon Drive"
+  },
+  "area": {
+   "rows": [
+    {
+     "slug": "21-avenue-b-norwalk-connecticut-24177014",
+     "addr": "21 Avenue B Unit A",
+     "unit": "Unit A",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1100.0,
+     "price": 2695.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-13",
+     "ppsf": 2,
+     "mi": 0.21
+    },
+    {
+     "slug": "11-avenue-a-norwalk-connecticut-24141253",
+     "addr": "11 Avenue A Unit 3",
+     "unit": "Unit 3",
+     "beds": 2.0,
+     "baths": 1.0,
+     "sqft": 2632.0,
+     "price": 2350.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-15",
+     "ppsf": 1,
+     "mi": 0.22
+    },
+    {
+     "slug": "118-west-cedar-street-norwalk-connecticut-24183077",
+     "addr": "118 West Cedar Street Unit 3",
+     "unit": "Unit 3",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 988.0,
+     "price": 3000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-08",
+     "ppsf": 3,
+     "mi": 0.33
+    },
+    {
+     "slug": "12-north-taylor-avenue-norwalk-connecticut-24166237",
+     "addr": "12 North Taylor Avenue Unit 28",
+     "unit": "Unit 28",
+     "beds": 2.0,
+     "baths": 1.0,
+     "sqft": 1100.0,
+     "price": 2250.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-01",
+     "ppsf": 2,
+     "mi": 0.38
+    },
+    {
+     "slug": "16-north-taylor-avenue-norwalk-connecticut-24161387",
+     "addr": "16 North Taylor Avenue Unit 2",
+     "unit": "Unit 2",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 800.0,
+     "price": 2550.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-05",
+     "ppsf": 3,
+     "mi": 0.38
+    },
+    {
+     "slug": "15-ferris-avenue-norwalk-connecticut-24171084",
+     "addr": "15 Ferris Avenue Unit C",
+     "unit": "Unit C",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1100.0,
+     "price": 2950.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-02",
+     "ppsf": 3,
+     "mi": 0.4
+    }
+   ],
+   "summary": {
+    "n": 6,
+    "low": 2250.0,
+    "high": 3000.0,
+    "median": 2622
+   },
+   "radiusMi": 0.75
+  }
  }
 }

@@ -107,5 +107,85 @@
    "mi": 0.94,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "42-old-stamford-road-new-canaan-connecticut-24165503",
+     "addr": "42 Old Stamford Road",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 2132.0,
+     "price": 1955000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-24",
+     "ppsf": 917,
+     "mi": 0.48
+    },
+    {
+     "slug": "218-summer-street-new-canaan-connecticut-24182418",
+     "addr": "218 Summer Street",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 2256.0,
+     "price": 1475000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-30",
+     "ppsf": 654,
+     "mi": 0.71
+    },
+    {
+     "slug": "97-overlook-drive-new-canaan-connecticut-24194440",
+     "addr": "97 Overlook Drive",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 3132.0,
+     "price": 1795000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 573,
+     "mi": 0.24
+    },
+    {
+     "slug": "36-mortimer-street-new-canaan-connecticut-24179113",
+     "addr": "36 Mortimer Street",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 2170.0,
+     "price": 1795000.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 827,
+     "mi": 0.34
+    },
+    {
+     "slug": "19-s-down-river-road-new-canaan-connecticut-24195555",
+     "addr": "19 S Down River Road",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1440.0,
+     "price": 1095000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 760,
+     "mi": 0.39
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 1475000.0,
+    "high": 1955000.0,
+    "median": 1715000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

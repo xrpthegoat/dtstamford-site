@@ -124,5 +124,58 @@
    "mi": 1.83,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "11-beechwood-lane-westport-connecticut-24163215",
+     "addr": "11 Beechwood Lane",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 1886.0,
+     "price": 6500.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-06",
+     "ppsf": 3,
+     "mi": 0.73
+    },
+    {
+     "slug": "1-brightfield-lane-westport-connecticut-24193991",
+     "addr": "1 Brightfield Lane",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 3321.0,
+     "price": 9800.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 3,
+     "mi": 0.72
+    },
+    {
+     "slug": "72-hillandale-road-westport-connecticut-24190510",
+     "addr": "72 Hillandale Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 2570.0,
+     "price": 8950.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 3,
+     "mi": 0.72
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 6500.0,
+    "high": 6500.0,
+    "median": 6500
+   },
+   "radiusMi": 0.75
+  }
  }
 }

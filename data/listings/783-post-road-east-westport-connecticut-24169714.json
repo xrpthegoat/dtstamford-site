@@ -112,5 +112,77 @@
    "mi": 2.14,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "building": {
+   "rows": [
+    {
+     "slug": "783-post-road-east-westport-connecticut-24186218",
+     "addr": "783 Post Road East Unit 204",
+     "unit": "Unit 204",
+     "beds": 2.0,
+     "baths": 3.0,
+     "sqft": 1416.0,
+     "price": 1535000.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 1084
+    }
+   ],
+   "summary": null,
+   "label": "783 Post Road East"
+  },
+  "area": {
+   "rows": [
+    {
+     "slug": "781-post-road-east-westport-connecticut-24151662",
+     "addr": "781 Post Road East Unit 104",
+     "unit": "Unit 104",
+     "beds": 2.0,
+     "baths": 3.0,
+     "sqft": 1416.0,
+     "price": 1420000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-21",
+     "ppsf": 1003,
+     "mi": 0.0
+    },
+    {
+     "slug": "785-post-road-east-westport-connecticut-24092996",
+     "addr": "785 Post Road East Unit 302",
+     "unit": "Unit 302",
+     "beds": 2.0,
+     "baths": 3.0,
+     "sqft": 1300.0,
+     "price": 1420000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-24",
+     "ppsf": 1092,
+     "mi": 0.0
+    },
+    {
+     "slug": "781-post-road-east-westport-connecticut-24184810",
+     "addr": "781 Post Road East Unit 102",
+     "unit": "Unit 102",
+     "beds": 2.0,
+     "baths": 3.0,
+     "sqft": 1416.0,
+     "price": 1485000.0,
+     "kind": "asking",
+     "status": "Under Contract - Continue to Show",
+     "ppsf": 1049,
+     "mi": 0.0
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 1420000.0,
+    "high": 1420000.0,
+    "median": 1420000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

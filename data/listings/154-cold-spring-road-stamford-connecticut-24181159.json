@@ -141,5 +141,148 @@
    "mi": 0.33,
    "walk": 7
   }
+ },
+ "comps": {
+  "building": {
+   "rows": [
+    {
+     "slug": "154-cold-spring-road-stamford-connecticut-24155604",
+     "addr": "154 Cold Spring Road Apt 87",
+     "unit": "Apt 87",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1317.0,
+     "price": 425000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-14",
+     "ppsf": 323
+    },
+    {
+     "slug": "154-cold-spring-road-stamford-connecticut-24186842",
+     "addr": "154 Cold Spring Road Unit 19",
+     "unit": "Unit 19",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1317.0,
+     "price": 425000.0,
+     "kind": "asking",
+     "status": "Under Contract - Continue to Show",
+     "ppsf": 323
+    },
+    {
+     "slug": "154-cold-spring-road-stamford-connecticut-24194286",
+     "addr": "154 Cold Spring Road Unit 80",
+     "unit": "Unit 80",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1317.0,
+     "price": 385000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 292
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 425000.0,
+    "high": 425000.0,
+    "median": 425000
+   },
+   "label": "154 Cold Spring Road"
+  },
+  "area": {
+   "rows": [
+    {
+     "slug": "65-riverside-avenue-stamford-connecticut-24145418",
+     "addr": "65 Riverside Avenue Unit 65",
+     "unit": "Unit 65",
+     "beds": 3.0,
+     "baths": 4.0,
+     "sqft": 2070.0,
+     "price": 690000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-13",
+     "ppsf": 333,
+     "mi": 0.13
+    },
+    {
+     "slug": "20-third-street-stamford-connecticut-24163662",
+     "addr": "20 Third Street Unit 3",
+     "unit": "Unit 3",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 1667.0,
+     "price": 845000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-02",
+     "ppsf": 507,
+     "mi": 0.67
+    },
+    {
+     "slug": "20-third-street-stamford-connecticut-24180398",
+     "addr": "20 Third Street Unit 14",
+     "unit": "Unit 14",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 1485.0,
+     "price": 726000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-08-06",
+     "ppsf": 489,
+     "mi": 0.67
+    },
+    {
+     "slug": "20-third-street-stamford-connecticut-24156906",
+     "addr": "20 Third Street Unit 23",
+     "unit": "Unit 23",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 2333.0,
+     "price": 845000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-29",
+     "ppsf": 362,
+     "mi": 0.67
+    },
+    {
+     "slug": "55-waterford-lane-stamford-connecticut-24170821",
+     "addr": "55 Waterford Lane Unit 2",
+     "unit": "Unit 2",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 1625.0,
+     "price": 775000.0,
+     "kind": "asking",
+     "status": "Under Contract - Continue to Show",
+     "ppsf": 477,
+     "mi": 0.23
+    },
+    {
+     "slug": "20-third-street-stamford-connecticut-24186054",
+     "addr": "20 Third Street Unit 4",
+     "unit": "Unit 4",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 1687.0,
+     "price": 831000.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 493,
+     "mi": 0.67
+    }
+   ],
+   "summary": {
+    "n": 4,
+    "low": 690000.0,
+    "high": 845000.0,
+    "median": 785500
+   },
+   "radiusMi": 0.75
+  }
  }
 }

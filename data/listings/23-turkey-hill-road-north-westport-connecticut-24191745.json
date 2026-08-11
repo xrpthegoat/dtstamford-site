@@ -128,5 +128,98 @@
    "mi": 2.97,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "24-mills-street-westport-connecticut-24178569",
+     "addr": "24 Mills Street",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 2108.0,
+     "price": 7500.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-30",
+     "ppsf": 4,
+     "mi": 0.35
+    },
+    {
+     "slug": "32-regents-park-westport-connecticut-24163234",
+     "addr": "32 Regents Park Unit 32",
+     "unit": "Unit 32",
+     "beds": 3.0,
+     "baths": 4.0,
+     "sqft": 3349.0,
+     "price": 8900.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-01",
+     "ppsf": 3,
+     "mi": 0.46
+    },
+    {
+     "slug": "19-hickory-drive-westport-connecticut-24197723",
+     "addr": "19 Hickory Drive",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1073.0,
+     "price": 5500.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 5,
+     "mi": 0.39
+    },
+    {
+     "slug": "61-hillandale-road-westport-connecticut-24150954",
+     "addr": "61 Hillandale Road",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1724.0,
+     "price": 7500.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 4,
+     "mi": 0.57
+    },
+    {
+     "slug": "67-maple-avenue-north-westport-connecticut-24190059",
+     "addr": "67 Maple Avenue North",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 2202.0,
+     "price": 9000.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 4,
+     "mi": 0.66
+    },
+    {
+     "slug": "17-b-long-lots-road-westport-connecticut-24186952",
+     "addr": "17-B Long Lots Road",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 1456.0,
+     "price": 6500.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 4,
+     "mi": 0.66
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 7500.0,
+    "high": 8900.0,
+    "median": 8200
+   },
+   "radiusMi": 0.75
+  }
  }
 }

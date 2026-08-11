@@ -113,5 +113,72 @@
    "mi": 0.46,
    "walk": 9
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "51-forest-avenue-greenwich-connecticut-24163902",
+     "addr": "51 Forest Avenue Unit 25",
+     "unit": "Unit 25",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 2271.0,
+     "price": 8500.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-20",
+     "ppsf": 4,
+     "mi": 0.48
+    },
+    {
+     "slug": "14-amherst-road-greenwich-connecticut-24166765",
+     "addr": "14 Amherst Road",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1470.0,
+     "price": 6150.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-04",
+     "ppsf": 4,
+     "mi": 0.5
+    },
+    {
+     "slug": "45-sound-beach-ave-extension-greenwich-connecticut-24197554",
+     "addr": "45 Sound Beach Ave Extension",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 2556.0,
+     "price": 7999.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 3,
+     "mi": 0.55
+    },
+    {
+     "slug": "510-west-main-street-stamford-connecticut-24191385",
+     "addr": "510 West Main Street",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 1.0,
+     "sqft": 2027.0,
+     "price": 3000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 1,
+     "mi": 0.74
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 6150.0,
+    "high": 8500.0,
+    "median": 7325
+   },
+   "radiusMi": 0.75
+  }
  }
 }

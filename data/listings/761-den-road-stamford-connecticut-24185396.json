@@ -128,5 +128,72 @@
    "mi": 3.49,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "198-woodchuck-road-stamford-connecticut-24177197",
+     "addr": "198 Woodchuck Road",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 3322.0,
+     "price": 2450000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-30",
+     "ppsf": 738,
+     "mi": 0.38
+    },
+    {
+     "slug": "320-chestnut-hill-road-stamford-connecticut-24157806",
+     "addr": "320 Chestnut Hill Road",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 3342.0,
+     "price": 1440000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-18",
+     "ppsf": 431,
+     "mi": 0.64
+    },
+    {
+     "slug": "33-butternut-lane-stamford-connecticut-24170063",
+     "addr": "33 Butternut Lane",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 4.0,
+     "sqft": 1914.0,
+     "price": 1195000.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 624,
+     "mi": 0.51
+    },
+    {
+     "slug": "132-webbs-hill-road-stamford-connecticut-24187050",
+     "addr": "132 Webbs Hill Road",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1933.0,
+     "price": 1015000.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 525,
+     "mi": 0.65
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 1440000.0,
+    "high": 2450000.0,
+    "median": 1945000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

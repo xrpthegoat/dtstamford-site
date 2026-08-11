@@ -101,5 +101,72 @@
    "n": "Bus stop",
    "mi": 1.92
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "14-burr-road-westport-connecticut-24158964",
+     "addr": "14 Burr Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 4.0,
+     "sqft": 2282.0,
+     "price": 7500.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-05",
+     "ppsf": 3,
+     "mi": 0.19
+    },
+    {
+     "slug": "4-raymond-place-westport-connecticut-24188177",
+     "addr": "4 Raymond Place",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 5.0,
+     "sqft": 3180.0,
+     "price": 11250.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-03",
+     "ppsf": 4,
+     "mi": 0.69
+    },
+    {
+     "slug": "63-kings-highway-north-westport-connecticut-24184227",
+     "addr": "63 Kings Highway North",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 2.0,
+     "sqft": 1494.0,
+     "price": 5500.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 4,
+     "mi": 0.19
+    },
+    {
+     "slug": "3-river-view-road-westport-connecticut-24154887",
+     "addr": "3 River View Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 4.0,
+     "sqft": 3182.0,
+     "price": 12000.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 4,
+     "mi": 0.48
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 7500.0,
+    "high": 11250.0,
+    "median": 9375
+   },
+   "radiusMi": 0.75
+  }
  }
 }

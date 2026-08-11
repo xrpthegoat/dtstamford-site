@@ -134,5 +134,58 @@
    "mi": 0.63,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "27-raymond-street-new-canaan-connecticut-24160505",
+     "addr": "27 Raymond Street",
+     "unit": "",
+     "beds": 6.0,
+     "baths": 7.0,
+     "sqft": 5456.0,
+     "price": 3350000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-30",
+     "ppsf": 614,
+     "mi": 0.46
+    },
+    {
+     "slug": "19-orchard-lane-new-canaan-connecticut-24184181",
+     "addr": "19 Orchard Lane",
+     "unit": "",
+     "beds": 6.0,
+     "baths": 8.0,
+     "sqft": 6658.0,
+     "price": 4999000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 751,
+     "mi": 0.13
+    },
+    {
+     "slug": "148-douglas-road-new-canaan-connecticut-24184857",
+     "addr": "148 Douglas Road",
+     "unit": "",
+     "beds": 6.0,
+     "baths": 6.0,
+     "sqft": 7201.0,
+     "price": 4195000.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 583,
+     "mi": 0.63
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 3350000.0,
+    "high": 3350000.0,
+    "median": 3350000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

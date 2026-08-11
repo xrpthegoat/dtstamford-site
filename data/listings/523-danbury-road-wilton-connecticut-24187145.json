@@ -104,5 +104,56 @@
    "n": "Wilton High School",
    "mi": 1.21
   }
+ },
+ "comps": {
+  "building": {
+   "rows": [
+    {
+     "slug": "523-danbury-road-wilton-connecticut-24161685",
+     "addr": "523 Danbury Road Unit D",
+     "unit": "Unit D",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1100.0,
+     "price": 3250.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-23",
+     "ppsf": 3
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 3250.0,
+    "high": 3250.0,
+    "median": 3250
+   },
+   "label": "523 Danbury Road"
+  },
+  "area": {
+   "rows": [
+    {
+     "slug": "529-danbury-road-wilton-connecticut-24156770",
+     "addr": "529 Danbury Road Unit A",
+     "unit": "Unit A",
+     "beds": 2.0,
+     "baths": 1.0,
+     "sqft": 1100.0,
+     "price": 3300.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-23",
+     "ppsf": 3,
+     "mi": 0.08
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 3300.0,
+    "high": 3300.0,
+    "median": 3300
+   },
+   "radiusMi": 0.75
+  }
  }
 }

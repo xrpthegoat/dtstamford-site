@@ -66,6 +66,17 @@
 /* What's nearby: the distance sits under the place name, quiet, so the NAME is what scans. */
 .idx-nb-d{display:block;font-family:var(--mono);font-size:.62rem;letter-spacing:.06em;color:var(--muted);margin-top:3px;text-transform:none}
 .idx-nb-note{font-size:.74rem;color:var(--muted);margin:-8px 0 22px;line-height:1.5}
+.idx-cmp-sub{color:var(--muted);font-size:.82rem;margin:-6px 0 10px}
+.idx-cmp-sum{font-size:.95rem;margin:0 0 12px;color:#dfe6f0}
+.idx-cmp{width:100%;border-collapse:collapse;border:1px solid var(--line);border-radius:14px;overflow:hidden;margin:0 0 22px}
+.idx-cmp td{padding:12px 14px;border-bottom:1px solid var(--line-2);vertical-align:top}
+.idx-cmp tr:last-child td{border-bottom:0}
+.idx-cmp a{color:#fff;text-decoration:none;border-bottom:1px solid rgba(255,255,255,.22)}
+.idx-cmp-m{display:block;font-family:var(--mono);font-size:.6rem;letter-spacing:.06em;color:var(--muted);margin-top:4px}
+.idx-cmp-p{text-align:right;white-space:nowrap;color:#fff;font-size:1.02rem}
+.idx-cmp-k{display:inline-block;font-family:var(--mono);font-size:.56rem;letter-spacing:.08em;text-transform:uppercase;margin-top:5px}
+.idx-cmp-k.sold{color:#7ee0b0}
+.idx-cmp-k.ask{color:var(--muted)}
 /* Status "chip" inside the STATUS fact cell (John 2026-08-04): a colored pulsing dot next to the
    value ("Active"/"Under Contract"/...). Reuses the .st-on/.st-uc/.st-ucs/.st-soon color tokens
    the hero pill already defines. Active pulses; the rest show a steady dot (a Coming Soon or Under
@@ -190,7 +201,7 @@
     <div class="idx-facts"><div><div class="k">Style</div><div class="v">Colonial</div></div><div><div class="k">Roof</div><div class="v">Asphalt Shingle</div></div><div><div class="k">Siding</div><div class="v">Vinyl Siding</div></div><div><div class="k">Foundation</div><div class="v">Concrete</div></div><div><div class="k">New construction</div><div class="v">No/Resale</div></div></div>
     <h2>Lot &amp; Land</h2>
     <div class="idx-facts"><div><div class="k">Zoning</div><div class="v">R-2</div></div><div><div class="k">Lot</div><div class="v">Lightly Wooded, Level Lot</div></div></div>
-    <h2 id="nearby">What's nearby</h2><div class="idx-facts"><div><div class="k">Grocery</div><div class="v">Stop &amp; Shop<span class="idx-nb-d">3.17 mi away</span></div></div><div><div class="k">Also nearby</div><div class="v">Caraluzzi&#39;s<span class="idx-nb-d">3.4 mi away</span></div></div><div><div class="k">Pharmacy</div><div class="v">CVS Pharmacy<span class="idx-nb-d">3.69 mi away</span></div></div><div><div class="k">Train</div><div class="v">Cannondale Station<span class="idx-nb-d">2.73 mi away</span></div></div><div><div class="k">Elementary</div><div class="v">Miller-Driscoll</div></div><div><div class="k">Middle</div><div class="v">Middlebrook</div></div><div><div class="k">High school</div><div class="v">Wilton</div></div></div><p class="idx-nb-note">Distances are straight-line from the property, not driving or walking routes. Places data © OpenStreetMap contributors.</p><h2>Public record</h2>
+    <h2 id="nearby">What's nearby</h2><div class="idx-facts"><div><div class="k">Grocery</div><div class="v">Stop &amp; Shop<span class="idx-nb-d">3.17 mi away</span></div></div><div><div class="k">Also nearby</div><div class="v">Caraluzzi&#39;s<span class="idx-nb-d">3.4 mi away</span></div></div><div><div class="k">Pharmacy</div><div class="v">CVS Pharmacy<span class="idx-nb-d">3.69 mi away</span></div></div><div><div class="k">Train</div><div class="v">Cannondale Station<span class="idx-nb-d">2.73 mi away</span></div></div><div><div class="k">Elementary</div><div class="v">Miller-Driscoll</div></div><div><div class="k">Middle</div><div class="v">Middlebrook</div></div><div><div class="k">High school</div><div class="v">Wilton</div></div></div><p class="idx-nb-note">Distances are straight-line from the property, not driving or walking routes. Places data © OpenStreetMap contributors.</p><h2 id="comps">What similar homes have gone for</h2><h3>Nearby 3-bedroom homes</h3><p class="idx-cmp-sub">Within 0.75 miles, same bedroom count and property type.</p><table class="idx-cmp"><tr><td><a href="/homes/871-ridgefield-road-wilton-connecticut-24179319.html">871 Ridgefield Road</a><span class="idx-cmp-m">1,706 sqft · $515/sqft · 0.74 mi away</span></td><td class="idx-cmp-p">$879,000<br><span class="idx-cmp-k ask">Asking · Under Contract</span></td></tr></table><p class="idx-nb-note">Comparables are drawn from the same MLS feed as this listing. Sold figures are recorded sale prices; listings still on the market show their asking price. Not an appraisal.</p><h2>Public record</h2>
 <p class="pr-note">From the Wilton assessor's public property record. These figures describe the property as the town has it on file and can differ from the listing — a finished basement or an addition may not be reflected in the assessor's living area.</p>
 <div class="pr-grid"><div class="pr-cell"><span class="pr-k">Year built</span><span class="pr-v">1942</span></div>
 <div class="pr-cell"><span class="pr-k">Living area</span><span class="pr-v">1,918 sq ft</span></div>

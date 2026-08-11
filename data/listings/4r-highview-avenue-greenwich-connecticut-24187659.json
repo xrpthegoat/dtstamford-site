@@ -126,5 +126,59 @@
    "n": "Bus stop",
    "mi": 1.06
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "51-forest-avenue-greenwich-connecticut-24179472",
+     "addr": "51 Forest Avenue Unit 43",
+     "unit": "Unit 43",
+     "beds": 1.0,
+     "baths": 2.0,
+     "sqft": 1203.0,
+     "price": 4400.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-05",
+     "ppsf": 4,
+     "mi": 0.18
+    },
+    {
+     "slug": "33-beal-street-stamford-connecticut-24177857",
+     "addr": "33 Beal Street Unit 2",
+     "unit": "Unit 2",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 780.0,
+     "price": 2000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-18",
+     "ppsf": 3,
+     "mi": 0.64
+    },
+    {
+     "slug": "51-forest-avenue-greenwich-connecticut-24192803",
+     "addr": "51 Forest Avenue Unit 61",
+     "unit": "Unit 61",
+     "beds": 1.0,
+     "baths": 2.0,
+     "sqft": 960.0,
+     "price": 4300.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 4,
+     "mi": 0.18
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 2000.0,
+    "high": 4400.0,
+    "median": 3200
+   },
+   "radiusMi": 0.75
+  }
  }
 }

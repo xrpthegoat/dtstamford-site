@@ -105,5 +105,46 @@
    "mi": 4.45,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "41-londonderry-drive-greenwich-connecticut-24158179",
+     "addr": "41 Londonderry Drive",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 5.0,
+     "sqft": 6330.0,
+     "price": 3330000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-06",
+     "ppsf": 526,
+     "mi": 0.53
+    },
+    {
+     "slug": "55-stag-lane-greenwich-connecticut-24173988",
+     "addr": "55 Stag Lane",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 5.0,
+     "sqft": 3576.0,
+     "price": 3000000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-08",
+     "ppsf": 839,
+     "mi": 0.64
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 3000000.0,
+    "high": 3330000.0,
+    "median": 3165000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

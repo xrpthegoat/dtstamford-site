@@ -101,5 +101,46 @@
    "walk": 12,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "343-greenwich-avenue-greenwich-connecticut-24153469",
+     "addr": "343 Greenwich Avenue Unit 2nd Floor",
+     "unit": "Unit 2nd Floor",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 800.0,
+     "price": 3950.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-03",
+     "ppsf": 5,
+     "mi": 0.67
+    },
+    {
+     "slug": "271-greenwich-avenue-greenwich-connecticut-24180209",
+     "addr": "271 Greenwich Avenue Unit 2D",
+     "unit": "Unit 2D",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 700.0,
+     "price": 2675.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-10",
+     "ppsf": 4,
+     "mi": 0.7
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 2675.0,
+    "high": 3950.0,
+    "median": 3312
+   },
+   "radiusMi": 0.75
+  }
  }
 }

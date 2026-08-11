@@ -121,5 +121,137 @@
    "n": "Heights Rd @ 310 Heights Rd",
    "mi": 1.04
   }
+ },
+ "comps": {
+  "building": {
+   "rows": [
+    {
+     "slug": "59-courtland-avenue-stamford-connecticut-24156487",
+     "addr": "59 Courtland Avenue Apt 2T",
+     "unit": "Apt 2T",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 480.0,
+     "price": 160000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-01",
+     "ppsf": 333
+    },
+    {
+     "slug": "59-courtland-avenue-stamford-connecticut-24157387",
+     "addr": "59 Courtland Avenue Apt 3B",
+     "unit": "Apt 3B",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 590.0,
+     "price": 239000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-29",
+     "ppsf": 405
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 160000.0,
+    "high": 239000.0,
+    "median": 199500
+   },
+   "label": "59 Courtland Avenue"
+  },
+  "area": {
+   "rows": [
+    {
+     "slug": "194-seaton-road-stamford-connecticut-24167892",
+     "addr": "194 Seaton Road Unit 3",
+     "unit": "Unit 3",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 575.0,
+     "price": 230000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-18",
+     "ppsf": 400,
+     "mi": 0.19
+    },
+    {
+     "slug": "190-seaton-road-stamford-connecticut-24176427",
+     "addr": "190 Seaton Road Unit 1",
+     "unit": "Unit 1",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 575.0,
+     "price": 235500.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-01",
+     "ppsf": 410,
+     "mi": 0.19
+    },
+    {
+     "slug": "5-hundley-court-stamford-connecticut-24150941",
+     "addr": "5 Hundley Court Unit LL",
+     "unit": "Unit LL",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 1100.0,
+     "price": 310000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-27",
+     "ppsf": 282,
+     "mi": 0.65
+    },
+    {
+     "slug": "5-hundley-court-stamford-connecticut-24178040",
+     "addr": "5 Hundley Court Unit 2C",
+     "unit": "Unit 2C",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 775.0,
+     "price": 310000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-08-07",
+     "ppsf": 400,
+     "mi": 0.65
+    },
+    {
+     "slug": "248-seaton-road-stamford-connecticut-24188030",
+     "addr": "248 Seaton Road Unit 2",
+     "unit": "Unit 2",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 575.0,
+     "price": 220000.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 383,
+     "mi": 0.05
+    },
+    {
+     "slug": "22-courtland-avenue-stamford-connecticut-24159522",
+     "addr": "22 Courtland Avenue #4",
+     "unit": "#4",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 750.0,
+     "price": 179000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 239,
+     "mi": 0.11
+    }
+   ],
+   "summary": {
+    "n": 4,
+    "low": 230000.0,
+    "high": 310000.0,
+    "median": 272750
+   },
+   "radiusMi": 0.75
+  }
  }
 }

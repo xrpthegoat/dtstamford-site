@@ -129,5 +129,59 @@
    "mi": 2.29,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "117-whipstick-road-wilton-connecticut-24166495",
+     "addr": "117 Whipstick Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 2677.0,
+     "price": 1505000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-11",
+     "ppsf": 562,
+     "mi": 0.21
+    },
+    {
+     "slug": "31-longmeadows-road-wilton-connecticut-24160141",
+     "addr": "31 Longmeadows Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 2172.0,
+     "price": 1030000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-15",
+     "ppsf": 474,
+     "mi": 0.46
+    },
+    {
+     "slug": "35-hickory-hill-road-wilton-connecticut-24189488",
+     "addr": "35 Hickory Hill Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 4.0,
+     "sqft": 3755.0,
+     "price": 1849000.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 492,
+     "mi": 0.65
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 1030000.0,
+    "high": 1505000.0,
+    "median": 1267500
+   },
+   "radiusMi": 0.75
+  }
  }
 }

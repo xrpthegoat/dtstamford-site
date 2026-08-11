@@ -104,5 +104,100 @@
    "mi": 0.35,
    "walk": 7
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "10-glendenning-street-norwalk-connecticut-24164557",
+     "addr": "10 Glendenning Street Unit Right",
+     "unit": "Unit Right",
+     "beds": 3.0,
+     "baths": 1.0,
+     "sqft": 2172.0,
+     "price": 3500.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-09",
+     "ppsf": 2,
+     "mi": 0.35
+    },
+    {
+     "slug": "12-west-rocks-road-norwalk-connecticut-24136225",
+     "addr": "12 West Rocks Road",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 1.0,
+     "sqft": 984.0,
+     "price": 2900.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-14",
+     "ppsf": 3,
+     "mi": 0.44
+    },
+    {
+     "slug": "60-walter-avenue-norwalk-connecticut-24161289",
+     "addr": "60 Walter Avenue",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1320.0,
+     "price": 3700.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-14",
+     "ppsf": 3,
+     "mi": 0.5
+    },
+    {
+     "slug": "33-macintosh-road-norwalk-connecticut-24182526",
+     "addr": "33 Macintosh Road",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 1.0,
+     "sqft": 1044.0,
+     "price": 3100.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-20",
+     "ppsf": 3,
+     "mi": 0.72
+    },
+    {
+     "slug": "10-cannon-brook-lane-norwalk-connecticut-24196520",
+     "addr": "10 Cannon Brook Lane Unit 10",
+     "unit": "Unit 10",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 4150.0,
+     "price": 7000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 2,
+     "mi": 0.26
+    },
+    {
+     "slug": "24-heather-lane-norwalk-connecticut-24192384",
+     "addr": "24 Heather Lane",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1393.0,
+     "price": 4500.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 3,
+     "mi": 0.62
+    }
+   ],
+   "summary": {
+    "n": 4,
+    "low": 2900.0,
+    "high": 3700.0,
+    "median": 3300
+   },
+   "radiusMi": 0.75
+  }
  }
 }

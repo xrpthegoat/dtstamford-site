@@ -131,5 +131,99 @@
    "n": "Bus stop",
    "mi": 0.95
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "7-heusted-drive-greenwich-connecticut-24168405",
+     "addr": "7 Heusted Drive",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 4.0,
+     "sqft": 4348.0,
+     "price": 3100000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-17",
+     "ppsf": 713,
+     "mi": 0.45
+    },
+    {
+     "slug": "8-willow-lane-greenwich-connecticut-24161971",
+     "addr": "8 Willow Lane",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 2.0,
+     "sqft": 1944.0,
+     "price": 2410000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-15",
+     "ppsf": 1240,
+     "mi": 0.53
+    },
+    {
+     "slug": "14-neil-lane-greenwich-connecticut-24179144",
+     "addr": "14 Neil Lane",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 2568.0,
+     "price": 1800000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-31",
+     "ppsf": 701,
+     "mi": 0.71
+    },
+    {
+     "slug": "greenwich-connecticut-24162737",
+     "addr": null,
+     "unit": "",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 2965.0,
+     "price": 3850000.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 1298,
+     "mi": 0.61
+    },
+    {
+     "slug": "52-center-drive-greenwich-connecticut-24188202",
+     "addr": "52 Center Drive",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 2259.0,
+     "price": 1495000.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 662,
+     "mi": 0.61
+    },
+    {
+     "slug": "8-ernel-drive-greenwich-connecticut-24183181",
+     "addr": "8 Ernel Drive",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 1832.0,
+     "price": 1950000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 1064,
+     "mi": 0.73
+    }
+   ],
+   "summary": {
+    "n": 3,
+    "low": 1800000.0,
+    "high": 3100000.0,
+    "median": 2410000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

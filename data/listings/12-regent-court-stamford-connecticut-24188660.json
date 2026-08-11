@@ -127,5 +127,59 @@
    "mi": 1.0,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "1-little-john-lane-stamford-connecticut-24154385",
+     "addr": "1 Little John Lane",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 1954.0,
+     "price": 831000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-31",
+     "ppsf": 425,
+     "mi": 0.33
+    },
+    {
+     "slug": "49-minivale-road-stamford-connecticut-24149754",
+     "addr": "49 Minivale Road",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1998.0,
+     "price": 975000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-30",
+     "ppsf": 488,
+     "mi": 0.53
+    },
+    {
+     "slug": "15-muriel-drive-stamford-connecticut-24196928",
+     "addr": "15 Muriel Drive",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 1.0,
+     "sqft": 1448.0,
+     "price": 725000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 501,
+     "mi": 0.74
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 831000.0,
+    "high": 975000.0,
+    "median": 903000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

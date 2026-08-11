@@ -125,5 +125,46 @@
    "mi": 6.74,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "21-zygmont-lane-greenwich-connecticut-24157235",
+     "addr": "21 Zygmont Lane",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 2077.0,
+     "price": 1850000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-30",
+     "ppsf": 891,
+     "mi": 0.09
+    },
+    {
+     "slug": "93-east-middle-patent-road-greenwich-connecticut-24157274",
+     "addr": "93 East Middle Patent Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 2849.0,
+     "price": 2000000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-22",
+     "ppsf": 702,
+     "mi": 0.65
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 1850000.0,
+    "high": 2000000.0,
+    "median": 1925000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

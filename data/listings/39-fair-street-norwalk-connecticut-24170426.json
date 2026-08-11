@@ -109,5 +109,72 @@
    "mi": 0.5,
    "walk": 10
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "5-fairfield-terrace-norwalk-connecticut-24170491",
+     "addr": "5 Fairfield Terrace",
+     "unit": "",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1108.0,
+     "price": 535000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-26",
+     "ppsf": 483,
+     "mi": 0.61
+    },
+    {
+     "slug": "21-west-rocks-road-norwalk-connecticut-24168949",
+     "addr": "21 West Rocks Road",
+     "unit": "",
+     "beds": 2.0,
+     "baths": 1.0,
+     "sqft": 992.0,
+     "price": 500000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-15",
+     "ppsf": 504,
+     "mi": 0.66
+    },
+    {
+     "slug": "1-nolan-street-norwalk-connecticut-24180688",
+     "addr": "1 Nolan Street",
+     "unit": "",
+     "beds": 2.0,
+     "baths": 1.0,
+     "sqft": 768.0,
+     "price": 499000.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 650,
+     "mi": 0.34
+    },
+    {
+     "slug": "30-nolan-street-extension-norwalk-connecticut-24182161",
+     "addr": "30 Nolan Street Extension",
+     "unit": "",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1332.0,
+     "price": 519000.0,
+     "kind": "asking",
+     "status": "Under Contract - Continue to Show",
+     "ppsf": 390,
+     "mi": 0.53
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 500000.0,
+    "high": 535000.0,
+    "median": 517500
+   },
+   "radiusMi": 0.75
+  }
  }
 }

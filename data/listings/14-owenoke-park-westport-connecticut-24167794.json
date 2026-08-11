@@ -138,5 +138,59 @@
    "n": "Bus stop",
    "mi": 1.59
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "22-apple-tree-trail-westport-connecticut-24158799",
+     "addr": "22 Apple Tree Trail",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 5.0,
+     "sqft": 4550.0,
+     "price": 5995000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-26",
+     "ppsf": 1318,
+     "mi": 0.33
+    },
+    {
+     "slug": "24-compo-parkway-westport-connecticut-24146922",
+     "addr": "24 Compo Parkway",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 6.0,
+     "sqft": 6020.0,
+     "price": 5035000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-20",
+     "ppsf": 836,
+     "mi": 0.57
+    },
+    {
+     "slug": "4-bradley-street-westport-connecticut-24193283",
+     "addr": "4 Bradley Street",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 4.0,
+     "sqft": 3255.0,
+     "price": 2997000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 921,
+     "mi": 0.39
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 5035000.0,
+    "high": 5995000.0,
+    "median": 5515000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

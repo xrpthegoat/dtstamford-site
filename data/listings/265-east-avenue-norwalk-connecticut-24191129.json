@@ -104,5 +104,139 @@
    "n": "Bus stop",
    "mi": 1.12
   }
+ },
+ "comps": {
+  "building": {
+   "rows": [
+    {
+     "slug": "265-east-avenue-norwalk-connecticut-24172477",
+     "addr": "265 East Avenue Unit 3",
+     "unit": "Unit 3",
+     "beds": 2.0,
+     "baths": 1.0,
+     "sqft": 1000.0,
+     "price": 2100.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-29",
+     "ppsf": 2
+    },
+    {
+     "slug": "265-east-avenue-norwalk-connecticut-24139289",
+     "addr": "265 East Avenue Unit 2",
+     "unit": "Unit 2",
+     "beds": 2.0,
+     "baths": 1.0,
+     "sqft": 900.0,
+     "price": 2100.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-11",
+     "ppsf": 2
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 2100.0,
+    "high": 2100.0,
+    "median": 2100
+   },
+   "label": "265 East Avenue"
+  },
+  "area": {
+   "rows": [
+    {
+     "slug": "25-cottage-street-norwalk-connecticut-24173113",
+     "addr": "25 Cottage Street Unit 202",
+     "unit": "Unit 202",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 992.0,
+     "price": 2900.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-31",
+     "ppsf": 3,
+     "mi": 0.06
+    },
+    {
+     "slug": "26-rowan-street-norwalk-connecticut-24189690",
+     "addr": "26 Rowan Street Unit 1",
+     "unit": "Unit 1",
+     "beds": 2.0,
+     "baths": 1.0,
+     "sqft": 2015.0,
+     "price": 2200.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-29",
+     "ppsf": 1,
+     "mi": 0.14
+    },
+    {
+     "slug": "42-first-street-norwalk-connecticut-24168799",
+     "addr": "42 First Street",
+     "unit": "",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1010.0,
+     "price": 2500.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-23",
+     "ppsf": 2,
+     "mi": 0.18
+    },
+    {
+     "slug": "38-gregory-boulevard-norwalk-connecticut-24152514",
+     "addr": "38 Gregory Boulevard",
+     "unit": "",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 2611.0,
+     "price": 3600.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-01",
+     "ppsf": 1,
+     "mi": 0.18
+    },
+    {
+     "slug": "11-betts-place-norwalk-connecticut-24186301",
+     "addr": "11 Betts Place",
+     "unit": "",
+     "beds": 2.0,
+     "baths": 1.0,
+     "sqft": 1154.0,
+     "price": 2600.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-08-07",
+     "ppsf": 2,
+     "mi": 0.19
+    },
+    {
+     "slug": "21-cove-avenue-norwalk-connecticut-24193138",
+     "addr": "21 Cove Avenue Unit Rear",
+     "unit": "Unit Rear",
+     "beds": 2.0,
+     "baths": 1.0,
+     "sqft": 1200.0,
+     "price": 3300.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-23",
+     "ppsf": 3,
+     "mi": 0.27
+    }
+   ],
+   "summary": {
+    "n": 6,
+    "low": 2200.0,
+    "high": 3600.0,
+    "median": 2750
+   },
+   "radiusMi": 0.75
+  }
  }
 }

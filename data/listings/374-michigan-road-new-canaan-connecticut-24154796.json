@@ -108,5 +108,60 @@
    "mi": 3.15,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "1191-oenoke-ridge-new-canaan-connecticut-24165312",
+     "addr": "1191 Oenoke Ridge",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 6.0,
+     "sqft": 6557.0,
+     "price": 4700000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-08-04",
+     "ppsf": 717,
+     "mi": 0.43
+    },
+    {
+     "slug": "1541-oenoke-ridge-new-canaan-connecticut-24166609",
+     "addr": "1541 Oenoke Ridge",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 6.0,
+     "sqft": 5687.0,
+     "price": 3200000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-22",
+     "ppsf": 563,
+     "mi": 0.68
+    },
+    {
+     "slug": "176-logan-road-new-canaan-connecticut-24147833",
+     "addr": "176 Logan Road",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 4.0,
+     "sqft": 4428.0,
+     "price": 2678671.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-31",
+     "ppsf": 605,
+     "mi": 0.73
+    }
+   ],
+   "summary": {
+    "n": 3,
+    "low": 2678671.0,
+    "high": 4700000.0,
+    "median": 3200000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

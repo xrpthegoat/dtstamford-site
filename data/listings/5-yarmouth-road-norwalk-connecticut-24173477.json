@@ -99,5 +99,58 @@
    "mi": 1.47,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "111-rowayton-avenue-norwalk-connecticut-24159840",
+     "addr": "111 Rowayton Avenue Unit 201",
+     "unit": "Unit 201",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 2399.0,
+     "price": 30000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-08-03",
+     "ppsf": 13,
+     "mi": 0.72
+    },
+    {
+     "slug": "104-roton-avenue-norwalk-connecticut-24159463",
+     "addr": "104 Roton Avenue",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 4.0,
+     "sqft": 2449.0,
+     "price": 28000.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 11,
+     "mi": 0.37
+    },
+    {
+     "slug": "124-rowayton-avenue-norwalk-connecticut-24197986",
+     "addr": "124 Rowayton Avenue",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 2477.0,
+     "price": 13000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 5,
+     "mi": 0.75
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 30000.0,
+    "high": 30000.0,
+    "median": 30000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

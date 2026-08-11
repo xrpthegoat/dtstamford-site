@@ -125,5 +125,120 @@
    "mi": 0.04,
    "walk": 1
   }
+ },
+ "comps": {
+  "building": {
+   "rows": [
+    {
+     "slug": "1911-summer-street-stamford-connecticut-24196254",
+     "addr": "1911 Summer Street Unit 3",
+     "unit": "Unit 3",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 1980.0,
+     "price": 5600.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 3
+    }
+   ],
+   "summary": null,
+   "label": "1911 Summer Street"
+  },
+  "area": {
+   "rows": [
+    {
+     "slug": "20-third-street-stamford-connecticut-24158555",
+     "addr": "20 Third Street Unit 18",
+     "unit": "Unit 18",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 1645.0,
+     "price": 4900.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-09",
+     "ppsf": 3,
+     "mi": 0.1
+    },
+    {
+     "slug": "20-third-street-stamford-connecticut-24175898",
+     "addr": "20 Third Street Unit 19",
+     "unit": "Unit 19",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 1610.0,
+     "price": 4800.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-27",
+     "ppsf": 3,
+     "mi": 0.1
+    },
+    {
+     "slug": "2700-bedford-street-stamford-connecticut-24169832",
+     "addr": "2700 Bedford Street Unit O",
+     "unit": "Unit O",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 1410.0,
+     "price": 4000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-28",
+     "ppsf": 3,
+     "mi": 0.38
+    },
+    {
+     "slug": "29-dolsen-place-stamford-connecticut-24154904",
+     "addr": "29 Dolsen Place Unit 2",
+     "unit": "Unit 2",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1400.0,
+     "price": 3600.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-21",
+     "ppsf": 3,
+     "mi": 0.45
+    },
+    {
+     "slug": "70-strawberry-hill-avenue-stamford-connecticut-24159747",
+     "addr": "70 Strawberry Hill Avenue Apt 1-2D",
+     "unit": "Apt 1-2D",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1512.0,
+     "price": 3275.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-02",
+     "ppsf": 2,
+     "mi": 0.53
+    },
+    {
+     "slug": "2-washington-court-stamford-connecticut-24150917",
+     "addr": "2 Washington Court Unit 12",
+     "unit": "Unit 12",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1064.0,
+     "price": 3190.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-01",
+     "ppsf": 3,
+     "mi": 0.55
+    }
+   ],
+   "summary": {
+    "n": 6,
+    "low": 3190.0,
+    "high": 4900.0,
+    "median": 3800
+   },
+   "radiusMi": 0.75
+  }
  }
 }

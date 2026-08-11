@@ -120,5 +120,137 @@
    "mi": 0.1,
    "walk": 2
   }
+ },
+ "comps": {
+  "building": {
+   "rows": [
+    {
+     "slug": "440-heights-road-darien-connecticut-24160971",
+     "addr": "440 Heights Road Unit 210",
+     "unit": "Unit 210",
+     "beds": 2.0,
+     "baths": 3.0,
+     "sqft": 1236.0,
+     "price": 6500.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-25",
+     "ppsf": 5
+    },
+    {
+     "slug": "440-heights-road-darien-connecticut-24176917",
+     "addr": "440 Heights Road Unit 205",
+     "unit": "Unit 205",
+     "beds": 2.0,
+     "baths": 3.0,
+     "sqft": 1348.0,
+     "price": 8200.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 6
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 6500.0,
+    "high": 6500.0,
+    "median": 6500
+   },
+   "label": "440 Heights Road"
+  },
+  "area": {
+   "rows": [
+    {
+     "slug": "340-heights-road-darien-connecticut-24161140",
+     "addr": "340 Heights Road Unit 314",
+     "unit": "Unit 314",
+     "beds": 2.0,
+     "baths": 3.0,
+     "sqft": 1546.0,
+     "price": 8600.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-24",
+     "ppsf": 6,
+     "mi": 0.0
+    },
+    {
+     "slug": "340-heights-road-darien-connecticut-24161107",
+     "addr": "340 Heights Road Unit 316",
+     "unit": "Unit 316",
+     "beds": 2.0,
+     "baths": 3.0,
+     "sqft": 1492.0,
+     "price": 9250.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-15",
+     "ppsf": 6,
+     "mi": 0.03
+    },
+    {
+     "slug": "375-west-avenue-darien-connecticut-24166078",
+     "addr": "375 West Avenue",
+     "unit": "",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1510.0,
+     "price": 6200.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-20",
+     "ppsf": 4,
+     "mi": 0.42
+    },
+    {
+     "slug": "410-west-avenue-darien-connecticut-24176762",
+     "addr": "410 West Avenue Unit 202",
+     "unit": "Unit 202",
+     "beds": 2.0,
+     "baths": 1.0,
+     "sqft": 1440.0,
+     "price": 3600.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-15",
+     "ppsf": 2,
+     "mi": 0.63
+    },
+    {
+     "slug": "22-radio-place-stamford-connecticut-24186340",
+     "addr": "22 Radio Place Unit 8",
+     "unit": "Unit 8",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1200.0,
+     "price": 3300.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-15",
+     "ppsf": 3,
+     "mi": 0.66
+    },
+    {
+     "slug": "74-linden-avenue-darien-connecticut-24189619",
+     "addr": "74 Linden Avenue",
+     "unit": "",
+     "beds": 2.0,
+     "baths": 1.0,
+     "sqft": 800.0,
+     "price": 2700.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 3,
+     "mi": 0.15
+    }
+   ],
+   "summary": {
+    "n": 5,
+    "low": 3300.0,
+    "high": 9250.0,
+    "median": 6200
+   },
+   "radiusMi": 0.75
+  }
  }
 }

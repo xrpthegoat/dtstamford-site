@@ -108,5 +108,126 @@
    "mi": 0.21,
    "walk": 4
   }
+ },
+ "comps": {
+  "building": {
+   "rows": [
+    {
+     "slug": "109-forest-street-stamford-connecticut-24153723",
+     "addr": "109 Forest Street Apt 3",
+     "unit": "Apt 3",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 1695.0,
+     "price": 4500.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-31",
+     "ppsf": 3
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 4500.0,
+    "high": 4500.0,
+    "median": 4500
+   },
+   "label": "109 Forest Street"
+  },
+  "area": {
+   "rows": [
+    {
+     "slug": "130-forest-street-stamford-connecticut-24180052",
+     "addr": "130 Forest Street Unit 130",
+     "unit": "Unit 130",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 2390.0,
+     "price": 4500.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-15",
+     "ppsf": 2,
+     "mi": 0.06
+    },
+    {
+     "slug": "45-highland-road-stamford-connecticut-24167883",
+     "addr": "45 Highland Road Unit 45",
+     "unit": "Unit 45",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 1800.0,
+     "price": 4100.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-02",
+     "ppsf": 2,
+     "mi": 0.08
+    },
+    {
+     "slug": "5-daly-street-stamford-connecticut-24180627",
+     "addr": "5 Daly Street Unit 2nd floor",
+     "unit": "Unit 2nd floor",
+     "beds": 3.0,
+     "baths": 1.0,
+     "sqft": 1000.0,
+     "price": 2600.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-08-01",
+     "ppsf": 3,
+     "mi": 0.24
+    },
+    {
+     "slug": "21-quintard-terrace-stamford-connecticut-24154717",
+     "addr": "21 Quintard Terrace Unit 2nd Floor",
+     "unit": "Unit 2nd Floor",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 2839.0,
+     "price": 3300.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-15",
+     "ppsf": 1,
+     "mi": 0.39
+    },
+    {
+     "slug": "29-dolsen-place-stamford-connecticut-24154904",
+     "addr": "29 Dolsen Place Unit 2",
+     "unit": "Unit 2",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1400.0,
+     "price": 3600.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-21",
+     "ppsf": 3,
+     "mi": 0.42
+    },
+    {
+     "slug": "70-strawberry-hill-avenue-stamford-connecticut-24159747",
+     "addr": "70 Strawberry Hill Avenue Apt 1-2D",
+     "unit": "Apt 1-2D",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1512.0,
+     "price": 3275.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-02",
+     "ppsf": 2,
+     "mi": 0.46
+    }
+   ],
+   "summary": {
+    "n": 6,
+    "low": 2600.0,
+    "high": 4500.0,
+    "median": 3450
+   },
+   "radiusMi": 0.75
+  }
  }
 }

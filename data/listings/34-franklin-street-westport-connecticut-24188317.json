@@ -107,5 +107,100 @@
    "n": "Bus stop",
    "mi": 0.96
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "230-saugatuck-avenue-westport-connecticut-24172567",
+     "addr": "230 Saugatuck Avenue Unit 17",
+     "unit": "Unit 17",
+     "beds": 2.0,
+     "baths": 3.0,
+     "sqft": 1200.0,
+     "price": 4800.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-26",
+     "ppsf": 4,
+     "mi": 0.46
+    },
+    {
+     "slug": "33-strathmore-lane-norwalk-connecticut-24180910",
+     "addr": "33 Strathmore Lane Unit 33",
+     "unit": "Unit 33",
+     "beds": 2.0,
+     "baths": 3.0,
+     "sqft": 1440.0,
+     "price": 4100.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-16",
+     "ppsf": 3,
+     "mi": 0.51
+    },
+    {
+     "slug": "253-riverside-avenue-westport-connecticut-24175550",
+     "addr": "253 Riverside Avenue Unit 201",
+     "unit": "Unit 201",
+     "beds": 2.0,
+     "baths": 3.0,
+     "sqft": 1300.0,
+     "price": 11500.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-31",
+     "ppsf": 9,
+     "mi": 0.74
+    },
+    {
+     "slug": "251-riverside-avenue-westport-connecticut-24175707",
+     "addr": "251 Riverside Avenue Unit 251 A - 2nd floor",
+     "unit": "Unit 251 A - 2nd floor",
+     "beds": 2.0,
+     "baths": 3.0,
+     "sqft": 1560.0,
+     "price": 11000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-31",
+     "ppsf": 7,
+     "mi": 0.75
+    },
+    {
+     "slug": "253-riverside-avenue-westport-connecticut-24175657",
+     "addr": "253 Riverside Avenue Unit 202",
+     "unit": "Unit 202",
+     "beds": 2.0,
+     "baths": 3.0,
+     "sqft": 1200.0,
+     "price": 11500.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 10,
+     "mi": 0.74
+    },
+    {
+     "slug": "251-riverside-avenue-westport-connecticut-24175700",
+     "addr": "251 Riverside Avenue Unit 251 B - Main Level",
+     "unit": "Unit 251 B - Main Level",
+     "beds": 2.0,
+     "baths": 3.0,
+     "sqft": 1420.0,
+     "price": 10500.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 7,
+     "mi": 0.75
+    }
+   ],
+   "summary": {
+    "n": 4,
+    "low": 4100.0,
+    "high": 11500.0,
+    "median": 7900
+   },
+   "radiusMi": 0.75
+  }
  }
 }

@@ -128,5 +128,58 @@
    "mi": 1.54,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "176-carter-street-new-canaan-connecticut-24173413",
+     "addr": "176 Carter Street",
+     "unit": "",
+     "beds": 6.0,
+     "baths": 6.0,
+     "sqft": 4158.0,
+     "price": 2805000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-22",
+     "ppsf": 675,
+     "mi": 0.28
+    },
+    {
+     "slug": "140-stoneleigh-road-new-canaan-connecticut-24167662",
+     "addr": "140 Stoneleigh Road",
+     "unit": "",
+     "beds": 6.0,
+     "baths": 10.0,
+     "sqft": 10143.0,
+     "price": 5995000.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 591,
+     "mi": 0.41
+    },
+    {
+     "slug": "80-90-comstock-hill-road-norwalk-connecticut-24163781",
+     "addr": "80-90 Comstock Hill Road",
+     "unit": "",
+     "beds": 6.0,
+     "baths": 6.0,
+     "sqft": 25115.0,
+     "price": 4500000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 179,
+     "mi": 0.75
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 2805000.0,
+    "high": 2805000.0,
+    "median": 2805000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

@@ -102,5 +102,101 @@
    "mi": 1.86,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "201-main-street-westport-connecticut-24179108",
+     "addr": "201 Main Street Unit 302",
+     "unit": "Unit 302",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 850.0,
+     "price": 4800.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-11",
+     "ppsf": 6,
+     "mi": 0.32
+    },
+    {
+     "slug": "201-main-street-westport-connecticut-24138891",
+     "addr": "201 Main Street Unit 203",
+     "unit": "Unit 203",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 830.0,
+     "price": 4500.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-03",
+     "ppsf": 5,
+     "mi": 0.33
+    },
+    {
+     "slug": "315-main-street-westport-connecticut-24146601",
+     "addr": "315 Main Street",
+     "unit": "",
+     "beds": 2.0,
+     "baths": 1.0,
+     "sqft": 740.0,
+     "price": 3250.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-30",
+     "ppsf": 4,
+     "mi": 0.4
+    },
+    {
+     "slug": "5-church-lane-westport-connecticut-24182260",
+     "addr": "5 Church Lane Unit 310",
+     "unit": "Unit 310",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1220.0,
+     "price": 6995.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-28",
+     "ppsf": 6,
+     "mi": 0.45
+    },
+    {
+     "slug": "20-cross-street-westport-connecticut-24172100",
+     "addr": "20 Cross Street Unit 5",
+     "unit": "Unit 5",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1182.0,
+     "price": 4900.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-06",
+     "ppsf": 4,
+     "mi": 0.53
+    },
+    {
+     "slug": "115-wilton-road-westport-connecticut-24189184",
+     "addr": "115 Wilton Road Unit 1 (front 1st floor)",
+     "unit": "Unit 1 (front 1st floor)",
+     "beds": 2.0,
+     "baths": 1.0,
+     "sqft": 2065.0,
+     "price": 3500.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 2,
+     "mi": 0.11
+    }
+   ],
+   "summary": {
+    "n": 5,
+    "low": 3250.0,
+    "high": 6995.0,
+    "median": 4800
+   },
+   "radiusMi": 0.75
+  }
  }
 }

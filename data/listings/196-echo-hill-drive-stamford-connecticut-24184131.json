@@ -129,5 +129,60 @@
    "mi": 5.76,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "215-south-lake-drive-stamford-connecticut-24159274",
+     "addr": "215 South Lake Drive",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 8.0,
+     "sqft": 7169.0,
+     "price": 2410000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-15",
+     "ppsf": 336,
+     "mi": 0.18
+    },
+    {
+     "slug": "21-ravenglass-drive-stamford-connecticut-24143674",
+     "addr": "21 Ravenglass Drive Unit 21",
+     "unit": "Unit 21",
+     "beds": 4.0,
+     "baths": 5.0,
+     "sqft": 5441.0,
+     "price": 2600000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-09",
+     "ppsf": 478,
+     "mi": 0.43
+    },
+    {
+     "slug": "0-south-brook-drive-stamford-connecticut-170552650",
+     "addr": "0 South Brook Drive",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 4.0,
+     "sqft": 4100.0,
+     "price": 1758371.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-11",
+     "ppsf": 429,
+     "mi": 0.53
+    }
+   ],
+   "summary": {
+    "n": 3,
+    "low": 1758371.0,
+    "high": 2600000.0,
+    "median": 2410000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

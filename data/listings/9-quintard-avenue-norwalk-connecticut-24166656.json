@@ -106,5 +106,45 @@
    "n": "Bus stop",
    "mi": 1.42
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "25-lincoln-avenue-norwalk-connecticut-24149728",
+     "addr": "25 Lincoln Avenue",
+     "unit": "",
+     "beds": 6.0,
+     "baths": 3.0,
+     "sqft": 3921.0,
+     "price": 900000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-28",
+     "ppsf": 230,
+     "mi": 0.09
+    },
+    {
+     "slug": "11-windsor-place-norwalk-connecticut-24188700",
+     "addr": "11 Windsor Place",
+     "unit": "",
+     "beds": 6.0,
+     "baths": 4.0,
+     "sqft": 2873.0,
+     "price": 800000.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 278,
+     "mi": 0.72
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 900000.0,
+    "high": 900000.0,
+    "median": 900000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

@@ -111,5 +111,144 @@
    "mi": 0.18,
    "walk": 4
   }
+ },
+ "comps": {
+  "building": {
+   "rows": [
+    {
+     "slug": "51-schuyler-avenue-stamford-connecticut-24180814",
+     "addr": "51 Schuyler Avenue Unit 5A",
+     "unit": "Unit 5A",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 831.0,
+     "price": 307000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 369
+    },
+    {
+     "slug": "51-schuyler-avenue-stamford-connecticut-24184113",
+     "addr": "51 Schuyler Avenue Unit 6F",
+     "unit": "Unit 6F",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 831.0,
+     "price": 299000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 360
+    },
+    {
+     "slug": "51-schuyler-avenue-stamford-connecticut-24188992",
+     "addr": "51 Schuyler Avenue Unit 3B",
+     "unit": "Unit 3B",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 894.0,
+     "price": 299900.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 335
+    }
+   ],
+   "summary": null,
+   "label": "51 Schuyler Avenue"
+  },
+  "area": {
+   "rows": [
+    {
+     "slug": "1-broad-street-stamford-connecticut-24171671",
+     "addr": "1 Broad Street Unit 17B",
+     "unit": "Unit 17B",
+     "beds": 1.0,
+     "baths": 2.0,
+     "sqft": 1112.0,
+     "price": 545000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-05",
+     "ppsf": 490,
+     "mi": 0.22
+    },
+    {
+     "slug": "700-summer-street-stamford-connecticut-24148008",
+     "addr": "700 Summer Street Unit 6G",
+     "unit": "Unit 6G",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 478.0,
+     "price": 245000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-10",
+     "ppsf": 513,
+     "mi": 0.41
+    },
+    {
+     "slug": "700-summer-street-stamford-connecticut-24174543",
+     "addr": "700 Summer Street Unit 7G",
+     "unit": "Unit 7G",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 478.0,
+     "price": 235000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-24",
+     "ppsf": 492,
+     "mi": 0.41
+    },
+    {
+     "slug": "641-summer-street-stamford-connecticut-24174372",
+     "addr": "641 Summer Street Unit 6",
+     "unit": "Unit 6",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 661.0,
+     "price": 260000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-23",
+     "ppsf": 393,
+     "mi": 0.43
+    },
+    {
+     "slug": "1611-washington-boulevard-stamford-connecticut-24147524",
+     "addr": "1611 Washington Boulevard Unit PH A",
+     "unit": "Unit PH A",
+     "beds": 1.0,
+     "baths": 2.0,
+     "sqft": 1080.0,
+     "price": 495000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-23",
+     "ppsf": 458,
+     "mi": 0.49
+    },
+    {
+     "slug": "1611-washington-boulevard-stamford-connecticut-24162850",
+     "addr": "1611 Washington Boulevard Unit 402",
+     "unit": "Unit 402",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 760.0,
+     "price": 340000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-15",
+     "ppsf": 447,
+     "mi": 0.49
+    }
+   ],
+   "summary": {
+    "n": 6,
+    "low": 235000.0,
+    "high": 545000.0,
+    "median": 300000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

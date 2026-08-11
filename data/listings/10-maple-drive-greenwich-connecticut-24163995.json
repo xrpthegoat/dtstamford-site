@@ -112,5 +112,71 @@
    "mi": 0.25,
    "walk": 5
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "33-halsey-drive-greenwich-connecticut-24112915",
+     "addr": "33 Halsey Drive",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1481.0,
+     "price": 1410000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-01",
+     "ppsf": 952,
+     "mi": 0.46
+    },
+    {
+     "slug": "33-center-drive-greenwich-connecticut-24189792",
+     "addr": "33 Center Drive",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1312.0,
+     "price": 1095000.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 835,
+     "mi": 0.2
+    },
+    {
+     "slug": "4-hassake-road-greenwich-connecticut-24195428",
+     "addr": "4 Hassake Road",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1646.0,
+     "price": 1495000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 908,
+     "mi": 0.37
+    },
+    {
+     "slug": "86-sound-beach-ave-extension-greenwich-connecticut-24181278",
+     "addr": "86 Sound Beach Ave Extension",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 1668.0,
+     "price": 1340000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 803,
+     "mi": 0.69
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 1410000.0,
+    "high": 1410000.0,
+    "median": 1410000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

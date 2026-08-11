@@ -127,5 +127,72 @@
    "mi": 4.21,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "52-meadow-view-drive-westport-connecticut-24175276",
+     "addr": "52 Meadow View Drive",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 6.0,
+     "sqft": 3970.0,
+     "price": 2425000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-15",
+     "ppsf": 611,
+     "mi": 0.25
+    },
+    {
+     "slug": "13-rockyfield-road-westport-connecticut-24175855",
+     "addr": "13 Rockyfield Road",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 6.0,
+     "sqft": 7409.0,
+     "price": 3925000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-08",
+     "ppsf": 530,
+     "mi": 0.5
+    },
+    {
+     "slug": "4-charcoal-lane-westport-connecticut-24169922",
+     "addr": "4 Charcoal Lane",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 5.0,
+     "sqft": 6015.0,
+     "price": 3450000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 574,
+     "mi": 0.45
+    },
+    {
+     "slug": "56-charcoal-hill-road-westport-connecticut-24161256",
+     "addr": "56 Charcoal Hill Road",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 3.0,
+     "sqft": 3072.0,
+     "price": 2790000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 908,
+     "mi": 0.48
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 2425000.0,
+    "high": 3925000.0,
+    "median": 3175000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

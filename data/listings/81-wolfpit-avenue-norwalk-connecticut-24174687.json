@@ -115,5 +115,104 @@
    "n": "Bus stop",
    "mi": 1.04
   }
+ },
+ "comps": {
+  "building": {
+   "rows": [
+    {
+     "slug": "81-wolfpit-avenue-norwalk-connecticut-24192887",
+     "addr": "81 Wolfpit Avenue Unit A9",
+     "unit": "Unit A9",
+     "beds": 2.0,
+     "baths": 3.0,
+     "sqft": 1268.0,
+     "price": 525000.0,
+     "kind": "asking",
+     "status": "Under Contract - Continue to Show",
+     "ppsf": 414
+    }
+   ],
+   "summary": null,
+   "label": "81 Wolfpit Avenue"
+  },
+  "area": {
+   "rows": [
+    {
+     "slug": "60-wolfpit-avenue-norwalk-connecticut-24172638",
+     "addr": "60 Wolfpit Avenue Unit 1B",
+     "unit": "Unit 1B",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1056.0,
+     "price": 355000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-04",
+     "ppsf": 336,
+     "mi": 0.14
+    },
+    {
+     "slug": "12-willard-road-norwalk-connecticut-24155785",
+     "addr": "12 Willard Road Unit 8",
+     "unit": "Unit 8",
+     "beds": 2.0,
+     "baths": 3.0,
+     "sqft": 1710.0,
+     "price": 625000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-27",
+     "ppsf": 365,
+     "mi": 0.17
+    },
+    {
+     "slug": "80-county-street-norwalk-connecticut-24183383",
+     "addr": "80 County Street Unit 12D",
+     "unit": "Unit 12D",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1058.0,
+     "price": 390000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-23",
+     "ppsf": 369,
+     "mi": 0.39
+    },
+    {
+     "slug": "100-wolfpit-avenue-norwalk-connecticut-24183512",
+     "addr": "100 Wolfpit Avenue Unit 14",
+     "unit": "Unit 14",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1440.0,
+     "price": 499000.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 347,
+     "mi": 0.09
+    },
+    {
+     "slug": "80-county-street-norwalk-connecticut-24196939",
+     "addr": "80 County Street Unit 7B",
+     "unit": "Unit 7B",
+     "beds": 2.0,
+     "baths": 1.0,
+     "sqft": 990.0,
+     "price": 385000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 389,
+     "mi": 0.39
+    }
+   ],
+   "summary": {
+    "n": 3,
+    "low": 355000.0,
+    "high": 625000.0,
+    "median": 390000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

@@ -99,5 +99,100 @@
    "mi": 2.0,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "19-whitney-street-westport-connecticut-24179563",
+     "addr": "19 Whitney Street",
+     "unit": "",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1400.0,
+     "price": 3800.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-17",
+     "ppsf": 3,
+     "mi": 0.17
+    },
+    {
+     "slug": "7-colony-road-westport-connecticut-24182426",
+     "addr": "7 Colony Road Unit A",
+     "unit": "Unit A",
+     "beds": 2.0,
+     "baths": 1.0,
+     "sqft": 1412.0,
+     "price": 4700.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-08-05",
+     "ppsf": 3,
+     "mi": 0.53
+    },
+    {
+     "slug": "18a-hillandale-road-westport-connecticut-24161167",
+     "addr": "18a Hillandale Road",
+     "unit": "",
+     "beds": 2.0,
+     "baths": 1.0,
+     "sqft": 1500.0,
+     "price": 3900.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-01",
+     "ppsf": 3,
+     "mi": 0.59
+    },
+    {
+     "slug": "5-church-lane-westport-connecticut-24182260",
+     "addr": "5 Church Lane Unit 310",
+     "unit": "Unit 310",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1220.0,
+     "price": 6995.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-28",
+     "ppsf": 6,
+     "mi": 0.74
+    },
+    {
+     "slug": "14-cross-highway-westport-connecticut-24173615",
+     "addr": "14 Cross Highway Unit D",
+     "unit": "Unit D",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1165.0,
+     "price": 4750.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 4,
+     "mi": 0.15
+    },
+    {
+     "slug": "87-myrtle-avenue-westport-connecticut-24183144",
+     "addr": "87 Myrtle Avenue",
+     "unit": "",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1604.0,
+     "price": 16500.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 10,
+     "mi": 0.72
+    }
+   ],
+   "summary": {
+    "n": 4,
+    "low": 3800.0,
+    "high": 6995.0,
+    "median": 4300
+   },
+   "radiusMi": 0.75
+  }
  }
 }

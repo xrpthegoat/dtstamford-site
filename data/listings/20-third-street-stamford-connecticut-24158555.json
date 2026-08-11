@@ -108,5 +108,126 @@
    "mi": 0.06,
    "walk": 1
   }
+ },
+ "comps": {
+  "building": {
+   "rows": [
+    {
+     "slug": "20-third-street-stamford-connecticut-24175898",
+     "addr": "20 Third Street Unit 19",
+     "unit": "Unit 19",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 1610.0,
+     "price": 4800.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-27",
+     "ppsf": 3
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 4800.0,
+    "high": 4800.0,
+    "median": 4800
+   },
+   "label": "20 Third Street"
+  },
+  "area": {
+   "rows": [
+    {
+     "slug": "29-dolsen-place-stamford-connecticut-24154904",
+     "addr": "29 Dolsen Place Unit 2",
+     "unit": "Unit 2",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1400.0,
+     "price": 3600.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-21",
+     "ppsf": 3,
+     "mi": 0.35
+    },
+    {
+     "slug": "70-strawberry-hill-avenue-stamford-connecticut-24159747",
+     "addr": "70 Strawberry Hill Avenue Apt 1-2D",
+     "unit": "Apt 1-2D",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1512.0,
+     "price": 3275.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-02",
+     "ppsf": 2,
+     "mi": 0.44
+    },
+    {
+     "slug": "70-strawberry-hill-avenue-stamford-connecticut-24159542",
+     "addr": "70 Strawberry Hill Avenue Apt 2-2E",
+     "unit": "Apt 2-2E",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1468.0,
+     "price": 3700.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-30",
+     "ppsf": 3,
+     "mi": 0.47
+    },
+    {
+     "slug": "2700-bedford-street-stamford-connecticut-24169832",
+     "addr": "2700 Bedford Street Unit O",
+     "unit": "Unit O",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 1410.0,
+     "price": 4000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-28",
+     "ppsf": 3,
+     "mi": 0.48
+    },
+    {
+     "slug": "2-washington-court-stamford-connecticut-24150917",
+     "addr": "2 Washington Court Unit 12",
+     "unit": "Unit 12",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1064.0,
+     "price": 3190.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-01",
+     "ppsf": 3,
+     "mi": 0.49
+    },
+    {
+     "slug": "237-strawberry-hill-avenue-stamford-connecticut-24180013",
+     "addr": "237 Strawberry Hill Avenue Unit 42",
+     "unit": "Unit 42",
+     "beds": 3.0,
+     "baths": 4.0,
+     "sqft": 2870.0,
+     "price": 4400.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-10",
+     "ppsf": 2,
+     "mi": 0.57
+    }
+   ],
+   "summary": {
+    "n": 6,
+    "low": 3190.0,
+    "high": 4400.0,
+    "median": 3650
+   },
+   "radiusMi": 0.75
+  }
  }
 }

@@ -129,5 +129,45 @@
    "mi": 2.9,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "18-forest-lane-wilton-connecticut-24170668",
+     "addr": "18 Forest Lane",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 4.0,
+     "sqft": 4046.0,
+     "price": 1770000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-31",
+     "ppsf": 437,
+     "mi": 0.6
+    },
+    {
+     "slug": "91-lantern-ridge-road-new-canaan-connecticut-24175397",
+     "addr": "91 Lantern Ridge Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 5.0,
+     "sqft": 4550.0,
+     "price": 1895000.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 416,
+     "mi": 0.18
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 1770000.0,
+    "high": 1770000.0,
+    "median": 1770000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

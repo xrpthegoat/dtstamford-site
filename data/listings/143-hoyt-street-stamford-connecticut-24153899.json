@@ -113,5 +113,138 @@
    "mi": 0.16,
    "walk": 3
   }
+ },
+ "comps": {
+  "building": {
+   "rows": [
+    {
+     "slug": "143-hoyt-street-stamford-connecticut-24148864",
+     "addr": "143 Hoyt Street Apt 5K",
+     "unit": "Apt 5K",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 1315.0,
+     "price": 480000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-04",
+     "ppsf": 365
+    },
+    {
+     "slug": "143-hoyt-street-stamford-connecticut-24181209",
+     "addr": "143 Hoyt Street Unit 4K",
+     "unit": "Unit 4K",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 1315.0,
+     "price": 449900.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 342
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 480000.0,
+    "high": 480000.0,
+    "median": 480000
+   },
+   "label": "143 Hoyt Street"
+  },
+  "area": {
+   "rows": [
+    {
+     "slug": "125-prospect-street-stamford-connecticut-24179257",
+     "addr": "125 Prospect Street Unit 3D",
+     "unit": "Unit 3D",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 520.0,
+     "price": 190000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-30",
+     "ppsf": 365,
+     "mi": 0.07
+    },
+    {
+     "slug": "44-strawberry-hill-avenue-stamford-connecticut-24158578",
+     "addr": "44 Strawberry Hill Avenue Unit 9M",
+     "unit": "Unit 9M",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 875.0,
+     "price": 300000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-01",
+     "ppsf": 343,
+     "mi": 0.09
+    },
+    {
+     "slug": "140-grove-street-stamford-connecticut-24182888",
+     "addr": "140 Grove Street Unit 2H",
+     "unit": "Unit 2H",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 597.0,
+     "price": 250000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-24",
+     "ppsf": 419,
+     "mi": 0.11
+    },
+    {
+     "slug": "140-grove-street-stamford-connecticut-24186081",
+     "addr": "140 Grove Street Unit 4G",
+     "unit": "Unit 4G",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 599.0,
+     "price": 212500.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-24",
+     "ppsf": 355,
+     "mi": 0.12
+    },
+    {
+     "slug": "71-strawberry-hill-avenue-stamford-connecticut-24151829",
+     "addr": "71 Strawberry Hill Avenue Apt 515",
+     "unit": "Apt 515",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 725.0,
+     "price": 215000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-26",
+     "ppsf": 297,
+     "mi": 0.22
+    },
+    {
+     "slug": "91-strawberry-hill-avenue-stamford-connecticut-24159378",
+     "addr": "91 Strawberry Hill Avenue Apt 935",
+     "unit": "Apt 935",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 725.0,
+     "price": 259000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-05",
+     "ppsf": 357,
+     "mi": 0.27
+    }
+   ],
+   "summary": {
+    "n": 6,
+    "low": 190000.0,
+    "high": 300000.0,
+    "median": 232500
+   },
+   "radiusMi": 0.75
+  }
  }
 }

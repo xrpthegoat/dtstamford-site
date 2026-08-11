@@ -106,5 +106,60 @@
    "mi": 2.41,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "258-dans-highway-new-canaan-connecticut-24161499",
+     "addr": "258 Dans Highway",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 4.0,
+     "sqft": 3598.0,
+     "price": 2800000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-16",
+     "ppsf": 778,
+     "mi": 0.43
+    },
+    {
+     "slug": "121-thornwood-road-stamford-connecticut-24180810",
+     "addr": "121 Thornwood Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 2948.0,
+     "price": 1480000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-31",
+     "ppsf": 502,
+     "mi": 0.68
+    },
+    {
+     "slug": "54-saint-george-lane-new-canaan-connecticut-24168955",
+     "addr": "54 Saint George Lane",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 5.0,
+     "sqft": 5244.0,
+     "price": 3053000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-25",
+     "ppsf": 582,
+     "mi": 0.7
+    }
+   ],
+   "summary": {
+    "n": 3,
+    "low": 1480000.0,
+    "high": 3053000.0,
+    "median": 2800000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

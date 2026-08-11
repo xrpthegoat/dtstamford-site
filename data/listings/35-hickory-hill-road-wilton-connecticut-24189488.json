@@ -129,5 +129,72 @@
    "mi": 2.47,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "31-longmeadows-road-wilton-connecticut-24160141",
+     "addr": "31 Longmeadows Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 2172.0,
+     "price": 1030000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-15",
+     "ppsf": 474,
+     "mi": 0.5
+    },
+    {
+     "slug": "117-whipstick-road-wilton-connecticut-24166495",
+     "addr": "117 Whipstick Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 2677.0,
+     "price": 1505000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-11",
+     "ppsf": 562,
+     "mi": 0.74
+    },
+    {
+     "slug": "wilton-connecticut-24196391",
+     "addr": null,
+     "unit": "",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 2060.0,
+     "price": 1050000.0,
+     "kind": "asking",
+     "status": "Under Contract - Continue to Show",
+     "ppsf": 510,
+     "mi": 0.65
+    },
+    {
+     "slug": "324-nod-hill-road-wilton-connecticut-24189849",
+     "addr": "324 Nod Hill Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 7.0,
+     "sqft": 5846.0,
+     "price": 1995000.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 341,
+     "mi": 0.66
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 1030000.0,
+    "high": 1505000.0,
+    "median": 1267500
+   },
+   "radiusMi": 0.75
+  }
  }
 }

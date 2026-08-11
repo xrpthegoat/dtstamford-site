@@ -109,5 +109,58 @@
    "n": "Bus stop",
    "mi": 1.18
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "64-ocean-drive-east-stamford-connecticut-24125614",
+     "addr": "64 Ocean Drive East",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 4.0,
+     "sqft": 3132.0,
+     "price": 2775000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-22",
+     "ppsf": 886,
+     "mi": 0.42
+    },
+    {
+     "slug": "52-chesterfield-road-stamford-connecticut-24187400",
+     "addr": "52 Chesterfield Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 4.0,
+     "sqft": 4164.0,
+     "price": 2500000.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 600,
+     "mi": 0.31
+    },
+    {
+     "slug": "22-ocean-drive-north-stamford-connecticut-24178294",
+     "addr": "22 Ocean Drive North",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 5.0,
+     "sqft": 3866.0,
+     "price": 3100000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 802,
+     "mi": 0.33
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 2775000.0,
+    "high": 2775000.0,
+    "median": 2775000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

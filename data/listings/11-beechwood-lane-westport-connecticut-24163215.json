@@ -105,5 +105,86 @@
    "mi": 1.78,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "59-crescent-road-westport-connecticut-24162571",
+     "addr": "59 Crescent Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 4.0,
+     "sqft": 4508.0,
+     "price": 10000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-22",
+     "ppsf": 2,
+     "mi": 0.26
+    },
+    {
+     "slug": "16-sue-terrace-westport-connecticut-24182475",
+     "addr": "16 Sue Terrace",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 3355.0,
+     "price": 13500.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-30",
+     "ppsf": 4,
+     "mi": 0.45
+    },
+    {
+     "slug": "14-winslow-lane-westport-connecticut-24156558",
+     "addr": "14 Winslow Lane",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 5.0,
+     "sqft": 3600.0,
+     "price": 14000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-01",
+     "ppsf": 4,
+     "mi": 0.59
+    },
+    {
+     "slug": "5-turtleback-lane-westport-connecticut-24195243",
+     "addr": "5 Turtleback Lane",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 2408.0,
+     "price": 8200.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 3,
+     "mi": 0.64
+    },
+    {
+     "slug": "12-signal-lane-westport-connecticut-24156707",
+     "addr": "12 Signal Lane",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 3157.0,
+     "price": 8400.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 3,
+     "mi": 0.73
+    }
+   ],
+   "summary": {
+    "n": 3,
+    "low": 10000.0,
+    "high": 14000.0,
+    "median": 13500
+   },
+   "radiusMi": 0.75
+  }
  }
 }

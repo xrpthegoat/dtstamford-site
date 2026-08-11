@@ -104,5 +104,60 @@
    "n": "Merritt 7 Railroad Station",
    "mi": 1.21
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "108-comstock-hill-avenue-norwalk-connecticut-24172668",
+     "addr": "108 Comstock Hill Avenue",
+     "unit": "",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 900.0,
+     "price": 2475.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-14",
+     "ppsf": 3,
+     "mi": 0.05
+    },
+    {
+     "slug": "1-appletree-lane-norwalk-connecticut-24182542",
+     "addr": "1 Appletree Lane Unit 1",
+     "unit": "Unit 1",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 450.0,
+     "price": 1700.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-06",
+     "ppsf": 4,
+     "mi": 0.4
+    },
+    {
+     "slug": "128-perry-avenue-norwalk-connecticut-24167577",
+     "addr": "128 Perry Avenue Unit Cottage",
+     "unit": "Unit Cottage",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 1464.0,
+     "price": 2900.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-05",
+     "ppsf": 2,
+     "mi": 0.72
+    }
+   ],
+   "summary": {
+    "n": 3,
+    "low": 1700.0,
+    "high": 2900.0,
+    "median": 2475
+   },
+   "radiusMi": 0.75
+  }
  }
 }

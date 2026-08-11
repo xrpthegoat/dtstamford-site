@@ -121,5 +121,71 @@
    "mi": 0.79,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "351-greenwich-avenue-greenwich-connecticut-24161182",
+     "addr": "351 Greenwich Avenue Unit 3",
+     "unit": "Unit 3",
+     "beds": 3.0,
+     "baths": 1.0,
+     "sqft": 988.0,
+     "price": 2900.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-26",
+     "ppsf": 3,
+     "mi": 0.63
+    },
+    {
+     "slug": "347-greenwich-avenue-greenwich-connecticut-24192350",
+     "addr": "347 Greenwich Avenue",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 1.0,
+     "sqft": 3572.0,
+     "price": 3300.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 1,
+     "mi": 0.62
+    },
+    {
+     "slug": "351-greenwich-avenue-greenwich-connecticut-24183367",
+     "addr": "351 Greenwich Avenue Unit 3",
+     "unit": "Unit 3",
+     "beds": 3.0,
+     "baths": 1.0,
+     "sqft": 988.0,
+     "price": 3600.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 4,
+     "mi": 0.63
+    },
+    {
+     "slug": "288-davis-avenue-greenwich-connecticut-24190768",
+     "addr": "288 Davis Avenue Unit 1",
+     "unit": "Unit 1",
+     "beds": 3.0,
+     "baths": 4.0,
+     "sqft": 3571.0,
+     "price": 9500.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 3,
+     "mi": 0.74
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 2900.0,
+    "high": 2900.0,
+    "median": 2900
+   },
+   "radiusMi": 0.75
+  }
  }
 }

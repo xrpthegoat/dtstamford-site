@@ -109,5 +109,73 @@
    "mi": 0.12,
    "walk": 2
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "72-west-avenue-darien-connecticut-24176214",
+     "addr": "72 West Avenue Unit B",
+     "unit": "Unit B",
+     "beds": 2.0,
+     "baths": 1.0,
+     "sqft": 960.0,
+     "price": 3200.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-14",
+     "ppsf": 3,
+     "mi": 0.09
+    },
+    {
+     "slug": "885-boston-post-road-darien-connecticut-24183384",
+     "addr": "885 Boston Post Road Unit 2A",
+     "unit": "Unit 2A",
+     "beds": 2.0,
+     "baths": 1.0,
+     "sqft": 1000.0,
+     "price": 3100.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-29",
+     "ppsf": 3,
+     "mi": 0.32
+    },
+    {
+     "slug": "19-a-robin-hood-lane-darien-connecticut-24156503",
+     "addr": "19 A Robin Hood Lane",
+     "unit": "",
+     "beds": 2.0,
+     "baths": 1.0,
+     "sqft": 1000.0,
+     "price": 4500.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-01",
+     "ppsf": 4,
+     "mi": 0.38
+    },
+    {
+     "slug": "77-leroy-avenue-darien-connecticut-24195795",
+     "addr": "77 Leroy Avenue Unit 204",
+     "unit": "Unit 204",
+     "beds": 2.0,
+     "baths": 3.0,
+     "sqft": 1379.0,
+     "price": 5850.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 4,
+     "mi": 0.09
+    }
+   ],
+   "summary": {
+    "n": 3,
+    "low": 3100.0,
+    "high": 4500.0,
+    "median": 3200
+   },
+   "radiusMi": 0.75
+  }
  }
 }

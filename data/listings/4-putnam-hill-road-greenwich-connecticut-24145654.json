@@ -104,5 +104,100 @@
    "mi": 0.98,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "148-putnam-park-greenwich-connecticut-24164334",
+     "addr": "148 Putnam Park",
+     "unit": "",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1218.0,
+     "price": 800000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-23",
+     "ppsf": 657,
+     "mi": 0.22
+    },
+    {
+     "slug": "186-putnam-park-greenwich-connecticut-24145747",
+     "addr": "186 Putnam Park Unit 186",
+     "unit": "Unit 186",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1200.0,
+     "price": 905000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-20",
+     "ppsf": 754,
+     "mi": 0.24
+    },
+    {
+     "slug": "11-lafayette-court-greenwich-connecticut-24150479",
+     "addr": "11 Lafayette Court Apt 5B",
+     "unit": "Apt 5B",
+     "beds": 2.0,
+     "baths": 3.0,
+     "sqft": 1514.0,
+     "price": 1515000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-06",
+     "ppsf": 1001,
+     "mi": 0.63
+    },
+    {
+     "slug": "11-lafayette-court-greenwich-connecticut-24169594",
+     "addr": "11 Lafayette Court Unit 1C",
+     "unit": "Unit 1C",
+     "beds": 2.0,
+     "baths": 3.0,
+     "sqft": 1640.0,
+     "price": 1700000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-22",
+     "ppsf": 1037,
+     "mi": 0.63
+    },
+    {
+     "slug": "2-putnam-hill-greenwich-connecticut-24165268",
+     "addr": "2 Putnam Hill Unit 1A",
+     "unit": "Unit 1A",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 985.0,
+     "price": 695000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 706,
+     "mi": 0.08
+    },
+    {
+     "slug": "1-putnam-hill-greenwich-connecticut-24179467",
+     "addr": "1 Putnam Hill",
+     "unit": "",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1286.0,
+     "price": 780000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 607,
+     "mi": 0.08
+    }
+   ],
+   "summary": {
+    "n": 4,
+    "low": 800000.0,
+    "high": 1700000.0,
+    "median": 1210000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

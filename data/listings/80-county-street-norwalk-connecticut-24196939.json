@@ -133,5 +133,125 @@
    "n": "Bus stop",
    "mi": 0.79
   }
+ },
+ "comps": {
+  "building": {
+   "rows": [
+    {
+     "slug": "80-county-street-norwalk-connecticut-24183383",
+     "addr": "80 County Street Unit 12D",
+     "unit": "Unit 12D",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1058.0,
+     "price": 390000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-23",
+     "ppsf": 369
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 390000.0,
+    "high": 390000.0,
+    "median": 390000
+   },
+   "label": "80 County Street"
+  },
+  "area": {
+   "rows": [
+    {
+     "slug": "12-willard-road-norwalk-connecticut-24155785",
+     "addr": "12 Willard Road Unit 8",
+     "unit": "Unit 8",
+     "beds": 2.0,
+     "baths": 3.0,
+     "sqft": 1710.0,
+     "price": 625000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-27",
+     "ppsf": 365,
+     "mi": 0.29
+    },
+    {
+     "slug": "60-wolfpit-avenue-norwalk-connecticut-24172638",
+     "addr": "60 Wolfpit Avenue Unit 1B",
+     "unit": "Unit 1B",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1056.0,
+     "price": 355000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-04",
+     "ppsf": 336,
+     "mi": 0.31
+    },
+    {
+     "slug": "81-wolfpit-avenue-norwalk-connecticut-24174687",
+     "addr": "81 Wolfpit Avenue Unit B3",
+     "unit": "Unit B3",
+     "beds": 2.0,
+     "baths": 3.0,
+     "sqft": 1218.0,
+     "price": 530000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-15",
+     "ppsf": 435,
+     "mi": 0.39
+    },
+    {
+     "slug": "201-bradley-lane-westport-connecticut-24168481",
+     "addr": "201 Bradley Lane Unit 201",
+     "unit": "Unit 201",
+     "beds": 2.0,
+     "baths": 3.0,
+     "sqft": 1756.0,
+     "price": 1015000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-21",
+     "ppsf": 578,
+     "mi": 0.69
+    },
+    {
+     "slug": "503-bradley-lane-westport-connecticut-24157132",
+     "addr": "503 Bradley Lane Unit 503",
+     "unit": "Unit 503",
+     "beds": 2.0,
+     "baths": 3.0,
+     "sqft": 1756.0,
+     "price": 999000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-01",
+     "ppsf": 569,
+     "mi": 0.71
+    },
+    {
+     "slug": "100-wolfpit-avenue-norwalk-connecticut-24183512",
+     "addr": "100 Wolfpit Avenue Unit 14",
+     "unit": "Unit 14",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1440.0,
+     "price": 499000.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 347,
+     "mi": 0.34
+    }
+   ],
+   "summary": {
+    "n": 5,
+    "low": 355000.0,
+    "high": 1015000.0,
+    "median": 625000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

@@ -130,5 +130,58 @@
    "mi": 0.33,
    "walk": 7
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "16-mountain-road-wilton-connecticut-24167605",
+     "addr": "16 Mountain Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 2325.0,
+     "price": 905000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-24",
+     "ppsf": 389,
+     "mi": 0.39
+    },
+    {
+     "slug": "206-mountain-road-wilton-connecticut-24195335",
+     "addr": "206 Mountain Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 4.0,
+     "sqft": 3758.0,
+     "price": 1799000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 479,
+     "mi": 0.63
+    },
+    {
+     "slug": "8-indian-rock-place-wilton-connecticut-24195404",
+     "addr": "8 Indian Rock Place",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 4.0,
+     "sqft": 4502.0,
+     "price": 1575000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 350,
+     "mi": 0.63
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 905000.0,
+    "high": 905000.0,
+    "median": 905000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

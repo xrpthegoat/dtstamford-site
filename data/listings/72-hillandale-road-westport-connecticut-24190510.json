@@ -122,5 +122,58 @@
    "mi": 2.42,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "59-crescent-road-westport-connecticut-24162571",
+     "addr": "59 Crescent Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 4.0,
+     "sqft": 4508.0,
+     "price": 10000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-22",
+     "ppsf": 2,
+     "mi": 0.66
+    },
+    {
+     "slug": "1-brightfield-lane-westport-connecticut-24193991",
+     "addr": "1 Brightfield Lane",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 3321.0,
+     "price": 9800.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 3,
+     "mi": 0.22
+    },
+    {
+     "slug": "12-signal-lane-westport-connecticut-24156707",
+     "addr": "12 Signal Lane",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 3157.0,
+     "price": 8400.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 3,
+     "mi": 0.72
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 10000.0,
+    "high": 10000.0,
+    "median": 10000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

@@ -105,5 +105,46 @@
    "mi": 1.93,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "719-valley-road-new-canaan-connecticut-24152198",
+     "addr": "719 Valley Road",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 5.0,
+     "sqft": 3785.0,
+     "price": 2150000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-19",
+     "ppsf": 568,
+     "mi": 0.46
+    },
+    {
+     "slug": "323-smith-ridge-road-new-canaan-connecticut-24166880",
+     "addr": "323 Smith Ridge Road",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 7.0,
+     "sqft": 6715.0,
+     "price": 3600000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-03",
+     "ppsf": 536,
+     "mi": 0.55
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 2150000.0,
+    "high": 3600000.0,
+    "median": 2875000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

@@ -133,5 +133,69 @@
    "n": "Edgerton St @ Heights Rd",
    "mi": 1.33
   }
+ },
+ "comps": {
+  "building": {
+   "rows": [
+    {
+     "slug": "7-whaling-road-darien-connecticut-24167001",
+     "addr": "7 Whaling Road",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 6.0,
+     "sqft": 6748.0,
+     "price": 45000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-08",
+     "ppsf": 7
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 45000.0,
+    "high": 45000.0,
+    "median": 45000
+   },
+   "label": "7 Whaling Road"
+  },
+  "area": {
+   "rows": [
+    {
+     "slug": "31-harbor-road-darien-connecticut-24178361",
+     "addr": "31 Harbor Road",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 6.0,
+     "sqft": 4317.0,
+     "price": 17000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-17",
+     "ppsf": 4,
+     "mi": 0.4
+    },
+    {
+     "slug": "9-tory-hole-road-darien-connecticut-24176123",
+     "addr": "9 Tory Hole Road",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 4.0,
+     "sqft": 3553.0,
+     "price": 20000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 6,
+     "mi": 0.58
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 17000.0,
+    "high": 17000.0,
+    "median": 17000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

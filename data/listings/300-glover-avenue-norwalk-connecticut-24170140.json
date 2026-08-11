@@ -129,5 +129,136 @@
    "mi": 0.11,
    "walk": 2
   }
+ },
+ "comps": {
+  "building": {
+   "rows": [
+    {
+     "slug": "300-glover-avenue-norwalk-connecticut-24170142",
+     "addr": "300 Glover Avenue Unit 169",
+     "unit": "Unit 169",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 740.0,
+     "price": 2555.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-16",
+     "ppsf": 3
+    },
+    {
+     "slug": "300-glover-avenue-norwalk-connecticut-24170143",
+     "addr": "300 Glover Avenue Unit 539",
+     "unit": "Unit 539",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 833.0,
+     "price": 2520.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-16",
+     "ppsf": 3
+    },
+    {
+     "slug": "300-glover-avenue-norwalk-connecticut-24139926",
+     "addr": "300 Glover Avenue Unit B153",
+     "unit": "Unit B153",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 802.0,
+     "price": 2295.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-30",
+     "ppsf": 3
+    },
+    {
+     "slug": "300-glover-avenue-norwalk-connecticut-24138767",
+     "addr": "300 Glover Avenue Unit B411",
+     "unit": "Unit B411",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 751.0,
+     "price": 2315.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-30",
+     "ppsf": 3
+    }
+   ],
+   "summary": {
+    "n": 4,
+    "low": 2295.0,
+    "high": 2555.0,
+    "median": 2418
+   },
+   "label": "300 Glover Avenue"
+  },
+  "area": {
+   "rows": [
+    {
+     "slug": "8-oakwood-avenue-norwalk-connecticut-24180263",
+     "addr": "8 Oakwood Avenue Unit C1",
+     "unit": "Unit C1",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 570.0,
+     "price": 2295.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-11",
+     "ppsf": 4,
+     "mi": 0.44
+    },
+    {
+     "slug": "44-glenrock-norwalk-connecticut-24158045",
+     "addr": "44 Glenrock Unit 44",
+     "unit": "Unit 44",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 735.0,
+     "price": 2400.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-15",
+     "ppsf": 3,
+     "mi": 0.47
+    },
+    {
+     "slug": "601-foxboro-drive-norwalk-connecticut-24184618",
+     "addr": "601 Foxboro Drive Unit 601",
+     "unit": "Unit 601",
+     "beds": 1.0,
+     "baths": 2.0,
+     "sqft": 899.0,
+     "price": 2600.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-31",
+     "ppsf": 3,
+     "mi": 0.62
+    },
+    {
+     "slug": "8-oakwood-avenue-norwalk-connecticut-24193955",
+     "addr": "8 Oakwood Avenue Unit C5",
+     "unit": "Unit C5",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 514.0,
+     "price": 1870.0,
+     "kind": "asking",
+     "status": "Under Contract - Continue to Show",
+     "ppsf": 4,
+     "mi": 0.44
+    }
+   ],
+   "summary": {
+    "n": 3,
+    "low": 2295.0,
+    "high": 2600.0,
+    "median": 2400
+   },
+   "radiusMi": 0.75
+  }
  }
 }

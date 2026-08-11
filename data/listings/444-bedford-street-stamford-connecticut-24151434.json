@@ -107,5 +107,175 @@
    "mi": 0.08,
    "walk": 2
   }
+ },
+ "comps": {
+  "building": {
+   "rows": [
+    {
+     "slug": "444-bedford-street-stamford-connecticut-24165081",
+     "addr": "444 Bedford Street Unit 6J",
+     "unit": "Unit 6J",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 610.0,
+     "price": 2100.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-08-01",
+     "ppsf": 3
+    },
+    {
+     "slug": "444-bedford-street-stamford-connecticut-24153572",
+     "addr": "444 Bedford Street Apt 3G",
+     "unit": "Apt 3G",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 770.0,
+     "price": 1925.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-14",
+     "ppsf": 2
+    },
+    {
+     "slug": "444-bedford-street-stamford-connecticut-24191632",
+     "addr": "444 Bedford Street Unit 5G",
+     "unit": "Unit 5G",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 770.0,
+     "price": 2250.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 3
+    },
+    {
+     "slug": "444-bedford-street-stamford-connecticut-24189793",
+     "addr": "444 Bedford Street Unit 5M",
+     "unit": "Unit 5M",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 610.0,
+     "price": 2150.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 4
+    },
+    {
+     "slug": "444-bedford-street-stamford-connecticut-24191589",
+     "addr": "444 Bedford Street Unit 9P",
+     "unit": "Unit 9P",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 770.0,
+     "price": 2275.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 3
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 1925.0,
+    "high": 2100.0,
+    "median": 2012
+   },
+   "label": "444 Bedford Street"
+  },
+  "area": {
+   "rows": [
+    {
+     "slug": "53-prospect-street-stamford-connecticut-24171260",
+     "addr": "53 Prospect Street Unit 112",
+     "unit": "Unit 112",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 400.0,
+     "price": 1800.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-05",
+     "ppsf": 4,
+     "mi": 0.1
+    },
+    {
+     "slug": "700-summer-street-stamford-connecticut-24158992",
+     "addr": "700 Summer Street Apt 4A",
+     "unit": "Apt 4A",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 872.0,
+     "price": 2300.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-01",
+     "ppsf": 3,
+     "mi": 0.12
+    },
+    {
+     "slug": "700-summer-street-stamford-connecticut-24180848",
+     "addr": "700 Summer Street Unit 2E",
+     "unit": "Unit 2E",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 601.0,
+     "price": 1900.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-14",
+     "ppsf": 3,
+     "mi": 0.12
+    },
+    {
+     "slug": "700-summer-street-stamford-connecticut-24194979",
+     "addr": "700 Summer Street Unit 7G",
+     "unit": "Unit 7G",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 478.0,
+     "price": 1900.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-08-06",
+     "ppsf": 4,
+     "mi": 0.12
+    },
+    {
+     "slug": "485-summer-street-stamford-connecticut-24176587",
+     "addr": "485 Summer Street Unit 307",
+     "unit": "Unit 307",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 619.0,
+     "price": 2200.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-02",
+     "ppsf": 4,
+     "mi": 0.14
+    },
+    {
+     "slug": "485-summer-street-stamford-connecticut-24186447",
+     "addr": "485 Summer Street Unit 310",
+     "unit": "Unit 310",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 550.0,
+     "price": 2200.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-06",
+     "ppsf": 4,
+     "mi": 0.14
+    }
+   ],
+   "summary": {
+    "n": 6,
+    "low": 1800.0,
+    "high": 2300.0,
+    "median": 2050
+   },
+   "radiusMi": 0.75
+  }
  }
 }

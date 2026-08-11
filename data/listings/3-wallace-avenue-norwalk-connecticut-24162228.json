@@ -109,5 +109,101 @@
    "n": "Bus stop",
    "mi": 1.56
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "10-hawkins-avenue-norwalk-connecticut-24171607",
+     "addr": "10 Hawkins Avenue Unit A",
+     "unit": "Unit A",
+     "beds": 3.0,
+     "baths": 1.0,
+     "sqft": 1000.0,
+     "price": 3900.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-26",
+     "ppsf": 4,
+     "mi": 0.17
+    },
+    {
+     "slug": "199-gregory-boulevard-norwalk-connecticut-24183471",
+     "addr": "199 Gregory Boulevard Unit C6",
+     "unit": "Unit C6",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 1652.0,
+     "price": 5200.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-15",
+     "ppsf": 3,
+     "mi": 0.28
+    },
+    {
+     "slug": "43-gregory-boulevard-norwalk-connecticut-24158542",
+     "addr": "43 Gregory Boulevard",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1279.0,
+     "price": 5000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-22",
+     "ppsf": 4,
+     "mi": 0.45
+    },
+    {
+     "slug": "285-east-avenue-norwalk-connecticut-24163035",
+     "addr": "285 East Avenue",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 1488.0,
+     "price": 5200.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-09",
+     "ppsf": 3,
+     "mi": 0.58
+    },
+    {
+     "slug": "100-shorefront-park-norwalk-connecticut-24163496",
+     "addr": "100 Shorefront Park",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1276.0,
+     "price": 5200.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-28",
+     "ppsf": 4,
+     "mi": 0.73
+    },
+    {
+     "slug": "7-hawkins-avenue-norwalk-connecticut-24178668",
+     "addr": "7 Hawkins Avenue Unit 2",
+     "unit": "Unit 2",
+     "beds": 3.0,
+     "baths": 4.0,
+     "sqft": 2185.0,
+     "price": 4550.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 2,
+     "mi": 0.16
+    }
+   ],
+   "summary": {
+    "n": 5,
+    "low": 3900.0,
+    "high": 5200.0,
+    "median": 5200
+   },
+   "radiusMi": 0.75
+  }
  }
 }

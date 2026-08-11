@@ -107,5 +107,46 @@
    "n": "Bedford St @ North St",
    "mi": 0.99
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "39-glenbrook-road-stamford-connecticut-24186937",
+     "addr": "39 Glenbrook Road Unit 2W",
+     "unit": "Unit 2W",
+     "beds": 0.0,
+     "baths": 1.0,
+     "sqft": 477.0,
+     "price": 1695.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-29",
+     "ppsf": 4,
+     "mi": 0.6
+    },
+    {
+     "slug": "15-rose-street-stamford-connecticut-24152504",
+     "addr": "15 Rose Street Unit (Garage)",
+     "unit": "Unit (Garage)",
+     "beds": 0.0,
+     "baths": 0.0,
+     "sqft": 600.0,
+     "price": 900.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-28",
+     "ppsf": 2,
+     "mi": 0.74
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 900.0,
+    "high": 1695.0,
+    "median": 1298
+   },
+   "radiusMi": 0.75
+  }
  }
 }

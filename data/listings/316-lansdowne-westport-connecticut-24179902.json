@@ -135,5 +135,60 @@
    "mi": 3.67,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "220-lansdowne-westport-connecticut-24137684",
+     "addr": "220 Lansdowne Unit 220",
+     "unit": "Unit 220",
+     "beds": 2.0,
+     "baths": 3.0,
+     "sqft": 2050.0,
+     "price": 1030000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-20",
+     "ppsf": 502,
+     "mi": 0.04
+    },
+    {
+     "slug": "310-lansdowne-road-westport-connecticut-24151654",
+     "addr": "310 Lansdowne Road Unit 310",
+     "unit": "Unit 310",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 2019.0,
+     "price": 1299000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-10",
+     "ppsf": 643,
+     "mi": 0.08
+    },
+    {
+     "slug": "203-lansdowne-westport-connecticut-24157312",
+     "addr": "203 Lansdowne Unit 203",
+     "unit": "Unit 203",
+     "beds": 2.0,
+     "baths": 3.0,
+     "sqft": 2050.0,
+     "price": 1175000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-18",
+     "ppsf": 573,
+     "mi": 0.09
+    }
+   ],
+   "summary": {
+    "n": 3,
+    "low": 1030000.0,
+    "high": 1299000.0,
+    "median": 1175000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

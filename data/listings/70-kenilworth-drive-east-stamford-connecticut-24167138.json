@@ -110,5 +110,58 @@
    "n": "Bus stop",
    "mi": 1.68
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "102-soundview-drive-stamford-connecticut-24163171",
+     "addr": "102 Soundview Drive",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 2146.0,
+     "price": 1850000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-15",
+     "ppsf": 862,
+     "mi": 0.13
+    },
+    {
+     "slug": "62-64-wallacks-drive-stamford-connecticut-24179654",
+     "addr": "62-64 Wallacks Drive",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 5.0,
+     "sqft": 4599.0,
+     "price": 2995000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 651,
+     "mi": 0.16
+    },
+    {
+     "slug": "128-soundview-court-stamford-connecticut-24190963",
+     "addr": "128 Soundview Court",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 2085.0,
+     "price": 1150000.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 552,
+     "mi": 0.29
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 1850000.0,
+    "high": 1850000.0,
+    "median": 1850000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

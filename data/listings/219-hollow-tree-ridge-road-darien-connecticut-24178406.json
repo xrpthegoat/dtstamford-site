@@ -131,5 +131,73 @@
    "mi": 0.4,
    "walk": 8
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "3-kelsey-street-darien-connecticut-24172487",
+     "addr": "3 Kelsey Street",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 5.0,
+     "sqft": 2385.0,
+     "price": 10000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-16",
+     "ppsf": 4,
+     "mi": 0.45
+    },
+    {
+     "slug": "24-herman-avenue-darien-connecticut-24189525",
+     "addr": "24 Herman Avenue",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 2.0,
+     "sqft": 2122.0,
+     "price": 7500.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-08-10",
+     "ppsf": 4,
+     "mi": 0.64
+    },
+    {
+     "slug": "14-laforge-road-darien-connecticut-24158573",
+     "addr": "14 Laforge Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 2073.0,
+     "price": 10500.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-02",
+     "ppsf": 5,
+     "mi": 0.65
+    },
+    {
+     "slug": "322-noroton-avenue-darien-connecticut-24185835",
+     "addr": "322 Noroton Avenue",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 2055.0,
+     "price": 11000.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 5,
+     "mi": 0.49
+    }
+   ],
+   "summary": {
+    "n": 3,
+    "low": 7500.0,
+    "high": 10500.0,
+    "median": 10000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

@@ -110,5 +110,70 @@
    "mi": 0.23,
    "walk": 5
   }
+ },
+ "comps": {
+  "building": {
+   "rows": [
+    {
+     "slug": "21-old-highway-wilton-connecticut-24182300",
+     "addr": "21 Old Highway",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1808.0,
+     "price": 1100000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-21",
+     "ppsf": 608
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 1100000.0,
+    "high": 1100000.0,
+    "median": 1100000
+   },
+   "label": "21 Old Highway"
+  },
+  "area": {
+   "rows": [
+    {
+     "slug": "3-deerfield-road-wilton-connecticut-24131722",
+     "addr": "3 Deerfield Road",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 1982.0,
+     "price": 1075000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-02",
+     "ppsf": 542,
+     "mi": 0.29
+    },
+    {
+     "slug": "18-deerfield-road-wilton-connecticut-24176715",
+     "addr": "18 Deerfield Road",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 2732.0,
+     "price": 1150000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-24",
+     "ppsf": 421,
+     "mi": 0.32
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 1075000.0,
+    "high": 1150000.0,
+    "median": 1112500
+   },
+   "radiusMi": 0.75
+  }
  }
 }

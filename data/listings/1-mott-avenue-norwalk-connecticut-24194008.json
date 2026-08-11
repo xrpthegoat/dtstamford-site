@@ -102,5 +102,120 @@
    "mi": 0.16,
    "walk": 3
   }
+ },
+ "comps": {
+  "building": {
+   "rows": [
+    {
+     "slug": "1-mott-avenue-norwalk-connecticut-24197247",
+     "addr": "1 Mott Avenue Unit 6",
+     "unit": "Unit 6",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 700.0,
+     "price": 1795.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 3
+    }
+   ],
+   "summary": null,
+   "label": "1 Mott Avenue"
+  },
+  "area": {
+   "rows": [
+    {
+     "slug": "4-berkeley-street-norwalk-connecticut-24157869",
+     "addr": "4 Berkeley Street Unit 11",
+     "unit": "Unit 11",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 650.0,
+     "price": 1695.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-26",
+     "ppsf": 3,
+     "mi": 0.04
+    },
+    {
+     "slug": "4-berkeley-street-norwalk-connecticut-24181686",
+     "addr": "4 Berkeley Street Unit 2",
+     "unit": "Unit 2",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 600.0,
+     "price": 1825.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-02",
+     "ppsf": 3,
+     "mi": 0.05
+    },
+    {
+     "slug": "31-isaacs-street-norwalk-connecticut-24183762",
+     "addr": "31 Isaacs Street Unit 1A",
+     "unit": "Unit 1A",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 600.0,
+     "price": 1695.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-23",
+     "ppsf": 3,
+     "mi": 0.1
+    },
+    {
+     "slug": "5-isaacs-street-norwalk-connecticut-24189355",
+     "addr": "5 Isaacs Street Unit 2B",
+     "unit": "Unit 2B",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 800.0,
+     "price": 1895.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-22",
+     "ppsf": 2,
+     "mi": 0.18
+    },
+    {
+     "slug": "15-arch-street-norwalk-connecticut-24161814",
+     "addr": "15 Arch Street Unit C1",
+     "unit": "Unit C1",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 750.0,
+     "price": 2195.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-22",
+     "ppsf": 3,
+     "mi": 0.25
+    },
+    {
+     "slug": "11-bedford-avenue-norwalk-connecticut-24148007",
+     "addr": "11 Bedford Avenue Apt N4",
+     "unit": "Apt N4",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 732.0,
+     "price": 2150.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-01",
+     "ppsf": 3,
+     "mi": 0.3
+    }
+   ],
+   "summary": {
+    "n": 6,
+    "low": 1695.0,
+    "high": 2195.0,
+    "median": 1860
+   },
+   "radiusMi": 0.75
+  }
  }
 }

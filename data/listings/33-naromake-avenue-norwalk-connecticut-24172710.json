@@ -106,5 +106,45 @@
    "n": "Bus stop",
    "mi": 1.93
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "174-woodward-avenue-norwalk-connecticut-24176877",
+     "addr": "174 Woodward Avenue",
+     "unit": "",
+     "beds": 2.0,
+     "baths": 1.0,
+     "sqft": 1116.0,
+     "price": 520000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-09",
+     "ppsf": 466,
+     "mi": 0.26
+    },
+    {
+     "slug": "118-shorefront-park-norwalk-connecticut-24181672",
+     "addr": "118 Shorefront Park",
+     "unit": "",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1824.0,
+     "price": 935000.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 513,
+     "mi": 0.48
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 520000.0,
+    "high": 520000.0,
+    "median": 520000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

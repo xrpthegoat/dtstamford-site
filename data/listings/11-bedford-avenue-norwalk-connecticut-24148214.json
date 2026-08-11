@@ -115,5 +115,126 @@
    "mi": 0.28,
    "walk": 6
   }
+ },
+ "comps": {
+  "building": {
+   "rows": [
+    {
+     "slug": "11-bedford-avenue-norwalk-connecticut-24164887",
+     "addr": "11 Bedford Avenue Unit M3",
+     "unit": "Unit M3",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 738.0,
+     "price": 270000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-09",
+     "ppsf": 366
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 270000.0,
+    "high": 270000.0,
+    "median": 270000
+   },
+   "label": "11 Bedford Avenue"
+  },
+  "area": {
+   "rows": [
+    {
+     "slug": "21-prospect-avenue-norwalk-connecticut-24170676",
+     "addr": "21 Prospect Avenue Unit B103",
+     "unit": "Unit B103",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 630.0,
+     "price": 318000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-30",
+     "ppsf": 505,
+     "mi": 0.03
+    },
+    {
+     "slug": "26-prospect-avenue-norwalk-connecticut-24159894",
+     "addr": "26 Prospect Avenue Unit F8",
+     "unit": "Unit F8",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 654.0,
+     "price": 275000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-18",
+     "ppsf": 420,
+     "mi": 0.08
+    },
+    {
+     "slug": "26-prospect-avenue-norwalk-connecticut-24149328",
+     "addr": "26 Prospect Avenue Unit F4",
+     "unit": "Unit F4",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 654.0,
+     "price": 265000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-02",
+     "ppsf": 405,
+     "mi": 0.08
+    },
+    {
+     "slug": "18-prospect-avenue-norwalk-connecticut-24158892",
+     "addr": "18 Prospect Avenue Apt C10",
+     "unit": "Apt C10",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 572.0,
+     "price": 220000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-03",
+     "ppsf": 385,
+     "mi": 0.1
+    },
+    {
+     "slug": "19-isaacs-street-norwalk-connecticut-24156048",
+     "addr": "19 Isaacs Street Unit 405",
+     "unit": "Unit 405",
+     "beds": 1.0,
+     "baths": 2.0,
+     "sqft": 820.0,
+     "price": 330000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-28",
+     "ppsf": 402,
+     "mi": 0.46
+    },
+    {
+     "slug": "25-grand-street-norwalk-connecticut-24175790",
+     "addr": "25 Grand Street Unit 138",
+     "unit": "Unit 138",
+     "beds": 1.0,
+     "baths": 2.0,
+     "sqft": 725.0,
+     "price": 375000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-29",
+     "ppsf": 517,
+     "mi": 0.66
+    }
+   ],
+   "summary": {
+    "n": 6,
+    "low": 220000.0,
+    "high": 375000.0,
+    "median": 296500
+   },
+   "radiusMi": 0.75
+  }
  }
 }

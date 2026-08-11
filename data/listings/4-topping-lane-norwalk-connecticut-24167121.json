@@ -111,5 +111,46 @@
    "n": "Bus stop",
    "mi": 1.78
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "6-acorn-lane-norwalk-connecticut-24152587",
+     "addr": "6 Acorn Lane",
+     "unit": "",
+     "beds": 2.0,
+     "baths": 1.0,
+     "sqft": 1008.0,
+     "price": 750000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-10",
+     "ppsf": 744,
+     "mi": 0.57
+    },
+    {
+     "slug": "376-rowayton-avenue-norwalk-connecticut-24161521",
+     "addr": "376 Rowayton Avenue",
+     "unit": "",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1617.0,
+     "price": 1055000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-08-04",
+     "ppsf": 652,
+     "mi": 0.57
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 750000.0,
+    "high": 1055000.0,
+    "median": 902500
+   },
+   "radiusMi": 0.75
+  }
  }
 }

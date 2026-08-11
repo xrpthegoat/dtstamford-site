@@ -111,5 +111,58 @@
    "mi": 2.83,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "46-burr-farms-road-westport-connecticut-24168505",
+     "addr": "46 Burr Farms Road",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 6.0,
+     "sqft": 5409.0,
+     "price": 19000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-08-01",
+     "ppsf": 4,
+     "mi": 0.36
+    },
+    {
+     "slug": "20-joann-circle-westport-connecticut-24176505",
+     "addr": "20 Joann Circle",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 4.0,
+     "sqft": 3392.0,
+     "price": 14000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 4,
+     "mi": 0.29
+    },
+    {
+     "slug": "10-fernwood-road-westport-connecticut-24171869",
+     "addr": "10 Fernwood Road",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 5.0,
+     "sqft": 4029.0,
+     "price": 12000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 3,
+     "mi": 0.57
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 19000.0,
+    "high": 19000.0,
+    "median": 19000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

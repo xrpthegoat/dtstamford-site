@@ -110,5 +110,73 @@
    "mi": 0.21,
    "walk": 4
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "darien-connecticut-24173255",
+     "addr": null,
+     "unit": "",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 835.0,
+     "price": 2725.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-18",
+     "ppsf": 3,
+     "mi": 0.33
+    },
+    {
+     "slug": "3-wild-rose-lane-darien-connecticut-24138417",
+     "addr": "3 Wild Rose Lane Unit Cottage",
+     "unit": "Unit Cottage",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 700.0,
+     "price": 3250.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-01",
+     "ppsf": 5,
+     "mi": 0.49
+    },
+    {
+     "slug": "693-boston-post-road-darien-connecticut-24155938",
+     "addr": "693 Boston Post Road Unit A",
+     "unit": "Unit A",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 820.0,
+     "price": 4250.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-01",
+     "ppsf": 5,
+     "mi": 0.54
+    },
+    {
+     "slug": "1015-boston-post-road-darien-connecticut-24191192",
+     "addr": "1015 Boston Post Road #202",
+     "unit": "#202",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 900.0,
+     "price": 4000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 4,
+     "mi": 0.09
+    }
+   ],
+   "summary": {
+    "n": 3,
+    "low": 2725.0,
+    "high": 4250.0,
+    "median": 3250
+   },
+   "radiusMi": 0.75
+  }
  }
 }

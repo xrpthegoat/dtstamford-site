@@ -106,5 +106,46 @@
    "mi": 1.09,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "23-greenwood-avenue-darien-connecticut-24158618",
+     "addr": "23 Greenwood Avenue",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 3.0,
+     "sqft": 2749.0,
+     "price": 1125000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-15",
+     "ppsf": 409,
+     "mi": 0.5
+    },
+    {
+     "slug": "518-hoyt-street-darien-connecticut-24157459",
+     "addr": "518 Hoyt Street",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 4.0,
+     "sqft": 3680.0,
+     "price": 2100000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-08",
+     "ppsf": 571,
+     "mi": 0.7
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 1125000.0,
+    "high": 2100000.0,
+    "median": 1612500
+   },
+   "radiusMi": 0.75
+  }
  }
 }

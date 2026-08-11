@@ -126,5 +126,59 @@
    "mi": 3.1,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "792-north-wilton-road-new-canaan-connecticut-24154457",
+     "addr": "792 North Wilton Road",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 5.0,
+     "sqft": 5038.0,
+     "price": 2855000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-28",
+     "ppsf": 567,
+     "mi": 0.42
+    },
+    {
+     "slug": "160-lantern-ridge-road-new-canaan-connecticut-24161810",
+     "addr": "160 Lantern Ridge Road",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 7.0,
+     "sqft": 4367.0,
+     "price": 2200000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-15",
+     "ppsf": 504,
+     "mi": 0.59
+    },
+    {
+     "slug": "215-cross-ridge-road-new-canaan-connecticut-24193553",
+     "addr": "215 Cross Ridge Road",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 6.0,
+     "sqft": 6261.0,
+     "price": 3050000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 487,
+     "mi": 0.31
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 2200000.0,
+    "high": 2855000.0,
+    "median": 2527500
+   },
+   "radiusMi": 0.75
+  }
  }
 }

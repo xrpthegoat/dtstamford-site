@@ -129,5 +129,46 @@
    "mi": 0.96,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "48-lexington-avenue-greenwich-connecticut-24093214",
+     "addr": "48 Lexington Avenue",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 6.0,
+     "sqft": 7028.0,
+     "price": 7200000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-24",
+     "ppsf": 1024,
+     "mi": 0.33
+    },
+    {
+     "slug": "17-pintail-lane-greenwich-connecticut-24149951",
+     "addr": "17 Pintail Lane",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 5.0,
+     "sqft": 3643.0,
+     "price": 4271000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-16",
+     "ppsf": 1172,
+     "mi": 0.52
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 4271000.0,
+    "high": 7200000.0,
+    "median": 5735500
+   },
+   "radiusMi": 0.75
+  }
  }
 }

@@ -124,5 +124,101 @@
    "mi": 1.26,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "5-yarmouth-road-norwalk-connecticut-24173477",
+     "addr": "5 Yarmouth Road",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 1704.0,
+     "price": 17500.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-30",
+     "ppsf": 10,
+     "mi": 0.37
+    },
+    {
+     "slug": "111-rowayton-avenue-norwalk-connecticut-24159840",
+     "addr": "111 Rowayton Avenue Unit 201",
+     "unit": "Unit 201",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 2399.0,
+     "price": 30000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-08-03",
+     "ppsf": 13,
+     "mi": 0.43
+    },
+    {
+     "slug": "9-edgehill-drive-darien-connecticut-24139469",
+     "addr": "9 Edgehill Drive",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 2267.0,
+     "price": 9000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-01",
+     "ppsf": 4,
+     "mi": 0.49
+    },
+    {
+     "slug": "168-rowayton-avenue-norwalk-connecticut-24118947",
+     "addr": "168 Rowayton Avenue",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 2265.0,
+     "price": 12000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-01",
+     "ppsf": 5,
+     "mi": 0.65
+    },
+    {
+     "slug": "168-rowayton-avenue-norwalk-connecticut-24175575",
+     "addr": "168 Rowayton Avenue Unit A",
+     "unit": "Unit A",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 1400.0,
+     "price": 8750.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-08-06",
+     "ppsf": 6,
+     "mi": 0.65
+    },
+    {
+     "slug": "124-rowayton-avenue-norwalk-connecticut-24197986",
+     "addr": "124 Rowayton Avenue",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 2477.0,
+     "price": 13000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 5,
+     "mi": 0.48
+    }
+   ],
+   "summary": {
+    "n": 5,
+    "low": 8750.0,
+    "high": 30000.0,
+    "median": 12000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

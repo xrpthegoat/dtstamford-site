@@ -115,5 +115,150 @@
    "mi": 0.33,
    "walk": 7
   }
+ },
+ "comps": {
+  "building": {
+   "rows": [
+    {
+     "slug": "154-cold-spring-road-stamford-connecticut-24153534",
+     "addr": "154 Cold Spring Road Apt 18",
+     "unit": "Apt 18",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1160.0,
+     "price": 385000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-15",
+     "ppsf": 332
+    },
+    {
+     "slug": "154-cold-spring-road-stamford-connecticut-24179661",
+     "addr": "154 Cold Spring Road Unit 86",
+     "unit": "Unit 86",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1240.0,
+     "price": 389900.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 314
+    },
+    {
+     "slug": "154-cold-spring-road-stamford-connecticut-24173726",
+     "addr": "154 Cold Spring Road Unit 62",
+     "unit": "Unit 62",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1240.0,
+     "price": 395000.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 319
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 385000.0,
+    "high": 385000.0,
+    "median": 385000
+   },
+   "label": "154 Cold Spring Road"
+  },
+  "area": {
+   "rows": [
+    {
+     "slug": "85-riverside-avenue-stamford-connecticut-24151488",
+     "addr": "85 Riverside Avenue Apt F7",
+     "unit": "Apt F7",
+     "beds": 2.0,
+     "baths": 1.0,
+     "sqft": 1158.0,
+     "price": 350000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-04",
+     "ppsf": 302,
+     "mi": 0.09
+    },
+    {
+     "slug": "2475-summer-street-stamford-connecticut-24146970",
+     "addr": "2475 Summer Street Apt 2I",
+     "unit": "Apt 2I",
+     "beds": 2.0,
+     "baths": 1.0,
+     "sqft": 819.0,
+     "price": 320000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-01",
+     "ppsf": 391,
+     "mi": 0.37
+    },
+    {
+     "slug": "2700-bedford-street-stamford-connecticut-24130436",
+     "addr": "2700 Bedford Street Apt J",
+     "unit": "Apt J",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1403.0,
+     "price": 556000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-12",
+     "ppsf": 396,
+     "mi": 0.45
+    },
+    {
+     "slug": "2700-bedford-street-stamford-connecticut-24177790",
+     "addr": "2700 Bedford Street Unit G",
+     "unit": "Unit G",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1403.0,
+     "price": 567500.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-08-07",
+     "ppsf": 404,
+     "mi": 0.45
+    },
+    {
+     "slug": "118-woodside-green-stamford-connecticut-24154472",
+     "addr": "118 Woodside Green Unit 1A",
+     "unit": "Unit 1A",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1696.0,
+     "price": 420000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-20",
+     "ppsf": 248,
+     "mi": 0.47
+    },
+    {
+     "slug": "2289-bedford-street-stamford-connecticut-24152016",
+     "addr": "2289 Bedford Street Unit G17",
+     "unit": "Unit G17",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1199.0,
+     "price": 599000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-02",
+     "ppsf": 500,
+     "mi": 0.54
+    }
+   ],
+   "summary": {
+    "n": 6,
+    "low": 320000.0,
+    "high": 599000.0,
+    "median": 488000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

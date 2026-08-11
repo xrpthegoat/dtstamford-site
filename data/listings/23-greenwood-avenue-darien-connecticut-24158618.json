@@ -101,5 +101,59 @@
    "mi": 0.62,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "43-hidden-brook-drive-stamford-connecticut-24167894",
+     "addr": "43 Hidden Brook Drive",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 2.0,
+     "sqft": 2190.0,
+     "price": 805000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-20",
+     "ppsf": 368,
+     "mi": 0.5
+    },
+    {
+     "slug": "5-wheat-lane-darien-connecticut-24155300",
+     "addr": "5 Wheat Lane",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 5.0,
+     "sqft": 3509.0,
+     "price": 3308000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-15",
+     "ppsf": 943,
+     "mi": 0.61
+    },
+    {
+     "slug": "293-bouton-street-west-stamford-connecticut-24170619",
+     "addr": "293 Bouton Street West",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 4.0,
+     "sqft": 2751.0,
+     "price": 1095000.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 398,
+     "mi": 0.73
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 805000.0,
+    "high": 3308000.0,
+    "median": 2056500
+   },
+   "radiusMi": 0.75
+  }
  }
 }

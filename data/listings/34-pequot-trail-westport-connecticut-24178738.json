@@ -134,5 +134,71 @@
    "n": "Bus stop",
    "mi": 1.89
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "10-winding-lane-westport-connecticut-24163168",
+     "addr": "10 Winding Lane",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 5.0,
+     "sqft": 4602.0,
+     "price": 3600000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-08",
+     "ppsf": 782,
+     "mi": 0.44
+    },
+    {
+     "slug": "30-pequot-trail-westport-connecticut-24170706",
+     "addr": "30 Pequot Trail",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 4.0,
+     "sqft": 3156.0,
+     "price": 1599876.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 507,
+     "mi": 0.07
+    },
+    {
+     "slug": "31-stonybrook-road-westport-connecticut-24178699",
+     "addr": "31 Stonybrook Road",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 8.0,
+     "sqft": 6503.0,
+     "price": 5750000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 884,
+     "mi": 0.21
+    },
+    {
+     "slug": "29-orchard-hill-road-norwalk-connecticut-24189226",
+     "addr": "29 Orchard Hill Road",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 4.0,
+     "sqft": 4693.0,
+     "price": 1449000.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 309,
+     "mi": 0.35
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 3600000.0,
+    "high": 3600000.0,
+    "median": 3600000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

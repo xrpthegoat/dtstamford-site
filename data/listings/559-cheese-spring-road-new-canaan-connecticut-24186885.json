@@ -131,5 +131,46 @@
    "mi": 2.24,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "245-benedict-hill-road-new-canaan-connecticut-24133809",
+     "addr": "245 Benedict Hill Road",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 5.0,
+     "sqft": 5300.0,
+     "price": 3600000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-15",
+     "ppsf": 679,
+     "mi": 0.19
+    },
+    {
+     "slug": "30-wild-duck-road-wilton-connecticut-24139563",
+     "addr": "30 Wild Duck Road",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 5.0,
+     "sqft": 4434.0,
+     "price": 1850000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-31",
+     "ppsf": 417,
+     "mi": 0.51
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 1850000.0,
+    "high": 3600000.0,
+    "median": 2725000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

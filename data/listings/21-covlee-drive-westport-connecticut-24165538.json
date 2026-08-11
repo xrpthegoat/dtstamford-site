@@ -135,5 +135,73 @@
    "n": "Bus stop",
    "mi": 0.91
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "9-marsh-road-westport-connecticut-24162314",
+     "addr": "9 Marsh Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 2959.0,
+     "price": 2325000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-01",
+     "ppsf": 786,
+     "mi": 0.48
+    },
+    {
+     "slug": "299-saugatuck-avenue-westport-connecticut-24169465",
+     "addr": "299 Saugatuck Avenue",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 6.0,
+     "sqft": 5627.0,
+     "price": 2900000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-31",
+     "ppsf": 515,
+     "mi": 0.54
+    },
+    {
+     "slug": "24-spriteview-avenue-westport-connecticut-24156059",
+     "addr": "24 Spriteview Avenue",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 4.0,
+     "sqft": 3271.0,
+     "price": 3650000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-01",
+     "ppsf": 1116,
+     "mi": 0.57
+    },
+    {
+     "slug": "16-harbor-road-westport-connecticut-24183853",
+     "addr": "16 Harbor Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 4.0,
+     "sqft": 3150.0,
+     "price": 2995000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 951,
+     "mi": 0.22
+    }
+   ],
+   "summary": {
+    "n": 3,
+    "low": 2325000.0,
+    "high": 3650000.0,
+    "median": 2900000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

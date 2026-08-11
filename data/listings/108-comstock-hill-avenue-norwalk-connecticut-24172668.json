@@ -102,5 +102,46 @@
    "n": "Merritt 7 Railroad Station",
    "mi": 1.23
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "104-comstock-hill-avenue-norwalk-connecticut-24168114",
+     "addr": "104 Comstock Hill Avenue",
+     "unit": "",
+     "beds": 1.0,
+     "baths": 2.0,
+     "sqft": 850.0,
+     "price": 2650.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-12",
+     "ppsf": 3,
+     "mi": 0.05
+    },
+    {
+     "slug": "1-appletree-lane-norwalk-connecticut-24182542",
+     "addr": "1 Appletree Lane Unit 1",
+     "unit": "Unit 1",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 450.0,
+     "price": 1700.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-06",
+     "ppsf": 4,
+     "mi": 0.44
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 1700.0,
+    "high": 2650.0,
+    "median": 2175
+   },
+   "radiusMi": 0.75
+  }
  }
 }

@@ -132,5 +132,45 @@
    "n": "Bus stop",
    "mi": 1.67
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "10-burritt-avenue-norwalk-connecticut-24152299",
+     "addr": "10 Burritt Avenue",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 2.0,
+     "sqft": 2066.0,
+     "price": 710000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-01",
+     "ppsf": 344,
+     "mi": 0.28
+    },
+    {
+     "slug": "89-bouton-street-norwalk-connecticut-24151199",
+     "addr": "89 Bouton Street",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 2.0,
+     "sqft": 1908.0,
+     "price": 450000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 236,
+     "mi": 0.72
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 710000.0,
+    "high": 710000.0,
+    "median": 710000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

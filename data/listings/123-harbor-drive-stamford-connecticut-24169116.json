@@ -108,5 +108,125 @@
    "n": "Bus stop",
    "mi": 1.02
   }
+ },
+ "comps": {
+  "building": {
+   "rows": [
+    {
+     "slug": "123-harbor-drive-stamford-connecticut-24167499",
+     "addr": "123 Harbor Drive Unit 501",
+     "unit": "Unit 501",
+     "beds": 2.0,
+     "baths": 3.0,
+     "sqft": 1489.0,
+     "price": 817500.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-01",
+     "ppsf": 549
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 817500.0,
+    "high": 817500.0,
+    "median": 817500
+   },
+   "label": "123 Harbor Drive"
+  },
+  "area": {
+   "rows": [
+    {
+     "slug": "105-harbor-drive-stamford-connecticut-24156414",
+     "addr": "105 Harbor Drive Unit 120",
+     "unit": "Unit 120",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1600.0,
+     "price": 629000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-14",
+     "ppsf": 393,
+     "mi": 0.06
+    },
+    {
+     "slug": "54-lindstrom-road-stamford-connecticut-24162859",
+     "addr": "54 Lindstrom Road Unit 54",
+     "unit": "Unit 54",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1534.0,
+     "price": 540009.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-30",
+     "ppsf": 352,
+     "mi": 0.17
+    },
+    {
+     "slug": "43-harbor-drive-stamford-connecticut-24174717",
+     "addr": "43 Harbor Drive Unit 101",
+     "unit": "Unit 101",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1065.0,
+     "price": 640000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-06",
+     "ppsf": 601,
+     "mi": 0.18
+    },
+    {
+     "slug": "55-woodland-place-stamford-connecticut-24130036",
+     "addr": "55 Woodland Place Apt 1",
+     "unit": "Apt 1",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1394.0,
+     "price": 495000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-11",
+     "ppsf": 355,
+     "mi": 0.37
+    },
+    {
+     "slug": "61-seaview-avenue-stamford-connecticut-24150586",
+     "addr": "61 Seaview Avenue Apt 42",
+     "unit": "Apt 42",
+     "beds": 2.0,
+     "baths": 3.0,
+     "sqft": 1450.0,
+     "price": 551700.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-06",
+     "ppsf": 380,
+     "mi": 0.51
+    },
+    {
+     "slug": "43-harbor-drive-stamford-connecticut-24173208",
+     "addr": "43 Harbor Drive Unit 311",
+     "unit": "Unit 311",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1060.0,
+     "price": 649000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 612,
+     "mi": 0.18
+    }
+   ],
+   "summary": {
+    "n": 5,
+    "low": 495000.0,
+    "high": 640000.0,
+    "median": 551700
+   },
+   "radiusMi": 0.75
+  }
  }
 }

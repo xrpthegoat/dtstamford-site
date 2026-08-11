@@ -107,5 +107,139 @@
    "mi": 0.23,
    "walk": 5
   }
+ },
+ "comps": {
+  "building": {
+   "rows": [
+    {
+     "slug": "60-strawberry-hill-avenue-stamford-connecticut-24164348",
+     "addr": "60 Strawberry Hill Avenue Unit 605",
+     "unit": "Unit 605",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 403.0,
+     "price": 1800.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-15",
+     "ppsf": 4
+    },
+    {
+     "slug": "60-strawberry-hill-avenue-stamford-connecticut-24161401",
+     "addr": "60 Strawberry Hill Avenue Unit 1002",
+     "unit": "Unit 1002",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 431.0,
+     "price": 1850.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-27",
+     "ppsf": 4
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 1800.0,
+    "high": 1850.0,
+    "median": 1825
+   },
+   "label": "60 Strawberry Hill Avenue"
+  },
+  "area": {
+   "rows": [
+    {
+     "slug": "70-strawberry-hill-avenue-stamford-connecticut-24162885",
+     "addr": "70 Strawberry Hill Avenue Unit 5-1D",
+     "unit": "Unit 5-1D",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 800.0,
+     "price": 2200.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-02",
+     "ppsf": 3,
+     "mi": 0.04
+    },
+    {
+     "slug": "70-strawberry-hill-avenue-stamford-connecticut-24163416",
+     "addr": "70 Strawberry Hill Avenue Unit 1-1A",
+     "unit": "Unit 1-1A",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 840.0,
+     "price": 2400.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-06",
+     "ppsf": 3,
+     "mi": 0.04
+    },
+    {
+     "slug": "70-strawberry-hill-avenue-stamford-connecticut-24167616",
+     "addr": "70 Strawberry Hill Avenue Unit 5-1D",
+     "unit": "Unit 5-1D",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 800.0,
+     "price": 2250.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-01",
+     "ppsf": 3,
+     "mi": 0.04
+    },
+    {
+     "slug": "70-strawberry-hill-avenue-stamford-connecticut-24170104",
+     "addr": "70 Strawberry Hill Avenue Unit 3-2D",
+     "unit": "Unit 3-2D",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 716.0,
+     "price": 2175.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-09",
+     "ppsf": 3,
+     "mi": 0.04
+    },
+    {
+     "slug": "44-strawberry-hill-avenue-stamford-connecticut-24184007",
+     "addr": "44 Strawberry Hill Avenue Unit 5C",
+     "unit": "Unit 5C",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 885.0,
+     "price": 2500.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-20",
+     "ppsf": 3,
+     "mi": 0.06
+    },
+    {
+     "slug": "44-strawberry-hill-avenue-stamford-connecticut-24180335",
+     "addr": "44 Strawberry Hill Avenue Unit 7E",
+     "unit": "Unit 7E",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 885.0,
+     "price": 2500.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-26",
+     "ppsf": 3,
+     "mi": 0.06
+    }
+   ],
+   "summary": {
+    "n": 6,
+    "low": 2175.0,
+    "high": 2500.0,
+    "median": 2325
+   },
+   "radiusMi": 0.75
+  }
  }
 }

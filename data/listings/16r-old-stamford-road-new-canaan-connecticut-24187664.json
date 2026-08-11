@@ -101,5 +101,99 @@
    "mi": 0.62,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "24-old-stamford-road-new-canaan-connecticut-24191058",
+     "addr": "24 Old Stamford Road",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 5.0,
+     "sqft": 3608.0,
+     "price": 15000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-13",
+     "ppsf": 4,
+     "mi": 0.02
+    },
+    {
+     "slug": "141-park-street-new-canaan-connecticut-24174715",
+     "addr": "141 Park Street",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 5.0,
+     "sqft": 3783.0,
+     "price": 17250.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-29",
+     "ppsf": 5,
+     "mi": 0.52
+    },
+    {
+     "slug": "new-canaan-connecticut-24176639",
+     "addr": null,
+     "unit": "",
+     "beds": 5.0,
+     "baths": 6.0,
+     "sqft": 5178.0,
+     "price": 16000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-01",
+     "ppsf": 3,
+     "mi": 0.58
+    },
+    {
+     "slug": "22-old-stamford-road-new-canaan-connecticut-24191227",
+     "addr": "22 Old Stamford Road",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 5.0,
+     "sqft": 3608.0,
+     "price": 14500.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 4,
+     "mi": 0.0
+    },
+    {
+     "slug": "18-old-stamford-road-new-canaan-connecticut-24187704",
+     "addr": "18 Old Stamford Road",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 5.0,
+     "sqft": 3608.0,
+     "price": 15000.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 4,
+     "mi": 0.01
+    },
+    {
+     "slug": "11-gower-road-new-canaan-connecticut-24188970",
+     "addr": "11 Gower Road",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 6.0,
+     "sqft": 4188.0,
+     "price": 23000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 5,
+     "mi": 0.34
+    }
+   ],
+   "summary": {
+    "n": 3,
+    "low": 15000.0,
+    "high": 17250.0,
+    "median": 16000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

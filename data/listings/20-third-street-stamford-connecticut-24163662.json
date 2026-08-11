@@ -113,5 +113,164 @@
    "mi": 0.05,
    "walk": 1
   }
+ },
+ "comps": {
+  "building": {
+   "rows": [
+    {
+     "slug": "20-third-street-stamford-connecticut-24180398",
+     "addr": "20 Third Street Unit 14",
+     "unit": "Unit 14",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 1485.0,
+     "price": 726000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-08-06",
+     "ppsf": 489
+    },
+    {
+     "slug": "20-third-street-stamford-connecticut-24156906",
+     "addr": "20 Third Street Unit 23",
+     "unit": "Unit 23",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 2333.0,
+     "price": 845000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-29",
+     "ppsf": 362
+    },
+    {
+     "slug": "20-third-street-stamford-connecticut-24150935",
+     "addr": "20 Third Street Unit 11",
+     "unit": "Unit 11",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 1683.0,
+     "price": 728000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-10",
+     "ppsf": 433
+    },
+    {
+     "slug": "20-third-street-stamford-connecticut-24186054",
+     "addr": "20 Third Street Unit 4",
+     "unit": "Unit 4",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 1687.0,
+     "price": 831000.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 493
+    }
+   ],
+   "summary": {
+    "n": 3,
+    "low": 726000.0,
+    "high": 845000.0,
+    "median": 728000
+   },
+   "label": "20 Third Street"
+  },
+  "area": {
+   "rows": [
+    {
+     "slug": "65-riverside-avenue-stamford-connecticut-24145418",
+     "addr": "65 Riverside Avenue Unit 65",
+     "unit": "Unit 65",
+     "beds": 3.0,
+     "baths": 4.0,
+     "sqft": 2070.0,
+     "price": 690000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-13",
+     "ppsf": 333,
+     "mi": 0.54
+    },
+    {
+     "slug": "237-strawberry-hill-avenue-stamford-connecticut-24160373",
+     "addr": "237 Strawberry Hill Avenue Unit 27",
+     "unit": "Unit 27",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 1960.0,
+     "price": 650000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-19",
+     "ppsf": 332,
+     "mi": 0.58
+    },
+    {
+     "slug": "255-strawberry-hill-avenue-stamford-connecticut-24153433",
+     "addr": "255 Strawberry Hill Avenue Unit B1",
+     "unit": "Unit B1",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 1603.0,
+     "price": 685000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-13",
+     "ppsf": 427,
+     "mi": 0.58
+    },
+    {
+     "slug": "168-colonial-road-stamford-connecticut-24109603",
+     "addr": "168 Colonial Road Apt 6",
+     "unit": "Apt 6",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 2481.0,
+     "price": 830000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-06",
+     "ppsf": 335,
+     "mi": 0.6
+    },
+    {
+     "slug": "1-broad-street-stamford-connecticut-24160551",
+     "addr": "1 Broad Street Unit 11A&B",
+     "unit": "Unit 11A&B",
+     "beds": 3.0,
+     "baths": 4.0,
+     "sqft": 2937.0,
+     "price": 1710000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-30",
+     "ppsf": 582,
+     "mi": 0.66
+    },
+    {
+     "slug": "154-cold-spring-road-stamford-connecticut-24155604",
+     "addr": "154 Cold Spring Road Apt 87",
+     "unit": "Apt 87",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1317.0,
+     "price": 425000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-14",
+     "ppsf": 323,
+     "mi": 0.67
+    }
+   ],
+   "summary": {
+    "n": 6,
+    "low": 425000.0,
+    "high": 1710000.0,
+    "median": 687500
+   },
+   "radiusMi": 0.75
+  }
  }
 }

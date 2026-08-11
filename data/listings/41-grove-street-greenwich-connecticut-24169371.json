@@ -106,5 +106,59 @@
    "n": "Bus stop",
    "mi": 1.49
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "88-orchard-street-greenwich-connecticut-24184691",
+     "addr": "88 Orchard Street",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 4.0,
+     "sqft": 3827.0,
+     "price": 11000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-30",
+     "ppsf": 3,
+     "mi": 0.25
+    },
+    {
+     "slug": "92-valley-road-greenwich-connecticut-24150496",
+     "addr": "92 Valley Road Unit A",
+     "unit": "Unit A",
+     "beds": 5.0,
+     "baths": 3.0,
+     "sqft": 3000.0,
+     "price": 7035.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-24",
+     "ppsf": 2,
+     "mi": 0.33
+    },
+    {
+     "slug": "18-osee-place-greenwich-connecticut-24195991",
+     "addr": "18 Osee Place",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 6.0,
+     "sqft": 3848.0,
+     "price": 18000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 5,
+     "mi": 0.34
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 7035.0,
+    "high": 11000.0,
+    "median": 9018
+   },
+   "radiusMi": 0.75
+  }
  }
 }

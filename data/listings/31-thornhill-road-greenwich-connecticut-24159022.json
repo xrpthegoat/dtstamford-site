@@ -116,5 +116,101 @@
    "n": "Bus stop",
    "mi": 0.91
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "14-neil-lane-greenwich-connecticut-24179144",
+     "addr": "14 Neil Lane",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 2568.0,
+     "price": 1800000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-31",
+     "ppsf": 701,
+     "mi": 0.29
+    },
+    {
+     "slug": "18-griffith-road-greenwich-connecticut-24148843",
+     "addr": "18 Griffith Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 1986.0,
+     "price": 1625000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-19",
+     "ppsf": 818,
+     "mi": 0.39
+    },
+    {
+     "slug": "185-valley-road-greenwich-connecticut-24167767",
+     "addr": "185 Valley Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 4.0,
+     "sqft": 3569.0,
+     "price": 3000000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-07",
+     "ppsf": 841,
+     "mi": 0.44
+    },
+    {
+     "slug": "34-1-2-orchard-street-greenwich-connecticut-24175545",
+     "addr": "34 1/2 Orchard Street",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 2126.0,
+     "price": 2022000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-22",
+     "ppsf": 951,
+     "mi": 0.62
+    },
+    {
+     "slug": "4-miami-court-greenwich-connecticut-24149277",
+     "addr": "4 Miami Court",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 2765.0,
+     "price": 1885000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-20",
+     "ppsf": 682,
+     "mi": 0.69
+    },
+    {
+     "slug": "5-griffith-road-greenwich-connecticut-24194042",
+     "addr": "5 Griffith Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 1750.0,
+     "price": 1499000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 857,
+     "mi": 0.39
+    }
+   ],
+   "summary": {
+    "n": 5,
+    "low": 1625000.0,
+    "high": 3000000.0,
+    "median": 1885000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

@@ -108,5 +108,86 @@
    "n": "Bus stop",
    "mi": 1.51
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "156-river-rd-extension-greenwich-connecticut-24146768",
+     "addr": "156 River Rd Extension Unit 3",
+     "unit": "Unit 3",
+     "beds": 3.0,
+     "baths": 1.0,
+     "sqft": 1500.0,
+     "price": 3150.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-17",
+     "ppsf": 2,
+     "mi": 0.32
+    },
+    {
+     "slug": "213-b-river-rd-extension-greenwich-connecticut-24159440",
+     "addr": "213 B River Rd Extension Unit 1",
+     "unit": "Unit 1",
+     "beds": 3.0,
+     "baths": 4.0,
+     "sqft": 1640.0,
+     "price": 5200.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-23",
+     "ppsf": 3,
+     "mi": 0.37
+    },
+    {
+     "slug": "75-strickland-road-greenwich-connecticut-24164202",
+     "addr": "75 Strickland Road Unit F",
+     "unit": "Unit F",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 1930.0,
+     "price": 7900.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-23",
+     "ppsf": 4,
+     "mi": 0.65
+    },
+    {
+     "slug": "78-river-road-greenwich-connecticut-24173464",
+     "addr": "78 River Road Unit 15",
+     "unit": "Unit 15",
+     "beds": 3.0,
+     "baths": 4.0,
+     "sqft": 2381.0,
+     "price": 12000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 5,
+     "mi": 0.21
+    },
+    {
+     "slug": "80-east-putnam-avenue-greenwich-connecticut-24193417",
+     "addr": "80 East Putnam Avenue",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 4.0,
+     "sqft": 1934.0,
+     "price": 6800.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 4,
+     "mi": 0.43
+    }
+   ],
+   "summary": {
+    "n": 3,
+    "low": 3150.0,
+    "high": 7900.0,
+    "median": 5200
+   },
+   "radiusMi": 0.75
+  }
  }
 }

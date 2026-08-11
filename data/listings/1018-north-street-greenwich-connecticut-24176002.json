@@ -118,5 +118,45 @@
    "mi": 6.75,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "1020-north-street-greenwich-connecticut-24150733",
+     "addr": "1020 North Street",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 1812.0,
+     "price": 1600000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-08",
+     "ppsf": 883,
+     "mi": 0.02
+    },
+    {
+     "slug": "198-east-middle-patent-road-stamford-connecticut-24137827",
+     "addr": "198 East Middle Patent Road",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 3994.0,
+     "price": 1775000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 444,
+     "mi": 0.68
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 1600000.0,
+    "high": 1600000.0,
+    "median": 1600000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

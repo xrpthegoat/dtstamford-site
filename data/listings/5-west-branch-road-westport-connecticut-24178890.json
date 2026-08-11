@@ -129,5 +129,45 @@
    "mi": 3.61,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "5-michele-lane-westport-connecticut-24170058",
+     "addr": "5 Michele Lane",
+     "unit": "",
+     "beds": 6.0,
+     "baths": 9.0,
+     "sqft": 7787.0,
+     "price": 3400000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-29",
+     "ppsf": 437,
+     "mi": 0.56
+    },
+    {
+     "slug": "25-hermit-lane-westport-connecticut-24183141",
+     "addr": "25 Hermit Lane",
+     "unit": "",
+     "beds": 6.0,
+     "baths": 7.0,
+     "sqft": 9454.0,
+     "price": 2795000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 296,
+     "mi": 0.67
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 3400000.0,
+    "high": 3400000.0,
+    "median": 3400000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

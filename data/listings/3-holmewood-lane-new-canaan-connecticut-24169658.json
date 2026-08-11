@@ -104,5 +104,60 @@
    "mi": 0.66,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "204-parade-hill-road-new-canaan-connecticut-24134964",
+     "addr": "204 Parade Hill Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 5.0,
+     "sqft": 3260.0,
+     "price": 2450000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-23",
+     "ppsf": 752,
+     "mi": 0.18
+    },
+    {
+     "slug": "94-glen-drive-new-canaan-connecticut-24153070",
+     "addr": "94 Glen Drive",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 4.0,
+     "sqft": 3086.0,
+     "price": 2305000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-30",
+     "ppsf": 747,
+     "mi": 0.3
+    },
+    {
+     "slug": "113-brushy-ridge-road-new-canaan-connecticut-24131013",
+     "addr": "113 Brushy Ridge Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 7.0,
+     "sqft": 6528.0,
+     "price": 2900875.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-15",
+     "ppsf": 444,
+     "mi": 0.5
+    }
+   ],
+   "summary": {
+    "n": 3,
+    "low": 2305000.0,
+    "high": 2900875.0,
+    "median": 2450000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

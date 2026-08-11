@@ -127,5 +127,71 @@
    "mi": 1.33,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "23-harborview-road-westport-connecticut-24163587",
+     "addr": "23 Harborview Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 4.0,
+     "sqft": 3674.0,
+     "price": 2750000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-08",
+     "ppsf": 749,
+     "mi": 0.47
+    },
+    {
+     "slug": "34-woodside-avenue-westport-connecticut-24185246",
+     "addr": "34 Woodside Avenue",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 5.0,
+     "sqft": 3600.0,
+     "price": 2699000.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 750,
+     "mi": 0.45
+    },
+    {
+     "slug": "23-pequot-trail-westport-connecticut-24197030",
+     "addr": "23 Pequot Trail",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 4.0,
+     "sqft": 3536.0,
+     "price": 1599000.0,
+     "kind": "asking",
+     "status": "Coming Soon",
+     "ppsf": 452,
+     "mi": 0.61
+    },
+    {
+     "slug": "3-laurel-lane-westport-connecticut-24180388",
+     "addr": "3 Laurel Lane",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 6.0,
+     "sqft": 4204.0,
+     "price": 3685000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 877,
+     "mi": 0.69
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 2750000.0,
+    "high": 2750000.0,
+    "median": 2750000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

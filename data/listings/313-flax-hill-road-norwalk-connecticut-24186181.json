@@ -116,5 +116,101 @@
    "n": "Bus stop",
    "mi": 1.4
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "18-soundview-avenue-norwalk-connecticut-24159808",
+     "addr": "18 Soundview Avenue Unit 1",
+     "unit": "Unit 1",
+     "beds": 3.0,
+     "baths": 1.0,
+     "sqft": 3168.0,
+     "price": 3000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-20",
+     "ppsf": 1,
+     "mi": 0.26
+    },
+    {
+     "slug": "7-mcallister-avenue-norwalk-connecticut-24149043",
+     "addr": "7 McAllister Avenue Unit 2",
+     "unit": "Unit 2",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1274.0,
+     "price": 2600.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-23",
+     "ppsf": 2,
+     "mi": 0.31
+    },
+    {
+     "slug": "9-laura-street-norwalk-connecticut-24171314",
+     "addr": "9 Laura Street",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1174.0,
+     "price": 2900.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-11",
+     "ppsf": 2,
+     "mi": 0.5
+    },
+    {
+     "slug": "6-hillside-place-norwalk-connecticut-24174630",
+     "addr": "6 Hillside Place",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 1.0,
+     "sqft": 1205.0,
+     "price": 4100.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-15",
+     "ppsf": 3,
+     "mi": 0.54
+    },
+    {
+     "slug": "84-taylor-avenue-norwalk-connecticut-24147701",
+     "addr": "84 Taylor Avenue Apt 1",
+     "unit": "Apt 1",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1106.0,
+     "price": 3400.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-06",
+     "ppsf": 3,
+     "mi": 0.59
+    },
+    {
+     "slug": "72-b-taylor-avenue-norwalk-connecticut-24192657",
+     "addr": "72-B Taylor Avenue",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 1.0,
+     "sqft": 4566.0,
+     "price": 3600.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 1,
+     "mi": 0.55
+    }
+   ],
+   "summary": {
+    "n": 5,
+    "low": 2600.0,
+    "high": 4100.0,
+    "median": 3000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

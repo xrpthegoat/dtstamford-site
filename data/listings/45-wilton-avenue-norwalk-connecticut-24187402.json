@@ -126,5 +126,102 @@
    "mi": 0.37,
    "walk": 7
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "6-harriet-street-norwalk-connecticut-24188378",
+     "addr": "6 Harriet Street Unit 2",
+     "unit": "Unit 2",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 2531.0,
+     "price": 2375.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-01",
+     "ppsf": 1,
+     "mi": 0.27
+    },
+    {
+     "slug": "20-spring-hill-avenue-norwalk-connecticut-24151393",
+     "addr": "20 Spring Hill Avenue",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1602.0,
+     "price": 3500.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-21",
+     "ppsf": 2,
+     "mi": 0.31
+    },
+    {
+     "slug": "49-spring-hill-avenue-norwalk-connecticut-24171044",
+     "addr": "49 Spring Hill Avenue",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 1870.0,
+     "price": 5100.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-22",
+     "ppsf": 3,
+     "mi": 0.37
+    },
+    {
+     "slug": "norwalk-connecticut-24151349",
+     "addr": null,
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1200.0,
+     "price": 3600.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-28",
+     "ppsf": 3,
+     "mi": 0.53
+    },
+    {
+     "slug": "6-ward-street-norwalk-connecticut-24182435",
+     "addr": "6 Ward Street",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1245.0,
+     "price": 3400.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-17",
+     "ppsf": 3,
+     "mi": 0.54
+    },
+    {
+     "slug": "12-west-rocks-road-norwalk-connecticut-24136225",
+     "addr": "12 West Rocks Road",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 1.0,
+     "sqft": 984.0,
+     "price": 2900.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-14",
+     "ppsf": 3,
+     "mi": 0.56
+    }
+   ],
+   "summary": {
+    "n": 6,
+    "low": 2375.0,
+    "high": 5100.0,
+    "median": 3450
+   },
+   "radiusMi": 0.75
+  }
  }
 }

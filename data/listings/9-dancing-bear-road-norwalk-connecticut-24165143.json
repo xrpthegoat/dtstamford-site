@@ -126,5 +126,73 @@
    "mi": 0.81,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "168-rowayton-avenue-norwalk-connecticut-24118947",
+     "addr": "168 Rowayton Avenue",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 2265.0,
+     "price": 12000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-01",
+     "ppsf": 5,
+     "mi": 0.62
+    },
+    {
+     "slug": "168-rowayton-avenue-norwalk-connecticut-24175575",
+     "addr": "168 Rowayton Avenue Unit A",
+     "unit": "Unit A",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 1400.0,
+     "price": 8750.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-08-06",
+     "ppsf": 6,
+     "mi": 0.62
+    },
+    {
+     "slug": "233-rowayton-avenue-norwalk-connecticut-24153587",
+     "addr": "233 Rowayton Avenue",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 2579.0,
+     "price": 33000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-23",
+     "ppsf": 13,
+     "mi": 0.75
+    },
+    {
+     "slug": "124-rowayton-avenue-norwalk-connecticut-24197986",
+     "addr": "124 Rowayton Avenue",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 2477.0,
+     "price": 13000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 5,
+     "mi": 0.72
+    }
+   ],
+   "summary": {
+    "n": 3,
+    "low": 8750.0,
+    "high": 33000.0,
+    "median": 12000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

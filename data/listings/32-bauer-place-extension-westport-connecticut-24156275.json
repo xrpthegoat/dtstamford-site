@@ -105,5 +105,60 @@
    "mi": 3.25,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "21-turkey-hill-road-north-westport-connecticut-24161803",
+     "addr": "21 Turkey Hill Road North",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 4.0,
+     "sqft": 2883.0,
+     "price": 2025000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-15",
+     "ppsf": 702,
+     "mi": 0.3
+    },
+    {
+     "slug": "1-dexter-road-westport-connecticut-24146583",
+     "addr": "1 Dexter Road",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 1.0,
+     "sqft": 1121.0,
+     "price": 1251000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-03",
+     "ppsf": 1116,
+     "mi": 0.59
+    },
+    {
+     "slug": "20-hickory-drive-westport-connecticut-24156644",
+     "addr": "20 Hickory Drive",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1560.0,
+     "price": 1160000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-14",
+     "ppsf": 744,
+     "mi": 0.7
+    }
+   ],
+   "summary": {
+    "n": 3,
+    "low": 1160000.0,
+    "high": 2025000.0,
+    "median": 1251000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

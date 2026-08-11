@@ -121,5 +121,72 @@
    "n": "West Ave @ Leroy Ave",
    "mi": 0.7
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "693-boston-post-road-darien-connecticut-24155938",
+     "addr": "693 Boston Post Road Unit A",
+     "unit": "Unit A",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 820.0,
+     "price": 4250.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-01",
+     "ppsf": 5,
+     "mi": 0.27
+    },
+    {
+     "slug": "darien-connecticut-24173255",
+     "addr": null,
+     "unit": "",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 835.0,
+     "price": 2725.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-18",
+     "ppsf": 3,
+     "mi": 0.48
+    },
+    {
+     "slug": "11-pond-lane-darien-connecticut-24173438",
+     "addr": "11 Pond Lane Unit 11",
+     "unit": "Unit 11",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 900.0,
+     "price": 4200.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 5,
+     "mi": 0.03
+    },
+    {
+     "slug": "1015-boston-post-road-darien-connecticut-24191192",
+     "addr": "1015 Boston Post Road #202",
+     "unit": "#202",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 900.0,
+     "price": 4000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 4,
+     "mi": 0.72
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 2725.0,
+    "high": 4250.0,
+    "median": 3488
+   },
+   "radiusMi": 0.75
+  }
  }
 }

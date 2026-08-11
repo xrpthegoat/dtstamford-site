@@ -107,5 +107,98 @@
    "mi": 0.18,
    "walk": 4
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "15-richmond-drive-greenwich-connecticut-24157455",
+     "addr": "15 Richmond Drive",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1435.0,
+     "price": 8250.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-23",
+     "ppsf": 6,
+     "mi": 0.5
+    },
+    {
+     "slug": "77-havemeyer-lane-stamford-connecticut-24164873",
+     "addr": "77 Havemeyer Lane Unit 48",
+     "unit": "Unit 48",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 1979.0,
+     "price": 7200.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-01",
+     "ppsf": 4,
+     "mi": 0.65
+    },
+    {
+     "slug": "45-sound-beach-ave-extension-greenwich-connecticut-24197554",
+     "addr": "45 Sound Beach Ave Extension",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 2556.0,
+     "price": 7999.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 3,
+     "mi": 0.39
+    },
+    {
+     "slug": "77-havemeyer-lane-stamford-connecticut-24191267",
+     "addr": "77 Havemeyer Lane Unit 310",
+     "unit": "Unit 310",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1400.0,
+     "price": 5900.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 4,
+     "mi": 0.62
+    },
+    {
+     "slug": "510-west-main-street-stamford-connecticut-24191385",
+     "addr": "510 West Main Street",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 1.0,
+     "sqft": 2027.0,
+     "price": 3000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 1,
+     "mi": 0.65
+    },
+    {
+     "slug": "175-west-avenue-stamford-connecticut-24191457",
+     "addr": "175 West Avenue Unit 8",
+     "unit": "Unit 8",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 1800.0,
+     "price": 3500.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 2,
+     "mi": 0.71
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 7200.0,
+    "high": 8250.0,
+    "median": 7725
+   },
+   "radiusMi": 0.75
+  }
  }
 }

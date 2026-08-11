@@ -133,5 +133,58 @@
    "n": "Bus stop",
    "mi": 0.74
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "22-cavray-road-norwalk-connecticut-24165362",
+     "addr": "22 Cavray Road",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 7.0,
+     "sqft": 7867.0,
+     "price": 1850000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-08-05",
+     "ppsf": 235,
+     "mi": 0.25
+    },
+    {
+     "slug": "95-old-saugatuck-road-norwalk-connecticut-24187690",
+     "addr": "95 Old Saugatuck Road",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 7.0,
+     "sqft": 8294.0,
+     "price": 4200000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 506,
+     "mi": 0.11
+    },
+    {
+     "slug": "279-saugatuck-avenue-westport-connecticut-24179641",
+     "addr": "279 Saugatuck Avenue",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 9.0,
+     "sqft": 9546.0,
+     "price": 14900000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 1561,
+     "mi": 0.74
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 1850000.0,
+    "high": 1850000.0,
+    "median": 1850000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

@@ -113,5 +113,59 @@
    "walk": 4,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "18-stone-avenue-greenwich-connecticut-24168979",
+     "addr": "18 Stone Avenue Unit 1",
+     "unit": "Unit 1",
+     "beds": 3.0,
+     "baths": 4.0,
+     "sqft": 2082.0,
+     "price": 1081000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-21",
+     "ppsf": 519,
+     "mi": 0.52
+    },
+    {
+     "slug": "178-milbank-avenue-greenwich-connecticut-24168623",
+     "addr": "178 Milbank Avenue Unit 2",
+     "unit": "Unit 2",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 2454.0,
+     "price": 2500000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-22",
+     "ppsf": 1019,
+     "mi": 0.6
+    },
+    {
+     "slug": "8-view-street-greenwich-connecticut-24181261",
+     "addr": "8 View Street Unit 7",
+     "unit": "Unit 7",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 3058.0,
+     "price": 1495000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 489,
+     "mi": 0.48
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 1081000.0,
+    "high": 2500000.0,
+    "median": 1790500
+   },
+   "radiusMi": 0.75
+  }
  }
 }

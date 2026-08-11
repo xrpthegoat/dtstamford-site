@@ -137,5 +137,60 @@
    "n": "Bus stop",
    "mi": 1.45
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "33-naromake-avenue-norwalk-connecticut-24172710",
+     "addr": "33 Naromake Avenue",
+     "unit": "",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1374.0,
+     "price": 1200000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-26",
+     "ppsf": 873,
+     "mi": 0.48
+    },
+    {
+     "slug": "174-woodward-avenue-norwalk-connecticut-24176877",
+     "addr": "174 Woodward Avenue",
+     "unit": "",
+     "beds": 2.0,
+     "baths": 1.0,
+     "sqft": 1116.0,
+     "price": 520000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-09",
+     "ppsf": 466,
+     "mi": 0.62
+    },
+    {
+     "slug": "13-elliott-street-norwalk-connecticut-24158382",
+     "addr": "13 Elliott Street",
+     "unit": "",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1287.0,
+     "price": 1010000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-28",
+     "ppsf": 785,
+     "mi": 0.75
+    }
+   ],
+   "summary": {
+    "n": 3,
+    "low": 520000.0,
+    "high": 1200000.0,
+    "median": 1010000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

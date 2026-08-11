@@ -104,5 +104,46 @@
    "n": "Broad St @ Greyrock Pl",
    "mi": 1.06
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "85-avery-street-stamford-connecticut-24151343",
+     "addr": "85 Avery Street",
+     "unit": "",
+     "beds": 6.0,
+     "baths": 2.0,
+     "sqft": 1792.0,
+     "price": 883000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-25",
+     "ppsf": 493,
+     "mi": 0.51
+    },
+    {
+     "slug": "251-seaside-avenue-stamford-connecticut-24185360",
+     "addr": "251 Seaside Avenue",
+     "unit": "",
+     "beds": 6.0,
+     "baths": 5.0,
+     "sqft": 4376.0,
+     "price": 1060000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-29",
+     "ppsf": 242,
+     "mi": 0.56
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 883000.0,
+    "high": 1060000.0,
+    "median": 971500
+   },
+   "radiusMi": 0.75
+  }
  }
 }

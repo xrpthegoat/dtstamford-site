@@ -126,5 +126,64 @@
    "mi": 2.62,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "building": {
+   "rows": [
+    {
+     "slug": "69-richmondville-avenue-westport-connecticut-24186428",
+     "addr": "69 Richmondville Avenue",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 4.0,
+     "sqft": 3998.0,
+     "price": 20000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 5
+    }
+   ],
+   "summary": null,
+   "label": "69 Richmondville Avenue"
+  },
+  "area": {
+   "rows": [
+    {
+     "slug": "5-tall-trees-drive-westport-connecticut-24155697",
+     "addr": "5 Tall Trees Drive",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 3.0,
+     "sqft": 2729.0,
+     "price": 7750.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-15",
+     "ppsf": 3,
+     "mi": 0.6
+    },
+    {
+     "slug": "11-partrick-lane-westport-connecticut-24156532",
+     "addr": "11 Partrick Lane",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 4.0,
+     "sqft": 3389.0,
+     "price": 11300.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-23",
+     "ppsf": 3,
+     "mi": 0.71
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 7750.0,
+    "high": 11300.0,
+    "median": 9525
+   },
+   "radiusMi": 0.75
+  }
  }
 }

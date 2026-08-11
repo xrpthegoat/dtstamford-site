@@ -133,5 +133,125 @@
    "walk": 8,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "building": {
+   "rows": [
+    {
+     "slug": "25-west-elm-street-greenwich-connecticut-24167901",
+     "addr": "25 West Elm Street Unit 10",
+     "unit": "Unit 10",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1250.0,
+     "price": 1150000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-07",
+     "ppsf": 920
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 1150000.0,
+    "high": 1150000.0,
+    "median": 1150000
+   },
+   "label": "25 West Elm Street"
+  },
+  "area": {
+   "rows": [
+    {
+     "slug": "11-lafayette-court-greenwich-connecticut-24150479",
+     "addr": "11 Lafayette Court Apt 5B",
+     "unit": "Apt 5B",
+     "beds": 2.0,
+     "baths": 3.0,
+     "sqft": 1514.0,
+     "price": 1515000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-06",
+     "ppsf": 1001,
+     "mi": 0.32
+    },
+    {
+     "slug": "11-lafayette-court-greenwich-connecticut-24169594",
+     "addr": "11 Lafayette Court Unit 1C",
+     "unit": "Unit 1C",
+     "beds": 2.0,
+     "baths": 3.0,
+     "sqft": 1640.0,
+     "price": 1700000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-22",
+     "ppsf": 1037,
+     "mi": 0.32
+    },
+    {
+     "slug": "60-prospect-street-greenwich-connecticut-24156902",
+     "addr": "60 Prospect Street Unit 58A",
+     "unit": "Unit 58A",
+     "beds": 2.0,
+     "baths": 3.0,
+     "sqft": 1200.0,
+     "price": 1075000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-06",
+     "ppsf": 896,
+     "mi": 0.44
+    },
+    {
+     "slug": "186-putnam-park-greenwich-connecticut-24145747",
+     "addr": "186 Putnam Park Unit 186",
+     "unit": "Unit 186",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1200.0,
+     "price": 905000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-20",
+     "ppsf": 754,
+     "mi": 0.55
+    },
+    {
+     "slug": "148-putnam-park-greenwich-connecticut-24164334",
+     "addr": "148 Putnam Park",
+     "unit": "",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1218.0,
+     "price": 800000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-23",
+     "ppsf": 657,
+     "mi": 0.57
+    },
+    {
+     "slug": "28-putnam-park-greenwich-connecticut-24165862",
+     "addr": "28 Putnam Park",
+     "unit": "",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1227.0,
+     "price": 849000.0,
+     "kind": "asking",
+     "status": "Under Contract - Continue to Show",
+     "ppsf": 692,
+     "mi": 0.5
+    }
+   ],
+   "summary": {
+    "n": 5,
+    "low": 800000.0,
+    "high": 1700000.0,
+    "median": 1075000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

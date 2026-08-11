@@ -98,5 +98,73 @@
    "mi": 0.68,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "46-prudence-drive-stamford-connecticut-24157278",
+     "addr": "46 Prudence Drive",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 2.0,
+     "sqft": 1628.0,
+     "price": 5300.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-18",
+     "ppsf": 3,
+     "mi": 0.16
+    },
+    {
+     "slug": "1312-hope-street-stamford-connecticut-24157858",
+     "addr": "1312 Hope Street Unit 2",
+     "unit": "Unit 2",
+     "beds": 4.0,
+     "baths": 2.0,
+     "sqft": 1625.0,
+     "price": 3750.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-30",
+     "ppsf": 2,
+     "mi": 0.22
+    },
+    {
+     "slug": "53-dagmar-road-stamford-connecticut-24170188",
+     "addr": "53 Dagmar Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 2963.0,
+     "price": 6028.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-19",
+     "ppsf": 2,
+     "mi": 0.69
+    },
+    {
+     "slug": "56-barholm-avenue-stamford-connecticut-24197469",
+     "addr": "56 Barholm Avenue",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 2354.0,
+     "price": 7500.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 3,
+     "mi": 0.62
+    }
+   ],
+   "summary": {
+    "n": 3,
+    "low": 3750.0,
+    "high": 6028.0,
+    "median": 5300
+   },
+   "radiusMi": 0.75
+  }
  }
 }

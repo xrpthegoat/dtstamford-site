@@ -110,5 +110,72 @@
    "n": "50 Danbury Rd",
    "mi": 0.9
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "264-chestnut-hill-road-norwalk-connecticut-24160403",
+     "addr": "264 Chestnut Hill Road",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 2076.0,
+     "price": 875000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-15",
+     "ppsf": 421,
+     "mi": 0.51
+    },
+    {
+     "slug": "276-grumman-avenue-norwalk-connecticut-24149272",
+     "addr": "276 Grumman Avenue",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1488.0,
+     "price": 675000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-14",
+     "ppsf": 454,
+     "mi": 0.73
+    },
+    {
+     "slug": "329-chestnut-hill-road-norwalk-connecticut-24186977",
+     "addr": "329 Chestnut Hill Road Unit 5",
+     "unit": "Unit 5",
+     "beds": 3.0,
+     "baths": 4.0,
+     "sqft": 4146.0,
+     "price": 2100000.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 507,
+     "mi": 0.13
+    },
+    {
+     "slug": "17-pumpkin-lane-norwalk-connecticut-24185368",
+     "addr": "17 Pumpkin Lane",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1894.0,
+     "price": 775000.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 409,
+     "mi": 0.61
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 675000.0,
+    "high": 875000.0,
+    "median": 775000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

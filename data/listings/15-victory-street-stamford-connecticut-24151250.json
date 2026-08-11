@@ -111,5 +111,85 @@
    "mi": 0.24,
    "walk": 5
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "1535-east-putnam-avenue-greenwich-connecticut-24161756",
+     "addr": "1535 East Putnam Avenue Unit 307",
+     "unit": "Unit 307",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 665.0,
+     "price": 410000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-26",
+     "ppsf": 617,
+     "mi": 0.62
+    },
+    {
+     "slug": "51-schuyler-avenue-stamford-connecticut-24154452",
+     "addr": "51 Schuyler Avenue Apt 7E",
+     "unit": "Apt 7E",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 894.0,
+     "price": 305000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-22",
+     "ppsf": 341,
+     "mi": 0.64
+    },
+    {
+     "slug": "51-schuyler-avenue-stamford-connecticut-24188992",
+     "addr": "51 Schuyler Avenue Unit 3B",
+     "unit": "Unit 3B",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 894.0,
+     "price": 299900.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 335,
+     "mi": 0.64
+    },
+    {
+     "slug": "51-schuyler-avenue-stamford-connecticut-24180814",
+     "addr": "51 Schuyler Avenue Unit 5A",
+     "unit": "Unit 5A",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 831.0,
+     "price": 307000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 369,
+     "mi": 0.64
+    },
+    {
+     "slug": "51-schuyler-avenue-stamford-connecticut-24184113",
+     "addr": "51 Schuyler Avenue Unit 6F",
+     "unit": "Unit 6F",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 831.0,
+     "price": 299000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 360,
+     "mi": 0.65
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 305000.0,
+    "high": 410000.0,
+    "median": 357500
+   },
+   "radiusMi": 0.75
+  }
  }
 }

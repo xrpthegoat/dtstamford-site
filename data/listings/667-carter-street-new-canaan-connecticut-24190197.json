@@ -128,5 +128,86 @@
    "n": "Bus stop",
    "mi": 1.98
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "293-old-norwalk-road-new-canaan-connecticut-24180010",
+     "addr": "293 Old Norwalk Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 4.0,
+     "sqft": 4014.0,
+     "price": 2650000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-08-03",
+     "ppsf": 660,
+     "mi": 0.39
+    },
+    {
+     "slug": "11-inwood-road-norwalk-connecticut-24172565",
+     "addr": "11 Inwood Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 2516.0,
+     "price": 950000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-18",
+     "ppsf": 378,
+     "mi": 0.56
+    },
+    {
+     "slug": "300-buttery-road-norwalk-connecticut-24144110",
+     "addr": "300 Buttery Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 2926.0,
+     "price": 1096100.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-16",
+     "ppsf": 375,
+     "mi": 0.73
+    },
+    {
+     "slug": "185-middle-ridge-road-new-canaan-connecticut-24192365",
+     "addr": "185 Middle Ridge Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 2800.0,
+     "price": 1649900.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 589,
+     "mi": 0.2
+    },
+    {
+     "slug": "14-fullmar-lane-norwalk-connecticut-24176088",
+     "addr": "14 Fullmar Lane",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 5.0,
+     "sqft": 5120.0,
+     "price": 1450000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 283,
+     "mi": 0.68
+    }
+   ],
+   "summary": {
+    "n": 3,
+    "low": 950000.0,
+    "high": 2650000.0,
+    "median": 1096100
+   },
+   "radiusMi": 0.75
+  }
  }
 }

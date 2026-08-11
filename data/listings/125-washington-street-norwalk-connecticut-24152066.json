@@ -107,5 +107,120 @@
    "n": "Bus stop",
    "mi": 0.86
   }
+ },
+ "comps": {
+  "building": {
+   "rows": [
+    {
+     "slug": "125-washington-street-norwalk-connecticut-24192133",
+     "addr": "125 Washington Street Unit 301",
+     "unit": "Unit 301",
+     "beds": 1.0,
+     "baths": 2.0,
+     "sqft": 1204.0,
+     "price": 435000.0,
+     "kind": "asking",
+     "status": "Under Contract - Continue to Show",
+     "ppsf": 361
+    }
+   ],
+   "summary": null,
+   "label": "125 Washington Street"
+  },
+  "area": {
+   "rows": [
+    {
+     "slug": "131-washington-street-norwalk-connecticut-24177597",
+     "addr": "131 Washington Street Unit 203",
+     "unit": "Unit 203",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 808.0,
+     "price": 349900.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-21",
+     "ppsf": 433,
+     "mi": 0.01
+    },
+    {
+     "slug": "131-washington-street-norwalk-connecticut-24137573",
+     "addr": "131 Washington Street Apt 204",
+     "unit": "Apt 204",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 677.0,
+     "price": 265000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-20",
+     "ppsf": 391,
+     "mi": 0.01
+    },
+    {
+     "slug": "126-washington-street-norwalk-connecticut-24157438",
+     "addr": "126 Washington Street Apt 304",
+     "unit": "Apt 304",
+     "beds": 1.0,
+     "baths": 2.0,
+     "sqft": 960.0,
+     "price": 335000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-29",
+     "ppsf": 349,
+     "mi": 0.04
+    },
+    {
+     "slug": "94-washington-street-norwalk-connecticut-24125545",
+     "addr": "94 Washington Street Apt 20",
+     "unit": "Apt 20",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 675.0,
+     "price": 263000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-31",
+     "ppsf": 390,
+     "mi": 0.06
+    },
+    {
+     "slug": "42-south-main-street-norwalk-connecticut-24174528",
+     "addr": "42 South Main Street Unit 203",
+     "unit": "Unit 203",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 816.0,
+     "price": 371000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-22",
+     "ppsf": 455,
+     "mi": 0.13
+    },
+    {
+     "slug": "49-day-street-norwalk-connecticut-24157880",
+     "addr": "49 Day Street Unit 209",
+     "unit": "Unit 209",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 528.0,
+     "price": 235000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-28",
+     "ppsf": 445,
+     "mi": 0.16
+    }
+   ],
+   "summary": {
+    "n": 6,
+    "low": 235000.0,
+    "high": 371000.0,
+    "median": 300000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

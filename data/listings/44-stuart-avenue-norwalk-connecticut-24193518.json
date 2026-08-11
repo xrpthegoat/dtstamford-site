@@ -108,5 +108,138 @@
    "mi": 0.28,
    "walk": 6
   }
+ },
+ "comps": {
+  "building": {
+   "rows": [
+    {
+     "slug": "44-stuart-avenue-norwalk-connecticut-24161811",
+     "addr": "44 Stuart Avenue Unit B3",
+     "unit": "Unit B3",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 750.0,
+     "price": 2195.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-08",
+     "ppsf": 3
+    },
+    {
+     "slug": "44-stuart-avenue-norwalk-connecticut-24195193",
+     "addr": "44 Stuart Avenue Unit A3",
+     "unit": "Unit A3",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 750.0,
+     "price": 2250.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 3
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 2195.0,
+    "high": 2195.0,
+    "median": 2195
+   },
+   "label": "44 Stuart Avenue"
+  },
+  "area": {
+   "rows": [
+    {
+     "slug": "6-8-hyatt-avenue-norwalk-connecticut-24185009",
+     "addr": "6-8 Hyatt Avenue Unit 5",
+     "unit": "Unit 5",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 525.0,
+     "price": 1850.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-08-03",
+     "ppsf": 4,
+     "mi": 0.1
+    },
+    {
+     "slug": "14-hyatt-avenue-norwalk-connecticut-24188891",
+     "addr": "14 Hyatt Avenue Unit A3",
+     "unit": "Unit A3",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 850.0,
+     "price": 2195.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-15",
+     "ppsf": 3,
+     "mi": 0.13
+    },
+    {
+     "slug": "20-magnolia-avenue-norwalk-connecticut-24185221",
+     "addr": "20 Magnolia Avenue Unit 1",
+     "unit": "Unit 1",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 600.0,
+     "price": 2250.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-06",
+     "ppsf": 4,
+     "mi": 0.19
+    },
+    {
+     "slug": "25-maple-street-norwalk-connecticut-24157039",
+     "addr": "25 Maple Street Unit 7",
+     "unit": "Unit 7",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 550.0,
+     "price": 1300.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-19",
+     "ppsf": 2,
+     "mi": 0.3
+    },
+    {
+     "slug": "30-ferris-avenue-norwalk-connecticut-24171827",
+     "addr": "30 Ferris Avenue Unit B7",
+     "unit": "Unit B7",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 750.0,
+     "price": 2195.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-12",
+     "ppsf": 3,
+     "mi": 0.31
+    },
+    {
+     "slug": "53-glenwood-avenue-norwalk-connecticut-24157345",
+     "addr": "53 Glenwood Avenue Unit 3",
+     "unit": "Unit 3",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 350.0,
+     "price": 1150.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-31",
+     "ppsf": 3,
+     "mi": 0.31
+    }
+   ],
+   "summary": {
+    "n": 6,
+    "low": 1150.0,
+    "high": 2250.0,
+    "median": 2022
+   },
+   "radiusMi": 0.75
+  }
  }
 }

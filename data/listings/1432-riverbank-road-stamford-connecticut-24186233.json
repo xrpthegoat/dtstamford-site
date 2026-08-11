@@ -127,5 +127,46 @@
    "mi": 5.17,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "80-old-long-ridge-road-stamford-connecticut-24167380",
+     "addr": "80 Old Long Ridge Road",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 2351.0,
+     "price": 995000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-02",
+     "ppsf": 423,
+     "mi": 0.56
+    },
+    {
+     "slug": "5-old-wagon-road-stamford-connecticut-24152881",
+     "addr": "5 Old Wagon Road",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 2890.0,
+     "price": 1025800.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-31",
+     "ppsf": 355,
+     "mi": 0.63
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 995000.0,
+    "high": 1025800.0,
+    "median": 1010400
+   },
+   "radiusMi": 0.75
+  }
  }
 }

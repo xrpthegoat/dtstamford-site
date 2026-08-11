@@ -100,5 +100,59 @@
    "n": "Bus stop",
    "mi": 1.18
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "41-grove-street-greenwich-connecticut-24169371",
+     "addr": "41 Grove Street",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 4.0,
+     "sqft": 2787.0,
+     "price": 12000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-01",
+     "ppsf": 4,
+     "mi": 0.33
+    },
+    {
+     "slug": "88-orchard-street-greenwich-connecticut-24184691",
+     "addr": "88 Orchard Street",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 4.0,
+     "sqft": 3827.0,
+     "price": 11000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-30",
+     "ppsf": 3,
+     "mi": 0.58
+    },
+    {
+     "slug": "18-osee-place-greenwich-connecticut-24195991",
+     "addr": "18 Osee Place",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 6.0,
+     "sqft": 3848.0,
+     "price": 18000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 5,
+     "mi": 0.66
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 11000.0,
+    "high": 12000.0,
+    "median": 11500
+   },
+   "radiusMi": 0.75
+  }
  }
 }

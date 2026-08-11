@@ -117,5 +117,130 @@
    "mi": 0.9,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "building": {
+   "rows": [
+    {
+     "slug": "63-church-street-greenwich-connecticut-24179060",
+     "addr": "63 Church Street Unit 2",
+     "unit": "Unit 2",
+     "beds": 1.0,
+     "baths": 2.0,
+     "sqft": 978.0,
+     "price": 8000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 8
+    },
+    {
+     "slug": "63-church-street-greenwich-connecticut-24193821",
+     "addr": "63 Church Street Unit 4",
+     "unit": "Unit 4",
+     "beds": 1.0,
+     "baths": 2.0,
+     "sqft": 990.0,
+     "price": 9000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 9
+    }
+   ],
+   "summary": null,
+   "label": "63 Church Street"
+  },
+  "area": {
+   "rows": [
+    {
+     "slug": "59-church-street-greenwich-connecticut-24188438",
+     "addr": "59 Church Street Unit 6",
+     "unit": "Unit 6",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 800.0,
+     "price": 2400.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-13",
+     "ppsf": 3,
+     "mi": 0.01
+    },
+    {
+     "slug": "118-greenwich-avenue-greenwich-connecticut-24184969",
+     "addr": "118 Greenwich Avenue Unit 1",
+     "unit": "Unit 1",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 800.0,
+     "price": 2100.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-27",
+     "ppsf": 3,
+     "mi": 0.38
+    },
+    {
+     "slug": "271-greenwich-avenue-greenwich-connecticut-24180209",
+     "addr": "271 Greenwich Avenue Unit 2D",
+     "unit": "Unit 2D",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 700.0,
+     "price": 2675.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-10",
+     "ppsf": 4,
+     "mi": 0.59
+    },
+    {
+     "slug": "343-greenwich-avenue-greenwich-connecticut-24153469",
+     "addr": "343 Greenwich Avenue Unit 2nd Floor",
+     "unit": "Unit 2nd Floor",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 800.0,
+     "price": 3950.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-03",
+     "ppsf": 5,
+     "mi": 0.72
+    },
+    {
+     "slug": "59-church-street-greenwich-connecticut-24194608",
+     "addr": "59 Church Street Unit 6",
+     "unit": "Unit 6",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 700.0,
+     "price": 2500.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 4,
+     "mi": 0.01
+    },
+    {
+     "slug": "23-locust-street-greenwich-connecticut-24195554",
+     "addr": "23 Locust Street",
+     "unit": "",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 1700.0,
+     "price": 3000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 2,
+     "mi": 0.7
+    }
+   ],
+   "summary": {
+    "n": 4,
+    "low": 2100.0,
+    "high": 3950.0,
+    "median": 2538
+   },
+   "radiusMi": 0.75
+  }
  }
 }

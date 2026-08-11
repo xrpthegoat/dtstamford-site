@@ -112,5 +112,102 @@
    "n": "Bus stop",
    "mi": 1.03
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "123-harbor-drive-stamford-connecticut-24167499",
+     "addr": "123 Harbor Drive Unit 501",
+     "unit": "Unit 501",
+     "beds": 2.0,
+     "baths": 3.0,
+     "sqft": 1489.0,
+     "price": 817500.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-01",
+     "ppsf": 549,
+     "mi": 0.06
+    },
+    {
+     "slug": "123-harbor-drive-stamford-connecticut-24169116",
+     "addr": "123 Harbor Drive Unit 308",
+     "unit": "Unit 308",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1406.0,
+     "price": 794000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-21",
+     "ppsf": 565,
+     "mi": 0.06
+    },
+    {
+     "slug": "54-lindstrom-road-stamford-connecticut-24162859",
+     "addr": "54 Lindstrom Road Unit 54",
+     "unit": "Unit 54",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1534.0,
+     "price": 540009.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-30",
+     "ppsf": 352,
+     "mi": 0.12
+    },
+    {
+     "slug": "43-harbor-drive-stamford-connecticut-24174717",
+     "addr": "43 Harbor Drive Unit 101",
+     "unit": "Unit 101",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1065.0,
+     "price": 640000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-06",
+     "ppsf": 601,
+     "mi": 0.15
+    },
+    {
+     "slug": "55-woodland-place-stamford-connecticut-24130036",
+     "addr": "55 Woodland Place Apt 1",
+     "unit": "Apt 1",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1394.0,
+     "price": 495000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-11",
+     "ppsf": 355,
+     "mi": 0.39
+    },
+    {
+     "slug": "61-seaview-avenue-stamford-connecticut-24150586",
+     "addr": "61 Seaview Avenue Apt 42",
+     "unit": "Apt 42",
+     "beds": 2.0,
+     "baths": 3.0,
+     "sqft": 1450.0,
+     "price": 551700.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-06",
+     "ppsf": 380,
+     "mi": 0.46
+    }
+   ],
+   "summary": {
+    "n": 6,
+    "low": 495000.0,
+    "high": 817500.0,
+    "median": 595850
+   },
+   "radiusMi": 0.75
+  }
  }
 }

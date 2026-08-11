@@ -119,5 +119,58 @@
    "n": "Bus stop",
    "mi": 1.19
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "82-ledgebrook-drive-norwalk-connecticut-24162790",
+     "addr": "82 Ledgebrook Drive Unit 82",
+     "unit": "Unit 82",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1806.0,
+     "price": 513000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-14",
+     "ppsf": 284,
+     "mi": 0.14
+    },
+    {
+     "slug": "106-gillies-lane-norwalk-connecticut-24186629",
+     "addr": "106 Gillies Lane Unit 106",
+     "unit": "Unit 106",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1806.0,
+     "price": 499500.0,
+     "kind": "asking",
+     "status": "Under Contract - Continue to Show",
+     "ppsf": 277,
+     "mi": 0.16
+    },
+    {
+     "slug": "34-ferris-avenue-norwalk-connecticut-24145088",
+     "addr": "34 Ferris Avenue Apt A2",
+     "unit": "Apt A2",
+     "beds": 3.0,
+     "baths": 4.0,
+     "sqft": 1801.0,
+     "price": 599000.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 333,
+     "mi": 0.64
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 513000.0,
+    "high": 513000.0,
+    "median": 513000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

@@ -114,5 +114,139 @@
    "mi": 0.08,
    "walk": 2
   }
+ },
+ "comps": {
+  "building": {
+   "rows": [
+    {
+     "slug": "1633-washington-boulevard-stamford-connecticut-24166450",
+     "addr": "1633 Washington Boulevard Unit 4D",
+     "unit": "Unit 4D",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1315.0,
+     "price": 445000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-15",
+     "ppsf": 338
+    },
+    {
+     "slug": "1633-washington-boulevard-stamford-connecticut-24149222",
+     "addr": "1633 Washington Boulevard Apt 3D",
+     "unit": "Apt 3D",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1315.0,
+     "price": 425000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-12",
+     "ppsf": 323
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 425000.0,
+    "high": 445000.0,
+    "median": 435000
+   },
+   "label": "1633 Washington Boulevard"
+  },
+  "area": {
+   "rows": [
+    {
+     "slug": "1611-washington-boulevard-stamford-connecticut-24159422",
+     "addr": "1611 Washington Boulevard Apt 1",
+     "unit": "Apt 1",
+     "beds": 2.0,
+     "baths": 3.0,
+     "sqft": 1566.0,
+     "price": 565000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-19",
+     "ppsf": 361,
+     "mi": 0.07
+    },
+    {
+     "slug": "1515-summer-street-stamford-connecticut-24155357",
+     "addr": "1515 Summer Street Unit 407",
+     "unit": "Unit 407",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1117.0,
+     "price": 575000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-15",
+     "ppsf": 515,
+     "mi": 0.1
+    },
+    {
+     "slug": "7-4th-street-stamford-connecticut-24155626",
+     "addr": "7 4th Street Apt 3H",
+     "unit": "Apt 3H",
+     "beds": 2.0,
+     "baths": 1.0,
+     "sqft": 1064.0,
+     "price": 345000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-07",
+     "ppsf": 324,
+     "mi": 0.18
+    },
+    {
+     "slug": "1400-bedford-street-stamford-connecticut-24150400",
+     "addr": "1400 Bedford Street Unit 11",
+     "unit": "Unit 11",
+     "beds": 2.0,
+     "baths": 3.0,
+     "sqft": 1268.0,
+     "price": 455000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-30",
+     "ppsf": 359,
+     "mi": 0.18
+    },
+    {
+     "slug": "34-4th-street-stamford-connecticut-24151048",
+     "addr": "34 4th Street Unit 34",
+     "unit": "Unit 34",
+     "beds": 2.0,
+     "baths": 1.0,
+     "sqft": 1054.0,
+     "price": 393000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-30",
+     "ppsf": 373,
+     "mi": 0.21
+    },
+    {
+     "slug": "104-north-street-stamford-connecticut-24142621",
+     "addr": "104 North Street Apt 801",
+     "unit": "Apt 801",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1421.0,
+     "price": 533000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-06",
+     "ppsf": 375,
+     "mi": 0.21
+    }
+   ],
+   "summary": {
+    "n": 6,
+    "low": 345000.0,
+    "high": 575000.0,
+    "median": 494000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

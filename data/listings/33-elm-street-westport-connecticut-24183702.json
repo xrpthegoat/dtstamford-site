@@ -104,5 +104,108 @@
    "mi": 1.73,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "building": {
+   "rows": [
+    {
+     "slug": "33-elm-street-westport-connecticut-24160395",
+     "addr": "33 Elm Street Unit 3",
+     "unit": "Unit 3",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 802.0,
+     "price": 3800.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-12",
+     "ppsf": 5
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 3800.0,
+    "high": 3800.0,
+    "median": 3800
+   },
+   "label": "33 Elm Street"
+  },
+  "area": {
+   "rows": [
+    {
+     "slug": "92-compo-road-south-westport-connecticut-24150619",
+     "addr": "92 Compo Road South",
+     "unit": "",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 793.0,
+     "price": 3000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-01",
+     "ppsf": 4,
+     "mi": 0.6
+    },
+    {
+     "slug": "201-main-street-westport-connecticut-24186244",
+     "addr": "201 Main Street Unit 204",
+     "unit": "Unit 204",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 730.0,
+     "price": 3800.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 5,
+     "mi": 0.14
+    },
+    {
+     "slug": "201-main-street-westport-connecticut-24196438",
+     "addr": "201 Main Street Unit 301",
+     "unit": "Unit 301",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 730.0,
+     "price": 3900.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 5,
+     "mi": 0.14
+    },
+    {
+     "slug": "1c-ridgewood-lane-westport-connecticut-24193599",
+     "addr": "1C Ridgewood Lane",
+     "unit": "",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 600.0,
+     "price": 2800.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 5,
+     "mi": 0.45
+    },
+    {
+     "slug": "341-main-street-westport-connecticut-24196024",
+     "addr": "341 Main Street Unit 2",
+     "unit": "Unit 2",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 500.0,
+     "price": 1900.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 4,
+     "mi": 0.54
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 3000.0,
+    "high": 3000.0,
+    "median": 3000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

@@ -96,5 +96,101 @@
    "mi": 2.18,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "201-main-street-westport-connecticut-24179108",
+     "addr": "201 Main Street Unit 302",
+     "unit": "Unit 302",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 850.0,
+     "price": 4800.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-11",
+     "ppsf": 6,
+     "mi": 0.36
+    },
+    {
+     "slug": "201-main-street-westport-connecticut-24138891",
+     "addr": "201 Main Street Unit 203",
+     "unit": "Unit 203",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 830.0,
+     "price": 4500.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-03",
+     "ppsf": 5,
+     "mi": 0.36
+    },
+    {
+     "slug": "113-kings-highway-north-westport-connecticut-24158091",
+     "addr": "113 Kings Highway North",
+     "unit": "",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1078.0,
+     "price": 3700.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-22",
+     "ppsf": 3,
+     "mi": 0.4
+    },
+    {
+     "slug": "5-church-lane-westport-connecticut-24182260",
+     "addr": "5 Church Lane Unit 310",
+     "unit": "Unit 310",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1220.0,
+     "price": 6995.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-28",
+     "ppsf": 6,
+     "mi": 0.53
+    },
+    {
+     "slug": "25-maplewood-avenue-westport-connecticut-24170591",
+     "addr": "25 Maplewood Avenue",
+     "unit": "",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1212.0,
+     "price": 4750.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-22",
+     "ppsf": 4,
+     "mi": 0.54
+    },
+    {
+     "slug": "201-main-street-westport-connecticut-24179083",
+     "addr": "201 Main Street Unit 201",
+     "unit": "Unit 201",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 935.0,
+     "price": 4700.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 5,
+     "mi": 0.36
+    }
+   ],
+   "summary": {
+    "n": 5,
+    "low": 3700.0,
+    "high": 6995.0,
+    "median": 4750
+   },
+   "radiusMi": 0.75
+  }
  }
 }

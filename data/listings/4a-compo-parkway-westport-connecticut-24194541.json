@@ -121,5 +121,73 @@
    "n": "Bus stop",
    "mi": 1.63
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "32-burnham-hill-westport-connecticut-24168754",
+     "addr": "32 Burnham Hill",
+     "unit": "",
+     "beds": 6.0,
+     "baths": 7.0,
+     "sqft": 6641.0,
+     "price": 5450000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-28",
+     "ppsf": 821,
+     "mi": 0.37
+    },
+    {
+     "slug": "9-pond-edge-road-westport-connecticut-24143533",
+     "addr": "9 Pond Edge Road",
+     "unit": "",
+     "beds": 6.0,
+     "baths": 7.0,
+     "sqft": 6100.0,
+     "price": 5775000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-11",
+     "ppsf": 947,
+     "mi": 0.43
+    },
+    {
+     "slug": "27-owenoke-park-westport-connecticut-24150724",
+     "addr": "27 Owenoke Park",
+     "unit": "",
+     "beds": 6.0,
+     "baths": 4.0,
+     "sqft": 3572.0,
+     "price": 6750000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-14",
+     "ppsf": 1890,
+     "mi": 0.61
+    },
+    {
+     "slug": "8-loretta-court-westport-connecticut-24156057",
+     "addr": "8 Loretta Court",
+     "unit": "",
+     "beds": 6.0,
+     "baths": 9.0,
+     "sqft": 9576.0,
+     "price": 6895000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 720,
+     "mi": 0.59
+    }
+   ],
+   "summary": {
+    "n": 3,
+    "low": 5450000.0,
+    "high": 6750000.0,
+    "median": 5775000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

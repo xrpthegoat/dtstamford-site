@@ -126,5 +126,96 @@
    "mi": 1.37,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "building": {
+   "rows": [
+    {
+     "slug": "19-soundview-drive-westport-connecticut-24125469",
+     "addr": "19 Soundview Drive",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 4.0,
+     "sqft": 1692.0,
+     "price": 49900.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-05",
+     "ppsf": 29
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 49900.0,
+    "high": 49900.0,
+    "median": 49900
+   },
+   "label": "19 Soundview Drive"
+  },
+  "area": {
+   "rows": [
+    {
+     "slug": "5-longview-road-westport-connecticut-24169951",
+     "addr": "5 Longview Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 6.0,
+     "sqft": 5191.0,
+     "price": 19000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-21",
+     "ppsf": 4,
+     "mi": 0.37
+    },
+    {
+     "slug": "232-hillspoint-road-westport-connecticut-24078871",
+     "addr": "232 Hillspoint Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 2.0,
+     "sqft": 2234.0,
+     "price": 30000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-01",
+     "ppsf": 13,
+     "mi": 0.47
+    },
+    {
+     "slug": "12-danbury-avenue-westport-connecticut-24165041",
+     "addr": "12 Danbury Avenue",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 5.0,
+     "sqft": 2274.0,
+     "price": 13000.0,
+     "kind": "asking",
+     "status": "Under Contract - Continue to Show",
+     "ppsf": 6,
+     "mi": 0.05
+    },
+    {
+     "slug": "29-soundview-drive-westport-connecticut-24140110",
+     "addr": "29 Soundview Drive",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 4.0,
+     "sqft": 1900.0,
+     "price": 22000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 12,
+     "mi": 0.06
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 19000.0,
+    "high": 30000.0,
+    "median": 24500
+   },
+   "radiusMi": 0.75
+  }
  }
 }

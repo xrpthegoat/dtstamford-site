@@ -108,5 +108,152 @@
    "mi": 0.38,
    "walk": 8
   }
+ },
+ "comps": {
+  "building": {
+   "rows": [
+    {
+     "slug": "50-aiken-street-norwalk-connecticut-24191306",
+     "addr": "50 Aiken Street Unit 294",
+     "unit": "Unit 294",
+     "beds": 2.0,
+     "baths": 1.0,
+     "sqft": 990.0,
+     "price": 2695.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-08-09",
+     "ppsf": 3
+    },
+    {
+     "slug": "50-aiken-street-norwalk-connecticut-24188917",
+     "addr": "50 Aiken Street Unit 124",
+     "unit": "Unit 124",
+     "beds": 2.0,
+     "baths": 1.0,
+     "sqft": 990.0,
+     "price": 2750.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-31",
+     "ppsf": 3
+    },
+    {
+     "slug": "50-aiken-street-norwalk-connecticut-24145491",
+     "addr": "50 Aiken Street Apt 404",
+     "unit": "Apt 404",
+     "beds": 2.0,
+     "baths": 1.0,
+     "sqft": 990.0,
+     "price": 2750.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-15",
+     "ppsf": 3
+    }
+   ],
+   "summary": {
+    "n": 3,
+    "low": 2695.0,
+    "high": 2750.0,
+    "median": 2750
+   },
+   "label": "50 Aiken Street"
+  },
+  "area": {
+   "rows": [
+    {
+     "slug": "2-maplewood-terrace-norwalk-connecticut-24166934",
+     "addr": "2 Maplewood Terrace Unit 2",
+     "unit": "Unit 2",
+     "beds": 2.0,
+     "baths": 1.0,
+     "sqft": 1433.0,
+     "price": 2600.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-01",
+     "ppsf": 2,
+     "mi": 0.09
+    },
+    {
+     "slug": "85-ohio-avenue-extension-norwalk-connecticut-24153090",
+     "addr": "85 Ohio Avenue Extension Unit 2nd fl",
+     "unit": "Unit 2nd fl",
+     "beds": 2.0,
+     "baths": 1.0,
+     "sqft": 600.0,
+     "price": 2500.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-01",
+     "ppsf": 4,
+     "mi": 0.12
+    },
+    {
+     "slug": "71-aiken-street-norwalk-connecticut-24178001",
+     "addr": "71 Aiken Street Unit J2",
+     "unit": "Unit J2",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1220.0,
+     "price": 3100.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-26",
+     "ppsf": 3,
+     "mi": 0.26
+    },
+    {
+     "slug": "42-center-avenue-norwalk-connecticut-24172070",
+     "addr": "42 Center Avenue",
+     "unit": "",
+     "beds": 2.0,
+     "baths": 1.0,
+     "sqft": 1210.0,
+     "price": 2625.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-11",
+     "ppsf": 2,
+     "mi": 0.34
+    },
+    {
+     "slug": "6-harriet-street-norwalk-connecticut-24196152",
+     "addr": "6 Harriet Street Unit 1",
+     "unit": "Unit 1",
+     "beds": 2.0,
+     "baths": 1.0,
+     "sqft": 2531.0,
+     "price": 2550.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-08-01",
+     "ppsf": 1,
+     "mi": 0.51
+    },
+    {
+     "slug": "25-grand-street-norwalk-connecticut-24159633",
+     "addr": "25 Grand Street Apt 165",
+     "unit": "Apt 165",
+     "beds": 2.0,
+     "baths": 1.0,
+     "sqft": 987.0,
+     "price": 2850.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-02",
+     "ppsf": 3,
+     "mi": 0.57
+    }
+   ],
+   "summary": {
+    "n": 6,
+    "low": 2500.0,
+    "high": 3100.0,
+    "median": 2612
+   },
+   "radiusMi": 0.75
+  }
  }
 }

@@ -124,5 +124,45 @@
    "walk": 8,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "47-barringer-road-darien-connecticut-24178790",
+     "addr": "47 Barringer Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 3355.0,
+     "price": 10750.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-06",
+     "ppsf": 3,
+     "mi": 0.49
+    },
+    {
+     "slug": "37-weed-street-new-canaan-connecticut-24156689",
+     "addr": "37 Weed Street",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 2516.0,
+     "price": 6500.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 3,
+     "mi": 0.35
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 10750.0,
+    "high": 10750.0,
+    "median": 10750
+   },
+   "radiusMi": 0.75
+  }
  }
 }

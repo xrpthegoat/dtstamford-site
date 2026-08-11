@@ -122,5 +122,59 @@
    "mi": 0.86,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "28-pleasant-street-greenwich-connecticut-24180840",
+     "addr": "28 Pleasant Street",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 2140.0,
+     "price": 6400.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-11",
+     "ppsf": 3,
+     "mi": 0.63
+    },
+    {
+     "slug": "181-east-putnam-avenue-greenwich-connecticut-24146165",
+     "addr": "181 East Putnam Avenue",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 2.0,
+     "sqft": 1904.0,
+     "price": 8400.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-03",
+     "ppsf": 4,
+     "mi": 0.75
+    },
+    {
+     "slug": "46-valleywood-road-greenwich-connecticut-24188515",
+     "addr": "46 Valleywood Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 4.0,
+     "sqft": 3026.0,
+     "price": 12250.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 4,
+     "mi": 0.25
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 6400.0,
+    "high": 8400.0,
+    "median": 7400
+   },
+   "radiusMi": 0.75
+  }
  }
 }

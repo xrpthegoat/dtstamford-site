@@ -116,5 +116,82 @@
    "mi": 0.21,
    "walk": 4
   }
+ },
+ "comps": {
+  "building": {
+   "rows": [
+    {
+     "slug": "36-woodbury-avenue-norwalk-connecticut-24191316",
+     "addr": "36 Woodbury Avenue #2B",
+     "unit": "#2B",
+     "beds": 0.0,
+     "baths": 1.0,
+     "sqft": 500.0,
+     "price": 1700.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-27",
+     "ppsf": 3
+    },
+    {
+     "slug": "36-woodbury-avenue-norwalk-connecticut-24186271",
+     "addr": "36 Woodbury Avenue Unit 2F",
+     "unit": "Unit 2F",
+     "beds": 0.0,
+     "baths": 1.0,
+     "sqft": 350.0,
+     "price": 1700.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-10",
+     "ppsf": 5
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 1700.0,
+    "high": 1700.0,
+    "median": 1700
+   },
+   "label": "36 Woodbury Avenue"
+  },
+  "area": {
+   "rows": [
+    {
+     "slug": "1-arch-street-norwalk-connecticut-24161003",
+     "addr": "1 Arch Street Unit 4",
+     "unit": "Unit 4",
+     "beds": 0.0,
+     "baths": 1.0,
+     "sqft": 450.0,
+     "price": 1650.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-07",
+     "ppsf": 4,
+     "mi": 0.41
+    },
+    {
+     "slug": "40-1-prospect-avenue-norwalk-connecticut-24196487",
+     "addr": "40-1 Prospect Avenue Unit 4b",
+     "unit": "Unit 4b",
+     "beds": 0.0,
+     "baths": 0.0,
+     "sqft": 500.0,
+     "price": 1695.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 3,
+     "mi": 0.27
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 1650.0,
+    "high": 1650.0,
+    "median": 1650
+   },
+   "radiusMi": 0.75
+  }
  }
 }

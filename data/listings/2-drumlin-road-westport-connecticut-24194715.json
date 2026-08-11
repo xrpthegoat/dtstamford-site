@@ -130,5 +130,86 @@
    "n": "Bus stop",
    "mi": 1.92
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "7-nappa-drive-westport-connecticut-24165305",
+     "addr": "7 Nappa Drive",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 2904.0,
+     "price": 12000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-27",
+     "ppsf": 4,
+     "mi": 0.49
+    },
+    {
+     "slug": "232-hillspoint-road-westport-connecticut-24078871",
+     "addr": "232 Hillspoint Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 2.0,
+     "sqft": 2234.0,
+     "price": 30000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-01",
+     "ppsf": 13,
+     "mi": 0.63
+    },
+    {
+     "slug": "5-longview-road-westport-connecticut-24169951",
+     "addr": "5 Longview Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 6.0,
+     "sqft": 5191.0,
+     "price": 19000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-21",
+     "ppsf": 4,
+     "mi": 0.64
+    },
+    {
+     "slug": "4-nappa-lane-westport-connecticut-24189482",
+     "addr": "4 Nappa Lane",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 2936.0,
+     "price": 12000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 4,
+     "mi": 0.42
+    },
+    {
+     "slug": "222-compo-road-south-westport-connecticut-24031199",
+     "addr": "222 Compo Road South",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 5.0,
+     "sqft": 4449.0,
+     "price": 14850.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 3,
+     "mi": 0.6
+    }
+   ],
+   "summary": {
+    "n": 3,
+    "low": 12000.0,
+    "high": 30000.0,
+    "median": 19000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

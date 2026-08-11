@@ -115,5 +115,50 @@
    "mi": 0.59,
    "walk": 12
   }
+ },
+ "comps": {
+  "building": {
+   "rows": [
+    {
+     "slug": "1-howard-avenue-norwalk-connecticut-24178510",
+     "addr": "1 Howard Avenue Unit C3",
+     "unit": "Unit C3",
+     "beds": 3.0,
+     "baths": 4.0,
+     "sqft": 1655.0,
+     "price": 799000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 483
+    }
+   ],
+   "summary": null,
+   "label": "1 Howard Avenue"
+  },
+  "area": {
+   "rows": [
+    {
+     "slug": "59-osborne-avenue-norwalk-connecticut-24174684",
+     "addr": "59 Osborne Avenue Unit A",
+     "unit": "Unit A",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 2265.0,
+     "price": 767500.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-29",
+     "ppsf": 339,
+     "mi": 0.75
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 767500.0,
+    "high": 767500.0,
+    "median": 767500
+   },
+   "radiusMi": 0.75
+  }
  }
 }

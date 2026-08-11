@@ -102,5 +102,126 @@
    "n": "Bus stop",
    "mi": 1.22
   }
+ },
+ "comps": {
+  "building": {
+   "rows": [
+    {
+     "slug": "107-south-main-street-norwalk-connecticut-24166820",
+     "addr": "107 South Main Street Unit C",
+     "unit": "Unit C",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 525.0,
+     "price": 1799.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-14",
+     "ppsf": 3
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 1799.0,
+    "high": 1799.0,
+    "median": 1799
+   },
+   "label": "107 South Main Street"
+  },
+  "area": {
+   "rows": [
+    {
+     "slug": "149-water-street-norwalk-connecticut-24157112",
+     "addr": "149 Water Street Apt 27",
+     "unit": "Apt 27",
+     "beds": 1.0,
+     "baths": 2.0,
+     "sqft": 747.0,
+     "price": 2300.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-27",
+     "ppsf": 3,
+     "mi": 0.19
+    },
+    {
+     "slug": "149-water-street-norwalk-connecticut-24184805",
+     "addr": "149 Water Street Unit 28",
+     "unit": "Unit 28",
+     "beds": 1.0,
+     "baths": 2.0,
+     "sqft": 747.0,
+     "price": 2400.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-01",
+     "ppsf": 3,
+     "mi": 0.19
+    },
+    {
+     "slug": "208-flax-hill-road-norwalk-connecticut-24180300",
+     "addr": "208 Flax Hill Road Unit 32",
+     "unit": "Unit 32",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 849.0,
+     "price": 2500.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-08-03",
+     "ppsf": 3,
+     "mi": 0.32
+    },
+    {
+     "slug": "2-south-main-street-norwalk-connecticut-24128453",
+     "addr": "2 South Main Street Unit W201",
+     "unit": "Unit W201",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 671.0,
+     "price": 2400.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-31",
+     "ppsf": 4,
+     "mi": 0.35
+    },
+    {
+     "slug": "131-washington-street-norwalk-connecticut-24182632",
+     "addr": "131 Washington Street Unit 301",
+     "unit": "Unit 301",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 703.0,
+     "price": 2300.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-08-01",
+     "ppsf": 3,
+     "mi": 0.39
+    },
+    {
+     "slug": "14-16-north-main-street-norwalk-connecticut-24158401",
+     "addr": "14-16 North Main Street Unit 3H",
+     "unit": "Unit 3H",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 795.0,
+     "price": 2400.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-01",
+     "ppsf": 3,
+     "mi": 0.39
+    }
+   ],
+   "summary": {
+    "n": 6,
+    "low": 2300.0,
+    "high": 2500.0,
+    "median": 2400
+   },
+   "radiusMi": 0.75
+  }
  }
 }

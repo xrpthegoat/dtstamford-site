@@ -108,5 +108,101 @@
    "mi": 0.53,
    "walk": 11
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "10-glendenning-street-norwalk-connecticut-24164557",
+     "addr": "10 Glendenning Street Unit Right",
+     "unit": "Unit Right",
+     "beds": 3.0,
+     "baths": 1.0,
+     "sqft": 2172.0,
+     "price": 3500.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-09",
+     "ppsf": 2,
+     "mi": 0.09
+    },
+    {
+     "slug": "6-harriet-street-norwalk-connecticut-24188378",
+     "addr": "6 Harriet Street Unit 2",
+     "unit": "Unit 2",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 2531.0,
+     "price": 2375.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-01",
+     "ppsf": 1,
+     "mi": 0.36
+    },
+    {
+     "slug": "24-highbrook-road-norwalk-connecticut-24178349",
+     "addr": "24 Highbrook Road",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1815.0,
+     "price": 5050.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-15",
+     "ppsf": 3,
+     "mi": 0.44
+    },
+    {
+     "slug": "6-ward-street-norwalk-connecticut-24182435",
+     "addr": "6 Ward Street",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1245.0,
+     "price": 3400.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-17",
+     "ppsf": 3,
+     "mi": 0.6
+    },
+    {
+     "slug": "2-maplewood-terrace-norwalk-connecticut-24166900",
+     "addr": "2 Maplewood Terrace Unit 1",
+     "unit": "Unit 1",
+     "beds": 3.0,
+     "baths": 1.0,
+     "sqft": 1203.0,
+     "price": 2600.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-01",
+     "ppsf": 2,
+     "mi": 0.68
+    },
+    {
+     "slug": "10-cannon-brook-lane-norwalk-connecticut-24196520",
+     "addr": "10 Cannon Brook Lane Unit 10",
+     "unit": "Unit 10",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 4150.0,
+     "price": 7000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 2,
+     "mi": 0.22
+    }
+   ],
+   "summary": {
+    "n": 5,
+    "low": 2375.0,
+    "high": 5050.0,
+    "median": 3400
+   },
+   "radiusMi": 0.75
+  }
  }
 }

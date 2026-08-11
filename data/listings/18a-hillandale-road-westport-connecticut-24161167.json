@@ -102,5 +102,59 @@
    "mi": 2.05,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "7-colony-road-westport-connecticut-24182426",
+     "addr": "7 Colony Road Unit A",
+     "unit": "Unit A",
+     "beds": 2.0,
+     "baths": 1.0,
+     "sqft": 1412.0,
+     "price": 4700.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-08-05",
+     "ppsf": 3,
+     "mi": 0.58
+    },
+    {
+     "slug": "30-crescent-park-road-westport-connecticut-24174719",
+     "addr": "30 Crescent Park Road",
+     "unit": "",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 960.0,
+     "price": 3500.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-13",
+     "ppsf": 4,
+     "mi": 0.59
+    },
+    {
+     "slug": "14-cross-highway-westport-connecticut-24173615",
+     "addr": "14 Cross Highway Unit D",
+     "unit": "Unit D",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1165.0,
+     "price": 4750.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 4,
+     "mi": 0.73
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 3500.0,
+    "high": 4700.0,
+    "median": 4100
+   },
+   "radiusMi": 0.75
+  }
  }
 }

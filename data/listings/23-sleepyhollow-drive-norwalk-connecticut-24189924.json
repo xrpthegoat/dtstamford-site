@@ -125,5 +125,73 @@
    "n": "Bus stop",
    "mi": 1.13
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "206-wolfpit-avenue-norwalk-connecticut-24169012",
+     "addr": "206 Wolfpit Avenue",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1988.0,
+     "price": 6250.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-04",
+     "ppsf": 3,
+     "mi": 0.52
+    },
+    {
+     "slug": "303-newtown-avenue-norwalk-connecticut-24152321",
+     "addr": "303 Newtown Avenue",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 1.0,
+     "sqft": 1400.0,
+     "price": 2800.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-02",
+     "ppsf": 2,
+     "mi": 0.65
+    },
+    {
+     "slug": "152-partrick-avenue-norwalk-connecticut-24192092",
+     "addr": "152 Partrick Avenue",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 1.0,
+     "sqft": 1504.0,
+     "price": 5000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-16",
+     "ppsf": 3,
+     "mi": 0.66
+    },
+    {
+     "slug": "1-romindon-court-norwalk-connecticut-24187549",
+     "addr": "1 Romindon Court",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1582.0,
+     "price": 4600.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 3,
+     "mi": 0.56
+    }
+   ],
+   "summary": {
+    "n": 3,
+    "low": 2800.0,
+    "high": 6250.0,
+    "median": 5000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

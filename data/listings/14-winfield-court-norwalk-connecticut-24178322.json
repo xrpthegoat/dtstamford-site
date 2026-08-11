@@ -134,5 +134,45 @@
    "n": "Bus stop",
    "mi": 0.73
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "60-myrtle-street-extension-norwalk-connecticut-24162002",
+     "addr": "60 Myrtle Street Extension",
+     "unit": "",
+     "beds": 2.0,
+     "baths": 1.0,
+     "sqft": 1105.0,
+     "price": 450000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-01",
+     "ppsf": 407,
+     "mi": 0.22
+    },
+    {
+     "slug": "2-winthrop-avenue-norwalk-connecticut-24189765",
+     "addr": "2 Winthrop Avenue",
+     "unit": "",
+     "beds": 2.0,
+     "baths": 3.0,
+     "sqft": 1402.0,
+     "price": 799000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 570,
+     "mi": 0.74
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 450000.0,
+    "high": 450000.0,
+    "median": 450000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

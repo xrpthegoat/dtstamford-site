@@ -126,5 +126,102 @@
    "n": "Bus stop",
    "mi": 1.48
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "10-hawkins-avenue-norwalk-connecticut-24171607",
+     "addr": "10 Hawkins Avenue Unit A",
+     "unit": "Unit A",
+     "beds": 3.0,
+     "baths": 1.0,
+     "sqft": 1000.0,
+     "price": 3900.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-26",
+     "ppsf": 4,
+     "mi": 0.03
+    },
+    {
+     "slug": "3-wallace-avenue-norwalk-connecticut-24162228",
+     "addr": "3 Wallace Avenue",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1938.0,
+     "price": 7250.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-07",
+     "ppsf": 4,
+     "mi": 0.16
+    },
+    {
+     "slug": "43-gregory-boulevard-norwalk-connecticut-24158542",
+     "addr": "43 Gregory Boulevard",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1279.0,
+     "price": 5000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-22",
+     "ppsf": 4,
+     "mi": 0.32
+    },
+    {
+     "slug": "199-gregory-boulevard-norwalk-connecticut-24183471",
+     "addr": "199 Gregory Boulevard Unit C6",
+     "unit": "Unit C6",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 1652.0,
+     "price": 5200.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-15",
+     "ppsf": 3,
+     "mi": 0.41
+    },
+    {
+     "slug": "285-east-avenue-norwalk-connecticut-24163035",
+     "addr": "285 East Avenue",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 1488.0,
+     "price": 5200.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-09",
+     "ppsf": 3,
+     "mi": 0.42
+    },
+    {
+     "slug": "100-shorefront-park-norwalk-connecticut-24163496",
+     "addr": "100 Shorefront Park",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1276.0,
+     "price": 5200.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-28",
+     "ppsf": 4,
+     "mi": 0.68
+    }
+   ],
+   "summary": {
+    "n": 6,
+    "low": 3900.0,
+    "high": 7250.0,
+    "median": 5200
+   },
+   "radiusMi": 0.75
+  }
  }
 }

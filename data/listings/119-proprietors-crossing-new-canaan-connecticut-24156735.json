@@ -130,5 +130,59 @@
    "mi": 3.32,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "26-pequot-lane-new-canaan-connecticut-170473214",
+     "addr": "26 Pequot Lane",
+     "unit": "",
+     "beds": 6.0,
+     "baths": 8.0,
+     "sqft": 12385.0,
+     "price": 5250000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-06",
+     "ppsf": 424,
+     "mi": 0.17
+    },
+    {
+     "slug": "1690-oenoke-ridge-new-canaan-connecticut-24183502",
+     "addr": "1690 Oenoke Ridge",
+     "unit": "",
+     "beds": 6.0,
+     "baths": 7.0,
+     "sqft": 5552.0,
+     "price": 3000000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-09",
+     "ppsf": 540,
+     "mi": 0.31
+    },
+    {
+     "slug": "108-logan-road-new-canaan-connecticut-24184790",
+     "addr": "108 Logan Road",
+     "unit": "",
+     "beds": 6.0,
+     "baths": 8.0,
+     "sqft": 6069.0,
+     "price": 3200000.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 527,
+     "mi": 0.59
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 3000000.0,
+    "high": 5250000.0,
+    "median": 4125000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

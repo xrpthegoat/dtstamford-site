@@ -110,5 +110,60 @@
    "mi": 0.28,
    "walk": 6
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "32-catalpa-road-wilton-connecticut-24141023",
+     "addr": "32 Catalpa Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 4.0,
+     "sqft": 2964.0,
+     "price": 983000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-29",
+     "ppsf": 332,
+     "mi": 0.17
+    },
+    {
+     "slug": "79-warncke-road-wilton-connecticut-24163233",
+     "addr": "79 Warncke Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 6.0,
+     "sqft": 4386.0,
+     "price": 1600000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-04",
+     "ppsf": 365,
+     "mi": 0.5
+    },
+    {
+     "slug": "221-catalpa-road-wilton-connecticut-24155941",
+     "addr": "221 Catalpa Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 2520.0,
+     "price": 1310000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-30",
+     "ppsf": 520,
+     "mi": 0.61
+    }
+   ],
+   "summary": {
+    "n": 3,
+    "low": 983000.0,
+    "high": 1600000.0,
+    "median": 1310000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

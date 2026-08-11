@@ -107,5 +107,45 @@
    "mi": 0.86,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "58-old-rock-lane-norwalk-connecticut-24126466",
+     "addr": "58 Old Rock Lane",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 1762.0,
+     "price": 865000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-11",
+     "ppsf": 491,
+     "mi": 0.73
+    },
+    {
+     "slug": "97-overlook-drive-new-canaan-connecticut-24194440",
+     "addr": "97 Overlook Drive",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 3132.0,
+     "price": 1795000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 573,
+     "mi": 0.75
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 865000.0,
+    "high": 865000.0,
+    "median": 865000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

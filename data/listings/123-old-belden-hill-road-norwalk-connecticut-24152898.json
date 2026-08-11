@@ -110,5 +110,125 @@
    "mi": 0.25,
    "walk": 5
   }
+ },
+ "comps": {
+  "building": {
+   "rows": [
+    {
+     "slug": "123-old-belden-hill-road-norwalk-connecticut-24158056",
+     "addr": "123 Old Belden Hill Road Apt 19",
+     "unit": "Apt 19",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1220.0,
+     "price": 540000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-15",
+     "ppsf": 443
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 540000.0,
+    "high": 540000.0,
+    "median": 540000
+   },
+   "label": "123 Old Belden Hill Road"
+  },
+  "area": {
+   "rows": [
+    {
+     "slug": "73-fawn-ridge-lane-norwalk-connecticut-24178343",
+     "addr": "73 Fawn Ridge Lane Unit 73",
+     "unit": "Unit 73",
+     "beds": 2.0,
+     "baths": 3.0,
+     "sqft": 1592.0,
+     "price": 645000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-22",
+     "ppsf": 405,
+     "mi": 0.61
+    },
+    {
+     "slug": "76-fawn-ridge-lane-norwalk-connecticut-24151523",
+     "addr": "76 Fawn Ridge Lane Unit 76",
+     "unit": "Unit 76",
+     "beds": 2.0,
+     "baths": 3.0,
+     "sqft": 1231.0,
+     "price": 635000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-23",
+     "ppsf": 516,
+     "mi": 0.61
+    },
+    {
+     "slug": "121-fawn-ridge-lane-norwalk-connecticut-24167889",
+     "addr": "121 Fawn Ridge Lane Unit 121",
+     "unit": "Unit 121",
+     "beds": 2.0,
+     "baths": 3.0,
+     "sqft": 1320.0,
+     "price": 680000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-05",
+     "ppsf": 515,
+     "mi": 0.61
+    },
+    {
+     "slug": "3-valley-view-road-norwalk-connecticut-24175042",
+     "addr": "3 Valley View Road Unit 23",
+     "unit": "Unit 23",
+     "beds": 2.0,
+     "baths": 3.0,
+     "sqft": 1440.0,
+     "price": 590000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-17",
+     "ppsf": 410,
+     "mi": 0.65
+    },
+    {
+     "slug": "3-valley-view-road-norwalk-connecticut-24153411",
+     "addr": "3 Valley View Road Apt 45",
+     "unit": "Apt 45",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1482.0,
+     "price": 405000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-10",
+     "ppsf": 273,
+     "mi": 0.65
+    },
+    {
+     "slug": "4-fawn-ridge-lane-wilton-connecticut-24189672",
+     "addr": "4 Fawn Ridge Lane Unit 4",
+     "unit": "Unit 4",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1582.0,
+     "price": 670000.0,
+     "kind": "asking",
+     "status": "Under Contract - Continue to Show",
+     "ppsf": 424,
+     "mi": 0.55
+    }
+   ],
+   "summary": {
+    "n": 5,
+    "low": 405000.0,
+    "high": 680000.0,
+    "median": 635000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

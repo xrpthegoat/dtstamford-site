@@ -105,5 +105,59 @@
    "mi": 3.72,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "13-riverfield-drive-westport-connecticut-24159296",
+     "addr": "13 Riverfield Drive",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 4.0,
+     "sqft": 4554.0,
+     "price": 2418000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-30",
+     "ppsf": 531,
+     "mi": 0.25
+    },
+    {
+     "slug": "30-cavalry-road-westport-connecticut-24154690",
+     "addr": "30 Cavalry Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 5.0,
+     "sqft": 4013.0,
+     "price": 2375000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-23",
+     "ppsf": 592,
+     "mi": 0.37
+    },
+    {
+     "slug": "18-silver-brook-road-westport-connecticut-24191350",
+     "addr": "18 Silver Brook Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 5.0,
+     "sqft": 4013.0,
+     "price": 2350000.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 586,
+     "mi": 0.67
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 2375000.0,
+    "high": 2418000.0,
+    "median": 2396500
+   },
+   "radiusMi": 0.75
+  }
  }
 }

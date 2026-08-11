@@ -127,5 +127,45 @@
    "mi": 2.39,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "13-terhune-drive-westport-connecticut-24114691",
+     "addr": "13 Terhune Drive",
+     "unit": "",
+     "beds": 6.0,
+     "baths": 6.0,
+     "sqft": 6010.0,
+     "price": 3499999.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-30",
+     "ppsf": 582,
+     "mi": 0.66
+    },
+    {
+     "slug": "36-east-main-street-westport-connecticut-24192039",
+     "addr": "36 East Main Street",
+     "unit": "",
+     "beds": 6.0,
+     "baths": 6.0,
+     "sqft": 4922.0,
+     "price": 2999000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 609,
+     "mi": 0.59
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 3499999.0,
+    "high": 3499999.0,
+    "median": 3499999
+   },
+   "radiusMi": 0.75
+  }
  }
 }

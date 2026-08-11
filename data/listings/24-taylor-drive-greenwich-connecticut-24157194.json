@@ -110,5 +110,59 @@
    "n": "Bus stop",
    "mi": 1.79
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "20-ridge-road-greenwich-connecticut-24174599",
+     "addr": "20 Ridge Road",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 4.0,
+     "sqft": 1839.0,
+     "price": 2503000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-31",
+     "ppsf": 1361,
+     "mi": 0.15
+    },
+    {
+     "slug": "64-hillside-road-greenwich-connecticut-24168797",
+     "addr": "64 Hillside Road",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 2145.0,
+     "price": 2500000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-16",
+     "ppsf": 1166,
+     "mi": 0.72
+    },
+    {
+     "slug": "33-sachem-road-greenwich-connecticut-24184423",
+     "addr": "33 Sachem Road",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 2972.0,
+     "price": 1750000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 589,
+     "mi": 0.62
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 2500000.0,
+    "high": 2503000.0,
+    "median": 2501500
+   },
+   "radiusMi": 0.75
+  }
  }
 }

@@ -106,5 +106,101 @@
    "mi": 3.18,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "489-main-street-westport-connecticut-24121354",
+     "addr": "489 Main Street",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 4.0,
+     "sqft": 2192.0,
+     "price": 840000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-01",
+     "ppsf": 383,
+     "mi": 0.33
+    },
+    {
+     "slug": "13-rockyfield-road-westport-connecticut-24175855",
+     "addr": "13 Rockyfield Road",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 6.0,
+     "sqft": 7409.0,
+     "price": 3925000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-08",
+     "ppsf": 530,
+     "mi": 0.52
+    },
+    {
+     "slug": "21-dover-road-westport-connecticut-24167866",
+     "addr": "21 Dover Road",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 5.0,
+     "sqft": 6356.0,
+     "price": 2800000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-16",
+     "ppsf": 441,
+     "mi": 0.56
+    },
+    {
+     "slug": "32-berndale-drive-westport-connecticut-24157886",
+     "addr": "32 Berndale Drive",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 4.0,
+     "sqft": 3328.0,
+     "price": 2450000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-17",
+     "ppsf": 736,
+     "mi": 0.7
+    },
+    {
+     "slug": "114-cross-highway-westport-connecticut-24165047",
+     "addr": "114 Cross Highway",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 5.0,
+     "sqft": 4179.0,
+     "price": 2550000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-08-06",
+     "ppsf": 610,
+     "mi": 0.74
+    },
+    {
+     "slug": "110-cross-highway-westport-connecticut-24191704",
+     "addr": "110 Cross Highway",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 4.0,
+     "sqft": 2864.0,
+     "price": 1999000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 698,
+     "mi": 0.7
+    }
+   ],
+   "summary": {
+    "n": 5,
+    "low": 840000.0,
+    "high": 3925000.0,
+    "median": 2550000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

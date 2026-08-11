@@ -103,5 +103,74 @@
    "mi": 3.04,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "22-fillow-street-westport-connecticut-24176711",
+     "addr": "22 Fillow Street",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1890.0,
+     "price": 1220000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-15",
+     "ppsf": 646,
+     "mi": 0.11
+    },
+    {
+     "slug": "44-sniffen-road-westport-connecticut-24172773",
+     "addr": "44 Sniffen Road",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 2246.0,
+     "price": 1450000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-17",
+     "ppsf": 646,
+     "mi": 0.22
+    },
+    {
+     "slug": "25-maplewood-avenue-westport-connecticut-24130771",
+     "addr": "25 Maplewood Avenue",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 1819.0,
+     "price": 930000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-24",
+     "ppsf": 511,
+     "mi": 0.32
+    },
+    {
+     "slug": "25-oak-street-westport-connecticut-24161417",
+     "addr": "25 Oak Street",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 2125.0,
+     "price": 1466000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-30",
+     "ppsf": 690,
+     "mi": 0.33
+    }
+   ],
+   "summary": {
+    "n": 4,
+    "low": 930000.0,
+    "high": 1466000.0,
+    "median": 1335000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

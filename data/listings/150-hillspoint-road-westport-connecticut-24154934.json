@@ -107,5 +107,101 @@
    "mi": 1.3,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "11-edgewater-hillside-westport-connecticut-24160000",
+     "addr": "11 Edgewater Hillside",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 5.0,
+     "sqft": 4693.0,
+     "price": 3899000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-31",
+     "ppsf": 831,
+     "mi": 0.14
+    },
+    {
+     "slug": "5-inwood-lane-westport-connecticut-24153684",
+     "addr": "5 Inwood Lane",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 2084.0,
+     "price": 1250000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-23",
+     "ppsf": 600,
+     "mi": 0.15
+    },
+    {
+     "slug": "18-hales-road-westport-connecticut-24178779",
+     "addr": "18 Hales Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 1542.0,
+     "price": 1350000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-20",
+     "ppsf": 875,
+     "mi": 0.17
+    },
+    {
+     "slug": "7-pond-edge-road-westport-connecticut-24172774",
+     "addr": "7 Pond Edge Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 6.0,
+     "sqft": 5729.0,
+     "price": 4400000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-21",
+     "ppsf": 768,
+     "mi": 0.25
+    },
+    {
+     "slug": "123-greens-farms-road-westport-connecticut-24137404",
+     "addr": "123 Greens Farms Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 5.0,
+     "sqft": 5207.0,
+     "price": 2600000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-15",
+     "ppsf": 499,
+     "mi": 0.52
+    },
+    {
+     "slug": "5-drumlin-road-westport-connecticut-24191980",
+     "addr": "5 Drumlin Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 4.0,
+     "sqft": 2884.0,
+     "price": 1795000.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 622,
+     "mi": 0.3
+    }
+   ],
+   "summary": {
+    "n": 5,
+    "low": 1250000.0,
+    "high": 4400000.0,
+    "median": 2600000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

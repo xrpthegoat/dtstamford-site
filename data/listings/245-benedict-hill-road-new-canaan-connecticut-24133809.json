@@ -105,5 +105,59 @@
    "mi": 2.32,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "30-wild-duck-road-wilton-connecticut-24139563",
+     "addr": "30 Wild Duck Road",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 5.0,
+     "sqft": 4434.0,
+     "price": 1850000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-31",
+     "ppsf": 417,
+     "mi": 0.7
+    },
+    {
+     "slug": "10-woodhill-road-wilton-connecticut-24165876",
+     "addr": "10 Woodhill Road",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 6.0,
+     "sqft": 7045.0,
+     "price": 2650000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-16",
+     "ppsf": 376,
+     "mi": 0.75
+    },
+    {
+     "slug": "559-cheese-spring-road-new-canaan-connecticut-24186885",
+     "addr": "559 Cheese Spring Road",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 5.0,
+     "sqft": 4348.0,
+     "price": 2395000.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 551,
+     "mi": 0.19
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 1850000.0,
+    "high": 2650000.0,
+    "median": 2250000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

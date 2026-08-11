@@ -108,5 +108,86 @@
    "walk": 2,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "60-east-avenue-new-canaan-connecticut-24092533",
+     "addr": "60 East Avenue",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1400.0,
+     "price": 975000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-17",
+     "ppsf": 696,
+     "mi": 0.43
+    },
+    {
+     "slug": "42-hoyt-street-new-canaan-connecticut-24176539",
+     "addr": "42 Hoyt Street",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 2842.0,
+     "price": 1792600.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-08-04",
+     "ppsf": 631,
+     "mi": 0.48
+    },
+    {
+     "slug": "218-summer-street-new-canaan-connecticut-24182418",
+     "addr": "218 Summer Street",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 2256.0,
+     "price": 1475000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-30",
+     "ppsf": 654,
+     "mi": 0.58
+    },
+    {
+     "slug": "122-summer-street-new-canaan-connecticut-24164700",
+     "addr": "122 Summer Street Unit 122",
+     "unit": "Unit 122",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 1370.0,
+     "price": 958000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 699,
+     "mi": 0.61
+    },
+    {
+     "slug": "21-hampton-lane-new-canaan-connecticut-24194178",
+     "addr": "21 Hampton Lane",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 2432.0,
+     "price": 1800000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 740,
+     "mi": 0.63
+    }
+   ],
+   "summary": {
+    "n": 3,
+    "low": 975000.0,
+    "high": 1792600.0,
+    "median": 1475000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

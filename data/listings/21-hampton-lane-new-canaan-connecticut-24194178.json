@@ -132,5 +132,73 @@
    "mi": 0.7,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "101-parade-hill-road-new-canaan-connecticut-24150007",
+     "addr": "101 Parade Hill Road",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1404.0,
+     "price": 1100000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-14",
+     "ppsf": 783,
+     "mi": 0.14
+    },
+    {
+     "slug": "60-east-avenue-new-canaan-connecticut-24092533",
+     "addr": "60 East Avenue",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1400.0,
+     "price": 975000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-17",
+     "ppsf": 696,
+     "mi": 0.62
+    },
+    {
+     "slug": "45-seminary-street-new-canaan-connecticut-24165203",
+     "addr": "45 Seminary Street",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 2455.0,
+     "price": 1605290.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-13",
+     "ppsf": 654,
+     "mi": 0.63
+    },
+    {
+     "slug": "122-summer-street-new-canaan-connecticut-24164700",
+     "addr": "122 Summer Street Unit 122",
+     "unit": "Unit 122",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 1370.0,
+     "price": 958000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 699,
+     "mi": 0.71
+    }
+   ],
+   "summary": {
+    "n": 3,
+    "low": 975000.0,
+    "high": 1605290.0,
+    "median": 1100000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

@@ -128,5 +128,58 @@
    "mi": 0.86,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "111-parish-lane-new-canaan-connecticut-24146706",
+     "addr": "111 Parish Lane",
+     "unit": "",
+     "beds": 6.0,
+     "baths": 8.0,
+     "sqft": 7315.0,
+     "price": 4500000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-16",
+     "ppsf": 615,
+     "mi": 0.66
+    },
+    {
+     "slug": "19-orchard-lane-new-canaan-connecticut-24184181",
+     "addr": "19 Orchard Lane",
+     "unit": "",
+     "beds": 6.0,
+     "baths": 8.0,
+     "sqft": 6658.0,
+     "price": 4999000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 751,
+     "mi": 0.63
+    },
+    {
+     "slug": "85-harrison-avenue-new-canaan-connecticut-24190863",
+     "addr": "85 Harrison Avenue",
+     "unit": "",
+     "beds": 6.0,
+     "baths": 8.0,
+     "sqft": 8070.0,
+     "price": 4675000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 579,
+     "mi": 0.63
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 4500000.0,
+    "high": 4500000.0,
+    "median": 4500000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

@@ -112,5 +112,72 @@
    "n": "Bus stop",
    "mi": 1.82
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "100-seaview-avenue-norwalk-connecticut-24138292",
+     "addr": "100 Seaview Avenue Unit 3I",
+     "unit": "Unit 3I",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1178.0,
+     "price": 830000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-09",
+     "ppsf": 705,
+     "mi": 0.69
+    },
+    {
+     "slug": "100-seaview-avenue-norwalk-connecticut-24122289",
+     "addr": "100 Seaview Avenue Unit 4F",
+     "unit": "Unit 4F",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1448.0,
+     "price": 907000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-08-06",
+     "ppsf": 626,
+     "mi": 0.69
+    },
+    {
+     "slug": "26-cove-avenue-norwalk-connecticut-24099304",
+     "addr": "26 Cove Avenue Apt 3B",
+     "unit": "Apt 3B",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1628.0,
+     "price": 699000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 429,
+     "mi": 0.57
+    },
+    {
+     "slug": "100-seaview-avenue-norwalk-connecticut-24150430",
+     "addr": "100 Seaview Avenue Unit 2J",
+     "unit": "Unit 2J",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1178.0,
+     "price": 795000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 675,
+     "mi": 0.69
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 830000.0,
+    "high": 907000.0,
+    "median": 868500
+   },
+   "radiusMi": 0.75
+  }
  }
 }

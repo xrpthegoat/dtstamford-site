@@ -109,5 +109,45 @@
    "n": "Bus stop",
    "mi": 1.13
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "7-hearthstone-drive-greenwich-connecticut-24183996",
+     "addr": "7 Hearthstone Drive",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 6.0,
+     "sqft": 6301.0,
+     "price": 6302500.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-14",
+     "ppsf": 1000,
+     "mi": 0.23
+    },
+    {
+     "slug": "1-hendrie-dr-extension-greenwich-connecticut-24194050",
+     "addr": "1 Hendrie Dr Extension",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 3.0,
+     "sqft": 2092.0,
+     "price": 3300000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 1577,
+     "mi": 0.69
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 6302500.0,
+    "high": 6302500.0,
+    "median": 6302500
+   },
+   "radiusMi": 0.75
+  }
  }
 }

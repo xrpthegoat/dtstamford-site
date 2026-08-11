@@ -130,5 +130,59 @@
    "n": "Bus stop",
    "mi": 1.5
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "25-lincoln-avenue-norwalk-connecticut-24149728",
+     "addr": "25 Lincoln Avenue",
+     "unit": "",
+     "beds": 6.0,
+     "baths": 3.0,
+     "sqft": 3921.0,
+     "price": 900000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-28",
+     "ppsf": 230,
+     "mi": 0.71
+    },
+    {
+     "slug": "9-quintard-avenue-norwalk-connecticut-24166656",
+     "addr": "9 Quintard Avenue",
+     "unit": "",
+     "beds": 6.0,
+     "baths": 3.0,
+     "sqft": 2183.0,
+     "price": 735000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-11",
+     "ppsf": 337,
+     "mi": 0.72
+    },
+    {
+     "slug": "36-taylor-avenue-norwalk-connecticut-24174136",
+     "addr": "36 Taylor Avenue",
+     "unit": "",
+     "beds": 6.0,
+     "baths": 4.0,
+     "sqft": 3209.0,
+     "price": 1300000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 405,
+     "mi": 0.55
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 735000.0,
+    "high": 900000.0,
+    "median": 817500
+   },
+   "radiusMi": 0.75
+  }
  }
 }

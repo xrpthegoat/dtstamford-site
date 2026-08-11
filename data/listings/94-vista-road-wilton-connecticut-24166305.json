@@ -124,5 +124,60 @@
    "mi": 3.01,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "45-keelers-ridge-road-wilton-connecticut-24168973",
+     "addr": "45 Keelers Ridge Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 4.0,
+     "sqft": 4152.0,
+     "price": 2176300.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-24",
+     "ppsf": 524,
+     "mi": 0.61
+    },
+    {
+     "slug": "78-keelers-ridge-road-wilton-connecticut-24161492",
+     "addr": "78 Keelers Ridge Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 4.0,
+     "sqft": 4154.0,
+     "price": 2000000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-15",
+     "ppsf": 481,
+     "mi": 0.68
+    },
+    {
+     "slug": "78-ruscoe-road-wilton-connecticut-24152217",
+     "addr": "78 Ruscoe Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 4.0,
+     "sqft": 3646.0,
+     "price": 1210000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-15",
+     "ppsf": 332,
+     "mi": 0.72
+    }
+   ],
+   "summary": {
+    "n": 3,
+    "low": 1210000.0,
+    "high": 2176300.0,
+    "median": 2000000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

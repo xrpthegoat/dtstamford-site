@@ -127,5 +127,73 @@
    "mi": 3.48,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "342-greens-farms-road-westport-connecticut-24122231",
+     "addr": "342 Greens Farms Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 5.0,
+     "sqft": 6600.0,
+     "price": 2100000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-27",
+     "ppsf": 318,
+     "mi": 0.51
+    },
+    {
+     "slug": "86-maple-avenue-south-westport-connecticut-24148769",
+     "addr": "86 Maple Avenue South",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 4.0,
+     "sqft": 3218.0,
+     "price": 2345000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-03",
+     "ppsf": 729,
+     "mi": 0.59
+    },
+    {
+     "slug": "28-turkey-hill-road-north-westport-connecticut-24151540",
+     "addr": "28 Turkey Hill Road North",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 4.0,
+     "sqft": 3244.0,
+     "price": 1875000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-08",
+     "ppsf": 578,
+     "mi": 0.74
+    },
+    {
+     "slug": "61-clapboard-hill-road-westport-connecticut-24171986",
+     "addr": "61 Clapboard Hill Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 4.0,
+     "sqft": 3418.0,
+     "price": 3795000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 1110,
+     "mi": 0.65
+    }
+   ],
+   "summary": {
+    "n": 3,
+    "low": 1875000.0,
+    "high": 2345000.0,
+    "median": 2100000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

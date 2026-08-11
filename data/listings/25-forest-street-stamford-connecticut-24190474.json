@@ -134,5 +134,177 @@
    "mi": 0.09,
    "walk": 2
   }
+ },
+ "comps": {
+  "building": {
+   "rows": [
+    {
+     "slug": "25-forest-street-stamford-connecticut-24184338",
+     "addr": "25 Forest Street Unit 7F",
+     "unit": "Unit 7F",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 875.0,
+     "price": 455000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-15",
+     "ppsf": 520
+    },
+    {
+     "slug": "25-forest-street-stamford-connecticut-24182471",
+     "addr": "25 Forest Street Unit 14D",
+     "unit": "Unit 14D",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 864.0,
+     "price": 450000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-02",
+     "ppsf": 521
+    },
+    {
+     "slug": "25-forest-street-stamford-connecticut-24151470",
+     "addr": "25 Forest Street Unit 7D",
+     "unit": "Unit 7D",
+     "beds": 1.0,
+     "baths": 2.0,
+     "sqft": 1067.0,
+     "price": 490000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-28",
+     "ppsf": 459
+    },
+    {
+     "slug": "25-forest-street-stamford-connecticut-24150167",
+     "addr": "25 Forest Street Unit 15E",
+     "unit": "Unit 15E",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 783.0,
+     "price": 435000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-31",
+     "ppsf": 556
+    },
+    {
+     "slug": "25-forest-street-stamford-connecticut-24146698",
+     "addr": "25 Forest Street Unit 11M",
+     "unit": "Unit 11M",
+     "beds": 1.0,
+     "baths": 2.0,
+     "sqft": 965.0,
+     "price": 469000.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 486
+    }
+   ],
+   "summary": {
+    "n": 4,
+    "low": 435000.0,
+    "high": 490000.0,
+    "median": 452500
+   },
+   "label": "25 Forest Street"
+  },
+  "area": {
+   "rows": [
+    {
+     "slug": "127-greyrock-place-stamford-connecticut-24155153",
+     "addr": "127 Greyrock Place Apt 1408",
+     "unit": "Apt 1408",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 831.0,
+     "price": 357500.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-24",
+     "ppsf": 430,
+     "mi": 0.14
+    },
+    {
+     "slug": "127-greyrock-place-stamford-connecticut-24156149",
+     "addr": "127 Greyrock Place Unit 1611",
+     "unit": "Unit 1611",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 557.0,
+     "price": 305000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-01",
+     "ppsf": 548,
+     "mi": 0.14
+    },
+    {
+     "slug": "127-greyrock-place-stamford-connecticut-24153809",
+     "addr": "127 Greyrock Place Apt 1401",
+     "unit": "Apt 1401",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 764.0,
+     "price": 364500.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-10",
+     "ppsf": 477,
+     "mi": 0.14
+    },
+    {
+     "slug": "127-greyrock-place-stamford-connecticut-24165015",
+     "addr": "127 Greyrock Place Unit 1206",
+     "unit": "Unit 1206",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 746.0,
+     "price": 410000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-27",
+     "ppsf": 550,
+     "mi": 0.15
+    },
+    {
+     "slug": "140-grove-street-stamford-connecticut-24186081",
+     "addr": "140 Grove Street Unit 4G",
+     "unit": "Unit 4G",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 599.0,
+     "price": 212500.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-24",
+     "ppsf": 355,
+     "mi": 0.17
+    },
+    {
+     "slug": "140-grove-street-stamford-connecticut-24182888",
+     "addr": "140 Grove Street Unit 2H",
+     "unit": "Unit 2H",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 597.0,
+     "price": 250000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-24",
+     "ppsf": 419,
+     "mi": 0.18
+    }
+   ],
+   "summary": {
+    "n": 6,
+    "low": 212500.0,
+    "high": 410000.0,
+    "median": 331250
+   },
+   "radiusMi": 0.75
+  }
  }
 }

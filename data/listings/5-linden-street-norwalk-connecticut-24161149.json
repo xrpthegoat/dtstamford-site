@@ -106,5 +106,101 @@
    "mi": 0.09,
    "walk": 2
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "71-aiken-street-norwalk-connecticut-24172521",
+     "addr": "71 Aiken Street Unit L5",
+     "unit": "Unit L5",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 739.0,
+     "price": 2100.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-01",
+     "ppsf": 3,
+     "mi": 0.25
+    },
+    {
+     "slug": "50-aiken-street-norwalk-connecticut-24178239",
+     "addr": "50 Aiken Street Unit 286",
+     "unit": "Unit 286",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 736.0,
+     "price": 2350.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-11",
+     "ppsf": 3,
+     "mi": 0.3
+    },
+    {
+     "slug": "50-aiken-street-norwalk-connecticut-24190372",
+     "addr": "50 Aiken Street Unit 123",
+     "unit": "Unit 123",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 736.0,
+     "price": 2200.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-22",
+     "ppsf": 3,
+     "mi": 0.35
+    },
+    {
+     "slug": "50-aiken-street-norwalk-connecticut-24149160",
+     "addr": "50 Aiken Street Unit 225",
+     "unit": "Unit 225",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 736.0,
+     "price": 2100.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-15",
+     "ppsf": 3,
+     "mi": 0.35
+    },
+    {
+     "slug": "32-pulaski-street-norwalk-connecticut-24162480",
+     "addr": "32 Pulaski Street Unit 3",
+     "unit": "Unit 3",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 600.0,
+     "price": 1795.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-11",
+     "ppsf": 3,
+     "mi": 0.4
+    },
+    {
+     "slug": "50-aiken-street-norwalk-connecticut-24197754",
+     "addr": "50 Aiken Street Unit 456",
+     "unit": "Unit 456",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 736.0,
+     "price": 2250.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 3,
+     "mi": 0.3
+    }
+   ],
+   "summary": {
+    "n": 5,
+    "low": 1795.0,
+    "high": 2350.0,
+    "median": 2100
+   },
+   "radiusMi": 0.75
+  }
  }
 }

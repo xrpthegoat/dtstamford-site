@@ -105,5 +105,85 @@
    "mi": 4.23,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "13-rockyfield-road-westport-connecticut-24175855",
+     "addr": "13 Rockyfield Road",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 6.0,
+     "sqft": 7409.0,
+     "price": 3925000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-08",
+     "ppsf": 530,
+     "mi": 0.6
+    },
+    {
+     "slug": "117-weston-road-westport-connecticut-24155788",
+     "addr": "117 Weston Road",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 4.0,
+     "sqft": 5472.0,
+     "price": 2300000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-15",
+     "ppsf": 420,
+     "mi": 0.63
+    },
+    {
+     "slug": "240-north-avenue-westport-connecticut-24181944",
+     "addr": "240 North Avenue",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 5.0,
+     "sqft": 3778.0,
+     "price": 3499000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 926,
+     "mi": 0.25
+    },
+    {
+     "slug": "4-charcoal-lane-westport-connecticut-24169922",
+     "addr": "4 Charcoal Lane",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 5.0,
+     "sqft": 6015.0,
+     "price": 3450000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 574,
+     "mi": 0.68
+    },
+    {
+     "slug": "56-charcoal-hill-road-westport-connecticut-24161256",
+     "addr": "56 Charcoal Hill Road",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 3.0,
+     "sqft": 3072.0,
+     "price": 2790000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 908,
+     "mi": 0.71
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 2300000.0,
+    "high": 3925000.0,
+    "median": 3112500
+   },
+   "radiusMi": 0.75
+  }
  }
 }

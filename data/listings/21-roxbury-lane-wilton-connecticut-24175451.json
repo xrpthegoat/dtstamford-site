@@ -111,5 +111,45 @@
    "mi": 0.58,
    "walk": 12
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "5-holly-place-wilton-connecticut-24156912",
+     "addr": "5 Holly Place",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 2704.0,
+     "price": 13333.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-01",
+     "ppsf": 5,
+     "mi": 0.39
+    },
+    {
+     "slug": "332-belden-hill-road-wilton-connecticut-24163305",
+     "addr": "332 Belden Hill Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 2803.0,
+     "price": 5800.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 2,
+     "mi": 0.66
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 13333.0,
+    "high": 13333.0,
+    "median": 13333
+   },
+   "radiusMi": 0.75
+  }
  }
 }

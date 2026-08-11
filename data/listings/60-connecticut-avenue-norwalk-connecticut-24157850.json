@@ -106,5 +106,102 @@
    "mi": 0.29,
    "walk": 6
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "71-connecticut-avenue-norwalk-connecticut-24141494",
+     "addr": "71 Connecticut Avenue Unit 209",
+     "unit": "Unit 209",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1444.0,
+     "price": 3500.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-28",
+     "ppsf": 2,
+     "mi": 0.1
+    },
+    {
+     "slug": "100-truman-street-norwalk-connecticut-24166422",
+     "addr": "100 Truman Street Unit B",
+     "unit": "Unit B",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 1620.0,
+     "price": 4925.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-07",
+     "ppsf": 3,
+     "mi": 0.25
+    },
+    {
+     "slug": "53-1-2-glenwood-avenue-norwalk-connecticut-24168697",
+     "addr": "53-1/2 Glenwood Avenue Unit A",
+     "unit": "Unit A",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 2650.0,
+     "price": 2600.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-08",
+     "ppsf": 1,
+     "mi": 0.41
+    },
+    {
+     "slug": "27-ferris-avenue-norwalk-connecticut-24164787",
+     "addr": "27 Ferris Avenue Unit 4",
+     "unit": "Unit 4",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 1726.0,
+     "price": 3850.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-24",
+     "ppsf": 2,
+     "mi": 0.42
+    },
+    {
+     "slug": "norwalk-connecticut-24151349",
+     "addr": null,
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1200.0,
+     "price": 3600.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-28",
+     "ppsf": 3,
+     "mi": 0.53
+    },
+    {
+     "slug": "84-taylor-avenue-norwalk-connecticut-24147701",
+     "addr": "84 Taylor Avenue Apt 1",
+     "unit": "Apt 1",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1106.0,
+     "price": 3400.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-06",
+     "ppsf": 3,
+     "mi": 0.55
+    }
+   ],
+   "summary": {
+    "n": 6,
+    "low": 2600.0,
+    "high": 4925.0,
+    "median": 3550
+   },
+   "radiusMi": 0.75
+  }
  }
 }

@@ -104,5 +104,73 @@
    "mi": 1.89,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "4-nursery-street-norwalk-connecticut-24149822",
+     "addr": "4 Nursery Street",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 4.0,
+     "sqft": 5480.0,
+     "price": 1200000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-28",
+     "ppsf": 219,
+     "mi": 0.62
+    },
+    {
+     "slug": "58-old-rock-lane-norwalk-connecticut-24126466",
+     "addr": "58 Old Rock Lane",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 1762.0,
+     "price": 865000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-11",
+     "ppsf": 491,
+     "mi": 0.63
+    },
+    {
+     "slug": "7-douglas-drive-norwalk-connecticut-24158941",
+     "addr": "7 Douglas Drive",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 2022.0,
+     "price": 960000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-24",
+     "ppsf": 475,
+     "mi": 0.68
+    },
+    {
+     "slug": "211-old-norwalk-road-new-canaan-connecticut-24185717",
+     "addr": "211 Old Norwalk Road",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 2564.0,
+     "price": 1550000.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 605,
+     "mi": 0.42
+    }
+   ],
+   "summary": {
+    "n": 3,
+    "low": 865000.0,
+    "high": 1200000.0,
+    "median": 960000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

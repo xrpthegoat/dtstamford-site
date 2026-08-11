@@ -124,5 +124,126 @@
    "mi": 0.29,
    "walk": 6
   }
+ },
+ "comps": {
+  "building": {
+   "rows": [
+    {
+     "slug": "300-broad-street-stamford-connecticut-24155323",
+     "addr": "300 Broad Street Unit 707",
+     "unit": "Unit 707",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 654.0,
+     "price": 310000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-14",
+     "ppsf": 474
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 310000.0,
+    "high": 310000.0,
+    "median": 310000
+   },
+   "label": "300 Broad Street"
+  },
+  "area": {
+   "rows": [
+    {
+     "slug": "30-glenbrook-road-stamford-connecticut-24150595",
+     "addr": "30 Glenbrook Road Apt 10F",
+     "unit": "Apt 10F",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 800.0,
+     "price": 285000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-14",
+     "ppsf": 356,
+     "mi": 0.1
+    },
+    {
+     "slug": "91-highland-road-stamford-connecticut-24155215",
+     "addr": "91 Highland Road Unit 91",
+     "unit": "Unit 91",
+     "beds": 1.0,
+     "baths": 2.0,
+     "sqft": 965.0,
+     "price": 395000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-10",
+     "ppsf": 409,
+     "mi": 0.1
+    },
+    {
+     "slug": "50-glenbrook-road-stamford-connecticut-24145151",
+     "addr": "50 Glenbrook Road Apt 4E",
+     "unit": "Apt 4E",
+     "beds": 1.0,
+     "baths": 2.0,
+     "sqft": 1079.0,
+     "price": 340000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-20",
+     "ppsf": 315,
+     "mi": 0.13
+    },
+    {
+     "slug": "50-glenbrook-road-stamford-connecticut-24161609",
+     "addr": "50 Glenbrook Road Unit 1F",
+     "unit": "Unit 1F",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 939.0,
+     "price": 215000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-24",
+     "ppsf": 229,
+     "mi": 0.13
+    },
+    {
+     "slug": "50-glenbrook-road-stamford-connecticut-24158144",
+     "addr": "50 Glenbrook Road Apt 16F",
+     "unit": "Apt 16F",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 939.0,
+     "price": 378000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-27",
+     "ppsf": 403,
+     "mi": 0.13
+    },
+    {
+     "slug": "39-glenbrook-road-stamford-connecticut-24156821",
+     "addr": "39 Glenbrook Road Unit 5L",
+     "unit": "Unit 5L",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 542.0,
+     "price": 221500.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-15",
+     "ppsf": 409,
+     "mi": 0.15
+    }
+   ],
+   "summary": {
+    "n": 6,
+    "low": 215000.0,
+    "high": 395000.0,
+    "median": 312500
+   },
+   "radiusMi": 0.75
+  }
  }
 }

@@ -132,5 +132,152 @@
    "mi": 0.33,
    "walk": 7
   }
+ },
+ "comps": {
+  "building": {
+   "rows": [
+    {
+     "slug": "50-aiken-street-norwalk-connecticut-24190372",
+     "addr": "50 Aiken Street Unit 123",
+     "unit": "Unit 123",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 736.0,
+     "price": 2200.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-22",
+     "ppsf": 3
+    },
+    {
+     "slug": "50-aiken-street-norwalk-connecticut-24178239",
+     "addr": "50 Aiken Street Unit 286",
+     "unit": "Unit 286",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 736.0,
+     "price": 2350.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-11",
+     "ppsf": 3
+    },
+    {
+     "slug": "50-aiken-street-norwalk-connecticut-24149160",
+     "addr": "50 Aiken Street Unit 225",
+     "unit": "Unit 225",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 736.0,
+     "price": 2100.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-15",
+     "ppsf": 3
+    }
+   ],
+   "summary": {
+    "n": 3,
+    "low": 2100.0,
+    "high": 2350.0,
+    "median": 2200
+   },
+   "label": "50 Aiken Street"
+  },
+  "area": {
+   "rows": [
+    {
+     "slug": "71-aiken-street-norwalk-connecticut-24172521",
+     "addr": "71 Aiken Street Unit L5",
+     "unit": "Unit L5",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 739.0,
+     "price": 2100.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-01",
+     "ppsf": 3,
+     "mi": 0.2
+    },
+    {
+     "slug": "5-linden-street-norwalk-connecticut-24161149",
+     "addr": "5 Linden Street",
+     "unit": "",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 1188.0,
+     "price": 1750.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-17",
+     "ppsf": 1,
+     "mi": 0.3
+    },
+    {
+     "slug": "32-pulaski-street-norwalk-connecticut-24162480",
+     "addr": "32 Pulaski Street Unit 3",
+     "unit": "Unit 3",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 600.0,
+     "price": 1795.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-11",
+     "ppsf": 3,
+     "mi": 0.3
+    },
+    {
+     "slug": "14-center-avenue-norwalk-connecticut-24161730",
+     "addr": "14 Center Avenue Unit 1N",
+     "unit": "Unit 1N",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 500.0,
+     "price": 1900.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-13",
+     "ppsf": 4,
+     "mi": 0.48
+    },
+    {
+     "slug": "14-center-avenue-norwalk-connecticut-24194519",
+     "addr": "14 Center Avenue Unit 1S",
+     "unit": "Unit 1S",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 600.0,
+     "price": 1925.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-08-03",
+     "ppsf": 3,
+     "mi": 0.48
+    },
+    {
+     "slug": "168-main-street-norwalk-connecticut-24174451",
+     "addr": "168 Main Street Unit 3B",
+     "unit": "Unit 3B",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 500.0,
+     "price": 1400.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-01",
+     "ppsf": 3,
+     "mi": 0.56
+    }
+   ],
+   "summary": {
+    "n": 6,
+    "low": 1400.0,
+    "high": 2100.0,
+    "median": 1848
+   },
+   "radiusMi": 0.75
+  }
  }
 }

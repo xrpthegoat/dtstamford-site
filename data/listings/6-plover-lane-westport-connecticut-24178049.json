@@ -110,5 +110,72 @@
    "n": "Bus stop",
    "mi": 0.85
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "4-covlee-drive-westport-connecticut-24169919",
+     "addr": "4 Covlee Drive",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 4.0,
+     "sqft": 2935.0,
+     "price": 9500.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-11",
+     "ppsf": 3,
+     "mi": 0.19
+    },
+    {
+     "slug": "14-cockenoe-drive-westport-connecticut-24150537",
+     "addr": "14 Cockenoe Drive",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 6.0,
+     "sqft": 3627.0,
+     "price": 49000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-24",
+     "ppsf": 14,
+     "mi": 0.62
+    },
+    {
+     "slug": "11-belaire-drive-westport-connecticut-24191310",
+     "addr": "11 Belaire Drive",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 4.0,
+     "sqft": 3946.0,
+     "price": 11000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 3,
+     "mi": 0.48
+    },
+    {
+     "slug": "16-island-way-westport-connecticut-24190409",
+     "addr": "16 Island Way",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 4.0,
+     "sqft": 2990.0,
+     "price": 17000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 6,
+     "mi": 0.49
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 9500.0,
+    "high": 49000.0,
+    "median": 29250
+   },
+   "radiusMi": 0.75
+  }
  }
 }

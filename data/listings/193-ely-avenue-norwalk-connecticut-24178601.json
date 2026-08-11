@@ -110,5 +110,86 @@
    "n": "Bus stop",
    "mi": 1.56
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "56-soundview-avenue-norwalk-connecticut-24164232",
+     "addr": "56 Soundview Avenue Unit 1",
+     "unit": "Unit 1",
+     "beds": 3.0,
+     "baths": 4.0,
+     "sqft": 2422.0,
+     "price": 730000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-15",
+     "ppsf": 301,
+     "mi": 0.36
+    },
+    {
+     "slug": "18-auburn-street-norwalk-connecticut-24151162",
+     "addr": "18 Auburn Street Unit 18",
+     "unit": "Unit 18",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 2150.0,
+     "price": 805000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-20",
+     "ppsf": 374,
+     "mi": 0.47
+    },
+    {
+     "slug": "225-flax-hill-road-norwalk-connecticut-24149067",
+     "addr": "225 Flax Hill Road Unit 2",
+     "unit": "Unit 2",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 1822.0,
+     "price": 700000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-24",
+     "ppsf": 384,
+     "mi": 0.48
+    },
+    {
+     "slug": "90-bouton-street-norwalk-connecticut-24182793",
+     "addr": "90 Bouton Street Unit 2A",
+     "unit": "Unit 2A",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1244.0,
+     "price": 505000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 406,
+     "mi": 0.23
+    },
+    {
+     "slug": "15-madison-street-norwalk-connecticut-24145836",
+     "addr": "15 Madison Street Apt B7",
+     "unit": "Apt B7",
+     "beds": 3.0,
+     "baths": 1.0,
+     "sqft": 1092.0,
+     "price": 278000.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 255,
+     "mi": 0.56
+    }
+   ],
+   "summary": {
+    "n": 3,
+    "low": 700000.0,
+    "high": 805000.0,
+    "median": 730000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

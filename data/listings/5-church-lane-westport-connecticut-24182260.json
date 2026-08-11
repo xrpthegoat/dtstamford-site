@@ -103,5 +103,120 @@
    "mi": 1.7,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "building": {
+   "rows": [
+    {
+     "slug": "5-church-lane-westport-connecticut-24192229",
+     "addr": "5 Church Lane Unit 410",
+     "unit": "Unit 410",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1184.0,
+     "price": 6750.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 6
+    }
+   ],
+   "summary": null,
+   "label": "5 Church Lane"
+  },
+  "area": {
+   "rows": [
+    {
+     "slug": "201-main-street-westport-connecticut-24138891",
+     "addr": "201 Main Street Unit 203",
+     "unit": "Unit 203",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 830.0,
+     "price": 4500.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-03",
+     "ppsf": 5,
+     "mi": 0.17
+    },
+    {
+     "slug": "201-main-street-westport-connecticut-24179108",
+     "addr": "201 Main Street Unit 302",
+     "unit": "Unit 302",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 850.0,
+     "price": 4800.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-11",
+     "ppsf": 6,
+     "mi": 0.18
+    },
+    {
+     "slug": "20-cross-street-westport-connecticut-24172100",
+     "addr": "20 Cross Street Unit 5",
+     "unit": "Unit 5",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1182.0,
+     "price": 4900.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-06",
+     "ppsf": 4,
+     "mi": 0.33
+    },
+    {
+     "slug": "113-kings-highway-north-westport-connecticut-24158091",
+     "addr": "113 Kings Highway North",
+     "unit": "",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1078.0,
+     "price": 3700.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-22",
+     "ppsf": 3,
+     "mi": 0.45
+    },
+    {
+     "slug": "315-main-street-westport-connecticut-24146601",
+     "addr": "315 Main Street",
+     "unit": "",
+     "beds": 2.0,
+     "baths": 1.0,
+     "sqft": 740.0,
+     "price": 3250.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-30",
+     "ppsf": 4,
+     "mi": 0.53
+    },
+    {
+     "slug": "19-whitney-street-westport-connecticut-24179563",
+     "addr": "19 Whitney Street",
+     "unit": "",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1400.0,
+     "price": 3800.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-17",
+     "ppsf": 3,
+     "mi": 0.62
+    }
+   ],
+   "summary": {
+    "n": 6,
+    "low": 3250.0,
+    "high": 4900.0,
+    "median": 4150
+   },
+   "radiusMi": 0.75
+  }
  }
 }

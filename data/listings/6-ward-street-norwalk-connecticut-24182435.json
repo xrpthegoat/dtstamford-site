@@ -106,5 +106,102 @@
    "mi": 0.55,
    "walk": 11
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "2-maplewood-terrace-norwalk-connecticut-24166900",
+     "addr": "2 Maplewood Terrace Unit 1",
+     "unit": "Unit 1",
+     "beds": 3.0,
+     "baths": 1.0,
+     "sqft": 1203.0,
+     "price": 2600.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-01",
+     "ppsf": 2,
+     "mi": 0.13
+    },
+    {
+     "slug": "6-harriet-street-norwalk-connecticut-24188378",
+     "addr": "6 Harriet Street Unit 2",
+     "unit": "Unit 2",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 2531.0,
+     "price": 2375.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-01",
+     "ppsf": 1,
+     "mi": 0.35
+    },
+    {
+     "slug": "12-west-rocks-road-norwalk-connecticut-24136225",
+     "addr": "12 West Rocks Road",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 1.0,
+     "sqft": 984.0,
+     "price": 2900.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-14",
+     "ppsf": 3,
+     "mi": 0.6
+    },
+    {
+     "slug": "3-vail-street-norwalk-connecticut-24192795",
+     "addr": "3 Vail Street Unit B",
+     "unit": "Unit B",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1122.0,
+     "price": 3550.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-29",
+     "ppsf": 3,
+     "mi": 0.64
+    },
+    {
+     "slug": "7-bartlett-manor-norwalk-connecticut-24178946",
+     "addr": "7 Bartlett Manor",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1242.0,
+     "price": 3800.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-31",
+     "ppsf": 3,
+     "mi": 0.67
+    },
+    {
+     "slug": "49-spring-hill-avenue-norwalk-connecticut-24171044",
+     "addr": "49 Spring Hill Avenue",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 1870.0,
+     "price": 5100.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-22",
+     "ppsf": 3,
+     "mi": 0.68
+    }
+   ],
+   "summary": {
+    "n": 6,
+    "low": 2375.0,
+    "high": 5100.0,
+    "median": 3225
+   },
+   "radiusMi": 0.75
+  }
  }
 }

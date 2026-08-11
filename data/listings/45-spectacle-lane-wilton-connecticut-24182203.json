@@ -111,5 +111,45 @@
    "mi": 2.6,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "51-deer-run-road-wilton-connecticut-24155296",
+     "addr": "51 Deer Run Road",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 2674.0,
+     "price": 1135000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-29",
+     "ppsf": 424,
+     "mi": 0.68
+    },
+    {
+     "slug": "871-ridgefield-road-wilton-connecticut-24179319",
+     "addr": "871 Ridgefield Road",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1706.0,
+     "price": 879000.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 515,
+     "mi": 0.59
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 1135000.0,
+    "high": 1135000.0,
+    "median": 1135000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

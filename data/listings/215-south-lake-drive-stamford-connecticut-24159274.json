@@ -102,5 +102,59 @@
    "mi": 5.83,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "0-south-brook-drive-stamford-connecticut-170552650",
+     "addr": "0 South Brook Drive",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 4.0,
+     "sqft": 4100.0,
+     "price": 1758371.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-11",
+     "ppsf": 429,
+     "mi": 0.36
+    },
+    {
+     "slug": "21-ravenglass-drive-stamford-connecticut-24143674",
+     "addr": "21 Ravenglass Drive Unit 21",
+     "unit": "Unit 21",
+     "beds": 4.0,
+     "baths": 5.0,
+     "sqft": 5441.0,
+     "price": 2600000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-09",
+     "ppsf": 478,
+     "mi": 0.42
+    },
+    {
+     "slug": "196-echo-hill-drive-stamford-connecticut-24184131",
+     "addr": "196 Echo Hill Drive",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 3544.0,
+     "price": 1250000.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 353,
+     "mi": 0.18
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 1758371.0,
+    "high": 2600000.0,
+    "median": 2179186
+   },
+   "radiusMi": 0.75
+  }
  }
 }

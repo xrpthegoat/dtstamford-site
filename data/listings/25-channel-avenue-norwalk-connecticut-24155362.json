@@ -97,5 +97,101 @@
    "mi": 1.1,
    "line": "Metro-North Railroad;CTrail"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "11-sable-street-norwalk-connecticut-24160880",
+     "addr": "11 sable Street Unit 2",
+     "unit": "Unit 2",
+     "beds": 3.0,
+     "baths": 1.0,
+     "sqft": 900.0,
+     "price": 2800.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-30",
+     "ppsf": 3,
+     "mi": 0.19
+    },
+    {
+     "slug": "12-splitrock-road-norwalk-connecticut-24146189",
+     "addr": "12 Splitrock Road",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 3316.0,
+     "price": 8000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-01",
+     "ppsf": 2,
+     "mi": 0.39
+    },
+    {
+     "slug": "119-woodward-avenue-norwalk-connecticut-24176190",
+     "addr": "119 Woodward Avenue",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 1.0,
+     "sqft": 1000.0,
+     "price": 3200.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-19",
+     "ppsf": 3,
+     "mi": 0.42
+    },
+    {
+     "slug": "100-shorefront-park-norwalk-connecticut-24163496",
+     "addr": "100 Shorefront Park",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1276.0,
+     "price": 5200.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-28",
+     "ppsf": 4,
+     "mi": 0.55
+    },
+    {
+     "slug": "8-quintard-avenue-norwalk-connecticut-24167872",
+     "addr": "8 Quintard Avenue",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1685.0,
+     "price": 4000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-27",
+     "ppsf": 2,
+     "mi": 0.68
+    },
+    {
+     "slug": "169-south-main-street-norwalk-connecticut-24195457",
+     "addr": "169 South Main Street Unit D",
+     "unit": "Unit D",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1157.0,
+     "price": 3500.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 3,
+     "mi": 0.71
+    }
+   ],
+   "summary": {
+    "n": 5,
+    "low": 2800.0,
+    "high": 8000.0,
+    "median": 4000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

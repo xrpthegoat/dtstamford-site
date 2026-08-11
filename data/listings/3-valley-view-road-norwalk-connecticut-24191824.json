@@ -129,5 +129,150 @@
    "mi": 0.19,
    "walk": 4
   }
+ },
+ "comps": {
+  "building": {
+   "rows": [
+    {
+     "slug": "3-valley-view-road-norwalk-connecticut-24175042",
+     "addr": "3 Valley View Road Unit 23",
+     "unit": "Unit 23",
+     "beds": 2.0,
+     "baths": 3.0,
+     "sqft": 1440.0,
+     "price": 590000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-17",
+     "ppsf": 410
+    },
+    {
+     "slug": "3-valley-view-road-norwalk-connecticut-24153411",
+     "addr": "3 Valley View Road Apt 45",
+     "unit": "Apt 45",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1482.0,
+     "price": 405000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-10",
+     "ppsf": 273
+    },
+    {
+     "slug": "3-valley-view-road-norwalk-connecticut-24185101",
+     "addr": "3 Valley View Road Unit 24",
+     "unit": "Unit 24",
+     "beds": 2.0,
+     "baths": 3.0,
+     "sqft": 1440.0,
+     "price": 550000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 382
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 405000.0,
+    "high": 590000.0,
+    "median": 497500
+   },
+   "label": "3 Valley View Road"
+  },
+  "area": {
+   "rows": [
+    {
+     "slug": "20-glenrock-norwalk-connecticut-24184298",
+     "addr": "20 Glenrock Unit 20",
+     "unit": "Unit 20",
+     "beds": 2.0,
+     "baths": 3.0,
+     "sqft": 1558.0,
+     "price": 565000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-08-06",
+     "ppsf": 363,
+     "mi": 0.29
+    },
+    {
+     "slug": "3-seir-hill-road-norwalk-connecticut-24160235",
+     "addr": "3 Seir Hill Road Apt A6",
+     "unit": "Apt A6",
+     "beds": 2.0,
+     "baths": 1.0,
+     "sqft": 1093.0,
+     "price": 425000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-30",
+     "ppsf": 389,
+     "mi": 0.33
+    },
+    {
+     "slug": "123-old-belden-hill-road-norwalk-connecticut-24158056",
+     "addr": "123 Old Belden Hill Road Apt 19",
+     "unit": "Apt 19",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1220.0,
+     "price": 540000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-15",
+     "ppsf": 443,
+     "mi": 0.65
+    },
+    {
+     "slug": "123-old-belden-hill-road-norwalk-connecticut-24152898",
+     "addr": "123 Old Belden Hill Road Apt 40",
+     "unit": "Apt 40",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1220.0,
+     "price": 457000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-02",
+     "ppsf": 375,
+     "mi": 0.65
+    },
+    {
+     "slug": "21-linden-street-norwalk-connecticut-24160952",
+     "addr": "21 Linden Street Unit 12",
+     "unit": "Unit 12",
+     "beds": 2.0,
+     "baths": 3.0,
+     "sqft": 1170.0,
+     "price": 480000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-15",
+     "ppsf": 410,
+     "mi": 0.71
+    },
+    {
+     "slug": "9-glenrock-norwalk-connecticut-24189476",
+     "addr": "9 Glenrock Unit 9",
+     "unit": "Unit 9",
+     "beds": 2.0,
+     "baths": 3.0,
+     "sqft": 1558.0,
+     "price": 525000.0,
+     "kind": "asking",
+     "status": "Under Contract - Continue to Show",
+     "ppsf": 337,
+     "mi": 0.29
+    }
+   ],
+   "summary": {
+    "n": 5,
+    "low": 425000.0,
+    "high": 565000.0,
+    "median": 480000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

@@ -112,5 +112,86 @@
    "mi": 0.21,
    "walk": 4
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "99-prospect-street-stamford-connecticut-24158184",
+     "addr": "99 Prospect Street Apt 3M",
+     "unit": "Apt 3M",
+     "beds": 0.0,
+     "baths": 1.0,
+     "sqft": 395.0,
+     "price": 190000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-08",
+     "ppsf": 481,
+     "mi": 0.2
+    },
+    {
+     "slug": "140-grove-street-stamford-connecticut-24178267",
+     "addr": "140 Grove Street Unit 5K",
+     "unit": "Unit 5K",
+     "beds": 0.0,
+     "baths": 1.0,
+     "sqft": 371.0,
+     "price": 190000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-10",
+     "ppsf": 512,
+     "mi": 0.2
+    },
+    {
+     "slug": "140-summer-street-stamford-connecticut-24149437",
+     "addr": "140 Summer Street Unit 1D",
+     "unit": "Unit 1D",
+     "beds": 0.0,
+     "baths": 1.0,
+     "sqft": 368.0,
+     "price": 165000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-14",
+     "ppsf": 448,
+     "mi": 0.66
+    },
+    {
+     "slug": "30-glenbrook-road-stamford-connecticut-24186591",
+     "addr": "30 Glenbrook Road Unit 6C",
+     "unit": "Unit 6C",
+     "beds": 0.0,
+     "baths": 1.0,
+     "sqft": 563.0,
+     "price": 189000.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 336,
+     "mi": 0.41
+    },
+    {
+     "slug": "700-summer-street-stamford-connecticut-24169603",
+     "addr": "700 Summer Street Unit 1F",
+     "unit": "Unit 1F",
+     "beds": 0.0,
+     "baths": 1.0,
+     "sqft": 590.0,
+     "price": 225000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 381,
+     "mi": 0.44
+    }
+   ],
+   "summary": {
+    "n": 3,
+    "low": 165000.0,
+    "high": 190000.0,
+    "median": 190000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

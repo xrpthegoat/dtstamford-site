@@ -120,5 +120,46 @@
    "n": "West Ave @ Leroy Ave",
    "mi": 0.91
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "22-sunswyck-road-darien-connecticut-24167193",
+     "addr": "22 Sunswyck Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 2.0,
+     "sqft": 2880.0,
+     "price": 12000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-07",
+     "ppsf": 4,
+     "mi": 0.17
+    },
+    {
+     "slug": "3-raiders-lane-darien-connecticut-24150302",
+     "addr": "3 Raiders Lane",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 4.0,
+     "sqft": 3945.0,
+     "price": 20000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-24",
+     "ppsf": 5,
+     "mi": 0.25
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 12000.0,
+    "high": 20000.0,
+    "median": 16000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

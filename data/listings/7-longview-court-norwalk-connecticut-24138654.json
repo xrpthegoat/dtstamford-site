@@ -106,5 +106,46 @@
    "mi": 0.48,
    "walk": 10
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "47-riverside-avenue-norwalk-connecticut-24154580",
+     "addr": "47 Riverside Avenue",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 2464.0,
+     "price": 4200.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-31",
+     "ppsf": 2,
+     "mi": 0.69
+    },
+    {
+     "slug": "10-harvann-road-norwalk-connecticut-24187300",
+     "addr": "10 Harvann Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 4.0,
+     "sqft": 2242.0,
+     "price": 4995.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-10",
+     "ppsf": 2,
+     "mi": 0.74
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 4200.0,
+    "high": 4995.0,
+    "median": 4598
+   },
+   "radiusMi": 0.75
+  }
  }
 }

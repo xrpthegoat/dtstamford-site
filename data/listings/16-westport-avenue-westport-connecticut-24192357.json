@@ -133,5 +133,73 @@
    "n": "Bus stop",
    "mi": 1.9
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "312-compo-road-south-westport-connecticut-24173977",
+     "addr": "312 Compo Road South",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 4.0,
+     "sqft": 3215.0,
+     "price": 3750000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-18",
+     "ppsf": 1166,
+     "mi": 0.16
+    },
+    {
+     "slug": "15-roosevelt-road-westport-connecticut-24174513",
+     "addr": "15 Roosevelt Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 5.0,
+     "sqft": 3562.0,
+     "price": 5300000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-08-10",
+     "ppsf": 1488,
+     "mi": 0.19
+    },
+    {
+     "slug": "7-pond-edge-road-westport-connecticut-24172774",
+     "addr": "7 Pond Edge Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 6.0,
+     "sqft": 5729.0,
+     "price": 4400000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-21",
+     "ppsf": 768,
+     "mi": 0.67
+    },
+    {
+     "slug": "46-compo-mill-cove-westport-connecticut-24166955",
+     "addr": "46 Compo Mill Cove",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 6.0,
+     "sqft": 5567.0,
+     "price": 5895000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 1059,
+     "mi": 0.63
+    }
+   ],
+   "summary": {
+    "n": 3,
+    "low": 3750000.0,
+    "high": 5300000.0,
+    "median": 4400000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

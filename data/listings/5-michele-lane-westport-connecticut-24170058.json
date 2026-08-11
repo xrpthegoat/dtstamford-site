@@ -106,5 +106,58 @@
    "mi": 3.52,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "42-easton-road-westport-connecticut-24164674",
+     "addr": "42 Easton Road",
+     "unit": "",
+     "beds": 6.0,
+     "baths": 7.0,
+     "sqft": 5227.0,
+     "price": 3870000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-18",
+     "ppsf": 740,
+     "mi": 0.71
+    },
+    {
+     "slug": "5-west-branch-road-westport-connecticut-24178890",
+     "addr": "5 West Branch Road",
+     "unit": "",
+     "beds": 6.0,
+     "baths": 9.0,
+     "sqft": 9394.0,
+     "price": 5599000.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 596,
+     "mi": 0.56
+    },
+    {
+     "slug": "25-hermit-lane-westport-connecticut-24183141",
+     "addr": "25 Hermit Lane",
+     "unit": "",
+     "beds": 6.0,
+     "baths": 7.0,
+     "sqft": 9454.0,
+     "price": 2795000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 296,
+     "mi": 0.71
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 3870000.0,
+    "high": 3870000.0,
+    "median": 3870000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

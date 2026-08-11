@@ -100,5 +100,102 @@
    "n": "Bus stop",
    "mi": 1.03
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "1103-shippan-avenue-stamford-connecticut-24164504",
+     "addr": "1103 Shippan Avenue Unit 2",
+     "unit": "Unit 2",
+     "beds": 2.0,
+     "baths": 1.0,
+     "sqft": 977.0,
+     "price": 3000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-07",
+     "ppsf": 3,
+     "mi": 0.17
+    },
+    {
+     "slug": "1124-shippan-avenue-stamford-connecticut-24158743",
+     "addr": "1124 Shippan Avenue",
+     "unit": "",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1846.0,
+     "price": 3950.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-01",
+     "ppsf": 2,
+     "mi": 0.19
+    },
+    {
+     "slug": "105-harbor-drive-stamford-connecticut-24148039",
+     "addr": "105 Harbor Drive Apt 107",
+     "unit": "Apt 107",
+     "beds": 2.0,
+     "baths": 3.0,
+     "sqft": 1450.0,
+     "price": 4100.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-01",
+     "ppsf": 3,
+     "mi": 0.26
+    },
+    {
+     "slug": "41-elmcroft-road-stamford-connecticut-24158009",
+     "addr": "41 Elmcroft Road",
+     "unit": "",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1058.0,
+     "price": 2840.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-12",
+     "ppsf": 3,
+     "mi": 0.56
+    },
+    {
+     "slug": "6-east-walnut-street-stamford-connecticut-24180158",
+     "addr": "6 East Walnut Street Unit 1L",
+     "unit": "Unit 1L",
+     "beds": 2.0,
+     "baths": 1.0,
+     "sqft": 550.0,
+     "price": 2912.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-18",
+     "ppsf": 5,
+     "mi": 0.62
+    },
+    {
+     "slug": "6-east-walnut-street-stamford-connecticut-24181048",
+     "addr": "6 East Walnut Street Unit 2L",
+     "unit": "Unit 2L",
+     "beds": 2.0,
+     "baths": 1.0,
+     "sqft": 550.0,
+     "price": 2912.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-18",
+     "ppsf": 5,
+     "mi": 0.62
+    }
+   ],
+   "summary": {
+    "n": 6,
+    "low": 2840.0,
+    "high": 4100.0,
+    "median": 2956
+   },
+   "radiusMi": 0.75
+  }
  }
 }

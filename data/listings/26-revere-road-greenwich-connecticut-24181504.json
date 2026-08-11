@@ -125,5 +125,86 @@
    "n": "Bus stop",
    "mi": 0.68
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "15-lancer-road-greenwich-connecticut-24174565",
+     "addr": "15 Lancer Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 3031.0,
+     "price": 8850.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-29",
+     "ppsf": 3,
+     "mi": 0.28
+    },
+    {
+     "slug": "40-mianus-view-terrace-greenwich-connecticut-24180823",
+     "addr": "40 Mianus View Terrace",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 4.0,
+     "sqft": 2895.0,
+     "price": 12000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-27",
+     "ppsf": 4,
+     "mi": 0.67
+    },
+    {
+     "slug": "4-sickle-bar-lane-greenwich-connecticut-24187870",
+     "addr": "4 Sickle Bar Lane",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 4735.0,
+     "price": 12500.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-08-06",
+     "ppsf": 3,
+     "mi": 0.73
+    },
+    {
+     "slug": "1-crawford-terrace-greenwich-connecticut-24178376",
+     "addr": "1 Crawford Terrace",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 4.0,
+     "sqft": 2819.0,
+     "price": 18000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 6,
+     "mi": 0.16
+    },
+    {
+     "slug": "25-griffith-road-greenwich-connecticut-24180498",
+     "addr": "25 Griffith Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 4.0,
+     "sqft": 2436.0,
+     "price": 12000.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 5,
+     "mi": 0.48
+    }
+   ],
+   "summary": {
+    "n": 3,
+    "low": 8850.0,
+    "high": 12500.0,
+    "median": 12000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

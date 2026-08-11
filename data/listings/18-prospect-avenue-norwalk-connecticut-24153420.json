@@ -109,5 +109,120 @@
    "mi": 0.36,
    "walk": 7
   }
+ },
+ "comps": {
+  "building": {
+   "rows": [
+    {
+     "slug": "18-prospect-avenue-norwalk-connecticut-24197483",
+     "addr": "18 Prospect Avenue Unit C16",
+     "unit": "Unit C16",
+     "beds": 2.0,
+     "baths": 1.0,
+     "sqft": 704.0,
+     "price": 295000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 419
+    }
+   ],
+   "summary": null,
+   "label": "18 Prospect Avenue"
+  },
+  "area": {
+   "rows": [
+    {
+     "slug": "26-prospect-avenue-norwalk-connecticut-24165198",
+     "addr": "26 Prospect Avenue Unit A7",
+     "unit": "Unit A7",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1142.0,
+     "price": 410000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-15",
+     "ppsf": 359,
+     "mi": 0.05
+    },
+    {
+     "slug": "14-1-2-fairview-avenue-norwalk-connecticut-24167104",
+     "addr": "14 1/2 Fairview Avenue Unit B7",
+     "unit": "Unit B7",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1142.0,
+     "price": 430000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-08",
+     "ppsf": 377,
+     "mi": 0.05
+    },
+    {
+     "slug": "10-prospect-avenue-norwalk-connecticut-24153026",
+     "addr": "10 Prospect Avenue Apt 8",
+     "unit": "Apt 8",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1003.0,
+     "price": 380000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-19",
+     "ppsf": 379,
+     "mi": 0.06
+    },
+    {
+     "slug": "11-bedford-avenue-norwalk-connecticut-24174901",
+     "addr": "11 Bedford Avenue Unit Q2",
+     "unit": "Unit Q2",
+     "beds": 2.0,
+     "baths": 1.0,
+     "sqft": 938.0,
+     "price": 295000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-29",
+     "ppsf": 314,
+     "mi": 0.11
+    },
+    {
+     "slug": "11-bedford-avenue-norwalk-connecticut-24111498",
+     "addr": "11 Bedford Avenue Apt J2",
+     "unit": "Apt J2",
+     "beds": 2.0,
+     "baths": 1.0,
+     "sqft": 857.0,
+     "price": 253000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-07",
+     "ppsf": 295,
+     "mi": 0.11
+    },
+    {
+     "slug": "39-prospect-avenue-norwalk-connecticut-24166430",
+     "addr": "39 Prospect Avenue Unit 39",
+     "unit": "Unit 39",
+     "beds": 2.0,
+     "baths": 1.0,
+     "sqft": 870.0,
+     "price": 300000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-08",
+     "ppsf": 345,
+     "mi": 0.2
+    }
+   ],
+   "summary": {
+    "n": 6,
+    "low": 253000.0,
+    "high": 430000.0,
+    "median": 340000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

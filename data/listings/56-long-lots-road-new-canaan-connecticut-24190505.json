@@ -130,5 +130,73 @@
    "mi": 1.34,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "21-hickory-drive-new-canaan-connecticut-24168485",
+     "addr": "21 Hickory Drive",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 4.0,
+     "sqft": 3112.0,
+     "price": 2210000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-08-10",
+     "ppsf": 710,
+     "mi": 0.59
+    },
+    {
+     "slug": "48-green-meadow-lane-new-canaan-connecticut-24149903",
+     "addr": "48 Green Meadow Lane",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 5.0,
+     "sqft": 4454.0,
+     "price": 2850000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-14",
+     "ppsf": 640,
+     "mi": 0.7
+    },
+    {
+     "slug": "119-harrison-avenue-new-canaan-connecticut-24169246",
+     "addr": "119 Harrison Avenue",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 6.0,
+     "sqft": 7041.0,
+     "price": 3900000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-23",
+     "ppsf": 554,
+     "mi": 0.75
+    },
+    {
+     "slug": "83-long-lots-road-new-canaan-connecticut-24179208",
+     "addr": "83 Long Lots Road",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 6.0,
+     "sqft": 6211.0,
+     "price": 4395000.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 708,
+     "mi": 0.12
+    }
+   ],
+   "summary": {
+    "n": 3,
+    "low": 2210000.0,
+    "high": 3900000.0,
+    "median": 2850000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

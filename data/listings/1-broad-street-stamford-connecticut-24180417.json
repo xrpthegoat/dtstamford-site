@@ -136,5 +136,150 @@
    "n": "Broad St @ Franklin St",
    "mi": 0.01
   }
+ },
+ "comps": {
+  "building": {
+   "rows": [
+    {
+     "slug": "1-broad-street-stamford-connecticut-24171671",
+     "addr": "1 Broad Street Unit 17B",
+     "unit": "Unit 17B",
+     "beds": 1.0,
+     "baths": 2.0,
+     "sqft": 1112.0,
+     "price": 545000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-05",
+     "ppsf": 490
+    },
+    {
+     "slug": "1-broad-street-stamford-connecticut-24191462",
+     "addr": "1 Broad Street Unit 10B",
+     "unit": "Unit 10B",
+     "beds": 1.0,
+     "baths": 2.0,
+     "sqft": 1112.0,
+     "price": 540000.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 486
+    },
+    {
+     "slug": "1-broad-street-stamford-connecticut-24095577",
+     "addr": "1 Broad Street Unit 17C",
+     "unit": "Unit 17C",
+     "beds": 1.0,
+     "baths": 2.0,
+     "sqft": 1106.0,
+     "price": 530000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 479
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 545000.0,
+    "high": 545000.0,
+    "median": 545000
+   },
+   "label": "1 Broad Street"
+  },
+  "area": {
+   "rows": [
+    {
+     "slug": "700-summer-street-stamford-connecticut-24148008",
+     "addr": "700 Summer Street Unit 6G",
+     "unit": "Unit 6G",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 478.0,
+     "price": 245000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-10",
+     "ppsf": 513,
+     "mi": 0.19
+    },
+    {
+     "slug": "700-summer-street-stamford-connecticut-24174543",
+     "addr": "700 Summer Street Unit 7G",
+     "unit": "Unit 7G",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 478.0,
+     "price": 235000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-24",
+     "ppsf": 492,
+     "mi": 0.19
+    },
+    {
+     "slug": "641-summer-street-stamford-connecticut-24174372",
+     "addr": "641 Summer Street Unit 6",
+     "unit": "Unit 6",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 661.0,
+     "price": 260000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-23",
+     "ppsf": 393,
+     "mi": 0.19
+    },
+    {
+     "slug": "51-schuyler-avenue-stamford-connecticut-24154452",
+     "addr": "51 Schuyler Avenue Apt 7E",
+     "unit": "Apt 7E",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 894.0,
+     "price": 305000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-22",
+     "ppsf": 341,
+     "mi": 0.26
+    },
+    {
+     "slug": "833-summer-street-stamford-connecticut-24164255",
+     "addr": "833 Summer Street Unit 2E",
+     "unit": "Unit 2E",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 712.0,
+     "price": 300000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-16",
+     "ppsf": 421,
+     "mi": 0.27
+    },
+    {
+     "slug": "25-forest-street-stamford-connecticut-24184338",
+     "addr": "25 Forest Street Unit 7F",
+     "unit": "Unit 7F",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 875.0,
+     "price": 455000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-15",
+     "ppsf": 520,
+     "mi": 0.31
+    }
+   ],
+   "summary": {
+    "n": 6,
+    "low": 235000.0,
+    "high": 455000.0,
+    "median": 280000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

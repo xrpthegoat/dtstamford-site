@@ -110,5 +110,101 @@
    "n": "Bus stop",
    "mi": 1.69
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "12-burr-road-westport-connecticut-24169311",
+     "addr": "12 Burr Road",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 4.0,
+     "sqft": 3310.0,
+     "price": 7500.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-30",
+     "ppsf": 2,
+     "mi": 0.36
+    },
+    {
+     "slug": "414-riverside-avenue-westport-connecticut-24148167",
+     "addr": "414 Riverside Avenue",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 2857.0,
+     "price": 7725.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-02",
+     "ppsf": 3,
+     "mi": 0.45
+    },
+    {
+     "slug": "188-compo-road-south-westport-connecticut-24155993",
+     "addr": "188 Compo Road South",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 4.0,
+     "sqft": 3090.0,
+     "price": 10750.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-21",
+     "ppsf": 3,
+     "mi": 0.6
+    },
+    {
+     "slug": "5-treadwell-avenue-westport-connecticut-24184256",
+     "addr": "5 Treadwell Avenue",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1552.0,
+     "price": 4950.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-29",
+     "ppsf": 3,
+     "mi": 0.6
+    },
+    {
+     "slug": "55-kings-highway-north-westport-connecticut-24159366",
+     "addr": "55 Kings Highway North",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1719.0,
+     "price": 10000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-03",
+     "ppsf": 6,
+     "mi": 0.63
+    },
+    {
+     "slug": "462-riverside-avenue-westport-connecticut-24180588",
+     "addr": "462 Riverside Avenue",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 2235.0,
+     "price": 11750.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 5,
+     "mi": 0.55
+    }
+   ],
+   "summary": {
+    "n": 5,
+    "low": 4950.0,
+    "high": 10750.0,
+    "median": 7725
+   },
+   "radiusMi": 0.75
+  }
  }
 }

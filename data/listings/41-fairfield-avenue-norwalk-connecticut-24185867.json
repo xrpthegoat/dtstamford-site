@@ -110,5 +110,102 @@
    "n": "Bus stop",
    "mi": 0.64
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "10-elmwood-avenue-norwalk-connecticut-24182789",
+     "addr": "10 Elmwood Avenue",
+     "unit": "",
+     "beds": 1.0,
+     "baths": 2.0,
+     "sqft": 1053.0,
+     "price": 2400.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-08-01",
+     "ppsf": 2,
+     "mi": 0.15
+    },
+    {
+     "slug": "7-fairfield-avenue-norwalk-connecticut-24141589",
+     "addr": "7 Fairfield Avenue Unit 1",
+     "unit": "Unit 1",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 400.0,
+     "price": 1995.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-15",
+     "ppsf": 5,
+     "mi": 0.16
+    },
+    {
+     "slug": "34-dr-martin-luther-king-jr-drive-norwalk-connecticut-24174230",
+     "addr": "34 Dr Martin Luther King Jr Drive Unit A",
+     "unit": "Unit A",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 1032.0,
+     "price": 2425.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-01",
+     "ppsf": 2,
+     "mi": 0.2
+    },
+    {
+     "slug": "93-north-main-street-norwalk-connecticut-24188765",
+     "addr": "93 North Main Street Unit A",
+     "unit": "Unit A",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 890.0,
+     "price": 2300.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-08-01",
+     "ppsf": 3,
+     "mi": 0.25
+    },
+    {
+     "slug": "84-west-avenue-norwalk-connecticut-24187376",
+     "addr": "84 West Avenue Unit B1",
+     "unit": "Unit B1",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 600.0,
+     "price": 1800.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-30",
+     "ppsf": 3,
+     "mi": 0.26
+    },
+    {
+     "slug": "84-west-avenue-norwalk-connecticut-24187569",
+     "addr": "84 West Avenue",
+     "unit": "",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 600.0,
+     "price": 1800.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-13",
+     "ppsf": 3,
+     "mi": 0.26
+    }
+   ],
+   "summary": {
+    "n": 6,
+    "low": 1800.0,
+    "high": 2425.0,
+    "median": 2148
+   },
+   "radiusMi": 0.75
+  }
  }
 }

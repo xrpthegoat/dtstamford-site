@@ -96,5 +96,100 @@
    "walk": 6,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "343-greenwich-avenue-greenwich-connecticut-24153469",
+     "addr": "343 Greenwich Avenue Unit 2nd Floor",
+     "unit": "Unit 2nd Floor",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 800.0,
+     "price": 3950.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-03",
+     "ppsf": 5,
+     "mi": 0.13
+    },
+    {
+     "slug": "118-greenwich-avenue-greenwich-connecticut-24184969",
+     "addr": "118 Greenwich Avenue Unit 1",
+     "unit": "Unit 1",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 800.0,
+     "price": 2100.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-27",
+     "ppsf": 3,
+     "mi": 0.21
+    },
+    {
+     "slug": "59-church-street-greenwich-connecticut-24188438",
+     "addr": "59 Church Street Unit 6",
+     "unit": "Unit 6",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 800.0,
+     "price": 2400.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-13",
+     "ppsf": 3,
+     "mi": 0.58
+    },
+    {
+     "slug": "66-ute-place-greenwich-connecticut-24140167",
+     "addr": "66 Ute Place Unit C",
+     "unit": "Unit C",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 828.0,
+     "price": 3750.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-20",
+     "ppsf": 5,
+     "mi": 0.7
+    },
+    {
+     "slug": "23-locust-street-greenwich-connecticut-24195554",
+     "addr": "23 Locust Street",
+     "unit": "",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 1700.0,
+     "price": 3000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 2,
+     "mi": 0.3
+    },
+    {
+     "slug": "59-church-street-greenwich-connecticut-24194608",
+     "addr": "59 Church Street Unit 6",
+     "unit": "Unit 6",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 700.0,
+     "price": 2500.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 4,
+     "mi": 0.58
+    }
+   ],
+   "summary": {
+    "n": 4,
+    "low": 2100.0,
+    "high": 3950.0,
+    "median": 3075
+   },
+   "radiusMi": 0.75
+  }
  }
 }

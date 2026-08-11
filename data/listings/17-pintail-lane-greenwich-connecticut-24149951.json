@@ -104,5 +104,58 @@
    "mi": 0.88,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "48-lexington-avenue-greenwich-connecticut-24093214",
+     "addr": "48 Lexington Avenue",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 6.0,
+     "sqft": 7028.0,
+     "price": 7200000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-24",
+     "ppsf": 1024,
+     "mi": 0.34
+    },
+    {
+     "slug": "65-sherwood-place-greenwich-connecticut-24188704",
+     "addr": "65 Sherwood Place Unit 65",
+     "unit": "Unit 65",
+     "beds": 5.0,
+     "baths": 6.0,
+     "sqft": 2885.0,
+     "price": 2490000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 863,
+     "mi": 0.52
+    },
+    {
+     "slug": "89-indian-field-road-greenwich-connecticut-24193312",
+     "addr": "89 Indian Field Road",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 5.0,
+     "sqft": 5354.0,
+     "price": 3495000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 653,
+     "mi": 0.65
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 7200000.0,
+    "high": 7200000.0,
+    "median": 7200000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

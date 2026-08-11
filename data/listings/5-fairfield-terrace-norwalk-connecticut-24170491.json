@@ -110,5 +110,46 @@
    "mi": 0.56,
    "walk": 11
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "21-west-rocks-road-norwalk-connecticut-24168949",
+     "addr": "21 West Rocks Road",
+     "unit": "",
+     "beds": 2.0,
+     "baths": 1.0,
+     "sqft": 992.0,
+     "price": 500000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-15",
+     "ppsf": 504,
+     "mi": 0.39
+    },
+    {
+     "slug": "39-fair-street-norwalk-connecticut-24170426",
+     "addr": "39 Fair Street",
+     "unit": "",
+     "beds": 2.0,
+     "baths": 1.0,
+     "sqft": 1120.0,
+     "price": 515000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-22",
+     "ppsf": 460,
+     "mi": 0.61
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 500000.0,
+    "high": 515000.0,
+    "median": 507500
+   },
+   "radiusMi": 0.75
+  }
  }
 }

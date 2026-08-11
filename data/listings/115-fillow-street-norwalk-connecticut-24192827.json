@@ -118,5 +118,81 @@
    "n": "Bus stop",
    "mi": 1.0
   }
+ },
+ "comps": {
+  "building": {
+   "rows": [
+    {
+     "slug": "115-fillow-street-norwalk-connecticut-24171768",
+     "addr": "115 Fillow Street Unit 57",
+     "unit": "Unit 57",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 780.0,
+     "price": 350000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-22",
+     "ppsf": 449
+    },
+    {
+     "slug": "115-fillow-street-norwalk-connecticut-24191095",
+     "addr": "115 Fillow Street Unit 47",
+     "unit": "Unit 47",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 780.0,
+     "price": 325000.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 417
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 350000.0,
+    "high": 350000.0,
+    "median": 350000
+   },
+   "label": "115 Fillow Street"
+  },
+  "area": {
+   "rows": [
+    {
+     "slug": "16-rockmeadow-road-norwalk-connecticut-24160516",
+     "addr": "16 Rockmeadow Road Unit Q",
+     "unit": "Unit Q",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 818.0,
+     "price": 320000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-09",
+     "ppsf": 391,
+     "mi": 0.14
+    },
+    {
+     "slug": "42-glenwood-avenue-norwalk-connecticut-24180918",
+     "addr": "42 Glenwood Avenue Unit A",
+     "unit": "Unit A",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 646.0,
+     "price": 272000.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 421,
+     "mi": 0.71
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 320000.0,
+    "high": 320000.0,
+    "median": 320000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

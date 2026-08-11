@@ -103,5 +103,100 @@
    "mi": 2.23,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "54-richmondville-avenue-westport-connecticut-24160951",
+     "addr": "54 Richmondville Avenue",
+     "unit": "",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 900.0,
+     "price": 2650.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-02",
+     "ppsf": 3,
+     "mi": 0.33
+    },
+    {
+     "slug": "33-elm-street-westport-connecticut-24160395",
+     "addr": "33 Elm Street Unit 3",
+     "unit": "Unit 3",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 802.0,
+     "price": 3800.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-12",
+     "ppsf": 5,
+     "mi": 0.53
+    },
+    {
+     "slug": "33-elm-street-westport-connecticut-24183702",
+     "addr": "33 Elm Street Unit 4",
+     "unit": "Unit 4",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 823.0,
+     "price": 4850.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-17",
+     "ppsf": 6,
+     "mi": 0.54
+    },
+    {
+     "slug": "2-oak-street-westport-connecticut-24155099",
+     "addr": "2 Oak Street Unit Upper",
+     "unit": "Unit Upper",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 980.0,
+     "price": 3000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-26",
+     "ppsf": 3,
+     "mi": 0.6
+    },
+    {
+     "slug": "201-main-street-westport-connecticut-24186244",
+     "addr": "201 Main Street Unit 204",
+     "unit": "Unit 204",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 730.0,
+     "price": 3800.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 5,
+     "mi": 0.41
+    },
+    {
+     "slug": "201-main-street-westport-connecticut-24196438",
+     "addr": "201 Main Street Unit 301",
+     "unit": "Unit 301",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 730.0,
+     "price": 3900.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 5,
+     "mi": 0.41
+    }
+   ],
+   "summary": {
+    "n": 4,
+    "low": 2650.0,
+    "high": 4850.0,
+    "median": 3400
+   },
+   "radiusMi": 0.75
+  }
  }
 }

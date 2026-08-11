@@ -108,5 +108,59 @@
    "mi": 2.07,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "107-compo-road-north-westport-connecticut-24166194",
+     "addr": "107 Compo Road North",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 2538.0,
+     "price": 1631000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-24",
+     "ppsf": 643,
+     "mi": 0.35
+    },
+    {
+     "slug": "20-woods-grove-road-westport-connecticut-24158900",
+     "addr": "20 Woods Grove Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 2.0,
+     "sqft": 1941.0,
+     "price": 969000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-08-07",
+     "ppsf": 499,
+     "mi": 0.35
+    },
+    {
+     "slug": "4-woods-grove-road-westport-connecticut-24142924",
+     "addr": "4 Woods Grove Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 2133.0,
+     "price": 999000.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 468,
+     "mi": 0.31
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 969000.0,
+    "high": 1631000.0,
+    "median": 1300000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

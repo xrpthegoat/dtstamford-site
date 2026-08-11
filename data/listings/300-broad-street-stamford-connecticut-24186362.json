@@ -115,5 +115,126 @@
    "mi": 0.29,
    "walk": 6
   }
+ },
+ "comps": {
+  "building": {
+   "rows": [
+    {
+     "slug": "300-broad-street-stamford-connecticut-24180961",
+     "addr": "300 Broad Street Unit 601",
+     "unit": "Unit 601",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 875.0,
+     "price": 2850.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-22",
+     "ppsf": 3
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 2850.0,
+    "high": 2850.0,
+    "median": 2850
+   },
+   "label": "300 Broad Street"
+  },
+  "area": {
+   "rows": [
+    {
+     "slug": "33-pleasant-street-stamford-connecticut-24174647",
+     "addr": "33 Pleasant Street Unit 13",
+     "unit": "Unit 13",
+     "beds": 2.0,
+     "baths": 1.0,
+     "sqft": 760.0,
+     "price": 2800.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-22",
+     "ppsf": 4,
+     "mi": 0.02
+    },
+    {
+     "slug": "170-forest-street-stamford-connecticut-24139947",
+     "addr": "170 Forest Street Apt 12",
+     "unit": "Apt 12",
+     "beds": 2.0,
+     "baths": 3.0,
+     "sqft": 1400.0,
+     "price": 2800.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-31",
+     "ppsf": 2,
+     "mi": 0.08
+    },
+    {
+     "slug": "39-glenbrook-road-stamford-connecticut-24171868",
+     "addr": "39 Glenbrook Road Unit 4M",
+     "unit": "Unit 4M",
+     "beds": 2.0,
+     "baths": 1.0,
+     "sqft": 1072.0,
+     "price": 2600.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-27",
+     "ppsf": 2,
+     "mi": 0.15
+    },
+    {
+     "slug": "160-elm-street-greenwich-connecticut-24166239",
+     "addr": "160 Elm Street Unit C3",
+     "unit": "Unit C3",
+     "beds": 2.0,
+     "baths": 3.0,
+     "sqft": 1400.0,
+     "price": 4985.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-18",
+     "ppsf": 4,
+     "mi": 0.17
+    },
+    {
+     "slug": "101-grove-street-stamford-connecticut-24148070",
+     "addr": "101 Grove Street Apt 17",
+     "unit": "Apt 17",
+     "beds": 2.0,
+     "baths": 3.0,
+     "sqft": 1475.0,
+     "price": 3500.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-19",
+     "ppsf": 2,
+     "mi": 0.18
+    },
+    {
+     "slug": "850-east-main-street-stamford-connecticut-24181673",
+     "addr": "850 East Main Street Unit 430",
+     "unit": "Unit 430",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1080.0,
+     "price": 3000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-29",
+     "ppsf": 3,
+     "mi": 0.24
+    }
+   ],
+   "summary": {
+    "n": 6,
+    "low": 2600.0,
+    "high": 4985.0,
+    "median": 2900
+   },
+   "radiusMi": 0.75
+  }
  }
 }

@@ -103,5 +103,99 @@
    "mi": 1.33,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "14-hillspoint-road-westport-connecticut-24181130",
+     "addr": "14 Hillspoint Road",
+     "unit": "",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 1100.0,
+     "price": 2900.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-08-07",
+     "ppsf": 3,
+     "mi": 0.55
+    },
+    {
+     "slug": "33-elm-street-westport-connecticut-24183702",
+     "addr": "33 Elm Street Unit 4",
+     "unit": "Unit 4",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 823.0,
+     "price": 4850.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-17",
+     "ppsf": 6,
+     "mi": 0.6
+    },
+    {
+     "slug": "33-elm-street-westport-connecticut-24160395",
+     "addr": "33 Elm Street Unit 3",
+     "unit": "Unit 3",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 802.0,
+     "price": 3800.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-12",
+     "ppsf": 5,
+     "mi": 0.62
+    },
+    {
+     "slug": "260-riverside-avenue-westport-connecticut-24188606",
+     "addr": "260 Riverside Avenue Unit 6",
+     "unit": "Unit 6",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 600.0,
+     "price": 3000.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 5,
+     "mi": 0.67
+    },
+    {
+     "slug": "201-main-street-westport-connecticut-24186244",
+     "addr": "201 Main Street Unit 204",
+     "unit": "Unit 204",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 730.0,
+     "price": 3800.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 5,
+     "mi": 0.74
+    },
+    {
+     "slug": "201-main-street-westport-connecticut-24196438",
+     "addr": "201 Main Street Unit 301",
+     "unit": "Unit 301",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 730.0,
+     "price": 3900.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 5,
+     "mi": 0.74
+    }
+   ],
+   "summary": {
+    "n": 3,
+    "low": 2900.0,
+    "high": 4850.0,
+    "median": 3800
+   },
+   "radiusMi": 0.75
+  }
  }
 }

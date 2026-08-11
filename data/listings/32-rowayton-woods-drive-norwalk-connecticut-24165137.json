@@ -128,5 +128,60 @@
    "walk": 10,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "60-rowayton-woods-drive-norwalk-connecticut-24178159",
+     "addr": "60 Rowayton Woods Drive",
+     "unit": "",
+     "beds": 2.0,
+     "baths": 1.0,
+     "sqft": 892.0,
+     "price": 535000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-28",
+     "ppsf": 600,
+     "mi": 0.03
+    },
+    {
+     "slug": "119-rowayton-woods-drive-norwalk-connecticut-24155547",
+     "addr": "119 Rowayton Woods Drive Unit 119",
+     "unit": "Unit 119",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1468.0,
+     "price": 715000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-21",
+     "ppsf": 487,
+     "mi": 0.1
+    },
+    {
+     "slug": "43-soundview-avenue-norwalk-connecticut-24179539",
+     "addr": "43 Soundview Avenue Unit 4",
+     "unit": "Unit 4",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1326.0,
+     "price": 480000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-31",
+     "ppsf": 362,
+     "mi": 0.75
+    }
+   ],
+   "summary": {
+    "n": 3,
+    "low": 480000.0,
+    "high": 715000.0,
+    "median": 535000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

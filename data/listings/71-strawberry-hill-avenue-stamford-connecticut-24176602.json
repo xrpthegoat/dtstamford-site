@@ -120,5 +120,132 @@
    "mi": 0.31,
    "walk": 6
   }
+ },
+ "comps": {
+  "building": {
+   "rows": [
+    {
+     "slug": "71-strawberry-hill-avenue-stamford-connecticut-24186073",
+     "addr": "71 Strawberry Hill Avenue Unit 802",
+     "unit": "Unit 802",
+     "beds": 2.0,
+     "baths": 1.0,
+     "sqft": 875.0,
+     "price": 2750.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 3
+    },
+    {
+     "slug": "71-strawberry-hill-avenue-stamford-connecticut-24197681",
+     "addr": "71 Strawberry Hill Avenue Unit 1107",
+     "unit": "Unit 1107",
+     "beds": 2.0,
+     "baths": 1.0,
+     "sqft": 875.0,
+     "price": 2650.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 3
+    }
+   ],
+   "summary": null,
+   "label": "71 Strawberry Hill Avenue"
+  },
+  "area": {
+   "rows": [
+    {
+     "slug": "91-strawberry-hill-avenue-stamford-connecticut-24176842",
+     "addr": "91 Strawberry Hill Avenue Unit 534",
+     "unit": "Unit 534",
+     "beds": 2.0,
+     "baths": 1.0,
+     "sqft": 875.0,
+     "price": 2650.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-15",
+     "ppsf": 3,
+     "mi": 0.06
+    },
+    {
+     "slug": "91-strawberry-hill-avenue-stamford-connecticut-24155843",
+     "addr": "91 Strawberry Hill Avenue Apt 624",
+     "unit": "Apt 624",
+     "beds": 2.0,
+     "baths": 1.0,
+     "sqft": 875.0,
+     "price": 2650.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-07",
+     "ppsf": 3,
+     "mi": 0.06
+    },
+    {
+     "slug": "91-strawberry-hill-avenue-stamford-connecticut-24165211",
+     "addr": "91 Strawberry Hill Avenue Unit 1133",
+     "unit": "Unit 1133",
+     "beds": 2.0,
+     "baths": 1.0,
+     "sqft": 875.0,
+     "price": 2912.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-01",
+     "ppsf": 3,
+     "mi": 0.06
+    },
+    {
+     "slug": "91-strawberry-hill-avenue-stamford-connecticut-24182036",
+     "addr": "91 Strawberry Hill Avenue Unit 929",
+     "unit": "Unit 929",
+     "beds": 2.0,
+     "baths": 1.0,
+     "sqft": 875.0,
+     "price": 2500.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-27",
+     "ppsf": 3,
+     "mi": 0.06
+    },
+    {
+     "slug": "91-strawberry-hill-avenue-stamford-connecticut-24182736",
+     "addr": "91 Strawberry Hill Avenue Unit 923",
+     "unit": "Unit 923",
+     "beds": 2.0,
+     "baths": 1.0,
+     "sqft": 875.0,
+     "price": 2500.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-08-03",
+     "ppsf": 3,
+     "mi": 0.06
+    },
+    {
+     "slug": "60-strawberry-hill-avenue-stamford-connecticut-24151628",
+     "addr": "60 Strawberry Hill Avenue Unit 318",
+     "unit": "Unit 318",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 828.0,
+     "price": 2800.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-06",
+     "ppsf": 3,
+     "mi": 0.09
+    }
+   ],
+   "summary": {
+    "n": 6,
+    "low": 2500.0,
+    "high": 2912.0,
+    "median": 2650
+   },
+   "radiusMi": 0.75
+  }
  }
 }

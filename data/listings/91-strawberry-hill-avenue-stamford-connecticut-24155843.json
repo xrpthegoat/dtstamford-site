@@ -107,5 +107,165 @@
    "mi": 0.33,
    "walk": 7
   }
+ },
+ "comps": {
+  "building": {
+   "rows": [
+    {
+     "slug": "91-strawberry-hill-avenue-stamford-connecticut-24182736",
+     "addr": "91 Strawberry Hill Avenue Unit 923",
+     "unit": "Unit 923",
+     "beds": 2.0,
+     "baths": 1.0,
+     "sqft": 875.0,
+     "price": 2500.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-08-03",
+     "ppsf": 3
+    },
+    {
+     "slug": "91-strawberry-hill-avenue-stamford-connecticut-24182036",
+     "addr": "91 Strawberry Hill Avenue Unit 929",
+     "unit": "Unit 929",
+     "beds": 2.0,
+     "baths": 1.0,
+     "sqft": 875.0,
+     "price": 2500.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-27",
+     "ppsf": 3
+    },
+    {
+     "slug": "91-strawberry-hill-avenue-stamford-connecticut-24176842",
+     "addr": "91 Strawberry Hill Avenue Unit 534",
+     "unit": "Unit 534",
+     "beds": 2.0,
+     "baths": 1.0,
+     "sqft": 875.0,
+     "price": 2650.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-15",
+     "ppsf": 3
+    },
+    {
+     "slug": "91-strawberry-hill-avenue-stamford-connecticut-24165211",
+     "addr": "91 Strawberry Hill Avenue Unit 1133",
+     "unit": "Unit 1133",
+     "beds": 2.0,
+     "baths": 1.0,
+     "sqft": 875.0,
+     "price": 2912.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-01",
+     "ppsf": 3
+    }
+   ],
+   "summary": {
+    "n": 4,
+    "low": 2500.0,
+    "high": 2912.0,
+    "median": 2575
+   },
+   "label": "91 Strawberry Hill Avenue"
+  },
+  "area": {
+   "rows": [
+    {
+     "slug": "1-rock-spring-road-stamford-connecticut-24176071",
+     "addr": "1 Rock Spring Road",
+     "unit": "",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 850.0,
+     "price": 2500.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-29",
+     "ppsf": 3,
+     "mi": 0.12
+    },
+    {
+     "slug": "60-strawberry-hill-avenue-stamford-connecticut-24151628",
+     "addr": "60 Strawberry Hill Avenue Unit 318",
+     "unit": "Unit 318",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 828.0,
+     "price": 2800.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-06",
+     "ppsf": 3,
+     "mi": 0.13
+    },
+    {
+     "slug": "70-strawberry-hill-avenue-stamford-connecticut-24169954",
+     "addr": "70 Strawberry Hill Avenue Unit 4-2A",
+     "unit": "Unit 4-2A",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1204.0,
+     "price": 2750.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-07",
+     "ppsf": 2,
+     "mi": 0.14
+    },
+    {
+     "slug": "28-rock-spring-road-stamford-connecticut-24152893",
+     "addr": "28 Rock Spring Road Unit B2",
+     "unit": "Unit B2",
+     "beds": 2.0,
+     "baths": 3.0,
+     "sqft": 2298.0,
+     "price": 4400.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-14",
+     "ppsf": 2,
+     "mi": 0.17
+    },
+    {
+     "slug": "44-strawberry-hill-avenue-stamford-connecticut-24177886",
+     "addr": "44 Strawberry Hill Avenue Unit 7B",
+     "unit": "Unit 7B",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1275.0,
+     "price": 3195.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-11",
+     "ppsf": 3,
+     "mi": 0.18
+    },
+    {
+     "slug": "1-strawberry-hill-avenue-stamford-connecticut-24160253",
+     "addr": "1 Strawberry Hill Avenue Apt 3G",
+     "unit": "Apt 3G",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1150.0,
+     "price": 3200.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-01",
+     "ppsf": 3,
+     "mi": 0.23
+    }
+   ],
+   "summary": {
+    "n": 6,
+    "low": 2500.0,
+    "high": 4400.0,
+    "median": 2998
+   },
+   "radiusMi": 0.75
+  }
  }
 }

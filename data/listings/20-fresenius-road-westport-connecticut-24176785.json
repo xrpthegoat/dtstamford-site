@@ -120,5 +120,45 @@
    "mi": 2.48,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "26-morningside-drive-south-westport-connecticut-24147443",
+     "addr": "26 Morningside Drive South",
+     "unit": "",
+     "beds": 7.0,
+     "baths": 8.0,
+     "sqft": 9335.0,
+     "price": 4350000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-09",
+     "ppsf": 466,
+     "mi": 0.58
+    },
+    {
+     "slug": "25-ellery-lane-westport-connecticut-24100505",
+     "addr": "25 Ellery Lane",
+     "unit": "",
+     "beds": 7.0,
+     "baths": 9.0,
+     "sqft": 7806.0,
+     "price": 5926000.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 759,
+     "mi": 0.7
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 4350000.0,
+    "high": 4350000.0,
+    "median": 4350000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

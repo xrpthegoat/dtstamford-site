@@ -126,5 +126,45 @@
    "n": "Bus stop",
    "mi": 1.89
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "28-pleasant-street-greenwich-connecticut-24180840",
+     "addr": "28 Pleasant Street",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 2140.0,
+     "price": 6400.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-11",
+     "ppsf": 3,
+     "mi": 0.48
+    },
+    {
+     "slug": "30-brookridge-drive-greenwich-connecticut-24189268",
+     "addr": "30 Brookridge Drive",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 6.0,
+     "sqft": 4972.0,
+     "price": 25000.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 5,
+     "mi": 0.25
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 6400.0,
+    "high": 6400.0,
+    "median": 6400
+   },
+   "radiusMi": 0.75
+  }
  }
 }

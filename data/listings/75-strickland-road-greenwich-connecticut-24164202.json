@@ -110,5 +110,72 @@
    "n": "Bus stop",
    "mi": 1.87
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "33-circle-drive-greenwich-connecticut-24165475",
+     "addr": "33 Circle Drive",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1631.0,
+     "price": 6800.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-09",
+     "ppsf": 4,
+     "mi": 0.6
+    },
+    {
+     "slug": "20-orchard-street-greenwich-connecticut-24174811",
+     "addr": "20 Orchard Street",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 2681.0,
+     "price": 8600.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-26",
+     "ppsf": 3,
+     "mi": 0.65
+    },
+    {
+     "slug": "80-east-putnam-avenue-greenwich-connecticut-24193417",
+     "addr": "80 East Putnam Avenue",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 4.0,
+     "sqft": 1934.0,
+     "price": 6800.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 4,
+     "mi": 0.41
+    },
+    {
+     "slug": "78-river-road-greenwich-connecticut-24173464",
+     "addr": "78 River Road Unit 15",
+     "unit": "Unit 15",
+     "beds": 3.0,
+     "baths": 4.0,
+     "sqft": 2381.0,
+     "price": 12000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 5,
+     "mi": 0.63
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 6800.0,
+    "high": 8600.0,
+    "median": 7700
+   },
+   "radiusMi": 0.75
+  }
  }
 }

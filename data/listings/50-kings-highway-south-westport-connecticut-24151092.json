@@ -113,5 +113,101 @@
    "n": "Bus stop",
    "mi": 1.13
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "462-riverside-avenue-westport-connecticut-24156927",
+     "addr": "462 Riverside Avenue",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 2235.0,
+     "price": 1900000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-10",
+     "ppsf": 850,
+     "mi": 0.36
+    },
+    {
+     "slug": "106-county-street-norwalk-connecticut-24174992",
+     "addr": "106 County Street",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 2042.0,
+     "price": 815000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-01",
+     "ppsf": 399,
+     "mi": 0.37
+    },
+    {
+     "slug": "10-leann-drive-norwalk-connecticut-24173012",
+     "addr": "10 Leann Drive",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1428.0,
+     "price": 785000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-29",
+     "ppsf": 550,
+     "mi": 0.43
+    },
+    {
+     "slug": "4-davenport-avenue-westport-connecticut-24166299",
+     "addr": "4 Davenport Avenue",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 1770.0,
+     "price": 1351175.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-06",
+     "ppsf": 763,
+     "mi": 0.66
+    },
+    {
+     "slug": "170-imperial-avenue-westport-connecticut-24170051",
+     "addr": "170 Imperial Avenue",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 2640.0,
+     "price": 1350000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-20",
+     "ppsf": 511,
+     "mi": 0.69
+    },
+    {
+     "slug": "8-country-club-road-norwalk-connecticut-24191974",
+     "addr": "8 Country Club Road",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1510.0,
+     "price": 775000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 513,
+     "mi": 0.35
+    }
+   ],
+   "summary": {
+    "n": 5,
+    "low": 785000.0,
+    "high": 1900000.0,
+    "median": 1350000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

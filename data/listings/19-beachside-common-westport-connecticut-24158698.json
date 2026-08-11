@@ -107,5 +107,45 @@
    "mi": 2.58,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "249-greens-farms-road-westport-connecticut-24132302",
+     "addr": "249 Greens Farms Road",
+     "unit": "",
+     "beds": 7.0,
+     "baths": 9.0,
+     "sqft": 10104.0,
+     "price": 3480000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-16",
+     "ppsf": 344,
+     "mi": 0.23
+    },
+    {
+     "slug": "4-sherwood-island-lane-westport-connecticut-24160355",
+     "addr": "4 Sherwood Island Lane",
+     "unit": "",
+     "beds": 7.0,
+     "baths": 7.0,
+     "sqft": 6215.0,
+     "price": 10500000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 1689,
+     "mi": 0.47
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 3480000.0,
+    "high": 3480000.0,
+    "median": 3480000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

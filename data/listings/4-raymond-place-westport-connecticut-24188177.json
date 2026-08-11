@@ -107,5 +107,86 @@
    "n": "Bus stop",
    "mi": 1.29
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "11-treadwell-avenue-westport-connecticut-24180824",
+     "addr": "11 Treadwell Avenue",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 3069.0,
+     "price": 9000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-09",
+     "ppsf": 3,
+     "mi": 0.25
+    },
+    {
+     "slug": "14-burr-road-westport-connecticut-24158964",
+     "addr": "14 Burr Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 4.0,
+     "sqft": 2282.0,
+     "price": 7500.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-05",
+     "ppsf": 3,
+     "mi": 0.67
+    },
+    {
+     "slug": "174a-post-road-west-westport-connecticut-24149288",
+     "addr": "174A Post Road West",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 4.0,
+     "sqft": 3678.0,
+     "price": 5800.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-14",
+     "ppsf": 2,
+     "mi": 0.69
+    },
+    {
+     "slug": "42-treadwell-avenue-westport-connecticut-24192179",
+     "addr": "42 Treadwell Avenue",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 2.0,
+     "sqft": 1706.0,
+     "price": 7500.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 4,
+     "mi": 0.36
+    },
+    {
+     "slug": "3-river-view-road-westport-connecticut-24154887",
+     "addr": "3 River View Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 4.0,
+     "sqft": 3182.0,
+     "price": 12000.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 4,
+     "mi": 0.38
+    }
+   ],
+   "summary": {
+    "n": 3,
+    "low": 5800.0,
+    "high": 9000.0,
+    "median": 7500
+   },
+   "radiusMi": 0.75
+  }
  }
 }

@@ -124,5 +124,58 @@
    "n": "Bus stop",
    "mi": 1.2
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "67-osborne-avenue-norwalk-connecticut-24154154",
+     "addr": "67 Osborne Avenue",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 2.0,
+     "sqft": 1500.0,
+     "price": 4000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-01",
+     "ppsf": 3,
+     "mi": 0.56
+    },
+    {
+     "slug": "2-third-street-norwalk-connecticut-24180199",
+     "addr": "2 Third Street Unit 1",
+     "unit": "Unit 1",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 1750.0,
+     "price": 5500.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 3,
+     "mi": 0.22
+    },
+    {
+     "slug": "21-victory-court-norwalk-connecticut-24193436",
+     "addr": "21 Victory Court",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 2.0,
+     "sqft": 1989.0,
+     "price": 4500.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 2,
+     "mi": 0.74
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 4000.0,
+    "high": 4000.0,
+    "median": 4000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

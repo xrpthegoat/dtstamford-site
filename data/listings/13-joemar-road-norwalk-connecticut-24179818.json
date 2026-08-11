@@ -103,5 +103,58 @@
    "n": "Bus stop",
    "mi": 1.44
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "norwalk-connecticut-24160129",
+     "addr": null,
+     "unit": "",
+     "beds": 4.0,
+     "baths": 2.0,
+     "sqft": 1428.0,
+     "price": 3300.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-01",
+     "ppsf": 2,
+     "mi": 0.54
+    },
+    {
+     "slug": "9-oakledge-circle-norwalk-connecticut-24196252",
+     "addr": "9 Oakledge Circle",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 2.0,
+     "sqft": 1157.0,
+     "price": 7000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 6,
+     "mi": 0.28
+    },
+    {
+     "slug": "7-edgewood-street-norwalk-connecticut-24196574",
+     "addr": "7 Edgewood Street Unit B",
+     "unit": "Unit B",
+     "beds": 4.0,
+     "baths": 4.0,
+     "sqft": 3000.0,
+     "price": 5700.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 2,
+     "mi": 0.7
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 3300.0,
+    "high": 3300.0,
+    "median": 3300
+   },
+   "radiusMi": 0.75
+  }
  }
 }

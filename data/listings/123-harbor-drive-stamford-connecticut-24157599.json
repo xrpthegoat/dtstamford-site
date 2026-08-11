@@ -111,5 +111,72 @@
    "n": "Bus stop",
    "mi": 1.02
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "105-harbor-drive-stamford-connecticut-24162148",
+     "addr": "105 Harbor Drive Unit 112",
+     "unit": "Unit 112",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 1665.0,
+     "price": 820000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-26",
+     "ppsf": 492,
+     "mi": 0.06
+    },
+    {
+     "slug": "61-seaview-avenue-stamford-connecticut-24165940",
+     "addr": "61 Seaview Avenue Unit 63",
+     "unit": "Unit 63",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 3476.0,
+     "price": 900000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-26",
+     "ppsf": 259,
+     "mi": 0.51
+    },
+    {
+     "slug": "89-harbor-drive-stamford-connecticut-24177579",
+     "addr": "89 Harbor Drive Unit 206",
+     "unit": "Unit 206",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 1665.0,
+     "price": 660000.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 396,
+     "mi": 0.09
+    },
+    {
+     "slug": "994-shippan-avenue-stamford-connecticut-24194947",
+     "addr": "994 Shippan Avenue Unit B",
+     "unit": "Unit B",
+     "beds": 3.0,
+     "baths": 4.0,
+     "sqft": 2756.0,
+     "price": 1195000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 434,
+     "mi": 0.26
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 820000.0,
+    "high": 900000.0,
+    "median": 860000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

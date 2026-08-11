@@ -131,5 +131,45 @@
    "mi": 2.46,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "10-side-hill-road-westport-connecticut-24178615",
+     "addr": "10 Side Hill Road",
+     "unit": "",
+     "beds": 6.0,
+     "baths": 6.0,
+     "sqft": 6844.0,
+     "price": 3175000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-29",
+     "ppsf": 464,
+     "mi": 0.72
+    },
+    {
+     "slug": "6-janson-drive-westport-connecticut-24165540",
+     "addr": "6 Janson Drive",
+     "unit": "",
+     "beds": 6.0,
+     "baths": 9.0,
+     "sqft": 7499.0,
+     "price": 4250000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 567,
+     "mi": 0.4
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 3175000.0,
+    "high": 3175000.0,
+    "median": 3175000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

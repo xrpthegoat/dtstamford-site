@@ -115,5 +115,85 @@
    "mi": 0.31,
    "walk": 6
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "22-horseshoe-road-wilton-connecticut-24139040",
+     "addr": "22 Horseshoe Road",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1391.0,
+     "price": 4250.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-09",
+     "ppsf": 3,
+     "mi": 0.03
+    },
+    {
+     "slug": "66-wilton-crest-wilton-connecticut-24138956",
+     "addr": "66 Wilton Crest Unit 66",
+     "unit": "Unit 66",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 1795.0,
+     "price": 5100.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-18",
+     "ppsf": 3,
+     "mi": 0.05
+    },
+    {
+     "slug": "22-hubbard-road-wilton-connecticut-24150951",
+     "addr": "22 Hubbard Road Unit 300",
+     "unit": "Unit 300",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 2360.0,
+     "price": 8663.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 4,
+     "mi": 0.72
+    },
+    {
+     "slug": "22-hubbard-road-wilton-connecticut-24150964",
+     "addr": "22 Hubbard Road Unit 102",
+     "unit": "Unit 102",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 1668.0,
+     "price": 6096.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 4,
+     "mi": 0.72
+    },
+    {
+     "slug": "22-hubbard-road-wilton-connecticut-24174969",
+     "addr": "22 Hubbard Road Unit 402",
+     "unit": "Unit 402",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1525.0,
+     "price": 6223.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 4,
+     "mi": 0.72
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 4250.0,
+    "high": 5100.0,
+    "median": 4675
+   },
+   "radiusMi": 0.75
+  }
  }
 }

@@ -109,5 +109,45 @@
    "mi": 0.71,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "17-pintail-lane-greenwich-connecticut-24149951",
+     "addr": "17 Pintail Lane",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 5.0,
+     "sqft": 3643.0,
+     "price": 4271000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-16",
+     "ppsf": 1172,
+     "mi": 0.34
+    },
+    {
+     "slug": "65-sherwood-place-greenwich-connecticut-24188704",
+     "addr": "65 Sherwood Place Unit 65",
+     "unit": "Unit 65",
+     "beds": 5.0,
+     "baths": 6.0,
+     "sqft": 2885.0,
+     "price": 2490000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 863,
+     "mi": 0.33
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 4271000.0,
+    "high": 4271000.0,
+    "median": 4271000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

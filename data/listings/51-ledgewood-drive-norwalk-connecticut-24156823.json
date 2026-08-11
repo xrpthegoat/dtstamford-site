@@ -106,5 +106,45 @@
    "n": "Bus stop",
    "mi": 1.12
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "10-harvann-road-norwalk-connecticut-24187300",
+     "addr": "10 Harvann Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 4.0,
+     "sqft": 2242.0,
+     "price": 4995.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-10",
+     "ppsf": 2,
+     "mi": 0.55
+    },
+    {
+     "slug": "21-fullmar-lane-norwalk-connecticut-24197355",
+     "addr": "21 Fullmar Lane",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 2456.0,
+     "price": 4200.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 2,
+     "mi": 0.67
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 4995.0,
+    "high": 4995.0,
+    "median": 4995
+   },
+   "radiusMi": 0.75
+  }
  }
 }

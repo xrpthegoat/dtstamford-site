@@ -105,5 +105,101 @@
    "mi": 1.31,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "199-hillspoint-road-westport-connecticut-24165861",
+     "addr": "199 Hillspoint Road",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 1920.0,
+     "price": 16000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-24",
+     "ppsf": 8,
+     "mi": 0.02
+    },
+    {
+     "slug": "8-sherwood-drive-westport-connecticut-24185793",
+     "addr": "8 Sherwood Drive",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 2734.0,
+     "price": 8900.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-09",
+     "ppsf": 3,
+     "mi": 0.05
+    },
+    {
+     "slug": "19-bluewater-hill-westport-connecticut-24088536",
+     "addr": "19 Bluewater Hill",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 3066.0,
+     "price": 33541.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-15",
+     "ppsf": 11,
+     "mi": 0.19
+    },
+    {
+     "slug": "14-norwalk-avenue-westport-connecticut-24176335",
+     "addr": "14 Norwalk Avenue",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 1995.0,
+     "price": 11500.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-26",
+     "ppsf": 6,
+     "mi": 0.56
+    },
+    {
+     "slug": "26-high-street-westport-connecticut-24182493",
+     "addr": "26 High Street",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 1440.0,
+     "price": 6350.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-08-01",
+     "ppsf": 4,
+     "mi": 0.72
+    },
+    {
+     "slug": "18-hales-road-westport-connecticut-24193607",
+     "addr": "18 Hales Road",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 1492.0,
+     "price": 5900.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 4,
+     "mi": 0.47
+    }
+   ],
+   "summary": {
+    "n": 5,
+    "low": 6350.0,
+    "high": 33541.0,
+    "median": 11500
+   },
+   "radiusMi": 0.75
+  }
  }
 }

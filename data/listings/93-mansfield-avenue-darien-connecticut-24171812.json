@@ -111,5 +111,60 @@
    "mi": 0.38,
    "walk": 8
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "40-fairview-avenue-darien-connecticut-24165875",
+     "addr": "40 Fairview Avenue",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 4.0,
+     "sqft": 2480.0,
+     "price": 11500.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-02",
+     "ppsf": 5,
+     "mi": 0.28
+    },
+    {
+     "slug": "16-overbrook-lane-darien-connecticut-24196033",
+     "addr": "16 Overbrook Lane",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 5.0,
+     "sqft": 5166.0,
+     "price": 17000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-08-07",
+     "ppsf": 3,
+     "mi": 0.43
+    },
+    {
+     "slug": "142-brookside-road-darien-connecticut-24175193",
+     "addr": "142 Brookside Road",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 5.0,
+     "sqft": 4524.0,
+     "price": 20000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-08-07",
+     "ppsf": 4,
+     "mi": 0.72
+    }
+   ],
+   "summary": {
+    "n": 3,
+    "low": 11500.0,
+    "high": 20000.0,
+    "median": 17000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

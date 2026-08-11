@@ -110,5 +110,72 @@
    "n": "Bus stop",
    "mi": 0.78
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "6-plover-lane-westport-connecticut-24178049",
+     "addr": "6 Plover Lane",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 6.0,
+     "sqft": 3540.0,
+     "price": 15500.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-01",
+     "ppsf": 4,
+     "mi": 0.19
+    },
+    {
+     "slug": "14-cockenoe-drive-westport-connecticut-24150537",
+     "addr": "14 Cockenoe Drive",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 6.0,
+     "sqft": 3627.0,
+     "price": 49000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-24",
+     "ppsf": 14,
+     "mi": 0.75
+    },
+    {
+     "slug": "11-belaire-drive-westport-connecticut-24191310",
+     "addr": "11 Belaire Drive",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 4.0,
+     "sqft": 3946.0,
+     "price": 11000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 3,
+     "mi": 0.46
+    },
+    {
+     "slug": "16-island-way-westport-connecticut-24190409",
+     "addr": "16 Island Way",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 4.0,
+     "sqft": 2990.0,
+     "price": 17000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 6,
+     "mi": 0.64
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 15500.0,
+    "high": 49000.0,
+    "median": 32250
+   },
+   "radiusMi": 0.75
+  }
  }
 }

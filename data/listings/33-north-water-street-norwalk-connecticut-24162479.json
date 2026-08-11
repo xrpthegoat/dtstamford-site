@@ -115,5 +115,162 @@
    "n": "Bus stop",
    "mi": 0.65
   }
+ },
+ "comps": {
+  "building": {
+   "rows": [
+    {
+     "slug": "33-north-water-street-norwalk-connecticut-24158324",
+     "addr": "33 North Water Street Unit 207",
+     "unit": "Unit 207",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1407.0,
+     "price": 699000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-15",
+     "ppsf": 497
+    },
+    {
+     "slug": "33-north-water-street-norwalk-connecticut-24139103",
+     "addr": "33 North Water Street Unit 505",
+     "unit": "Unit 505",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1395.0,
+     "price": 625000.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 448
+    },
+    {
+     "slug": "33-north-water-street-norwalk-connecticut-24189789",
+     "addr": "33 North Water Street Unit 404",
+     "unit": "Unit 404",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1392.0,
+     "price": 725000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 521
+    },
+    {
+     "slug": "33-north-water-street-norwalk-connecticut-24163011",
+     "addr": "33 North Water Street Unit 604",
+     "unit": "Unit 604",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1392.0,
+     "price": 695000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 499
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 699000.0,
+    "high": 699000.0,
+    "median": 699000
+   },
+   "label": "33 North Water Street"
+  },
+  "area": {
+   "rows": [
+    {
+     "slug": "115-flax-hill-road-norwalk-connecticut-24148228",
+     "addr": "115 Flax Hill Road Apt 10",
+     "unit": "Apt 10",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 862.0,
+     "price": 350000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-12",
+     "ppsf": 406,
+     "mi": 0.37
+    },
+    {
+     "slug": "115-flax-hill-road-norwalk-connecticut-24160936",
+     "addr": "115 Flax Hill Road Apt 6",
+     "unit": "Apt 6",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 862.0,
+     "price": 420000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-16",
+     "ppsf": 487,
+     "mi": 0.37
+    },
+    {
+     "slug": "5-van-zant-street-norwalk-connecticut-24165093",
+     "addr": "5 Van Zant Street Unit 1",
+     "unit": "Unit 1",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 990.0,
+     "price": 420000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-03",
+     "ppsf": 424,
+     "mi": 0.39
+    },
+    {
+     "slug": "71a-osborne-avenue-norwalk-connecticut-24158585",
+     "addr": "71A Osborne Avenue Apt A4",
+     "unit": "Apt A4",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1227.0,
+     "price": 400000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-19",
+     "ppsf": 326,
+     "mi": 0.5
+    },
+    {
+     "slug": "187-flax-hill-road-norwalk-connecticut-24121510",
+     "addr": "187 Flax Hill Road Apt D5",
+     "unit": "Apt D5",
+     "beds": 2.0,
+     "baths": 1.0,
+     "sqft": 1088.0,
+     "price": 350000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-15",
+     "ppsf": 322,
+     "mi": 0.52
+    },
+    {
+     "slug": "187-flax-hill-road-norwalk-connecticut-24172753",
+     "addr": "187 Flax Hill Road Unit D1",
+     "unit": "Unit D1",
+     "beds": 2.0,
+     "baths": 1.0,
+     "sqft": 1088.0,
+     "price": 415000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-24",
+     "ppsf": 381,
+     "mi": 0.52
+    }
+   ],
+   "summary": {
+    "n": 6,
+    "low": 350000.0,
+    "high": 420000.0,
+    "median": 407500
+   },
+   "radiusMi": 0.75
+  }
  }
 }

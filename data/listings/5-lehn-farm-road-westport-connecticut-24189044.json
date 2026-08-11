@@ -129,5 +129,59 @@
    "mi": 2.78,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "48-burr-farms-road-westport-connecticut-24149417",
+     "addr": "48 Burr Farms Road",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 1950.0,
+     "price": 1951000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-22",
+     "ppsf": 1001,
+     "mi": 0.53
+    },
+    {
+     "slug": "143-north-avenue-westport-connecticut-24183954",
+     "addr": "143 North Avenue",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 2192.0,
+     "price": 1906000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-22",
+     "ppsf": 870,
+     "mi": 0.69
+    },
+    {
+     "slug": "107-roseville-road-westport-connecticut-24190631",
+     "addr": "107 Roseville Road",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 1572.0,
+     "price": 1199000.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 763,
+     "mi": 0.44
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 1906000.0,
+    "high": 1951000.0,
+    "median": 1928500
+   },
+   "radiusMi": 0.75
+  }
  }
 }

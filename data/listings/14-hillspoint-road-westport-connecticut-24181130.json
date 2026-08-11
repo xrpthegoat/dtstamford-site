@@ -100,5 +100,46 @@
    "mi": 1.84,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "44-roseville-road-westport-connecticut-24151465",
+     "addr": "44 Roseville Road",
+     "unit": "",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 796.0,
+     "price": 3000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-29",
+     "ppsf": 4,
+     "mi": 0.43
+    },
+    {
+     "slug": "92-compo-road-south-westport-connecticut-24150619",
+     "addr": "92 Compo Road South",
+     "unit": "",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 793.0,
+     "price": 3000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-01",
+     "ppsf": 4,
+     "mi": 0.55
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 3000.0,
+    "high": 3000.0,
+    "median": 3000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

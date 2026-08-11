@@ -119,5 +119,59 @@
    "n": "Bus stop",
    "mi": 0.97
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "1-walter-avenue-norwalk-connecticut-24167267",
+     "addr": "1 Walter Avenue Unit 42",
+     "unit": "Unit 42",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 494.0,
+     "price": 223900.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-10",
+     "ppsf": 453,
+     "mi": 0.46
+    },
+    {
+     "slug": "1-walter-avenue-norwalk-connecticut-24171356",
+     "addr": "1 Walter Avenue Unit 49",
+     "unit": "Unit 49",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 574.0,
+     "price": 220000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-02",
+     "ppsf": 383,
+     "mi": 0.46
+    },
+    {
+     "slug": "1-walter-avenue-norwalk-connecticut-24179683",
+     "addr": "1 Walter Avenue Unit 25",
+     "unit": "Unit 25",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 574.0,
+     "price": 219900.0,
+     "kind": "asking",
+     "status": "Under Contract - Continue to Show",
+     "ppsf": 383,
+     "mi": 0.43
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 220000.0,
+    "high": 223900.0,
+    "median": 221950
+   },
+   "radiusMi": 0.75
+  }
  }
 }

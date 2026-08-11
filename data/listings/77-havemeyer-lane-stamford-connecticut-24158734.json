@@ -114,5 +114,93 @@
    "mi": 0.59,
    "walk": 12
   }
+ },
+ "comps": {
+  "building": {
+   "rows": [
+    {
+     "slug": "77-havemeyer-lane-stamford-connecticut-24183977",
+     "addr": "77 Havemeyer Lane Unit 85",
+     "unit": "Unit 85",
+     "beds": 3.0,
+     "baths": 4.0,
+     "sqft": 3164.0,
+     "price": 1772500.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-08-07",
+     "ppsf": 560
+    },
+    {
+     "slug": "77-havemeyer-lane-stamford-connecticut-24164736",
+     "addr": "77 Havemeyer Lane Unit 318",
+     "unit": "Unit 318",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1400.0,
+     "price": 1125000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-15",
+     "ppsf": 804
+    },
+    {
+     "slug": "77-havemeyer-lane-stamford-connecticut-24189956",
+     "addr": "77 Havemeyer Lane Unit 310",
+     "unit": "Unit 310",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1400.0,
+     "price": 1100000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 786
+    },
+    {
+     "slug": "77-havemeyer-lane-stamford-connecticut-24195169",
+     "addr": "77 Havemeyer Lane Unit 11",
+     "unit": "Unit 11",
+     "beds": 3.0,
+     "baths": 4.0,
+     "sqft": 3254.0,
+     "price": 1595000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 490
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 1125000.0,
+    "high": 1772500.0,
+    "median": 1448750
+   },
+   "label": "77 Havemeyer Lane"
+  },
+  "area": {
+   "rows": [
+    {
+     "slug": "2-finney-lane-stamford-connecticut-24170395",
+     "addr": "2 Finney Lane Unit 31",
+     "unit": "Unit 31",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 1634.0,
+     "price": 560000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-11",
+     "ppsf": 343,
+     "mi": 0.7
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 560000.0,
+    "high": 560000.0,
+    "median": 560000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

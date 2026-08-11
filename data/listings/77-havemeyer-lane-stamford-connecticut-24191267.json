@@ -127,5 +127,96 @@
    "mi": 0.56,
    "walk": 11
   }
+ },
+ "comps": {
+  "building": {
+   "rows": [
+    {
+     "slug": "77-havemeyer-lane-stamford-connecticut-24164873",
+     "addr": "77 Havemeyer Lane Unit 48",
+     "unit": "Unit 48",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 1979.0,
+     "price": 7200.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-01",
+     "ppsf": 4
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 7200.0,
+    "high": 7200.0,
+    "median": 7200
+   },
+   "label": "77 Havemeyer Lane"
+  },
+  "area": {
+   "rows": [
+    {
+     "slug": "16-carolina-road-stamford-connecticut-24191657",
+     "addr": "16 Carolina Road Unit 2",
+     "unit": "Unit 2",
+     "beds": 3.0,
+     "baths": 1.0,
+     "sqft": 2344.0,
+     "price": 3600.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-20",
+     "ppsf": 2,
+     "mi": 0.49
+    },
+    {
+     "slug": "14-amherst-road-greenwich-connecticut-24166765",
+     "addr": "14 Amherst Road",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1470.0,
+     "price": 6150.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-04",
+     "ppsf": 4,
+     "mi": 0.62
+    },
+    {
+     "slug": "510-west-main-street-stamford-connecticut-24191385",
+     "addr": "510 West Main Street",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 1.0,
+     "sqft": 2027.0,
+     "price": 3000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 1,
+     "mi": 0.56
+    },
+    {
+     "slug": "175-west-avenue-stamford-connecticut-24191457",
+     "addr": "175 West Avenue Unit 8",
+     "unit": "Unit 8",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 1800.0,
+     "price": 3500.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 2,
+     "mi": 0.63
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 3600.0,
+    "high": 6150.0,
+    "median": 4875
+   },
+   "radiusMi": 0.75
+  }
  }
 }

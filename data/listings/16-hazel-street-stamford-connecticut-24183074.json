@@ -105,5 +105,45 @@
    "mi": 0.13,
    "walk": 3
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "72-alvord-lane-stamford-connecticut-24169457",
+     "addr": "72 Alvord Lane",
+     "unit": "",
+     "beds": 6.0,
+     "baths": 3.0,
+     "sqft": 3392.0,
+     "price": 1100000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-18",
+     "ppsf": 324,
+     "mi": 0.71
+    },
+    {
+     "slug": "12-chestnut-street-stamford-connecticut-24196946",
+     "addr": "12 Chestnut Street",
+     "unit": "",
+     "beds": 6.0,
+     "baths": 2.0,
+     "sqft": 2204.0,
+     "price": 555000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 252,
+     "mi": 0.55
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 1100000.0,
+    "high": 1100000.0,
+    "median": 1100000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

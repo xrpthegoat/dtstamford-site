@@ -104,5 +104,60 @@
    "mi": 2.22,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "23-laurel-lane-wilton-connecticut-24181362",
+     "addr": "23 Laurel Lane",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 5.0,
+     "sqft": 3541.0,
+     "price": 1400000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-10",
+     "ppsf": 395,
+     "mi": 0.29
+    },
+    {
+     "slug": "118-old-kings-highway-wilton-connecticut-24183854",
+     "addr": "118 Old Kings Highway",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 2736.0,
+     "price": 1400000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-30",
+     "ppsf": 512,
+     "mi": 0.36
+    },
+    {
+     "slug": "73-old-kings-highway-wilton-connecticut-24150024",
+     "addr": "73 Old Kings Highway",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 4.0,
+     "sqft": 3838.0,
+     "price": 1500000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-27",
+     "ppsf": 391,
+     "mi": 0.56
+    }
+   ],
+   "summary": {
+    "n": 3,
+    "low": 1400000.0,
+    "high": 1500000.0,
+    "median": 1400000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

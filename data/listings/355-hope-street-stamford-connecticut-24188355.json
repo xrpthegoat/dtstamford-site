@@ -127,5 +127,45 @@
    "n": "Bedford St @ Third St",
    "mi": 1.04
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "98-scofield-avenue-stamford-connecticut-24145854",
+     "addr": "98 Scofield Avenue",
+     "unit": "",
+     "beds": 6.0,
+     "baths": 6.0,
+     "sqft": 3535.0,
+     "price": 1120000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-18",
+     "ppsf": 317,
+     "mi": 0.22
+    },
+    {
+     "slug": "32-hackett-circle-north-stamford-connecticut-24189261",
+     "addr": "32 Hackett Circle North",
+     "unit": "",
+     "beds": 6.0,
+     "baths": 2.0,
+     "sqft": 2210.0,
+     "price": 950000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 430,
+     "mi": 0.56
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 1120000.0,
+    "high": 1120000.0,
+    "median": 1120000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

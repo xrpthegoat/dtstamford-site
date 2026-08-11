@@ -108,5 +108,45 @@
    "mi": 2.05,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "37-blue-ridge-drive-stamford-connecticut-24166806",
+     "addr": "37 Blue Ridge Drive",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1411.0,
+     "price": 715000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-23",
+     "ppsf": 507,
+     "mi": 0.67
+    },
+    {
+     "slug": "26-marva-lane-stamford-connecticut-24190336",
+     "addr": "26 Marva Lane",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 3088.0,
+     "price": 985000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 319,
+     "mi": 0.74
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 715000.0,
+    "high": 715000.0,
+    "median": 715000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

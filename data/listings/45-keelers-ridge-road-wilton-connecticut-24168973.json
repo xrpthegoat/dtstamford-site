@@ -104,5 +104,45 @@
    "mi": 2.5,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "78-keelers-ridge-road-wilton-connecticut-24161492",
+     "addr": "78 Keelers Ridge Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 4.0,
+     "sqft": 4154.0,
+     "price": 2000000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-15",
+     "ppsf": 481,
+     "mi": 0.26
+    },
+    {
+     "slug": "94-vista-road-wilton-connecticut-24166305",
+     "addr": "94 Vista Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 4.0,
+     "sqft": 3974.0,
+     "price": 1398000.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 352,
+     "mi": 0.61
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 2000000.0,
+    "high": 2000000.0,
+    "median": 2000000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

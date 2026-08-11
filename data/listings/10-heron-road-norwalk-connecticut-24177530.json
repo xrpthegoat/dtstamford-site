@@ -130,5 +130,45 @@
    "mi": 0.28,
    "walk": 6
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "26-hiawatha-lane-extension-westport-connecticut-24155254",
+     "addr": "26 Hiawatha Lane Extension",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1056.0,
+     "price": 5000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-01",
+     "ppsf": 5,
+     "mi": 0.59
+    },
+    {
+     "slug": "5-amundsen-street-norwalk-connecticut-24194493",
+     "addr": "5 Amundsen Street Unit 3",
+     "unit": "Unit 3",
+     "beds": 3.0,
+     "baths": 1.0,
+     "sqft": 2868.0,
+     "price": 2950.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 1,
+     "mi": 0.58
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 5000.0,
+    "high": 5000.0,
+    "median": 5000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

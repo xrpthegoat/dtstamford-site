@@ -102,5 +102,99 @@
    "n": "Bus stop",
    "mi": 1.16
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "15-lancer-road-greenwich-connecticut-24174565",
+     "addr": "15 Lancer Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 3031.0,
+     "price": 8850.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-29",
+     "ppsf": 3,
+     "mi": 0.44
+    },
+    {
+     "slug": "35-dartmouth-road-greenwich-connecticut-24186251",
+     "addr": "35 Dartmouth Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 5.0,
+     "sqft": 3402.0,
+     "price": 17500.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-30",
+     "ppsf": 5,
+     "mi": 0.62
+    },
+    {
+     "slug": "28-pleasant-street-greenwich-connecticut-24180840",
+     "addr": "28 Pleasant Street",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 2140.0,
+     "price": 6400.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-11",
+     "ppsf": 3,
+     "mi": 0.73
+    },
+    {
+     "slug": "25-griffith-road-greenwich-connecticut-24180498",
+     "addr": "25 Griffith Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 4.0,
+     "sqft": 2436.0,
+     "price": 12000.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 5,
+     "mi": 0.64
+    },
+    {
+     "slug": "26-revere-road-greenwich-connecticut-24181504",
+     "addr": "26 Revere Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 2383.0,
+     "price": 11900.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 5,
+     "mi": 0.67
+    },
+    {
+     "slug": "1-crawford-terrace-greenwich-connecticut-24178376",
+     "addr": "1 Crawford Terrace",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 4.0,
+     "sqft": 2819.0,
+     "price": 18000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 6,
+     "mi": 0.67
+    }
+   ],
+   "summary": {
+    "n": 3,
+    "low": 6400.0,
+    "high": 17500.0,
+    "median": 8850
+   },
+   "radiusMi": 0.75
+  }
  }
 }

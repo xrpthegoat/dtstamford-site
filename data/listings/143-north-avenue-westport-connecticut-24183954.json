@@ -105,5 +105,45 @@
    "mi": 3.47,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "24-warnock-drive-westport-connecticut-24141029",
+     "addr": "24 Warnock Drive",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 2844.0,
+     "price": 1800000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-08",
+     "ppsf": 633,
+     "mi": 0.65
+    },
+    {
+     "slug": "5-lehn-farm-road-westport-connecticut-24189044",
+     "addr": "5 Lehn Farm Road",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1352.0,
+     "price": 1299000.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 961,
+     "mi": 0.69
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 1800000.0,
+    "high": 1800000.0,
+    "median": 1800000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

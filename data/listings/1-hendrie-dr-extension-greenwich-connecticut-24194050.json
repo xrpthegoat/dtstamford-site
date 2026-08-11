@@ -115,5 +115,58 @@
    "n": "Bus stop",
    "mi": 1.48
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "1-bramble-lane-greenwich-connecticut-24157206",
+     "addr": "1 Bramble Lane",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 7.0,
+     "sqft": 7039.0,
+     "price": 5900000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-06",
+     "ppsf": 838,
+     "mi": 0.69
+    },
+    {
+     "slug": "4-little-cove-lane-greenwich-connecticut-24172344",
+     "addr": "4 Little Cove Lane",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 7.0,
+     "sqft": 6069.0,
+     "price": 13890000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 2289,
+     "mi": 0.59
+    },
+    {
+     "slug": "22-northway-greenwich-connecticut-24182645",
+     "addr": "22 Northway",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 4.0,
+     "sqft": 3330.0,
+     "price": 13500000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 4054,
+     "mi": 0.71
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 5900000.0,
+    "high": 5900000.0,
+    "median": 5900000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

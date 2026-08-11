@@ -137,5 +137,130 @@
    "n": "Heights Rd @ 310 Heights Rd",
    "mi": 1.13
   }
+ },
+ "comps": {
+  "building": {
+   "rows": [
+    {
+     "slug": "34-crescent-street-stamford-connecticut-24183395",
+     "addr": "34 Crescent Street Unit 1H",
+     "unit": "Unit 1H",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 1071.0,
+     "price": 285000.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 266
+    },
+    {
+     "slug": "34-crescent-street-stamford-connecticut-24188132",
+     "addr": "34 Crescent Street Unit 1D",
+     "unit": "Unit 1D",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 782.0,
+     "price": 324900.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 415
+    }
+   ],
+   "summary": null,
+   "label": "34 Crescent Street"
+  },
+  "area": {
+   "rows": [
+    {
+     "slug": "76-maple-tree-avenue-stamford-connecticut-24172053",
+     "addr": "76 Maple Tree Avenue Unit 5",
+     "unit": "Unit 5",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 850.0,
+     "price": 365000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-08-06",
+     "ppsf": 429,
+     "mi": 0.31
+    },
+    {
+     "slug": "59-courtland-avenue-stamford-connecticut-24156487",
+     "addr": "59 Courtland Avenue Apt 2T",
+     "unit": "Apt 2T",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 480.0,
+     "price": 160000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-01",
+     "ppsf": 333,
+     "mi": 0.73
+    },
+    {
+     "slug": "59-courtland-avenue-stamford-connecticut-24157387",
+     "addr": "59 Courtland Avenue Apt 3B",
+     "unit": "Apt 3B",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 590.0,
+     "price": 239000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-29",
+     "ppsf": 405,
+     "mi": 0.73
+    },
+    {
+     "slug": "194-seaton-road-stamford-connecticut-24167892",
+     "addr": "194 Seaton Road Unit 3",
+     "unit": "Unit 3",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 575.0,
+     "price": 230000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-18",
+     "ppsf": 400,
+     "mi": 0.74
+    },
+    {
+     "slug": "291-hope-street-stamford-connecticut-24192806",
+     "addr": "291 Hope Street Unit A14",
+     "unit": "Unit A14",
+     "beds": 1.0,
+     "baths": 2.0,
+     "sqft": 880.0,
+     "price": 350000.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 398,
+     "mi": 0.34
+    },
+    {
+     "slug": "151-courtland-avenue-stamford-connecticut-24176995",
+     "addr": "151 Courtland Avenue Unit 1",
+     "unit": "Unit 1",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 570.0,
+     "price": 253000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 444,
+     "mi": 0.54
+    }
+   ],
+   "summary": {
+    "n": 4,
+    "low": 160000.0,
+    "high": 365000.0,
+    "median": 234500
+   },
+   "radiusMi": 0.75
+  }
  }
 }

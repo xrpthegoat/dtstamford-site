@@ -115,5 +115,45 @@
    "n": "Bus stop",
    "mi": 1.86
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "105-glenville-street-greenwich-connecticut-24150539",
+     "addr": "105 Glenville Street",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1713.0,
+     "price": 977500.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-17",
+     "ppsf": 571,
+     "mi": 0.22
+    },
+    {
+     "slug": "22-nedley-lane-greenwich-connecticut-24176923",
+     "addr": "22 Nedley Lane",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 1620.0,
+     "price": 990000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 611,
+     "mi": 0.23
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 977500.0,
+    "high": 977500.0,
+    "median": 977500
+   },
+   "radiusMi": 0.75
+  }
  }
 }

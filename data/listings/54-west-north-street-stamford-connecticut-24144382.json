@@ -108,5 +108,120 @@
    "mi": 0.23,
    "walk": 5
   }
+ },
+ "comps": {
+  "building": {
+   "rows": [
+    {
+     "slug": "54-west-north-street-stamford-connecticut-24190147",
+     "addr": "54 West North Street Unit 422",
+     "unit": "Unit 422",
+     "beds": 2.0,
+     "baths": 1.0,
+     "sqft": 990.0,
+     "price": 225000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 227
+    }
+   ],
+   "summary": null,
+   "label": "54 West North Street"
+  },
+  "area": {
+   "rows": [
+    {
+     "slug": "104-north-street-stamford-connecticut-24142621",
+     "addr": "104 North Street Apt 801",
+     "unit": "Apt 801",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1421.0,
+     "price": 533000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-06",
+     "ppsf": 375,
+     "mi": 0.12
+    },
+    {
+     "slug": "1611-washington-boulevard-stamford-connecticut-24159422",
+     "addr": "1611 Washington Boulevard Apt 1",
+     "unit": "Apt 1",
+     "beds": 2.0,
+     "baths": 3.0,
+     "sqft": 1566.0,
+     "price": 565000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-19",
+     "ppsf": 361,
+     "mi": 0.17
+    },
+    {
+     "slug": "25-adams-avenue-stamford-connecticut-24167713",
+     "addr": "25 Adams Avenue Unit 112",
+     "unit": "Unit 112",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1200.0,
+     "price": 517500.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-15",
+     "ppsf": 431,
+     "mi": 0.2
+    },
+    {
+     "slug": "25-adams-avenue-stamford-connecticut-24160889",
+     "addr": "25 Adams Avenue Unit 405",
+     "unit": "Unit 405",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1492.0,
+     "price": 610000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-29",
+     "ppsf": 409,
+     "mi": 0.2
+    },
+    {
+     "slug": "700-summer-street-stamford-connecticut-24161602",
+     "addr": "700 Summer Street Unit 4L",
+     "unit": "Unit 4L",
+     "beds": 2.0,
+     "baths": 1.0,
+     "sqft": 1069.0,
+     "price": 360000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-01",
+     "ppsf": 337,
+     "mi": 0.21
+    },
+    {
+     "slug": "35-west-broad-street-stamford-connecticut-24160059",
+     "addr": "35 West Broad Street Unit 224",
+     "unit": "Unit 224",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1148.0,
+     "price": 526000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-28",
+     "ppsf": 458,
+     "mi": 0.21
+    }
+   ],
+   "summary": {
+    "n": 6,
+    "low": 360000.0,
+    "high": 610000.0,
+    "median": 529500
+   },
+   "radiusMi": 0.75
+  }
  }
 }

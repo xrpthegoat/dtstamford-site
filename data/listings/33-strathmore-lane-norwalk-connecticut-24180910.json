@@ -106,5 +106,72 @@
    "n": "Bus stop",
    "mi": 0.85
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "42-county-street-norwalk-connecticut-24179019",
+     "addr": "42 County Street",
+     "unit": "",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 910.0,
+     "price": 3680.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-01",
+     "ppsf": 4,
+     "mi": 0.57
+    },
+    {
+     "slug": "230-saugatuck-avenue-westport-connecticut-24172567",
+     "addr": "230 Saugatuck Avenue Unit 17",
+     "unit": "Unit 17",
+     "beds": 2.0,
+     "baths": 3.0,
+     "sqft": 1200.0,
+     "price": 4800.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-26",
+     "ppsf": 4,
+     "mi": 0.66
+    },
+    {
+     "slug": "10a-willard-road-norwalk-connecticut-24192128",
+     "addr": "10a Willard Road Unit 222",
+     "unit": "Unit 222",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1050.0,
+     "price": 3100.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 3,
+     "mi": 0.47
+    },
+    {
+     "slug": "34-franklin-street-westport-connecticut-24188317",
+     "addr": "34 Franklin Street Unit 1",
+     "unit": "Unit 1",
+     "beds": 2.0,
+     "baths": 1.0,
+     "sqft": 750.0,
+     "price": 3000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 4,
+     "mi": 0.51
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 3680.0,
+    "high": 4800.0,
+    "median": 4240
+   },
+   "radiusMi": 0.75
+  }
  }
 }

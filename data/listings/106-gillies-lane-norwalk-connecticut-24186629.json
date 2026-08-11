@@ -134,5 +134,59 @@
    "n": "Bus stop",
    "mi": 1.09
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "82-ledgebrook-drive-norwalk-connecticut-24162790",
+     "addr": "82 Ledgebrook Drive Unit 82",
+     "unit": "Unit 82",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1806.0,
+     "price": 513000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-14",
+     "ppsf": 284,
+     "mi": 0.05
+    },
+    {
+     "slug": "19-ledgebrook-drive-norwalk-connecticut-24161955",
+     "addr": "19 Ledgebrook Drive Unit 19",
+     "unit": "Unit 19",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1806.0,
+     "price": 655000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-18",
+     "ppsf": 363,
+     "mi": 0.16
+    },
+    {
+     "slug": "34-ferris-avenue-norwalk-connecticut-24145088",
+     "addr": "34 Ferris Avenue Apt A2",
+     "unit": "Apt A2",
+     "beds": 3.0,
+     "baths": 4.0,
+     "sqft": 1801.0,
+     "price": 599000.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 333,
+     "mi": 0.56
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 513000.0,
+    "high": 655000.0,
+    "median": 584000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

@@ -106,5 +106,120 @@
    "n": "Bus stop",
    "mi": 1.32
   }
+ },
+ "comps": {
+  "building": {
+   "rows": [
+    {
+     "slug": "267-west-cedar-street-norwalk-connecticut-24188067",
+     "addr": "267 West Cedar Street Unit 2D",
+     "unit": "Unit 2D",
+     "beds": 2.0,
+     "baths": 1.0,
+     "sqft": 1115.0,
+     "price": 2750.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 2
+    }
+   ],
+   "summary": null,
+   "label": "267 West Cedar Street"
+  },
+  "area": {
+   "rows": [
+    {
+     "slug": "172-gillies-lane-norwalk-connecticut-24177042",
+     "addr": "172 Gillies Lane Unit 172",
+     "unit": "Unit 172",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1662.0,
+     "price": 3300.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-01",
+     "ppsf": 2,
+     "mi": 0.3
+    },
+    {
+     "slug": "1-horizon-drive-norwalk-connecticut-24150892",
+     "addr": "1 Horizon Drive Apt 2",
+     "unit": "Apt 2",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1258.0,
+     "price": 3150.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-26",
+     "ppsf": 3,
+     "mi": 0.4
+    },
+    {
+     "slug": "41-1-2-cedar-crest-place-norwalk-connecticut-24161000",
+     "addr": "41 1/2 Cedar Crest Place Unit B",
+     "unit": "Unit B",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1064.0,
+     "price": 3000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-08",
+     "ppsf": 3,
+     "mi": 0.56
+    },
+    {
+     "slug": "16-north-taylor-avenue-norwalk-connecticut-24161387",
+     "addr": "16 North Taylor Avenue Unit 2",
+     "unit": "Unit 2",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 800.0,
+     "price": 2550.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-05",
+     "ppsf": 3,
+     "mi": 0.63
+    },
+    {
+     "slug": "21-avenue-b-norwalk-connecticut-24177014",
+     "addr": "21 Avenue B Unit A",
+     "unit": "Unit A",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1100.0,
+     "price": 2695.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-13",
+     "ppsf": 2,
+     "mi": 0.63
+    },
+    {
+     "slug": "118-west-cedar-street-norwalk-connecticut-24183077",
+     "addr": "118 West Cedar Street Unit 3",
+     "unit": "Unit 3",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 988.0,
+     "price": 3000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-08",
+     "ppsf": 3,
+     "mi": 0.63
+    }
+   ],
+   "summary": {
+    "n": 6,
+    "low": 2550.0,
+    "high": 3300.0,
+    "median": 3000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

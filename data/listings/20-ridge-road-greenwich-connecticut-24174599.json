@@ -107,5 +107,59 @@
    "n": "Bus stop",
    "mi": 1.83
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "24-taylor-drive-greenwich-connecticut-24157194",
+     "addr": "24 Taylor Drive",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1356.0,
+     "price": 1395000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-11",
+     "ppsf": 1029,
+     "mi": 0.15
+    },
+    {
+     "slug": "64-hillside-road-greenwich-connecticut-24168797",
+     "addr": "64 Hillside Road",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 2145.0,
+     "price": 2500000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-16",
+     "ppsf": 1166,
+     "mi": 0.57
+    },
+    {
+     "slug": "33-sachem-road-greenwich-connecticut-24184423",
+     "addr": "33 Sachem Road",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 2972.0,
+     "price": 1750000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 589,
+     "mi": 0.75
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 1395000.0,
+    "high": 2500000.0,
+    "median": 1947500
+   },
+   "radiusMi": 0.75
+  }
  }
 }

@@ -125,5 +125,73 @@
    "mi": 2.8,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "50-duke-drive-stamford-connecticut-24190361",
+     "addr": "50 Duke Drive",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1832.0,
+     "price": 4100.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-22",
+     "ppsf": 2,
+     "mi": 0.53
+    },
+    {
+     "slug": "63-alpine-street-stamford-connecticut-24147481",
+     "addr": "63 Alpine Street",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 1.0,
+     "sqft": 2000.0,
+     "price": 3500.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-28",
+     "ppsf": 2,
+     "mi": 0.58
+    },
+    {
+     "slug": "70-clay-hill-road-stamford-connecticut-24183685",
+     "addr": "70 Clay Hill Road",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 3280.0,
+     "price": 4300.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-01",
+     "ppsf": 1,
+     "mi": 0.73
+    },
+    {
+     "slug": "1286-long-ridge-road-stamford-connecticut-24187537",
+     "addr": "1286 Long Ridge Road",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 2200.0,
+     "price": 5200.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 2,
+     "mi": 0.42
+    }
+   ],
+   "summary": {
+    "n": 3,
+    "low": 3500.0,
+    "high": 4300.0,
+    "median": 4100
+   },
+   "radiusMi": 0.75
+  }
  }
 }

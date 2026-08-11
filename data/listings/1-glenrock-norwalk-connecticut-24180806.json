@@ -113,5 +113,84 @@
    "mi": 0.12,
    "walk": 2
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "8-oakwood-avenue-norwalk-connecticut-24160577",
+     "addr": "8 Oakwood Avenue Apt B13",
+     "unit": "Apt B13",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 514.0,
+     "price": 270000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-13",
+     "ppsf": 525,
+     "mi": 0.06
+    },
+    {
+     "slug": "38-glenrock-norwalk-connecticut-24137137",
+     "addr": "38 Glenrock Unit 38",
+     "unit": "Unit 38",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 735.0,
+     "price": 330000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 449,
+     "mi": 0.02
+    },
+    {
+     "slug": "57-glenrock-norwalk-connecticut-24192598",
+     "addr": "57 Glenrock Unit 57",
+     "unit": "Unit 57",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 774.0,
+     "price": 358900.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 464,
+     "mi": 0.02
+    },
+    {
+     "slug": "3-oakwood-avenue-norwalk-connecticut-24194345",
+     "addr": "3 Oakwood Avenue Unit B3",
+     "unit": "Unit B3",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 728.0,
+     "price": 300000.0,
+     "kind": "asking",
+     "status": "Under Contract - Continue to Show",
+     "ppsf": 412,
+     "mi": 0.11
+    },
+    {
+     "slug": "123-old-belden-hill-road-norwalk-connecticut-24193543",
+     "addr": "123 Old Belden Hill Road Unit 26",
+     "unit": "Unit 26",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 813.0,
+     "price": 385000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 474,
+     "mi": 0.75
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 270000.0,
+    "high": 270000.0,
+    "median": 270000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

@@ -96,5 +96,46 @@
    "mi": 0.76,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "24-orchard-place-greenwich-connecticut-24176245",
+     "addr": "24 Orchard Place Unit B",
+     "unit": "Unit B",
+     "beds": 5.0,
+     "baths": 5.0,
+     "sqft": 3427.0,
+     "price": 19000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-26",
+     "ppsf": 6,
+     "mi": 0.55
+    },
+    {
+     "slug": "25-lakewood-circle-north-greenwich-connecticut-24168715",
+     "addr": "25 Lakewood Circle North",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 5.0,
+     "sqft": 4272.0,
+     "price": 30000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-29",
+     "ppsf": 7,
+     "mi": 0.6
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 19000.0,
+    "high": 30000.0,
+    "median": 24500
+   },
+   "radiusMi": 0.75
+  }
  }
 }

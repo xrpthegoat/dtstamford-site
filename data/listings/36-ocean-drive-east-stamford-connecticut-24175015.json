@@ -128,5 +128,45 @@
    "n": "Bus stop",
    "mi": 1.51
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "22-ocean-drive-north-stamford-connecticut-24185475",
+     "addr": "22 Ocean Drive North",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 5.0,
+     "sqft": 3866.0,
+     "price": 15000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-08-06",
+     "ppsf": 4,
+     "mi": 0.22
+    },
+    {
+     "slug": "64-ocean-drive-east-stamford-connecticut-24182199",
+     "addr": "64 Ocean Drive East",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 4.0,
+     "sqft": 3132.0,
+     "price": 15000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 5,
+     "mi": 0.09
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 15000.0,
+    "high": 15000.0,
+    "median": 15000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

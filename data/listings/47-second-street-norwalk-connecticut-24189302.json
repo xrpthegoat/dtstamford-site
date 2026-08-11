@@ -127,5 +127,59 @@
    "n": "Bus stop",
    "mi": 1.26
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "80-gregory-boulevard-norwalk-connecticut-24157898",
+     "addr": "80 Gregory Boulevard",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 2.0,
+     "sqft": 3120.0,
+     "price": 915000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-04",
+     "ppsf": 293,
+     "mi": 0.14
+    },
+    {
+     "slug": "11-bethel-street-norwalk-connecticut-24169396",
+     "addr": "11 Bethel Street",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 2244.0,
+     "price": 770000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-31",
+     "ppsf": 343,
+     "mi": 0.16
+    },
+    {
+     "slug": "12-first-street-norwalk-connecticut-24190567",
+     "addr": "12 First Street",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 2.0,
+     "sqft": 1904.0,
+     "price": 819000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 430,
+     "mi": 0.19
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 770000.0,
+    "high": 915000.0,
+    "median": 842500
+   },
+   "radiusMi": 0.75
+  }
  }
 }

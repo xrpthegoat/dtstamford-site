@@ -107,5 +107,45 @@
    "mi": 3.59,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "42-easton-road-westport-connecticut-24164674",
+     "addr": "42 Easton Road",
+     "unit": "",
+     "beds": 6.0,
+     "baths": 7.0,
+     "sqft": 5227.0,
+     "price": 3870000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-18",
+     "ppsf": 740,
+     "mi": 0.17
+    },
+    {
+     "slug": "9-north-ridge-road-westport-connecticut-24191286",
+     "addr": "9 North Ridge Road",
+     "unit": "",
+     "beds": 6.0,
+     "baths": 7.0,
+     "sqft": 6751.0,
+     "price": 3550000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 526,
+     "mi": 0.56
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 3870000.0,
+    "high": 3870000.0,
+    "median": 3870000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

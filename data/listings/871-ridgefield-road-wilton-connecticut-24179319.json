@@ -127,5 +127,45 @@
    "mi": 3.0,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "45-spectacle-lane-wilton-connecticut-24182203",
+     "addr": "45 Spectacle Lane",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 4.0,
+     "sqft": 2725.0,
+     "price": 1675000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-30",
+     "ppsf": 615,
+     "mi": 0.59
+    },
+    {
+     "slug": "31-vista-road-wilton-connecticut-24180485",
+     "addr": "31 Vista Road",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1866.0,
+     "price": 799999.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 429,
+     "mi": 0.74
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 1675000.0,
+    "high": 1675000.0,
+    "median": 1675000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

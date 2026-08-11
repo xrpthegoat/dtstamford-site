@@ -122,5 +122,45 @@
    "mi": 1.38,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "26-high-street-westport-connecticut-24182493",
+     "addr": "26 High Street",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 1440.0,
+     "price": 6350.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-08-01",
+     "ppsf": 4,
+     "mi": 0.49
+    },
+    {
+     "slug": "18-hales-road-westport-connecticut-24193607",
+     "addr": "18 Hales Road",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 1492.0,
+     "price": 5900.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 4,
+     "mi": 0.5
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 6350.0,
+    "high": 6350.0,
+    "median": 6350
+   },
+   "radiusMi": 0.75
+  }
  }
 }

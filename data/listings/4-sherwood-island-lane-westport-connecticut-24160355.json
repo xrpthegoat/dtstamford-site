@@ -127,5 +127,59 @@
    "mi": 2.11,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "19-beachside-common-westport-connecticut-24158698",
+     "addr": "19 Beachside Common",
+     "unit": "",
+     "beds": 7.0,
+     "baths": 9.0,
+     "sqft": 10482.0,
+     "price": 8986000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-08",
+     "ppsf": 857,
+     "mi": 0.47
+    },
+    {
+     "slug": "249-greens-farms-road-westport-connecticut-24132302",
+     "addr": "249 Greens Farms Road",
+     "unit": "",
+     "beds": 7.0,
+     "baths": 9.0,
+     "sqft": 10104.0,
+     "price": 3480000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-16",
+     "ppsf": 344,
+     "mi": 0.52
+    },
+    {
+     "slug": "13-edgemarth-hill-road-westport-connecticut-24183173",
+     "addr": "13 Edgemarth Hill Road",
+     "unit": "",
+     "beds": 7.0,
+     "baths": 8.0,
+     "sqft": 8700.0,
+     "price": 5999999.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 690,
+     "mi": 0.75
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 3480000.0,
+    "high": 8986000.0,
+    "median": 6233000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

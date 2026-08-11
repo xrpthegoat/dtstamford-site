@@ -133,5 +133,138 @@
    "n": "Bus stop",
    "mi": 1.0
   }
+ },
+ "comps": {
+  "building": {
+   "rows": [
+    {
+     "slug": "115-fillow-street-norwalk-connecticut-24155668",
+     "addr": "115 Fillow Street Unit 78",
+     "unit": "Unit 78",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1448.0,
+     "price": 470000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-06",
+     "ppsf": 325
+    },
+    {
+     "slug": "115-fillow-street-norwalk-connecticut-24177100",
+     "addr": "115 Fillow Street Unit 22",
+     "unit": "Unit 22",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1448.0,
+     "price": 479000.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 331
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 470000.0,
+    "high": 470000.0,
+    "median": 470000
+   },
+   "label": "115 Fillow Street"
+  },
+  "area": {
+   "rows": [
+    {
+     "slug": "130-fillow-street-norwalk-connecticut-24178207",
+     "addr": "130 Fillow Street Unit 2",
+     "unit": "Unit 2",
+     "beds": 2.0,
+     "baths": 3.0,
+     "sqft": 1174.0,
+     "price": 440000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-09",
+     "ppsf": 375,
+     "mi": 0.14
+    },
+    {
+     "slug": "12-camelot-drive-norwalk-connecticut-24182630",
+     "addr": "12 Camelot Drive Unit A2",
+     "unit": "Unit A2",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 832.0,
+     "price": 320000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-14",
+     "ppsf": 385,
+     "mi": 0.22
+    },
+    {
+     "slug": "41-nash-place-norwalk-connecticut-24155217",
+     "addr": "41 Nash Place Unit B",
+     "unit": "Unit B",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1110.0,
+     "price": 430000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-15",
+     "ppsf": 387,
+     "mi": 0.46
+    },
+    {
+     "slug": "92-ledgebrook-drive-norwalk-connecticut-24159844",
+     "addr": "92 Ledgebrook Drive Unit 92",
+     "unit": "Unit 92",
+     "beds": 2.0,
+     "baths": 1.0,
+     "sqft": 1095.0,
+     "price": 493000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-22",
+     "ppsf": 450,
+     "mi": 0.58
+    },
+    {
+     "slug": "76-gillies-lane-norwalk-connecticut-24167486",
+     "addr": "76 Gillies Lane Unit 76",
+     "unit": "Unit 76",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1525.0,
+     "price": 565000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-30",
+     "ppsf": 370,
+     "mi": 0.59
+    },
+    {
+     "slug": "192-gillies-lane-norwalk-connecticut-24151426",
+     "addr": "192 Gillies Lane Unit 192",
+     "unit": "Unit 192",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1662.0,
+     "price": 525000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-27",
+     "ppsf": 316,
+     "mi": 0.74
+    }
+   ],
+   "summary": {
+    "n": 6,
+    "low": 320000.0,
+    "high": 565000.0,
+    "median": 466500
+   },
+   "radiusMi": 0.75
+  }
  }
 }

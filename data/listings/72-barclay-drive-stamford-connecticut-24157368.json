@@ -104,5 +104,59 @@
    "mi": 3.16,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "29-flint-rock-road-stamford-connecticut-24179884",
+     "addr": "29 Flint Rock Road",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 4.0,
+     "sqft": 5655.0,
+     "price": 2295000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-27",
+     "ppsf": 406,
+     "mi": 0.37
+    },
+    {
+     "slug": "1209-westover-road-stamford-connecticut-24154669",
+     "addr": "1209 Westover Road",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 5.0,
+     "sqft": 4665.0,
+     "price": 1990000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-29",
+     "ppsf": 427,
+     "mi": 0.64
+    },
+    {
+     "slug": "78-hardesty-road-stamford-connecticut-24189079",
+     "addr": "78 Hardesty Road",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 6.0,
+     "sqft": 8030.0,
+     "price": 2500000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 311,
+     "mi": 0.15
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 1990000.0,
+    "high": 2295000.0,
+    "median": 2142500
+   },
+   "radiusMi": 0.75
+  }
  }
 }

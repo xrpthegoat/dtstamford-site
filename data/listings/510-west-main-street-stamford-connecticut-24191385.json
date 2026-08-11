@@ -107,5 +107,100 @@
    "mi": 0.46,
    "walk": 9
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "16-carolina-road-stamford-connecticut-24191657",
+     "addr": "16 Carolina Road Unit 2",
+     "unit": "Unit 2",
+     "beds": 3.0,
+     "baths": 1.0,
+     "sqft": 2344.0,
+     "price": 3600.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-20",
+     "ppsf": 2,
+     "mi": 0.5
+    },
+    {
+     "slug": "77-havemeyer-lane-stamford-connecticut-24164873",
+     "addr": "77 Havemeyer Lane Unit 48",
+     "unit": "Unit 48",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 1979.0,
+     "price": 7200.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-01",
+     "ppsf": 4,
+     "mi": 0.58
+    },
+    {
+     "slug": "14-amherst-road-greenwich-connecticut-24166765",
+     "addr": "14 Amherst Road",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1470.0,
+     "price": 6150.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-04",
+     "ppsf": 4,
+     "mi": 0.65
+    },
+    {
+     "slug": "15-richmond-drive-greenwich-connecticut-24157455",
+     "addr": "15 Richmond Drive",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1435.0,
+     "price": 8250.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-23",
+     "ppsf": 6,
+     "mi": 0.74
+    },
+    {
+     "slug": "175-west-avenue-stamford-connecticut-24191457",
+     "addr": "175 West Avenue Unit 8",
+     "unit": "Unit 8",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 1800.0,
+     "price": 3500.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 2,
+     "mi": 0.07
+    },
+    {
+     "slug": "18-high-street-stamford-connecticut-24195632",
+     "addr": "18 High Street",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 1.0,
+     "sqft": 2280.0,
+     "price": 3200.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 1,
+     "mi": 0.35
+    }
+   ],
+   "summary": {
+    "n": 4,
+    "low": 3600.0,
+    "high": 8250.0,
+    "median": 6675
+   },
+   "radiusMi": 0.75
+  }
  }
 }

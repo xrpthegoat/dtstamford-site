@@ -113,5 +113,45 @@
    "n": "West Ave @ Leroy Ave",
    "mi": 2.0
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "60-rowayton-woods-drive-norwalk-connecticut-24178159",
+     "addr": "60 Rowayton Woods Drive",
+     "unit": "",
+     "beds": 2.0,
+     "baths": 1.0,
+     "sqft": 892.0,
+     "price": 535000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-28",
+     "ppsf": 600,
+     "mi": 0.09
+    },
+    {
+     "slug": "32-rowayton-woods-drive-norwalk-connecticut-24165137",
+     "addr": "32 Rowayton Woods Drive Unit 32",
+     "unit": "Unit 32",
+     "beds": 2.0,
+     "baths": 1.0,
+     "sqft": 892.0,
+     "price": 475000.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 533,
+     "mi": 0.1
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 535000.0,
+    "high": 535000.0,
+    "median": 535000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

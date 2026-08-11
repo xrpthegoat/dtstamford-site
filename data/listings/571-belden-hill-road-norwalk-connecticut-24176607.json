@@ -111,5 +111,72 @@
    "mi": 0.42,
    "walk": 8
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "120-old-belden-hill-road-norwalk-connecticut-24170048",
+     "addr": "120 Old Belden Hill Road",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1212.0,
+     "price": 661900.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-11",
+     "ppsf": 546,
+     "mi": 0.23
+    },
+    {
+     "slug": "6-silvermine-woods-wilton-connecticut-24178006",
+     "addr": "6 Silvermine Woods Unit 6",
+     "unit": "Unit 6",
+     "beds": 3.0,
+     "baths": 4.0,
+     "sqft": 4280.0,
+     "price": 1776000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-08-10",
+     "ppsf": 415,
+     "mi": 0.28
+    },
+    {
+     "slug": "512-belden-hill-road-wilton-connecticut-24191982",
+     "addr": "512 Belden Hill Road",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 2738.0,
+     "price": 979000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 358,
+     "mi": 0.33
+    },
+    {
+     "slug": "30-creeping-hemlock-drive-norwalk-connecticut-24185663",
+     "addr": "30 Creeping Hemlock Drive",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 1.0,
+     "sqft": 1362.0,
+     "price": 529000.0,
+     "kind": "asking",
+     "status": "Under Contract - Continue to Show",
+     "ppsf": 388,
+     "mi": 0.71
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 661900.0,
+    "high": 1776000.0,
+    "median": 1218950
+   },
+   "radiusMi": 0.75
+  }
  }
 }

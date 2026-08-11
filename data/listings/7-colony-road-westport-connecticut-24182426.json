@@ -99,5 +99,73 @@
    "mi": 2.47,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "30-crescent-park-road-westport-connecticut-24174719",
+     "addr": "30 Crescent Park Road",
+     "unit": "",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 960.0,
+     "price": 3500.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-13",
+     "ppsf": 4,
+     "mi": 0.53
+    },
+    {
+     "slug": "18a-hillandale-road-westport-connecticut-24161167",
+     "addr": "18a Hillandale Road",
+     "unit": "",
+     "beds": 2.0,
+     "baths": 1.0,
+     "sqft": 1500.0,
+     "price": 3900.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-01",
+     "ppsf": 3,
+     "mi": 0.58
+    },
+    {
+     "slug": "19-whitney-street-westport-connecticut-24179563",
+     "addr": "19 Whitney Street",
+     "unit": "",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1400.0,
+     "price": 3800.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-17",
+     "ppsf": 3,
+     "mi": 0.62
+    },
+    {
+     "slug": "14-cross-highway-westport-connecticut-24173615",
+     "addr": "14 Cross Highway Unit D",
+     "unit": "Unit D",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1165.0,
+     "price": 4750.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 4,
+     "mi": 0.64
+    }
+   ],
+   "summary": {
+    "n": 3,
+    "low": 3500.0,
+    "high": 3900.0,
+    "median": 3800
+   },
+   "radiusMi": 0.75
+  }
  }
 }

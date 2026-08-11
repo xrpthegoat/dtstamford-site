@@ -127,5 +127,59 @@
    "mi": 2.96,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "86-maple-avenue-south-westport-connecticut-24148769",
+     "addr": "86 Maple Avenue South",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 4.0,
+     "sqft": 3218.0,
+     "price": 2345000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-03",
+     "ppsf": 729,
+     "mi": 0.34
+    },
+    {
+     "slug": "342-greens-farms-road-westport-connecticut-24122231",
+     "addr": "342 Greens Farms Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 5.0,
+     "sqft": 6600.0,
+     "price": 2100000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-27",
+     "ppsf": 318,
+     "mi": 0.59
+    },
+    {
+     "slug": "7-high-gate-road-westport-connecticut-24184506",
+     "addr": "7 High Gate Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 2604.0,
+     "price": 1625000.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 624,
+     "mi": 0.65
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 2100000.0,
+    "high": 2345000.0,
+    "median": 2222500
+   },
+   "radiusMi": 0.75
+  }
  }
 }

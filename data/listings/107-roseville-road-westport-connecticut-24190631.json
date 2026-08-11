@@ -125,5 +125,59 @@
    "mi": 2.47,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "26-crescent-park-road-westport-connecticut-24137231",
+     "addr": "26 Crescent Park Road",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1104.0,
+     "price": 568000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-31",
+     "ppsf": 514,
+     "mi": 0.48
+    },
+    {
+     "slug": "48-burr-farms-road-westport-connecticut-24149417",
+     "addr": "48 Burr Farms Road",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 1950.0,
+     "price": 1951000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-22",
+     "ppsf": 1001,
+     "mi": 0.52
+    },
+    {
+     "slug": "5-lehn-farm-road-westport-connecticut-24189044",
+     "addr": "5 Lehn Farm Road",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1352.0,
+     "price": 1299000.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 961,
+     "mi": 0.44
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 568000.0,
+    "high": 1951000.0,
+    "median": 1259500
+   },
+   "radiusMi": 0.75
+  }
  }
 }

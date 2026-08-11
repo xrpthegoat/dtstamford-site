@@ -109,5 +109,102 @@
    "n": "Bus stop",
    "mi": 0.7
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "14-center-avenue-norwalk-connecticut-24161730",
+     "addr": "14 Center Avenue Unit 1N",
+     "unit": "Unit 1N",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 500.0,
+     "price": 1900.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-13",
+     "ppsf": 4,
+     "mi": 0.1
+    },
+    {
+     "slug": "14-center-avenue-norwalk-connecticut-24194519",
+     "addr": "14 Center Avenue Unit 1S",
+     "unit": "Unit 1S",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 600.0,
+     "price": 1925.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-08-03",
+     "ppsf": 3,
+     "mi": 0.1
+    },
+    {
+     "slug": "168-main-street-norwalk-connecticut-24174451",
+     "addr": "168 Main Street Unit 3B",
+     "unit": "Unit 3B",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 500.0,
+     "price": 1400.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-01",
+     "ppsf": 3,
+     "mi": 0.19
+    },
+    {
+     "slug": "168-main-street-norwalk-connecticut-24182641",
+     "addr": "168 Main Street Unit 3A",
+     "unit": "Unit 3A",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 650.0,
+     "price": 1950.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-13",
+     "ppsf": 3,
+     "mi": 0.19
+    },
+    {
+     "slug": "50-aiken-street-norwalk-connecticut-24149160",
+     "addr": "50 Aiken Street Unit 225",
+     "unit": "Unit 225",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 736.0,
+     "price": 2100.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-15",
+     "ppsf": 3,
+     "mi": 0.32
+    },
+    {
+     "slug": "50-aiken-street-norwalk-connecticut-24190372",
+     "addr": "50 Aiken Street Unit 123",
+     "unit": "Unit 123",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 736.0,
+     "price": 2200.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-22",
+     "ppsf": 3,
+     "mi": 0.33
+    }
+   ],
+   "summary": {
+    "n": 6,
+    "low": 1400.0,
+    "high": 2200.0,
+    "median": 1938
+   },
+   "radiusMi": 0.75
+  }
  }
 }

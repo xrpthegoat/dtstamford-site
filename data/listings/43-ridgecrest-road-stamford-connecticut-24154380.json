@@ -105,5 +105,46 @@
    "mi": 4.89,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "28-pony-trail-road-stamford-connecticut-24170555",
+     "addr": "28 Pony Trail Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 4.0,
+     "sqft": 2988.0,
+     "price": 1400000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-23",
+     "ppsf": 469,
+     "mi": 0.43
+    },
+    {
+     "slug": "33-pinnacle-rock-road-stamford-connecticut-24161686",
+     "addr": "33 Pinnacle Rock Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 4.0,
+     "sqft": 3036.0,
+     "price": 1220000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-11",
+     "ppsf": 402,
+     "mi": 0.46
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 1220000.0,
+    "high": 1400000.0,
+    "median": 1310000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

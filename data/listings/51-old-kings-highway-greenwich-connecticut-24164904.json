@@ -107,5 +107,119 @@
    "mi": 0.22,
    "walk": 4
   }
+ },
+ "comps": {
+  "building": {
+   "rows": [
+    {
+     "slug": "51-old-kings-highway-greenwich-connecticut-24190013",
+     "addr": "51 Old Kings Highway Unit 16",
+     "unit": "Unit 16",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 905.0,
+     "price": 7500.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 8
+    }
+   ],
+   "summary": null,
+   "label": "51 Old Kings Highway"
+  },
+  "area": {
+   "rows": [
+    {
+     "slug": "74-myano-lane-stamford-connecticut-24173265",
+     "addr": "74 Myano Lane Unit 1",
+     "unit": "Unit 1",
+     "beds": 2.0,
+     "baths": 1.0,
+     "sqft": 1000.0,
+     "price": 2500.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-31",
+     "ppsf": 2,
+     "mi": 0.54
+    },
+    {
+     "slug": "63-myano-lane-stamford-connecticut-24176870",
+     "addr": "63 Myano Lane Unit 4",
+     "unit": "Unit 4",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1300.0,
+     "price": 3750.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-08-01",
+     "ppsf": 3,
+     "mi": 0.55
+    },
+    {
+     "slug": "50-alvord-lane-stamford-connecticut-24191341",
+     "addr": "50 Alvord Lane Unit 14",
+     "unit": "Unit 14",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1950.0,
+     "price": 3200.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-08-01",
+     "ppsf": 2,
+     "mi": 0.55
+    },
+    {
+     "slug": "511-west-main-street-stamford-connecticut-24154625",
+     "addr": "511 West Main Street Apt 6",
+     "unit": "Apt 6",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1136.0,
+     "price": 2750.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-13",
+     "ppsf": 2,
+     "mi": 0.7
+    },
+    {
+     "slug": "77-havemeyer-lane-stamford-connecticut-24188986",
+     "addr": "77 Havemeyer Lane Unit 303",
+     "unit": "Unit 303",
+     "beds": 2.0,
+     "baths": 3.0,
+     "sqft": 1832.0,
+     "price": 6500.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-20",
+     "ppsf": 4,
+     "mi": 0.75
+    },
+    {
+     "slug": "1465-east-putnam-avenue-greenwich-connecticut-24184767",
+     "addr": "1465 East Putnam Avenue Unit 414",
+     "unit": "Unit 414",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1122.0,
+     "price": 5000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 4,
+     "mi": 0.14
+    }
+   ],
+   "summary": {
+    "n": 5,
+    "low": 2500.0,
+    "high": 6500.0,
+    "median": 3200
+   },
+   "radiusMi": 0.75
+  }
  }
 }

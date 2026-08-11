@@ -124,5 +124,85 @@
    "mi": 1.14,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "44-willowmere-avenue-greenwich-connecticut-24170939",
+     "addr": "44 Willowmere Avenue",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 5.0,
+     "sqft": 4358.0,
+     "price": 4050000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-17",
+     "ppsf": 929,
+     "mi": 0.7
+    },
+    {
+     "slug": "8-willow-lane-greenwich-connecticut-24161971",
+     "addr": "8 Willow Lane",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 2.0,
+     "sqft": 1944.0,
+     "price": 2410000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-15",
+     "ppsf": 1240,
+     "mi": 0.71
+    },
+    {
+     "slug": "14-shorehame-club-road-greenwich-connecticut-24179259",
+     "addr": "14 Shorehame Club Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 2014.0,
+     "price": 4000000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 1986,
+     "mi": 0.15
+    },
+    {
+     "slug": "67-benjamin-street-greenwich-connecticut-24189215",
+     "addr": "67 Benjamin Street",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 2346.0,
+     "price": 2995000.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 1277,
+     "mi": 0.64
+    },
+    {
+     "slug": "greenwich-connecticut-24162737",
+     "addr": null,
+     "unit": "",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 2965.0,
+     "price": 3850000.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 1298,
+     "mi": 0.66
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 2410000.0,
+    "high": 4050000.0,
+    "median": 3230000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

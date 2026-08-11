@@ -127,5 +127,45 @@
    "mi": 0.48,
    "walk": 10
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "98-scofield-avenue-stamford-connecticut-24145854",
+     "addr": "98 Scofield Avenue",
+     "unit": "",
+     "beds": 6.0,
+     "baths": 6.0,
+     "sqft": 3535.0,
+     "price": 1120000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-18",
+     "ppsf": 317,
+     "mi": 0.55
+    },
+    {
+     "slug": "355-hope-street-stamford-connecticut-24188355",
+     "addr": "355 Hope Street",
+     "unit": "",
+     "beds": 6.0,
+     "baths": 2.0,
+     "sqft": 2888.0,
+     "price": 935000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 324,
+     "mi": 0.56
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 1120000.0,
+    "high": 1120000.0,
+    "median": 1120000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

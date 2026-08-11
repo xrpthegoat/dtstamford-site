@@ -119,5 +119,74 @@
    "mi": 0.41,
    "walk": 8
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "516-stillwater-road-stamford-connecticut-24182098",
+     "addr": "516 Stillwater Road",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 2240.0,
+     "price": 975000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-30",
+     "ppsf": 435,
+     "mi": 0.54
+    },
+    {
+     "slug": "117-bridge-street-stamford-connecticut-24178086",
+     "addr": "117 Bridge Street",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 4.0,
+     "sqft": 1736.0,
+     "price": 800000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-23",
+     "ppsf": 461,
+     "mi": 0.66
+    },
+    {
+     "slug": "19-emery-drive-stamford-connecticut-24155501",
+     "addr": "19 Emery Drive",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 2731.0,
+     "price": 1590000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-17",
+     "ppsf": 582,
+     "mi": 0.66
+    },
+    {
+     "slug": "5-halliwell-drive-stamford-connecticut-24155832",
+     "addr": "5 Halliwell Drive",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 4.0,
+     "sqft": 2502.0,
+     "price": 1596000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-04",
+     "ppsf": 638,
+     "mi": 0.68
+    }
+   ],
+   "summary": {
+    "n": 4,
+    "low": 800000.0,
+    "high": 1596000.0,
+    "median": 1282500
+   },
+   "radiusMi": 0.75
+  }
  }
 }

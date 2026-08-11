@@ -136,5 +136,46 @@
    "n": "Bus stop",
    "mi": 1.31
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "39-bayview-avenue-norwalk-connecticut-24159545",
+     "addr": "39 Bayview Avenue",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 4.0,
+     "sqft": 2379.0,
+     "price": 615000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-05",
+     "ppsf": 259,
+     "mi": 0.61
+    },
+    {
+     "slug": "5-topping-lane-norwalk-connecticut-24154099",
+     "addr": "5 Topping Lane",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 4.0,
+     "sqft": 4336.0,
+     "price": 1825000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-01",
+     "ppsf": 421,
+     "mi": 0.64
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 615000.0,
+    "high": 1825000.0,
+    "median": 1220000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

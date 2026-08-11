@@ -128,5 +128,71 @@
    "n": "Bus stop",
    "mi": 1.42
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "25-quintard-avenue-norwalk-connecticut-24188939",
+     "addr": "25 Quintard Avenue Unit A",
+     "unit": "Unit A",
+     "beds": 4.0,
+     "baths": 2.0,
+     "sqft": 2469.0,
+     "price": 4500.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-08-10",
+     "ppsf": 2,
+     "mi": 0.3
+    },
+    {
+     "slug": "11-quintard-avenue-norwalk-connecticut-24180143",
+     "addr": "11 Quintard Avenue Unit 1",
+     "unit": "Unit 1",
+     "beds": 4.0,
+     "baths": 2.0,
+     "sqft": 1235.0,
+     "price": 4350.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 4,
+     "mi": 0.27
+    },
+    {
+     "slug": "134-woodward-avenue-norwalk-connecticut-24166039",
+     "addr": "134 Woodward Avenue Unit 2",
+     "unit": "Unit 2",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 1681.0,
+     "price": 3500.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 2,
+     "mi": 0.43
+    },
+    {
+     "slug": "7-edgewood-street-norwalk-connecticut-24196574",
+     "addr": "7 Edgewood Street Unit B",
+     "unit": "Unit B",
+     "beds": 4.0,
+     "baths": 4.0,
+     "sqft": 3000.0,
+     "price": 5700.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 2,
+     "mi": 0.68
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 4500.0,
+    "high": 4500.0,
+    "median": 4500
+   },
+   "radiusMi": 0.75
+  }
  }
 }

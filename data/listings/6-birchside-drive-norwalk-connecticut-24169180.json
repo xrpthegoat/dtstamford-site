@@ -100,5 +100,46 @@
    "n": "Bus stop",
    "mi": 0.94
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "32-bartlett-avenue-norwalk-connecticut-24156440",
+     "addr": "32 Bartlett Avenue",
+     "unit": "",
+     "beds": 2.0,
+     "baths": 1.0,
+     "sqft": 1000.0,
+     "price": 2800.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-06",
+     "ppsf": 3,
+     "mi": 0.29
+    },
+    {
+     "slug": "103-silver-creek-lane-norwalk-connecticut-24178609",
+     "addr": "103 Silver Creek Lane Unit 103",
+     "unit": "Unit 103",
+     "beds": 2.0,
+     "baths": 4.0,
+     "sqft": 2856.0,
+     "price": 7000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-17",
+     "ppsf": 2,
+     "mi": 0.46
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 2800.0,
+    "high": 7000.0,
+    "median": 4900
+   },
+   "radiusMi": 0.75
+  }
  }
 }

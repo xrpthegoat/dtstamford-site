@@ -109,5 +109,138 @@
    "mi": 0.11,
    "walk": 2
   }
+ },
+ "comps": {
+  "building": {
+   "rows": [
+    {
+     "slug": "51-wall-street-norwalk-connecticut-24173590",
+     "addr": "51 Wall Street Unit 1",
+     "unit": "Unit 1",
+     "beds": 0.0,
+     "baths": 1.0,
+     "sqft": 4648.0,
+     "price": 1520.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-01",
+     "ppsf": 0
+    },
+    {
+     "slug": "51-wall-street-norwalk-connecticut-24157042",
+     "addr": "51 Wall Street Unit 4",
+     "unit": "Unit 4",
+     "beds": 0.0,
+     "baths": 1.0,
+     "sqft": 300.0,
+     "price": 1545.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-31",
+     "ppsf": 5
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 1520.0,
+    "high": 1545.0,
+    "median": 1532
+   },
+   "label": "51 Wall Street"
+  },
+  "area": {
+   "rows": [
+    {
+     "slug": "39-wall-street-norwalk-connecticut-24164068",
+     "addr": "39 Wall Street Unit 9",
+     "unit": "Unit 9",
+     "beds": 0.0,
+     "baths": 1.0,
+     "sqft": 400.0,
+     "price": 1595.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-10",
+     "ppsf": 4,
+     "mi": 0.03
+    },
+    {
+     "slug": "32-main-street-norwalk-connecticut-24144633",
+     "addr": "32 Main Street Unit 207",
+     "unit": "Unit 207",
+     "beds": 0.0,
+     "baths": 7.0,
+     "sqft": 375.0,
+     "price": 1350.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-01",
+     "ppsf": 4,
+     "mi": 0.13
+    },
+    {
+     "slug": "32-main-street-norwalk-connecticut-24181383",
+     "addr": "32 Main Street Unit 208",
+     "unit": "Unit 208",
+     "beds": 0.0,
+     "baths": 1.0,
+     "sqft": 450.0,
+     "price": 1500.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-17",
+     "ppsf": 3,
+     "mi": 0.13
+    },
+    {
+     "slug": "1-arch-street-norwalk-connecticut-24161003",
+     "addr": "1 Arch Street Unit 4",
+     "unit": "Unit 4",
+     "beds": 0.0,
+     "baths": 1.0,
+     "sqft": 450.0,
+     "price": 1650.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-07",
+     "ppsf": 4,
+     "mi": 0.38
+    },
+    {
+     "slug": "36-woodbury-avenue-norwalk-connecticut-24186271",
+     "addr": "36 Woodbury Avenue Unit 2F",
+     "unit": "Unit 2F",
+     "beds": 0.0,
+     "baths": 1.0,
+     "sqft": 350.0,
+     "price": 1700.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-10",
+     "ppsf": 5,
+     "mi": 0.75
+    },
+    {
+     "slug": "40-1-prospect-avenue-norwalk-connecticut-24196487",
+     "addr": "40-1 Prospect Avenue Unit 4b",
+     "unit": "Unit 4b",
+     "beds": 0.0,
+     "baths": 0.0,
+     "sqft": 500.0,
+     "price": 1695.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 3,
+     "mi": 0.56
+    }
+   ],
+   "summary": {
+    "n": 5,
+    "low": 1350.0,
+    "high": 1700.0,
+    "median": 1595
+   },
+   "radiusMi": 0.75
+  }
  }
 }

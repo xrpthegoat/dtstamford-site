@@ -115,5 +115,126 @@
    "mi": 0.03,
    "walk": 1
   }
+ },
+ "comps": {
+  "building": {
+   "rows": [
+    {
+     "slug": "2700-bedford-street-stamford-connecticut-24177790",
+     "addr": "2700 Bedford Street Unit G",
+     "unit": "Unit G",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1403.0,
+     "price": 567500.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-08-07",
+     "ppsf": 404
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 567500.0,
+    "high": 567500.0,
+    "median": 567500
+   },
+   "label": "2700 Bedford Street"
+  },
+  "area": {
+   "rows": [
+    {
+     "slug": "9-old-north-stamford-road-stamford-connecticut-24162336",
+     "addr": "9 Old North Stamford Road Unit 36A",
+     "unit": "Unit 36A",
+     "beds": 2.0,
+     "baths": 4.0,
+     "sqft": 3691.0,
+     "price": 770000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-26",
+     "ppsf": 209,
+     "mi": 0.1
+    },
+    {
+     "slug": "2475-summer-street-stamford-connecticut-24146970",
+     "addr": "2475 Summer Street Apt 2I",
+     "unit": "Apt 2I",
+     "beds": 2.0,
+     "baths": 1.0,
+     "sqft": 819.0,
+     "price": 320000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-01",
+     "ppsf": 391,
+     "mi": 0.13
+    },
+    {
+     "slug": "2289-bedford-street-stamford-connecticut-24152016",
+     "addr": "2289 Bedford Street Unit G17",
+     "unit": "Unit G17",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1199.0,
+     "price": 599000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-02",
+     "ppsf": 500,
+     "mi": 0.18
+    },
+    {
+     "slug": "2435-bedford-street-stamford-connecticut-24159741",
+     "addr": "2435 Bedford Street Unit 3A",
+     "unit": "Unit 3A",
+     "beds": 2.0,
+     "baths": 4.0,
+     "sqft": 2040.0,
+     "price": 697000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-23",
+     "ppsf": 342,
+     "mi": 0.3
+    },
+    {
+     "slug": "2435-bedford-street-stamford-connecticut-24154386",
+     "addr": "2435 Bedford Street Unit 14D",
+     "unit": "Unit 14D",
+     "beds": 2.0,
+     "baths": 4.0,
+     "sqft": 2211.0,
+     "price": 740000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-01",
+     "ppsf": 335,
+     "mi": 0.3
+    },
+    {
+     "slug": "118-woodside-green-stamford-connecticut-24154472",
+     "addr": "118 Woodside Green Unit 1A",
+     "unit": "Unit 1A",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1696.0,
+     "price": 420000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-20",
+     "ppsf": 248,
+     "mi": 0.31
+    }
+   ],
+   "summary": {
+    "n": 6,
+    "low": 320000.0,
+    "high": 770000.0,
+    "median": 648000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

@@ -106,5 +106,98 @@
    "n": "Bus stop",
    "mi": 1.81
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "232-hillspoint-road-westport-connecticut-24078871",
+     "addr": "232 Hillspoint Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 2.0,
+     "sqft": 2234.0,
+     "price": 30000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-01",
+     "ppsf": 13,
+     "mi": 0.35
+    },
+    {
+     "slug": "19-soundview-drive-westport-connecticut-24125469",
+     "addr": "19 Soundview Drive",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 4.0,
+     "sqft": 1692.0,
+     "price": 49900.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-05",
+     "ppsf": 29,
+     "mi": 0.37
+    },
+    {
+     "slug": "12-danbury-avenue-westport-connecticut-24165041",
+     "addr": "12 Danbury Avenue",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 5.0,
+     "sqft": 2274.0,
+     "price": 13000.0,
+     "kind": "asking",
+     "status": "Under Contract - Continue to Show",
+     "ppsf": 6,
+     "mi": 0.33
+    },
+    {
+     "slug": "29-soundview-drive-westport-connecticut-24140110",
+     "addr": "29 Soundview Drive",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 4.0,
+     "sqft": 1900.0,
+     "price": 22000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 12,
+     "mi": 0.37
+    },
+    {
+     "slug": "19-soundview-drive-westport-connecticut-24125259",
+     "addr": "19 Soundview Drive",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 4.0,
+     "sqft": 1692.0,
+     "price": 21900.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 13,
+     "mi": 0.37
+    },
+    {
+     "slug": "2-drumlin-road-westport-connecticut-24194715",
+     "addr": "2 Drumlin Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 2528.0,
+     "price": 15000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 6,
+     "mi": 0.64
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 30000.0,
+    "high": 49900.0,
+    "median": 39950
+   },
+   "radiusMi": 0.75
+  }
  }
 }

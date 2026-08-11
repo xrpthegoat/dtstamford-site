@@ -105,5 +105,72 @@
    "mi": 1.23,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "295-brushy-ridge-road-new-canaan-connecticut-24149920",
+     "addr": "295 Brushy Ridge Road",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 7.0,
+     "sqft": 6705.0,
+     "price": 4100000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-31",
+     "ppsf": 611,
+     "mi": 0.18
+    },
+    {
+     "slug": "35-canoe-hill-road-new-canaan-connecticut-24160302",
+     "addr": "35 Canoe Hill Road",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 4.0,
+     "sqft": 4547.0,
+     "price": 3000000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-01",
+     "ppsf": 660,
+     "mi": 0.41
+    },
+    {
+     "slug": "63-garibaldi-lane-new-canaan-connecticut-24189085",
+     "addr": "63 Garibaldi Lane",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 3.0,
+     "sqft": 3744.0,
+     "price": 1799000.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 481,
+     "mi": 0.59
+    },
+    {
+     "slug": "145-river-street-new-canaan-connecticut-24157299",
+     "addr": "145 River Street",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 6.0,
+     "sqft": 5300.0,
+     "price": 2695000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 508,
+     "mi": 0.65
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 3000000.0,
+    "high": 4100000.0,
+    "median": 3550000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

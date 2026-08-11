@@ -105,5 +105,44 @@
    "mi": 2.47,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "building": {
+   "rows": [
+    {
+     "slug": "41-richmondville-avenue-westport-connecticut-24161320",
+     "addr": "41 Richmondville Avenue Unit Duplex 1",
+     "unit": "Unit Duplex 1",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1450.0,
+     "price": 1975500.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-08-10",
+     "ppsf": 1362
+    },
+    {
+     "slug": "41-richmondville-avenue-westport-connecticut-24090155",
+     "addr": "41 Richmondville Avenue Unit Duplex 2",
+     "unit": "Unit Duplex 2",
+     "beds": 2.0,
+     "baths": 3.0,
+     "sqft": 1760.0,
+     "price": 2350000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-04",
+     "ppsf": 1335
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 1975500.0,
+    "high": 2350000.0,
+    "median": 2162750
+   },
+   "label": "41 Richmondville Avenue"
+  }
  }
 }

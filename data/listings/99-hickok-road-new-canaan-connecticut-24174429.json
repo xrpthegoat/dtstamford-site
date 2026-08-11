@@ -127,5 +127,72 @@
    "mi": 2.45,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "493-valley-road-new-canaan-connecticut-24176198",
+     "addr": "493 Valley Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 4.0,
+     "sqft": 4322.0,
+     "price": 1850000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-17",
+     "ppsf": 428,
+     "mi": 0.48
+    },
+    {
+     "slug": "21-woods-end-drive-wilton-connecticut-24150415",
+     "addr": "21 Woods End Drive",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 5.0,
+     "sqft": 5976.0,
+     "price": 1840000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-06",
+     "ppsf": 308,
+     "mi": 0.72
+    },
+    {
+     "slug": "428-laurel-road-new-canaan-connecticut-24167048",
+     "addr": "428 Laurel Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 5.0,
+     "sqft": 3396.0,
+     "price": 2595000.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 764,
+     "mi": 0.65
+    },
+    {
+     "slug": "147-thayer-pond-road-wilton-connecticut-24192871",
+     "addr": "147 Thayer Pond Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 2404.0,
+     "price": 999500.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 416,
+     "mi": 0.69
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 1840000.0,
+    "high": 1850000.0,
+    "median": 1845000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

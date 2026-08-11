@@ -131,5 +131,45 @@
    "n": "Bus stop",
    "mi": 1.43
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "83-sea-beach-drive-stamford-connecticut-24160509",
+     "addr": "83 Sea Beach Drive",
+     "unit": "",
+     "beds": 6.0,
+     "baths": 7.0,
+     "sqft": 4815.0,
+     "price": 2650000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-04",
+     "ppsf": 550,
+     "mi": 0.45
+    },
+    {
+     "slug": "40-rogers-road-stamford-connecticut-24166634",
+     "addr": "40 Rogers Road",
+     "unit": "",
+     "beds": 6.0,
+     "baths": 4.0,
+     "sqft": 5105.0,
+     "price": 2950000.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 578,
+     "mi": 0.72
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 2650000.0,
+    "high": 2650000.0,
+    "median": 2650000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

@@ -107,5 +107,45 @@
    "mi": 2.61,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "19-beachside-common-westport-connecticut-24158698",
+     "addr": "19 Beachside Common",
+     "unit": "",
+     "beds": 7.0,
+     "baths": 9.0,
+     "sqft": 10482.0,
+     "price": 8986000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-08",
+     "ppsf": 857,
+     "mi": 0.23
+    },
+    {
+     "slug": "4-sherwood-island-lane-westport-connecticut-24160355",
+     "addr": "4 Sherwood Island Lane",
+     "unit": "",
+     "beds": 7.0,
+     "baths": 7.0,
+     "sqft": 6215.0,
+     "price": 10500000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 1689,
+     "mi": 0.52
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 8986000.0,
+    "high": 8986000.0,
+    "median": 8986000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

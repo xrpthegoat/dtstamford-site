@@ -134,5 +134,86 @@
    "n": "Bus stop",
    "mi": 1.41
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "4-miami-court-greenwich-connecticut-24149277",
+     "addr": "4 Miami Court",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 2765.0,
+     "price": 1885000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-20",
+     "ppsf": 682,
+     "mi": 0.52
+    },
+    {
+     "slug": "34-1-2-orchard-street-greenwich-connecticut-24175545",
+     "addr": "34 1/2 Orchard Street",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 2126.0,
+     "price": 2022000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-22",
+     "ppsf": 951,
+     "mi": 0.68
+    },
+    {
+     "slug": "14-neil-lane-greenwich-connecticut-24179144",
+     "addr": "14 Neil Lane",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 2568.0,
+     "price": 1800000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-31",
+     "ppsf": 701,
+     "mi": 0.72
+    },
+    {
+     "slug": "33-mead-avenue-greenwich-connecticut-24189362",
+     "addr": "33 Mead Avenue",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 4.0,
+     "sqft": 3492.0,
+     "price": 2495000.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 714,
+     "mi": 0.4
+    },
+    {
+     "slug": "4-cos-cob-avenue-greenwich-connecticut-24182748",
+     "addr": "4 Cos Cob Avenue",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 2720.0,
+     "price": 1579000.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 581,
+     "mi": 0.65
+    }
+   ],
+   "summary": {
+    "n": 3,
+    "low": 1800000.0,
+    "high": 2022000.0,
+    "median": 1885000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

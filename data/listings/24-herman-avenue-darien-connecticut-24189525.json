@@ -112,5 +112,58 @@
    "mi": 0.57,
    "walk": 11
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "14-laforge-road-darien-connecticut-24158573",
+     "addr": "14 Laforge Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 2073.0,
+     "price": 10500.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-02",
+     "ppsf": 5,
+     "mi": 0.72
+    },
+    {
+     "slug": "322-noroton-avenue-darien-connecticut-24185835",
+     "addr": "322 Noroton Avenue",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 2055.0,
+     "price": 11000.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 5,
+     "mi": 0.59
+    },
+    {
+     "slug": "219-hollow-tree-ridge-road-darien-connecticut-24178406",
+     "addr": "219 Hollow Tree Ridge Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 2.0,
+     "sqft": 850.0,
+     "price": 6000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 7,
+     "mi": 0.64
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 10500.0,
+    "high": 10500.0,
+    "median": 10500
+   },
+   "radiusMi": 0.75
+  }
  }
 }

@@ -109,5 +109,100 @@
    "mi": 0.41,
    "walk": 8
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "104-east-avenue-norwalk-connecticut-24127829",
+     "addr": "104 East Avenue #2nd Floor",
+     "unit": "#2nd Floor",
+     "beds": 2.0,
+     "baths": 3.0,
+     "sqft": 1584.0,
+     "price": 2800.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-27",
+     "ppsf": 2,
+     "mi": 0.09
+    },
+    {
+     "slug": "5-isaacs-street-norwalk-connecticut-24181051",
+     "addr": "5 Isaacs Street Unit 3A",
+     "unit": "Unit 3A",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1050.0,
+     "price": 2495.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-22",
+     "ppsf": 2,
+     "mi": 0.3
+    },
+    {
+     "slug": "9-park-street-norwalk-connecticut-24183776",
+     "addr": "9 Park Street Unit 2L",
+     "unit": "Unit 2L",
+     "beds": 2.0,
+     "baths": 1.0,
+     "sqft": 1056.0,
+     "price": 2500.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-15",
+     "ppsf": 2,
+     "mi": 0.37
+    },
+    {
+     "slug": "14-1-2-fairview-avenue-norwalk-connecticut-24161070",
+     "addr": "14-1/2 Fairview Avenue Unit B3",
+     "unit": "Unit B3",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1142.0,
+     "price": 2950.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-15",
+     "ppsf": 3,
+     "mi": 0.74
+    },
+    {
+     "slug": "10-commerce-street-norwalk-connecticut-24195452",
+     "addr": "10 Commerce Street Unit 3-N",
+     "unit": "Unit 3-N",
+     "beds": 2.0,
+     "baths": 1.0,
+     "sqft": 1000.0,
+     "price": 2676.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 3,
+     "mi": 0.31
+    },
+    {
+     "slug": "36-wilton-avenue-norwalk-connecticut-24192273",
+     "addr": "36 Wilton Avenue Unit 1st fl",
+     "unit": "Unit 1st fl",
+     "beds": 2.0,
+     "baths": 1.0,
+     "sqft": 900.0,
+     "price": 2300.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 3,
+     "mi": 0.58
+    }
+   ],
+   "summary": {
+    "n": 4,
+    "low": 2495.0,
+    "high": 2950.0,
+    "median": 2650
+   },
+   "radiusMi": 0.75
+  }
  }
 }

@@ -113,5 +113,86 @@
    "n": "Bus stop",
    "mi": 1.88
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "9-river-road-greenwich-connecticut-24144403",
+     "addr": "9 River Road Unit 411",
+     "unit": "Unit 411",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1125.0,
+     "price": 4000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-01",
+     "ppsf": 4,
+     "mi": 0.38
+    },
+    {
+     "slug": "7-river-road-greenwich-connecticut-24141363",
+     "addr": "7 River Road Unit 310",
+     "unit": "Unit 310",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1125.0,
+     "price": 5500.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-19",
+     "ppsf": 5,
+     "mi": 0.39
+    },
+    {
+     "slug": "7-bible-street-greenwich-connecticut-24183550",
+     "addr": "7 Bible Street Unit 1",
+     "unit": "Unit 1",
+     "beds": 2.0,
+     "baths": 1.0,
+     "sqft": 800.0,
+     "price": 2950.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-03",
+     "ppsf": 4,
+     "mi": 0.5
+    },
+    {
+     "slug": "7-river-road-greenwich-connecticut-24197694",
+     "addr": "7 River Road Unit 306",
+     "unit": "Unit 306",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1110.0,
+     "price": 5000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 5,
+     "mi": 0.38
+    },
+    {
+     "slug": "15-river-road-greenwich-connecticut-24197818",
+     "addr": "15 River Road Unit 205",
+     "unit": "Unit 205",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1270.0,
+     "price": 6500.0,
+     "kind": "asking",
+     "status": "Coming Soon",
+     "ppsf": 5,
+     "mi": 0.46
+    }
+   ],
+   "summary": {
+    "n": 3,
+    "low": 2950.0,
+    "high": 5500.0,
+    "median": 4000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

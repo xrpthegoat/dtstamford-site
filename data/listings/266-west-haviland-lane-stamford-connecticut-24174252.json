@@ -103,5 +103,58 @@
    "mi": 3.71,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "35-jordan-lane-stamford-connecticut-24160513",
+     "addr": "35 Jordan Lane",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 2716.0,
+     "price": 6800.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-15",
+     "ppsf": 3,
+     "mi": 0.18
+    },
+    {
+     "slug": "18-west-haviland-lane-stamford-connecticut-24183750",
+     "addr": "18 West Haviland Lane",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 4.0,
+     "sqft": 5382.0,
+     "price": 9950.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 2,
+     "mi": 0.58
+    },
+    {
+     "slug": "732-den-road-stamford-connecticut-24184068",
+     "addr": "732 Den Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 4.0,
+     "sqft": 4613.0,
+     "price": 8750.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 2,
+     "mi": 0.66
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 6800.0,
+    "high": 6800.0,
+    "median": 6800
+   },
+   "radiusMi": 0.75
+  }
  }
 }

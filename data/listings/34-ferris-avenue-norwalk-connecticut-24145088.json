@@ -133,5 +133,73 @@
    "mi": 0.56,
    "walk": 11
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "82-ledgebrook-drive-norwalk-connecticut-24162790",
+     "addr": "82 Ledgebrook Drive Unit 82",
+     "unit": "Unit 82",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1806.0,
+     "price": 513000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-14",
+     "ppsf": 284,
+     "mi": 0.54
+    },
+    {
+     "slug": "19-ledgebrook-drive-norwalk-connecticut-24161955",
+     "addr": "19 Ledgebrook Drive Unit 19",
+     "unit": "Unit 19",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1806.0,
+     "price": 655000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-18",
+     "ppsf": 363,
+     "mi": 0.64
+    },
+    {
+     "slug": "33-north-water-street-norwalk-connecticut-24138234",
+     "addr": "33 North Water Street Unit 804",
+     "unit": "Unit 804",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 2147.0,
+     "price": 1299000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-27",
+     "ppsf": 605,
+     "mi": 0.75
+    },
+    {
+     "slug": "106-gillies-lane-norwalk-connecticut-24186629",
+     "addr": "106 Gillies Lane Unit 106",
+     "unit": "Unit 106",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1806.0,
+     "price": 499500.0,
+     "kind": "asking",
+     "status": "Under Contract - Continue to Show",
+     "ppsf": 277,
+     "mi": 0.56
+    }
+   ],
+   "summary": {
+    "n": 3,
+    "low": 513000.0,
+    "high": 1299000.0,
+    "median": 655000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

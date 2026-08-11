@@ -128,5 +128,85 @@
    "mi": 4.39,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "17-vineyard-lane-westport-connecticut-24170642",
+     "addr": "17 Vineyard Lane",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 6.0,
+     "sqft": 7964.0,
+     "price": 3895000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-15",
+     "ppsf": 489,
+     "mi": 0.71
+    },
+    {
+     "slug": "52-meadow-view-drive-westport-connecticut-24175276",
+     "addr": "52 Meadow View Drive",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 6.0,
+     "sqft": 3970.0,
+     "price": 2425000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-15",
+     "ppsf": 611,
+     "mi": 0.71
+    },
+    {
+     "slug": "4-charcoal-lane-westport-connecticut-24169922",
+     "addr": "4 Charcoal Lane",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 5.0,
+     "sqft": 6015.0,
+     "price": 3450000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 574,
+     "mi": 0.39
+    },
+    {
+     "slug": "240-north-avenue-westport-connecticut-24181944",
+     "addr": "240 North Avenue",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 5.0,
+     "sqft": 3778.0,
+     "price": 3499000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 926,
+     "mi": 0.48
+    },
+    {
+     "slug": "19-vineyard-lane-westport-connecticut-24188426",
+     "addr": "19 Vineyard Lane",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 3.0,
+     "sqft": 3246.0,
+     "price": 1425000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 439,
+     "mi": 0.67
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 2425000.0,
+    "high": 3895000.0,
+    "median": 3160000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

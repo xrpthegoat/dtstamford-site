@@ -104,5 +104,73 @@
    "mi": 2.96,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "15-four-brooks-circle-stamford-connecticut-24155507",
+     "addr": "15 Four Brooks Circle",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1588.0,
+     "price": 825000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-03",
+     "ppsf": 520,
+     "mi": 0.55
+    },
+    {
+     "slug": "37-blue-ridge-drive-stamford-connecticut-24166806",
+     "addr": "37 Blue Ridge Drive",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1411.0,
+     "price": 715000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-23",
+     "ppsf": 507,
+     "mi": 0.68
+    },
+    {
+     "slug": "320-chestnut-hill-road-stamford-connecticut-24157806",
+     "addr": "320 Chestnut Hill Road",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 3342.0,
+     "price": 1440000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-18",
+     "ppsf": 431,
+     "mi": 0.73
+    },
+    {
+     "slug": "26-marva-lane-stamford-connecticut-24190336",
+     "addr": "26 Marva Lane",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 3088.0,
+     "price": 985000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 319,
+     "mi": 0.7
+    }
+   ],
+   "summary": {
+    "n": 3,
+    "low": 715000.0,
+    "high": 1440000.0,
+    "median": 825000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

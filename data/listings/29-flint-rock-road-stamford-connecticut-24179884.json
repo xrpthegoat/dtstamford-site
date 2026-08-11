@@ -107,5 +107,45 @@
    "mi": 3.46,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "72-barclay-drive-stamford-connecticut-24157368",
+     "addr": "72 Barclay Drive",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 4.0,
+     "sqft": 4904.0,
+     "price": 1850000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-01",
+     "ppsf": 377,
+     "mi": 0.37
+    },
+    {
+     "slug": "78-hardesty-road-stamford-connecticut-24189079",
+     "addr": "78 Hardesty Road",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 6.0,
+     "sqft": 8030.0,
+     "price": 2500000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 311,
+     "mi": 0.23
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 1850000.0,
+    "high": 1850000.0,
+    "median": 1850000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

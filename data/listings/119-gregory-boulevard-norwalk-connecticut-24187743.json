@@ -134,5 +134,60 @@
    "n": "Bus stop",
    "mi": 1.47
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "1-island-drive-norwalk-connecticut-24163222",
+     "addr": "1 Island Drive Unit 18",
+     "unit": "Unit 18",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 2332.0,
+     "price": 1580000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-23",
+     "ppsf": 678,
+     "mi": 0.05
+    },
+    {
+     "slug": "199-gregory-boulevard-norwalk-connecticut-24160895",
+     "addr": "199 Gregory Boulevard Unit C2",
+     "unit": "Unit C2",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 1652.0,
+     "price": 962500.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-27",
+     "ppsf": 583,
+     "mi": 0.35
+    },
+    {
+     "slug": "199-gregory-boulevard-norwalk-connecticut-24177047",
+     "addr": "199 Gregory Boulevard Unit E4",
+     "unit": "Unit E4",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 1289.0,
+     "price": 565000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-22",
+     "ppsf": 438,
+     "mi": 0.35
+    }
+   ],
+   "summary": {
+    "n": 3,
+    "low": 565000.0,
+    "high": 1580000.0,
+    "median": 962500
+   },
+   "radiusMi": 0.75
+  }
  }
 }

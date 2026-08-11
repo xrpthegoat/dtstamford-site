@@ -109,5 +109,124 @@
    "mi": 1.01,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "building": {
+   "rows": [
+    {
+     "slug": "1-old-church-road-greenwich-connecticut-24172143",
+     "addr": "1 Old Church Road Unit 6",
+     "unit": "Unit 6",
+     "beds": 3.0,
+     "baths": 4.0,
+     "sqft": 3218.0,
+     "price": 3100000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-22",
+     "ppsf": 963
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 3100000.0,
+    "high": 3100000.0,
+    "median": 3100000
+   },
+   "label": "1 Old Church Road"
+  },
+  "area": {
+   "rows": [
+    {
+     "slug": "3-putnam-hill-greenwich-connecticut-24162058",
+     "addr": "3 Putnam Hill",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1472.0,
+     "price": 980000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-17",
+     "ppsf": 666,
+     "mi": 0.21
+    },
+    {
+     "slug": "4-putnam-hill-greenwich-connecticut-24183906",
+     "addr": "4 Putnam Hill Unit 4H",
+     "unit": "Unit 4H",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1560.0,
+     "price": 1302000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-16",
+     "ppsf": 835,
+     "mi": 0.29
+    },
+    {
+     "slug": "165-putnam-park-greenwich-connecticut-24152041",
+     "addr": "165 Putnam Park",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1700.0,
+     "price": 1170000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-30",
+     "ppsf": 688,
+     "mi": 0.38
+    },
+    {
+     "slug": "178-milbank-avenue-greenwich-connecticut-24168623",
+     "addr": "178 Milbank Avenue Unit 2",
+     "unit": "Unit 2",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 2454.0,
+     "price": 2500000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-22",
+     "ppsf": 1019,
+     "mi": 0.74
+    },
+    {
+     "slug": "84-putnam-park-greenwich-connecticut-24146136",
+     "addr": "84 Putnam Park",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 2136.0,
+     "price": 1100000.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 515,
+     "mi": 0.41
+    },
+    {
+     "slug": "128-putnam-park-greenwich-connecticut-24169655",
+     "addr": "128 Putnam Park Unit 128",
+     "unit": "Unit 128",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1627.0,
+     "price": 915000.0,
+     "kind": "asking",
+     "status": "Under Contract - Continue to Show",
+     "ppsf": 562,
+     "mi": 0.41
+    }
+   ],
+   "summary": {
+    "n": 4,
+    "low": 980000.0,
+    "high": 2500000.0,
+    "median": 1236000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

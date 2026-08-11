@@ -110,5 +110,62 @@
    "mi": 0.53,
    "walk": 11
   }
+ },
+ "comps": {
+  "building": {
+   "rows": [
+    {
+     "slug": "1-walter-avenue-norwalk-connecticut-24167267",
+     "addr": "1 Walter Avenue Unit 42",
+     "unit": "Unit 42",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 494.0,
+     "price": 223900.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-10",
+     "ppsf": 453
+    },
+    {
+     "slug": "1-walter-avenue-norwalk-connecticut-24179683",
+     "addr": "1 Walter Avenue Unit 25",
+     "unit": "Unit 25",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 574.0,
+     "price": 219900.0,
+     "kind": "asking",
+     "status": "Under Contract - Continue to Show",
+     "ppsf": 383
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 223900.0,
+    "high": 223900.0,
+    "median": 223900
+   },
+   "label": "1 Walter Avenue"
+  },
+  "area": {
+   "rows": [
+    {
+     "slug": "324-strawberry-hill-avenue-norwalk-connecticut-24191009",
+     "addr": "324 Strawberry Hill Avenue Unit A109",
+     "unit": "Unit A109",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 519.0,
+     "price": 239000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 461,
+     "mi": 0.46
+    }
+   ],
+   "summary": null,
+   "radiusMi": 0.75
+  }
  }
 }

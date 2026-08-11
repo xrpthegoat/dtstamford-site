@@ -126,5 +126,86 @@
    "n": "West Ave @ Leroy Ave",
    "mi": 1.48
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "9-edgehill-drive-darien-connecticut-24139469",
+     "addr": "9 Edgehill Drive",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 2267.0,
+     "price": 9000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-01",
+     "ppsf": 4,
+     "mi": 0.34
+    },
+    {
+     "slug": "111-delafield-island-road-darien-connecticut-24137270",
+     "addr": "111 Delafield Island Road",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 2184.0,
+     "price": 11500.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-09",
+     "ppsf": 5,
+     "mi": 0.43
+    },
+    {
+     "slug": "111-rowayton-avenue-norwalk-connecticut-24159840",
+     "addr": "111 Rowayton Avenue Unit 201",
+     "unit": "Unit 201",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 2399.0,
+     "price": 30000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-08-03",
+     "ppsf": 13,
+     "mi": 0.65
+    },
+    {
+     "slug": "124-rowayton-avenue-norwalk-connecticut-24197986",
+     "addr": "124 Rowayton Avenue",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 2477.0,
+     "price": 13000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 5,
+     "mi": 0.71
+    },
+    {
+     "slug": "104-roton-avenue-norwalk-connecticut-24159463",
+     "addr": "104 Roton Avenue",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 4.0,
+     "sqft": 2449.0,
+     "price": 28000.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 11,
+     "mi": 0.72
+    }
+   ],
+   "summary": {
+    "n": 3,
+    "low": 9000.0,
+    "high": 30000.0,
+    "median": 11500
+   },
+   "radiusMi": 0.75
+  }
  }
 }

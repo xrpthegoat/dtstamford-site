@@ -114,5 +114,73 @@
    "n": "Bus stop",
    "mi": 1.94
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "189-riversville-road-greenwich-connecticut-24161843",
+     "addr": "189 Riversville Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 2171.0,
+     "price": 2200000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-08",
+     "ppsf": 1013,
+     "mi": 0.33
+    },
+    {
+     "slug": "9-tamarack-place-greenwich-connecticut-24161194",
+     "addr": "9 Tamarack Place",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 4.0,
+     "sqft": 3648.0,
+     "price": 2500000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-01",
+     "ppsf": 685,
+     "mi": 0.47
+    },
+    {
+     "slug": "107-stonehedge-drive-north-greenwich-connecticut-24151904",
+     "addr": "107 Stonehedge Drive North",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 3814.0,
+     "price": 2000000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-13",
+     "ppsf": 524,
+     "mi": 0.65
+    },
+    {
+     "slug": "10-elskip-lane-greenwich-connecticut-24193740",
+     "addr": "10 Elskip Lane",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 5.0,
+     "sqft": 4539.0,
+     "price": 2299000.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 506,
+     "mi": 0.13
+    }
+   ],
+   "summary": {
+    "n": 3,
+    "low": 2000000.0,
+    "high": 2500000.0,
+    "median": 2200000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

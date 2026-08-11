@@ -108,5 +108,59 @@
    "mi": 2.39,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "211-pinewood-road-stamford-connecticut-24145203",
+     "addr": "211 Pinewood Road",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 4.0,
+     "sqft": 4800.0,
+     "price": 1325000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-19",
+     "ppsf": 276,
+     "mi": 0.16
+    },
+    {
+     "slug": "40-hoyclo-road-stamford-connecticut-24074115",
+     "addr": "40 Hoyclo Road",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 6.0,
+     "sqft": 10420.0,
+     "price": 2625000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-02",
+     "ppsf": 252,
+     "mi": 0.51
+    },
+    {
+     "slug": "19-skymeadow-drive-stamford-connecticut-24166734",
+     "addr": "19 Skymeadow Drive",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 4.0,
+     "sqft": 5133.0,
+     "price": 3345000.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 652,
+     "mi": 0.65
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 1325000.0,
+    "high": 2625000.0,
+    "median": 1975000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

@@ -110,5 +110,46 @@
    "mi": 0.45,
    "walk": 9
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "183-range-road-wilton-connecticut-24178624",
+     "addr": "183 Range Road",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 3.0,
+     "sqft": 2937.0,
+     "price": 1610000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-08-10",
+     "ppsf": 548,
+     "mi": 0.43
+    },
+    {
+     "slug": "44-old-nursery-drive-wilton-connecticut-24168758",
+     "addr": "44 Old Nursery Drive",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 4.0,
+     "sqft": 4324.0,
+     "price": 1860044.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-01",
+     "ppsf": 430,
+     "mi": 0.53
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 1610000.0,
+    "high": 1860044.0,
+    "median": 1735022
+   },
+   "radiusMi": 0.75
+  }
  }
 }

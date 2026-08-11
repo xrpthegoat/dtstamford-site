@@ -120,5 +120,120 @@
    "n": "Bedford St @ North St",
    "mi": 0.02
   }
+ },
+ "comps": {
+  "building": {
+   "rows": [
+    {
+     "slug": "589-bedford-street-stamford-connecticut-24196552",
+     "addr": "589 Bedford Street Unit 205",
+     "unit": "Unit 205",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 725.0,
+     "price": 2795.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 4
+    }
+   ],
+   "summary": null,
+   "label": "589 Bedford Street"
+  },
+  "area": {
+   "rows": [
+    {
+     "slug": "444-bedford-street-stamford-connecticut-24153572",
+     "addr": "444 Bedford Street Apt 3G",
+     "unit": "Apt 3G",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 770.0,
+     "price": 1925.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-14",
+     "ppsf": 2,
+     "mi": 0.09
+    },
+    {
+     "slug": "444-bedford-street-stamford-connecticut-24151434",
+     "addr": "444 Bedford Street Apt 7M",
+     "unit": "Apt 7M",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 610.0,
+     "price": 2185.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-23",
+     "ppsf": 4,
+     "mi": 0.09
+    },
+    {
+     "slug": "444-bedford-street-stamford-connecticut-24165081",
+     "addr": "444 Bedford Street Unit 6J",
+     "unit": "Unit 6J",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 610.0,
+     "price": 2100.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-08-01",
+     "ppsf": 3,
+     "mi": 0.09
+    },
+    {
+     "slug": "99-prospect-street-stamford-connecticut-24155260",
+     "addr": "99 Prospect Street Apt 4A",
+     "unit": "Apt 4A",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 619.0,
+     "price": 2000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-28",
+     "ppsf": 3,
+     "mi": 0.1
+    },
+    {
+     "slug": "140-grove-street-stamford-connecticut-24146364",
+     "addr": "140 Grove Street Apt 2A",
+     "unit": "Apt 2A",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 472.0,
+     "price": 1750.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-01",
+     "ppsf": 4,
+     "mi": 0.1
+    },
+    {
+     "slug": "140-grove-street-stamford-connecticut-24156064",
+     "addr": "140 Grove Street Apt 5B",
+     "unit": "Apt 5B",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 599.0,
+     "price": 2100.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-01",
+     "ppsf": 4,
+     "mi": 0.1
+    }
+   ],
+   "summary": {
+    "n": 6,
+    "low": 1750.0,
+    "high": 2185.0,
+    "median": 2050
+   },
+   "radiusMi": 0.75
+  }
  }
 }

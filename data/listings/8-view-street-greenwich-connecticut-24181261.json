@@ -133,5 +133,60 @@
    "mi": 0.65,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "18-stone-avenue-greenwich-connecticut-24168979",
+     "addr": "18 Stone Avenue Unit 1",
+     "unit": "Unit 1",
+     "beds": 3.0,
+     "baths": 4.0,
+     "sqft": 2082.0,
+     "price": 1081000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-21",
+     "ppsf": 519,
+     "mi": 0.06
+    },
+    {
+     "slug": "328-hamilton-avenue-greenwich-connecticut-24154308",
+     "addr": "328 Hamilton Avenue Unit 4",
+     "unit": "Unit 4",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1604.0,
+     "price": 838000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-11",
+     "ppsf": 522,
+     "mi": 0.43
+    },
+    {
+     "slug": "25-woodland-drive-greenwich-connecticut-24149767",
+     "addr": "25 Woodland Drive Unit C",
+     "unit": "Unit C",
+     "beds": 3.0,
+     "baths": 4.0,
+     "sqft": 3163.0,
+     "price": 2875000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-28",
+     "ppsf": 909,
+     "mi": 0.48
+    }
+   ],
+   "summary": {
+    "n": 3,
+    "low": 838000.0,
+    "high": 2875000.0,
+    "median": 1081000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

@@ -111,5 +111,120 @@
    "mi": 0.23,
    "walk": 5
   }
+ },
+ "comps": {
+  "building": {
+   "rows": [
+    {
+     "slug": "101-grove-street-stamford-connecticut-24194722",
+     "addr": "101 Grove Street Unit 29",
+     "unit": "Unit 29",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1500.0,
+     "price": 499900.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 333
+    }
+   ],
+   "summary": null,
+   "label": "101 Grove Street"
+  },
+  "area": {
+   "rows": [
+    {
+     "slug": "1-valley-road-stamford-connecticut-24170392",
+     "addr": "1 Valley Road Unit 207",
+     "unit": "Unit 207",
+     "beds": 2.0,
+     "baths": 3.0,
+     "sqft": 1400.0,
+     "price": 510000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-02",
+     "ppsf": 364,
+     "mi": 0.17
+    },
+    {
+     "slug": "25-forest-street-stamford-connecticut-24140008",
+     "addr": "25 Forest Street Apt 4A",
+     "unit": "Apt 4A",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1342.0,
+     "price": 590000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-30",
+     "ppsf": 440,
+     "mi": 0.17
+    },
+    {
+     "slug": "1-strawberry-hill-avenue-stamford-connecticut-24156874",
+     "addr": "1 Strawberry Hill Avenue Apt 10A",
+     "unit": "Apt 10A",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1600.0,
+     "price": 615000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-09",
+     "ppsf": 384,
+     "mi": 0.2
+    },
+    {
+     "slug": "143-hoyt-street-stamford-connecticut-24168686",
+     "addr": "143 Hoyt Street Unit 1N",
+     "unit": "Unit 1N",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1836.0,
+     "price": 595000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-12",
+     "ppsf": 324,
+     "mi": 0.21
+    },
+    {
+     "slug": "143-hoyt-street-stamford-connecticut-24147496",
+     "addr": "143 Hoyt Street Apt 2H",
+     "unit": "Apt 2H",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1637.0,
+     "price": 510000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-30",
+     "ppsf": 312,
+     "mi": 0.21
+    },
+    {
+     "slug": "127-greyrock-place-stamford-connecticut-24166494",
+     "addr": "127 Greyrock Place Unit 1712",
+     "unit": "Unit 1712",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 971.0,
+     "price": 560000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-29",
+     "ppsf": 577,
+     "mi": 0.24
+    }
+   ],
+   "summary": {
+    "n": 6,
+    "low": 510000.0,
+    "high": 615000.0,
+    "median": 575000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

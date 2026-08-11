@@ -135,5 +135,46 @@
    "mi": 0.49,
    "walk": 10
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "205-east-rocks-road-norwalk-connecticut-24151950",
+     "addr": "205 East Rocks Road",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 5.0,
+     "sqft": 6774.0,
+     "price": 1310000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-29",
+     "ppsf": 193,
+     "mi": 0.36
+    },
+    {
+     "slug": "16-eastwood-road-norwalk-connecticut-24167508",
+     "addr": "16 Eastwood Road",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 4.0,
+     "sqft": 2713.0,
+     "price": 981825.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-24",
+     "ppsf": 362,
+     "mi": 0.51
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 981825.0,
+    "high": 1310000.0,
+    "median": 1145912
+   },
+   "radiusMi": 0.75
+  }
  }
 }

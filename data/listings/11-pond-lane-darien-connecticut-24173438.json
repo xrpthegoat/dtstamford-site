@@ -121,5 +121,72 @@
    "n": "West Ave @ Leroy Ave",
    "mi": 0.73
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "693-boston-post-road-darien-connecticut-24155938",
+     "addr": "693 Boston Post Road Unit A",
+     "unit": "Unit A",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 820.0,
+     "price": 4250.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-01",
+     "ppsf": 5,
+     "mi": 0.3
+    },
+    {
+     "slug": "darien-connecticut-24173255",
+     "addr": null,
+     "unit": "",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 835.0,
+     "price": 2725.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-18",
+     "ppsf": 3,
+     "mi": 0.51
+    },
+    {
+     "slug": "6-ward-lane-darien-connecticut-24166599",
+     "addr": "6 Ward Lane Unit 36",
+     "unit": "Unit 36",
+     "beds": 1.0,
+     "baths": 2.0,
+     "sqft": 900.0,
+     "price": 3900.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 4,
+     "mi": 0.03
+    },
+    {
+     "slug": "530-flax-hill-road-norwalk-connecticut-24183118",
+     "addr": "530 Flax Hill Road",
+     "unit": "",
+     "beds": 1.0,
+     "baths": 2.0,
+     "sqft": 800.0,
+     "price": 3900.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 5,
+     "mi": 0.73
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 2725.0,
+    "high": 4250.0,
+    "median": 3488
+   },
+   "radiusMi": 0.75
+  }
  }
 }

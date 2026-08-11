@@ -107,5 +107,46 @@
    "mi": 0.82,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "50-lafayette-place-greenwich-connecticut-24163299",
+     "addr": "50 Lafayette Place Unit 2H",
+     "unit": "Unit 2H",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 740.0,
+     "price": 515000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-13",
+     "ppsf": 696,
+     "mi": 0.08
+    },
+    {
+     "slug": "4-putnam-hill-greenwich-connecticut-24158003",
+     "addr": "4 Putnam Hill Unit 4F",
+     "unit": "Unit 4F",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 985.0,
+     "price": 460000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-24",
+     "ppsf": 467,
+     "mi": 0.53
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 460000.0,
+    "high": 515000.0,
+    "median": 487500
+   },
+   "radiusMi": 0.75
+  }
  }
 }

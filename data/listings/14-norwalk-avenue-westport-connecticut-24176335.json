@@ -107,5 +107,74 @@
    "n": "Bus stop",
    "mi": 1.95
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "19-bluewater-hill-westport-connecticut-24088536",
+     "addr": "19 Bluewater Hill",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 3066.0,
+     "price": 33541.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-15",
+     "ppsf": 11,
+     "mi": 0.37
+    },
+    {
+     "slug": "8-sherwood-drive-westport-connecticut-24185793",
+     "addr": "8 Sherwood Drive",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 2734.0,
+     "price": 8900.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-09",
+     "ppsf": 3,
+     "mi": 0.55
+    },
+    {
+     "slug": "200-hillspoint-road-westport-connecticut-24167029",
+     "addr": "200 Hillspoint Road",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 2762.0,
+     "price": 35000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-01",
+     "ppsf": 13,
+     "mi": 0.56
+    },
+    {
+     "slug": "199-hillspoint-road-westport-connecticut-24165861",
+     "addr": "199 Hillspoint Road",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 1920.0,
+     "price": 16000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-24",
+     "ppsf": 8,
+     "mi": 0.57
+    }
+   ],
+   "summary": {
+    "n": 4,
+    "low": 8900.0,
+    "high": 35000.0,
+    "median": 24770
+   },
+   "radiusMi": 0.75
+  }
  }
 }

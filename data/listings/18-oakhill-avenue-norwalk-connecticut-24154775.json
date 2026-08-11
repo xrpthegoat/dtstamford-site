@@ -108,5 +108,101 @@
    "n": "Bus stop",
    "mi": 1.58
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "1-westview-lane-norwalk-connecticut-24137951",
+     "addr": "1 Westview Lane",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 4.0,
+     "sqft": 3148.0,
+     "price": 1650000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-15",
+     "ppsf": 524,
+     "mi": 0.2
+    },
+    {
+     "slug": "8-michael-street-norwalk-connecticut-24150514",
+     "addr": "8 Michael Street",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 2.0,
+     "sqft": 1428.0,
+     "price": 710000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-16",
+     "ppsf": 497,
+     "mi": 0.34
+    },
+    {
+     "slug": "32-juhasz-road-norwalk-connecticut-24174123",
+     "addr": "32 Juhasz Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 3064.0,
+     "price": 1125000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-22",
+     "ppsf": 367,
+     "mi": 0.59
+    },
+    {
+     "slug": "2-redbird-lane-norwalk-connecticut-24160771",
+     "addr": "2 Redbird Lane",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 2002.0,
+     "price": 850000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-16",
+     "ppsf": 425,
+     "mi": 0.65
+    },
+    {
+     "slug": "2-finch-court-norwalk-connecticut-24150545",
+     "addr": "2 Finch Court",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 2.0,
+     "sqft": 2260.0,
+     "price": 1027000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-08",
+     "ppsf": 454,
+     "mi": 0.69
+    },
+    {
+     "slug": "278-west-cedar-street-norwalk-connecticut-24175655",
+     "addr": "278 West Cedar Street",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 2.0,
+     "sqft": 1770.0,
+     "price": 660000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 373,
+     "mi": 0.62
+    }
+   ],
+   "summary": {
+    "n": 5,
+    "low": 710000.0,
+    "high": 1650000.0,
+    "median": 1027000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

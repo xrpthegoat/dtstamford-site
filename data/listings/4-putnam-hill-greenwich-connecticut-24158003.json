@@ -102,5 +102,46 @@
    "mi": 0.98,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "47-lafayette-place-greenwich-connecticut-24138948",
+     "addr": "47 Lafayette Place Apt 6J",
+     "unit": "Apt 6J",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 769.0,
+     "price": 700000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-13",
+     "ppsf": 910,
+     "mi": 0.53
+    },
+    {
+     "slug": "50-lafayette-place-greenwich-connecticut-24163299",
+     "addr": "50 Lafayette Place Unit 2H",
+     "unit": "Unit 2H",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 740.0,
+     "price": 515000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-13",
+     "ppsf": 696,
+     "mi": 0.57
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 515000.0,
+    "high": 700000.0,
+    "median": 607500
+   },
+   "radiusMi": 0.75
+  }
  }
 }

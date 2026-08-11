@@ -130,5 +130,46 @@
    "mi": 2.64,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "489-main-street-westport-connecticut-24121354",
+     "addr": "489 Main Street",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 4.0,
+     "sqft": 2192.0,
+     "price": 840000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-01",
+     "ppsf": 383,
+     "mi": 0.55
+    },
+    {
+     "slug": "4-wild-rose-road-westport-connecticut-24167522",
+     "addr": "4 Wild Rose Road",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 5.0,
+     "sqft": 4460.0,
+     "price": 3300000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-21",
+     "ppsf": 740,
+     "mi": 0.63
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 840000.0,
+    "high": 3300000.0,
+    "median": 2070000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

@@ -103,5 +103,101 @@
    "mi": 1.05,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "209-prudence-drive-stamford-connecticut-24172540",
+     "addr": "209 Prudence Drive",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 2.0,
+     "sqft": 2708.0,
+     "price": 839000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-08-10",
+     "ppsf": 310,
+     "mi": 0.05
+    },
+    {
+     "slug": "61-muriel-drive-stamford-connecticut-24168379",
+     "addr": "61 Muriel Drive",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 2.0,
+     "sqft": 1944.0,
+     "price": 905000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-26",
+     "ppsf": 466,
+     "mi": 0.53
+    },
+    {
+     "slug": "54-camp-avenue-darien-connecticut-24161717",
+     "addr": "54 Camp Avenue",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 2.0,
+     "sqft": 1747.0,
+     "price": 1332000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-29",
+     "ppsf": 762,
+     "mi": 0.69
+    },
+    {
+     "slug": "50-hilltop-avenue-stamford-connecticut-24167108",
+     "addr": "50 Hilltop Avenue",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 2.0,
+     "sqft": 1771.0,
+     "price": 815000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-05",
+     "ppsf": 460,
+     "mi": 0.72
+    },
+    {
+     "slug": "62-camp-avenue-darien-connecticut-24186196",
+     "addr": "62 Camp Avenue",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 2.0,
+     "sqft": 1921.0,
+     "price": 1407000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-08-05",
+     "ppsf": 732,
+     "mi": 0.72
+    },
+    {
+     "slug": "101-east-cross-road-stamford-connecticut-24181545",
+     "addr": "101 East Cross Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 2264.0,
+     "price": 799000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 353,
+     "mi": 0.68
+    }
+   ],
+   "summary": {
+    "n": 5,
+    "low": 815000.0,
+    "high": 1407000.0,
+    "median": 905000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

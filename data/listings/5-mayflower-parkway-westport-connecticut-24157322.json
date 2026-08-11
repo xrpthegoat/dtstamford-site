@@ -109,5 +109,73 @@
    "n": "Bus stop",
    "mi": 1.57
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "4-vani-court-westport-connecticut-24140482",
+     "addr": "4 Vani Court",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 6.0,
+     "sqft": 4347.0,
+     "price": 12500.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-01",
+     "ppsf": 3,
+     "mi": 0.26
+    },
+    {
+     "slug": "18-bridge-street-westport-connecticut-24165882",
+     "addr": "18 Bridge Street",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 4.0,
+     "sqft": 2882.0,
+     "price": 11000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-17",
+     "ppsf": 4,
+     "mi": 0.5
+    },
+    {
+     "slug": "4-ivanhoe-lane-westport-connecticut-24167542",
+     "addr": "4 Ivanhoe Lane",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 4.0,
+     "sqft": 2582.0,
+     "price": 11500.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-01",
+     "ppsf": 4,
+     "mi": 0.62
+    },
+    {
+     "slug": "9-bluewater-hill-westport-connecticut-24175081",
+     "addr": "9 Bluewater Hill",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 6.0,
+     "sqft": 6209.0,
+     "price": 22000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 4,
+     "mi": 0.65
+    }
+   ],
+   "summary": {
+    "n": 3,
+    "low": 11000.0,
+    "high": 12500.0,
+    "median": 11500
+   },
+   "radiusMi": 0.75
+  }
  }
 }

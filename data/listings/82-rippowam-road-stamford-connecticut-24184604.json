@@ -103,5 +103,102 @@
    "n": "Bus stop",
    "mi": 1.2
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "90-iroquois-road-stamford-connecticut-24156738",
+     "addr": "90 Iroquois Road Unit A",
+     "unit": "Unit A",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 1500.0,
+     "price": 4300.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-08-01",
+     "ppsf": 3,
+     "mi": 0.04
+    },
+    {
+     "slug": "48-lanell-drive-stamford-connecticut-24145256",
+     "addr": "48 Lanell Drive",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 2050.0,
+     "price": 5500.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-01",
+     "ppsf": 3,
+     "mi": 0.17
+    },
+    {
+     "slug": "86-harbor-drive-stamford-connecticut-24156877",
+     "addr": "86 Harbor Drive Unit 88",
+     "unit": "Unit 88",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1600.0,
+     "price": 3400.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-14",
+     "ppsf": 2,
+     "mi": 0.31
+    },
+    {
+     "slug": "73-harbor-drive-stamford-connecticut-24162163",
+     "addr": "73 Harbor Drive Unit 412",
+     "unit": "Unit 412",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 1665.0,
+     "price": 6500.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-01",
+     "ppsf": 4,
+     "mi": 0.38
+    },
+    {
+     "slug": "123-harbor-drive-stamford-connecticut-24133811",
+     "addr": "123 Harbor Drive Apt 512",
+     "unit": "Apt 512",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 2172.0,
+     "price": 6000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-01",
+     "ppsf": 3,
+     "mi": 0.46
+    },
+    {
+     "slug": "64-soundview-avenue-stamford-connecticut-24181455",
+     "addr": "64 Soundview Avenue #1 - Lower Level",
+     "unit": "#1 - Lower Level",
+     "beds": 3.0,
+     "baths": 1.0,
+     "sqft": 1100.0,
+     "price": 2800.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-27",
+     "ppsf": 3,
+     "mi": 0.64
+    }
+   ],
+   "summary": {
+    "n": 6,
+    "low": 2800.0,
+    "high": 6500.0,
+    "median": 4900
+   },
+   "radiusMi": 0.75
+  }
  }
 }

@@ -123,5 +123,59 @@
    "mi": 1.47,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "174a-post-road-west-westport-connecticut-24149288",
+     "addr": "174A Post Road West",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 4.0,
+     "sqft": 3678.0,
+     "price": 5800.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-14",
+     "ppsf": 2,
+     "mi": 0.19
+    },
+    {
+     "slug": "14-burr-road-westport-connecticut-24158964",
+     "addr": "14 Burr Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 4.0,
+     "sqft": 2282.0,
+     "price": 7500.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-05",
+     "ppsf": 3,
+     "mi": 0.33
+    },
+    {
+     "slug": "3-river-view-road-westport-connecticut-24154887",
+     "addr": "3 River View Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 4.0,
+     "sqft": 3182.0,
+     "price": 12000.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 4,
+     "mi": 0.66
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 5800.0,
+    "high": 7500.0,
+    "median": 6650
+   },
+   "radiusMi": 0.75
+  }
  }
 }

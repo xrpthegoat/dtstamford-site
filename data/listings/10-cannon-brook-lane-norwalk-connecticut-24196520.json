@@ -131,5 +131,101 @@
    "mi": 0.33,
    "walk": 7
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "10-glendenning-street-norwalk-connecticut-24164557",
+     "addr": "10 Glendenning Street Unit Right",
+     "unit": "Unit Right",
+     "beds": 3.0,
+     "baths": 1.0,
+     "sqft": 2172.0,
+     "price": 3500.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-09",
+     "ppsf": 2,
+     "mi": 0.15
+    },
+    {
+     "slug": "12-west-rocks-road-norwalk-connecticut-24136225",
+     "addr": "12 West Rocks Road",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 1.0,
+     "sqft": 984.0,
+     "price": 2900.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-14",
+     "ppsf": 3,
+     "mi": 0.22
+    },
+    {
+     "slug": "24-highbrook-road-norwalk-connecticut-24178349",
+     "addr": "24 Highbrook Road",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1815.0,
+     "price": 5050.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-15",
+     "ppsf": 3,
+     "mi": 0.26
+    },
+    {
+     "slug": "6-harriet-street-norwalk-connecticut-24188378",
+     "addr": "6 Harriet Street Unit 2",
+     "unit": "Unit 2",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 2531.0,
+     "price": 2375.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-01",
+     "ppsf": 1,
+     "mi": 0.5
+    },
+    {
+     "slug": "60-walter-avenue-norwalk-connecticut-24161289",
+     "addr": "60 Walter Avenue",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1320.0,
+     "price": 3700.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-14",
+     "ppsf": 3,
+     "mi": 0.72
+    },
+    {
+     "slug": "20-west-main-street-norwalk-connecticut-24194018",
+     "addr": "20 West Main Street Unit C104",
+     "unit": "Unit C104",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 1719.0,
+     "price": 3795.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 2,
+     "mi": 0.51
+    }
+   ],
+   "summary": {
+    "n": 5,
+    "low": 2375.0,
+    "high": 5050.0,
+    "median": 3500
+   },
+   "radiusMi": 0.75
+  }
  }
 }

@@ -105,5 +105,58 @@
    "mi": 1.95,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "26-morningside-drive-south-westport-connecticut-24147443",
+     "addr": "26 Morningside Drive South",
+     "unit": "",
+     "beds": 7.0,
+     "baths": 8.0,
+     "sqft": 9335.0,
+     "price": 4350000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-09",
+     "ppsf": 466,
+     "mi": 0.69
+    },
+    {
+     "slug": "13-edgemarth-hill-road-westport-connecticut-24183173",
+     "addr": "13 Edgemarth Hill Road",
+     "unit": "",
+     "beds": 7.0,
+     "baths": 8.0,
+     "sqft": 8700.0,
+     "price": 5999999.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 690,
+     "mi": 0.38
+    },
+    {
+     "slug": "20-fresenius-road-westport-connecticut-24176785",
+     "addr": "20 Fresenius Road",
+     "unit": "",
+     "beds": 7.0,
+     "baths": 9.0,
+     "sqft": 7105.0,
+     "price": 4000000.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 563,
+     "mi": 0.7
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 4350000.0,
+    "high": 4350000.0,
+    "median": 4350000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

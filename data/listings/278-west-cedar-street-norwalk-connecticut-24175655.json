@@ -135,5 +135,86 @@
    "n": "Bus stop",
    "mi": 1.33
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "32-juhasz-road-norwalk-connecticut-24174123",
+     "addr": "32 Juhasz Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 3064.0,
+     "price": 1125000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-22",
+     "ppsf": 367,
+     "mi": 0.34
+    },
+    {
+     "slug": "18-oakhill-avenue-norwalk-connecticut-24154775",
+     "addr": "18 Oakhill Avenue",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 2.0,
+     "sqft": 3084.0,
+     "price": 910000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-24",
+     "ppsf": 295,
+     "mi": 0.62
+    },
+    {
+     "slug": "132-1-2-west-norwalk-road-norwalk-connecticut-24172632",
+     "addr": "132 1/2 West Norwalk Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 4.0,
+     "sqft": 3900.0,
+     "price": 1650000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-22",
+     "ppsf": 423,
+     "mi": 0.72
+    },
+    {
+     "slug": "11-derby-road-norwalk-connecticut-24197773",
+     "addr": "11 Derby Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 2.0,
+     "sqft": 1716.0,
+     "price": 774900.0,
+     "kind": "asking",
+     "status": "Coming Soon",
+     "ppsf": 452,
+     "mi": 0.39
+    },
+    {
+     "slug": "9-geneva-road-norwalk-connecticut-24191270",
+     "addr": "9 Geneva Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 4.0,
+     "sqft": 3904.0,
+     "price": 1275000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 327,
+     "mi": 0.74
+    }
+   ],
+   "summary": {
+    "n": 3,
+    "low": 910000.0,
+    "high": 1650000.0,
+    "median": 1125000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

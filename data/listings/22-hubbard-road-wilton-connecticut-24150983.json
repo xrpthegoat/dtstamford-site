@@ -103,5 +103,106 @@
    "mi": 0.14,
    "walk": 3
   }
+ },
+ "comps": {
+  "building": {
+   "rows": [
+    {
+     "slug": "22-hubbard-road-wilton-connecticut-24150967",
+     "addr": "22 Hubbard Road Unit 107",
+     "unit": "Unit 107",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1600.0,
+     "price": 5995.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-07",
+     "ppsf": 4
+    },
+    {
+     "slug": "22-hubbard-road-wilton-connecticut-24174967",
+     "addr": "22 Hubbard Road Unit 403",
+     "unit": "Unit 403",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1411.0,
+     "price": 6250.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-01",
+     "ppsf": 4
+    },
+    {
+     "slug": "22-hubbard-road-wilton-connecticut-24150974",
+     "addr": "22 Hubbard Road Unit 210",
+     "unit": "Unit 210",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1195.0,
+     "price": 4538.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 4
+    },
+    {
+     "slug": "22-hubbard-road-wilton-connecticut-24150972",
+     "addr": "22 Hubbard Road Unit 303",
+     "unit": "Unit 303",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1477.0,
+     "price": 5225.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 4
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 5995.0,
+    "high": 6250.0,
+    "median": 6122
+   },
+   "label": "22 Hubbard Road"
+  },
+  "area": {
+   "rows": [
+    {
+     "slug": "85-wilton-crest-wilton-connecticut-24179466",
+     "addr": "85 Wilton Crest Unit 85",
+     "unit": "Unit 85",
+     "beds": 2.0,
+     "baths": 1.0,
+     "sqft": 910.0,
+     "price": 3200.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-10",
+     "ppsf": 4,
+     "mi": 0.74
+    },
+    {
+     "slug": "37-wilton-crest-wilton-connecticut-24197385",
+     "addr": "37 Wilton Crest Unit 37",
+     "unit": "Unit 37",
+     "beds": 2.0,
+     "baths": 3.0,
+     "sqft": 1934.0,
+     "price": 4700.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 2,
+     "mi": 0.64
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 3200.0,
+    "high": 3200.0,
+    "median": 3200
+   },
+   "radiusMi": 0.75
+  }
  }
 }

@@ -110,5 +110,86 @@
    "n": "Bus stop",
    "mi": 1.21
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "26-treadwell-avenue-westport-connecticut-24132802",
+     "addr": "26 Treadwell Avenue",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 5.0,
+     "sqft": 3200.0,
+     "price": 3150000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-16",
+     "ppsf": 984,
+     "mi": 0.21
+    },
+    {
+     "slug": "19-east-horseshoe-lane-westport-connecticut-24169575",
+     "addr": "19 East Horseshoe Lane",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 5.0,
+     "sqft": 5476.0,
+     "price": 3200000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-15",
+     "ppsf": 584,
+     "mi": 0.53
+    },
+    {
+     "slug": "28-ferry-lane-east-westport-connecticut-24175264",
+     "addr": "28 Ferry Lane East",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 9.0,
+     "sqft": 8466.0,
+     "price": 6100000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-10",
+     "ppsf": 721,
+     "mi": 0.64
+    },
+    {
+     "slug": "5-franklin-avenue-westport-connecticut-24115906",
+     "addr": "5 Franklin Avenue",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 6.0,
+     "sqft": 4879.0,
+     "price": 4299000.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 881,
+     "mi": 0.47
+    },
+    {
+     "slug": "5-farnham-court-westport-connecticut-24171058",
+     "addr": "5 Farnham Court",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 5.0,
+     "sqft": 3988.0,
+     "price": 2099000.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 526,
+     "mi": 0.68
+    }
+   ],
+   "summary": {
+    "n": 3,
+    "low": 3150000.0,
+    "high": 6100000.0,
+    "median": 3200000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

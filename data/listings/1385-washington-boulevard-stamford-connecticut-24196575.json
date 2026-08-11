@@ -129,5 +129,120 @@
    "mi": 0.16,
    "walk": 3
   }
+ },
+ "comps": {
+  "building": {
+   "rows": [
+    {
+     "slug": "1385-washington-boulevard-stamford-connecticut-24196312",
+     "addr": "1385 Washington Boulevard Unit 5",
+     "unit": "Unit 5",
+     "beds": 3.0,
+     "baths": 4.0,
+     "sqft": 3100.0,
+     "price": 6000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 2
+    }
+   ],
+   "summary": null,
+   "label": "1385 Washington Boulevard"
+  },
+  "area": {
+   "rows": [
+    {
+     "slug": "2-washington-court-stamford-connecticut-24150917",
+     "addr": "2 Washington Court Unit 12",
+     "unit": "Unit 12",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1064.0,
+     "price": 3190.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-01",
+     "ppsf": 3,
+     "mi": 0.1
+    },
+    {
+     "slug": "29-dolsen-place-stamford-connecticut-24154904",
+     "addr": "29 Dolsen Place Unit 2",
+     "unit": "Unit 2",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1400.0,
+     "price": 3600.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-21",
+     "ppsf": 3,
+     "mi": 0.25
+    },
+    {
+     "slug": "20-third-street-stamford-connecticut-24158555",
+     "addr": "20 Third Street Unit 18",
+     "unit": "Unit 18",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 1645.0,
+     "price": 4900.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-09",
+     "ppsf": 3,
+     "mi": 0.43
+    },
+    {
+     "slug": "20-third-street-stamford-connecticut-24175898",
+     "addr": "20 Third Street Unit 19",
+     "unit": "Unit 19",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 1610.0,
+     "price": 4800.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-27",
+     "ppsf": 3,
+     "mi": 0.43
+    },
+    {
+     "slug": "130-forest-street-stamford-connecticut-24180052",
+     "addr": "130 Forest Street Unit 130",
+     "unit": "Unit 130",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 2390.0,
+     "price": 4500.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-15",
+     "ppsf": 2,
+     "mi": 0.54
+    },
+    {
+     "slug": "70-strawberry-hill-avenue-stamford-connecticut-24159747",
+     "addr": "70 Strawberry Hill Avenue Apt 1-2D",
+     "unit": "Apt 1-2D",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1512.0,
+     "price": 3275.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-02",
+     "ppsf": 2,
+     "mi": 0.54
+    }
+   ],
+   "summary": {
+    "n": 6,
+    "low": 3190.0,
+    "high": 4900.0,
+    "median": 4050
+   },
+   "radiusMi": 0.75
+  }
  }
 }

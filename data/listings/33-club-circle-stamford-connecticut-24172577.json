@@ -110,5 +110,45 @@
    "mi": 1.49,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "122-berrian-road-stamford-connecticut-24184254",
+     "addr": "122 Berrian Road",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 3.0,
+     "sqft": 2576.0,
+     "price": 1245000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-31",
+     "ppsf": 483,
+     "mi": 0.65
+    },
+    {
+     "slug": "39-emma-road-stamford-connecticut-24192844",
+     "addr": "39 Emma Road",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 2.0,
+     "sqft": 2090.0,
+     "price": 649900.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 311,
+     "mi": 0.73
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 1245000.0,
+    "high": 1245000.0,
+    "median": 1245000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

@@ -98,5 +98,73 @@
    "n": "Bus stop",
    "mi": 1.75
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "3-yost-street-norwalk-connecticut-24159455",
+     "addr": "3 Yost Street Unit 2",
+     "unit": "Unit 2",
+     "beds": 2.0,
+     "baths": 1.0,
+     "sqft": 850.0,
+     "price": 2350.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-23",
+     "ppsf": 3,
+     "mi": 0.31
+    },
+    {
+     "slug": "19-day-street-norwalk-connecticut-24147318",
+     "addr": "19 Day Street Unit 311",
+     "unit": "Unit 311",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1341.0,
+     "price": 3500.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-16",
+     "ppsf": 3,
+     "mi": 0.68
+    },
+    {
+     "slug": "19-day-street-norwalk-connecticut-24147317",
+     "addr": "19 Day Street Unit 402",
+     "unit": "Unit 402",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1086.0,
+     "price": 3100.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-28",
+     "ppsf": 3,
+     "mi": 0.68
+    },
+    {
+     "slug": "23-quintard-avenue-norwalk-connecticut-24193352",
+     "addr": "23 Quintard Avenue Unit A",
+     "unit": "Unit A",
+     "beds": 2.0,
+     "baths": 1.0,
+     "sqft": 1080.0,
+     "price": 2800.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 3,
+     "mi": 0.27
+    }
+   ],
+   "summary": {
+    "n": 3,
+    "low": 2350.0,
+    "high": 3500.0,
+    "median": 3100
+   },
+   "radiusMi": 0.75
+  }
  }
 }

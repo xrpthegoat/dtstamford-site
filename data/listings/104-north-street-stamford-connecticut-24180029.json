@@ -135,5 +135,126 @@
    "mi": 0.11,
    "walk": 2
   }
+ },
+ "comps": {
+  "building": {
+   "rows": [
+    {
+     "slug": "104-north-street-stamford-connecticut-24142621",
+     "addr": "104 North Street Apt 801",
+     "unit": "Apt 801",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1421.0,
+     "price": 533000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-06",
+     "ppsf": 375
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 533000.0,
+    "high": 533000.0,
+    "median": 533000
+   },
+   "label": "104 North Street"
+  },
+  "area": {
+   "rows": [
+    {
+     "slug": "700-summer-street-stamford-connecticut-24161602",
+     "addr": "700 Summer Street Unit 4L",
+     "unit": "Unit 4L",
+     "beds": 2.0,
+     "baths": 1.0,
+     "sqft": 1069.0,
+     "price": 360000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-01",
+     "ppsf": 337,
+     "mi": 0.11
+    },
+    {
+     "slug": "54-west-north-street-stamford-connecticut-24144382",
+     "addr": "54 West North Street Unit 410",
+     "unit": "Unit 410",
+     "beds": 2.0,
+     "baths": 1.0,
+     "sqft": 900.0,
+     "price": 205000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-24",
+     "ppsf": 228,
+     "mi": 0.12
+    },
+    {
+     "slug": "1611-washington-boulevard-stamford-connecticut-24159422",
+     "addr": "1611 Washington Boulevard Apt 1",
+     "unit": "Apt 1",
+     "beds": 2.0,
+     "baths": 3.0,
+     "sqft": 1566.0,
+     "price": 565000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-19",
+     "ppsf": 361,
+     "mi": 0.14
+    },
+    {
+     "slug": "1633-washington-boulevard-stamford-connecticut-24149222",
+     "addr": "1633 Washington Boulevard Apt 3D",
+     "unit": "Apt 3D",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1315.0,
+     "price": 425000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-12",
+     "ppsf": 323,
+     "mi": 0.21
+    },
+    {
+     "slug": "1633-washington-boulevard-stamford-connecticut-24166450",
+     "addr": "1633 Washington Boulevard Unit 4D",
+     "unit": "Unit 4D",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1315.0,
+     "price": 445000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-15",
+     "ppsf": 338,
+     "mi": 0.21
+    },
+    {
+     "slug": "1633-washington-boulevard-stamford-connecticut-24152681",
+     "addr": "1633 Washington Boulevard Apt 6D",
+     "unit": "Apt 6D",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1315.0,
+     "price": 439000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-06",
+     "ppsf": 334,
+     "mi": 0.21
+    }
+   ],
+   "summary": {
+    "n": 6,
+    "low": 205000.0,
+    "high": 565000.0,
+    "median": 432000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

@@ -99,5 +99,45 @@
    "mi": 0.77,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "139-mulberry-street-stamford-connecticut-24186239",
+     "addr": "139 Mulberry Street",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 1753.0,
+     "price": 4400.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-31",
+     "ppsf": 3,
+     "mi": 0.6
+    },
+    {
+     "slug": "6-nottingham-drive-stamford-connecticut-24184101",
+     "addr": "6 Nottingham Drive",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1960.0,
+     "price": 5200.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 3,
+     "mi": 0.58
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 4400.0,
+    "high": 4400.0,
+    "median": 4400
+   },
+   "radiusMi": 0.75
+  }
  }
 }

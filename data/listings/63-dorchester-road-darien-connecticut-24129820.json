@@ -104,5 +104,59 @@
    "mi": 1.22,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "2-rising-road-norwalk-connecticut-24172973",
+     "addr": "2 Rising Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 2660.0,
+     "price": 1025000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-31",
+     "ppsf": 385,
+     "mi": 0.57
+    },
+    {
+     "slug": "267-brookside-road-darien-connecticut-24163021",
+     "addr": "267 Brookside Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 4.0,
+     "sqft": 3416.0,
+     "price": 2850000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-29",
+     "ppsf": 834,
+     "mi": 0.59
+    },
+    {
+     "slug": "212-west-norwalk-road-norwalk-connecticut-24186680",
+     "addr": "212 West Norwalk Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 4.0,
+     "sqft": 3330.0,
+     "price": 1150000.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 345,
+     "mi": 0.58
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 1025000.0,
+    "high": 2850000.0,
+    "median": 1937500
+   },
+   "radiusMi": 0.75
+  }
  }
 }

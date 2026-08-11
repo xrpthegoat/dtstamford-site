@@ -132,5 +132,71 @@
    "n": "Bus stop",
    "mi": 0.85
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "22-cavray-road-norwalk-connecticut-24165362",
+     "addr": "22 Cavray Road",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 7.0,
+     "sqft": 7867.0,
+     "price": 1850000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-08-05",
+     "ppsf": 235,
+     "mi": 0.28
+    },
+    {
+     "slug": "7-sasqua-road-norwalk-connecticut-24172476",
+     "addr": "7 Sasqua Road",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 8.0,
+     "sqft": 5508.0,
+     "price": 2495000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 453,
+     "mi": 0.11
+    },
+    {
+     "slug": "10-shorehaven-road-norwalk-connecticut-24172989",
+     "addr": "10 Shorehaven Road",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 10.0,
+     "sqft": 9564.0,
+     "price": 11500000.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 1202,
+     "mi": 0.7
+    },
+    {
+     "slug": "3-shorehaven-road-norwalk-connecticut-24163499",
+     "addr": "3 Shorehaven Road",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 6.0,
+     "sqft": 5481.0,
+     "price": 3595000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 656,
+     "mi": 0.71
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 1850000.0,
+    "high": 1850000.0,
+    "median": 1850000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

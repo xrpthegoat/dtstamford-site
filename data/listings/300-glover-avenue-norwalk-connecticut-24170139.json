@@ -111,5 +111,56 @@
    "mi": 0.11,
    "walk": 2
   }
+ },
+ "comps": {
+  "building": {
+   "rows": [
+    {
+     "slug": "300-glover-avenue-norwalk-connecticut-24170138",
+     "addr": "300 Glover Avenue Unit 107B",
+     "unit": "Unit 107B",
+     "beds": 0.0,
+     "baths": 1.0,
+     "sqft": 524.0,
+     "price": 2320.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-07",
+     "ppsf": 4
+    },
+    {
+     "slug": "300-glover-avenue-norwalk-connecticut-24139929",
+     "addr": "300 Glover Avenue Unit b149",
+     "unit": "Unit b149",
+     "beds": 0.0,
+     "baths": 1.0,
+     "sqft": 524.0,
+     "price": 2045.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-30",
+     "ppsf": 4
+    },
+    {
+     "slug": "300-glover-avenue-norwalk-connecticut-24189547",
+     "addr": "300 Glover Avenue Unit A531",
+     "unit": "Unit A531",
+     "beds": 0.0,
+     "baths": 1.0,
+     "sqft": 524.0,
+     "price": 2135.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 4
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 2045.0,
+    "high": 2320.0,
+    "median": 2182
+   },
+   "label": "300 Glover Avenue"
+  }
  }
 }

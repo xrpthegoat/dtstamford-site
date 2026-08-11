@@ -98,5 +98,73 @@
    "mi": 1.57,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "55-kings-highway-north-westport-connecticut-24159366",
+     "addr": "55 Kings Highway North",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1719.0,
+     "price": 10000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-03",
+     "ppsf": 6,
+     "mi": 0.33
+    },
+    {
+     "slug": "12-burr-road-westport-connecticut-24169311",
+     "addr": "12 Burr Road",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 4.0,
+     "sqft": 3310.0,
+     "price": 7500.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-30",
+     "ppsf": 2,
+     "mi": 0.62
+    },
+    {
+     "slug": "206-wolfpit-avenue-norwalk-connecticut-24169012",
+     "addr": "206 Wolfpit Avenue",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1988.0,
+     "price": 6250.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-04",
+     "ppsf": 3,
+     "mi": 0.66
+    },
+    {
+     "slug": "1-romindon-court-norwalk-connecticut-24187549",
+     "addr": "1 Romindon Court",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1582.0,
+     "price": 4600.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 3,
+     "mi": 0.63
+    }
+   ],
+   "summary": {
+    "n": 3,
+    "low": 6250.0,
+    "high": 10000.0,
+    "median": 7500
+   },
+   "radiusMi": 0.75
+  }
  }
 }

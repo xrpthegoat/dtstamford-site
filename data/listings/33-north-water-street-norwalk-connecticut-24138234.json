@@ -111,5 +111,72 @@
    "n": "Bus stop",
    "mi": 0.65
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "59-osborne-avenue-norwalk-connecticut-24174684",
+     "addr": "59 Osborne Avenue Unit A",
+     "unit": "Unit A",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 2265.0,
+     "price": 767500.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-29",
+     "ppsf": 339,
+     "mi": 0.49
+    },
+    {
+     "slug": "225-flax-hill-road-norwalk-connecticut-24149067",
+     "addr": "225 Flax Hill Road Unit 2",
+     "unit": "Unit 2",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 1822.0,
+     "price": 700000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-24",
+     "ppsf": 384,
+     "mi": 0.65
+    },
+    {
+     "slug": "15-madison-street-norwalk-connecticut-24145836",
+     "addr": "15 Madison Street Apt B7",
+     "unit": "Apt B7",
+     "beds": 3.0,
+     "baths": 1.0,
+     "sqft": 1092.0,
+     "price": 278000.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 255,
+     "mi": 0.41
+    },
+    {
+     "slug": "34-ferris-avenue-norwalk-connecticut-24145088",
+     "addr": "34 Ferris Avenue Apt A2",
+     "unit": "Apt A2",
+     "beds": 3.0,
+     "baths": 4.0,
+     "sqft": 1801.0,
+     "price": 599000.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 333,
+     "mi": 0.75
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 700000.0,
+    "high": 767500.0,
+    "median": 733750
+   },
+   "radiusMi": 0.75
+  }
  }
 }

@@ -125,5 +125,71 @@
    "n": "Bus stop",
    "mi": 1.89
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "7-nappa-drive-westport-connecticut-24165305",
+     "addr": "7 Nappa Drive",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 2904.0,
+     "price": 12000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-27",
+     "ppsf": 4,
+     "mi": 0.09
+    },
+    {
+     "slug": "2-drumlin-road-westport-connecticut-24194715",
+     "addr": "2 Drumlin Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 2528.0,
+     "price": 15000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 6,
+     "mi": 0.42
+    },
+    {
+     "slug": "3-river-view-road-westport-connecticut-24154887",
+     "addr": "3 River View Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 4.0,
+     "sqft": 3182.0,
+     "price": 12000.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 4,
+     "mi": 0.6
+    },
+    {
+     "slug": "222-compo-road-south-westport-connecticut-24031199",
+     "addr": "222 Compo Road South",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 5.0,
+     "sqft": 4449.0,
+     "price": 14850.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 3,
+     "mi": 0.68
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 12000.0,
+    "high": 12000.0,
+    "median": 12000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

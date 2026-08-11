@@ -122,5 +122,101 @@
    "mi": 0.13,
    "walk": 3
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "2700-bedford-street-stamford-connecticut-24169832",
+     "addr": "2700 Bedford Street Unit O",
+     "unit": "Unit O",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 1410.0,
+     "price": 4000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-28",
+     "ppsf": 3,
+     "mi": 0.23
+    },
+    {
+     "slug": "102-old-barn-road-west-stamford-connecticut-24183339",
+     "addr": "102 Old Barn Road West",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1414.0,
+     "price": 4500.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-19",
+     "ppsf": 3,
+     "mi": 0.31
+    },
+    {
+     "slug": "20-third-street-stamford-connecticut-24158555",
+     "addr": "20 Third Street Unit 18",
+     "unit": "Unit 18",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 1645.0,
+     "price": 4900.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-09",
+     "ppsf": 3,
+     "mi": 0.54
+    },
+    {
+     "slug": "20-third-street-stamford-connecticut-24175898",
+     "addr": "20 Third Street Unit 19",
+     "unit": "Unit 19",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 1610.0,
+     "price": 4800.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-27",
+     "ppsf": 3,
+     "mi": 0.54
+    },
+    {
+     "slug": "98-east-lane-stamford-connecticut-24185202",
+     "addr": "98 East Lane",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 4640.0,
+     "price": 6300.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-08",
+     "ppsf": 1,
+     "mi": 0.66
+    },
+    {
+     "slug": "125-bridge-street-stamford-connecticut-24189556",
+     "addr": "125 Bridge Street",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 1694.0,
+     "price": 5600.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 3,
+     "mi": 0.23
+    }
+   ],
+   "summary": {
+    "n": 5,
+    "low": 4000.0,
+    "high": 6300.0,
+    "median": 4800
+   },
+   "radiusMi": 0.75
+  }
  }
 }

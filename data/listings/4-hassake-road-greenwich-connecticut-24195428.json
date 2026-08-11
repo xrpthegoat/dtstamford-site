@@ -119,5 +119,59 @@
    "mi": 0.14,
    "walk": 3
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "33-halsey-drive-greenwich-connecticut-24112915",
+     "addr": "33 Halsey Drive",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1481.0,
+     "price": 1410000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-01",
+     "ppsf": 952,
+     "mi": 0.23
+    },
+    {
+     "slug": "10-maple-drive-greenwich-connecticut-24163995",
+     "addr": "10 Maple Drive",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 2290.0,
+     "price": 1258000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-21",
+     "ppsf": 549,
+     "mi": 0.37
+    },
+    {
+     "slug": "33-center-drive-greenwich-connecticut-24189792",
+     "addr": "33 Center Drive",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1312.0,
+     "price": 1095000.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 835,
+     "mi": 0.57
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 1258000.0,
+    "high": 1410000.0,
+    "median": 1334000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

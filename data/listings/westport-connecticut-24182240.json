@@ -111,5 +111,60 @@
    "mi": 2.14,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "65-west-parish-road-westport-connecticut-24157128",
+     "addr": "65 West Parish Road",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1183.0,
+     "price": 1100000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-30",
+     "ppsf": 930,
+     "mi": 0.17
+    },
+    {
+     "slug": "23-west-parish-road-westport-connecticut-24176734",
+     "addr": "23 West Parish Road",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1187.0,
+     "price": 1175000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-08-10",
+     "ppsf": 990,
+     "mi": 0.35
+    },
+    {
+     "slug": "20-hickory-drive-westport-connecticut-24156644",
+     "addr": "20 Hickory Drive",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1560.0,
+     "price": 1160000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-14",
+     "ppsf": 744,
+     "mi": 0.67
+    }
+   ],
+   "summary": {
+    "n": 3,
+    "low": 1100000.0,
+    "high": 1175000.0,
+    "median": 1160000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

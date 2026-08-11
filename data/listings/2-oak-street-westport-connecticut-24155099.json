@@ -101,5 +101,45 @@
    "mi": 2.83,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "54-richmondville-avenue-westport-connecticut-24160951",
+     "addr": "54 Richmondville Avenue",
+     "unit": "",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 900.0,
+     "price": 2650.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-02",
+     "ppsf": 3,
+     "mi": 0.39
+    },
+    {
+     "slug": "341-main-street-westport-connecticut-24196024",
+     "addr": "341 Main Street Unit 2",
+     "unit": "Unit 2",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 500.0,
+     "price": 1900.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 4,
+     "mi": 0.6
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 2650.0,
+    "high": 2650.0,
+    "median": 2650
+   },
+   "radiusMi": 0.75
+  }
  }
 }

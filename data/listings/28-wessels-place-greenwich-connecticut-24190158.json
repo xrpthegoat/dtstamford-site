@@ -122,5 +122,45 @@
    "n": "Lincoln Ave",
    "mi": 1.99
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "205-south-water-street-greenwich-connecticut-24187589",
+     "addr": "205 South Water Street Unit 1",
+     "unit": "Unit 1",
+     "beds": 2.0,
+     "baths": 1.0,
+     "sqft": 850.0,
+     "price": 3100.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-08-05",
+     "ppsf": 4,
+     "mi": 0.47
+    },
+    {
+     "slug": "106-henry-street-greenwich-connecticut-24194753",
+     "addr": "106 Henry Street Unit A",
+     "unit": "Unit A",
+     "beds": 2.0,
+     "baths": 1.0,
+     "sqft": 1613.0,
+     "price": 4200.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 3,
+     "mi": 0.36
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 3100.0,
+    "high": 3100.0,
+    "median": 3100
+   },
+   "radiusMi": 0.75
+  }
  }
 }

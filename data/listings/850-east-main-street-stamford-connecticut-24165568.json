@@ -110,5 +110,138 @@
    "mi": 0.52,
    "walk": 10
   }
+ },
+ "comps": {
+  "building": {
+   "rows": [
+    {
+     "slug": "850-east-main-street-stamford-connecticut-24165172",
+     "addr": "850 East Main Street Unit 205",
+     "unit": "Unit 205",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1080.0,
+     "price": 470000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-29",
+     "ppsf": 435
+    },
+    {
+     "slug": "850-east-main-street-stamford-connecticut-24185973",
+     "addr": "850 East Main Street Apt 504",
+     "unit": "Apt 504",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1335.0,
+     "price": 589000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 441
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 470000.0,
+    "high": 470000.0,
+    "median": 470000
+   },
+   "label": "850 East Main Street"
+  },
+  "area": {
+   "rows": [
+    {
+     "slug": "49-glenbrook-road-stamford-connecticut-24162281",
+     "addr": "49 Glenbrook Road Unit 103",
+     "unit": "Unit 103",
+     "beds": 2.0,
+     "baths": 1.0,
+     "sqft": 748.0,
+     "price": 320000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-12",
+     "ppsf": 428,
+     "mi": 0.11
+    },
+    {
+     "slug": "1-valley-road-stamford-connecticut-24170392",
+     "addr": "1 Valley Road Unit 207",
+     "unit": "Unit 207",
+     "beds": 2.0,
+     "baths": 3.0,
+     "sqft": 1400.0,
+     "price": 510000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-02",
+     "ppsf": 364,
+     "mi": 0.2
+    },
+    {
+     "slug": "160-glenbrook-road-stamford-connecticut-24171916",
+     "addr": "160 Glenbrook Road Unit 2B",
+     "unit": "Unit 2B",
+     "beds": 2.0,
+     "baths": 3.0,
+     "sqft": 1430.0,
+     "price": 602500.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-06",
+     "ppsf": 421,
+     "mi": 0.27
+    },
+    {
+     "slug": "107-lockwood-avenue-stamford-connecticut-24115746",
+     "addr": "107 Lockwood Avenue Apt 1B",
+     "unit": "Apt 1B",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1070.0,
+     "price": 307000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-30",
+     "ppsf": 287,
+     "mi": 0.35
+    },
+    {
+     "slug": "101-grove-street-stamford-connecticut-24157458",
+     "addr": "101 Grove Street Unit 19",
+     "unit": "Unit 19",
+     "beds": 2.0,
+     "baths": 3.0,
+     "sqft": 1475.0,
+     "price": 595000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-01",
+     "ppsf": 403,
+     "mi": 0.36
+    },
+    {
+     "slug": "60-lawn-avenue-stamford-connecticut-24161574",
+     "addr": "60 Lawn Avenue Unit 21",
+     "unit": "Unit 21",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1420.0,
+     "price": 540000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-30",
+     "ppsf": 380,
+     "mi": 0.37
+    }
+   ],
+   "summary": {
+    "n": 6,
+    "low": 307000.0,
+    "high": 602500.0,
+    "median": 525000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

@@ -105,5 +105,86 @@
    "walk": 11,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "112-east-avenue-new-canaan-connecticut-24178530",
+     "addr": "112 East Avenue",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 2800.0,
+     "price": 7000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-19",
+     "ppsf": 2,
+     "mi": 0.11
+    },
+    {
+     "slug": "50-oak-street-new-canaan-connecticut-24164565",
+     "addr": "50 Oak Street",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 4.0,
+     "sqft": 3000.0,
+     "price": 9500.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-25",
+     "ppsf": 3,
+     "mi": 0.45
+    },
+    {
+     "slug": "43-river-street-new-canaan-connecticut-24184420",
+     "addr": "43 River Street",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 1679.0,
+     "price": 5900.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-06",
+     "ppsf": 4,
+     "mi": 0.45
+    },
+    {
+     "slug": "123-east-avenue-new-canaan-connecticut-24197645",
+     "addr": "123 East Avenue",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 2.0,
+     "sqft": 1800.0,
+     "price": 6750.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 4,
+     "mi": 0.07
+    },
+    {
+     "slug": "136-harrison-avenue-new-canaan-connecticut-24163431",
+     "addr": "136 HARRISON Avenue",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 5.0,
+     "sqft": 3455.0,
+     "price": 15000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 4,
+     "mi": 0.41
+    }
+   ],
+   "summary": {
+    "n": 3,
+    "low": 5900.0,
+    "high": 9500.0,
+    "median": 7000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

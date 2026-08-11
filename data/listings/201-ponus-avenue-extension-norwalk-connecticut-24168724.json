@@ -109,5 +109,59 @@
    "n": "Bus stop",
    "mi": 1.78
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "15-may-drive-norwalk-connecticut-24179020",
+     "addr": "15 May Drive",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 6.0,
+     "sqft": 5989.0,
+     "price": 2200000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-21",
+     "ppsf": 367,
+     "mi": 0.54
+    },
+    {
+     "slug": "1-douglas-drive-norwalk-connecticut-24147118",
+     "addr": "1 Douglas Drive",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 4.0,
+     "sqft": 5271.0,
+     "price": 1650000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-13",
+     "ppsf": 313,
+     "mi": 0.65
+    },
+    {
+     "slug": "178-pocconock-trail-new-canaan-connecticut-24186878",
+     "addr": "178 Pocconock Trail",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 4.0,
+     "sqft": 4543.0,
+     "price": 2295000.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 505,
+     "mi": 0.39
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 1650000.0,
+    "high": 2200000.0,
+    "median": 1925000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

@@ -130,5 +130,59 @@
    "n": "Bus stop",
    "mi": 1.57
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "22-ocean-drive-north-stamford-connecticut-24185475",
+     "addr": "22 Ocean Drive North",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 5.0,
+     "sqft": 3866.0,
+     "price": 15000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-08-06",
+     "ppsf": 4,
+     "mi": 0.64
+    },
+    {
+     "slug": "30-dora-street-stamford-connecticut-24180944",
+     "addr": "30 Dora Street",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 2.0,
+     "sqft": 1800.0,
+     "price": 4950.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-11",
+     "ppsf": 3,
+     "mi": 0.72
+    },
+    {
+     "slug": "64-ocean-drive-east-stamford-connecticut-24182199",
+     "addr": "64 Ocean Drive East",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 4.0,
+     "sqft": 3132.0,
+     "price": 15000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 5,
+     "mi": 0.73
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 4950.0,
+    "high": 15000.0,
+    "median": 9975
+   },
+   "radiusMi": 0.75
+  }
  }
 }

@@ -121,5 +121,59 @@
    "n": "Bus stop",
    "mi": 0.95
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "11-treadwell-avenue-westport-connecticut-24180824",
+     "addr": "11 Treadwell Avenue",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 3069.0,
+     "price": 9000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-09",
+     "ppsf": 3,
+     "mi": 0.2
+    },
+    {
+     "slug": "4-raymond-place-westport-connecticut-24188177",
+     "addr": "4 Raymond Place",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 5.0,
+     "sqft": 3180.0,
+     "price": 11250.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-03",
+     "ppsf": 4,
+     "mi": 0.36
+    },
+    {
+     "slug": "3-river-view-road-westport-connecticut-24154887",
+     "addr": "3 River View Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 4.0,
+     "sqft": 3182.0,
+     "price": 12000.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 4,
+     "mi": 0.74
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 9000.0,
+    "high": 11250.0,
+    "median": 10125
+   },
+   "radiusMi": 0.75
+  }
  }
 }

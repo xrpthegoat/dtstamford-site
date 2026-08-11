@@ -125,5 +125,74 @@
    "n": "Bus stop",
    "mi": 1.02
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "225-flax-hill-road-norwalk-connecticut-24149067",
+     "addr": "225 Flax Hill Road Unit 2",
+     "unit": "Unit 2",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 1822.0,
+     "price": 700000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-24",
+     "ppsf": 384,
+     "mi": 0.33
+    },
+    {
+     "slug": "33-north-water-street-norwalk-connecticut-24138234",
+     "addr": "33 North Water Street Unit 804",
+     "unit": "Unit 804",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 2147.0,
+     "price": 1299000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-03-27",
+     "ppsf": 605,
+     "mi": 0.41
+    },
+    {
+     "slug": "193-ely-avenue-norwalk-connecticut-24178601",
+     "addr": "193 Ely Avenue Unit B",
+     "unit": "Unit B",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1232.0,
+     "price": 350000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-02",
+     "ppsf": 284,
+     "mi": 0.56
+    },
+    {
+     "slug": "56-soundview-avenue-norwalk-connecticut-24164232",
+     "addr": "56 Soundview Avenue Unit 1",
+     "unit": "Unit 1",
+     "beds": 3.0,
+     "baths": 4.0,
+     "sqft": 2422.0,
+     "price": 730000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-15",
+     "ppsf": 301,
+     "mi": 0.72
+    }
+   ],
+   "summary": {
+    "n": 4,
+    "low": 350000.0,
+    "high": 1299000.0,
+    "median": 715000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

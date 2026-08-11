@@ -130,5 +130,72 @@
    "n": "Bus stop",
    "mi": 1.33
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "11-treadwell-avenue-westport-connecticut-24180824",
+     "addr": "11 Treadwell Avenue",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 3069.0,
+     "price": 9000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-09",
+     "ppsf": 3,
+     "mi": 0.68
+    },
+    {
+     "slug": "5-longview-road-westport-connecticut-24169951",
+     "addr": "5 Longview Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 6.0,
+     "sqft": 5191.0,
+     "price": 19000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-21",
+     "ppsf": 4,
+     "mi": 0.69
+    },
+    {
+     "slug": "2-drumlin-road-westport-connecticut-24194715",
+     "addr": "2 Drumlin Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 2528.0,
+     "price": 15000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 6,
+     "mi": 0.6
+    },
+    {
+     "slug": "4-nappa-lane-westport-connecticut-24189482",
+     "addr": "4 Nappa Lane",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 2936.0,
+     "price": 12000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 4,
+     "mi": 0.68
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 9000.0,
+    "high": 19000.0,
+    "median": 14000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

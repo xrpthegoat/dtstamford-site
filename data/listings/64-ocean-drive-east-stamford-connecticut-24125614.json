@@ -107,5 +107,72 @@
    "n": "Bus stop",
    "mi": 1.54
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "47-mitchell-street-stamford-connecticut-24164426",
+     "addr": "47 Mitchell Street",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 2.0,
+     "sqft": 1462.0,
+     "price": 900000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-29",
+     "ppsf": 616,
+     "mi": 0.42
+    },
+    {
+     "slug": "102-soundview-drive-stamford-connecticut-24163171",
+     "addr": "102 Soundview Drive",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 2146.0,
+     "price": 1850000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-15",
+     "ppsf": 862,
+     "mi": 0.73
+    },
+    {
+     "slug": "52-chesterfield-road-stamford-connecticut-24187400",
+     "addr": "52 Chesterfield Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 4.0,
+     "sqft": 4164.0,
+     "price": 2500000.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 600,
+     "mi": 0.13
+    },
+    {
+     "slug": "22-ocean-drive-north-stamford-connecticut-24178294",
+     "addr": "22 Ocean Drive North",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 5.0,
+     "sqft": 3866.0,
+     "price": 3100000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 802,
+     "mi": 0.2
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 900000.0,
+    "high": 1850000.0,
+    "median": 1375000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

@@ -104,5 +104,60 @@
    "mi": 2.83,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "140-roseville-road-westport-connecticut-24132813",
+     "addr": "140 Roseville Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 3099.0,
+     "price": 2520000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-14",
+     "ppsf": 813,
+     "mi": 0.23
+    },
+    {
+     "slug": "10-reimer-road-westport-connecticut-24152179",
+     "addr": "10 Reimer Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 4.0,
+     "sqft": 3464.0,
+     "price": 2125000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-01",
+     "ppsf": 613,
+     "mi": 0.46
+    },
+    {
+     "slug": "107-compo-road-north-westport-connecticut-24166194",
+     "addr": "107 Compo Road North",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 2538.0,
+     "price": 1631000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-24",
+     "ppsf": 643,
+     "mi": 0.55
+    }
+   ],
+   "summary": {
+    "n": 3,
+    "low": 1631000.0,
+    "high": 2520000.0,
+    "median": 2125000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

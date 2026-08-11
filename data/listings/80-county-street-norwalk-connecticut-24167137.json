@@ -141,5 +141,56 @@
    "n": "Bus stop",
    "mi": 0.79
   }
+ },
+ "comps": {
+  "building": {
+   "rows": [
+    {
+     "slug": "80-county-street-norwalk-connecticut-24169489",
+     "addr": "80 County Street Unit 8A",
+     "unit": "Unit 8A",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 1320.0,
+     "price": 445000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-09",
+     "ppsf": 337
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 445000.0,
+    "high": 445000.0,
+    "median": 445000
+   },
+   "label": "80 County Street"
+  },
+  "area": {
+   "rows": [
+    {
+     "slug": "3-hills-lane-norwalk-connecticut-24165295",
+     "addr": "3 Hills Lane Unit 3",
+     "unit": "Unit 3",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1386.0,
+     "price": 525000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-29",
+     "ppsf": 379,
+     "mi": 0.59
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 525000.0,
+    "high": 525000.0,
+    "median": 525000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

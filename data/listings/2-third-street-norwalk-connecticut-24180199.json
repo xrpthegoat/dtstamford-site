@@ -129,5 +129,72 @@
    "n": "Bus stop",
    "mi": 1.38
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "67-osborne-avenue-norwalk-connecticut-24154154",
+     "addr": "67 Osborne Avenue",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 2.0,
+     "sqft": 1500.0,
+     "price": 4000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-01",
+     "ppsf": 3,
+     "mi": 0.72
+    },
+    {
+     "slug": "25-quintard-avenue-norwalk-connecticut-24188939",
+     "addr": "25 Quintard Avenue Unit A",
+     "unit": "Unit A",
+     "beds": 4.0,
+     "baths": 2.0,
+     "sqft": 2469.0,
+     "price": 4500.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-08-10",
+     "ppsf": 2,
+     "mi": 0.73
+    },
+    {
+     "slug": "8-lorena-street-norwalk-connecticut-24189445",
+     "addr": "8 Lorena Street Unit 2",
+     "unit": "Unit 2",
+     "beds": 4.0,
+     "baths": 2.0,
+     "sqft": 2318.0,
+     "price": 3500.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 2,
+     "mi": 0.22
+    },
+    {
+     "slug": "11-quintard-avenue-norwalk-connecticut-24180143",
+     "addr": "11 Quintard Avenue Unit 1",
+     "unit": "Unit 1",
+     "beds": 4.0,
+     "baths": 2.0,
+     "sqft": 1235.0,
+     "price": 4350.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 4,
+     "mi": 0.72
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 4000.0,
+    "high": 4500.0,
+    "median": 4250
+   },
+   "radiusMi": 0.75
+  }
  }
 }

@@ -118,5 +118,132 @@
    "walk": 6,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "building": {
+   "rows": [
+    {
+     "slug": "15-burtis-avenue-new-canaan-connecticut-24171853",
+     "addr": "15 Burtis Avenue Unit Townhome A",
+     "unit": "Unit Townhome A",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 1767.0,
+     "price": 2995000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 1695
+    },
+    {
+     "slug": "15-burtis-avenue-new-canaan-connecticut-24122664",
+     "addr": "15 Burtis Avenue Unit East Penthouse C",
+     "unit": "Unit East Penthouse C",
+     "beds": 3.0,
+     "baths": 4.0,
+     "sqft": 3322.0,
+     "price": 5995000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 1805
+    }
+   ],
+   "summary": null,
+   "label": "15 Burtis Avenue"
+  },
+  "area": {
+   "rows": [
+    {
+     "slug": "28-east-maple-street-new-canaan-connecticut-24149928",
+     "addr": "28 East Maple Street Unit 28",
+     "unit": "Unit 28",
+     "beds": 3.0,
+     "baths": 4.0,
+     "sqft": 2579.0,
+     "price": 2000000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-29",
+     "ppsf": 775,
+     "mi": 0.05
+    },
+    {
+     "slug": "302-gramercy-park-new-canaan-connecticut-24151803",
+     "addr": "302 Gramercy Park Unit 302",
+     "unit": "Unit 302",
+     "beds": 3.0,
+     "baths": 4.0,
+     "sqft": 2417.0,
+     "price": 2800000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-05",
+     "ppsf": 1158,
+     "mi": 0.15
+    },
+    {
+     "slug": "205-main-street-new-canaan-connecticut-24174815",
+     "addr": "205 Main Street Unit 36",
+     "unit": "Unit 36",
+     "beds": 3.0,
+     "baths": 4.0,
+     "sqft": 2806.0,
+     "price": 1500000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-30",
+     "ppsf": 535,
+     "mi": 0.21
+    },
+    {
+     "slug": "205-main-street-new-canaan-connecticut-24157292",
+     "addr": "205 Main Street Unit 33",
+     "unit": "Unit 33",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 2620.0,
+     "price": 1475000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-09",
+     "ppsf": 563,
+     "mi": 0.22
+    },
+    {
+     "slug": "164-summer-street-new-canaan-connecticut-24153987",
+     "addr": "164 Summer Street Apt A",
+     "unit": "Apt A",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 2232.0,
+     "price": 1155000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-02",
+     "ppsf": 517,
+     "mi": 0.27
+    },
+    {
+     "slug": "86-forest-street-new-canaan-connecticut-24155284",
+     "addr": "86 Forest Street Unit S",
+     "unit": "Unit S",
+     "beds": 3.0,
+     "baths": 4.0,
+     "sqft": 1914.0,
+     "price": 1555000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-03",
+     "ppsf": 812,
+     "mi": 0.28
+    }
+   ],
+   "summary": {
+    "n": 6,
+    "low": 1155000.0,
+    "high": 2800000.0,
+    "median": 1527500
+   },
+   "radiusMi": 0.75
+  }
  }
 }

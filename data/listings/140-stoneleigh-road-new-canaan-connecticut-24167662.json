@@ -131,5 +131,45 @@
    "mi": 1.21,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "176-carter-street-new-canaan-connecticut-24173413",
+     "addr": "176 Carter Street",
+     "unit": "",
+     "beds": 6.0,
+     "baths": 6.0,
+     "sqft": 4158.0,
+     "price": 2805000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-22",
+     "ppsf": 675,
+     "mi": 0.46
+    },
+    {
+     "slug": "40-shadow-lane-new-canaan-connecticut-24166891",
+     "addr": "40 Shadow Lane",
+     "unit": "",
+     "beds": 6.0,
+     "baths": 5.0,
+     "sqft": 4425.0,
+     "price": 2395000.0,
+     "kind": "asking",
+     "status": "Under Contract",
+     "ppsf": 541,
+     "mi": 0.41
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 2805000.0,
+    "high": 2805000.0,
+    "median": 2805000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

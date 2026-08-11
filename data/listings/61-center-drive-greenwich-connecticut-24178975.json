@@ -139,5 +139,46 @@
    "mi": 0.3,
    "walk": 6
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "21-amherst-road-greenwich-connecticut-24155152",
+     "addr": "21 Amherst Road",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 3.0,
+     "sqft": 2911.0,
+     "price": 1700000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-25",
+     "ppsf": 584,
+     "mi": 0.38
+    },
+    {
+     "slug": "7-hearthstone-drive-greenwich-connecticut-24183996",
+     "addr": "7 Hearthstone Drive",
+     "unit": "",
+     "beds": 5.0,
+     "baths": 6.0,
+     "sqft": 6301.0,
+     "price": 6302500.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-14",
+     "ppsf": 1000,
+     "mi": 0.63
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 1700000.0,
+    "high": 6302500.0,
+    "median": 4001250
+   },
+   "radiusMi": 0.75
+  }
  }
 }

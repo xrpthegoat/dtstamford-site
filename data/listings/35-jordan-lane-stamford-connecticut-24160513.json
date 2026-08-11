@@ -101,5 +101,45 @@
    "mi": 3.6,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "266-west-haviland-lane-stamford-connecticut-24174252",
+     "addr": "266 West Haviland Lane",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 5.0,
+     "sqft": 4560.0,
+     "price": 10000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-01",
+     "ppsf": 2,
+     "mi": 0.18
+    },
+    {
+     "slug": "732-den-road-stamford-connecticut-24184068",
+     "addr": "732 Den Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 4.0,
+     "sqft": 4613.0,
+     "price": 8750.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 2,
+     "mi": 0.5
+    }
+   ],
+   "summary": {
+    "n": 1,
+    "low": 10000.0,
+    "high": 10000.0,
+    "median": 10000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

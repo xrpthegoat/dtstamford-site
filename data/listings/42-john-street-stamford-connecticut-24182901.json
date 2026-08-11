@@ -128,5 +128,72 @@
    "mi": 0.35,
    "walk": 7
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "39-glenbrook-road-stamford-connecticut-24186937",
+     "addr": "39 Glenbrook Road Unit 2W",
+     "unit": "Unit 2W",
+     "beds": 0.0,
+     "baths": 1.0,
+     "sqft": 477.0,
+     "price": 1695.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-29",
+     "ppsf": 4,
+     "mi": 0.7
+    },
+    {
+     "slug": "53-prospect-street-stamford-connecticut-24173596",
+     "addr": "53 Prospect Street Unit 215",
+     "unit": "Unit 215",
+     "beds": 0.0,
+     "baths": 1.0,
+     "sqft": 500.0,
+     "price": 1625.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-22",
+     "ppsf": 3,
+     "mi": 0.71
+    },
+    {
+     "slug": "401-atlantic-street-stamford-connecticut-24174703",
+     "addr": "401 atlantic Street Unit 26A",
+     "unit": "Unit 26A",
+     "beds": 0.0,
+     "baths": 1.0,
+     "sqft": 488.0,
+     "price": 2302.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 5,
+     "mi": 0.31
+    },
+    {
+     "slug": "460a-summer-street-stamford-connecticut-24198159",
+     "addr": "460a Summer Street Unit 507",
+     "unit": "Unit 507",
+     "beds": 0.0,
+     "baths": 1.0,
+     "sqft": 418.0,
+     "price": 2227.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 5,
+     "mi": 0.71
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 1625.0,
+    "high": 1695.0,
+    "median": 1660
+   },
+   "radiusMi": 0.75
+  }
  }
 }

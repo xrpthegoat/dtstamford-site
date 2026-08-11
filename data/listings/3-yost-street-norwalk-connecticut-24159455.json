@@ -96,5 +96,59 @@
    "mi": 1.0,
    "line": "Metro-North Railroad;CTrail"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "2-lowndes-avenue-norwalk-connecticut-24156436",
+     "addr": "2 Lowndes Avenue Unit 2",
+     "unit": "Unit 2",
+     "beds": 2.0,
+     "baths": 1.0,
+     "sqft": 1721.0,
+     "price": 2450.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-11",
+     "ppsf": 1,
+     "mi": 0.31
+    },
+    {
+     "slug": "309-ely-avenue-norwalk-connecticut-24180031",
+     "addr": "309 Ely Avenue Unit H1",
+     "unit": "Unit H1",
+     "beds": 2.0,
+     "baths": 1.0,
+     "sqft": 805.0,
+     "price": 2500.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-11",
+     "ppsf": 3,
+     "mi": 0.64
+    },
+    {
+     "slug": "23-quintard-avenue-norwalk-connecticut-24193352",
+     "addr": "23 Quintard Avenue Unit A",
+     "unit": "Unit A",
+     "beds": 2.0,
+     "baths": 1.0,
+     "sqft": 1080.0,
+     "price": 2800.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 3,
+     "mi": 0.57
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 2450.0,
+    "high": 2500.0,
+    "median": 2475
+   },
+   "radiusMi": 0.75
+  }
  }
 }

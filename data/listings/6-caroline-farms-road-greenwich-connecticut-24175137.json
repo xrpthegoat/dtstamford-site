@@ -109,5 +109,59 @@
    "n": "Bus stop",
    "mi": 1.33
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "24-decatur-street-greenwich-connecticut-24178750",
+     "addr": "24 Decatur Street Unit 2",
+     "unit": "Unit 2",
+     "beds": 2.0,
+     "baths": 3.0,
+     "sqft": 1643.0,
+     "price": 850000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-06",
+     "ppsf": 517,
+     "mi": 0.25
+    },
+    {
+     "slug": "453-east-putnam-avenue-greenwich-connecticut-24161260",
+     "addr": "453 East Putnam Avenue Unit 4B",
+     "unit": "Unit 4B",
+     "beds": 2.0,
+     "baths": 3.0,
+     "sqft": 1464.0,
+     "price": 850000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-20",
+     "ppsf": 581,
+     "mi": 0.6
+    },
+    {
+     "slug": "453-east-putnam-avenue-greenwich-connecticut-24195751",
+     "addr": "453 East Putnam Avenue Unit 4G",
+     "unit": "Unit 4G",
+     "beds": 2.0,
+     "baths": 2.0,
+     "sqft": 1368.0,
+     "price": 759000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 555,
+     "mi": 0.6
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 850000.0,
+    "high": 850000.0,
+    "median": 850000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

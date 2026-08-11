@@ -126,5 +126,46 @@
    "walk": 2,
    "line": "Metro-North Railroad"
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "24-taylor-drive-greenwich-connecticut-24157194",
+     "addr": "24 Taylor Drive",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 2.0,
+     "sqft": 1356.0,
+     "price": 1395000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-11",
+     "ppsf": 1029,
+     "mi": 0.62
+    },
+    {
+     "slug": "20-ridge-road-greenwich-connecticut-24174599",
+     "addr": "20 Ridge Road",
+     "unit": "",
+     "beds": 3.0,
+     "baths": 4.0,
+     "sqft": 1839.0,
+     "price": 2503000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-31",
+     "ppsf": 1361,
+     "mi": 0.75
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 1395000.0,
+    "high": 2503000.0,
+    "median": 1949000
+   },
+   "radiusMi": 0.75
+  }
  }
 }

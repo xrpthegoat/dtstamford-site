@@ -115,5 +115,46 @@
    "n": "Bus stop",
    "mi": 0.99
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "274-valley-road-greenwich-connecticut-24163093",
+     "addr": "274 Valley Road #2",
+     "unit": "#2",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 1400.0,
+     "price": 3500.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-01",
+     "ppsf": 2,
+     "mi": 0.3
+    },
+    {
+     "slug": "274-valley-road-greenwich-connecticut-24163031",
+     "addr": "274 Valley Road #1",
+     "unit": "#1",
+     "beds": 3.0,
+     "baths": 3.0,
+     "sqft": 1400.0,
+     "price": 3800.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-01",
+     "ppsf": 3,
+     "mi": 0.31
+    }
+   ],
+   "summary": {
+    "n": 2,
+    "low": 3500.0,
+    "high": 3800.0,
+    "median": 3650
+   },
+   "radiusMi": 0.75
+  }
  }
 }

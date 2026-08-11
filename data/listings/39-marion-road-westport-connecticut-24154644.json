@@ -115,5 +115,100 @@
    "n": "Bus stop",
    "mi": 1.5
   }
+ },
+ "comps": {
+  "area": {
+   "rows": [
+    {
+     "slug": "13-orchard-hill-road-norwalk-connecticut-24122969",
+     "addr": "13 Orchard Hill Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 5.0,
+     "sqft": 5588.0,
+     "price": 1400000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-04-16",
+     "ppsf": 251,
+     "mi": 0.21
+    },
+    {
+     "slug": "8-dorset-road-norwalk-connecticut-24159302",
+     "addr": "8 Dorset Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 2.0,
+     "sqft": 2462.0,
+     "price": 850000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-05-19",
+     "ppsf": 345,
+     "mi": 0.71
+    },
+    {
+     "slug": "4-raymond-place-westport-connecticut-24180382",
+     "addr": "4 Raymond Place",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 5.0,
+     "sqft": 3180.0,
+     "price": 2275000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-06-29",
+     "ppsf": 715,
+     "mi": 0.72
+    },
+    {
+     "slug": "30-marlborough-road-norwalk-connecticut-24171752",
+     "addr": "30 Marlborough Road",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 1974.0,
+     "price": 915000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-07-27",
+     "ppsf": 464,
+     "mi": 0.73
+    },
+    {
+     "slug": "23-pequot-trail-westport-connecticut-24197030",
+     "addr": "23 Pequot Trail",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 4.0,
+     "sqft": 3536.0,
+     "price": 1599000.0,
+     "kind": "asking",
+     "status": "Coming Soon",
+     "ppsf": 452,
+     "mi": 0.4
+    },
+    {
+     "slug": "107-wolfpit-avenue-norwalk-connecticut-24191848",
+     "addr": "107 Wolfpit Avenue",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 2.0,
+     "sqft": 2416.0,
+     "price": 899000.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 372,
+     "mi": 0.48
+    }
+   ],
+   "summary": {
+    "n": 4,
+    "low": 850000.0,
+    "high": 2275000.0,
+    "median": 1157500
+   },
+   "radiusMi": 0.75
+  }
  }
 }

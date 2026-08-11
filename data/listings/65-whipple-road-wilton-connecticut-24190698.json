@@ -133,6 +133,20 @@
   "area": {
    "rows": [
     {
+     "slug": "56-chipmunk-lane-wilton-connecticut-24186677",
+     "addr": "56 Chipmunk Lane",
+     "unit": "",
+     "beds": 4.0,
+     "baths": 3.0,
+     "sqft": 2268.0,
+     "price": 1050000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-08-10",
+     "ppsf": 463,
+     "mi": 0.72
+    },
+    {
      "slug": "8-live-oak-road-norwalk-connecticut-24185367",
      "addr": "8 Live Oak Road",
      "unit": "",
@@ -170,22 +184,14 @@
      "status": "Under Contract",
      "ppsf": 446,
      "mi": 0.66
-    },
-    {
-     "slug": "56-chipmunk-lane-wilton-connecticut-24186677",
-     "addr": "56 Chipmunk Lane",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2268.0,
-     "price": 849000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 374,
-     "mi": 0.72
     }
    ],
-   "summary": null,
+   "summary": {
+    "n": 1,
+    "low": 1050000.0,
+    "high": 1050000.0,
+    "median": 1050000
+   },
    "radiusMi": 0.75
   }
  }

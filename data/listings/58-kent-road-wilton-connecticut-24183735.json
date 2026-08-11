@@ -142,10 +142,11 @@
      "beds": 4.0,
      "baths": 3.0,
      "sqft": 2268.0,
-     "price": 849000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 374,
+     "price": 1050000.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-08-10",
+     "ppsf": 463,
      "mi": 0.14
     },
     {
@@ -162,7 +163,12 @@
      "mi": 0.65
     }
    ],
-   "summary": null,
+   "summary": {
+    "n": 1,
+    "low": 1050000.0,
+    "high": 1050000.0,
+    "median": 1050000
+   },
    "radiusMi": 0.75
   }
  }

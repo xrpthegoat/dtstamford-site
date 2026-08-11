@@ -1197,7 +1197,7 @@ function renderDrawer(l) {
       <div class="d-cta">
         <a class="btn btn-gold d-callcta" href="tel:${PHONE}">
           <span class="d-callcta-t">Call John</span>
-          <span class="d-callcta-s">203·883·3399 — straight to me, not an office</span>
+          <span class="d-callcta-s">Schedule a tour or ask about this property</span>
           <span class="d-callcta-arrow" aria-hidden="true">→</span></a>
         <a class="btn btn-act" href="mailto:${EMAIL}?subject=${encodeURIComponent(ctaSubject)}&body=${mailBody}">${ctaLabel}</a>
         <button class="btn btn-out" data-fav="${esc(l.mls)}">${fav ? '♥ Saved' : '♡ Save'}</button>

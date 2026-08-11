@@ -101,5 +101,41 @@
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
   "attribution": "Listing data provided courtesy of SmartMLS."
+ },
+ "nearby": {
+  "schools": {
+   "elementary": "Stillmeadow",
+   "middle": "Cloonan",
+   "high": "Westhill",
+   "lookup": null
+  },
+  "grocery": [
+   {
+    "n": "Whole Foods Market",
+    "mi": 0.22,
+    "walk": 4
+   },
+   {
+    "n": "Bev-Max",
+    "mi": 0.56,
+    "walk": 11
+   }
+  ],
+  "pharmacy": {
+   "n": "CVS Pharmacy",
+   "mi": 0.25,
+   "walk": 5,
+   "chain": "CVS"
+  },
+  "train": {
+   "n": "Glenbrook",
+   "mi": 1.44,
+   "line": "Metro-North Railroad"
+  },
+  "bus": {
+   "n": "High Ridge Rd @ Cold Spring Rd",
+   "mi": 0.3,
+   "walk": 6
+  }
  }
 }

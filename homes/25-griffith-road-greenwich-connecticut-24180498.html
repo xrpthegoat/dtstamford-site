@@ -63,6 +63,9 @@
 .idx-facts>div:nth-child(2n){border-right:0}
 .idx-facts .k{font-family:var(--mono);font-size:.62rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
 .idx-facts .v{color:#fff;font-size:1.02rem;margin-top:3px;line-height:1.35}
+/* What's nearby: the distance sits under the place name, quiet, so the NAME is what scans. */
+.idx-nb-d{display:block;font-family:var(--mono);font-size:.62rem;letter-spacing:.06em;color:var(--muted);margin-top:3px;text-transform:none}
+.idx-nb-note{font-size:.74rem;color:var(--muted);margin:-8px 0 22px;line-height:1.5}
 /* Status "chip" inside the STATUS fact cell (John 2026-08-04): a colored pulsing dot next to the
    value ("Active"/"Under Contract"/...). Reuses the .st-on/.st-uc/.st-ucs/.st-soon color tokens
    the hero pill already defines. Active pulses; the rest show a steady dot (a Coming Soon or Under
@@ -187,7 +190,7 @@
     <div class="idx-facts"><div><div class="k">Style</div><div class="v">Colonial</div></div><div><div class="k">Siding</div><div class="v">Vinyl Siding</div></div><div><div class="k">New construction</div><div class="v">No/Resale</div></div></div>
     <h2>Lot &amp; Land</h2>
     <div class="idx-facts"><div><div class="k">Zoning</div><div class="v">R-7</div></div><div><div class="k">Lot</div><div class="v">Level Lot, On Cul-De-Sac</div></div></div>
-    <h2>Recorded sales</h2>
+    <h2 id="nearby">What's nearby</h2><div class="idx-facts"><div><div class="k">Grocery</div><div class="v">Acme<span class="idx-nb-d">0.42 mi away · 8 min walk</span></div></div><div><div class="k">Also nearby</div><div class="v">Balducci&#39;s<span class="idx-nb-d">0.62 mi away</span></div></div><div><div class="k">Pharmacy</div><div class="v">Walgreens<span class="idx-nb-d">0.41 mi away · 8 min walk</span></div></div><div><div class="k">Train</div><div class="v">Old Greenwich Station<span class="idx-nb-d">1.2 mi away</span></div></div><div><div class="k">Bus stop</div><div class="v">Bus stop<span class="idx-nb-d">0.56 mi away · 11 min walk</span></div></div><div><div class="k">Elementary</div><div class="v">North Mianus</div></div><div><div class="k">Middle</div><div class="v">Eastern</div></div><div><div class="k">High school</div><div class="v">Greenwich</div></div></div><p class="idx-nb-note">Distances are straight-line from the property, not driving or walking routes. Places data © OpenStreetMap contributors.</p><h2>Recorded sales</h2>
 <p class="pr-note">Deed transfers on file with the Greenwich land records, newest first. These are recordings rather than MLS sales, so they include transfers that were never listed. Nominal and $0 transfers (estate, trust and family conveyances) are excluded.</p>
 <ul class="pr-sales"><li class="pr-sale"><span class="pr-sale-d">2013-04-04</span><span class="pr-sale-p">$950,000</span><span class="pr-sale-t">Single Family</span></li></ul><div class="idx-attrib">Listing courtesy of <strong>Houlihan Lawrence</strong> — Agustina Sanchez · (203) 869-0700</div>
     <div class="d-legal">Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers&#39; personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.</div>

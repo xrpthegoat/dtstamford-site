@@ -71,5 +71,34 @@
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
   "attribution": "Listing data provided courtesy of SmartMLS."
+ },
+ "nearby": {
+  "schools": {
+   "elementary": "Davenport Ridge",
+   "middle": null,
+   "high": "Stamford",
+   "lookup": "https://www.stamfordpublicschools.org/school-finder"
+  },
+  "grocery": [
+   {
+    "n": "Trader Joe's",
+    "mi": 0.48,
+    "walk": 10
+   },
+   {
+    "n": "Acme",
+    "mi": 0.6
+   }
+  ],
+  "pharmacy": {
+   "n": "CVS Pharmacy",
+   "mi": 2.04,
+   "chain": "CVS"
+  },
+  "train": {
+   "n": "Springdale",
+   "mi": 2.29,
+   "line": "Metro-North Railroad"
+  }
  }
 }

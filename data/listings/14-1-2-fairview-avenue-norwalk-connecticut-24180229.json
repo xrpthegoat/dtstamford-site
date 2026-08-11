@@ -75,5 +75,40 @@
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
   "attribution": "Listing data provided courtesy of SmartMLS."
+ },
+ "nearby": {
+  "schools": {
+   "elementary": "Kendall",
+   "middle": "Ponus Ridge",
+   "high": "Brien McMahon",
+   "lookup": null
+  },
+  "grocery": [
+   {
+    "n": "Key Food",
+    "mi": 0.45,
+    "walk": 9
+   },
+   {
+    "n": "Patel Brothers",
+    "mi": 1.1
+   }
+  ],
+  "pharmacy": {
+   "n": "CVS Pharmacy",
+   "mi": 0.41,
+   "walk": 8,
+   "chain": "CVS"
+  },
+  "train": {
+   "n": "East Norwalk",
+   "mi": 1.25,
+   "line": "Metro-North Railroad"
+  },
+  "bus": {
+   "n": "Bus stop",
+   "mi": 0.3,
+   "walk": 6
+  }
  }
 }

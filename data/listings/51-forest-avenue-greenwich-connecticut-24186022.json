@@ -65,5 +65,39 @@
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
   "attribution": "Listing data provided courtesy of SmartMLS."
+ },
+ "nearby": {
+  "schools": {
+   "elementary": "dundee",
+   "middle": null,
+   "high": "Greenwich",
+   "lookup": "https://www.greenwichschools.org/departments/registration"
+  },
+  "grocery": [
+   {
+    "n": "Kings",
+    "mi": 0.2,
+    "walk": 4
+   },
+   {
+    "n": "Acme",
+    "mi": 0.83
+   }
+  ],
+  "pharmacy": {
+   "n": "Walgreens",
+   "mi": 0.78,
+   "chain": "Walgreens"
+  },
+  "train": {
+   "n": "Old Greenwich",
+   "mi": 0.18,
+   "walk": 4,
+   "line": "Metro-North Railroad"
+  },
+  "bus": {
+   "n": "Bus stop",
+   "mi": 0.88
+  }
  }
 }

@@ -78,5 +78,38 @@
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
   "attribution": "Listing data provided courtesy of SmartMLS."
+ },
+ "nearby": {
+  "schools": {
+   "elementary": "Ox Ridge",
+   "middle": "Middlesex",
+   "high": "Darien",
+   "lookup": null
+  },
+  "grocery": [
+   {
+    "n": "ShopRite",
+    "mi": 1.08
+   },
+   {
+    "n": "Palmer's Market",
+    "mi": 1.31
+   }
+  ],
+  "pharmacy": {
+   "n": "CVS Pharmacy",
+   "mi": 0.85,
+   "chain": "CVS"
+  },
+  "train": {
+   "n": "Springdale",
+   "mi": 0.6,
+   "walk": 12,
+   "line": "Metro-North Railroad"
+  },
+  "bus": {
+   "n": "Heights Rd @ 310 Heights Rd",
+   "mi": 1.34
+  }
  }
 }

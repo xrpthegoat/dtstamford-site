@@ -98,5 +98,41 @@
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
   "attribution": "Listing data provided courtesy of SmartMLS."
+ },
+ "nearby": {
+  "schools": {
+   "elementary": "North Mianus",
+   "middle": "Eastern",
+   "high": "Greenwich",
+   "lookup": null
+  },
+  "grocery": [
+   {
+    "n": "Acme",
+    "mi": 0.42,
+    "walk": 8
+   },
+   {
+    "n": "Balducci's",
+    "mi": 0.59,
+    "walk": 12
+   }
+  ],
+  "pharmacy": {
+   "n": "CVS Pharmacy",
+   "mi": 0.41,
+   "walk": 8,
+   "chain": "CVS"
+  },
+  "train": {
+   "n": "Old Greenwich",
+   "mi": 1.2,
+   "line": "Metro-North Railroad"
+  },
+  "bus": {
+   "n": "Bus stop",
+   "mi": 0.59,
+   "walk": 12
+  }
  }
 }

@@ -76,5 +76,40 @@
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
   "attribution": "Listing data provided courtesy of SmartMLS."
+ },
+ "nearby": {
+  "schools": {
+   "elementary": "International School",
+   "middle": "Eastern",
+   "high": "Greenwich",
+   "lookup": null
+  },
+  "grocery": [
+   {
+    "n": "Acme",
+    "mi": 0.18,
+    "walk": 4
+   },
+   {
+    "n": "Balducci's",
+    "mi": 0.32,
+    "walk": 6
+   }
+  ],
+  "pharmacy": {
+   "n": "CVS Pharmacy",
+   "mi": 0.15,
+   "walk": 3,
+   "chain": "CVS"
+  },
+  "train": {
+   "n": "Riverside",
+   "mi": 0.81,
+   "line": "Metro-North Railroad"
+  },
+  "bus": {
+   "n": "Bus stop",
+   "mi": 0.73
+  }
  }
 }

@@ -67,5 +67,40 @@
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
   "attribution": "Listing data provided courtesy of SmartMLS."
+ },
+ "nearby": {
+  "schools": {
+   "elementary": "Newfield",
+   "middle": null,
+   "high": "Stamford",
+   "lookup": "https://www.stamfordpublicschools.org/school-finder"
+  },
+  "grocery": [
+   {
+    "n": "Stop & Shop",
+    "mi": 0.32,
+    "walk": 6
+   },
+   {
+    "n": "Bev-Max",
+    "mi": 0.34,
+    "walk": 7
+   }
+  ],
+  "pharmacy": {
+   "n": "CVS Pharmacy",
+   "mi": 0.79,
+   "chain": "CVS"
+  },
+  "train": {
+   "n": "Glenbrook",
+   "mi": 1.2,
+   "line": "Metro-North Railroad"
+  },
+  "bus": {
+   "n": "Bedford St @ Third St",
+   "mi": 0.06,
+   "walk": 1
+  }
  }
 }

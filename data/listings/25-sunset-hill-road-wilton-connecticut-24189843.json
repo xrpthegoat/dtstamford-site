@@ -96,5 +96,39 @@
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
   "attribution": "Listing data provided courtesy of SmartMLS."
+ },
+ "nearby": {
+  "schools": {
+   "elementary": "Miller-Driscoll",
+   "middle": null,
+   "high": "Wilton",
+   "lookup": "https://www.wiltonps.org/schools"
+  },
+  "grocery": [
+   {
+    "n": "Caraluzzi's",
+    "mi": 0.37,
+    "walk": 7
+   },
+   {
+    "n": "Stop & Shop",
+    "mi": 4.17
+   }
+  ],
+  "pharmacy": {
+   "n": "CVS Pharmacy",
+   "mi": 1.22,
+   "chain": "CVS"
+  },
+  "train": {
+   "n": "Branchville",
+   "mi": 1.1,
+   "line": "Metro-North Railroad"
+  },
+  "bus": {
+   "n": "Route 107 Intersection",
+   "mi": 0.33,
+   "walk": 7
+  }
  }
 }

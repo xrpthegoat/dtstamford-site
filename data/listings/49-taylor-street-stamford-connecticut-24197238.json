@@ -103,5 +103,39 @@
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
   "attribution": "Listing data provided courtesy of SmartMLS."
+ },
+ "nearby": {
+  "schools": {
+   "elementary": "Northeast",
+   "middle": "Turn of River",
+   "high": "Westhill",
+   "lookup": null
+  },
+  "grocery": [
+   {
+    "n": "Target",
+    "mi": 0.72
+   },
+   {
+    "n": "ShopRite",
+    "mi": 0.83
+   }
+  ],
+  "pharmacy": {
+   "n": "Walgreens",
+   "mi": 1.33,
+   "chain": "Walgreens"
+  },
+  "train": {
+   "n": "Stamford",
+   "mi": 0.36,
+   "walk": 7,
+   "line": "Amtrak;Metro-North Railroad;CTrail"
+  },
+  "bus": {
+   "n": "Fairfield Ave @ Richmond Hill Ave",
+   "mi": 0.14,
+   "walk": 3
+  }
  }
 }

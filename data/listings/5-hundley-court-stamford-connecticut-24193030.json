@@ -90,5 +90,37 @@
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
   "attribution": "Listing data provided courtesy of SmartMLS."
+ },
+ "nearby": {
+  "schools": {
+   "elementary": null,
+   "middle": null,
+   "high": null,
+   "lookup": "https://www.stamfordpublicschools.org/school-finder"
+  },
+  "grocery": [
+   {
+    "n": "ShopRite",
+    "mi": 0.6
+   },
+   {
+    "n": "Target",
+    "mi": 0.89
+   }
+  ],
+  "pharmacy": {
+   "n": "CVS Pharmacy",
+   "mi": 1.74,
+   "chain": "CVS"
+  },
+  "train": {
+   "n": "Glenbrook",
+   "mi": 1.01,
+   "line": "Metro-North Railroad"
+  },
+  "bus": {
+   "n": "Broad St @ Greyrock Pl",
+   "mi": 0.62
+  }
  }
 }

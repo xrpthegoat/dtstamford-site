@@ -102,5 +102,41 @@
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
   "attribution": "Listing data provided courtesy of SmartMLS."
+ },
+ "nearby": {
+  "schools": {
+   "elementary": "Stillmeadow",
+   "middle": "Cloonan",
+   "high": "Westhill",
+   "lookup": null
+  },
+  "grocery": [
+   {
+    "n": "Bev-Max",
+    "mi": 0.1,
+    "walk": 2
+   },
+   {
+    "n": "Stop & Shop",
+    "mi": 0.12,
+    "walk": 2
+   }
+  ],
+  "pharmacy": {
+   "n": "CVS Pharmacy",
+   "mi": 0.36,
+   "walk": 7,
+   "chain": "CVS"
+  },
+  "train": {
+   "n": "Glenbrook",
+   "mi": 1.33,
+   "line": "Metro-North Railroad"
+  },
+  "bus": {
+   "n": "Bedford St @ Bracewood Ln",
+   "mi": 0.04,
+   "walk": 1
+  }
  }
 }

@@ -101,5 +101,37 @@
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
   "attribution": "Listing data provided courtesy of SmartMLS."
+ },
+ "nearby": {
+  "schools": {
+   "elementary": "Stillmeadow",
+   "middle": "Turn of River",
+   "high": "Westhill",
+   "lookup": null
+  },
+  "grocery": [
+   {
+    "n": "Whole Foods Market",
+    "mi": 1.09
+   },
+   {
+    "n": "Bev-Max",
+    "mi": 1.09
+   }
+  ],
+  "pharmacy": {
+   "n": "CVS Pharmacy",
+   "mi": 1.06,
+   "chain": "CVS"
+  },
+  "train": {
+   "n": "Stamford",
+   "mi": 1.71,
+   "line": "Amtrak;Metro-North Railroad;CTrail"
+  },
+  "bus": {
+   "n": "Summer St @ Forest Lawn Ave",
+   "mi": 0.94
+  }
  }
 }

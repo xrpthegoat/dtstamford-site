@@ -99,5 +99,40 @@
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
   "attribution": "Listing data provided courtesy of SmartMLS."
+ },
+ "nearby": {
+  "schools": {
+   "elementary": "Cranbury",
+   "middle": "West Rocks",
+   "high": "Norwalk",
+   "lookup": null
+  },
+  "grocery": [
+   {
+    "n": "Stop & Shop",
+    "mi": 0.6,
+    "walk": 12
+   },
+   {
+    "n": "Stew Leonard's",
+    "mi": 2.07
+   }
+  ],
+  "pharmacy": {
+   "n": "CVS Pharmacy",
+   "mi": 0.97,
+   "chain": "CVS"
+  },
+  "train": {
+   "n": "Merritt 7",
+   "mi": 0.45,
+   "walk": 9,
+   "line": "Metro-North Railroad"
+  },
+  "bus": {
+   "n": "Merritt 7 Railroad Station",
+   "mi": 0.44,
+   "walk": 9
+  }
  }
 }

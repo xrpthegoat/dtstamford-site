@@ -72,5 +72,34 @@
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
   "attribution": "Listing data provided courtesy of SmartMLS."
+ },
+ "nearby": {
+  "schools": {
+   "elementary": null,
+   "middle": null,
+   "high": null,
+   "lookup": "https://www.ncps-k12.org/schools"
+  },
+  "grocery": [
+   {
+    "n": "Acme",
+    "mi": 0.62
+   },
+   {
+    "n": "Walter Stewart's Market",
+    "mi": 0.67
+   }
+  ],
+  "pharmacy": {
+   "n": "Walgreens",
+   "mi": 0.55,
+   "walk": 11,
+   "chain": "Walgreens"
+  },
+  "train": {
+   "n": "New Canaan",
+   "mi": 0.63,
+   "line": "Metro-North Railroad"
+  }
  }
 }

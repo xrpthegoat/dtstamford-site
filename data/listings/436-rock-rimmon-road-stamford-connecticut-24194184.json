@@ -100,5 +100,33 @@
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
   "attribution": "Listing data provided courtesy of SmartMLS."
+ },
+ "nearby": {
+  "schools": {
+   "elementary": "Northeast",
+   "middle": "Turn of River",
+   "high": "Westhill",
+   "lookup": null
+  },
+  "grocery": [
+   {
+    "n": "Acme",
+    "mi": 2.89
+   },
+   {
+    "n": "Trader Joe's",
+    "mi": 3.05
+   }
+  ],
+  "pharmacy": {
+   "n": "Walgreens",
+   "mi": 3.84,
+   "chain": "Walgreens"
+  },
+  "train": {
+   "n": "New Canaan",
+   "mi": 3.83,
+   "line": "Metro-North Railroad"
+  }
  }
 }

@@ -75,5 +75,39 @@
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
   "attribution": "Listing data provided courtesy of SmartMLS."
+ },
+ "nearby": {
+  "schools": {
+   "elementary": "Westover Magnet",
+   "middle": null,
+   "high": "Westhill",
+   "lookup": "https://www.stamfordpublicschools.org/school-finder"
+  },
+  "grocery": [
+   {
+    "n": "ShopRite",
+    "mi": 0.22,
+    "walk": 4
+   },
+   {
+    "n": "Acme",
+    "mi": 0.9
+   }
+  ],
+  "pharmacy": {
+   "n": "Walgreens",
+   "mi": 0.72,
+   "chain": "Walgreens"
+  },
+  "train": {
+   "n": "Stamford",
+   "mi": 1.15,
+   "line": "Amtrak;Metro-North Railroad;CTrail"
+  },
+  "bus": {
+   "n": "Bus stop",
+   "mi": 0.32,
+   "walk": 6
+  }
  }
 }

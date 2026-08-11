@@ -96,5 +96,33 @@
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
   "attribution": "Listing data provided courtesy of SmartMLS."
+ },
+ "nearby": {
+  "schools": {
+   "elementary": "South",
+   "middle": null,
+   "high": "New Canaan",
+   "lookup": "https://www.ncps-k12.org/schools"
+  },
+  "grocery": [
+   {
+    "n": "Acme",
+    "mi": 1.91
+   },
+   {
+    "n": "Walter Stewart's Market",
+    "mi": 1.94
+   }
+  ],
+  "pharmacy": {
+   "n": "Walgreens",
+   "mi": 1.81,
+   "chain": "Walgreens"
+  },
+  "train": {
+   "n": "Talmadge Hill",
+   "mi": 0.87,
+   "line": "Metro-North Railroad"
+  }
  }
 }

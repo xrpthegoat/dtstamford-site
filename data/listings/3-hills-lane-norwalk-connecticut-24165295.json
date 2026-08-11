@@ -82,5 +82,39 @@
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
   "attribution": "Listing data provided courtesy of SmartMLS."
+ },
+ "nearby": {
+  "schools": {
+   "elementary": "Wolfpit",
+   "middle": "Nathan Hale",
+   "high": "Norwalk",
+   "lookup": null
+  },
+  "grocery": [
+   {
+    "n": "Whole Foods Market",
+    "mi": 0.35,
+    "walk": 7
+   },
+   {
+    "n": "Stew Leonard's",
+    "mi": 1.2
+   }
+  ],
+  "pharmacy": {
+   "n": "CVS Pharmacy",
+   "mi": 0.44,
+   "walk": 9,
+   "chain": "CVS"
+  },
+  "train": {
+   "n": "Westport",
+   "mi": 1.13,
+   "line": "Metro-North Railroad"
+  },
+  "bus": {
+   "n": "Bus stop",
+   "mi": 1.36
+  }
  }
 }

@@ -78,5 +78,33 @@
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
   "attribution": "Listing data provided courtesy of SmartMLS."
+ },
+ "nearby": {
+  "schools": {
+   "elementary": "West",
+   "middle": "Saxe Middle",
+   "high": "New Canaan",
+   "lookup": null
+  },
+  "grocery": [
+   {
+    "n": "Acme",
+    "mi": 2.14
+   },
+   {
+    "n": "Scott's Corners Market",
+    "mi": 2.16
+   }
+  ],
+  "pharmacy": {
+   "n": "Walgreens",
+   "mi": 2.32,
+   "chain": "Walgreens"
+  },
+  "train": {
+   "n": "New Canaan",
+   "mi": 2.27,
+   "line": "Metro-North Railroad"
+  }
  }
 }

@@ -90,5 +90,39 @@
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
   "attribution": "Listing data provided courtesy of SmartMLS."
+ },
+ "nearby": {
+  "schools": {
+   "elementary": "Miller-Driscoll",
+   "middle": "Middlebrook",
+   "high": "Wilton",
+   "lookup": null
+  },
+  "grocery": [
+   {
+    "n": "Stop & Shop",
+    "mi": 0.67
+   },
+   {
+    "n": "Lily's Weston Market",
+    "mi": 2.05
+   }
+  ],
+  "pharmacy": {
+   "n": "CVS Pharmacy",
+   "mi": 4.11,
+   "chain": "CVS"
+  },
+  "train": {
+   "n": "Wilton",
+   "mi": 0.58,
+   "walk": 12,
+   "line": "Metro-North Railroad"
+  },
+  "bus": {
+   "n": "Wilton Center",
+   "mi": 0.56,
+   "walk": 11
+  }
  }
 }

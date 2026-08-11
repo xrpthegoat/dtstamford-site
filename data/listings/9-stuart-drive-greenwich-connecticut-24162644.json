@@ -74,5 +74,40 @@
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
   "attribution": "Listing data provided courtesy of SmartMLS."
+ },
+ "nearby": {
+  "schools": {
+   "elementary": "North Mianus",
+   "middle": "Eastern",
+   "high": "Greenwich",
+   "lookup": null
+  },
+  "grocery": [
+   {
+    "n": "ShopRite",
+    "mi": 0.24,
+    "walk": 5
+   },
+   {
+    "n": "Acme",
+    "mi": 0.73
+   }
+  ],
+  "pharmacy": {
+   "n": "Walgreens",
+   "mi": 0.56,
+   "walk": 11,
+   "chain": "Walgreens"
+  },
+  "train": {
+   "n": "Old Greenwich",
+   "mi": 1.16,
+   "line": "Metro-North Railroad"
+  },
+  "bus": {
+   "n": "Bus stop",
+   "mi": 0.19,
+   "walk": 4
+  }
  }
 }

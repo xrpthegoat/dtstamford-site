@@ -106,5 +106,33 @@
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
   "attribution": "Listing data provided courtesy of SmartMLS."
+ },
+ "nearby": {
+  "schools": {
+   "elementary": "Greens Farms",
+   "middle": "Bedford",
+   "high": "Staples",
+   "lookup": null
+  },
+  "grocery": [
+   {
+    "n": "Trader Joe's",
+    "mi": 1.35
+   },
+   {
+    "n": "Whole Foods Market",
+    "mi": 1.75
+   }
+  ],
+  "pharmacy": {
+   "n": "CVS Pharmacy",
+   "mi": 1.39,
+   "chain": "CVS"
+  },
+  "train": {
+   "n": "Westport",
+   "mi": 1.21,
+   "line": "Metro-North Railroad"
+  }
  }
 }

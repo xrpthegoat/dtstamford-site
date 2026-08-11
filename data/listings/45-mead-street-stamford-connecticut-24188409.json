@@ -70,5 +70,34 @@
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
   "attribution": "Listing data provided courtesy of SmartMLS."
+ },
+ "nearby": {
+  "schools": {
+   "elementary": null,
+   "middle": null,
+   "high": null,
+   "lookup": "https://www.stamfordpublicschools.org/school-finder"
+  },
+  "grocery": [
+   {
+    "n": "ShopRite",
+    "mi": 1.57
+   },
+   {
+    "n": "Grade A Markets",
+    "mi": 1.61
+   }
+  ],
+  "pharmacy": {
+   "n": "CVS Pharmacy",
+   "mi": 0.38,
+   "walk": 8,
+   "chain": "CVS"
+  },
+  "train": {
+   "n": "Springdale",
+   "mi": 0.7,
+   "line": "Metro-North Railroad"
+  }
  }
 }

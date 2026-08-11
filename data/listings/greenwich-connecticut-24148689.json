@@ -71,5 +71,39 @@
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
   "attribution": "Listing data provided courtesy of SmartMLS."
+ },
+ "nearby": {
+  "schools": {
+   "elementary": "Cos Cob",
+   "middle": "Central",
+   "high": null,
+   "lookup": "https://www.greenwichschools.org/departments/registration"
+  },
+  "grocery": [
+   {
+    "n": "Balducci's",
+    "mi": 0.84
+   },
+   {
+    "n": "Whole Foods Market",
+    "mi": 1.18
+   }
+  ],
+  "pharmacy": {
+   "n": "CVS Pharmacy",
+   "mi": 0.05,
+   "walk": 1,
+   "chain": "CVS"
+  },
+  "train": {
+   "n": "Cos Cob",
+   "mi": 0.51,
+   "walk": 10,
+   "line": "Metro-North Railroad"
+  },
+  "bus": {
+   "n": "Bus stop",
+   "mi": 1.88
+  }
  }
 }

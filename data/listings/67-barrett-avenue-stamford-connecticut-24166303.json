@@ -76,5 +76,38 @@
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
   "attribution": "Listing data provided courtesy of SmartMLS."
+ },
+ "nearby": {
+  "schools": {
+   "elementary": "Newfield",
+   "middle": "Rippowam",
+   "high": "Stamford",
+   "lookup": null
+  },
+  "grocery": [
+   {
+    "n": "Grade A Markets",
+    "mi": 0.38,
+    "walk": 8
+   },
+   {
+    "n": "ShopRite",
+    "mi": 0.92
+   }
+  ],
+  "pharmacy": {
+   "n": "CVS Pharmacy",
+   "mi": 1.04,
+   "chain": "CVS"
+  },
+  "train": {
+   "n": "Springdale",
+   "mi": 1.01,
+   "line": "Metro-North Railroad"
+  },
+  "bus": {
+   "n": "High Ridge Rd @ Cold Spring Rd",
+   "mi": 1.09
+  }
  }
 }

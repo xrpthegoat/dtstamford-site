@@ -86,5 +86,40 @@
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
   "attribution": "Listing data provided courtesy of SmartMLS."
+ },
+ "nearby": {
+  "schools": {
+   "elementary": null,
+   "middle": null,
+   "high": null,
+   "lookup": "https://www.stamfordpublicschools.org/school-finder"
+  },
+  "grocery": [
+   {
+    "n": "Target",
+    "mi": 0.27,
+    "walk": 5
+   },
+   {
+    "n": "Stop & Shop",
+    "mi": 0.94
+   }
+  ],
+  "pharmacy": {
+   "n": "CVS Pharmacy",
+   "mi": 1.34,
+   "chain": "CVS"
+  },
+  "train": {
+   "n": "Stamford",
+   "mi": 0.58,
+   "walk": 12,
+   "line": "Amtrak;Metro-North Railroad;CTrail"
+  },
+  "bus": {
+   "n": "Washington Blvd @ Whitaker Pl",
+   "mi": 0.19,
+   "walk": 4
+  }
  }
 }

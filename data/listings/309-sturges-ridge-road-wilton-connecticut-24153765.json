@@ -78,5 +78,37 @@
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
   "attribution": "Listing data provided courtesy of SmartMLS."
+ },
+ "nearby": {
+  "schools": {
+   "elementary": "Miller-Driscoll",
+   "middle": null,
+   "high": "Wilton",
+   "lookup": "https://www.wiltonps.org/schools"
+  },
+  "grocery": [
+   {
+    "n": "Lily's Weston Market",
+    "mi": 1.71
+   },
+   {
+    "n": "Stop & Shop",
+    "mi": 2.12
+   }
+  ],
+  "pharmacy": {
+   "n": "CVS Pharmacy",
+   "mi": 3.96,
+   "chain": "CVS"
+  },
+  "train": {
+   "n": "Cannondale",
+   "mi": 0.92,
+   "line": "Metro-North Railroad"
+  },
+  "bus": {
+   "n": "Wilton High School",
+   "mi": 1.25
+  }
  }
 }

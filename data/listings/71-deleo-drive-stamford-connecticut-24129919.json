@@ -77,5 +77,40 @@
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
   "attribution": "Listing data provided courtesy of SmartMLS."
+ },
+ "nearby": {
+  "schools": {
+   "elementary": "Julia A. Stark",
+   "middle": "Dolan",
+   "high": "Stamford",
+   "lookup": null
+  },
+  "grocery": [
+   {
+    "n": "ShopRite",
+    "mi": 0.25,
+    "walk": 5
+   },
+   {
+    "n": "Grade A Markets",
+    "mi": 0.39,
+    "walk": 8
+   }
+  ],
+  "pharmacy": {
+   "n": "CVS Pharmacy",
+   "mi": 1.23,
+   "chain": "CVS"
+  },
+  "train": {
+   "n": "Glenbrook",
+   "mi": 0.51,
+   "walk": 10,
+   "line": "Metro-North Railroad"
+  },
+  "bus": {
+   "n": "Bedford St @ Chester St",
+   "mi": 1.06
+  }
  }
 }

@@ -100,5 +100,34 @@
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
   "attribution": "Listing data provided courtesy of SmartMLS."
+ },
+ "nearby": {
+  "schools": {
+   "elementary": "Rowayton",
+   "middle": null,
+   "high": null,
+   "lookup": "https://www.norwalkps.org/schools/school-finder/"
+  },
+  "grocery": [
+   {
+    "n": "Stop & Shop",
+    "mi": 1.67
+   },
+   {
+    "n": "Stop & Shop",
+    "mi": 1.71
+   }
+  ],
+  "pharmacy": {
+   "n": "CVS Pharmacy",
+   "mi": 1.83,
+   "chain": "CVS"
+  },
+  "train": {
+   "n": "Rowayton",
+   "mi": 0.6,
+   "walk": 12,
+   "line": "Metro-North Railroad"
+  }
  }
 }

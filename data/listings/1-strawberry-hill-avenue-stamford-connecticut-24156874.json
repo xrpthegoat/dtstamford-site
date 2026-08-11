@@ -80,5 +80,39 @@
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
   "attribution": "Listing data provided courtesy of SmartMLS."
+ },
+ "nearby": {
+  "schools": {
+   "elementary": "K.T. Murphy",
+   "middle": "Turn of River",
+   "high": "Stamford",
+   "lookup": null
+  },
+  "grocery": [
+   {
+    "n": "Target",
+    "mi": 0.58,
+    "walk": 12
+   },
+   {
+    "n": "Stop & Shop",
+    "mi": 0.82
+   }
+  ],
+  "pharmacy": {
+   "n": "CVS Pharmacy",
+   "mi": 1.28,
+   "chain": "CVS"
+  },
+  "train": {
+   "n": "Glenbrook",
+   "mi": 1.01,
+   "line": "Metro-North Railroad"
+  },
+  "bus": {
+   "n": "Bedford St @ North St",
+   "mi": 0.24,
+   "walk": 5
+  }
  }
 }

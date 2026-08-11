@@ -71,5 +71,39 @@
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
   "attribution": "Listing data provided courtesy of SmartMLS."
+ },
+ "nearby": {
+  "schools": {
+   "elementary": "Newfield",
+   "middle": "Rippowam",
+   "high": "Stamford",
+   "lookup": null
+  },
+  "grocery": [
+   {
+    "n": "Target",
+    "mi": 0.47,
+    "walk": 9
+   },
+   {
+    "n": "ShopRite",
+    "mi": 0.74
+   }
+  ],
+  "pharmacy": {
+   "n": "CVS Pharmacy",
+   "mi": 1.49,
+   "chain": "CVS"
+  },
+  "train": {
+   "n": "Stamford",
+   "mi": 0.8,
+   "line": "Amtrak;Metro-North Railroad;CTrail"
+  },
+  "bus": {
+   "n": "Broad St @ Greyrock Pl",
+   "mi": 0.21,
+   "walk": 4
+  }
  }
 }

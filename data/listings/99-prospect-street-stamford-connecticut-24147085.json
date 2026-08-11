@@ -67,5 +67,39 @@
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
   "attribution": "Listing data provided courtesy of SmartMLS."
+ },
+ "nearby": {
+  "schools": {
+   "elementary": null,
+   "middle": null,
+   "high": null,
+   "lookup": "https://www.stamfordpublicschools.org/school-finder"
+  },
+  "grocery": [
+   {
+    "n": "Target",
+    "mi": 0.43,
+    "walk": 9
+   },
+   {
+    "n": "Stop & Shop",
+    "mi": 0.8
+   }
+  ],
+  "pharmacy": {
+   "n": "CVS Pharmacy",
+   "mi": 1.27,
+   "chain": "CVS"
+  },
+  "train": {
+   "n": "Stamford",
+   "mi": 0.9,
+   "line": "Amtrak;Metro-North Railroad;CTrail"
+  },
+  "bus": {
+   "n": "Bedford St @ North St",
+   "mi": 0.12,
+   "walk": 2
+  }
  }
 }

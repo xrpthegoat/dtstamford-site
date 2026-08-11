@@ -84,5 +84,39 @@
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
   "attribution": "Listing data provided courtesy of SmartMLS."
+ },
+ "nearby": {
+  "schools": {
+   "elementary": "New Lebanon",
+   "middle": null,
+   "high": "Greenwich",
+   "lookup": "https://www.greenwichschools.org/departments/registration"
+  },
+  "grocery": [
+   {
+    "n": "Citarella",
+    "mi": 0.83
+   },
+   {
+    "n": "Whole Foods Market",
+    "mi": 1.49
+   }
+  ],
+  "pharmacy": {
+   "n": "Walgreens",
+   "mi": 0.53,
+   "walk": 11,
+   "chain": "Walgreens"
+  },
+  "train": {
+   "n": "Port Chester",
+   "mi": 0.59,
+   "walk": 12,
+   "line": "Metro-North Railroad"
+  },
+  "bus": {
+   "n": "Lincoln Ave",
+   "mi": 1.81
+  }
  }
 }

@@ -68,5 +68,37 @@
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
   "attribution": "Listing data provided courtesy of SmartMLS."
+ },
+ "nearby": {
+  "schools": {
+   "elementary": "Brookside",
+   "middle": "Roton",
+   "high": "Brien McMahon",
+   "lookup": null
+  },
+  "grocery": [
+   {
+    "n": "Stop & Shop",
+    "mi": 0.8
+   },
+   {
+    "n": "ShopRite",
+    "mi": 0.95
+   }
+  ],
+  "pharmacy": {
+   "n": "CVS Pharmacy",
+   "mi": 0.95,
+   "chain": "CVS"
+  },
+  "train": {
+   "n": "Rowayton",
+   "mi": 0.85,
+   "line": "Metro-North Railroad"
+  },
+  "bus": {
+   "n": "Bus stop",
+   "mi": 1.81
+  }
  }
 }

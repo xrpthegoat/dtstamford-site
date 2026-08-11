@@ -79,5 +79,41 @@
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
   "attribution": "Listing data provided courtesy of SmartMLS."
+ },
+ "nearby": {
+  "schools": {
+   "elementary": "Stillmeadow",
+   "middle": "Turn of River",
+   "high": "Westhill",
+   "lookup": null
+  },
+  "grocery": [
+   {
+    "n": "Grade A Markets",
+    "mi": 0.45,
+    "walk": 9
+   },
+   {
+    "n": "Whole Foods Market",
+    "mi": 0.59,
+    "walk": 12
+   }
+  ],
+  "pharmacy": {
+   "n": "CVS Pharmacy",
+   "mi": 0.57,
+   "walk": 11,
+   "chain": "CVS"
+  },
+  "train": {
+   "n": "Glenbrook",
+   "mi": 1.06,
+   "line": "Metro-North Railroad"
+  },
+  "bus": {
+   "n": "Bedford St @ Locust Ln",
+   "mi": 0.53,
+   "walk": 11
+  }
  }
 }

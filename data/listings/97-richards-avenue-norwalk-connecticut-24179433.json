@@ -107,5 +107,37 @@
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
   "attribution": "Listing data provided courtesy of SmartMLS."
+ },
+ "nearby": {
+  "schools": {
+   "elementary": "PBOE",
+   "middle": null,
+   "high": null,
+   "lookup": "https://www.norwalkps.org/schools/school-finder/"
+  },
+  "grocery": [
+   {
+    "n": "Stop & Shop",
+    "mi": 0.83
+   },
+   {
+    "n": "ShopRite",
+    "mi": 0.85
+   }
+  ],
+  "pharmacy": {
+   "n": "CVS Pharmacy",
+   "mi": 1.1,
+   "chain": "CVS"
+  },
+  "train": {
+   "n": "Rowayton",
+   "mi": 1.27,
+   "line": "Metro-North Railroad"
+  },
+  "bus": {
+   "n": "West Ave @ Leroy Ave",
+   "mi": 1.6
+  }
  }
 }

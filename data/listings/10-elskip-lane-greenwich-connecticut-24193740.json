@@ -98,5 +98,38 @@
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
   "attribution": "Listing data provided courtesy of SmartMLS."
+ },
+ "nearby": {
+  "schools": {
+   "elementary": "Glenville",
+   "middle": "Western",
+   "high": "Greenwich",
+   "lookup": null
+  },
+  "grocery": [
+   {
+    "n": "Stop & Shop",
+    "mi": 0.32,
+    "walk": 6
+   },
+   {
+    "n": "Citarella",
+    "mi": 2.16
+   }
+  ],
+  "pharmacy": {
+   "n": "CVS Pharmacy",
+   "mi": 2.18,
+   "chain": "CVS"
+  },
+  "train": {
+   "n": "Greenwich",
+   "mi": 2.75,
+   "line": "Metro-North Railroad"
+  },
+  "bus": {
+   "n": "Bus stop",
+   "mi": 1.82
+  }
  }
 }

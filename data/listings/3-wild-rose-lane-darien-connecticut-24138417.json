@@ -74,5 +74,41 @@
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
   "attribution": "Listing data provided courtesy of SmartMLS."
+ },
+ "nearby": {
+  "schools": {
+   "elementary": "Tokeneke",
+   "middle": "Middlesex",
+   "high": "Darien",
+   "lookup": null
+  },
+  "grocery": [
+   {
+    "n": "Stop & Shop",
+    "mi": 0.51,
+    "walk": 10
+   },
+   {
+    "n": "Whole Foods Market",
+    "mi": 0.6,
+    "walk": 12
+   }
+  ],
+  "pharmacy": {
+   "n": "CVS Pharmacy",
+   "mi": 0.46,
+   "walk": 9,
+   "chain": "CVS"
+  },
+  "train": {
+   "n": "Darien",
+   "mi": 0.54,
+   "walk": 11,
+   "line": "Metro-North Railroad"
+  },
+  "bus": {
+   "n": "West Ave @ Leroy Ave",
+   "mi": 0.66
+  }
  }
 }

@@ -86,5 +86,35 @@
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
   "attribution": "Listing data provided courtesy of SmartMLS."
+ },
+ "nearby": {
+  "schools": {
+   "elementary": "Hamilton Avenue",
+   "middle": "Western",
+   "high": "Greenwich",
+   "lookup": null
+  },
+  "grocery": [
+   {
+    "n": "Citarella",
+    "mi": 0.34,
+    "walk": 7
+   },
+   {
+    "n": "Stop & Shop",
+    "mi": 1.31
+   }
+  ],
+  "pharmacy": {
+   "n": "CVS Pharmacy",
+   "mi": 0.27,
+   "walk": 5,
+   "chain": "CVS"
+  },
+  "train": {
+   "n": "Port Chester",
+   "mi": 1.22,
+   "line": "Metro-North Railroad"
+  }
  }
 }

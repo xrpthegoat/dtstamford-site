@@ -79,5 +79,33 @@
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
   "attribution": "Listing data provided courtesy of SmartMLS."
+ },
+ "nearby": {
+  "schools": {
+   "elementary": "Davenport Ridge",
+   "middle": "Turn of River",
+   "high": "Stamford",
+   "lookup": null
+  },
+  "grocery": [
+   {
+    "n": "Acme",
+    "mi": 0.84
+   },
+   {
+    "n": "Trader Joe's",
+    "mi": 0.95
+   }
+  ],
+  "pharmacy": {
+   "n": "CVS Pharmacy",
+   "mi": 1.36,
+   "chain": "CVS"
+  },
+  "train": {
+   "n": "Talmadge Hill",
+   "mi": 1.72,
+   "line": "Metro-North Railroad"
+  }
  }
 }

@@ -89,5 +89,33 @@
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
   "attribution": "Listing data provided courtesy of SmartMLS."
+ },
+ "nearby": {
+  "schools": {
+   "elementary": "Roxbury",
+   "middle": null,
+   "high": "Westhill",
+   "lookup": "https://www.stamfordpublicschools.org/school-finder"
+  },
+  "grocery": [
+   {
+    "n": "Acme",
+    "mi": 3.65
+   },
+   {
+    "n": "Trader Joe's",
+    "mi": 3.75
+   }
+  ],
+  "pharmacy": {
+   "n": "Walgreens",
+   "mi": 5.29,
+   "chain": "Walgreens"
+  },
+  "train": {
+   "n": "New Canaan",
+   "mi": 5.29,
+   "line": "Metro-North Railroad"
+  }
  }
 }

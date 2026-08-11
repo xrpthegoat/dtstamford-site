@@ -76,5 +76,39 @@
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
   "attribution": "Listing data provided courtesy of SmartMLS."
+ },
+ "nearby": {
+  "schools": {
+   "elementary": "Springdale",
+   "middle": "Dolan",
+   "high": "Stamford",
+   "lookup": null
+  },
+  "grocery": [
+   {
+    "n": "ShopRite",
+    "mi": 0.58,
+    "walk": 12
+   },
+   {
+    "n": "Grade A Markets",
+    "mi": 0.77
+   }
+  ],
+  "pharmacy": {
+   "n": "CVS Pharmacy",
+   "mi": 0.66,
+   "chain": "CVS"
+  },
+  "train": {
+   "n": "Springdale",
+   "mi": 0.29,
+   "walk": 6,
+   "line": "Metro-North Railroad"
+  },
+  "bus": {
+   "n": "Heights Rd @ 310 Heights Rd",
+   "mi": 1.6
+  }
  }
 }

@@ -95,5 +95,39 @@
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
   "attribution": "Listing data provided courtesy of SmartMLS."
+ },
+ "nearby": {
+  "schools": {
+   "elementary": "Glenville",
+   "middle": null,
+   "high": "Greenwich",
+   "lookup": "https://www.greenwichschools.org/departments/registration"
+  },
+  "grocery": [
+   {
+    "n": "Citarella",
+    "mi": 0.6,
+    "walk": 12
+   },
+   {
+    "n": "Stop & Shop",
+    "mi": 1.56
+   }
+  ],
+  "pharmacy": {
+   "n": "CVS Pharmacy",
+   "mi": 0.52,
+   "walk": 10,
+   "chain": "CVS"
+  },
+  "train": {
+   "n": "Port Chester",
+   "mi": 1.07,
+   "line": "Metro-North Railroad"
+  },
+  "bus": {
+   "n": "Lincoln Ave",
+   "mi": 1.78
+  }
  }
 }

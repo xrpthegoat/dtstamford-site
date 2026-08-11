@@ -69,5 +69,37 @@
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
   "attribution": "Listing data provided courtesy of SmartMLS."
+ },
+ "nearby": {
+  "schools": {
+   "elementary": "Ox Ridge",
+   "middle": null,
+   "high": "Darien",
+   "lookup": "https://www.darienps.org/schools"
+  },
+  "grocery": [
+   {
+    "n": "Stop & Shop",
+    "mi": 1.0
+   },
+   {
+    "n": "Whole Foods Market",
+    "mi": 1.44
+   }
+  ],
+  "pharmacy": {
+   "n": "CVS Pharmacy",
+   "mi": 1.16,
+   "chain": "CVS"
+  },
+  "train": {
+   "n": "Darien",
+   "mi": 1.11,
+   "line": "Metro-North Railroad"
+  },
+  "bus": {
+   "n": "West Ave @ Leroy Ave",
+   "mi": 1.1
+  }
  }
 }

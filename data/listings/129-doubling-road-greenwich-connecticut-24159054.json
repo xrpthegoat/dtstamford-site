@@ -73,5 +73,33 @@
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
   "attribution": "Listing data provided courtesy of SmartMLS."
+ },
+ "nearby": {
+  "schools": {
+   "elementary": "North Street",
+   "middle": null,
+   "high": "Greenwich",
+   "lookup": "https://www.greenwichschools.org/departments/registration"
+  },
+  "grocery": [
+   {
+    "n": "Balducci's",
+    "mi": 2.47
+   },
+   {
+    "n": "Acme",
+    "mi": 2.68
+   }
+  ],
+  "pharmacy": {
+   "n": "CVS Pharmacy",
+   "mi": 2.5,
+   "chain": "CVS"
+  },
+  "train": {
+   "n": "Cos Cob",
+   "mi": 3.02,
+   "line": "Metro-North Railroad"
+  }
  }
 }

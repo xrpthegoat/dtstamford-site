@@ -72,5 +72,41 @@
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
   "attribution": "Listing data provided courtesy of SmartMLS."
+ },
+ "nearby": {
+  "schools": {
+   "elementary": "Miller-Driscoll",
+   "middle": "Middlebrook",
+   "high": "Wilton",
+   "lookup": null
+  },
+  "grocery": [
+   {
+    "n": "Caraluzzi's",
+    "mi": 0.48,
+    "walk": 10
+   },
+   {
+    "n": "Stop & Shop",
+    "mi": 4.87
+   }
+  ],
+  "pharmacy": {
+   "n": "CVS Pharmacy",
+   "mi": 0.43,
+   "walk": 9,
+   "chain": "CVS"
+  },
+  "train": {
+   "n": "Branchville",
+   "mi": 0.35,
+   "walk": 7,
+   "line": "Metro-North Railroad"
+  },
+  "bus": {
+   "n": "Branchville station",
+   "mi": 0.35,
+   "walk": 7
+  }
  }
 }

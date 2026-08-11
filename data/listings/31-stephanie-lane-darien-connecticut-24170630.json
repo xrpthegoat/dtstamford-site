@@ -75,5 +75,38 @@
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
   "attribution": "Listing data provided courtesy of SmartMLS."
+ },
+ "nearby": {
+  "schools": {
+   "elementary": "Ox Ridge",
+   "middle": null,
+   "high": "Darien",
+   "lookup": "https://www.darienps.org/schools"
+  },
+  "grocery": [
+   {
+    "n": "ShopRite",
+    "mi": 1.35
+   },
+   {
+    "n": "Grade A Markets",
+    "mi": 1.59
+   }
+  ],
+  "pharmacy": {
+   "n": "CVS Pharmacy",
+   "mi": 0.62,
+   "chain": "CVS"
+  },
+  "train": {
+   "n": "Springdale",
+   "mi": 0.59,
+   "walk": 12,
+   "line": "Metro-North Railroad"
+  },
+  "bus": {
+   "n": "Heights Rd @ 310 Heights Rd",
+   "mi": 1.75
+  }
  }
 }

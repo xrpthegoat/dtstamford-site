@@ -83,5 +83,41 @@
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
   "attribution": "Listing data provided courtesy of SmartMLS."
+ },
+ "nearby": {
+  "schools": {
+   "elementary": "Stillmeadow",
+   "middle": "Cloonan",
+   "high": "Westhill",
+   "lookup": null
+  },
+  "grocery": [
+   {
+    "n": "Bev-Max",
+    "mi": 0.37,
+    "walk": 7
+   },
+   {
+    "n": "Stop & Shop",
+    "mi": 0.39,
+    "walk": 8
+   }
+  ],
+  "pharmacy": {
+   "n": "CVS Pharmacy",
+   "mi": 0.47,
+   "walk": 9,
+   "chain": "CVS"
+  },
+  "train": {
+   "n": "Stamford",
+   "mi": 1.5,
+   "line": "Amtrak;Metro-North Railroad;CTrail"
+  },
+  "bus": {
+   "n": "Summer St @ Forest Lawn Ave",
+   "mi": 0.22,
+   "walk": 4
+  }
  }
 }

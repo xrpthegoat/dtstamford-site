@@ -76,5 +76,38 @@
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
   "attribution": "Listing data provided courtesy of SmartMLS."
+ },
+ "nearby": {
+  "schools": {
+   "elementary": null,
+   "middle": null,
+   "high": null,
+   "lookup": "https://www.norwalkps.org/schools/school-finder/"
+  },
+  "grocery": [
+   {
+    "n": "Patel Brothers",
+    "mi": 1.03
+   },
+   {
+    "n": "Stop & Shop",
+    "mi": 1.1
+   }
+  ],
+  "pharmacy": {
+   "n": "CVS Pharmacy",
+   "mi": 0.93,
+   "chain": "CVS"
+  },
+  "train": {
+   "n": "South Norwalk",
+   "mi": 0.19,
+   "walk": 4,
+   "line": "Metro-North Railroad;CTrail"
+  },
+  "bus": {
+   "n": "Bus stop",
+   "mi": 1.01
+  }
  }
 }

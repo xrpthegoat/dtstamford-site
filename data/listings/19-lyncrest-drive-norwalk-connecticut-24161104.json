@@ -75,5 +75,39 @@
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
   "attribution": "Listing data provided courtesy of SmartMLS."
+ },
+ "nearby": {
+  "schools": {
+   "elementary": "Naramake",
+   "middle": "Nathan Hale",
+   "high": "Norwalk",
+   "lookup": null
+  },
+  "grocery": [
+   {
+    "n": "Stew Leonard's",
+    "mi": 0.59,
+    "walk": 12
+   },
+   {
+    "n": "Key Food",
+    "mi": 0.94
+   }
+  ],
+  "pharmacy": {
+   "n": "Walgreens",
+   "mi": 0.67,
+   "chain": "Walgreens"
+  },
+  "train": {
+   "n": "East Norwalk",
+   "mi": 0.83,
+   "line": "Metro-North Railroad"
+  },
+  "bus": {
+   "n": "Bus stop",
+   "mi": 0.48,
+   "walk": 10
+  }
  }
 }

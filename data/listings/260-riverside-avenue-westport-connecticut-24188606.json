@@ -90,5 +90,37 @@
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
   "attribution": "Listing data provided courtesy of SmartMLS."
+ },
+ "nearby": {
+  "schools": {
+   "elementary": "Kings Highway",
+   "middle": "Coleytown",
+   "high": "Staples",
+   "lookup": null
+  },
+  "grocery": [
+   {
+    "n": "Whole Foods Market",
+    "mi": 0.64
+   },
+   {
+    "n": "Trader Joe's",
+    "mi": 1.04
+   }
+  ],
+  "pharmacy": {
+   "n": "CVS Pharmacy",
+   "mi": 1.05,
+   "chain": "CVS"
+  },
+  "train": {
+   "n": "Westport",
+   "mi": 0.87,
+   "line": "Metro-North Railroad"
+  },
+  "bus": {
+   "n": "Bus stop",
+   "mi": 1.6
+  }
  }
 }

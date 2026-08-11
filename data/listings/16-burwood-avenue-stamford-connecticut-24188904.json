@@ -68,5 +68,37 @@
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
   "attribution": "Listing data provided courtesy of SmartMLS."
+ },
+ "nearby": {
+  "schools": {
+   "elementary": null,
+   "middle": null,
+   "high": null,
+   "lookup": "https://www.stamfordpublicschools.org/school-finder"
+  },
+  "grocery": [
+   {
+    "n": "Kings",
+    "mi": 0.72
+   },
+   {
+    "n": "ShopRite",
+    "mi": 1.2
+   }
+  ],
+  "pharmacy": {
+   "n": "Walgreens",
+   "mi": 1.36,
+   "chain": "Walgreens"
+  },
+  "train": {
+   "n": "Old Greenwich",
+   "mi": 0.78,
+   "line": "Metro-North Railroad"
+  },
+  "bus": {
+   "n": "Fairfield Ave @ Richmond Hill Ave",
+   "mi": 1.05
+  }
  }
 }

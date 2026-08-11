@@ -96,5 +96,39 @@
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
   "attribution": "Listing data provided courtesy of SmartMLS."
+ },
+ "nearby": {
+  "schools": {
+   "elementary": null,
+   "middle": null,
+   "high": null,
+   "lookup": "https://www.norwalkps.org/schools/school-finder/"
+  },
+  "grocery": [
+   {
+    "n": "Stew Leonard's",
+    "mi": 0.58,
+    "walk": 12
+   },
+   {
+    "n": "Whole Foods Market",
+    "mi": 0.95
+   }
+  ],
+  "pharmacy": {
+   "n": "CVS Pharmacy",
+   "mi": 0.69,
+   "chain": "CVS"
+  },
+  "train": {
+   "n": "Westport",
+   "mi": 1.1,
+   "line": "Metro-North Railroad"
+  },
+  "bus": {
+   "n": "Bus stop",
+   "mi": 0.4,
+   "walk": 8
+  }
  }
 }

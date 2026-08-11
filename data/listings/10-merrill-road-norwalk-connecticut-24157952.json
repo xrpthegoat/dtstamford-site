@@ -74,5 +74,40 @@
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
   "attribution": "Listing data provided courtesy of SmartMLS."
+ },
+ "nearby": {
+  "schools": {
+   "elementary": null,
+   "middle": null,
+   "high": null,
+   "lookup": "https://www.norwalkps.org/schools/school-finder/"
+  },
+  "grocery": [
+   {
+    "n": "Stew Leonard's",
+    "mi": 0.22,
+    "walk": 4
+   },
+   {
+    "n": "Key Food",
+    "mi": 0.87
+   }
+  ],
+  "pharmacy": {
+   "n": "Walgreens",
+   "mi": 0.23,
+   "walk": 5,
+   "chain": "Walgreens"
+  },
+  "train": {
+   "n": "East Norwalk",
+   "mi": 1.47,
+   "line": "Metro-North Railroad"
+  },
+  "bus": {
+   "n": "Bus stop",
+   "mi": 0.4,
+   "walk": 8
+  }
  }
 }

@@ -65,6 +65,21 @@ jobs:
                 # No deployment to poll (deploy-pages died before creating one) → fail fast
                 # instead of spinning 40 min on a nonexistent ID.
                 if [ "$i" -ge 8 ]; then echo "✗ No pollable deployment after 2 min — deploy-pages likely failed before creating one. See its step log."; exit 1; fi ;;
+              "")
+                # EMPTY STATUS. The API answers 200 with {"status":""} — the deployment exists but
+                # GitHub never gave it a state. Seen 2026-08-11 on c66b50e32: 160 empty polls, the
+                # full 40 min burnt, then a red X, while the SAME query on the previous commit
+                # returned "succeed". An empty status early on is just a not-yet-registered
+                # deployment, so tolerate it briefly — but a deployment that is still stateless
+                # after 5 minutes is stalled, and waiting another 35 helps nobody. Bail out with a
+                # message that says what actually happened, so the next person does not re-diagnose
+                # this from a wall of "[133] status:" lines.
+                if [ "$i" -ge 20 ]; then
+                  echo "✗ Pages deployment has had an EMPTY status for 5 min — GitHub accepted it but never gave it a state (stalled, not failed)."
+                  echo "  The live site is UNCHANGED and still serving the previous commit; nothing is broken, but this commit did not publish."
+                  echo "  Fix: gh run rerun ${GITHUB_RUN_ID} --repo ${GITHUB_REPOSITORY}"
+                  exit 1
+                fi ;;
             esac
             sleep 15
           done

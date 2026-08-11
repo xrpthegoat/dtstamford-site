@@ -1176,6 +1176,7 @@ function renderDrawer(l) {
       <div class="d-badges">
         ${b ? `<span class="badge ${b.cls}">${b.txt}</span>` : ''}
         ${dom != null ? `<span class="badge d-dom">${sold ? `Sold after ${dom} days` : (dom === 0 ? 'Just listed today' : `${dom} day${dom === 1 ? '' : 's'} on market`)}</span>` : ''}
+        ${l.slug ? `<a class="d-fullcta" href="homes/${esc(l.slug)}.html" title="All photos, room-by-room detail${tour ? ', 3D tour' : ''} and the full MLS record">Full listing <span aria-hidden="true">↗</span></a>` : ''}
       </div>
       <div class="d-price">${priceLabel(l)}</div>
       <!-- ADDRESS FIRST and LOUD. It used to be a thin grey line under the specs; a visitor could
@@ -1184,20 +1185,20 @@ function renderDrawer(l) {
         <span class="d-street">${esc(ap.street)}</span>${ap.unit ? `<span class="d-unit">${esc(ap.unit)}</span>` : ''}
         <span class="d-citystate">${esc([ap.city, ap.state].filter(Boolean).join(', '))}${ap.zip ? ' ' + esc(ap.zip) : ''}</span>
       </div>
-      ${l.slug ? `<a class="d-fullcta" href="homes/${esc(l.slug)}.html">
-        <span class="d-fullcta-t">View the full listing</span>
-        <span class="d-fullcta-s">all photos, room-by-room detail${tour ? ', 3D tour' : ''} &amp; the full MLS record</span>
-        <span class="d-fullcta-arrow" aria-hidden="true">→</span></a>` : ''}
       ${tour ? `<a class="d-tour" href="${esc(tour)}" target="_blank" rel="noopener">🎥 Walk through in 3D</a>` : ''}
       <div class="d-specs">
         <div class="d-spec"><b>${l.beds ?? '—'}</b><span>Beds</span></div>
         <div class="d-spec"><b>${l.baths != null ? bathStr(l.baths) : '—'}</b><span>Baths</span></div>
         <div class="d-spec"><b>${l.sqft ? l.sqft.toLocaleString() : '—'}</b><span>Sq Ft</span></div>
         ${l.yearBuilt ? `<div class="d-spec"><b>${l.yearBuilt}</b><span>Built</span></div>` : ''}
+        ${(() => { const h = hoaText(l); return h ? `<div class="d-spec d-spec-hoa"><b>${esc(h)}</b><span>${isRental(l) ? 'Common charge' : 'HOA'}</span></div>` : ''; })()}
       </div>
       <div class="d-commute" title="Estimated Metro-North commute — see stamford-to-nyc-commute.html">${esc(commuteFor(l))}</div>
       <div class="d-cta">
-        <a class="btn btn-gold" href="tel:${PHONE}">Call John · 203·883·3399</a>
+        <a class="btn btn-gold d-callcta" href="tel:${PHONE}">
+          <span class="d-callcta-t">Call John</span>
+          <span class="d-callcta-s">203·883·3399 — straight to me, not an office</span>
+          <span class="d-callcta-arrow" aria-hidden="true">→</span></a>
         <a class="btn btn-act" href="mailto:${EMAIL}?subject=${encodeURIComponent(ctaSubject)}&body=${mailBody}">${ctaLabel}</a>
         <button class="btn btn-out" data-fav="${esc(l.mls)}">${fav ? '♥ Saved' : '♡ Save'}</button>
         <button class="btn btn-out d-cta-share" id="dShare" aria-label="Share this listing" title="Share this listing"><svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v13M8 7l4-4 4 4M5 12v7a2 2 0 002 2h10a2 2 0 002-2v-7"/></svg></button>

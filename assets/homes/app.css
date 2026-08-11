@@ -493,7 +493,7 @@ html{overflow-x:hidden;overscroll-behavior:none}
 .d-spec span{font-family:var(--mono);font-size:.6rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
 .d-addr{font-size:1.05rem;color:var(--fg);margin:4px 0 2px}
 .d-hood{font-family:var(--mono);font-size:.66rem;letter-spacing:.14em;text-transform:uppercase;color:var(--gold-l);margin-bottom:18px}
-.d-badges{display:flex;gap:7px;margin:16px 0}
+.d-badges{display:flex;flex-wrap:wrap;align-items:center;gap:7px;margin:16px 0}
 .d-cta{display:flex;gap:10px;margin:20px 0;flex-wrap:wrap}
 .d-cta .btn{flex:1;justify-content:center;min-width:150px;white-space:nowrap}
 /* Call John is the primary CTA and its phone number is long — give it a full row so the number
@@ -849,24 +849,38 @@ html{overflow-x:hidden;overscroll-behavior:none}
 .d-citystate{ flex:1 1 100%; font-size:.96rem; color:#a7b0be; margin-top:3px; }
 .d-dom{ background:rgba(255,255,255,.09); color:#e8eaef; border:1px solid rgba(255,255,255,.2); }
 
-/* the promoted CTA — full width, gold, and it breathes so it reads as the primary action */
-/* Title and subtitle stack; the arrow is pinned right so neither can squeeze the other. The
-   flex version let the arrow steal width and broke "View the full listing" across two lines. */
-.d-fullcta{ display:block; margin:14px 0 4px; padding:13px 52px 13px 16px;
-  border-radius:14px; text-decoration:none; color:#1a1408;
+/* FULL LISTING — small, square, cool. It rides in the badge row beside the day-count so it is
+   reachable immediately without competing with the two things that actually reach John. Slate/cyan
+   deliberately: gold is the call, teal is the tour, so this had to be neither. */
+.d-fullcta{ display:inline-flex; align-items:center; gap:6px; margin-left:auto;
+  padding:5px 11px; border-radius:8px; text-decoration:none;
+  font-family:var(--mono); font-size:.64rem; letter-spacing:.1em; text-transform:uppercase;
+  font-weight:700; color:#bfe4f2; white-space:nowrap;
+  background:rgba(64,180,224,.11); border:1px solid rgba(64,180,224,.38); }
+.d-fullcta:hover{ background:rgba(64,180,224,.2); border-color:rgba(64,180,224,.62); color:#e2f5fd; }
+
+/* CALL JOHN — the loud one now. Same shape, weight and breathing the full-listing button used to
+   have; a phone call is the outcome this page exists for, so it should be what pulses. */
+.d-cta .btn-gold.d-callcta{
+  display:block; flex:1 1 100%; text-align:left; height:auto;
+  padding:13px 52px 13px 16px; border-radius:14px; color:#1a1408; border:0;
   background:linear-gradient(135deg,#e8cf95,#cbab68 58%,#b8944f);
   box-shadow:0 6px 20px rgba(203,171,104,.28); position:relative; overflow:hidden;
   animation:dFullPulse 2.6s ease-in-out infinite; }
-.d-fullcta-t{ display:block; font-size:1.05rem; font-weight:800; letter-spacing:-.01em; line-height:1.25; }
-.d-fullcta-s{ display:block; font-size:.76rem; font-weight:600; opacity:.72; margin-top:2px; line-height:1.35; }
-.d-fullcta-arrow{ position:absolute; right:18px; top:50%; margin-top:-.62em;
+.d-callcta-t{ display:block; font-size:1.05rem; font-weight:800; letter-spacing:-.01em; line-height:1.25; }
+.d-callcta-s{ display:block; font-size:.76rem; font-weight:600; opacity:.72; margin-top:2px; line-height:1.35; }
+.d-callcta-arrow{ position:absolute; right:18px; top:50%; margin-top:-.62em;
   font-size:1.24rem; font-weight:800; animation:dFullArrow 1.5s ease-in-out infinite; }
-.d-fullcta:hover{ animation:none; transform:translateY(-1px);
+.d-cta .btn-gold.d-callcta:hover{ animation:none; transform:translateY(-1px);
   box-shadow:0 10px 28px rgba(203,171,104,.42); }
 @keyframes dFullPulse{
   0%,100%{ box-shadow:0 6px 20px rgba(203,171,104,.26); }
   50%    { box-shadow:0 6px 30px rgba(203,171,104,.52); } }
 @keyframes dFullArrow{ 0%,100%{ transform:translateX(0); } 50%{ transform:translateX(4px); } }
+
+/* HOA sits at the far right of the spec row — the number people ask about second, after price. */
+.d-spec-hoa{ margin-left:auto; text-align:right; }
+.d-spec-hoa b{ color:var(--gold-l,#e8cf95); }
 
 .d-tour{ display:inline-flex; align-items:center; gap:7px; margin:8px 0 2px; padding:8px 13px;
   border-radius:10px; text-decoration:none; font-size:.86rem; font-weight:700; color:#dfe6f0;
@@ -874,7 +888,7 @@ html{overflow-x:hidden;overscroll-behavior:none}
 .d-tour:hover{ background:rgba(64,224,255,.14); }
 
 @media(prefers-reduced-motion:reduce){
-  .d-fullcta,.d-fullcta-arrow{ animation:none; } }
+  .d-cta .btn-gold.d-callcta,.d-callcta-arrow{ animation:none; } }
 @media(max-width:560px){
   .d-street{ font-size:1.36rem; }
   .card-street{ font-size:.97rem; } }

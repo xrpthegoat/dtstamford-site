@@ -770,8 +770,16 @@
       setT('lbSale300',sb.u300k); setT('lbSale600',sb.u600k); setT('lbSale1m',sb.u1m);
       setT('lbRent18',rb.u1800); setT('lbRent22',rb.u2200); setT('lbRent30',rb.u3000);
       var shortM=function(n){ if(n==null) return ''; if(n>=1e6) return '$'+(n/1e6).toFixed(n%1e6?1:0)+'M'; if(n>=1e3) return '$'+Math.round(n/1e3)+'K'; return '$'+Math.round(n); };
-      if(s.medianSale){ var ms=document.getElementById('lbMedSale'); if(ms) ms.textContent='median '+shortM(s.medianSale); }
-      if(s.medianRent){ var mr=document.getElementById('lbMedRent'); if(mr) mr.textContent='median $'+Math.round(s.medianRent).toLocaleString('en-US')+'/mo'; }
+      /* Stamford-ONLY medians, and say so. s.medianSale/medianRent are computed across the whole
+         feed (Greenwich, Westport, Darien, New Canaan…), which put "median $1M" under a heading
+         about Stamford homes — 44% above Stamford's real $696.5K. genlistings bakes the correct
+         "Stamford median …" into these spans; this runtime pass USED to overwrite it with the
+         feed-wide figure, so the served HTML was right and the rendered page was wrong. Prefer the
+         Stamford field, keep the feed-wide one only as a last-resort fallback, and label honestly. */
+      var _mS=s.medianSaleStamford||s.medianSale, _mSisStam=!!s.medianSaleStamford;
+      if(_mS){ var ms=document.getElementById('lbMedSale'); if(ms) ms.textContent=(_mSisStam?'Stamford median ':'median ')+shortM(_mS); }
+      var _mR=s.medianRentStamford||s.medianRent, _mRisStam=!!s.medianRentStamford;
+      if(_mR){ var mr=document.getElementById('lbMedRent'); if(mr) mr.textContent=(_mRisStam?'Stamford median $':'median $')+Math.round(_mR).toLocaleString('en-US')+'/mo'; }
       if(s.saleBands||s.rentBands){ var lb=document.getElementById('liBands'); if(lb) lb.hidden=false; }
       var nt=s.newToday||[];
       if(nt.length){

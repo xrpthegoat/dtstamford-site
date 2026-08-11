@@ -421,13 +421,26 @@ function filtered() {
     return true;
   });
   const s = state.sort;
-  list.sort((a, b) =>
+  const cmp = (a, b) =>
     s === 'ai' && state.ai ? state.ai.score(b) - state.ai.score(a) :
     s === 'price-asc' ? a.price - b.price :
     s === 'price-desc' ? b.price - a.price :
     s === 'beds' ? (b.beds || 0) - (a.beds || 0) :
     s === 'sqft' ? (b.sqft || 0) - (a.sqft || 0) :
-    /* new */ new Date(b.listDate || b.updated || 0) - new Date(a.listDate || a.updated || 0));
+    s === 'status' ? statusRank(a) - statusRank(b) :
+    /* new */ new Date(b.listDate || b.updated || 0) - new Date(a.listDate || a.updated || 0);
+  // AVAILABILITY IS ALWAYS THE FIRST QUESTION. Sorting purely by date put Under Contract and
+  // Closed listings above homes a buyer can actually see — the top of the default results was a
+  // wall of UNDER CONTRACT. Every sort now ranks what you can still buy first and applies the
+  // chosen sort inside each band. Exception: the Sold view, where the whole point is closed
+  // records, so the band would collapse to one value anyway.
+  list.sort((a, b) => {
+    if (s !== 'status' && !state.showSold) {
+      const d = statusRank(a) - statusRank(b);
+      if (d) return d;
+    }
+    return cmp(a, b) || 0;
+  });
   return list;
 }
 
@@ -768,6 +781,16 @@ function factGroups(l) {
     { h: 'The home itself', rows: home },
     { h: 'Listing details', rows: listing },
   ].filter(g => g.rows.length);
+}
+
+/* Availability bands. Lower sorts first: something you can tour today beats something you cannot.
+   'Coming Soon' rides with Active because it is still gettable — often the best lead of all. */
+function statusRank(l) {
+  const st = String((l && l.status) || '').toLowerCase();
+  if (st.indexOf('closed') === 0) return 3;
+  if (st.indexOf('under contract') === 0) return 2;   // incl. "…- Continue to Show"
+  if (st.indexOf('coming soon') === 0) return 1;
+  return 0;                                            // Active and anything unrecognised
 }
 
 function ppsf(l) {
@@ -1316,7 +1339,7 @@ function syncFilterChrome() {
   // circle area filter: the map's Clear-area button tracks state.circle each render (folded in here
   // instead of a separate syncAreaChrome()/render() edit).
   const clearAreaBtn = $('#clearArea'); if (clearAreaBtn) clearAreaBtn.hidden = !state.circle;
-  const sortNames = { new: 'Newest', 'price-asc': 'Price ↑', 'price-desc': 'Price ↓', beds: 'Most beds', sqft: 'Largest', ai: 'Best match' };
+  const sortNames = { new: 'Newest', status: 'Available first', 'price-asc': 'Price ↑', 'price-desc': 'Price ↓', beds: 'Most beds', sqft: 'Largest', ai: 'Best match' };
   $('.drop[data-drop="sort"] .drop-lbl').textContent = 'Sort: ' + (sortNames[state.sort] || 'Newest');
   // "Best match" only means something while an AI answer is driving the results — hide it otherwise
   // rather than offer a sort that would silently behave like Newest.

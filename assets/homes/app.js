@@ -268,8 +268,20 @@ function addrLine(l) {
 }
 function addrFull(l) {
   const a = (l && l.address) || {};
-  const head = a.line ? deEnt(a.line) + ', ' : '';
+  // lineWithUnit, NOT line. 762 condo/co-op listings were rendering as "101 Grove Street" with no
+  // unit anywhere on the site — indistinguishable from each other in a building with 60 units, and
+  // wrong in a tour-request email. The feed has carried address.unit (41% of listings) and a
+  // prebuilt address.lineWithUnit (100%) the whole time; nothing read them. Fall back to line so a
+  // record without the prebuilt field still renders.
+  const head = (a.lineWithUnit || a.line) ? deEnt(a.lineWithUnit || a.line) + ', ' : '';
   return head + [a.city, a.state].filter(Boolean).join(' ');
+}
+// Street line and unit split apart, so the UI can weight them differently (big bold street, unit
+// called out beside it) instead of one flat string.
+function addrParts(l) {
+  const a = (l && l.address) || {};
+  return { street: deEnt(a.line || ''), unit: deEnt(a.unit || ''),
+           city: a.city || '', state: a.state || '', zip: a.zip || '' };
 }
 // The listing firm + agent contact SmartMLS requires on every card (§12.3.2 / §12.3.4). Attribution
 // travels on the record so it can never be dropped by the template.
@@ -571,6 +583,189 @@ function appendNextPage() {
   }
 }
 
+/* ---------------------------------------------------------------------------
+   FACTS LAYER — read the MLS facts that actually exist.
+
+   The drawer used to ask for l.hoa, l.taxAnnual, l.lotSqft, l.daysOnMarket, l.features and
+   l.address.neighborhood. Measured against the live feed: ALL SIX are 0% populated. Every one of
+   those rows silently vanished, so the quick view showed only type/status/beds/baths/sqft/year/MLS#
+   while the feed actually carries dom 99%, heatType 99%, cooling 91%, parking 82%, garages 77%,
+   laundry 76%, propertyTax 57%, pets 56%, hoaFee 21% and a 3D tour on 13% of listings — all under
+   l.facts.*, which nothing read. This layer is the single place that maps facts.* to display.
+   --------------------------------------------------------------------------- */
+
+/* Two record shapes reach this code and they are NOT the same:
+     • listings-index.json (what the CARDS render) — a light record with laundry/parking/pets/fuel/
+       daysOnMarket promoted to TOP LEVEL and no `facts` object at all.
+     • data/listings/<slug>.json (what the DRAWER hydrates with) — the full record, where the same
+       information lives under facts.* and daysOnMarket does not exist.
+   Reading only one shape is why the chips rendered 0 times on cards while the drawer had the data,
+   and why the drawer's day-count was blank while the card's worked. F() merges both, preferring the
+   detail record when a listing has been hydrated. */
+const F = l => {
+  if (!l) return {};
+  const f = l.facts || {};
+  return {
+    hoaFee: f.hoaFee, hoaFreq: f.hoaFreq, hoaIncludes: f.hoaIncludes,
+    propertyTax: f.propertyTax, taxYear: f.taxYear, listed: f.listed,
+    dom: f.dom != null ? f.dom : l.daysOnMarket,
+    parking: f.parking != null ? f.parking : l.parking,
+    parkingSpaces: f.parkingSpaces, garages: f.garages,
+    laundry: f.laundry != null ? f.laundry : l.laundry, laundryLoc: f.laundryLoc,
+    pets: f.pets != null ? f.pets : l.pets, petsInfo: f.petsInfo,
+    heatType: f.heatType, heatFuel: f.heatFuel != null ? f.heatFuel : l.fuel,
+    cooling: f.cooling, appliances: f.appliances, style: f.style,
+    totalRooms: f.totalRooms, basement: f.basement, fireplaces: f.fireplaces,
+    pool: f.pool, poolDesc: f.poolDesc, zoning: f.zoning,
+    schoolElementary: f.schoolElementary, schoolMiddle: f.schoolMiddle, schoolHigh: f.schoolHigh,
+    tour: f.tour, tourBranded: f.tourBranded
+  };
+};
+const isRental = l => l && l.listingType === 'rent';
+
+// MLS values are comma-joined enum lists ("Paved,Assigned Parking,Driveway"). Show them as prose
+// without the SHOUTING some fields arrive in ("COMMON LAUNDRY BASEMENT").
+function mlsList(v, max) {
+  if (v == null || v === '') return null;
+  const parts = String(v).split(',').map(x => x.trim()).filter(Boolean);
+  if (!parts.length) return null;
+  const tidy = parts.map(x => (x === x.toUpperCase() && /[A-Z]{3}/.test(x))
+    ? x.toLowerCase().replace(/\b[a-z]/g, c => c.toUpperCase()) : x);
+  const shown = max ? tidy.slice(0, max) : tidy;
+  return shown.join(' · ') + (max && tidy.length > max ? ' +' + (tidy.length - max) : '');
+}
+
+// "Yes"/"1"/"0"/"No/Resale" all appear. Return true/false/null.
+function yn(v) {
+  if (v == null || v === '') return null;
+  const t = String(v).trim().toLowerCase();
+  if (['1','yes','y','true'].includes(t)) return true;
+  if (['0','no','n','false'].includes(t)) return false;
+  return null;
+}
+
+function hoaText(l) {
+  const f = F(l);
+  if (f.hoaFee == null || !Number(f.hoaFee)) return null;
+  const freq = String(f.hoaFreq || 'Monthly').toLowerCase();
+  const per = freq.startsWith('month') ? '/mo' : freq.startsWith('ann') || freq.startsWith('year') ? '/yr'
+            : freq.startsWith('quarter') ? '/qtr' : ' ' + freq;
+  return money(Number(f.hoaFee)) + per;
+}
+function taxText(l) {
+  const f = F(l);
+  return (f.propertyTax != null && Number(f.propertyTax)) ? money(Number(f.propertyTax)) + '/yr' : null;
+}
+function domOf(l) {
+  const f = F(l);
+  return f.dom != null && f.dom !== '' ? Number(f.dom) : (l.daysOnMarket != null ? l.daysOnMarket : null);
+}
+function parkingText(l) {
+  const f = F(l);
+  const bits = [];
+  const g = Number(f.garages || 0);
+  if (g > 0) bits.push(g + '-car garage');
+  const sp = Number(f.parkingSpaces || 0);
+  if (sp > 0) bits.push(sp + ' space' + (sp > 1 ? 's' : ''));
+  const kind = mlsList(f.parking, 2);
+  if (kind) bits.push(kind);
+  return bits.length ? bits.join(' · ') : null;
+}
+function laundryText(l) {
+  const f = F(l);
+  const a = mlsList(f.laundry, 2), b = mlsList(f.laundryLoc, 1);
+  if (!a && !b) return null;
+  if (a && b && b.toLowerCase() !== a.toLowerCase()) return a + ' — ' + b;
+  return a || b;
+}
+function petsText(l) {
+  const f = F(l);
+  const p = yn(f.pets);
+  const info = f.petsInfo ? mlsList(f.petsInfo, 1) : null;
+  // The light index stores free text here ("Restrictions", "Case By Case"), not a boolean.
+  const raw = (f.pets == null || f.pets === '') ? null : mlsList(f.pets, 1);
+  if (p === null && !info && !raw) return null;
+  const head = p === true ? 'Pets allowed' : p === false ? 'No pets'
+             : (raw && !/^(yes|no)$/i.test(raw) ? 'Pets: ' + raw : 'Pets');
+  return info ? head + ' — ' + info : head;
+}
+function tourURL(l) {
+  const f = F(l);
+  const u = f.tour || f.tourBranded;
+  return (u && /^https?:\/\//i.test(u)) ? u : null;
+}
+
+/* The 3-4 chips that decide whether someone clicks a card at all. Rentals and sales care about
+   different things: a renter needs laundry/pets/parking; a buyer needs HOA and taxes. */
+function keyChips(l) {
+  const f = F(l), out = [];
+  const push = (k, v, tone) => { if (v) out.push({ k: k, v: v, tone: tone || '' }); };
+  if (isRental(l)) {
+    push('Laundry', laundryText(l));
+    push('Parking', parkingText(l));
+    const p = yn(f.pets);
+    const pt = petsText(l);
+    if (pt) push('Pets', pt.replace(/^Pets(: | — |)/, '') || (p ? 'Allowed' : 'No'), p === false ? 'no' : 'yes');
+  } else {
+    const h = hoaText(l); if (h) push('HOA', h);
+    push('Parking', parkingText(l));
+    const t = taxText(l); if (t) push('Taxes', t);
+    push('Laundry', laundryText(l));
+  }
+  return out.slice(0, 3);
+}
+
+/* Curated, grouped facts for the quick view. Not a dump of all 56 MLS fields — the ones a person
+   actually decides on, in the order they decide. */
+function factGroups(l) {
+  const f = F(l), sold = isSold(l), psf = ppsf(l);
+  const row = (k, v) => (v == null || v === '' ? null : [k, v]);
+  const cost = [
+    row(isRental(l) ? 'Rent' : 'Price', priceLabel(l)),
+    row('Price / sqft', psf ? '$' + psf : null),
+    row('HOA / common charges', hoaText(l)),
+    row('Includes', mlsList(f.hoaIncludes, 4)),
+    row('Property tax', taxText(l)),
+    row('Tax year', f.taxYear),
+  ].filter(Boolean);
+  const daily = [
+    row('Parking', parkingText(l)),
+    row('Laundry', laundryText(l)),
+    row('Pets', petsText(l)),
+    row('Heat', [mlsList(f.heatType, 2), f.heatFuel].filter(Boolean).join(' · ') || null),
+    row('Cooling', mlsList(f.cooling, 2)),
+    row('Appliances', mlsList(f.appliances, 5)),
+  ].filter(Boolean);
+  const home = [
+    row('Property type', l.propertyType),
+    row('Style', mlsList(f.style, 2)),
+    row('Beds', l.beds), row('Baths', l.baths != null ? bathStr(l.baths) : null),
+    row('Interior', l.sqft ? l.sqft.toLocaleString() + ' sqft' : null),
+    row('Rooms', f.totalRooms != null ? String(f.totalRooms).replace(/\.0$/, '') : null),
+    row('Lot', l.acres ? l.acres + ' acres' : null),
+    row('Year built', l.yearBuilt),
+    row('Basement', mlsList(f.basement, 2)),
+    row('Fireplaces', Number(f.fireplaces) ? String(f.fireplaces).replace(/\.0$/, '') : null),
+    row('Pool', yn(f.pool) ? (mlsList(f.poolDesc, 2) || 'Yes') : null),
+  ].filter(Boolean);
+  const dom = domOf(l);
+  const listing = [
+    row('Status', l.status),
+    row(sold ? 'Days on market before sale' : 'Days on market', dom != null ? dom : null),
+    row('Listed', f.listed),
+    row('Schools', [f.schoolElementary, f.schoolMiddle, f.schoolHigh]
+      .filter(x => x && !/per board of ed/i.test(x)).join(' · ') || null),
+    row('Zoning', f.zoning),
+    row('MLS #', l.mls),
+  ].filter(Boolean);
+  return [
+    { h: isRental(l) ? 'What it costs' : 'Costs to own', rows: cost },
+    { h: 'Day-to-day living', rows: daily },
+    { h: 'The home itself', rows: home },
+    { h: 'Listing details', rows: listing },
+  ].filter(g => g.rows.length);
+}
+
 function ppsf(l) {
   if (!l.sqft || !l.price || l.listingType === 'rent') return null;
   return Math.round(l.price / l.sqft);
@@ -586,14 +781,21 @@ function cardHTML(l) {
   return `<article class="card${isSold(l) ? ' is-sold' : ''}" data-mls="${l.mls}">
     <div class="card-media">
       <img src="${esc(photos[idx])}" alt="${esc(addrFull(l))}" loading="lazy" decoding="async" onerror="this.src='assets/stamford-ct-single-family-home-exterior.jpg'">
-      <div class="card-badges">${b ? `<span class="badge ${b.cls}">${b.txt}</span>` : ''}</div>
+      <div class="card-badges">${b ? `<span class="badge ${b.cls}">${b.txt}</span>` : ''}${(() => {
+        const d = domOf(l); if (d == null) return '';
+        return `<span class="badge badge-dom">${isSold(l) ? `Sold in ${d}d` : (d === 0 ? 'Just listed' : `${d}d on market`)}</span>`;
+      })()}</div>
       <button class="card-fav ${fav ? 'on' : ''}" data-fav aria-label="Save home">${fav ? '♥' : '♡'}</button>
       ${navs}${dots}
     </div>
     <div class="card-body">
       <div class="card-price">${priceLabel(l)}</div>
       <div class="card-specs">${specRow(l)}</div>
-      <div class="card-addr">${esc(addrFull(l))}</div>
+      <div class="card-addr">
+        <span class="card-street">${esc(addrParts(l).street)}</span>${addrParts(l).unit ? `<span class="card-unit">${esc(addrParts(l).unit)}</span>` : ''}
+        <span class="card-city">${esc([addrParts(l).city, addrParts(l).state].filter(Boolean).join(', '))}${addrParts(l).zip ? ' ' + esc(addrParts(l).zip) : ''}</span>
+      </div>
+      ${(() => { const c = keyChips(l); return c.length ? `<div class="card-chips">${c.map(x => `<span class="card-chip${x.tone ? ' is-' + x.tone : ''}"><i>${esc(x.k)}</i>${esc(x.v)}</span>`).join('')}</div>` : ''; })()}
       <div class="card-meta">${cardMeta(l)}</div>
     </div>
   </article>`;
@@ -620,8 +822,11 @@ function cardMeta(l) {
   const bits = [];
   // "Just listed" / "N days listed" describes live inventory. On a closed record daysOnMarket is
   // the span it took to sell, so printing it here reads as "still on the market for N days".
-  if (isSold(l)) bits.push(l.daysOnMarket != null ? `Sold after ${l.daysOnMarket} days` : 'Sold');
-  else if (l.daysOnMarket != null) bits.push(l.daysOnMarket === 0 ? 'Just listed' : `${l.daysOnMarket} days listed`);
+  // l.daysOnMarket is 0% populated in the live feed — this line silently printed nothing for years.
+  // The real value is facts.dom (99%). domOf() prefers it and falls back.
+  // The day-count now rides as a badge on the photo (top-left), so repeating it here just made the
+  // card say the same thing twice.
+  if (isSold(l) && domOf(l) == null) bits.push('Sold');
   if (l.yearBuilt) bits.push(`Built ${l.yearBuilt}`);
   bits.push('~50 min to NYC');
   return bits.map(b => `<span>${esc(b)}</span>`).join('<i class="dot">·</i>');
@@ -920,20 +1125,10 @@ function renderDrawer(l) {
   const sold = isSold(l);
   const fav = state.favs.has(l.mls);
   const psf = ppsf(l);
-  const facts = [
-    ['Property type', l.propertyType],
-    ['Status', l.status],
-    ['Beds', l.beds], ['Baths', l.baths != null ? bathStr(l.baths) : null],
-    ['Interior', l.sqft ? l.sqft.toLocaleString() + ' sqft' : null],
-    ['Price / sqft', psf ? '$' + psf : null],
-    ['Lot', l.lotSqft ? l.lotSqft.toLocaleString() + ' sqft' : null],
-    ['Year built', l.yearBuilt],
-    [sold ? 'Days on market before sale' : 'Days on market', l.daysOnMarket],
-    ['HOA', l.hoa ? money(l.hoa) + '/mo' : null],
-    ['Taxes', l.taxAnnual ? money(l.taxAnnual) + '/yr' : null],
-    ['MLS #', l.mls],
-    ['Neighborhood', l.address.neighborhood],
-  ].filter(f => f[1] != null && f[1] !== '');
+  const groups = factGroups(l);
+  const ap = addrParts(l);
+  const dom = domOf(l);
+  const tour = tourURL(l);
   const mapsQ = encodeURIComponent(l.address.line ? `${l.address.line}, ${l.address.city}, ${l.address.state} ${l.address.zip || ''}` : `${l.address.city}, ${l.address.state}`);
   // A sold listing cannot be toured. Asking for one wastes John's time and reads as a broken site —
   // and the person looking at a sold comp is usually pricing their OWN home, which is a listing lead,
@@ -951,16 +1146,28 @@ function renderDrawer(l) {
       ${photos.length > 1 ? `<button class="d-gnav prev" id="dPrev" aria-label="Previous">‹</button><button class="d-gnav next" id="dNext" aria-label="Next">›</button><div class="d-gcount" id="dCount">1 / ${photos.length}</div>` : ''}
     </div>
     <div class="d-body">
-      ${b ? `<div class="d-badges"><span class="badge ${b.cls}">${b.txt}</span></div>` : ''}
+      <div class="d-badges">
+        ${b ? `<span class="badge ${b.cls}">${b.txt}</span>` : ''}
+        ${dom != null ? `<span class="badge d-dom">${sold ? `Sold after ${dom} days` : (dom === 0 ? 'Just listed today' : `${dom} day${dom === 1 ? '' : 's'} on market`)}</span>` : ''}
+      </div>
       <div class="d-price">${priceLabel(l)}</div>
+      <!-- ADDRESS FIRST and LOUD. It used to be a thin grey line under the specs; a visitor could
+           not tell what they were looking at, and the unit was missing entirely on 762 condos. -->
+      <div class="d-addr">
+        <span class="d-street">${esc(ap.street)}</span>${ap.unit ? `<span class="d-unit">${esc(ap.unit)}</span>` : ''}
+        <span class="d-citystate">${esc([ap.city, ap.state].filter(Boolean).join(', '))}${ap.zip ? ' ' + esc(ap.zip) : ''}</span>
+      </div>
+      ${l.slug ? `<a class="d-fullcta" href="homes/${esc(l.slug)}.html">
+        <span class="d-fullcta-t">View the full listing</span>
+        <span class="d-fullcta-s">all photos, room-by-room detail${tour ? ', 3D tour' : ''} &amp; the full MLS record</span>
+        <span class="d-fullcta-arrow" aria-hidden="true">→</span></a>` : ''}
+      ${tour ? `<a class="d-tour" href="${esc(tour)}" target="_blank" rel="noopener">🎥 Walk through in 3D</a>` : ''}
       <div class="d-specs">
         <div class="d-spec"><b>${l.beds ?? '—'}</b><span>Beds</span></div>
         <div class="d-spec"><b>${l.baths != null ? bathStr(l.baths) : '—'}</b><span>Baths</span></div>
         <div class="d-spec"><b>${l.sqft ? l.sqft.toLocaleString() : '—'}</b><span>Sq Ft</span></div>
         ${l.yearBuilt ? `<div class="d-spec"><b>${l.yearBuilt}</b><span>Built</span></div>` : ''}
       </div>
-      <div class="d-addr">${esc(addrFull(l))}${l.address.zip ? ' '+esc(l.address.zip) : ''}</div>
-      ${l.address.neighborhood ? `<div class="d-hood">${esc(l.address.neighborhood)}</div>` : ''}
       <div class="d-commute" title="Estimated Metro-North commute — see stamford-to-nyc-commute.html">${esc(commuteFor(l))}</div>
       <div class="d-cta">
         <a class="btn btn-gold" href="tel:${PHONE}">Call John · 203·883·3399</a>
@@ -969,16 +1176,14 @@ function renderDrawer(l) {
         <button class="btn btn-out d-cta-share" id="dShare" aria-label="Share this listing" title="Share this listing"><svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v13M8 7l4-4 4 4M5 12v7a2 2 0 002 2h10a2 2 0 002-2v-7"/></svg></button>
       </div>
       ${l.remarks ? `<div class="d-section"><h4>About this home</h4><p class="d-remarks">${esc(deEnt(l.remarks))}</p></div>` : ''}
-      <div class="d-section"><h4>Facts &amp; features</h4>
-        <div class="d-facts">${facts.map(f => `<div class="d-fact"><span>${esc(f[0])}</span><b>${esc(f[1])}</b></div>`).join('')}</div>
-      </div>
-      ${(l.features && l.features.length) ? `<div class="d-section"><h4>Highlights</h4><div class="d-feats">${l.features.map(f => `<span class="d-feat">${esc(f)}</span>`).join('')}</div></div>` : ''}
+      ${groups.map(g => `<div class="d-section"><h4>${esc(g.h)}</h4>
+        <div class="d-facts">${g.rows.map(r => `<div class="d-fact"><span>${esc(r[0])}</span><b>${esc(r[1])}</b></div>`).join('')}</div>
+      </div>`).join('')}
       <div class="d-section"><h4>Location</h4><div class="d-map" id="dMap"></div>
         ${l.address.line ? `<a class="d-directions" href="https://www.google.com/maps/dir/?api=1&destination=${mapsQ}" target="_blank" rel="noopener">🧭 Get directions · drive by</a>` : ''}
       </div>
       ${mlsAttrib(l)}
       <div class="d-legal">${state.meta && state.meta.disclaimer ? esc(state.meta.disclaimer) : (state.meta && state.meta.attribution ? esc(state.meta.attribution) : '')}
-        ${l.slug ? `<br><a class="d-seo-link" href="homes/${esc(l.slug)}.html">View full listing page ↗</a>` : ''}
       </div>
     </div>`;
 

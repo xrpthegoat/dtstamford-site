@@ -809,3 +809,71 @@ html{overflow-x:hidden;overscroll-behavior:none}
 @media(min-width:761px){
   .fsheet,.fsheet-scrim{display:none!important}
 }
+
+/* ============================================================================
+   ADDRESS, DAYS-ON-MARKET, KEY FACTS, and the full-listing CTA.
+   The address was a thin grey line below the specs and carried no unit, so a condo read as
+   "101 Grove Street" — identical to the other 59 units in the building. It is now the loudest
+   thing after the price, the unit is called out in gold, and the CTA that used to be a 10px
+   link inside the legal footer is a full-width animated button directly under the address.
+   ========================================================================= */
+
+/* ---- card ---- */
+.card-addr{ margin:6px 0 0; display:flex; flex-wrap:wrap; align-items:baseline; gap:0 8px; }
+.card-street{ font-size:1.02rem; font-weight:700; color:#f3f4f6; letter-spacing:-.01em; line-height:1.25; }
+.card-unit{ font-size:.86rem; font-weight:700; color:var(--gold,#cbab68);
+  border:1px solid rgba(203,171,104,.42); background:rgba(203,171,104,.12);
+  border-radius:6px; padding:1px 7px; white-space:nowrap; }
+.card-city{ flex:1 1 100%; font-size:.82rem; color:#9aa3b2; margin-top:1px; }
+
+.badge-dom{ white-space:nowrap; background:rgba(9,12,18,.78); color:#e8eaef; border:1px solid rgba(255,255,255,.22);
+  backdrop-filter:blur(4px); font-weight:600; }
+
+.card-chips{ display:flex; flex-wrap:wrap; gap:6px; margin:9px 0 0; }
+.card-chip{ display:inline-flex; align-items:baseline; gap:6px; font-size:.75rem; line-height:1.5;
+  color:#dbe2ec; background:rgba(255,255,255,.045); border:1px solid rgba(255,255,255,.09);
+  border-radius:8px; padding:3px 9px; max-width:100%; }
+/* the label, not an emoji — "Laundry · Main Level" reads; "🧺 Main Level" does not say what it is */
+.card-chip i{ font-style:normal; font-size:.63rem; font-weight:700; letter-spacing:.08em;
+  text-transform:uppercase; color:#8792a3; }
+.card-chip.is-no{ border-color:rgba(255,93,115,.3); }
+.card-chip.is-no i{ color:#e08594; }
+
+/* ---- drawer ---- */
+.d-addr{ margin:10px 0 2px; display:flex; flex-wrap:wrap; align-items:baseline; gap:0 10px; }
+.d-street{ font-size:1.62rem; font-weight:800; color:#fff; letter-spacing:-.02em; line-height:1.18; }
+.d-unit{ font-size:1.02rem; font-weight:800; color:var(--gold,#cbab68);
+  border:1px solid rgba(203,171,104,.5); background:rgba(203,171,104,.14);
+  border-radius:8px; padding:2px 10px; white-space:nowrap; }
+.d-citystate{ flex:1 1 100%; font-size:.96rem; color:#a7b0be; margin-top:3px; }
+.d-dom{ background:rgba(255,255,255,.09); color:#e8eaef; border:1px solid rgba(255,255,255,.2); }
+
+/* the promoted CTA — full width, gold, and it breathes so it reads as the primary action */
+/* Title and subtitle stack; the arrow is pinned right so neither can squeeze the other. The
+   flex version let the arrow steal width and broke "View the full listing" across two lines. */
+.d-fullcta{ display:block; margin:14px 0 4px; padding:13px 52px 13px 16px;
+  border-radius:14px; text-decoration:none; color:#1a1408;
+  background:linear-gradient(135deg,#e8cf95,#cbab68 58%,#b8944f);
+  box-shadow:0 6px 20px rgba(203,171,104,.28); position:relative; overflow:hidden;
+  animation:dFullPulse 2.6s ease-in-out infinite; }
+.d-fullcta-t{ display:block; font-size:1.05rem; font-weight:800; letter-spacing:-.01em; line-height:1.25; }
+.d-fullcta-s{ display:block; font-size:.76rem; font-weight:600; opacity:.72; margin-top:2px; line-height:1.35; }
+.d-fullcta-arrow{ position:absolute; right:18px; top:50%; margin-top:-.62em;
+  font-size:1.24rem; font-weight:800; animation:dFullArrow 1.5s ease-in-out infinite; }
+.d-fullcta:hover{ animation:none; transform:translateY(-1px);
+  box-shadow:0 10px 28px rgba(203,171,104,.42); }
+@keyframes dFullPulse{
+  0%,100%{ box-shadow:0 6px 20px rgba(203,171,104,.26); }
+  50%    { box-shadow:0 6px 30px rgba(203,171,104,.52); } }
+@keyframes dFullArrow{ 0%,100%{ transform:translateX(0); } 50%{ transform:translateX(4px); } }
+
+.d-tour{ display:inline-flex; align-items:center; gap:7px; margin:8px 0 2px; padding:8px 13px;
+  border-radius:10px; text-decoration:none; font-size:.86rem; font-weight:700; color:#dfe6f0;
+  background:rgba(64,224,255,.08); border:1px solid rgba(64,224,255,.28); }
+.d-tour:hover{ background:rgba(64,224,255,.14); }
+
+@media(prefers-reduced-motion:reduce){
+  .d-fullcta,.d-fullcta-arrow{ animation:none; } }
+@media(max-width:560px){
+  .d-street{ font-size:1.36rem; }
+  .card-street{ font-size:.97rem; } }

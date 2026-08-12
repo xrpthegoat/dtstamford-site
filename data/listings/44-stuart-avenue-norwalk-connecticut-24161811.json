@@ -106,6 +106,19 @@
   "building": {
    "rows": [
     {
+     "slug": "44-stuart-avenue-norwalk-connecticut-24195193",
+     "addr": "44 Stuart Avenue Unit A3",
+     "unit": "Unit A3",
+     "beds": 1.0,
+     "baths": 1.0,
+     "sqft": 750.0,
+     "price": 2250.0,
+     "kind": "sold",
+     "status": "Closed",
+     "soldOn": "2026-08-11",
+     "ppsf": 3
+    },
+    {
      "slug": "44-stuart-avenue-norwalk-connecticut-24193518",
      "addr": "44 Stuart Avenue Unit B1",
      "unit": "Unit B1",
@@ -116,21 +129,14 @@
      "kind": "asking",
      "status": "Active",
      "ppsf": 3
-    },
-    {
-     "slug": "44-stuart-avenue-norwalk-connecticut-24195193",
-     "addr": "44 Stuart Avenue Unit A3",
-     "unit": "Unit A3",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 750.0,
-     "price": 2250.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 3
     }
    ],
-   "summary": null,
+   "summary": {
+    "n": 1,
+    "low": 2250.0,
+    "high": 2250.0,
+    "median": 2250
+   },
    "label": "44 Stuart Avenue"
   },
   "area": {

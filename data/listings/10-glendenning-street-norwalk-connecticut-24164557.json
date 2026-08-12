@@ -114,20 +114,6 @@
   "area": {
    "rows": [
     {
-     "slug": "12-west-rocks-road-norwalk-connecticut-24136225",
-     "addr": "12 West Rocks Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 1.0,
-     "sqft": 984.0,
-     "price": 2900.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-14",
-     "ppsf": 3,
-     "mi": 0.09
-    },
-    {
      "slug": "24-highbrook-road-norwalk-connecticut-24178349",
      "addr": "24 Highbrook Road",
      "unit": "",
@@ -194,13 +180,26 @@
      "status": "Active",
      "ppsf": 2,
      "mi": 0.49
+    },
+    {
+     "slug": "45-wilton-avenue-norwalk-connecticut-24187402",
+     "addr": "45 Wilton Avenue Unit 1st Floor",
+     "unit": "Unit 1st Floor",
+     "beds": 3.0,
+     "baths": 1.0,
+     "sqft": 1175.0,
+     "price": 2900.0,
+     "kind": "asking",
+     "status": "Active",
+     "ppsf": 2,
+     "mi": 0.61
     }
    ],
    "summary": {
-    "n": 4,
+    "n": 3,
     "low": 2375.0,
     "high": 5050.0,
-    "median": 3150
+    "median": 3400
    },
    "radiusMi": 0.75
   }

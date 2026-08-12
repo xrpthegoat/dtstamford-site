@@ -490,14 +490,13 @@
   @media(max-width:1080px){.callbar{display:flex}body{padding-bottom:76px}}
 </style>
 <link rel="alternate" type="application/rss+xml" title="The Stamford Journal" href="/feed.xml">
-<!-- Google Analytics 4 — replace G-XXXXXXXXXX with your Measurement ID (analytics.google.com > Admin > Data Streams) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-XXXXXXXXXX');
-</script>
+<!-- Google Analytics: REMOVED 2026-08-11. The tag shipped with the placeholder ID
+     G-XXXXXXXXXX, so every homepage view fetched googletagmanager and reported to an
+     account that does not exist — a real request, a real render-blocking cost, zero data,
+     and an Analytics tab that looked broken because it was reading a stream nobody wrote.
+     Cloudflare Web Analytics (beacon on 4,495 pages, real token) is the live source.
+     To add GA properly: paste the real G- id from analytics.google.com > Admin > Data
+     Streams. Do not re-add a placeholder. -->
 </head>
 <body id="top">
 

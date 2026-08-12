@@ -125,44 +125,141 @@
    "mi": 1.16
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "376-westover-road-stamford-connecticut-24181529",
-     "addr": "376 Westover Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 6.0,
-     "sqft": 6447.0,
-     "price": 17500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-04",
-     "ppsf": 3,
-     "mi": 0.03
-    },
-    {
-     "slug": "82-westover-avenue-stamford-connecticut-24177755",
-     "addr": "82 Westover Avenue",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 4349.0,
-     "price": 8750.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 2,
-     "mi": 0.21
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 17500.0,
-    "high": 17500.0,
-    "median": 17500
+ "comps": [
+  {
+   "mls": "24181529",
+   "slug": "376-westover-road-stamford-connecticut-24181529",
+   "address": {
+    "line": "376 Westover Road",
+    "unit": null,
+    "lineWithUnit": "376 Westover Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 6.0,
+   "sqft": 6447.0,
+   "price": 17500.0,
+   "date": "2026-08-04",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.06874,
+    "lng": -73.57145
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.0448789932012799,
+   "ppsf": 2.7144408251900107
+  },
+  {
+   "mls": "24164676",
+   "slug": "10-linden-place-stamford-connecticut-24164676",
+   "address": {
+    "line": "10 Linden Place",
+    "unit": "Unit 1B",
+    "lineWithUnit": "10 Linden Place Unit 1B",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 5412.0,
+   "price": 2600.0,
+   "date": "2026-06-14",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.060326,
+    "lng": -73.54481
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.4580458387908584,
+   "ppsf": 0.4804138950480414
+  },
+  {
+   "mls": "24151146",
+   "slug": "14-relay-place-stamford-connecticut-24151146",
+   "address": {
+    "line": "14 Relay Place",
+    "unit": "Unit L2",
+    "lineWithUnit": "14 Relay Place Unit L2",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06901"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 6576.0,
+   "price": 2450.0,
+   "date": "2026-03-19",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.0521,
+    "lng": -73.54308
+   },
+   "klass": "rental",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 3.0555871636213188,
+   "ppsf": 0.3725669099756691
+  },
+  {
+   "mls": "24133743",
+   "slug": "58-heritage-lane-stamford-connecticut-24133743",
+   "address": {
+    "line": "58 Heritage Lane",
+    "unit": null,
+    "lineWithUnit": "58 Heritage Lane",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
+   },
+   "beds": 5.0,
+   "baths": 4.0,
+   "sqft": 6188.0,
+   "price": 7900.0,
+   "date": "2026-05-04",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.141834,
+    "lng": -73.567215
+   },
+   "klass": "rental",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 8.098271222343106,
+   "ppsf": 1.2766645119586295
+  },
+  {
+   "mls": "24161248",
+   "slug": "314-erskine-road-stamford-connecticut-24161248",
+   "address": {
+    "line": "314 Erskine Road",
+    "unit": null,
+    "lineWithUnit": "314 Erskine Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
+   },
+   "beds": 4.0,
+   "baths": 5.0,
+   "sqft": 5894.0,
+   "price": 5500.0,
+   "date": "2026-07-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.14524,
+    "lng": -73.59682
+   },
+   "klass": "rental",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 8.725174244691237,
+   "ppsf": 0.9331523583305056
   }
- }
+ ]
 }

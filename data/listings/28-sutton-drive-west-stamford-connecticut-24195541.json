@@ -130,101 +130,141 @@
    "mi": 1.1
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "15-tremont-avenue-stamford-connecticut-24157239",
-     "addr": "15 Tremont Avenue",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 2526.0,
-     "price": 825500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-29",
-     "ppsf": 327,
-     "mi": 0.16
-    },
-    {
-     "slug": "140-courtland-avenue-stamford-connecticut-24169148",
-     "addr": "140 Courtland Avenue",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1915.0,
-     "price": 875000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-03",
-     "ppsf": 457,
-     "mi": 0.17
-    },
-    {
-     "slug": "13-hamilton-avenue-stamford-connecticut-24179455",
-     "addr": "13 Hamilton Avenue",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1232.0,
-     "price": 760010.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-31",
-     "ppsf": 617,
-     "mi": 0.33
-    },
-    {
-     "slug": "30-lenox-avenue-stamford-connecticut-24169364",
-     "addr": "30 Lenox Avenue",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 2172.0,
-     "price": 650000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-31",
-     "ppsf": 299,
-     "mi": 0.34
-    },
-    {
-     "slug": "91-clovelly-road-stamford-connecticut-24165898",
-     "addr": "91 Clovelly Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 2580.0,
-     "price": 785000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-27",
-     "ppsf": 304,
-     "mi": 0.43
-    },
-    {
-     "slug": "29-waterbury-avenue-stamford-connecticut-24155116",
-     "addr": "29 Waterbury Avenue",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 2035.0,
-     "price": 710000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-13",
-     "ppsf": 349,
-     "mi": 0.59
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 650000.0,
-    "high": 875000.0,
-    "median": 772505
+ "comps": [
+  {
+   "mls": "24146795",
+   "slug": "46-stafford-road-stamford-connecticut-24146795",
+   "address": {
+    "line": "46 Stafford Road",
+    "unit": null,
+    "lineWithUnit": "46 Stafford Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 1.0,
+   "sqft": 1292.0,
+   "price": 583000.0,
+   "date": "2026-03-26",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.055174,
+    "lng": -73.517312
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.055054896914699,
+   "ppsf": 451.23839009287923
+  },
+  {
+   "mls": "24153540",
+   "slug": "29-quintard-terrace-stamford-connecticut-24153540",
+   "address": {
+    "line": "29 Quintard Terrace",
+    "unit": null,
+    "lineWithUnit": "29 Quintard Terrace",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 3.0,
+   "baths": 1.0,
+   "sqft": 1378.0,
+   "price": 700000.0,
+   "date": "2026-04-07",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.056572,
+    "lng": -73.525481
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.136035332390388,
+   "ppsf": 507.98258345428155
+  },
+  {
+   "mls": "24174865",
+   "slug": "262-hamilton-avenue-stamford-connecticut-24174865",
+   "address": {
+    "line": "262 Hamilton Avenue",
+    "unit": null,
+    "lineWithUnit": "262 Hamilton Avenue",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 4.0,
+   "baths": 2.0,
+   "sqft": 1509.0,
+   "price": 630000.0,
+   "date": "2026-07-27",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.064301,
+    "lng": -73.512039
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.43504538694586414,
+   "ppsf": 417.49502982107356
+  },
+  {
+   "mls": "24171612",
+   "slug": "40-cowan-avenue-stamford-connecticut-24171612",
+   "address": {
+    "line": "40 Cowan Avenue",
+    "unit": null,
+    "lineWithUnit": "40 Cowan Avenue",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06906"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1344.0,
+   "price": 712000.0,
+   "date": "2026-07-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.064961,
+    "lng": -73.528919
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9825489987772847,
+   "ppsf": 529.7619047619048
+  },
+  {
+   "mls": "24179455",
+   "slug": "13-hamilton-avenue-stamford-connecticut-24179455",
+   "address": {
+    "line": "13 Hamilton Avenue",
+    "unit": null,
+    "lineWithUnit": "13 Hamilton Avenue",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1232.0,
+   "price": 760010.0,
+   "date": "2026-07-31",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.06271,
+    "lng": -73.52307
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5374125012367784,
+   "ppsf": 616.8912337662338
   }
- }
+ ]
 }

@@ -107,101 +107,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "22-harstrom-place-norwalk-connecticut-24143550",
-     "addr": "22 Harstrom Place",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 3.0,
-     "sqft": 2436.0,
-     "price": 2700000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-12",
-     "ppsf": 1108,
-     "mi": 0.27
-    },
-    {
-     "slug": "12-ledge-road-norwalk-connecticut-24167554",
-     "addr": "12 Ledge Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 5.0,
-     "sqft": 4679.0,
-     "price": 3127000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-02",
-     "ppsf": 668,
-     "mi": 0.4
-    },
-    {
-     "slug": "22-ledge-road-norwalk-connecticut-24179195",
-     "addr": "22 Ledge Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 5.0,
-     "sqft": 3434.0,
-     "price": 3000000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-08",
-     "ppsf": 874,
-     "mi": 0.49
-    },
-    {
-     "slug": "90-five-mile-river-road-darien-connecticut-24158599",
-     "addr": "90 Five Mile River Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 5.0,
-     "sqft": 5060.0,
-     "price": 4250000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-08",
-     "ppsf": 840,
-     "mi": 0.55
-    },
-    {
-     "slug": "16-juniper-road-norwalk-connecticut-24156989",
-     "addr": "16 Juniper Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 5.0,
-     "sqft": 4423.0,
-     "price": 6950000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-17",
-     "ppsf": 1571,
-     "mi": 0.7
-    },
-    {
-     "slug": "128-five-mile-river-road-darien-connecticut-24160382",
-     "addr": "128 Five Mile River Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 4.0,
-     "sqft": 2478.0,
-     "price": 3464000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-16",
-     "ppsf": 1398,
-     "mi": 0.72
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 2700000.0,
-    "high": 6950000.0,
-    "median": 3295500
+ "comps": [
+  {
+   "mls": "24182404",
+   "slug": "2-point-road-norwalk-connecticut-24182404",
+   "address": {
+    "line": "2 Point Road",
+    "unit": null,
+    "lineWithUnit": "2 Point Road",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 5.0,
+   "sqft": 4907.0,
+   "price": 3670000.0,
+   "date": "2026-07-22",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.069608,
+    "lng": -73.428199
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 0.7393498006640788,
+   "ppsf": 747.911147340534
+  },
+  {
+   "mls": "24166244",
+   "slug": "12-white-barns-lane-norwalk-connecticut-24166244",
+   "address": {
+    "line": "12 White Barns Lane",
+    "unit": "Unit 12",
+    "lineWithUnit": "12 White Barns Lane Unit 12",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 4.0,
+   "baths": 5.0,
+   "sqft": 4832.0,
+   "price": 1925000.0,
+   "date": "2026-04-19",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.15129,
+    "lng": -73.390205
+   },
+   "klass": "house",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 9.943974821571398,
+   "ppsf": 398.38576158940396
+  },
+  {
+   "mls": "24167554",
+   "slug": "12-ledge-road-norwalk-connecticut-24167554",
+   "address": {
+    "line": "12 Ledge Road",
+    "unit": null,
+    "lineWithUnit": "12 Ledge Road",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06853"
+   },
+   "beds": 5.0,
+   "baths": 5.0,
+   "sqft": 4679.0,
+   "price": 3127000.0,
+   "date": "2026-07-02",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.074719,
+    "lng": -73.438569
+   },
+   "klass": "house",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 0.6382927193663124,
+   "ppsf": 668.3051934173969
+  },
+  {
+   "mls": "24122969",
+   "slug": "13-orchard-hill-road-norwalk-connecticut-24122969",
+   "address": {
+    "line": "13 Orchard Hill Road",
+    "unit": null,
+    "lineWithUnit": "13 Orchard Hill Road",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 4.0,
+   "baths": 5.0,
+   "sqft": 5588.0,
+   "price": 1400000.0,
+   "date": "2026-04-16",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.133669,
+    "lng": -73.385739
+   },
+   "klass": "house",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 8.365858498361368,
+   "ppsf": 250.53686471009306
+  },
+  {
+   "mls": "24147118",
+   "slug": "1-douglas-drive-norwalk-connecticut-24147118",
+   "address": {
+    "line": "1 Douglas Drive",
+    "unit": null,
+    "lineWithUnit": "1 Douglas Drive",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 5.0,
+   "baths": 4.0,
+   "sqft": 5271.0,
+   "price": 1650000.0,
+   "date": "2026-04-13",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.122064,
+    "lng": -73.455472
+   },
+   "klass": "house",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 6.089180693216123,
+   "ppsf": 313.0335799658509
   }
- }
+ ]
 }

@@ -126,125 +126,141 @@
    "walk": 1
   }
  },
- "comps": {
-  "building": {
-   "rows": [
-    {
-     "slug": "7-4th-street-stamford-connecticut-24155626",
-     "addr": "7 4th Street Apt 3H",
-     "unit": "Apt 3H",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 1064.0,
-     "price": 345000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-07",
-     "ppsf": 324
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 345000.0,
-    "high": 345000.0,
-    "median": 345000
+ "comps": [
+  {
+   "mls": "24155626",
+   "slug": "7-4th-street-stamford-connecticut-24155626",
+   "address": {
+    "line": "7 4th Street",
+    "unit": "Apt 3H",
+    "lineWithUnit": "7 4th Street Apt 3H",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
    },
-   "label": "7 4th Street"
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 1064.0,
+   "price": 345000.0,
+   "date": "2026-04-07",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.064379,
+    "lng": -73.544883
+   },
+   "klass": "condo",
+   "tier": 1,
+   "why": "Same building, sold in the last year",
+   "km": 0.0,
+   "ppsf": 324.2481203007519
   },
-  "area": {
-   "rows": [
-    {
-     "slug": "34-4th-street-stamford-connecticut-24151048",
-     "addr": "34 4th Street Unit 34",
-     "unit": "Unit 34",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 1054.0,
-     "price": 393000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-30",
-     "ppsf": 373,
-     "mi": 0.05
-    },
-    {
-     "slug": "1900-summer-street-stamford-connecticut-24179775",
-     "addr": "1900 Summer Street Unit 19",
-     "unit": "Unit 19",
-     "beds": 2.0,
-     "baths": 3.0,
-     "sqft": 1571.0,
-     "price": 640000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-15",
-     "ppsf": 407,
-     "mi": 0.08
-    },
-    {
-     "slug": "118-woodside-green-stamford-connecticut-24154472",
-     "addr": "118 Woodside Green Unit 1A",
-     "unit": "Unit 1A",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1696.0,
-     "price": 420000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-20",
-     "ppsf": 248,
-     "mi": 0.14
-    },
-    {
-     "slug": "1515-summer-street-stamford-connecticut-24155357",
-     "addr": "1515 Summer Street Unit 407",
-     "unit": "Unit 407",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1117.0,
-     "price": 575000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-15",
-     "ppsf": 515,
-     "mi": 0.16
-    },
-    {
-     "slug": "1633-washington-boulevard-stamford-connecticut-24149222",
-     "addr": "1633 Washington Boulevard Apt 3D",
-     "unit": "Apt 3D",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1315.0,
-     "price": 425000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-12",
-     "ppsf": 323,
-     "mi": 0.18
-    },
-    {
-     "slug": "1633-washington-boulevard-stamford-connecticut-24166450",
-     "addr": "1633 Washington Boulevard Unit 4D",
-     "unit": "Unit 4D",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1315.0,
-     "price": 445000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-15",
-     "ppsf": 338,
-     "mi": 0.18
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 393000.0,
-    "high": 640000.0,
-    "median": 435000
+  {
+   "mls": "24150400",
+   "slug": "1400-bedford-street-stamford-connecticut-24150400",
+   "address": {
+    "line": "1400 Bedford Street",
+    "unit": "Unit 11",
+    "lineWithUnit": "1400 Bedford Street Unit 11",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 1268.0,
+   "price": 455000.0,
+   "date": "2026-03-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.063573,
+    "lng": -73.540821
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.3521471188658987,
+   "ppsf": 358.83280757097793
+  },
+  {
+   "mls": "24171671",
+   "slug": "1-broad-street-stamford-connecticut-24171671",
+   "address": {
+    "line": "1 Broad Street",
+    "unit": "Unit 17B",
+    "lineWithUnit": "1 Broad Street Unit 17B",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06901"
+   },
+   "beds": 1.0,
+   "baths": 2.0,
+   "sqft": 1112.0,
+   "price": 545000.0,
+   "date": "2026-06-05",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.055317,
+    "lng": -73.5429
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0212729187787104,
+   "ppsf": 490.10791366906477
+  },
+  {
+   "mls": "24175241",
+   "slug": "91-strawberry-hill-avenue-stamford-connecticut-24175241",
+   "address": {
+    "line": "91 Strawberry Hill Avenue",
+    "unit": "Unit 636",
+    "lineWithUnit": "91 Strawberry Hill Avenue Unit 636",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 875.0,
+   "price": 325000.0,
+   "date": "2026-07-01",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.063897,
+    "lng": -73.532292
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0569660225837878,
+   "ppsf": 371.42857142857144
+  },
+  {
+   "mls": "24174905",
+   "slug": "2289-bedford-street-stamford-connecticut-24174905",
+   "address": {
+    "line": "2289 Bedford Street",
+    "unit": "Unit A9",
+    "lineWithUnit": "2289 Bedford Street Unit A9",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 1.0,
+   "baths": 2.0,
+   "sqft": 1066.0,
+   "price": 480000.0,
+   "date": "2026-07-02",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.068822,
+    "lng": -73.544718
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.49423267563313195,
+   "ppsf": 450.281425891182
   }
- }
+ ]
 }

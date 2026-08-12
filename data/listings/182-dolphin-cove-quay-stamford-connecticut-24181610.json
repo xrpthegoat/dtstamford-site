@@ -141,44 +141,141 @@
    "mi": 1.51
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "19-burwood-avenue-stamford-connecticut-24169816",
-     "addr": "19 Burwood Avenue",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 2.0,
-     "sqft": 1608.0,
-     "price": 875000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-17",
-     "ppsf": 544,
-     "mi": 0.51
-    },
-    {
-     "slug": "67-benjamin-street-greenwich-connecticut-24189215",
-     "addr": "67 Benjamin Street",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2346.0,
-     "price": 2995000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 1277,
-     "mi": 0.69
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 875000.0,
-    "high": 875000.0,
-    "median": 875000
+ "comps": [
+  {
+   "mls": "24174434",
+   "slug": "250-davenport-drive-stamford-connecticut-24174434",
+   "address": {
+    "line": "250 Davenport Drive",
+    "unit": null,
+    "lineWithUnit": "250 Davenport Drive",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 2858.0,
+   "price": 6014250.0,
+   "date": "2026-06-29",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.026613,
+    "lng": -73.545154
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.24413287988244736,
+   "ppsf": 2104.3561931420572
+  },
+  {
+   "mls": "24125614",
+   "slug": "64-ocean-drive-east-stamford-connecticut-24125614",
+   "address": {
+    "line": "64 Ocean Drive East",
+    "unit": null,
+    "lineWithUnit": "64 Ocean Drive East",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 3132.0,
+   "price": 2775000.0,
+   "date": "2026-06-22",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.032488,
+    "lng": -73.522358
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.264484130580271,
+   "ppsf": 886.0153256704981
+  },
+  {
+   "mls": "24155326",
+   "slug": "242-ocean-drive-west-stamford-connecticut-24155326",
+   "address": {
+    "line": "242 Ocean Drive West",
+    "unit": null,
+    "lineWithUnit": "242 Ocean Drive West",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 7.0,
+   "baths": 6.0,
+   "sqft": 4208.0,
+   "price": 3250000.0,
+   "date": "2026-06-29",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.024602,
+    "lng": -73.528494
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.6291622953412328,
+   "ppsf": 772.3384030418251
+  },
+  {
+   "mls": "24161501",
+   "slug": "1073-shippan-avenue-stamford-connecticut-24161501",
+   "address": {
+    "line": "1073 Shippan Avenue",
+    "unit": null,
+    "lineWithUnit": "1073 Shippan Avenue",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 5.0,
+   "baths": 3.0,
+   "sqft": 3216.0,
+   "price": 1125000.0,
+   "date": "2026-07-27",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.037556,
+    "lng": -73.5278
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.1309537520860684,
+   "ppsf": 349.8134328358209
+  },
+  {
+   "mls": "24163103",
+   "slug": "30-dee-lane-stamford-connecticut-24163103",
+   "address": {
+    "line": "30 Dee Lane",
+    "unit": null,
+    "lineWithUnit": "30 Dee Lane",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 5.0,
+   "baths": 3.0,
+   "sqft": 2444.0,
+   "price": 986000.0,
+   "date": "2026-05-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.031641,
+    "lng": -73.555239
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 0.8986861847550949,
+   "ppsf": 403.4369885433715
   }
- }
+ ]
 }

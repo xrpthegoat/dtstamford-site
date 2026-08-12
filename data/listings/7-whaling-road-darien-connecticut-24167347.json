@@ -134,68 +134,141 @@
    "mi": 1.33
   }
  },
- "comps": {
-  "building": {
-   "rows": [
-    {
-     "slug": "7-whaling-road-darien-connecticut-24167001",
-     "addr": "7 Whaling Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 6.0,
-     "sqft": 6748.0,
-     "price": 45000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-08",
-     "ppsf": 7
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 45000.0,
-    "high": 45000.0,
-    "median": 45000
+ "comps": [
+  {
+   "mls": "24125570",
+   "slug": "531-hollow-tree-ridge-road-darien-connecticut-24125570",
+   "address": {
+    "line": "531 Hollow Tree Ridge Road",
+    "unit": null,
+    "lineWithUnit": "531 Hollow Tree Ridge Road",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
    },
-   "label": "7 Whaling Road"
+   "beds": 6.0,
+   "baths": 4.0,
+   "sqft": 5577.0,
+   "price": 9400.0,
+   "date": "2026-03-15",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.094215,
+    "lng": -73.501431
+   },
+   "klass": "rental",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 4.592669050351157,
+   "ppsf": 1.6854939931863009
   },
-  "area": {
-   "rows": [
-    {
-     "slug": "31-harbor-road-darien-connecticut-24178361",
-     "addr": "31 Harbor Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 6.0,
-     "sqft": 4317.0,
-     "price": 17000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-17",
-     "ppsf": 4,
-     "mi": 0.4
-    },
-    {
-     "slug": "9-tory-hole-road-darien-connecticut-24176123",
-     "addr": "9 Tory Hole Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 4.0,
-     "sqft": 3553.0,
-     "price": 20000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 6,
-     "mi": 0.58
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 17000.0,
-    "high": 17000.0,
-    "median": 17000
+  {
+   "mls": "24164970",
+   "slug": "75-hanson-road-darien-connecticut-24164970",
+   "address": {
+    "line": "75 Hanson Road",
+    "unit": null,
+    "lineWithUnit": "75 Hanson Road",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
    },
-   "radiusMi": 0.75
+   "beds": 5.0,
+   "baths": 6.0,
+   "sqft": 4948.0,
+   "price": 30000.0,
+   "date": "2026-07-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.09043,
+    "lng": -73.49136
+   },
+   "klass": "rental",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 3.840822544861377,
+   "ppsf": 6.063055780113177
+  },
+  {
+   "mls": "24174538",
+   "slug": "14-deerfield-road-darien-connecticut-24174538",
+   "address": {
+    "line": "14 Deerfield Road",
+    "unit": null,
+    "lineWithUnit": "14 Deerfield Road",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 6.0,
+   "baths": 5.0,
+   "sqft": 4872.0,
+   "price": 17500.0,
+   "date": "2026-06-15",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.084438,
+    "lng": -73.451752
+   },
+   "klass": "rental",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 3.4365354943376203,
+   "ppsf": 3.5919540229885056
+  },
+  {
+   "mls": "24175193",
+   "slug": "142-brookside-road-darien-connecticut-24175193",
+   "address": {
+    "line": "142 Brookside Road",
+    "unit": null,
+    "lineWithUnit": "142 Brookside Road",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 5.0,
+   "baths": 5.0,
+   "sqft": 4524.0,
+   "price": 20000.0,
+   "date": "2026-08-07",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.092813,
+    "lng": -73.467162
+   },
+   "klass": "rental",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 3.861295925705787,
+   "ppsf": 4.420866489832007
+  },
+  {
+   "mls": "24171812",
+   "slug": "93-mansfield-avenue-darien-connecticut-24171812",
+   "address": {
+    "line": "93 Mansfield Avenue",
+    "unit": null,
+    "lineWithUnit": "93 Mansfield Avenue",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 5.0,
+   "baths": 6.0,
+   "sqft": 5220.0,
+   "price": 21000.0,
+   "date": "2026-08-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.083122,
+    "lng": -73.47222
+   },
+   "klass": "rental",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 2.745145038118176,
+   "ppsf": 4.022988505747127
   }
- }
+ ]
 }

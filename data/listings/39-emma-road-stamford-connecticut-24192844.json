@@ -111,85 +111,141 @@
    "mi": 1.53
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "122-berrian-road-stamford-connecticut-24184254",
-     "addr": "122 Berrian Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 3.0,
-     "sqft": 2576.0,
-     "price": 1245000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-31",
-     "ppsf": 483,
-     "mi": 0.48
-    },
-    {
-     "slug": "26-three-lakes-drive-stamford-connecticut-24165438",
-     "addr": "26 Three Lakes Drive",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 3.0,
-     "sqft": 2251.0,
-     "price": 986000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-04",
-     "ppsf": 438,
-     "mi": 0.69
-    },
-    {
-     "slug": "33-club-circle-stamford-connecticut-24172577",
-     "addr": "33 Club Circle",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 4.0,
-     "sqft": 4192.0,
-     "price": 1503000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-03",
-     "ppsf": 359,
-     "mi": 0.73
-    },
-    {
-     "slug": "6-walnut-ridge-court-stamford-connecticut-24172829",
-     "addr": "6 Walnut Ridge Court",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 5.0,
-     "sqft": 4278.0,
-     "price": 1849000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 432,
-     "mi": 0.54
-    },
-    {
-     "slug": "12-walnut-ridge-court-stamford-connecticut-24172831",
-     "addr": "12 Walnut Ridge Court",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 4.0,
-     "sqft": 3119.0,
-     "price": 1495000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 479,
-     "mi": 0.54
-    }
-   ],
-   "summary": {
-    "n": 3,
-    "low": 986000.0,
-    "high": 1503000.0,
-    "median": 1245000
+ "comps": [
+  {
+   "mls": "24171481",
+   "slug": "11-barmore-drive-west-stamford-connecticut-24171481",
+   "address": {
+    "line": "11 Barmore Drive West",
+    "unit": null,
+    "lineWithUnit": "11 Barmore Drive West",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1870.0,
+   "price": 665555.0,
+   "date": "2026-06-26",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.102052,
+    "lng": -73.542941
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0131586286840133,
+   "ppsf": 355.9117647058824
+  },
+  {
+   "mls": "24166996",
+   "slug": "79-loughran-avenue-stamford-connecticut-24166996",
+   "address": {
+    "line": "79 Loughran Avenue",
+    "unit": null,
+    "lineWithUnit": "79 Loughran Avenue",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 1576.0,
+   "price": 725000.0,
+   "date": "2026-06-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.09961,
+    "lng": -73.561727
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1797374091616548,
+   "ppsf": 460.0253807106599
+  },
+  {
+   "mls": "24170879",
+   "slug": "257-silver-hill-lane-stamford-connecticut-24170879",
+   "address": {
+    "line": "257 Silver Hill Lane",
+    "unit": null,
+    "lineWithUnit": "257 Silver Hill Lane",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2269.0,
+   "price": 1075000.0,
+   "date": "2026-07-10",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.085709,
+    "lng": -73.543935
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.070596561359692,
+   "ppsf": 473.7769942706038
+  },
+  {
+   "mls": "24144777",
+   "slug": "55-merriman-road-stamford-connecticut-24144777",
+   "address": {
+    "line": "55 Merriman Road",
+    "unit": null,
+    "lineWithUnit": "55 Merriman Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1644.0,
+   "price": 620000.0,
+   "date": "2026-04-09",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.100722,
+    "lng": -73.5453
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7866731128992707,
+   "ppsf": 377.12895377128956
+  },
+  {
+   "mls": "24154789",
+   "slug": "62-ridge-park-avenue-stamford-connecticut-24154789",
+   "address": {
+    "line": "62 Ridge Park Avenue",
+    "unit": null,
+    "lineWithUnit": "62 Ridge Park Avenue",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1609.0,
+   "price": 715000.0,
+   "date": "2026-03-24",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.09161,
+    "lng": -73.549612
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.30878255708291424,
+   "ppsf": 444.37538844002484
   }
- }
+ ]
 }

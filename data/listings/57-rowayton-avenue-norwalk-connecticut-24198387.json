@@ -132,99 +132,141 @@
    "mi": 1.84
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "22-craw-avenue-norwalk-connecticut-24167126",
-     "addr": "22 Craw Avenue",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 4.0,
-     "sqft": 3117.0,
-     "price": 3900000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-24",
-     "ppsf": 1251,
-     "mi": 0.1
-    },
-    {
-     "slug": "6-richmond-road-norwalk-connecticut-24150853",
-     "addr": "6 Richmond Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 2171.0,
-     "price": 2400000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-14",
-     "ppsf": 1105,
-     "mi": 0.13
-    },
-    {
-     "slug": "35-yarmouth-road-norwalk-connecticut-24175145",
-     "addr": "35 Yarmouth Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 2435.0,
-     "price": 3810000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-16",
-     "ppsf": 1565,
-     "mi": 0.6
-    },
-    {
-     "slug": "26-flicker-lane-norwalk-connecticut-24167420",
-     "addr": "26 Flicker Lane",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1408.0,
-     "price": 2000000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-22",
-     "ppsf": 1420,
-     "mi": 0.73
-    },
-    {
-     "slug": "32-nearwater-road-norwalk-connecticut-24157507",
-     "addr": "32 Nearwater Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 2442.0,
-     "price": 3000000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 1229,
-     "mi": 0.52
-    },
-    {
-     "slug": "5-yarmouth-road-norwalk-connecticut-24171728",
-     "addr": "5 Yarmouth Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1704.0,
-     "price": 2725000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 1599,
-     "mi": 0.62
-    }
-   ],
-   "summary": {
-    "n": 4,
-    "low": 2000000.0,
-    "high": 3900000.0,
-    "median": 3105000
+ "comps": [
+  {
+   "mls": "24156989",
+   "slug": "16-juniper-road-norwalk-connecticut-24156989",
+   "address": {
+    "line": "16 Juniper Road",
+    "unit": null,
+    "lineWithUnit": "16 Juniper Road",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06853"
    },
-   "radiusMi": 0.75
+   "beds": 5.0,
+   "baths": 5.0,
+   "sqft": 4423.0,
+   "price": 6950000.0,
+   "date": "2026-06-17",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.060294,
+    "lng": -73.443687
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.27654785261609777,
+   "ppsf": 1571.331675333484
+  },
+  {
+   "mls": "24155353",
+   "slug": "13-pond-street-norwalk-connecticut-24155353",
+   "address": {
+    "line": "13 Pond Street",
+    "unit": null,
+    "lineWithUnit": "13 Pond Street",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06853"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 3188.0,
+   "price": 3475000.0,
+   "date": "2026-05-14",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.064312,
+    "lng": -73.442
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.37799302999418616,
+   "ppsf": 1090.0250941028858
+  },
+  {
+   "mls": "24170910",
+   "slug": "20-roton-avenue-norwalk-connecticut-24170910",
+   "address": {
+    "line": "20 Roton Avenue",
+    "unit": null,
+    "lineWithUnit": "20 Roton Avenue",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06853"
+   },
+   "beds": 4.0,
+   "baths": 5.0,
+   "sqft": 4006.0,
+   "price": 2450000.0,
+   "date": "2026-08-07",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.066048,
+    "lng": -73.440463
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6013429255763242,
+   "ppsf": 611.5826260609086
+  },
+  {
+   "mls": "24164170",
+   "slug": "50-roton-avenue-norwalk-connecticut-24164170",
+   "address": {
+    "line": "50 Roton Avenue",
+    "unit": null,
+    "lineWithUnit": "50 Roton Avenue",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06853"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 3366.0,
+   "price": 3600000.0,
+   "date": "2026-05-22",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.063327,
+    "lng": -73.44126
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.3841319714845182,
+   "ppsf": 1069.51871657754
+  },
+  {
+   "mls": "24151095",
+   "slug": "40-tory-hill-lane-norwalk-connecticut-24151095",
+   "address": {
+    "line": "40 Tory Hill Lane",
+    "unit": null,
+    "lineWithUnit": "40 Tory Hill Lane",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06853"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 3354.0,
+   "price": 1500000.0,
+   "date": "2026-03-31",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.073395,
+    "lng": -73.43173
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.697240660211702,
+   "ppsf": 447.2271914132379
   }
- }
+ ]
 }

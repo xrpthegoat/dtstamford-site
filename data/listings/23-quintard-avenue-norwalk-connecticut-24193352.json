@@ -117,101 +117,141 @@
    "mi": 1.49
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "2-lowndes-avenue-norwalk-connecticut-24156436",
-     "addr": "2 Lowndes Avenue Unit 2",
-     "unit": "Unit 2",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 1721.0,
-     "price": 2450.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-11",
-     "ppsf": 1,
-     "mi": 0.27
-    },
-    {
-     "slug": "19-day-street-norwalk-connecticut-24147318",
-     "addr": "19 Day Street Unit 311",
-     "unit": "Unit 311",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1341.0,
-     "price": 3500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-16",
-     "ppsf": 3,
-     "mi": 0.42
-    },
-    {
-     "slug": "19-day-street-norwalk-connecticut-24147317",
-     "addr": "19 Day Street Unit 402",
-     "unit": "Unit 402",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1086.0,
-     "price": 3100.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-28",
-     "ppsf": 3,
-     "mi": 0.42
-    },
-    {
-     "slug": "70-south-main-street-norwalk-connecticut-24159755",
-     "addr": "70 South Main Street Unit 3B",
-     "unit": "Unit 3B",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 890.0,
-     "price": 2800.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-11",
-     "ppsf": 3,
-     "mi": 0.5
-    },
-    {
-     "slug": "70-south-main-street-norwalk-connecticut-24159738",
-     "addr": "70 South Main Street Unit 3D",
-     "unit": "Unit 3D",
-     "beds": 2.0,
-     "baths": 4.0,
-     "sqft": 2000.0,
-     "price": 4500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-11",
-     "ppsf": 2,
-     "mi": 0.5
-    },
-    {
-     "slug": "8-haviland-street-norwalk-connecticut-24170015",
-     "addr": "8 Haviland Street Unit A",
-     "unit": "Unit A",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 1100.0,
-     "price": 2900.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-02",
-     "ppsf": 3,
-     "mi": 0.54
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 2450.0,
-    "high": 4500.0,
-    "median": 3000
+ "comps": [
+  {
+   "mls": "24147318",
+   "slug": "19-day-street-norwalk-connecticut-24147318",
+   "address": {
+    "line": "19 Day Street",
+    "unit": "Unit 311",
+    "lineWithUnit": "19 Day Street Unit 311",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1341.0,
+   "price": 3500.0,
+   "date": "2026-03-16",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.095734,
+    "lng": -73.4181
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6830533653950673,
+   "ppsf": 2.609992542878449
+  },
+  {
+   "mls": "24147317",
+   "slug": "19-day-street-norwalk-connecticut-24147317",
+   "address": {
+    "line": "19 Day Street",
+    "unit": "Unit 402",
+    "lineWithUnit": "19 Day Street Unit 402",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1086.0,
+   "price": 3100.0,
+   "date": "2026-04-28",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.095734,
+    "lng": -73.4181
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6830533653950673,
+   "ppsf": 2.85451197053407
+  },
+  {
+   "mls": "24160880",
+   "slug": "11-sable-street-norwalk-connecticut-24160880",
+   "address": {
+    "line": "11 sable Street",
+    "unit": "Unit 2",
+    "lineWithUnit": "11 sable Street Unit 2",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 3.0,
+   "baths": 1.0,
+   "sqft": 900.0,
+   "price": 2800.0,
+   "date": "2026-04-30",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.082823,
+    "lng": -73.414504
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8384782232276027,
+   "ppsf": 3.111111111111111
+  },
+  {
+   "mls": "24147839",
+   "slug": "7-hamilton-avenue-norwalk-connecticut-24147839",
+   "address": {
+    "line": "7 Hamilton Avenue",
+    "unit": "Unit 32",
+    "lineWithUnit": "7 Hamilton Avenue Unit 32",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 980.0,
+   "price": 2975.0,
+   "date": "2026-06-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.095391,
+    "lng": -73.424388
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0240103379367993,
+   "ppsf": 3.0357142857142856
+  },
+  {
+   "mls": "24159755",
+   "slug": "70-south-main-street-norwalk-connecticut-24159755",
+   "address": {
+    "line": "70 South Main Street",
+    "unit": "Unit 3B",
+    "lineWithUnit": "70 South Main Street Unit 3B",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 890.0,
+   "price": 2800.0,
+   "date": "2026-06-11",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.09669,
+    "lng": -73.41868
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7996472222291339,
+   "ppsf": 3.146067415730337
   }
- }
+ ]
 }

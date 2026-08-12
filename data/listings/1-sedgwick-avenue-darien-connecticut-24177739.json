@@ -132,31 +132,33 @@
    "walk": 7
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "6-ward-lane-darien-connecticut-24153329",
-     "addr": "6 Ward Lane Unit 6",
-     "unit": "Unit 6",
-     "beds": 1.0,
-     "baths": 2.0,
-     "sqft": 900.0,
-     "price": 737000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-17",
-     "ppsf": 819,
-     "mi": 0.43
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 737000.0,
-    "high": 737000.0,
-    "median": 737000
+ "comps": [
+  {
+   "mls": "24153329",
+   "slug": "6-ward-lane-darien-connecticut-24153329",
+   "address": {
+    "line": "6 Ward Lane",
+    "unit": "Unit 6",
+    "lineWithUnit": "6 Ward Lane Unit 6",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
    },
-   "radiusMi": 0.75
+   "beds": 1.0,
+   "baths": 2.0,
+   "sqft": 900.0,
+   "price": 737000.0,
+   "date": "2026-03-17",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.084183,
+    "lng": -73.463724
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7000026254188622,
+   "ppsf": 818.8888888888889
   }
- }
+ ]
 }

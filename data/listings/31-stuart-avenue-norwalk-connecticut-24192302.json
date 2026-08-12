@@ -124,125 +124,141 @@
    "walk": 7
   }
  },
- "comps": {
-  "building": {
-   "rows": [
-    {
-     "slug": "31-stuart-avenue-norwalk-connecticut-24191287",
-     "addr": "31 Stuart Avenue Unit 4",
-     "unit": "Unit 4",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 881.0,
-     "price": 2600.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-01",
-     "ppsf": 3
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 2600.0,
-    "high": 2600.0,
-    "median": 2600
+ "comps": [
+  {
+   "mls": "24191287",
+   "slug": "31-stuart-avenue-norwalk-connecticut-24191287",
+   "address": {
+    "line": "31 Stuart Avenue",
+    "unit": "Unit 4",
+    "lineWithUnit": "31 Stuart Avenue Unit 4",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
    },
-   "label": "31 Stuart Avenue"
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 881.0,
+   "price": 2600.0,
+   "date": "2026-08-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.107638,
+    "lng": -73.424055
+   },
+   "klass": "rental",
+   "tier": 1,
+   "why": "Same building, sold in the last year",
+   "km": 0.0,
+   "ppsf": 2.9511918274687856
   },
-  "area": {
-   "rows": [
-    {
-     "slug": "71-connecticut-avenue-norwalk-connecticut-24158357",
-     "addr": "71 Connecticut Avenue Unit 301",
-     "unit": "Unit 301",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1049.0,
-     "price": 2950.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-30",
-     "ppsf": 3,
-     "mi": 0.06
-    },
-    {
-     "slug": "14-hyatt-avenue-norwalk-connecticut-24192159",
-     "addr": "14 Hyatt Avenue Unit A2",
-     "unit": "Unit A2",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1400.0,
-     "price": 2995.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-16",
-     "ppsf": 2,
-     "mi": 0.19
-    },
-    {
-     "slug": "5-phillips-street-norwalk-connecticut-24195195",
-     "addr": "5 Phillips Street Unit B4",
-     "unit": "Unit B4",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1400.0,
-     "price": 3000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-05",
-     "ppsf": 2,
-     "mi": 0.19
-    },
-    {
-     "slug": "4-glenwood-avenue-norwalk-connecticut-24168042",
-     "addr": "4 Glenwood Avenue Unit B7",
-     "unit": "Unit B7",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 787.0,
-     "price": 2450.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-01",
-     "ppsf": 3,
-     "mi": 0.19
-    },
-    {
-     "slug": "16-glenwood-avenue-norwalk-connecticut-24173889",
-     "addr": "16 Glenwood Avenue Unit 10",
-     "unit": "Unit 10",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 2242.0,
-     "price": 2295.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-12",
-     "ppsf": 1,
-     "mi": 0.2
-    },
-    {
-     "slug": "16-glenwood-avenue-norwalk-connecticut-24186819",
-     "addr": "16 Glenwood Avenue Unit 7",
-     "unit": "Unit 7",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1250.0,
-     "price": 2395.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-08",
-     "ppsf": 2,
-     "mi": 0.2
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 2295.0,
-    "high": 3000.0,
-    "median": 2700
+  {
+   "mls": "24154959",
+   "slug": "24-ferris-avenue-norwalk-connecticut-24154959",
+   "address": {
+    "line": "24 Ferris Avenue",
+    "unit": "Unit 2",
+    "lineWithUnit": "24 Ferris Avenue Unit 2",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 900.0,
+   "price": 2195.0,
+   "date": "2026-03-18",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.10736,
+    "lng": -73.42941
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.44972086038306264,
+   "ppsf": 2.438888888888889
+  },
+  {
+   "mls": "24161811",
+   "slug": "44-stuart-avenue-norwalk-connecticut-24161811",
+   "address": {
+    "line": "44 Stuart Avenue",
+    "unit": "Unit B3",
+    "lineWithUnit": "44 Stuart Avenue Unit B3",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 750.0,
+   "price": 2195.0,
+   "date": "2026-04-08",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.108795,
+    "lng": -73.42396
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.12889850161690372,
+   "ppsf": 2.9266666666666667
+  },
+  {
+   "mls": "24161814",
+   "slug": "15-arch-street-norwalk-connecticut-24161814",
+   "address": {
+    "line": "15 Arch Street",
+    "unit": "Unit C1",
+    "lineWithUnit": "15 Arch Street Unit C1",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 750.0,
+   "price": 2195.0,
+   "date": "2026-04-22",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.112892,
+    "lng": -73.41817
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7644609952298377,
+   "ppsf": 2.9266666666666667
+  },
+  {
+   "mls": "24147701",
+   "slug": "84-taylor-avenue-norwalk-connecticut-24147701",
+   "address": {
+    "line": "84 Taylor Avenue",
+    "unit": "Apt 1",
+    "lineWithUnit": "84 Taylor Avenue Apt 1",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1106.0,
+   "price": 3400.0,
+   "date": "2026-04-06",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.101949,
+    "lng": -73.429813
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.795561042076654,
+   "ppsf": 3.0741410488245933
   }
- }
+ ]
 }

@@ -122,125 +122,141 @@
    "mi": 0.7
   }
  },
- "comps": {
-  "building": {
-   "rows": [
-    {
-     "slug": "16-18-ann-street-norwalk-connecticut-24189278",
-     "addr": "16-18 Ann Street Unit 35",
-     "unit": "Unit 35",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 672.0,
-     "price": 2300.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-10",
-     "ppsf": 3
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 2300.0,
-    "high": 2300.0,
-    "median": 2300
+ "comps": [
+  {
+   "mls": "24189278",
+   "slug": "16-18-ann-street-norwalk-connecticut-24189278",
+   "address": {
+    "line": "16-18 Ann Street",
+    "unit": "Unit 35",
+    "lineWithUnit": "16-18 Ann Street Unit 35",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
    },
-   "label": "16-18 Ann Street"
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 672.0,
+   "price": 2300.0,
+   "date": "2026-08-10",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.101381,
+    "lng": -73.418276
+   },
+   "klass": "rental",
+   "tier": 1,
+   "why": "Same building, sold in the last year",
+   "km": 0.0,
+   "ppsf": 3.4226190476190474
   },
-  "area": {
-   "rows": [
-    {
-     "slug": "10-ann-street-norwalk-connecticut-24143420",
-     "addr": "10 Ann Street Apt 102",
-     "unit": "Apt 102",
-     "beds": 1.0,
-     "baths": 2.0,
-     "sqft": 1016.0,
-     "price": 2500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-20",
-     "ppsf": 2,
-     "mi": 0.03
-    },
-    {
-     "slug": "10-ann-street-norwalk-connecticut-24165380",
-     "addr": "10 Ann Street Unit 108",
-     "unit": "Unit 108",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 900.0,
-     "price": 2550.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-01",
-     "ppsf": 3,
-     "mi": 0.03
-    },
-    {
-     "slug": "10-ann-street-norwalk-connecticut-24163185",
-     "addr": "10 Ann Street Unit 201",
-     "unit": "Unit 201",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 834.0,
-     "price": 2450.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-15",
-     "ppsf": 3,
-     "mi": 0.05
-    },
-    {
-     "slug": "93-north-main-street-norwalk-connecticut-24188765",
-     "addr": "93 North Main Street Unit A",
-     "unit": "Unit A",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 890.0,
-     "price": 2300.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-01",
-     "ppsf": 3,
-     "mi": 0.07
-    },
-    {
-     "slug": "14-16-north-main-street-norwalk-connecticut-24158401",
-     "addr": "14-16 North Main Street Unit 3H",
-     "unit": "Unit 3H",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 795.0,
-     "price": 2400.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-01",
-     "ppsf": 3,
-     "mi": 0.14
-    },
-    {
-     "slug": "125-washington-street-norwalk-connecticut-24156987",
-     "addr": "125 Washington Street Apt 203",
-     "unit": "Apt 203",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 762.0,
-     "price": 2450.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-01",
-     "ppsf": 3,
-     "mi": 0.17
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 2300.0,
-    "high": 2550.0,
-    "median": 2450
+  {
+   "mls": "24154959",
+   "slug": "24-ferris-avenue-norwalk-connecticut-24154959",
+   "address": {
+    "line": "24 Ferris Avenue",
+    "unit": "Unit 2",
+    "lineWithUnit": "24 Ferris Avenue Unit 2",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 900.0,
+   "price": 2195.0,
+   "date": "2026-03-18",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.10736,
+    "lng": -73.42941
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1455457920908823,
+   "ppsf": 2.438888888888889
+  },
+  {
+   "mls": "24161811",
+   "slug": "44-stuart-avenue-norwalk-connecticut-24161811",
+   "address": {
+    "line": "44 Stuart Avenue",
+    "unit": "Unit B3",
+    "lineWithUnit": "44 Stuart Avenue Unit B3",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 750.0,
+   "price": 2195.0,
+   "date": "2026-04-08",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.108795,
+    "lng": -73.42396
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9520702928679612,
+   "ppsf": 2.9266666666666667
+  },
+  {
+   "mls": "24151683",
+   "slug": "49-osborne-avenue-norwalk-connecticut-24151683",
+   "address": {
+    "line": "49 Osborne Avenue",
+    "unit": null,
+    "lineWithUnit": "49 Osborne Avenue",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06855"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 850.0,
+   "price": 2100.0,
+   "date": "2026-04-18",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.103949,
+    "lng": -73.408219
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8897327518771332,
+   "ppsf": 2.4705882352941178
+  },
+  {
+   "mls": "24128453",
+   "slug": "2-south-main-street-norwalk-connecticut-24128453",
+   "address": {
+    "line": "2 South Main Street",
+    "unit": "Unit W201",
+    "lineWithUnit": "2 South Main Street Unit W201",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 671.0,
+   "price": 2400.0,
+   "date": "2026-03-31",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.09887,
+    "lng": -73.41873
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.28179008411728274,
+   "ppsf": 3.5767511177347244
   }
- }
+ ]
 }

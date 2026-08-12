@@ -126,101 +126,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "119-harrison-avenue-new-canaan-connecticut-24169246",
-     "addr": "119 Harrison Avenue",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 6.0,
-     "sqft": 7041.0,
-     "price": 3900000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-23",
-     "ppsf": 554,
-     "mi": 0.14
-    },
-    {
-     "slug": "30-elm-place-new-canaan-connecticut-24166678",
-     "addr": "30 Elm Place",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 5.0,
-     "sqft": 5116.0,
-     "price": 4400000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-19",
-     "ppsf": 860,
-     "mi": 0.39
-    },
-    {
-     "slug": "317-park-street-new-canaan-connecticut-24091413",
-     "addr": "317 Park Street",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 8.0,
-     "sqft": 6624.0,
-     "price": 3700000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-16",
-     "ppsf": 559,
-     "mi": 0.51
-    },
-    {
-     "slug": "33-village-drive-new-canaan-connecticut-24170801",
-     "addr": "33 Village Drive",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 3.0,
-     "sqft": 3109.0,
-     "price": 2300000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-10",
-     "ppsf": 740,
-     "mi": 0.56
-    },
-    {
-     "slug": "25-gower-street-new-canaan-connecticut-24126368",
-     "addr": "25 Gower Street",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 8.0,
-     "sqft": 6322.0,
-     "price": 4555000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-10",
-     "ppsf": 720,
-     "mi": 0.65
-    },
-    {
-     "slug": "26-farm-road-new-canaan-connecticut-24162098",
-     "addr": "26 Farm Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 5.0,
-     "sqft": 5076.0,
-     "price": 2785000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-10",
-     "ppsf": 549,
-     "mi": 0.7
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 2300000.0,
-    "high": 4555000.0,
-    "median": 3800000
+ "comps": [
+  {
+   "mls": "24128764",
+   "slug": "180-summer-street-new-canaan-connecticut-24128764",
+   "address": {
+    "line": "180 Summer Street",
+    "unit": null,
+    "lineWithUnit": "180 Summer Street",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2747.0,
+   "price": 1450000.0,
+   "date": "2026-03-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.146023,
+    "lng": -73.486778
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.357043255760424,
+   "ppsf": 527.8485620677102
+  },
+  {
+   "mls": "24156389",
+   "slug": "6-field-crest-road-new-canaan-connecticut-24156389",
+   "address": {
+    "line": "6 Field Crest Road",
+    "unit": null,
+    "lineWithUnit": "6 Field Crest Road",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2442.0,
+   "price": 1866800.0,
+   "date": "2026-06-26",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.132884,
+    "lng": -73.486434
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1067100597283885,
+   "ppsf": 764.4553644553645
+  },
+  {
+   "mls": "24165203",
+   "slug": "45-seminary-street-new-canaan-connecticut-24165203",
+   "address": {
+    "line": "45 Seminary Street",
+    "unit": null,
+    "lineWithUnit": "45 Seminary Street",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2455.0,
+   "price": 1605290.0,
+   "date": "2026-07-13",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.147044,
+    "lng": -73.497832
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0761919898005843,
+   "ppsf": 653.8859470468432
+  },
+  {
+   "mls": "24165503",
+   "slug": "42-old-stamford-road-new-canaan-connecticut-24165503",
+   "address": {
+    "line": "42 Old Stamford Road",
+    "unit": null,
+    "lineWithUnit": "42 Old Stamford Road",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2132.0,
+   "price": 1955000.0,
+   "date": "2026-06-24",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.136345,
+    "lng": -73.494929
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0238190762995776,
+   "ppsf": 916.9793621013133
+  },
+  {
+   "mls": "24146450",
+   "slug": "12-field-crest-road-new-canaan-connecticut-24146450",
+   "address": {
+    "line": "12 Field Crest Road",
+    "unit": null,
+    "lineWithUnit": "12 Field Crest Road",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2160.0,
+   "price": 2200000.0,
+   "date": "2026-04-01",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.133157,
+    "lng": -73.486519
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0764776155241356,
+   "ppsf": 1018.5185185185185
   }
- }
+ ]
 }

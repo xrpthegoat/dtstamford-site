@@ -134,59 +134,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "18-stone-avenue-greenwich-connecticut-24168979",
-     "addr": "18 Stone Avenue Unit 1",
-     "unit": "Unit 1",
-     "beds": 3.0,
-     "baths": 4.0,
-     "sqft": 2082.0,
-     "price": 1081000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-21",
-     "ppsf": 519,
-     "mi": 0.06
-    },
-    {
-     "slug": "328-hamilton-avenue-greenwich-connecticut-24154308",
-     "addr": "328 Hamilton Avenue Unit 4",
-     "unit": "Unit 4",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1604.0,
-     "price": 838000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-11",
-     "ppsf": 522,
-     "mi": 0.43
-    },
-    {
-     "slug": "25-woodland-drive-greenwich-connecticut-24149767",
-     "addr": "25 Woodland Drive Unit C",
-     "unit": "Unit C",
-     "beds": 3.0,
-     "baths": 4.0,
-     "sqft": 3163.0,
-     "price": 2875000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-28",
-     "ppsf": 909,
-     "mi": 0.48
-    }
-   ],
-   "summary": {
-    "n": 3,
-    "low": 838000.0,
-    "high": 2875000.0,
-    "median": 1081000
+ "comps": [
+  {
+   "mls": "24149767",
+   "slug": "25-woodland-drive-greenwich-connecticut-24149767",
+   "address": {
+    "line": "25 Woodland Drive",
+    "unit": "Unit C",
+    "lineWithUnit": "25 Woodland Drive Unit C",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06830"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 4.0,
+   "sqft": 3163.0,
+   "price": 2875000.0,
+   "date": "2026-04-28",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.02164,
+    "lng": -73.62931
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7661169176809846,
+   "ppsf": 908.9472020233956
+  },
+  {
+   "mls": "24168623",
+   "slug": "178-milbank-avenue-greenwich-connecticut-24168623",
+   "address": {
+    "line": "178 Milbank Avenue",
+    "unit": "Unit 2",
+    "lineWithUnit": "178 Milbank Avenue Unit 2",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06830"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2454.0,
+   "price": 2500000.0,
+   "date": "2026-06-22",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.02861,
+    "lng": -73.622406
+   },
+   "klass": "condo",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.6911523769019003,
+   "ppsf": 1018.7449062754687
+  },
+  {
+   "mls": "24154511",
+   "slug": "45-ettl-lane-greenwich-connecticut-24154511",
+   "address": {
+    "line": "45 Ettl Lane",
+    "unit": "Unit 205",
+    "lineWithUnit": "45 Ettl Lane Unit 205",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06831"
+   },
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 2292.0,
+   "price": 1050000.0,
+   "date": "2026-05-29",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.034927,
+    "lng": -73.666815
+   },
+   "klass": "condo",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 3.0737313245312357,
+   "ppsf": 458.1151832460733
+  },
+  {
+   "mls": "24172143",
+   "slug": "1-old-church-road-greenwich-connecticut-24172143",
+   "address": {
+    "line": "1 Old Church Road",
+    "unit": "Unit 6",
+    "lineWithUnit": "1 Old Church Road Unit 6",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06830"
+   },
+   "beds": 3.0,
+   "baths": 4.0,
+   "sqft": 3218.0,
+   "price": 3100000.0,
+   "date": "2026-06-22",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.038148,
+    "lng": -73.616047
+   },
+   "klass": "condo",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 2.8299664621827856,
+   "ppsf": 963.3312616532007
+  },
+  {
+   "mls": "24164788",
+   "slug": "5-glen-street-greenwich-connecticut-24164788",
+   "address": {
+    "line": "5 Glen Street",
+    "unit": "Unit 204",
+    "lineWithUnit": "5 Glen Street Unit 204",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06830"
+   },
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 2004.0,
+   "price": 995000.0,
+   "date": "2026-07-01",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.015706,
+    "lng": -73.639669
+   },
+   "klass": "condo",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 0.3590677150507329,
+   "ppsf": 496.5069860279441
   }
- }
+ ]
 }

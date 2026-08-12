@@ -130,99 +130,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "95-alexandra-drive-stamford-connecticut-24170073",
-     "addr": "95 Alexandra Drive",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 5.0,
-     "sqft": 4312.0,
-     "price": 1200000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-30",
-     "ppsf": 278,
-     "mi": 0.33
-    },
-    {
-     "slug": "95-saddle-hill-road-stamford-connecticut-24168378",
-     "addr": "95 Saddle Hill Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 4.0,
-     "sqft": 3892.0,
-     "price": 1450000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-12",
-     "ppsf": 373,
-     "mi": 0.53
-    },
-    {
-     "slug": "251-saddle-hill-road-stamford-connecticut-24160996",
-     "addr": "251 Saddle Hill Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 3.0,
-     "sqft": 3990.0,
-     "price": 843000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-31",
-     "ppsf": 211,
-     "mi": 0.61
-    },
-    {
-     "slug": "46-breezy-hill-road-stamford-connecticut-24170427",
-     "addr": "46 Breezy Hill Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 4.0,
-     "sqft": 5902.0,
-     "price": 1450000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-01",
-     "ppsf": 246,
-     "mi": 0.7
-    },
-    {
-     "slug": "436-rock-rimmon-road-stamford-connecticut-24194184",
-     "addr": "436 Rock Rimmon Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 6.0,
-     "sqft": 6950.0,
-     "price": 1995000.0,
-     "kind": "asking",
-     "status": "Under Contract - Continue to Show",
-     "ppsf": 287,
-     "mi": 0.42
-    },
-    {
-     "slug": "333-rock-rimmon-road-stamford-connecticut-24195672",
-     "addr": "333 Rock Rimmon Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 6.0,
-     "sqft": 7633.0,
-     "price": 2500000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 328,
-     "mi": 0.43
-    }
-   ],
-   "summary": {
-    "n": 4,
-    "low": 843000.0,
-    "high": 1450000.0,
-    "median": 1325000
+ "comps": [
+  {
+   "mls": "24157712",
+   "slug": "39-mcintosh-road-stamford-connecticut-24157712",
+   "address": {
+    "line": "39 McIntosh Road",
+    "unit": null,
+    "lineWithUnit": "39 McIntosh Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2272.0,
+   "price": 1000000.0,
+   "date": "2026-04-16",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.163434,
+    "lng": -73.567441
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1996885494102028,
+   "ppsf": 440.14084507042253
+  },
+  {
+   "mls": "24174246",
+   "slug": "189-fishing-trail-stamford-connecticut-24174246",
+   "address": {
+    "line": "189 Fishing Trail",
+    "unit": null,
+    "lineWithUnit": "189 Fishing Trail",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2808.0,
+   "price": 1160000.0,
+   "date": "2026-06-29",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.146279,
+    "lng": -73.561397
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7923170341866888,
+   "ppsf": 413.1054131054131
+  },
+  {
+   "mls": "24133749",
+   "slug": "27-wellington-drive-stamford-connecticut-24133749",
+   "address": {
+    "line": "27 Wellington Drive",
+    "unit": null,
+    "lineWithUnit": "27 Wellington Drive",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2402.0,
+   "price": 774000.0,
+   "date": "2026-03-25",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.137419,
+    "lng": -73.573063
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.8253764429176036,
+   "ppsf": 322.23147377185677
+  },
+  {
+   "mls": "24167380",
+   "slug": "80-old-long-ridge-road-stamford-connecticut-24167380",
+   "address": {
+    "line": "80 Old Long Ridge Road",
+    "unit": null,
+    "lineWithUnit": "80 Old Long Ridge Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 2351.0,
+   "price": 995000.0,
+   "date": "2026-07-02",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.144909,
+    "lng": -73.590885
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.31205617580666,
+   "ppsf": 423.22415993194386
+  },
+  {
+   "mls": "24146138",
+   "slug": "106-east-hunting-ridge-road-stamford-connecticut-24146138",
+   "address": {
+    "line": "106 East Hunting Ridge Road",
+    "unit": null,
+    "lineWithUnit": "106 East Hunting Ridge Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
+   },
+   "beds": 4.0,
+   "baths": 2.0,
+   "sqft": 2476.0,
+   "price": 1067000.0,
+   "date": "2026-04-02",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.141283,
+    "lng": -73.570994
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.362225543757063,
+   "ppsf": 430.93699515347333
   }
- }
+ ]
 }

@@ -137,61 +137,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "building": {
-   "rows": [
-    {
-     "slug": "180-turn-of-river-road-stamford-connecticut-24190856",
-     "addr": "180 Turn Of River Road Unit 10D",
-     "unit": "Unit 10D",
-     "beds": 2.0,
-     "baths": 3.0,
-     "sqft": 1945.0,
-     "price": 835000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 429
-    },
-    {
-     "slug": "180-turn-of-river-road-stamford-connecticut-24193358",
-     "addr": "180 Turn Of River Road Unit 1B",
-     "unit": "Unit 1B",
-     "beds": 2.0,
-     "baths": 4.0,
-     "sqft": 1945.0,
-     "price": 764000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 393
-    }
-   ],
-   "summary": null,
-   "label": "180 Turn Of River Road"
-  },
-  "area": {
-   "rows": [
-    {
-     "slug": "865-high-ridge-road-stamford-connecticut-24152488",
-     "addr": "865 High Ridge Road Unit 1",
-     "unit": "Unit 1",
-     "beds": 2.0,
-     "baths": 4.0,
-     "sqft": 2785.0,
-     "price": 910000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-20",
-     "ppsf": 327,
-     "mi": 0.66
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 910000.0,
-    "high": 910000.0,
-    "median": 910000
+ "comps": [
+  {
+   "mls": "24155216",
+   "slug": "95-intervale-road-stamford-connecticut-24155216",
+   "address": {
+    "line": "95 Intervale Road",
+    "unit": "Unit 46",
+    "lineWithUnit": "95 Intervale Road Unit 46",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1700.0,
+   "price": 1000050.0,
+   "date": "2026-04-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.10653521,
+    "lng": -73.5427344
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.4634641430905754,
+   "ppsf": 588.2647058823529
+  },
+  {
+   "mls": "24155518",
+   "slug": "95-intervale-road-stamford-connecticut-24155518",
+   "address": {
+    "line": "95 Intervale Road",
+    "unit": "Unit 40",
+    "lineWithUnit": "95 Intervale Road Unit 40",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1586.0,
+   "price": 925000.0,
+   "date": "2026-05-13",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.106899,
+    "lng": -73.543684
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.39690952936644797,
+   "ppsf": 583.2282471626734
+  },
+  {
+   "mls": "24150400",
+   "slug": "1400-bedford-street-stamford-connecticut-24150400",
+   "address": {
+    "line": "1400 Bedford Street",
+    "unit": "Unit 11",
+    "lineWithUnit": "1400 Bedford Street Unit 11",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 1268.0,
+   "price": 455000.0,
+   "date": "2026-03-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.063573,
+    "lng": -73.540821
+   },
+   "klass": "condo",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 5.20916091951556,
+   "ppsf": 358.83280757097793
+  },
+  {
+   "mls": "24141028",
+   "slug": "100-hope-street-stamford-connecticut-24141028",
+   "address": {
+    "line": "100 Hope Street",
+    "unit": "Apt 10",
+    "lineWithUnit": "100 Hope Street Apt 10",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06906"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2005.0,
+   "price": 575000.0,
+   "date": "2026-04-20",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.064756,
+    "lng": -73.527643
+   },
+   "klass": "condo",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 5.271963613168926,
+   "ppsf": 286.78304239401496
+  },
+  {
+   "mls": "24153250",
+   "slug": "35-maple-tree-avenue-stamford-connecticut-24153250",
+   "address": {
+    "line": "35 Maple Tree Avenue",
+    "unit": "Apt 1",
+    "lineWithUnit": "35 Maple Tree Avenue Apt 1",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06906"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1348.0,
+   "price": 520000.0,
+   "date": "2026-03-13",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.070852,
+    "lng": -73.514617
+   },
+   "klass": "condo",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 5.076208138024133,
+   "ppsf": 385.7566765578635
   }
- }
+ ]
 }

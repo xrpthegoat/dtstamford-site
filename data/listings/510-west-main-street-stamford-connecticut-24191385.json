@@ -108,99 +108,141 @@
    "walk": 9
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "16-carolina-road-stamford-connecticut-24191657",
-     "addr": "16 Carolina Road Unit 2",
-     "unit": "Unit 2",
-     "beds": 3.0,
-     "baths": 1.0,
-     "sqft": 2344.0,
-     "price": 3600.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-20",
-     "ppsf": 2,
-     "mi": 0.5
-    },
-    {
-     "slug": "77-havemeyer-lane-stamford-connecticut-24164873",
-     "addr": "77 Havemeyer Lane Unit 48",
-     "unit": "Unit 48",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1979.0,
-     "price": 7200.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-01",
-     "ppsf": 4,
-     "mi": 0.58
-    },
-    {
-     "slug": "14-amherst-road-greenwich-connecticut-24166765",
-     "addr": "14 Amherst Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1470.0,
-     "price": 6150.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-04",
-     "ppsf": 4,
-     "mi": 0.65
-    },
-    {
-     "slug": "15-richmond-drive-greenwich-connecticut-24157455",
-     "addr": "15 Richmond Drive",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1435.0,
-     "price": 8250.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-23",
-     "ppsf": 6,
-     "mi": 0.74
-    },
-    {
-     "slug": "175-west-avenue-stamford-connecticut-24191457",
-     "addr": "175 West Avenue Unit 8",
-     "unit": "Unit 8",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1800.0,
-     "price": 3500.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 2,
-     "mi": 0.07
-    },
-    {
-     "slug": "18-high-street-stamford-connecticut-24195632",
-     "addr": "18 High Street",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 1.0,
-     "sqft": 2280.0,
-     "price": 3200.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 1,
-     "mi": 0.35
-    }
-   ],
-   "summary": {
-    "n": 4,
-    "low": 3600.0,
-    "high": 8250.0,
-    "median": 6675
+ "comps": [
+  {
+   "mls": "24155229",
+   "slug": "59-liberty-street-stamford-connecticut-24155229",
+   "address": {
+    "line": "59 Liberty Street",
+    "unit": "Apt 21",
+    "lineWithUnit": "59 Liberty Street Apt 21",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1582.0,
+   "price": 3300.0,
+   "date": "2026-03-13",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.050089,
+    "lng": -73.553525
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5397680101628827,
+   "ppsf": 2.0859671302149176
+  },
+  {
+   "mls": "24164873",
+   "slug": "77-havemeyer-lane-stamford-connecticut-24164873",
+   "address": {
+    "line": "77 Havemeyer Lane",
+    "unit": "Unit 48",
+    "lineWithUnit": "77 Havemeyer Lane Unit 48",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1979.0,
+   "price": 7200.0,
+   "date": "2026-05-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.055644,
+    "lng": -73.564879
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9308906581322799,
+   "ppsf": 3.638201111672562
+  },
+  {
+   "mls": "24188986",
+   "slug": "77-havemeyer-lane-stamford-connecticut-24188986",
+   "address": {
+    "line": "77 Havemeyer Lane",
+    "unit": "Unit 303",
+    "lineWithUnit": "77 Havemeyer Lane Unit 303",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 1832.0,
+   "price": 6500.0,
+   "date": "2026-07-20",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.055157,
+    "lng": -73.56477
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8792497486648804,
+   "ppsf": 3.5480349344978164
+  },
+  {
+   "mls": "24191341",
+   "slug": "50-alvord-lane-stamford-connecticut-24191341",
+   "address": {
+    "line": "50 Alvord Lane",
+    "unit": "Unit 14",
+    "lineWithUnit": "50 Alvord Lane Unit 14",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1950.0,
+   "price": 3200.0,
+   "date": "2026-08-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.050399,
+    "lng": -73.563636
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.41607015627123284,
+   "ppsf": 1.641025641025641
+  },
+  {
+   "mls": "24189634",
+   "slug": "59-liberty-street-stamford-connecticut-24189634",
+   "address": {
+    "line": "59 Liberty Street",
+    "unit": "Unit 19",
+    "lineWithUnit": "59 Liberty Street Unit 19",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 1685.0,
+   "price": 3900.0,
+   "date": "2026-08-03",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.050089,
+    "lng": -73.553525
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5397680101628827,
+   "ppsf": 2.314540059347181
   }
- }
+ ]
 }

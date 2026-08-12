@@ -131,101 +131,141 @@
    "mi": 1.77
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "60-greenwich-hills-drive-greenwich-connecticut-24166893",
-     "addr": "60 Greenwich Hills Drive Unit 60",
-     "unit": "Unit 60",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1900.0,
-     "price": 5500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-01",
-     "ppsf": 3,
-     "mi": 0.14
-    },
-    {
-     "slug": "57-grey-rock-drive-greenwich-connecticut-24163088",
-     "addr": "57 Grey Rock Drive",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1372.0,
-     "price": 5800.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-04",
-     "ppsf": 4,
-     "mi": 0.51
-    },
-    {
-     "slug": "5-river-street-greenwich-connecticut-24160447",
-     "addr": "5 River Street",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1536.0,
-     "price": 6000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-28",
-     "ppsf": 4,
-     "mi": 0.57
-    },
-    {
-     "slug": "31-a-hollow-wood-lane-greenwich-connecticut-24168303",
-     "addr": "31-A Hollow Wood Lane",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1292.0,
-     "price": 4400.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-06",
-     "ppsf": 3,
-     "mi": 0.59
-    },
-    {
-     "slug": "10-highland-place-greenwich-connecticut-24124138",
-     "addr": "10 Highland Place",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 2170.0,
-     "price": 8200.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-28",
-     "ppsf": 4,
-     "mi": 0.59
-    },
-    {
-     "slug": "24-hollow-wood-lane-greenwich-connecticut-24171951",
-     "addr": "24 Hollow Wood Lane",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 2350.0,
-     "price": 4600.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-30",
-     "ppsf": 2,
-     "mi": 0.61
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 4400.0,
-    "high": 8200.0,
-    "median": 5650
+ "comps": [
+  {
+   "mls": "24156407",
+   "slug": "119-halstead-avenue-greenwich-connecticut-24156407",
+   "address": {
+    "line": "119 Halstead Avenue",
+    "unit": "Unit 2",
+    "lineWithUnit": "119 Halstead Avenue Unit 2",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06831"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 1014.0,
+   "price": 2825.0,
+   "date": "2026-04-07",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.017223,
+    "lng": -73.6581
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9460352081720245,
+   "ppsf": 2.7859960552268244
+  },
+  {
+   "mls": "24163088",
+   "slug": "57-grey-rock-drive-greenwich-connecticut-24163088",
+   "address": {
+    "line": "57 Grey Rock Drive",
+    "unit": null,
+    "lineWithUnit": "57 Grey Rock Drive",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06831"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1372.0,
+   "price": 5800.0,
+   "date": "2026-05-04",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.031864,
+    "lng": -73.662926
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8175893006837567,
+   "ppsf": 4.227405247813411
+  },
+  {
+   "mls": "24168303",
+   "slug": "31-a-hollow-wood-lane-greenwich-connecticut-24168303",
+   "address": {
+    "line": "31-A Hollow Wood Lane",
+    "unit": null,
+    "lineWithUnit": "31-A Hollow Wood Lane",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06831"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1292.0,
+   "price": 4400.0,
+   "date": "2026-05-06",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.018623,
+    "lng": -73.655608
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9544537129277962,
+   "ppsf": 3.4055727554179565
+  },
+  {
+   "mls": "24174772",
+   "slug": "490-den-lane-greenwich-connecticut-24174772",
+   "address": {
+    "line": "490 Den Lane",
+    "unit": "Unit 1st Floor",
+    "lineWithUnit": "490 Den Lane Unit 1st Floor",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06831"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 1100.0,
+   "price": 2950.0,
+   "date": "2026-05-21",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.016388,
+    "lng": -73.65509
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1670279422389447,
+   "ppsf": 2.6818181818181817
+  },
+  {
+   "mls": "24160447",
+   "slug": "5-river-street-greenwich-connecticut-24160447",
+   "address": {
+    "line": "5 River Street",
+    "unit": null,
+    "lineWithUnit": "5 River Street",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06831"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1536.0,
+   "price": 6000.0,
+   "date": "2026-04-28",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.018377,
+    "lng": -73.656583
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 0.9172766682488345,
+   "ppsf": 3.90625
   }
- }
+ ]
 }

@@ -130,101 +130,141 @@
    "mi": 0.7
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "17-sunnyside-avenue-darien-connecticut-24151138",
-     "addr": "17 Sunnyside Avenue",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 2234.0,
-     "price": 1675000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-26",
-     "ppsf": 750,
-     "mi": 0.3
-    },
-    {
-     "slug": "14-henry-street-darien-connecticut-24164422",
-     "addr": "14 Henry Street",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1493.0,
-     "price": 1275000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-04",
-     "ppsf": 854,
-     "mi": 0.46
-    },
-    {
-     "slug": "53-hoyt-street-darien-connecticut-24160713",
-     "addr": "53 Hoyt Street",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 4.0,
-     "sqft": 2180.0,
-     "price": 1725000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-14",
-     "ppsf": 791,
-     "mi": 0.49
-    },
-    {
-     "slug": "15-charles-street-darien-connecticut-24156259",
-     "addr": "15 Charles Street",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 1.0,
-     "sqft": 1742.0,
-     "price": 1395000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-30",
-     "ppsf": 801,
-     "mi": 0.5
-    },
-    {
-     "slug": "223-middlesex-road-darien-connecticut-24149786",
-     "addr": "223 Middlesex Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1840.0,
-     "price": 1540000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-16",
-     "ppsf": 837,
-     "mi": 0.56
-    },
-    {
-     "slug": "83-hoyt-street-darien-connecticut-24166371",
-     "addr": "83 Hoyt Street",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1546.0,
-     "price": 850000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-23",
-     "ppsf": 550,
-     "mi": 0.57
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 850000.0,
-    "high": 1725000.0,
-    "median": 1467500
+ "comps": [
+  {
+   "mls": "24166383",
+   "slug": "34-intervale-road-darien-connecticut-24166383",
+   "address": {
+    "line": "34 Intervale Road",
+    "unit": null,
+    "lineWithUnit": "34 Intervale Road",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 3180.0,
+   "price": 2850000.0,
+   "date": "2026-06-22",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.075552,
+    "lng": -73.508724
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5797073694871666,
+   "ppsf": 896.2264150943396
+  },
+  {
+   "mls": "24165850",
+   "slug": "16-libby-lane-darien-connecticut-24165850",
+   "address": {
+    "line": "16 Libby Lane",
+    "unit": null,
+    "lineWithUnit": "16 Libby Lane",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 4.0,
+   "baths": 5.0,
+   "sqft": 2928.0,
+   "price": 2976000.0,
+   "date": "2026-06-24",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.079906,
+    "lng": -73.491295
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9871867160406699,
+   "ppsf": 1016.3934426229508
+  },
+  {
+   "mls": "24179173",
+   "slug": "18-charles-street-darien-connecticut-24179173",
+   "address": {
+    "line": "18 Charles Street",
+    "unit": null,
+    "lineWithUnit": "18 Charles Street",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 3000.0,
+   "price": 2310000.0,
+   "date": "2026-07-14",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.071452,
+    "lng": -73.500476
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7936093879033265,
+   "ppsf": 770.0
+  },
+  {
+   "mls": "24155147",
+   "slug": "3-revere-road-darien-connecticut-24155147",
+   "address": {
+    "line": "3 Revere Road",
+    "unit": null,
+    "lineWithUnit": "3 Revere Road",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 5.0,
+   "baths": 3.0,
+   "sqft": 3395.0,
+   "price": 2350000.0,
+   "date": "2026-05-01",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.078524,
+    "lng": -73.492497
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8714317979633522,
+   "ppsf": 692.1944035346097
+  },
+  {
+   "mls": "24156095",
+   "slug": "3-hickory-lane-darien-connecticut-24156095",
+   "address": {
+    "line": "3 Hickory Lane",
+    "unit": null,
+    "lineWithUnit": "3 Hickory Lane",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 2920.0,
+   "price": 2875000.0,
+   "date": "2026-07-01",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.080047,
+    "lng": -73.502887
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.18836450412010378,
+   "ppsf": 984.5890410958904
   }
- }
+ ]
 }

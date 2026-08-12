@@ -129,84 +129,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "198-woodchuck-road-stamford-connecticut-24177197",
-     "addr": "198 Woodchuck Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 3322.0,
-     "price": 2450000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-30",
-     "ppsf": 738,
-     "mi": 0.38
-    },
-    {
-     "slug": "320-chestnut-hill-road-stamford-connecticut-24157806",
-     "addr": "320 Chestnut Hill Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 3342.0,
-     "price": 1440000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-18",
-     "ppsf": 431,
-     "mi": 0.64
-    },
-    {
-     "slug": "24-smoke-hill-drive-stamford-connecticut-24195487",
-     "addr": "24 Smoke Hill Drive",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 3383.0,
-     "price": 1000000.0,
-     "kind": "asking",
-     "status": "Coming Soon",
-     "ppsf": 296,
-     "mi": 0.38
-    },
-    {
-     "slug": "33-butternut-lane-stamford-connecticut-24170063",
-     "addr": "33 Butternut Lane",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 4.0,
-     "sqft": 1914.0,
-     "price": 1195000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 624,
-     "mi": 0.51
-    },
-    {
-     "slug": "132-webbs-hill-road-stamford-connecticut-24187050",
-     "addr": "132 Webbs Hill Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1933.0,
-     "price": 1015000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 525,
-     "mi": 0.65
-    }
-   ],
-   "summary": {
-    "n": 2,
-    "low": 1440000.0,
-    "high": 2450000.0,
-    "median": 1945000
+ "comps": [
+  {
+   "mls": "24133749",
+   "slug": "27-wellington-drive-stamford-connecticut-24133749",
+   "address": {
+    "line": "27 Wellington Drive",
+    "unit": null,
+    "lineWithUnit": "27 Wellington Drive",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2402.0,
+   "price": 774000.0,
+   "date": "2026-03-25",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.137419,
+    "lng": -73.573063
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.235710500431733,
+   "ppsf": 322.23147377185677
+  },
+  {
+   "mls": "24171383",
+   "slug": "290-red-fox-road-stamford-connecticut-24171383",
+   "address": {
+    "line": "290 Red Fox Road",
+    "unit": null,
+    "lineWithUnit": "290 Red Fox Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 2384.0,
+   "price": 880000.0,
+   "date": "2026-06-23",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.118812,
+    "lng": -73.558683
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.2266200037712462,
+   "ppsf": 369.1275167785235
+  },
+  {
+   "mls": "24166806",
+   "slug": "37-blue-ridge-drive-stamford-connecticut-24166806",
+   "address": {
+    "line": "37 Blue Ridge Drive",
+    "unit": null,
+    "lineWithUnit": "37 Blue Ridge Drive",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1411.0,
+   "price": 715000.0,
+   "date": "2026-06-23",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.120019,
+    "lng": -73.545623
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.328769798790583,
+   "ppsf": 506.73281360737064
+  },
+  {
+   "mls": "24166996",
+   "slug": "79-loughran-avenue-stamford-connecticut-24166996",
+   "address": {
+    "line": "79 Loughran Avenue",
+    "unit": null,
+    "lineWithUnit": "79 Loughran Avenue",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 1576.0,
+   "price": 725000.0,
+   "date": "2026-06-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.09961,
+    "lng": -73.561727
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.1902682691756157,
+   "ppsf": 460.0253807106599
+  },
+  {
+   "mls": "24170715",
+   "slug": "107-barclay-drive-stamford-connecticut-24170715",
+   "address": {
+    "line": "107 Barclay Drive",
+    "unit": null,
+    "lineWithUnit": "107 Barclay Drive",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2168.0,
+   "price": 1425000.0,
+   "date": "2026-07-13",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.102381,
+    "lng": -73.574557
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.6643078326111567,
+   "ppsf": 657.2878228782288
   }
- }
+ ]
 }

@@ -135,44 +135,141 @@
    "mi": 0.62
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "12-westwood-place-stamford-connecticut-24172929",
-     "addr": "12 Westwood Place",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2734.0,
-     "price": 7700.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-15",
-     "ppsf": 3,
-     "mi": 0.63
-    },
-    {
-     "slug": "30-stillview-road-stamford-connecticut-24195929",
-     "addr": "30 Stillview Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 6.0,
-     "sqft": 5810.0,
-     "price": 12500.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 2,
-     "mi": 0.09
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 7700.0,
-    "high": 7700.0,
-    "median": 7700
+ "comps": [
+  {
+   "mls": "24164676",
+   "slug": "10-linden-place-stamford-connecticut-24164676",
+   "address": {
+    "line": "10 Linden Place",
+    "unit": "Unit 1B",
+    "lineWithUnit": "10 Linden Place Unit 1B",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 5412.0,
+   "price": 2600.0,
+   "date": "2026-06-14",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.060326,
+    "lng": -73.54481
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.29341409754712,
+   "ppsf": 0.4804138950480414
+  },
+  {
+   "mls": "24188037",
+   "slug": "88-edward-place-stamford-connecticut-24188037",
+   "address": {
+    "line": "88 Edward Place",
+    "unit": null,
+    "lineWithUnit": "88 Edward Place",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 5.0,
+   "baths": 4.0,
+   "sqft": 4524.0,
+   "price": 8995.0,
+   "date": "2026-07-22",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.086941,
+    "lng": -73.531278
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.4208468787027977,
+   "ppsf": 1.988284703801945
+  },
+  {
+   "mls": "24163283",
+   "slug": "30-saint-george-avenue-stamford-connecticut-24163283",
+   "address": {
+    "line": "30 Saint George Avenue",
+    "unit": null,
+    "lineWithUnit": "30 Saint George Avenue",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 4.0,
+   "baths": 2.0,
+   "sqft": 3300.0,
+   "price": 5300.0,
+   "date": "2026-05-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.057175,
+    "lng": -73.553474
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.3940245207866435,
+   "ppsf": 1.606060606060606
+  },
+  {
+   "mls": "24175649",
+   "slug": "33-loughran-avenue-stamford-connecticut-24175649",
+   "address": {
+    "line": "33 Loughran Avenue",
+    "unit": null,
+    "lineWithUnit": "33 Loughran Avenue",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 3252.0,
+   "price": 5250.0,
+   "date": "2026-06-30",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.097885,
+    "lng": -73.562675
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.1984450024366162,
+   "ppsf": 1.6143911439114391
+  },
+  {
+   "mls": "24185202",
+   "slug": "98-east-lane-stamford-connecticut-24185202",
+   "address": {
+    "line": "98 East Lane",
+    "unit": null,
+    "lineWithUnit": "98 East Lane",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 4640.0,
+   "price": 6300.0,
+   "date": "2026-07-08",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.073284,
+    "lng": -73.539876
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.614153036494993,
+   "ppsf": 1.3577586206896552
   }
- }
+ ]
 }

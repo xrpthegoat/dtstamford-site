@@ -136,38 +136,141 @@
    "walk": 6
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "44-newfield-court-stamford-connecticut-24181106",
-     "addr": "44 Newfield Court",
-     "unit": "",
-     "beds": 6.0,
-     "baths": 4.0,
-     "sqft": 3873.0,
-     "price": 7300.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 2,
-     "mi": 0.61
-    },
-    {
-     "slug": "80-third-street-stamford-connecticut-24180354",
-     "addr": "80 Third Street",
-     "unit": "",
-     "beds": 6.0,
-     "baths": 5.0,
-     "sqft": 3568.0,
-     "price": 7500.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 2,
-     "mi": 0.68
-    }
-   ],
-   "summary": null,
-   "radiusMi": 0.75
+ "comps": [
+  {
+   "mls": "24181529",
+   "slug": "376-westover-road-stamford-connecticut-24181529",
+   "address": {
+    "line": "376 Westover Road",
+    "unit": null,
+    "lineWithUnit": "376 Westover Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 4.0,
+   "baths": 6.0,
+   "sqft": 6447.0,
+   "price": 17500.0,
+   "date": "2026-08-04",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.06874,
+    "lng": -73.57145
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.321542502279478,
+   "ppsf": 2.7144408251900107
+  },
+  {
+   "mls": "24151146",
+   "slug": "14-relay-place-stamford-connecticut-24151146",
+   "address": {
+    "line": "14 Relay Place",
+    "unit": "Unit L2",
+    "lineWithUnit": "14 Relay Place Unit L2",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06901"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 6576.0,
+   "price": 2450.0,
+   "date": "2026-03-19",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.0521,
+    "lng": -73.54308
+   },
+   "klass": "rental",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 2.5007329328581838,
+   "ppsf": 0.3725669099756691
+  },
+  {
+   "mls": "24133743",
+   "slug": "58-heritage-lane-stamford-connecticut-24133743",
+   "address": {
+    "line": "58 Heritage Lane",
+    "unit": null,
+    "lineWithUnit": "58 Heritage Lane",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
+   },
+   "beds": 5.0,
+   "baths": 4.0,
+   "sqft": 6188.0,
+   "price": 7900.0,
+   "date": "2026-05-04",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.141834,
+    "lng": -73.567215
+   },
+   "klass": "rental",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 7.712716340492775,
+   "ppsf": 1.2766645119586295
+  },
+  {
+   "mls": "24161248",
+   "slug": "314-erskine-road-stamford-connecticut-24161248",
+   "address": {
+    "line": "314 Erskine Road",
+    "unit": null,
+    "lineWithUnit": "314 Erskine Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
+   },
+   "beds": 4.0,
+   "baths": 5.0,
+   "sqft": 5894.0,
+   "price": 5500.0,
+   "date": "2026-07-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.14524,
+    "lng": -73.59682
+   },
+   "klass": "rental",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 8.985712539323094,
+   "ppsf": 0.9331523583305056
+  },
+  {
+   "mls": "24173837",
+   "slug": "191-summer-street-stamford-connecticut-24173837",
+   "address": {
+    "line": "191 Summer Street",
+    "unit": "Unit 2",
+    "lineWithUnit": "191 Summer Street Unit 2",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06901"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 11760.0,
+   "price": 2450.0,
+   "date": "2026-06-29",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.05462,
+    "lng": -73.54035
+   },
+   "klass": "rental",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 2.247998490617209,
+   "ppsf": 0.20833333333333334
   }
- }
+ ]
 }

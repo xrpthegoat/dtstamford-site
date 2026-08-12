@@ -133,101 +133,141 @@
    "mi": 1.17
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "13-orchard-hill-road-norwalk-connecticut-24122969",
-     "addr": "13 Orchard Hill Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 5.0,
-     "sqft": 5588.0,
-     "price": 1400000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-16",
-     "ppsf": 251,
-     "mi": 0.29
-    },
-    {
-     "slug": "39-marion-road-westport-connecticut-24154644",
-     "addr": "39 Marion Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 4018.0,
-     "price": 1780000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-30",
-     "ppsf": 443,
-     "mi": 0.48
-    },
-    {
-     "slug": "6-eric-court-norwalk-connecticut-24166318",
-     "addr": "6 Eric Court",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 2.0,
-     "sqft": 1825.0,
-     "price": 800000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-18",
-     "ppsf": 438,
-     "mi": 0.57
-    },
-    {
-     "slug": "19-oriole-drive-norwalk-connecticut-24158595",
-     "addr": "19 Oriole Drive",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 1992.0,
-     "price": 950000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-21",
-     "ppsf": 477,
-     "mi": 0.59
-    },
-    {
-     "slug": "4-yale-street-norwalk-connecticut-24176956",
-     "addr": "4 Yale Street",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2432.0,
-     "price": 810000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-27",
-     "ppsf": 333,
-     "mi": 0.6
-    },
-    {
-     "slug": "28-oriole-drive-norwalk-connecticut-24171077",
-     "addr": "28 Oriole Drive",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 2.0,
-     "sqft": 2056.0,
-     "price": 980000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-12",
-     "ppsf": 477,
-     "mi": 0.7
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 800000.0,
-    "high": 1780000.0,
-    "median": 965000
+ "comps": [
+  {
+   "mls": "24171077",
+   "slug": "28-oriole-drive-norwalk-connecticut-24171077",
+   "address": {
+    "line": "28 Oriole Drive",
+    "unit": null,
+    "lineWithUnit": "28 Oriole Drive",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 2.0,
+   "sqft": 2056.0,
+   "price": 980000.0,
+   "date": "2026-06-12",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.121058,
+    "lng": -73.384728
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1305111054986807,
+   "ppsf": 476.6536964980545
+  },
+  {
+   "mls": "24166318",
+   "slug": "6-eric-court-norwalk-connecticut-24166318",
+   "address": {
+    "line": "6 Eric Court",
+    "unit": null,
+    "lineWithUnit": "6 Eric Court",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 4.0,
+   "baths": 2.0,
+   "sqft": 1825.0,
+   "price": 800000.0,
+   "date": "2026-06-18",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.122696,
+    "lng": -73.38632
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9148945955670479,
+   "ppsf": 438.35616438356163
+  },
+  {
+   "mls": "24120459",
+   "slug": "9-trailside-drive-norwalk-connecticut-24120459",
+   "address": {
+    "line": "9 Trailside Drive",
+    "unit": null,
+    "lineWithUnit": "9 Trailside Drive",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 2120.0,
+   "price": 780000.0,
+   "date": "2026-03-31",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.138033,
+    "lng": -73.393541
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8963481589275654,
+   "ppsf": 367.92452830188677
+  },
+  {
+   "mls": "24174992",
+   "slug": "106-county-street-norwalk-connecticut-24174992",
+   "address": {
+    "line": "106 County Street",
+    "unit": null,
+    "lineWithUnit": "106 County Street",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 2042.0,
+   "price": 815000.0,
+   "date": "2026-07-01",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.123596,
+    "lng": -73.382442
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9753386453391565,
+   "ppsf": 399.1185112634672
+  },
+  {
+   "mls": "24157388",
+   "slug": "3-stonybrook-road-norwalk-connecticut-24157388",
+   "address": {
+    "line": "3 Stonybrook Road",
+    "unit": null,
+    "lineWithUnit": "3 Stonybrook Road",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2550.0,
+   "price": 905000.0,
+   "date": "2026-04-27",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.137871,
+    "lng": -73.399532
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.167874383820361,
+   "ppsf": 354.9019607843137
   }
- }
+ ]
 }

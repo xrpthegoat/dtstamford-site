@@ -135,101 +135,141 @@
    "mi": 1.48
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "171-raymond-street-darien-connecticut-24157009",
-     "addr": "171 Raymond Street",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1596.0,
-     "price": 1646000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-09",
-     "ppsf": 1031,
-     "mi": 0.28
-    },
-    {
-     "slug": "1-woodchuck-court-west-norwalk-connecticut-24183972",
-     "addr": "1 Woodchuck Court West",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 2316.0,
-     "price": 756000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-28",
-     "ppsf": 326,
-     "mi": 0.35
-    },
-    {
-     "slug": "9-arnold-lane-norwalk-connecticut-24148191",
-     "addr": "9 Arnold Lane",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 2264.0,
-     "price": 1100700.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-06",
-     "ppsf": 486,
-     "mi": 0.38
-    },
-    {
-     "slug": "16-possum-lane-norwalk-connecticut-24153239",
-     "addr": "16 Possum Lane",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1736.0,
-     "price": 776000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-28",
-     "ppsf": 447,
-     "mi": 0.43
-    },
-    {
-     "slug": "46-devils-garden-road-norwalk-connecticut-24167668",
-     "addr": "46 Devils Garden Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 4.0,
-     "sqft": 2178.0,
-     "price": 1051000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-30",
-     "ppsf": 483,
-     "mi": 0.46
-    },
-    {
-     "slug": "7-thomes-street-norwalk-connecticut-24163267",
-     "addr": "7 Thomes Street",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1940.0,
-     "price": 2000000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-20",
-     "ppsf": 1031,
-     "mi": 0.47
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 756000.0,
-    "high": 2000000.0,
-    "median": 1075850
+ "comps": [
+  {
+   "mls": "24123809",
+   "slug": "40-arnold-lane-norwalk-connecticut-24123809",
+   "address": {
+    "line": "40 Arnold Lane",
+    "unit": null,
+    "lineWithUnit": "40 Arnold Lane",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06853"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 5.0,
+   "sqft": 3319.0,
+   "price": 1835000.0,
+   "date": "2026-04-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.079235,
+    "lng": -73.440438
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6855311532645392,
+   "ppsf": 552.8773727026213
+  },
+  {
+   "mls": "24148191",
+   "slug": "9-arnold-lane-norwalk-connecticut-24148191",
+   "address": {
+    "line": "9 Arnold Lane",
+    "unit": null,
+    "lineWithUnit": "9 Arnold Lane",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06853"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 2264.0,
+   "price": 1100700.0,
+   "date": "2026-04-06",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.078291,
+    "lng": -73.443474
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6043491433035154,
+   "ppsf": 486.1749116607774
+  },
+  {
+   "mls": "24167668",
+   "slug": "46-devils-garden-road-norwalk-connecticut-24167668",
+   "address": {
+    "line": "46 Devils Garden Road",
+    "unit": null,
+    "lineWithUnit": "46 Devils Garden Road",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 3.0,
+   "baths": 4.0,
+   "sqft": 2178.0,
+   "price": 1051000.0,
+   "date": "2026-06-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.084219,
+    "lng": -73.438164
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7335505276712766,
+   "ppsf": 482.5528007346189
+  },
+  {
+   "mls": "24150545",
+   "slug": "2-finch-court-norwalk-connecticut-24150545",
+   "address": {
+    "line": "2 Finch Court",
+    "unit": null,
+    "lineWithUnit": "2 Finch Court",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 4.0,
+   "baths": 2.0,
+   "sqft": 2260.0,
+   "price": 1027000.0,
+   "date": "2026-06-08",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.085028,
+    "lng": -73.444581
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.28208441149606683,
+   "ppsf": 454.42477876106193
+  },
+  {
+   "mls": "24166696",
+   "slug": "8-ledge-road-norwalk-connecticut-24166696",
+   "address": {
+    "line": "8 Ledge Road",
+    "unit": null,
+    "lineWithUnit": "8 Ledge Road",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06853"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2528.0,
+   "price": 1900000.0,
+   "date": "2026-06-03",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.074383,
+    "lng": -73.438605
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1891152811403993,
+   "ppsf": 751.5822784810126
   }
- }
+ ]
 }

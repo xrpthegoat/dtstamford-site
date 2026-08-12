@@ -134,72 +134,141 @@
    "mi": 1.9
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "312-compo-road-south-westport-connecticut-24173977",
-     "addr": "312 Compo Road South",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 3215.0,
-     "price": 3750000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-18",
-     "ppsf": 1166,
-     "mi": 0.16
-    },
-    {
-     "slug": "15-roosevelt-road-westport-connecticut-24174513",
-     "addr": "15 Roosevelt Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 5.0,
-     "sqft": 3562.0,
-     "price": 5300000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-10",
-     "ppsf": 1488,
-     "mi": 0.19
-    },
-    {
-     "slug": "7-pond-edge-road-westport-connecticut-24172774",
-     "addr": "7 Pond Edge Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 6.0,
-     "sqft": 5729.0,
-     "price": 4400000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-21",
-     "ppsf": 768,
-     "mi": 0.67
-    },
-    {
-     "slug": "46-compo-mill-cove-westport-connecticut-24166955",
-     "addr": "46 Compo Mill Cove",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 6.0,
-     "sqft": 5567.0,
-     "price": 5895000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 1059,
-     "mi": 0.63
-    }
-   ],
-   "summary": {
-    "n": 3,
-    "low": 3750000.0,
-    "high": 5300000.0,
-    "median": 4400000
+ "comps": [
+  {
+   "mls": "24173977",
+   "slug": "312-compo-road-south-westport-connecticut-24173977",
+   "address": {
+    "line": "312 Compo Road South",
+    "unit": null,
+    "lineWithUnit": "312 Compo Road South",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 3215.0,
+   "price": 3750000.0,
+   "date": "2026-06-18",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.109557,
+    "lng": -73.35118
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.25828036498620593,
+   "ppsf": 1166.407465007776
+  },
+  {
+   "mls": "24150724",
+   "slug": "27-owenoke-park-westport-connecticut-24150724",
+   "address": {
+    "line": "27 Owenoke Park",
+    "unit": null,
+    "lineWithUnit": "27 Owenoke Park",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 6.0,
+   "baths": 4.0,
+   "sqft": 3572.0,
+   "price": 6750000.0,
+   "date": "2026-05-14",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.10654,
+    "lng": -73.360115
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6845823639631763,
+   "ppsf": 1889.6976483762598
+  },
+  {
+   "mls": "24174513",
+   "slug": "15-roosevelt-road-westport-connecticut-24174513",
+   "address": {
+    "line": "15 Roosevelt Road",
+    "unit": null,
+    "lineWithUnit": "15 Roosevelt Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 4.0,
+   "baths": 5.0,
+   "sqft": 3562.0,
+   "price": 5300000.0,
+   "date": "2026-08-10",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.108738,
+    "lng": -73.355168
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.3080032153227399,
+   "ppsf": 1487.9281302638967
+  },
+  {
+   "mls": "24151653",
+   "slug": "23-bridge-street-westport-connecticut-24151653",
+   "address": {
+    "line": "23 Bridge Street",
+    "unit": null,
+    "lineWithUnit": "23 Bridge Street",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2622.0,
+   "price": 1058500.0,
+   "date": "2026-03-27",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.124076,
+    "lng": -73.364386
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.132213407440397,
+   "ppsf": 403.6994660564455
+  },
+  {
+   "mls": "24167502",
+   "slug": "42-spriteview-avenue-westport-connecticut-24167502",
+   "address": {
+    "line": "42 Spriteview Avenue",
+    "unit": null,
+    "lineWithUnit": "42 Spriteview Avenue",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 3.0,
+   "baths": 4.0,
+   "sqft": 4033.0,
+   "price": 3499000.0,
+   "date": "2026-06-17",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.096578,
+    "lng": -73.372991
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.1253887487612304,
+   "ppsf": 867.5923630052071
   }
- }
+ ]
 }

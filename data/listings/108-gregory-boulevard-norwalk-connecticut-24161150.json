@@ -139,99 +139,141 @@
    "mi": 1.42
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "10-elliott-street-norwalk-connecticut-24173075",
-     "addr": "10 Elliott Street",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 2.0,
-     "sqft": 2112.0,
-     "price": 1042000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-13",
-     "ppsf": 493,
-     "mi": 0.24
-    },
-    {
-     "slug": "281-east-avenue-norwalk-connecticut-24107413",
-     "addr": "281 East Avenue",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 2674.0,
-     "price": 1250000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-30",
-     "ppsf": 467,
-     "mi": 0.46
-    },
-    {
-     "slug": "18-cloverly-circle-norwalk-connecticut-24149777",
-     "addr": "18 Cloverly Circle",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2988.0,
-     "price": 1325000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-08",
-     "ppsf": 443,
-     "mi": 0.59
-    },
-    {
-     "slug": "58-shorefront-park-norwalk-connecticut-24182023",
-     "addr": "58 Shorefront Park",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 2.0,
-     "sqft": 2907.0,
-     "price": 2725000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-05",
-     "ppsf": 937,
-     "mi": 0.75
-    },
-    {
-     "slug": "12-ludlow-manor-norwalk-connecticut-24178560",
-     "addr": "12 Ludlow Manor",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 3492.0,
-     "price": 1450000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 415,
-     "mi": 0.16
-    },
-    {
-     "slug": "15-marion-avenue-norwalk-connecticut-24178235",
-     "addr": "15 Marion Avenue",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2094.0,
-     "price": 1600000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 764,
-     "mi": 0.2
-    }
-   ],
-   "summary": {
-    "n": 4,
-    "low": 1042000.0,
-    "high": 2725000.0,
-    "median": 1287500
+ "comps": [
+  {
+   "mls": "24107413",
+   "slug": "281-east-avenue-norwalk-connecticut-24107413",
+   "address": {
+    "line": "281 East Avenue",
+    "unit": null,
+    "lineWithUnit": "281 East Avenue",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06855"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 2674.0,
+   "price": 1250000.0,
+   "date": "2026-04-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.099792,
+    "lng": -73.404601
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7384788685680178,
+   "ppsf": 467.4644727000748
+  },
+  {
+   "mls": "24149777",
+   "slug": "18-cloverly-circle-norwalk-connecticut-24149777",
+   "address": {
+    "line": "18 Cloverly Circle",
+    "unit": null,
+    "lineWithUnit": "18 Cloverly Circle",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06855"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2988.0,
+   "price": 1325000.0,
+   "date": "2026-04-08",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.103133,
+    "lng": -73.398834
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9438542431159843,
+   "ppsf": 443.4404283801874
+  },
+  {
+   "mls": "24167101",
+   "slug": "29-old-saugatuck-road-norwalk-connecticut-24167101",
+   "address": {
+    "line": "29 Old Saugatuck Road",
+    "unit": null,
+    "lineWithUnit": "29 Old Saugatuck Road",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06855"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2425.0,
+   "price": 1550222.0,
+   "date": "2026-05-21",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.102078,
+    "lng": -73.396085
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8624592362906408,
+   "ppsf": 639.2668041237114
+  },
+  {
+   "mls": "24172384",
+   "slug": "12-william-street-norwalk-connecticut-24172384",
+   "address": {
+    "line": "12 William Street",
+    "unit": null,
+    "lineWithUnit": "12 William Street",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2290.0,
+   "price": 1055000.0,
+   "date": "2026-06-29",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.114277,
+    "lng": -73.396278
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.19501221386651,
+   "ppsf": 460.69868995633186
+  },
+  {
+   "mls": "24173410",
+   "slug": "34-channel-avenue-norwalk-connecticut-24173410",
+   "address": {
+    "line": "34 Channel Avenue",
+    "unit": null,
+    "lineWithUnit": "34 Channel Avenue",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2518.0,
+   "price": 2600000.0,
+   "date": "2026-06-18",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.081438,
+    "lng": -73.410368
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.7492488795646415,
+   "ppsf": 1032.5655281969816
   }
- }
+ ]
 }

@@ -130,44 +130,141 @@
    "walk": 11
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "67-osborne-avenue-norwalk-connecticut-24154154",
-     "addr": "67 Osborne Avenue",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 2.0,
-     "sqft": 1500.0,
-     "price": 4000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-01",
-     "ppsf": 3,
-     "mi": 0.59
-    },
-    {
-     "slug": "21-victory-court-norwalk-connecticut-24193436",
-     "addr": "21 Victory Court",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 2.0,
-     "sqft": 1989.0,
-     "price": 4500.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 2,
-     "mi": 0.39
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 4000.0,
-    "high": 4000.0,
-    "median": 4000
+ "comps": [
+  {
+   "mls": "24150485",
+   "slug": "4-villaway-road-norwalk-connecticut-24150485",
+   "address": {
+    "line": "4 Villaway Road",
+    "unit": "Unit Left Side",
+    "lineWithUnit": "4 Villaway Road Unit Left Side",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06855"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 2226.0,
+   "price": 3300.0,
+   "date": "2026-05-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.10468,
+    "lng": -73.39872
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9394992806645144,
+   "ppsf": 1.482479784366577
+  },
+  {
+   "mls": "24189690",
+   "slug": "26-rowan-street-norwalk-connecticut-24189690",
+   "address": {
+    "line": "26 Rowan Street",
+    "unit": "Unit 1",
+    "lineWithUnit": "26 Rowan Street Unit 1",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06855"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 2015.0,
+   "price": 2200.0,
+   "date": "2026-07-29",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.102522,
+    "lng": -73.404938
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1437628995963152,
+   "ppsf": 1.0918114143920596
+  },
+  {
+   "mls": "24154580",
+   "slug": "47-riverside-avenue-norwalk-connecticut-24154580",
+   "address": {
+    "line": "47 Riverside Avenue",
+    "unit": null,
+    "lineWithUnit": "47 Riverside Avenue",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2464.0,
+   "price": 4200.0,
+   "date": "2026-03-31",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.120975,
+    "lng": -73.42372
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.0062076379618006,
+   "ppsf": 1.7045454545454546
+  },
+  {
+   "mls": "24152514",
+   "slug": "38-gregory-boulevard-norwalk-connecticut-24152514",
+   "address": {
+    "line": "38 Gregory Boulevard",
+    "unit": null,
+    "lineWithUnit": "38 Gregory Boulevard",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06855"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 2611.0,
+   "price": 3600.0,
+   "date": "2026-05-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.099301,
+    "lng": -73.401006
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.488361715802073,
+   "ppsf": 1.3787820758330143
+  },
+  {
+   "mls": "24171044",
+   "slug": "49-spring-hill-avenue-norwalk-connecticut-24171044",
+   "address": {
+    "line": "49 Spring Hill Avenue",
+    "unit": null,
+    "lineWithUnit": "49 Spring Hill Avenue",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1870.0,
+   "price": 5100.0,
+   "date": "2026-05-22",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.120744,
+    "lng": -73.426699
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.2199702843770996,
+   "ppsf": 2.727272727272727
   }
- }
+ ]
 }

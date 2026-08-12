@@ -135,44 +135,141 @@
    "mi": 0.73
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "60-myrtle-street-extension-norwalk-connecticut-24162002",
-     "addr": "60 Myrtle Street Extension",
-     "unit": "",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 1105.0,
-     "price": 450000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-01",
-     "ppsf": 407,
-     "mi": 0.22
-    },
-    {
-     "slug": "2-winthrop-avenue-norwalk-connecticut-24189765",
-     "addr": "2 Winthrop Avenue",
-     "unit": "",
-     "beds": 2.0,
-     "baths": 3.0,
-     "sqft": 1402.0,
-     "price": 799000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 570,
-     "mi": 0.74
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 450000.0,
-    "high": 450000.0,
-    "median": 450000
+ "comps": [
+  {
+   "mls": "24156629",
+   "slug": "23-macintosh-road-norwalk-connecticut-24156629",
+   "address": {
+    "line": "23 Macintosh Road",
+    "unit": null,
+    "lineWithUnit": "23 Macintosh Road",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1724.0,
+   "price": 749999.0,
+   "date": "2026-06-29",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.113296,
+    "lng": -73.399932
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9926822513844485,
+   "ppsf": 435.03422273781905
+  },
+  {
+   "mls": "24149540",
+   "slug": "11-roland-avenue-norwalk-connecticut-24149540",
+   "address": {
+    "line": "11 Roland Avenue",
+    "unit": null,
+    "lineWithUnit": "11 Roland Avenue",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06855"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1962.0,
+   "price": 1450000.0,
+   "date": "2026-04-09",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.094474,
+    "lng": -73.399971
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1931544980905302,
+   "ppsf": 739.0417940876656
+  },
+  {
+   "mls": "24160433",
+   "slug": "20-eversley-avenue-norwalk-connecticut-24160433",
+   "address": {
+    "line": "20 Eversley Avenue",
+    "unit": null,
+    "lineWithUnit": "20 Eversley Avenue",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 4.0,
+   "baths": 2.0,
+   "sqft": 1526.0,
+   "price": 810000.0,
+   "date": "2026-05-01",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.111029,
+    "lng": -73.405257
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0255007727999772,
+   "ppsf": 530.7994757536042
+  },
+  {
+   "mls": "24160974",
+   "slug": "107-strawberry-hill-avenue-norwalk-connecticut-24160974",
+   "address": {
+    "line": "107 Strawberry Hill Avenue",
+    "unit": null,
+    "lineWithUnit": "107 Strawberry Hill Avenue",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 4.0,
+   "baths": 2.0,
+   "sqft": 1691.0,
+   "price": 730000.0,
+   "date": "2026-05-18",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.112033,
+    "lng": -73.398897
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8329658651645605,
+   "ppsf": 431.69722057953874
+  },
+  {
+   "mls": "24160991",
+   "slug": "12-old-saugatuck-road-norwalk-connecticut-24160991",
+   "address": {
+    "line": "12 Old Saugatuck Road",
+    "unit": null,
+    "lineWithUnit": "12 Old Saugatuck Road",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06855"
+   },
+   "beds": 3.0,
+   "baths": 1.0,
+   "sqft": 1617.0,
+   "price": 832000.0,
+   "date": "2026-06-08",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.100935,
+    "lng": -73.399448
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5105786866429519,
+   "ppsf": 514.5330859616574
   }
- }
+ ]
 }

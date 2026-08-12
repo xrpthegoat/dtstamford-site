@@ -130,100 +130,141 @@
    "mi": 1.29
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "22-hastings-lane-stamford-connecticut-24169818",
-     "addr": "22 Hastings Lane",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2982.0,
-     "price": 7500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-08",
-     "ppsf": 3,
-     "mi": 0.08
-    },
-    {
-     "slug": "817-newfield-avenue-stamford-connecticut-24149668",
-     "addr": "817 Newfield Avenue",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 2984.0,
-     "price": 4800.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-01",
-     "ppsf": 2,
-     "mi": 0.08
-    },
-    {
-     "slug": "604-newfield-avenue-stamford-connecticut-24184563",
-     "addr": "604 Newfield Avenue Unit B",
-     "unit": "Unit B",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 1925.0,
-     "price": 5400.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-24",
-     "ppsf": 3,
-     "mi": 0.44
-    },
-    {
-     "slug": "53-dagmar-road-stamford-connecticut-24170188",
-     "addr": "53 Dagmar Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2963.0,
-     "price": 6028.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-19",
-     "ppsf": 2,
-     "mi": 0.59
-    },
-    {
-     "slug": "stamford-connecticut-24164938",
-     "addr": null,
-     "unit": "",
-     "beds": 4.0,
-     "baths": 2.0,
-     "sqft": 1612.0,
-     "price": 4800.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-21",
-     "ppsf": 3,
-     "mi": 0.67
-    },
-    {
-     "slug": "203-toms-road-stamford-connecticut-24197459",
-     "addr": "203 Toms Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 2.0,
-     "sqft": 1810.0,
-     "price": 4500.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 2,
-     "mi": 0.56
-    }
-   ],
-   "summary": {
-    "n": 5,
-    "low": 4800.0,
-    "high": 7500.0,
-    "median": 5400
+ "comps": [
+  {
+   "mls": "24149668",
+   "slug": "817-newfield-avenue-stamford-connecticut-24149668",
+   "address": {
+    "line": "817 Newfield Avenue",
+    "unit": null,
+    "lineWithUnit": "817 Newfield Avenue",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 2984.0,
+   "price": 4800.0,
+   "date": "2026-05-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.088093,
+    "lng": -73.53411
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.13484917463720444,
+   "ppsf": 1.6085790884718498
+  },
+  {
+   "mls": "24186180",
+   "slug": "806-hope-street-stamford-connecticut-24186180",
+   "address": {
+    "line": "806 Hope Street",
+    "unit": "Unit 2",
+    "lineWithUnit": "806 Hope Street Unit 2",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06907"
+   },
+   "beds": 3.0,
+   "baths": 4.0,
+   "sqft": 2174.0,
+   "price": 4400.0,
+   "date": "2026-07-24",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.086582,
+    "lng": -73.5196
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.195627893994662,
+   "ppsf": 2.0239190432382705
+  },
+  {
+   "mls": "24169367",
+   "slug": "80-ridgewood-avenue-stamford-connecticut-24169367",
+   "address": {
+    "line": "80 Ridgewood Avenue",
+    "unit": null,
+    "lineWithUnit": "80 Ridgewood Avenue",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06907"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2112.0,
+   "price": 4800.0,
+   "date": "2026-05-16",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.08206,
+    "lng": -73.52255
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0897653727469865,
+   "ppsf": 2.272727272727273
+  },
+  {
+   "mls": "24169818",
+   "slug": "22-hastings-lane-stamford-connecticut-24169818",
+   "address": {
+    "line": "22 Hastings Lane",
+    "unit": null,
+    "lineWithUnit": "22 Hastings Lane",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2982.0,
+   "price": 7500.0,
+   "date": "2026-05-08",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.085907,
+    "lng": -73.533259
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.12085715830189205,
+   "ppsf": 2.515090543259557
+  },
+  {
+   "mls": "24170188",
+   "slug": "53-dagmar-road-stamford-connecticut-24170188",
+   "address": {
+    "line": "53 Dagmar Road",
+    "unit": null,
+    "lineWithUnit": "53 Dagmar Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2963.0,
+   "price": 6028.0,
+   "date": "2026-05-19",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.094428,
+    "lng": -73.528494
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9507108390990793,
+   "ppsf": 2.0344245696928787
   }
- }
+ ]
 }

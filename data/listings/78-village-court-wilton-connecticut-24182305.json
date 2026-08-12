@@ -136,31 +136,87 @@
    "walk": 6
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "2-village-court-wilton-connecticut-24150826",
-     "addr": "2 Village Court Unit 2",
-     "unit": "Unit 2",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1783.0,
-     "price": 1002000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-20",
-     "ppsf": 562,
-     "mi": 0.06
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 1002000.0,
-    "high": 1002000.0,
-    "median": 1002000
+ "comps": [
+  {
+   "mls": "24150826",
+   "slug": "2-village-court-wilton-connecticut-24150826",
+   "address": {
+    "line": "2 Village Court",
+    "unit": "Unit 2",
+    "lineWithUnit": "2 Village Court Unit 2",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1783.0,
+   "price": 1002000.0,
+   "date": "2026-03-20",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.170787,
+    "lng": -73.414531
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.10196568921492152,
+   "ppsf": 561.9742007851935
+  },
+  {
+   "mls": "24180060",
+   "slug": "70-wilton-crest-wilton-connecticut-24180060",
+   "address": {
+    "line": "70 Wilton Crest",
+    "unit": "Unit 70",
+    "lineWithUnit": "70 Wilton Crest Unit 70",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 1449.0,
+   "price": 657000.0,
+   "date": "2026-07-24",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.184384,
+    "lng": -73.425581
+   },
+   "klass": "condo",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.738056123488652,
+   "ppsf": 453.41614906832297
+  },
+  {
+   "mls": "24161063",
+   "slug": "7-glen-ridge-wilton-connecticut-24161063",
+   "address": {
+    "line": "7 Glen Ridge",
+    "unit": "Unit 7",
+    "lineWithUnit": "7 Glen Ridge Unit 7",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 1255.0,
+   "price": 685000.0,
+   "date": "2026-04-23",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.185063,
+    "lng": -73.429601
+   },
+   "klass": "condo",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 2.004916887413341,
+   "ppsf": 545.816733067729
   }
- }
+ ]
 }

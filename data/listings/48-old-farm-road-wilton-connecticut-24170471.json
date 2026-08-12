@@ -135,101 +135,141 @@
    "mi": 0.83
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "97-graenest-ridge-road-wilton-connecticut-24178736",
-     "addr": "97 Graenest Ridge Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 5.0,
-     "sqft": 5560.0,
-     "price": 2700000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-09",
-     "ppsf": 486,
-     "mi": 0.37
-    },
-    {
-     "slug": "149-wolfpit-road-wilton-connecticut-24166170",
-     "addr": "149 Wolfpit Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 2.0,
-     "sqft": 2593.0,
-     "price": 1265000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-01",
-     "ppsf": 488,
-     "mi": 0.41
-    },
-    {
-     "slug": "15-river-ridge-wilton-connecticut-24176670",
-     "addr": "15 River Ridge Unit 15",
-     "unit": "Unit 15",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 3985.0,
-     "price": 2000000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-30",
-     "ppsf": 502,
-     "mi": 0.43
-    },
-    {
-     "slug": "5-river-ridge-lane-wilton-connecticut-24183143",
-     "addr": "5 River Ridge Lane Unit 5",
-     "unit": "Unit 5",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 4167.0,
-     "price": 1799000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-29",
-     "ppsf": 432,
-     "mi": 0.43
-    },
-    {
-     "slug": "34-horseshoe-road-wilton-connecticut-24165561",
-     "addr": "34 Horseshoe Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 3241.0,
-     "price": 1550000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-04",
-     "ppsf": 478,
-     "mi": 0.58
-    },
-    {
-     "slug": "61-range-road-wilton-connecticut-24169186",
-     "addr": "61 Range Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2400.0,
-     "price": 1270000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-17",
-     "ppsf": 529,
-     "mi": 0.63
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 1265000.0,
-    "high": 2700000.0,
-    "median": 1674500
+ "comps": [
+  {
+   "mls": "24151937",
+   "slug": "9-old-farm-road-wilton-connecticut-24151937",
+   "address": {
+    "line": "9 Old Farm Road",
+    "unit": null,
+    "lineWithUnit": "9 Old Farm Road",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
    },
-   "radiusMi": 0.75
+   "beds": 5.0,
+   "baths": 6.0,
+   "sqft": 4899.0,
+   "price": 2630000.0,
+   "date": "2026-05-04",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.179253,
+    "lng": -73.439976
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.289293929415317,
+   "ppsf": 536.8442539293734
+  },
+  {
+   "mls": "24178736",
+   "slug": "97-graenest-ridge-road-wilton-connecticut-24178736",
+   "address": {
+    "line": "97 Graenest Ridge Road",
+    "unit": null,
+    "lineWithUnit": "97 Graenest Ridge Road",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 4.0,
+   "baths": 5.0,
+   "sqft": 5560.0,
+   "price": 2700000.0,
+   "date": "2026-07-09",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.18593,
+    "lng": -73.43561
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.591677822180799,
+   "ppsf": 485.6115107913669
+  },
+  {
+   "mls": "24160608",
+   "slug": "53-wolfpit-road-wilton-connecticut-24160608",
+   "address": {
+    "line": "53 Wolfpit Road",
+    "unit": null,
+    "lineWithUnit": "53 Wolfpit Road",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 5.0,
+   "baths": 5.0,
+   "sqft": 4843.0,
+   "price": 1600000.0,
+   "date": "2026-06-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.18052,
+    "lng": -73.421999
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.2668637911153238,
+   "ppsf": 330.3737352880446
+  },
+  {
+   "mls": "24150415",
+   "slug": "21-woods-end-drive-wilton-connecticut-24150415",
+   "address": {
+    "line": "21 Woods End Drive",
+    "unit": null,
+    "lineWithUnit": "21 Woods End Drive",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 4.0,
+   "baths": 5.0,
+   "sqft": 5976.0,
+   "price": 1840000.0,
+   "date": "2026-05-06",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.182636,
+    "lng": -73.46674
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.486680808952195,
+   "ppsf": 307.8982597054886
+  },
+  {
+   "mls": "24178583",
+   "slug": "42-old-highway-wilton-connecticut-24178583",
+   "address": {
+    "line": "42 Old Highway",
+    "unit": null,
+    "lineWithUnit": "42 Old Highway",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 4.0,
+   "baths": 5.0,
+   "sqft": 5040.0,
+   "price": 1935000.0,
+   "date": "2026-07-28",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.1933,
+    "lng": -73.425
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.7272503117159623,
+   "ppsf": 383.92857142857144
   }
- }
+ ]
 }

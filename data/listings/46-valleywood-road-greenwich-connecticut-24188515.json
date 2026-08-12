@@ -127,44 +127,141 @@
    "mi": 1.89
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "28-pleasant-street-greenwich-connecticut-24180840",
-     "addr": "28 Pleasant Street",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2140.0,
-     "price": 6400.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-11",
-     "ppsf": 3,
-     "mi": 0.48
-    },
-    {
-     "slug": "30-brookridge-drive-greenwich-connecticut-24189268",
-     "addr": "30 Brookridge Drive",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 6.0,
-     "sqft": 4972.0,
-     "price": 25000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 5,
-     "mi": 0.25
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 6400.0,
-    "high": 6400.0,
-    "median": 6400
+ "comps": [
+  {
+   "mls": "24150496",
+   "slug": "92-valley-road-greenwich-connecticut-24150496",
+   "address": {
+    "line": "92 Valley Road",
+    "unit": "Unit A",
+    "lineWithUnit": "92 Valley Road Unit A",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06807"
    },
-   "radiusMi": 0.75
+   "beds": 5.0,
+   "baths": 3.0,
+   "sqft": 3000.0,
+   "price": 7035.0,
+   "date": "2026-03-24",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.044882,
+    "lng": -73.590877
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1767155546247001,
+   "ppsf": 2.345
+  },
+  {
+   "mls": "24149199",
+   "slug": "519-east-putnam-avenue-greenwich-connecticut-24149199",
+   "address": {
+    "line": "519 East Putnam Avenue",
+    "unit": null,
+    "lineWithUnit": "519 East Putnam Avenue",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06807"
+   },
+   "beds": 5.0,
+   "baths": 3.0,
+   "sqft": 2992.0,
+   "price": 11100.0,
+   "date": "2026-03-24",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.037148,
+    "lng": -73.607056
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.4551008527490138,
+   "ppsf": 3.7098930481283423
+  },
+  {
+   "mls": "24169371",
+   "slug": "41-grove-street-greenwich-connecticut-24169371",
+   "address": {
+    "line": "41 Grove Street",
+    "unit": null,
+    "lineWithUnit": "41 Grove Street",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06807"
+   },
+   "beds": 5.0,
+   "baths": 4.0,
+   "sqft": 2787.0,
+   "price": 12000.0,
+   "date": "2026-07-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.045565,
+    "lng": -73.597096
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7993995395818433,
+   "ppsf": 4.3057050592034445
+  },
+  {
+   "mls": "24174811",
+   "slug": "20-orchard-street-greenwich-connecticut-24174811",
+   "address": {
+    "line": "20 Orchard Street",
+    "unit": null,
+    "lineWithUnit": "20 Orchard Street",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06807"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2681.0,
+   "price": 8600.0,
+   "date": "2026-05-26",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.041247,
+    "lng": -73.596248
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6167163534214616,
+   "ppsf": 3.207758299142111
+  },
+  {
+   "mls": "24114506",
+   "slug": "greenwich-connecticut-24114506",
+   "address": {
+    "line": null,
+    "unit": null,
+    "lineWithUnit": null,
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06830"
+   },
+   "beds": 5.0,
+   "baths": 4.0,
+   "sqft": 3500.0,
+   "price": 15500.0,
+   "date": "2026-03-27",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.020529,
+    "lng": -73.607722
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.2186600950010322,
+   "ppsf": 4.428571428571429
   }
- }
+ ]
 }

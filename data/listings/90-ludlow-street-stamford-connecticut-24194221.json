@@ -127,31 +127,141 @@
    "walk": 11
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "850-pacific-street-stamford-connecticut-24158274",
-     "addr": "850 Pacific Street Unit 2160",
-     "unit": "Unit 2160",
-     "beds": 4.0,
-     "baths": 5.0,
-     "sqft": 4760.0,
-     "price": 20000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-20",
-     "ppsf": 4,
-     "mi": 0.41
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 20000.0,
-    "high": 20000.0,
-    "median": 20000
+ "comps": [
+  {
+   "mls": "24157967",
+   "slug": "239-henry-street-stamford-connecticut-24157967",
+   "address": {
+    "line": "239 Henry Street",
+    "unit": "#3",
+    "lineWithUnit": "239 Henry Street #3",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 4.0,
+   "sqft": 1962.0,
+   "price": 6000.0,
+   "date": "2026-05-10",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.04389,
+    "lng": -73.53399
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.18925335117942205,
+   "ppsf": 3.058103975535168
+  },
+  {
+   "mls": "24133811",
+   "slug": "123-harbor-drive-stamford-connecticut-24133811",
+   "address": {
+    "line": "123 Harbor Drive",
+    "unit": "Apt 512",
+    "lineWithUnit": "123 Harbor Drive Apt 512",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2172.0,
+   "price": 6000.0,
+   "date": "2026-06-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.037834,
+    "lng": -73.53239
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6789230803478554,
+   "ppsf": 2.7624309392265194
+  },
+  {
+   "mls": "24162163",
+   "slug": "73-harbor-drive-stamford-connecticut-24162163",
+   "address": {
+    "line": "73 Harbor Drive",
+    "unit": "Unit 412",
+    "lineWithUnit": "73 Harbor Drive Unit 412",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1665.0,
+   "price": 6500.0,
+   "date": "2026-07-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.038242,
+    "lng": -73.530919
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7070819046908707,
+   "ppsf": 3.903903903903904
+  },
+  {
+   "mls": "24184604",
+   "slug": "82-rippowam-road-stamford-connecticut-24184604",
+   "address": {
+    "line": "82 Rippowam Road",
+    "unit": null,
+    "lineWithUnit": "82 Rippowam Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2555.0,
+   "price": 7200.0,
+   "date": "2026-07-15",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.038242,
+    "lng": -73.523575
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1888894795357499,
+   "ppsf": 2.8180039138943247
+  },
+  {
+   "mls": "24153723",
+   "slug": "109-forest-street-stamford-connecticut-24153723",
+   "address": {
+    "line": "109 Forest Street",
+    "unit": "Apt 3",
+    "lineWithUnit": "109 Forest Street Apt 3",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06901"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1695.0,
+   "price": 4500.0,
+   "date": "2026-03-31",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.05626,
+    "lng": -73.532936
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.468968591376717,
+   "ppsf": 2.6548672566371683
   }
- }
+ ]
 }

@@ -128,101 +128,141 @@
    "mi": 0.84
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "19-oriole-drive-norwalk-connecticut-24158595",
-     "addr": "19 Oriole Drive",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 1992.0,
-     "price": 950000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-21",
-     "ppsf": 477,
-     "mi": 0.2
-    },
-    {
-     "slug": "6-eric-court-norwalk-connecticut-24166318",
-     "addr": "6 Eric Court",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 2.0,
-     "sqft": 1825.0,
-     "price": 800000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-18",
-     "ppsf": 438,
-     "mi": 0.21
-    },
-    {
-     "slug": "28-oriole-drive-norwalk-connecticut-24171077",
-     "addr": "28 Oriole Drive",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 2.0,
-     "sqft": 2056.0,
-     "price": 980000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-12",
-     "ppsf": 477,
-     "mi": 0.28
-    },
-    {
-     "slug": "13-orchard-hill-road-norwalk-connecticut-24122969",
-     "addr": "13 Orchard Hill Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 5.0,
-     "sqft": 5588.0,
-     "price": 1400000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-16",
-     "ppsf": 251,
-     "mi": 0.6
-    },
-    {
-     "slug": "4-raymond-place-westport-connecticut-24180382",
-     "addr": "4 Raymond Place",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 5.0,
-     "sqft": 3180.0,
-     "price": 2275000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-29",
-     "ppsf": 715,
-     "mi": 0.64
-    },
-    {
-     "slug": "10-maurice-street-norwalk-connecticut-24160860",
-     "addr": "10 Maurice Street",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2686.0,
-     "price": 1067000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-29",
-     "ppsf": 397,
-     "mi": 0.66
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 800000.0,
-    "high": 2275000.0,
-    "median": 1023500
+ "comps": [
+  {
+   "mls": "24158420",
+   "slug": "6-wildmere-lane-norwalk-connecticut-24158420",
+   "address": {
+    "line": "6 Wildmere Lane",
+    "unit": null,
+    "lineWithUnit": "6 Wildmere Lane",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1344.0,
+   "price": 655000.0,
+   "date": "2026-06-12",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.126437,
+    "lng": -73.397882
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1988971600665872,
+   "ppsf": 487.3511904761905
+  },
+  {
+   "mls": "24111560",
+   "slug": "142-wolfpit-avenue-norwalk-connecticut-24111560",
+   "address": {
+    "line": "142 Wolfpit Avenue",
+    "unit": null,
+    "lineWithUnit": "142 Wolfpit Avenue",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 854.0,
+   "price": 575000.0,
+   "date": "2026-07-10",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.13236,
+    "lng": -73.388498
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9064715893136022,
+   "ppsf": 673.3021077283372
+  },
+  {
+   "mls": "24167321",
+   "slug": "12-hawthorne-drive-norwalk-connecticut-24167321",
+   "address": {
+    "line": "12 Hawthorne Drive",
+    "unit": null,
+    "lineWithUnit": "12 Hawthorne Drive",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1230.0,
+   "price": 525000.0,
+   "date": "2026-07-10",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.126775,
+    "lng": -73.39814
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.2256194981512865,
+   "ppsf": 426.8292682926829
+  },
+  {
+   "mls": "24173035",
+   "slug": "43-george-avenue-norwalk-connecticut-24173035",
+   "address": {
+    "line": "43 George Avenue",
+    "unit": null,
+    "lineWithUnit": "43 George Avenue",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1288.0,
+   "price": 700000.0,
+   "date": "2026-07-08",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.120437,
+    "lng": -73.399676
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.434556771986635,
+   "ppsf": 543.4782608695652
+  },
+  {
+   "mls": "24104142",
+   "slug": "71-saddle-road-norwalk-connecticut-24104142",
+   "address": {
+    "line": "71 Saddle Road",
+    "unit": null,
+    "lineWithUnit": "71 Saddle Road",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1256.0,
+   "price": 520000.0,
+   "date": "2026-04-16",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.128628,
+    "lng": -73.397896
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.2546579417579433,
+   "ppsf": 414.0127388535032
   }
- }
+ ]
 }

@@ -135,101 +135,141 @@
    "walk": 11
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "12-william-street-norwalk-connecticut-24172384",
-     "addr": "12 William Street",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2290.0,
-     "price": 1055000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-29",
-     "ppsf": 461,
-     "mi": 0.18
-    },
-    {
-     "slug": "107-strawberry-hill-avenue-norwalk-connecticut-24160974",
-     "addr": "107 Strawberry Hill Avenue",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 2.0,
-     "sqft": 1691.0,
-     "price": 730000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-18",
-     "ppsf": 432,
-     "mi": 0.32
-    },
-    {
-     "slug": "10-maurice-street-norwalk-connecticut-24160860",
-     "addr": "10 Maurice Street",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2686.0,
-     "price": 1067000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-29",
-     "ppsf": 397,
-     "mi": 0.34
-    },
-    {
-     "slug": "29-morgan-avenue-norwalk-connecticut-24164978",
-     "addr": "29 Morgan Avenue",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 1953.0,
-     "price": 920000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-09",
-     "ppsf": 471,
-     "mi": 0.34
-    },
-    {
-     "slug": "26-melbourne-road-norwalk-connecticut-24054751",
-     "addr": "26 Melbourne Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 2.0,
-     "sqft": 2142.0,
-     "price": 865000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-10",
-     "ppsf": 404,
-     "mi": 0.37
-    },
-    {
-     "slug": "6-lighthouse-lane-norwalk-connecticut-24167164",
-     "addr": "6 Lighthouse Lane",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2560.0,
-     "price": 699000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-15",
-     "ppsf": 273,
-     "mi": 0.43
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 699000.0,
-    "high": 1067000.0,
-    "median": 892500
+ "comps": [
+  {
+   "mls": "24156629",
+   "slug": "23-macintosh-road-norwalk-connecticut-24156629",
+   "address": {
+    "line": "23 Macintosh Road",
+    "unit": null,
+    "lineWithUnit": "23 Macintosh Road",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1724.0,
+   "price": 749999.0,
+   "date": "2026-06-29",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.113296,
+    "lng": -73.399932
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.401783515700953,
+   "ppsf": 435.03422273781905
+  },
+  {
+   "mls": "24158420",
+   "slug": "6-wildmere-lane-norwalk-connecticut-24158420",
+   "address": {
+    "line": "6 Wildmere Lane",
+    "unit": null,
+    "lineWithUnit": "6 Wildmere Lane",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1344.0,
+   "price": 655000.0,
+   "date": "2026-06-12",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.126437,
+    "lng": -73.397882
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0964977917843985,
+   "ppsf": 487.3511904761905
+  },
+  {
+   "mls": "24054751",
+   "slug": "26-melbourne-road-norwalk-connecticut-24054751",
+   "address": {
+    "line": "26 Melbourne Road",
+    "unit": null,
+    "lineWithUnit": "26 Melbourne Road",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 4.0,
+   "baths": 2.0,
+   "sqft": 2142.0,
+   "price": 865000.0,
+   "date": "2026-07-10",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.114558,
+    "lng": -73.404438
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5903386904541994,
+   "ppsf": 403.828197945845
+  },
+  {
+   "mls": "24166318",
+   "slug": "6-eric-court-norwalk-connecticut-24166318",
+   "address": {
+    "line": "6 Eric Court",
+    "unit": null,
+    "lineWithUnit": "6 Eric Court",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 4.0,
+   "baths": 2.0,
+   "sqft": 1825.0,
+   "price": 800000.0,
+   "date": "2026-06-18",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.122696,
+    "lng": -73.38632
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1862974592167537,
+   "ppsf": 438.35616438356163
+  },
+  {
+   "mls": "24159044",
+   "slug": "47-lockwood-lane-norwalk-connecticut-24159044",
+   "address": {
+    "line": "47 Lockwood Lane",
+    "unit": null,
+    "lineWithUnit": "47 Lockwood Lane",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1624.0,
+   "price": 800000.0,
+   "date": "2026-04-21",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.11585,
+    "lng": -73.402522
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.39387905024060466,
+   "ppsf": 492.61083743842363
   }
- }
+ ]
 }

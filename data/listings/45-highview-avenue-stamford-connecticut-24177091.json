@@ -131,101 +131,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "40-oenoke-place-stamford-connecticut-24155766",
-     "addr": "40 Oenoke Place Apt 13",
-     "unit": "Apt 13",
-     "beds": 2.0,
-     "baths": 3.0,
-     "sqft": 1400.0,
-     "price": 696000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-31",
-     "ppsf": 497,
-     "mi": 0.06
-    },
-    {
-     "slug": "83-columbus-place-stamford-connecticut-24179222",
-     "addr": "83 Columbus Place Unit A",
-     "unit": "Unit A",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1710.0,
-     "price": 510000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-03",
-     "ppsf": 298,
-     "mi": 0.17
-    },
-    {
-     "slug": "85-camp-avenue-stamford-connecticut-24155495",
-     "addr": "85 Camp Avenue Apt 3B",
-     "unit": "Apt 3B",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1625.0,
-     "price": 640000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-01",
-     "ppsf": 394,
-     "mi": 0.19
-    },
-    {
-     "slug": "85-camp-avenue-stamford-connecticut-24166666",
-     "addr": "85 Camp Avenue Unit 6I",
-     "unit": "Unit 6I",
-     "beds": 2.0,
-     "baths": 3.0,
-     "sqft": 1925.0,
-     "price": 725000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-11",
-     "ppsf": 377,
-     "mi": 0.19
-    },
-    {
-     "slug": "85-camp-avenue-stamford-connecticut-24174799",
-     "addr": "85 Camp Avenue Unit 14E",
-     "unit": "Unit 14E",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1625.0,
-     "price": 620000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-22",
-     "ppsf": 382,
-     "mi": 0.19
-    },
-    {
-     "slug": "85-camp-avenue-stamford-connecticut-24172406",
-     "addr": "85 Camp Avenue Unit 11A",
-     "unit": "Unit 11A",
-     "beds": 2.0,
-     "baths": 3.0,
-     "sqft": 1925.0,
-     "price": 740000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-29",
-     "ppsf": 384,
-     "mi": 0.19
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 510000.0,
-    "high": 740000.0,
-    "median": 668000
+ "comps": [
+  {
+   "mls": "24153692",
+   "slug": "1197-hope-street-stamford-connecticut-24153692",
+   "address": {
+    "line": "1197 Hope Street",
+    "unit": "Apt 3",
+    "lineWithUnit": "1197 Hope Street Apt 3",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06907"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 936.0,
+   "price": 420000.0,
+   "date": "2026-03-17",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.098656,
+    "lng": -73.518957
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.34709030809395297,
+   "ppsf": 448.71794871794873
+  },
+  {
+   "mls": "24162414",
+   "slug": "39-woodway-road-stamford-connecticut-24162414",
+   "address": {
+    "line": "39 Woodway Road",
+    "unit": "Unit C5",
+    "lineWithUnit": "39 Woodway Road Unit C5",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06907"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1150.0,
+   "price": 395000.0,
+   "date": "2026-06-12",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.10186,
+    "lng": -73.514556
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5433751177416623,
+   "ppsf": 343.4782608695652
+  },
+  {
+   "mls": "24160579",
+   "slug": "201-highview-avenue-stamford-connecticut-24160579",
+   "address": {
+    "line": "201 Highview Avenue",
+    "unit": "Unit C2",
+    "lineWithUnit": "201 Highview Avenue Unit C2",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06907"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 1072.0,
+   "price": 392500.0,
+   "date": "2026-06-22",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.101831,
+    "lng": -73.512971
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5735058486963285,
+   "ppsf": 366.1380597014925
+  },
+  {
+   "mls": "24142043",
+   "slug": "910-hope-street-stamford-connecticut-24142043",
+   "address": {
+    "line": "910 Hope Street",
+    "unit": "Unit 5B",
+    "lineWithUnit": "910 Hope Street Unit 5B",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06907"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 898.0,
+   "price": 355000.0,
+   "date": "2026-04-01",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.09003,
+    "lng": -73.5183
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8133754560270143,
+   "ppsf": 395.3229398663697
+  },
+  {
+   "mls": "24155084",
+   "slug": "39-woodway-road-stamford-connecticut-24155084",
+   "address": {
+    "line": "39 Woodway Road",
+    "unit": "Apt C7",
+    "lineWithUnit": "39 Woodway Road Apt C7",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06907"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1150.0,
+   "price": 425000.0,
+   "date": "2026-04-03",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.10186,
+    "lng": -73.51456
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5433299935463975,
+   "ppsf": 369.5652173913044
   }
- }
+ ]
 }

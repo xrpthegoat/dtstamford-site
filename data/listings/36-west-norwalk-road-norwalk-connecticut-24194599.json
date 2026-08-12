@@ -131,71 +131,141 @@
    "mi": 1.49
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "13-wakeman-road-darien-connecticut-24159809",
-     "addr": "13 Wakeman Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 2959.0,
-     "price": 2105000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-04",
-     "ppsf": 711,
-     "mi": 0.49
-    },
-    {
-     "slug": "171-raymond-street-darien-connecticut-24157009",
-     "addr": "171 Raymond Street",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1596.0,
-     "price": 1646000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-09",
-     "ppsf": 1031,
-     "mi": 0.65
-    },
-    {
-     "slug": "36-richmond-drive-darien-connecticut-24129833",
-     "addr": "36 Richmond Drive",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 2725.0,
-     "price": 1395000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 512,
-     "mi": 0.28
-    },
-    {
-     "slug": "429-flax-hill-road-norwalk-connecticut-24187261",
-     "addr": "429 Flax Hill Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 5240.0,
-     "price": 1199000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 229,
-     "mi": 0.69
-    }
-   ],
-   "summary": {
-    "n": 2,
-    "low": 1646000.0,
-    "high": 2105000.0,
-    "median": 1875500
+ "comps": [
+  {
+   "mls": "24161549",
+   "slug": "115-keeler-avenue-norwalk-connecticut-24161549",
+   "address": {
+    "line": "115 Keeler Avenue",
+    "unit": null,
+    "lineWithUnit": "115 Keeler Avenue",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
    },
-   "radiusMi": 0.75
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 910.0,
+   "price": 550000.0,
+   "date": "2026-04-28",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.099911,
+    "lng": -73.447182
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9454231284150589,
+   "ppsf": 604.3956043956044
+  },
+  {
+   "mls": "24150514",
+   "slug": "8-michael-street-norwalk-connecticut-24150514",
+   "address": {
+    "line": "8 Michael Street",
+    "unit": null,
+    "lineWithUnit": "8 Michael Street",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 4.0,
+   "baths": 2.0,
+   "sqft": 1428.0,
+   "price": 710000.0,
+   "date": "2026-03-16",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.091709,
+    "lng": -73.434546
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.761608144970228,
+   "ppsf": 497.1988795518207
+  },
+  {
+   "mls": "24152587",
+   "slug": "6-acorn-lane-norwalk-connecticut-24152587",
+   "address": {
+    "line": "6 Acorn Lane",
+    "unit": null,
+    "lineWithUnit": "6 Acorn Lane",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 1008.0,
+   "price": 750000.0,
+   "date": "2026-04-10",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.082258,
+    "lng": -73.439842
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.844526049654191,
+   "ppsf": 744.047619047619
+  },
+  {
+   "mls": "24155974",
+   "slug": "24-deepwood-lane-norwalk-connecticut-24155974",
+   "address": {
+    "line": "24 Deepwood Lane",
+    "unit": null,
+    "lineWithUnit": "24 Deepwood Lane",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 4.0,
+   "baths": 2.0,
+   "sqft": 1428.0,
+   "price": 692000.0,
+   "date": "2026-06-08",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.083798,
+    "lng": -73.436709
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.9323424453173073,
+   "ppsf": 484.593837535014
+  },
+  {
+   "mls": "24169470",
+   "slug": "29-chatham-drive-norwalk-connecticut-24169470",
+   "address": {
+    "line": "29 Chatham Drive",
+    "unit": null,
+    "lineWithUnit": "29 Chatham Drive",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1260.0,
+   "price": 650000.0,
+   "date": "2026-06-26",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.098632,
+    "lng": -73.43727
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.5980142529617323,
+   "ppsf": 515.8730158730159
   }
- }
+ ]
 }

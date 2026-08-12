@@ -134,101 +134,141 @@
    "mi": 1.94
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "5-inwood-lane-westport-connecticut-24153684",
-     "addr": "5 Inwood Lane",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2084.0,
-     "price": 1250000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-23",
-     "ppsf": 600,
-     "mi": 0.16
-    },
-    {
-     "slug": "18-hales-road-westport-connecticut-24178779",
-     "addr": "18 Hales Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 1542.0,
-     "price": 1350000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-20",
-     "ppsf": 875,
-     "mi": 0.17
-    },
-    {
-     "slug": "150-hillspoint-road-westport-connecticut-24154934",
-     "addr": "150 Hillspoint Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 3759.0,
-     "price": 3500000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-11",
-     "ppsf": 931,
-     "mi": 0.3
-    },
-    {
-     "slug": "7-pond-edge-road-westport-connecticut-24172774",
-     "addr": "7 Pond Edge Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 6.0,
-     "sqft": 5729.0,
-     "price": 4400000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-21",
-     "ppsf": 768,
-     "mi": 0.36
-    },
-    {
-     "slug": "11-edgewater-hillside-westport-connecticut-24160000",
-     "addr": "11 Edgewater Hillside",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 5.0,
-     "sqft": 4693.0,
-     "price": 3899000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-31",
-     "ppsf": 831,
-     "mi": 0.43
-    },
-    {
-     "slug": "171-compo-road-south-westport-connecticut-24168078",
-     "addr": "171 Compo Road South",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 5.0,
-     "sqft": 3800.0,
-     "price": 2425000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-23",
-     "ppsf": 638,
-     "mi": 0.49
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 1250000.0,
-    "high": 4400000.0,
-    "median": 2962500
+ "comps": [
+  {
+   "mls": "24151653",
+   "slug": "23-bridge-street-westport-connecticut-24151653",
+   "address": {
+    "line": "23 Bridge Street",
+    "unit": null,
+    "lineWithUnit": "23 Bridge Street",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2622.0,
+   "price": 1058500.0,
+   "date": "2026-03-27",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.124076,
+    "lng": -73.364386
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0970990893509147,
+   "ppsf": 403.6994660564455
+  },
+  {
+   "mls": "24170843",
+   "slug": "15-jennie-lane-westport-connecticut-24170843",
+   "address": {
+    "line": "15 Jennie Lane",
+    "unit": null,
+    "lineWithUnit": "15 Jennie Lane",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 2240.0,
+   "price": 500000.0,
+   "date": "2026-06-29",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.120929,
+    "lng": -73.357998
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5117981219141348,
+   "ppsf": 223.21428571428572
+  },
+  {
+   "mls": "24132802",
+   "slug": "26-treadwell-avenue-westport-connecticut-24132802",
+   "address": {
+    "line": "26 Treadwell Avenue",
+    "unit": null,
+    "lineWithUnit": "26 Treadwell Avenue",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 5.0,
+   "baths": 5.0,
+   "sqft": 3200.0,
+   "price": 3150000.0,
+   "date": "2026-03-16",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.124679,
+    "lng": -73.375725
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.0352450140660086,
+   "ppsf": 984.375
+  },
+  {
+   "mls": "24153684",
+   "slug": "5-inwood-lane-westport-connecticut-24153684",
+   "address": {
+    "line": "5 Inwood Lane",
+    "unit": null,
+    "lineWithUnit": "5 Inwood Lane",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2084.0,
+   "price": 1250000.0,
+   "date": "2026-04-23",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.120329,
+    "lng": -73.349066
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 0.2523431958636888,
+   "ppsf": 599.8080614203454
+  },
+  {
+   "mls": "24173977",
+   "slug": "312-compo-road-south-westport-connecticut-24173977",
+   "address": {
+    "line": "312 Compo Road South",
+    "unit": null,
+    "lineWithUnit": "312 Compo Road South",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 3215.0,
+   "price": 3750000.0,
+   "date": "2026-06-18",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.109557,
+    "lng": -73.35118
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.286356058975929,
+   "ppsf": 1166.407465007776
   }
- }
+ ]
 }

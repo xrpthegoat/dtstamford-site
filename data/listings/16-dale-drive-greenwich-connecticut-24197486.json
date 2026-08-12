@@ -132,71 +132,141 @@
    "mi": 1.93
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "9-rex-street-greenwich-connecticut-24169199",
-     "addr": "9 Rex Street",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2596.0,
-     "price": 1749000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-29",
-     "ppsf": 674,
-     "mi": 0.14
-    },
-    {
-     "slug": "greenwich-connecticut-24174070",
-     "addr": null,
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 2371.0,
-     "price": 1675000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-10",
-     "ppsf": 706,
-     "mi": 0.35
-    },
-    {
-     "slug": "14-rockland-place-greenwich-connecticut-24189899",
-     "addr": "14 Rockland Place",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 3986.0,
-     "price": 2100000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 527,
-     "mi": 0.2
-    },
-    {
-     "slug": "13-hickory-drive-greenwich-connecticut-24184092",
-     "addr": "13 Hickory Drive",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 3372.0,
-     "price": 1750000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 519,
-     "mi": 0.21
-    }
-   ],
-   "summary": {
-    "n": 2,
-    "low": 1675000.0,
-    "high": 1749000.0,
-    "median": 1712000
+ "comps": [
+  {
+   "mls": "24170385",
+   "slug": "19-cross-street-greenwich-connecticut-24170385",
+   "address": {
+    "line": "19 Cross Street",
+    "unit": null,
+    "lineWithUnit": "19 Cross Street",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06831"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1854.0,
+   "price": 1325000.0,
+   "date": "2026-07-07",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.021726,
+    "lng": -73.657228
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.14288903531318764,
+   "ppsf": 714.6709816612729
+  },
+  {
+   "mls": "24169199",
+   "slug": "9-rex-street-greenwich-connecticut-24169199",
+   "address": {
+    "line": "9 Rex Street",
+    "unit": null,
+    "lineWithUnit": "9 Rex Street",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06831"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2596.0,
+   "price": 1749000.0,
+   "date": "2026-07-29",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.022252,
+    "lng": -73.658036
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.22105327559746948,
+   "ppsf": 673.728813559322
+  },
+  {
+   "mls": "24174070",
+   "slug": "greenwich-connecticut-24174070",
+   "address": {
+    "line": null,
+    "unit": null,
+    "lineWithUnit": null,
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06831"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 2371.0,
+   "price": 1675000.0,
+   "date": "2026-07-10",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.016413,
+    "lng": -73.652969
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5572338525697761,
+   "ppsf": 706.452973428933
+  },
+  {
+   "mls": "24149318",
+   "slug": "40-ettl-lane-greenwich-connecticut-24149318",
+   "address": {
+    "line": "40 Ettl Lane",
+    "unit": "Unit 17",
+    "lineWithUnit": "40 Ettl Lane Unit 17",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06831"
+   },
+   "beds": 3.0,
+   "baths": 4.0,
+   "sqft": 2990.0,
+   "price": 1850000.0,
+   "date": "2026-03-16",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.034564,
+    "lng": -73.667639
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.808980914689517,
+   "ppsf": 618.7290969899666
+  },
+  {
+   "mls": "24150539",
+   "slug": "105-glenville-street-greenwich-connecticut-24150539",
+   "address": {
+    "line": "105 Glenville Street",
+    "unit": null,
+    "lineWithUnit": "105 Glenville Street",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06831"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1713.0,
+   "price": 977500.0,
+   "date": "2026-03-17",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.03328,
+    "lng": -73.671593
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.8853897026459845,
+   "ppsf": 570.636310566258
   }
- }
+ ]
 }

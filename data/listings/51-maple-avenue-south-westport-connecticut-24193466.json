@@ -122,72 +122,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "135-regents-park-westport-connecticut-24176028",
-     "addr": "135 Regents Park Unit 135",
-     "unit": "Unit 135",
-     "beds": 2.0,
-     "baths": 4.0,
-     "sqft": 2692.0,
-     "price": 6100.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-04",
-     "ppsf": 2,
-     "mi": 0.32
-    },
-    {
-     "slug": "162-regents-park-westport-connecticut-24172336",
-     "addr": "162 Regents Park Unit 162",
-     "unit": "Unit 162",
-     "beds": 2.0,
-     "baths": 4.0,
-     "sqft": 2692.0,
-     "price": 5500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-13",
-     "ppsf": 2,
-     "mi": 0.32
-    },
-    {
-     "slug": "335-greens-farms-road-westport-connecticut-24191737",
-     "addr": "335 Greens Farms Road",
-     "unit": "",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1863.0,
-     "price": 5050.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-07",
-     "ppsf": 3,
-     "mi": 0.43
-    },
-    {
-     "slug": "25-oakview-circle-westport-connecticut-24195581",
-     "addr": "25 Oakview Circle",
-     "unit": "",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 960.0,
-     "price": 3700.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 4,
-     "mi": 0.42
-    }
-   ],
-   "summary": {
-    "n": 3,
-    "low": 5050.0,
-    "high": 6100.0,
-    "median": 5500
+ "comps": [
+  {
+   "mls": "24163234",
+   "slug": "32-regents-park-westport-connecticut-24163234",
+   "address": {
+    "line": "32 Regents Park",
+    "unit": "Unit 32",
+    "lineWithUnit": "32 Regents Park Unit 32",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 4.0,
+   "sqft": 3349.0,
+   "price": 8900.0,
+   "date": "2026-06-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.136708,
+    "lng": -73.314809
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5096194015077122,
+   "ppsf": 2.65750970438937
+  },
+  {
+   "mls": "24176028",
+   "slug": "135-regents-park-westport-connecticut-24176028",
+   "address": {
+    "line": "135 Regents Park",
+    "unit": "Unit 135",
+    "lineWithUnit": "135 Regents Park Unit 135",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 2.0,
+   "baths": 4.0,
+   "sqft": 2692.0,
+   "price": 6100.0,
+   "date": "2026-06-04",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.136707,
+    "lng": -73.31481
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5096545881432607,
+   "ppsf": 2.265973254086181
+  },
+  {
+   "mls": "24172336",
+   "slug": "162-regents-park-westport-connecticut-24172336",
+   "address": {
+    "line": "162 Regents Park",
+    "unit": "Unit 162",
+    "lineWithUnit": "162 Regents Park Unit 162",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 2.0,
+   "baths": 4.0,
+   "sqft": 2692.0,
+   "price": 5500.0,
+   "date": "2026-07-13",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.136707,
+    "lng": -73.31481
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5096545881432607,
+   "ppsf": 2.0430906389301633
+  },
+  {
+   "mls": "24157031",
+   "slug": "8-bauer-place-westport-connecticut-24157031",
+   "address": {
+    "line": "8 Bauer Place",
+    "unit": null,
+    "lineWithUnit": "8 Bauer Place",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 2599.0,
+   "price": 9650.0,
+   "date": "2026-07-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.14101,
+    "lng": -73.31501
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8307231875990333,
+   "ppsf": 3.712966525586764
+  },
+  {
+   "mls": "24174020",
+   "slug": "27-westway-road-westport-connecticut-24174020",
+   "address": {
+    "line": "27 Westway Road",
+    "unit": null,
+    "lineWithUnit": "27 Westway Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 2276.0,
+   "price": 5300.0,
+   "date": "2026-07-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.132904,
+    "lng": -73.298996
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8832344911511314,
+   "ppsf": 2.3286467486818982
   }
- }
+ ]
 }

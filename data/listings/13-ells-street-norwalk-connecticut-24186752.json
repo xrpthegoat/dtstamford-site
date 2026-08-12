@@ -133,101 +133,141 @@
    "mi": 0.93
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "46-ponus-avenue-norwalk-connecticut-24169429",
-     "addr": "46 Ponus Avenue",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1338.0,
-     "price": 570000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-14",
-     "ppsf": 426,
-     "mi": 0.11
-    },
-    {
-     "slug": "8-bartlett-manor-norwalk-connecticut-24165229",
-     "addr": "8 Bartlett Manor",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 1.0,
-     "sqft": 1074.0,
-     "price": 608125.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-11",
-     "ppsf": 566,
-     "mi": 0.17
-    },
-    {
-     "slug": "26-harris-street-norwalk-connecticut-24170909",
-     "addr": "26 Harris Street",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1492.0,
-     "price": 650000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-02",
-     "ppsf": 436,
-     "mi": 0.19
-    },
-    {
-     "slug": "80-broad-street-norwalk-connecticut-24151591",
-     "addr": "80 Broad Street",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1610.0,
-     "price": 760000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-20",
-     "ppsf": 472,
-     "mi": 0.43
-    },
-    {
-     "slug": "15-forbell-drive-norwalk-connecticut-24184210",
-     "addr": "15 Forbell Drive",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1955.0,
-     "price": 855000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-24",
-     "ppsf": 437,
-     "mi": 0.48
-    },
-    {
-     "slug": "2-james-street-norwalk-connecticut-24174518",
-     "addr": "2 James Street",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1570.0,
-     "price": 695000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-10",
-     "ppsf": 443,
-     "mi": 0.48
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 570000.0,
-    "high": 855000.0,
-    "median": 672500
+ "comps": [
+  {
+   "mls": "24151591",
+   "slug": "80-broad-street-norwalk-connecticut-24151591",
+   "address": {
+    "line": "80 Broad Street",
+    "unit": null,
+    "lineWithUnit": "80 Broad Street",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1610.0,
+   "price": 760000.0,
+   "date": "2026-03-20",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.13263,
+    "lng": -73.433134
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6894946407979061,
+   "ppsf": 472.0496894409938
+  },
+  {
+   "mls": "24162367",
+   "slug": "7-lycett-court-norwalk-connecticut-24162367",
+   "address": {
+    "line": "7 Lycett Court",
+    "unit": null,
+    "lineWithUnit": "7 Lycett Court",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1835.0,
+   "price": 725000.0,
+   "date": "2026-06-22",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.127354,
+    "lng": -73.44228
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.452081289970548,
+   "ppsf": 395.09536784741147
+  },
+  {
+   "mls": "24170909",
+   "slug": "26-harris-street-norwalk-connecticut-24170909",
+   "address": {
+    "line": "26 Harris Street",
+    "unit": null,
+    "lineWithUnit": "26 Harris Street",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1492.0,
+   "price": 650000.0,
+   "date": "2026-07-02",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.129632,
+    "lng": -73.435665
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.2983579462860505,
+   "ppsf": 435.65683646112603
+  },
+  {
+   "mls": "24171646",
+   "slug": "18-kreiner-lane-norwalk-connecticut-24171646",
+   "address": {
+    "line": "18 Kreiner Lane",
+    "unit": null,
+    "lineWithUnit": "18 Kreiner Lane",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2204.0,
+   "price": 952000.0,
+   "date": "2026-06-29",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.132828,
+    "lng": -73.4428
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8054067858241144,
+   "ppsf": 431.9419237749546
+  },
+  {
+   "mls": "24165609",
+   "slug": "140-ponus-avenue-norwalk-connecticut-24165609",
+   "address": {
+    "line": "140 Ponus Avenue",
+    "unit": null,
+    "lineWithUnit": "140 Ponus Avenue",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2200.0,
+   "price": 760000.0,
+   "date": "2026-05-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.125228,
+    "lng": -73.448474
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9924825066332555,
+   "ppsf": 345.45454545454544
   }
- }
+ ]
 }

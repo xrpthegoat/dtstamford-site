@@ -109,138 +109,141 @@
    "mi": 1.02
   }
  },
- "comps": {
-  "building": {
-   "rows": [
-    {
-     "slug": "70-south-main-street-norwalk-connecticut-24159755",
-     "addr": "70 South Main Street Unit 3B",
-     "unit": "Unit 3B",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 890.0,
-     "price": 2800.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-11",
-     "ppsf": 3
-    },
-    {
-     "slug": "70-south-main-street-norwalk-connecticut-24159738",
-     "addr": "70 South Main Street Unit 3D",
-     "unit": "Unit 3D",
-     "beds": 2.0,
-     "baths": 4.0,
-     "sqft": 2000.0,
-     "price": 4500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-11",
-     "ppsf": 2
-    }
-   ],
-   "summary": {
-    "n": 2,
-    "low": 2800.0,
-    "high": 4500.0,
-    "median": 3650
+ "comps": [
+  {
+   "mls": "24159755",
+   "slug": "70-south-main-street-norwalk-connecticut-24159755",
+   "address": {
+    "line": "70 South Main Street",
+    "unit": "Unit 3B",
+    "lineWithUnit": "70 South Main Street Unit 3B",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
    },
-   "label": "70 South Main Street"
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 890.0,
+   "price": 2800.0,
+   "date": "2026-06-11",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.09669,
+    "lng": -73.41868
+   },
+   "klass": "rental",
+   "tier": 1,
+   "why": "Same building, sold in the last year",
+   "km": 0.0011599919138313764,
+   "ppsf": 3.146067415730337
   },
-  "area": {
-   "rows": [
-    {
-     "slug": "8-haviland-street-norwalk-connecticut-24170015",
-     "addr": "8 Haviland Street Unit A",
-     "unit": "Unit A",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 1100.0,
-     "price": 2900.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-02",
-     "ppsf": 3,
-     "mi": 0.07
-    },
-    {
-     "slug": "19-day-street-norwalk-connecticut-24147318",
-     "addr": "19 Day Street Unit 311",
-     "unit": "Unit 311",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1341.0,
-     "price": 3500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-16",
-     "ppsf": 3,
-     "mi": 0.07
-    },
-    {
-     "slug": "19-day-street-norwalk-connecticut-24147317",
-     "addr": "19 Day Street Unit 402",
-     "unit": "Unit 402",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1086.0,
-     "price": 3100.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-28",
-     "ppsf": 3,
-     "mi": 0.07
-    },
-    {
-     "slug": "178-flax-hill-road-norwalk-connecticut-24157859",
-     "addr": "178 Flax Hill Road Apt C203",
-     "unit": "Apt C203",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1130.0,
-     "price": 2900.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-18",
-     "ppsf": 3,
-     "mi": 0.29
-    },
-    {
-     "slug": "7-hamilton-avenue-norwalk-connecticut-24147839",
-     "addr": "7 Hamilton Avenue Unit 32",
-     "unit": "Unit 32",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 980.0,
-     "price": 2975.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-01",
-     "ppsf": 3,
-     "mi": 0.31
-    },
-    {
-     "slug": "115-flax-hill-road-norwalk-connecticut-24176759",
-     "addr": "115 Flax Hill Road Unit 10",
-     "unit": "Unit 10",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 862.0,
-     "price": 2750.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-29",
-     "ppsf": 3,
-     "mi": 0.32
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 2750.0,
-    "high": 3500.0,
-    "median": 2938
+  {
+   "mls": "24151683",
+   "slug": "49-osborne-avenue-norwalk-connecticut-24151683",
+   "address": {
+    "line": "49 Osborne Avenue",
+    "unit": null,
+    "lineWithUnit": "49 Osborne Avenue",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06855"
    },
-   "radiusMi": 0.75
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 850.0,
+   "price": 2100.0,
+   "date": "2026-04-18",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.103949,
+    "lng": -73.408219
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1904654688969838,
+   "ppsf": 2.4705882352941178
+  },
+  {
+   "mls": "24128453",
+   "slug": "2-south-main-street-norwalk-connecticut-24128453",
+   "address": {
+    "line": "2 South Main Street",
+    "unit": "Unit W201",
+    "lineWithUnit": "2 South Main Street Unit W201",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 671.0,
+   "price": 2400.0,
+   "date": "2026-03-31",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.09887,
+    "lng": -73.41873
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.24145143242005412,
+   "ppsf": 3.5767511177347244
+  },
+  {
+   "mls": "24147701",
+   "slug": "84-taylor-avenue-norwalk-connecticut-24147701",
+   "address": {
+    "line": "84 Taylor Avenue",
+    "unit": "Apt 1",
+    "lineWithUnit": "84 Taylor Avenue Apt 1",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1106.0,
+   "price": 3400.0,
+   "date": "2026-04-06",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.101949,
+    "lng": -73.429813
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.100969457753528,
+   "ppsf": 3.0741410488245933
+  },
+  {
+   "mls": "24143420",
+   "slug": "10-ann-street-norwalk-connecticut-24143420",
+   "address": {
+    "line": "10 Ann Street",
+    "unit": "Apt 102",
+    "lineWithUnit": "10 Ann Street Apt 102",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 1.0,
+   "baths": 2.0,
+   "sqft": 1016.0,
+   "price": 2500.0,
+   "date": "2026-04-20",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.101204,
+    "lng": -73.41889
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5012630504575935,
+   "ppsf": 2.4606299212598426
   }
- }
+ ]
 }

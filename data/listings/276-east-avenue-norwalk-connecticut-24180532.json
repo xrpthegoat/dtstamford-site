@@ -109,101 +109,141 @@
    "mi": 1.1
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "247-east-avenue-norwalk-connecticut-24161586",
-     "addr": "247 East Avenue Unit 2",
-     "unit": "Unit 2",
-     "beds": 1.0,
-     "baths": 2.0,
-     "sqft": 850.0,
-     "price": 2500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-15",
-     "ppsf": 3,
-     "mi": 0.09
-    },
-    {
-     "slug": "61-van-zant-street-norwalk-connecticut-24152360",
-     "addr": "61 Van Zant Street Unit 2",
-     "unit": "Unit 2",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 900.0,
-     "price": 2100.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-01",
-     "ppsf": 2,
-     "mi": 0.12
-    },
-    {
-     "slug": "3-betts-place-norwalk-connecticut-24172850",
-     "addr": "3 Betts Place Unit 4",
-     "unit": "Unit 4",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 800.0,
-     "price": 2250.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-26",
-     "ppsf": 3,
-     "mi": 0.15
-    },
-    {
-     "slug": "37-seaview-avenue-norwalk-connecticut-24179133",
-     "addr": "37 Seaview Avenue Unit 2",
-     "unit": "Unit 2",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 650.0,
-     "price": 2350.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-01",
-     "ppsf": 4,
-     "mi": 0.22
-    },
-    {
-     "slug": "35-seaview-avenue-norwalk-connecticut-24161153",
-     "addr": "35 Seaview Avenue Unit 2nd fl",
-     "unit": "Unit 2nd fl",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 1100.0,
-     "price": 2800.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-25",
-     "ppsf": 3,
-     "mi": 0.23
-    },
-    {
-     "slug": "4-van-zant-street-norwalk-connecticut-24149292",
-     "addr": "4 Van Zant Street Unit B13",
-     "unit": "Unit B13",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 550.0,
-     "price": 1900.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-01",
-     "ppsf": 3,
-     "mi": 0.28
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 1900.0,
-    "high": 2800.0,
-    "median": 2300
+ "comps": [
+  {
+   "mls": "24152514",
+   "slug": "38-gregory-boulevard-norwalk-connecticut-24152514",
+   "address": {
+    "line": "38 Gregory Boulevard",
+    "unit": null,
+    "lineWithUnit": "38 Gregory Boulevard",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06855"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 2611.0,
+   "price": 3600.0,
+   "date": "2026-05-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.099301,
+    "lng": -73.401006
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.33101514946605887,
+   "ppsf": 1.3787820758330143
+  },
+  {
+   "mls": "24155362",
+   "slug": "25-channel-avenue-norwalk-connecticut-24155362",
+   "address": {
+    "line": "25 Channel Avenue",
+    "unit": null,
+    "lineWithUnit": "25 Channel Avenue",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 2994.0,
+   "price": 20000.0,
+   "date": "2026-03-26",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.082005,
+    "lng": -73.41098
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.1015362905421235,
+   "ppsf": 6.680026720106881
+  },
+  {
+   "mls": "24141253",
+   "slug": "11-avenue-a-norwalk-connecticut-24141253",
+   "address": {
+    "line": "11 Avenue A",
+    "unit": "Unit 3",
+    "lineWithUnit": "11 Avenue A Unit 3",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 2632.0,
+   "price": 2350.0,
+   "date": "2026-05-15",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.100143,
+    "lng": -73.429567
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.0817279792715238,
+   "ppsf": 0.8928571428571429
+  },
+  {
+   "mls": "24146189",
+   "slug": "12-splitrock-road-norwalk-connecticut-24146189",
+   "address": {
+    "line": "12 Splitrock Road",
+    "unit": null,
+    "lineWithUnit": "12 Splitrock Road",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 3316.0,
+   "price": 8000.0,
+   "date": "2026-06-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.082144,
+    "lng": -73.418512
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.326813964077101,
+   "ppsf": 2.4125452352231602
+  },
+  {
+   "mls": "24159808",
+   "slug": "18-soundview-avenue-norwalk-connecticut-24159808",
+   "address": {
+    "line": "18 Soundview Avenue",
+    "unit": "Unit 1",
+    "lineWithUnit": "18 Soundview Avenue Unit 1",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 3.0,
+   "baths": 1.0,
+   "sqft": 3168.0,
+   "price": 3000.0,
+   "date": "2026-05-20",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.093333,
+    "lng": -73.428494
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.137474006887263,
+   "ppsf": 0.946969696969697
   }
- }
+ ]
 }

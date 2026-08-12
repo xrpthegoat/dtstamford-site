@@ -128,86 +128,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "37-blue-ridge-drive-stamford-connecticut-24166806",
-     "addr": "37 Blue Ridge Drive",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1411.0,
-     "price": 715000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-23",
-     "ppsf": 507,
-     "mi": 0.13
-    },
-    {
-     "slug": "170-dunn-avenue-stamford-connecticut-24166200",
-     "addr": "170 Dunn Avenue",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1495.0,
-     "price": 730000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-09",
-     "ppsf": 488,
-     "mi": 0.67
-    },
-    {
-     "slug": "290-red-fox-road-stamford-connecticut-24171383",
-     "addr": "290 Red Fox Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 2384.0,
-     "price": 880000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-23",
-     "ppsf": 369,
-     "mi": 0.7
-    },
-    {
-     "slug": "37-quarry-road-stamford-connecticut-24155308",
-     "addr": "37 Quarry Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 4.0,
-     "sqft": 3775.0,
-     "price": 1375000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-08",
-     "ppsf": 364,
-     "mi": 0.74
-    },
-    {
-     "slug": "89-eastover-road-stamford-connecticut-24184890",
-     "addr": "89 Eastover Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 2280.0,
-     "price": 999000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 438,
-     "mi": 0.7
-    }
-   ],
-   "summary": {
-    "n": 4,
-    "low": 715000.0,
-    "high": 1375000.0,
-    "median": 805000
+ "comps": [
+  {
+   "mls": "24155308",
+   "slug": "37-quarry-road-stamford-connecticut-24155308",
+   "address": {
+    "line": "37 Quarry Road",
+    "unit": null,
+    "lineWithUnit": "37 Quarry Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 4.0,
+   "sqft": 3775.0,
+   "price": 1375000.0,
+   "date": "2026-04-08",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.125762,
+    "lng": -73.535248
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1894506199839217,
+   "ppsf": 364.2384105960265
+  },
+  {
+   "mls": "24171383",
+   "slug": "290-red-fox-road-stamford-connecticut-24171383",
+   "address": {
+    "line": "290 Red Fox Road",
+    "unit": null,
+    "lineWithUnit": "290 Red Fox Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 2384.0,
+   "price": 880000.0,
+   "date": "2026-06-23",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.118812,
+    "lng": -73.558683
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1341249694584412,
+   "ppsf": 369.1275167785235
+  },
+  {
+   "mls": "24175456",
+   "slug": "35-hampton-lane-stamford-connecticut-24175456",
+   "address": {
+    "line": "35 Hampton Lane",
+    "unit": null,
+    "lineWithUnit": "35 Hampton Lane",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
+   },
+   "beds": 4.0,
+   "baths": 2.0,
+   "sqft": 2973.0,
+   "price": 1050000.0,
+   "date": "2026-07-02",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.117584,
+    "lng": -73.543082
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.18504886716717658,
+   "ppsf": 353.17860746720487
+  },
+  {
+   "mls": "24149973",
+   "slug": "223-red-fox-road-stamford-connecticut-24149973",
+   "address": {
+    "line": "223 Red Fox Road",
+    "unit": null,
+    "lineWithUnit": "223 Red Fox Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 3305.0,
+   "price": 1050000.0,
+   "date": "2026-04-22",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.119698,
+    "lng": -73.555381
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8728119540871611,
+   "ppsf": 317.7004538577912
+  },
+  {
+   "mls": "24151740",
+   "slug": "36-somerset-lane-stamford-connecticut-24151740",
+   "address": {
+    "line": "36 Somerset Lane",
+    "unit": null,
+    "lineWithUnit": "36 Somerset Lane",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 3116.0,
+   "price": 921000.0,
+   "date": "2026-05-26",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.117911,
+    "lng": -73.541238
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.3306554334568839,
+   "ppsf": 295.5712451861361
   }
- }
+ ]
 }

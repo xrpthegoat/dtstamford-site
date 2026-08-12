@@ -127,73 +127,141 @@
    "mi": 1.0
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "253-hope-street-stamford-connecticut-24166708",
-     "addr": "253 Hope Street",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 2.0,
-     "sqft": 1696.0,
-     "price": 3800.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-06",
-     "ppsf": 2,
-     "mi": 0.25
-    },
-    {
-     "slug": "49-midland-avenue-stamford-connecticut-24179183",
-     "addr": "49 Midland Avenue",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 1887.0,
-     "price": 5300.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-20",
-     "ppsf": 3,
-     "mi": 0.58
-    },
-    {
-     "slug": "120-culloden-road-stamford-connecticut-24184996",
-     "addr": "120 Culloden Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 2.0,
-     "sqft": 1454.0,
-     "price": 4350.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-28",
-     "ppsf": 3,
-     "mi": 0.6
-    },
-    {
-     "slug": "stamford-connecticut-24164938",
-     "addr": null,
-     "unit": "",
-     "beds": 4.0,
-     "baths": 2.0,
-     "sqft": 1612.0,
-     "price": 4800.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-21",
-     "ppsf": 3,
-     "mi": 0.71
-    }
-   ],
-   "summary": {
-    "n": 4,
-    "low": 3800.0,
-    "high": 5300.0,
-    "median": 4575
+ "comps": [
+  {
+   "mls": "24154237",
+   "slug": "24-king-street-stamford-connecticut-24154237",
+   "address": {
+    "line": "24 King Street",
+    "unit": null,
+    "lineWithUnit": "24 King Street",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1620.0,
+   "price": 6200.0,
+   "date": "2026-04-28",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.064059,
+    "lng": -73.510404
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1089165549949,
+   "ppsf": 3.8271604938271606
+  },
+  {
+   "mls": "24186816",
+   "slug": "132-hope-street-stamford-connecticut-24186816",
+   "address": {
+    "line": "132 Hope Street",
+    "unit": "Unit B",
+    "lineWithUnit": "132 Hope Street Unit B",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06906"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1934.0,
+   "price": 4800.0,
+   "date": "2026-07-20",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.065124,
+    "lng": -73.527059
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6525567138854018,
+   "ppsf": 2.4819027921406414
+  },
+  {
+   "mls": "24186845",
+   "slug": "100-hope-street-stamford-connecticut-24186845",
+   "address": {
+    "line": "100 Hope Street",
+    "unit": "Unit 41",
+    "lineWithUnit": "100 Hope Street Unit 41",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06906"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1345.0,
+   "price": 3450.0,
+   "date": "2026-08-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.064754,
+    "lng": -73.52764
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7160377360355848,
+   "ppsf": 2.5650557620817844
+  },
+  {
+   "mls": "24164938",
+   "slug": "stamford-connecticut-24164938",
+   "address": {
+    "line": null,
+    "unit": null,
+    "lineWithUnit": null,
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06906"
+   },
+   "beds": 4.0,
+   "baths": 2.0,
+   "sqft": 1612.0,
+   "price": 4800.0,
+   "date": "2026-04-21",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.077887,
+    "lng": -73.52912
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1397918759878534,
+   "ppsf": 2.977667493796526
+  },
+  {
+   "mls": "24166708",
+   "slug": "253-hope-street-stamford-connecticut-24166708",
+   "address": {
+    "line": "253 Hope Street",
+    "unit": null,
+    "lineWithUnit": "253 Hope Street",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06906"
+   },
+   "beds": 4.0,
+   "baths": 2.0,
+   "sqft": 1696.0,
+   "price": 3800.0,
+   "date": "2026-05-06",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.069363,
+    "lng": -73.52648
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.40643078807296296,
+   "ppsf": 2.240566037735849
   }
- }
+ ]
 }

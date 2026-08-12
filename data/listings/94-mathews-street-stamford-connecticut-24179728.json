@@ -134,101 +134,141 @@
    "mi": 1.08
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "138-houston-terrace-stamford-connecticut-24170712",
-     "addr": "138 Houston Terrace",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 1.0,
-     "sqft": 1164.0,
-     "price": 707000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-25",
-     "ppsf": 607,
-     "mi": 0.09
-    },
-    {
-     "slug": "34-andover-road-stamford-connecticut-24166537",
-     "addr": "34 Andover Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1858.0,
-     "price": 1127500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-26",
-     "ppsf": 607,
-     "mi": 0.15
-    },
-    {
-     "slug": "69-webb-avenue-stamford-connecticut-24170661",
-     "addr": "69 Webb Avenue",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 2510.0,
-     "price": 739000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-23",
-     "ppsf": 294,
-     "mi": 0.22
-    },
-    {
-     "slug": "51-houston-terrace-stamford-connecticut-24160028",
-     "addr": "51 Houston Terrace",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1648.0,
-     "price": 701000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-15",
-     "ppsf": 425,
-     "mi": 0.29
-    },
-    {
-     "slug": "3-island-heights-circle-stamford-connecticut-24171133",
-     "addr": "3 Island Heights Circle",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1848.0,
-     "price": 731000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-05",
-     "ppsf": 396,
-     "mi": 0.32
-    },
-    {
-     "slug": "29-waterbury-avenue-stamford-connecticut-24155116",
-     "addr": "29 Waterbury Avenue",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 2035.0,
-     "price": 710000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-13",
-     "ppsf": 349,
-     "mi": 0.34
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 701000.0,
-    "high": 1127500.0,
-    "median": 720500
+ "comps": [
+  {
+   "mls": "24146795",
+   "slug": "46-stafford-road-stamford-connecticut-24146795",
+   "address": {
+    "line": "46 Stafford Road",
+    "unit": null,
+    "lineWithUnit": "46 Stafford Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 1.0,
+   "sqft": 1292.0,
+   "price": 583000.0,
+   "date": "2026-03-26",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.055174,
+    "lng": -73.517312
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.007591976324105,
+   "ppsf": 451.23839009287923
+  },
+  {
+   "mls": "24166537",
+   "slug": "34-andover-road-stamford-connecticut-24166537",
+   "address": {
+    "line": "34 Andover Road",
+    "unit": null,
+    "lineWithUnit": "34 Andover Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1858.0,
+   "price": 1127500.0,
+   "date": "2026-06-26",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.052739,
+    "lng": -73.505758
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.2489562026375429,
+   "ppsf": 606.8353067814854
+  },
+  {
+   "mls": "24170712",
+   "slug": "138-houston-terrace-stamford-connecticut-24170712",
+   "address": {
+    "line": "138 Houston Terrace",
+    "unit": null,
+    "lineWithUnit": "138 Houston Terrace",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 3.0,
+   "baths": 1.0,
+   "sqft": 1164.0,
+   "price": 707000.0,
+   "date": "2026-06-25",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.055583,
+    "lng": -73.50681
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.14488139434218966,
+   "ppsf": 607.3883161512027
+  },
+  {
+   "mls": "24162834",
+   "slug": "25-albin-road-stamford-connecticut-24162834",
+   "address": {
+    "line": "25 Albin Road",
+    "unit": null,
+    "lineWithUnit": "25 Albin Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1588.0,
+   "price": 620000.0,
+   "date": "2026-07-14",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.049901,
+    "lng": -73.506395
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5690052887240963,
+   "ppsf": 390.42821158690174
+  },
+  {
+   "mls": "24174865",
+   "slug": "262-hamilton-avenue-stamford-connecticut-24174865",
+   "address": {
+    "line": "262 Hamilton Avenue",
+    "unit": null,
+    "lineWithUnit": "262 Hamilton Avenue",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 4.0,
+   "baths": 2.0,
+   "sqft": 1509.0,
+   "price": 630000.0,
+   "date": "2026-07-27",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.064301,
+    "lng": -73.512039
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1833283842298814,
+   "ppsf": 417.49502982107356
   }
- }
+ ]
 }

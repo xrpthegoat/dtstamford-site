@@ -129,59 +129,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "148-ramhorne-road-new-canaan-connecticut-24149905",
-     "addr": "148 Ramhorne Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 5.0,
-     "sqft": 4634.0,
-     "price": 2750000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-30",
-     "ppsf": 593,
-     "mi": 0.49
-    },
-    {
-     "slug": "73-lake-wind-road-new-canaan-connecticut-24160722",
-     "addr": "73 Lake Wind Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 10.0,
-     "sqft": 9062.0,
-     "price": 3825000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-28",
-     "ppsf": 422,
-     "mi": 0.61
-    },
-    {
-     "slug": "41-lake-wind-road-new-canaan-connecticut-24169105",
-     "addr": "41 Lake Wind Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 6.0,
-     "sqft": 6313.0,
-     "price": 2600000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-17",
-     "ppsf": 412,
-     "mi": 0.67
-    }
-   ],
-   "summary": {
-    "n": 3,
-    "low": 2600000.0,
-    "high": 3825000.0,
-    "median": 2750000
+ "comps": [
+  {
+   "mls": "24150372",
+   "slug": "24-clearview-lane-new-canaan-connecticut-24150372",
+   "address": {
+    "line": "24 Clearview Lane",
+    "unit": null,
+    "lineWithUnit": "24 Clearview Lane",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
    },
-   "radiusMi": 0.75
+   "beds": 6.0,
+   "baths": 9.0,
+   "sqft": 6476.0,
+   "price": 3700000.0,
+   "date": "2026-04-08",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.1608,
+    "lng": -73.535278
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.800698193718547,
+   "ppsf": 571.3403335392218
+  },
+  {
+   "mls": "24169105",
+   "slug": "41-lake-wind-road-new-canaan-connecticut-24169105",
+   "address": {
+    "line": "41 Lake Wind Road",
+    "unit": null,
+    "lineWithUnit": "41 Lake Wind Road",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 5.0,
+   "baths": 6.0,
+   "sqft": 6313.0,
+   "price": 2600000.0,
+   "date": "2026-07-17",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.167219,
+    "lng": -73.539613
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.072841501708875,
+   "ppsf": 411.84856645018215
+  },
+  {
+   "mls": "24149905",
+   "slug": "148-ramhorne-road-new-canaan-connecticut-24149905",
+   "address": {
+    "line": "148 Ramhorne Road",
+    "unit": null,
+    "lineWithUnit": "148 Ramhorne Road",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 5.0,
+   "baths": 5.0,
+   "sqft": 4634.0,
+   "price": 2750000.0,
+   "date": "2026-04-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.166293,
+    "lng": -73.536334
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7815091899005373,
+   "ppsf": 593.4397928355633
+  },
+  {
+   "mls": "24141648",
+   "slug": "1038-west-road-new-canaan-connecticut-24141648",
+   "address": {
+    "line": "1038 West Road",
+    "unit": null,
+    "lineWithUnit": "1038 West Road",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 4562.0,
+   "price": 2500000.0,
+   "date": "2026-05-01",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.182735,
+    "lng": -73.53435
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.091514129186647,
+   "ppsf": 548.0052608505042
+  },
+  {
+   "mls": "24166609",
+   "slug": "1541-oenoke-ridge-new-canaan-connecticut-24166609",
+   "address": {
+    "line": "1541 Oenoke Ridge",
+    "unit": null,
+    "lineWithUnit": "1541 Oenoke Ridge",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 5.0,
+   "baths": 6.0,
+   "sqft": 5687.0,
+   "price": 3200000.0,
+   "date": "2026-06-22",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.186259,
+    "lng": -73.528723
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.400129415301636,
+   "ppsf": 562.6868296113944
   }
- }
+ ]
 }

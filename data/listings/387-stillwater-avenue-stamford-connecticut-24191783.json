@@ -133,87 +133,141 @@
    "mi": 0.74
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "77-rachelle-avenue-stamford-connecticut-24165161",
-     "addr": "77 Rachelle Avenue",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2120.0,
-     "price": 965000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-11",
-     "ppsf": 455,
-     "mi": 0.23
-    },
-    {
-     "slug": "56-hubbard-avenue-stamford-connecticut-24170637",
-     "addr": "56 Hubbard Avenue",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2010.0,
-     "price": 1100000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-17",
-     "ppsf": 547,
-     "mi": 0.29
-    },
-    {
-     "slug": "2-golf-view-circle-stamford-connecticut-24173168",
-     "addr": "2 Golf View Circle",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2064.0,
-     "price": 850000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-30",
-     "ppsf": 412,
-     "mi": 0.36
-    },
-    {
-     "slug": "143-palmers-hill-road-stamford-connecticut-24166559",
-     "addr": "143 Palmers Hill Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 3178.0,
-     "price": 1529000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-28",
-     "ppsf": 481,
-     "mi": 0.5
-    },
-    {
-     "slug": "9-stuart-drive-greenwich-connecticut-24162644",
-     "addr": "9 Stuart Drive",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 2.0,
-     "sqft": 1481.0,
-     "price": 1270000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-20",
-     "ppsf": 858,
-     "mi": 0.69
-    }
-   ],
-   "summary": {
-    "n": 5,
-    "low": 850000.0,
-    "high": 1529000.0,
-    "median": 1100000
+ "comps": [
+  {
+   "mls": "24155501",
+   "slug": "19-emery-drive-stamford-connecticut-24155501",
+   "address": {
+    "line": "19 Emery Drive",
+    "unit": null,
+    "lineWithUnit": "19 Emery Drive",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2731.0,
+   "price": 1590000.0,
+   "date": "2026-04-17",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.059964,
+    "lng": -73.562831
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.536990462905789,
+   "ppsf": 582.2043207616258
+  },
+  {
+   "mls": "24155832",
+   "slug": "5-halliwell-drive-stamford-connecticut-24155832",
+   "address": {
+    "line": "5 Halliwell Drive",
+    "unit": null,
+    "lineWithUnit": "5 Halliwell Drive",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 3.0,
+   "baths": 4.0,
+   "sqft": 2502.0,
+   "price": 1596000.0,
+   "date": "2026-05-04",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.063988,
+    "lng": -73.559074
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7937840169001357,
+   "ppsf": 637.8896882494005
+  },
+  {
+   "mls": "24166559",
+   "slug": "143-palmers-hill-road-stamford-connecticut-24166559",
+   "address": {
+    "line": "143 Palmers Hill Road",
+    "unit": null,
+    "lineWithUnit": "143 Palmers Hill Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 3178.0,
+   "price": 1529000.0,
+   "date": "2026-05-28",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.059881,
+    "lng": -73.566579
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8013726709062285,
+   "ppsf": 481.12020138451857
+  },
+  {
+   "mls": "24168000",
+   "slug": "41-chester-street-stamford-connecticut-24168000",
+   "address": {
+    "line": "41 Chester Street",
+    "unit": null,
+    "lineWithUnit": "41 Chester Street",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 3213.0,
+   "price": 1455000.0,
+   "date": "2026-06-25",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.067462,
+    "lng": -73.541176
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.8267917693506073,
+   "ppsf": 452.84780578898227
+  },
+  {
+   "mls": "24177987",
+   "slug": "75-westwood-road-stamford-connecticut-24177987",
+   "address": {
+    "line": "75 Westwood Road",
+    "unit": null,
+    "lineWithUnit": "75 Westwood Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2496.0,
+   "price": 820000.0,
+   "date": "2026-07-07",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.078708,
+    "lng": -73.562062
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.4494654317788025,
+   "ppsf": 328.52564102564105
   }
- }
+ ]
 }

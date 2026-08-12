@@ -133,96 +133,141 @@
    "mi": 1.68
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "1073-shippan-avenue-stamford-connecticut-24161501",
-     "addr": "1073 Shippan Avenue",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 3.0,
-     "sqft": 3216.0,
-     "price": 1125000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-27",
-     "ppsf": 350,
-     "mi": 0.6
-    },
-    {
-     "slug": "61-hobson-street-stamford-connecticut-24148148",
-     "addr": "61 Hobson Street",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 4.0,
-     "sqft": 3644.0,
-     "price": 2000000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 549,
-     "mi": 0.16
-    },
-    {
-     "slug": "84-hobson-street-stamford-connecticut-24193179",
-     "addr": "84 Hobson Street",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 3.0,
-     "sqft": 3757.0,
-     "price": 1950000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 519,
-     "mi": 0.19
-    },
-    {
-     "slug": "34-downs-avenue-stamford-connecticut-24192557",
-     "addr": "34 Downs Avenue",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 4.0,
-     "sqft": 3094.0,
-     "price": 1295000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 419,
-     "mi": 0.39
-    },
-    {
-     "slug": "215-ocean-drive-west-stamford-connecticut-24167132",
-     "addr": "215 Ocean Drive West",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 4.0,
-     "sqft": 3443.0,
-     "price": 4375000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 1271,
-     "mi": 0.41
-    },
-    {
-     "slug": "58-rogers-road-stamford-connecticut-24190845",
-     "addr": "58 Rogers Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 5.0,
-     "sqft": 5618.0,
-     "price": 3800000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 676,
-     "mi": 0.6
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 1125000.0,
-    "high": 1125000.0,
-    "median": 1125000
+ "comps": [
+  {
+   "mls": "24160509",
+   "slug": "83-sea-beach-drive-stamford-connecticut-24160509",
+   "address": {
+    "line": "83 Sea Beach Drive",
+    "unit": null,
+    "lineWithUnit": "83 Sea Beach Drive",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
    },
-   "radiusMi": 0.75
+   "beds": 6.0,
+   "baths": 7.0,
+   "sqft": 4815.0,
+   "price": 2650000.0,
+   "date": "2026-06-04",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.029894,
+    "lng": -73.518844
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.4441085122384396,
+   "ppsf": 550.3634475597092
+  },
+  {
+   "mls": "24169770",
+   "slug": "1579-shippan-avenue-stamford-connecticut-24169770",
+   "address": {
+    "line": "1579 Shippan Avenue",
+    "unit": null,
+    "lineWithUnit": "1579 Shippan Avenue",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 3.0,
+   "baths": 4.0,
+   "sqft": 4860.0,
+   "price": 2225000.0,
+   "date": "2026-07-17",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.030911,
+    "lng": -73.525632
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.2186834959452692,
+   "ppsf": 457.81893004115227
+  },
+  {
+   "mls": "24090362",
+   "slug": "86-wallacks-drive-stamford-connecticut-24090362",
+   "address": {
+    "line": "86 Wallacks Drive",
+    "unit": null,
+    "lineWithUnit": "86 Wallacks Drive",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 6.0,
+   "baths": 6.0,
+   "sqft": 6543.0,
+   "price": 3032000.0,
+   "date": "2026-04-24",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.03993,
+    "lng": -73.508364
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.7687603794152975,
+   "ppsf": 463.39599572061746
+  },
+  {
+   "mls": "24146135",
+   "slug": "139-wyndover-lane-stamford-connecticut-24146135",
+   "address": {
+    "line": "139 Wyndover Lane",
+    "unit": null,
+    "lineWithUnit": "139 Wyndover Lane",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 4398.0,
+   "price": 892504.0,
+   "date": "2026-05-29",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.071794,
+    "lng": -73.559332
+   },
+   "klass": "house",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 5.570745619202197,
+   "ppsf": 202.93406093678945
+  },
+  {
+   "mls": "24162502",
+   "slug": "31-rosano-road-stamford-connecticut-24162502",
+   "address": {
+    "line": "31 Rosano Road",
+    "unit": null,
+    "lineWithUnit": "31 Rosano Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 6.0,
+   "baths": 5.0,
+   "sqft": 6000.0,
+   "price": 2149000.0,
+   "date": "2026-05-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.086895,
+    "lng": -73.55289
+   },
+   "klass": "house",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 6.8416312883348,
+   "ppsf": 358.1666666666667
   }
- }
+ ]
 }

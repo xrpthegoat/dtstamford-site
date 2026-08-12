@@ -139,72 +139,141 @@
    "walk": 10
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "34-sunrise-hill-road-norwalk-connecticut-24135575",
-     "addr": "34 Sunrise Hill Road Unit 34",
-     "unit": "Unit 34",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1294.0,
-     "price": 540000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-26",
-     "ppsf": 417,
-     "mi": 0.1
-    },
-    {
-     "slug": "67-aiken-street-norwalk-connecticut-24167934",
-     "addr": "67 Aiken Street Unit B",
-     "unit": "Unit B",
-     "beds": 3.0,
-     "baths": 4.0,
-     "sqft": 2114.0,
-     "price": 749000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-02",
-     "ppsf": 354,
-     "mi": 0.14
-    },
-    {
-     "slug": "61-aiken-street-norwalk-connecticut-24180085",
-     "addr": "61 Aiken Street Unit A",
-     "unit": "Unit A",
-     "beds": 3.0,
-     "baths": 4.0,
-     "sqft": 2069.0,
-     "price": 775000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-05",
-     "ppsf": 375,
-     "mi": 0.14
-    },
-    {
-     "slug": "4-caryns-way-norwalk-connecticut-24189332",
-     "addr": "4 Caryns Way Unit A",
-     "unit": "Unit A",
-     "beds": 3.0,
-     "baths": 4.0,
-     "sqft": 2574.0,
-     "price": 785900.0,
-     "kind": "asking",
-     "status": "Under Contract - Continue to Show",
-     "ppsf": 305,
-     "mi": 0.18
-    }
-   ],
-   "summary": {
-    "n": 3,
-    "low": 540000.0,
-    "high": 775000.0,
-    "median": 749000
+ "comps": [
+  {
+   "mls": "24135575",
+   "slug": "34-sunrise-hill-road-norwalk-connecticut-24135575",
+   "address": {
+    "line": "34 Sunrise Hill Road",
+    "unit": "Unit 34",
+    "lineWithUnit": "34 Sunrise Hill Road Unit 34",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1294.0,
+   "price": 540000.0,
+   "date": "2026-03-26",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.131249,
+    "lng": -73.417709
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.15880548877635298,
+   "ppsf": 417.3106646058733
+  },
+  {
+   "mls": "24144516",
+   "slug": "71-aiken-street-norwalk-connecticut-24144516",
+   "address": {
+    "line": "71 Aiken Street",
+    "unit": "Apt C8",
+    "lineWithUnit": "71 Aiken Street Apt C8",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 1481.0,
+   "price": 499000.0,
+   "date": "2026-04-03",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.136094,
+    "lng": -73.419512
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.40074187540217254,
+   "ppsf": 336.93450371370693
+  },
+  {
+   "mls": "24150435",
+   "slug": "226-sunrise-hill-road-norwalk-connecticut-24150435",
+   "address": {
+    "line": "226 Sunrise Hill Road",
+    "unit": "Unit 226",
+    "lineWithUnit": "226 Sunrise Hill Road Unit 226",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1204.0,
+   "price": 530700.0,
+   "date": "2026-04-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.133175,
+    "lng": -73.418768
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.0754187611110501,
+   "ppsf": 440.78073089700996
+  },
+  {
+   "mls": "24155912",
+   "slug": "71-aiken-street-norwalk-connecticut-24155912",
+   "address": {
+    "line": "71 Aiken Street",
+    "unit": "Apt M1",
+    "lineWithUnit": "71 Aiken Street Apt M1",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 1480.0,
+   "price": 530000.0,
+   "date": "2026-04-28",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.136094,
+    "lng": -73.419512
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.40074187540217254,
+   "ppsf": 358.1081081081081
+  },
+  {
+   "mls": "24160952",
+   "slug": "21-linden-street-norwalk-connecticut-24160952",
+   "address": {
+    "line": "21 Linden Street",
+    "unit": "Unit 12",
+    "lineWithUnit": "21 Linden Street Unit 12",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 1170.0,
+   "price": 480000.0,
+   "date": "2026-06-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.138773,
+    "lng": -73.423444
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8107654633106692,
+   "ppsf": 410.2564102564103
   }
- }
+ ]
 }

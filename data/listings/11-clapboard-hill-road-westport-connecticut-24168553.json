@@ -127,51 +127,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "6-clapboard-hill-road-westport-connecticut-24193530",
-     "addr": "6 Clapboard Hill Road",
-     "unit": "",
-     "beds": 6.0,
-     "baths": 6.0,
-     "sqft": 5607.0,
-     "price": 4599000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 820,
-     "mi": 0.07
-    },
-    {
-     "slug": "clapboard-hill-road-westport-connecticut-24177287",
-     "addr": "Clapboard Hill Road Unit (New Build)",
-     "unit": "Unit (New Build)",
-     "beds": 6.0,
-     "baths": 7.0,
-     "sqft": 7200.0,
-     "price": 7926000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 1101,
-     "mi": 0.23
-    },
-    {
-     "slug": "124-hillandale-road-westport-connecticut-24184011",
-     "addr": "124 Hillandale Road",
-     "unit": "",
-     "beds": 6.0,
-     "baths": 10.0,
-     "sqft": 9349.0,
-     "price": 6500000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 695,
-     "mi": 0.56
-    }
-   ],
-   "summary": null,
-   "radiusMi": 0.75
+ "comps": [
+  {
+   "mls": "24171950",
+   "slug": "221-greens-farms-road-westport-connecticut-24171950",
+   "address": {
+    "line": "221 Greens Farms Road",
+    "unit": null,
+    "lineWithUnit": "221 Greens Farms Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 5.0,
+   "baths": 6.0,
+   "sqft": 5789.0,
+   "price": 2995000.0,
+   "date": "2026-08-05",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.124386,
+    "lng": -73.32586
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.3181925164563807,
+   "ppsf": 517.3605113145621
+  },
+  {
+   "mls": "24144655",
+   "slug": "18-woodhill-road-westport-connecticut-24144655",
+   "address": {
+    "line": "18 Woodhill Road",
+    "unit": null,
+    "lineWithUnit": "18 Woodhill Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 6.0,
+   "baths": 7.0,
+   "sqft": 7092.0,
+   "price": 3800000.0,
+   "date": "2026-03-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.136891,
+    "lng": -73.303322
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.0390229972337,
+   "ppsf": 535.8150028200789
+  },
+  {
+   "mls": "24137404",
+   "slug": "123-greens-farms-road-westport-connecticut-24137404",
+   "address": {
+    "line": "123 Greens Farms Road",
+    "unit": null,
+    "lineWithUnit": "123 Greens Farms Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 4.0,
+   "baths": 5.0,
+   "sqft": 5207.0,
+   "price": 2600000.0,
+   "date": "2026-05-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.126299,
+    "lng": -73.340884
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.4568493483285974,
+   "ppsf": 499.3278279239485
+  },
+  {
+   "mls": "24147552",
+   "slug": "10-wakenor-road-westport-connecticut-24147552",
+   "address": {
+    "line": "10 Wakenor Road",
+    "unit": null,
+    "lineWithUnit": "10 Wakenor Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 5.0,
+   "baths": 6.0,
+   "sqft": 5008.0,
+   "price": 2630000.0,
+   "date": "2026-04-01",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.139773,
+    "lng": -73.332227
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.634557277298843,
+   "ppsf": 525.1597444089457
+  },
+  {
+   "mls": "24166818",
+   "slug": "119-long-lots-road-westport-connecticut-24166818",
+   "address": {
+    "line": "119 Long Lots Road",
+    "unit": null,
+    "lineWithUnit": "119 Long Lots Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 5.0,
+   "baths": 5.0,
+   "sqft": 5616.0,
+   "price": 3352000.0,
+   "date": "2026-06-19",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.146531,
+    "lng": -73.319498
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.238515867742055,
+   "ppsf": 596.8660968660969
   }
- }
+ ]
 }

@@ -139,72 +139,141 @@
    "mi": 1.01
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "56-freshwater-lane-norwalk-connecticut-24169625",
-     "addr": "56 Freshwater Lane",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 4.0,
-     "sqft": 4698.0,
-     "price": 2090000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-20",
-     "ppsf": 445,
-     "mi": 0.13
-    },
-    {
-     "slug": "264-chestnut-hill-road-norwalk-connecticut-24160403",
-     "addr": "264 Chestnut Hill Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 2076.0,
-     "price": 875000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-15",
-     "ppsf": 421,
-     "mi": 0.39
-    },
-    {
-     "slug": "276-grumman-avenue-norwalk-connecticut-24149272",
-     "addr": "276 Grumman Avenue",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1488.0,
-     "price": 675000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-14",
-     "ppsf": 454,
-     "mi": 0.73
-    },
-    {
-     "slug": "17-pumpkin-lane-norwalk-connecticut-24185368",
-     "addr": "17 Pumpkin Lane",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1894.0,
-     "price": 775000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 409,
-     "mi": 0.48
-    }
-   ],
-   "summary": {
-    "n": 3,
-    "low": 675000.0,
-    "high": 2090000.0,
-    "median": 875000
+ "comps": [
+  {
+   "mls": "24147896",
+   "slug": "381-chestnut-hill-road-norwalk-connecticut-24147896",
+   "address": {
+    "line": "381 Chestnut Hill Road",
+    "unit": null,
+    "lineWithUnit": "381 Chestnut Hill Road",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 3438.0,
+   "price": 1325000.0,
+   "date": "2026-04-10",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.170969,
+    "lng": -73.395882
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.3731119530829122,
+   "ppsf": 385.39848749272835
+  },
+  {
+   "mls": "24169625",
+   "slug": "56-freshwater-lane-norwalk-connecticut-24169625",
+   "address": {
+    "line": "56 Freshwater Lane",
+    "unit": null,
+    "lineWithUnit": "56 Freshwater Lane",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 3.0,
+   "baths": 4.0,
+   "sqft": 4698.0,
+   "price": 2090000.0,
+   "date": "2026-07-20",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.168562,
+    "lng": -73.399267
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.21190086441258507,
+   "ppsf": 444.8701575138357
+  },
+  {
+   "mls": "24166244",
+   "slug": "12-white-barns-lane-norwalk-connecticut-24166244",
+   "address": {
+    "line": "12 White Barns Lane",
+    "unit": "Unit 12",
+    "lineWithUnit": "12 White Barns Lane Unit 12",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 4.0,
+   "baths": 5.0,
+   "sqft": 4832.0,
+   "price": 1925000.0,
+   "date": "2026-04-19",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.15129,
+    "lng": -73.390205
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.913346854830666,
+   "ppsf": 398.38576158940396
+  },
+  {
+   "mls": "24115022",
+   "slug": "41-mohawk-drive-norwalk-connecticut-24115022",
+   "address": {
+    "line": "41 Mohawk Drive",
+    "unit": null,
+    "lineWithUnit": "41 Mohawk Drive",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 3018.0,
+   "price": 915000.0,
+   "date": "2026-04-22",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.15549,
+    "lng": -73.397826
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.3616878381697266,
+   "ppsf": 303.18091451292247
+  },
+  {
+   "mls": "24144110",
+   "slug": "300-buttery-road-norwalk-connecticut-24144110",
+   "address": {
+    "line": "300 Buttery Road",
+    "unit": null,
+    "lineWithUnit": "300 Buttery Road",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2926.0,
+   "price": 1096100.0,
+   "date": "2026-03-16",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.144909,
+    "lng": -73.451989
+   },
+   "klass": "house",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 5.25650872608211,
+   "ppsf": 374.60697197539304
   }
- }
+ ]
 }

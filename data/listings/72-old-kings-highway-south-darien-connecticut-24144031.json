@@ -139,84 +139,141 @@
    "walk": 8
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "44-andrews-drive-darien-connecticut-24157816",
-     "addr": "44 Andrews Drive",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 6.0,
-     "sqft": 6517.0,
-     "price": 4350000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-04",
-     "ppsf": 667,
-     "mi": 0.21
-    },
-    {
-     "slug": "15-queens-lane-darien-connecticut-24162662",
-     "addr": "15 Queens Lane",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 5.0,
-     "sqft": 3512.0,
-     "price": 3450000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-15",
-     "ppsf": 982,
-     "mi": 0.28
-    },
-    {
-     "slug": "20-locust-hill-road-darien-connecticut-24170829",
-     "addr": "20 Locust Hill Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 5.0,
-     "sqft": 6406.0,
-     "price": 3549000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 554,
-     "mi": 0.24
-    },
-    {
-     "slug": "12-settlers-trail-darien-connecticut-24183301",
-     "addr": "12 Settlers Trail",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 5.0,
-     "sqft": 5777.0,
-     "price": 3295000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 570,
-     "mi": 0.46
-    },
-    {
-     "slug": "93-west-avenue-darien-connecticut-24181698",
-     "addr": "93 West Avenue",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 4.0,
-     "sqft": 2667.0,
-     "price": 1999000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 750,
-     "mi": 0.51
-    }
-   ],
-   "summary": {
-    "n": 2,
-    "low": 3450000.0,
-    "high": 4350000.0,
-    "median": 3900000
+ "comps": [
+  {
+   "mls": "24125071",
+   "slug": "10-stony-brook-road-darien-connecticut-24125071",
+   "address": {
+    "line": "10 Stony Brook Road",
+    "unit": null,
+    "lineWithUnit": "10 Stony Brook Road",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
    },
-   "radiusMi": 0.75
+   "beds": 6.0,
+   "baths": 8.0,
+   "sqft": 8680.0,
+   "price": 5660000.0,
+   "date": "2026-04-14",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.078951,
+    "lng": -73.479109
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9521105076275057,
+   "ppsf": 652.073732718894
+  },
+  {
+   "mls": "24157816",
+   "slug": "44-andrews-drive-darien-connecticut-24157816",
+   "address": {
+    "line": "44 Andrews Drive",
+    "unit": null,
+    "lineWithUnit": "44 Andrews Drive",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 5.0,
+   "baths": 6.0,
+   "sqft": 6517.0,
+   "price": 4350000.0,
+   "date": "2026-05-04",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.070309,
+    "lng": -73.468803
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.34526267712504516,
+   "ppsf": 667.4850391284333
+  },
+  {
+   "mls": "24081666",
+   "slug": "76-arrowhead-way-darien-connecticut-24081666",
+   "address": {
+    "line": "76 Arrowhead Way",
+    "unit": null,
+    "lineWithUnit": "76 Arrowhead Way",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 5.0,
+   "baths": 8.0,
+   "sqft": 7941.0,
+   "price": 7200000.0,
+   "date": "2026-05-18",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.062156,
+    "lng": -73.463541
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.3300603999077096,
+   "ppsf": 906.6868152625614
+  },
+  {
+   "mls": "24115997",
+   "slug": "17-contentment-island-road-darien-connecticut-24115997",
+   "address": {
+    "line": "17 Contentment Island Road",
+    "unit": null,
+    "lineWithUnit": "17 Contentment Island Road",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 6.0,
+   "baths": 5.0,
+   "sqft": 7174.0,
+   "price": 9420000.0,
+   "date": "2026-03-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.058152,
+    "lng": -73.45404
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.175265602619671,
+   "ppsf": 1313.0749930303875
+  },
+  {
+   "mls": "24156548",
+   "slug": "7-buttonwood-lane-darien-connecticut-24156548",
+   "address": {
+    "line": "7 Buttonwood Lane",
+    "unit": null,
+    "lineWithUnit": "7 Buttonwood Lane",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 5.0,
+   "baths": 8.0,
+   "sqft": 8502.0,
+   "price": 5200000.0,
+   "date": "2026-07-10",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.094459,
+    "lng": -73.468931
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.4788438926967142,
+   "ppsf": 611.6207951070336
   }
- }
+ ]
 }

@@ -136,125 +136,141 @@
    "walk": 7
   }
  },
- "comps": {
-  "building": {
-   "rows": [
-    {
-     "slug": "1-valley-road-stamford-connecticut-24170392",
-     "addr": "1 Valley Road Unit 207",
-     "unit": "Unit 207",
-     "beds": 2.0,
-     "baths": 3.0,
-     "sqft": 1400.0,
-     "price": 510000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-02",
-     "ppsf": 364
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 510000.0,
-    "high": 510000.0,
-    "median": 510000
+ "comps": [
+  {
+   "mls": "24170392",
+   "slug": "1-valley-road-stamford-connecticut-24170392",
+   "address": {
+    "line": "1 Valley Road",
+    "unit": "Unit 207",
+    "lineWithUnit": "1 Valley Road Unit 207",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
    },
-   "label": "1 Valley Road"
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 1400.0,
+   "price": 510000.0,
+   "date": "2026-07-02",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.056951,
+    "lng": -73.530292
+   },
+   "klass": "condo",
+   "tier": 1,
+   "why": "Same building, sold in the last year",
+   "km": 0.0,
+   "ppsf": 364.2857142857143
   },
-  "area": {
-   "rows": [
-    {
-     "slug": "49-glenbrook-road-stamford-connecticut-24162281",
-     "addr": "49 Glenbrook Road Unit 103",
-     "unit": "Unit 103",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 748.0,
-     "price": 320000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-12",
-     "ppsf": 428,
-     "mi": 0.1
-    },
-    {
-     "slug": "101-grove-street-stamford-connecticut-24157458",
-     "addr": "101 Grove Street Unit 19",
-     "unit": "Unit 19",
-     "beds": 2.0,
-     "baths": 3.0,
-     "sqft": 1475.0,
-     "price": 595000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-01",
-     "ppsf": 403,
-     "mi": 0.17
-    },
-    {
-     "slug": "850-east-main-street-stamford-connecticut-24165568",
-     "addr": "850 East Main Street Unit 524",
-     "unit": "Unit 524",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1073.0,
-     "price": 567500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-10",
-     "ppsf": 529,
-     "mi": 0.2
-    },
-    {
-     "slug": "850-east-main-street-stamford-connecticut-24165172",
-     "addr": "850 East Main Street Unit 205",
-     "unit": "Unit 205",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1080.0,
-     "price": 470000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-29",
-     "ppsf": 435,
-     "mi": 0.2
-    },
-    {
-     "slug": "160-glenbrook-road-stamford-connecticut-24171916",
-     "addr": "160 Glenbrook Road Unit 2B",
-     "unit": "Unit 2B",
-     "beds": 2.0,
-     "baths": 3.0,
-     "sqft": 1430.0,
-     "price": 602500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-06",
-     "ppsf": 421,
-     "mi": 0.24
-    },
-    {
-     "slug": "1-strawberry-hill-avenue-stamford-connecticut-24156874",
-     "addr": "1 Strawberry Hill Avenue Apt 10A",
-     "unit": "Apt 10A",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1600.0,
-     "price": 615000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-09",
-     "ppsf": 384,
-     "mi": 0.27
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 320000.0,
-    "high": 615000.0,
-    "median": 581250
+  {
+   "mls": "24150400",
+   "slug": "1400-bedford-street-stamford-connecticut-24150400",
+   "address": {
+    "line": "1400 Bedford Street",
+    "unit": "Unit 11",
+    "lineWithUnit": "1400 Bedford Street Unit 11",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 1268.0,
+   "price": 455000.0,
+   "date": "2026-03-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.063573,
+    "lng": -73.540821
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.149562368600079,
+   "ppsf": 358.83280757097793
+  },
+  {
+   "mls": "24145504",
+   "slug": "54-hope-street-stamford-connecticut-24145504",
+   "address": {
+    "line": "54 Hope Street",
+    "unit": "Unit 4",
+    "lineWithUnit": "54 Hope Street Unit 4",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06906"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1226.0,
+   "price": 469900.0,
+   "date": "2026-04-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.062504,
+    "lng": -73.526658
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6885481258262056,
+   "ppsf": 383.278955954323
+  },
+  {
+   "mls": "24165172",
+   "slug": "850-east-main-street-stamford-connecticut-24165172",
+   "address": {
+    "line": "850 East Main Street",
+    "unit": "Unit 205",
+    "lineWithUnit": "850 East Main Street Unit 205",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1080.0,
+   "price": 470000.0,
+   "date": "2026-05-29",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.055907,
+    "lng": -73.526682
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.3241886721369141,
+   "ppsf": 435.18518518518516
+  },
+  {
+   "mls": "24165518",
+   "slug": "1-broad-street-stamford-connecticut-24165518",
+   "address": {
+    "line": "1 Broad Street",
+    "unit": "Unit PH26B",
+    "lineWithUnit": "1 Broad Street Unit PH26B",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06901"
+   },
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 1738.0,
+   "price": 1025000.0,
+   "date": "2026-06-02",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.05522,
+    "lng": -73.54305
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0869166556110395,
+   "ppsf": 589.7583429228998
   }
- }
+ ]
 }

@@ -134,101 +134,141 @@
    "mi": 1.27
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "5-mcallister-avenue-norwalk-connecticut-24153413",
-     "addr": "5 McAllister Avenue",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 3172.0,
-     "price": 1125000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-30",
-     "ppsf": 355,
-     "mi": 0.13
-    },
-    {
-     "slug": "15-scribner-avenue-norwalk-connecticut-24185080",
-     "addr": "15 Scribner Avenue",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1932.0,
-     "price": 865705.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-30",
-     "ppsf": 448,
-     "mi": 0.15
-    },
-    {
-     "slug": "29-chatham-drive-norwalk-connecticut-24169470",
-     "addr": "29 Chatham Drive",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1260.0,
-     "price": 650000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-26",
-     "ppsf": 516,
-     "mi": 0.23
-    },
-    {
-     "slug": "4-senga-road-norwalk-connecticut-24129213",
-     "addr": "4 Senga Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 2354.0,
-     "price": 600000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-01",
-     "ppsf": 255,
-     "mi": 0.25
-    },
-    {
-     "slug": "2-rochelle-road-norwalk-connecticut-24150904",
-     "addr": "2 Rochelle Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1566.0,
-     "price": 616200.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-06",
-     "ppsf": 393,
-     "mi": 0.27
-    },
-    {
-     "slug": "20-avenue-a-norwalk-connecticut-24170336",
-     "addr": "20 Avenue A",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1497.0,
-     "price": 650000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-02",
-     "ppsf": 434,
-     "mi": 0.3
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 600000.0,
-    "high": 1125000.0,
-    "median": 650000
+ "comps": [
+  {
+   "mls": "24136403",
+   "slug": "6-west-couch-street-norwalk-connecticut-24136403",
+   "address": {
+    "line": "6 West Couch Street",
+    "unit": null,
+    "lineWithUnit": "6 West Couch Street",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1519.0,
+   "price": 550000.0,
+   "date": "2026-04-17",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.099718,
+    "lng": -73.429475
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5210488092153924,
+   "ppsf": 362.0803159973667
+  },
+  {
+   "mls": "24150514",
+   "slug": "8-michael-street-norwalk-connecticut-24150514",
+   "address": {
+    "line": "8 Michael Street",
+    "unit": null,
+    "lineWithUnit": "8 Michael Street",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 4.0,
+   "baths": 2.0,
+   "sqft": 1428.0,
+   "price": 710000.0,
+   "date": "2026-03-16",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.091709,
+    "lng": -73.434546
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5278880487638391,
+   "ppsf": 497.1988795518207
+  },
+  {
+   "mls": "24150904",
+   "slug": "2-rochelle-road-norwalk-connecticut-24150904",
+   "address": {
+    "line": "2 Rochelle Road",
+    "unit": null,
+    "lineWithUnit": "2 Rochelle Road",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1566.0,
+   "price": 616200.0,
+   "date": "2026-05-06",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.0934,
+    "lng": -73.437119
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.4313566378286303,
+   "ppsf": 393.48659003831415
+  },
+  {
+   "mls": "24167121",
+   "slug": "4-topping-lane-norwalk-connecticut-24167121",
+   "address": {
+    "line": "4 Topping Lane",
+    "unit": null,
+    "lineWithUnit": "4 Topping Lane",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1524.0,
+   "price": 745000.0,
+   "date": "2026-07-22",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.090459,
+    "lng": -73.439448
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8103407732316483,
+   "ppsf": 488.84514435695536
+  },
+  {
+   "mls": "24170336",
+   "slug": "20-avenue-a-norwalk-connecticut-24170336",
+   "address": {
+    "line": "20 Avenue A",
+    "unit": null,
+    "lineWithUnit": "20 Avenue A",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1497.0,
+   "price": 650000.0,
+   "date": "2026-07-02",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.099533,
+    "lng": -73.42993
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.4795945530717208,
+   "ppsf": 434.2017368069472
   }
- }
+ ]
 }

@@ -121,101 +121,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "16-bouton-street-east-stamford-connecticut-24164798",
-     "addr": "16 Bouton Street East Unit (16) B6",
-     "unit": "Unit (16) B6",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1350.0,
-     "price": 484900.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-25",
-     "ppsf": 359,
-     "mi": 0.06
-    },
-    {
-     "slug": "19-woodway-road-stamford-connecticut-24154183",
-     "addr": "19 Woodway Road #26",
-     "unit": "#26",
-     "beds": 2.0,
-     "baths": 4.0,
-     "sqft": 1364.0,
-     "price": 515000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-14",
-     "ppsf": 378,
-     "mi": 0.06
-    },
-    {
-     "slug": "39-woodway-road-stamford-connecticut-24155084",
-     "addr": "39 Woodway Road Apt C7",
-     "unit": "Apt C7",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1150.0,
-     "price": 425000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-03",
-     "ppsf": 370,
-     "mi": 0.07
-    },
-    {
-     "slug": "39-woodway-road-stamford-connecticut-24162414",
-     "addr": "39 Woodway Road Unit C5",
-     "unit": "Unit C5",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1150.0,
-     "price": 395000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-12",
-     "ppsf": 343,
-     "mi": 0.07
-    },
-    {
-     "slug": "201-highview-avenue-stamford-connecticut-24160579",
-     "addr": "201 Highview Avenue Unit C2",
-     "unit": "Unit C2",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 1072.0,
-     "price": 392500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-22",
-     "ppsf": 366,
-     "mi": 0.16
-    },
-    {
-     "slug": "83-columbus-place-stamford-connecticut-24179222",
-     "addr": "83 Columbus Place Unit A",
-     "unit": "Unit A",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1710.0,
-     "price": 510000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-03",
-     "ppsf": 298,
-     "mi": 0.27
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 392500.0,
-    "high": 515000.0,
-    "median": 454950
+ "comps": [
+  {
+   "mls": "24153692",
+   "slug": "1197-hope-street-stamford-connecticut-24153692",
+   "address": {
+    "line": "1197 Hope Street",
+    "unit": "Apt 3",
+    "lineWithUnit": "1197 Hope Street Apt 3",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06907"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 936.0,
+   "price": 420000.0,
+   "date": "2026-03-17",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.098656,
+    "lng": -73.518957
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.4412026312542327,
+   "ppsf": 448.71794871794873
+  },
+  {
+   "mls": "24162414",
+   "slug": "39-woodway-road-stamford-connecticut-24162414",
+   "address": {
+    "line": "39 Woodway Road",
+    "unit": "Unit C5",
+    "lineWithUnit": "39 Woodway Road Unit C5",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06907"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1150.0,
+   "price": 395000.0,
+   "date": "2026-06-12",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.10186,
+    "lng": -73.514556
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.11825481769554931,
+   "ppsf": 343.4782608695652
+  },
+  {
+   "mls": "24160579",
+   "slug": "201-highview-avenue-stamford-connecticut-24160579",
+   "address": {
+    "line": "201 Highview Avenue",
+    "unit": "Unit C2",
+    "lineWithUnit": "201 Highview Avenue Unit C2",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06907"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 1072.0,
+   "price": 392500.0,
+   "date": "2026-06-22",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.101831,
+    "lng": -73.512971
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.25106688792515874,
+   "ppsf": 366.1380597014925
+  },
+  {
+   "mls": "24155084",
+   "slug": "39-woodway-road-stamford-connecticut-24155084",
+   "address": {
+    "line": "39 Woodway Road",
+    "unit": "Apt C7",
+    "lineWithUnit": "39 Woodway Road Apt C7",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06907"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1150.0,
+   "price": 425000.0,
+   "date": "2026-04-03",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.10186,
+    "lng": -73.51456
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.11792021099283262,
+   "ppsf": 369.5652173913044
+  },
+  {
+   "mls": "24156318",
+   "slug": "27-northill-street-stamford-connecticut-24156318",
+   "address": {
+    "line": "27 Northill Street",
+    "unit": "Apt 5S",
+    "lineWithUnit": "27 Northill Street Apt 5S",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06907"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1078.0,
+   "price": 360000.0,
+   "date": "2026-05-27",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.09355,
+    "lng": -73.519368
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9735121850045702,
+   "ppsf": 333.9517625231911
   }
- }
+ ]
 }

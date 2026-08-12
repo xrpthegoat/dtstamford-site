@@ -135,101 +135,141 @@
    "walk": 7
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "29-morgan-avenue-norwalk-connecticut-24164978",
-     "addr": "29 Morgan Avenue",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 1953.0,
-     "price": 920000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-09",
-     "ppsf": 471,
-     "mi": 0.14
-    },
-    {
-     "slug": "26-melbourne-road-norwalk-connecticut-24054751",
-     "addr": "26 Melbourne Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 2.0,
-     "sqft": 2142.0,
-     "price": 865000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-10",
-     "ppsf": 404,
-     "mi": 0.28
-    },
-    {
-     "slug": "12-william-street-norwalk-connecticut-24172384",
-     "addr": "12 William Street",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2290.0,
-     "price": 1055000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-29",
-     "ppsf": 461,
-     "mi": 0.37
-    },
-    {
-     "slug": "107-strawberry-hill-avenue-norwalk-connecticut-24160974",
-     "addr": "107 Strawberry Hill Avenue",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 2.0,
-     "sqft": 1691.0,
-     "price": 730000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-18",
-     "ppsf": 432,
-     "mi": 0.43
-    },
-    {
-     "slug": "10-maurice-street-norwalk-connecticut-24160860",
-     "addr": "10 Maurice Street",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2686.0,
-     "price": 1067000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-29",
-     "ppsf": 397,
-     "mi": 0.51
-    },
-    {
-     "slug": "20-eversley-avenue-norwalk-connecticut-24160433",
-     "addr": "20 Eversley Avenue",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 2.0,
-     "sqft": 1526.0,
-     "price": 810000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-01",
-     "ppsf": 531,
-     "mi": 0.51
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 730000.0,
-    "high": 1067000.0,
-    "median": 892500
+ "comps": [
+  {
+   "mls": "24172384",
+   "slug": "12-william-street-norwalk-connecticut-24172384",
+   "address": {
+    "line": "12 William Street",
+    "unit": null,
+    "lineWithUnit": "12 William Street",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2290.0,
+   "price": 1055000.0,
+   "date": "2026-06-29",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.114277,
+    "lng": -73.396278
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5901760204477782,
+   "ppsf": 460.69868995633186
+  },
+  {
+   "mls": "24157952",
+   "slug": "10-merrill-road-norwalk-connecticut-24157952",
+   "address": {
+    "line": "10 Merrill Road",
+    "unit": null,
+    "lineWithUnit": "10 Merrill Road",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2434.0,
+   "price": 1000000.0,
+   "date": "2026-05-13",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.125299,
+    "lng": -73.403683
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8451044247645747,
+   "ppsf": 410.84634346754314
+  },
+  {
+   "mls": "24160860",
+   "slug": "10-maurice-street-norwalk-connecticut-24160860",
+   "address": {
+    "line": "10 Maurice Street",
+    "unit": null,
+    "lineWithUnit": "10 Maurice Street",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2686.0,
+   "price": 1067000.0,
+   "date": "2026-05-29",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.11765,
+    "lng": -73.391597
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8249738319666056,
+   "ppsf": 397.2449739389427
+  },
+  {
+   "mls": "24163240",
+   "slug": "8-merrill-road-norwalk-connecticut-24163240",
+   "address": {
+    "line": "8 Merrill Road",
+    "unit": null,
+    "lineWithUnit": "8 Merrill Road",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 3198.0,
+   "price": 935000.0,
+   "date": "2026-06-10",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.125319,
+    "lng": -73.403922
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8519359259018459,
+   "ppsf": 292.3702313946216
+  },
+  {
+   "mls": "24167164",
+   "slug": "6-lighthouse-lane-norwalk-connecticut-24167164",
+   "address": {
+    "line": "6 Lighthouse Lane",
+    "unit": null,
+    "lineWithUnit": "6 Lighthouse Lane",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2560.0,
+   "price": 699000.0,
+   "date": "2026-07-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.116251,
+    "lng": -73.389759
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9953315907412275,
+   "ppsf": 273.046875
   }
- }
+ ]
 }

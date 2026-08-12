@@ -132,95 +132,141 @@
    "mi": 1.67
   }
  },
- "comps": {
-  "building": {
-   "rows": [
-    {
-     "slug": "7-river-road-greenwich-connecticut-24141363",
-     "addr": "7 River Road Unit 310",
-     "unit": "Unit 310",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1125.0,
-     "price": 5500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-19",
-     "ppsf": 5
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 5500.0,
-    "high": 5500.0,
-    "median": 5500
+ "comps": [
+  {
+   "mls": "24141363",
+   "slug": "7-river-road-greenwich-connecticut-24141363",
+   "address": {
+    "line": "7 River Road",
+    "unit": "Unit 310",
+    "lineWithUnit": "7 River Road Unit 310",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06850"
    },
-   "label": "7 River Road"
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1125.0,
+   "price": 5500.0,
+   "date": "2026-03-19",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.034348,
+    "lng": -73.59532
+   },
+   "klass": "rental",
+   "tier": 1,
+   "why": "Same building, sold in the last year",
+   "km": 0.02294437602488169,
+   "ppsf": 4.888888888888889
   },
-  "area": {
-   "rows": [
-    {
-     "slug": "9-river-road-greenwich-connecticut-24144403",
-     "addr": "9 River Road Unit 411",
-     "unit": "Unit 411",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1125.0,
-     "price": 4000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-01",
-     "ppsf": 4,
-     "mi": 0.01
-    },
-    {
-     "slug": "7-bible-street-greenwich-connecticut-24183550",
-     "addr": "7 Bible Street Unit 1",
-     "unit": "Unit 1",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 800.0,
-     "price": 2950.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-03",
-     "ppsf": 4,
-     "mi": 0.55
-    },
-    {
-     "slug": "15-river-road-greenwich-connecticut-24197818",
-     "addr": "15 River Road Unit 205",
-     "unit": "Unit 205",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1270.0,
-     "price": 6500.0,
-     "kind": "asking",
-     "status": "Coming Soon",
-     "ppsf": 5,
-     "mi": 0.11
-    },
-    {
-     "slug": "100-east-putnam-avenue-greenwich-connecticut-24181087",
-     "addr": "100 East Putnam Avenue Unit 301",
-     "unit": "Unit 301",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1198.0,
-     "price": 9175.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 8,
-     "mi": 0.38
-    }
-   ],
-   "summary": {
-    "n": 2,
-    "low": 2950.0,
-    "high": 4000.0,
-    "median": 3475
+  {
+   "mls": "24144403",
+   "slug": "9-river-road-greenwich-connecticut-24144403",
+   "address": {
+    "line": "9 River Road",
+    "unit": "Unit 411",
+    "lineWithUnit": "9 River Road Unit 411",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06807"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1125.0,
+   "price": 4000.0,
+   "date": "2026-04-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.034423,
+    "lng": -73.595537
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.008972849556685874,
+   "ppsf": 3.5555555555555554
+  },
+  {
+   "mls": "24148689",
+   "slug": "greenwich-connecticut-24148689",
+   "address": {
+    "line": null,
+    "unit": null,
+    "lineWithUnit": null,
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06807"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 841.0,
+   "price": 4950.0,
+   "date": "2026-04-20",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.037109,
+    "lng": -73.601839
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6053091835243394,
+   "ppsf": 5.885850178359096
+  },
+  {
+   "mls": "24153412",
+   "slug": "40-orchard-place-greenwich-connecticut-24153412",
+   "address": {
+    "line": "40 Orchard Place",
+    "unit": "Unit 2",
+    "lineWithUnit": "40 Orchard Place Unit 2",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06830"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 1348.0,
+   "price": 3800.0,
+   "date": "2026-04-06",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.02043,
+    "lng": -73.61815
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.4609102300797585,
+   "ppsf": 2.8189910979228485
+  },
+  {
+   "mls": "24157455",
+   "slug": "15-richmond-drive-greenwich-connecticut-24157455",
+   "address": {
+    "line": "15 Richmond Drive",
+    "unit": null,
+    "lineWithUnit": "15 Richmond Drive",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06870"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1435.0,
+   "price": 8250.0,
+   "date": "2026-03-23",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.040874,
+    "lng": -73.56964
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.282191459127484,
+   "ppsf": 5.7491289198606275
   }
- }
+ ]
 }

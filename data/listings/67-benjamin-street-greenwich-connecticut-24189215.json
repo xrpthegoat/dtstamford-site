@@ -128,98 +128,141 @@
    "mi": 1.62
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "8-willow-lane-greenwich-connecticut-24161971",
-     "addr": "8 Willow Lane",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 2.0,
-     "sqft": 1944.0,
-     "price": 2410000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-15",
-     "ppsf": 1240,
-     "mi": 0.42
-    },
-    {
-     "slug": "7-heusted-drive-greenwich-connecticut-24168405",
-     "addr": "7 Heusted Drive",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 4348.0,
-     "price": 3100000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-17",
-     "ppsf": 713,
-     "mi": 0.57
-    },
-    {
-     "slug": "19-burwood-avenue-stamford-connecticut-24169816",
-     "addr": "19 Burwood Avenue",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 2.0,
-     "sqft": 1608.0,
-     "price": 875000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-17",
-     "ppsf": 544,
-     "mi": 0.67
-    },
-    {
-     "slug": "greenwich-connecticut-24162737",
-     "addr": null,
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2965.0,
-     "price": 3850000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 1298,
-     "mi": 0.34
-    },
-    {
-     "slug": "14-shorehame-club-road-greenwich-connecticut-24179259",
-     "addr": "14 Shorehame Club Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2014.0,
-     "price": 4000000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 1986,
-     "mi": 0.62
-    },
-    {
-     "slug": "189-shore-road-greenwich-connecticut-24157191",
-     "addr": "189 Shore Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 4262.0,
-     "price": 8750000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 2053,
-     "mi": 0.64
-    }
-   ],
-   "summary": {
-    "n": 3,
-    "low": 875000.0,
-    "high": 3100000.0,
-    "median": 2410000
+ "comps": [
+  {
+   "mls": "24161971",
+   "slug": "8-willow-lane-greenwich-connecticut-24161971",
+   "address": {
+    "line": "8 Willow Lane",
+    "unit": null,
+    "lineWithUnit": "8 Willow Lane",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06870"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 2.0,
+   "sqft": 1944.0,
+   "price": 2410000.0,
+   "date": "2026-05-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.027182,
+    "lng": -73.568454
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6815816700523921,
+   "ppsf": 1239.7119341563787
+  },
+  {
+   "mls": "24159830",
+   "slug": "13-mortimer-drive-greenwich-connecticut-24159830",
+   "address": {
+    "line": "13 Mortimer Drive",
+    "unit": null,
+    "lineWithUnit": "13 Mortimer Drive",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06870"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1717.0,
+   "price": 2300000.0,
+   "date": "2026-07-17",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.027075,
+    "lng": -73.570387
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 0.8281877151123428,
+   "ppsf": 1339.5457192778101
+  },
+  {
+   "mls": "24163995",
+   "slug": "10-maple-drive-greenwich-connecticut-24163995",
+   "address": {
+    "line": "10 Maple Drive",
+    "unit": null,
+    "lineWithUnit": "10 Maple Drive",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06870"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 2290.0,
+   "price": 1258000.0,
+   "date": "2026-05-21",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.043891,
+    "lng": -73.568831
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.235250541334125,
+   "ppsf": 549.3449781659389
+  },
+  {
+   "mls": "24146212",
+   "slug": "484-cognewaugh-road-greenwich-connecticut-24146212",
+   "address": {
+    "line": "484 Cognewaugh Road",
+    "unit": null,
+    "lineWithUnit": "484 Cognewaugh Road",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06807"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2832.0,
+   "price": 1900000.0,
+   "date": "2026-04-23",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.08088,
+    "lng": -73.597397
+   },
+   "klass": "house",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 6.954350172132394,
+   "ppsf": 670.9039548022599
+  },
+  {
+   "mls": "24149318",
+   "slug": "40-ettl-lane-greenwich-connecticut-24149318",
+   "address": {
+    "line": "40 Ettl Lane",
+    "unit": "Unit 17",
+    "lineWithUnit": "40 Ettl Lane Unit 17",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06831"
+   },
+   "beds": 3.0,
+   "baths": 4.0,
+   "sqft": 2990.0,
+   "price": 1850000.0,
+   "date": "2026-03-16",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.034564,
+    "lng": -73.667639
+   },
+   "klass": "house",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 9.008817588681989,
+   "ppsf": 618.7290969899666
   }
- }
+ ]
 }

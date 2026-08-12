@@ -130,99 +130,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "10-tierney-lane-westport-connecticut-24103087",
-     "addr": "10 Tierney Lane",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 8.0,
-     "sqft": 7400.0,
-     "price": 4625000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-01",
-     "ppsf": 625,
-     "mi": 0.25
-    },
-    {
-     "slug": "4-wake-robin-road-westport-connecticut-24172491",
-     "addr": "4 Wake Robin Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 4.0,
-     "sqft": 3255.0,
-     "price": 2048000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-07",
-     "ppsf": 629,
-     "mi": 0.43
-    },
-    {
-     "slug": "221-greens-farms-road-westport-connecticut-24171950",
-     "addr": "221 Greens Farms Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 6.0,
-     "sqft": 5789.0,
-     "price": 2995000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-05",
-     "ppsf": 517,
-     "mi": 0.44
-    },
-    {
-     "slug": "10-wakenor-road-westport-connecticut-24147552",
-     "addr": "10 Wakenor Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 6.0,
-     "sqft": 5008.0,
-     "price": 2630000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-01",
-     "ppsf": 525,
-     "mi": 0.68
-    },
-    {
-     "slug": "11-wake-robin-road-westport-connecticut-24167814",
-     "addr": "11 Wake Robin Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 6.0,
-     "sqft": 7583.0,
-     "price": 4799000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 633,
-     "mi": 0.5
-    },
-    {
-     "slug": "1-flower-farm-lane-westport-connecticut-24148553",
-     "addr": "1 Flower Farm Lane",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 8.0,
-     "sqft": 9819.0,
-     "price": 4100000.0,
-     "kind": "asking",
-     "status": "Under Contract - Continue to Show",
-     "ppsf": 418,
-     "mi": 0.67
-    }
-   ],
-   "summary": {
-    "n": 4,
-    "low": 2048000.0,
-    "high": 4625000.0,
-    "median": 2812500
+ "comps": [
+  {
+   "mls": "24137404",
+   "slug": "123-greens-farms-road-westport-connecticut-24137404",
+   "address": {
+    "line": "123 Greens Farms Road",
+    "unit": null,
+    "lineWithUnit": "123 Greens Farms Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 5.0,
+   "sqft": 5207.0,
+   "price": 2600000.0,
+   "date": "2026-05-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.126299,
+    "lng": -73.340884
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0230852144402505,
+   "ppsf": 499.3278279239485
+  },
+  {
+   "mls": "24147552",
+   "slug": "10-wakenor-road-westport-connecticut-24147552",
+   "address": {
+    "line": "10 Wakenor Road",
+    "unit": null,
+    "lineWithUnit": "10 Wakenor Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 5.0,
+   "baths": 6.0,
+   "sqft": 5008.0,
+   "price": 2630000.0,
+   "date": "2026-04-01",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.139773,
+    "lng": -73.332227
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.101420928550419,
+   "ppsf": 525.1597444089457
+  },
+  {
+   "mls": "24171950",
+   "slug": "221-greens-farms-road-westport-connecticut-24171950",
+   "address": {
+    "line": "221 Greens Farms Road",
+    "unit": null,
+    "lineWithUnit": "221 Greens Farms Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 5.0,
+   "baths": 6.0,
+   "sqft": 5789.0,
+   "price": 2995000.0,
+   "date": "2026-08-05",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.124386,
+    "lng": -73.32586
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7080904208037806,
+   "ppsf": 517.3605113145621
+  },
+  {
+   "mls": "24114691",
+   "slug": "13-terhune-drive-westport-connecticut-24114691",
+   "address": {
+    "line": "13 Terhune Drive",
+    "unit": null,
+    "lineWithUnit": "13 Terhune Drive",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 6.0,
+   "baths": 6.0,
+   "sqft": 6010.0,
+   "price": 3499999.0,
+   "date": "2026-06-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.151407,
+    "lng": -73.331303
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.3786671242188255,
+   "ppsf": 582.3625623960066
+  },
+  {
+   "mls": "24166818",
+   "slug": "119-long-lots-road-westport-connecticut-24166818",
+   "address": {
+    "line": "119 Long Lots Road",
+    "unit": null,
+    "lineWithUnit": "119 Long Lots Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 5.0,
+   "baths": 5.0,
+   "sqft": 5616.0,
+   "price": 3352000.0,
+   "date": "2026-06-19",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.146531,
+    "lng": -73.319498
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.0231963826128916,
+   "ppsf": 596.8660968660969
   }
- }
+ ]
 }

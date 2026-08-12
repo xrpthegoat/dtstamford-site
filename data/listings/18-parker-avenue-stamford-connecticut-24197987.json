@@ -114,101 +114,141 @@
    "mi": 1.0
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "13-parker-avenue-stamford-connecticut-24183102",
-     "addr": "13 Parker Avenue",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1898.0,
-     "price": 3400.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-03",
-     "ppsf": 2,
-     "mi": 0.03
-    },
-    {
-     "slug": "57-scofield-avenue-stamford-connecticut-24161103",
-     "addr": "57 Scofield Avenue",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 4.0,
-     "sqft": 2390.0,
-     "price": 4300.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-03",
-     "ppsf": 2,
-     "mi": 0.12
-    },
-    {
-     "slug": "15-rose-street-stamford-connecticut-24175286",
-     "addr": "15 Rose Street Unit 2",
-     "unit": "Unit 2",
-     "beds": 3.0,
-     "baths": 1.0,
-     "sqft": 1250.0,
-     "price": 3200.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-31",
-     "ppsf": 3,
-     "mi": 0.14
-    },
-    {
-     "slug": "18-elm-tree-place-stamford-connecticut-24193797",
-     "addr": "18 Elm Tree Place Unit 1st floor",
-     "unit": "Unit 1st floor",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1759.0,
-     "price": 6500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-01",
-     "ppsf": 4,
-     "mi": 0.18
-    },
-    {
-     "slug": "54-morris-street-stamford-connecticut-24152158",
-     "addr": "54 Morris Street Unit 1",
-     "unit": "Unit 1",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1160.0,
-     "price": 3200.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-13",
-     "ppsf": 3,
-     "mi": 0.2
-    },
-    {
-     "slug": "306-courtland-avenue-stamford-connecticut-24178965",
-     "addr": "306 Courtland Avenue Unit 2",
-     "unit": "Unit 2",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1480.0,
-     "price": 4000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-29",
-     "ppsf": 3,
-     "mi": 0.29
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 3200.0,
-    "high": 6500.0,
-    "median": 3700
+ "comps": [
+  {
+   "mls": "24161103",
+   "slug": "57-scofield-avenue-stamford-connecticut-24161103",
+   "address": {
+    "line": "57 Scofield Avenue",
+    "unit": null,
+    "lineWithUnit": "57 Scofield Avenue",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06906"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 4.0,
+   "sqft": 2390.0,
+   "price": 4300.0,
+   "date": "2026-04-03",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.06888,
+    "lng": -73.524025
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.19582256354141922,
+   "ppsf": 1.799163179916318
+  },
+  {
+   "mls": "24183778",
+   "slug": "584-hope-street-stamford-connecticut-24183778",
+   "address": {
+    "line": "584 Hope Street",
+    "unit": "Unit 7",
+    "lineWithUnit": "584 Hope Street Unit 7",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06907"
+   },
+   "beds": 3.0,
+   "baths": 4.0,
+   "sqft": 2366.0,
+   "price": 4950.0,
+   "date": "2026-07-06",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.079796,
+    "lng": -73.52263
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1659013438778247,
+   "ppsf": 2.0921386306001692
+  },
+  {
+   "mls": "24180013",
+   "slug": "237-strawberry-hill-avenue-stamford-connecticut-24180013",
+   "address": {
+    "line": "237 Strawberry Hill Avenue",
+    "unit": "Unit 42",
+    "lineWithUnit": "237 Strawberry Hill Avenue Unit 42",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 3.0,
+   "baths": 4.0,
+   "sqft": 2870.0,
+   "price": 4400.0,
+   "date": "2026-06-10",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.06856,
+    "lng": -73.53281
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9297183045695832,
+   "ppsf": 1.5331010452961673
+  },
+  {
+   "mls": "24189569",
+   "slug": "115-71-colonial-road-stamford-connecticut-24189569",
+   "address": {
+    "line": "115-71 Colonial Road",
+    "unit": null,
+    "lineWithUnit": "115-71 Colonial Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 3.0,
+   "baths": 4.0,
+   "sqft": 2582.0,
+   "price": 5200.0,
+   "date": "2026-08-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.070719,
+    "lng": -73.531757
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8515711760065481,
+   "ppsf": 2.0139426800929514
+  },
+  {
+   "mls": "24169280",
+   "slug": "100-hope-street-stamford-connecticut-24169280",
+   "address": {
+    "line": "100 Hope Street",
+    "unit": "Unit 5",
+    "lineWithUnit": "100 Hope Street Unit 5",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06906"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2608.0,
+   "price": 4500.0,
+   "date": "2026-07-18",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.06375,
+    "lng": -73.527016
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7607644423608391,
+   "ppsf": 1.7254601226993864
   }
- }
+ ]
 }

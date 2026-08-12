@@ -132,44 +132,141 @@
    "walk": 10
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "56-chipmunk-lane-wilton-connecticut-24186677",
-     "addr": "56 Chipmunk Lane",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2268.0,
-     "price": 1050000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-10",
-     "ppsf": 463,
-     "mi": 0.14
-    },
-    {
-     "slug": "65-whipple-road-wilton-connecticut-24190698",
-     "addr": "65 Whipple Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2329.0,
-     "price": 799000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 343,
-     "mi": 0.65
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 1050000.0,
-    "high": 1050000.0,
-    "median": 1050000
+ "comps": [
+  {
+   "mls": "24168758",
+   "slug": "44-old-nursery-drive-wilton-connecticut-24168758",
+   "address": {
+    "line": "44 Old Nursery Drive",
+    "unit": null,
+    "lineWithUnit": "44 Old Nursery Drive",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
    },
-   "radiusMi": 0.75
+   "beds": 5.0,
+   "baths": 4.0,
+   "sqft": 4324.0,
+   "price": 1860044.0,
+   "date": "2026-07-01",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.170831,
+    "lng": -73.432408
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.081364768620639,
+   "ppsf": 430.1674375578168
+  },
+  {
+   "mls": "24178624",
+   "slug": "183-range-road-wilton-connecticut-24178624",
+   "address": {
+    "line": "183 Range Road",
+    "unit": null,
+    "lineWithUnit": "183 Range Road",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 5.0,
+   "baths": 3.0,
+   "sqft": 2937.0,
+   "price": 1610000.0,
+   "date": "2026-08-10",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.170026,
+    "lng": -73.430833
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9300961129141608,
+   "ppsf": 548.1784133469527
+  },
+  {
+   "mls": "24166170",
+   "slug": "149-wolfpit-road-wilton-connecticut-24166170",
+   "address": {
+    "line": "149 Wolfpit Road",
+    "unit": null,
+    "lineWithUnit": "149 Wolfpit Road",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 4.0,
+   "baths": 2.0,
+   "sqft": 2593.0,
+   "price": 1265000.0,
+   "date": "2026-07-01",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.178269,
+    "lng": -73.429902
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.733544297068702,
+   "ppsf": 487.8519089857308
+  },
+  {
+   "mls": "24164761",
+   "slug": "113-range-road-wilton-connecticut-24164761",
+   "address": {
+    "line": "113 Range Road",
+    "unit": null,
+    "lineWithUnit": "113 Range Road",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2496.0,
+   "price": 1290000.0,
+   "date": "2026-06-25",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.173387,
+    "lng": -73.427852
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.1646611729845138,
+   "ppsf": 516.8269230769231
+  },
+  {
+   "mls": "24146818",
+   "slug": "143-old-boston-road-wilton-connecticut-24146818",
+   "address": {
+    "line": "143 Old Boston Road",
+    "unit": null,
+    "lineWithUnit": "143 Old Boston Road",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 3484.0,
+   "price": 1270000.0,
+   "date": "2026-06-25",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.166889,
+    "lng": -73.447581
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.9901760645459028,
+   "ppsf": 364.5235361653272
   }
- }
+ ]
 }

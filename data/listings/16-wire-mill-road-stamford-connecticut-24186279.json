@@ -128,101 +128,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "23-maltbie-avenue-stamford-connecticut-24169896",
-     "addr": "23 Maltbie Avenue",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 2281.0,
-     "price": 875000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-15",
-     "ppsf": 384,
-     "mi": 0.17
-    },
-    {
-     "slug": "30-archer-lane-stamford-connecticut-24169511",
-     "addr": "30 Archer Lane",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1447.0,
-     "price": 935000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-22",
-     "ppsf": 646,
-     "mi": 0.4
-    },
-    {
-     "slug": "136-shadow-ridge-road-stamford-connecticut-24150151",
-     "addr": "136 Shadow Ridge Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1314.0,
-     "price": 900000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-17",
-     "ppsf": 685,
-     "mi": 0.62
-    },
-    {
-     "slug": "20-wild-horse-road-stamford-connecticut-24166729",
-     "addr": "20 Wild Horse Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1890.0,
-     "price": 740000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-05",
-     "ppsf": 392,
-     "mi": 0.66
-    },
-    {
-     "slug": "15-four-brooks-circle-stamford-connecticut-24155507",
-     "addr": "15 Four Brooks Circle",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1588.0,
-     "price": 825000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-03",
-     "ppsf": 520,
-     "mi": 0.67
-    },
-    {
-     "slug": "281-roxbury-road-stamford-connecticut-24143655",
-     "addr": "281 Roxbury Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 2444.0,
-     "price": 990000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-05",
-     "ppsf": 405,
-     "mi": 0.73
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 740000.0,
-    "high": 990000.0,
-    "median": 887500
+ "comps": [
+  {
+   "mls": "24143655",
+   "slug": "281-roxbury-road-stamford-connecticut-24143655",
+   "address": {
+    "line": "281 Roxbury Road",
+    "unit": null,
+    "lineWithUnit": "281 Roxbury Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 2444.0,
+   "price": 990000.0,
+   "date": "2026-05-05",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.09267,
+    "lng": -73.571406
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1733133320060343,
+   "ppsf": 405.0736497545008
+  },
+  {
+   "mls": "24148859",
+   "slug": "48-briarwood-lane-stamford-connecticut-24148859",
+   "address": {
+    "line": "48 Briarwood Lane",
+    "unit": null,
+    "lineWithUnit": "48 Briarwood Lane",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 3324.0,
+   "price": 1125000.0,
+   "date": "2026-04-23",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.108367,
+    "lng": -73.564256
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7198480504003812,
+   "ppsf": 338.4476534296029
+  },
+  {
+   "mls": "24158106",
+   "slug": "35-archer-lane-stamford-connecticut-24158106",
+   "address": {
+    "line": "35 Archer Lane",
+    "unit": null,
+    "lineWithUnit": "35 Archer Lane",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 3620.0,
+   "price": 1125000.0,
+   "date": "2026-04-23",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.100952,
+    "lng": -73.557545
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6019332140130133,
+   "ppsf": 310.77348066298345
+  },
+  {
+   "mls": "24161476",
+   "slug": "57-jay-road-stamford-connecticut-24161476",
+   "address": {
+    "line": "57 Jay Road",
+    "unit": null,
+    "lineWithUnit": "57 Jay Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 2600.0,
+   "price": 950000.0,
+   "date": "2026-06-10",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.104646,
+    "lng": -73.555693
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8077878511120995,
+   "ppsf": 365.38461538461536
+  },
+  {
+   "mls": "24168271",
+   "slug": "192-barclay-drive-stamford-connecticut-24168271",
+   "address": {
+    "line": "192 Barclay Drive",
+    "unit": null,
+    "lineWithUnit": "192 Barclay Drive",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 3148.0,
+   "price": 1650000.0,
+   "date": "2026-06-05",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.104172,
+    "lng": -73.573853
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8140192535310797,
+   "ppsf": 524.1423125794155
   }
- }
+ ]
 }

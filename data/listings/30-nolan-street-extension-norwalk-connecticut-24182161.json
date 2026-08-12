@@ -131,58 +131,141 @@
    "mi": 0.93
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "39-fair-street-norwalk-connecticut-24170426",
-     "addr": "39 Fair Street",
-     "unit": "",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 1120.0,
-     "price": 515000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-22",
-     "ppsf": 460,
-     "mi": 0.53
-    },
-    {
-     "slug": "7-lycett-court-norwalk-connecticut-24162367",
-     "addr": "7 Lycett Court",
-     "unit": "",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1835.0,
-     "price": 725000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-22",
-     "ppsf": 395,
-     "mi": 0.66
-    },
-    {
-     "slug": "1-nolan-street-norwalk-connecticut-24180688",
-     "addr": "1 Nolan Street",
-     "unit": "",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 768.0,
-     "price": 499000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 650,
-     "mi": 0.19
-    }
-   ],
-   "summary": {
-    "n": 2,
-    "low": 515000.0,
-    "high": 725000.0,
-    "median": 620000
+ "comps": [
+  {
+   "mls": "24170426",
+   "slug": "39-fair-street-norwalk-connecticut-24170426",
+   "address": {
+    "line": "39 Fair Street",
+    "unit": null,
+    "lineWithUnit": "39 Fair Street",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 1120.0,
+   "price": 515000.0,
+   "date": "2026-06-22",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.122762,
+    "lng": -73.422581
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8542888514001734,
+   "ppsf": 459.82142857142856
+  },
+  {
+   "mls": "24170909",
+   "slug": "26-harris-street-norwalk-connecticut-24170909",
+   "address": {
+    "line": "26 Harris Street",
+    "unit": null,
+    "lineWithUnit": "26 Harris Street",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1492.0,
+   "price": 650000.0,
+   "date": "2026-07-02",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.129632,
+    "lng": -73.435665
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9714880803328114,
+   "ppsf": 435.65683646112603
+  },
+  {
+   "mls": "24122720",
+   "slug": "5-tower-drive-norwalk-connecticut-24122720",
+   "address": {
+    "line": "5 Tower Drive",
+    "unit": null,
+    "lineWithUnit": "5 Tower Drive",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 4.0,
+   "baths": 2.0,
+   "sqft": 1260.0,
+   "price": 635000.0,
+   "date": "2026-04-13",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.123894,
+    "lng": -73.434918
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.3572392567661259,
+   "ppsf": 503.968253968254
+  },
+  {
+   "mls": "24131710",
+   "slug": "48-fair-street-norwalk-connecticut-24131710",
+   "address": {
+    "line": "48 Fair Street",
+    "unit": null,
+    "lineWithUnit": "48 Fair Street",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1643.0,
+   "price": 535000.0,
+   "date": "2026-04-14",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.12358,
+    "lng": -73.422843
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8562614246432039,
+   "ppsf": 325.6238587948874
+  },
+  {
+   "mls": "24144739",
+   "slug": "12-sention-avenue-norwalk-connecticut-24144739",
+   "address": {
+    "line": "12 Sention Avenue",
+    "unit": null,
+    "lineWithUnit": "12 Sention Avenue",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 1652.0,
+   "price": 590000.0,
+   "date": "2026-03-20",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.115412,
+    "lng": -73.426999
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.796067378315542,
+   "ppsf": 357.14285714285717
   }
- }
+ ]
 }

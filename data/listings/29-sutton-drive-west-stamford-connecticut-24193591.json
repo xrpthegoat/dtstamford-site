@@ -132,57 +132,141 @@
    "mi": 1.07
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "136-center-street-stamford-connecticut-24161091",
-     "addr": "136 Center Street",
-     "unit": "",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 838.0,
-     "price": 520000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-17",
-     "ppsf": 621,
-     "mi": 0.42
-    },
-    {
-     "slug": "9-penzance-road-stamford-connecticut-24192977",
-     "addr": "9 Penzance Road",
-     "unit": "",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 1380.0,
-     "price": 395000.0,
-     "kind": "asking",
-     "status": "Under Contract - Continue to Show",
-     "ppsf": 286,
-     "mi": 0.35
-    },
-    {
-     "slug": "48-bungalow-park-stamford-connecticut-24191285",
-     "addr": "48 Bungalow Park",
-     "unit": "",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 1344.0,
-     "price": 679000.0,
-     "kind": "asking",
-     "status": "Under Contract - Continue to Show",
-     "ppsf": 505,
-     "mi": 0.68
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 520000.0,
-    "high": 520000.0,
-    "median": 520000
+ "comps": [
+  {
+   "mls": "24146795",
+   "slug": "46-stafford-road-stamford-connecticut-24146795",
+   "address": {
+    "line": "46 Stafford Road",
+    "unit": null,
+    "lineWithUnit": "46 Stafford Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 1.0,
+   "sqft": 1292.0,
+   "price": 583000.0,
+   "date": "2026-03-26",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.055174,
+    "lng": -73.517312
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.075350504474499,
+   "ppsf": 451.23839009287923
+  },
+  {
+   "mls": "24153540",
+   "slug": "29-quintard-terrace-stamford-connecticut-24153540",
+   "address": {
+    "line": "29 Quintard Terrace",
+    "unit": null,
+    "lineWithUnit": "29 Quintard Terrace",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 3.0,
+   "baths": 1.0,
+   "sqft": 1378.0,
+   "price": 700000.0,
+   "date": "2026-04-07",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.056572,
+    "lng": -73.525481
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1756512068319305,
+   "ppsf": 507.98258345428155
+  },
+  {
+   "mls": "24171612",
+   "slug": "40-cowan-avenue-stamford-connecticut-24171612",
+   "address": {
+    "line": "40 Cowan Avenue",
+    "unit": null,
+    "lineWithUnit": "40 Cowan Avenue",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06906"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1344.0,
+   "price": 712000.0,
+   "date": "2026-07-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.064961,
+    "lng": -73.528919
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.021736095327765,
+   "ppsf": 529.7619047619048
+  },
+  {
+   "mls": "24179455",
+   "slug": "13-hamilton-avenue-stamford-connecticut-24179455",
+   "address": {
+    "line": "13 Hamilton Avenue",
+    "unit": null,
+    "lineWithUnit": "13 Hamilton Avenue",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1232.0,
+   "price": 760010.0,
+   "date": "2026-07-31",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.06271,
+    "lng": -73.52307
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5814608789188377,
+   "ppsf": 616.8912337662338
+  },
+  {
+   "mls": "24133238",
+   "slug": "7-barnstable-lane-stamford-connecticut-24133238",
+   "address": {
+    "line": "7 Barnstable Lane",
+    "unit": null,
+    "lineWithUnit": "7 Barnstable Lane",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06907"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1260.0,
+   "price": 519000.0,
+   "date": "2026-04-08",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.085823,
+    "lng": -73.51913
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.342392545369564,
+   "ppsf": 411.9047619047619
   }
- }
+ ]
 }

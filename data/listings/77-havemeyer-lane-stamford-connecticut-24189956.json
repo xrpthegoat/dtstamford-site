@@ -140,93 +140,141 @@
    "walk": 11
   }
  },
- "comps": {
-  "building": {
-   "rows": [
-    {
-     "slug": "77-havemeyer-lane-stamford-connecticut-24183977",
-     "addr": "77 Havemeyer Lane Unit 85",
-     "unit": "Unit 85",
-     "beds": 3.0,
-     "baths": 4.0,
-     "sqft": 3164.0,
-     "price": 1772500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-07",
-     "ppsf": 560
-    },
-    {
-     "slug": "77-havemeyer-lane-stamford-connecticut-24164736",
-     "addr": "77 Havemeyer Lane Unit 318",
-     "unit": "Unit 318",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1400.0,
-     "price": 1125000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-15",
-     "ppsf": 804
-    },
-    {
-     "slug": "77-havemeyer-lane-stamford-connecticut-24158734",
-     "addr": "77 Havemeyer Lane Unit 58",
-     "unit": "Unit 58",
-     "beds": 3.0,
-     "baths": 5.0,
-     "sqft": 3595.0,
-     "price": 1940000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-11",
-     "ppsf": 540
-    },
-    {
-     "slug": "77-havemeyer-lane-stamford-connecticut-24195169",
-     "addr": "77 Havemeyer Lane Unit 11",
-     "unit": "Unit 11",
-     "beds": 3.0,
-     "baths": 4.0,
-     "sqft": 3254.0,
-     "price": 1595000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 490
-    }
-   ],
-   "summary": {
-    "n": 3,
-    "low": 1125000.0,
-    "high": 1940000.0,
-    "median": 1772500
+ "comps": [
+  {
+   "mls": "24164736",
+   "slug": "77-havemeyer-lane-stamford-connecticut-24164736",
+   "address": {
+    "line": "77 Havemeyer Lane",
+    "unit": "Unit 318",
+    "lineWithUnit": "77 Havemeyer Lane Unit 318",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
    },
-   "label": "77 Havemeyer Lane"
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1400.0,
+   "price": 1125000.0,
+   "date": "2026-07-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.055187,
+    "lng": -73.565216
+   },
+   "klass": "condo",
+   "tier": 1,
+   "why": "Same building, sold in the last year",
+   "km": 0.0076819890424150925,
+   "ppsf": 803.5714285714286
   },
-  "area": {
-   "rows": [
-    {
-     "slug": "2-finney-lane-stamford-connecticut-24170395",
-     "addr": "2 Finney Lane Unit 31",
-     "unit": "Unit 31",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1634.0,
-     "price": 560000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-11",
-     "ppsf": 343,
-     "mi": 0.69
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 560000.0,
-    "high": 560000.0,
-    "median": 560000
+  {
+   "mls": "24170395",
+   "slug": "2-finney-lane-stamford-connecticut-24170395",
+   "address": {
+    "line": "2 Finney Lane",
+    "unit": "Unit 31",
+    "lineWithUnit": "2 Finney Lane Unit 31",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1634.0,
+   "price": 560000.0,
+   "date": "2026-06-11",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.050425,
+    "lng": -73.553449
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1135026984938143,
+   "ppsf": 342.7172582619339
+  },
+  {
+   "mls": "24154507",
+   "slug": "77-havemeyer-lane-stamford-connecticut-24154507",
+   "address": {
+    "line": "77 Havemeyer Lane",
+    "unit": "Unit 301",
+    "lineWithUnit": "77 Havemeyer Lane Unit 301",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1205.0,
+   "price": 835000.0,
+   "date": "2026-07-31",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.055172,
+    "lng": -73.56496
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.014069574612337609,
+   "ppsf": 692.9460580912863
+  },
+  {
+   "mls": "24172214",
+   "slug": "77-havemeyer-lane-stamford-connecticut-24172214",
+   "address": {
+    "line": "77 Havemeyer Lane",
+    "unit": "Unit 211",
+    "lineWithUnit": "77 Havemeyer Lane Unit 211",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1550.0,
+   "price": 1380000.0,
+   "date": "2026-06-10",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.05533,
+    "lng": -73.56539
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.02681553500032611,
+   "ppsf": 890.3225806451613
+  },
+  {
+   "mls": "24150400",
+   "slug": "1400-bedford-street-stamford-connecticut-24150400",
+   "address": {
+    "line": "1400 Bedford Street",
+    "unit": "Unit 11",
+    "lineWithUnit": "1400 Bedford Street Unit 11",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 1268.0,
+   "price": 455000.0,
+   "date": "2026-03-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.063573,
+    "lng": -73.540821
+   },
+   "klass": "condo",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.2405996693030072,
+   "ppsf": 358.83280757097793
   }
- }
+ ]
 }

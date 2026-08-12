@@ -127,58 +127,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "21-woods-end-drive-wilton-connecticut-24150415",
-     "addr": "21 Woods End Drive",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 5.0,
-     "sqft": 5976.0,
-     "price": 1840000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-06",
-     "ppsf": 308,
-     "mi": 0.35
-    },
-    {
-     "slug": "493-valley-road-new-canaan-connecticut-24176198",
-     "addr": "493 Valley Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 4322.0,
-     "price": 1850000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-17",
-     "ppsf": 428,
-     "mi": 0.64
-    },
-    {
-     "slug": "99-hickok-road-new-canaan-connecticut-24174429",
-     "addr": "99 Hickok Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 5.0,
-     "sqft": 5902.0,
-     "price": 2999999.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 508,
-     "mi": 0.69
-    }
-   ],
-   "summary": {
-    "n": 2,
-    "low": 1840000.0,
-    "high": 1850000.0,
-    "median": 1845000
+ "comps": [
+  {
+   "mls": "24175862",
+   "slug": "200-old-huckleberry-road-wilton-connecticut-24175862",
+   "address": {
+    "line": "200 Old Huckleberry Road",
+    "unit": null,
+    "lineWithUnit": "200 Old Huckleberry Road",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 2247.0,
+   "price": 760000.0,
+   "date": "2026-07-21",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.180287,
+    "lng": -73.454599
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0559863077468137,
+   "ppsf": 338.2287494437027
+  },
+  {
+   "mls": "24161956",
+   "slug": "16-trails-end-road-wilton-connecticut-24161956",
+   "address": {
+    "line": "16 Trails End Road",
+    "unit": null,
+    "lineWithUnit": "16 Trails End Road",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 2683.0,
+   "price": 1525000.0,
+   "date": "2026-06-11",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.1666,
+    "lng": -73.462356
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.2699158084431854,
+   "ppsf": 568.3935892657473
+  },
+  {
+   "mls": "24142746",
+   "slug": "26-ledgewood-drive-wilton-connecticut-24142746",
+   "address": {
+    "line": "26 Ledgewood Drive",
+    "unit": null,
+    "lineWithUnit": "26 Ledgewood Drive",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2528.0,
+   "price": 1225000.0,
+   "date": "2026-03-23",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.195862,
+    "lng": -73.47117
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.0709053193175997,
+   "ppsf": 484.57278481012656
+  },
+  {
+   "mls": "24153655",
+   "slug": "45-ledgewood-drive-wilton-connecticut-24153655",
+   "address": {
+    "line": "45 Ledgewood Drive",
+    "unit": null,
+    "lineWithUnit": "45 Ledgewood Drive",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2732.0,
+   "price": 1308000.0,
+   "date": "2026-06-01",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.194201,
+    "lng": -73.470246
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.8757299144007187,
+   "ppsf": 478.7701317715959
+  },
+  {
+   "mls": "24171732",
+   "slug": "192-new-canaan-road-wilton-connecticut-24171732",
+   "address": {
+    "line": "192 New Canaan Road",
+    "unit": null,
+    "lineWithUnit": "192 New Canaan Road",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1824.0,
+   "price": 1190000.0,
+   "date": "2026-06-26",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.166935,
+    "lng": -73.450872
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.7728737798582825,
+   "ppsf": 652.4122807017544
   }
- }
+ ]
 }

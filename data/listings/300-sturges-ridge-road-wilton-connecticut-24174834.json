@@ -136,100 +136,141 @@
    "mi": 1.46
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "21-lee-allen-lane-wilton-connecticut-24159919",
-     "addr": "21 Lee Allen Lane",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 6.0,
-     "sqft": 5919.0,
-     "price": 3200000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-24",
-     "ppsf": 541,
-     "mi": 0.07
-    },
-    {
-     "slug": "12-langner-lane-wilton-connecticut-24168347",
-     "addr": "12 Langner Lane",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 6.0,
-     "sqft": 5839.0,
-     "price": 2625000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-07",
-     "ppsf": 450,
-     "mi": 0.18
-    },
-    {
-     "slug": "340-sturges-ridge-road-wilton-connecticut-24156946",
-     "addr": "340 Sturges Ridge Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 5.0,
-     "sqft": 2984.0,
-     "price": 1600000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-30",
-     "ppsf": 536,
-     "mi": 0.24
-    },
-    {
-     "slug": "115-pine-ridge-road-wilton-connecticut-24164766",
-     "addr": "115 Pine Ridge Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 4.0,
-     "sqft": 4900.0,
-     "price": 2010000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-30",
-     "ppsf": 410,
-     "mi": 0.28
-    },
-    {
-     "slug": "51-black-alder-lane-wilton-connecticut-24170851",
-     "addr": "51 Black Alder Lane",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 5.0,
-     "sqft": 4732.0,
-     "price": 2200000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-17",
-     "ppsf": 465,
-     "mi": 0.61
-    },
-    {
-     "slug": "292-sturges-ridge-road-wilton-connecticut-24188085",
-     "addr": "292 Sturges Ridge Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 6.0,
-     "sqft": 6170.0,
-     "price": 2395000.0,
-     "kind": "asking",
-     "status": "Under Contract - Continue to Show",
-     "ppsf": 388,
-     "mi": 0.12
-    }
-   ],
-   "summary": {
-    "n": 5,
-    "low": 1600000.0,
-    "high": 3200000.0,
-    "median": 2200000
+ "comps": [
+  {
+   "mls": "24167275",
+   "slug": "8-maplewood-lane-wilton-connecticut-24167275",
+   "address": {
+    "line": "8 Maplewood Lane",
+    "unit": null,
+    "lineWithUnit": "8 Maplewood Lane",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
    },
-   "radiusMi": 0.75
+   "beds": 6.0,
+   "baths": 6.0,
+   "sqft": 6713.0,
+   "price": 2454000.0,
+   "date": "2026-07-17",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.215933,
+    "lng": -73.418591
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1550376612621538,
+   "ppsf": 365.5593624311038
+  },
+  {
+   "mls": "24159919",
+   "slug": "21-lee-allen-lane-wilton-connecticut-24159919",
+   "address": {
+    "line": "21 Lee Allen Lane",
+    "unit": null,
+    "lineWithUnit": "21 Lee Allen Lane",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 5.0,
+   "baths": 6.0,
+   "sqft": 5919.0,
+   "price": 3200000.0,
+   "date": "2026-06-24",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.216048,
+    "lng": -73.404023
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 0.10979501803938735,
+   "ppsf": 540.6318634904545
+  },
+  {
+   "mls": "24161566",
+   "slug": "12-brandon-circle-wilton-connecticut-24161566",
+   "address": {
+    "line": "12 Brandon Circle",
+    "unit": null,
+    "lineWithUnit": "12 Brandon Circle",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 5.0,
+   "baths": 7.0,
+   "sqft": 8203.0,
+   "price": 3540000.0,
+   "date": "2026-06-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.202122,
+    "lng": -73.403987
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.6364300074595677,
+   "ppsf": 431.5494331342192
+  },
+  {
+   "mls": "24131985",
+   "slug": "76-sturges-ridge-road-wilton-connecticut-24131985",
+   "address": {
+    "line": "76 Sturges Ridge Road",
+    "unit": null,
+    "lineWithUnit": "76 Sturges Ridge Road",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 5.0,
+   "baths": 9.0,
+   "sqft": 7811.0,
+   "price": 3385000.0,
+   "date": "2026-03-31",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.20256,
+    "lng": -73.397492
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.7009189402057199,
+   "ppsf": 433.3632057355012
+  },
+  {
+   "mls": "24168347",
+   "slug": "12-langner-lane-wilton-connecticut-24168347",
+   "address": {
+    "line": "12 Langner Lane",
+    "unit": null,
+    "lineWithUnit": "12 Langner Lane",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 5.0,
+   "baths": 6.0,
+   "sqft": 5839.0,
+   "price": 2625000.0,
+   "date": "2026-07-07",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.217917,
+    "lng": -73.408075
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 0.2971138403777614,
+   "ppsf": 449.5632813837986
   }
- }
+ ]
 }

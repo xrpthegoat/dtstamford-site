@@ -130,83 +130,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "10-winding-lane-westport-connecticut-24163168",
-     "addr": "10 Winding Lane",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 5.0,
-     "sqft": 4602.0,
-     "price": 3600000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-08",
-     "ppsf": 782,
-     "mi": 0.3
-    },
-    {
-     "slug": "30-pequot-trail-westport-connecticut-24170706",
-     "addr": "30 Pequot Trail",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 4.0,
-     "sqft": 3156.0,
-     "price": 1599876.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 507,
-     "mi": 0.15
-    },
-    {
-     "slug": "34-pequot-trail-westport-connecticut-24178738",
-     "addr": "34 Pequot Trail",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 4.0,
-     "sqft": 3782.0,
-     "price": 2100000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 555,
-     "mi": 0.21
-    },
-    {
-     "slug": "29-orchard-hill-road-norwalk-connecticut-24189226",
-     "addr": "29 Orchard Hill Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 4.0,
-     "sqft": 4693.0,
-     "price": 1449000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 309,
-     "mi": 0.55
-    },
-    {
-     "slug": "4-crawford-road-westport-connecticut-24189715",
-     "addr": "4 Crawford Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 4.0,
-     "sqft": 4471.0,
-     "price": 2799000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 626,
-     "mi": 0.73
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 3600000.0,
-    "high": 3600000.0,
-    "median": 3600000
+ "comps": [
+  {
+   "mls": "24154925",
+   "slug": "4-the-fenway-westport-connecticut-24154925",
+   "address": {
+    "line": "4 The Fenway",
+    "unit": null,
+    "lineWithUnit": "4 The Fenway",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
    },
-   "radiusMi": 0.75
+   "beds": 6.0,
+   "baths": 5.0,
+   "sqft": 5083.0,
+   "price": 2581433.0,
+   "date": "2026-05-01",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.142754,
+    "lng": -73.37424
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.489781884731184,
+   "ppsf": 507.8561872909699
+  },
+  {
+   "mls": "24178615",
+   "slug": "10-side-hill-road-westport-connecticut-24178615",
+   "address": {
+    "line": "10 Side Hill Road",
+    "unit": null,
+    "lineWithUnit": "10 Side Hill Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 6.0,
+   "baths": 6.0,
+   "sqft": 6844.0,
+   "price": 3175000.0,
+   "date": "2026-07-29",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.150776,
+    "lng": -73.378815
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8579800305068864,
+   "ppsf": 463.90999415546463
+  },
+  {
+   "mls": "24147210",
+   "slug": "102-compo-road-south-westport-connecticut-24147210",
+   "address": {
+    "line": "102 Compo Road South",
+    "unit": null,
+    "lineWithUnit": "102 Compo Road South",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 7.0,
+   "baths": 8.0,
+   "sqft": 6679.0,
+   "price": 3963000.0,
+   "date": "2026-04-27",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.133774,
+    "lng": -73.35737
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.1663141156978147,
+   "ppsf": 593.3522982482408
+  },
+  {
+   "mls": "24064356",
+   "slug": "3-tanglewood-lane-westport-connecticut-24064356",
+   "address": {
+    "line": "3 Tanglewood Lane",
+    "unit": null,
+    "lineWithUnit": "3 Tanglewood Lane",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 6.0,
+   "baths": 7.0,
+   "sqft": 8400.0,
+   "price": 7300000.0,
+   "date": "2026-07-23",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.147003,
+    "lng": -73.377826
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 0.4710548991250455,
+   "ppsf": 869.047619047619
+  },
+  {
+   "mls": "24163168",
+   "slug": "10-winding-lane-westport-connecticut-24163168",
+   "address": {
+    "line": "10 Winding Lane",
+    "unit": null,
+    "lineWithUnit": "10 Winding Lane",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 5.0,
+   "baths": 5.0,
+   "sqft": 4602.0,
+   "price": 3600000.0,
+   "date": "2026-06-08",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.14517,
+    "lng": -73.375015
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 0.4807936448154077,
+   "ppsf": 782.2685788787484
   }
- }
+ ]
 }

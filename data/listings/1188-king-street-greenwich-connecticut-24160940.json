@@ -121,24 +121,33 @@
    "mi": 0.6
   }
  },
- "comps": {
-  "building": {
-   "rows": [
-    {
-     "slug": "1188-king-street-greenwich-connecticut-24173271",
-     "addr": "1188 King Street Unit 108",
-     "unit": "Unit 108",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 25946.0,
-     "price": 5500.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 0
-    }
-   ],
-   "summary": null,
-   "label": "1188 King Street"
+ "comps": [
+  {
+   "mls": "24170530",
+   "slug": "1188-king-street-greenwich-connecticut-24170530",
+   "address": {
+    "line": "1188 King Street",
+    "unit": "Unit 102",
+    "lineWithUnit": "1188 King Street Unit 102",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06831"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 25946.0,
+   "price": 12500.0,
+   "date": "2026-05-29",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.06252,
+    "lng": -73.6957
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.0,
+   "ppsf": 0.48176982964618825
   }
- }
+ ]
 }

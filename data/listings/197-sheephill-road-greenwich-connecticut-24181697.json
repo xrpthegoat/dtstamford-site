@@ -131,31 +131,141 @@
    "mi": 0.87
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "272-valley-road-greenwich-connecticut-24175897",
-     "addr": "272 Valley Road Unit 2",
-     "unit": "Unit 2",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 2423.0,
-     "price": 2800.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-21",
-     "ppsf": 1,
-     "mi": 0.17
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 2800.0,
-    "high": 2800.0,
-    "median": 2800
+ "comps": [
+  {
+   "mls": "24175897",
+   "slug": "272-valley-road-greenwich-connecticut-24175897",
+   "address": {
+    "line": "272 Valley Road",
+    "unit": "Unit 2",
+    "lineWithUnit": "272 Valley Road Unit 2",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06807"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 2423.0,
+   "price": 2800.0,
+   "date": "2026-06-21",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.05687,
+    "lng": -73.58423
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.2771226681623601,
+   "ppsf": 1.1555922410235246
+  },
+  {
+   "mls": "24174811",
+   "slug": "20-orchard-street-greenwich-connecticut-24174811",
+   "address": {
+    "line": "20 Orchard Street",
+    "unit": null,
+    "lineWithUnit": "20 Orchard Street",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06807"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2681.0,
+   "price": 8600.0,
+   "date": "2026-05-26",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.041247,
+    "lng": -73.596248
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.9800314547035216,
+   "ppsf": 3.207758299142111
+  },
+  {
+   "mls": "24124570",
+   "slug": "119-bowman-drive-greenwich-connecticut-24124570",
+   "address": {
+    "line": "119 Bowman Drive",
+    "unit": null,
+    "lineWithUnit": "119 Bowman Drive",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06831"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 2153.0,
+   "price": 5995.0,
+   "date": "2026-03-20",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.048539,
+    "lng": -73.681202
+   },
+   "klass": "rental",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 8.377452256868311,
+   "ppsf": 2.784486762656758
+  },
+  {
+   "mls": "24159440",
+   "slug": "213-b-river-rd-extension-greenwich-connecticut-24159440",
+   "address": {
+    "line": "213 B River Rd Extension",
+    "unit": "Unit 1",
+    "lineWithUnit": "213 B River Rd Extension Unit 1",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06831"
+   },
+   "beds": 3.0,
+   "baths": 4.0,
+   "sqft": 1640.0,
+   "price": 5200.0,
+   "date": "2026-03-23",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.043824,
+    "lng": -73.58995
+   },
+   "klass": "rental",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 1.4487707009861466,
+   "ppsf": 3.1707317073170733
+  },
+  {
+   "mls": "24159979",
+   "slug": "72-prospect-street-greenwich-connecticut-24159979",
+   "address": {
+    "line": "72 Prospect Street",
+    "unit": null,
+    "lineWithUnit": "72 Prospect Street",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06830"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 2736.0,
+   "price": 4200.0,
+   "date": "2026-04-13",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.022926,
+    "lng": -73.63395
+   },
+   "klass": "rental",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 5.669342704661697,
+   "ppsf": 1.5350877192982457
   }
- }
+ ]
 }

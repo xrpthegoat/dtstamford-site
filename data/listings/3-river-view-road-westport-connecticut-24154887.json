@@ -130,100 +130,141 @@
    "mi": 1.66
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "14-burr-road-westport-connecticut-24158964",
-     "addr": "14 Burr Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 2282.0,
-     "price": 7500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-05",
-     "ppsf": 3,
-     "mi": 0.36
-    },
-    {
-     "slug": "4-raymond-place-westport-connecticut-24188177",
-     "addr": "4 Raymond Place",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 5.0,
-     "sqft": 3180.0,
-     "price": 11250.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-03",
-     "ppsf": 4,
-     "mi": 0.38
-    },
-    {
-     "slug": "174a-post-road-west-westport-connecticut-24149288",
-     "addr": "174A Post Road West",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 3678.0,
-     "price": 5800.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-14",
-     "ppsf": 2,
-     "mi": 0.48
-    },
-    {
-     "slug": "7-nappa-drive-westport-connecticut-24165305",
-     "addr": "7 Nappa Drive",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2904.0,
-     "price": 12000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-27",
-     "ppsf": 4,
-     "mi": 0.58
-    },
-    {
-     "slug": "11-treadwell-avenue-westport-connecticut-24180824",
-     "addr": "11 Treadwell Avenue",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 3069.0,
-     "price": 9000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-09",
-     "ppsf": 3,
-     "mi": 0.62
-    },
-    {
-     "slug": "4-nappa-lane-westport-connecticut-24189482",
-     "addr": "4 Nappa Lane",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2936.0,
-     "price": 12000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 4,
-     "mi": 0.6
-    }
-   ],
-   "summary": {
-    "n": 5,
-    "low": 5800.0,
-    "high": 12000.0,
-    "median": 9000
+ "comps": [
+  {
+   "mls": "24149288",
+   "slug": "174a-post-road-west-westport-connecticut-24149288",
+   "address": {
+    "line": "174A Post Road West",
+    "unit": null,
+    "lineWithUnit": "174A Post Road West",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 3678.0,
+   "price": 5800.0,
+   "date": "2026-04-14",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.137492,
+    "lng": -73.369692
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7650880526692556,
+   "ppsf": 1.5769439912996193
+  },
+  {
+   "mls": "24148167",
+   "slug": "414-riverside-avenue-westport-connecticut-24148167",
+   "address": {
+    "line": "414 Riverside Avenue",
+    "unit": null,
+    "lineWithUnit": "414 Riverside Avenue",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2857.0,
+   "price": 7725.0,
+   "date": "2026-04-02",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.126633,
+    "lng": -73.37189
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6895108227171097,
+   "ppsf": 2.703885194259713
+  },
+  {
+   "mls": "24169311",
+   "slug": "12-burr-road-westport-connecticut-24169311",
+   "address": {
+    "line": "12 Burr Road",
+    "unit": null,
+    "lineWithUnit": "12 Burr Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 3.0,
+   "baths": 4.0,
+   "sqft": 3310.0,
+   "price": 7500.0,
+   "date": "2026-04-30",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.136353,
+    "lng": -73.36648
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5814045365638394,
+   "ppsf": 2.2658610271903323
+  },
+  {
+   "mls": "24155993",
+   "slug": "188-compo-road-south-westport-connecticut-24155993",
+   "address": {
+    "line": "188 Compo Road South",
+    "unit": null,
+    "lineWithUnit": "188 Compo Road South",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 3.0,
+   "baths": 4.0,
+   "sqft": 3090.0,
+   "price": 10750.0,
+   "date": "2026-04-21",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.123113,
+    "lng": -73.361581
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9722109540269873,
+   "ppsf": 3.4789644012944985
+  },
+  {
+   "mls": "24165305",
+   "slug": "7-nappa-drive-westport-connecticut-24165305",
+   "address": {
+    "line": "7 Nappa Drive",
+    "unit": null,
+    "lineWithUnit": "7 Nappa Drive",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2904.0,
+   "price": 12000.0,
+   "date": "2026-05-27",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.128265,
+    "lng": -73.35576
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9320426277767214,
+   "ppsf": 4.132231404958677
   }
- }
+ ]
 }

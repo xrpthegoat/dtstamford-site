@@ -126,86 +126,141 @@
    "mi": 1.9
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "75-strickland-road-greenwich-connecticut-24164202",
-     "addr": "75 Strickland Road Unit F",
-     "unit": "Unit F",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1930.0,
-     "price": 7900.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-23",
-     "ppsf": 4,
-     "mi": 0.41
-    },
-    {
-     "slug": "20-orchard-street-greenwich-connecticut-24174811",
-     "addr": "20 Orchard Street",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 2681.0,
-     "price": 8600.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-26",
-     "ppsf": 3,
-     "mi": 0.43
-    },
-    {
-     "slug": "33-circle-drive-greenwich-connecticut-24165475",
-     "addr": "33 Circle Drive",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1631.0,
-     "price": 6800.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-09",
-     "ppsf": 4,
-     "mi": 0.71
-    },
-    {
-     "slug": "156-river-rd-extension-greenwich-connecticut-24146768",
-     "addr": "156 River Rd Extension Unit 3",
-     "unit": "Unit 3",
-     "beds": 3.0,
-     "baths": 1.0,
-     "sqft": 1500.0,
-     "price": 3150.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-17",
-     "ppsf": 2,
-     "mi": 0.75
-    },
-    {
-     "slug": "78-river-road-greenwich-connecticut-24173464",
-     "addr": "78 River Road Unit 15",
-     "unit": "Unit 15",
-     "beds": 3.0,
-     "baths": 4.0,
-     "sqft": 2381.0,
-     "price": 12000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 5,
-     "mi": 0.55
-    }
-   ],
-   "summary": {
-    "n": 4,
-    "low": 3150.0,
-    "high": 8600.0,
-    "median": 7350
+ "comps": [
+  {
+   "mls": "24164202",
+   "slug": "75-strickland-road-greenwich-connecticut-24164202",
+   "address": {
+    "line": "75 Strickland Road",
+    "unit": "Unit F",
+    "lineWithUnit": "75 Strickland Road Unit F",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06807"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1930.0,
+   "price": 7900.0,
+   "date": "2026-04-23",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.031902,
+    "lng": -73.59796
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6675350251494829,
+   "ppsf": 4.0932642487046635
+  },
+  {
+   "mls": "24165475",
+   "slug": "33-circle-drive-greenwich-connecticut-24165475",
+   "address": {
+    "line": "33 Circle Drive",
+    "unit": null,
+    "lineWithUnit": "33 Circle Drive",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06830"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1631.0,
+   "price": 6800.0,
+   "date": "2026-05-09",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.027599,
+    "lng": -73.608019
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.147467639065451,
+   "ppsf": 4.169221336603311
+  },
+  {
+   "mls": "24180840",
+   "slug": "28-pleasant-street-greenwich-connecticut-24180840",
+   "address": {
+    "line": "28 Pleasant Street",
+    "unit": null,
+    "lineWithUnit": "28 Pleasant Street",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06807"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2140.0,
+   "price": 6400.0,
+   "date": "2026-06-11",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.045901,
+    "lng": -73.598332
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0474838729069826,
+   "ppsf": 2.9906542056074765
+  },
+  {
+   "mls": "24159440",
+   "slug": "213-b-river-rd-extension-greenwich-connecticut-24159440",
+   "address": {
+    "line": "213 B River Rd Extension",
+    "unit": "Unit 1",
+    "lineWithUnit": "213 B River Rd Extension Unit 1",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06831"
+   },
+   "beds": 3.0,
+   "baths": 4.0,
+   "sqft": 1640.0,
+   "price": 5200.0,
+   "date": "2026-03-23",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.043824,
+    "lng": -73.58995
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.2836384080840582,
+   "ppsf": 3.1707317073170733
+  },
+  {
+   "mls": "24146768",
+   "slug": "156-river-rd-extension-greenwich-connecticut-24146768",
+   "address": {
+    "line": "156 River Rd Extension",
+    "unit": "Unit 3",
+    "lineWithUnit": "156 River Rd Extension Unit 3",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06807"
+   },
+   "beds": 3.0,
+   "baths": 1.0,
+   "sqft": 1500.0,
+   "price": 3150.0,
+   "date": "2026-06-17",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.043749,
+    "lng": -73.591104
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.2019563944889657,
+   "ppsf": 2.1
   }
- }
+ ]
 }

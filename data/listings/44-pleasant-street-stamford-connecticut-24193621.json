@@ -126,101 +126,141 @@
    "walk": 5
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "300-broad-street-stamford-connecticut-24140652",
-     "addr": "300 Broad Street Unit 107",
-     "unit": "Unit 107",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 517.0,
-     "price": 2100.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-15",
-     "ppsf": 4,
-     "mi": 0.06
-    },
-    {
-     "slug": "300-broad-street-stamford-connecticut-24150039",
-     "addr": "300 Broad Street Unit 603",
-     "unit": "Unit 603",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 677.0,
-     "price": 2200.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-02",
-     "ppsf": 3,
-     "mi": 0.06
-    },
-    {
-     "slug": "300-broad-street-stamford-connecticut-24164774",
-     "addr": "300 Broad Street Unit 307",
-     "unit": "Unit 307",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 654.0,
-     "price": 2150.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-14",
-     "ppsf": 3,
-     "mi": 0.06
-    },
-    {
-     "slug": "22-glenbrook-road-stamford-connecticut-24159907",
-     "addr": "22 Glenbrook Road Apt 304",
-     "unit": "Apt 304",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 740.0,
-     "price": 1900.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-03",
-     "ppsf": 3,
-     "mi": 0.12
-    },
-    {
-     "slug": "86-grove-street-stamford-connecticut-24177523",
-     "addr": "86 Grove Street Unit a2",
-     "unit": "Unit a2",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 580.0,
-     "price": 1750.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-01",
-     "ppsf": 3,
-     "mi": 0.13
-    },
-    {
-     "slug": "30-glenbrook-road-stamford-connecticut-24150366",
-     "addr": "30 Glenbrook Road Unit 3A",
-     "unit": "Unit 3A",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 790.0,
-     "price": 2300.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-16",
-     "ppsf": 3,
-     "mi": 0.13
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 1750.0,
-    "high": 2300.0,
-    "median": 2125
+ "comps": [
+  {
+   "mls": "24151434",
+   "slug": "444-bedford-street-stamford-connecticut-24151434",
+   "address": {
+    "line": "444 Bedford Street",
+    "unit": "Apt 7M",
+    "lineWithUnit": "444 Bedford Street Apt 7M",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06901"
    },
-   "radiusMi": 0.75
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 610.0,
+   "price": 2185.0,
+   "date": "2026-03-23",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.058212,
+    "lng": -73.5384
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.577531495927239,
+   "ppsf": 3.581967213114754
+  },
+  {
+   "mls": "24151628",
+   "slug": "60-strawberry-hill-avenue-stamford-connecticut-24151628",
+   "address": {
+    "line": "60 Strawberry Hill Avenue",
+    "unit": "Unit 318",
+    "lineWithUnit": "60 Strawberry Hill Avenue Unit 318",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 828.0,
+   "price": 2800.0,
+   "date": "2026-04-06",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.062359,
+    "lng": -73.533613
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7237452510857877,
+   "ppsf": 3.3816425120772946
+  },
+  {
+   "mls": "24159249",
+   "slug": "73-hope-street-stamford-connecticut-24159249",
+   "address": {
+    "line": "73 Hope Street",
+    "unit": "Unit C",
+    "lineWithUnit": "73 Hope Street Unit C",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06906"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 885.0,
+   "price": 1950.0,
+   "date": "2026-04-03",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.062992,
+    "lng": -73.525986
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9421025670678927,
+   "ppsf": 2.2033898305084745
+  },
+  {
+   "mls": "24153572",
+   "slug": "444-bedford-street-stamford-connecticut-24153572",
+   "address": {
+    "line": "444 Bedford Street",
+    "unit": "Apt 3G",
+    "lineWithUnit": "444 Bedford Street Apt 3G",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06901"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 770.0,
+   "price": 1925.0,
+   "date": "2026-04-14",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.058208,
+    "lng": -73.538384
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5761307066055236,
+   "ppsf": 2.5
+  },
+  {
+   "mls": "24156115",
+   "slug": "87-glenbrook-road-stamford-connecticut-24156115",
+   "address": {
+    "line": "87 Glenbrook Road",
+    "unit": "Apt 6E",
+    "lineWithUnit": "87 Glenbrook Road Apt 6E",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 835.0,
+   "price": 2200.0,
+   "date": "2026-04-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.058174,
+    "lng": -73.528226
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.41635157464836703,
+   "ppsf": 2.6347305389221556
   }
- }
+ ]
 }

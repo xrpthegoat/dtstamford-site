@@ -108,101 +108,141 @@
    "mi": 1.05
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "69-cove-road-stamford-connecticut-24170738",
-     "addr": "69 Cove Road Unit B9",
-     "unit": "Unit B9",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 786.0,
-     "price": 2200.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-24",
-     "ppsf": 3,
-     "mi": 0.48
-    },
-    {
-     "slug": "7-dale-street-stamford-connecticut-24162030",
-     "addr": "7 Dale Street Unit G1",
-     "unit": "Unit G1",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 800.0,
-     "price": 2000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-10",
-     "ppsf": 2,
-     "mi": 0.55
-    },
-    {
-     "slug": "7-willowbrook-place-stamford-connecticut-24150395",
-     "addr": "7 Willowbrook Place Unit 1st Fl",
-     "unit": "Unit 1st Fl",
-     "beds": 1.0,
-     "baths": 2.0,
-     "sqft": 750.0,
-     "price": 2295.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-01",
-     "ppsf": 3,
-     "mi": 0.65
-    },
-    {
-     "slug": "637-cove-road-stamford-connecticut-24153068",
-     "addr": "637 Cove Road Unit C19",
-     "unit": "Unit C19",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 796.0,
-     "price": 1950.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-10",
-     "ppsf": 2,
-     "mi": 0.69
-    },
-    {
-     "slug": "637-cove-road-stamford-connecticut-24166690",
-     "addr": "637 Cove Road Unit A15",
-     "unit": "Unit A15",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 796.0,
-     "price": 1950.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-20",
-     "ppsf": 2,
-     "mi": 0.69
-    },
-    {
-     "slug": "637-cove-road-stamford-connecticut-24177839",
-     "addr": "637 Cove Road Unit A3",
-     "unit": "Unit A3",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 796.0,
-     "price": 2150.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-25",
-     "ppsf": 3,
-     "mi": 0.69
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 1950.0,
-    "high": 2295.0,
-    "median": 2075
+ "comps": [
+  {
+   "mls": "24150395",
+   "slug": "7-willowbrook-place-stamford-connecticut-24150395",
+   "address": {
+    "line": "7 Willowbrook Place",
+    "unit": "Unit 1st Fl",
+    "lineWithUnit": "7 Willowbrook Place Unit 1st Fl",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
    },
-   "radiusMi": 0.75
+   "beds": 1.0,
+   "baths": 2.0,
+   "sqft": 750.0,
+   "price": 2295.0,
+   "date": "2026-04-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.046936,
+    "lng": -73.513158
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0462385088163777,
+   "ppsf": 3.06
+  },
+  {
+   "mls": "24153068",
+   "slug": "637-cove-road-stamford-connecticut-24153068",
+   "address": {
+    "line": "637 Cove Road",
+    "unit": "Unit C19",
+    "lineWithUnit": "637 Cove Road Unit C19",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 796.0,
+   "price": 1950.0,
+   "date": "2026-04-10",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.048617,
+    "lng": -73.513909
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1170473513409416,
+   "ppsf": 2.449748743718593
+  },
+  {
+   "mls": "24155277",
+   "slug": "637-cove-road-stamford-connecticut-24155277",
+   "address": {
+    "line": "637 Cove Road",
+    "unit": "Unit A12",
+    "lineWithUnit": "637 Cove Road Unit A12",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 796.0,
+   "price": 2000.0,
+   "date": "2026-03-18",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.0486,
+    "lng": -73.51354
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.138040744512371,
+   "ppsf": 2.512562814070352
+  },
+  {
+   "mls": "24162030",
+   "slug": "7-dale-street-stamford-connecticut-24162030",
+   "address": {
+    "line": "7 Dale Street",
+    "unit": "Unit G1",
+    "lineWithUnit": "7 Dale Street Unit G1",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 800.0,
+   "price": 2000.0,
+   "date": "2026-04-10",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.048767,
+    "lng": -73.518845
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8863039187973138,
+   "ppsf": 2.5
+  },
+  {
+   "mls": "24166690",
+   "slug": "637-cove-road-stamford-connecticut-24166690",
+   "address": {
+    "line": "637 Cove Road",
+    "unit": "Unit A15",
+    "lineWithUnit": "637 Cove Road Unit A15",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 796.0,
+   "price": 1950.0,
+   "date": "2026-04-20",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.048617,
+    "lng": -73.513909
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1170473513409416,
+   "ppsf": 2.449748743718593
   }
- }
+ ]
 }

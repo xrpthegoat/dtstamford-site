@@ -135,98 +135,141 @@
    "mi": 0.85
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "78-pin-oak-lane-wilton-connecticut-24154286",
-     "addr": "78 Pin Oak Lane",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 4741.0,
-     "price": 1830000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-24",
-     "ppsf": 386,
-     "mi": 0.3
-    },
-    {
-     "slug": "8-dorado-court-wilton-connecticut-24168476",
-     "addr": "8 Dorado Court",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2771.0,
-     "price": 1390000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-07",
-     "ppsf": 502,
-     "mi": 0.43
-    },
-    {
-     "slug": "349-mountain-road-wilton-connecticut-24151997",
-     "addr": "349 Mountain Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2884.0,
-     "price": 1195000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-21",
-     "ppsf": 414,
-     "mi": 0.67
-    },
-    {
-     "slug": "8-indian-rock-place-wilton-connecticut-24195404",
-     "addr": "8 Indian Rock Place",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 4502.0,
-     "price": 1575000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 350,
-     "mi": 0.12
-    },
-    {
-     "slug": "311-mountain-road-wilton-connecticut-24195727",
-     "addr": "311 Mountain Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 3300.0,
-     "price": 1085000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 329,
-     "mi": 0.49
-    },
-    {
-     "slug": "25-sunset-hill-road-wilton-connecticut-24189843",
-     "addr": "25 Sunset Hill Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 5.0,
-     "sqft": 3319.0,
-     "price": 1250000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 377,
-     "mi": 0.63
-    }
-   ],
-   "summary": {
-    "n": 3,
-    "low": 1195000.0,
-    "high": 1830000.0,
-    "median": 1390000
+ "comps": [
+  {
+   "mls": "24151997",
+   "slug": "349-mountain-road-wilton-connecticut-24151997",
+   "address": {
+    "line": "349 Mountain Road",
+    "unit": null,
+    "lineWithUnit": "349 Mountain Road",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2884.0,
+   "price": 1195000.0,
+   "date": "2026-04-21",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.235464,
+    "lng": -73.436527
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.08627751808474,
+   "ppsf": 414.35506241331484
+  },
+  {
+   "mls": "24181036",
+   "slug": "172-mather-street-wilton-connecticut-24181036",
+   "address": {
+    "line": "172 Mather Street",
+    "unit": null,
+    "lineWithUnit": "172 Mather Street",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 3036.0,
+   "price": 815000.0,
+   "date": "2026-08-03",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.242108,
+    "lng": -73.431645
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.836743666605171,
+   "ppsf": 268.4453227931489
+  },
+  {
+   "mls": "24169308",
+   "slug": "79-pipers-hill-road-wilton-connecticut-24169308",
+   "address": {
+    "line": "79 Pipers Hill Road",
+    "unit": null,
+    "lineWithUnit": "79 Pipers Hill Road",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 3612.0,
+   "price": 1250000.0,
+   "date": "2026-06-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.234092,
+    "lng": -73.45308
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.541118028015081,
+   "ppsf": 346.0686600221484
+  },
+  {
+   "mls": "24163963",
+   "slug": "99-chicken-street-wilton-connecticut-24163963",
+   "address": {
+    "line": "99 Chicken Street",
+    "unit": null,
+    "lineWithUnit": "99 Chicken Street",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 3118.0,
+   "price": 1450000.0,
+   "date": "2026-07-01",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.228846,
+    "lng": -73.439292
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.7595878986492168,
+   "ppsf": 465.0416933932008
+  },
+  {
+   "mls": "24154286",
+   "slug": "78-pin-oak-lane-wilton-connecticut-24154286",
+   "address": {
+    "line": "78 Pin Oak Lane",
+    "unit": null,
+    "lineWithUnit": "78 Pin Oak Lane",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 4741.0,
+   "price": 1830000.0,
+   "date": "2026-04-24",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.24176552,
+    "lng": -73.4453331
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 0.4760081000494499,
+   "ppsf": 385.99451592491033
   }
- }
+ ]
 }

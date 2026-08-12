@@ -122,187 +122,141 @@
    "walk": 1
   }
  },
- "comps": {
-  "building": {
-   "rows": [
-    {
-     "slug": "700-summer-street-stamford-connecticut-24194979",
-     "addr": "700 Summer Street Unit 7G",
-     "unit": "Unit 7G",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 478.0,
-     "price": 1900.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-06",
-     "ppsf": 4
-    },
-    {
-     "slug": "700-summer-street-stamford-connecticut-24180848",
-     "addr": "700 Summer Street Unit 2E",
-     "unit": "Unit 2E",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 601.0,
-     "price": 1900.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-14",
-     "ppsf": 3
-    },
-    {
-     "slug": "700-summer-street-stamford-connecticut-24158992",
-     "addr": "700 Summer Street Apt 4A",
-     "unit": "Apt 4A",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 872.0,
-     "price": 2300.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-01",
-     "ppsf": 3
-    },
-    {
-     "slug": "700-summer-street-stamford-connecticut-24180832",
-     "addr": "700 Summer Street Unit 6C",
-     "unit": "Unit 6C",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 889.0,
-     "price": 2550.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 3
-    },
-    {
-     "slug": "700-summer-street-stamford-connecticut-24185209",
-     "addr": "700 Summer Street Unit 6E",
-     "unit": "Unit 6E",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 601.0,
-     "price": 2100.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 3
-    },
-    {
-     "slug": "700-summer-street-stamford-connecticut-24195622",
-     "addr": "700 Summer Street Unit 9K",
-     "unit": "Unit 9K",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 611.0,
-     "price": 2000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 3
-    }
-   ],
-   "summary": {
-    "n": 3,
-    "low": 1900.0,
-    "high": 2300.0,
-    "median": 1900
+ "comps": [
+  {
+   "mls": "24194979",
+   "slug": "700-summer-street-stamford-connecticut-24194979",
+   "address": {
+    "line": "700 Summer Street",
+    "unit": "Unit 7G",
+    "lineWithUnit": "700 Summer Street Unit 7G",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06901"
    },
-   "label": "700 Summer Street"
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 478.0,
+   "price": 1900.0,
+   "date": "2026-08-06",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.057983,
+    "lng": -73.540726
+   },
+   "klass": "rental",
+   "tier": 1,
+   "why": "Same building, sold in the last year",
+   "km": 0.0,
+   "ppsf": 3.9748953974895396
   },
-  "area": {
-   "rows": [
-    {
-     "slug": "485-summer-street-stamford-connecticut-24176587",
-     "addr": "485 Summer Street Unit 307",
-     "unit": "Unit 307",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 619.0,
-     "price": 2200.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-02",
-     "ppsf": 4,
-     "mi": 0.1
-    },
-    {
-     "slug": "485-summer-street-stamford-connecticut-24186447",
-     "addr": "485 Summer Street Unit 310",
-     "unit": "Unit 310",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 550.0,
-     "price": 2200.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-06",
-     "ppsf": 4,
-     "mi": 0.1
-    },
-    {
-     "slug": "444-bedford-street-stamford-connecticut-24151434",
-     "addr": "444 Bedford Street Apt 7M",
-     "unit": "Apt 7M",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 610.0,
-     "price": 2185.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-23",
-     "ppsf": 4,
-     "mi": 0.12
-    },
-    {
-     "slug": "444-bedford-street-stamford-connecticut-24165081",
-     "addr": "444 Bedford Street Unit 6J",
-     "unit": "Unit 6J",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 610.0,
-     "price": 2100.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-01",
-     "ppsf": 3,
-     "mi": 0.12
-    },
-    {
-     "slug": "444-bedford-street-stamford-connecticut-24153572",
-     "addr": "444 Bedford Street Apt 3G",
-     "unit": "Apt 3G",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 770.0,
-     "price": 1925.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-14",
-     "ppsf": 2,
-     "mi": 0.12
-    },
-    {
-     "slug": "2289-bedford-street-stamford-connecticut-24185911",
-     "addr": "2289 Bedford Street Unit D7",
-     "unit": "Unit D7",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 651.0,
-     "price": 2400.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-01",
-     "ppsf": 4,
-     "mi": 0.18
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 1925.0,
-    "high": 2400.0,
-    "median": 2192
+  {
+   "mls": "24180848",
+   "slug": "700-summer-street-stamford-connecticut-24180848",
+   "address": {
+    "line": "700 Summer Street",
+    "unit": "Unit 2E",
+    "lineWithUnit": "700 Summer Street Unit 2E",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06901"
    },
-   "radiusMi": 0.75
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 601.0,
+   "price": 1900.0,
+   "date": "2026-07-14",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.057985,
+    "lng": -73.540723
+   },
+   "klass": "rental",
+   "tier": 1,
+   "why": "Same building, sold in the last year",
+   "km": 0.00033575083449637424,
+   "ppsf": 3.1613976705490847
+  },
+  {
+   "mls": "24151434",
+   "slug": "444-bedford-street-stamford-connecticut-24151434",
+   "address": {
+    "line": "444 Bedford Street",
+    "unit": "Apt 7M",
+    "lineWithUnit": "444 Bedford Street Apt 7M",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06901"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 610.0,
+   "price": 2185.0,
+   "date": "2026-03-23",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.058212,
+    "lng": -73.5384
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.1966807891986017,
+   "ppsf": 3.581967213114754
+  },
+  {
+   "mls": "24146364",
+   "slug": "140-grove-street-stamford-connecticut-24146364",
+   "address": {
+    "line": "140 Grove Street",
+    "unit": "Apt 2A",
+    "lineWithUnit": "140 Grove Street Apt 2A",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06901"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 472.0,
+   "price": 1750.0,
+   "date": "2026-04-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.05879,
+    "lng": -73.535334
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.46091435855064594,
+   "ppsf": 3.707627118644068
+  },
+  {
+   "mls": "24154487",
+   "slug": "127-greyrock-place-stamford-connecticut-24154487",
+   "address": {
+    "line": "127 Greyrock Place",
+    "unit": "Apt 507",
+    "lineWithUnit": "127 Greyrock Place Apt 507",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06901"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 557.0,
+   "price": 2100.0,
+   "date": "2026-04-15",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.054544,
+    "lng": -73.535808
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5623829002741473,
+   "ppsf": 3.770197486535009
   }
- }
+ ]
 }

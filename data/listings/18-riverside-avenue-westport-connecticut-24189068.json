@@ -108,101 +108,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "20-cross-street-westport-connecticut-24172100",
-     "addr": "20 Cross Street Unit 5",
-     "unit": "Unit 5",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1182.0,
-     "price": 4900.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-06",
-     "ppsf": 4,
-     "mi": 0.1
-    },
-    {
-     "slug": "5-church-lane-westport-connecticut-24182260",
-     "addr": "5 Church Lane Unit 310",
-     "unit": "Unit 310",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1220.0,
-     "price": 6995.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-28",
-     "ppsf": 6,
-     "mi": 0.25
-    },
-    {
-     "slug": "201-main-street-westport-connecticut-24179108",
-     "addr": "201 Main Street Unit 302",
-     "unit": "Unit 302",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 850.0,
-     "price": 4800.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-11",
-     "ppsf": 6,
-     "mi": 0.35
-    },
-    {
-     "slug": "201-main-street-westport-connecticut-24138891",
-     "addr": "201 Main Street Unit 203",
-     "unit": "Unit 203",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 830.0,
-     "price": 4500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-03",
-     "ppsf": 5,
-     "mi": 0.35
-    },
-    {
-     "slug": "113-kings-highway-north-westport-connecticut-24158091",
-     "addr": "113 Kings Highway North",
-     "unit": "",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1078.0,
-     "price": 3700.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-22",
-     "ppsf": 3,
-     "mi": 0.44
-    },
-    {
-     "slug": "251-riverside-avenue-westport-connecticut-24175707",
-     "addr": "251 Riverside Avenue Unit 251 A - 2nd floor",
-     "unit": "Unit 251 A - 2nd floor",
-     "beds": 2.0,
-     "baths": 3.0,
-     "sqft": 1560.0,
-     "price": 11000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-31",
-     "ppsf": 7,
-     "mi": 0.6
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 3700.0,
-    "high": 11000.0,
-    "median": 4850
+ "comps": [
+  {
+   "mls": "24146601",
+   "slug": "315-main-street-westport-connecticut-24146601",
+   "address": {
+    "line": "315 Main Street",
+    "unit": null,
+    "lineWithUnit": "315 Main Street",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 740.0,
+   "price": 3250.0,
+   "date": "2026-03-30",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.149874,
+    "lng": -73.362429
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1062229568524156,
+   "ppsf": 4.391891891891892
+  },
+  {
+   "mls": "24188606",
+   "slug": "260-riverside-avenue-westport-connecticut-24188606",
+   "address": {
+    "line": "260 Riverside Avenue",
+    "unit": "Unit 6",
+    "lineWithUnit": "260 Riverside Avenue Unit 6",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 600.0,
+   "price": 3050.0,
+   "date": "2026-08-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.131527,
+    "lng": -73.36862
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.009036598885895,
+   "ppsf": 5.083333333333333
+  },
+  {
+   "mls": "24164566",
+   "slug": "25-saugatuck-avenue-westport-connecticut-24164566",
+   "address": {
+    "line": "25 Saugatuck Avenue",
+    "unit": "Unit 9",
+    "lineWithUnit": "25 Saugatuck Avenue Unit 9",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": null,
+   "baths": 1.0,
+   "sqft": 550.0,
+   "price": 1550.0,
+   "date": "2026-04-10",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.1239,
+    "lng": -73.3718
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.897416794315056,
+   "ppsf": 2.8181818181818183
+  },
+  {
+   "mls": "24150619",
+   "slug": "92-compo-road-south-westport-connecticut-24150619",
+   "address": {
+    "line": "92 Compo Road South",
+    "unit": null,
+    "lineWithUnit": "92 Compo Road South",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 793.0,
+   "price": 3000.0,
+   "date": "2026-04-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.1348,
+    "lng": -73.356476
+   },
+   "klass": "rental",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 0.8872914290562233,
+   "ppsf": 3.7831021437578816
+  },
+  {
+   "mls": "24151465",
+   "slug": "44-roseville-road-westport-connecticut-24151465",
+   "address": {
+    "line": "44 Roseville Road",
+    "unit": null,
+    "lineWithUnit": "44 Roseville Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 796.0,
+   "price": 3000.0,
+   "date": "2026-04-29",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.140239,
+    "lng": -73.339057
+   },
+   "klass": "rental",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 2.1275555166346094,
+   "ppsf": 3.7688442211055277
   }
- }
+ ]
 }

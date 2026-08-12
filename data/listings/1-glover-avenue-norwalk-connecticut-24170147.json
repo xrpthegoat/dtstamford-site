@@ -120,176 +120,141 @@
    "walk": 4
   }
  },
- "comps": {
-  "building": {
-   "rows": [
-    {
-     "slug": "1-glover-avenue-norwalk-connecticut-24131781",
-     "addr": "1 Glover Avenue Unit 515",
-     "unit": "Unit 515",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 953.0,
-     "price": 2755.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-07",
-     "ppsf": 3
-    },
-    {
-     "slug": "1-glover-avenue-norwalk-connecticut-24131789",
-     "addr": "1 Glover Avenue Unit 416",
-     "unit": "Unit 416",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1304.0,
-     "price": 3330.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-07",
-     "ppsf": 3
-    },
-    {
-     "slug": "1-glover-avenue-norwalk-connecticut-24139924",
-     "addr": "1 Glover Avenue Unit 517",
-     "unit": "Unit 517",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1320.0,
-     "price": 3329.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-07",
-     "ppsf": 3
-    },
-    {
-     "slug": "1-glover-avenue-norwalk-connecticut-24146223",
-     "addr": "1 Glover Avenue Unit 519",
-     "unit": "Unit 519",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 966.0,
-     "price": 3195.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-07",
-     "ppsf": 3
-    },
-    {
-     "slug": "1-glover-avenue-norwalk-connecticut-24189558",
-     "addr": "1 Glover Avenue Unit B361",
-     "unit": "Unit B361",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1324.0,
-     "price": 3200.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 2
-    }
-   ],
-   "summary": {
-    "n": 4,
-    "low": 2755.0,
-    "high": 3330.0,
-    "median": 3262
+ "comps": [
+  {
+   "mls": "24131781",
+   "slug": "1-glover-avenue-norwalk-connecticut-24131781",
+   "address": {
+    "line": "1 Glover Avenue",
+    "unit": "Unit 515",
+    "lineWithUnit": "1 Glover Avenue Unit 515",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
    },
-   "label": "1 Glover Avenue"
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 953.0,
+   "price": 2755.0,
+   "date": "2026-07-07",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.143,
+    "lng": -73.427475
+   },
+   "klass": "rental",
+   "tier": 1,
+   "why": "Same building, sold in the last year",
+   "km": 0.0,
+   "ppsf": 2.8908709338929697
   },
-  "area": {
-   "rows": [
-    {
-     "slug": "3-seir-hill-road-norwalk-connecticut-24163709",
-     "addr": "3 Seir Hill Road Unit A5",
-     "unit": "Unit A5",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1093.0,
-     "price": 2800.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-10",
-     "ppsf": 3,
-     "mi": 0.26
-    },
-    {
-     "slug": "7-seir-hill-road-norwalk-connecticut-24161383",
-     "addr": "7 Seir Hill Road Unit 41",
-     "unit": "Unit 41",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 694.0,
-     "price": 2400.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-05",
-     "ppsf": 3,
-     "mi": 0.29
-    },
-    {
-     "slug": "7-seir-hill-road-norwalk-connecticut-24172452",
-     "addr": "7 Seir Hill Road Unit 15",
-     "unit": "Unit 15",
-     "beds": 2.0,
-     "baths": 3.0,
-     "sqft": 932.0,
-     "price": 2950.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-01",
-     "ppsf": 3,
-     "mi": 0.29
-    },
-    {
-     "slug": "7-seir-hill-road-norwalk-connecticut-24182045",
-     "addr": "7 Seir Hill Road Unit 35",
-     "unit": "Unit 35",
-     "beds": 2.0,
-     "baths": 3.0,
-     "sqft": 1304.0,
-     "price": 3250.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-23",
-     "ppsf": 2,
-     "mi": 0.31
-    },
-    {
-     "slug": "21-seir-hill-road-norwalk-connecticut-24161138",
-     "addr": "21 Seir Hill Road Apt 8",
-     "unit": "Apt 8",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1258.0,
-     "price": 3450.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-23",
-     "ppsf": 3,
-     "mi": 0.33
-    },
-    {
-     "slug": "32-oakwood-avenue-norwalk-connecticut-24159059",
-     "addr": "32 Oakwood Avenue Unit 5",
-     "unit": "Unit 5",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1300.0,
-     "price": 2495.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-24",
-     "ppsf": 2,
-     "mi": 0.46
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 2400.0,
-    "high": 3450.0,
-    "median": 2875
+  {
+   "mls": "24146223",
+   "slug": "1-glover-avenue-norwalk-connecticut-24146223",
+   "address": {
+    "line": "1 Glover Avenue",
+    "unit": "Unit 519",
+    "lineWithUnit": "1 Glover Avenue Unit 519",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 966.0,
+   "price": 3195.0,
+   "date": "2026-07-07",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.143,
+    "lng": -73.427475
+   },
+   "klass": "rental",
+   "tier": 1,
+   "why": "Same building, sold in the last year",
+   "km": 0.0,
+   "ppsf": 3.3074534161490683
+  },
+  {
+   "mls": "24145491",
+   "slug": "50-aiken-street-norwalk-connecticut-24145491",
+   "address": {
+    "line": "50 Aiken Street",
+    "unit": "Apt 404",
+    "lineWithUnit": "50 Aiken Street Apt 404",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 990.0,
+   "price": 2750.0,
+   "date": "2026-03-15",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.133678,
+    "lng": -73.421675
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1447144580410118,
+   "ppsf": 2.7777777777777777
+  },
+  {
+   "mls": "24158045",
+   "slug": "44-glenrock-norwalk-connecticut-24158045",
+   "address": {
+    "line": "44 Glenrock",
+    "unit": "Unit 44",
+    "lineWithUnit": "44 Glenrock Unit 44",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 735.0,
+   "price": 2400.0,
+   "date": "2026-04-15",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.147755,
+    "lng": -73.429646
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5591101274481404,
+   "ppsf": 3.2653061224489797
+  },
+  {
+   "mls": "24178239",
+   "slug": "50-aiken-street-norwalk-connecticut-24178239",
+   "address": {
+    "line": "50 Aiken Street",
+    "unit": "Unit 286",
+    "lineWithUnit": "50 Aiken Street Unit 286",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 736.0,
+   "price": 2350.0,
+   "date": "2026-06-11",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.133678,
+    "lng": -73.421675
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1447144580410118,
+   "ppsf": 3.192934782608696
   }
- }
+ ]
 }

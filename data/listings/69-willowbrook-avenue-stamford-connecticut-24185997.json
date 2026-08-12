@@ -132,44 +132,141 @@
    "mi": 1.31
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "103-van-buskirk-avenue-stamford-connecticut-24154913",
-     "addr": "103 Van Buskirk Avenue",
-     "unit": "",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 832.0,
-     "price": 550000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-10",
-     "ppsf": 661,
-     "mi": 0.16
-    },
-    {
-     "slug": "48-bungalow-park-stamford-connecticut-24191285",
-     "addr": "48 Bungalow Park",
-     "unit": "",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 1344.0,
-     "price": 679000.0,
-     "kind": "asking",
-     "status": "Under Contract - Continue to Show",
-     "ppsf": 505,
-     "mi": 0.64
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 550000.0,
-    "high": 550000.0,
-    "median": 550000
+ "comps": [
+  {
+   "mls": "24170661",
+   "slug": "69-webb-avenue-stamford-connecticut-24170661",
+   "address": {
+    "line": "69 Webb Avenue",
+    "unit": null,
+    "lineWithUnit": "69 Webb Avenue",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2510.0,
+   "price": 739000.0,
+   "date": "2026-06-23",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.056389,
+    "lng": -73.508967
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1958789284932663,
+   "ppsf": 294.42231075697214
+  },
+  {
+   "mls": "24153811",
+   "slug": "140-frederick-street-stamford-connecticut-24153811",
+   "address": {
+    "line": "140 Frederick Street",
+    "unit": null,
+    "lineWithUnit": "140 Frederick Street",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 2340.0,
+   "price": 675000.0,
+   "date": "2026-04-07",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.048798,
+    "lng": -73.521743
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6561417379563053,
+   "ppsf": 288.46153846153845
+  },
+  {
+   "mls": "24160789",
+   "slug": "14-park-street-stamford-connecticut-24160789",
+   "address": {
+    "line": "14 Park Street",
+    "unit": null,
+    "lineWithUnit": "14 Park Street",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 4.0,
+   "baths": 2.0,
+   "sqft": 2580.0,
+   "price": 810000.0,
+   "date": "2026-05-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.046524,
+    "lng": -73.52333
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.736976956248812,
+   "ppsf": 313.95348837209303
+  },
+  {
+   "mls": "24163171",
+   "slug": "102-soundview-drive-stamford-connecticut-24163171",
+   "address": {
+    "line": "102 Soundview Drive",
+    "unit": null,
+    "lineWithUnit": "102 Soundview Drive",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2146.0,
+   "price": 1850000.0,
+   "date": "2026-05-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.040035,
+    "lng": -73.512573
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7365133490012074,
+   "ppsf": 862.0689655172414
+  },
+  {
+   "mls": "24176400",
+   "slug": "39-kenilworth-drive-west-stamford-connecticut-24176400",
+   "address": {
+    "line": "39 Kenilworth Drive West",
+    "unit": null,
+    "lineWithUnit": "39 Kenilworth Drive West",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 5.0,
+   "baths": 3.0,
+   "sqft": 2898.0,
+   "price": 1175000.0,
+   "date": "2026-07-13",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.041961,
+    "lng": -73.512477
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5325462327457858,
+   "ppsf": 405.4520358868185
   }
- }
+ ]
 }

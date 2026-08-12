@@ -128,101 +128,141 @@
    "mi": 0.97
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "41-1-2-cedar-crest-place-norwalk-connecticut-24161000",
-     "addr": "41 1/2 Cedar Crest Place Unit B",
-     "unit": "Unit B",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1064.0,
-     "price": 3000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-08",
-     "ppsf": 3,
-     "mi": 0.27
-    },
-    {
-     "slug": "28-rockmeadow-road-norwalk-connecticut-24174539",
-     "addr": "28 Rockmeadow Road Unit 88",
-     "unit": "Unit 88",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 2016.0,
-     "price": 4500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-21",
-     "ppsf": 2,
-     "mi": 0.35
-    },
-    {
-     "slug": "172-gillies-lane-norwalk-connecticut-24177042",
-     "addr": "172 Gillies Lane Unit 172",
-     "unit": "Unit 172",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1662.0,
-     "price": 3300.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-01",
-     "ppsf": 2,
-     "mi": 0.36
-    },
-    {
-     "slug": "37-ferris-avenue-norwalk-connecticut-24159063",
-     "addr": "37 Ferris Avenue Unit 3",
-     "unit": "Unit 3",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 1000.0,
-     "price": 2200.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-31",
-     "ppsf": 2,
-     "mi": 0.45
-    },
-    {
-     "slug": "37-ferris-avenue-norwalk-connecticut-24177013",
-     "addr": "37 Ferris Avenue Unit 14",
-     "unit": "Unit 14",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 950.0,
-     "price": 2195.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-09",
-     "ppsf": 2,
-     "mi": 0.45
-    },
-    {
-     "slug": "37-ferris-avenue-norwalk-connecticut-24162099",
-     "addr": "37 Ferris Avenue Unit 8",
-     "unit": "Unit 8",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 1000.0,
-     "price": 2145.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-24",
-     "ppsf": 2,
-     "mi": 0.45
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 2145.0,
-    "high": 4500.0,
-    "median": 2600
+ "comps": [
+  {
+   "mls": "24153011",
+   "slug": "85-ledgebrook-drive-norwalk-connecticut-24153011",
+   "address": {
+    "line": "85 Ledgebrook Drive",
+    "unit": "Unit 85",
+    "lineWithUnit": "85 Ledgebrook Drive Unit 85",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1806.0,
+   "price": 4500.0,
+   "date": "2026-03-28",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.107291,
+    "lng": -73.4391
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.4340075490304828,
+   "ppsf": 2.4916943521594686
+  },
+  {
+   "mls": "24174539",
+   "slug": "28-rockmeadow-road-norwalk-connecticut-24174539",
+   "address": {
+    "line": "28 Rockmeadow Road",
+    "unit": "Unit 88",
+    "lineWithUnit": "28 Rockmeadow Road Unit 88",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 2016.0,
+   "price": 4500.0,
+   "date": "2026-05-21",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.116123,
+    "lng": -73.437452
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5577357580908778,
+   "ppsf": 2.232142857142857
+  },
+  {
+   "mls": "24154538",
+   "slug": "40-marlin-drive-norwalk-connecticut-24154538",
+   "address": {
+    "line": "40 Marlin Drive",
+    "unit": null,
+    "lineWithUnit": "40 Marlin Drive",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2240.0,
+   "price": 4800.0,
+   "date": "2026-06-10",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.113925,
+    "lng": -73.435875
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.3714832560862429,
+   "ppsf": 2.142857142857143
+  },
+  {
+   "mls": "24181722",
+   "slug": "38-eagle-road-norwalk-connecticut-24181722",
+   "address": {
+    "line": "38 Eagle Road",
+    "unit": null,
+    "lineWithUnit": "38 Eagle Road",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 3.0,
+   "baths": 1.0,
+   "sqft": 1920.0,
+   "price": 4000.0,
+   "date": "2026-07-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.11665,
+    "lng": -73.433009
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7575061834039792,
+   "ppsf": 2.0833333333333335
+  },
+  {
+   "mls": "24163114",
+   "slug": "128-north-taylor-avenue-norwalk-connecticut-24163114",
+   "address": {
+    "line": "128 North Taylor Avenue",
+    "unit": null,
+    "lineWithUnit": "128 North Taylor Avenue",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2132.0,
+   "price": 4100.0,
+   "date": "2026-04-15",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.11173,
+    "lng": -73.438126
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.06684765851818501,
+   "ppsf": 1.9230769230769231
   }
- }
+ ]
 }

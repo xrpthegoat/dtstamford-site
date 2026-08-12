@@ -132,85 +132,141 @@
    "mi": 1.23
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "29-richmond-drive-darien-connecticut-24154972",
-     "addr": "29 Richmond Drive",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 3512.0,
-     "price": 2060000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-12",
-     "ppsf": 587,
-     "mi": 0.14
-    },
-    {
-     "slug": "27-point-o-woods-road-south-darien-connecticut-24171930",
-     "addr": "27 Point O Woods Road South",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 3384.0,
-     "price": 2900000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-15",
-     "ppsf": 857,
-     "mi": 0.15
-    },
-    {
-     "slug": "12-sunset-road-darien-connecticut-24160428",
-     "addr": "12 Sunset Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 5.0,
-     "sqft": 4306.0,
-     "price": 3912000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-15",
-     "ppsf": 908,
-     "mi": 0.7
-    },
-    {
-     "slug": "32-birch-road-darien-connecticut-24164740",
-     "addr": "32 Birch Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 5.0,
-     "sqft": 4695.0,
-     "price": 3995000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 851,
-     "mi": 0.17
-    },
-    {
-     "slug": "22-powder-horn-road-norwalk-connecticut-24186069",
-     "addr": "22 Powder Horn Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 2.0,
-     "sqft": 1904.0,
-     "price": 795000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 418,
-     "mi": 0.44
-    }
-   ],
-   "summary": {
-    "n": 3,
-    "low": 2060000.0,
-    "high": 3912000.0,
-    "median": 2900000
+ "comps": [
+  {
+   "mls": "24171930",
+   "slug": "27-point-o-woods-road-south-darien-connecticut-24171930",
+   "address": {
+    "line": "27 Point O Woods Road South",
+    "unit": null,
+    "lineWithUnit": "27 Point O Woods Road South",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 3384.0,
+   "price": 2900000.0,
+   "date": "2026-06-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.089442,
+    "lng": -73.459218
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.23751249637697838,
+   "ppsf": 856.9739952718676
+  },
+  {
+   "mls": "24154972",
+   "slug": "29-richmond-drive-darien-connecticut-24154972",
+   "address": {
+    "line": "29 Richmond Drive",
+    "unit": null,
+    "lineWithUnit": "29 Richmond Drive",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 3512.0,
+   "price": 2060000.0,
+   "date": "2026-05-12",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.091106,
+    "lng": -73.456625
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.2237950652478293,
+   "ppsf": 586.5603644646925
+  },
+  {
+   "mls": "24159809",
+   "slug": "13-wakeman-road-darien-connecticut-24159809",
+   "address": {
+    "line": "13 Wakeman Road",
+    "unit": null,
+    "lineWithUnit": "13 Wakeman Road",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2959.0,
+   "price": 2105000.0,
+   "date": "2026-05-04",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.086986,
+    "lng": -73.456155
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5716140814755069,
+   "ppsf": 711.3889827644474
+  },
+  {
+   "mls": "24171484",
+   "slug": "33-fairview-avenue-darien-connecticut-24171484",
+   "address": {
+    "line": "33 Fairview Avenue",
+    "unit": null,
+    "lineWithUnit": "33 Fairview Avenue",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 3102.0,
+   "price": 3300000.0,
+   "date": "2026-06-12",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.082015,
+    "lng": -73.467959
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.2911346787596583,
+   "ppsf": 1063.8297872340424
+  },
+  {
+   "mls": "24155174",
+   "slug": "19-circle-road-darien-connecticut-24155174",
+   "address": {
+    "line": "19 Circle Road",
+    "unit": null,
+    "lineWithUnit": "19 Circle Road",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 5.0,
+   "baths": 4.0,
+   "sqft": 3438.0,
+   "price": 3110000.0,
+   "date": "2026-04-10",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.080934,
+    "lng": -73.456296
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.2086798888569987,
+   "ppsf": 904.5956951716114
   }
- }
+ ]
 }

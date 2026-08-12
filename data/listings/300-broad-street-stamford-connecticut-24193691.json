@@ -125,125 +125,141 @@
    "walk": 6
   }
  },
- "comps": {
-  "building": {
-   "rows": [
-    {
-     "slug": "300-broad-street-stamford-connecticut-24155323",
-     "addr": "300 Broad Street Unit 707",
-     "unit": "Unit 707",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 654.0,
-     "price": 310000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-14",
-     "ppsf": 474
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 310000.0,
-    "high": 310000.0,
-    "median": 310000
+ "comps": [
+  {
+   "mls": "24155323",
+   "slug": "300-broad-street-stamford-connecticut-24155323",
+   "address": {
+    "line": "300 Broad Street",
+    "unit": "Unit 707",
+    "lineWithUnit": "300 Broad Street Unit 707",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
    },
-   "label": "300 Broad Street"
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 654.0,
+   "price": 310000.0,
+   "date": "2026-05-14",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.05576,
+    "lng": -73.53124
+   },
+   "klass": "condo",
+   "tier": 1,
+   "why": "Same building, sold in the last year",
+   "km": 0.02104559356226737,
+   "ppsf": 474.0061162079511
   },
-  "area": {
-   "rows": [
-    {
-     "slug": "30-glenbrook-road-stamford-connecticut-24150595",
-     "addr": "30 Glenbrook Road Apt 10F",
-     "unit": "Apt 10F",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 800.0,
-     "price": 285000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-14",
-     "ppsf": 356,
-     "mi": 0.1
-    },
-    {
-     "slug": "91-highland-road-stamford-connecticut-24155215",
-     "addr": "91 Highland Road Unit 91",
-     "unit": "Unit 91",
-     "beds": 1.0,
-     "baths": 2.0,
-     "sqft": 965.0,
-     "price": 395000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-10",
-     "ppsf": 409,
-     "mi": 0.1
-    },
-    {
-     "slug": "50-glenbrook-road-stamford-connecticut-24145151",
-     "addr": "50 Glenbrook Road Apt 4E",
-     "unit": "Apt 4E",
-     "beds": 1.0,
-     "baths": 2.0,
-     "sqft": 1079.0,
-     "price": 340000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-20",
-     "ppsf": 315,
-     "mi": 0.13
-    },
-    {
-     "slug": "50-glenbrook-road-stamford-connecticut-24161609",
-     "addr": "50 Glenbrook Road Unit 1F",
-     "unit": "Unit 1F",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 939.0,
-     "price": 215000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-24",
-     "ppsf": 229,
-     "mi": 0.13
-    },
-    {
-     "slug": "50-glenbrook-road-stamford-connecticut-24158144",
-     "addr": "50 Glenbrook Road Apt 16F",
-     "unit": "Apt 16F",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 939.0,
-     "price": 378000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-27",
-     "ppsf": 403,
-     "mi": 0.13
-    },
-    {
-     "slug": "39-glenbrook-road-stamford-connecticut-24156821",
-     "addr": "39 Glenbrook Road Unit 5L",
-     "unit": "Unit 5L",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 542.0,
-     "price": 221500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-15",
-     "ppsf": 409,
-     "mi": 0.15
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 215000.0,
-    "high": 395000.0,
-    "median": 312500
+  {
+   "mls": "24153809",
+   "slug": "127-greyrock-place-stamford-connecticut-24153809",
+   "address": {
+    "line": "127 Greyrock Place",
+    "unit": "Apt 1401",
+    "lineWithUnit": "127 Greyrock Place Apt 1401",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06901"
    },
-   "radiusMi": 0.75
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 764.0,
+   "price": 364500.0,
+   "date": "2026-04-10",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.054543,
+    "lng": -73.535805
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.3971802953010688,
+   "ppsf": 477.09424083769636
+  },
+  {
+   "mls": "24164255",
+   "slug": "833-summer-street-stamford-connecticut-24164255",
+   "address": {
+    "line": "833 Summer Street",
+    "unit": "Unit 2E",
+    "lineWithUnit": "833 Summer Street Unit 2E",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06901"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 712.0,
+   "price": 300000.0,
+   "date": "2026-06-16",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.059025,
+    "lng": -73.539654
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8010681259445663,
+   "ppsf": 421.34831460674155
+  },
+  {
+   "mls": "24135555",
+   "slug": "1046-east-main-street-stamford-connecticut-24135555",
+   "address": {
+    "line": "1046 East Main Street",
+    "unit": "Apt 4",
+    "lineWithUnit": "1046 East Main Street Apt 4",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 763.0,
+   "price": 310000.0,
+   "date": "2026-05-05",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.057174,
+    "lng": -73.517542
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1646854187908033,
+   "ppsf": 406.2909567496723
+  },
+  {
+   "mls": "24140571",
+   "slug": "44-strawberry-hill-avenue-stamford-connecticut-24140571",
+   "address": {
+    "line": "44 Strawberry Hill Avenue",
+    "unit": "Apt 1H",
+    "lineWithUnit": "44 Strawberry Hill Avenue Apt 1H",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 0.0,
+   "baths": 1.0,
+   "sqft": 610.0,
+   "price": 259000.0,
+   "date": "2026-03-25",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.06147,
+    "lng": -73.533742
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6878253774670642,
+   "ppsf": 424.59016393442624
   }
- }
+ ]
 }

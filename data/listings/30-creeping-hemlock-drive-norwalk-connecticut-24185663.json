@@ -134,101 +134,141 @@
    "walk": 7
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "47-creeping-hemlock-drive-norwalk-connecticut-24165571",
-     "addr": "47 Creeping Hemlock Drive",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 2800.0,
-     "price": 789000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-23",
-     "ppsf": 282,
-     "mi": 0.22
-    },
-    {
-     "slug": "1-driftwood-lane-norwalk-connecticut-24165360",
-     "addr": "1 Driftwood Lane",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 2340.0,
-     "price": 781500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-10",
-     "ppsf": 334,
-     "mi": 0.26
-    },
-    {
-     "slug": "174-west-rocks-road-norwalk-connecticut-24170961",
-     "addr": "174 West Rocks Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 2016.0,
-     "price": 776600.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-14",
-     "ppsf": 385,
-     "mi": 0.52
-    },
-    {
-     "slug": "59-linden-street-norwalk-connecticut-24182131",
-     "addr": "59 Linden Street",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1806.0,
-     "price": 662000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-04",
-     "ppsf": 367,
-     "mi": 0.56
-    },
-    {
-     "slug": "120-old-belden-hill-road-norwalk-connecticut-24170048",
-     "addr": "120 Old Belden Hill Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1212.0,
-     "price": 661900.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-11",
-     "ppsf": 546,
-     "mi": 0.65
-    },
-    {
-     "slug": "571-belden-hill-road-norwalk-connecticut-24176607",
-     "addr": "571 Belden Hill Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1982.0,
-     "price": 830000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-30",
-     "ppsf": 419,
-     "mi": 0.71
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 661900.0,
-    "high": 830000.0,
-    "median": 779050
+ "comps": [
+  {
+   "mls": "24170048",
+   "slug": "120-old-belden-hill-road-norwalk-connecticut-24170048",
+   "address": {
+    "line": "120 Old Belden Hill Road",
+    "unit": null,
+    "lineWithUnit": "120 Old Belden Hill Road",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1212.0,
+   "price": 661900.0,
+   "date": "2026-06-11",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.157899,
+    "lng": -73.428174
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0407332921624644,
+   "ppsf": 546.1221122112212
+  },
+  {
+   "mls": "24143673",
+   "slug": "5-tod-road-norwalk-connecticut-24143673",
+   "address": {
+    "line": "5 Tod Road",
+    "unit": null,
+    "lineWithUnit": "5 Tod Road",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1619.0,
+   "price": 595000.0,
+   "date": "2026-04-20",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.139094,
+    "lng": -73.420159
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.2431492310640853,
+   "ppsf": 367.51080914144535
+  },
+  {
+   "mls": "24151591",
+   "slug": "80-broad-street-norwalk-connecticut-24151591",
+   "address": {
+    "line": "80 Broad Street",
+    "unit": null,
+    "lineWithUnit": "80 Broad Street",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1610.0,
+   "price": 760000.0,
+   "date": "2026-03-20",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.13263,
+    "lng": -73.433134
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.207694171379988,
+   "ppsf": 472.0496894409938
+  },
+  {
+   "mls": "24169657",
+   "slug": "37-harriet-street-norwalk-connecticut-24169657",
+   "address": {
+    "line": "37 Harriet Street",
+    "unit": null,
+    "lineWithUnit": "37 Harriet Street",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1546.0,
+   "price": 630000.0,
+   "date": "2026-06-26",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.128398,
+    "lng": -73.417013
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.453312880791915,
+   "ppsf": 407.503234152652
+  },
+  {
+   "mls": "24171006",
+   "slug": "12-edith-lane-norwalk-connecticut-24171006",
+   "address": {
+    "line": "12 Edith Lane",
+    "unit": null,
+    "lineWithUnit": "12 Edith Lane",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1725.0,
+   "price": 560000.0,
+   "date": "2026-07-10",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.139066,
+    "lng": -73.421675
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.245558121573314,
+   "ppsf": 324.6376811594203
   }
- }
+ ]
 }

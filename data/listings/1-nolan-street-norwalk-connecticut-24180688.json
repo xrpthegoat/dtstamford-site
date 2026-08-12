@@ -131,44 +131,141 @@
    "mi": 0.76
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "39-fair-street-norwalk-connecticut-24170426",
-     "addr": "39 Fair Street",
-     "unit": "",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 1120.0,
-     "price": 515000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-22",
-     "ppsf": 460,
-     "mi": 0.34
-    },
-    {
-     "slug": "30-nolan-street-extension-norwalk-connecticut-24182161",
-     "addr": "30 Nolan Street Extension",
-     "unit": "",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1332.0,
-     "price": 519000.0,
-     "kind": "asking",
-     "status": "Under Contract - Continue to Show",
-     "ppsf": 390,
-     "mi": 0.19
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 515000.0,
-    "high": 515000.0,
-    "median": 515000
+ "comps": [
+  {
+   "mls": "24165843",
+   "slug": "28-silvermine-avenue-norwalk-connecticut-24165843",
+   "address": {
+    "line": "28 Silvermine Avenue",
+    "unit": null,
+    "lineWithUnit": "28 Silvermine Avenue",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
    },
-   "radiusMi": 0.75
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 891.0,
+   "price": 475000.0,
+   "date": "2026-05-27",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.128999,
+    "lng": -73.432359
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8483174382550466,
+   "ppsf": 533.1088664421998
+  },
+  {
+   "mls": "24168949",
+   "slug": "21-west-rocks-road-norwalk-connecticut-24168949",
+   "address": {
+    "line": "21 West Rocks Road",
+    "unit": null,
+    "lineWithUnit": "21 West Rocks Road",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 992.0,
+   "price": 500000.0,
+   "date": "2026-07-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.128315,
+    "lng": -73.41236
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.564371628615241,
+   "ppsf": 504.03225806451616
+  },
+  {
+   "mls": "24169917",
+   "slug": "10-freedman-drive-norwalk-connecticut-24169917",
+   "address": {
+    "line": "10 Freedman Drive",
+    "unit": null,
+    "lineWithUnit": "10 Freedman Drive",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 962.0,
+   "price": 593000.0,
+   "date": "2026-06-04",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.10543,
+    "lng": -73.439842
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.0390779357273656,
+   "ppsf": 616.4241164241164
+  },
+  {
+   "mls": "24152587",
+   "slug": "6-acorn-lane-norwalk-connecticut-24152587",
+   "address": {
+    "line": "6 Acorn Lane",
+    "unit": null,
+    "lineWithUnit": "6 Acorn Lane",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 1008.0,
+   "price": 750000.0,
+   "date": "2026-04-10",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.082258,
+    "lng": -73.439842
+   },
+   "klass": "house",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 4.493248387998717,
+   "ppsf": 744.047619047619
+  },
+  {
+   "mls": "24111560",
+   "slug": "142-wolfpit-avenue-norwalk-connecticut-24111560",
+   "address": {
+    "line": "142 Wolfpit Avenue",
+    "unit": null,
+    "lineWithUnit": "142 Wolfpit Avenue",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 854.0,
+   "price": 575000.0,
+   "date": "2026-07-10",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.13236,
+    "lng": -73.388498
+   },
+   "klass": "house",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 3.583370158925141,
+   "ppsf": 673.3021077283372
   }
- }
+ ]
 }

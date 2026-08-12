@@ -120,73 +120,141 @@
    "walk": 8
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "516-stillwater-road-stamford-connecticut-24182098",
-     "addr": "516 Stillwater Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 2240.0,
-     "price": 975000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-30",
-     "ppsf": 435,
-     "mi": 0.54
-    },
-    {
-     "slug": "117-bridge-street-stamford-connecticut-24178086",
-     "addr": "117 Bridge Street",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 4.0,
-     "sqft": 1736.0,
-     "price": 800000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-23",
-     "ppsf": 461,
-     "mi": 0.66
-    },
-    {
-     "slug": "19-emery-drive-stamford-connecticut-24155501",
-     "addr": "19 Emery Drive",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 2731.0,
-     "price": 1590000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-17",
-     "ppsf": 582,
-     "mi": 0.66
-    },
-    {
-     "slug": "5-halliwell-drive-stamford-connecticut-24155832",
-     "addr": "5 Halliwell Drive",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 4.0,
-     "sqft": 2502.0,
-     "price": 1596000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-04",
-     "ppsf": 638,
-     "mi": 0.68
-    }
-   ],
-   "summary": {
-    "n": 4,
-    "low": 800000.0,
-    "high": 1596000.0,
-    "median": 1282500
+ "comps": [
+  {
+   "mls": "24170637",
+   "slug": "56-hubbard-avenue-stamford-connecticut-24170637",
+   "address": {
+    "line": "56 Hubbard Avenue",
+    "unit": null,
+    "lineWithUnit": "56 Hubbard Avenue",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2010.0,
+   "price": 1100000.0,
+   "date": "2026-06-17",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.058058,
+    "lng": -73.552485
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.23351951932007584,
+   "ppsf": 547.2636815920398
+  },
+  {
+   "mls": "24149963",
+   "slug": "21-stephen-street-stamford-connecticut-24149963",
+   "address": {
+    "line": "21 Stephen Street",
+    "unit": null,
+    "lineWithUnit": "21 Stephen Street",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 5.0,
+   "baths": 4.0,
+   "sqft": 2000.0,
+   "price": 800000.0,
+   "date": "2026-04-24",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.053272,
+    "lng": -73.548568
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.3920446954204925,
+   "ppsf": 400.0
+  },
+  {
+   "mls": "24165161",
+   "slug": "77-rachelle-avenue-stamford-connecticut-24165161",
+   "address": {
+    "line": "77 Rachelle Avenue",
+    "unit": null,
+    "lineWithUnit": "77 Rachelle Avenue",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2120.0,
+   "price": 965000.0,
+   "date": "2026-05-11",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.058766,
+    "lng": -73.554314
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.38956877963032427,
+   "ppsf": 455.188679245283
+  },
+  {
+   "mls": "24173168",
+   "slug": "2-golf-view-circle-stamford-connecticut-24173168",
+   "address": {
+    "line": "2 Golf View Circle",
+    "unit": null,
+    "lineWithUnit": "2 Golf View Circle",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2064.0,
+   "price": 850000.0,
+   "date": "2026-06-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.061294,
+    "lng": -73.553972
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6118061051013985,
+   "ppsf": 411.8217054263566
+  },
+  {
+   "mls": "24178086",
+   "slug": "117-bridge-street-stamford-connecticut-24178086",
+   "address": {
+    "line": "117 Bridge Street",
+    "unit": null,
+    "lineWithUnit": "117 Bridge Street",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 3.0,
+   "baths": 4.0,
+   "sqft": 1736.0,
+   "price": 800000.0,
+   "date": "2026-06-23",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.065739,
+    "lng": -73.550569
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0576228330055149,
+   "ppsf": 460.8294930875576
   }
- }
+ ]
 }

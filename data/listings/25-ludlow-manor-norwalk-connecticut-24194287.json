@@ -112,101 +112,141 @@
    "mi": 1.31
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "10-hawkins-avenue-norwalk-connecticut-24171607",
-     "addr": "10 Hawkins Avenue Unit A",
-     "unit": "Unit A",
-     "beds": 3.0,
-     "baths": 1.0,
-     "sqft": 1000.0,
-     "price": 3900.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-26",
-     "ppsf": 4,
-     "mi": 0.22
-    },
-    {
-     "slug": "43-gregory-boulevard-norwalk-connecticut-24158542",
-     "addr": "43 Gregory Boulevard",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1279.0,
-     "price": 5000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-22",
-     "ppsf": 4,
-     "mi": 0.23
-    },
-    {
-     "slug": "3-wallace-avenue-norwalk-connecticut-24162228",
-     "addr": "3 Wallace Avenue",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1938.0,
-     "price": 7250.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-07",
-     "ppsf": 4,
-     "mi": 0.25
-    },
-    {
-     "slug": "285-east-avenue-norwalk-connecticut-24163035",
-     "addr": "285 East Avenue",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1488.0,
-     "price": 5200.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-09",
-     "ppsf": 3,
-     "mi": 0.43
-    },
-    {
-     "slug": "199-gregory-boulevard-norwalk-connecticut-24183471",
-     "addr": "199 Gregory Boulevard Unit C6",
-     "unit": "Unit C6",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1652.0,
-     "price": 5200.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-15",
-     "ppsf": 3,
-     "mi": 0.53
-    },
-    {
-     "slug": "4-villaway-road-norwalk-connecticut-24150485",
-     "addr": "4 Villaway Road Unit Left Side",
-     "unit": "Unit Left Side",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 2226.0,
-     "price": 3300.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-01",
-     "ppsf": 1,
-     "mi": 0.6
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 3300.0,
-    "high": 7250.0,
-    "median": 5100
+ "comps": [
+  {
+   "mls": "24150485",
+   "slug": "4-villaway-road-norwalk-connecticut-24150485",
+   "address": {
+    "line": "4 Villaway Road",
+    "unit": "Unit Left Side",
+    "lineWithUnit": "4 Villaway Road Unit Left Side",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06855"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 2226.0,
+   "price": 3300.0,
+   "date": "2026-05-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.10468,
+    "lng": -73.39872
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9686377737334888,
+   "ppsf": 1.482479784366577
+  },
+  {
+   "mls": "24187751",
+   "slug": "1-island-drive-norwalk-connecticut-24187751",
+   "address": {
+    "line": "1 Island Drive",
+    "unit": "Unit 9",
+    "lineWithUnit": "1 Island Drive Unit 9",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06855"
+   },
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 2032.0,
+   "price": 8250.0,
+   "date": "2026-07-16",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.092459,
+    "lng": -73.39637
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.4156289191045113,
+   "ppsf": 4.06003937007874
+  },
+  {
+   "mls": "24161858",
+   "slug": "25-cove-avenue-norwalk-connecticut-24161858",
+   "address": {
+    "line": "25 Cove Avenue",
+    "unit": "Unit 1",
+    "lineWithUnit": "25 Cove Avenue Unit 1",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06855"
+   },
+   "beds": 5.0,
+   "baths": 2.0,
+   "sqft": 1577.0,
+   "price": 4450.0,
+   "date": "2026-04-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.09625,
+    "lng": -73.40311
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.42787969063601133,
+   "ppsf": 2.821813570069753
+  },
+  {
+   "mls": "24162228",
+   "slug": "3-wallace-avenue-norwalk-connecticut-24162228",
+   "address": {
+    "line": "3 Wallace Avenue",
+    "unit": null,
+    "lineWithUnit": "3 Wallace Avenue",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06855"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1938.0,
+   "price": 7250.0,
+   "date": "2026-04-07",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.092426,
+    "lng": -73.39908
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.40566286631089715,
+   "ppsf": 3.740970072239422
+  },
+  {
+   "mls": "24163035",
+   "slug": "285-east-avenue-norwalk-connecticut-24163035",
+   "address": {
+    "line": "285 East Avenue",
+    "unit": null,
+    "lineWithUnit": "285 East Avenue",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06855"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1488.0,
+   "price": 5200.0,
+   "date": "2026-04-09",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.099604,
+    "lng": -73.404802
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6966222592744202,
+   "ppsf": 3.4946236559139785
   }
- }
+ ]
 }

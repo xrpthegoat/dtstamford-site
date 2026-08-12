@@ -124,125 +124,141 @@
    "mi": 1.31
   }
  },
- "comps": {
-  "building": {
-   "rows": [
-    {
-     "slug": "267-west-cedar-street-norwalk-connecticut-24169176",
-     "addr": "267 West Cedar Street Unit 3E",
-     "unit": "Unit 3E",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 1115.0,
-     "price": 2925.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-22",
-     "ppsf": 3
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 2925.0,
-    "high": 2925.0,
-    "median": 2925
+ "comps": [
+  {
+   "mls": "24169176",
+   "slug": "267-west-cedar-street-norwalk-connecticut-24169176",
+   "address": {
+    "line": "267 West Cedar Street",
+    "unit": "Unit 3E",
+    "lineWithUnit": "267 West Cedar Street Unit 3E",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
    },
-   "label": "267 West Cedar Street"
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 1115.0,
+   "price": 2925.0,
+   "date": "2026-06-22",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.102143,
+    "lng": -73.442013
+   },
+   "klass": "rental",
+   "tier": 1,
+   "why": "Same building, sold in the last year",
+   "km": 0.03113717272756547,
+   "ppsf": 2.623318385650224
   },
-  "area": {
-   "rows": [
-    {
-     "slug": "172-gillies-lane-norwalk-connecticut-24177042",
-     "addr": "172 Gillies Lane Unit 172",
-     "unit": "Unit 172",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1662.0,
-     "price": 3300.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-01",
-     "ppsf": 2,
-     "mi": 0.29
-    },
-    {
-     "slug": "1-horizon-drive-norwalk-connecticut-24150892",
-     "addr": "1 Horizon Drive Apt 2",
-     "unit": "Apt 2",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1258.0,
-     "price": 3150.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-26",
-     "ppsf": 3,
-     "mi": 0.39
-    },
-    {
-     "slug": "41-1-2-cedar-crest-place-norwalk-connecticut-24161000",
-     "addr": "41 1/2 Cedar Crest Place Unit B",
-     "unit": "Unit B",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1064.0,
-     "price": 3000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-08",
-     "ppsf": 3,
-     "mi": 0.54
-    },
-    {
-     "slug": "16-north-taylor-avenue-norwalk-connecticut-24161387",
-     "addr": "16 North Taylor Avenue Unit 2",
-     "unit": "Unit 2",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 800.0,
-     "price": 2550.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-05",
-     "ppsf": 3,
-     "mi": 0.61
-    },
-    {
-     "slug": "118-west-cedar-street-norwalk-connecticut-24183077",
-     "addr": "118 West Cedar Street Unit 3",
-     "unit": "Unit 3",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 988.0,
-     "price": 3000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-08",
-     "ppsf": 3,
-     "mi": 0.62
-    },
-    {
-     "slug": "21-avenue-b-norwalk-connecticut-24177014",
-     "addr": "21 Avenue B Unit A",
-     "unit": "Unit A",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1100.0,
-     "price": 2695.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-13",
-     "ppsf": 2,
-     "mi": 0.63
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 2550.0,
-    "high": 3300.0,
-    "median": 3000
+  {
+   "mls": "24154959",
+   "slug": "24-ferris-avenue-norwalk-connecticut-24154959",
+   "address": {
+    "line": "24 Ferris Avenue",
+    "unit": "Unit 2",
+    "lineWithUnit": "24 Ferris Avenue Unit 2",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 900.0,
+   "price": 2195.0,
+   "date": "2026-03-18",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.10736,
+    "lng": -73.42941
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1765113829177467,
+   "ppsf": 2.438888888888889
+  },
+  {
+   "mls": "24150892",
+   "slug": "1-horizon-drive-norwalk-connecticut-24150892",
+   "address": {
+    "line": "1 Horizon Drive",
+    "unit": "Apt 2",
+    "lineWithUnit": "1 Horizon Drive Apt 2",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1258.0,
+   "price": 3150.0,
+   "date": "2026-03-26",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.101133,
+    "lng": -73.434452
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6299772632460242,
+   "ppsf": 2.503974562798092
+  },
+  {
+   "mls": "24139759",
+   "slug": "2-frances-avenue-norwalk-connecticut-24139759",
+   "address": {
+    "line": "2 Frances Avenue",
+    "unit": "Unit 2",
+    "lineWithUnit": "2 Frances Avenue Unit 2",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 1200.0,
+   "price": 2850.0,
+   "date": "2026-03-27",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.095258,
+    "lng": -73.431722
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1561099303726934,
+   "ppsf": 2.375
+  },
+  {
+   "mls": "24149129",
+   "slug": "105-richards-avenue-norwalk-connecticut-24149129",
+   "address": {
+    "line": "105 Richards Avenue",
+    "unit": "Unit 2305",
+    "lineWithUnit": "105 Richards Avenue Unit 2305",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1132.0,
+   "price": 2895.0,
+   "date": "2026-04-15",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.096504,
+    "lng": -73.452328
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.097602322447091,
+   "ppsf": 2.5574204946996466
   }
- }
+ ]
 }

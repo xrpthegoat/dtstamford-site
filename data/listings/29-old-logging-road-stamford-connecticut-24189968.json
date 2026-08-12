@@ -130,100 +130,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "223-red-fox-road-stamford-connecticut-24149973",
-     "addr": "223 Red Fox Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 3305.0,
-     "price": 1050000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-22",
-     "ppsf": 318,
-     "mi": 0.36
-    },
-    {
-     "slug": "190-red-fox-road-stamford-connecticut-24174989",
-     "addr": "190 Red Fox Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2021.0,
-     "price": 915000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-02",
-     "ppsf": 453,
-     "mi": 0.46
-    },
-    {
-     "slug": "107-deepwood-road-stamford-connecticut-24121490",
-     "addr": "107 Deepwood Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 3812.0,
-     "price": 1900000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-23",
-     "ppsf": 498,
-     "mi": 0.62
-    },
-    {
-     "slug": "35-hampton-lane-stamford-connecticut-24175456",
-     "addr": "35 Hampton Lane",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 2.0,
-     "sqft": 2973.0,
-     "price": 1050000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-02",
-     "ppsf": 353,
-     "mi": 0.69
-    },
-    {
-     "slug": "36-somerset-lane-stamford-connecticut-24151740",
-     "addr": "36 Somerset Lane",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 3116.0,
-     "price": 921000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-26",
-     "ppsf": 296,
-     "mi": 0.75
-    },
-    {
-     "slug": "166-blackwood-lane-stamford-connecticut-24189535",
-     "addr": "166 Blackwood Lane",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 5.0,
-     "sqft": 3254.0,
-     "price": 1689000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 519,
-     "mi": 0.41
-    }
-   ],
-   "summary": {
-    "n": 5,
-    "low": 915000.0,
-    "high": 1900000.0,
-    "median": 1050000
+ "comps": [
+  {
+   "mls": "24175456",
+   "slug": "35-hampton-lane-stamford-connecticut-24175456",
+   "address": {
+    "line": "35 Hampton Lane",
+    "unit": null,
+    "lineWithUnit": "35 Hampton Lane",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 2.0,
+   "sqft": 2973.0,
+   "price": 1050000.0,
+   "date": "2026-07-02",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.117584,
+    "lng": -73.543082
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1065628221171908,
+   "ppsf": 353.17860746720487
+  },
+  {
+   "mls": "24121490",
+   "slug": "107-deepwood-road-stamford-connecticut-24121490",
+   "address": {
+    "line": "107 Deepwood Road",
+    "unit": null,
+    "lineWithUnit": "107 Deepwood Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 3812.0,
+   "price": 1900000.0,
+   "date": "2026-03-23",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.123329,
+    "lng": -73.564427
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9940589509699124,
+   "ppsf": 498.42602308499477
+  },
+  {
+   "mls": "24149973",
+   "slug": "223-red-fox-road-stamford-connecticut-24149973",
+   "address": {
+    "line": "223 Red Fox Road",
+    "unit": null,
+    "lineWithUnit": "223 Red Fox Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 3305.0,
+   "price": 1050000.0,
+   "date": "2026-04-22",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.119698,
+    "lng": -73.555381
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5751128118284093,
+   "ppsf": 317.7004538577912
+  },
+  {
+   "mls": "24133749",
+   "slug": "27-wellington-drive-stamford-connecticut-24133749",
+   "address": {
+    "line": "27 Wellington Drive",
+    "unit": null,
+    "lineWithUnit": "27 Wellington Drive",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2402.0,
+   "price": 774000.0,
+   "date": "2026-03-25",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.137419,
+    "lng": -73.573063
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.2369324016935836,
+   "ppsf": 322.23147377185677
+  },
+  {
+   "mls": "24155308",
+   "slug": "37-quarry-road-stamford-connecticut-24155308",
+   "address": {
+    "line": "37 Quarry Road",
+    "unit": null,
+    "lineWithUnit": "37 Quarry Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
+   },
+   "beds": 3.0,
+   "baths": 4.0,
+   "sqft": 3775.0,
+   "price": 1375000.0,
+   "date": "2026-04-08",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.125762,
+    "lng": -73.535248
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.4651142120554541,
+   "ppsf": 364.2384105960265
   }
- }
+ ]
 }

@@ -135,101 +135,141 @@
    "mi": 1.43
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "15-forbell-drive-norwalk-connecticut-24184210",
-     "addr": "15 Forbell Drive",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1955.0,
-     "price": 855000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-24",
-     "ppsf": 437,
-     "mi": 0.36
-    },
-    {
-     "slug": "37-glen-avenue-norwalk-connecticut-24152824",
-     "addr": "37 Glen Avenue",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 2929.0,
-     "price": 805000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-16",
-     "ppsf": 275,
-     "mi": 0.39
-    },
-    {
-     "slug": "7-douglas-drive-norwalk-connecticut-24158941",
-     "addr": "7 Douglas Drive",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 2022.0,
-     "price": 960000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-24",
-     "ppsf": 475,
-     "mi": 0.48
-    },
-    {
-     "slug": "46-ponus-avenue-norwalk-connecticut-24169429",
-     "addr": "46 Ponus Avenue",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1338.0,
-     "price": 570000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-14",
-     "ppsf": 426,
-     "mi": 0.66
-    },
-    {
-     "slug": "4-nursery-street-norwalk-connecticut-24149822",
-     "addr": "4 Nursery Street",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 4.0,
-     "sqft": 5480.0,
-     "price": 1200000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-28",
-     "ppsf": 219,
-     "mi": 0.67
-    },
-    {
-     "slug": "26-harris-street-norwalk-connecticut-24170909",
-     "addr": "26 Harris Street",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1492.0,
-     "price": 650000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-02",
-     "ppsf": 436,
-     "mi": 0.7
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 570000.0,
-    "high": 1200000.0,
-    "median": 830000
+ "comps": [
+  {
+   "mls": "24147515",
+   "slug": "33-purdy-road-east-norwalk-connecticut-24147515",
+   "address": {
+    "line": "33 Purdy Road East",
+    "unit": null,
+    "lineWithUnit": "33 Purdy Road East",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2361.0,
+   "price": 890000.0,
+   "date": "2026-03-16",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.134527,
+    "lng": -73.447078
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0451270577844394,
+   "ppsf": 376.95891571368065
+  },
+  {
+   "mls": "24131002",
+   "slug": "150-fillow-street-norwalk-connecticut-24131002",
+   "address": {
+    "line": "150 Fillow Street",
+    "unit": null,
+    "lineWithUnit": "150 Fillow Street",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 4.0,
+   "baths": 2.0,
+   "sqft": 2602.0,
+   "price": 795000.0,
+   "date": "2026-04-01",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.119642,
+    "lng": -73.441027
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8256567167346227,
+   "ppsf": 305.5342044581092
+  },
+  {
+   "mls": "24152824",
+   "slug": "37-glen-avenue-norwalk-connecticut-24152824",
+   "address": {
+    "line": "37 Glen Avenue",
+    "unit": null,
+    "lineWithUnit": "37 Glen Avenue",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 2929.0,
+   "price": 805000.0,
+   "date": "2026-03-16",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.12993,
+    "lng": -73.451546
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6246082859762185,
+   "ppsf": 274.8378286104473
+  },
+  {
+   "mls": "24153590",
+   "slug": "153-fillow-street-norwalk-connecticut-24153590",
+   "address": {
+    "line": "153 Fillow Street",
+    "unit": null,
+    "lineWithUnit": "153 Fillow Street",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2409.0,
+   "price": 1025000.0,
+   "date": "2026-05-14",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.119785,
+    "lng": -73.442338
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7434047853424777,
+   "ppsf": 425.48775425487753
+  },
+  {
+   "mls": "24157815",
+   "slug": "16-cornwall-road-norwalk-connecticut-24157815",
+   "address": {
+    "line": "16 Cornwall Road",
+    "unit": null,
+    "lineWithUnit": "16 Cornwall Road",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 5.0,
+   "baths": 4.0,
+   "sqft": 3342.0,
+   "price": 1085000.0,
+   "date": "2026-05-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.12819,
+    "lng": -73.442398
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5559224431643717,
+   "ppsf": 324.65589467384797
   }
- }
+ ]
 }

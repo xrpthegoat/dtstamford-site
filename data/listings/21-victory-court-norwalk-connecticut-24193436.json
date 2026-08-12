@@ -129,70 +129,141 @@
    "walk": 10
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "67-osborne-avenue-norwalk-connecticut-24154154",
-     "addr": "67 Osborne Avenue",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 2.0,
-     "sqft": 1500.0,
-     "price": 4000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-01",
-     "ppsf": 3,
-     "mi": 0.7
-    },
-    {
-     "slug": "20-rockmere-road-norwalk-connecticut-24186193",
-     "addr": "20 Rockmere Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2544.0,
-     "price": 5400.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 2,
-     "mi": 0.39
-    },
-    {
-     "slug": "11-belaire-drive-westport-connecticut-24191310",
-     "addr": "11 Belaire Drive",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 3946.0,
-     "price": 11000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 3,
-     "mi": 0.72
-    },
-    {
-     "slug": "8-lorena-street-norwalk-connecticut-24189445",
-     "addr": "8 Lorena Street Unit 2",
-     "unit": "Unit 2",
-     "beds": 4.0,
-     "baths": 2.0,
-     "sqft": 2318.0,
-     "price": 3500.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 2,
-     "mi": 0.74
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 4000.0,
-    "high": 4000.0,
-    "median": 4000
+ "comps": [
+  {
+   "mls": "24150485",
+   "slug": "4-villaway-road-norwalk-connecticut-24150485",
+   "address": {
+    "line": "4 Villaway Road",
+    "unit": "Unit Left Side",
+    "lineWithUnit": "4 Villaway Road Unit Left Side",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06855"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 2226.0,
+   "price": 3300.0,
+   "date": "2026-05-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.10468,
+    "lng": -73.39872
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.562860464592918,
+   "ppsf": 1.482479784366577
+  },
+  {
+   "mls": "24127829",
+   "slug": "104-east-avenue-norwalk-connecticut-24127829",
+   "address": {
+    "line": "104 East Avenue",
+    "unit": "#2nd Floor",
+    "lineWithUnit": "104 East Avenue #2nd Floor",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 1584.0,
+   "price": 2800.0,
+   "date": "2026-07-27",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.115454,
+    "lng": -73.407987
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.187183951162404,
+   "ppsf": 1.7676767676767677
+  },
+  {
+   "mls": "24154154",
+   "slug": "67-osborne-avenue-norwalk-connecticut-24154154",
+   "address": {
+    "line": "67 Osborne Avenue",
+    "unit": null,
+    "lineWithUnit": "67 Osborne Avenue",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06855"
+   },
+   "beds": 4.0,
+   "baths": 2.0,
+   "sqft": 1500.0,
+   "price": 4000.0,
+   "date": "2026-07-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.105594,
+    "lng": -73.408816
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1302373114543725,
+   "ppsf": 2.6666666666666665
+  },
+  {
+   "mls": "24189690",
+   "slug": "26-rowan-street-norwalk-connecticut-24189690",
+   "address": {
+    "line": "26 Rowan Street",
+    "unit": "Unit 1",
+    "lineWithUnit": "26 Rowan Street Unit 1",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06855"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 2015.0,
+   "price": 2200.0,
+   "date": "2026-07-29",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.102522,
+    "lng": -73.404938
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.052779916113189,
+   "ppsf": 1.0918114143920596
+  },
+  {
+   "mls": "24156335",
+   "slug": "1-3-pine-street-norwalk-connecticut-24156335",
+   "address": {
+    "line": "1-3 Pine Street",
+    "unit": "Unit 4",
+    "lineWithUnit": "1-3 Pine Street Unit 4",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 1400.0,
+   "price": 3475.0,
+   "date": "2026-03-18",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.102116,
+    "lng": -73.419586
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.1118990453000586,
+   "ppsf": 2.482142857142857
   }
- }
+ ]
 }

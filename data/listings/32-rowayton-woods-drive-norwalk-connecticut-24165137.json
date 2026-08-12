@@ -129,59 +129,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "60-rowayton-woods-drive-norwalk-connecticut-24178159",
-     "addr": "60 Rowayton Woods Drive",
-     "unit": "",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 892.0,
-     "price": 535000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-28",
-     "ppsf": 600,
-     "mi": 0.03
-    },
-    {
-     "slug": "119-rowayton-woods-drive-norwalk-connecticut-24155547",
-     "addr": "119 Rowayton Woods Drive Unit 119",
-     "unit": "Unit 119",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1468.0,
-     "price": 715000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-21",
-     "ppsf": 487,
-     "mi": 0.1
-    },
-    {
-     "slug": "43-soundview-avenue-norwalk-connecticut-24179539",
-     "addr": "43 Soundview Avenue Unit 4",
-     "unit": "Unit 4",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1326.0,
-     "price": 480000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-31",
-     "ppsf": 362,
-     "mi": 0.75
-    }
-   ],
-   "summary": {
-    "n": 3,
-    "low": 480000.0,
-    "high": 715000.0,
-    "median": 535000
+ "comps": [
+  {
+   "mls": "24178159",
+   "slug": "60-rowayton-woods-drive-norwalk-connecticut-24178159",
+   "address": {
+    "line": "60 Rowayton Woods Drive",
+    "unit": null,
+    "lineWithUnit": "60 Rowayton Woods Drive",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 892.0,
+   "price": 535000.0,
+   "date": "2026-07-28",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.081477,
+    "lng": -73.436286
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.04487077595542591,
+   "ppsf": 599.7757847533633
+  },
+  {
+   "mls": "24149453",
+   "slug": "72-chestnut-street-norwalk-connecticut-24149453",
+   "address": {
+    "line": "72 Chestnut Street",
+    "unit": "Apt 6",
+    "lineWithUnit": "72 Chestnut Street Apt 6",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 920.0,
+   "price": 240000.0,
+   "date": "2026-05-07",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.090532,
+    "lng": -73.420332
+   },
+   "klass": "condo",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.6295165263208042,
+   "ppsf": 260.8695652173913
+  },
+  {
+   "mls": "24174528",
+   "slug": "42-south-main-street-norwalk-connecticut-24174528",
+   "address": {
+    "line": "42 South Main Street",
+    "unit": "Unit 203",
+    "lineWithUnit": "42 South Main Street Unit 203",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 816.0,
+   "price": 371000.0,
+   "date": "2026-06-22",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.097824,
+    "lng": -73.418786
+   },
+   "klass": "condo",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.2944042558950373,
+   "ppsf": 454.65686274509807
+  },
+  {
+   "mls": "24121510",
+   "slug": "187-flax-hill-road-norwalk-connecticut-24121510",
+   "address": {
+    "line": "187 Flax Hill Road",
+    "unit": "Apt D5",
+    "lineWithUnit": "187 Flax Hill Road Apt D5",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 1088.0,
+   "price": 350000.0,
+   "date": "2026-05-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.097792,
+    "lng": -73.425433
+   },
+   "klass": "condo",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.9929980931331084,
+   "ppsf": 321.69117647058823
+  },
+  {
+   "mls": "24151398",
+   "slug": "105-richards-avenue-norwalk-connecticut-24151398",
+   "address": {
+    "line": "105 Richards Avenue",
+    "unit": "Unit 1407",
+    "lineWithUnit": "105 Richards Avenue Unit 1407",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1096.0,
+   "price": 462500.0,
+   "date": "2026-03-24",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.096504,
+    "lng": -73.452328
+   },
+   "klass": "condo",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.153562461893318,
+   "ppsf": 421.9890510948905
   }
- }
+ ]
 }

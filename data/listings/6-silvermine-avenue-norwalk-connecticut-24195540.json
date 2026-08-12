@@ -127,101 +127,141 @@
    "mi": 0.73
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "25-grand-street-norwalk-connecticut-24175790",
-     "addr": "25 Grand Street Unit 138",
-     "unit": "Unit 138",
-     "beds": 1.0,
-     "baths": 2.0,
-     "sqft": 725.0,
-     "price": 375000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-29",
-     "ppsf": 517,
-     "mi": 0.43
-    },
-    {
-     "slug": "15-perry-avenue-norwalk-connecticut-24168711",
-     "addr": "15 Perry Avenue Unit A4",
-     "unit": "Unit A4",
-     "beds": 1.0,
-     "baths": 2.0,
-     "sqft": 1437.0,
-     "price": 448000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-09",
-     "ppsf": 312,
-     "mi": 0.56
-    },
-    {
-     "slug": "15-perry-avenue-norwalk-connecticut-24178788",
-     "addr": "15 Perry Avenue Unit B6",
-     "unit": "Unit B6",
-     "beds": 1.0,
-     "baths": 2.0,
-     "sqft": 1160.0,
-     "price": 430000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-30",
-     "ppsf": 371,
-     "mi": 0.56
-    },
-    {
-     "slug": "15-perry-avenue-norwalk-connecticut-24174449",
-     "addr": "15 Perry Avenue Unit A9",
-     "unit": "Unit A9",
-     "beds": 1.0,
-     "baths": 2.0,
-     "sqft": 778.0,
-     "price": 385000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-23",
-     "ppsf": 495,
-     "mi": 0.56
-    },
-    {
-     "slug": "50-aiken-street-norwalk-connecticut-24147084",
-     "addr": "50 Aiken Street Apt 253",
-     "unit": "Apt 253",
-     "beds": 1.0,
-     "baths": 2.0,
-     "sqft": 956.0,
-     "price": 384000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-17",
-     "ppsf": 402,
-     "mi": 0.63
-    },
-    {
-     "slug": "50-aiken-street-norwalk-connecticut-24162459",
-     "addr": "50 Aiken Street Unit 286",
-     "unit": "Unit 286",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 736.0,
-     "price": 330000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-15",
-     "ppsf": 448,
-     "mi": 0.63
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 330000.0,
-    "high": 448000.0,
-    "median": 384500
+ "comps": [
+  {
+   "mls": "24164495",
+   "slug": "63-ward-street-norwalk-connecticut-24164495",
+   "address": {
+    "line": "63 Ward Street",
+    "unit": "Unit 2C",
+    "lineWithUnit": "63 Ward Street Unit 2C",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
    },
-   "radiusMi": 0.75
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 804.0,
+   "price": 275000.0,
+   "date": "2026-06-12",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.129167,
+    "lng": -73.41643
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.197043852652047,
+   "ppsf": 342.03980099502485
+  },
+  {
+   "mls": "24175790",
+   "slug": "25-grand-street-norwalk-connecticut-24175790",
+   "address": {
+    "line": "25 Grand Street",
+    "unit": "Unit 138",
+    "lineWithUnit": "25 Grand Street Unit 138",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 1.0,
+   "baths": 2.0,
+   "sqft": 725.0,
+   "price": 375000.0,
+   "date": "2026-06-29",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.124688,
+    "lng": -73.423326
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6874613458135443,
+   "ppsf": 517.2413793103449
+  },
+  {
+   "mls": "24174449",
+   "slug": "15-perry-avenue-norwalk-connecticut-24174449",
+   "address": {
+    "line": "15 Perry Avenue",
+    "unit": "Unit A9",
+    "lineWithUnit": "15 Perry Avenue Unit A9",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 1.0,
+   "baths": 2.0,
+   "sqft": 778.0,
+   "price": 385000.0,
+   "date": "2026-07-23",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.135231,
+    "lng": -73.426707
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9085023351461804,
+   "ppsf": 494.8586118251928
+  },
+  {
+   "mls": "24160516",
+   "slug": "16-rockmeadow-road-norwalk-connecticut-24160516",
+   "address": {
+    "line": "16 Rockmeadow Road",
+    "unit": "Unit Q",
+    "lineWithUnit": "16 Rockmeadow Road Unit Q",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 818.0,
+   "price": 320000.0,
+   "date": "2026-07-09",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.11809,
+    "lng": -73.43606
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.152752241774392,
+   "ppsf": 391.19804400977995
+  },
+  {
+   "mls": "24162459",
+   "slug": "50-aiken-street-norwalk-connecticut-24162459",
+   "address": {
+    "line": "50 Aiken Street",
+    "unit": "Unit 286",
+    "lineWithUnit": "50 Aiken Street Unit 286",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 736.0,
+   "price": 330000.0,
+   "date": "2026-05-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.133678,
+    "lng": -73.421675
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0061033636757815,
+   "ppsf": 448.3695652173913
   }
- }
+ ]
 }

@@ -131,125 +131,141 @@
    "mi": 1.89
   }
  },
- "comps": {
-  "building": {
-   "rows": [
-    {
-     "slug": "965-hope-street-stamford-connecticut-24186353",
-     "addr": "965 Hope Street Unit 203",
-     "unit": "Unit 203",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 900.0,
-     "price": 2800.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-16",
-     "ppsf": 3
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 2800.0,
-    "high": 2800.0,
-    "median": 2800
+ "comps": [
+  {
+   "mls": "24186353",
+   "slug": "965-hope-street-stamford-connecticut-24186353",
+   "address": {
+    "line": "965 Hope Street",
+    "unit": "Unit 203",
+    "lineWithUnit": "965 Hope Street Unit 203",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06907"
    },
-   "label": "965 Hope Street"
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 900.0,
+   "price": 2800.0,
+   "date": "2026-07-16",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.09187,
+    "lng": -73.51767
+   },
+   "klass": "rental",
+   "tier": 1,
+   "why": "Same building, sold in the last year",
+   "km": 0.0,
+   "ppsf": 3.111111111111111
   },
-  "area": {
-   "rows": [
-    {
-     "slug": "211-knickerbocker-avenue-stamford-connecticut-24177086",
-     "addr": "211 Knickerbocker Avenue",
-     "unit": "",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 2184.0,
-     "price": 2575.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-01",
-     "ppsf": 1,
-     "mi": 0.08
-    },
-    {
-     "slug": "85-camp-avenue-stamford-connecticut-24159306",
-     "addr": "85 Camp Avenue Apt 9i",
-     "unit": "Apt 9i",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1625.0,
-     "price": 3700.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-01",
-     "ppsf": 2,
-     "mi": 0.14
-    },
-    {
-     "slug": "85-camp-avenue-stamford-connecticut-24158493",
-     "addr": "85 Camp Avenue Apt 12A",
-     "unit": "Apt 12A",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1625.0,
-     "price": 3750.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-08",
-     "ppsf": 2,
-     "mi": 0.16
-    },
-    {
-     "slug": "85-camp-avenue-stamford-connecticut-24156960",
-     "addr": "85 Camp Avenue Apt 14J",
-     "unit": "Apt 14J",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1625.0,
-     "price": 3600.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-15",
-     "ppsf": 2,
-     "mi": 0.2
-    },
-    {
-     "slug": "878-hope-street-stamford-connecticut-24154409",
-     "addr": "878 Hope Street",
-     "unit": "",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 1458.0,
-     "price": 3200.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-02",
-     "ppsf": 2,
-     "mi": 0.21
-    },
-    {
-     "slug": "825-hope-street-stamford-connecticut-24158991",
-     "addr": "825 Hope Street Apt 8",
-     "unit": "Apt 8",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1519.0,
-     "price": 3500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-11",
-     "ppsf": 2,
-     "mi": 0.33
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 2575.0,
-    "high": 3750.0,
-    "median": 3550
+  {
+   "mls": "24156421",
+   "slug": "1283-hope-street-stamford-connecticut-24156421",
+   "address": {
+    "line": "1283 Hope Street",
+    "unit": "Apt 5",
+    "lineWithUnit": "1283 Hope Street Apt 5",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06907"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 990.0,
+   "price": 2700.0,
+   "date": "2026-04-19",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.10102,
+    "lng": -73.516426
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.022759882762804,
+   "ppsf": 2.727272727272727
+  },
+  {
+   "mls": "24148325",
+   "slug": "947-hope-street-stamford-connecticut-24148325",
+   "address": {
+    "line": "947 Hope Street",
+    "unit": "Unit 304",
+    "lineWithUnit": "947 Hope Street Unit 304",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06907"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 800.0,
+   "price": 2425.0,
+   "date": "2026-05-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.091248,
+    "lng": -73.51767
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.06916324437290446,
+   "ppsf": 3.03125
+  },
+  {
+   "mls": "24193562",
+   "slug": "16-saint-charles-avenue-stamford-connecticut-24193562",
+   "address": {
+    "line": "16 Saint Charles Avenue",
+    "unit": null,
+    "lineWithUnit": "16 Saint Charles Avenue",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06907"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 715.0,
+   "price": 3550.0,
+   "date": "2026-08-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.085438,
+    "lng": -73.52179
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7941918062710251,
+   "ppsf": 4.965034965034965
+  },
+  {
+   "mls": "24140527",
+   "slug": "168-highview-avenue-stamford-connecticut-24140527",
+   "address": {
+    "line": "168 Highview Avenue",
+    "unit": "Unit B",
+    "lineWithUnit": "168 Highview Avenue Unit B",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06907"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1080.0,
+   "price": 2700.0,
+   "date": "2026-05-16",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.10103,
+    "lng": -73.514465
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0533586422931411,
+   "ppsf": 2.5
   }
- }
+ ]
 }

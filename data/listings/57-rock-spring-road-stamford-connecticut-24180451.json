@@ -139,101 +139,141 @@
    "walk": 10
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "237-strawberry-hill-avenue-stamford-connecticut-24160373",
-     "addr": "237 Strawberry Hill Avenue Unit 27",
-     "unit": "Unit 27",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1960.0,
-     "price": 650000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-19",
-     "ppsf": 332,
-     "mi": 0.19
-    },
-    {
-     "slug": "100-hope-street-stamford-connecticut-24141028",
-     "addr": "100 Hope Street Apt 10",
-     "unit": "Apt 10",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 2005.0,
-     "price": 575000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-20",
-     "ppsf": 287,
-     "mi": 0.19
-    },
-    {
-     "slug": "255-strawberry-hill-avenue-stamford-connecticut-24153433",
-     "addr": "255 Strawberry Hill Avenue Unit B1",
-     "unit": "Unit B1",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1603.0,
-     "price": 685000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-13",
-     "ppsf": 427,
-     "mi": 0.23
-    },
-    {
-     "slug": "168-colonial-road-stamford-connecticut-24109603",
-     "addr": "168 Colonial Road Apt 6",
-     "unit": "Apt 6",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 2481.0,
-     "price": 830000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-06",
-     "ppsf": 335,
-     "mi": 0.26
-    },
-    {
-     "slug": "42-highland-road-stamford-connecticut-24184309",
-     "addr": "42 Highland Road Unit 6",
-     "unit": "Unit 6",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1988.0,
-     "price": 830000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-17",
-     "ppsf": 418,
-     "mi": 0.58
-    },
-    {
-     "slug": "20-third-street-stamford-connecticut-24163662",
-     "addr": "20 Third Street Unit 3",
-     "unit": "Unit 3",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1667.0,
-     "price": 845000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-02",
-     "ppsf": 507,
-     "mi": 0.64
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 575000.0,
-    "high": 845000.0,
-    "median": 757500
+ "comps": [
+  {
+   "mls": "24109603",
+   "slug": "168-colonial-road-stamford-connecticut-24109603",
+   "address": {
+    "line": "168 Colonial Road",
+    "unit": "Apt 6",
+    "lineWithUnit": "168 Colonial Road Apt 6",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06906"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2481.0,
+   "price": 830000.0,
+   "date": "2026-04-06",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.06964,
+    "lng": -73.533138
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.41197749261949307,
+   "ppsf": 334.5425231761387
+  },
+  {
+   "mls": "24151897",
+   "slug": "132-hope-street-stamford-connecticut-24151897",
+   "address": {
+    "line": "132 Hope Street",
+    "unit": "Unit C",
+    "lineWithUnit": "132 Hope Street Unit C",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06906"
+   },
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 2628.0,
+   "price": 720000.0,
+   "date": "2026-04-21",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.065006,
+    "lng": -73.526767
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.35768377645582955,
+   "ppsf": 273.972602739726
+  },
+  {
+   "mls": "24127210",
+   "slug": "88-maple-tree-avenue-stamford-connecticut-24127210",
+   "address": {
+    "line": "88 Maple Tree Avenue",
+    "unit": "Apt G",
+    "lineWithUnit": "88 Maple Tree Avenue Apt G",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06906"
+   },
+   "beds": 3.0,
+   "baths": 5.0,
+   "sqft": 3301.0,
+   "price": 925000.0,
+   "date": "2026-04-14",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.07244547,
+    "lng": -73.5127877
+   },
+   "klass": "condo",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.6299272684486419,
+   "ppsf": 280.21811572250834
+  },
+  {
+   "mls": "24160551",
+   "slug": "1-broad-street-stamford-connecticut-24160551",
+   "address": {
+    "line": "1 Broad Street",
+    "unit": "Unit 11A&B",
+    "lineWithUnit": "1 Broad Street Unit 11A&B",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06901"
+   },
+   "beds": 3.0,
+   "baths": 4.0,
+   "sqft": 2937.0,
+   "price": 1710000.0,
+   "date": "2026-06-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.055134,
+    "lng": -73.542079
+   },
+   "klass": "condo",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.5899910050466228,
+   "ppsf": 582.2267620020428
+  },
+  {
+   "mls": "24162336",
+   "slug": "9-old-north-stamford-road-stamford-connecticut-24162336",
+   "address": {
+    "line": "9 Old North Stamford Road",
+    "unit": "Unit 36A",
+    "lineWithUnit": "9 Old North Stamford Road Unit 36A",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 2.0,
+   "baths": 4.0,
+   "sqft": 3691.0,
+   "price": 770000.0,
+   "date": "2026-06-26",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.070668,
+    "lng": -73.545509
+   },
+   "klass": "condo",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.33713965739672,
+   "ppsf": 208.61555134109997
   }
- }
+ ]
 }

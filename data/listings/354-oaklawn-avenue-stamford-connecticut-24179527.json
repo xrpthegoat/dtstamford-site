@@ -138,101 +138,141 @@
    "walk": 6
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "190-west-lane-stamford-connecticut-24172090",
-     "addr": "190 West Lane",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2400.0,
-     "price": 1535000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-05",
-     "ppsf": 640,
-     "mi": 0.15
-    },
-    {
-     "slug": "7-dubois-street-stamford-connecticut-24148356",
-     "addr": "7 Dubois Street",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2036.0,
-     "price": 954000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-16",
-     "ppsf": 469,
-     "mi": 0.17
-    },
-    {
-     "slug": "263-oaklawn-avenue-stamford-connecticut-24153696",
-     "addr": "263 Oaklawn Avenue",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 1550.0,
-     "price": 485000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-22",
-     "ppsf": 313,
-     "mi": 0.21
-    },
-    {
-     "slug": "43-randall-avenue-stamford-connecticut-24169239",
-     "addr": "43 Randall Avenue",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2024.0,
-     "price": 750000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-02",
-     "ppsf": 371,
-     "mi": 0.5
-    },
-    {
-     "slug": "47-london-lane-stamford-connecticut-24174458",
-     "addr": "47 London Lane",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 2.0,
-     "sqft": 2276.0,
-     "price": 895000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-31",
-     "ppsf": 393,
-     "mi": 0.59
-    },
-    {
-     "slug": "212-high-clear-drive-stamford-connecticut-24152692",
-     "addr": "212 High Clear Drive",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2332.0,
-     "price": 1300000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-19",
-     "ppsf": 557,
-     "mi": 0.59
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 485000.0,
-    "high": 1535000.0,
-    "median": 924500
+ "comps": [
+  {
+   "mls": "24148537",
+   "slug": "120-west-lane-stamford-connecticut-24148537",
+   "address": {
+    "line": "120 WEST Lane",
+    "unit": null,
+    "lineWithUnit": "120 WEST Lane",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
    },
-   "radiusMi": 0.75
+   "beds": 5.0,
+   "baths": 5.0,
+   "sqft": 5000.0,
+   "price": 2790000.0,
+   "date": "2026-03-25",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.072844,
+    "lng": -73.54416
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.4264064926826943,
+   "ppsf": 558.0
+  },
+  {
+   "mls": "24162502",
+   "slug": "31-rosano-road-stamford-connecticut-24162502",
+   "address": {
+    "line": "31 Rosano Road",
+    "unit": null,
+    "lineWithUnit": "31 Rosano Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 6.0,
+   "baths": 5.0,
+   "sqft": 6000.0,
+   "price": 2149000.0,
+   "date": "2026-05-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.086895,
+    "lng": -73.55289
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.3002744146044318,
+   "ppsf": 358.1666666666667
+  },
+  {
+   "mls": "24160817",
+   "slug": "1049-stillwater-road-stamford-connecticut-24160817",
+   "address": {
+    "line": "1049 Stillwater Road",
+    "unit": null,
+    "lineWithUnit": "1049 Stillwater Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 4.0,
+   "baths": 5.0,
+   "sqft": 4597.0,
+   "price": 1550000.0,
+   "date": "2026-06-10",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.078448,
+    "lng": -73.557873
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 0.9745428170153019,
+   "ppsf": 337.17641940395913
+  },
+  {
+   "mls": "24138826",
+   "slug": "88-starin-drive-stamford-connecticut-24138826",
+   "address": {
+    "line": "88 Starin Drive",
+    "unit": null,
+    "lineWithUnit": "88 Starin Drive",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 6.0,
+   "baths": 4.0,
+   "sqft": 5031.0,
+   "price": 2500000.0,
+   "date": "2026-05-14",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.062545,
+    "lng": -73.568559
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.383297281327269,
+   "ppsf": 496.9191015702644
+  },
+  {
+   "mls": "24141907",
+   "slug": "330-hycliff-terrace-stamford-connecticut-24141907",
+   "address": {
+    "line": "330 Hycliff Terrace",
+    "unit": null,
+    "lineWithUnit": "330 Hycliff Terrace",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 5.0,
+   "baths": 4.0,
+   "sqft": 5659.0,
+   "price": 1918000.0,
+   "date": "2026-04-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.063862,
+    "lng": -73.561062
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.828151461334357,
+   "ppsf": 338.9291394239265
   }
- }
+ ]
 }

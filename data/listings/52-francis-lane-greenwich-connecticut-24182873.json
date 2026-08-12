@@ -128,98 +128,141 @@
    "mi": 1.73
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "1-pilgrim-drive-greenwich-connecticut-24186503",
-     "addr": "1 Pilgrim Drive",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 1.0,
-     "sqft": 1276.0,
-     "price": 980000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-07",
-     "ppsf": 768,
-     "mi": 0.04
-    },
-    {
-     "slug": "11-rex-street-greenwich-connecticut-24156004",
-     "addr": "11 Rex Street",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1064.0,
-     "price": 823000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-16",
-     "ppsf": 773,
-     "mi": 0.26
-    },
-    {
-     "slug": "19-cross-street-greenwich-connecticut-24170385",
-     "addr": "19 Cross Street",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1854.0,
-     "price": 1325000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-07",
-     "ppsf": 715,
-     "mi": 0.29
-    },
-    {
-     "slug": "17-rex-street-greenwich-connecticut-24192251",
-     "addr": "17 Rex Street",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1624.0,
-     "price": 899000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 554,
-     "mi": 0.28
-    },
-    {
-     "slug": "118-halstead-avenue-greenwich-connecticut-24184465",
-     "addr": "118 Halstead Avenue",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 1.0,
-     "sqft": 1224.0,
-     "price": 724999.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 592,
-     "mi": 0.46
-    },
-    {
-     "slug": "22-nedley-lane-greenwich-connecticut-24176923",
-     "addr": "22 Nedley Lane",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1620.0,
-     "price": 990000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 611,
-     "mi": 0.68
-    }
-   ],
-   "summary": {
-    "n": 3,
-    "low": 823000.0,
-    "high": 1325000.0,
-    "median": 980000
+ "comps": [
+  {
+   "mls": "24150650",
+   "slug": "9-benders-drive-greenwich-connecticut-24150650",
+   "address": {
+    "line": "9 Benders Drive",
+    "unit": null,
+    "lineWithUnit": "9 Benders Drive",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06831"
    },
-   "radiusMi": 0.75
+   "beds": 5.0,
+   "baths": 6.0,
+   "sqft": 3474.0,
+   "price": 2650000.0,
+   "date": "2026-07-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.031451,
+    "lng": -73.661542
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0001957805969197,
+   "ppsf": 762.8094415659183
+  },
+  {
+   "mls": "24169199",
+   "slug": "9-rex-street-greenwich-connecticut-24169199",
+   "address": {
+    "line": "9 Rex Street",
+    "unit": null,
+    "lineWithUnit": "9 Rex Street",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06831"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2596.0,
+   "price": 1749000.0,
+   "date": "2026-07-29",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.022252,
+    "lng": -73.658036
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.3961050595892536,
+   "ppsf": 673.728813559322
+  },
+  {
+   "mls": "24174070",
+   "slug": "greenwich-connecticut-24174070",
+   "address": {
+    "line": null,
+    "unit": null,
+    "lineWithUnit": null,
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06831"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 2371.0,
+   "price": 1675000.0,
+   "date": "2026-07-10",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.016413,
+    "lng": -73.652969
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0635862864922672,
+   "ppsf": 706.452973428933
+  },
+  {
+   "mls": "24149318",
+   "slug": "40-ettl-lane-greenwich-connecticut-24149318",
+   "address": {
+    "line": "40 Ettl Lane",
+    "unit": "Unit 17",
+    "lineWithUnit": "40 Ettl Lane Unit 17",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06831"
+   },
+   "beds": 3.0,
+   "baths": 4.0,
+   "sqft": 2990.0,
+   "price": 1850000.0,
+   "date": "2026-03-16",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.034564,
+    "lng": -73.667639
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.4026294109813813,
+   "ppsf": 618.7290969899666
+  },
+  {
+   "mls": "24161194",
+   "slug": "9-tamarack-place-greenwich-connecticut-24161194",
+   "address": {
+    "line": "9 Tamarack Place",
+    "unit": null,
+    "lineWithUnit": "9 Tamarack Place",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06831"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 3648.0,
+   "price": 2500000.0,
+   "date": "2026-06-01",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.038361,
+    "lng": -73.672287
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.9365478361933073,
+   "ppsf": 685.3070175438596
   }
- }
+ ]
 }

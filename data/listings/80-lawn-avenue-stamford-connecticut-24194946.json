@@ -124,101 +124,141 @@
    "mi": 0.97
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "60-lawn-avenue-stamford-connecticut-24180069",
-     "addr": "60 Lawn Avenue Unit 24",
-     "unit": "Unit 24",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1420.0,
-     "price": 2900.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-17",
-     "ppsf": 2,
-     "mi": 0.07
-    },
-    {
-     "slug": "175-seaton-road-stamford-connecticut-24151501",
-     "addr": "175 Seaton Road Apt 3",
-     "unit": "Apt 3",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 775.0,
-     "price": 2495.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-17",
-     "ppsf": 3,
-     "mi": 0.09
-    },
-    {
-     "slug": "34-standish-road-stamford-connecticut-24172465",
-     "addr": "34 Standish Road Unit 3",
-     "unit": "Unit 3",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 633.0,
-     "price": 2100.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-18",
-     "ppsf": 3,
-     "mi": 0.09
-    },
-    {
-     "slug": "1046-east-main-street-stamford-connecticut-24179465",
-     "addr": "1046 East Main Street Unit 4",
-     "unit": "Unit 4",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 763.0,
-     "price": 2900.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-09",
-     "ppsf": 4,
-     "mi": 0.12
-    },
-    {
-     "slug": "6-revere-drive-stamford-connecticut-24173783",
-     "addr": "6 Revere Drive Unit 3",
-     "unit": "Unit 3",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 775.0,
-     "price": 2600.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-15",
-     "ppsf": 3,
-     "mi": 0.14
-    },
-    {
-     "slug": "1084-east-main-street-stamford-connecticut-24143301",
-     "addr": "1084 East Main Street Apt 3",
-     "unit": "Apt 3",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 775.0,
-     "price": 2400.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-27",
-     "ppsf": 3,
-     "mi": 0.15
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 2100.0,
-    "high": 2900.0,
-    "median": 2548
+ "comps": [
+  {
+   "mls": "24148713",
+   "slug": "36-middlebury-street-stamford-connecticut-24148713",
+   "address": {
+    "line": "36 Middlebury Street",
+    "unit": null,
+    "lineWithUnit": "36 Middlebury Street",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 1.0,
+   "sqft": 1365.0,
+   "price": 4500.0,
+   "date": "2026-03-14",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.054045,
+    "lng": -73.506514
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1413004310893127,
+   "ppsf": 3.2967032967032965
+  },
+  {
+   "mls": "24150197",
+   "slug": "104-palmer-avenue-stamford-connecticut-24150197",
+   "address": {
+    "line": "104 Palmer Avenue",
+    "unit": "Unit 1",
+    "lineWithUnit": "104 Palmer Avenue Unit 1",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 1420.0,
+   "price": 2500.0,
+   "date": "2026-03-06",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.050453,
+    "lng": -73.51005
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.164559041424947,
+   "ppsf": 1.7605633802816902
+  },
+  {
+   "mls": "24144402",
+   "slug": "57-seaside-avenue-stamford-connecticut-24144402",
+   "address": {
+    "line": "57 Seaside Avenue",
+    "unit": "Unit 2",
+    "lineWithUnit": "57 Seaside Avenue Unit 2",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 1000.0,
+   "price": 2250.0,
+   "date": "2026-04-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.05671,
+    "lng": -73.510753
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6983756839843622,
+   "ppsf": 2.25
+  },
+  {
+   "mls": "24159619",
+   "slug": "35-seaside-avenue-stamford-connecticut-24159619",
+   "address": {
+    "line": "35 Seaside Avenue",
+    "unit": "Apt 35",
+    "lineWithUnit": "35 Seaside Avenue Apt 35",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1534.0,
+   "price": 3450.0,
+   "date": "2026-04-07",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.057468,
+    "lng": -73.511421
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6220619248181493,
+   "ppsf": 2.2490221642764014
+  },
+  {
+   "mls": "24148116",
+   "slug": "850-east-main-street-stamford-connecticut-24148116",
+   "address": {
+    "line": "850 East Main Street",
+    "unit": "Apt 420",
+    "lineWithUnit": "850 East Main Street Apt 420",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1073.0,
+   "price": 2800.0,
+   "date": "2026-04-13",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.05591,
+    "lng": -73.52668
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7383791088126272,
+   "ppsf": 2.60950605778192
   }
- }
+ ]
 }

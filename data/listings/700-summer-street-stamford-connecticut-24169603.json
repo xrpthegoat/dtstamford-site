@@ -129,72 +129,141 @@
    "walk": 1
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "140-grove-street-stamford-connecticut-24178267",
-     "addr": "140 Grove Street Unit 5K",
-     "unit": "Unit 5K",
-     "beds": 0.0,
-     "baths": 1.0,
-     "sqft": 371.0,
-     "price": 190000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-10",
-     "ppsf": 512,
-     "mi": 0.29
-    },
-    {
-     "slug": "99-prospect-street-stamford-connecticut-24158184",
-     "addr": "99 Prospect Street Apt 3M",
-     "unit": "Apt 3M",
-     "beds": 0.0,
-     "baths": 1.0,
-     "sqft": 395.0,
-     "price": 190000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-08",
-     "ppsf": 481,
-     "mi": 0.29
-    },
-    {
-     "slug": "44-strawberry-hill-avenue-stamford-connecticut-24140571",
-     "addr": "44 Strawberry Hill Avenue Apt 1H",
-     "unit": "Apt 1H",
-     "beds": 0.0,
-     "baths": 1.0,
-     "sqft": 610.0,
-     "price": 259000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-25",
-     "ppsf": 425,
-     "mi": 0.44
-    },
-    {
-     "slug": "30-glenbrook-road-stamford-connecticut-24186591",
-     "addr": "30 Glenbrook Road Unit 6C",
-     "unit": "Unit 6C",
-     "beds": 0.0,
-     "baths": 1.0,
-     "sqft": 563.0,
-     "price": 189000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 336,
-     "mi": 0.58
-    }
-   ],
-   "summary": {
-    "n": 3,
-    "low": 190000.0,
-    "high": 259000.0,
-    "median": 190000
+ "comps": [
+  {
+   "mls": "24148008",
+   "slug": "700-summer-street-stamford-connecticut-24148008",
+   "address": {
+    "line": "700 Summer Street",
+    "unit": "Unit 6G",
+    "lineWithUnit": "700 Summer Street Unit 6G",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06901"
    },
-   "radiusMi": 0.75
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 478.0,
+   "price": 245000.0,
+   "date": "2026-06-10",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.057985,
+    "lng": -73.540723
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.0,
+   "ppsf": 512.5523012552301
+  },
+  {
+   "mls": "24174543",
+   "slug": "700-summer-street-stamford-connecticut-24174543",
+   "address": {
+    "line": "700 Summer Street",
+    "unit": "Unit 7G",
+    "lineWithUnit": "700 Summer Street Unit 7G",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06901"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 478.0,
+   "price": 235000.0,
+   "date": "2026-06-24",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.057985,
+    "lng": -73.540723
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.0,
+   "ppsf": 491.6317991631799
+  },
+  {
+   "mls": "24164255",
+   "slug": "833-summer-street-stamford-connecticut-24164255",
+   "address": {
+    "line": "833 Summer Street",
+    "unit": "Unit 2E",
+    "lineWithUnit": "833 Summer Street Unit 2E",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06901"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 712.0,
+   "price": 300000.0,
+   "date": "2026-06-16",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.059025,
+    "lng": -73.539654
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.14631095918792525,
+   "ppsf": 421.34831460674155
+  },
+  {
+   "mls": "24140571",
+   "slug": "44-strawberry-hill-avenue-stamford-connecticut-24140571",
+   "address": {
+    "line": "44 Strawberry Hill Avenue",
+    "unit": "Apt 1H",
+    "lineWithUnit": "44 Strawberry Hill Avenue Apt 1H",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 0.0,
+   "baths": 1.0,
+   "sqft": 610.0,
+   "price": 259000.0,
+   "date": "2026-03-25",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.06147,
+    "lng": -73.533742
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7019680841950868,
+   "ppsf": 424.59016393442624
+  },
+  {
+   "mls": "24155933",
+   "slug": "122-woodside-green-stamford-connecticut-24155933",
+   "address": {
+    "line": "122 Woodside Green",
+    "unit": "Unit 1A",
+    "lineWithUnit": "122 Woodside Green Unit 1A",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06901"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 654.0,
+   "price": 280000.0,
+   "date": "2026-04-07",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.066083,
+    "lng": -73.54699
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0425445883064062,
+   "ppsf": 428.1345565749235
   }
- }
+ ]
 }

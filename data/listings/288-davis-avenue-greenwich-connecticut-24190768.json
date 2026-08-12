@@ -121,100 +121,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "47-indian-harbor-drive-greenwich-connecticut-24168846",
-     "addr": "47 Indian Harbor Drive Unit 7",
-     "unit": "Unit 7",
-     "beds": 3.0,
-     "baths": 4.0,
-     "sqft": 2830.0,
-     "price": 10000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-14",
-     "ppsf": 4,
-     "mi": 0.15
-    },
-    {
-     "slug": "28-home-place-greenwich-connecticut-24164099",
-     "addr": "28 Home Place Unit A-2",
-     "unit": "Unit A-2",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 2565.0,
-     "price": 6550.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-17",
-     "ppsf": 3,
-     "mi": 0.25
-    },
-    {
-     "slug": "351-greenwich-avenue-greenwich-connecticut-24161182",
-     "addr": "351 Greenwich Avenue Unit 3",
-     "unit": "Unit 3",
-     "beds": 3.0,
-     "baths": 1.0,
-     "sqft": 988.0,
-     "price": 2900.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-26",
-     "ppsf": 3,
-     "mi": 0.26
-    },
-    {
-     "slug": "33-circle-drive-greenwich-connecticut-24165475",
-     "addr": "33 Circle Drive",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1631.0,
-     "price": 6800.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-09",
-     "ppsf": 4,
-     "mi": 0.68
-    },
-    {
-     "slug": "72-prospect-street-greenwich-connecticut-24159979",
-     "addr": "72 Prospect Street",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 2736.0,
-     "price": 4200.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-13",
-     "ppsf": 2,
-     "mi": 0.73
-    },
-    {
-     "slug": "351-greenwich-avenue-greenwich-connecticut-24183367",
-     "addr": "351 Greenwich Avenue Unit 3",
-     "unit": "Unit 3",
-     "beds": 3.0,
-     "baths": 1.0,
-     "sqft": 988.0,
-     "price": 3600.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 4,
-     "mi": 0.27
-    }
-   ],
-   "summary": {
-    "n": 5,
-    "low": 2900.0,
-    "high": 10000.0,
-    "median": 6550
+ "comps": [
+  {
+   "mls": "24159979",
+   "slug": "72-prospect-street-greenwich-connecticut-24159979",
+   "address": {
+    "line": "72 Prospect Street",
+    "unit": null,
+    "lineWithUnit": "72 Prospect Street",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06830"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 2736.0,
+   "price": 4200.0,
+   "date": "2026-04-13",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.022926,
+    "lng": -73.63395
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1789215433354017,
+   "ppsf": 1.5350877192982457
+  },
+  {
+   "mls": "24168846",
+   "slug": "47-indian-harbor-drive-greenwich-connecticut-24168846",
+   "address": {
+    "line": "47 Indian Harbor Drive",
+    "unit": "Unit 7",
+    "lineWithUnit": "47 Indian Harbor Drive Unit 7",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06830"
+   },
+   "beds": 3.0,
+   "baths": 4.0,
+   "sqft": 2830.0,
+   "price": 10000.0,
+   "date": "2026-06-14",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.021399,
+    "lng": -73.618912
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.23606737936521638,
+   "ppsf": 3.5335689045936394
+  },
+  {
+   "mls": "24164099",
+   "slug": "28-home-place-greenwich-connecticut-24164099",
+   "address": {
+    "line": "28 Home Place",
+    "unit": "Unit A-2",
+    "lineWithUnit": "28 Home Place Unit A-2",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06830"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2565.0,
+   "price": 6550.0,
+   "date": "2026-05-17",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.02078,
+    "lng": -73.61663
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 0.39944445863342976,
+   "ppsf": 2.5536062378167643
+  },
+  {
+   "mls": "24157773",
+   "slug": "25-alexander-street-greenwich-connecticut-24157773",
+   "address": {
+    "line": "25 Alexander Street",
+    "unit": "Unit B",
+    "lineWithUnit": "25 Alexander Street Unit B",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06830"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2550.0,
+   "price": 5100.0,
+   "date": "2026-05-20",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.016712,
+    "lng": -73.641291
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.9411145431131969,
+   "ppsf": 2.0
+  },
+  {
+   "mls": "24141336",
+   "slug": "6-meadowbank-road-greenwich-connecticut-24141336",
+   "address": {
+    "line": "6 Meadowbank Road",
+    "unit": null,
+    "lineWithUnit": "6 Meadowbank Road",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06870"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 2740.0,
+   "price": 15200.0,
+   "date": "2026-03-19",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.018852,
+    "lng": -73.562
+   },
+   "klass": "rental",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 4.8843086967788985,
+   "ppsf": 5.547445255474453
   }
- }
+ ]
 }

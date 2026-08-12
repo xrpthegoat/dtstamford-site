@@ -115,44 +115,141 @@
    "walk": 2
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "1-glover-avenue-norwalk-connecticut-24139925",
-     "addr": "1 Glover Avenue Unit 410",
-     "unit": "Unit 410",
-     "beds": 0.0,
-     "baths": 1.0,
-     "sqft": 560.0,
-     "price": 1860.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-07",
-     "ppsf": 3,
-     "mi": 0.39
-    },
-    {
-     "slug": "1-glover-avenue-norwalk-connecticut-24170146",
-     "addr": "1 Glover Avenue Unit 228",
-     "unit": "Unit 228",
-     "beds": 0.0,
-     "baths": 1.0,
-     "sqft": 554.0,
-     "price": 2155.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 4,
-     "mi": 0.39
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 1860.0,
-    "high": 1860.0,
-    "median": 1860
+ "comps": [
+  {
+   "mls": "24180390",
+   "slug": "289-main-avenue-norwalk-connecticut-24180390",
+   "address": {
+    "line": "289 Main Avenue",
+    "unit": null,
+    "lineWithUnit": "289 Main Avenue",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
    },
-   "radiusMi": 0.75
+   "beds": null,
+   "baths": 1.0,
+   "sqft": 500.0,
+   "price": 1750.0,
+   "date": "2026-08-03",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.13134,
+    "lng": -73.42359
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7306335335007026,
+   "ppsf": 3.5
+  },
+  {
+   "mls": "24144633",
+   "slug": "32-main-street-norwalk-connecticut-24144633",
+   "address": {
+    "line": "32 Main Street",
+    "unit": "Unit 207",
+    "lineWithUnit": "32 Main Street Unit 207",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 0.0,
+   "baths": 7.0,
+   "sqft": 375.0,
+   "price": 1350.0,
+   "date": "2026-04-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.11951,
+    "lng": -73.412544
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.3312776413809866,
+   "ppsf": 3.6
+  },
+  {
+   "mls": "24157042",
+   "slug": "51-wall-street-norwalk-connecticut-24157042",
+   "address": {
+    "line": "51 Wall Street",
+    "unit": "Unit 4",
+    "lineWithUnit": "51 Wall Street Unit 4",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 0.0,
+   "baths": 1.0,
+   "sqft": 300.0,
+   "price": 1545.0,
+   "date": "2026-03-31",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.117687,
+    "lng": -73.41311
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.482427458143483,
+   "ppsf": 5.15
+  },
+  {
+   "mls": "24182542",
+   "slug": "1-appletree-lane-norwalk-connecticut-24182542",
+   "address": {
+    "line": "1 Appletree Lane",
+    "unit": "Unit 1",
+    "lineWithUnit": "1 Appletree Lane Unit 1",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 450.0,
+   "price": 1700.0,
+   "date": "2026-07-06",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.140378,
+    "lng": -73.446612
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.6533615662111223,
+   "ppsf": 3.7777777777777777
+  },
+  {
+   "mls": "24161730",
+   "slug": "14-center-avenue-norwalk-connecticut-24161730",
+   "address": {
+    "line": "14 Center Avenue",
+    "unit": "Unit 1N",
+    "lineWithUnit": "14 Center Avenue Unit 1N",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 500.0,
+   "price": 1900.0,
+   "date": "2026-04-13",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.127096,
+    "lng": -73.418604
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.3470476022371973,
+   "ppsf": 3.8
   }
- }
+ ]
 }

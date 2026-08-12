@@ -137,101 +137,141 @@
    "mi": 0.88
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "151-courtland-avenue-stamford-connecticut-24143040",
-     "addr": "151 Courtland Avenue Apt 6C",
-     "unit": "Apt 6C",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 990.0,
-     "price": 385000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-09",
-     "ppsf": 389,
-     "mi": 0.09
-    },
-    {
-     "slug": "53-standish-road-stamford-connecticut-24159876",
-     "addr": "53 Standish Road Unit 1",
-     "unit": "Unit 1",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 775.0,
-     "price": 290000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-21",
-     "ppsf": 374,
-     "mi": 0.4
-    },
-    {
-     "slug": "1060-east-main-street-stamford-connecticut-24161327",
-     "addr": "1060 East Main Street Unit 14-D",
-     "unit": "Unit 14-D",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 814.0,
-     "price": 235000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-02",
-     "ppsf": 289,
-     "mi": 0.49
-    },
-    {
-     "slug": "39-maple-tree-avenue-stamford-connecticut-24175141",
-     "addr": "39 Maple Tree Avenue Unit 26",
-     "unit": "Unit 26",
-     "beds": 2.0,
-     "baths": 3.0,
-     "sqft": 1667.0,
-     "price": 630000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-13",
-     "ppsf": 378,
-     "mi": 0.51
-    },
-    {
-     "slug": "39-maple-tree-avenue-stamford-connecticut-24167520",
-     "addr": "39 Maple Tree Avenue Unit 40",
-     "unit": "Unit 40",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1512.0,
-     "price": 606000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-05",
-     "ppsf": 401,
-     "mi": 0.51
-    },
-    {
-     "slug": "39-maple-tree-avenue-stamford-connecticut-24168592",
-     "addr": "39 Maple Tree Avenue Unit 15",
-     "unit": "Unit 15",
-     "beds": 2.0,
-     "baths": 4.0,
-     "sqft": 2501.0,
-     "price": 808550.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-02",
-     "ppsf": 323,
-     "mi": 0.51
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 235000.0,
-    "high": 808550.0,
-    "median": 495500
+ "comps": [
+  {
+   "mls": "24153250",
+   "slug": "35-maple-tree-avenue-stamford-connecticut-24153250",
+   "address": {
+    "line": "35 Maple Tree Avenue",
+    "unit": "Apt 1",
+    "lineWithUnit": "35 Maple Tree Avenue Apt 1",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06906"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1348.0,
+   "price": 520000.0,
+   "date": "2026-03-13",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.070852,
+    "lng": -73.514617
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8639065515183466,
+   "ppsf": 385.7566765578635
+  },
+  {
+   "mls": "24175347",
+   "slug": "30-maple-tree-avenue-stamford-connecticut-24175347",
+   "address": {
+    "line": "30 Maple Tree Avenue",
+    "unit": "Unit B",
+    "lineWithUnit": "30 Maple Tree Avenue Unit B",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06906"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1590.0,
+   "price": 469000.0,
+   "date": "2026-07-02",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.071783,
+    "lng": -73.515039
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9730809038650485,
+   "ppsf": 294.9685534591195
+  },
+  {
+   "mls": "24175141",
+   "slug": "39-maple-tree-avenue-stamford-connecticut-24175141",
+   "address": {
+    "line": "39 Maple Tree Avenue",
+    "unit": "Unit 26",
+    "lineWithUnit": "39 Maple Tree Avenue Unit 26",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06906"
+   },
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 1667.0,
+   "price": 630000.0,
+   "date": "2026-07-13",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.070646,
+    "lng": -73.513312
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8196329486161431,
+   "ppsf": 377.9244151169766
+  },
+  {
+   "mls": "24172691",
+   "slug": "264-sylvan-knoll-road-stamford-connecticut-24172691",
+   "address": {
+    "line": "264 Sylvan Knoll Road",
+    "unit": null,
+    "lineWithUnit": "264 Sylvan Knoll Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 1500.0,
+   "price": 380000.0,
+   "date": "2026-06-18",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.053128,
+    "lng": -73.511913
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1361957498742463,
+   "ppsf": 253.33333333333334
+  },
+  {
+   "mls": "24148624",
+   "slug": "22-radio-place-stamford-connecticut-24148624",
+   "address": {
+    "line": "22 Radio Place",
+    "unit": "Apt 10",
+    "lineWithUnit": "22 Radio Place Apt 10",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06906"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1200.0,
+   "price": 340000.0,
+   "date": "2026-04-10",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.071068,
+    "lng": -73.51149
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8595393088943263,
+   "ppsf": 283.3333333333333
   }
- }
+ ]
 }

@@ -127,119 +127,141 @@
    "walk": 3
   }
  },
- "comps": {
-  "building": {
-   "rows": [
-    {
-     "slug": "1385-washington-boulevard-stamford-connecticut-24196575",
-     "addr": "1385 Washington Boulevard Unit 4",
-     "unit": "Unit 4",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1650.0,
-     "price": 4950.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 3
-    }
-   ],
-   "summary": null,
-   "label": "1385 Washington Boulevard"
-  },
-  "area": {
-   "rows": [
-    {
-     "slug": "2-washington-court-stamford-connecticut-24150917",
-     "addr": "2 Washington Court Unit 12",
-     "unit": "Unit 12",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1064.0,
-     "price": 3190.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-01",
-     "ppsf": 3,
-     "mi": 0.1
-    },
-    {
-     "slug": "29-dolsen-place-stamford-connecticut-24154904",
-     "addr": "29 Dolsen Place Unit 2",
-     "unit": "Unit 2",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1400.0,
-     "price": 3600.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-21",
-     "ppsf": 3,
-     "mi": 0.25
-    },
-    {
-     "slug": "20-third-street-stamford-connecticut-24158555",
-     "addr": "20 Third Street Unit 18",
-     "unit": "Unit 18",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1645.0,
-     "price": 4900.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-09",
-     "ppsf": 3,
-     "mi": 0.43
-    },
-    {
-     "slug": "20-third-street-stamford-connecticut-24175898",
-     "addr": "20 Third Street Unit 19",
-     "unit": "Unit 19",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1610.0,
-     "price": 4800.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-27",
-     "ppsf": 3,
-     "mi": 0.43
-    },
-    {
-     "slug": "130-forest-street-stamford-connecticut-24180052",
-     "addr": "130 Forest Street Unit 130",
-     "unit": "Unit 130",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 2390.0,
-     "price": 4500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-15",
-     "ppsf": 2,
-     "mi": 0.54
-    },
-    {
-     "slug": "70-strawberry-hill-avenue-stamford-connecticut-24159747",
-     "addr": "70 Strawberry Hill Avenue Apt 1-2D",
-     "unit": "Apt 1-2D",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1512.0,
-     "price": 3275.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-02",
-     "ppsf": 2,
-     "mi": 0.54
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 3190.0,
-    "high": 4900.0,
-    "median": 4050
+ "comps": [
+  {
+   "mls": "24180052",
+   "slug": "130-forest-street-stamford-connecticut-24180052",
+   "address": {
+    "line": "130 Forest Street",
+    "unit": "Unit 130",
+    "lineWithUnit": "130 Forest Street Unit 130",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06901"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2390.0,
+   "price": 4500.0,
+   "date": "2026-06-15",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.057095,
+    "lng": -73.533
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8645316886664444,
+   "ppsf": 1.8828451882845187
+  },
+  {
+   "mls": "24163283",
+   "slug": "30-saint-george-avenue-stamford-connecticut-24163283",
+   "address": {
+    "line": "30 Saint George Avenue",
+    "unit": null,
+    "lineWithUnit": "30 Saint George Avenue",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 4.0,
+   "baths": 2.0,
+   "sqft": 3300.0,
+   "price": 5300.0,
+   "date": "2026-05-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.057175,
+    "lng": -73.553474
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8780374245142126,
+   "ppsf": 1.606060606060606
+  },
+  {
+   "mls": "24180176",
+   "slug": "112-fourth-street-stamford-connecticut-24180176",
+   "address": {
+    "line": "112 Fourth Street",
+    "unit": null,
+    "lineWithUnit": "112 Fourth Street",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 2998.0,
+   "price": 5650.0,
+   "date": "2026-07-31",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.066105,
+    "lng": -73.540764
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8710637966118691,
+   "ppsf": 1.884589726484323
+  },
+  {
+   "mls": "24191657",
+   "slug": "16-carolina-road-stamford-connecticut-24191657",
+   "address": {
+    "line": "16 Carolina Road",
+    "unit": "Unit 2",
+    "lineWithUnit": "16 Carolina Road Unit 2",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 3.0,
+   "baths": 1.0,
+   "sqft": 2344.0,
+   "price": 3600.0,
+   "date": "2026-07-20",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.054891,
+    "lng": -73.555749
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1295779810951454,
+   "ppsf": 1.5358361774744027
+  },
+  {
+   "mls": "24161103",
+   "slug": "57-scofield-avenue-stamford-connecticut-24161103",
+   "address": {
+    "line": "57 Scofield Avenue",
+    "unit": null,
+    "lineWithUnit": "57 Scofield Avenue",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06906"
+   },
+   "beds": 3.0,
+   "baths": 4.0,
+   "sqft": 2390.0,
+   "price": 4300.0,
+   "date": "2026-04-03",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.06888,
+    "lng": -73.524025
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.976661707796925,
+   "ppsf": 1.799163179916318
   }
- }
+ ]
 }

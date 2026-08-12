@@ -129,100 +129,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "156-intervale-road-stamford-connecticut-24150706",
-     "addr": "156 Intervale Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 4.0,
-     "sqft": 2705.0,
-     "price": 1404000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-29",
-     "ppsf": 519,
-     "mi": 0.27
-    },
-    {
-     "slug": "59-emerald-lane-stamford-connecticut-24147637",
-     "addr": "59 Emerald Lane",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 4.0,
-     "sqft": 4432.0,
-     "price": 1850000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-26",
-     "ppsf": 417,
-     "mi": 0.35
-    },
-    {
-     "slug": "11-barmore-drive-west-stamford-connecticut-24171481",
-     "addr": "11 Barmore Drive West",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1870.0,
-     "price": 665555.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-26",
-     "ppsf": 356,
-     "mi": 0.69
-    },
-    {
-     "slug": "28-pamlynn-road-stamford-connecticut-24178590",
-     "addr": "28 Pamlynn Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1656.0,
-     "price": 700000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-17",
-     "ppsf": 423,
-     "mi": 0.69
-    },
-    {
-     "slug": "170-dunn-avenue-stamford-connecticut-24166200",
-     "addr": "170 Dunn Avenue",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1495.0,
-     "price": 730000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-09",
-     "ppsf": 488,
-     "mi": 0.72
-    },
-    {
-     "slug": "10-joan-road-stamford-connecticut-24183653",
-     "addr": "10 Joan Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 2020.0,
-     "price": 799000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 396,
-     "mi": 0.29
-    }
-   ],
-   "summary": {
-    "n": 5,
-    "low": 665555.0,
-    "high": 1850000.0,
-    "median": 730000
+ "comps": [
+  {
+   "mls": "24171481",
+   "slug": "11-barmore-drive-west-stamford-connecticut-24171481",
+   "address": {
+    "line": "11 Barmore Drive West",
+    "unit": null,
+    "lineWithUnit": "11 Barmore Drive West",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1870.0,
+   "price": 665555.0,
+   "date": "2026-06-26",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.102052,
+    "lng": -73.542941
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1142718035947015,
+   "ppsf": 355.9117647058824
+  },
+  {
+   "mls": "24150706",
+   "slug": "156-intervale-road-stamford-connecticut-24150706",
+   "address": {
+    "line": "156 Intervale Road",
+    "unit": null,
+    "lineWithUnit": "156 Intervale Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 3.0,
+   "baths": 4.0,
+   "sqft": 2705.0,
+   "price": 1404000.0,
+   "date": "2026-04-29",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.107222,
+    "lng": -73.538672
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.43745700388062025,
+   "ppsf": 519.0388170055453
+  },
+  {
+   "mls": "24189104",
+   "slug": "2-arnold-drive-stamford-connecticut-24189104",
+   "address": {
+    "line": "2 Arnold Drive",
+    "unit": null,
+    "lineWithUnit": "2 Arnold Drive",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2476.0,
+   "price": 1272020.0,
+   "date": "2026-08-11",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.104078,
+    "lng": -73.534565
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7421490509055023,
+   "ppsf": 513.7399030694669
+  },
+  {
+   "mls": "24171383",
+   "slug": "290-red-fox-road-stamford-connecticut-24171383",
+   "address": {
+    "line": "290 Red Fox Road",
+    "unit": null,
+    "lineWithUnit": "290 Red Fox Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 2384.0,
+   "price": 880000.0,
+   "date": "2026-06-23",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.118812,
+    "lng": -73.558683
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.0975350899300884,
+   "ppsf": 369.1275167785235
+  },
+  {
+   "mls": "24172960",
+   "slug": "1376-hope-street-stamford-connecticut-24172960",
+   "address": {
+    "line": "1376 Hope Street",
+    "unit": null,
+    "lineWithUnit": "1376 Hope Street",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06907"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2675.0,
+   "price": 1200000.0,
+   "date": "2026-07-01",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.104248,
+    "lng": -73.516525
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.7886514280663544,
+   "ppsf": 448.5981308411215
   }
- }
+ ]
 }

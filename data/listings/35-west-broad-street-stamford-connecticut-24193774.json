@@ -138,161 +138,141 @@
    "walk": 3
   }
  },
- "comps": {
-  "building": {
-   "rows": [
-    {
-     "slug": "35-west-broad-street-stamford-connecticut-24160059",
-     "addr": "35 West Broad Street Unit 224",
-     "unit": "Unit 224",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1148.0,
-     "price": 526000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-28",
-     "ppsf": 458
-    },
-    {
-     "slug": "35-west-broad-street-stamford-connecticut-24194428",
-     "addr": "35 West Broad Street Unit 117",
-     "unit": "Unit 117",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1148.0,
-     "price": 529000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 461
-    },
-    {
-     "slug": "35-west-broad-street-stamford-connecticut-24193570",
-     "addr": "35 West Broad Street Unit 305",
-     "unit": "Unit 305",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1151.0,
-     "price": 540000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 469
-    },
-    {
-     "slug": "35-west-broad-street-stamford-connecticut-24193421",
-     "addr": "35 West Broad Street Unit 325",
-     "unit": "Unit 325",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1148.0,
-     "price": 549000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 478
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 526000.0,
-    "high": 526000.0,
-    "median": 526000
+ "comps": [
+  {
+   "mls": "24160059",
+   "slug": "35-west-broad-street-stamford-connecticut-24160059",
+   "address": {
+    "line": "35 West Broad Street",
+    "unit": "Unit 224",
+    "lineWithUnit": "35 West Broad Street Unit 224",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
    },
-   "label": "35 West Broad Street"
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1148.0,
+   "price": 526000.0,
+   "date": "2026-04-28",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.055786,
+    "lng": -73.54615
+   },
+   "klass": "condo",
+   "tier": 2,
+   "why": "Same building, sold in the last 2 years",
+   "km": 0.02403091714521974,
+   "ppsf": 458.18815331010455
   },
-  "area": {
-   "rows": [
-    {
-     "slug": "25-adams-avenue-stamford-connecticut-24167713",
-     "addr": "25 Adams Avenue Unit 112",
-     "unit": "Unit 112",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1200.0,
-     "price": 517500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-15",
-     "ppsf": 431,
-     "mi": 0.07
-    },
-    {
-     "slug": "25-adams-avenue-stamford-connecticut-24160889",
-     "addr": "25 Adams Avenue Unit 405",
-     "unit": "Unit 405",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1492.0,
-     "price": 610000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-29",
-     "ppsf": 409,
-     "mi": 0.07
-    },
-    {
-     "slug": "1-broad-street-stamford-connecticut-24165518",
-     "addr": "1 Broad Street Unit PH26B",
-     "unit": "Unit PH26B",
-     "beds": 2.0,
-     "baths": 3.0,
-     "sqft": 1738.0,
-     "price": 1025000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-02",
-     "ppsf": 590,
-     "mi": 0.17
-    },
-    {
-     "slug": "1-broad-street-stamford-connecticut-24155454",
-     "addr": "1 Broad Street Unit PH31F",
-     "unit": "Unit PH31F",
-     "beds": 2.0,
-     "baths": 3.0,
-     "sqft": 1677.0,
-     "price": 1125000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-15",
-     "ppsf": 671,
-     "mi": 0.19
-    },
-    {
-     "slug": "54-west-north-street-stamford-connecticut-24144382",
-     "addr": "54 West North Street Unit 410",
-     "unit": "Unit 410",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 900.0,
-     "price": 205000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-24",
-     "ppsf": 228,
-     "mi": 0.2
-    },
-    {
-     "slug": "1-broad-street-stamford-connecticut-24183129",
-     "addr": "1 Broad Street Unit 11E",
-     "unit": "Unit 11E",
-     "beds": 2.0,
-     "baths": 3.0,
-     "sqft": 1684.0,
-     "price": 775000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-17",
-     "ppsf": 460,
-     "mi": 0.22
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 205000.0,
-    "high": 1125000.0,
-    "median": 692500
+  {
+   "mls": "24150400",
+   "slug": "1400-bedford-street-stamford-connecticut-24150400",
+   "address": {
+    "line": "1400 Bedford Street",
+    "unit": "Unit 11",
+    "lineWithUnit": "1400 Bedford Street Unit 11",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 1268.0,
+   "price": 455000.0,
+   "date": "2026-03-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.063573,
+    "lng": -73.540821
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9548500168132962,
+   "ppsf": 358.83280757097793
+  },
+  {
+   "mls": "24165518",
+   "slug": "1-broad-street-stamford-connecticut-24165518",
+   "address": {
+    "line": "1 Broad Street",
+    "unit": "Unit PH26B",
+    "lineWithUnit": "1 Broad Street Unit PH26B",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06901"
+   },
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 1738.0,
+   "price": 1025000.0,
+   "date": "2026-06-02",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.05522,
+    "lng": -73.54305
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.2772037979591923,
+   "ppsf": 589.7583429228998
+  },
+  {
+   "mls": "24171671",
+   "slug": "1-broad-street-stamford-connecticut-24171671",
+   "address": {
+    "line": "1 Broad Street",
+    "unit": "Unit 17B",
+    "lineWithUnit": "1 Broad Street Unit 17B",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06901"
+   },
+   "beds": 1.0,
+   "baths": 2.0,
+   "sqft": 1112.0,
+   "price": 545000.0,
+   "date": "2026-06-05",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.055317,
+    "lng": -73.5429
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.286126324223771,
+   "ppsf": 490.10791366906477
+  },
+  {
+   "mls": "24149222",
+   "slug": "1633-washington-boulevard-stamford-connecticut-24149222",
+   "address": {
+    "line": "1633 Washington Boulevard",
+    "unit": "Apt 3D",
+    "lineWithUnit": "1633 Washington Boulevard Apt 3D",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1315.0,
+   "price": 425000.0,
+   "date": "2026-06-12",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.062023,
+    "lng": -73.543603
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7039762959828129,
+   "ppsf": 323.1939163498099
   }
- }
+ ]
 }

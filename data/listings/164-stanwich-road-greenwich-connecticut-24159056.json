@@ -125,45 +125,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "6-wyngate-road-greenwich-connecticut-24178864",
-     "addr": "6 Wyngate Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 3.0,
-     "sqft": 3679.0,
-     "price": 3857000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-15",
-     "ppsf": 1048,
-     "mi": 0.36
-    },
-    {
-     "slug": "386-north-street-greenwich-connecticut-24156530",
-     "addr": "386 North Street",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 9.0,
-     "sqft": 13474.0,
-     "price": 6250000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-23",
-     "ppsf": 464,
-     "mi": 0.62
-    }
-   ],
-   "summary": {
-    "n": 2,
-    "low": 3857000.0,
-    "high": 6250000.0,
-    "median": 5053500
+ "comps": [
+  {
+   "mls": "24149698",
+   "slug": "112-sheephill-road-greenwich-connecticut-24149698",
+   "address": {
+    "line": "112 Sheephill Road",
+    "unit": null,
+    "lineWithUnit": "112 Sheephill Road",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06878"
    },
-   "radiusMi": 0.75
+   "beds": 6.0,
+   "baths": 8.0,
+   "sqft": 6447.0,
+   "price": 4350000.0,
+   "date": "2026-07-06",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.049579,
+    "lng": -73.583039
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.179098220874367,
+   "ppsf": 674.7324336900884
+  },
+  {
+   "mls": "24165639",
+   "slug": "12-ricki-beth-lane-greenwich-connecticut-24165639",
+   "address": {
+    "line": "12 Ricki Beth Lane",
+    "unit": null,
+    "lineWithUnit": "12 Ricki Beth Lane",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06870"
+   },
+   "beds": 5.0,
+   "baths": 4.0,
+   "sqft": 5213.0,
+   "price": 3525000.0,
+   "date": "2026-06-29",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.061818,
+    "lng": -73.576853
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.4326972302425025,
+   "ppsf": 676.1941300594667
+  },
+  {
+   "mls": "24159054",
+   "slug": "129-doubling-road-greenwich-connecticut-24159054",
+   "address": {
+    "line": "129 Doubling Road",
+    "unit": null,
+    "lineWithUnit": "129 Doubling Road",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06830"
+   },
+   "beds": 4.0,
+   "baths": 5.0,
+   "sqft": 5417.0,
+   "price": 5650000.0,
+   "date": "2026-05-19",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.073082,
+    "lng": -73.60904
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.566949964421199,
+   "ppsf": 1043.0127376776813
+  },
+  {
+   "mls": "24135644",
+   "slug": "20-cutler-road-greenwich-connecticut-24135644",
+   "address": {
+    "line": "20 Cutler Road",
+    "unit": null,
+    "lineWithUnit": "20 Cutler Road",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06831"
+   },
+   "beds": 5.0,
+   "baths": 6.0,
+   "sqft": 8208.0,
+   "price": 5700000.0,
+   "date": "2026-03-26",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.096897,
+    "lng": -73.706299
+   },
+   "klass": "house",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 9.418338609735432,
+   "ppsf": 694.4444444444445
+  },
+  {
+   "mls": "24131024",
+   "slug": "25-dialstone-lane-greenwich-connecticut-24131024",
+   "address": {
+    "line": "25 Dialstone Lane",
+    "unit": null,
+    "lineWithUnit": "25 Dialstone Lane",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06878"
+   },
+   "beds": 6.0,
+   "baths": 8.0,
+   "sqft": 6520.0,
+   "price": 5200000.0,
+   "date": "2026-05-18",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.039527,
+    "lng": -73.579268
+   },
+   "klass": "house",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 3.113710288342034,
+   "ppsf": 797.5460122699386
   }
- }
+ ]
 }

@@ -124,31 +124,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "12-arther-street-greenwich-connecticut-24169431",
-     "addr": "12 Arther Street Unit 1",
-     "unit": "Unit 1",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 700.0,
-     "price": 3250.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-13",
-     "ppsf": 5,
-     "mi": 0.2
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 3250.0,
-    "high": 3250.0,
-    "median": 3250
+ "comps": [
+  {
+   "mls": "24169431",
+   "slug": "12-arther-street-greenwich-connecticut-24169431",
+   "address": {
+    "line": "12 Arther Street",
+    "unit": "Unit 1",
+    "lineWithUnit": "12 Arther Street Unit 1",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06831"
    },
-   "radiusMi": 0.75
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 700.0,
+   "price": 3250.0,
+   "date": "2026-05-13",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.019728,
+    "lng": -73.651402
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.3210770233188998,
+   "ppsf": 4.642857142857143
+  },
+  {
+   "mls": "24180209",
+   "slug": "271-greenwich-avenue-greenwich-connecticut-24180209",
+   "address": {
+    "line": "271 Greenwich Avenue",
+    "unit": "Unit 2D",
+    "lineWithUnit": "271 Greenwich Avenue Unit 2D",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06830"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 700.0,
+   "price": 2675.0,
+   "date": "2026-06-10",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.02601,
+    "lng": -73.62553
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.436644715715994,
+   "ppsf": 3.8214285714285716
+  },
+  {
+   "mls": "24186615",
+   "slug": "243-glenville-road-greenwich-connecticut-24186615",
+   "address": {
+    "line": "243 Glenville Road",
+    "unit": "Unit 2nd Floor",
+    "lineWithUnit": "243 Glenville Road Unit 2nd Floor",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06831"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 700.0,
+   "price": 2300.0,
+   "date": "2026-08-03",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.037853,
+    "lng": -73.66358
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.9541512168119155,
+   "ppsf": 3.2857142857142856
+  },
+  {
+   "mls": "24150805",
+   "slug": "44-sinawoy-road-greenwich-connecticut-24150805",
+   "address": {
+    "line": "44 Sinawoy Road",
+    "unit": null,
+    "lineWithUnit": "44 Sinawoy Road",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06807"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 515.0,
+   "price": 2075.0,
+   "date": "2026-04-15",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.041465,
+    "lng": -73.601643
+   },
+   "klass": "rental",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 4.9079597149945124,
+   "ppsf": 4.029126213592233
+  },
+  {
+   "mls": "24140167",
+   "slug": "66-ute-place-greenwich-connecticut-24140167",
+   "address": {
+    "line": "66 Ute Place",
+    "unit": "Unit C",
+    "lineWithUnit": "66 Ute Place Unit C",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06830"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 828.0,
+   "price": 3750.0,
+   "date": "2026-04-20",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.02076,
+    "lng": -73.636986
+   },
+   "klass": "rental",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 1.4355541094681559,
+   "ppsf": 4.528985507246377
   }
- }
+ ]
 }

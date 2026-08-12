@@ -135,97 +135,141 @@
    "mi": 0.61
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "8-merrill-road-norwalk-connecticut-24163240",
-     "addr": "8 Merrill Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 3198.0,
-     "price": 935000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-10",
-     "ppsf": 292,
-     "mi": 0.32
-    },
-    {
-     "slug": "4-yale-street-norwalk-connecticut-24176956",
-     "addr": "4 Yale Street",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2432.0,
-     "price": 810000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-27",
-     "ppsf": 333,
-     "mi": 0.41
-    },
-    {
-     "slug": "2-blue-mountain-court-norwalk-connecticut-24188755",
-     "addr": "2 Blue Mountain Court",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 3565.0,
-     "price": 1295000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 363,
-     "mi": 0.24
-    },
-    {
-     "slug": "8-muriel-street-norwalk-connecticut-24193502",
-     "addr": "8 Muriel Street",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 2822.0,
-     "price": 899000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 319,
-     "mi": 0.3
-    },
-    {
-     "slug": "99-ward-street-norwalk-connecticut-24179146",
-     "addr": "99 Ward Street",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 1410.0,
-     "price": 499000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 354,
-     "mi": 0.33
-    },
-    {
-     "slug": "12-rainbow-road-norwalk-connecticut-24181174",
-     "addr": "12 Rainbow Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 2.0,
-     "sqft": 1326.0,
-     "price": 620000.0,
-     "kind": "asking",
-     "status": "Under Contract - Continue to Show",
-     "ppsf": 468,
-     "mi": 0.33
-    }
-   ],
-   "summary": {
-    "n": 2,
-    "low": 810000.0,
-    "high": 935000.0,
-    "median": 872500
+ "comps": [
+  {
+   "mls": "24157952",
+   "slug": "10-merrill-road-norwalk-connecticut-24157952",
+   "address": {
+    "line": "10 Merrill Road",
+    "unit": null,
+    "lineWithUnit": "10 Merrill Road",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2434.0,
+   "price": 1000000.0,
+   "date": "2026-05-13",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.125299,
+    "lng": -73.403683
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5364038889011148,
+   "ppsf": 410.84634346754314
+  },
+  {
+   "mls": "24163240",
+   "slug": "8-merrill-road-norwalk-connecticut-24163240",
+   "address": {
+    "line": "8 Merrill Road",
+    "unit": null,
+    "lineWithUnit": "8 Merrill Road",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 3198.0,
+   "price": 935000.0,
+   "date": "2026-06-10",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.125319,
+    "lng": -73.403922
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5216622927692213,
+   "ppsf": 292.3702313946216
+  },
+  {
+   "mls": "24176956",
+   "slug": "4-yale-street-norwalk-connecticut-24176956",
+   "address": {
+    "line": "4 Yale Street",
+    "unit": null,
+    "lineWithUnit": "4 Yale Street",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2432.0,
+   "price": 810000.0,
+   "date": "2026-07-27",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.12752,
+    "lng": -73.400233
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6624207396203751,
+   "ppsf": 333.0592105263158
+  },
+  {
+   "mls": "24155688",
+   "slug": "17-silk-street-norwalk-connecticut-24155688",
+   "address": {
+    "line": "17 Silk Street",
+    "unit": null,
+    "lineWithUnit": "17 Silk Street",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1980.0,
+   "price": 539900.0,
+   "date": "2026-04-24",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.118042,
+    "lng": -73.428918
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.134169404903153,
+   "ppsf": 272.67676767676767
+  },
+  {
+   "mls": "24171077",
+   "slug": "28-oriole-drive-norwalk-connecticut-24171077",
+   "address": {
+    "line": "28 Oriole Drive",
+    "unit": null,
+    "lineWithUnit": "28 Oriole Drive",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 4.0,
+   "baths": 2.0,
+   "sqft": 2056.0,
+   "price": 980000.0,
+   "date": "2026-06-12",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.121058,
+    "lng": -73.384728
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.130146854681885,
+   "ppsf": 476.6536964980545
   }
- }
+ ]
 }

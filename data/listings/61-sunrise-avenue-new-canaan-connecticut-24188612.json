@@ -134,101 +134,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "64-douglas-road-new-canaan-connecticut-24177453",
-     "addr": "64 Douglas Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 4941.0,
-     "price": 3240000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-08",
-     "ppsf": 656,
-     "mi": 0.64
-    },
-    {
-     "slug": "39-old-studio-road-new-canaan-connecticut-24182338",
-     "addr": "39 Old Studio Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 4189.0,
-     "price": 2700000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-14",
-     "ppsf": 645,
-     "mi": 0.65
-    },
-    {
-     "slug": "100-harrison-avenue-new-canaan-connecticut-24157409",
-     "addr": "100 Harrison Avenue",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2635.0,
-     "price": 1700000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-03",
-     "ppsf": 645,
-     "mi": 0.65
-    },
-    {
-     "slug": "322-main-street-new-canaan-connecticut-24170321",
-     "addr": "322 Main Street",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 5.0,
-     "sqft": 4643.0,
-     "price": 3250000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-09",
-     "ppsf": 700,
-     "mi": 0.7
-    },
-    {
-     "slug": "43-crystal-street-new-canaan-connecticut-24181931",
-     "addr": "43 Crystal Street",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 2.0,
-     "sqft": 2089.0,
-     "price": 2001000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-30",
-     "ppsf": 958,
-     "mi": 0.72
-    },
-    {
-     "slug": "180-summer-street-new-canaan-connecticut-24128764",
-     "addr": "180 Summer Street",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2747.0,
-     "price": 1450000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-30",
-     "ppsf": 528,
-     "mi": 0.73
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 1450000.0,
-    "high": 3250000.0,
-    "median": 2350500
+ "comps": [
+  {
+   "mls": "24128764",
+   "slug": "180-summer-street-new-canaan-connecticut-24128764",
+   "address": {
+    "line": "180 Summer Street",
+    "unit": null,
+    "lineWithUnit": "180 Summer Street",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2747.0,
+   "price": 1450000.0,
+   "date": "2026-03-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.146023,
+    "lng": -73.486778
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1779579532499218,
+   "ppsf": 527.8485620677102
+  },
+  {
+   "mls": "24165203",
+   "slug": "45-seminary-street-new-canaan-connecticut-24165203",
+   "address": {
+    "line": "45 Seminary Street",
+    "unit": null,
+    "lineWithUnit": "45 Seminary Street",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2455.0,
+   "price": 1605290.0,
+   "date": "2026-07-13",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.147044,
+    "lng": -73.497832
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7090600527370117,
+   "ppsf": 653.8859470468432
+  },
+  {
+   "mls": "24157409",
+   "slug": "100-harrison-avenue-new-canaan-connecticut-24157409",
+   "address": {
+    "line": "100 Harrison Avenue",
+    "unit": null,
+    "lineWithUnit": "100 Harrison Avenue",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2635.0,
+   "price": 1700000.0,
+   "date": "2026-08-03",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.140847,
+    "lng": -73.486521
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.041652534694104,
+   "ppsf": 645.1612903225806
+  },
+  {
+   "mls": "24176539",
+   "slug": "42-hoyt-street-new-canaan-connecticut-24176539",
+   "address": {
+    "line": "42 Hoyt Street",
+    "unit": null,
+    "lineWithUnit": "42 Hoyt Street",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2842.0,
+   "price": 1792600.0,
+   "date": "2026-08-04",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.145598,
+    "lng": -73.488819
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0073182762172694,
+   "ppsf": 630.752990851513
+  },
+  {
+   "mls": "24182418",
+   "slug": "218-summer-street-new-canaan-connecticut-24182418",
+   "address": {
+    "line": "218 Summer Street",
+    "unit": null,
+    "lineWithUnit": "218 Summer Street",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 2256.0,
+   "price": 1475000.0,
+   "date": "2026-07-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.144817,
+    "lng": -73.487077
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0941234856950761,
+   "ppsf": 653.8120567375887
   }
- }
+ ]
 }

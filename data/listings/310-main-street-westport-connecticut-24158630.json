@@ -129,59 +129,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "25-oak-street-westport-connecticut-24161417",
-     "addr": "25 Oak Street",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 2125.0,
-     "price": 1466000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-30",
-     "ppsf": 690,
-     "mi": 0.54
-    },
-    {
-     "slug": "25-maplewood-avenue-westport-connecticut-24130771",
-     "addr": "25 Maplewood Avenue",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1819.0,
-     "price": 930000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-24",
-     "ppsf": 511,
-     "mi": 0.54
-    },
-    {
-     "slug": "44-sniffen-road-westport-connecticut-24172773",
-     "addr": "44 Sniffen Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 2246.0,
-     "price": 1450000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-17",
-     "ppsf": 646,
-     "mi": 0.72
-    }
-   ],
-   "summary": {
-    "n": 3,
-    "low": 930000.0,
-    "high": 1466000.0,
-    "median": 1450000
+ "comps": [
+  {
+   "mls": "24172773",
+   "slug": "44-sniffen-road-westport-connecticut-24172773",
+   "address": {
+    "line": "44 Sniffen Road",
+    "unit": null,
+    "lineWithUnit": "44 Sniffen Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 2246.0,
+   "price": 1450000.0,
+   "date": "2026-06-17",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.160056,
+    "lng": -73.36413
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1523619085114871,
+   "ppsf": 645.5921638468388
+  },
+  {
+   "mls": "24121354",
+   "slug": "489-main-street-westport-connecticut-24121354",
+   "address": {
+    "line": "489 Main Street",
+    "unit": null,
+    "lineWithUnit": "489 Main Street",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 5.0,
+   "baths": 4.0,
+   "sqft": 2192.0,
+   "price": 840000.0,
+   "date": "2026-05-01",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.160217,
+    "lng": -73.35807
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1965823448789819,
+   "ppsf": 383.2116788321168
+  },
+  {
+   "mls": "24130771",
+   "slug": "25-maplewood-avenue-westport-connecticut-24130771",
+   "address": {
+    "line": "25 Maplewood Avenue",
+    "unit": null,
+    "lineWithUnit": "25 Maplewood Avenue",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1819.0,
+   "price": 930000.0,
+   "date": "2026-04-24",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.15765,
+    "lng": -73.36115
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8706845608817236,
+   "ppsf": 511.2699285321605
+  },
+  {
+   "mls": "24186033",
+   "slug": "6-loren-lane-westport-connecticut-24186033",
+   "address": {
+    "line": "6 Loren Lane",
+    "unit": null,
+    "lineWithUnit": "6 Loren Lane",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2012.0,
+   "price": 1550000.0,
+   "date": "2026-07-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.160201,
+    "lng": -73.362046
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1525532670571437,
+   "ppsf": 770.3777335984096
+  },
+  {
+   "mls": "24161417",
+   "slug": "25-oak-street-westport-connecticut-24161417",
+   "address": {
+    "line": "25 Oak Street",
+    "unit": null,
+    "lineWithUnit": "25 Oak Street",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 2125.0,
+   "price": 1466000.0,
+   "date": "2026-04-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.157628,
+    "lng": -73.36234
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.867330500412343,
+   "ppsf": 689.8823529411765
   }
- }
+ ]
 }

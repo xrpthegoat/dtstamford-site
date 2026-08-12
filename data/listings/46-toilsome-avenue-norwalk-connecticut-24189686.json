@@ -132,101 +132,141 @@
    "mi": 1.2
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "2-woodley-lane-norwalk-connecticut-24150632",
-     "addr": "2 Woodley Lane",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1809.0,
-     "price": 864900.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-02",
-     "ppsf": 478,
-     "mi": 0.08
-    },
-    {
-     "slug": "19-cricklewood-lane-norwalk-connecticut-24159975",
-     "addr": "19 Cricklewood Lane",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 3038.0,
-     "price": 800000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-01",
-     "ppsf": 263,
-     "mi": 0.22
-    },
-    {
-     "slug": "3-stonybrook-road-norwalk-connecticut-24157388",
-     "addr": "3 Stonybrook Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 2550.0,
-     "price": 905000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-27",
-     "ppsf": 355,
-     "mi": 0.44
-    },
-    {
-     "slug": "8-stonecrop-road-norwalk-connecticut-24074248",
-     "addr": "8 Stonecrop Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1056.0,
-     "price": 642000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-09",
-     "ppsf": 608,
-     "mi": 0.54
-    },
-    {
-     "slug": "5-dorset-road-norwalk-connecticut-24160358",
-     "addr": "5 Dorset Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 2352.0,
-     "price": 918000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-11",
-     "ppsf": 390,
-     "mi": 0.57
-    },
-    {
-     "slug": "6-clara-drive-norwalk-connecticut-24151674",
-     "addr": "6 Clara Drive",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1632.0,
-     "price": 721500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-20",
-     "ppsf": 442,
-     "mi": 0.62
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 642000.0,
-    "high": 918000.0,
-    "median": 832450
+ "comps": [
+  {
+   "mls": "24150632",
+   "slug": "2-woodley-lane-norwalk-connecticut-24150632",
+   "address": {
+    "line": "2 Woodley Lane",
+    "unit": null,
+    "lineWithUnit": "2 Woodley Lane",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1809.0,
+   "price": 864900.0,
+   "date": "2026-04-02",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.144682,
+    "lng": -73.403652
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.12788846070573065,
+   "ppsf": 478.1094527363184
+  },
+  {
+   "mls": "24151674",
+   "slug": "6-clara-drive-norwalk-connecticut-24151674",
+   "address": {
+    "line": "6 Clara Drive",
+    "unit": null,
+    "lineWithUnit": "6 Clara Drive",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1632.0,
+   "price": 721500.0,
+   "date": "2026-03-20",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.135231,
+    "lng": -73.398826
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9986178901615841,
+   "ppsf": 442.09558823529414
+  },
+  {
+   "mls": "24153001",
+   "slug": "3-woodley-lane-norwalk-connecticut-24153001",
+   "address": {
+    "line": "3 Woodley Lane",
+    "unit": null,
+    "lineWithUnit": "3 Woodley Lane",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 1660.0,
+   "price": 779000.0,
+   "date": "2026-05-14",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.144221,
+    "lng": -73.404105
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.10234994503385168,
+   "ppsf": 469.27710843373495
+  },
+  {
+   "mls": "24153393",
+   "slug": "37-murray-street-norwalk-connecticut-24153393",
+   "address": {
+    "line": "37 Murray Street",
+    "unit": null,
+    "lineWithUnit": "37 Murray Street",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1769.0,
+   "price": 595000.0,
+   "date": "2026-04-10",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.135475,
+    "lng": -73.396029
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0841430788749076,
+   "ppsf": 336.3482193329565
+  },
+  {
+   "mls": "24154010",
+   "slug": "28-overbrook-road-norwalk-connecticut-24154010",
+   "address": {
+    "line": "28 Overbrook Road",
+    "unit": null,
+    "lineWithUnit": "28 Overbrook Road",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1612.0,
+   "price": 705000.0,
+   "date": "2026-04-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.135919,
+    "lng": -73.394586
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1177016570464025,
+   "ppsf": 437.3449131513648
   }
- }
+ ]
 }

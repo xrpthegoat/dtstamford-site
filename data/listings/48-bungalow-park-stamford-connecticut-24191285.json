@@ -129,83 +129,141 @@
    "mi": 1.24
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "103-van-buskirk-avenue-stamford-connecticut-24154913",
-     "addr": "103 Van Buskirk Avenue",
-     "unit": "",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 832.0,
-     "price": 550000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-10",
-     "ppsf": 661,
-     "mi": 0.7
-    },
-    {
-     "slug": "117-waterbury-avenue-stamford-connecticut-24186993",
-     "addr": "117 Waterbury Avenue",
-     "unit": "",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1192.0,
-     "price": 529000.0,
-     "kind": "asking",
-     "status": "Under Contract - Continue to Show",
-     "ppsf": 444,
-     "mi": 0.3
-    },
-    {
-     "slug": "69-willowbrook-avenue-stamford-connecticut-24185997",
-     "addr": "69 Willowbrook Avenue",
-     "unit": "",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 2736.0,
-     "price": 600000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 219,
-     "mi": 0.64
-    },
-    {
-     "slug": "29-sutton-drive-west-stamford-connecticut-24193591",
-     "addr": "29 Sutton Drive West",
-     "unit": "",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 1197.0,
-     "price": 620000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 518,
-     "mi": 0.68
-    },
-    {
-     "slug": "9-penzance-road-stamford-connecticut-24192977",
-     "addr": "9 Penzance Road",
-     "unit": "",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 1380.0,
-     "price": 395000.0,
-     "kind": "asking",
-     "status": "Under Contract - Continue to Show",
-     "ppsf": 286,
-     "mi": 0.72
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 550000.0,
-    "high": 550000.0,
-    "median": 550000
+ "comps": [
+  {
+   "mls": "24146795",
+   "slug": "46-stafford-road-stamford-connecticut-24146795",
+   "address": {
+    "line": "46 Stafford Road",
+    "unit": null,
+    "lineWithUnit": "46 Stafford Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 1.0,
+   "sqft": 1292.0,
+   "price": 583000.0,
+   "date": "2026-03-26",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.055174,
+    "lng": -73.517312
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.4233006243839224,
+   "ppsf": 451.23839009287923
+  },
+  {
+   "mls": "24170712",
+   "slug": "138-houston-terrace-stamford-connecticut-24170712",
+   "address": {
+    "line": "138 Houston Terrace",
+    "unit": null,
+    "lineWithUnit": "138 Houston Terrace",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 3.0,
+   "baths": 1.0,
+   "sqft": 1164.0,
+   "price": 707000.0,
+   "date": "2026-06-25",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.055583,
+    "lng": -73.50681
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.45941968714344683,
+   "ppsf": 607.3883161512027
+  },
+  {
+   "mls": "24162834",
+   "slug": "25-albin-road-stamford-connecticut-24162834",
+   "address": {
+    "line": "25 Albin Road",
+    "unit": null,
+    "lineWithUnit": "25 Albin Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1588.0,
+   "price": 620000.0,
+   "date": "2026-07-14",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.049901,
+    "lng": -73.506395
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7996999268442367,
+   "ppsf": 390.42821158690174
+  },
+  {
+   "mls": "24153098",
+   "slug": "154-lockwood-avenue-stamford-connecticut-24153098",
+   "address": {
+    "line": "154 Lockwood Avenue",
+    "unit": null,
+    "lineWithUnit": "154 Lockwood Avenue",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1458.0,
+   "price": 600000.0,
+   "date": "2026-04-27",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.050772,
+    "lng": -73.521555
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9415668353650165,
+   "ppsf": 411.52263374485597
+  },
+  {
+   "mls": "24153540",
+   "slug": "29-quintard-terrace-stamford-connecticut-24153540",
+   "address": {
+    "line": "29 Quintard Terrace",
+    "unit": null,
+    "lineWithUnit": "29 Quintard Terrace",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 3.0,
+   "baths": 1.0,
+   "sqft": 1378.0,
+   "price": 700000.0,
+   "date": "2026-04-07",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.056572,
+    "lng": -73.525481
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.111894430956556,
+   "ppsf": 507.98258345428155
   }
- }
+ ]
 }

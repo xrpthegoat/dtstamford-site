@@ -125,132 +125,141 @@
    "mi": 1.63
   }
  },
- "comps": {
-  "building": {
-   "rows": [
-    {
-     "slug": "253-riverside-avenue-westport-connecticut-24175550",
-     "addr": "253 Riverside Avenue Unit 201",
-     "unit": "Unit 201",
-     "beds": 2.0,
-     "baths": 3.0,
-     "sqft": 1300.0,
-     "price": 11500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-31",
-     "ppsf": 9
-    },
-    {
-     "slug": "253-riverside-avenue-westport-connecticut-24172897",
-     "addr": "253 Riverside Avenue Unit 101",
-     "unit": "Unit 101",
-     "beds": 2.0,
-     "baths": 3.0,
-     "sqft": 1300.0,
-     "price": 9950.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 8
-    },
-    {
-     "slug": "253-riverside-avenue-westport-connecticut-24175629",
-     "addr": "253 Riverside Avenue Unit 102",
-     "unit": "Unit 102",
-     "beds": 2.0,
-     "baths": 3.0,
-     "sqft": 1300.0,
-     "price": 9950.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 8
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 11500.0,
-    "high": 11500.0,
-    "median": 11500
+ "comps": [
+  {
+   "mls": "24175550",
+   "slug": "253-riverside-avenue-westport-connecticut-24175550",
+   "address": {
+    "line": "253 Riverside Avenue",
+    "unit": "Unit 201",
+    "lineWithUnit": "253 Riverside Avenue Unit 201",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
    },
-   "label": "253 Riverside Avenue"
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 1300.0,
+   "price": 11500.0,
+   "date": "2026-07-31",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.131648,
+    "lng": -73.368001
+   },
+   "klass": "rental",
+   "tier": 1,
+   "why": "Same building, sold in the last year",
+   "km": 0.0,
+   "ppsf": 8.846153846153847
   },
-  "area": {
-   "rows": [
-    {
-     "slug": "251-riverside-avenue-westport-connecticut-24175707",
-     "addr": "251 Riverside Avenue Unit 251 A - 2nd floor",
-     "unit": "Unit 251 A - 2nd floor",
-     "beds": 2.0,
-     "baths": 3.0,
-     "sqft": 1560.0,
-     "price": 11000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-31",
-     "ppsf": 7,
-     "mi": 0.01
-    },
-    {
-     "slug": "20-cross-street-westport-connecticut-24172100",
-     "addr": "20 Cross Street Unit 5",
-     "unit": "Unit 5",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1182.0,
-     "price": 4900.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-06",
-     "ppsf": 4,
-     "mi": 0.51
-    },
-    {
-     "slug": "251-riverside-avenue-westport-connecticut-24175700",
-     "addr": "251 Riverside Avenue Unit 251 B - Main Level",
-     "unit": "Unit 251 B - Main Level",
-     "beds": 2.0,
-     "baths": 3.0,
-     "sqft": 1420.0,
-     "price": 10500.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 7,
-     "mi": 0.01
-    },
-    {
-     "slug": "18-riverside-avenue-westport-connecticut-24189068",
-     "addr": "18 Riverside Avenue Unit 2",
-     "unit": "Unit 2",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 600.0,
-     "price": 3450.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 6,
-     "mi": 0.61
-    },
-    {
-     "slug": "34-franklin-street-westport-connecticut-24188317",
-     "addr": "34 Franklin Street Unit 1",
-     "unit": "Unit 1",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 750.0,
-     "price": 3000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 4,
-     "mi": 0.74
-    }
-   ],
-   "summary": {
-    "n": 2,
-    "low": 4900.0,
-    "high": 11000.0,
-    "median": 7950
+  {
+   "mls": "24172100",
+   "slug": "20-cross-street-westport-connecticut-24172100",
+   "address": {
+    "line": "20 Cross Street",
+    "unit": "Unit 5",
+    "lineWithUnit": "20 Cross Street Unit 5",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1182.0,
+   "price": 4900.0,
+   "date": "2026-07-06",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.138584,
+    "lng": -73.36472
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8187339583328337,
+   "ppsf": 4.145516074450085
+  },
+  {
+   "mls": "24172561",
+   "slug": "4-river-view-road-westport-connecticut-24172561",
+   "address": {
+    "line": "4 River View Road",
+    "unit": null,
+    "lineWithUnit": "4 River View Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1258.0,
+   "price": 7300.0,
+   "date": "2026-05-13",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.131175,
+    "lng": -73.365661
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.20291525655812898,
+   "ppsf": 5.802861685214626
+  },
+  {
+   "mls": "24154074",
+   "slug": "63-valley-road-westport-connecticut-24154074",
+   "address": {
+    "line": "63 Valley Road",
+    "unit": null,
+    "lineWithUnit": "63 Valley Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1342.0,
+   "price": 4800.0,
+   "date": "2026-03-15",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.125946,
+    "lng": -73.353699
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.355322772058405,
+   "ppsf": 3.5767511177347244
+  },
+  {
+   "mls": "24155254",
+   "slug": "26-hiawatha-lane-extension-westport-connecticut-24155254",
+   "address": {
+    "line": "26 Hiawatha Lane Extension",
+    "unit": null,
+    "lineWithUnit": "26 Hiawatha Lane Extension",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1056.0,
+   "price": 5000.0,
+   "date": "2026-05-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.118412,
+    "lng": -73.379917
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.7782880132622285,
+   "ppsf": 4.734848484848484
   }
- }
+ ]
 }

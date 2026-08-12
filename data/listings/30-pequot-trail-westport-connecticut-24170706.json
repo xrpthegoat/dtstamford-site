@@ -136,70 +136,141 @@
    "mi": 1.96
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "10-winding-lane-westport-connecticut-24163168",
-     "addr": "10 Winding Lane",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 5.0,
-     "sqft": 4602.0,
-     "price": 3600000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-08",
-     "ppsf": 782,
-     "mi": 0.38
-    },
-    {
-     "slug": "34-pequot-trail-westport-connecticut-24178738",
-     "addr": "34 Pequot Trail",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 4.0,
-     "sqft": 3782.0,
-     "price": 2100000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 555,
-     "mi": 0.07
-    },
-    {
-     "slug": "31-stonybrook-road-westport-connecticut-24178699",
-     "addr": "31 Stonybrook Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 8.0,
-     "sqft": 6503.0,
-     "price": 5750000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 884,
-     "mi": 0.15
-    },
-    {
-     "slug": "29-orchard-hill-road-norwalk-connecticut-24189226",
-     "addr": "29 Orchard Hill Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 4.0,
-     "sqft": 4693.0,
-     "price": 1449000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 309,
-     "mi": 0.42
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 3600000.0,
-    "high": 3600000.0,
-    "median": 3600000
+ "comps": [
+  {
+   "mls": "24120677",
+   "slug": "5-tanglewood-lane-westport-connecticut-24120677",
+   "address": {
+    "line": "5 Tanglewood Lane",
+    "unit": null,
+    "lineWithUnit": "5 Tanglewood Lane",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 3253.0,
+   "price": 2000000.0,
+   "date": "2026-06-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.147472,
+    "lng": -73.37845
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7269196479650634,
+   "ppsf": 614.8170919151553
+  },
+  {
+   "mls": "24132802",
+   "slug": "26-treadwell-avenue-westport-connecticut-24132802",
+   "address": {
+    "line": "26 Treadwell Avenue",
+    "unit": null,
+    "lineWithUnit": "26 Treadwell Avenue",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 5.0,
+   "baths": 5.0,
+   "sqft": 3200.0,
+   "price": 3150000.0,
+   "date": "2026-03-16",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.124679,
+    "lng": -73.375725
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.8444579957760505,
+   "ppsf": 984.375
+  },
+  {
+   "mls": "24151653",
+   "slug": "23-bridge-street-westport-connecticut-24151653",
+   "address": {
+    "line": "23 Bridge Street",
+    "unit": null,
+    "lineWithUnit": "23 Bridge Street",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2622.0,
+   "price": 1058500.0,
+   "date": "2026-03-27",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.124076,
+    "lng": -73.364386
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.27561916776938,
+   "ppsf": 403.6994660564455
+  },
+  {
+   "mls": "24173921",
+   "slug": "55-compo-road-north-westport-connecticut-24173921",
+   "address": {
+    "line": "55 Compo Road North",
+    "unit": null,
+    "lineWithUnit": "55 Compo Road North",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 2998.0,
+   "price": 2236055.0,
+   "date": "2026-06-17",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.145987,
+    "lng": -73.352949
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.3048451476563665,
+   "ppsf": 745.8488992661775
+  },
+  {
+   "mls": "24172773",
+   "slug": "44-sniffen-road-westport-connecticut-24172773",
+   "address": {
+    "line": "44 Sniffen Road",
+    "unit": null,
+    "lineWithUnit": "44 Sniffen Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 2246.0,
+   "price": 1450000.0,
+   "date": "2026-06-17",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.160056,
+    "lng": -73.36413
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.4864016443257335,
+   "ppsf": 645.5921638468388
   }
- }
+ ]
 }

@@ -124,119 +124,141 @@
    "walk": 2
   }
  },
- "comps": {
-  "building": {
-   "rows": [
-    {
-     "slug": "104-north-street-stamford-connecticut-24195272",
-     "addr": "104 North Street Unit 804",
-     "unit": "Unit 804",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1421.0,
-     "price": 4000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 3
-    }
-   ],
-   "summary": null,
-   "label": "104 North Street"
-  },
-  "area": {
-   "rows": [
-    {
-     "slug": "1611-washington-boulevard-stamford-connecticut-24183679",
-     "addr": "1611 Washington Boulevard Unit 10",
-     "unit": "Unit 10",
-     "beds": 2.0,
-     "baths": 3.0,
-     "sqft": 1652.0,
-     "price": 3500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-01",
-     "ppsf": 2,
-     "mi": 0.13
-    },
-    {
-     "slug": "10-linden-place-stamford-connecticut-24164676",
-     "addr": "10 Linden Place Unit 1B",
-     "unit": "Unit 1B",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 5412.0,
-     "price": 2600.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-14",
-     "ppsf": 0,
-     "mi": 0.14
-    },
-    {
-     "slug": "15-renwick-street-stamford-connecticut-24175452",
-     "addr": "15 Renwick Street Unit 2",
-     "unit": "Unit 2",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1064.0,
-     "price": 2550.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-20",
-     "ppsf": 2,
-     "mi": 0.16
-    },
-    {
-     "slug": "1611-washington-boulevard-stamford-connecticut-24178813",
-     "addr": "1611 Washington Boulevard Unit 2",
-     "unit": "Unit 2",
-     "beds": 2.0,
-     "baths": 3.0,
-     "sqft": 1566.0,
-     "price": 3450.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-01",
-     "ppsf": 2,
-     "mi": 0.17
-    },
-    {
-     "slug": "23-dolsen-place-stamford-connecticut-24181017",
-     "addr": "23 Dolsen Place",
-     "unit": "",
-     "beds": 2.0,
-     "baths": 3.0,
-     "sqft": 1300.0,
-     "price": 3250.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-01",
-     "ppsf": 2,
-     "mi": 0.21
-    },
-    {
-     "slug": "17-dolsen-place-stamford-connecticut-24171687",
-     "addr": "17 Dolsen Place",
-     "unit": "",
-     "beds": 2.0,
-     "baths": 3.0,
-     "sqft": 1300.0,
-     "price": 3500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-02",
-     "ppsf": 3,
-     "mi": 0.22
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 2550.0,
-    "high": 3500.0,
-    "median": 3350
+ "comps": [
+  {
+   "mls": "24149354",
+   "slug": "118-summer-street-stamford-connecticut-24149354",
+   "address": {
+    "line": "118 Summer Street",
+    "unit": "Unit 2B",
+    "lineWithUnit": "118 Summer Street Unit 2B",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06901"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 983.0,
+   "price": 2700.0,
+   "date": "2026-03-30",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.054213,
+    "lng": -73.540866
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5729388485189648,
+   "ppsf": 2.7466937945066126
+  },
+  {
+   "mls": "24150917",
+   "slug": "2-washington-court-stamford-connecticut-24150917",
+   "address": {
+    "line": "2 Washington Court",
+    "unit": "Unit 12",
+    "lineWithUnit": "2 Washington Court Unit 12",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1064.0,
+   "price": 3190.0,
+   "date": "2026-04-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.057766,
+    "lng": -73.544879
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.2611735997044393,
+   "ppsf": 2.9981203007518795
+  },
+  {
+   "mls": "24166098",
+   "slug": "25-forest-street-stamford-connecticut-24166098",
+   "address": {
+    "line": "25 Forest Street",
+    "unit": "Unit 7F",
+    "lineWithUnit": "25 Forest Street Unit 7F",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06901"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 875.0,
+   "price": 3000.0,
+   "date": "2026-04-17",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.056534,
+    "lng": -73.536469
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5833650465152459,
+   "ppsf": 3.4285714285714284
+  },
+  {
+   "mls": "24175452",
+   "slug": "15-renwick-street-stamford-connecticut-24175452",
+   "address": {
+    "line": "15 Renwick Street",
+    "unit": "Unit 2",
+    "lineWithUnit": "15 Renwick Street Unit 2",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1064.0,
+   "price": 2550.0,
+   "date": "2026-05-20",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.05775,
+    "lng": -73.54491
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.26431554275004593,
+   "ppsf": 2.3966165413533833
+  },
+  {
+   "mls": "24161661",
+   "slug": "25-forest-street-stamford-connecticut-24161661",
+   "address": {
+    "line": "25 Forest Street",
+    "unit": "Unit 7K",
+    "lineWithUnit": "25 Forest Street Unit 7K",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06901"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1267.0,
+   "price": 3800.0,
+   "date": "2026-05-29",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.056534,
+    "lng": -73.536469
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5833650465152459,
+   "ppsf": 2.999210734017364
   }
- }
+ ]
 }

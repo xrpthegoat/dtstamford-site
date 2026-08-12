@@ -126,101 +126,141 @@
    "walk": 5
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "8-patton-drive-darien-connecticut-24174291",
-     "addr": "8 Patton Drive",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1788.0,
-     "price": 11000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-18",
-     "ppsf": 6,
-     "mi": 0.13
-    },
-    {
-     "slug": "90-linden-avenue-darien-connecticut-24182208",
-     "addr": "90 Linden Avenue",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1784.0,
-     "price": 7500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-06",
-     "ppsf": 4,
-     "mi": 0.35
-    },
-    {
-     "slug": "246-west-avenue-darien-connecticut-24166278",
-     "addr": "246 West Avenue",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1707.0,
-     "price": 4300.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-24",
-     "ppsf": 3,
-     "mi": 0.45
-    },
-    {
-     "slug": "darien-connecticut-24177281",
-     "addr": null,
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1861.0,
-     "price": 6250.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-01",
-     "ppsf": 3,
-     "mi": 0.46
-    },
-    {
-     "slug": "47-hollow-tree-ridge-road-darien-connecticut-24151558",
-     "addr": "47 Hollow Tree Ridge Road Unit 47",
-     "unit": "Unit 47",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1511.0,
-     "price": 6500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-13",
-     "ppsf": 4,
-     "mi": 0.65
-    },
-    {
-     "slug": "24-king-street-stamford-connecticut-24154237",
-     "addr": "24 King Street",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1620.0,
-     "price": 6200.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-28",
-     "ppsf": 4,
-     "mi": 0.75
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 4300.0,
-    "high": 11000.0,
-    "median": 6375
+ "comps": [
+  {
+   "mls": "24161107",
+   "slug": "340-heights-road-darien-connecticut-24161107",
+   "address": {
+    "line": "340 Heights Road",
+    "unit": "Unit 316",
+    "lineWithUnit": "340 Heights Road Unit 316",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 1492.0,
+   "price": 9250.0,
+   "date": "2026-04-15",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.069534,
+    "lng": -73.498392
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.3278598452002453,
+   "ppsf": 6.1997319034852545
+  },
+  {
+   "mls": "24161140",
+   "slug": "340-heights-road-darien-connecticut-24161140",
+   "address": {
+    "line": "340 Heights Road",
+    "unit": "Unit 314",
+    "lineWithUnit": "340 Heights Road Unit 314",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 1546.0,
+   "price": 8600.0,
+   "date": "2026-04-24",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.06953,
+    "lng": -73.49892
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.30582806535601836,
+   "ppsf": 5.562742561448901
+  },
+  {
+   "mls": "24160971",
+   "slug": "440-heights-road-darien-connecticut-24160971",
+   "address": {
+    "line": "440 Heights Road",
+    "unit": "Unit 210",
+    "lineWithUnit": "440 Heights Road Unit 210",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 1236.0,
+   "price": 6500.0,
+   "date": "2026-04-25",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.069739,
+    "lng": -73.498562
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.30099146845319746,
+   "ppsf": 5.258899676375404
+  },
+  {
+   "mls": "24171326",
+   "slug": "440-heights-road-darien-connecticut-24171326",
+   "address": {
+    "line": "440 Heights Road",
+    "unit": "Unit 311",
+    "lineWithUnit": "440 Heights Road Unit 311",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 1.0,
+   "baths": 2.0,
+   "sqft": 1089.0,
+   "price": 6200.0,
+   "date": "2026-05-03",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.06953,
+    "lng": -73.49892
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.30582806535601836,
+   "ppsf": 5.693296602387512
+  },
+  {
+   "mls": "24151558",
+   "slug": "47-hollow-tree-ridge-road-darien-connecticut-24151558",
+   "address": {
+    "line": "47 Hollow Tree Ridge Road",
+    "unit": "Unit 47",
+    "lineWithUnit": "47 Hollow Tree Ridge Road Unit 47",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1511.0,
+   "price": 6500.0,
+   "date": "2026-05-13",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.062805,
+    "lng": -73.50286
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0384471724362112,
+   "ppsf": 4.301786896095301
   }
- }
+ ]
 }

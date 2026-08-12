@@ -129,90 +129,141 @@
    "mi": 1.77
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "58-rogers-road-stamford-connecticut-24190845",
-     "addr": "58 Rogers Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 5.0,
-     "sqft": 5618.0,
-     "price": 3800000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 676,
-     "mi": 0.26
-    },
-    {
-     "slug": "1716-shippan-avenue-stamford-connecticut-24189368",
-     "addr": "1716 Shippan Avenue",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 5.0,
-     "sqft": 6018.0,
-     "price": 4195000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 697,
-     "mi": 0.41
-    },
-    {
-     "slug": "61-hobson-street-stamford-connecticut-24148148",
-     "addr": "61 Hobson Street",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 4.0,
-     "sqft": 3644.0,
-     "price": 2000000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 549,
-     "mi": 0.5
-    },
-    {
-     "slug": "123-saddle-rock-road-stamford-connecticut-24181580",
-     "addr": "123 Saddle Rock Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 6.0,
-     "sqft": 5560.0,
-     "price": 12100000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 2176,
-     "mi": 0.53
-    },
-    {
-     "slug": "84-hobson-street-stamford-connecticut-24193179",
-     "addr": "84 Hobson Street",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 3.0,
-     "sqft": 3757.0,
-     "price": 1950000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 519,
-     "mi": 0.56
-    },
-    {
-     "slug": "34-downs-avenue-stamford-connecticut-24192557",
-     "addr": "34 Downs Avenue",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 4.0,
-     "sqft": 3094.0,
-     "price": 1295000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 419,
-     "mi": 0.6
-    }
-   ],
-   "summary": null,
-   "radiusMi": 0.75
+ "comps": [
+  {
+   "mls": "24125614",
+   "slug": "64-ocean-drive-east-stamford-connecticut-24125614",
+   "address": {
+    "line": "64 Ocean Drive East",
+    "unit": null,
+    "lineWithUnit": "64 Ocean Drive East",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 3132.0,
+   "price": 2775000.0,
+   "date": "2026-06-22",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.032488,
+    "lng": -73.522358
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0120010708477174,
+   "ppsf": 886.0153256704981
+  },
+  {
+   "mls": "24155326",
+   "slug": "242-ocean-drive-west-stamford-connecticut-24155326",
+   "address": {
+    "line": "242 Ocean Drive West",
+    "unit": null,
+    "lineWithUnit": "242 Ocean Drive West",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 7.0,
+   "baths": 6.0,
+   "sqft": 4208.0,
+   "price": 3250000.0,
+   "date": "2026-06-29",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.024602,
+    "lng": -73.528494
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.14345506289400262,
+   "ppsf": 772.3384030418251
+  },
+  {
+   "mls": "24167138",
+   "slug": "70-kenilworth-drive-east-stamford-connecticut-24167138",
+   "address": {
+    "line": "70 Kenilworth Drive East",
+    "unit": null,
+    "lineWithUnit": "70 Kenilworth Drive East",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 3741.0,
+   "price": 2750000.0,
+   "date": "2026-06-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.0406,
+    "lng": -73.510236
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.3625167818793917,
+   "ppsf": 735.0975674953221
+  },
+  {
+   "mls": "24174434",
+   "slug": "250-davenport-drive-stamford-connecticut-24174434",
+   "address": {
+    "line": "250 Davenport Drive",
+    "unit": null,
+    "lineWithUnit": "250 Davenport Drive",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 2858.0,
+   "price": 6014250.0,
+   "date": "2026-06-29",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.026613,
+    "lng": -73.545154
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.2895062896039793,
+   "ppsf": 2104.3561931420572
+  },
+  {
+   "mls": "24160789",
+   "slug": "14-park-street-stamford-connecticut-24160789",
+   "address": {
+    "line": "14 Park Street",
+    "unit": null,
+    "lineWithUnit": "14 Park Street",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 4.0,
+   "baths": 2.0,
+   "sqft": 2580.0,
+   "price": 810000.0,
+   "date": "2026-05-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.046524,
+    "lng": -73.52333
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.4156740019680267,
+   "ppsf": 313.95348837209303
   }
- }
+ ]
 }

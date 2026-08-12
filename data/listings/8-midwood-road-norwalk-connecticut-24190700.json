@@ -128,58 +128,141 @@
    "walk": 8
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "9-cobblers-lane-norwalk-connecticut-24163731",
-     "addr": "9 Cobblers Lane",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 1.0,
-     "sqft": 1232.0,
-     "price": 5000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-03",
-     "ppsf": 4,
-     "mi": 0.53
-    },
-    {
-     "slug": "2-lakewood-drive-norwalk-connecticut-24176100",
-     "addr": "2 Lakewood Drive",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1175.0,
-     "price": 4300.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-15",
-     "ppsf": 4,
-     "mi": 0.71
-    },
-    {
-     "slug": "10-donohue-drive-norwalk-connecticut-24186696",
-     "addr": "10 Donohue Drive",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1032.0,
-     "price": 5200.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 5,
-     "mi": 0.52
-    }
-   ],
-   "summary": {
-    "n": 2,
-    "low": 4300.0,
-    "high": 5000.0,
-    "median": 4650
+ "comps": [
+  {
+   "mls": "24159059",
+   "slug": "32-oakwood-avenue-norwalk-connecticut-24159059",
+   "address": {
+    "line": "32 Oakwood Avenue",
+    "unit": "Unit 5",
+    "lineWithUnit": "32 Oakwood Avenue Unit 5",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1300.0,
+   "price": 2495.0,
+   "date": "2026-03-24",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.1495,
+    "lng": -73.429
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1873039218471613,
+   "ppsf": 1.9192307692307693
+  },
+  {
+   "mls": "24180057",
+   "slug": "117-fawn-ridge-lane-norwalk-connecticut-24180057",
+   "address": {
+    "line": "117 Fawn Ridge Lane",
+    "unit": "Unit 117",
+    "lineWithUnit": "117 Fawn Ridge Lane Unit 117",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 1214.0,
+   "price": 3600.0,
+   "date": "2026-06-15",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.1618,
+    "lng": -73.41539
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9085788766892544,
+   "ppsf": 2.9654036243822075
+  },
+  {
+   "mls": "24176100",
+   "slug": "2-lakewood-drive-norwalk-connecticut-24176100",
+   "address": {
+    "line": "2 Lakewood Drive",
+    "unit": null,
+    "lineWithUnit": "2 Lakewood Drive",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1175.0,
+   "price": 4300.0,
+   "date": "2026-06-15",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.144198,
+    "lng": -73.421199
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1387903415414122,
+   "ppsf": 3.6595744680851063
+  },
+  {
+   "mls": "24187399",
+   "slug": "606-foxboro-drive-norwalk-connecticut-24187399",
+   "address": {
+    "line": "606 Foxboro Drive",
+    "unit": "Unit 606",
+    "lineWithUnit": "606 Foxboro Drive Unit 606",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1392.0,
+   "price": 3500.0,
+   "date": "2026-07-21",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.158977,
+    "lng": -73.416009
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5935972554716747,
+   "ppsf": 2.514367816091954
+  },
+  {
+   "mls": "24139931",
+   "slug": "300-glover-avenue-norwalk-connecticut-24139931",
+   "address": {
+    "line": "300 Glover Avenue",
+    "unit": "Unit B420",
+    "lineWithUnit": "300 Glover Avenue Unit B420",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1189.0,
+   "price": 3335.0,
+   "date": "2026-06-16",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.153976,
+    "lng": -73.425835
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8302971516379535,
+   "ppsf": 2.8048780487804876
   }
- }
+ ]
 }

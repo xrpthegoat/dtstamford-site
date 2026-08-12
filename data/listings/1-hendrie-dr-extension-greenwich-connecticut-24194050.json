@@ -116,57 +116,141 @@
    "mi": 1.48
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "1-bramble-lane-greenwich-connecticut-24157206",
-     "addr": "1 Bramble Lane",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 7.0,
-     "sqft": 7039.0,
-     "price": 5900000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-06",
-     "ppsf": 838,
-     "mi": 0.69
-    },
-    {
-     "slug": "4-little-cove-lane-greenwich-connecticut-24172344",
-     "addr": "4 Little Cove Lane",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 7.0,
-     "sqft": 6069.0,
-     "price": 13890000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 2289,
-     "mi": 0.59
-    },
-    {
-     "slug": "22-northway-greenwich-connecticut-24182645",
-     "addr": "22 Northway",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 4.0,
-     "sqft": 3330.0,
-     "price": 13500000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 4054,
-     "mi": 0.71
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 5900000.0,
-    "high": 5900000.0,
-    "median": 5900000
+ "comps": [
+  {
+   "mls": "24159830",
+   "slug": "13-mortimer-drive-greenwich-connecticut-24159830",
+   "address": {
+    "line": "13 Mortimer Drive",
+    "unit": null,
+    "lineWithUnit": "13 Mortimer Drive",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06870"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1717.0,
+   "price": 2300000.0,
+   "date": "2026-07-17",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.027075,
+    "lng": -73.570387
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.1914179450153812,
+   "ppsf": 1339.5457192778101
+  },
+  {
+   "mls": "24161971",
+   "slug": "8-willow-lane-greenwich-connecticut-24161971",
+   "address": {
+    "line": "8 Willow Lane",
+    "unit": null,
+    "lineWithUnit": "8 Willow Lane",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06870"
+   },
+   "beds": 4.0,
+   "baths": 2.0,
+   "sqft": 1944.0,
+   "price": 2410000.0,
+   "date": "2026-05-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.027182,
+    "lng": -73.568454
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.34408428413749587,
+   "ppsf": 1239.7119341563787
+  },
+  {
+   "mls": "24159022",
+   "slug": "31-thornhill-road-greenwich-connecticut-24159022",
+   "address": {
+    "line": "31 Thornhill Road",
+    "unit": null,
+    "lineWithUnit": "31 Thornhill Road",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06878"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 2074.0,
+   "price": 2050000.0,
+   "date": "2026-06-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.044617,
+    "lng": -73.585559
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.331382856407073,
+   "ppsf": 988.4281581485053
+  },
+  {
+   "mls": "24148843",
+   "slug": "18-griffith-road-greenwich-connecticut-24148843",
+   "address": {
+    "line": "18 Griffith Road",
+    "unit": null,
+    "lineWithUnit": "18 Griffith Road",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06878"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 1986.0,
+   "price": 1625000.0,
+   "date": "2026-03-19",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.047524,
+    "lng": -73.579098
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.440659514087236,
+   "ppsf": 818.2275931520644
+  },
+  {
+   "mls": "24163995",
+   "slug": "10-maple-drive-greenwich-connecticut-24163995",
+   "address": {
+    "line": "10 Maple Drive",
+    "unit": null,
+    "lineWithUnit": "10 Maple Drive",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06870"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 2290.0,
+   "price": 1258000.0,
+   "date": "2026-05-21",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.043891,
+    "lng": -73.568831
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.9915977078922242,
+   "ppsf": 549.3449781659389
   }
- }
+ ]
 }

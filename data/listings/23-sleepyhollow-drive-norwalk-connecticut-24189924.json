@@ -126,72 +126,141 @@
    "mi": 1.13
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "206-wolfpit-avenue-norwalk-connecticut-24169012",
-     "addr": "206 Wolfpit Avenue",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1988.0,
-     "price": 6250.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-04",
-     "ppsf": 3,
-     "mi": 0.52
-    },
-    {
-     "slug": "303-newtown-avenue-norwalk-connecticut-24152321",
-     "addr": "303 Newtown Avenue",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 1.0,
-     "sqft": 1400.0,
-     "price": 2800.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-02",
-     "ppsf": 2,
-     "mi": 0.65
-    },
-    {
-     "slug": "152-partrick-avenue-norwalk-connecticut-24192092",
-     "addr": "152 Partrick Avenue",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 1.0,
-     "sqft": 1504.0,
-     "price": 5000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-16",
-     "ppsf": 3,
-     "mi": 0.66
-    },
-    {
-     "slug": "1-romindon-court-norwalk-connecticut-24187549",
-     "addr": "1 Romindon Court",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1582.0,
-     "price": 4600.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 3,
-     "mi": 0.56
-    }
-   ],
-   "summary": {
-    "n": 3,
-    "low": 2800.0,
-    "high": 6250.0,
-    "median": 5000
+ "comps": [
+  {
+   "mls": "24152321",
+   "slug": "303-newtown-avenue-norwalk-connecticut-24152321",
+   "address": {
+    "line": "303 Newtown Avenue",
+    "unit": null,
+    "lineWithUnit": "303 Newtown Avenue",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 1.0,
+   "sqft": 1400.0,
+   "price": 2800.0,
+   "date": "2026-06-02",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.14381,
+    "lng": -73.395386
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0433624072314656,
+   "ppsf": 2.0
+  },
+  {
+   "mls": "24180735",
+   "slug": "2-margaret-street-norwalk-connecticut-24180735",
+   "address": {
+    "line": "2 Margaret Street",
+    "unit": null,
+    "lineWithUnit": "2 Margaret Street",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 1351.0,
+   "price": 3800.0,
+   "date": "2026-07-15",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.129537,
+    "lng": -73.399524
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5992883782294054,
+   "ppsf": 2.8127313101406366
+  },
+  {
+   "mls": "24192092",
+   "slug": "152-partrick-avenue-norwalk-connecticut-24192092",
+   "address": {
+    "line": "152 Partrick Avenue",
+    "unit": null,
+    "lineWithUnit": "152 Partrick Avenue",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 3.0,
+   "baths": 1.0,
+   "sqft": 1504.0,
+   "price": 5000.0,
+   "date": "2026-07-16",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.143955,
+    "lng": -73.39484
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0649790490823787,
+   "ppsf": 3.324468085106383
+  },
+  {
+   "mls": "24161089",
+   "slug": "70-cranbury-road-norwalk-connecticut-24161089",
+   "address": {
+    "line": "70 Cranbury Road",
+    "unit": null,
+    "lineWithUnit": "70 Cranbury Road",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1100.0,
+   "price": 4250.0,
+   "date": "2026-04-16",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.15061,
+    "lng": -73.39311
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.8184811357399486,
+   "ppsf": 3.8636363636363638
+  },
+  {
+   "mls": "24178778",
+   "slug": "15-west-main-street-norwalk-connecticut-24178778",
+   "address": {
+    "line": "15 West Main Street",
+    "unit": "Unit J201",
+    "lineWithUnit": "15 West Main Street Unit J201",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1240.0,
+   "price": 3200.0,
+   "date": "2026-06-05",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.123185,
+    "lng": -73.417889
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.1766352416664216,
+   "ppsf": 2.5806451612903225
   }
- }
+ ]
 }

@@ -137,101 +137,141 @@
    "walk": 5
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "43-stony-brook-road-darien-connecticut-24161606",
-     "addr": "43 Stony Brook Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 7.0,
-     "sqft": 7200.0,
-     "price": 3775000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-17",
-     "ppsf": 524,
-     "mi": 0.27
-    },
-    {
-     "slug": "2-roland-drive-darien-connecticut-24165314",
-     "addr": "2 Roland Drive",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 5.0,
-     "sqft": 5678.0,
-     "price": 4200000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-07",
-     "ppsf": 740,
-     "mi": 0.55
-    },
-    {
-     "slug": "8-sunset-road-darien-connecticut-24178118",
-     "addr": "8 Sunset Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 5.0,
-     "sqft": 4840.0,
-     "price": 3925000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-16",
-     "ppsf": 811,
-     "mi": 0.69
-    },
-    {
-     "slug": "15-queens-lane-darien-connecticut-24162662",
-     "addr": "15 Queens Lane",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 5.0,
-     "sqft": 3512.0,
-     "price": 3450000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-15",
-     "ppsf": 982,
-     "mi": 0.7
-    },
-    {
-     "slug": "44-andrews-drive-darien-connecticut-24157816",
-     "addr": "44 Andrews Drive",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 6.0,
-     "sqft": 6517.0,
-     "price": 4350000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-04",
-     "ppsf": 667,
-     "mi": 0.72
-    },
-    {
-     "slug": "3-revere-road-darien-connecticut-24155147",
-     "addr": "3 Revere Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 3.0,
-     "sqft": 3395.0,
-     "price": 2350000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-01",
-     "ppsf": 692,
-     "mi": 0.72
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 2350000.0,
-    "high": 4350000.0,
-    "median": 3850000
+ "comps": [
+  {
+   "mls": "24165850",
+   "slug": "16-libby-lane-darien-connecticut-24165850",
+   "address": {
+    "line": "16 Libby Lane",
+    "unit": null,
+    "lineWithUnit": "16 Libby Lane",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 5.0,
+   "sqft": 2928.0,
+   "price": 2976000.0,
+   "date": "2026-06-24",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.079906,
+    "lng": -73.491295
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0891532555212668,
+   "ppsf": 1016.3934426229508
+  },
+  {
+   "mls": "24171484",
+   "slug": "33-fairview-avenue-darien-connecticut-24171484",
+   "address": {
+    "line": "33 Fairview Avenue",
+    "unit": null,
+    "lineWithUnit": "33 Fairview Avenue",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 3102.0,
+   "price": 3300000.0,
+   "date": "2026-06-12",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.082015,
+    "lng": -73.467959
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0178371190240023,
+   "ppsf": 1063.8297872340424
+  },
+  {
+   "mls": "24174789",
+   "slug": "21-fairfield-avenue-darien-connecticut-24174789",
+   "address": {
+    "line": "21 Fairfield Avenue",
+    "unit": null,
+    "lineWithUnit": "21 Fairfield Avenue",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 3147.0,
+   "price": 2446000.0,
+   "date": "2026-06-24",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.072738,
+    "lng": -73.488628
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0003257959216547,
+   "ppsf": 777.2481728630441
+  },
+  {
+   "mls": "24176831",
+   "slug": "161-old-kings-highway-south-darien-connecticut-24176831",
+   "address": {
+    "line": "161 Old Kings Highway South",
+    "unit": null,
+    "lineWithUnit": "161 Old Kings Highway South",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2816.0,
+   "price": 1825000.0,
+   "date": "2026-07-29",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.067059,
+    "lng": -73.476829
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.189338529302209,
+   "ppsf": 648.0823863636364
+  },
+  {
+   "mls": "24141369",
+   "slug": "77-maple-street-darien-connecticut-24141369",
+   "address": {
+    "line": "77 Maple Street",
+    "unit": null,
+    "lineWithUnit": "77 Maple Street",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2180.0,
+   "price": 1600000.0,
+   "date": "2026-03-31",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.067363,
+    "lng": -73.496204
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.865292781261343,
+   "ppsf": 733.9449541284404
   }
- }
+ ]
 }

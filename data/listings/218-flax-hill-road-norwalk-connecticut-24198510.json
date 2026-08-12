@@ -109,131 +109,141 @@
    "mi": 1.1
   }
  },
- "comps": {
-  "building": {
-   "rows": [
-    {
-     "slug": "218-flax-hill-road-norwalk-connecticut-24198315",
-     "addr": "218 Flax Hill Road Unit 3",
-     "unit": "Unit 3",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 631.0,
-     "price": 2400.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 4
-    },
-    {
-     "slug": "218-flax-hill-road-norwalk-connecticut-24198338",
-     "addr": "218 Flax Hill Road Unit 2",
-     "unit": "Unit 2",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 487.0,
-     "price": 2300.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 5
-    }
-   ],
-   "summary": null,
-   "label": "218 Flax Hill Road"
-  },
-  "area": {
-   "rows": [
-    {
-     "slug": "208-flax-hill-road-norwalk-connecticut-24180300",
-     "addr": "208 Flax Hill Road Unit 32",
-     "unit": "Unit 32",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 849.0,
-     "price": 2500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-03",
-     "ppsf": 3,
-     "mi": 0.03
-    },
-    {
-     "slug": "7-fairfield-avenue-norwalk-connecticut-24141589",
-     "addr": "7 Fairfield Avenue Unit 1",
-     "unit": "Unit 1",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 400.0,
-     "price": 1995.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-15",
-     "ppsf": 5,
-     "mi": 0.34
-    },
-    {
-     "slug": "107-south-main-street-norwalk-connecticut-24168201",
-     "addr": "107 South Main Street Unit 7",
-     "unit": "Unit 7",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 550.0,
-     "price": 1984.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-08",
-     "ppsf": 4,
-     "mi": 0.35
-    },
-    {
-     "slug": "107-south-main-street-norwalk-connecticut-24166820",
-     "addr": "107 South Main Street Unit C",
-     "unit": "Unit C",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 525.0,
-     "price": 1799.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-14",
-     "ppsf": 3,
-     "mi": 0.35
-    },
-    {
-     "slug": "34-dr-martin-luther-king-jr-drive-norwalk-connecticut-24174230",
-     "addr": "34 Dr Martin Luther King Jr Drive Unit A",
-     "unit": "Unit A",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 1032.0,
-     "price": 2425.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-01",
-     "ppsf": 2,
-     "mi": 0.37
-    },
-    {
-     "slug": "2-south-main-street-norwalk-connecticut-24128453",
-     "addr": "2 South Main Street Unit W201",
-     "unit": "Unit W201",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 671.0,
-     "price": 2400.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-31",
-     "ppsf": 4,
-     "mi": 0.4
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 1799.0,
-    "high": 2500.0,
-    "median": 2198
+ "comps": [
+  {
+   "mls": "24168963",
+   "slug": "19-day-street-norwalk-connecticut-24168963",
+   "address": {
+    "line": "19 Day Street",
+    "unit": "Unit 206",
+    "lineWithUnit": "19 Day Street Unit 206",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
    },
-   "radiusMi": 0.75
+   "beds": 0.0,
+   "baths": 1.0,
+   "sqft": 607.0,
+   "price": 2300.0,
+   "date": "2026-05-02",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.095734,
+    "lng": -73.4181
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6245204723578136,
+   "ppsf": 3.7891268533772653
+  },
+  {
+   "mls": "24168201",
+   "slug": "107-south-main-street-norwalk-connecticut-24168201",
+   "address": {
+    "line": "107 South Main Street",
+    "unit": "Unit 7",
+    "lineWithUnit": "107 South Main Street Unit 7",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 550.0,
+   "price": 1984.0,
+   "date": "2026-05-08",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.09383,
+    "lng": -73.41955
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.559960624029427,
+   "ppsf": 3.6072727272727274
+  },
+  {
+   "mls": "24166820",
+   "slug": "107-south-main-street-norwalk-connecticut-24166820",
+   "address": {
+    "line": "107 South Main Street",
+    "unit": "Unit C",
+    "lineWithUnit": "107 South Main Street Unit C",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 525.0,
+   "price": 1799.0,
+   "date": "2026-05-14",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.09383,
+    "lng": -73.41955
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.559960624029427,
+   "ppsf": 3.4266666666666667
+  },
+  {
+   "mls": "24141589",
+   "slug": "7-fairfield-avenue-norwalk-connecticut-24141589",
+   "address": {
+    "line": "7 Fairfield Avenue",
+    "unit": "Unit 1",
+    "lineWithUnit": "7 Fairfield Avenue Unit 1",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 400.0,
+   "price": 1995.0,
+   "date": "2026-06-15",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.100616,
+    "lng": -73.423159
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5442688509665116,
+   "ppsf": 4.9875
+  },
+  {
+   "mls": "24185867",
+   "slug": "41-fairfield-avenue-norwalk-connecticut-24185867",
+   "address": {
+    "line": "41 Fairfield Avenue",
+    "unit": "Unit B",
+    "lineWithUnit": "41 Fairfield Avenue Unit B",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 537.0,
+   "price": 2300.0,
+   "date": "2026-07-31",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.102753,
+    "lng": -73.424174
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7527584274658483,
+   "ppsf": 4.283054003724395
   }
- }
+ ]
 }

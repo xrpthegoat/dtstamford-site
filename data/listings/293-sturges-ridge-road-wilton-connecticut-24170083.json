@@ -133,100 +133,141 @@
    "mi": 1.27
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "115-pine-ridge-road-wilton-connecticut-24164766",
-     "addr": "115 Pine Ridge Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 4.0,
-     "sqft": 4900.0,
-     "price": 2010000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-30",
-     "ppsf": 410,
-     "mi": 0.17
-    },
-    {
-     "slug": "12-langner-lane-wilton-connecticut-24168347",
-     "addr": "12 Langner Lane",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 6.0,
-     "sqft": 5839.0,
-     "price": 2625000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-07",
-     "ppsf": 450,
-     "mi": 0.19
-    },
-    {
-     "slug": "340-sturges-ridge-road-wilton-connecticut-24156946",
-     "addr": "340 Sturges Ridge Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 5.0,
-     "sqft": 2984.0,
-     "price": 1600000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-30",
-     "ppsf": 536,
-     "mi": 0.2
-    },
-    {
-     "slug": "21-lee-allen-lane-wilton-connecticut-24159919",
-     "addr": "21 Lee Allen Lane",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 6.0,
-     "sqft": 5919.0,
-     "price": 3200000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-24",
-     "ppsf": 541,
-     "mi": 0.22
-    },
-    {
-     "slug": "51-black-alder-lane-wilton-connecticut-24170851",
-     "addr": "51 Black Alder Lane",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 5.0,
-     "sqft": 4732.0,
-     "price": 2200000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-17",
-     "ppsf": 465,
-     "mi": 0.69
-    },
-    {
-     "slug": "292-sturges-ridge-road-wilton-connecticut-24188085",
-     "addr": "292 Sturges Ridge Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 6.0,
-     "sqft": 6170.0,
-     "price": 2395000.0,
-     "kind": "asking",
-     "status": "Under Contract - Continue to Show",
-     "ppsf": 388,
-     "mi": 0.08
-    }
-   ],
-   "summary": {
-    "n": 5,
-    "low": 1600000.0,
-    "high": 3200000.0,
-    "median": 2200000
+ "comps": [
+  {
+   "mls": "24170851",
+   "slug": "51-black-alder-lane-wilton-connecticut-24170851",
+   "address": {
+    "line": "51 Black Alder Lane",
+    "unit": null,
+    "lineWithUnit": "51 Black Alder Lane",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
    },
-   "radiusMi": 0.75
+   "beds": 5.0,
+   "baths": 5.0,
+   "sqft": 4732.0,
+   "price": 2200000.0,
+   "date": "2026-06-17",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.225102,
+    "lng": -73.408635
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1090298062851258,
+   "ppsf": 464.9196956889265
+  },
+  {
+   "mls": "24164766",
+   "slug": "115-pine-ridge-road-wilton-connecticut-24164766",
+   "address": {
+    "line": "115 Pine Ridge Road",
+    "unit": null,
+    "lineWithUnit": "115 Pine Ridge Road",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 5.0,
+   "baths": 4.0,
+   "sqft": 4900.0,
+   "price": 2010000.0,
+   "date": "2026-06-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.213006,
+    "lng": -73.406557
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.2679110092833456,
+   "ppsf": 410.2040816326531
+  },
+  {
+   "mls": "24169424",
+   "slug": "50-calvin-road-wilton-connecticut-24169424",
+   "address": {
+    "line": "50 Calvin Road",
+    "unit": null,
+    "lineWithUnit": "50 Calvin Road",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 3911.0,
+   "price": 1505000.0,
+   "date": "2026-06-26",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.209552,
+    "lng": -73.397812
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0578669472406712,
+   "ppsf": 384.812068524674
+  },
+  {
+   "mls": "24160941",
+   "slug": "29-spruce-drive-wilton-connecticut-24160941",
+   "address": {
+    "line": "29 Spruce Drive",
+    "unit": null,
+    "lineWithUnit": "29 Spruce Drive",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 3524.0,
+   "price": 1330000.0,
+   "date": "2026-07-17",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.211974,
+    "lng": -73.408796
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.3573264108030933,
+   "ppsf": 377.4120317820658
+  },
+  {
+   "mls": "24153585",
+   "slug": "25-powder-horn-hill-road-wilton-connecticut-24153585",
+   "address": {
+    "line": "25 Powder Horn Hill Road",
+    "unit": null,
+    "lineWithUnit": "25 Powder Horn Hill Road",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 4145.0,
+   "price": 1700000.0,
+   "date": "2026-04-20",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.197811,
+    "lng": -73.42454
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.3696647741028793,
+   "ppsf": 410.1326899879373
   }
- }
+ ]
 }

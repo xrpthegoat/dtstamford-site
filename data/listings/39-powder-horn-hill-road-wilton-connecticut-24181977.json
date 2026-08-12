@@ -136,71 +136,141 @@
    "mi": 0.79
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "125-skunk-lane-wilton-connecticut-24187095",
-     "addr": "125 Skunk Lane",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 7.0,
-     "sqft": 5072.0,
-     "price": 1925000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-10",
-     "ppsf": 380,
-     "mi": 0.35
-    },
-    {
-     "slug": "151-skunk-lane-wilton-connecticut-24163439",
-     "addr": "151 Skunk Lane",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 6.0,
-     "sqft": 5143.0,
-     "price": 2012500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-10",
-     "ppsf": 391,
-     "mi": 0.47
-    },
-    {
-     "slug": "96-old-highway-wilton-connecticut-24165993",
-     "addr": "96 Old Highway",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 5.0,
-     "sqft": 5900.0,
-     "price": 2725000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 462,
-     "mi": 0.29
-    },
-    {
-     "slug": "14-powder-horn-hill-road-wilton-connecticut-24194109",
-     "addr": "14 Powder Horn Hill Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 6.0,
-     "sqft": 7843.0,
-     "price": 2399000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 306,
-     "mi": 0.5
-    }
-   ],
-   "summary": {
-    "n": 2,
-    "low": 1925000.0,
-    "high": 2012500.0,
-    "median": 1968750
+ "comps": [
+  {
+   "mls": "24163439",
+   "slug": "151-skunk-lane-wilton-connecticut-24163439",
+   "address": {
+    "line": "151 Skunk Lane",
+    "unit": null,
+    "lineWithUnit": "151 Skunk Lane",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
    },
-   "radiusMi": 0.75
+   "beds": 5.0,
+   "baths": 6.0,
+   "sqft": 5143.0,
+   "price": 2012500.0,
+   "date": "2026-06-10",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.205682,
+    "lng": -73.415938
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7544945381124689,
+   "ppsf": 391.30857476181217
+  },
+  {
+   "mls": "24178583",
+   "slug": "42-old-highway-wilton-connecticut-24178583",
+   "address": {
+    "line": "42 Old Highway",
+    "unit": null,
+    "lineWithUnit": "42 Old Highway",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 4.0,
+   "baths": 5.0,
+   "sqft": 5040.0,
+   "price": 1935000.0,
+   "date": "2026-07-28",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.1933,
+    "lng": -73.425
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8277961555775811,
+   "ppsf": 383.92857142857144
+  },
+  {
+   "mls": "24187095",
+   "slug": "125-skunk-lane-wilton-connecticut-24187095",
+   "address": {
+    "line": "125 Skunk Lane",
+    "unit": null,
+    "lineWithUnit": "125 Skunk Lane",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 5.0,
+   "baths": 7.0,
+   "sqft": 5072.0,
+   "price": 1925000.0,
+   "date": "2026-08-10",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.204154,
+    "lng": -73.416944
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5656448430057058,
+   "ppsf": 379.5347003154574
+  },
+  {
+   "mls": "24083683",
+   "slug": "33-middlebrook-farm-road-wilton-connecticut-24083683",
+   "address": {
+    "line": "33 Middlebrook Farm Road",
+    "unit": null,
+    "lineWithUnit": "33 Middlebrook Farm Road",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 5.0,
+   "baths": 7.0,
+   "sqft": 5860.0,
+   "price": 2335000.0,
+   "date": "2026-03-31",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.203682,
+    "lng": -73.447547
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.410668187456261,
+   "ppsf": 398.4641638225256
+  },
+  {
+   "mls": "24153585",
+   "slug": "25-powder-horn-hill-road-wilton-connecticut-24153585",
+   "address": {
+    "line": "25 Powder Horn Hill Road",
+    "unit": null,
+    "lineWithUnit": "25 Powder Horn Hill Road",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 4145.0,
+   "price": 1700000.0,
+   "date": "2026-04-20",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.197811,
+    "lng": -73.42454
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 0.47182876874569185,
+   "ppsf": 410.1326899879373
   }
- }
+ ]
 }

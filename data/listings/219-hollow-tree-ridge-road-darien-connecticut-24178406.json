@@ -132,72 +132,141 @@
    "walk": 8
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "3-kelsey-street-darien-connecticut-24172487",
-     "addr": "3 Kelsey Street",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 5.0,
-     "sqft": 2385.0,
-     "price": 10000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-16",
-     "ppsf": 4,
-     "mi": 0.45
-    },
-    {
-     "slug": "24-herman-avenue-darien-connecticut-24189525",
-     "addr": "24 Herman Avenue",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 2.0,
-     "sqft": 2122.0,
-     "price": 7500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-10",
-     "ppsf": 4,
-     "mi": 0.64
-    },
-    {
-     "slug": "14-laforge-road-darien-connecticut-24158573",
-     "addr": "14 Laforge Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2073.0,
-     "price": 10500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-02",
-     "ppsf": 5,
-     "mi": 0.65
-    },
-    {
-     "slug": "322-noroton-avenue-darien-connecticut-24185835",
-     "addr": "322 Noroton Avenue",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2055.0,
-     "price": 11000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 5,
-     "mi": 0.49
-    }
-   ],
-   "summary": {
-    "n": 3,
-    "low": 7500.0,
-    "high": 10500.0,
-    "median": 10000
+ "comps": [
+  {
+   "mls": "24160295",
+   "slug": "340-heights-road-darien-connecticut-24160295",
+   "address": {
+    "line": "340 Heights Road",
+    "unit": "Unit 308",
+    "lineWithUnit": "340 Heights Road Unit 308",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
    },
-   "radiusMi": 0.75
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 965.0,
+   "price": 4600.0,
+   "date": "2026-03-24",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.06953,
+    "lng": -73.49892
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6012969680900003,
+   "ppsf": 4.766839378238342
+  },
+  {
+   "mls": "24156503",
+   "slug": "19-a-robin-hood-lane-darien-connecticut-24156503",
+   "address": {
+    "line": "19 A Robin Hood Lane",
+    "unit": null,
+    "lineWithUnit": "19 A Robin Hood Lane",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 1000.0,
+   "price": 4500.0,
+   "date": "2026-04-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.081387,
+    "lng": -73.472198
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.3217968466647476,
+   "ppsf": 4.5
+  },
+  {
+   "mls": "24171326",
+   "slug": "440-heights-road-darien-connecticut-24171326",
+   "address": {
+    "line": "440 Heights Road",
+    "unit": "Unit 311",
+    "lineWithUnit": "440 Heights Road Unit 311",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 1.0,
+   "baths": 2.0,
+   "sqft": 1089.0,
+   "price": 6200.0,
+   "date": "2026-05-03",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.06953,
+    "lng": -73.49892
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 0.6012969680900003,
+   "ppsf": 5.693296602387512
+  },
+  {
+   "mls": "24176214",
+   "slug": "72-west-avenue-darien-connecticut-24176214",
+   "address": {
+    "line": "72 West Avenue",
+    "unit": "Unit B",
+    "lineWithUnit": "72 West Avenue Unit B",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 960.0,
+   "price": 3200.0,
+   "date": "2026-06-14",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.078173,
+    "lng": -73.475852
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.9356475408608076,
+   "ppsf": 3.3333333333333335
+  },
+  {
+   "mls": "24160960",
+   "slug": "1077-boston-post-road-darien-connecticut-24160960",
+   "address": {
+    "line": "1077 Boston Post Road",
+    "unit": "Unit 3",
+    "lineWithUnit": "1077 Boston Post Road Unit 3",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 640.0,
+   "price": 3400.0,
+   "date": "2026-04-02",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.074852,
+    "lng": -73.473114
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.131338147015944,
+   "ppsf": 5.3125
   }
- }
+ ]
 }

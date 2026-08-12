@@ -135,86 +135,141 @@
    "walk": 12
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "18-winding-lane-darien-connecticut-24155541",
-     "addr": "18 Winding Lane",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 3972.0,
-     "price": 3205000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-27",
-     "ppsf": 807,
-     "mi": 0.46
-    },
-    {
-     "slug": "33-fairview-avenue-darien-connecticut-24171484",
-     "addr": "33 Fairview Avenue",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 3102.0,
-     "price": 3300000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-12",
-     "ppsf": 1064,
-     "mi": 0.55
-    },
-    {
-     "slug": "3-rocaton-road-darien-connecticut-24176459",
-     "addr": "3 Rocaton Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 3354.0,
-     "price": 2950000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-03",
-     "ppsf": 880,
-     "mi": 0.68
-    },
-    {
-     "slug": "10-queens-lane-darien-connecticut-24165110",
-     "addr": "10 Queens Lane",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 3694.0,
-     "price": 2985000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-30",
-     "ppsf": 808,
-     "mi": 0.7
-    },
-    {
-     "slug": "15-wildcat-road-darien-connecticut-24186583",
-     "addr": "15 Wildcat Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 6021.0,
-     "price": 3950000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 656,
-     "mi": 0.62
-    }
-   ],
-   "summary": {
-    "n": 4,
-    "low": 2950000.0,
-    "high": 3300000.0,
-    "median": 3095000
+ "comps": [
+  {
+   "mls": "24149786",
+   "slug": "223-middlesex-road-darien-connecticut-24149786",
+   "address": {
+    "line": "223 Middlesex Road",
+    "unit": null,
+    "lineWithUnit": "223 Middlesex Road",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1840.0,
+   "price": 1540000.0,
+   "date": "2026-03-16",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.078068,
+    "lng": -73.49218
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.4158876439001564,
+   "ppsf": 836.9565217391304
+  },
+  {
+   "mls": "24165850",
+   "slug": "16-libby-lane-darien-connecticut-24165850",
+   "address": {
+    "line": "16 Libby Lane",
+    "unit": null,
+    "lineWithUnit": "16 Libby Lane",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 4.0,
+   "baths": 5.0,
+   "sqft": 2928.0,
+   "price": 2976000.0,
+   "date": "2026-06-24",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.079906,
+    "lng": -73.491295
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.383631873036687,
+   "ppsf": 1016.3934426229508
+  },
+  {
+   "mls": "24171484",
+   "slug": "33-fairview-avenue-darien-connecticut-24171484",
+   "address": {
+    "line": "33 Fairview Avenue",
+    "unit": null,
+    "lineWithUnit": "33 Fairview Avenue",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 3102.0,
+   "price": 3300000.0,
+   "date": "2026-06-12",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.082015,
+    "lng": -73.467959
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 0.88624730978332,
+   "ppsf": 1063.8297872340424
+  },
+  {
+   "mls": "24174390",
+   "slug": "229-west-avenue-darien-connecticut-24174390",
+   "address": {
+    "line": "229 West Avenue",
+    "unit": null,
+    "lineWithUnit": "229 West Avenue",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 2752.0,
+   "price": 1852000.0,
+   "date": "2026-06-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.070479,
+    "lng": -73.489858
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.2426231646014556,
+   "ppsf": 672.9651162790698
+  },
+  {
+   "mls": "24167895",
+   "slug": "64-five-mile-river-road-darien-connecticut-24167895",
+   "address": {
+    "line": "64 Five Mile River Road",
+    "unit": null,
+    "lineWithUnit": "64 Five Mile River Road",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2502.0,
+   "price": 3560250.0,
+   "date": "2026-07-01",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.070509,
+    "lng": -73.446818
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.4908299392282038,
+   "ppsf": 1422.9616306954435
   }
- }
+ ]
 }

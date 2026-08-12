@@ -131,86 +131,141 @@
    "mi": 1.71
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "193-ely-avenue-norwalk-connecticut-24178601",
-     "addr": "193 Ely Avenue Unit B",
-     "unit": "Unit B",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1232.0,
-     "price": 350000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-02",
-     "ppsf": 284,
-     "mi": 0.23
-    },
-    {
-     "slug": "56-soundview-avenue-norwalk-connecticut-24164232",
-     "addr": "56 Soundview Avenue Unit 1",
-     "unit": "Unit 1",
-     "beds": 3.0,
-     "baths": 4.0,
-     "sqft": 2422.0,
-     "price": 730000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-15",
-     "ppsf": 301,
-     "mi": 0.24
-    },
-    {
-     "slug": "18-auburn-street-norwalk-connecticut-24151162",
-     "addr": "18 Auburn Street Unit 18",
-     "unit": "Unit 18",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 2150.0,
-     "price": 805000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-20",
-     "ppsf": 374,
-     "mi": 0.26
-    },
-    {
-     "slug": "225-flax-hill-road-norwalk-connecticut-24149067",
-     "addr": "225 Flax Hill Road Unit 2",
-     "unit": "Unit 2",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1822.0,
-     "price": 700000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-24",
-     "ppsf": 384,
-     "mi": 0.59
-    },
-    {
-     "slug": "22-rowayton-woods-drive-norwalk-connecticut-24195664",
-     "addr": "22 Rowayton Woods Drive Unit 22",
-     "unit": "Unit 22",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1089.0,
-     "price": 620000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 569,
-     "mi": 0.55
-    }
-   ],
-   "summary": {
-    "n": 4,
-    "low": 350000.0,
-    "high": 805000.0,
-    "median": 715000
+ "comps": [
+  {
+   "mls": "24155547",
+   "slug": "119-rowayton-woods-drive-norwalk-connecticut-24155547",
+   "address": {
+    "line": "119 Rowayton Woods Drive",
+    "unit": "Unit 119",
+    "lineWithUnit": "119 Rowayton Woods Drive Unit 119",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1468.0,
+   "price": 715000.0,
+   "date": "2026-04-21",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.080207,
+    "lng": -73.436051
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0355047957746275,
+   "ppsf": 487.0572207084469
+  },
+  {
+   "mls": "24121510",
+   "slug": "187-flax-hill-road-norwalk-connecticut-24121510",
+   "address": {
+    "line": "187 Flax Hill Road",
+    "unit": "Apt D5",
+    "lineWithUnit": "187 Flax Hill Road Apt D5",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 1088.0,
+   "price": 350000.0,
+   "date": "2026-05-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.097792,
+    "lng": -73.425433
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1600820644844894,
+   "ppsf": 321.69117647058823
+  },
+  {
+   "mls": "24172753",
+   "slug": "187-flax-hill-road-norwalk-connecticut-24172753",
+   "address": {
+    "line": "187 Flax Hill Road",
+    "unit": "Unit D1",
+    "lineWithUnit": "187 Flax Hill Road Unit D1",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 1088.0,
+   "price": 415000.0,
+   "date": "2026-07-24",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.097792,
+    "lng": -73.425433
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1600820644844894,
+   "ppsf": 381.43382352941177
+  },
+  {
+   "mls": "24167624",
+   "slug": "300-flax-hill-road-norwalk-connecticut-24167624",
+   "address": {
+    "line": "300 Flax Hill Road",
+    "unit": "Unit 3",
+    "lineWithUnit": "300 Flax Hill Road Unit 3",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 1138.0,
+   "price": 450000.0,
+   "date": "2026-05-26",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.093415,
+    "lng": -73.431833
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6973464164023349,
+   "ppsf": 395.4305799648506
+  },
+  {
+   "mls": "24178601",
+   "slug": "193-ely-avenue-norwalk-connecticut-24178601",
+   "address": {
+    "line": "193 Ely Avenue",
+    "unit": "Unit B",
+    "lineWithUnit": "193 Ely Avenue Unit B",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1232.0,
+   "price": 350000.0,
+   "date": "2026-07-02",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.089219,
+    "lng": -73.424743
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.36813676006658036,
+   "ppsf": 284.09090909090907
   }
- }
+ ]
 }

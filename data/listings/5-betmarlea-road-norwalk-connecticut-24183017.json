@@ -132,71 +132,141 @@
    "mi": 1.97
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "1-douglas-drive-norwalk-connecticut-24147118",
-     "addr": "1 Douglas Drive",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 4.0,
-     "sqft": 5271.0,
-     "price": 1650000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-13",
-     "ppsf": 313,
-     "mi": 0.6
-    },
-    {
-     "slug": "21-redcoat-road-norwalk-connecticut-24175074",
-     "addr": "21 Redcoat Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 4.0,
-     "sqft": 2554.0,
-     "price": 960000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-03",
-     "ppsf": 376,
-     "mi": 0.7
-    },
-    {
-     "slug": "22-morehouse-lane-norwalk-connecticut-24196374",
-     "addr": "22 Morehouse Lane",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 4.0,
-     "sqft": 3425.0,
-     "price": 1200000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 350,
-     "mi": 0.58
-    },
-    {
-     "slug": "20-marianne-road-darien-connecticut-24082353",
-     "addr": "20 Marianne Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 8.0,
-     "sqft": 6535.0,
-     "price": 4199000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 643,
-     "mi": 0.74
-    }
-   ],
-   "summary": {
-    "n": 2,
-    "low": 960000.0,
-    "high": 1650000.0,
-    "median": 1305000
+ "comps": [
+  {
+   "mls": "24172799",
+   "slug": "49-weed-avenue-norwalk-connecticut-24172799",
+   "address": {
+    "line": "49 Weed Avenue",
+    "unit": null,
+    "lineWithUnit": "49 Weed Avenue",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 3190.0,
+   "price": 1750000.0,
+   "date": "2026-07-10",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.12041,
+    "lng": -73.461527
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8427709974157229,
+   "ppsf": 548.58934169279
+  },
+  {
+   "mls": "24138869",
+   "slug": "7-tommys-lane-norwalk-connecticut-24138869",
+   "address": {
+    "line": "7 Tommys Lane",
+    "unit": null,
+    "lineWithUnit": "7 Tommys Lane",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 2154.0,
+   "price": 1210000.0,
+   "date": "2026-04-02",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.106638,
+    "lng": -73.465226
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9947042133008063,
+   "ppsf": 561.7455896007428
+  },
+  {
+   "mls": "24158941",
+   "slug": "7-douglas-drive-norwalk-connecticut-24158941",
+   "address": {
+    "line": "7 Douglas Drive",
+    "unit": null,
+    "lineWithUnit": "7 Douglas Drive",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 2022.0,
+   "price": 960000.0,
+   "date": "2026-04-24",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.123618,
+    "lng": -73.456728
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.132316195930792,
+   "ppsf": 474.7774480712166
+  },
+  {
+   "mls": "24170267",
+   "slug": "19-ravenwood-road-norwalk-connecticut-24170267",
+   "address": {
+    "line": "19 Ravenwood Road",
+    "unit": null,
+    "lineWithUnit": "19 Ravenwood Road",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 2090.0,
+   "price": 815000.0,
+   "date": "2026-06-16",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.107367,
+    "lng": -73.465554
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.953580309091497,
+   "ppsf": 389.95215311004785
+  },
+  {
+   "mls": "24172973",
+   "slug": "2-rising-road-norwalk-connecticut-24172973",
+   "address": {
+    "line": "2 Rising Road",
+    "unit": null,
+    "lineWithUnit": "2 Rising Road",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2660.0,
+   "price": 1025000.0,
+   "date": "2026-07-31",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.110439,
+    "lng": -73.465089
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7161163006695582,
+   "ppsf": 385.3383458646617
   }
- }
+ ]
 }

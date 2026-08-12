@@ -134,58 +134,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "21-warnock-drive-westport-connecticut-24146474",
-     "addr": "21 Warnock Drive",
-     "unit": "",
-     "beds": 6.0,
-     "baths": 9.0,
-     "sqft": 9324.0,
-     "price": 4475000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-02",
-     "ppsf": 480,
-     "mi": 0.56
-    },
-    {
-     "slug": "42-easton-road-westport-connecticut-24164674",
-     "addr": "42 Easton Road",
-     "unit": "",
-     "beds": 6.0,
-     "baths": 7.0,
-     "sqft": 5227.0,
-     "price": 3870000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-18",
-     "ppsf": 740,
-     "mi": 0.59
-    },
-    {
-     "slug": "21-lockwood-circle-westport-connecticut-24158946",
-     "addr": "21 Lockwood Circle",
-     "unit": "",
-     "beds": 6.0,
-     "baths": 7.0,
-     "sqft": 6611.0,
-     "price": 4495000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 680,
-     "mi": 0.42
-    }
-   ],
-   "summary": {
-    "n": 2,
-    "low": 3870000.0,
-    "high": 4475000.0,
-    "median": 4172500
+ "comps": [
+  {
+   "mls": "24175855",
+   "slug": "13-rockyfield-road-westport-connecticut-24175855",
+   "address": {
+    "line": "13 Rockyfield Road",
+    "unit": null,
+    "lineWithUnit": "13 Rockyfield Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
    },
-   "radiusMi": 0.75
+   "beds": 5.0,
+   "baths": 6.0,
+   "sqft": 7409.0,
+   "price": 3925000.0,
+   "date": "2026-07-08",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.170208,
+    "lng": -73.350006
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8873633339248626,
+   "ppsf": 529.7611013632069
+  },
+  {
+   "mls": "24133128",
+   "slug": "6-nutcracker-lane-westport-connecticut-24133128",
+   "address": {
+    "line": "6 Nutcracker Lane",
+    "unit": null,
+    "lineWithUnit": "6 Nutcracker Lane",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 5434.0,
+   "price": 2725000.0,
+   "date": "2026-04-01",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.175014,
+    "lng": -73.336753
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.4068481574592876,
+   "ppsf": 501.47221199852777
+  },
+  {
+   "mls": "24164674",
+   "slug": "42-easton-road-westport-connecticut-24164674",
+   "address": {
+    "line": "42 Easton Road",
+    "unit": null,
+    "lineWithUnit": "42 Easton Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 6.0,
+   "baths": 7.0,
+   "sqft": 5227.0,
+   "price": 3870000.0,
+   "date": "2026-05-18",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.170335,
+    "lng": -73.350893
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9566162572433324,
+   "ppsf": 740.3864549454754
+  },
+  {
+   "mls": "24166688",
+   "slug": "123-cross-highway-westport-connecticut-24166688",
+   "address": {
+    "line": "123 Cross Highway",
+    "unit": null,
+    "lineWithUnit": "123 Cross Highway",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 5.0,
+   "baths": 6.0,
+   "sqft": 7048.0,
+   "price": 3500000.0,
+   "date": "2026-07-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.162201,
+    "lng": -73.336872
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1271490909543256,
+   "ppsf": 496.5947786606129
+  },
+  {
+   "mls": "24170642",
+   "slug": "17-vineyard-lane-westport-connecticut-24170642",
+   "address": {
+    "line": "17 Vineyard Lane",
+    "unit": null,
+    "lineWithUnit": "17 Vineyard Lane",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 5.0,
+   "baths": 6.0,
+   "sqft": 7964.0,
+   "price": 3895000.0,
+   "date": "2026-07-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.168592,
+    "lng": -73.333057
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6805386007436244,
+   "ppsf": 489.07584128578605
   }
- }
+ ]
 }

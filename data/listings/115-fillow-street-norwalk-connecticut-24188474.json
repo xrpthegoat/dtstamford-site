@@ -134,137 +134,141 @@
    "mi": 1.0
   }
  },
- "comps": {
-  "building": {
-   "rows": [
-    {
-     "slug": "115-fillow-street-norwalk-connecticut-24155668",
-     "addr": "115 Fillow Street Unit 78",
-     "unit": "Unit 78",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1448.0,
-     "price": 470000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-06",
-     "ppsf": 325
-    },
-    {
-     "slug": "115-fillow-street-norwalk-connecticut-24177100",
-     "addr": "115 Fillow Street Unit 22",
-     "unit": "Unit 22",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1448.0,
-     "price": 479000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 331
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 470000.0,
-    "high": 470000.0,
-    "median": 470000
+ "comps": [
+  {
+   "mls": "24155668",
+   "slug": "115-fillow-street-norwalk-connecticut-24155668",
+   "address": {
+    "line": "115 Fillow Street",
+    "unit": "Unit 78",
+    "lineWithUnit": "115 Fillow Street Unit 78",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
    },
-   "label": "115 Fillow Street"
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1448.0,
+   "price": 470000.0,
+   "date": "2026-04-06",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.116642,
+    "lng": -73.437813
+   },
+   "klass": "condo",
+   "tier": 1,
+   "why": "Same building, sold in the last year",
+   "km": 0.0,
+   "ppsf": 324.585635359116
   },
-  "area": {
-   "rows": [
-    {
-     "slug": "130-fillow-street-norwalk-connecticut-24178207",
-     "addr": "130 Fillow Street Unit 2",
-     "unit": "Unit 2",
-     "beds": 2.0,
-     "baths": 3.0,
-     "sqft": 1174.0,
-     "price": 440000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-09",
-     "ppsf": 375,
-     "mi": 0.14
-    },
-    {
-     "slug": "12-camelot-drive-norwalk-connecticut-24182630",
-     "addr": "12 Camelot Drive Unit A2",
-     "unit": "Unit A2",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 832.0,
-     "price": 320000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-14",
-     "ppsf": 385,
-     "mi": 0.22
-    },
-    {
-     "slug": "41-nash-place-norwalk-connecticut-24155217",
-     "addr": "41 Nash Place Unit B",
-     "unit": "Unit B",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1110.0,
-     "price": 430000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-15",
-     "ppsf": 387,
-     "mi": 0.46
-    },
-    {
-     "slug": "92-ledgebrook-drive-norwalk-connecticut-24159844",
-     "addr": "92 Ledgebrook Drive Unit 92",
-     "unit": "Unit 92",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 1095.0,
-     "price": 493000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-22",
-     "ppsf": 450,
-     "mi": 0.58
-    },
-    {
-     "slug": "76-gillies-lane-norwalk-connecticut-24167486",
-     "addr": "76 Gillies Lane Unit 76",
-     "unit": "Unit 76",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1525.0,
-     "price": 565000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-30",
-     "ppsf": 370,
-     "mi": 0.59
-    },
-    {
-     "slug": "192-gillies-lane-norwalk-connecticut-24151426",
-     "addr": "192 Gillies Lane Unit 192",
-     "unit": "Unit 192",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1662.0,
-     "price": 525000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-27",
-     "ppsf": 316,
-     "mi": 0.74
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 320000.0,
-    "high": 565000.0,
-    "median": 466500
+  {
+   "mls": "24178207",
+   "slug": "130-fillow-street-norwalk-connecticut-24178207",
+   "address": {
+    "line": "130 Fillow Street",
+    "unit": "Unit 2",
+    "lineWithUnit": "130 Fillow Street Unit 2",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 1174.0,
+   "price": 440000.0,
+   "date": "2026-07-09",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.118712,
+    "lng": -73.437722
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.23029969663211056,
+   "ppsf": 374.7870528109029
+  },
+  {
+   "mls": "24151426",
+   "slug": "192-gillies-lane-norwalk-connecticut-24151426",
+   "address": {
+    "line": "192 Gillies Lane",
+    "unit": "Unit 192",
+    "lineWithUnit": "192 Gillies Lane Unit 192",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1662.0,
+   "price": 525000.0,
+   "date": "2026-04-27",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.106449,
+    "lng": -73.442298
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1940689865348804,
+   "ppsf": 315.884476534296
+  },
+  {
+   "mls": "24155217",
+   "slug": "41-nash-place-norwalk-connecticut-24155217",
+   "address": {
+    "line": "41 Nash Place",
+    "unit": "Unit B",
+    "lineWithUnit": "41 Nash Place Unit B",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1110.0,
+   "price": 430000.0,
+   "date": "2026-04-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.110085,
+    "lng": -73.43599
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7449284938676876,
+   "ppsf": 387.3873873873874
+  },
+  {
+   "mls": "24167486",
+   "slug": "76-gillies-lane-norwalk-connecticut-24167486",
+   "address": {
+    "line": "76 Gillies Lane",
+    "unit": "Unit 76",
+    "lineWithUnit": "76 Gillies Lane Unit 76",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1525.0,
+   "price": 565000.0,
+   "date": "2026-07-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.108205,
+    "lng": -73.439766
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9523121851768863,
+   "ppsf": 370.4918032786885
   }
- }
+ ]
 }

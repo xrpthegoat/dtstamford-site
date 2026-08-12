@@ -133,101 +133,141 @@
    "mi": 1.28
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "8-dorado-court-wilton-connecticut-24168476",
-     "addr": "8 Dorado Court",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2771.0,
-     "price": 1390000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-07",
-     "ppsf": 502,
-     "mi": 0.07
-    },
-    {
-     "slug": "349-mountain-road-wilton-connecticut-24151997",
-     "addr": "349 Mountain Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2884.0,
-     "price": 1195000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-21",
-     "ppsf": 414,
-     "mi": 0.19
-    },
-    {
-     "slug": "78-pin-oak-lane-wilton-connecticut-24154286",
-     "addr": "78 Pin Oak Lane",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 4741.0,
-     "price": 1830000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-24",
-     "ppsf": 386,
-     "mi": 0.44
-    },
-    {
-     "slug": "36-rockhouse-road-wilton-connecticut-24187186",
-     "addr": "36 Rockhouse Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 3442.0,
-     "price": 1390000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-03",
-     "ppsf": 404,
-     "mi": 0.56
-    },
-    {
-     "slug": "99-chicken-street-wilton-connecticut-24163963",
-     "addr": "99 Chicken Street",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 3118.0,
-     "price": 1450000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-01",
-     "ppsf": 465,
-     "mi": 0.61
-    },
-    {
-     "slug": "63-pipers-hill-road-wilton-connecticut-24172493",
-     "addr": "63 Pipers Hill Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 3817.0,
-     "price": 1345000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-04",
-     "ppsf": 352,
-     "mi": 0.72
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 1195000.0,
-    "high": 1830000.0,
-    "median": 1390000
+ "comps": [
+  {
+   "mls": "24163963",
+   "slug": "99-chicken-street-wilton-connecticut-24163963",
+   "address": {
+    "line": "99 Chicken Street",
+    "unit": null,
+    "lineWithUnit": "99 Chicken Street",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 3118.0,
+   "price": 1450000.0,
+   "date": "2026-07-01",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.228846,
+    "lng": -73.439292
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9834900239774114,
+   "ppsf": 465.0416933932008
+  },
+  {
+   "mls": "24151997",
+   "slug": "349-mountain-road-wilton-connecticut-24151997",
+   "address": {
+    "line": "349 Mountain Road",
+    "unit": null,
+    "lineWithUnit": "349 Mountain Road",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2884.0,
+   "price": 1195000.0,
+   "date": "2026-04-21",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.235464,
+    "lng": -73.436527
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.31323630098471983,
+   "ppsf": 414.35506241331484
+  },
+  {
+   "mls": "24168476",
+   "slug": "8-dorado-court-wilton-connecticut-24168476",
+   "address": {
+    "line": "8 Dorado Court",
+    "unit": null,
+    "lineWithUnit": "8 Dorado Court",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2771.0,
+   "price": 1390000.0,
+   "date": "2026-08-07",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.238648,
+    "lng": -73.438697
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.1077934248334715,
+   "ppsf": 501.623962468423
+  },
+  {
+   "mls": "24172493",
+   "slug": "63-pipers-hill-road-wilton-connecticut-24172493",
+   "address": {
+    "line": "63 Pipers Hill Road",
+    "unit": null,
+    "lineWithUnit": "63 Pipers Hill Road",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 3817.0,
+   "price": 1345000.0,
+   "date": "2026-06-04",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.23319,
+    "lng": -73.45126
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1530475131679507,
+   "ppsf": 352.37097196751375
+  },
+  {
+   "mls": "24181036",
+   "slug": "172-mather-street-wilton-connecticut-24181036",
+   "address": {
+    "line": "172 Mather Street",
+    "unit": null,
+    "lineWithUnit": "172 Mather Street",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 3036.0,
+   "price": 815000.0,
+   "date": "2026-08-03",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.242108,
+    "lng": -73.431645
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.776666531038714,
+   "ppsf": 268.4453227931489
   }
- }
+ ]
 }

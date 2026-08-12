@@ -133,100 +133,141 @@
    "mi": 0.83
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "5-tower-drive-norwalk-connecticut-24122720",
-     "addr": "5 Tower Drive",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 2.0,
-     "sqft": 1260.0,
-     "price": 635000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-13",
-     "ppsf": 504,
-     "mi": 0.34
-    },
-    {
-     "slug": "12-sention-avenue-norwalk-connecticut-24144739",
-     "addr": "12 Sention Avenue",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 1652.0,
-     "price": 590000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-20",
-     "ppsf": 357,
-     "mi": 0.38
-    },
-    {
-     "slug": "150-fillow-street-norwalk-connecticut-24131002",
-     "addr": "150 Fillow Street",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 2.0,
-     "sqft": 2602.0,
-     "price": 795000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-01",
-     "ppsf": 306,
-     "mi": 0.52
-    },
-    {
-     "slug": "153-fillow-street-norwalk-connecticut-24153590",
-     "addr": "153 Fillow Street",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2409.0,
-     "price": 1025000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-14",
-     "ppsf": 425,
-     "mi": 0.59
-    },
-    {
-     "slug": "103-ponus-avenue-norwalk-connecticut-24169442",
-     "addr": "103 Ponus Avenue",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2702.0,
-     "price": 900000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-05",
-     "ppsf": 333,
-     "mi": 0.67
-    },
-    {
-     "slug": "5-fillow-street-norwalk-connecticut-24188044",
-     "addr": "5 Fillow Street",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2352.0,
-     "price": 675000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 287,
-     "mi": 0.22
-    }
-   ],
-   "summary": {
-    "n": 5,
-    "low": 590000.0,
-    "high": 1025000.0,
-    "median": 795000
+ "comps": [
+  {
+   "mls": "24155688",
+   "slug": "17-silk-street-norwalk-connecticut-24155688",
+   "address": {
+    "line": "17 Silk Street",
+    "unit": null,
+    "lineWithUnit": "17 Silk Street",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1980.0,
+   "price": 539900.0,
+   "date": "2026-04-24",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.118042,
+    "lng": -73.428918
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.27371389500644044,
+   "ppsf": 272.67676767676767
+  },
+  {
+   "mls": "24170909",
+   "slug": "26-harris-street-norwalk-connecticut-24170909",
+   "address": {
+    "line": "26 Harris Street",
+    "unit": null,
+    "lineWithUnit": "26 Harris Street",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1492.0,
+   "price": 650000.0,
+   "date": "2026-07-02",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.129632,
+    "lng": -73.435665
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1493583556072853,
+   "ppsf": 435.65683646112603
+  },
+  {
+   "mls": "24120453",
+   "slug": "2-leuvine-street-norwalk-connecticut-24120453",
+   "address": {
+    "line": "2 Leuvine Street",
+    "unit": "Unit 1",
+    "lineWithUnit": "2 Leuvine Street Unit 1",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 3.0,
+   "baths": 1.0,
+   "sqft": 1730.0,
+   "price": 635000.0,
+   "date": "2026-04-02",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.117768,
+    "lng": -73.424462
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.602162519331044,
+   "ppsf": 367.05202312138726
+  },
+  {
+   "mls": "24122720",
+   "slug": "5-tower-drive-norwalk-connecticut-24122720",
+   "address": {
+    "line": "5 Tower Drive",
+    "unit": null,
+    "lineWithUnit": "5 Tower Drive",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 4.0,
+   "baths": 2.0,
+   "sqft": 1260.0,
+   "price": 635000.0,
+   "date": "2026-04-13",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.123894,
+    "lng": -73.434918
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5493176829925778,
+   "ppsf": 503.968253968254
+  },
+  {
+   "mls": "24131710",
+   "slug": "48-fair-street-norwalk-connecticut-24131710",
+   "address": {
+    "line": "48 Fair Street",
+    "unit": null,
+    "lineWithUnit": "48 Fair Street",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1643.0,
+   "price": 535000.0,
+   "date": "2026-04-14",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.12358,
+    "lng": -73.422843
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8023359361248082,
+   "ppsf": 325.6238587948874
   }
- }
+ ]
 }

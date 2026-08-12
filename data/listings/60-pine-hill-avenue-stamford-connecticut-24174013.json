@@ -132,100 +132,141 @@
    "mi": 0.87
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "31-puritan-lane-stamford-connecticut-24178352",
-     "addr": "31 Puritan Lane",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 1553.0,
-     "price": 770000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-15",
-     "ppsf": 496,
-     "mi": 0.21
-    },
-    {
-     "slug": "72-glendale-drive-stamford-connecticut-24162493",
-     "addr": "72 Glendale Drive",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 2.0,
-     "sqft": 1629.0,
-     "price": 874300.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-29",
-     "ppsf": 537,
-     "mi": 0.26
-    },
-    {
-     "slug": "27-holbrook-drive-stamford-connecticut-24160116",
-     "addr": "27 Holbrook Drive",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 5.0,
-     "sqft": 3539.0,
-     "price": 1610000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-26",
-     "ppsf": 455,
-     "mi": 0.35
-    },
-    {
-     "slug": "287-glenbrook-road-stamford-connecticut-24166084",
-     "addr": "287 Glenbrook Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2568.0,
-     "price": 835000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-08",
-     "ppsf": 325,
-     "mi": 0.57
-    },
-    {
-     "slug": "151-fifth-street-stamford-connecticut-24188689",
-     "addr": "151 Fifth Street",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 3200.0,
-     "price": 915000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-06",
-     "ppsf": 286,
-     "mi": 0.64
-    },
-    {
-     "slug": "66-treat-avenue-stamford-connecticut-24180318",
-     "addr": "66 Treat Avenue",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 4352.0,
-     "price": 950000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 218,
-     "mi": 0.35
-    }
-   ],
-   "summary": {
-    "n": 5,
-    "low": 770000.0,
-    "high": 1610000.0,
-    "median": 874300
+ "comps": [
+  {
+   "mls": "24166084",
+   "slug": "287-glenbrook-road-stamford-connecticut-24166084",
+   "address": {
+    "line": "287 Glenbrook Road",
+    "unit": null,
+    "lineWithUnit": "287 Glenbrook Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06906"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2568.0,
+   "price": 835000.0,
+   "date": "2026-07-08",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.06347,
+    "lng": -73.523002
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9136383691822896,
+   "ppsf": 325.1557632398754
+  },
+  {
+   "mls": "24160116",
+   "slug": "27-holbrook-drive-stamford-connecticut-24160116",
+   "address": {
+    "line": "27 Holbrook Drive",
+    "unit": null,
+    "lineWithUnit": "27 Holbrook Drive",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06906"
+   },
+   "beds": 4.0,
+   "baths": 5.0,
+   "sqft": 3539.0,
+   "price": 1610000.0,
+   "date": "2026-06-26",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.072114,
+    "lng": -73.53317
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.560466458364859,
+   "ppsf": 454.9307714043515
+  },
+  {
+   "mls": "24170650",
+   "slug": "174-east-lane-stamford-connecticut-24170650",
+   "address": {
+    "line": "174 East Lane",
+    "unit": null,
+    "lineWithUnit": "174 East Lane",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2556.0,
+   "price": 1521000.0,
+   "date": "2026-06-18",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.075598,
+    "lng": -73.539259
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1679911244404617,
+   "ppsf": 595.0704225352113
+  },
+  {
+   "mls": "24144289",
+   "slug": "20-norman-road-stamford-connecticut-24144289",
+   "address": {
+    "line": "20 Norman Road",
+    "unit": null,
+    "lineWithUnit": "20 Norman Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06906"
+   },
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 2932.0,
+   "price": 900000.0,
+   "date": "2026-03-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.074906,
+    "lng": -73.530597
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5292512883709632,
+   "ppsf": 306.95770804911325
+  },
+  {
+   "mls": "24157239",
+   "slug": "15-tremont-avenue-stamford-connecticut-24157239",
+   "address": {
+    "line": "15 Tremont Avenue",
+    "unit": null,
+    "lineWithUnit": "15 Tremont Avenue",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06906"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 2526.0,
+   "price": 825500.0,
+   "date": "2026-04-29",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.065941,
+    "lng": -73.514573
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1663146501351018,
+   "ppsf": 326.8012668250198
   }
- }
+ ]
 }

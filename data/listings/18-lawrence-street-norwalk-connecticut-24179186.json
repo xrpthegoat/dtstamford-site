@@ -133,44 +133,141 @@
    "mi": 1.67
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "10-burritt-avenue-norwalk-connecticut-24152299",
-     "addr": "10 Burritt Avenue",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 2.0,
-     "sqft": 2066.0,
-     "price": 710000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-01",
-     "ppsf": 344,
-     "mi": 0.28
-    },
-    {
-     "slug": "89-bouton-street-norwalk-connecticut-24151199",
-     "addr": "89 Bouton Street",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 2.0,
-     "sqft": 1908.0,
-     "price": 450000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 236,
-     "mi": 0.72
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 710000.0,
-    "high": 710000.0,
-    "median": 710000
+ "comps": [
+  {
+   "mls": "24166656",
+   "slug": "9-quintard-avenue-norwalk-connecticut-24166656",
+   "address": {
+    "line": "9 Quintard Avenue",
+    "unit": null,
+    "lineWithUnit": "9 Quintard Avenue",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
    },
-   "radiusMi": 0.75
+   "beds": 6.0,
+   "baths": 3.0,
+   "sqft": 2183.0,
+   "price": 735000.0,
+   "date": "2026-06-11",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.09122,
+    "lng": -73.414665
+   },
+   "klass": "multi",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.4206562141983924,
+   "ppsf": 336.6926248282181
+  },
+  {
+   "mls": "24166896",
+   "slug": "28-lincoln-avenue-norwalk-connecticut-24166896",
+   "address": {
+    "line": "28 Lincoln Avenue",
+    "unit": null,
+    "lineWithUnit": "28 Lincoln Avenue",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1568.0,
+   "price": 712310.0,
+   "date": "2026-06-23",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.089728,
+    "lng": -73.41443
+   },
+   "klass": "multi",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.2699542020228789,
+   "ppsf": 454.27933673469386
+  },
+  {
+   "mls": "24152299",
+   "slug": "10-burritt-avenue-norwalk-connecticut-24152299",
+   "address": {
+    "line": "10 Burritt Avenue",
+    "unit": null,
+    "lineWithUnit": "10 Burritt Avenue",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 5.0,
+   "baths": 2.0,
+   "sqft": 2066.0,
+   "price": 710000.0,
+   "date": "2026-05-01",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.091515,
+    "lng": -73.41529
+   },
+   "klass": "multi",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.4443618287299166,
+   "ppsf": 343.6592449177154
+  },
+  {
+   "mls": "24166613",
+   "slug": "35-woodward-avenue-norwalk-connecticut-24166613",
+   "address": {
+    "line": "35 Woodward Avenue",
+    "unit": null,
+    "lineWithUnit": "35 Woodward Avenue",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 7.0,
+   "baths": 4.0,
+   "sqft": 1970.0,
+   "price": 790000.0,
+   "date": "2026-05-20",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.09183,
+    "lng": -73.417496
+   },
+   "klass": "multi",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.49731082666053017,
+   "ppsf": 401.01522842639594
+  },
+  {
+   "mls": "24154526",
+   "slug": "10-keith-street-norwalk-connecticut-24154526",
+   "address": {
+    "line": "10 Keith Street",
+    "unit": null,
+    "lineWithUnit": "10 Keith Street",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1620.0,
+   "price": 650000.0,
+   "date": "2026-03-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.098173,
+    "lng": -73.428928
+   },
+   "klass": "multi",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.6137738070159655,
+   "ppsf": 401.2345679012346
   }
- }
+ ]
 }

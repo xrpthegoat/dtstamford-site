@@ -132,101 +132,141 @@
    "mi": 1.37
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "10-hunt-street-norwalk-connecticut-24166664",
-     "addr": "10 Hunt Street",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1858.0,
-     "price": 1608000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-15",
-     "ppsf": 865,
-     "mi": 0.18
-    },
-    {
-     "slug": "9-clifford-street-norwalk-connecticut-24167540",
-     "addr": "9 Clifford Street",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1627.0,
-     "price": 1425000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-02",
-     "ppsf": 876,
-     "mi": 0.19
-    },
-    {
-     "slug": "7-thomes-street-norwalk-connecticut-24163267",
-     "addr": "7 Thomes Street",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1940.0,
-     "price": 2000000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-20",
-     "ppsf": 1031,
-     "mi": 0.27
-    },
-    {
-     "slug": "9-arnold-lane-norwalk-connecticut-24148191",
-     "addr": "9 Arnold Lane",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 2264.0,
-     "price": 1100700.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-06",
-     "ppsf": 486,
-     "mi": 0.39
-    },
-    {
-     "slug": "26-flicker-lane-norwalk-connecticut-24167420",
-     "addr": "26 Flicker Lane",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1408.0,
-     "price": 2000000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-22",
-     "ppsf": 1420,
-     "mi": 0.69
-    },
-    {
-     "slug": "16-possum-lane-norwalk-connecticut-24153239",
-     "addr": "16 Possum Lane",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1736.0,
-     "price": 776000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-28",
-     "ppsf": 447,
-     "mi": 0.72
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 776000.0,
-    "high": 2000000.0,
-    "median": 1516500
+ "comps": [
+  {
+   "mls": "24156670",
+   "slug": "25-lakeside-avenue-darien-connecticut-24156670",
+   "address": {
+    "line": "25 Lakeside Avenue",
+    "unit": null,
+    "lineWithUnit": "25 Lakeside Avenue",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1292.0,
+   "price": 1700000.0,
+   "date": "2026-06-17",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.07963,
+    "lng": -73.473052
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.15495352014693,
+   "ppsf": 1315.7894736842106
+  },
+  {
+   "mls": "24157009",
+   "slug": "171-raymond-street-darien-connecticut-24157009",
+   "address": {
+    "line": "171 Raymond Street",
+    "unit": null,
+    "lineWithUnit": "171 Raymond Street",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1596.0,
+   "price": 1646000.0,
+   "date": "2026-04-09",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.085039,
+    "lng": -73.451571
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.2524683436649504,
+   "ppsf": 1031.328320802005
+  },
+  {
+   "mls": "24164422",
+   "slug": "14-henry-street-darien-connecticut-24164422",
+   "address": {
+    "line": "14 Henry Street",
+    "unit": null,
+    "lineWithUnit": "14 Henry Street",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1493.0,
+   "price": 1275000.0,
+   "date": "2026-06-04",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.071979,
+    "lng": -73.500194
+   },
+   "klass": "house",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 4.344168933246226,
+   "ppsf": 853.9852645679839
+  },
+  {
+   "mls": "24156259",
+   "slug": "15-charles-street-darien-connecticut-24156259",
+   "address": {
+    "line": "15 Charles Street",
+    "unit": null,
+    "lineWithUnit": "15 Charles Street",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 3.0,
+   "baths": 1.0,
+   "sqft": 1742.0,
+   "price": 1395000.0,
+   "date": "2026-07-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.07125,
+    "lng": -73.500885
+   },
+   "klass": "house",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 4.406972148038633,
+   "ppsf": 800.8036739380022
+  },
+  {
+   "mls": "24158007",
+   "slug": "16-fairfield-avenue-darien-connecticut-24158007",
+   "address": {
+    "line": "16 Fairfield Avenue",
+    "unit": null,
+    "lineWithUnit": "16 Fairfield Avenue",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1390.0,
+   "price": 1500000.0,
+   "date": "2026-05-29",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.072587,
+    "lng": -73.488001
+   },
+   "klass": "house",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 3.3199442272600206,
+   "ppsf": 1079.136690647482
   }
- }
+ ]
 }

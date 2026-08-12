@@ -127,101 +127,141 @@
    "mi": 1.37
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "67-avery-street-stamford-connecticut-24158765",
-     "addr": "67 Avery Street",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 1.0,
-     "sqft": 1314.0,
-     "price": 3300.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-01",
-     "ppsf": 3,
-     "mi": 0.16
-    },
-    {
-     "slug": "88-horton-street-stamford-connecticut-24135566",
-     "addr": "88 Horton Street Unit 1st floor",
-     "unit": "Unit 1st floor",
-     "beds": 3.0,
-     "baths": 1.0,
-     "sqft": 1364.0,
-     "price": 3800.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-25",
-     "ppsf": 3,
-     "mi": 0.17
-    },
-    {
-     "slug": "85-avery-street-stamford-connecticut-24162907",
-     "addr": "85 Avery Street Unit 2nd Floor",
-     "unit": "Unit 2nd Floor",
-     "beds": 3.0,
-     "baths": 1.0,
-     "sqft": 1792.0,
-     "price": 3300.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-13",
-     "ppsf": 2,
-     "mi": 0.19
-    },
-    {
-     "slug": "85-avery-street-stamford-connecticut-24162916",
-     "addr": "85 Avery Street Unit 1st Floor & Basement",
-     "unit": "Unit 1st Floor & Basement",
-     "beds": 3.0,
-     "baths": 1.0,
-     "sqft": 1792.0,
-     "price": 4000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-13",
-     "ppsf": 2,
-     "mi": 0.19
-    },
-    {
-     "slug": "57-dean-street-stamford-connecticut-24156121",
-     "addr": "57 Dean Street Unit 4",
-     "unit": "Unit 4",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1766.0,
-     "price": 3600.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-22",
-     "ppsf": 2,
-     "mi": 0.2
-    },
-    {
-     "slug": "271-seaside-avenue-stamford-connecticut-24156599",
-     "addr": "271 Seaside Avenue Unit A",
-     "unit": "Unit A",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1500.0,
-     "price": 3600.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-09",
-     "ppsf": 2,
-     "mi": 0.21
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 3300.0,
-    "high": 4000.0,
-    "median": 3600
+ "comps": [
+  {
+   "mls": "24159211",
+   "slug": "48-lockwood-avenue-stamford-connecticut-24159211",
+   "address": {
+    "line": "48 Lockwood Avenue",
+    "unit": "Unit First Floor",
+    "lineWithUnit": "48 Lockwood Avenue Unit First Floor",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 2526.0,
+   "price": 3600.0,
+   "date": "2026-05-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.054431,
+    "lng": -73.521113
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0385026096476881,
+   "ppsf": 1.4251781472684086
+  },
+  {
+   "mls": "24168982",
+   "slug": "80-soundview-drive-stamford-connecticut-24168982",
+   "address": {
+    "line": "80 Soundview Drive",
+    "unit": null,
+    "lineWithUnit": "80 Soundview Drive",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 5.0,
+   "baths": 4.0,
+   "sqft": 3654.0,
+   "price": 16000.0,
+   "date": "2026-06-23",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.040604,
+    "lng": -73.51299
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7913937160898923,
+   "ppsf": 4.378762999452655
+  },
+  {
+   "mls": "24180052",
+   "slug": "130-forest-street-stamford-connecticut-24180052",
+   "address": {
+    "line": "130 Forest Street",
+    "unit": "Unit 130",
+    "lineWithUnit": "130 Forest Street Unit 130",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06901"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2390.0,
+   "price": 4500.0,
+   "date": "2026-06-15",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.057095,
+    "lng": -73.533
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.0100535404328577,
+   "ppsf": 1.8828451882845187
+  },
+  {
+   "mls": "24184604",
+   "slug": "82-rippowam-road-stamford-connecticut-24184604",
+   "address": {
+    "line": "82 Rippowam Road",
+    "unit": null,
+    "lineWithUnit": "82 Rippowam Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2555.0,
+   "price": 7200.0,
+   "date": "2026-07-15",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.038242,
+    "lng": -73.523575
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.4034995574208093,
+   "ppsf": 2.8180039138943247
+  },
+  {
+   "mls": "24150406",
+   "slug": "23-auldwood-road-stamford-connecticut-24150406",
+   "address": {
+    "line": "23 Auldwood Road",
+    "unit": null,
+    "lineWithUnit": "23 Auldwood Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 5.0,
+   "baths": 4.0,
+   "sqft": 2588.0,
+   "price": 35000.0,
+   "date": "2026-07-21",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.034985,
+    "lng": -73.52593
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.8081164534027903,
+   "ppsf": 13.523956723338486
   }
- }
+ ]
 }

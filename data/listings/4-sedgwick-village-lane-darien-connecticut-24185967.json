@@ -141,59 +141,87 @@
    "walk": 8
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "13-darien-close-darien-connecticut-24176908",
-     "addr": "13 Darien Close Unit 13",
-     "unit": "Unit 13",
-     "beds": 2.0,
-     "baths": 3.0,
-     "sqft": 1535.0,
-     "price": 1300000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-16",
-     "ppsf": 847,
-     "mi": 0.31
-    },
-    {
-     "slug": "30-hale-lane-darien-connecticut-24165343",
-     "addr": "30 HALE Lane Unit 30",
-     "unit": "Unit 30",
-     "beds": 2.0,
-     "baths": 3.0,
-     "sqft": 1460.0,
-     "price": 1530000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-03",
-     "ppsf": 1048,
-     "mi": 0.6
-    },
-    {
-     "slug": "50-hale-lane-darien-connecticut-24174303",
-     "addr": "50 Hale Lane Unit 50",
-     "unit": "Unit 50",
-     "beds": 2.0,
-     "baths": 3.0,
-     "sqft": 1460.0,
-     "price": 1900000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-10",
-     "ppsf": 1301,
-     "mi": 0.67
-    }
-   ],
-   "summary": {
-    "n": 3,
-    "low": 1300000.0,
-    "high": 1900000.0,
-    "median": 1530000
+ "comps": [
+  {
+   "mls": "24174303",
+   "slug": "50-hale-lane-darien-connecticut-24174303",
+   "address": {
+    "line": "50 Hale Lane",
+    "unit": "Unit 50",
+    "lineWithUnit": "50 Hale Lane Unit 50",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 1460.0,
+   "price": 1900000.0,
+   "date": "2026-06-10",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.073871,
+    "lng": -73.477773
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0790106405700066,
+   "ppsf": 1301.3698630136987
+  },
+  {
+   "mls": "24165343",
+   "slug": "30-hale-lane-darien-connecticut-24165343",
+   "address": {
+    "line": "30 HALE Lane",
+    "unit": "Unit 30",
+    "lineWithUnit": "30 HALE Lane Unit 30",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 1460.0,
+   "price": 1530000.0,
+   "date": "2026-06-03",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.073812,
+    "lng": -73.476187
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9714762971665564,
+   "ppsf": 1047.945205479452
+  },
+  {
+   "mls": "24176908",
+   "slug": "13-darien-close-darien-connecticut-24176908",
+   "address": {
+    "line": "13 Darien Close",
+    "unit": "Unit 13",
+    "lineWithUnit": "13 Darien Close Unit 13",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 1535.0,
+   "price": 1300000.0,
+   "date": "2026-07-16",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.082642,
+    "lng": -73.4635
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.4985352900081607,
+   "ppsf": 846.9055374592834
   }
- }
+ ]
 }

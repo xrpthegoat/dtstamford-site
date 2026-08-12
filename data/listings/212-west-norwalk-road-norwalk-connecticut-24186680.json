@@ -128,99 +128,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "2-rising-road-norwalk-connecticut-24172973",
-     "addr": "2 Rising Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2660.0,
-     "price": 1025000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-31",
-     "ppsf": 385,
-     "mi": 0.21
-    },
-    {
-     "slug": "49-weed-avenue-norwalk-connecticut-24172799",
-     "addr": "49 Weed Avenue",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 3190.0,
-     "price": 1750000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-10",
-     "ppsf": 549,
-     "mi": 0.53
-    },
-    {
-     "slug": "63-dorchester-road-darien-connecticut-24129820",
-     "addr": "63 Dorchester Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 5.0,
-     "sqft": 3470.0,
-     "price": 3500000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-12",
-     "ppsf": 1009,
-     "mi": 0.58
-    },
-    {
-     "slug": "7-gray-squirrel-drive-norwalk-connecticut-24161013",
-     "addr": "7 Gray Squirrel Drive",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 2439.0,
-     "price": 1165000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-03",
-     "ppsf": 478,
-     "mi": 0.73
-    },
-    {
-     "slug": "norwalk-connecticut-24162615",
-     "addr": null,
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2660.0,
-     "price": 949000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 357,
-     "mi": 0.49
-    },
-    {
-     "slug": "9-geneva-road-norwalk-connecticut-24191270",
-     "addr": "9 Geneva Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 3904.0,
-     "price": 1275000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 327,
-     "mi": 0.67
-    }
-   ],
-   "summary": {
-    "n": 4,
-    "low": 1025000.0,
-    "high": 3500000.0,
-    "median": 1457500
+ "comps": [
+  {
+   "mls": "24172328",
+   "slug": "196-west-norwalk-road-norwalk-connecticut-24172328",
+   "address": {
+    "line": "196 West Norwalk Road",
+    "unit": null,
+    "lineWithUnit": "196 West Norwalk Road",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 3960.0,
+   "price": 1675000.0,
+   "date": "2026-07-01",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.110785,
+    "lng": -73.463979
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.338583214514007,
+   "ppsf": 422.979797979798
+  },
+  {
+   "mls": "24172799",
+   "slug": "49-weed-avenue-norwalk-connecticut-24172799",
+   "address": {
+    "line": "49 Weed Avenue",
+    "unit": null,
+    "lineWithUnit": "49 Weed Avenue",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 3190.0,
+   "price": 1750000.0,
+   "date": "2026-07-10",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.12041,
+    "lng": -73.461527
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8510321879428766,
+   "ppsf": 548.58934169279
+  },
+  {
+   "mls": "24172973",
+   "slug": "2-rising-road-norwalk-connecticut-24172973",
+   "address": {
+    "line": "2 Rising Road",
+    "unit": null,
+    "lineWithUnit": "2 Rising Road",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2660.0,
+   "price": 1025000.0,
+   "date": "2026-07-31",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.110439,
+    "lng": -73.465089
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.34453858071242244,
+   "ppsf": 385.3383458646617
+  },
+  {
+   "mls": "24131002",
+   "slug": "150-fillow-street-norwalk-connecticut-24131002",
+   "address": {
+    "line": "150 Fillow Street",
+    "unit": null,
+    "lineWithUnit": "150 Fillow Street",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 4.0,
+   "baths": 2.0,
+   "sqft": 2602.0,
+   "price": 795000.0,
+   "date": "2026-04-01",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.119642,
+    "lng": -73.441027
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.189291838119085,
+   "ppsf": 305.5342044581092
+  },
+  {
+   "mls": "24152824",
+   "slug": "37-glen-avenue-norwalk-connecticut-24152824",
+   "address": {
+    "line": "37 Glen Avenue",
+    "unit": null,
+    "lineWithUnit": "37 Glen Avenue",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 2929.0,
+   "price": 805000.0,
+   "date": "2026-03-16",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.12993,
+    "lng": -73.451546
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.1862752775462235,
+   "ppsf": 274.8378286104473
   }
- }
+ ]
 }

@@ -125,45 +125,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "43-river-street-new-canaan-connecticut-24184420",
-     "addr": "43 River Street",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 1679.0,
-     "price": 5900.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-06",
-     "ppsf": 4,
-     "mi": 0.46
-    },
-    {
-     "slug": "90-lambert-road-new-canaan-connecticut-24167712",
-     "addr": "90 Lambert Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 3989.0,
-     "price": 25000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-20",
-     "ppsf": 6,
-     "mi": 0.55
-    }
-   ],
-   "summary": {
-    "n": 2,
-    "low": 5900.0,
-    "high": 25000.0,
-    "median": 15450
+ "comps": [
+  {
+   "mls": "24182000",
+   "slug": "129-park-street-new-canaan-connecticut-24182000",
+   "address": {
+    "line": "129 Park Street",
+    "unit": null,
+    "lineWithUnit": "129 Park Street",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 3058.0,
+   "price": 6950.0,
+   "date": "2026-08-04",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.144875,
+    "lng": -73.49547
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1865374239062272,
+   "ppsf": 2.272727272727273
+  },
+  {
+   "mls": "24167712",
+   "slug": "90-lambert-road-new-canaan-connecticut-24167712",
+   "address": {
+    "line": "90 Lambert Road",
+    "unit": null,
+    "lineWithUnit": "90 Lambert Road",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 3989.0,
+   "price": 25000.0,
+   "date": "2026-05-20",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.16207,
+    "lng": -73.5038
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8795465673225286,
+   "ppsf": 6.267234895963901
+  },
+  {
+   "mls": "24153334",
+   "slug": "40-church-street-new-canaan-connecticut-24153334",
+   "address": {
+    "line": "40 Church Street",
+    "unit": null,
+    "lineWithUnit": "40 Church Street",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 3.0,
+   "baths": 4.0,
+   "sqft": 2804.0,
+   "price": 9500.0,
+   "date": "2026-04-15",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.143158,
+    "lng": -73.49032
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.5094688100040907,
+   "ppsf": 3.3880171184022823
+  },
+  {
+   "mls": "24164565",
+   "slug": "50-oak-street-new-canaan-connecticut-24164565",
+   "address": {
+    "line": "50 Oak Street",
+    "unit": null,
+    "lineWithUnit": "50 Oak Street",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 3000.0,
+   "price": 9500.0,
+   "date": "2026-04-25",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.1414,
+    "lng": -73.48917
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.7273821385427182,
+   "ppsf": 3.1666666666666665
+  },
+  {
+   "mls": "24174715",
+   "slug": "141-park-street-new-canaan-connecticut-24174715",
+   "address": {
+    "line": "141 Park Street",
+    "unit": null,
+    "lineWithUnit": "141 Park Street",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 5.0,
+   "baths": 5.0,
+   "sqft": 3783.0,
+   "price": 17250.0,
+   "date": "2026-05-29",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.14453,
+    "lng": -73.4953
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.226985244712188,
+   "ppsf": 4.559873116574147
   }
- }
+ ]
 }

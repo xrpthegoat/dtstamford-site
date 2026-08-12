@@ -128,101 +128,141 @@
    "mi": 1.5
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "188-compo-road-south-westport-connecticut-24155993",
-     "addr": "188 Compo Road South",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 4.0,
-     "sqft": 3090.0,
-     "price": 10750.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-21",
-     "ppsf": 3,
-     "mi": 0.35
-    },
-    {
-     "slug": "26-high-street-westport-connecticut-24182493",
-     "addr": "26 High Street",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1440.0,
-     "price": 6350.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-01",
-     "ppsf": 4,
-     "mi": 0.46
-    },
-    {
-     "slug": "8-sherwood-drive-westport-connecticut-24185793",
-     "addr": "8 Sherwood Drive",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 2734.0,
-     "price": 8900.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-09",
-     "ppsf": 3,
-     "mi": 0.66
-    },
-    {
-     "slug": "19-bluewater-hill-westport-connecticut-24088536",
-     "addr": "19 Bluewater Hill",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 3066.0,
-     "price": 33541.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-15",
-     "ppsf": 11,
-     "mi": 0.69
-    },
-    {
-     "slug": "200-hillspoint-road-westport-connecticut-24167029",
-     "addr": "200 Hillspoint Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 2762.0,
-     "price": 35000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-01",
-     "ppsf": 13,
-     "mi": 0.72
-    },
-    {
-     "slug": "199-hillspoint-road-westport-connecticut-24165861",
-     "addr": "199 Hillspoint Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1920.0,
-     "price": 16000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-24",
-     "ppsf": 8,
-     "mi": 0.74
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 6350.0,
-    "high": 35000.0,
-    "median": 13375
+ "comps": [
+  {
+   "mls": "24088536",
+   "slug": "19-bluewater-hill-westport-connecticut-24088536",
+   "address": {
+    "line": "19 Bluewater Hill",
+    "unit": null,
+    "lineWithUnit": "19 Bluewater Hill",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 3066.0,
+   "price": 33541.0,
+   "date": "2026-04-15",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.112705,
+    "lng": -73.34854
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1132816965297079,
+   "ppsf": 10.93966079582518
+  },
+  {
+   "mls": "24167029",
+   "slug": "200-hillspoint-road-westport-connecticut-24167029",
+   "address": {
+    "line": "200 Hillspoint Road",
+    "unit": null,
+    "lineWithUnit": "200 Hillspoint Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2762.0,
+   "price": 35000.0,
+   "date": "2026-06-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.11501,
+    "lng": -73.34653
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.153643110962614,
+   "ppsf": 12.671976828385228
+  },
+  {
+   "mls": "24155993",
+   "slug": "188-compo-road-south-westport-connecticut-24155993",
+   "address": {
+    "line": "188 Compo Road South",
+    "unit": null,
+    "lineWithUnit": "188 Compo Road South",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 3.0,
+   "baths": 4.0,
+   "sqft": 3090.0,
+   "price": 10750.0,
+   "date": "2026-04-21",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.123113,
+    "lng": -73.361581
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5669494918708985,
+   "ppsf": 3.4789644012944985
+  },
+  {
+   "mls": "24165305",
+   "slug": "7-nappa-drive-westport-connecticut-24165305",
+   "address": {
+    "line": "7 Nappa Drive",
+    "unit": null,
+    "lineWithUnit": "7 Nappa Drive",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2904.0,
+   "price": 12000.0,
+   "date": "2026-05-27",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.128265,
+    "lng": -73.35576
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1614196314641048,
+   "ppsf": 4.132231404958677
+  },
+  {
+   "mls": "24165861",
+   "slug": "199-hillspoint-road-westport-connecticut-24165861",
+   "address": {
+    "line": "199 Hillspoint Road",
+    "unit": null,
+    "lineWithUnit": "199 Hillspoint Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1920.0,
+   "price": 16000.0,
+   "date": "2026-04-24",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.115047,
+    "lng": -73.34607
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.189098985893886,
+   "ppsf": 8.333333333333334
   }
- }
+ ]
 }

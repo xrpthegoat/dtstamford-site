@@ -130,58 +130,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "117-whipstick-road-wilton-connecticut-24166495",
-     "addr": "117 Whipstick Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2677.0,
-     "price": 1505000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-11",
-     "ppsf": 562,
-     "mi": 0.21
-    },
-    {
-     "slug": "31-longmeadows-road-wilton-connecticut-24160141",
-     "addr": "31 Longmeadows Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2172.0,
-     "price": 1030000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-15",
-     "ppsf": 474,
-     "mi": 0.46
-    },
-    {
-     "slug": "35-hickory-hill-road-wilton-connecticut-24189488",
-     "addr": "35 Hickory Hill Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 3755.0,
-     "price": 1849000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 492,
-     "mi": 0.65
-    }
-   ],
-   "summary": {
-    "n": 2,
-    "low": 1030000.0,
-    "high": 1505000.0,
-    "median": 1267500
+ "comps": [
+  {
+   "mls": "24160141",
+   "slug": "31-longmeadows-road-wilton-connecticut-24160141",
+   "address": {
+    "line": "31 Longmeadows Road",
+    "unit": null,
+    "lineWithUnit": "31 Longmeadows Road",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2172.0,
+   "price": 1030000.0,
+   "date": "2026-06-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.237092,
+    "lng": -73.476638
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7354882244956249,
+   "ppsf": 474.2173112338858
+  },
+  {
+   "mls": "24155296",
+   "slug": "51-deer-run-road-wilton-connecticut-24155296",
+   "address": {
+    "line": "51 Deer Run Road",
+    "unit": null,
+    "lineWithUnit": "51 Deer Run Road",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2674.0,
+   "price": 1135000.0,
+   "date": "2026-04-29",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.247638,
+    "lng": -73.472682
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 0.6632135569016336,
+   "ppsf": 424.4577412116679
+  },
+  {
+   "mls": "24166495",
+   "slug": "117-whipstick-road-wilton-connecticut-24166495",
+   "address": {
+    "line": "117 Whipstick Road",
+    "unit": null,
+    "lineWithUnit": "117 Whipstick Road",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2677.0,
+   "price": 1505000.0,
+   "date": "2026-05-11",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.243233,
+    "lng": -73.46701
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 0.33383565384139385,
+   "ppsf": 562.1964886066493
+  },
+  {
+   "mls": "24152011",
+   "slug": "126-heather-lane-wilton-connecticut-24152011",
+   "address": {
+    "line": "126 Heather Lane",
+    "unit": null,
+    "lineWithUnit": "126 Heather Lane",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1844.0,
+   "price": 875000.0,
+   "date": "2026-03-16",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.179882,
+    "lng": -73.39714
+   },
+   "klass": "house",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 9.234465819464104,
+   "ppsf": 474.5119305856833
+  },
+  {
+   "mls": "24155941",
+   "slug": "221-catalpa-road-wilton-connecticut-24155941",
+   "address": {
+    "line": "221 Catalpa Road",
+    "unit": null,
+    "lineWithUnit": "221 Catalpa Road",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2520.0,
+   "price": 1310000.0,
+   "date": "2026-06-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.214138,
+    "lng": -73.443744
+   },
+   "klass": "house",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 3.8153580601907753,
+   "ppsf": 519.8412698412699
   }
- }
+ ]
 }

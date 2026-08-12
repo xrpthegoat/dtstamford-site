@@ -129,86 +129,141 @@
    "mi": 1.3
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "8-mayflower-road-norwalk-connecticut-24181729",
-     "addr": "8 Mayflower Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 3010.0,
-     "price": 760000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-07",
-     "ppsf": 252,
-     "mi": 0.34
-    },
-    {
-     "slug": "4-nursery-street-norwalk-connecticut-24149822",
-     "addr": "4 Nursery Street",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 4.0,
-     "sqft": 5480.0,
-     "price": 1200000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-28",
-     "ppsf": 219,
-     "mi": 0.44
-    },
-    {
-     "slug": "37-glen-avenue-norwalk-connecticut-24152824",
-     "addr": "37 Glen Avenue",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 2929.0,
-     "price": 805000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-16",
-     "ppsf": 275,
-     "mi": 0.58
-    },
-    {
-     "slug": "15-forbell-drive-norwalk-connecticut-24184210",
-     "addr": "15 Forbell Drive",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1955.0,
-     "price": 855000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-24",
-     "ppsf": 437,
-     "mi": 0.63
-    },
-    {
-     "slug": "76-comstock-hill-road-new-canaan-connecticut-24192934",
-     "addr": "76 Comstock Hill Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 3688.0,
-     "price": 1795000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 487,
-     "mi": 0.71
-    }
-   ],
-   "summary": {
-    "n": 4,
-    "low": 760000.0,
-    "high": 1200000.0,
-    "median": 830000
+ "comps": [
+  {
+   "mls": "24144110",
+   "slug": "300-buttery-road-norwalk-connecticut-24144110",
+   "address": {
+    "line": "300 Buttery Road",
+    "unit": null,
+    "lineWithUnit": "300 Buttery Road",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2926.0,
+   "price": 1096100.0,
+   "date": "2026-03-16",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.144909,
+    "lng": -73.451989
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7500174827885944,
+   "ppsf": 374.60697197539304
+  },
+  {
+   "mls": "24152824",
+   "slug": "37-glen-avenue-norwalk-connecticut-24152824",
+   "address": {
+    "line": "37 Glen Avenue",
+    "unit": null,
+    "lineWithUnit": "37 Glen Avenue",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 2929.0,
+   "price": 805000.0,
+   "date": "2026-03-16",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.12993,
+    "lng": -73.451546
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9286275746983889,
+   "ppsf": 274.8378286104473
+  },
+  {
+   "mls": "24181729",
+   "slug": "8-mayflower-road-norwalk-connecticut-24181729",
+   "address": {
+    "line": "8 Mayflower Road",
+    "unit": null,
+    "lineWithUnit": "8 Mayflower Road",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 3010.0,
+   "price": 760000.0,
+   "date": "2026-08-07",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.142847,
+    "lng": -73.453003
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5503432441113718,
+   "ppsf": 252.49169435215947
+  },
+  {
+   "mls": "24168706",
+   "slug": "32-styles-lane-norwalk-connecticut-24168706",
+   "address": {
+    "line": "32 Styles Lane",
+    "unit": null,
+    "lineWithUnit": "32 Styles Lane",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2848.0,
+   "price": 900000.0,
+   "date": "2026-07-16",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.128702,
+    "lng": -73.44705
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.101772928842917,
+   "ppsf": 316.0112359550562
+  },
+  {
+   "mls": "24131002",
+   "slug": "150-fillow-street-norwalk-connecticut-24131002",
+   "address": {
+    "line": "150 Fillow Street",
+    "unit": null,
+    "lineWithUnit": "150 Fillow Street",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 4.0,
+   "baths": 2.0,
+   "sqft": 2602.0,
+   "price": 795000.0,
+   "date": "2026-04-01",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.119642,
+    "lng": -73.441027
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.218052689618826,
+   "ppsf": 305.5342044581092
   }
- }
+ ]
 }

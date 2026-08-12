@@ -129,57 +129,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "176-carter-street-new-canaan-connecticut-24173413",
-     "addr": "176 Carter Street",
-     "unit": "",
-     "beds": 6.0,
-     "baths": 6.0,
-     "sqft": 4158.0,
-     "price": 2805000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-22",
-     "ppsf": 675,
-     "mi": 0.28
-    },
-    {
-     "slug": "140-stoneleigh-road-new-canaan-connecticut-24167662",
-     "addr": "140 Stoneleigh Road",
-     "unit": "",
-     "beds": 6.0,
-     "baths": 10.0,
-     "sqft": 10143.0,
-     "price": 5995000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 591,
-     "mi": 0.41
-    },
-    {
-     "slug": "80-90-comstock-hill-road-norwalk-connecticut-24163781",
-     "addr": "80-90 Comstock Hill Road",
-     "unit": "",
-     "beds": 6.0,
-     "baths": 6.0,
-     "sqft": 25115.0,
-     "price": 4500000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 179,
-     "mi": 0.75
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 2805000.0,
-    "high": 2805000.0,
-    "median": 2805000
+ "comps": [
+  {
+   "mls": "24173413",
+   "slug": "176-carter-street-new-canaan-connecticut-24173413",
+   "address": {
+    "line": "176 Carter Street",
+    "unit": null,
+    "lineWithUnit": "176 Carter Street",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
    },
-   "radiusMi": 0.75
+   "beds": 6.0,
+   "baths": 6.0,
+   "sqft": 4158.0,
+   "price": 2805000.0,
+   "date": "2026-06-22",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.152066,
+    "lng": -73.471282
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.45719029049540627,
+   "ppsf": 674.6031746031746
+  },
+  {
+   "mls": "24160505",
+   "slug": "27-raymond-street-new-canaan-connecticut-24160505",
+   "address": {
+    "line": "27 Raymond Street",
+    "unit": null,
+    "lineWithUnit": "27 Raymond Street",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 6.0,
+   "baths": 7.0,
+   "sqft": 5456.0,
+   "price": 3350000.0,
+   "date": "2026-06-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.146444,
+    "lng": -73.489569
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.9077927386285707,
+   "ppsf": 614.0029325513196
+  },
+  {
+   "mls": "24170801",
+   "slug": "33-village-drive-new-canaan-connecticut-24170801",
+   "address": {
+    "line": "33 Village Drive",
+    "unit": null,
+    "lineWithUnit": "33 Village Drive",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 5.0,
+   "baths": 3.0,
+   "sqft": 3109.0,
+   "price": 2300000.0,
+   "date": "2026-07-10",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.13473,
+    "lng": -73.48532
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.2321171750949786,
+   "ppsf": 739.787713091026
+  },
+  {
+   "mls": "24169054",
+   "slug": "224-marvin-ridge-road-new-canaan-connecticut-24169054",
+   "address": {
+    "line": "224 Marvin Ridge Road",
+    "unit": null,
+    "lineWithUnit": "224 Marvin Ridge Road",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 3122.0,
+   "price": 1450000.0,
+   "date": "2026-06-18",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.130094,
+    "lng": -73.466615
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.147154043152703,
+   "ppsf": 464.44586803331197
+  },
+  {
+   "mls": "24140410",
+   "slug": "42-sturbridge-hill-road-new-canaan-connecticut-24140410",
+   "address": {
+    "line": "42 Sturbridge Hill Road",
+    "unit": null,
+    "lineWithUnit": "42 Sturbridge Hill Road",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 6.0,
+   "baths": 5.0,
+   "sqft": 4085.0,
+   "price": 2275000.0,
+   "date": "2026-04-10",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.157172,
+    "lng": -73.481572
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.4865748796239848,
+   "ppsf": 556.9155446756426
   }
- }
+ ]
 }

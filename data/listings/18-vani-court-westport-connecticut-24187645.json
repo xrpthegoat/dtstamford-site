@@ -135,101 +135,141 @@
    "mi": 1.31
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "186-compo-road-south-westport-connecticut-24178015",
-     "addr": "186 Compo Road South",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 4.0,
-     "sqft": 2047.0,
-     "price": 1700000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-18",
-     "ppsf": 830,
-     "mi": 0.28
-    },
-    {
-     "slug": "170-imperial-avenue-westport-connecticut-24170051",
-     "addr": "170 Imperial Avenue",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 2640.0,
-     "price": 1350000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-20",
-     "ppsf": 511,
-     "mi": 0.37
-    },
-    {
-     "slug": "462-riverside-avenue-westport-connecticut-24156927",
-     "addr": "462 Riverside Avenue",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 2235.0,
-     "price": 1900000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-10",
-     "ppsf": 850,
-     "mi": 0.58
-    },
-    {
-     "slug": "11-hale-street-westport-connecticut-24169608",
-     "addr": "11 Hale Street",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1578.0,
-     "price": 710000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-04",
-     "ppsf": 450,
-     "mi": 0.6
-    },
-    {
-     "slug": "7-hale-street-westport-connecticut-24153798",
-     "addr": "7 Hale Street",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1882.0,
-     "price": 1105000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-20",
-     "ppsf": 587,
-     "mi": 0.61
-    },
-    {
-     "slug": "4-davenport-avenue-westport-connecticut-24166299",
-     "addr": "4 Davenport Avenue",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1770.0,
-     "price": 1351175.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-06",
-     "ppsf": 763,
-     "mi": 0.65
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 710000.0,
-    "high": 1900000.0,
-    "median": 1350588
+ "comps": [
+  {
+   "mls": "24151653",
+   "slug": "23-bridge-street-westport-connecticut-24151653",
+   "address": {
+    "line": "23 Bridge Street",
+    "unit": null,
+    "lineWithUnit": "23 Bridge Street",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2622.0,
+   "price": 1058500.0,
+   "date": "2026-03-27",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.124076,
+    "lng": -73.364386
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.4771753204552038,
+   "ppsf": 403.6994660564455
+  },
+  {
+   "mls": "24178015",
+   "slug": "186-compo-road-south-westport-connecticut-24178015",
+   "address": {
+    "line": "186 Compo Road South",
+    "unit": null,
+    "lineWithUnit": "186 Compo Road South",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 3.0,
+   "baths": 4.0,
+   "sqft": 2047.0,
+   "price": 1700000.0,
+   "date": "2026-06-18",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.123398,
+    "lng": -73.361429
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.45628040120783747,
+   "ppsf": 830.4836345872008
+  },
+  {
+   "mls": "24166299",
+   "slug": "4-davenport-avenue-westport-connecticut-24166299",
+   "address": {
+    "line": "4 Davenport Avenue",
+    "unit": null,
+    "lineWithUnit": "4 Davenport Avenue",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1770.0,
+   "price": 1351175.0,
+   "date": "2026-07-06",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.118628,
+    "lng": -73.376483
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0510913263638186,
+   "ppsf": 763.3757062146892
+  },
+  {
+   "mls": "24153798",
+   "slug": "7-hale-street-westport-connecticut-24153798",
+   "address": {
+    "line": "7 Hale Street",
+    "unit": null,
+    "lineWithUnit": "7 Hale Street",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1882.0,
+   "price": 1105000.0,
+   "date": "2026-05-20",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.125043,
+    "lng": -73.354591
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9828763861665437,
+   "ppsf": 587.1413390010626
+  },
+  {
+   "mls": "24156927",
+   "slug": "462-riverside-avenue-westport-connecticut-24156927",
+   "address": {
+    "line": "462 Riverside Avenue",
+    "unit": null,
+    "lineWithUnit": "462 Riverside Avenue",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2235.0,
+   "price": 1900000.0,
+   "date": "2026-06-10",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.125164,
+    "lng": -73.37261
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9343876735528135,
+   "ppsf": 850.1118568232662
   }
- }
+ ]
 }

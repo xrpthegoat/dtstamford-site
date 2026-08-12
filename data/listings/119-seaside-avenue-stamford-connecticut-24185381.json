@@ -128,86 +128,141 @@
    "mi": 1.21
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "28-hearthstone-court-stamford-connecticut-24168367",
-     "addr": "28 Hearthstone Court",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 1.0,
-     "sqft": 1196.0,
-     "price": 3500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-09",
-     "ppsf": 3,
-     "mi": 0.18
-    },
-    {
-     "slug": "69-weed-avenue-stamford-connecticut-24167439",
-     "addr": "69 Weed Avenue",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 3212.0,
-     "price": 8500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-05",
-     "ppsf": 3,
-     "mi": 0.29
-    },
-    {
-     "slug": "30-dora-street-stamford-connecticut-24180944",
-     "addr": "30 Dora Street",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 2.0,
-     "sqft": 1800.0,
-     "price": 4950.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-11",
-     "ppsf": 3,
-     "mi": 0.35
-    },
-    {
-     "slug": "19-weeds-landing-darien-connecticut-24181057",
-     "addr": "19 Weeds Landing",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 5.0,
-     "sqft": 4117.0,
-     "price": 37500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-16",
-     "ppsf": 9,
-     "mi": 0.51
-    },
-    {
-     "slug": "5-oakland-terrace-darien-connecticut-24193628",
-     "addr": "5 Oakland Terrace",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2064.0,
-     "price": 8200.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 4,
-     "mi": 0.42
-    }
-   ],
-   "summary": {
-    "n": 4,
-    "low": 3500.0,
-    "high": 37500.0,
-    "median": 6725
+ "comps": [
+  {
+   "mls": "24159211",
+   "slug": "48-lockwood-avenue-stamford-connecticut-24159211",
+   "address": {
+    "line": "48 Lockwood Avenue",
+    "unit": "Unit First Floor",
+    "lineWithUnit": "48 Lockwood Avenue Unit First Floor",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 2526.0,
+   "price": 3600.0,
+   "date": "2026-05-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.054431,
+    "lng": -73.521113
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9311257264782872,
+   "ppsf": 1.4251781472684086
+  },
+  {
+   "mls": "24167439",
+   "slug": "69-weed-avenue-stamford-connecticut-24167439",
+   "address": {
+    "line": "69 Weed Avenue",
+    "unit": null,
+    "lineWithUnit": "69 Weed Avenue",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 3212.0,
+   "price": 8500.0,
+   "date": "2026-05-05",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.05848,
+    "lng": -73.507238
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.4696627600584138,
+   "ppsf": 2.6463262764632627
+  },
+  {
+   "mls": "24161103",
+   "slug": "57-scofield-avenue-stamford-connecticut-24161103",
+   "address": {
+    "line": "57 Scofield Avenue",
+    "unit": null,
+    "lineWithUnit": "57 Scofield Avenue",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06906"
+   },
+   "beds": 3.0,
+   "baths": 4.0,
+   "sqft": 2390.0,
+   "price": 4300.0,
+   "date": "2026-04-03",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.06888,
+    "lng": -73.524025
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.9557710930870744,
+   "ppsf": 1.799163179916318
+  },
+  {
+   "mls": "24157967",
+   "slug": "239-henry-street-stamford-connecticut-24157967",
+   "address": {
+    "line": "239 Henry Street",
+    "unit": "#3",
+    "lineWithUnit": "239 Henry Street #3",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 3.0,
+   "baths": 4.0,
+   "sqft": 1962.0,
+   "price": 6000.0,
+   "date": "2026-05-10",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.04389,
+    "lng": -73.53399
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.3485721239642685,
+   "ppsf": 3.058103975535168
+  },
+  {
+   "mls": "24180052",
+   "slug": "130-forest-street-stamford-connecticut-24180052",
+   "address": {
+    "line": "130 Forest Street",
+    "unit": "Unit 130",
+    "lineWithUnit": "130 Forest Street Unit 130",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06901"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2390.0,
+   "price": 4500.0,
+   "date": "2026-06-15",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.057095,
+    "lng": -73.533
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.943462381622686,
+   "ppsf": 1.8828451882845187
   }
- }
+ ]
 }

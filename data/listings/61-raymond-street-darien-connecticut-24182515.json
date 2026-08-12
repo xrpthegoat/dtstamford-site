@@ -133,101 +133,141 @@
    "mi": 1.34
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "64-five-mile-river-road-darien-connecticut-24167895",
-     "addr": "64 Five Mile River Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2502.0,
-     "price": 3560250.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-01",
-     "ppsf": 1423,
-     "mi": 0.4
-    },
-    {
-     "slug": "2-red-rose-circle-darien-connecticut-24156801",
-     "addr": "2 Red Rose Circle",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 3800.0,
-     "price": 2605000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-18",
-     "ppsf": 686,
-     "mi": 0.42
-    },
-    {
-     "slug": "40-arnold-lane-norwalk-connecticut-24123809",
-     "addr": "40 Arnold Lane",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 5.0,
-     "sqft": 3319.0,
-     "price": 1835000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-15",
-     "ppsf": 553,
-     "mi": 0.48
-    },
-    {
-     "slug": "370-rowayton-avenue-norwalk-connecticut-24165673",
-     "addr": "370 Rowayton Avenue",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 4064.0,
-     "price": 2500000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-15",
-     "ppsf": 615,
-     "mi": 0.48
-    },
-    {
-     "slug": "3-bittersweet-trail-norwalk-connecticut-24102013",
-     "addr": "3 Bittersweet Trail",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 5.0,
-     "sqft": 4254.0,
-     "price": 3200000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-01",
-     "ppsf": 752,
-     "mi": 0.5
-    },
-    {
-     "slug": "8-ledge-road-norwalk-connecticut-24166696",
-     "addr": "8 Ledge Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2528.0,
-     "price": 1900000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-03",
-     "ppsf": 752,
-     "mi": 0.53
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 1835000.0,
-    "high": 3560250.0,
-    "median": 2552500
+ "comps": [
+  {
+   "mls": "24167895",
+   "slug": "64-five-mile-river-road-darien-connecticut-24167895",
+   "address": {
+    "line": "64 Five Mile River Road",
+    "unit": null,
+    "lineWithUnit": "64 Five Mile River Road",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2502.0,
+   "price": 3560250.0,
+   "date": "2026-07-01",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.070509,
+    "lng": -73.446818
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6369320981656892,
+   "ppsf": 1422.9616306954435
+  },
+  {
+   "mls": "24157009",
+   "slug": "171-raymond-street-darien-connecticut-24157009",
+   "address": {
+    "line": "171 Raymond Street",
+    "unit": null,
+    "lineWithUnit": "171 Raymond Street",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1596.0,
+   "price": 1646000.0,
+   "date": "2026-04-09",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.085039,
+    "lng": -73.451571
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0271629276651069,
+   "ppsf": 1031.328320802005
+  },
+  {
+   "mls": "24160382",
+   "slug": "128-five-mile-river-road-darien-connecticut-24160382",
+   "address": {
+    "line": "128 Five Mile River Road",
+    "unit": null,
+    "lineWithUnit": "128 Five Mile River Road",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 5.0,
+   "baths": 4.0,
+   "sqft": 2478.0,
+   "price": 3464000.0,
+   "date": "2026-07-16",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.06347,
+    "lng": -73.44865
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.4024048870566008,
+   "ppsf": 1397.9015334947537
+  },
+  {
+   "mls": "24141369",
+   "slug": "77-maple-street-darien-connecticut-24141369",
+   "address": {
+    "line": "77 Maple Street",
+    "unit": null,
+    "lineWithUnit": "77 Maple Street",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2180.0,
+   "price": 1600000.0,
+   "date": "2026-03-31",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.067363,
+    "lng": -73.496204
+   },
+   "klass": "house",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 4.10877200843823,
+   "ppsf": 733.9449541284404
+  },
+  {
+   "mls": "24149786",
+   "slug": "223-middlesex-road-darien-connecticut-24149786",
+   "address": {
+    "line": "223 Middlesex Road",
+    "unit": null,
+    "lineWithUnit": "223 Middlesex Road",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1840.0,
+   "price": 1540000.0,
+   "date": "2026-03-16",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.078068,
+    "lng": -73.49218
+   },
+   "klass": "house",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 3.6617925576313746,
+   "ppsf": 836.9565217391304
   }
- }
+ ]
 }

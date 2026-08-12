@@ -132,73 +132,141 @@
    "mi": 0.86
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "126-heather-lane-wilton-connecticut-24152011",
-     "addr": "126 Heather Lane",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1844.0,
-     "price": 875000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-16",
-     "ppsf": 475,
-     "mi": 0.36
-    },
-    {
-     "slug": "110-dudley-road-wilton-connecticut-24161439",
-     "addr": "110 Dudley Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 1.0,
-     "sqft": 1522.0,
-     "price": 695000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-18",
-     "ppsf": 457,
-     "mi": 0.58
-    },
-    {
-     "slug": "74-raymond-lane-wilton-connecticut-24168410",
-     "addr": "74 Raymond Lane",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 2092.0,
-     "price": 805000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-29",
-     "ppsf": 385,
-     "mi": 0.72
-    },
-    {
-     "slug": "25-cherry-lane-wilton-connecticut-24152097",
-     "addr": "25 Cherry Lane",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 2331.0,
-     "price": 1105000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-01",
-     "ppsf": 474,
-     "mi": 0.72
-    }
-   ],
-   "summary": {
-    "n": 4,
-    "low": 695000.0,
-    "high": 1105000.0,
-    "median": 840000
+ "comps": [
+  {
+   "mls": "24152011",
+   "slug": "126-heather-lane-wilton-connecticut-24152011",
+   "address": {
+    "line": "126 Heather Lane",
+    "unit": null,
+    "lineWithUnit": "126 Heather Lane",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1844.0,
+   "price": 875000.0,
+   "date": "2026-03-16",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.179882,
+    "lng": -73.39714
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.583744740170743,
+   "ppsf": 474.5119305856833
+  },
+  {
+   "mls": "24168410",
+   "slug": "74-raymond-lane-wilton-connecticut-24168410",
+   "address": {
+    "line": "74 Raymond Lane",
+    "unit": null,
+    "lineWithUnit": "74 Raymond Lane",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2092.0,
+   "price": 805000.0,
+   "date": "2026-06-29",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.187684,
+    "lng": -73.411642
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.156017779558992,
+   "ppsf": 384.79923518164435
+  },
+  {
+   "mls": "24152097",
+   "slug": "25-cherry-lane-wilton-connecticut-24152097",
+   "address": {
+    "line": "25 Cherry Lane",
+    "unit": null,
+    "lineWithUnit": "25 Cherry Lane",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2331.0,
+   "price": 1105000.0,
+   "date": "2026-06-01",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.188628,
+    "lng": -73.409495
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1631097482545538,
+   "ppsf": 474.04547404547407
+  },
+  {
+   "mls": "24180489",
+   "slug": "270-old-grumman-hill-road-wilton-connecticut-24180489",
+   "address": {
+    "line": "270 Old Grumman Hill Road",
+    "unit": null,
+    "lineWithUnit": "270 Old Grumman Hill Road",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 2.0,
+   "baths": 4.0,
+   "sqft": 1838.0,
+   "price": 1336000.0,
+   "date": "2026-07-16",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.174414,
+    "lng": -73.39725
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7632710810498438,
+   "ppsf": 726.8770402611534
+  },
+  {
+   "mls": "24182497",
+   "slug": "49-heather-lane-wilton-connecticut-24182497",
+   "address": {
+    "line": "49 Heather Lane",
+    "unit": null,
+    "lineWithUnit": "49 Heather Lane",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2171.0,
+   "price": 1255000.0,
+   "date": "2026-08-06",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.18466,
+    "lng": -73.398915
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7593368161339669,
+   "ppsf": 578.0746199907877
   }
- }
+ ]
 }

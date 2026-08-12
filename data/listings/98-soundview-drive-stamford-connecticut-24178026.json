@@ -131,58 +131,141 @@
    "mi": 1.57
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "22-ocean-drive-north-stamford-connecticut-24185475",
-     "addr": "22 Ocean Drive North",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 5.0,
-     "sqft": 3866.0,
-     "price": 15000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-06",
-     "ppsf": 4,
-     "mi": 0.64
-    },
-    {
-     "slug": "30-dora-street-stamford-connecticut-24180944",
-     "addr": "30 Dora Street",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 2.0,
-     "sqft": 1800.0,
-     "price": 4950.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-11",
-     "ppsf": 3,
-     "mi": 0.72
-    },
-    {
-     "slug": "64-ocean-drive-east-stamford-connecticut-24182199",
-     "addr": "64 Ocean Drive East",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 3132.0,
-     "price": 15000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 5,
-     "mi": 0.73
-    }
-   ],
-   "summary": {
-    "n": 2,
-    "low": 4950.0,
-    "high": 15000.0,
-    "median": 9975
+ "comps": [
+  {
+   "mls": "24167836",
+   "slug": "105-dean-street-stamford-connecticut-24167836",
+   "address": {
+    "line": "105 Dean Street",
+    "unit": "Unit A",
+    "lineWithUnit": "105 Dean Street Unit A",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1821.0,
+   "price": 4600.0,
+   "date": "2026-05-07",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.04527,
+    "lng": -73.50882
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6578196826816108,
+   "ppsf": 2.526084568918177
+  },
+  {
+   "mls": "24156121",
+   "slug": "57-dean-street-stamford-connecticut-24156121",
+   "address": {
+    "line": "57 Dean Street",
+    "unit": "Unit 4",
+    "lineWithUnit": "57 Dean Street Unit 4",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1766.0,
+   "price": 3600.0,
+   "date": "2026-05-22",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.046995,
+    "lng": -73.50881
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8279028530574609,
+   "ppsf": 2.0385050962627407
+  },
+  {
+   "mls": "24145256",
+   "slug": "48-lanell-drive-stamford-connecticut-24145256",
+   "address": {
+    "line": "48 Lanell Drive",
+    "unit": null,
+    "lineWithUnit": "48 Lanell Drive",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 2050.0,
+   "price": 5500.0,
+   "date": "2026-06-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.036078,
+    "lng": -73.525232
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.13153554522002,
+   "ppsf": 2.682926829268293
+  },
+  {
+   "mls": "24162907",
+   "slug": "85-avery-street-stamford-connecticut-24162907",
+   "address": {
+    "line": "85 Avery Street",
+    "unit": "Unit 2nd Floor",
+    "lineWithUnit": "85 Avery Street Unit 2nd Floor",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 3.0,
+   "baths": 1.0,
+   "sqft": 1792.0,
+   "price": 3300.0,
+   "date": "2026-04-13",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.045982,
+    "lng": -73.50979
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6918695494061514,
+   "ppsf": 1.8415178571428572
+  },
+  {
+   "mls": "24162916",
+   "slug": "85-avery-street-stamford-connecticut-24162916",
+   "address": {
+    "line": "85 Avery Street",
+    "unit": "Unit 1st Floor & Basement",
+    "lineWithUnit": "85 Avery Street Unit 1st Floor & Basement",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 3.0,
+   "baths": 1.0,
+   "sqft": 1792.0,
+   "price": 4000.0,
+   "date": "2026-04-13",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.045982,
+    "lng": -73.50979
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6918695494061514,
+   "ppsf": 2.232142857142857
   }
- }
+ ]
 }

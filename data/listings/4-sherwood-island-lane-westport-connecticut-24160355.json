@@ -128,58 +128,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "19-beachside-common-westport-connecticut-24158698",
-     "addr": "19 Beachside Common",
-     "unit": "",
-     "beds": 7.0,
-     "baths": 9.0,
-     "sqft": 10482.0,
-     "price": 8986000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-08",
-     "ppsf": 857,
-     "mi": 0.47
-    },
-    {
-     "slug": "249-greens-farms-road-westport-connecticut-24132302",
-     "addr": "249 Greens Farms Road",
-     "unit": "",
-     "beds": 7.0,
-     "baths": 9.0,
-     "sqft": 10104.0,
-     "price": 3480000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-16",
-     "ppsf": 344,
-     "mi": 0.52
-    },
-    {
-     "slug": "13-edgemarth-hill-road-westport-connecticut-24183173",
-     "addr": "13 Edgemarth Hill Road",
-     "unit": "",
-     "beds": 7.0,
-     "baths": 8.0,
-     "sqft": 8700.0,
-     "price": 5999999.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 690,
-     "mi": 0.75
-    }
-   ],
-   "summary": {
-    "n": 2,
-    "low": 3480000.0,
-    "high": 8986000.0,
-    "median": 6233000
+ "comps": [
+  {
+   "mls": "24137404",
+   "slug": "123-greens-farms-road-westport-connecticut-24137404",
+   "address": {
+    "line": "123 Greens Farms Road",
+    "unit": null,
+    "lineWithUnit": "123 Greens Farms Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 5.0,
+   "sqft": 5207.0,
+   "price": 2600000.0,
+   "date": "2026-05-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.126299,
+    "lng": -73.340884
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1435769066676527,
+   "ppsf": 499.3278279239485
+  },
+  {
+   "mls": "24103087",
+   "slug": "10-tierney-lane-westport-connecticut-24103087",
+   "address": {
+    "line": "10 Tierney Lane",
+    "unit": null,
+    "lineWithUnit": "10 Tierney Lane",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 5.0,
+   "baths": 8.0,
+   "sqft": 7400.0,
+   "price": 4625000.0,
+   "date": "2026-06-01",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.128402,
+    "lng": -73.325418
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0809383474860244,
+   "ppsf": 625.0
+  },
+  {
+   "mls": "24171950",
+   "slug": "221-greens-farms-road-westport-connecticut-24171950",
+   "address": {
+    "line": "221 Greens Farms Road",
+    "unit": null,
+    "lineWithUnit": "221 Greens Farms Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 5.0,
+   "baths": 6.0,
+   "sqft": 5789.0,
+   "price": 2995000.0,
+   "date": "2026-08-05",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.124386,
+    "lng": -73.32586
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6735962971741356,
+   "ppsf": 517.3605113145621
+  },
+  {
+   "mls": "24160000",
+   "slug": "11-edgewater-hillside-westport-connecticut-24160000",
+   "address": {
+    "line": "11 Edgewater Hillside",
+    "unit": null,
+    "lineWithUnit": "11 Edgewater Hillside",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 4.0,
+   "baths": 5.0,
+   "sqft": 4693.0,
+   "price": 3899000.0,
+   "date": "2026-07-31",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.11864,
+    "lng": -73.344246
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1446720390059888,
+   "ppsf": 830.8118474323461
+  },
+  {
+   "mls": "24147552",
+   "slug": "10-wakenor-road-westport-connecticut-24147552",
+   "address": {
+    "line": "10 Wakenor Road",
+    "unit": null,
+    "lineWithUnit": "10 Wakenor Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 5.0,
+   "baths": 6.0,
+   "sqft": 5008.0,
+   "price": 2630000.0,
+   "date": "2026-04-01",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.139773,
+    "lng": -73.332227
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.2572204703558976,
+   "ppsf": 525.1597444089457
   }
- }
+ ]
 }

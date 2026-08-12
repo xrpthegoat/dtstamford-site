@@ -134,119 +134,141 @@
    "mi": 0.71
   }
  },
- "comps": {
-  "building": {
-   "rows": [
-    {
-     "slug": "10-ann-street-norwalk-connecticut-24192186",
-     "addr": "10 Ann Street Unit 209",
-     "unit": "Unit 209",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 793.0,
-     "price": 429900.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 542
-    }
-   ],
-   "summary": null,
-   "label": "10 Ann Street"
-  },
-  "area": {
-   "rows": [
-    {
-     "slug": "16-18-ann-street-norwalk-connecticut-24158552",
-     "addr": "16-18 Ann Street Unit 22",
-     "unit": "Unit 22",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 860.0,
-     "price": 370000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-17",
-     "ppsf": 430,
-     "mi": 0.03
-    },
-    {
-     "slug": "22-dr-martin-luther-king-drive-norwalk-connecticut-24156419",
-     "addr": "22 Dr Martin Luther King Drive Unit B1",
-     "unit": "Unit B1",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 556.0,
-     "price": 245000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-18",
-     "ppsf": 441,
-     "mi": 0.11
-    },
-    {
-     "slug": "94-washington-street-norwalk-connecticut-24125545",
-     "addr": "94 Washington Street Apt 20",
-     "unit": "Apt 20",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 675.0,
-     "price": 263000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-31",
-     "ppsf": 390,
-     "mi": 0.17
-    },
-    {
-     "slug": "125-washington-street-norwalk-connecticut-24152066",
-     "addr": "125 Washington Street Unit 206",
-     "unit": "Unit 206",
-     "beds": 1.0,
-     "baths": 2.0,
-     "sqft": 757.0,
-     "price": 335000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-29",
-     "ppsf": 443,
-     "mi": 0.17
-    },
-    {
-     "slug": "131-washington-street-norwalk-connecticut-24177597",
-     "addr": "131 Washington Street Unit 203",
-     "unit": "Unit 203",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 808.0,
-     "price": 349900.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-21",
-     "ppsf": 433,
-     "mi": 0.18
-    },
-    {
-     "slug": "131-washington-street-norwalk-connecticut-24137573",
-     "addr": "131 Washington Street Apt 204",
-     "unit": "Apt 204",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 677.0,
-     "price": 265000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-20",
-     "ppsf": 391,
-     "mi": 0.18
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 245000.0,
-    "high": 370000.0,
-    "median": 300000
+ "comps": [
+  {
+   "mls": "24149453",
+   "slug": "72-chestnut-street-norwalk-connecticut-24149453",
+   "address": {
+    "line": "72 Chestnut Street",
+    "unit": "Apt 6",
+    "lineWithUnit": "72 Chestnut Street Apt 6",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 920.0,
+   "price": 240000.0,
+   "date": "2026-05-07",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.090532,
+    "lng": -73.420332
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1928768946491122,
+   "ppsf": 260.8695652173913
+  },
+  {
+   "mls": "24174528",
+   "slug": "42-south-main-street-norwalk-connecticut-24174528",
+   "address": {
+    "line": "42 South Main Street",
+    "unit": "Unit 203",
+    "lineWithUnit": "42 South Main Street Unit 203",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 816.0,
+   "price": 371000.0,
+   "date": "2026-06-22",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.097824,
+    "lng": -73.418786
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.37606097589352927,
+   "ppsf": 454.65686274509807
+  },
+  {
+   "mls": "24180493",
+   "slug": "71-b-osborne-avenue-norwalk-connecticut-24180493",
+   "address": {
+    "line": "71-B Osborne Avenue",
+    "unit": "Unit B2",
+    "lineWithUnit": "71-B Osborne Avenue Unit B2",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06855"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 777.0,
+   "price": 396000.0,
+   "date": "2026-06-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.106008,
+    "lng": -73.408872
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9952401721683191,
+   "ppsf": 509.65250965250965
+  },
+  {
+   "mls": "24137573",
+   "slug": "131-washington-street-norwalk-connecticut-24137573",
+   "address": {
+    "line": "131 Washington Street",
+    "unit": "Apt 204",
+    "lineWithUnit": "131 Washington Street Apt 204",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 677.0,
+   "price": 265000.0,
+   "date": "2026-03-20",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.099134,
+    "lng": -73.416792
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.28997029538782104,
+   "ppsf": 391.4327917282127
+  },
+  {
+   "mls": "24152954",
+   "slug": "14-ferris-avenue-norwalk-connecticut-24152954",
+   "address": {
+    "line": "14 Ferris Avenue",
+    "unit": "Apt 9",
+    "lineWithUnit": "14 Ferris Avenue Apt 9",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1040.0,
+   "price": 385000.0,
+   "date": "2026-03-17",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.10654,
+    "lng": -73.42906
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0379346566597438,
+   "ppsf": 370.1923076923077
   }
- }
+ ]
 }

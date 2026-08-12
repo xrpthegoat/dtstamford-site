@@ -131,98 +131,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "121-thornwood-road-stamford-connecticut-24180810",
-     "addr": "121 Thornwood Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2948.0,
-     "price": 1480000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-31",
-     "ppsf": 502,
-     "mi": 0.47
-    },
-    {
-     "slug": "49-spring-hill-lane-north-stamford-connecticut-24167073",
-     "addr": "49 Spring Hill Lane North",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 4324.0,
-     "price": 1225000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-05",
-     "ppsf": 283,
-     "mi": 0.68
-    },
-    {
-     "slug": "2408-high-ridge-road-stamford-connecticut-24160597",
-     "addr": "2408 High Ridge Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 1702.0,
-     "price": 700000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-15",
-     "ppsf": 411,
-     "mi": 0.73
-    },
-    {
-     "slug": "92-thornwood-road-stamford-connecticut-24188133",
-     "addr": "92 Thornwood Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 3682.0,
-     "price": 1049000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 285,
-     "mi": 0.47
-    },
-    {
-     "slug": "2596-high-ridge-road-stamford-connecticut-24177896",
-     "addr": "2596 High Ridge Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 3160.0,
-     "price": 1000000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 316,
-     "mi": 0.67
-    },
-    {
-     "slug": "1097-sunset-road-stamford-connecticut-24188595",
-     "addr": "1097 Sunset Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2890.0,
-     "price": 1295000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 448,
-     "mi": 0.73
-    }
-   ],
-   "summary": {
-    "n": 3,
-    "low": 700000.0,
-    "high": 1480000.0,
-    "median": 1225000
+ "comps": [
+  {
+   "mls": "24166767",
+   "slug": "81-pinewood-road-stamford-connecticut-24166767",
+   "address": {
+    "line": "81 Pinewood Road",
+    "unit": null,
+    "lineWithUnit": "81 Pinewood Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
    },
-   "radiusMi": 0.75
+   "beds": 5.0,
+   "baths": 6.0,
+   "sqft": 5272.0,
+   "price": 2120000.0,
+   "date": "2026-06-29",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.15034,
+    "lng": -73.541847
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1015089354854712,
+   "ppsf": 402.12443095599394
+  },
+  {
+   "mls": "24145203",
+   "slug": "211-pinewood-road-stamford-connecticut-24145203",
+   "address": {
+    "line": "211 Pinewood Road",
+    "unit": null,
+    "lineWithUnit": "211 Pinewood Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
+   },
+   "beds": 5.0,
+   "baths": 4.0,
+   "sqft": 4800.0,
+   "price": 1325000.0,
+   "date": "2026-03-19",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.152052,
+    "lng": -73.539849
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0273733871332076,
+   "ppsf": 276.0416666666667
+  },
+  {
+   "mls": "24170427",
+   "slug": "46-breezy-hill-road-stamford-connecticut-24170427",
+   "address": {
+    "line": "46 Breezy Hill Road",
+    "unit": null,
+    "lineWithUnit": "46 Breezy Hill Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
+   },
+   "beds": 5.0,
+   "baths": 4.0,
+   "sqft": 5902.0,
+   "price": 1450000.0,
+   "date": "2026-07-01",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.158666,
+    "lng": -73.576208
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.407645489783884,
+   "ppsf": 245.67943070145714
+  },
+  {
+   "mls": "24151641",
+   "slug": "87-pembroke-drive-stamford-connecticut-24151641",
+   "address": {
+    "line": "87 Pembroke Drive",
+    "unit": null,
+    "lineWithUnit": "87 Pembroke Drive",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
+   },
+   "beds": 4.0,
+   "baths": 5.0,
+   "sqft": 4421.0,
+   "price": 1654117.0,
+   "date": "2026-04-08",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.142239,
+    "lng": -73.540249
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.990773944585093,
+   "ppsf": 374.14996607102466
+  },
+  {
+   "mls": "24154062",
+   "slug": "167-larkspur-road-stamford-connecticut-24154062",
+   "address": {
+    "line": "167 Larkspur Road",
+    "unit": null,
+    "lineWithUnit": "167 Larkspur Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 4530.0,
+   "price": 1250000.0,
+   "date": "2026-07-27",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.137066,
+    "lng": -73.551652
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.4969780317439287,
+   "ppsf": 275.9381898454746
   }
- }
+ ]
 }

@@ -129,85 +129,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "5-tanglewood-lane-westport-connecticut-24120677",
-     "addr": "5 Tanglewood Lane",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 3253.0,
-     "price": 2000000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-30",
-     "ppsf": 615,
-     "mi": 0.51
-    },
-    {
-     "slug": "39-marion-road-westport-connecticut-24154644",
-     "addr": "39 Marion Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 4018.0,
-     "price": 1780000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-30",
-     "ppsf": 443,
-     "mi": 0.59
-    },
-    {
-     "slug": "39-cranbury-road-norwalk-connecticut-24176773",
-     "addr": "39 Cranbury Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 2606.0,
-     "price": 1125000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-13",
-     "ppsf": 432,
-     "mi": 0.73
-    },
-    {
-     "slug": "23-pequot-trail-westport-connecticut-24197030",
-     "addr": "23 Pequot Trail",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 3536.0,
-     "price": 1599000.0,
-     "kind": "asking",
-     "status": "Coming Soon",
-     "ppsf": 452,
-     "mi": 0.21
-    },
-    {
-     "slug": "7-lincoln-street-westport-connecticut-24170020",
-     "addr": "7 Lincoln Street",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2166.0,
-     "price": 925000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 427,
-     "mi": 0.45
-    }
-   ],
-   "summary": {
-    "n": 3,
-    "low": 1125000.0,
-    "high": 2000000.0,
-    "median": 1780000
+ "comps": [
+  {
+   "mls": "24154644",
+   "slug": "39-marion-road-westport-connecticut-24154644",
+   "address": {
+    "line": "39 Marion Road",
+    "unit": null,
+    "lineWithUnit": "39 Marion Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 4018.0,
+   "price": 1780000.0,
+   "date": "2026-06-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.134616,
+    "lng": -73.381981
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9540735042233249,
+   "ppsf": 443.00647088103534
+  },
+  {
+   "mls": "24120677",
+   "slug": "5-tanglewood-lane-westport-connecticut-24120677",
+   "address": {
+    "line": "5 Tanglewood Lane",
+    "unit": null,
+    "lineWithUnit": "5 Tanglewood Lane",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 3253.0,
+   "price": 2000000.0,
+   "date": "2026-06-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.147472,
+    "lng": -73.37845
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8252914418752045,
+   "ppsf": 614.8170919151553
+  },
+  {
+   "mls": "24132802",
+   "slug": "26-treadwell-avenue-westport-connecticut-24132802",
+   "address": {
+    "line": "26 Treadwell Avenue",
+    "unit": null,
+    "lineWithUnit": "26 Treadwell Avenue",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 5.0,
+   "baths": 5.0,
+   "sqft": 3200.0,
+   "price": 3150000.0,
+   "date": "2026-03-16",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.124679,
+    "lng": -73.375725
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.79906275904005,
+   "ppsf": 984.375
+  },
+  {
+   "mls": "24151653",
+   "slug": "23-bridge-street-westport-connecticut-24151653",
+   "address": {
+    "line": "23 Bridge Street",
+    "unit": null,
+    "lineWithUnit": "23 Bridge Street",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2622.0,
+   "price": 1058500.0,
+   "date": "2026-03-27",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.124076,
+    "lng": -73.364386
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.031019799690352,
+   "ppsf": 403.6994660564455
+  },
+  {
+   "mls": "24173921",
+   "slug": "55-compo-road-north-westport-connecticut-24173921",
+   "address": {
+    "line": "55 Compo Road North",
+    "unit": null,
+    "lineWithUnit": "55 Compo Road North",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 2998.0,
+   "price": 2236055.0,
+   "date": "2026-06-17",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.145987,
+    "lng": -73.352949
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.8622559237818281,
+   "ppsf": 745.8488992661775
   }
- }
+ ]
 }

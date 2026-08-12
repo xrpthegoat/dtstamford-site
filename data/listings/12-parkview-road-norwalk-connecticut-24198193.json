@@ -119,98 +119,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "35-yarmouth-road-norwalk-connecticut-24175145",
-     "addr": "35 Yarmouth Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 2435.0,
-     "price": 3810000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-16",
-     "ppsf": 1565,
-     "mi": 0.18
-    },
-    {
-     "slug": "6-richmond-road-norwalk-connecticut-24150853",
-     "addr": "6 Richmond Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 2171.0,
-     "price": 2400000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-14",
-     "ppsf": 1105,
-     "mi": 0.58
-    },
-    {
-     "slug": "22-craw-avenue-norwalk-connecticut-24167126",
-     "addr": "22 Craw Avenue",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 4.0,
-     "sqft": 3117.0,
-     "price": 3900000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-24",
-     "ppsf": 1251,
-     "mi": 0.6
-    },
-    {
-     "slug": "14-rocky-point-road-norwalk-connecticut-24192999",
-     "addr": "14 Rocky Point Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 4.0,
-     "sqft": 2641.0,
-     "price": 3995000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 1513,
-     "mi": 0.06
-    },
-    {
-     "slug": "5-yarmouth-road-norwalk-connecticut-24171728",
-     "addr": "5 Yarmouth Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1704.0,
-     "price": 2725000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 1599,
-     "mi": 0.08
-    },
-    {
-     "slug": "32-nearwater-road-norwalk-connecticut-24157507",
-     "addr": "32 Nearwater Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 2442.0,
-     "price": 3000000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 1229,
-     "mi": 0.18
-    }
-   ],
-   "summary": {
-    "n": 3,
-    "low": 2400000.0,
-    "high": 3900000.0,
-    "median": 3810000
+ "comps": [
+  {
+   "mls": "24166664",
+   "slug": "10-hunt-street-norwalk-connecticut-24166664",
+   "address": {
+    "line": "10 Hunt Street",
+    "unit": null,
+    "lineWithUnit": "10 Hunt Street",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06853"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1858.0,
+   "price": 1608000.0,
+   "date": "2026-06-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.074268,
+    "lng": -73.444921
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.0881546578784587,
+   "ppsf": 865.4467168998924
+  },
+  {
+   "mls": "24167540",
+   "slug": "9-clifford-street-norwalk-connecticut-24167540",
+   "address": {
+    "line": "9 Clifford Street",
+    "unit": null,
+    "lineWithUnit": "9 Clifford Street",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06853"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1627.0,
+   "price": 1425000.0,
+   "date": "2026-07-02",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.07542,
+    "lng": -73.44526
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.2159197704443723,
+   "ppsf": 875.8451137062077
+  },
+  {
+   "mls": "24167420",
+   "slug": "26-flicker-lane-norwalk-connecticut-24167420",
+   "address": {
+    "line": "26 Flicker Lane",
+    "unit": null,
+    "lineWithUnit": "26 Flicker Lane",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06853"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1408.0,
+   "price": 2000000.0,
+   "date": "2026-05-22",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.070108,
+    "lng": -73.436192
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.425336425068487,
+   "ppsf": 1420.4545454545455
+  },
+  {
+   "mls": "24136403",
+   "slug": "6-west-couch-street-norwalk-connecticut-24136403",
+   "address": {
+    "line": "6 West Couch Street",
+    "unit": null,
+    "lineWithUnit": "6 West Couch Street",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1519.0,
+   "price": 550000.0,
+   "date": "2026-04-17",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.099718,
+    "lng": -73.429475
+   },
+   "klass": "house",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 4.720757662696285,
+   "ppsf": 362.0803159973667
+  },
+  {
+   "mls": "24150514",
+   "slug": "8-michael-street-norwalk-connecticut-24150514",
+   "address": {
+    "line": "8 Michael Street",
+    "unit": null,
+    "lineWithUnit": "8 Michael Street",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 4.0,
+   "baths": 2.0,
+   "sqft": 1428.0,
+   "price": 710000.0,
+   "date": "2026-03-16",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.091709,
+    "lng": -73.434546
+   },
+   "klass": "house",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 3.8153971202645076,
+   "ppsf": 497.1988795518207
   }
- }
+ ]
 }

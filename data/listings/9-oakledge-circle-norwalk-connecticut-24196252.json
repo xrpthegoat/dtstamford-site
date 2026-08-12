@@ -132,58 +132,141 @@
    "mi": 1.28
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "13-joemar-road-norwalk-connecticut-24179818",
-     "addr": "13 Joemar Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 1.0,
-     "sqft": 1080.0,
-     "price": 3950.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-04",
-     "ppsf": 4,
-     "mi": 0.28
-    },
-    {
-     "slug": "norwalk-connecticut-24160129",
-     "addr": null,
-     "unit": "",
-     "beds": 4.0,
-     "baths": 2.0,
-     "sqft": 1428.0,
-     "price": 3300.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-01",
-     "ppsf": 2,
-     "mi": 0.68
-    },
-    {
-     "slug": "7-edgewood-street-norwalk-connecticut-24196574",
-     "addr": "7 Edgewood Street Unit B",
-     "unit": "Unit B",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 3000.0,
-     "price": 5700.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 2,
-     "mi": 0.55
-    }
-   ],
-   "summary": {
-    "n": 2,
-    "low": 3300.0,
-    "high": 3950.0,
-    "median": 3625
+ "comps": [
+  {
+   "mls": "24150892",
+   "slug": "1-horizon-drive-norwalk-connecticut-24150892",
+   "address": {
+    "line": "1 Horizon Drive",
+    "unit": "Apt 2",
+    "lineWithUnit": "1 Horizon Drive Apt 2",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1258.0,
+   "price": 3150.0,
+   "date": "2026-03-26",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.101133,
+    "lng": -73.434452
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.4510834335630753,
+   "ppsf": 2.503974562798092
+  },
+  {
+   "mls": "24139759",
+   "slug": "2-frances-avenue-norwalk-connecticut-24139759",
+   "address": {
+    "line": "2 Frances Avenue",
+    "unit": "Unit 2",
+    "lineWithUnit": "2 Frances Avenue Unit 2",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 1200.0,
+   "price": 2850.0,
+   "date": "2026-03-27",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.095258,
+    "lng": -73.431722
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.36419612900769105,
+   "ppsf": 2.375
+  },
+  {
+   "mls": "24147701",
+   "slug": "84-taylor-avenue-norwalk-connecticut-24147701",
+   "address": {
+    "line": "84 Taylor Avenue",
+    "unit": "Apt 1",
+    "lineWithUnit": "84 Taylor Avenue Apt 1",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1106.0,
+   "price": 3400.0,
+   "date": "2026-04-06",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.101949,
+    "lng": -73.429813
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7059638159219118,
+   "ppsf": 3.0741410488245933
+  },
+  {
+   "mls": "24160129",
+   "slug": "norwalk-connecticut-24160129",
+   "address": {
+    "line": null,
+    "unit": null,
+    "lineWithUnit": null,
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 4.0,
+   "baths": 2.0,
+   "sqft": 1428.0,
+   "price": 3300.0,
+   "date": "2026-06-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.105306,
+    "lng": -73.442635
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0981305973675046,
+   "ppsf": 2.310924369747899
+  },
+  {
+   "mls": "24165488",
+   "slug": "14-ferris-avenue-norwalk-connecticut-24165488",
+   "address": {
+    "line": "14 Ferris Avenue",
+    "unit": "Unit 9",
+    "lineWithUnit": "14 Ferris Avenue Unit 9",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1040.0,
+   "price": 2925.0,
+   "date": "2026-06-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.10654,
+    "lng": -73.429061
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1697656010769037,
+   "ppsf": 2.8125
   }
- }
+ ]
 }

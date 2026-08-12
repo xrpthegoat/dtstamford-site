@@ -129,70 +129,141 @@
    "walk": 5
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "56-chipmunk-lane-wilton-connecticut-24186677",
-     "addr": "56 Chipmunk Lane",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2268.0,
-     "price": 1050000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-10",
-     "ppsf": 463,
-     "mi": 0.72
-    },
-    {
-     "slug": "8-live-oak-road-norwalk-connecticut-24185367",
-     "addr": "8 Live Oak Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2505.0,
-     "price": 1325000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 529,
-     "mi": 0.55
-    },
-    {
-     "slug": "58-kent-road-wilton-connecticut-24183735",
-     "addr": "58 Kent Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 3504.0,
-     "price": 1198000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 342,
-     "mi": 0.65
-    },
-    {
-     "slug": "1-wilton-acres-wilton-connecticut-24188546",
-     "addr": "1 Wilton Acres",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2240.0,
-     "price": 999000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 446,
-     "mi": 0.66
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 1050000.0,
-    "high": 1050000.0,
-    "median": 1050000
+ "comps": [
+  {
+   "mls": "24149192",
+   "slug": "20-arrowhead-road-wilton-connecticut-24149192",
+   "address": {
+    "line": "20 Arrowhead Road",
+    "unit": null,
+    "lineWithUnit": "20 Arrowhead Road",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1980.0,
+   "price": 650000.0,
+   "date": "2026-04-29",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.17479,
+    "lng": -73.418406
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.085431651167674,
+   "ppsf": 328.2828282828283
+  },
+  {
+   "mls": "24150645",
+   "slug": "25-arrowhead-road-wilton-connecticut-24150645",
+   "address": {
+    "line": "25 Arrowhead Road",
+    "unit": null,
+    "lineWithUnit": "25 Arrowhead Road",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2679.0,
+   "price": 900000.0,
+   "date": "2026-04-03",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.17347,
+    "lng": -73.418147
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9462370819365361,
+   "ppsf": 335.94624860022395
+  },
+  {
+   "mls": "24164771",
+   "slug": "18-edith-lane-wilton-connecticut-24164771",
+   "address": {
+    "line": "18 Edith Lane",
+    "unit": null,
+    "lineWithUnit": "18 Edith Lane",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 5.0,
+   "baths": 3.0,
+   "sqft": 2452.0,
+   "price": 1300000.0,
+   "date": "2026-06-29",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.165704,
+    "lng": -73.424782
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0317817302149324,
+   "ppsf": 530.1794453507341
+  },
+  {
+   "mls": "24170988",
+   "slug": "66-kent-hills-lane-wilton-connecticut-24170988",
+   "address": {
+    "line": "66 Kent Hills Lane",
+    "unit": null,
+    "lineWithUnit": "66 Kent Hills Lane",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 2296.0,
+   "price": 525000.0,
+   "date": "2026-05-29",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.168722,
+    "lng": -73.424782
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0708376704614415,
+   "ppsf": 228.65853658536585
+  },
+  {
+   "mls": "24186677",
+   "slug": "56-chipmunk-lane-wilton-connecticut-24186677",
+   "address": {
+    "line": "56 Chipmunk Lane",
+    "unit": null,
+    "lineWithUnit": "56 Chipmunk Lane",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2268.0,
+   "price": 1050000.0,
+   "date": "2026-08-10",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.161263,
+    "lng": -73.424764
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1619822413935377,
+   "ppsf": 462.962962962963
   }
- }
+ ]
 }

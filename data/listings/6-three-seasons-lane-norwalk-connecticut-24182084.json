@@ -126,101 +126,141 @@
    "mi": 0.96
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "27-fairweather-drive-norwalk-connecticut-24165389",
-     "addr": "27 Fairweather Drive",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1076.0,
-     "price": 665000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-08",
-     "ppsf": 618,
-     "mi": 0.09
-    },
-    {
-     "slug": "6-clara-drive-norwalk-connecticut-24151674",
-     "addr": "6 Clara Drive",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1632.0,
-     "price": 721500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-20",
-     "ppsf": 442,
-     "mi": 0.2
-    },
-    {
-     "slug": "37-murray-street-norwalk-connecticut-24153393",
-     "addr": "37 Murray Street",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1769.0,
-     "price": 595000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-10",
-     "ppsf": 336,
-     "mi": 0.25
-    },
-    {
-     "slug": "71-saddle-road-norwalk-connecticut-24104142",
-     "addr": "71 Saddle Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1256.0,
-     "price": 520000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-16",
-     "ppsf": 414,
-     "mi": 0.26
-    },
-    {
-     "slug": "3-stonybrook-road-norwalk-connecticut-24157388",
-     "addr": "3 Stonybrook Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 2550.0,
-     "price": 905000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-27",
-     "ppsf": 355,
-     "mi": 0.38
-    },
-    {
-     "slug": "12-hawthorne-drive-norwalk-connecticut-24167321",
-     "addr": "12 Hawthorne Drive",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1230.0,
-     "price": 525000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-10",
-     "ppsf": 427,
-     "mi": 0.39
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 520000.0,
-    "high": 905000.0,
-    "median": 630000
+ "comps": [
+  {
+   "mls": "24120459",
+   "slug": "9-trailside-drive-norwalk-connecticut-24120459",
+   "address": {
+    "line": "9 Trailside Drive",
+    "unit": null,
+    "lineWithUnit": "9 Trailside Drive",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 2120.0,
+   "price": 780000.0,
+   "date": "2026-03-31",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.138033,
+    "lng": -73.393541
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7592306849299422,
+   "ppsf": 367.92452830188677
+  },
+  {
+   "mls": "24151674",
+   "slug": "6-clara-drive-norwalk-connecticut-24151674",
+   "address": {
+    "line": "6 Clara Drive",
+    "unit": null,
+    "lineWithUnit": "6 Clara Drive",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1632.0,
+   "price": 721500.0,
+   "date": "2026-03-20",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.135231,
+    "lng": -73.398826
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.3198727651064468,
+   "ppsf": 442.09558823529414
+  },
+  {
+   "mls": "24153393",
+   "slug": "37-murray-street-norwalk-connecticut-24153393",
+   "address": {
+    "line": "37 Murray Street",
+    "unit": null,
+    "lineWithUnit": "37 Murray Street",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1769.0,
+   "price": 595000.0,
+   "date": "2026-04-10",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.135475,
+    "lng": -73.396029
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.40722529878806407,
+   "ppsf": 336.3482193329565
+  },
+  {
+   "mls": "24154010",
+   "slug": "28-overbrook-road-norwalk-connecticut-24154010",
+   "address": {
+    "line": "28 Overbrook Road",
+    "unit": null,
+    "lineWithUnit": "28 Overbrook Road",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1612.0,
+   "price": 705000.0,
+   "date": "2026-04-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.135919,
+    "lng": -73.394586
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5184922906020369,
+   "ppsf": 437.3449131513648
+  },
+  {
+   "mls": "24178355",
+   "slug": "8-wildmere-lane-norwalk-connecticut-24178355",
+   "address": {
+    "line": "8 Wildmere Lane",
+    "unit": null,
+    "lineWithUnit": "8 Wildmere Lane",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1632.0,
+   "price": 675000.0,
+   "date": "2026-07-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.126464,
+    "lng": -73.397718
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6596237362056991,
+   "ppsf": 413.6029411764706
   }
- }
+ ]
 }

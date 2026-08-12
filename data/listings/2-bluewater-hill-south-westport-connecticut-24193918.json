@@ -128,31 +128,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "23-sterling-drive-westport-connecticut-24151868",
-     "addr": "23 Sterling Drive",
-     "unit": "",
-     "beds": 6.0,
-     "baths": 6.0,
-     "sqft": 3989.0,
-     "price": 60000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-19",
-     "ppsf": 15,
-     "mi": 0.27
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 60000.0,
-    "high": 60000.0,
-    "median": 60000
+ "comps": [
+  {
+   "mls": "24151868",
+   "slug": "23-sterling-drive-westport-connecticut-24151868",
+   "address": {
+    "line": "23 Sterling Drive",
+    "unit": null,
+    "lineWithUnit": "23 Sterling Drive",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
    },
-   "radiusMi": 0.75
+   "beds": 6.0,
+   "baths": 6.0,
+   "sqft": 3989.0,
+   "price": 60000.0,
+   "date": "2026-05-19",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.11333,
+    "lng": -73.34785
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.4393877876948606,
+   "ppsf": 15.041363750313362
+  },
+  {
+   "mls": "24169951",
+   "slug": "5-longview-road-westport-connecticut-24169951",
+   "address": {
+    "line": "5 Longview Road",
+    "unit": null,
+    "lineWithUnit": "5 Longview Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 4.0,
+   "baths": 6.0,
+   "sqft": 5191.0,
+   "price": 19000.0,
+   "date": "2026-06-21",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.112247,
+    "lng": -73.35299
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5085468993009857,
+   "ppsf": 3.660181082643036
+  },
+  {
+   "mls": "24157322",
+   "slug": "5-mayflower-parkway-westport-connecticut-24157322",
+   "address": {
+    "line": "5 Mayflower Parkway",
+    "unit": null,
+    "lineWithUnit": "5 Mayflower Parkway",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 5.0,
+   "baths": 6.0,
+   "sqft": 5959.0,
+   "price": 20000.0,
+   "date": "2026-03-24",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.117966,
+    "lng": -73.35827
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.2704339217185447,
+   "ppsf": 3.3562678301728477
+  },
+  {
+   "mls": "24140482",
+   "slug": "4-vani-court-westport-connecticut-24140482",
+   "address": {
+    "line": "4 Vani Court",
+    "unit": null,
+    "lineWithUnit": "4 Vani Court",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 5.0,
+   "baths": 6.0,
+   "sqft": 4347.0,
+   "price": 12500.0,
+   "date": "2026-04-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.12019,
+    "lng": -73.362378
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.6861110525280987,
+   "ppsf": 2.8755463538072235
+  },
+  {
+   "mls": "24155986",
+   "slug": "17-ferry-lane-westport-connecticut-24155986",
+   "address": {
+    "line": "17 Ferry Lane",
+    "unit": null,
+    "lineWithUnit": "17 Ferry Lane",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 6.0,
+   "baths": 4.0,
+   "sqft": 3800.0,
+   "price": 11000.0,
+   "date": "2026-06-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.11795,
+    "lng": -73.371704
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.1832650765159256,
+   "ppsf": 2.8947368421052633
   }
- }
+ ]
 }

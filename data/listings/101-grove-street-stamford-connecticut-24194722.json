@@ -134,125 +134,141 @@
    "walk": 4
   }
  },
- "comps": {
-  "building": {
-   "rows": [
-    {
-     "slug": "101-grove-street-stamford-connecticut-24157458",
-     "addr": "101 Grove Street Unit 19",
-     "unit": "Unit 19",
-     "beds": 2.0,
-     "baths": 3.0,
-     "sqft": 1475.0,
-     "price": 595000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-01",
-     "ppsf": 403
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 595000.0,
-    "high": 595000.0,
-    "median": 595000
+ "comps": [
+  {
+   "mls": "24157458",
+   "slug": "101-grove-street-stamford-connecticut-24157458",
+   "address": {
+    "line": "101 Grove Street",
+    "unit": "Unit 19",
+    "lineWithUnit": "101 Grove Street Unit 19",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06901"
    },
-   "label": "101 Grove Street"
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 1475.0,
+   "price": 595000.0,
+   "date": "2026-05-01",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.05745,
+    "lng": -73.53346
+   },
+   "klass": "condo",
+   "tier": 1,
+   "why": "Same building, sold in the last year",
+   "km": 0.026644700435673747,
+   "ppsf": 403.3898305084746
   },
-  "area": {
-   "rows": [
-    {
-     "slug": "25-forest-street-stamford-connecticut-24140008",
-     "addr": "25 Forest Street Apt 4A",
-     "unit": "Apt 4A",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1342.0,
-     "price": 590000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-30",
-     "ppsf": 440,
-     "mi": 0.16
-    },
-    {
-     "slug": "1-valley-road-stamford-connecticut-24170392",
-     "addr": "1 Valley Road Unit 207",
-     "unit": "Unit 207",
-     "beds": 2.0,
-     "baths": 3.0,
-     "sqft": 1400.0,
-     "price": 510000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-02",
-     "ppsf": 364,
-     "mi": 0.18
-    },
-    {
-     "slug": "1-strawberry-hill-avenue-stamford-connecticut-24156874",
-     "addr": "1 Strawberry Hill Avenue Apt 10A",
-     "unit": "Apt 10A",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1600.0,
-     "price": 615000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-09",
-     "ppsf": 384,
-     "mi": 0.21
-    },
-    {
-     "slug": "127-greyrock-place-stamford-connecticut-24166494",
-     "addr": "127 Greyrock Place Unit 1712",
-     "unit": "Unit 1712",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 971.0,
-     "price": 560000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-29",
-     "ppsf": 577,
-     "mi": 0.22
-    },
-    {
-     "slug": "143-hoyt-street-stamford-connecticut-24168686",
-     "addr": "143 Hoyt Street Unit 1N",
-     "unit": "Unit 1N",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1836.0,
-     "price": 595000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-12",
-     "ppsf": 324,
-     "mi": 0.22
-    },
-    {
-     "slug": "143-hoyt-street-stamford-connecticut-24147496",
-     "addr": "143 Hoyt Street Apt 2H",
-     "unit": "Apt 2H",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1637.0,
-     "price": 510000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-30",
-     "ppsf": 312,
-     "mi": 0.22
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 510000.0,
-    "high": 615000.0,
-    "median": 575000
+  {
+   "mls": "24150400",
+   "slug": "1400-bedford-street-stamford-connecticut-24150400",
+   "address": {
+    "line": "1400 Bedford Street",
+    "unit": "Unit 11",
+    "lineWithUnit": "1400 Bedford Street Unit 11",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 1268.0,
+   "price": 455000.0,
+   "date": "2026-03-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.063573,
+    "lng": -73.540821
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9261145398963749,
+   "ppsf": 358.83280757097793
+  },
+  {
+   "mls": "24145504",
+   "slug": "54-hope-street-stamford-connecticut-24145504",
+   "address": {
+    "line": "54 Hope Street",
+    "unit": "Unit 4",
+    "lineWithUnit": "54 Hope Street Unit 4",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06906"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1226.0,
+   "price": 469900.0,
+   "date": "2026-04-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.062504,
+    "lng": -73.526658
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8267057668229159,
+   "ppsf": 383.278955954323
+  },
+  {
+   "mls": "24165518",
+   "slug": "1-broad-street-stamford-connecticut-24165518",
+   "address": {
+    "line": "1 Broad Street",
+    "unit": "Unit PH26B",
+    "lineWithUnit": "1 Broad Street Unit PH26B",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06901"
+   },
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 1738.0,
+   "price": 1025000.0,
+   "date": "2026-06-02",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.05522,
+    "lng": -73.54305
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8211992707676354,
+   "ppsf": 589.7583429228998
+  },
+  {
+   "mls": "24149222",
+   "slug": "1633-washington-boulevard-stamford-connecticut-24149222",
+   "address": {
+    "line": "1633 Washington Boulevard",
+    "unit": "Apt 3D",
+    "lineWithUnit": "1633 Washington Boulevard Apt 3D",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1315.0,
+   "price": 425000.0,
+   "date": "2026-06-12",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.062023,
+    "lng": -73.543603
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9902345099416549,
+   "ppsf": 323.1939163498099
   }
- }
+ ]
 }

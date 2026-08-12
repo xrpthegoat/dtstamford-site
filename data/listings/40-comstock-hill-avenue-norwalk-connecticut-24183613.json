@@ -137,101 +137,141 @@
    "mi": 0.92
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "33-purdy-road-east-norwalk-connecticut-24147515",
-     "addr": "33 Purdy Road East",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2361.0,
-     "price": 890000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-16",
-     "ppsf": 377,
-     "mi": 0.35
-    },
-    {
-     "slug": "18-kreiner-lane-norwalk-connecticut-24171646",
-     "addr": "18 Kreiner Lane",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2204.0,
-     "price": 952000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-29",
-     "ppsf": 432,
-     "mi": 0.42
-    },
-    {
-     "slug": "116-silvermine-avenue-norwalk-connecticut-24163277",
-     "addr": "116 Silvermine Avenue",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 3369.0,
-     "price": 1345500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-29",
-     "ppsf": 399,
-     "mi": 0.45
-    },
-    {
-     "slug": "239-silvermine-avenue-norwalk-connecticut-24153343",
-     "addr": "239 Silvermine Avenue",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 4648.0,
-     "price": 1360000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-02",
-     "ppsf": 293,
-     "mi": 0.47
-    },
-    {
-     "slug": "234-silvermine-avenue-norwalk-connecticut-24051979",
-     "addr": "234 Silvermine Avenue",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2615.0,
-     "price": 1370000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-26",
-     "ppsf": 524,
-     "mi": 0.5
-    },
-    {
-     "slug": "11-inwood-road-norwalk-connecticut-24172565",
-     "addr": "11 Inwood Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2516.0,
-     "price": 950000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-18",
-     "ppsf": 378,
-     "mi": 0.53
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 890000.0,
-    "high": 1370000.0,
-    "median": 1148750
+ "comps": [
+  {
+   "mls": "24144110",
+   "slug": "300-buttery-road-norwalk-connecticut-24144110",
+   "address": {
+    "line": "300 Buttery Road",
+    "unit": null,
+    "lineWithUnit": "300 Buttery Road",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2926.0,
+   "price": 1096100.0,
+   "date": "2026-03-16",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.144909,
+    "lng": -73.451989
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9864572491166627,
+   "ppsf": 374.60697197539304
+  },
+  {
+   "mls": "24172565",
+   "slug": "11-inwood-road-norwalk-connecticut-24172565",
+   "address": {
+    "line": "11 Inwood Road",
+    "unit": null,
+    "lineWithUnit": "11 Inwood Road",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2516.0,
+   "price": 950000.0,
+   "date": "2026-06-18",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.140817,
+    "lng": -73.453244
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8524828494536417,
+   "ppsf": 377.5834658187599
+  },
+  {
+   "mls": "24051979",
+   "slug": "234-silvermine-avenue-norwalk-connecticut-24051979",
+   "address": {
+    "line": "234 Silvermine Avenue",
+    "unit": null,
+    "lineWithUnit": "234 Silvermine Avenue",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2615.0,
+   "price": 1370000.0,
+   "date": "2026-05-26",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.14599,
+    "lng": -73.443985
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7979281849938794,
+   "ppsf": 523.9005736137667
+  },
+  {
+   "mls": "24157815",
+   "slug": "16-cornwall-road-norwalk-connecticut-24157815",
+   "address": {
+    "line": "16 Cornwall Road",
+    "unit": null,
+    "lineWithUnit": "16 Cornwall Road",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 5.0,
+   "baths": 4.0,
+   "sqft": 3342.0,
+   "price": 1085000.0,
+   "date": "2026-05-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.12819,
+    "lng": -73.442398
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1858311688245833,
+   "ppsf": 324.65589467384797
+  },
+  {
+   "mls": "24181729",
+   "slug": "8-mayflower-road-norwalk-connecticut-24181729",
+   "address": {
+    "line": "8 Mayflower Road",
+    "unit": null,
+    "lineWithUnit": "8 Mayflower Road",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 3010.0,
+   "price": 760000.0,
+   "date": "2026-08-07",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.142847,
+    "lng": -73.453003
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9190935187561844,
+   "ppsf": 252.49169435215947
   }
- }
+ ]
 }

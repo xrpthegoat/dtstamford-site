@@ -124,101 +124,141 @@
    "mi": 1.15
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "236-flax-hill-road-norwalk-connecticut-24179763",
-     "addr": "236 Flax Hill Road Unit 2",
-     "unit": "Unit 2",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 775.0,
-     "price": 2500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-15",
-     "ppsf": 3,
-     "mi": 0.04
-    },
-    {
-     "slug": "7-hamilton-avenue-norwalk-connecticut-24147839",
-     "addr": "7 Hamilton Avenue Unit 32",
-     "unit": "Unit 32",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 980.0,
-     "price": 2975.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-01",
-     "ppsf": 3,
-     "mi": 0.13
-    },
-    {
-     "slug": "178-flax-hill-road-norwalk-connecticut-24157859",
-     "addr": "178 Flax Hill Road Apt C203",
-     "unit": "Apt C203",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1130.0,
-     "price": 2900.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-18",
-     "ppsf": 3,
-     "mi": 0.19
-    },
-    {
-     "slug": "2-frances-avenue-norwalk-connecticut-24139759",
-     "addr": "2 Frances Avenue Unit 2",
-     "unit": "Unit 2",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 1200.0,
-     "price": 2850.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-27",
-     "ppsf": 2,
-     "mi": 0.25
-    },
-    {
-     "slug": "115-flax-hill-road-norwalk-connecticut-24176759",
-     "addr": "115 Flax Hill Road Unit 10",
-     "unit": "Unit 10",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 862.0,
-     "price": 2750.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-29",
-     "ppsf": 3,
-     "mi": 0.32
-    },
-    {
-     "slug": "21-avenue-b-norwalk-connecticut-24177014",
-     "addr": "21 Avenue B Unit A",
-     "unit": "Unit A",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1100.0,
-     "price": 2695.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-13",
-     "ppsf": 2,
-     "mi": 0.32
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 2500.0,
-    "high": 2975.0,
-    "median": 2800
+ "comps": [
+  {
+   "mls": "24139759",
+   "slug": "2-frances-avenue-norwalk-connecticut-24139759",
+   "address": {
+    "line": "2 Frances Avenue",
+    "unit": "Unit 2",
+    "lineWithUnit": "2 Frances Avenue Unit 2",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 1200.0,
+   "price": 2850.0,
+   "date": "2026-03-27",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.095258,
+    "lng": -73.431722
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.4078137656756185,
+   "ppsf": 2.375
+  },
+  {
+   "mls": "24147701",
+   "slug": "84-taylor-avenue-norwalk-connecticut-24147701",
+   "address": {
+    "line": "84 Taylor Avenue",
+    "unit": "Apt 1",
+    "lineWithUnit": "84 Taylor Avenue Apt 1",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1106.0,
+   "price": 3400.0,
+   "date": "2026-04-06",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.101949,
+    "lng": -73.429813
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7408861751332447,
+   "ppsf": 3.0741410488245933
+  },
+  {
+   "mls": "24143420",
+   "slug": "10-ann-street-norwalk-connecticut-24143420",
+   "address": {
+    "line": "10 Ann Street",
+    "unit": "Apt 102",
+    "lineWithUnit": "10 Ann Street Apt 102",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 1.0,
+   "baths": 2.0,
+   "sqft": 1016.0,
+   "price": 2500.0,
+   "date": "2026-04-20",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.101204,
+    "lng": -73.41889
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9102578593334639,
+   "ppsf": 2.4606299212598426
+  },
+  {
+   "mls": "24147317",
+   "slug": "19-day-street-norwalk-connecticut-24147317",
+   "address": {
+    "line": "19 Day Street",
+    "unit": "Unit 402",
+    "lineWithUnit": "19 Day Street Unit 402",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1086.0,
+   "price": 3100.0,
+   "date": "2026-04-28",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.095734,
+    "lng": -73.4181
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7362082096408858,
+   "ppsf": 2.85451197053407
+  },
+  {
+   "mls": "24159486",
+   "slug": "13-south-street-norwalk-connecticut-24159486",
+   "address": {
+    "line": "13 South Street",
+    "unit": "Unit 2 Rear",
+    "lineWithUnit": "13 South Street Unit 2 Rear",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 1.0,
+   "baths": 2.0,
+   "sqft": 782.0,
+   "price": 2200.0,
+   "date": "2026-05-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.102646,
+    "lng": -73.430916
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.846861559145307,
+   "ppsf": 2.813299232736573
   }
- }
+ ]
 }

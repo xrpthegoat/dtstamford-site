@@ -135,101 +135,141 @@
    "mi": 1.71
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "28-crestview-avenue-stamford-connecticut-24158926",
-     "addr": "28 Crestview Avenue",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 2.0,
-     "sqft": 2081.0,
-     "price": 900000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-30",
-     "ppsf": 432,
-     "mi": 0.08
-    },
-    {
-     "slug": "78-elizabeth-avenue-stamford-connecticut-24155470",
-     "addr": "78 Elizabeth Avenue",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 2.0,
-     "sqft": 1832.0,
-     "price": 770000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-23",
-     "ppsf": 420,
-     "mi": 0.28
-    },
-    {
-     "slug": "80-northill-street-stamford-connecticut-24185644",
-     "addr": "80 Northill Street",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2156.0,
-     "price": 935000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-07",
-     "ppsf": 434,
-     "mi": 0.33
-    },
-    {
-     "slug": "128-knapp-street-stamford-connecticut-24174271",
-     "addr": "128 Knapp Street",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 2.0,
-     "sqft": 1662.0,
-     "price": 975000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-17",
-     "ppsf": 587,
-     "mi": 0.36
-    },
-    {
-     "slug": "62-hastings-lane-stamford-connecticut-24154940",
-     "addr": "62 Hastings Lane",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 3783.0,
-     "price": 1550000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-15",
-     "ppsf": 410,
-     "mi": 0.44
-    },
-    {
-     "slug": "58-sleepy-hollow-lane-stamford-connecticut-24190185",
-     "addr": "58 Sleepy Hollow Lane",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 2.0,
-     "sqft": 1490.0,
-     "price": 725000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-05",
-     "ppsf": 487,
-     "mi": 0.44
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 725000.0,
-    "high": 1550000.0,
-    "median": 917500
+ "comps": [
+  {
+   "mls": "24151825",
+   "slug": "10-turner-road-stamford-connecticut-24151825",
+   "address": {
+    "line": "10 Turner Road",
+    "unit": null,
+    "lineWithUnit": "10 Turner Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 3247.0,
+   "price": 1300000.0,
+   "date": "2026-07-01",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.082798,
+    "lng": -73.534536
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0677120388585095,
+   "ppsf": 400.36957191253464
+  },
+  {
+   "mls": "24158342",
+   "slug": "8-barnstable-lane-stamford-connecticut-24158342",
+   "address": {
+    "line": "8 Barnstable Lane",
+    "unit": null,
+    "lineWithUnit": "8 Barnstable Lane",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06907"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 2364.0,
+   "price": 564300.0,
+   "date": "2026-05-29",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.086207,
+    "lng": -73.519074
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5156133043172102,
+   "ppsf": 238.7055837563452
+  },
+  {
+   "mls": "24158926",
+   "slug": "28-crestview-avenue-stamford-connecticut-24158926",
+   "address": {
+    "line": "28 Crestview Avenue",
+    "unit": null,
+    "lineWithUnit": "28 Crestview Avenue",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06907"
+   },
+   "beds": 4.0,
+   "baths": 2.0,
+   "sqft": 2081.0,
+   "price": 900000.0,
+   "date": "2026-04-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.088144,
+    "lng": -73.522947
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.12798874315992478,
+   "ppsf": 432.4843825084094
+  },
+  {
+   "mls": "24185644",
+   "slug": "80-northill-street-stamford-connecticut-24185644",
+   "address": {
+    "line": "80 Northill Street",
+    "unit": null,
+    "lineWithUnit": "80 Northill Street",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06907"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2156.0,
+   "price": 935000.0,
+   "date": "2026-08-07",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.092911,
+    "lng": -73.521664
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5323238486591234,
+   "ppsf": 433.6734693877551
+  },
+  {
+   "mls": "24166116",
+   "slug": "49-buena-vista-street-stamford-connecticut-24166116",
+   "address": {
+    "line": "49 Buena Vista Street",
+    "unit": null,
+    "lineWithUnit": "49 Buena Vista Street",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06907"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 2393.0,
+   "price": 1025000.0,
+   "date": "2026-06-08",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.087591,
+    "lng": -73.523961
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.11467325454765026,
+   "ppsf": 428.33263685750103
   }
- }
+ ]
 }

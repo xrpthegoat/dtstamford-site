@@ -125,101 +125,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "202-fox-ridge-road-stamford-connecticut-24158856",
-     "addr": "202 Fox Ridge Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 3202.0,
-     "price": 1394000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-07",
-     "ppsf": 435,
-     "mi": 0.21
-    },
-    {
-     "slug": "25-wildwood-road-stamford-connecticut-24161680",
-     "addr": "25 Wildwood Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 5.0,
-     "sqft": 5972.0,
-     "price": 2410000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-20",
-     "ppsf": 404,
-     "mi": 0.38
-    },
-    {
-     "slug": "106-east-hunting-ridge-road-stamford-connecticut-24146138",
-     "addr": "106 East Hunting Ridge Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 2.0,
-     "sqft": 2476.0,
-     "price": 1067000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-02",
-     "ppsf": 431,
-     "mi": 0.57
-    },
-    {
-     "slug": "27-wellington-drive-stamford-connecticut-24133749",
-     "addr": "27 Wellington Drive",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2402.0,
-     "price": 774000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-25",
-     "ppsf": 322,
-     "mi": 0.57
-    },
-    {
-     "slug": "2525-long-ridge-road-stamford-connecticut-24170713",
-     "addr": "2525 Long Ridge Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2524.0,
-     "price": 1225000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-16",
-     "ppsf": 485,
-     "mi": 0.6
-    },
-    {
-     "slug": "10-heritage-lane-stamford-connecticut-24150843",
-     "addr": "10 Heritage Lane",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 3240.0,
-     "price": 1300000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-04",
-     "ppsf": 401,
-     "mi": 0.61
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 774000.0,
-    "high": 2410000.0,
-    "median": 1262500
+ "comps": [
+  {
+   "mls": "24160996",
+   "slug": "251-saddle-hill-road-stamford-connecticut-24160996",
+   "address": {
+    "line": "251 Saddle Hill Road",
+    "unit": null,
+    "lineWithUnit": "251 Saddle Hill Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
    },
-   "radiusMi": 0.75
+   "beds": 5.0,
+   "baths": 3.0,
+   "sqft": 3990.0,
+   "price": 843000.0,
+   "date": "2026-07-31",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.14762,
+    "lng": -73.574809
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8190212001566761,
+   "ppsf": 211.2781954887218
+  },
+  {
+   "mls": "24168378",
+   "slug": "95-saddle-hill-road-stamford-connecticut-24168378",
+   "address": {
+    "line": "95 Saddle Hill Road",
+    "unit": null,
+    "lineWithUnit": "95 Saddle Hill Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
+   },
+   "beds": 5.0,
+   "baths": 4.0,
+   "sqft": 3892.0,
+   "price": 1450000.0,
+   "date": "2026-06-12",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.151241,
+    "lng": -73.575238
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1201869780222133,
+   "ppsf": 372.55909558067833
+  },
+  {
+   "mls": "24159152",
+   "slug": "40-wildwood-road-stamford-connecticut-24159152",
+   "address": {
+    "line": "40 Wildwood Road",
+    "unit": null,
+    "lineWithUnit": "40 Wildwood Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
+   },
+   "beds": 5.0,
+   "baths": 7.0,
+   "sqft": 6034.0,
+   "price": 1675000.0,
+   "date": "2026-06-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.135593,
+    "lng": -73.58187
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 0.7629447966521163,
+   "ppsf": 277.5936360623136
+  },
+  {
+   "mls": "24170427",
+   "slug": "46-breezy-hill-road-stamford-connecticut-24170427",
+   "address": {
+    "line": "46 Breezy Hill Road",
+    "unit": null,
+    "lineWithUnit": "46 Breezy Hill Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
+   },
+   "beds": 5.0,
+   "baths": 4.0,
+   "sqft": 5902.0,
+   "price": 1450000.0,
+   "date": "2026-07-01",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.158666,
+    "lng": -73.576208
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.86210339127002,
+   "ppsf": 245.67943070145714
+  },
+  {
+   "mls": "24157806",
+   "slug": "320-chestnut-hill-road-stamford-connecticut-24157806",
+   "address": {
+    "line": "320 Chestnut Hill Road",
+    "unit": null,
+    "lineWithUnit": "320 Chestnut Hill Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 3342.0,
+   "price": 1440000.0,
+   "date": "2026-06-18",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.126064,
+    "lng": -73.569004
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.1134032720517033,
+   "ppsf": 430.87971274685816
   }
- }
+ ]
 }

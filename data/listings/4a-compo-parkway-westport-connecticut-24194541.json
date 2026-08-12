@@ -122,72 +122,141 @@
    "mi": 1.63
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "32-burnham-hill-westport-connecticut-24168754",
-     "addr": "32 Burnham Hill",
-     "unit": "",
-     "beds": 6.0,
-     "baths": 7.0,
-     "sqft": 6641.0,
-     "price": 5450000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-28",
-     "ppsf": 821,
-     "mi": 0.37
-    },
-    {
-     "slug": "9-pond-edge-road-westport-connecticut-24143533",
-     "addr": "9 Pond Edge Road",
-     "unit": "",
-     "beds": 6.0,
-     "baths": 7.0,
-     "sqft": 6100.0,
-     "price": 5775000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-11",
-     "ppsf": 947,
-     "mi": 0.43
-    },
-    {
-     "slug": "27-owenoke-park-westport-connecticut-24150724",
-     "addr": "27 Owenoke Park",
-     "unit": "",
-     "beds": 6.0,
-     "baths": 4.0,
-     "sqft": 3572.0,
-     "price": 6750000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-14",
-     "ppsf": 1890,
-     "mi": 0.61
-    },
-    {
-     "slug": "8-loretta-court-westport-connecticut-24156057",
-     "addr": "8 Loretta Court",
-     "unit": "",
-     "beds": 6.0,
-     "baths": 9.0,
-     "sqft": 9576.0,
-     "price": 6895000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 720,
-     "mi": 0.59
-    }
-   ],
-   "summary": {
-    "n": 3,
-    "low": 5450000.0,
-    "high": 6750000.0,
-    "median": 5775000
+ "comps": [
+  {
+   "mls": "24146922",
+   "slug": "24-compo-parkway-westport-connecticut-24146922",
+   "address": {
+    "line": "24 Compo Parkway",
+    "unit": null,
+    "lineWithUnit": "24 Compo Parkway",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
    },
-   "radiusMi": 0.75
+   "beds": 5.0,
+   "baths": 6.0,
+   "sqft": 6020.0,
+   "price": 5035000.0,
+   "date": "2026-03-20",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.114773,
+    "lng": -73.353806
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.22761701322865802,
+   "ppsf": 836.3787375415283
+  },
+  {
+   "mls": "24172774",
+   "slug": "7-pond-edge-road-westport-connecticut-24172774",
+   "address": {
+    "line": "7 Pond Edge Road",
+    "unit": null,
+    "lineWithUnit": "7 Pond Edge Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 4.0,
+   "baths": 6.0,
+   "sqft": 5729.0,
+   "price": 4400000.0,
+   "date": "2026-07-21",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.11665,
+    "lng": -73.348182
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7259947389661217,
+   "ppsf": 768.0223424681445
+  },
+  {
+   "mls": "24143533",
+   "slug": "9-pond-edge-road-westport-connecticut-24143533",
+   "address": {
+    "line": "9 Pond Edge Road",
+    "unit": null,
+    "lineWithUnit": "9 Pond Edge Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 6.0,
+   "baths": 7.0,
+   "sqft": 6100.0,
+   "price": 5775000.0,
+   "date": "2026-05-11",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.116642,
+    "lng": -73.348582
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6935620944101737,
+   "ppsf": 946.7213114754098
+  },
+  {
+   "mls": "24158799",
+   "slug": "22-apple-tree-trail-westport-connecticut-24158799",
+   "address": {
+    "line": "22 Apple Tree Trail",
+    "unit": null,
+    "lineWithUnit": "22 Apple Tree Trail",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 5.0,
+   "baths": 5.0,
+   "sqft": 4550.0,
+   "price": 5995000.0,
+   "date": "2026-05-26",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.109494,
+    "lng": -73.35261
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6816495884660342,
+   "ppsf": 1317.5824175824175
+  },
+  {
+   "mls": "24160000",
+   "slug": "11-edgewater-hillside-westport-connecticut-24160000",
+   "address": {
+    "line": "11 Edgewater Hillside",
+    "unit": null,
+    "lineWithUnit": "11 Edgewater Hillside",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 4.0,
+   "baths": 5.0,
+   "sqft": 4693.0,
+   "price": 3899000.0,
+   "date": "2026-07-31",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.11864,
+    "lng": -73.344246
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1103782913869433,
+   "ppsf": 830.8118474323461
   }
- }
+ ]
 }

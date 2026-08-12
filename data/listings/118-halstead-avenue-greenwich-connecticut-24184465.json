@@ -130,85 +130,141 @@
    "mi": 1.78
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "19-cross-street-greenwich-connecticut-24170385",
-     "addr": "19 Cross Street",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1854.0,
-     "price": 1325000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-07",
-     "ppsf": 715,
-     "mi": 0.33
-    },
-    {
-     "slug": "11-rex-street-greenwich-connecticut-24156004",
-     "addr": "11 Rex Street",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1064.0,
-     "price": 823000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-16",
-     "ppsf": 773,
-     "mi": 0.37
-    },
-    {
-     "slug": "1-pilgrim-drive-greenwich-connecticut-24186503",
-     "addr": "1 Pilgrim Drive",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 1.0,
-     "sqft": 1276.0,
-     "price": 980000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-07",
-     "ppsf": 768,
-     "mi": 0.48
-    },
-    {
-     "slug": "17-rex-street-greenwich-connecticut-24192251",
-     "addr": "17 Rex Street",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1624.0,
-     "price": 899000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 554,
-     "mi": 0.38
-    },
-    {
-     "slug": "52-francis-lane-greenwich-connecticut-24182873",
-     "addr": "52 Francis Lane",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 4.0,
-     "sqft": 3049.0,
-     "price": 1895000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 622,
-     "mi": 0.46
-    }
-   ],
-   "summary": {
-    "n": 3,
-    "low": 823000.0,
-    "high": 1325000.0,
-    "median": 980000
+ "comps": [
+  {
+   "mls": "24156004",
+   "slug": "11-rex-street-greenwich-connecticut-24156004",
+   "address": {
+    "line": "11 Rex Street",
+    "unit": null,
+    "lineWithUnit": "11 Rex Street",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06831"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1064.0,
+   "price": 823000.0,
+   "date": "2026-04-16",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.022267,
+    "lng": -73.657825
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5963493030246084,
+   "ppsf": 773.4962406015038
+  },
+  {
+   "mls": "24186503",
+   "slug": "1-pilgrim-drive-greenwich-connecticut-24186503",
+   "address": {
+    "line": "1 Pilgrim Drive",
+    "unit": null,
+    "lineWithUnit": "1 Pilgrim Drive",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06831"
+   },
+   "beds": 3.0,
+   "baths": 1.0,
+   "sqft": 1276.0,
+   "price": 980000.0,
+   "date": "2026-08-07",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.023029,
+    "lng": -73.662327
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7770422963309669,
+   "ppsf": 768.0250783699059
+  },
+  {
+   "mls": "24141403",
+   "slug": "15-henry-street-greenwich-connecticut-24141403",
+   "address": {
+    "line": "15 Henry Street",
+    "unit": null,
+    "lineWithUnit": "15 Henry Street",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06830"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1258.0,
+   "price": 600000.0,
+   "date": "2026-03-24",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.003594,
+    "lng": -73.655907
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.4891229217828326,
+   "ppsf": 476.9475357710652
+  },
+  {
+   "mls": "24112915",
+   "slug": "33-halsey-drive-greenwich-connecticut-24112915",
+   "address": {
+    "line": "33 Halsey Drive",
+    "unit": null,
+    "lineWithUnit": "33 Halsey Drive",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06870"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1481.0,
+   "price": 1410000.0,
+   "date": "2026-07-01",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.050455,
+    "lng": -73.570632
+   },
+   "klass": "house",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 8.213279457224727,
+   "ppsf": 952.0594193112762
+  },
+  {
+   "mls": "24157194",
+   "slug": "24-taylor-drive-greenwich-connecticut-24157194",
+   "address": {
+    "line": "24 Taylor Drive",
+    "unit": null,
+    "lineWithUnit": "24 Taylor Drive",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06807"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1356.0,
+   "price": 1395000.0,
+   "date": "2026-05-11",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.038901,
+    "lng": -73.60089
+   },
+   "klass": "house",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 5.369069333772269,
+   "ppsf": 1028.7610619469026
   }
- }
+ ]
 }

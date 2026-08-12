@@ -131,101 +131,141 @@
    "mi": 1.3
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "244-westwood-road-stamford-connecticut-24156180",
-     "addr": "244 Westwood Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 1852.0,
-     "price": 845000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-17",
-     "ppsf": 456,
-     "mi": 0.3
-    },
-    {
-     "slug": "45-carriage-drive-south-stamford-connecticut-24175682",
-     "addr": "45 Carriage Drive South",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2893.0,
-     "price": 1260000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-13",
-     "ppsf": 436,
-     "mi": 0.32
-    },
-    {
-     "slug": "75-westwood-road-stamford-connecticut-24177987",
-     "addr": "75 Westwood Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2496.0,
-     "price": 820000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-07",
-     "ppsf": 329,
-     "mi": 0.5
-    },
-    {
-     "slug": "702-westover-road-stamford-connecticut-24167142",
-     "addr": "702 Westover Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 3309.0,
-     "price": 1412000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-29",
-     "ppsf": 427,
-     "mi": 0.51
-    },
-    {
-     "slug": "59-westwood-road-stamford-connecticut-24169086",
-     "addr": "59 Westwood Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2452.0,
-     "price": 1019000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-27",
-     "ppsf": 416,
-     "mi": 0.51
-    },
-    {
-     "slug": "231-roxbury-road-stamford-connecticut-24167171",
-     "addr": "231 Roxbury Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 5.0,
-     "sqft": 5079.0,
-     "price": 1829500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-01",
-     "ppsf": 360,
-     "mi": 0.57
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 820000.0,
-    "high": 1829500.0,
-    "median": 1139500
+ "comps": [
+  {
+   "mls": "24143655",
+   "slug": "281-roxbury-road-stamford-connecticut-24143655",
+   "address": {
+    "line": "281 Roxbury Road",
+    "unit": null,
+    "lineWithUnit": "281 Roxbury Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 2444.0,
+   "price": 990000.0,
+   "date": "2026-05-05",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.09267,
+    "lng": -73.571406
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9958692152384128,
+   "ppsf": 405.0736497545008
+  },
+  {
+   "mls": "24177987",
+   "slug": "75-westwood-road-stamford-connecticut-24177987",
+   "address": {
+    "line": "75 Westwood Road",
+    "unit": null,
+    "lineWithUnit": "75 Westwood Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2496.0,
+   "price": 820000.0,
+   "date": "2026-07-07",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.078708,
+    "lng": -73.562062
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8096262028209541,
+   "ppsf": 328.52564102564105
+  },
+  {
+   "mls": "24174458",
+   "slug": "47-london-lane-stamford-connecticut-24174458",
+   "address": {
+    "line": "47 London Lane",
+    "unit": null,
+    "lineWithUnit": "47 London Lane",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 4.0,
+   "baths": 2.0,
+   "sqft": 2276.0,
+   "price": 895000.0,
+   "date": "2026-07-31",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.079944,
+    "lng": -73.556737
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.103205598093448,
+   "ppsf": 393.23374340949033
+  },
+  {
+   "mls": "24175682",
+   "slug": "45-carriage-drive-south-stamford-connecticut-24175682",
+   "address": {
+    "line": "45 Carriage Drive South",
+    "unit": null,
+    "lineWithUnit": "45 Carriage Drive South",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2893.0,
+   "price": 1260000.0,
+   "date": "2026-07-13",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.079376,
+    "lng": -73.5697
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5125584406674416,
+   "ppsf": 435.5340477013481
+  },
+  {
+   "mls": "24165438",
+   "slug": "26-three-lakes-drive-stamford-connecticut-24165438",
+   "address": {
+    "line": "26 Three Lakes Drive",
+    "unit": null,
+    "lineWithUnit": "26 Three Lakes Drive",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 5.0,
+   "baths": 3.0,
+   "sqft": 2251.0,
+   "price": 986000.0,
+   "date": "2026-06-04",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.085798,
+    "lng": -73.556353
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0626091664891804,
+   "ppsf": 438.0275433140826
   }
- }
+ ]
 }

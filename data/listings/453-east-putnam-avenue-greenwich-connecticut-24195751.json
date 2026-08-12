@@ -136,97 +136,141 @@
    "mi": 1.43
   }
  },
- "comps": {
-  "building": {
-   "rows": [
-    {
-     "slug": "453-east-putnam-avenue-greenwich-connecticut-24161260",
-     "addr": "453 East Putnam Avenue Unit 4B",
-     "unit": "Unit 4B",
-     "beds": 2.0,
-     "baths": 3.0,
-     "sqft": 1464.0,
-     "price": 850000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-20",
-     "ppsf": 581
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 850000.0,
-    "high": 850000.0,
-    "median": 850000
+ "comps": [
+  {
+   "mls": "24161260",
+   "slug": "453-east-putnam-avenue-greenwich-connecticut-24161260",
+   "address": {
+    "line": "453 East Putnam Avenue",
+    "unit": "Unit 4B",
+    "lineWithUnit": "453 East Putnam Avenue Unit 4B",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06807"
    },
-   "label": "453 East Putnam Avenue"
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 1464.0,
+   "price": 850000.0,
+   "date": "2026-05-20",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.040055,
+    "lng": -73.594096
+   },
+   "klass": "condo",
+   "tier": 1,
+   "why": "Same building, sold in the last year",
+   "km": 0.0,
+   "ppsf": 580.6010928961749
   },
-  "area": {
-   "rows": [
-    {
-     "slug": "24-decatur-street-greenwich-connecticut-24178750",
-     "addr": "24 Decatur Street Unit 2",
-     "unit": "Unit 2",
-     "beds": 2.0,
-     "baths": 3.0,
-     "sqft": 1643.0,
-     "price": 850000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-06",
-     "ppsf": 517,
-     "mi": 0.39
-    },
-    {
-     "slug": "15-river-road-greenwich-connecticut-24165804",
-     "addr": "15 River Road Unit 205",
-     "unit": "Unit 205",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1270.0,
-     "price": 914000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-31",
-     "ppsf": 720,
-     "mi": 0.39
-    },
-    {
-     "slug": "9-river-road-greenwich-connecticut-24156554",
-     "addr": "9 River Road Unit 418",
-     "unit": "Unit 418",
-     "beds": 2.0,
-     "baths": 3.0,
-     "sqft": 1181.0,
-     "price": 855000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-01",
-     "ppsf": 724,
-     "mi": 0.4
-    },
-    {
-     "slug": "6-caroline-farms-road-greenwich-connecticut-24175137",
-     "addr": "6 Caroline Farms Road Unit 4",
-     "unit": "Unit 4",
-     "beds": 2.0,
-     "baths": 4.0,
-     "sqft": 2042.0,
-     "price": 1190000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-17",
-     "ppsf": 583,
-     "mi": 0.6
-    }
-   ],
-   "summary": {
-    "n": 4,
-    "low": 850000.0,
-    "high": 1190000.0,
-    "median": 884500
+  {
+   "mls": "24165767",
+   "slug": "98-valley-road-greenwich-connecticut-24165767",
+   "address": {
+    "line": "98 Valley Road",
+    "unit": "Unit 12",
+    "lineWithUnit": "98 Valley Road Unit 12",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06807"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1240.0,
+   "price": 960000.0,
+   "date": "2026-06-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.0456,
+    "lng": -73.590758
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6771510740532625,
+   "ppsf": 774.1935483870968
+  },
+  {
+   "mls": "24178750",
+   "slug": "24-decatur-street-greenwich-connecticut-24178750",
+   "address": {
+    "line": "24 Decatur Street",
+    "unit": "Unit 2",
+    "lineWithUnit": "24 Decatur Street Unit 2",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06807"
+   },
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 1643.0,
+   "price": 850000.0,
+   "date": "2026-07-06",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.045427,
+    "lng": -73.592032
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6219140305919861,
+   "ppsf": 517.3463177115034
+  },
+  {
+   "mls": "24156554",
+   "slug": "9-river-road-greenwich-connecticut-24156554",
+   "address": {
+    "line": "9 River Road",
+    "unit": "Unit 418",
+    "lineWithUnit": "9 River Road Unit 418",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06807"
+   },
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 1181.0,
+   "price": 855000.0,
+   "date": "2026-07-01",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.034423,
+    "lng": -73.595537
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6378056380562571,
+   "ppsf": 723.9627434377646
+  },
+  {
+   "mls": "24165804",
+   "slug": "15-river-road-greenwich-connecticut-24165804",
+   "address": {
+    "line": "15 River Road",
+    "unit": "Unit 205",
+    "lineWithUnit": "15 River Road Unit 205",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06807"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1270.0,
+   "price": 914000.0,
+   "date": "2026-07-31",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.034488,
+    "lng": -73.595518
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.630406965550263,
+   "ppsf": 719.6850393700787
   }
- }
+ ]
 }

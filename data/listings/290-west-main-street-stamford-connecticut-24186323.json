@@ -129,101 +129,141 @@
    "walk": 3
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "105-richmond-hill-avenue-stamford-connecticut-24173862",
-     "addr": "105 Richmond Hill Avenue Unit 2",
-     "unit": "Unit 2",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 810.0,
-     "price": 320000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-23",
-     "ppsf": 395,
-     "mi": 0.12
-    },
-    {
-     "slug": "93-spruce-street-stamford-connecticut-24140379",
-     "addr": "93 Spruce Street Apt 11",
-     "unit": "Apt 11",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 950.0,
-     "price": 295000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-09",
-     "ppsf": 311,
-     "mi": 0.13
-    },
-    {
-     "slug": "186-stillwater-avenue-stamford-connecticut-24158713",
-     "addr": "186 Stillwater Avenue Apt 115",
-     "unit": "Apt 115",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 890.0,
-     "price": 295000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-30",
-     "ppsf": 331,
-     "mi": 0.29
-    },
-    {
-     "slug": "35-west-broad-street-stamford-connecticut-24160059",
-     "addr": "35 West Broad Street Unit 224",
-     "unit": "Unit 224",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1148.0,
-     "price": 526000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-28",
-     "ppsf": 458,
-     "mi": 0.47
-    },
-    {
-     "slug": "25-adams-avenue-stamford-connecticut-24167713",
-     "addr": "25 Adams Avenue Unit 112",
-     "unit": "Unit 112",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1200.0,
-     "price": 517500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-15",
-     "ppsf": 431,
-     "mi": 0.51
-    },
-    {
-     "slug": "25-adams-avenue-stamford-connecticut-24160889",
-     "addr": "25 Adams Avenue Unit 405",
-     "unit": "Unit 405",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1492.0,
-     "price": 610000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-29",
-     "ppsf": 409,
-     "mi": 0.51
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 295000.0,
-    "high": 610000.0,
-    "median": 418750
+ "comps": [
+  {
+   "mls": "24140379",
+   "slug": "93-spruce-street-stamford-connecticut-24140379",
+   "address": {
+    "line": "93 Spruce Street",
+    "unit": "Apt 11",
+    "lineWithUnit": "93 Spruce Street Apt 11",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 950.0,
+   "price": 295000.0,
+   "date": "2026-04-09",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.051298,
+    "lng": -73.549693
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.2120534650800406,
+   "ppsf": 310.5263157894737
+  },
+  {
+   "mls": "24144382",
+   "slug": "54-west-north-street-stamford-connecticut-24144382",
+   "address": {
+    "line": "54 West North Street",
+    "unit": "Unit 410",
+    "lineWithUnit": "54 West North Street Unit 410",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 900.0,
+   "price": 205000.0,
+   "date": "2026-04-24",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.058666,
+    "lng": -73.544612
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1077599081475038,
+   "ppsf": 227.77777777777777
+  },
+  {
+   "mls": "24151250",
+   "slug": "15-victory-street-stamford-connecticut-24151250",
+   "address": {
+    "line": "15 Victory Street",
+    "unit": "Apt 12",
+    "lineWithUnit": "15 Victory Street Apt 12",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 663.0,
+   "price": 250000.0,
+   "date": "2026-03-31",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.047617,
+    "lng": -73.555449
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5398240165559578,
+   "ppsf": 377.0739064856712
+  },
+  {
+   "mls": "24154452",
+   "slug": "51-schuyler-avenue-stamford-connecticut-24154452",
+   "address": {
+    "line": "51 Schuyler Avenue",
+    "unit": "Apt 7E",
+    "lineWithUnit": "51 Schuyler Avenue Apt 7E",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 894.0,
+   "price": 305000.0,
+   "date": "2026-04-22",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.054399,
+    "lng": -73.546965
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5940655357779955,
+   "ppsf": 341.1633109619687
+  },
+  {
+   "mls": "24158713",
+   "slug": "186-stillwater-avenue-stamford-connecticut-24158713",
+   "address": {
+    "line": "186 Stillwater Avenue",
+    "unit": "Apt 115",
+    "lineWithUnit": "186 Stillwater Avenue Apt 115",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 890.0,
+   "price": 295000.0,
+   "date": "2026-04-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.052069,
+    "lng": -73.553788
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.46882620403304925,
+   "ppsf": 331.46067415730334
   }
- }
+ ]
 }

@@ -110,125 +110,141 @@
    "walk": 7
   }
  },
- "comps": {
-  "building": {
-   "rows": [
-    {
-     "slug": "236-greenwich-avenue-stamford-connecticut-24163473",
-     "addr": "236 Greenwich Avenue Unit 5",
-     "unit": "Unit 5",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 1178.0,
-     "price": 1700.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-15",
-     "ppsf": 1
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 1700.0,
-    "high": 1700.0,
-    "median": 1700
+ "comps": [
+  {
+   "mls": "24155168",
+   "slug": "31-fairgate-drive-stamford-connecticut-24155168",
+   "address": {
+    "line": "31 Fairgate Drive",
+    "unit": null,
+    "lineWithUnit": "31 Fairgate Drive",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
    },
-   "label": "236 Greenwich Avenue"
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1188.0,
+   "price": 3100.0,
+   "date": "2026-04-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.049946,
+    "lng": -73.55177
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8088096758410059,
+   "ppsf": 2.6094276094276094
   },
-  "area": {
-   "rows": [
-    {
-     "slug": "100-commons-park-north-stamford-connecticut-24139923",
-     "addr": "100 Commons Park North Unit 759",
-     "unit": "Unit 759",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 759.0,
-     "price": 2865.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-30",
-     "ppsf": 4,
-     "mi": 0.34
-    },
-    {
-     "slug": "100-commons-park-north-stamford-connecticut-24146229",
-     "addr": "100 Commons Park North Unit 727",
-     "unit": "Unit 727",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 738.0,
-     "price": 2920.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-15",
-     "ppsf": 4,
-     "mi": 0.34
-    },
-    {
-     "slug": "100-commons-park-north-stamford-connecticut-24170455",
-     "addr": "100 Commons Park North Unit 1456",
-     "unit": "Unit 1456",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 896.0,
-     "price": 2935.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-07",
-     "ppsf": 3,
-     "mi": 0.34
-    },
-    {
-     "slug": "2-harbor-point-road-south-stamford-connecticut-24124502",
-     "addr": "2 Harbor Point Road South Unit 326",
-     "unit": "Unit 326",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 783.0,
-     "price": 2985.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-30",
-     "ppsf": 4,
-     "mi": 0.36
-    },
-    {
-     "slug": "850-south-pacific-street-stamford-connecticut-24172457",
-     "addr": "850 South Pacific Street Unit 1558",
-     "unit": "Unit 1558",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 766.0,
-     "price": 3425.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-16",
-     "ppsf": 4,
-     "mi": 0.38
-    },
-    {
-     "slug": "850-south-pacific-street-stamford-connecticut-24146235",
-     "addr": "850 South Pacific Street Unit 448",
-     "unit": "Unit 448",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 657.0,
-     "price": 2845.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-10",
-     "ppsf": 4,
-     "mi": 0.38
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 2845.0,
-    "high": 3425.0,
-    "median": 2928
+  {
+   "mls": "24154625",
+   "slug": "511-west-main-street-stamford-connecticut-24154625",
+   "address": {
+    "line": "511 West Main Street",
+    "unit": "Apt 6",
+    "lineWithUnit": "511 West Main Street Apt 6",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1136.0,
+   "price": 2750.0,
+   "date": "2026-04-13",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.049009,
+    "lng": -73.559602
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.183824394192611,
+   "ppsf": 2.420774647887324
+  },
+  {
+   "mls": "24160217",
+   "slug": "14-taylor-street-stamford-connecticut-24160217",
+   "address": {
+    "line": "14 Taylor Street",
+    "unit": "Unit 18",
+    "lineWithUnit": "14 Taylor Street Unit 18",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1100.0,
+   "price": 3100.0,
+   "date": "2026-04-15",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.047432,
+    "lng": -73.54861
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.4581472056208458,
+   "ppsf": 2.8181818181818183
+  },
+  {
+   "mls": "24139922",
+   "slug": "100-commons-park-north-stamford-connecticut-24139922",
+   "address": {
+    "line": "100 Commons Park North",
+    "unit": "Unit 1361",
+    "lineWithUnit": "100 Commons Park North Unit 1361",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1109.0,
+   "price": 3285.0,
+   "date": "2026-04-30",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.042053,
+    "lng": -73.54127
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5526098106946252,
+   "ppsf": 2.9621280432822363
+  },
+  {
+   "mls": "24124492",
+   "slug": "100-commons-park-north-stamford-connecticut-24124492",
+   "address": {
+    "line": "100 Commons Park North",
+    "unit": "Unit 1402",
+    "lineWithUnit": "100 Commons Park North Unit 1402",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1109.0,
+   "price": 3455.0,
+   "date": "2026-04-30",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.042053,
+    "lng": -73.54127
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5526098106946252,
+   "ppsf": 3.115419296663661
   }
- }
+ ]
 }

@@ -129,57 +129,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "422-scofieldtown-road-stamford-connecticut-24155820",
-     "addr": "422 Scofieldtown Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 6.0,
-     "sqft": 5662.0,
-     "price": 2000000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-28",
-     "ppsf": 353,
-     "mi": 0.56
-    },
-    {
-     "slug": "37-haviland-court-stamford-connecticut-24165055",
-     "addr": "37 Haviland Court",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 4.0,
-     "sqft": 4227.0,
-     "price": 1500000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 355,
-     "mi": 0.14
-    },
-    {
-     "slug": "333-rock-rimmon-road-stamford-connecticut-24195672",
-     "addr": "333 Rock Rimmon Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 6.0,
-     "sqft": 7633.0,
-     "price": 2500000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 328,
-     "mi": 0.71
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 2000000.0,
-    "high": 2000000.0,
-    "median": 2000000
+ "comps": [
+  {
+   "mls": "24155820",
+   "slug": "422-scofieldtown-road-stamford-connecticut-24155820",
+   "address": {
+    "line": "422 Scofieldtown Road",
+    "unit": null,
+    "lineWithUnit": "422 Scofieldtown Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
    },
-   "radiusMi": 0.75
+   "beds": 5.0,
+   "baths": 6.0,
+   "sqft": 5662.0,
+   "price": 2000000.0,
+   "date": "2026-05-28",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.130276,
+    "lng": -73.558593
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8958345506435376,
+   "ppsf": 353.2320734722713
+  },
+  {
+   "mls": "24159152",
+   "slug": "40-wildwood-road-stamford-connecticut-24159152",
+   "address": {
+    "line": "40 Wildwood Road",
+    "unit": null,
+    "lineWithUnit": "40 Wildwood Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
+   },
+   "beds": 5.0,
+   "baths": 7.0,
+   "sqft": 6034.0,
+   "price": 1675000.0,
+   "date": "2026-06-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.135593,
+    "lng": -73.58187
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.3553881711742615,
+   "ppsf": 277.5936360623136
+  },
+  {
+   "mls": "24161680",
+   "slug": "25-wildwood-road-stamford-connecticut-24161680",
+   "address": {
+    "line": "25 Wildwood Road",
+    "unit": null,
+    "lineWithUnit": "25 Wildwood Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
+   },
+   "beds": 4.0,
+   "baths": 5.0,
+   "sqft": 5972.0,
+   "price": 2410000.0,
+   "date": "2026-04-20",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.137022,
+    "lng": -73.582142
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.378352885647077,
+   "ppsf": 403.54989953114534
+  },
+  {
+   "mls": "24134364",
+   "slug": "177-long-close-road-stamford-connecticut-24134364",
+   "address": {
+    "line": "177 Long Close Road",
+    "unit": null,
+    "lineWithUnit": "177 Long Close Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 6.0,
+   "baths": 8.0,
+   "sqft": 8543.0,
+   "price": 3125000.0,
+   "date": "2026-03-18",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.085098,
+    "lng": -73.574809
+   },
+   "klass": "house",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 5.742974652659177,
+   "ppsf": 365.7965585859768
+  },
+  {
+   "mls": "24162502",
+   "slug": "31-rosano-road-stamford-connecticut-24162502",
+   "address": {
+    "line": "31 Rosano Road",
+    "unit": null,
+    "lineWithUnit": "31 Rosano Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 6.0,
+   "baths": 5.0,
+   "sqft": 6000.0,
+   "price": 2149000.0,
+   "date": "2026-05-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.086895,
+    "lng": -73.55289
+   },
+   "klass": "house",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 5.596422181252936,
+   "ppsf": 358.1666666666667
   }
- }
+ ]
 }

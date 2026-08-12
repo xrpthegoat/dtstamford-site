@@ -132,101 +132,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "35-woody-lane-westport-connecticut-24158858",
-     "addr": "35 Woody Lane",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 4.0,
-     "sqft": 4486.0,
-     "price": 3015000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-15",
-     "ppsf": 672,
-     "mi": 0.19
-    },
-    {
-     "slug": "71-high-point-road-westport-connecticut-24178245",
-     "addr": "71 High Point Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 4.0,
-     "sqft": 6310.0,
-     "price": 1917500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-23",
-     "ppsf": 304,
-     "mi": 0.26
-    },
-    {
-     "slug": "123-cross-highway-westport-connecticut-24166688",
-     "addr": "123 Cross Highway",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 6.0,
-     "sqft": 7048.0,
-     "price": 3500000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-15",
-     "ppsf": 497,
-     "mi": 0.51
-    },
-    {
-     "slug": "4-peach-lot-place-westport-connecticut-24166340",
-     "addr": "4 Peach Lot Place Unit LOT PL",
-     "unit": "Unit LOT PL",
-     "beds": 5.0,
-     "baths": 8.0,
-     "sqft": 8364.0,
-     "price": 4500000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-05",
-     "ppsf": 538,
-     "mi": 0.53
-    },
-    {
-     "slug": "17-vineyard-lane-westport-connecticut-24170642",
-     "addr": "17 Vineyard Lane",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 6.0,
-     "sqft": 7964.0,
-     "price": 3895000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-15",
-     "ppsf": 489,
-     "mi": 0.57
-    },
-    {
-     "slug": "114-cross-highway-westport-connecticut-24165047",
-     "addr": "114 Cross Highway",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 5.0,
-     "sqft": 4179.0,
-     "price": 2550000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-06",
-     "ppsf": 610,
-     "mi": 0.62
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 1917500.0,
-    "high": 4500000.0,
-    "median": 3257500
+ "comps": [
+  {
+   "mls": "24114691",
+   "slug": "13-terhune-drive-westport-connecticut-24114691",
+   "address": {
+    "line": "13 Terhune Drive",
+    "unit": null,
+    "lineWithUnit": "13 Terhune Drive",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
    },
-   "radiusMi": 0.75
+   "beds": 6.0,
+   "baths": 6.0,
+   "sqft": 6010.0,
+   "price": 3499999.0,
+   "date": "2026-06-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.151407,
+    "lng": -73.331303
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1813785859037287,
+   "ppsf": 582.3625623960066
+  },
+  {
+   "mls": "24166688",
+   "slug": "123-cross-highway-westport-connecticut-24166688",
+   "address": {
+    "line": "123 Cross Highway",
+    "unit": null,
+    "lineWithUnit": "123 Cross Highway",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 5.0,
+   "baths": 6.0,
+   "sqft": 7048.0,
+   "price": 3500000.0,
+   "date": "2026-07-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.162201,
+    "lng": -73.336872
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8165407357040665,
+   "ppsf": 496.5947786606129
+  },
+  {
+   "mls": "24178245",
+   "slug": "71-high-point-road-westport-connecticut-24178245",
+   "address": {
+    "line": "71 High Point Road",
+    "unit": null,
+    "lineWithUnit": "71 High Point Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 5.0,
+   "baths": 4.0,
+   "sqft": 6310.0,
+   "price": 1917500.0,
+   "date": "2026-07-23",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.157791,
+    "lng": -73.326681
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.4211894902663003,
+   "ppsf": 303.8827258320127
+  },
+  {
+   "mls": "24178328",
+   "slug": "22-sturges-commons-westport-connecticut-24178328",
+   "address": {
+    "line": "22 Sturges Commons",
+    "unit": null,
+    "lineWithUnit": "22 Sturges Commons",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 5.0,
+   "baths": 8.0,
+   "sqft": 4911.0,
+   "price": 3000000.0,
+   "date": "2026-07-20",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.156155,
+    "lng": -73.315647
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1356293643961937,
+   "ppsf": 610.8735491753207
+  },
+  {
+   "mls": "24147552",
+   "slug": "10-wakenor-road-westport-connecticut-24147552",
+   "address": {
+    "line": "10 Wakenor Road",
+    "unit": null,
+    "lineWithUnit": "10 Wakenor Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 5.0,
+   "baths": 6.0,
+   "sqft": 5008.0,
+   "price": 2630000.0,
+   "date": "2026-04-01",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.139773,
+    "lng": -73.332227
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.459762033496499,
+   "ppsf": 525.1597444089457
   }
- }
+ ]
 }

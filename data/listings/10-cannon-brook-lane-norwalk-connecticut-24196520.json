@@ -132,99 +132,141 @@
    "walk": 7
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "10-glendenning-street-norwalk-connecticut-24164557",
-     "addr": "10 Glendenning Street Unit Right",
-     "unit": "Unit Right",
-     "beds": 3.0,
-     "baths": 1.0,
-     "sqft": 2172.0,
-     "price": 3500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-09",
-     "ppsf": 2,
-     "mi": 0.15
-    },
-    {
-     "slug": "24-highbrook-road-norwalk-connecticut-24178349",
-     "addr": "24 Highbrook Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1815.0,
-     "price": 5050.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-15",
-     "ppsf": 3,
-     "mi": 0.26
-    },
-    {
-     "slug": "6-harriet-street-norwalk-connecticut-24188378",
-     "addr": "6 Harriet Street Unit 2",
-     "unit": "Unit 2",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 2531.0,
-     "price": 2375.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-01",
-     "ppsf": 1,
-     "mi": 0.5
-    },
-    {
-     "slug": "60-walter-avenue-norwalk-connecticut-24161289",
-     "addr": "60 Walter Avenue",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1320.0,
-     "price": 3700.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-14",
-     "ppsf": 3,
-     "mi": 0.72
-    },
-    {
-     "slug": "20-west-main-street-norwalk-connecticut-24194018",
-     "addr": "20 West Main Street Unit C104",
-     "unit": "Unit C104",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1719.0,
-     "price": 3795.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 2,
-     "mi": 0.51
-    },
-    {
-     "slug": "45-wilton-avenue-norwalk-connecticut-24187402",
-     "addr": "45 Wilton Avenue Unit 1st Floor",
-     "unit": "Unit 1st Floor",
-     "beds": 3.0,
-     "baths": 1.0,
-     "sqft": 1175.0,
-     "price": 2900.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 2,
-     "mi": 0.62
-    }
-   ],
-   "summary": {
-    "n": 4,
-    "low": 2375.0,
-    "high": 5050.0,
-    "median": 3600
+ "comps": [
+  {
+   "mls": "24138654",
+   "slug": "7-longview-court-norwalk-connecticut-24138654",
+   "address": {
+    "line": "7 Longview Court",
+    "unit": null,
+    "lineWithUnit": "7 Longview Court",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 2.0,
+   "sqft": 3200.0,
+   "price": 3500.0,
+   "date": "2026-04-03",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.130936,
+    "lng": -73.422688
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.3737585932309793,
+   "ppsf": 1.09375
+  },
+  {
+   "mls": "24155362",
+   "slug": "25-channel-avenue-norwalk-connecticut-24155362",
+   "address": {
+    "line": "25 Channel Avenue",
+    "unit": null,
+    "lineWithUnit": "25 Channel Avenue",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 2994.0,
+   "price": 20000.0,
+   "date": "2026-03-26",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.082005,
+    "lng": -73.41098
+   },
+   "klass": "rental",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 4.756918974497847,
+   "ppsf": 6.680026720106881
+  },
+  {
+   "mls": "24146189",
+   "slug": "12-splitrock-road-norwalk-connecticut-24146189",
+   "address": {
+    "line": "12 Splitrock Road",
+    "unit": null,
+    "lineWithUnit": "12 Splitrock Road",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 3316.0,
+   "price": 8000.0,
+   "date": "2026-06-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.082144,
+    "lng": -73.418512
+   },
+   "klass": "rental",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 4.810685047335587,
+   "ppsf": 2.4125452352231602
+  },
+  {
+   "mls": "24178609",
+   "slug": "103-silver-creek-lane-norwalk-connecticut-24178609",
+   "address": {
+    "line": "103 Silver Creek Lane",
+    "unit": "Unit 103",
+    "lineWithUnit": "103 Silver Creek Lane Unit 103",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 2.0,
+   "baths": 4.0,
+   "sqft": 2856.0,
+   "price": 7000.0,
+   "date": "2026-06-17",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.13575,
+    "lng": -73.43566
+   },
+   "klass": "rental",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 2.5834327723426678,
+   "ppsf": 2.450980392156863
+  },
+  {
+   "mls": "24159808",
+   "slug": "18-soundview-avenue-norwalk-connecticut-24159808",
+   "address": {
+    "line": "18 Soundview Avenue",
+    "unit": "Unit 1",
+    "lineWithUnit": "18 Soundview Avenue Unit 1",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 3.0,
+   "baths": 1.0,
+   "sqft": 3168.0,
+   "price": 3000.0,
+   "date": "2026-05-20",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.093333,
+    "lng": -73.428494
+   },
+   "klass": "rental",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 3.8738448353579726,
+   "ppsf": 0.946969696969697
   }
- }
+ ]
 }

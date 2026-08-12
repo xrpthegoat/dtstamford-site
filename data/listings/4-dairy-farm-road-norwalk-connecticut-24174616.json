@@ -132,101 +132,141 @@
    "walk": 10
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "23-macintosh-road-norwalk-connecticut-24156629",
-     "addr": "23 Macintosh Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1724.0,
-     "price": 749999.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-29",
-     "ppsf": 435,
-     "mi": 0.12
-    },
-    {
-     "slug": "19-lyncrest-drive-norwalk-connecticut-24161104",
-     "addr": "19 Lyncrest Drive",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1460.0,
-     "price": 752000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-29",
-     "ppsf": 515,
-     "mi": 0.14
-    },
-    {
-     "slug": "6-jersey-lane-norwalk-connecticut-24174603",
-     "addr": "6 Jersey Lane",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 2420.0,
-     "price": 760000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-21",
-     "ppsf": 314,
-     "mi": 0.17
-    },
-    {
-     "slug": "25-dairy-farm-road-norwalk-connecticut-24163446",
-     "addr": "25 Dairy Farm Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1945.0,
-     "price": 685000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-29",
-     "ppsf": 352,
-     "mi": 0.18
-    },
-    {
-     "slug": "24-heather-lane-norwalk-connecticut-24175963",
-     "addr": "24 Heather Lane",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1393.0,
-     "price": 695000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-17",
-     "ppsf": 499,
-     "mi": 0.26
-    },
-    {
-     "slug": "47-lockwood-lane-norwalk-connecticut-24159044",
-     "addr": "47 Lockwood Lane",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1624.0,
-     "price": 800000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-21",
-     "ppsf": 493,
-     "mi": 0.33
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 685000.0,
-    "high": 800000.0,
-    "median": 751000
+ "comps": [
+  {
+   "mls": "24156629",
+   "slug": "23-macintosh-road-norwalk-connecticut-24156629",
+   "address": {
+    "line": "23 Macintosh Road",
+    "unit": null,
+    "lineWithUnit": "23 Macintosh Road",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1724.0,
+   "price": 749999.0,
+   "date": "2026-06-29",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.113296,
+    "lng": -73.399932
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.1947524084875351,
+   "ppsf": 435.03422273781905
+  },
+  {
+   "mls": "24054751",
+   "slug": "26-melbourne-road-norwalk-connecticut-24054751",
+   "address": {
+    "line": "26 Melbourne Road",
+    "unit": null,
+    "lineWithUnit": "26 Melbourne Road",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 4.0,
+   "baths": 2.0,
+   "sqft": 2142.0,
+   "price": 865000.0,
+   "date": "2026-07-10",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.114558,
+    "lng": -73.404438
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5968665579188754,
+   "ppsf": 403.828197945845
+  },
+  {
+   "mls": "24172384",
+   "slug": "12-william-street-norwalk-connecticut-24172384",
+   "address": {
+    "line": "12 William Street",
+    "unit": null,
+    "lineWithUnit": "12 William Street",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2290.0,
+   "price": 1055000.0,
+   "date": "2026-06-29",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.114277,
+    "lng": -73.396278
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.19793305484509652,
+   "ppsf": 460.69868995633186
+  },
+  {
+   "mls": "24158130",
+   "slug": "33-myrtle-street-norwalk-connecticut-24158130",
+   "address": {
+    "line": "33 Myrtle Street",
+    "unit": null,
+    "lineWithUnit": "33 Myrtle Street",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06855"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2710.0,
+   "price": 900000.0,
+   "date": "2026-05-13",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.106689,
+    "lng": -73.401621
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7600045489734101,
+   "ppsf": 332.1033210332103
+  },
+  {
+   "mls": "24160860",
+   "slug": "10-maurice-street-norwalk-connecticut-24160860",
+   "address": {
+    "line": "10 Maurice Street",
+    "unit": null,
+    "lineWithUnit": "10 Maurice Street",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2686.0,
+   "price": 1067000.0,
+   "date": "2026-05-29",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.11765,
+    "lng": -73.391597
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7384713802559695,
+   "ppsf": 397.2449739389427
   }
- }
+ ]
 }

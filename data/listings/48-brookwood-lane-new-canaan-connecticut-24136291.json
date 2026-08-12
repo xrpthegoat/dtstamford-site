@@ -107,44 +107,87 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "101-parade-hill-road-new-canaan-connecticut-24150007",
-     "addr": "101 Parade Hill Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1404.0,
-     "price": 1100000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-14",
-     "ppsf": 783,
-     "mi": 0.72
-    },
-    {
-     "slug": "277-indian-rock-road-new-canaan-connecticut-24181313",
-     "addr": "277 Indian Rock Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 2460.0,
-     "price": 2000000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 813,
-     "mi": 0.66
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 1100000.0,
-    "high": 1100000.0,
-    "median": 1100000
+ "comps": [
+  {
+   "mls": "24150007",
+   "slug": "101-parade-hill-road-new-canaan-connecticut-24150007",
+   "address": {
+    "line": "101 Parade Hill Road",
+    "unit": null,
+    "lineWithUnit": "101 Parade Hill Road",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1404.0,
+   "price": 1100000.0,
+   "date": "2026-04-14",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.157871,
+    "lng": -73.495832
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1660092429056983,
+   "ppsf": 783.4757834757835
+  },
+  {
+   "mls": "24092533",
+   "slug": "60-east-avenue-new-canaan-connecticut-24092533",
+   "address": {
+    "line": "60 East Avenue",
+    "unit": null,
+    "lineWithUnit": "60 East Avenue",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1400.0,
+   "price": 975000.0,
+   "date": "2026-04-17",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.147858,
+    "lng": -73.48968
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.388526898171788,
+   "ppsf": 696.4285714285714
+  },
+  {
+   "mls": "24177673",
+   "slug": "349-ponus-ridge-new-canaan-connecticut-24177673",
+   "address": {
+    "line": "349 Ponus Ridge",
+    "unit": null,
+    "lineWithUnit": "349 Ponus Ridge",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1915.0,
+   "price": 1550000.0,
+   "date": "2026-06-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.125963,
+    "lng": -73.519268
+   },
+   "klass": "house",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 4.924788223099498,
+   "ppsf": 809.3994778067885
   }
- }
+ ]
 }

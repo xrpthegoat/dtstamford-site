@@ -133,101 +133,141 @@
    "mi": 0.63
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "8-sunset-road-darien-connecticut-24178118",
-     "addr": "8 Sunset Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 5.0,
-     "sqft": 4840.0,
-     "price": 3925000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-16",
-     "ppsf": 811,
-     "mi": 0.26
-    },
-    {
-     "slug": "2-roland-drive-darien-connecticut-24165314",
-     "addr": "2 Roland Drive",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 5.0,
-     "sqft": 5678.0,
-     "price": 4200000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-07",
-     "ppsf": 740,
-     "mi": 0.3
-    },
-    {
-     "slug": "16-overbrook-lane-darien-connecticut-24183935",
-     "addr": "16 Overbrook Lane",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 5.0,
-     "sqft": 5166.0,
-     "price": 4000000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-29",
-     "ppsf": 774,
-     "mi": 0.31
-    },
-    {
-     "slug": "21-fox-hill-lane-darien-connecticut-24161616",
-     "addr": "21 Fox Hill Lane",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 7.0,
-     "sqft": 6308.0,
-     "price": 4597500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-29",
-     "ppsf": 729,
-     "mi": 0.45
-    },
-    {
-     "slug": "43-stony-brook-road-darien-connecticut-24161606",
-     "addr": "43 Stony Brook Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 7.0,
-     "sqft": 7200.0,
-     "price": 3775000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-17",
-     "ppsf": 524,
-     "mi": 0.57
-    },
-    {
-     "slug": "20-buttonwood-lane-darien-connecticut-24185736",
-     "addr": "20 Buttonwood Lane",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 4.0,
-     "sqft": 4379.0,
-     "price": 4500000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-03",
-     "ppsf": 1028,
-     "mi": 0.57
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 3775000.0,
-    "high": 4597500.0,
-    "median": 4100000
+ "comps": [
+  {
+   "mls": "24160428",
+   "slug": "12-sunset-road-darien-connecticut-24160428",
+   "address": {
+    "line": "12 Sunset Road",
+    "unit": null,
+    "lineWithUnit": "12 Sunset Road",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 5.0,
+   "sqft": 4306.0,
+   "price": 3912000.0,
+   "date": "2026-06-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.086144,
+    "lng": -73.470673
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.4592924568979281,
+   "ppsf": 908.499767765908
+  },
+  {
+   "mls": "24171484",
+   "slug": "33-fairview-avenue-darien-connecticut-24171484",
+   "address": {
+    "line": "33 Fairview Avenue",
+    "unit": null,
+    "lineWithUnit": "33 Fairview Avenue",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 3102.0,
+   "price": 3300000.0,
+   "date": "2026-06-12",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.082015,
+    "lng": -73.467959
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.86329349743303,
+   "ppsf": 1063.8297872340424
+  },
+  {
+   "mls": "24176459",
+   "slug": "3-rocaton-road-darien-connecticut-24176459",
+   "address": {
+    "line": "3 Rocaton Road",
+    "unit": null,
+    "lineWithUnit": "3 Rocaton Road",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 3354.0,
+   "price": 2950000.0,
+   "date": "2026-08-03",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.079965,
+    "lng": -73.474788
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7660148192409126,
+   "ppsf": 879.5468097793679
+  },
+  {
+   "mls": "24185736",
+   "slug": "20-buttonwood-lane-darien-connecticut-24185736",
+   "address": {
+    "line": "20 Buttonwood Lane",
+    "unit": null,
+    "lineWithUnit": "20 Buttonwood Lane",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 5.0,
+   "baths": 4.0,
+   "sqft": 4379.0,
+   "price": 4500000.0,
+   "date": "2026-08-03",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.093763,
+    "lng": -73.470187
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9201635485671704,
+   "ppsf": 1027.6318794245262
+  },
+  {
+   "mls": "24155300",
+   "slug": "5-wheat-lane-darien-connecticut-24155300",
+   "address": {
+    "line": "5 Wheat Lane",
+    "unit": null,
+    "lineWithUnit": "5 Wheat Lane",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 5.0,
+   "baths": 5.0,
+   "sqft": 3509.0,
+   "price": 3308000.0,
+   "date": "2026-04-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.097173,
+    "lng": -73.501057
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.3902451654788606,
+   "ppsf": 942.7187232829866
   }
- }
+ ]
 }

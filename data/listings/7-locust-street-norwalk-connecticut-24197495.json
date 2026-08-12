@@ -130,101 +130,141 @@
    "mi": 0.75
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "26-rowan-street-norwalk-connecticut-24189690",
-     "addr": "26 Rowan Street Unit 1",
-     "unit": "Unit 1",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 2015.0,
-     "price": 2200.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-29",
-     "ppsf": 1,
-     "mi": 0.44
-    },
-    {
-     "slug": "38-gregory-boulevard-norwalk-connecticut-24152514",
-     "addr": "38 Gregory Boulevard",
-     "unit": "",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 2611.0,
-     "price": 3600.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-01",
-     "ppsf": 1,
-     "mi": 0.45
-    },
-    {
-     "slug": "25-cottage-street-norwalk-connecticut-24173113",
-     "addr": "25 Cottage Street Unit 202",
-     "unit": "Unit 202",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 992.0,
-     "price": 2900.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-31",
-     "ppsf": 3,
-     "mi": 0.46
-    },
-    {
-     "slug": "265-east-avenue-norwalk-connecticut-24139289",
-     "addr": "265 East Avenue Unit 2",
-     "unit": "Unit 2",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 900.0,
-     "price": 2100.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-11",
-     "ppsf": 2,
-     "mi": 0.47
-    },
-    {
-     "slug": "265-east-avenue-norwalk-connecticut-24172477",
-     "addr": "265 East Avenue Unit 3",
-     "unit": "Unit 3",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 1000.0,
-     "price": 2100.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-29",
-     "ppsf": 2,
-     "mi": 0.47
-    },
-    {
-     "slug": "265-east-avenue-norwalk-connecticut-24191129",
-     "addr": "265 East Avenue Unit 1",
-     "unit": "Unit 1",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 900.0,
-     "price": 2100.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-31",
-     "ppsf": 2,
-     "mi": 0.47
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 2100.0,
-    "high": 3600.0,
-    "median": 2150
+ "comps": [
+  {
+   "mls": "24148627",
+   "slug": "10-olmstead-place-norwalk-connecticut-24148627",
+   "address": {
+    "line": "10 Olmstead Place",
+    "unit": null,
+    "lineWithUnit": "10 Olmstead Place",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06855"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1254.0,
+   "price": 3750.0,
+   "date": "2026-06-03",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.108238,
+    "lng": -73.404322
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6918026435774116,
+   "ppsf": 2.9904306220095696
+  },
+  {
+   "mls": "24157798",
+   "slug": "6-pleasant-street-norwalk-connecticut-24157798",
+   "address": {
+    "line": "6 Pleasant Street",
+    "unit": "Unit 3",
+    "lineWithUnit": "6 Pleasant Street Unit 3",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06855"
+   },
+   "beds": 3.0,
+   "baths": 1.0,
+   "sqft": 1000.0,
+   "price": 2650.0,
+   "date": "2026-06-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.103622,
+    "lng": -73.409587
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.050626122799714,
+   "ppsf": 2.65
+  },
+  {
+   "mls": "24158542",
+   "slug": "43-gregory-boulevard-norwalk-connecticut-24158542",
+   "address": {
+    "line": "43 Gregory Boulevard",
+    "unit": null,
+    "lineWithUnit": "43 Gregory Boulevard",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06855"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1279.0,
+   "price": 5000.0,
+   "date": "2026-03-22",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.098911,
+    "lng": -73.400286
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7341193658596482,
+   "ppsf": 3.9093041438623923
+  },
+  {
+   "mls": "24161153",
+   "slug": "35-seaview-avenue-norwalk-connecticut-24161153",
+   "address": {
+    "line": "35 Seaview Avenue",
+    "unit": "Unit 2nd fl",
+    "lineWithUnit": "35 Seaview Avenue Unit 2nd fl",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06855"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 1100.0,
+   "price": 2800.0,
+   "date": "2026-04-25",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.09983,
+    "lng": -73.40901
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1494794353467515,
+   "ppsf": 2.5454545454545454
+  },
+  {
+   "mls": "24186301",
+   "slug": "11-betts-place-norwalk-connecticut-24186301",
+   "address": {
+    "line": "11 Betts Place",
+    "unit": null,
+    "lineWithUnit": "11 Betts Place",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06855"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 1154.0,
+   "price": 2600.0,
+   "date": "2026-08-07",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.10043,
+    "lng": -73.407666
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.018583759635735,
+   "ppsf": 2.2530329289428077
   }
- }
+ ]
 }

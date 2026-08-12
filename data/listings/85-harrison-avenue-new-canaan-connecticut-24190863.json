@@ -135,57 +135,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "27-raymond-street-new-canaan-connecticut-24160505",
-     "addr": "27 Raymond Street",
-     "unit": "",
-     "beds": 6.0,
-     "baths": 7.0,
-     "sqft": 5456.0,
-     "price": 3350000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-30",
-     "ppsf": 614,
-     "mi": 0.46
-    },
-    {
-     "slug": "19-orchard-lane-new-canaan-connecticut-24184181",
-     "addr": "19 Orchard Lane",
-     "unit": "",
-     "beds": 6.0,
-     "baths": 8.0,
-     "sqft": 6658.0,
-     "price": 4999000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 751,
-     "mi": 0.13
-    },
-    {
-     "slug": "148-douglas-road-new-canaan-connecticut-24184857",
-     "addr": "148 Douglas Road",
-     "unit": "",
-     "beds": 6.0,
-     "baths": 6.0,
-     "sqft": 7201.0,
-     "price": 4195000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 583,
-     "mi": 0.63
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 3350000.0,
-    "high": 3350000.0,
-    "median": 3350000
+ "comps": [
+  {
+   "mls": "24091413",
+   "slug": "317-park-street-new-canaan-connecticut-24091413",
+   "address": {
+    "line": "317 Park Street",
+    "unit": null,
+    "lineWithUnit": "317 Park Street",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
    },
-   "radiusMi": 0.75
+   "beds": 5.0,
+   "baths": 8.0,
+   "sqft": 6624.0,
+   "price": 3700000.0,
+   "date": "2026-03-16",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.138616,
+    "lng": -73.494299
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.652961432641967,
+   "ppsf": 558.5748792270531
+  },
+  {
+   "mls": "24126368",
+   "slug": "25-gower-street-new-canaan-connecticut-24126368",
+   "address": {
+    "line": "25 Gower Street",
+    "unit": null,
+    "lineWithUnit": "25 Gower Street",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 5.0,
+   "baths": 8.0,
+   "sqft": 6322.0,
+   "price": 4555000.0,
+   "date": "2026-07-10",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.13371,
+    "lng": -73.489586
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7584801663113829,
+   "ppsf": 720.4998418222082
+  },
+  {
+   "mls": "24169246",
+   "slug": "119-harrison-avenue-new-canaan-connecticut-24169246",
+   "address": {
+    "line": "119 Harrison Avenue",
+    "unit": null,
+    "lineWithUnit": "119 Harrison Avenue",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 5.0,
+   "baths": 6.0,
+   "sqft": 7041.0,
+   "price": 3900000.0,
+   "date": "2026-07-23",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.14086,
+    "lng": -73.48556
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.1266009627088104,
+   "ppsf": 553.898593949723
+  },
+  {
+   "mls": "24146706",
+   "slug": "111-parish-lane-new-canaan-connecticut-24146706",
+   "address": {
+    "line": "111 Parish Lane",
+    "unit": null,
+    "lineWithUnit": "111 Parish Lane",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 6.0,
+   "baths": 8.0,
+   "sqft": 7315.0,
+   "price": 4500000.0,
+   "date": "2026-03-16",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.13463,
+    "lng": -73.507575
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.8474657395715015,
+   "ppsf": 615.1742993848256
+  },
+  {
+   "mls": "24143720",
+   "slug": "226-putnam-road-new-canaan-connecticut-24143720",
+   "address": {
+    "line": "226 Putnam Road",
+    "unit": null,
+    "lineWithUnit": "226 Putnam Road",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 4.0,
+   "baths": 6.0,
+   "sqft": 5981.0,
+   "price": 3500000.0,
+   "date": "2026-03-12",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.126762,
+    "lng": -73.483698
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.5162909125723711,
+   "ppsf": 585.1864236749708
   }
- }
+ ]
 }

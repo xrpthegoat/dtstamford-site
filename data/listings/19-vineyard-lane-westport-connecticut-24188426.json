@@ -130,100 +130,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "17-vineyard-lane-westport-connecticut-24170642",
-     "addr": "17 Vineyard Lane",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 6.0,
-     "sqft": 7964.0,
-     "price": 3895000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-15",
-     "ppsf": 489,
-     "mi": 0.05
-    },
-    {
-     "slug": "123-cross-highway-westport-connecticut-24166688",
-     "addr": "123 Cross Highway",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 6.0,
-     "sqft": 7048.0,
-     "price": 3500000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-15",
-     "ppsf": 497,
-     "mi": 0.53
-    },
-    {
-     "slug": "114-cross-highway-westport-connecticut-24165047",
-     "addr": "114 Cross Highway",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 5.0,
-     "sqft": 4179.0,
-     "price": 2550000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-06",
-     "ppsf": 610,
-     "mi": 0.61
-    },
-    {
-     "slug": "1488-sturges-highway-fairfield-connecticut-24177506",
-     "addr": "1488 Sturges Highway",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 4.0,
-     "sqft": 2999.0,
-     "price": 1355500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-03",
-     "ppsf": 452,
-     "mi": 0.67
-    },
-    {
-     "slug": "4-peach-lot-place-westport-connecticut-24166340",
-     "addr": "4 Peach Lot Place Unit LOT PL",
-     "unit": "Unit LOT PL",
-     "beds": 5.0,
-     "baths": 8.0,
-     "sqft": 8364.0,
-     "price": 4500000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-05",
-     "ppsf": 538,
-     "mi": 0.71
-    },
-    {
-     "slug": "4-charcoal-lane-westport-connecticut-24169922",
-     "addr": "4 Charcoal Lane",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 5.0,
-     "sqft": 6015.0,
-     "price": 3450000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 574,
-     "mi": 0.53
-    }
-   ],
-   "summary": {
-    "n": 5,
-    "low": 1355500.0,
-    "high": 4500000.0,
-    "median": 3500000
+ "comps": [
+  {
+   "mls": "24170310",
+   "slug": "4-highland-road-westport-connecticut-24170310",
+   "address": {
+    "line": "4 Highland Road",
+    "unit": null,
+    "lineWithUnit": "4 Highland Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2556.0,
+   "price": 1475000.0,
+   "date": "2026-07-06",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.172552,
+    "lng": -73.330903
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.40529626117754547,
+   "ppsf": 577.0735524256651
+  },
+  {
+   "mls": "24163740",
+   "slug": "190-north-avenue-westport-connecticut-24163740",
+   "address": {
+    "line": "190 North Avenue",
+    "unit": null,
+    "lineWithUnit": "190 North Avenue",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 3360.0,
+   "price": 1525000.0,
+   "date": "2026-06-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.170683,
+    "lng": -73.344135
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9504170829133519,
+   "ppsf": 453.8690476190476
+  },
+  {
+   "mls": "24153789",
+   "slug": "10-charcoal-hill-road-westport-connecticut-24153789",
+   "address": {
+    "line": "10 Charcoal Hill Road",
+    "unit": null,
+    "lineWithUnit": "10 Charcoal Hill Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 3279.0,
+   "price": 2370000.0,
+   "date": "2026-05-01",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.174269,
+    "lng": -73.343674
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0577617543772824,
+   "ppsf": 722.7813357731015
+  },
+  {
+   "mls": "24168290",
+   "slug": "24-blue-ribbon-drive-westport-connecticut-24168290",
+   "address": {
+    "line": "24 Blue Ribbon Drive",
+    "unit": null,
+    "lineWithUnit": "24 Blue Ribbon Drive",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 3584.0,
+   "price": 2400000.0,
+   "date": "2026-07-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.166083,
+    "lng": -73.338913
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6111533580078858,
+   "ppsf": 669.6428571428571
+  },
+  {
+   "mls": "24132813",
+   "slug": "140-roseville-road-westport-connecticut-24132813",
+   "address": {
+    "line": "140 Roseville Road",
+    "unit": null,
+    "lineWithUnit": "140 Roseville Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 3099.0,
+   "price": 2520000.0,
+   "date": "2026-07-14",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.152252,
+    "lng": -73.3436
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.0896995464528474,
+   "ppsf": 813.1655372700872
   }
- }
+ ]
 }

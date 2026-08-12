@@ -137,149 +137,141 @@
    "mi": 0.01
   }
  },
- "comps": {
-  "building": {
-   "rows": [
-    {
-     "slug": "1-broad-street-stamford-connecticut-24171671",
-     "addr": "1 Broad Street Unit 17B",
-     "unit": "Unit 17B",
-     "beds": 1.0,
-     "baths": 2.0,
-     "sqft": 1112.0,
-     "price": 545000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-05",
-     "ppsf": 490
-    },
-    {
-     "slug": "1-broad-street-stamford-connecticut-24191462",
-     "addr": "1 Broad Street Unit 10B",
-     "unit": "Unit 10B",
-     "beds": 1.0,
-     "baths": 2.0,
-     "sqft": 1112.0,
-     "price": 540000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 486
-    },
-    {
-     "slug": "1-broad-street-stamford-connecticut-24095577",
-     "addr": "1 Broad Street Unit 17C",
-     "unit": "Unit 17C",
-     "beds": 1.0,
-     "baths": 2.0,
-     "sqft": 1106.0,
-     "price": 530000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 479
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 545000.0,
-    "high": 545000.0,
-    "median": 545000
+ "comps": [
+  {
+   "mls": "24171671",
+   "slug": "1-broad-street-stamford-connecticut-24171671",
+   "address": {
+    "line": "1 Broad Street",
+    "unit": "Unit 17B",
+    "lineWithUnit": "1 Broad Street Unit 17B",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06901"
    },
-   "label": "1 Broad Street"
+   "beds": 1.0,
+   "baths": 2.0,
+   "sqft": 1112.0,
+   "price": 545000.0,
+   "date": "2026-06-05",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.055317,
+    "lng": -73.5429
+   },
+   "klass": "condo",
+   "tier": 1,
+   "why": "Same building, sold in the last year",
+   "km": 0.06505625444486937,
+   "ppsf": 490.10791366906477
   },
-  "area": {
-   "rows": [
-    {
-     "slug": "700-summer-street-stamford-connecticut-24148008",
-     "addr": "700 Summer Street Unit 6G",
-     "unit": "Unit 6G",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 478.0,
-     "price": 245000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-10",
-     "ppsf": 513,
-     "mi": 0.19
-    },
-    {
-     "slug": "700-summer-street-stamford-connecticut-24174543",
-     "addr": "700 Summer Street Unit 7G",
-     "unit": "Unit 7G",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 478.0,
-     "price": 235000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-24",
-     "ppsf": 492,
-     "mi": 0.19
-    },
-    {
-     "slug": "641-summer-street-stamford-connecticut-24174372",
-     "addr": "641 Summer Street Unit 6",
-     "unit": "Unit 6",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 661.0,
-     "price": 260000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-23",
-     "ppsf": 393,
-     "mi": 0.19
-    },
-    {
-     "slug": "51-schuyler-avenue-stamford-connecticut-24154452",
-     "addr": "51 Schuyler Avenue Apt 7E",
-     "unit": "Apt 7E",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 894.0,
-     "price": 305000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-22",
-     "ppsf": 341,
-     "mi": 0.26
-    },
-    {
-     "slug": "833-summer-street-stamford-connecticut-24164255",
-     "addr": "833 Summer Street Unit 2E",
-     "unit": "Unit 2E",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 712.0,
-     "price": 300000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-16",
-     "ppsf": 421,
-     "mi": 0.27
-    },
-    {
-     "slug": "25-forest-street-stamford-connecticut-24184338",
-     "addr": "25 Forest Street Unit 7F",
-     "unit": "Unit 7F",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 875.0,
-     "price": 455000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-15",
-     "ppsf": 520,
-     "mi": 0.31
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 235000.0,
-    "high": 455000.0,
-    "median": 280000
+  {
+   "mls": "24150400",
+   "slug": "1400-bedford-street-stamford-connecticut-24150400",
+   "address": {
+    "line": "1400 Bedford Street",
+    "unit": "Unit 11",
+    "lineWithUnit": "1400 Bedford Street Unit 11",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 1268.0,
+   "price": 455000.0,
+   "date": "2026-03-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.063573,
+    "lng": -73.540821
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9010186129924778,
+   "ppsf": 358.83280757097793
+  },
+  {
+   "mls": "24140379",
+   "slug": "93-spruce-street-stamford-connecticut-24140379",
+   "address": {
+    "line": "93 Spruce Street",
+    "unit": "Apt 11",
+    "lineWithUnit": "93 Spruce Street Apt 11",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 950.0,
+   "price": 295000.0,
+   "date": "2026-04-09",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.051298,
+    "lng": -73.549693
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7866635159349387,
+   "ppsf": 310.5263157894737
+  },
+  {
+   "mls": "24155215",
+   "slug": "91-highland-road-stamford-connecticut-24155215",
+   "address": {
+    "line": "91 Highland Road",
+    "unit": "Unit 91",
+    "lineWithUnit": "91 Highland Road Unit 91",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 1.0,
+   "baths": 2.0,
+   "sqft": 965.0,
+   "price": 395000.0,
+   "date": "2026-04-10",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.056985,
+    "lng": -73.531951
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8727064663701425,
+   "ppsf": 409.3264248704663
+  },
+  {
+   "mls": "24149222",
+   "slug": "1633-washington-boulevard-stamford-connecticut-24149222",
+   "address": {
+    "line": "1633 Washington Boulevard",
+    "unit": "Apt 3D",
+    "lineWithUnit": "1633 Washington Boulevard Apt 3D",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1315.0,
+   "price": 425000.0,
+   "date": "2026-06-12",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.062023,
+    "lng": -73.543603
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7312320656672271,
+   "ppsf": 323.1939163498099
   }
- }
+ ]
 }

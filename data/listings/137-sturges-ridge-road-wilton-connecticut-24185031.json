@@ -131,71 +131,141 @@
    "mi": 1.61
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "50-calvin-road-wilton-connecticut-24169424",
-     "addr": "50 Calvin Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 3911.0,
-     "price": 1505000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-26",
-     "ppsf": 385,
-     "mi": 0.32
-    },
-    {
-     "slug": "29-spruce-drive-wilton-connecticut-24160941",
-     "addr": "29 Spruce Drive",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 3524.0,
-     "price": 1330000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-17",
-     "ppsf": 377,
-     "mi": 0.59
-    },
-    {
-     "slug": "47-pine-ridge-road-wilton-connecticut-24187681",
-     "addr": "47 Pine Ridge Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 3314.0,
-     "price": 1349000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 407,
-     "mi": 0.34
-    },
-    {
-     "slug": "74-hurlbutt-street-wilton-connecticut-24175372",
-     "addr": "74 Hurlbutt Street",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2067.0,
-     "price": 899500.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 435,
-     "mi": 0.62
-    }
-   ],
-   "summary": {
-    "n": 2,
-    "low": 1330000.0,
-    "high": 1505000.0,
-    "median": 1417500
+ "comps": [
+  {
+   "mls": "24169424",
+   "slug": "50-calvin-road-wilton-connecticut-24169424",
+   "address": {
+    "line": "50 Calvin Road",
+    "unit": null,
+    "lineWithUnit": "50 Calvin Road",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 3911.0,
+   "price": 1505000.0,
+   "date": "2026-06-26",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.209552,
+    "lng": -73.397812
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5149114336186955,
+   "ppsf": 384.812068524674
+  },
+  {
+   "mls": "24160941",
+   "slug": "29-spruce-drive-wilton-connecticut-24160941",
+   "address": {
+    "line": "29 Spruce Drive",
+    "unit": null,
+    "lineWithUnit": "29 Spruce Drive",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 3524.0,
+   "price": 1330000.0,
+   "date": "2026-07-17",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.211974,
+    "lng": -73.408796
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9463575183041051,
+   "ppsf": 377.4120317820658
+  },
+  {
+   "mls": "24153585",
+   "slug": "25-powder-horn-hill-road-wilton-connecticut-24153585",
+   "address": {
+    "line": "25 Powder Horn Hill Road",
+    "unit": null,
+    "lineWithUnit": "25 Powder Horn Hill Road",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 4145.0,
+   "price": 1700000.0,
+   "date": "2026-04-20",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.197811,
+    "lng": -73.42454
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.140892789070884,
+   "ppsf": 410.1326899879373
+  },
+  {
+   "mls": "24166971",
+   "slug": "43-twin-oak-lane-wilton-connecticut-24166971",
+   "address": {
+    "line": "43 Twin Oak Lane",
+    "unit": null,
+    "lineWithUnit": "43 Twin Oak Lane",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2650.0,
+   "price": 1318900.0,
+   "date": "2026-07-01",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.19887,
+    "lng": -73.4237
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.030149798182371,
+   "ppsf": 497.6981132075472
+  },
+  {
+   "mls": "24172948",
+   "slug": "15-rivergate-woods-wilton-connecticut-24172948",
+   "address": {
+    "line": "15 Rivergate Woods",
+    "unit": null,
+    "lineWithUnit": "15 Rivergate Woods",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 3134.0,
+   "price": 1030000.0,
+   "date": "2026-07-08",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.192229,
+    "lng": -73.390662
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.7353359095807854,
+   "ppsf": 328.6534779834078
   }
- }
+ ]
 }

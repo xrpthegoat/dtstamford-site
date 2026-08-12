@@ -135,176 +135,141 @@
    "walk": 1
   }
  },
- "comps": {
-  "building": {
-   "rows": [
-    {
-     "slug": "25-forest-street-stamford-connecticut-24184338",
-     "addr": "25 Forest Street Unit 7F",
-     "unit": "Unit 7F",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 875.0,
-     "price": 455000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-15",
-     "ppsf": 520
-    },
-    {
-     "slug": "25-forest-street-stamford-connecticut-24182471",
-     "addr": "25 Forest Street Unit 14D",
-     "unit": "Unit 14D",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 864.0,
-     "price": 450000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-02",
-     "ppsf": 521
-    },
-    {
-     "slug": "25-forest-street-stamford-connecticut-24151470",
-     "addr": "25 Forest Street Unit 7D",
-     "unit": "Unit 7D",
-     "beds": 1.0,
-     "baths": 2.0,
-     "sqft": 1067.0,
-     "price": 490000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-28",
-     "ppsf": 459
-    },
-    {
-     "slug": "25-forest-street-stamford-connecticut-24150167",
-     "addr": "25 Forest Street Unit 15E",
-     "unit": "Unit 15E",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 783.0,
-     "price": 435000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-31",
-     "ppsf": 556
-    },
-    {
-     "slug": "25-forest-street-stamford-connecticut-24190474",
-     "addr": "25 Forest Street Unit 4F",
-     "unit": "Unit 4F",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 875.0,
-     "price": 465000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 531
-    }
-   ],
-   "summary": {
-    "n": 4,
-    "low": 435000.0,
-    "high": 490000.0,
-    "median": 452500
+ "comps": [
+  {
+   "mls": "24184338",
+   "slug": "25-forest-street-stamford-connecticut-24184338",
+   "address": {
+    "line": "25 Forest Street",
+    "unit": "Unit 7F",
+    "lineWithUnit": "25 Forest Street Unit 7F",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06901"
    },
-   "label": "25 Forest Street"
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 875.0,
+   "price": 455000.0,
+   "date": "2026-07-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.056534,
+    "lng": -73.53647
+   },
+   "klass": "condo",
+   "tier": 1,
+   "why": "Same building, sold in the last year",
+   "km": 0.027912201691180822,
+   "ppsf": 520.0
   },
-  "area": {
-   "rows": [
-    {
-     "slug": "127-greyrock-place-stamford-connecticut-24155153",
-     "addr": "127 Greyrock Place Apt 1408",
-     "unit": "Apt 1408",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 831.0,
-     "price": 357500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-24",
-     "ppsf": 430,
-     "mi": 0.13
-    },
-    {
-     "slug": "127-greyrock-place-stamford-connecticut-24156149",
-     "addr": "127 Greyrock Place Unit 1611",
-     "unit": "Unit 1611",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 557.0,
-     "price": 305000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-01",
-     "ppsf": 548,
-     "mi": 0.13
-    },
-    {
-     "slug": "127-greyrock-place-stamford-connecticut-24153809",
-     "addr": "127 Greyrock Place Apt 1401",
-     "unit": "Apt 1401",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 764.0,
-     "price": 364500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-10",
-     "ppsf": 477,
-     "mi": 0.13
-    },
-    {
-     "slug": "127-greyrock-place-stamford-connecticut-24165015",
-     "addr": "127 Greyrock Place Unit 1206",
-     "unit": "Unit 1206",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 746.0,
-     "price": 410000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-27",
-     "ppsf": 550,
-     "mi": 0.14
-    },
-    {
-     "slug": "140-grove-street-stamford-connecticut-24186081",
-     "addr": "140 Grove Street Unit 4G",
-     "unit": "Unit 4G",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 599.0,
-     "price": 212500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-24",
-     "ppsf": 355,
-     "mi": 0.18
-    },
-    {
-     "slug": "641-summer-street-stamford-connecticut-24174372",
-     "addr": "641 Summer Street Unit 6",
-     "unit": "Unit 6",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 661.0,
-     "price": 260000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-23",
-     "ppsf": 393,
-     "mi": 0.19
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 212500.0,
-    "high": 410000.0,
-    "median": 331250
+  {
+   "mls": "24150167",
+   "slug": "25-forest-street-stamford-connecticut-24150167",
+   "address": {
+    "line": "25 Forest Street",
+    "unit": "Unit 15E",
+    "lineWithUnit": "25 Forest Street Unit 15E",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06901"
    },
-   "radiusMi": 0.75
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 783.0,
+   "price": 435000.0,
+   "date": "2026-03-31",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.056534,
+    "lng": -73.536469
+   },
+   "klass": "condo",
+   "tier": 1,
+   "why": "Same building, sold in the last year",
+   "km": 0.027956119951476982,
+   "ppsf": 555.5555555555555
+  },
+  {
+   "mls": "24151470",
+   "slug": "25-forest-street-stamford-connecticut-24151470",
+   "address": {
+    "line": "25 Forest Street",
+    "unit": "Unit 7D",
+    "lineWithUnit": "25 Forest Street Unit 7D",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06901"
+   },
+   "beds": 1.0,
+   "baths": 2.0,
+   "sqft": 1067.0,
+   "price": 490000.0,
+   "date": "2026-05-28",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.056534,
+    "lng": -73.536469
+   },
+   "klass": "condo",
+   "tier": 1,
+   "why": "Same building, sold in the last year",
+   "km": 0.027956119951476982,
+   "ppsf": 459.23149015932523
+  },
+  {
+   "mls": "24182471",
+   "slug": "25-forest-street-stamford-connecticut-24182471",
+   "address": {
+    "line": "25 Forest Street",
+    "unit": "Unit 14D",
+    "lineWithUnit": "25 Forest Street Unit 14D",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06901"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 864.0,
+   "price": 450000.0,
+   "date": "2026-07-02",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.056534,
+    "lng": -73.536469
+   },
+   "klass": "condo",
+   "tier": 1,
+   "why": "Same building, sold in the last year",
+   "km": 0.027956119951476982,
+   "ppsf": 520.8333333333334
+  },
+  {
+   "mls": "24153809",
+   "slug": "127-greyrock-place-stamford-connecticut-24153809",
+   "address": {
+    "line": "127 Greyrock Place",
+    "unit": "Apt 1401",
+    "lineWithUnit": "127 Greyrock Place Apt 1401",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06901"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 764.0,
+   "price": 364500.0,
+   "date": "2026-04-10",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.054543,
+    "lng": -73.535805
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.20974318093248454,
+   "ppsf": 477.09424083769636
   }
- }
+ ]
 }

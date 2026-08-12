@@ -128,71 +128,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "493-valley-road-new-canaan-connecticut-24176198",
-     "addr": "493 Valley Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 4322.0,
-     "price": 1850000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-17",
-     "ppsf": 428,
-     "mi": 0.48
-    },
-    {
-     "slug": "21-woods-end-drive-wilton-connecticut-24150415",
-     "addr": "21 Woods End Drive",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 5.0,
-     "sqft": 5976.0,
-     "price": 1840000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-06",
-     "ppsf": 308,
-     "mi": 0.72
-    },
-    {
-     "slug": "428-laurel-road-new-canaan-connecticut-24167048",
-     "addr": "428 Laurel Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 5.0,
-     "sqft": 3396.0,
-     "price": 2595000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 764,
-     "mi": 0.65
-    },
-    {
-     "slug": "147-thayer-pond-road-wilton-connecticut-24192871",
-     "addr": "147 Thayer Pond Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2404.0,
-     "price": 999500.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 416,
-     "mi": 0.69
-    }
-   ],
-   "summary": {
-    "n": 2,
-    "low": 1840000.0,
-    "high": 1850000.0,
-    "median": 1845000
+ "comps": [
+  {
+   "mls": "24131919",
+   "slug": "199-mariomi-road-new-canaan-connecticut-24131919",
+   "address": {
+    "line": "199 Mariomi Road",
+    "unit": null,
+    "lineWithUnit": "199 Mariomi Road",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
    },
-   "radiusMi": 0.75
+   "beds": 5.0,
+   "baths": 5.0,
+   "sqft": 5805.0,
+   "price": 3525000.0,
+   "date": "2026-03-31",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.178394,
+    "lng": -73.473579
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5205758515175326,
+   "ppsf": 607.235142118863
+  },
+  {
+   "mls": "24166322",
+   "slug": "2-sleepy-hollow-road-new-canaan-connecticut-24166322",
+   "address": {
+    "line": "2 Sleepy Hollow Road",
+    "unit": null,
+    "lineWithUnit": "2 Sleepy Hollow Road",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 5.0,
+   "baths": 3.0,
+   "sqft": 5658.0,
+   "price": 2400000.0,
+   "date": "2026-06-29",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.173093,
+    "lng": -73.48828
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9666288120720598,
+   "ppsf": 424.1781548250265
+  },
+  {
+   "mls": "170336173",
+   "slug": "240-rosebrook-road-new-canaan-connecticut-170336173",
+   "address": {
+    "line": "240 Rosebrook Road",
+    "unit": null,
+    "lineWithUnit": "240 Rosebrook Road",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 6.0,
+   "baths": 8.0,
+   "sqft": 6700.0,
+   "price": 2970797.0,
+   "date": "2026-05-12",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.166096,
+    "lng": -73.48868
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.6134709052005645,
+   "ppsf": 443.40253731343284
+  },
+  {
+   "mls": "24166880",
+   "slug": "323-smith-ridge-road-new-canaan-connecticut-24166880",
+   "address": {
+    "line": "323 Smith Ridge Road",
+    "unit": null,
+    "lineWithUnit": "323 Smith Ridge Road",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 5.0,
+   "baths": 7.0,
+   "sqft": 6715.0,
+   "price": 3600000.0,
+   "date": "2026-07-03",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.166404,
+    "lng": -73.493949
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.833019774969444,
+   "ppsf": 536.1131794489947
+  },
+  {
+   "mls": "24176198",
+   "slug": "493-valley-road-new-canaan-connecticut-24176198",
+   "address": {
+    "line": "493 Valley Road",
+    "unit": null,
+    "lineWithUnit": "493 Valley Road",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 4322.0,
+   "price": 1850000.0,
+   "date": "2026-06-17",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.172348,
+    "lng": -73.476909
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 0.7725010611429931,
+   "ppsf": 428.04257288292456
   }
- }
+ ]
 }

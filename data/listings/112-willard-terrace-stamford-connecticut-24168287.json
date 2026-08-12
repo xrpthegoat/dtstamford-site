@@ -127,101 +127,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "35-hampton-lane-stamford-connecticut-24175456",
-     "addr": "35 Hampton Lane",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 2.0,
-     "sqft": 2973.0,
-     "price": 1050000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-02",
-     "ppsf": 353,
-     "mi": 0.05
-    },
-    {
-     "slug": "36-somerset-lane-stamford-connecticut-24151740",
-     "addr": "36 Somerset Lane",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 3116.0,
-     "price": 921000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-26",
-     "ppsf": 296,
-     "mi": 0.12
-    },
-    {
-     "slug": "48-north-meadows-lane-stamford-connecticut-24167430",
-     "addr": "48 North Meadows Lane",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 5195.0,
-     "price": 2465000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-30",
-     "ppsf": 474,
-     "mi": 0.61
-    },
-    {
-     "slug": "190-red-fox-road-stamford-connecticut-24174989",
-     "addr": "190 Red Fox Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2021.0,
-     "price": 915000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-02",
-     "ppsf": 453,
-     "mi": 0.64
-    },
-    {
-     "slug": "6-gaxton-road-stamford-connecticut-24166298",
-     "addr": "6 Gaxton Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2877.0,
-     "price": 1475000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-01",
-     "ppsf": 513,
-     "mi": 0.66
-    },
-    {
-     "slug": "223-red-fox-road-stamford-connecticut-24149973",
-     "addr": "223 Red Fox Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 3305.0,
-     "price": 1050000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-22",
-     "ppsf": 318,
-     "mi": 0.67
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 915000.0,
-    "high": 2465000.0,
-    "median": 1050000
+ "comps": [
+  {
+   "mls": "24166806",
+   "slug": "37-blue-ridge-drive-stamford-connecticut-24166806",
+   "address": {
+    "line": "37 Blue Ridge Drive",
+    "unit": null,
+    "lineWithUnit": "37 Blue Ridge Drive",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1411.0,
+   "price": 715000.0,
+   "date": "2026-06-23",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.120019,
+    "lng": -73.545623
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.4146984471820234,
+   "ppsf": 506.73281360737064
+  },
+  {
+   "mls": "24166200",
+   "slug": "170-dunn-avenue-stamford-connecticut-24166200",
+   "address": {
+    "line": "170 Dunn Avenue",
+    "unit": null,
+    "lineWithUnit": "170 Dunn Avenue",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1495.0,
+   "price": 730000.0,
+   "date": "2026-07-09",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.109143,
+    "lng": -73.549847
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.026966223602983,
+   "ppsf": 488.2943143812709
+  },
+  {
+   "mls": "24174989",
+   "slug": "190-red-fox-road-stamford-connecticut-24174989",
+   "address": {
+    "line": "190 Red Fox Road",
+    "unit": null,
+    "lineWithUnit": "190 Red Fox Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2021.0,
+   "price": 915000.0,
+   "date": "2026-07-02",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.118086,
+    "lng": -73.555272
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0329733216059183,
+   "ppsf": 452.74616526472045
+  },
+  {
+   "mls": "24171481",
+   "slug": "11-barmore-drive-west-stamford-connecticut-24171481",
+   "address": {
+    "line": "11 Barmore Drive West",
+    "unit": null,
+    "lineWithUnit": "11 Barmore Drive West",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1870.0,
+   "price": 665555.0,
+   "date": "2026-06-26",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.102052,
+    "lng": -73.542941
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.6433770904255878,
+   "ppsf": 355.9117647058824
+  },
+  {
+   "mls": "24166996",
+   "slug": "79-loughran-avenue-stamford-connecticut-24166996",
+   "address": {
+    "line": "79 Loughran Avenue",
+    "unit": null,
+    "lineWithUnit": "79 Loughran Avenue",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 1576.0,
+   "price": 725000.0,
+   "date": "2026-06-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.09961,
+    "lng": -73.561727
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.4727172937613746,
+   "ppsf": 460.0253807106599
   }
- }
+ ]
 }

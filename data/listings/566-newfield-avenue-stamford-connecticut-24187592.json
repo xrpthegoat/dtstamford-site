@@ -128,101 +128,141 @@
    "mi": 0.88
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "98-east-lane-stamford-connecticut-24185202",
-     "addr": "98 East Lane",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 4640.0,
-     "price": 6300.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-08",
-     "ppsf": 1,
-     "mi": 0.5
-    },
-    {
-     "slug": "115-71-colonial-road-stamford-connecticut-24189569",
-     "addr": "115-71 Colonial Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 4.0,
-     "sqft": 2582.0,
-     "price": 5200.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-01",
-     "ppsf": 2,
-     "mi": 0.61
-    },
-    {
-     "slug": "584-hope-street-stamford-connecticut-24183778",
-     "addr": "584 Hope Street Unit 7",
-     "unit": "Unit 7",
-     "beds": 3.0,
-     "baths": 4.0,
-     "sqft": 2366.0,
-     "price": 4950.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-06",
-     "ppsf": 2,
-     "mi": 0.63
-    },
-    {
-     "slug": "80-ridgewood-avenue-stamford-connecticut-24169367",
-     "addr": "80 Ridgewood Avenue",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 2112.0,
-     "price": 4800.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-16",
-     "ppsf": 2,
-     "mi": 0.66
-    },
-    {
-     "slug": "237-strawberry-hill-avenue-stamford-connecticut-24180013",
-     "addr": "237 Strawberry Hill Avenue Unit 42",
-     "unit": "Unit 42",
-     "beds": 3.0,
-     "baths": 4.0,
-     "sqft": 2870.0,
-     "price": 4400.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-10",
-     "ppsf": 2,
-     "mi": 0.75
-    },
-    {
-     "slug": "22-union-street-stamford-connecticut-24175922",
-     "addr": "22 Union Street Unit 1st Floor",
-     "unit": "Unit 1st Floor",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 2130.0,
-     "price": 4300.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-15",
-     "ppsf": 2,
-     "mi": 0.75
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 4300.0,
-    "high": 6300.0,
-    "median": 4875
+ "comps": [
+  {
+   "mls": "24194472",
+   "slug": "2435-bedford-street-stamford-connecticut-24194472",
+   "address": {
+    "line": "2435 Bedford Street",
+    "unit": "Unit 21CC",
+    "lineWithUnit": "2435 Bedford Street Unit 21CC",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1419.0,
+   "price": 3600.0,
+   "date": "2026-08-04",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.070549,
+    "lng": -73.541509
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1297122231324443,
+   "ppsf": 2.536997885835095
+  },
+  {
+   "mls": "24164938",
+   "slug": "stamford-connecticut-24164938",
+   "address": {
+    "line": null,
+    "unit": null,
+    "lineWithUnit": null,
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06906"
+   },
+   "beds": 4.0,
+   "baths": 2.0,
+   "sqft": 1612.0,
+   "price": 4800.0,
+   "date": "2026-04-21",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.077887,
+    "lng": -73.52912
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.48570748048456047,
+   "ppsf": 2.977667493796526
+  },
+  {
+   "mls": "24174288",
+   "slug": "168-belltown-road-stamford-connecticut-24174288",
+   "address": {
+    "line": "168 Belltown Road",
+    "unit": "Unit 11",
+    "lineWithUnit": "168 Belltown Road Unit 11",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1260.0,
+   "price": 3450.0,
+   "date": "2026-06-16",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.081919,
+    "lng": -73.532505
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.3427211081143967,
+   "ppsf": 2.738095238095238
+  },
+  {
+   "mls": "24176867",
+   "slug": "255-strawberry-hill-avenue-stamford-connecticut-24176867",
+   "address": {
+    "line": "255 Strawberry Hill Avenue",
+    "unit": "Unit E4",
+    "lineWithUnit": "255 Strawberry Hill Avenue Unit E4",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1169.0,
+   "price": 3250.0,
+   "date": "2026-06-05",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.069263,
+    "lng": -73.533165
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1202125228784166,
+   "ppsf": 2.780153977758768
+  },
+  {
+   "mls": "24191453",
+   "slug": "566-newfield-avenue-stamford-connecticut-24191453",
+   "address": {
+    "line": "566 Newfield Avenue",
+    "unit": "Unit 11",
+    "lineWithUnit": "566 Newfield Avenue Unit 11",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 1512.0,
+   "price": 3900.0,
+   "date": "2026-07-29",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.079278,
+    "lng": -73.534613
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.0,
+   "ppsf": 2.5793650793650795
   }
- }
+ ]
 }

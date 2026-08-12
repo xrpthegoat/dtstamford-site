@@ -124,138 +124,141 @@
    "mi": 0.77
   }
  },
- "comps": {
-  "building": {
-   "rows": [
-    {
-     "slug": "500-newfield-avenue-stamford-connecticut-24181950",
-     "addr": "500 Newfield Avenue Unit 1F",
-     "unit": "Unit 1F",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1050.0,
-     "price": 2525.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-28",
-     "ppsf": 2
-    },
-    {
-     "slug": "500-newfield-avenue-stamford-connecticut-24175136",
-     "addr": "500 Newfield Avenue Unit 4B",
-     "unit": "Unit 4B",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1050.0,
-     "price": 2525.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-30",
-     "ppsf": 2
-    }
-   ],
-   "summary": {
-    "n": 2,
-    "low": 2525.0,
-    "high": 2525.0,
-    "median": 2525
+ "comps": [
+  {
+   "mls": "24175136",
+   "slug": "500-newfield-avenue-stamford-connecticut-24175136",
+   "address": {
+    "line": "500 Newfield Avenue",
+    "unit": "Unit 4B",
+    "lineWithUnit": "500 Newfield Avenue Unit 4B",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
    },
-   "label": "500 Newfield Avenue"
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1050.0,
+   "price": 2525.0,
+   "date": "2026-06-30",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.076843,
+    "lng": -73.53429
+   },
+   "klass": "rental",
+   "tier": 1,
+   "why": "Same building, sold in the last year",
+   "km": 0.0,
+   "ppsf": 2.4047619047619047
   },
-  "area": {
-   "rows": [
-    {
-     "slug": "566-newfield-avenue-stamford-connecticut-24191453",
-     "addr": "566 Newfield Avenue Unit 11",
-     "unit": "Unit 11",
-     "beds": 2.0,
-     "baths": 3.0,
-     "sqft": 1512.0,
-     "price": 3900.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-29",
-     "ppsf": 3,
-     "mi": 0.17
-    },
-    {
-     "slug": "11-belltown-road-stamford-connecticut-24183815",
-     "addr": "11 Belltown Road Unit 1",
-     "unit": "Unit 1",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 700.0,
-     "price": 2900.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-03",
-     "ppsf": 4,
-     "mi": 0.18
-    },
-    {
-     "slug": "21-leonard-street-stamford-connecticut-24185096",
-     "addr": "21 Leonard Street",
-     "unit": "",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 825.0,
-     "price": 2500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-01",
-     "ppsf": 3,
-     "mi": 0.21
-    },
-    {
-     "slug": "168-belltown-road-stamford-connecticut-24174288",
-     "addr": "168 Belltown Road Unit 11",
-     "unit": "Unit 11",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1260.0,
-     "price": 3450.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-16",
-     "ppsf": 3,
-     "mi": 0.36
-    },
-    {
-     "slug": "118-colonial-road-stamford-connecticut-24163543",
-     "addr": "118 Colonial Road Unit 1st Floor",
-     "unit": "Unit 1st Floor",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 750.0,
-     "price": 2500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-01",
-     "ppsf": 3,
-     "mi": 0.51
-    },
-    {
-     "slug": "255-strawberry-hill-avenue-stamford-connecticut-24176867",
-     "addr": "255 Strawberry Hill Avenue Unit E4",
-     "unit": "Unit E4",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1169.0,
-     "price": 3250.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-05",
-     "ppsf": 3,
-     "mi": 0.53
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 2500.0,
-    "high": 3900.0,
-    "median": 3075
+  {
+   "mls": "24181950",
+   "slug": "500-newfield-avenue-stamford-connecticut-24181950",
+   "address": {
+    "line": "500 Newfield Avenue",
+    "unit": "Unit 1F",
+    "lineWithUnit": "500 Newfield Avenue Unit 1F",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1050.0,
+   "price": 2525.0,
+   "date": "2026-07-28",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.0769,
+    "lng": -73.53431
+   },
+   "klass": "rental",
+   "tier": 1,
+   "why": "Same building, sold in the last year",
+   "km": 0.006556073129759892,
+   "ppsf": 2.4047619047619047
+  },
+  {
+   "mls": "24152334",
+   "slug": "2437-bedford-street-stamford-connecticut-24152334",
+   "address": {
+    "line": "2437 Bedford Street",
+    "unit": "Unit F17",
+    "lineWithUnit": "2437 Bedford Street Unit F17",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 1.0,
+   "baths": 2.0,
+   "sqft": 1066.0,
+   "price": 3100.0,
+   "date": "2026-03-15",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.070187,
+    "lng": -73.54405
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1032348440828588,
+   "ppsf": 2.9080675422138835
+  },
+  {
+   "mls": "24152598",
+   "slug": "22-hackett-circle-north-stamford-connecticut-24152598",
+   "address": {
+    "line": "22 Hackett Circle North",
+    "unit": "Unit 2nd Fl.",
+    "lineWithUnit": "22 Hackett Circle North Unit 2nd Fl.",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06906"
+   },
+   "beds": 3.0,
+   "baths": 1.0,
+   "sqft": 1100.0,
+   "price": 3200.0,
+   "date": "2026-03-26",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.067519,
+    "lng": -73.532141
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0523157861346846,
+   "ppsf": 2.909090909090909
+  },
+  {
+   "mls": "24151966",
+   "slug": "137-rock-spring-road-stamford-connecticut-24151966",
+   "address": {
+    "line": "137 Rock Spring Road",
+    "unit": "Unit 1",
+    "lineWithUnit": "137 Rock Spring Road Unit 1",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06906"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 1200.0,
+   "price": 3250.0,
+   "date": "2026-03-28",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.067978,
+    "lng": -73.52781
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.125503773917397,
+   "ppsf": 2.7083333333333335
   }
- }
+ ]
 }

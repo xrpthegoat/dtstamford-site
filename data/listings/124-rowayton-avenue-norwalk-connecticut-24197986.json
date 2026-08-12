@@ -125,101 +125,141 @@
    "mi": 1.78
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "111-rowayton-avenue-norwalk-connecticut-24159840",
-     "addr": "111 Rowayton Avenue Unit 201",
-     "unit": "Unit 201",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 2399.0,
-     "price": 30000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-03",
-     "ppsf": 13,
-     "mi": 0.07
-    },
-    {
-     "slug": "168-rowayton-avenue-norwalk-connecticut-24175575",
-     "addr": "168 Rowayton Avenue Unit A",
-     "unit": "Unit A",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1400.0,
-     "price": 8750.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-06",
-     "ppsf": 6,
-     "mi": 0.18
-    },
-    {
-     "slug": "168-rowayton-avenue-norwalk-connecticut-24118947",
-     "addr": "168 Rowayton Avenue",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 2265.0,
-     "price": 12000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-01",
-     "ppsf": 5,
-     "mi": 0.18
-    },
-    {
-     "slug": "9-edgehill-drive-darien-connecticut-24139469",
-     "addr": "9 Edgehill Drive",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 2267.0,
-     "price": 9000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-01",
-     "ppsf": 4,
-     "mi": 0.37
-    },
-    {
-     "slug": "233-rowayton-avenue-norwalk-connecticut-24153587",
-     "addr": "233 Rowayton Avenue",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 2579.0,
-     "price": 33000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-23",
-     "ppsf": 13,
-     "mi": 0.43
-    },
-    {
-     "slug": "5-yarmouth-road-norwalk-connecticut-24173477",
-     "addr": "5 Yarmouth Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1704.0,
-     "price": 17500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-30",
-     "ppsf": 10,
-     "mi": 0.75
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 8750.0,
-    "high": 33000.0,
-    "median": 14750
+ "comps": [
+  {
+   "mls": "24153587",
+   "slug": "233-rowayton-avenue-norwalk-connecticut-24153587",
+   "address": {
+    "line": "233 Rowayton Avenue",
+    "unit": null,
+    "lineWithUnit": "233 Rowayton Avenue",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06853"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2579.0,
+   "price": 33000.0,
+   "date": "2026-03-23",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.07241,
+    "lng": -73.44574
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6897684242656917,
+   "ppsf": 12.795657231485071
+  },
+  {
+   "mls": "24118947",
+   "slug": "168-rowayton-avenue-norwalk-connecticut-24118947",
+   "address": {
+    "line": "168 Rowayton Avenue",
+    "unit": null,
+    "lineWithUnit": "168 Rowayton Avenue",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06853"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2265.0,
+   "price": 12000.0,
+   "date": "2026-04-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.069035,
+    "lng": -73.442914
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.2973826146952862,
+   "ppsf": 5.298013245033113
+  },
+  {
+   "mls": "24159840",
+   "slug": "111-rowayton-avenue-norwalk-connecticut-24159840",
+   "address": {
+    "line": "111 Rowayton Avenue",
+    "unit": "Unit 201",
+    "lineWithUnit": "111 Rowayton Avenue Unit 201",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06853"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2399.0,
+   "price": 30000.0,
+   "date": "2026-08-03",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.065534,
+    "lng": -73.444254
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.11121421990314222,
+   "ppsf": 12.505210504376823
+  },
+  {
+   "mls": "24160803",
+   "slug": "1-cottontail-road-norwalk-connecticut-24160803",
+   "address": {
+    "line": "1 Cottontail Road",
+    "unit": null,
+    "lineWithUnit": "1 Cottontail Road",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 1978.0,
+   "price": 5900.0,
+   "date": "2026-05-05",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.088192,
+    "lng": -73.448914
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.4617252863238677,
+   "ppsf": 2.982810920121335
+  },
+  {
+   "mls": "24148030",
+   "slug": "norwalk-connecticut-24148030",
+   "address": {
+    "line": null,
+    "unit": null,
+    "lineWithUnit": null,
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1760.0,
+   "price": 3975.0,
+   "date": "2026-03-18",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.126247,
+    "lng": -73.435616
+   },
+   "klass": "rental",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 6.686788153870086,
+   "ppsf": 2.258522727272727
   }
- }
+ ]
 }

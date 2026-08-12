@@ -136,100 +136,141 @@
    "walk": 12
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "144-east-avenue-norwalk-connecticut-24138115",
-     "addr": "144 East Avenue Apt B404",
-     "unit": "Apt B404",
-     "beds": 1.0,
-     "baths": 2.0,
-     "sqft": 1178.0,
-     "price": 464000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-30",
-     "ppsf": 394,
-     "mi": 0.03
-    },
-    {
-     "slug": "71-b-osborne-avenue-norwalk-connecticut-24180493",
-     "addr": "71-B Osborne Avenue Unit B2",
-     "unit": "Unit B2",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 777.0,
-     "price": 396000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-30",
-     "ppsf": 510,
-     "mi": 0.4
-    },
-    {
-     "slug": "19-isaacs-street-norwalk-connecticut-24156048",
-     "addr": "19 Isaacs Street Unit 405",
-     "unit": "Unit 405",
-     "beds": 1.0,
-     "baths": 2.0,
-     "sqft": 820.0,
-     "price": 330000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-28",
-     "ppsf": 402,
-     "mi": 0.4
-    },
-    {
-     "slug": "11-bedford-avenue-norwalk-connecticut-24148214",
-     "addr": "11 Bedford Avenue Apt G1",
-     "unit": "Apt G1",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 719.0,
-     "price": 220000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-30",
-     "ppsf": 306,
-     "mi": 0.73
-    },
-    {
-     "slug": "11-bedford-avenue-norwalk-connecticut-24164887",
-     "addr": "11 Bedford Avenue Unit M3",
-     "unit": "Unit M3",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 738.0,
-     "price": 270000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-09",
-     "ppsf": 366,
-     "mi": 0.73
-    },
-    {
-     "slug": "19-isaacs-street-norwalk-connecticut-24192080",
-     "addr": "19 Isaacs Street Unit 403",
-     "unit": "Unit 403",
-     "beds": 1.0,
-     "baths": 2.0,
-     "sqft": 820.0,
-     "price": 345000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 421,
-     "mi": 0.4
-    }
-   ],
-   "summary": {
-    "n": 5,
-    "low": 220000.0,
-    "high": 464000.0,
-    "median": 330000
+ "comps": [
+  {
+   "mls": "24174901",
+   "slug": "11-bedford-avenue-norwalk-connecticut-24174901",
+   "address": {
+    "line": "11 Bedford Avenue",
+    "unit": "Unit Q2",
+    "lineWithUnit": "11 Bedford Avenue Unit Q2",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 938.0,
+   "price": 295000.0,
+   "date": "2026-06-29",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.115296,
+    "lng": -73.421444
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1768661197818553,
+   "ppsf": 314.498933901919
+  },
+  {
+   "mls": "24138115",
+   "slug": "144-east-avenue-norwalk-connecticut-24138115",
+   "address": {
+    "line": "144 East Avenue",
+    "unit": "Apt B404",
+    "lineWithUnit": "144 East Avenue Apt B404",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 1.0,
+   "baths": 2.0,
+   "sqft": 1178.0,
+   "price": 464000.0,
+   "date": "2026-03-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.111343,
+    "lng": -73.40813
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.04750997929823712,
+   "ppsf": 393.8879456706282
+  },
+  {
+   "mls": "24150040",
+   "slug": "29-van-buren-avenue-norwalk-connecticut-24150040",
+   "address": {
+    "line": "29 Van Buren Avenue",
+    "unit": "Apt I3",
+    "lineWithUnit": "29 Van Buren Avenue Apt I3",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1142.0,
+   "price": 375000.0,
+   "date": "2026-04-02",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.113469,
+    "lng": -73.420061
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.011533022063045,
+   "ppsf": 328.37127845884413
+  },
+  {
+   "mls": "24156169",
+   "slug": "136-east-avenue-norwalk-connecticut-24156169",
+   "address": {
+    "line": "136 East Avenue",
+    "unit": "Apt 4C",
+    "lineWithUnit": "136 East Avenue Apt 4C",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 1180.0,
+   "price": 580000.0,
+   "date": "2026-05-28",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.112547,
+    "lng": -73.407887
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.09060932440114941,
+   "ppsf": 491.52542372881356
+  },
+  {
+   "mls": "24157129",
+   "slug": "29-high-street-norwalk-connecticut-24157129",
+   "address": {
+    "line": "29 High Street",
+    "unit": "Apt F",
+    "lineWithUnit": "29 High Street Apt F",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1224.0,
+   "price": 407000.0,
+   "date": "2026-04-10",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.120355,
+    "lng": -73.412013
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.006948328427768,
+   "ppsf": 332.51633986928107
   }
- }
+ ]
 }

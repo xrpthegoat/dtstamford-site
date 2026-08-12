@@ -128,45 +128,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "1209-westover-road-stamford-connecticut-24154669",
-     "addr": "1209 Westover Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 5.0,
-     "sqft": 4665.0,
-     "price": 1990000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-29",
-     "ppsf": 427,
-     "mi": 0.14
-    },
-    {
-     "slug": "147-highline-trail-stamford-connecticut-24186866",
-     "addr": "147 Highline Trail",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 5.0,
-     "sqft": 4505.0,
-     "price": 1800000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-11",
-     "ppsf": 400,
-     "mi": 0.51
-    }
-   ],
-   "summary": {
-    "n": 2,
-    "low": 1800000.0,
-    "high": 1990000.0,
-    "median": 1895000
+ "comps": [
+  {
+   "mls": "24134364",
+   "slug": "177-long-close-road-stamford-connecticut-24134364",
+   "address": {
+    "line": "177 Long Close Road",
+    "unit": null,
+    "lineWithUnit": "177 Long Close Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
    },
-   "radiusMi": 0.75
+   "beds": 6.0,
+   "baths": 8.0,
+   "sqft": 8543.0,
+   "price": 3125000.0,
+   "date": "2026-03-18",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.085098,
+    "lng": -73.574809
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0355809678842118,
+   "ppsf": 365.7965585859768
+  },
+  {
+   "mls": "24159121",
+   "slug": "14-windermere-lane-stamford-connecticut-24159121",
+   "address": {
+    "line": "14 Windermere Lane",
+    "unit": null,
+    "lineWithUnit": "14 Windermere Lane",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 4.0,
+   "baths": 6.0,
+   "sqft": 7500.0,
+   "price": 2110000.0,
+   "date": "2026-06-09",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.089369,
+    "lng": -73.582873
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.4513238660325887,
+   "ppsf": 281.3333333333333
+  },
+  {
+   "mls": "24163891",
+   "slug": "159-long-close-road-stamford-connecticut-24163891",
+   "address": {
+    "line": "159 Long Close Road",
+    "unit": null,
+    "lineWithUnit": "159 Long Close Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 7.0,
+   "baths": 8.0,
+   "sqft": 6457.0,
+   "price": 2300000.0,
+   "date": "2026-08-06",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.084666,
+    "lng": -73.57374
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1232070311579687,
+   "ppsf": 356.2025708533375
+  },
+  {
+   "mls": "24162502",
+   "slug": "31-rosano-road-stamford-connecticut-24162502",
+   "address": {
+    "line": "31 Rosano Road",
+    "unit": null,
+    "lineWithUnit": "31 Rosano Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 6.0,
+   "baths": 5.0,
+   "sqft": 6000.0,
+   "price": 2149000.0,
+   "date": "2026-05-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.086895,
+    "lng": -73.55289
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.4550115111497717,
+   "ppsf": 358.1666666666667
+  },
+  {
+   "mls": "24160080",
+   "slug": "42-dogwood-lane-stamford-connecticut-24160080",
+   "address": {
+    "line": "42 Dogwood Lane",
+    "unit": null,
+    "lineWithUnit": "42 Dogwood Lane",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
+   },
+   "beds": 4.0,
+   "baths": 5.0,
+   "sqft": 7116.0,
+   "price": 1650000.0,
+   "date": "2026-07-24",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.110053,
+    "lng": -73.566304
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.2442520928295666,
+   "ppsf": 231.87183811129847
   }
- }
+ ]
 }

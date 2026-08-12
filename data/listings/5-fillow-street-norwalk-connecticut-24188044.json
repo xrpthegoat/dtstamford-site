@@ -127,99 +127,141 @@
    "mi": 0.63
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "12-sention-avenue-norwalk-connecticut-24144739",
-     "addr": "12 Sention Avenue",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 1652.0,
-     "price": 590000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-20",
-     "ppsf": 357,
-     "mi": 0.17
-    },
-    {
-     "slug": "5-tower-drive-norwalk-connecticut-24122720",
-     "addr": "5 Tower Drive",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 2.0,
-     "sqft": 1260.0,
-     "price": 635000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-13",
-     "ppsf": 504,
-     "mi": 0.56
-    },
-    {
-     "slug": "150-fillow-street-norwalk-connecticut-24131002",
-     "addr": "150 Fillow Street",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 2.0,
-     "sqft": 2602.0,
-     "price": 795000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-01",
-     "ppsf": 306,
-     "mi": 0.63
-    },
-    {
-     "slug": "153-fillow-street-norwalk-connecticut-24153590",
-     "addr": "153 Fillow Street",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2409.0,
-     "price": 1025000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-14",
-     "ppsf": 425,
-     "mi": 0.7
-    },
-    {
-     "slug": "17-newfield-street-norwalk-connecticut-24182505",
-     "addr": "17 Newfield Street",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 2.0,
-     "sqft": 1585.0,
-     "price": 599000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 378,
-     "mi": 0.22
-    },
-    {
-     "slug": "4-eagle-road-norwalk-connecticut-24184291",
-     "addr": "4 Eagle Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 2.0,
-     "sqft": 1588.0,
-     "price": 649999.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 409,
-     "mi": 0.28
-    }
-   ],
-   "summary": {
-    "n": 4,
-    "low": 590000.0,
-    "high": 1025000.0,
-    "median": 715000
+ "comps": [
+  {
+   "mls": "24131002",
+   "slug": "150-fillow-street-norwalk-connecticut-24131002",
+   "address": {
+    "line": "150 Fillow Street",
+    "unit": null,
+    "lineWithUnit": "150 Fillow Street",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 2.0,
+   "sqft": 2602.0,
+   "price": 795000.0,
+   "date": "2026-04-01",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.119642,
+    "lng": -73.441027
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0197688428597251,
+   "ppsf": 305.5342044581092
+  },
+  {
+   "mls": "24155688",
+   "slug": "17-silk-street-norwalk-connecticut-24155688",
+   "address": {
+    "line": "17 Silk Street",
+    "unit": null,
+    "lineWithUnit": "17 Silk Street",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1980.0,
+   "price": 539900.0,
+   "date": "2026-04-24",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.118042,
+    "lng": -73.428918
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.11851770403087343,
+   "ppsf": 272.67676767676767
+  },
+  {
+   "mls": "24159581",
+   "slug": "29-hyatt-avenue-norwalk-connecticut-24159581",
+   "address": {
+    "line": "29 Hyatt Avenue",
+    "unit": null,
+    "lineWithUnit": "29 Hyatt Avenue",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 2475.0,
+   "price": 695000.0,
+   "date": "2026-06-11",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.110668,
+    "lng": -73.42707
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7328224098059106,
+   "ppsf": 280.80808080808083
+  },
+  {
+   "mls": "24169202",
+   "slug": "5-lacey-lane-norwalk-connecticut-24169202",
+   "address": {
+    "line": "5 Lacey Lane",
+    "unit": null,
+    "lineWithUnit": "5 Lacey Lane",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 3.0,
+   "baths": 4.0,
+   "sqft": 2352.0,
+   "price": 875000.0,
+   "date": "2026-06-12",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.112606,
+    "lng": -73.437842
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.864306505823933,
+   "ppsf": 372.0238095238095
+  },
+  {
+   "mls": "24162010",
+   "slug": "23-sachem-street-norwalk-connecticut-24162010",
+   "address": {
+    "line": "23 Sachem Street",
+    "unit": null,
+    "lineWithUnit": "23 Sachem Street",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 2508.0,
+   "price": 775000.0,
+   "date": "2026-06-23",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.120241,
+    "lng": -73.433546
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5006383485317204,
+   "ppsf": 309.01116427432214
   }
- }
+ ]
 }

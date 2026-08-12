@@ -129,80 +129,141 @@
    "mi": 1.0
   }
  },
- "comps": {
-  "building": {
-   "rows": [
-    {
-     "slug": "115-fillow-street-norwalk-connecticut-24171768",
-     "addr": "115 Fillow Street Unit 57",
-     "unit": "Unit 57",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 780.0,
-     "price": 350000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-22",
-     "ppsf": 449
-    },
-    {
-     "slug": "115-fillow-street-norwalk-connecticut-24192827",
-     "addr": "115 Fillow Street Unit 43",
-     "unit": "Unit 43",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 780.0,
-     "price": 333000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 427
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 350000.0,
-    "high": 350000.0,
-    "median": 350000
+ "comps": [
+  {
+   "mls": "24171768",
+   "slug": "115-fillow-street-norwalk-connecticut-24171768",
+   "address": {
+    "line": "115 Fillow Street",
+    "unit": "Unit 57",
+    "lineWithUnit": "115 Fillow Street Unit 57",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
    },
-   "label": "115 Fillow Street"
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 780.0,
+   "price": 350000.0,
+   "date": "2026-07-22",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.116642,
+    "lng": -73.437813
+   },
+   "klass": "condo",
+   "tier": 1,
+   "why": "Same building, sold in the last year",
+   "km": 0.0,
+   "ppsf": 448.71794871794873
   },
-  "area": {
-   "rows": [
-    {
-     "slug": "16-rockmeadow-road-norwalk-connecticut-24160516",
-     "addr": "16 Rockmeadow Road Unit Q",
-     "unit": "Unit Q",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 818.0,
-     "price": 320000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-09",
-     "ppsf": 391,
-     "mi": 0.14
-    },
-    {
-     "slug": "42-glenwood-avenue-norwalk-connecticut-24180918",
-     "addr": "42 Glenwood Avenue Unit A",
-     "unit": "Unit A",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 646.0,
-     "price": 272000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 421,
-     "mi": 0.71
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 320000.0,
-    "high": 320000.0,
-    "median": 320000
+  {
+   "mls": "24160516",
+   "slug": "16-rockmeadow-road-norwalk-connecticut-24160516",
+   "address": {
+    "line": "16 Rockmeadow Road",
+    "unit": "Unit Q",
+    "lineWithUnit": "16 Rockmeadow Road Unit Q",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
    },
-   "radiusMi": 0.75
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 818.0,
+   "price": 320000.0,
+   "date": "2026-07-09",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.11809,
+    "lng": -73.43606
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.21791973827336214,
+   "ppsf": 391.19804400977995
+  },
+  {
+   "mls": "24182630",
+   "slug": "12-camelot-drive-norwalk-connecticut-24182630",
+   "address": {
+    "line": "12 Camelot Drive",
+    "unit": "Unit A2",
+    "lineWithUnit": "12 Camelot Drive Unit A2",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 832.0,
+   "price": 320000.0,
+   "date": "2026-07-14",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.119728,
+    "lng": -73.436813
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.3532244601111757,
+   "ppsf": 384.61538461538464
+  },
+  {
+   "mls": "24152817",
+   "slug": "50-fairview-avenue-norwalk-connecticut-24152817",
+   "address": {
+    "line": "50 Fairview Avenue",
+    "unit": "Apt 2D",
+    "lineWithUnit": "50 Fairview Avenue Apt 2D",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 899.0,
+   "price": 275000.0,
+   "date": "2026-03-27",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.113148,
+    "lng": -73.423836
+   },
+   "klass": "condo",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.233674731101689,
+   "ppsf": 305.89543937708567
+  },
+  {
+   "mls": "24164495",
+   "slug": "63-ward-street-norwalk-connecticut-24164495",
+   "address": {
+    "line": "63 Ward Street",
+    "unit": "Unit 2C",
+    "lineWithUnit": "63 Ward Street Unit 2C",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 804.0,
+   "price": 275000.0,
+   "date": "2026-06-12",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.129167,
+    "lng": -73.41643
+   },
+   "klass": "condo",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.268860643780805,
+   "ppsf": 342.03980099502485
   }
- }
+ ]
 }

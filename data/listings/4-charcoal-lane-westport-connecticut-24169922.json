@@ -133,98 +133,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "13-rockyfield-road-westport-connecticut-24175855",
-     "addr": "13 Rockyfield Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 6.0,
-     "sqft": 7409.0,
-     "price": 3925000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-08",
-     "ppsf": 530,
-     "mi": 0.45
-    },
-    {
-     "slug": "17-vineyard-lane-westport-connecticut-24170642",
-     "addr": "17 Vineyard Lane",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 6.0,
-     "sqft": 7964.0,
-     "price": 3895000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-15",
-     "ppsf": 489,
-     "mi": 0.55
-    },
-    {
-     "slug": "52-meadow-view-drive-westport-connecticut-24175276",
-     "addr": "52 Meadow View Drive",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 6.0,
-     "sqft": 3970.0,
-     "price": 2425000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-15",
-     "ppsf": 611,
-     "mi": 0.68
-    },
-    {
-     "slug": "56-charcoal-hill-road-westport-connecticut-24161256",
-     "addr": "56 Charcoal Hill Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 3.0,
-     "sqft": 3072.0,
-     "price": 2790000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 908,
-     "mi": 0.39
-    },
-    {
-     "slug": "240-north-avenue-westport-connecticut-24181944",
-     "addr": "240 North Avenue",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 5.0,
-     "sqft": 3778.0,
-     "price": 3499000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 926,
-     "mi": 0.45
-    },
-    {
-     "slug": "19-vineyard-lane-westport-connecticut-24188426",
-     "addr": "19 Vineyard Lane",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 3.0,
-     "sqft": 3246.0,
-     "price": 1425000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 439,
-     "mi": 0.53
-    }
-   ],
-   "summary": {
-    "n": 3,
-    "low": 2425000.0,
-    "high": 3925000.0,
-    "median": 3895000
+ "comps": [
+  {
+   "mls": "24175855",
+   "slug": "13-rockyfield-road-westport-connecticut-24175855",
+   "address": {
+    "line": "13 Rockyfield Road",
+    "unit": null,
+    "lineWithUnit": "13 Rockyfield Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
    },
-   "radiusMi": 0.75
+   "beds": 5.0,
+   "baths": 6.0,
+   "sqft": 7409.0,
+   "price": 3925000.0,
+   "date": "2026-07-08",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.170208,
+    "lng": -73.350006
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7181473685214191,
+   "ppsf": 529.7611013632069
+  },
+  {
+   "mls": "24133128",
+   "slug": "6-nutcracker-lane-westport-connecticut-24133128",
+   "address": {
+    "line": "6 Nutcracker Lane",
+    "unit": null,
+    "lineWithUnit": "6 Nutcracker Lane",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 5434.0,
+   "price": 2725000.0,
+   "date": "2026-04-01",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.175014,
+    "lng": -73.336753
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.515065370574155,
+   "ppsf": 501.47221199852777
+  },
+  {
+   "mls": "24164674",
+   "slug": "42-easton-road-westport-connecticut-24164674",
+   "address": {
+    "line": "42 Easton Road",
+    "unit": null,
+    "lineWithUnit": "42 Easton Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 6.0,
+   "baths": 7.0,
+   "sqft": 5227.0,
+   "price": 3870000.0,
+   "date": "2026-05-18",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.170335,
+    "lng": -73.350893
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7820892593510045,
+   "ppsf": 740.3864549454754
+  },
+  {
+   "mls": "24172650",
+   "slug": "4-cardinal-lane-westport-connecticut-24172650",
+   "address": {
+    "line": "4 Cardinal Lane",
+    "unit": null,
+    "lineWithUnit": "4 Cardinal Lane",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 4651.0,
+   "price": 2150000.0,
+   "date": "2026-08-05",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.179063,
+    "lng": -73.332093
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0946057766527895,
+   "ppsf": 462.26617931627607
+  },
+  {
+   "mls": "24159296",
+   "slug": "13-riverfield-drive-westport-connecticut-24159296",
+   "address": {
+    "line": "13 Riverfield Drive",
+    "unit": null,
+    "lineWithUnit": "13 Riverfield Drive",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 4554.0,
+   "price": 2418000.0,
+   "date": "2026-06-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.18018,
+    "lng": -73.36222
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.8758501555487908,
+   "ppsf": 530.961791831357
   }
- }
+ ]
 }

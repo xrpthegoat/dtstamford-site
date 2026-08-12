@@ -136,101 +136,141 @@
    "mi": 1.34
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "38-stonecrop-road-norwalk-connecticut-24178526",
-     "addr": "38 Stonecrop Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 2121.0,
-     "price": 901000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-21",
-     "ppsf": 425,
-     "mi": 0.2
-    },
-    {
-     "slug": "8-stonecrop-road-norwalk-connecticut-24074248",
-     "addr": "8 Stonecrop Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1056.0,
-     "price": 642000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-09",
-     "ppsf": 608,
-     "mi": 0.26
-    },
-    {
-     "slug": "458-newtown-avenue-norwalk-connecticut-24179630",
-     "addr": "458 Newtown Avenue",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 2044.0,
-     "price": 850000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-15",
-     "ppsf": 416,
-     "mi": 0.45
-    },
-    {
-     "slug": "276-grumman-avenue-norwalk-connecticut-24149272",
-     "addr": "276 Grumman Avenue",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1488.0,
-     "price": 675000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-14",
-     "ppsf": 454,
-     "mi": 0.52
-    },
-    {
-     "slug": "2-woodley-lane-norwalk-connecticut-24150632",
-     "addr": "2 Woodley Lane",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1809.0,
-     "price": 864900.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-02",
-     "ppsf": 478,
-     "mi": 0.61
-    },
-    {
-     "slug": "19-cricklewood-lane-norwalk-connecticut-24159975",
-     "addr": "19 Cricklewood Lane",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 3038.0,
-     "price": 800000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-01",
-     "ppsf": 263,
-     "mi": 0.72
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 642000.0,
-    "high": 901000.0,
-    "median": 825000
+ "comps": [
+  {
+   "mls": "24165191",
+   "slug": "10-scott-street-norwalk-connecticut-24165191",
+   "address": {
+    "line": "10 Scott Street",
+    "unit": null,
+    "lineWithUnit": "10 Scott Street",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 2.0,
+   "sqft": 2027.0,
+   "price": 850000.0,
+   "date": "2026-07-08",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.145859,
+    "lng": -73.401389
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7772063744226996,
+   "ppsf": 419.33892451899357
+  },
+  {
+   "mls": "24115022",
+   "slug": "41-mohawk-drive-norwalk-connecticut-24115022",
+   "address": {
+    "line": "41 Mohawk Drive",
+    "unit": null,
+    "lineWithUnit": "41 Mohawk Drive",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 3018.0,
+   "price": 915000.0,
+   "date": "2026-04-22",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.15549,
+    "lng": -73.397826
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.34322505019350674,
+   "ppsf": 303.18091451292247
+  },
+  {
+   "mls": "24129813",
+   "slug": "4-frank-street-norwalk-connecticut-24129813",
+   "address": {
+    "line": "4 Frank Street",
+    "unit": null,
+    "lineWithUnit": "4 Frank Street",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 2607.0,
+   "price": 950000.0,
+   "date": "2026-04-07",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.147847,
+    "lng": -73.394463
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5950371391121839,
+   "ppsf": 364.403528960491
+  },
+  {
+   "mls": "24157509",
+   "slug": "26-thistle-road-norwalk-connecticut-24157509",
+   "address": {
+    "line": "26 Thistle Road",
+    "unit": null,
+    "lineWithUnit": "26 Thistle Road",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2350.0,
+   "price": 745000.0,
+   "date": "2026-04-20",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.157688,
+    "lng": -73.392356
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7619748712377906,
+   "ppsf": 317.02127659574467
+  },
+  {
+   "mls": "24159975",
+   "slug": "19-cricklewood-lane-norwalk-connecticut-24159975",
+   "address": {
+    "line": "19 Cricklewood Lane",
+    "unit": null,
+    "lineWithUnit": "19 Cricklewood Lane",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 3038.0,
+   "price": 800000.0,
+   "date": "2026-06-01",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.144466,
+    "lng": -73.40725
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.165959078294978,
+   "ppsf": 263.3311389071758
   }
- }
+ ]
 }

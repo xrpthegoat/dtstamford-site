@@ -119,98 +119,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "33-elm-street-westport-connecticut-24160395",
-     "addr": "33 Elm Street Unit 3",
-     "unit": "Unit 3",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 802.0,
-     "price": 3800.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-12",
-     "ppsf": 5,
-     "mi": 0.44
-    },
-    {
-     "slug": "33-elm-street-westport-connecticut-24183702",
-     "addr": "33 Elm Street Unit 4",
-     "unit": "Unit 4",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 823.0,
-     "price": 4850.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-17",
-     "ppsf": 6,
-     "mi": 0.45
-    },
-    {
-     "slug": "54-richmondville-avenue-westport-connecticut-24160951",
-     "addr": "54 Richmondville Avenue",
-     "unit": "",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 900.0,
-     "price": 2650.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-02",
-     "ppsf": 3,
-     "mi": 0.7
-    },
-    {
-     "slug": "201-main-street-westport-connecticut-24186244",
-     "addr": "201 Main Street Unit 204",
-     "unit": "Unit 204",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 730.0,
-     "price": 3800.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 5,
-     "mi": 0.37
-    },
-    {
-     "slug": "201-main-street-westport-connecticut-24196438",
-     "addr": "201 Main Street Unit 301",
-     "unit": "Unit 301",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 730.0,
-     "price": 3900.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 5,
-     "mi": 0.37
-    },
-    {
-     "slug": "341-main-street-westport-connecticut-24196024",
-     "addr": "341 Main Street Unit 2",
-     "unit": "Unit 2",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 500.0,
-     "price": 1900.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 4,
-     "mi": 0.51
-    }
-   ],
-   "summary": {
-    "n": 3,
-    "low": 2650.0,
-    "high": 4850.0,
-    "median": 3800
+ "comps": [
+  {
+   "mls": "24146601",
+   "slug": "315-main-street-westport-connecticut-24146601",
+   "address": {
+    "line": "315 Main Street",
+    "unit": null,
+    "lineWithUnit": "315 Main Street",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 740.0,
+   "price": 3250.0,
+   "date": "2026-03-30",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.149874,
+    "lng": -73.362429
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7616576087744699,
+   "ppsf": 4.391891891891892
+  },
+  {
+   "mls": "24187531",
+   "slug": "37-richmondville-avenue-westport-connecticut-24187531",
+   "address": {
+    "line": "37 Richmondville Avenue",
+    "unit": "Unit 3",
+    "lineWithUnit": "37 Richmondville Avenue Unit 3",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 0.0,
+   "baths": 1.0,
+   "sqft": 576.0,
+   "price": 1850.0,
+   "date": "2026-07-29",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.153849,
+    "lng": -73.365692
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0096361406997256,
+   "ppsf": 3.2118055555555554
+  },
+  {
+   "mls": "24164566",
+   "slug": "25-saugatuck-avenue-westport-connecticut-24164566",
+   "address": {
+    "line": "25 Saugatuck Avenue",
+    "unit": "Unit 9",
+    "lineWithUnit": "25 Saugatuck Avenue Unit 9",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": null,
+   "baths": 1.0,
+   "sqft": 550.0,
+   "price": 1550.0,
+   "date": "2026-04-10",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.1239,
+    "lng": -73.3718
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.3703652438727496,
+   "ppsf": 2.8181818181818183
+  },
+  {
+   "mls": "24177236",
+   "slug": "4a-stoneboat-road-westport-connecticut-24177236",
+   "address": {
+    "line": "4A Stoneboat Road",
+    "unit": null,
+    "lineWithUnit": "4A Stoneboat Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 720.0,
+   "price": 4200.0,
+   "date": "2026-07-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.164771,
+    "lng": -73.374494
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.2346727881238775,
+   "ppsf": 5.833333333333333
+  },
+  {
+   "mls": "24188606",
+   "slug": "260-riverside-avenue-westport-connecticut-24188606",
+   "address": {
+    "line": "260 Riverside Avenue",
+    "unit": "Unit 6",
+    "lineWithUnit": "260 Riverside Avenue Unit 6",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 600.0,
+   "price": 3050.0,
+   "date": "2026-08-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.131527,
+    "lng": -73.36862
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.5106369945585814,
+   "ppsf": 5.083333333333333
   }
- }
+ ]
 }

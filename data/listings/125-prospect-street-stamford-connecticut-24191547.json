@@ -114,101 +114,141 @@
    "walk": 3
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "99-prospect-street-stamford-connecticut-24147085",
-     "addr": "99 Prospect Street Apt 6I",
-     "unit": "Apt 6I",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 611.0,
-     "price": 1850.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-17",
-     "ppsf": 3,
-     "mi": 0.06
-    },
-    {
-     "slug": "99-prospect-street-stamford-connecticut-24167211",
-     "addr": "99 Prospect Street Unit 7K",
-     "unit": "Unit 7K",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 630.0,
-     "price": 1995.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-01",
-     "ppsf": 3,
-     "mi": 0.06
-    },
-    {
-     "slug": "99-prospect-street-stamford-connecticut-24155260",
-     "addr": "99 Prospect Street Apt 4A",
-     "unit": "Apt 4A",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 619.0,
-     "price": 2000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-28",
-     "ppsf": 3,
-     "mi": 0.07
-    },
-    {
-     "slug": "140-grove-street-stamford-connecticut-24146364",
-     "addr": "140 Grove Street Apt 2A",
-     "unit": "Apt 2A",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 472.0,
-     "price": 1750.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-01",
-     "ppsf": 4,
-     "mi": 0.07
-    },
-    {
-     "slug": "140-grove-street-stamford-connecticut-24156064",
-     "addr": "140 Grove Street Apt 5B",
-     "unit": "Apt 5B",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 599.0,
-     "price": 2100.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-01",
-     "ppsf": 4,
-     "mi": 0.07
-    },
-    {
-     "slug": "140-grove-street-stamford-connecticut-24177669",
-     "addr": "140 Grove Street #3G",
-     "unit": "#3G",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 599.0,
-     "price": 2100.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-01",
-     "ppsf": 4,
-     "mi": 0.07
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 1750.0,
-    "high": 2100.0,
-    "median": 1998
+ "comps": [
+  {
+   "mls": "24161401",
+   "slug": "60-strawberry-hill-avenue-stamford-connecticut-24161401",
+   "address": {
+    "line": "60 Strawberry Hill Avenue",
+    "unit": "Unit 1002",
+    "lineWithUnit": "60 Strawberry Hill Avenue Unit 1002",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
    },
-   "radiusMi": 0.75
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 431.0,
+   "price": 1850.0,
+   "date": "2026-03-27",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.062366,
+    "lng": -73.53354
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.3204788904579583,
+   "ppsf": 4.292343387470997
+  },
+  {
+   "mls": "24151434",
+   "slug": "444-bedford-street-stamford-connecticut-24151434",
+   "address": {
+    "line": "444 Bedford Street",
+    "unit": "Apt 7M",
+    "lineWithUnit": "444 Bedford Street Apt 7M",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06901"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 610.0,
+   "price": 2185.0,
+   "date": "2026-03-23",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.058212,
+    "lng": -73.5384
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.36835021678221097,
+   "ppsf": 3.581967213114754
+  },
+  {
+   "mls": "24146364",
+   "slug": "140-grove-street-stamford-connecticut-24146364",
+   "address": {
+    "line": "140 Grove Street",
+    "unit": "Apt 2A",
+    "lineWithUnit": "140 Grove Street Apt 2A",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06901"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 472.0,
+   "price": 1750.0,
+   "date": "2026-04-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.05879,
+    "lng": -73.535334
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.11653492173894686,
+   "ppsf": 3.707627118644068
+  },
+  {
+   "mls": "24154487",
+   "slug": "127-greyrock-place-stamford-connecticut-24154487",
+   "address": {
+    "line": "127 Greyrock Place",
+    "unit": "Apt 507",
+    "lineWithUnit": "127 Greyrock Place Apt 507",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06901"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 557.0,
+   "price": 2100.0,
+   "date": "2026-04-15",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.054544,
+    "lng": -73.535808
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5698467718709986,
+   "ppsf": 3.770197486535009
+  },
+  {
+   "mls": "24156064",
+   "slug": "140-grove-street-stamford-connecticut-24156064",
+   "address": {
+    "line": "140 Grove Street",
+    "unit": "Apt 5B",
+    "lineWithUnit": "140 Grove Street Apt 5B",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06901"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 599.0,
+   "price": 2100.0,
+   "date": "2026-05-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.05879,
+    "lng": -73.535334
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.11653492173894686,
+   "ppsf": 3.5058430717863107
   }
- }
+ ]
 }

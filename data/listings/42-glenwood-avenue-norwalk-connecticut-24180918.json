@@ -136,101 +136,141 @@
    "walk": 10
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "47-cedar-street-norwalk-connecticut-24167594",
-     "addr": "47 Cedar Street Unit 2",
-     "unit": "Unit 2",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 609.0,
-     "price": 290000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-17",
-     "ppsf": 476,
-     "mi": 0.36
-    },
-    {
-     "slug": "26-prospect-avenue-norwalk-connecticut-24159894",
-     "addr": "26 Prospect Avenue Unit F8",
-     "unit": "Unit F8",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 654.0,
-     "price": 275000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-18",
-     "ppsf": 420,
-     "mi": 0.53
-    },
-    {
-     "slug": "26-prospect-avenue-norwalk-connecticut-24149328",
-     "addr": "26 Prospect Avenue Unit F4",
-     "unit": "Unit F4",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 654.0,
-     "price": 265000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-02",
-     "ppsf": 405,
-     "mi": 0.53
-    },
-    {
-     "slug": "18-prospect-avenue-norwalk-connecticut-24158892",
-     "addr": "18 Prospect Avenue Apt C10",
-     "unit": "Apt C10",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 572.0,
-     "price": 220000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-03",
-     "ppsf": 385,
-     "mi": 0.55
-    },
-    {
-     "slug": "21-prospect-avenue-norwalk-connecticut-24170676",
-     "addr": "21 Prospect Avenue Unit B103",
-     "unit": "Unit B103",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 630.0,
-     "price": 318000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-30",
-     "ppsf": 505,
-     "mi": 0.55
-    },
-    {
-     "slug": "11-bedford-avenue-norwalk-connecticut-24148214",
-     "addr": "11 Bedford Avenue Apt G1",
-     "unit": "Apt G1",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 719.0,
-     "price": 220000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-30",
-     "ppsf": 306,
-     "mi": 0.57
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 220000.0,
-    "high": 318000.0,
-    "median": 270000
+ "comps": [
+  {
+   "mls": "24167594",
+   "slug": "47-cedar-street-norwalk-connecticut-24167594",
+   "address": {
+    "line": "47 Cedar Street",
+    "unit": "Unit 2",
+    "lineWithUnit": "47 Cedar Street Unit 2",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
    },
-   "radiusMi": 0.75
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 609.0,
+   "price": 290000.0,
+   "date": "2026-06-17",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.10486,
+    "lng": -73.424369
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5824292929226143,
+   "ppsf": 476.1904761904762
+  },
+  {
+   "mls": "24159894",
+   "slug": "26-prospect-avenue-norwalk-connecticut-24159894",
+   "address": {
+    "line": "26 Prospect Avenue",
+    "unit": "Unit F8",
+    "lineWithUnit": "26 Prospect Avenue Unit F8",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 654.0,
+   "price": 275000.0,
+   "date": "2026-06-18",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.11538,
+    "lng": -73.422941
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8455170245121638,
+   "ppsf": 420.4892966360856
+  },
+  {
+   "mls": "24148214",
+   "slug": "11-bedford-avenue-norwalk-connecticut-24148214",
+   "address": {
+    "line": "11 Bedford Avenue",
+    "unit": "Apt G1",
+    "lineWithUnit": "11 Bedford Avenue Apt G1",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 719.0,
+   "price": 220000.0,
+   "date": "2026-03-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.115296,
+    "lng": -73.421444
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9138723909009862,
+   "ppsf": 305.980528511822
+  },
+  {
+   "mls": "24149328",
+   "slug": "26-prospect-avenue-norwalk-connecticut-24149328",
+   "address": {
+    "line": "26 Prospect Avenue",
+    "unit": "Unit F4",
+    "lineWithUnit": "26 Prospect Avenue Unit F4",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 654.0,
+   "price": 265000.0,
+   "date": "2026-04-02",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.11538,
+    "lng": -73.422941
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8455170245121638,
+   "ppsf": 405.1987767584098
+  },
+  {
+   "mls": "24171768",
+   "slug": "115-fillow-street-norwalk-connecticut-24171768",
+   "address": {
+    "line": "115 Fillow Street",
+    "unit": "Unit 57",
+    "lineWithUnit": "115 Fillow Street Unit 57",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 780.0,
+   "price": 350000.0,
+   "date": "2026-07-22",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.116642,
+    "lng": -73.437813
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1472484483120287,
+   "ppsf": 448.71794871794873
   }
- }
+ ]
 }

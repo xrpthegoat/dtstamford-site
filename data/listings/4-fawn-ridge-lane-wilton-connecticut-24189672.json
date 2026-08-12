@@ -140,101 +140,141 @@
    "walk": 7
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "61-fawn-ridge-lane-wilton-connecticut-24189066",
-     "addr": "61 Fawn Ridge Lane Unit 61",
-     "unit": "Unit 61",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1182.0,
-     "price": 645000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-11",
-     "ppsf": 546,
-     "mi": 0.09
-    },
-    {
-     "slug": "73-fawn-ridge-lane-norwalk-connecticut-24178343",
-     "addr": "73 Fawn Ridge Lane Unit 73",
-     "unit": "Unit 73",
-     "beds": 2.0,
-     "baths": 3.0,
-     "sqft": 1592.0,
-     "price": 645000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-22",
-     "ppsf": 405,
-     "mi": 0.15
-    },
-    {
-     "slug": "76-fawn-ridge-lane-norwalk-connecticut-24151523",
-     "addr": "76 Fawn Ridge Lane Unit 76",
-     "unit": "Unit 76",
-     "beds": 2.0,
-     "baths": 3.0,
-     "sqft": 1231.0,
-     "price": 635000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-23",
-     "ppsf": 516,
-     "mi": 0.15
-    },
-    {
-     "slug": "121-fawn-ridge-lane-norwalk-connecticut-24167889",
-     "addr": "121 Fawn Ridge Lane Unit 121",
-     "unit": "Unit 121",
-     "beds": 2.0,
-     "baths": 3.0,
-     "sqft": 1320.0,
-     "price": 680000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-05",
-     "ppsf": 515,
-     "mi": 0.15
-    },
-    {
-     "slug": "123-old-belden-hill-road-norwalk-connecticut-24158056",
-     "addr": "123 Old Belden Hill Road Apt 19",
-     "unit": "Apt 19",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1220.0,
-     "price": 540000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-15",
-     "ppsf": 443,
-     "mi": 0.55
-    },
-    {
-     "slug": "123-old-belden-hill-road-norwalk-connecticut-24152898",
-     "addr": "123 Old Belden Hill Road Apt 40",
-     "unit": "Apt 40",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1220.0,
-     "price": 457000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-02",
-     "ppsf": 375,
-     "mi": 0.55
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 457000.0,
-    "high": 680000.0,
-    "median": 640000
+ "comps": [
+  {
+   "mls": "24150826",
+   "slug": "2-village-court-wilton-connecticut-24150826",
+   "address": {
+    "line": "2 Village Court",
+    "unit": "Unit 2",
+    "lineWithUnit": "2 Village Court Unit 2",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1783.0,
+   "price": 1002000.0,
+   "date": "2026-03-20",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.170787,
+    "lng": -73.414531
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9039050519689797,
+   "ppsf": 561.9742007851935
+  },
+  {
+   "mls": "24180060",
+   "slug": "70-wilton-crest-wilton-connecticut-24180060",
+   "address": {
+    "line": "70 Wilton Crest",
+    "unit": "Unit 70",
+    "lineWithUnit": "70 Wilton Crest Unit 70",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 1449.0,
+   "price": 657000.0,
+   "date": "2026-07-24",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.184384,
+    "lng": -73.425581
+   },
+   "klass": "condo",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.465460584136606,
+   "ppsf": 453.41614906832297
+  },
+  {
+   "mls": "24189066",
+   "slug": "61-fawn-ridge-lane-wilton-connecticut-24189066",
+   "address": {
+    "line": "61 Fawn Ridge Lane",
+    "unit": "Unit 61",
+    "lineWithUnit": "61 Fawn Ridge Lane Unit 61",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1182.0,
+   "price": 645000.0,
+   "date": "2026-08-11",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.162345,
+    "lng": -73.41612
+   },
+   "klass": "condo",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 0.15262442180166041,
+   "ppsf": 545.6852791878173
+  },
+  {
+   "mls": "24161063",
+   "slug": "7-glen-ridge-wilton-connecticut-24161063",
+   "address": {
+    "line": "7 Glen Ridge",
+    "unit": "Unit 7",
+    "lineWithUnit": "7 Glen Ridge Unit 7",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 1255.0,
+   "price": 685000.0,
+   "date": "2026-04-23",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.185063,
+    "lng": -73.429601
+   },
+   "klass": "condo",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 2.645661682484364,
+   "ppsf": 545.816733067729
+  },
+  {
+   "mls": "24166404",
+   "slug": "43-village-walk-wilton-connecticut-24166404",
+   "address": {
+    "line": "43 Village Walk",
+    "unit": "Unit 43",
+    "lineWithUnit": "43 Village Walk Unit 43",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1088.0,
+   "price": 490000.0,
+   "date": "2026-06-23",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.186819,
+    "lng": -73.431511
+   },
+   "klass": "condo",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 2.887676699382666,
+   "ppsf": 450.36764705882354
   }
- }
+ ]
 }

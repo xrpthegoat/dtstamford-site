@@ -130,101 +130,141 @@
    "mi": 1.11
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "114-belltown-road-stamford-connecticut-24179925",
-     "addr": "114 Belltown Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 1.0,
-     "sqft": 1112.0,
-     "price": 600000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-24",
-     "ppsf": 540,
-     "mi": 0.12
-    },
-    {
-     "slug": "25-fairland-street-stamford-connecticut-24163292",
-     "addr": "25 Fairland Street",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1232.0,
-     "price": 690000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-28",
-     "ppsf": 560,
-     "mi": 0.21
-    },
-    {
-     "slug": "190-toms-road-stamford-connecticut-24164817",
-     "addr": "190 Toms Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1800.0,
-     "price": 750000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-18",
-     "ppsf": 417,
-     "mi": 0.21
-    },
-    {
-     "slug": "125-joffre-avenue-stamford-connecticut-24168772",
-     "addr": "125 Joffre Avenue",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 2375.0,
-     "price": 980000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-25",
-     "ppsf": 413,
-     "mi": 0.22
-    },
-    {
-     "slug": "31-edward-place-stamford-connecticut-24184578",
-     "addr": "31 Edward Place",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 2324.0,
-     "price": 755000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-07",
-     "ppsf": 325,
-     "mi": 0.23
-    },
-    {
-     "slug": "162-toms-road-stamford-connecticut-24163525",
-     "addr": "162 Toms Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1400.0,
-     "price": 665000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-22",
-     "ppsf": 475,
-     "mi": 0.24
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 600000.0,
-    "high": 980000.0,
-    "median": 720000
+ "comps": [
+  {
+   "mls": "24133238",
+   "slug": "7-barnstable-lane-stamford-connecticut-24133238",
+   "address": {
+    "line": "7 Barnstable Lane",
+    "unit": null,
+    "lineWithUnit": "7 Barnstable Lane",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06907"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1260.0,
+   "price": 519000.0,
+   "date": "2026-04-08",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.085823,
+    "lng": -73.51913
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1306505306062191,
+   "ppsf": 411.9047619047619
+  },
+  {
+   "mls": "24129919",
+   "slug": "71-deleo-drive-stamford-connecticut-24129919",
+   "address": {
+    "line": "71 Deleo Drive",
+    "unit": null,
+    "lineWithUnit": "71 Deleo Drive",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06906"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1357.0,
+   "price": 665000.0,
+   "date": "2026-04-06",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.076479,
+    "lng": -73.526643
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6895719022570845,
+   "ppsf": 490.0515843773029
+  },
+  {
+   "mls": "24169324",
+   "slug": "22-camore-street-stamford-connecticut-24169324",
+   "address": {
+    "line": "22 Camore Street",
+    "unit": null,
+    "lineWithUnit": "22 Camore Street",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 3.0,
+   "baths": 1.0,
+   "sqft": 1176.0,
+   "price": 685000.0,
+   "date": "2026-06-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.078668,
+    "lng": -73.544512
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.147054064866223,
+   "ppsf": 582.4829931972789
+  },
+  {
+   "mls": "24170669",
+   "slug": "50-crestview-avenue-stamford-connecticut-24170669",
+   "address": {
+    "line": "50 Crestview Avenue",
+    "unit": null,
+    "lineWithUnit": "50 Crestview Avenue",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06907"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1353.0,
+   "price": 828750.0,
+   "date": "2026-07-14",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.088136,
+    "lng": -73.523955
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9603898968727288,
+   "ppsf": 612.5277161862527
+  },
+  {
+   "mls": "24168878",
+   "slug": "71-elizabeth-avenue-stamford-connecticut-24168878",
+   "address": {
+    "line": "71 Elizabeth Avenue",
+    "unit": null,
+    "lineWithUnit": "71 Elizabeth Avenue",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06907"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1484.0,
+   "price": 950000.0,
+   "date": "2026-06-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.084972,
+    "lng": -73.524456
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6932760728764512,
+   "ppsf": 640.1617250673854
   }
- }
+ ]
 }

@@ -131,86 +131,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "18-woodhill-road-westport-connecticut-24144655",
-     "addr": "18 Woodhill Road",
-     "unit": "",
-     "beds": 6.0,
-     "baths": 7.0,
-     "sqft": 7092.0,
-     "price": 3800000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-30",
-     "ppsf": 536,
-     "mi": 0.37
-    },
-    {
-     "slug": "3-bowling-lane-westport-connecticut-24169947",
-     "addr": "3 Bowling Lane",
-     "unit": "",
-     "beds": 6.0,
-     "baths": 6.0,
-     "sqft": 5844.0,
-     "price": 3400000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-03",
-     "ppsf": 582,
-     "mi": 0.44
-    },
-    {
-     "slug": "36-bauer-pl-extension-westport-connecticut-24161889",
-     "addr": "36 Bauer Pl Extension",
-     "unit": "",
-     "beds": 6.0,
-     "baths": 6.0,
-     "sqft": 5938.0,
-     "price": 3025000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-18",
-     "ppsf": 509,
-     "mi": 0.53
-    },
-    {
-     "slug": "125-old-road-westport-connecticut-24148223",
-     "addr": "125 Old Road",
-     "unit": "",
-     "beds": 6.0,
-     "baths": 9.0,
-     "sqft": 8545.0,
-     "price": 5036000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-26",
-     "ppsf": 589,
-     "mi": 0.58
-    },
-    {
-     "slug": "124-hillandale-road-westport-connecticut-24184011",
-     "addr": "124 Hillandale Road",
-     "unit": "",
-     "beds": 6.0,
-     "baths": 10.0,
-     "sqft": 9349.0,
-     "price": 6500000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 695,
-     "mi": 0.63
-    }
-   ],
-   "summary": {
-    "n": 4,
-    "low": 3025000.0,
-    "high": 5036000.0,
-    "median": 3600000
+ "comps": [
+  {
+   "mls": "24144655",
+   "slug": "18-woodhill-road-westport-connecticut-24144655",
+   "address": {
+    "line": "18 Woodhill Road",
+    "unit": null,
+    "lineWithUnit": "18 Woodhill Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
    },
-   "radiusMi": 0.75
+   "beds": 6.0,
+   "baths": 7.0,
+   "sqft": 7092.0,
+   "price": 3800000.0,
+   "date": "2026-03-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.136891,
+    "lng": -73.303322
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6033310201905876,
+   "ppsf": 535.8150028200789
+  },
+  {
+   "mls": "24148223",
+   "slug": "125-old-road-westport-connecticut-24148223",
+   "address": {
+    "line": "125 Old Road",
+    "unit": null,
+    "lineWithUnit": "125 Old Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 6.0,
+   "baths": 9.0,
+   "sqft": 8545.0,
+   "price": 5036000.0,
+   "date": "2026-03-26",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.14368,
+    "lng": -73.30604
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9372669064722224,
+   "ppsf": 589.3504973668812
+  },
+  {
+   "mls": "24122231",
+   "slug": "342-greens-farms-road-westport-connecticut-24122231",
+   "address": {
+    "line": "342 Greens Farms Road",
+    "unit": null,
+    "lineWithUnit": "342 Greens Farms Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 4.0,
+   "baths": 5.0,
+   "sqft": 6600.0,
+   "price": 2100000.0,
+   "date": "2026-03-27",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.130208,
+    "lng": -73.304614
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7993989744626147,
+   "ppsf": 318.1818181818182
+  },
+  {
+   "mls": "24169947",
+   "slug": "3-bowling-lane-westport-connecticut-24169947",
+   "address": {
+    "line": "3 Bowling Lane",
+    "unit": null,
+    "lineWithUnit": "3 Bowling Lane",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 6.0,
+   "baths": 6.0,
+   "sqft": 5844.0,
+   "price": 3400000.0,
+   "date": "2026-08-03",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.1403,
+    "lng": -73.31665
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7143333571858633,
+   "ppsf": 581.7932922655715
+  },
+  {
+   "mls": "24161889",
+   "slug": "36-bauer-pl-extension-westport-connecticut-24161889",
+   "address": {
+    "line": "36 Bauer Pl Extension",
+    "unit": null,
+    "lineWithUnit": "36 Bauer Pl Extension",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 6.0,
+   "baths": 6.0,
+   "sqft": 5938.0,
+   "price": 3025000.0,
+   "date": "2026-05-18",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.14166,
+    "lng": -73.31707
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8476052989957735,
+   "ppsf": 509.43078477601887
   }
- }
+ ]
 }

@@ -126,85 +126,141 @@
    "mi": 1.96
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "11-rex-street-greenwich-connecticut-24156004",
-     "addr": "11 Rex Street",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1064.0,
-     "price": 823000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-16",
-     "ppsf": 773,
-     "mi": 0.03
-    },
-    {
-     "slug": "19-cross-street-greenwich-connecticut-24170385",
-     "addr": "19 Cross Street",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1854.0,
-     "price": 1325000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-07",
-     "ppsf": 715,
-     "mi": 0.04
-    },
-    {
-     "slug": "1-pilgrim-drive-greenwich-connecticut-24186503",
-     "addr": "1 Pilgrim Drive",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 1.0,
-     "sqft": 1276.0,
-     "price": 980000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-07",
-     "ppsf": 768,
-     "mi": 0.26
-    },
-    {
-     "slug": "52-francis-lane-greenwich-connecticut-24182873",
-     "addr": "52 Francis Lane",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 4.0,
-     "sqft": 3049.0,
-     "price": 1895000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 622,
-     "mi": 0.28
-    },
-    {
-     "slug": "118-halstead-avenue-greenwich-connecticut-24184465",
-     "addr": "118 Halstead Avenue",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 1.0,
-     "sqft": 1224.0,
-     "price": 724999.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 592,
-     "mi": 0.38
-    }
-   ],
-   "summary": {
-    "n": 3,
-    "low": 823000.0,
-    "high": 1325000.0,
-    "median": 980000
+ "comps": [
+  {
+   "mls": "24170385",
+   "slug": "19-cross-street-greenwich-connecticut-24170385",
+   "address": {
+    "line": "19 Cross Street",
+    "unit": null,
+    "lineWithUnit": "19 Cross Street",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06831"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1854.0,
+   "price": 1325000.0,
+   "date": "2026-07-07",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.021726,
+    "lng": -73.657228
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.06645948170819425,
+   "ppsf": 714.6709816612729
+  },
+  {
+   "mls": "24186503",
+   "slug": "1-pilgrim-drive-greenwich-connecticut-24186503",
+   "address": {
+    "line": "1 Pilgrim Drive",
+    "unit": null,
+    "lineWithUnit": "1 Pilgrim Drive",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06831"
+   },
+   "beds": 3.0,
+   "baths": 1.0,
+   "sqft": 1276.0,
+   "price": 980000.0,
+   "date": "2026-08-07",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.023029,
+    "lng": -73.662327
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.42601626222949157,
+   "ppsf": 768.0250783699059
+  },
+  {
+   "mls": "24141403",
+   "slug": "15-henry-street-greenwich-connecticut-24141403",
+   "address": {
+    "line": "15 Henry Street",
+    "unit": null,
+    "lineWithUnit": "15 Henry Street",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06830"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1258.0,
+   "price": 600000.0,
+   "date": "2026-03-24",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.003594,
+    "lng": -73.655907
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.0854680840975193,
+   "ppsf": 476.9475357710652
+  },
+  {
+   "mls": "24150539",
+   "slug": "105-glenville-street-greenwich-connecticut-24150539",
+   "address": {
+    "line": "105 Glenville Street",
+    "unit": null,
+    "lineWithUnit": "105 Glenville Street",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06831"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1713.0,
+   "price": 977500.0,
+   "date": "2026-03-17",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.03328,
+    "lng": -73.671593
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.7075822196973858,
+   "ppsf": 570.636310566258
+  },
+  {
+   "mls": "24164527",
+   "slug": "255-byram-road-greenwich-connecticut-24164527",
+   "address": {
+    "line": "255 Byram Road",
+    "unit": null,
+    "lineWithUnit": "255 Byram Road",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06830"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1656.0,
+   "price": 1054612.0,
+   "date": "2026-06-12",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.005196,
+    "lng": -73.650655
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.9847089209192947,
+   "ppsf": 636.8429951690821
   }
- }
+ ]
 }

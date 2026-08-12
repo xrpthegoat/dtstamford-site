@@ -129,31 +129,60 @@
    "mi": 1.14
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "4-cranbury-woods-road-norwalk-connecticut-24175795",
-     "addr": "4 Cranbury Woods Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2650.0,
-     "price": 6500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-15",
-     "ppsf": 2,
-     "mi": 0.73
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 6500.0,
-    "high": 6500.0,
-    "median": 6500
+ "comps": [
+  {
+   "mls": "24148974",
+   "slug": "141-west-norwalk-road-norwalk-connecticut-24148974",
+   "address": {
+    "line": "141 West Norwalk Road",
+    "unit": null,
+    "lineWithUnit": "141 West Norwalk Road",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
    },
-   "radiusMi": 0.75
+   "beds": 5.0,
+   "baths": 6.0,
+   "sqft": 6450.0,
+   "price": 15000.0,
+   "date": "2026-03-06",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.101936,
+    "lng": -73.45762
+   },
+   "klass": "rental",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 8.864301641150398,
+   "ppsf": 2.3255813953488373
+  },
+  {
+   "mls": "24173590",
+   "slug": "51-wall-street-norwalk-connecticut-24173590",
+   "address": {
+    "line": "51 Wall Street",
+    "unit": "Unit 1",
+    "lineWithUnit": "51 Wall Street Unit 1",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 0.0,
+   "baths": 1.0,
+   "sqft": 4648.0,
+   "price": 1520.0,
+   "date": "2026-06-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.117687,
+    "lng": -73.41311
+   },
+   "klass": "rental",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 5.595405142572172,
+   "ppsf": 0.3270223752151463
   }
- }
+ ]
 }

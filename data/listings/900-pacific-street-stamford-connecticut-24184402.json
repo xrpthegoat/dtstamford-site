@@ -112,151 +112,141 @@
    "mi": 0.73
   }
  },
- "comps": {
-  "building": {
-   "rows": [
-    {
-     "slug": "900-pacific-street-stamford-connecticut-24139909",
-     "addr": "900 Pacific Street Unit 1201",
-     "unit": "Unit 1201",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 788.0,
-     "price": 6865.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-16",
-     "ppsf": 9
-    },
-    {
-     "slug": "900-pacific-street-stamford-connecticut-24094882",
-     "addr": "900 Pacific Street Unit 702",
-     "unit": "Unit 702",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1136.0,
-     "price": 5115.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-10",
-     "ppsf": 5
-    },
-    {
-     "slug": "900-pacific-street-stamford-connecticut-24124711",
-     "addr": "900 Pacific Street Unit 306",
-     "unit": "Unit 306",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1136.0,
-     "price": 4495.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-10",
-     "ppsf": 4
-    }
-   ],
-   "summary": {
-    "n": 3,
-    "low": 4495.0,
-    "high": 6865.0,
-    "median": 5115
+ "comps": [
+  {
+   "mls": "24094882",
+   "slug": "900-pacific-street-stamford-connecticut-24094882",
+   "address": {
+    "line": "900 Pacific Street",
+    "unit": "Unit 702",
+    "lineWithUnit": "900 Pacific Street Unit 702",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
    },
-   "label": "900 Pacific Street"
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1136.0,
+   "price": 5115.0,
+   "date": "2026-05-10",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.037956,
+    "lng": -73.54282
+   },
+   "klass": "rental",
+   "tier": 1,
+   "why": "Same building, sold in the last year",
+   "km": 0.0,
+   "ppsf": 4.502640845070423
   },
-  "area": {
-   "rows": [
-    {
-     "slug": "880-pacific-street-stamford-connecticut-24124516",
-     "addr": "880 Pacific Street Unit 1301",
-     "unit": "Unit 1301",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1300.0,
-     "price": 4565.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-10",
-     "ppsf": 4,
-     "mi": 0.05
-    },
-    {
-     "slug": "880-pacific-street-stamford-connecticut-24139911",
-     "addr": "880 Pacific Street Unit 1651",
-     "unit": "Unit 1651",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1300.0,
-     "price": 5295.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-16",
-     "ppsf": 4,
-     "mi": 0.05
-    },
-    {
-     "slug": "850-south-pacific-street-stamford-connecticut-24102634",
-     "addr": "850 South Pacific Street Unit 1508",
-     "unit": "Unit 1508",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1148.0,
-     "price": 5885.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-16",
-     "ppsf": 5,
-     "mi": 0.11
-    },
-    {
-     "slug": "850-south-pacific-street-stamford-connecticut-24124511",
-     "addr": "850 South Pacific Street Unit 307",
-     "unit": "Unit 307",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1101.0,
-     "price": 3865.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-10",
-     "ppsf": 4,
-     "mi": 0.11
-    },
-    {
-     "slug": "2-harbor-point-road-south-stamford-connecticut-24124501",
-     "addr": "2 Harbor Point Road South Unit 502",
-     "unit": "Unit 502",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1136.0,
-     "price": 4715.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-30",
-     "ppsf": 4,
-     "mi": 0.12
-    },
-    {
-     "slug": "2-harbor-point-road-south-stamford-connecticut-24102629",
-     "addr": "2 Harbor Point Road South Unit 429",
-     "unit": "Unit 429",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1091.0,
-     "price": 4745.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-30",
-     "ppsf": 4,
-     "mi": 0.12
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 3865.0,
-    "high": 5885.0,
-    "median": 4730
+  {
+   "mls": "24124711",
+   "slug": "900-pacific-street-stamford-connecticut-24124711",
+   "address": {
+    "line": "900 Pacific Street",
+    "unit": "Unit 306",
+    "lineWithUnit": "900 Pacific Street Unit 306",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1136.0,
+   "price": 4495.0,
+   "date": "2026-05-10",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.037956,
+    "lng": -73.54282
+   },
+   "klass": "rental",
+   "tier": 1,
+   "why": "Same building, sold in the last year",
+   "km": 0.0,
+   "ppsf": 3.9568661971830985
+  },
+  {
+   "mls": "24153485",
+   "slug": "110-burwood-avenue-stamford-connecticut-24153485",
+   "address": {
+    "line": "110 Burwood Avenue",
+    "unit": "Unit 2",
+    "lineWithUnit": "110 Burwood Avenue Unit 2",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 1092.0,
+   "price": 2700.0,
+   "date": "2026-03-18",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.032331,
+    "lng": -73.548512
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7868555707625592,
+   "ppsf": 2.4725274725274726
+  },
+  {
+   "mls": "24160217",
+   "slug": "14-taylor-street-stamford-connecticut-24160217",
+   "address": {
+    "line": "14 Taylor Street",
+    "unit": "Unit 18",
+    "lineWithUnit": "14 Taylor Street Unit 18",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1100.0,
+   "price": 3100.0,
+   "date": "2026-04-15",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.047432,
+    "lng": -73.54861
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1601884492544734,
+   "ppsf": 2.8181818181818183
+  },
+  {
+   "mls": "24148039",
+   "slug": "105-harbor-drive-stamford-connecticut-24148039",
+   "address": {
+    "line": "105 Harbor Drive",
+    "unit": "Apt 107",
+    "lineWithUnit": "105 Harbor Drive Apt 107",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 1450.0,
+   "price": 4100.0,
+   "date": "2026-04-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.037318,
+    "lng": -73.530622
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0255266135429493,
+   "ppsf": 2.8275862068965516
   }
- }
+ ]
 }

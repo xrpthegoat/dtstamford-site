@@ -117,100 +117,141 @@
    "walk": 12
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "4-villaway-road-norwalk-connecticut-24150485",
-     "addr": "4 Villaway Road Unit Left Side",
-     "unit": "Unit Left Side",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 2226.0,
-     "price": 3300.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-01",
-     "ppsf": 1,
-     "mi": 0.29
-    },
-    {
-     "slug": "10-olmstead-place-norwalk-connecticut-24148627",
-     "addr": "10 Olmstead Place",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1254.0,
-     "price": 3750.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-03",
-     "ppsf": 3,
-     "mi": 0.59
-    },
-    {
-     "slug": "43-gregory-boulevard-norwalk-connecticut-24158542",
-     "addr": "43 Gregory Boulevard",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1279.0,
-     "price": 5000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-22",
-     "ppsf": 4,
-     "mi": 0.6
-    },
-    {
-     "slug": "33-macintosh-road-norwalk-connecticut-24182526",
-     "addr": "33 Macintosh Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 1.0,
-     "sqft": 1044.0,
-     "price": 3100.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-20",
-     "ppsf": 3,
-     "mi": 0.67
-    },
-    {
-     "slug": "285-east-avenue-norwalk-connecticut-24163035",
-     "addr": "285 East Avenue",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1488.0,
-     "price": 5200.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-09",
-     "ppsf": 3,
-     "mi": 0.73
-    },
-    {
-     "slug": "10-heron-road-norwalk-connecticut-24177530",
-     "addr": "10 Heron Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1938.0,
-     "price": 5000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 3,
-     "mi": 0.58
-    }
-   ],
-   "summary": {
-    "n": 5,
-    "low": 3100.0,
-    "high": 5200.0,
-    "median": 3750
+ "comps": [
+  {
+   "mls": "24150485",
+   "slug": "4-villaway-road-norwalk-connecticut-24150485",
+   "address": {
+    "line": "4 Villaway Road",
+    "unit": "Unit Left Side",
+    "lineWithUnit": "4 Villaway Road Unit Left Side",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06855"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 2226.0,
+   "price": 3300.0,
+   "date": "2026-05-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.10468,
+    "lng": -73.39872
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.46571175282527283,
+   "ppsf": 1.482479784366577
+  },
+  {
+   "mls": "24152514",
+   "slug": "38-gregory-boulevard-norwalk-connecticut-24152514",
+   "address": {
+    "line": "38 Gregory Boulevard",
+    "unit": null,
+    "lineWithUnit": "38 Gregory Boulevard",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06855"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 2611.0,
+   "price": 3600.0,
+   "date": "2026-05-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.099301,
+    "lng": -73.401006
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9665236663395703,
+   "ppsf": 1.3787820758330143
+  },
+  {
+   "mls": "24187751",
+   "slug": "1-island-drive-norwalk-connecticut-24187751",
+   "address": {
+    "line": "1 Island Drive",
+    "unit": "Unit 9",
+    "lineWithUnit": "1 Island Drive Unit 9",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06855"
+   },
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 2032.0,
+   "price": 8250.0,
+   "date": "2026-07-16",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.092459,
+    "lng": -73.39637
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.5063539539177924,
+   "ppsf": 4.06003937007874
+  },
+  {
+   "mls": "24189690",
+   "slug": "26-rowan-street-norwalk-connecticut-24189690",
+   "address": {
+    "line": "26 Rowan Street",
+    "unit": "Unit 1",
+    "lineWithUnit": "26 Rowan Street Unit 1",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06855"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 2015.0,
+   "price": 2200.0,
+   "date": "2026-07-29",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.102522,
+    "lng": -73.404938
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.0361478131513235,
+   "ppsf": 1.0918114143920596
+  },
+  {
+   "mls": "24188939",
+   "slug": "25-quintard-avenue-norwalk-connecticut-24188939",
+   "address": {
+    "line": "25 Quintard Avenue",
+    "unit": "Unit A",
+    "lineWithUnit": "25 Quintard Avenue Unit A",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 4.0,
+   "baths": 2.0,
+   "sqft": 2469.0,
+   "price": 4500.0,
+   "date": "2026-08-10",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.090248,
+    "lng": -73.414065
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.450280672874868,
+   "ppsf": 1.8226002430133657
   }
- }
+ ]
 }

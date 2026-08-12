@@ -134,101 +134,141 @@
    "mi": 1.78
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "149-club-road-stamford-connecticut-24176382",
-     "addr": "149 Club Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2616.0,
-     "price": 1230000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-08",
-     "ppsf": 470,
-     "mi": 0.27
-    },
-    {
-     "slug": "179-berrian-road-stamford-connecticut-24165726",
-     "addr": "179 Berrian Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 2.0,
-     "sqft": 2270.0,
-     "price": 1150000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-21",
-     "ppsf": 507,
-     "mi": 0.28
-    },
-    {
-     "slug": "78-vine-road-stamford-connecticut-24155070",
-     "addr": "78 Vine Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 2.0,
-     "sqft": 2183.0,
-     "price": 802500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-10",
-     "ppsf": 368,
-     "mi": 0.47
-    },
-    {
-     "slug": "50-hilltop-avenue-stamford-connecticut-24167108",
-     "addr": "50 Hilltop Avenue",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 2.0,
-     "sqft": 1771.0,
-     "price": 815000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-05",
-     "ppsf": 460,
-     "mi": 0.53
-    },
-    {
-     "slug": "2-arnold-drive-stamford-connecticut-24189104",
-     "addr": "2 Arnold Drive",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2476.0,
-     "price": 1272020.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-11",
-     "ppsf": 514,
-     "mi": 0.55
-    },
-    {
-     "slug": "1-megan-lane-stamford-connecticut-24153545",
-     "addr": "1 Megan Lane",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 4221.0,
-     "price": 1645000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-01",
-     "ppsf": 390,
-     "mi": 0.63
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 802500.0,
-    "high": 1645000.0,
-    "median": 1190000
+ "comps": [
+  {
+   "mls": "24155070",
+   "slug": "78-vine-road-stamford-connecticut-24155070",
+   "address": {
+    "line": "78 Vine Road",
+    "unit": null,
+    "lineWithUnit": "78 Vine Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 2.0,
+   "sqft": 2183.0,
+   "price": 802500.0,
+   "date": "2026-04-10",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.101778,
+    "lng": -73.544363
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7610002911294032,
+   "ppsf": 367.61337608795236
+  },
+  {
+   "mls": "24150706",
+   "slug": "156-intervale-road-stamford-connecticut-24150706",
+   "address": {
+    "line": "156 Intervale Road",
+    "unit": null,
+    "lineWithUnit": "156 Intervale Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 3.0,
+   "baths": 4.0,
+   "sqft": 2705.0,
+   "price": 1404000.0,
+   "date": "2026-04-29",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.107222,
+    "lng": -73.538672
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1717600328469402,
+   "ppsf": 519.0388170055453
+  },
+  {
+   "mls": "24164004",
+   "slug": "38-woods-end-road-stamford-connecticut-24164004",
+   "address": {
+    "line": "38 Woods End Road",
+    "unit": null,
+    "lineWithUnit": "38 Woods End Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2340.0,
+   "price": 875000.0,
+   "date": "2026-05-05",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.090976,
+    "lng": -73.546568
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9404229277183376,
+   "ppsf": 373.9316239316239
+  },
+  {
+   "mls": "24165726",
+   "slug": "179-berrian-road-stamford-connecticut-24165726",
+   "address": {
+    "line": "179 Berrian Road",
+    "unit": null,
+    "lineWithUnit": "179 Berrian Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 4.0,
+   "baths": 2.0,
+   "sqft": 2270.0,
+   "price": 1150000.0,
+   "date": "2026-05-21",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.09261,
+    "lng": -73.537728
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.45590932495622,
+   "ppsf": 506.6079295154185
+  },
+  {
+   "mls": "24176382",
+   "slug": "149-club-road-stamford-connecticut-24176382",
+   "address": {
+    "line": "149 Club Road",
+    "unit": null,
+    "lineWithUnit": "149 Club Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2616.0,
+   "price": 1230000.0,
+   "date": "2026-07-08",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.099688,
+    "lng": -73.534824
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.44241072874642656,
+   "ppsf": 470.1834862385321
   }
- }
+ ]
 }

@@ -119,101 +119,141 @@
    "walk": 3
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "5-isaacs-street-norwalk-connecticut-24181051",
-     "addr": "5 Isaacs Street Unit 3A",
-     "unit": "Unit 3A",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1050.0,
-     "price": 2495.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-22",
-     "ppsf": 2,
-     "mi": 0.03
-    },
-    {
-     "slug": "9-park-street-norwalk-connecticut-24183776",
-     "addr": "9 Park Street Unit 2L",
-     "unit": "Unit 2L",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 1056.0,
-     "price": 2500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-15",
-     "ppsf": 2,
-     "mi": 0.22
-    },
-    {
-     "slug": "104-east-avenue-norwalk-connecticut-24127829",
-     "addr": "104 East Avenue #2nd Floor",
-     "unit": "#2nd Floor",
-     "beds": 2.0,
-     "baths": 3.0,
-     "sqft": 1584.0,
-     "price": 2800.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-27",
-     "ppsf": 2,
-     "mi": 0.28
-    },
-    {
-     "slug": "4-daskams-lane-norwalk-connecticut-24169622",
-     "addr": "4 Daskams Lane Unit 309",
-     "unit": "Unit 309",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1344.0,
-     "price": 3400.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-20",
-     "ppsf": 3,
-     "mi": 0.31
-    },
-    {
-     "slug": "4-union-avenue-norwalk-connecticut-24175428",
-     "addr": "4 Union Avenue Unit 8",
-     "unit": "Unit 8",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 992.0,
-     "price": 2500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-29",
-     "ppsf": 3,
-     "mi": 0.47
-    },
-    {
-     "slug": "133-main-street-norwalk-connecticut-24145295",
-     "addr": "133 Main Street Apt 7",
-     "unit": "Apt 7",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 876.0,
-     "price": 2715.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-02",
-     "ppsf": 3,
-     "mi": 0.47
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 2495.0,
-    "high": 3400.0,
-    "median": 2608
+ "comps": [
+  {
+   "mls": "24145295",
+   "slug": "133-main-street-norwalk-connecticut-24145295",
+   "address": {
+    "line": "133 Main Street",
+    "unit": "Apt 7",
+    "lineWithUnit": "133 Main Street Apt 7",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 876.0,
+   "price": 2715.0,
+   "date": "2026-04-02",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.123881,
+    "lng": -73.416284
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7541903152232248,
+   "ppsf": 3.0993150684931505
+  },
+  {
+   "mls": "24161814",
+   "slug": "15-arch-street-norwalk-connecticut-24161814",
+   "address": {
+    "line": "15 Arch Street",
+    "unit": "Unit C1",
+    "lineWithUnit": "15 Arch Street Unit C1",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 750.0,
+   "price": 2195.0,
+   "date": "2026-04-22",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.112892,
+    "lng": -73.41817
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7182035212210903,
+   "ppsf": 2.9266666666666667
+  },
+  {
+   "mls": "24151349",
+   "slug": "norwalk-connecticut-24151349",
+   "address": {
+    "line": null,
+    "unit": null,
+    "lineWithUnit": null,
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1200.0,
+   "price": 3600.0,
+   "date": "2026-04-28",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.115313,
+    "lng": -73.424047
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0047569423091025,
+   "ppsf": 3.0
+  },
+  {
+   "mls": "24156022",
+   "slug": "9-park-street-norwalk-connecticut-24156022",
+   "address": {
+    "line": "9 Park Street",
+    "unit": "Unit 4C",
+    "lineWithUnit": "9 Park Street Unit 4C",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 768.0,
+   "price": 2175.0,
+   "date": "2026-05-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.119668,
+    "lng": -73.409067
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.3586894748484698,
+   "ppsf": 2.83203125
+  },
+  {
+   "mls": "24162746",
+   "slug": "1-daskams-lane-norwalk-connecticut-24162746",
+   "address": {
+    "line": "1 Daskams Lane",
+    "unit": "Unit 1B",
+    "lineWithUnit": "1 Daskams Lane Unit 1B",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 800.0,
+   "price": 2250.0,
+   "date": "2026-05-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.11364,
+    "lng": -73.40819
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5801645286330378,
+   "ppsf": 2.8125
   }
- }
+ ]
 }

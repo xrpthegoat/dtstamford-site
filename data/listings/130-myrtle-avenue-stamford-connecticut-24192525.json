@@ -130,101 +130,141 @@
    "mi": 0.6
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "850-east-main-street-stamford-connecticut-24181673",
-     "addr": "850 East Main Street Unit 430",
-     "unit": "Unit 430",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1080.0,
-     "price": 3000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-29",
-     "ppsf": 3,
-     "mi": 0.29
-    },
-    {
-     "slug": "850-east-main-street-stamford-connecticut-24181014",
-     "addr": "850 East Main Street Unit 412",
-     "unit": "Unit 412",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1080.0,
-     "price": 3050.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-08",
-     "ppsf": 3,
-     "mi": 0.29
-    },
-    {
-     "slug": "850-east-main-street-stamford-connecticut-24148116",
-     "addr": "850 East Main Street Apt 420",
-     "unit": "Apt 420",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1073.0,
-     "price": 2800.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-13",
-     "ppsf": 3,
-     "mi": 0.29
-    },
-    {
-     "slug": "160-elm-street-greenwich-connecticut-24166239",
-     "addr": "160 Elm Street Unit C3",
-     "unit": "Unit C3",
-     "beds": 2.0,
-     "baths": 3.0,
-     "sqft": 1400.0,
-     "price": 4985.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-18",
-     "ppsf": 4,
-     "mi": 0.33
-    },
-    {
-     "slug": "39-glenbrook-road-stamford-connecticut-24171868",
-     "addr": "39 Glenbrook Road Unit 4M",
-     "unit": "Unit 4M",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 1072.0,
-     "price": 2600.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-27",
-     "ppsf": 2,
-     "mi": 0.36
-    },
-    {
-     "slug": "235-cove-road-stamford-connecticut-24173944",
-     "addr": "235 Cove Road Unit 1",
-     "unit": "Unit 1",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1062.0,
-     "price": 2619.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-05",
-     "ppsf": 2,
-     "mi": 0.36
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 2600.0,
-    "high": 4985.0,
-    "median": 2900
+ "comps": [
+  {
+   "mls": "24148070",
+   "slug": "101-grove-street-stamford-connecticut-24148070",
+   "address": {
+    "line": "101 Grove Street",
+    "unit": "Apt 17",
+    "lineWithUnit": "101 Grove Street Apt 17",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06901"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 1475.0,
+   "price": 3500.0,
+   "date": "2026-03-19",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.05745,
+    "lng": -73.53367
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8930622442169317,
+   "ppsf": 2.3728813559322033
+  },
+  {
+   "mls": "24153723",
+   "slug": "109-forest-street-stamford-connecticut-24153723",
+   "address": {
+    "line": "109 Forest Street",
+    "unit": "Apt 3",
+    "lineWithUnit": "109 Forest Street Apt 3",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06901"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1695.0,
+   "price": 4500.0,
+   "date": "2026-03-31",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.05626,
+    "lng": -73.532936
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7573161414824565,
+   "ppsf": 2.6548672566371683
+  },
+  {
+   "mls": "24148116",
+   "slug": "850-east-main-street-stamford-connecticut-24148116",
+   "address": {
+    "line": "850 East Main Street",
+    "unit": "Apt 420",
+    "lineWithUnit": "850 East Main Street Apt 420",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1073.0,
+   "price": 2800.0,
+   "date": "2026-04-13",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.05591,
+    "lng": -73.52668
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.465574419810436,
+   "ppsf": 2.60950605778192
+  },
+  {
+   "mls": "24146915",
+   "slug": "143-hoyt-street-stamford-connecticut-24146915",
+   "address": {
+    "line": "143 Hoyt Street",
+    "unit": "Unit 5L",
+    "lineWithUnit": "143 Hoyt Street Unit 5L",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1732.0,
+   "price": 3600.0,
+   "date": "2026-04-26",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.060379,
+    "lng": -73.534578
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1910573831534979,
+   "ppsf": 2.0785219399538106
+  },
+  {
+   "mls": "24158511",
+   "slug": "109-forest-street-stamford-connecticut-24158511",
+   "address": {
+    "line": "109 Forest Street",
+    "unit": "Unit 10",
+    "lineWithUnit": "109 Forest Street Unit 10",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06901"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1650.0,
+   "price": 4300.0,
+   "date": "2026-05-26",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.056232,
+    "lng": -73.53293
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7548762475189661,
+   "ppsf": 2.606060606060606
   }
- }
+ ]
 }

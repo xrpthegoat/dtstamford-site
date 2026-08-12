@@ -105,101 +105,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "19-whitney-street-westport-connecticut-24179563",
-     "addr": "19 Whitney Street",
-     "unit": "",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1400.0,
-     "price": 3800.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-17",
-     "ppsf": 3,
-     "mi": 0.07
-    },
-    {
-     "slug": "30-crescent-park-road-westport-connecticut-24174719",
-     "addr": "30 Crescent Park Road",
-     "unit": "",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 960.0,
-     "price": 3500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-13",
-     "ppsf": 4,
-     "mi": 0.15
-    },
-    {
-     "slug": "5-church-lane-westport-connecticut-24182260",
-     "addr": "5 Church Lane Unit 310",
-     "unit": "Unit 310",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1220.0,
-     "price": 6995.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-28",
-     "ppsf": 6,
-     "mi": 0.6
-    },
-    {
-     "slug": "7-colony-road-westport-connecticut-24182426",
-     "addr": "7 Colony Road Unit A",
-     "unit": "Unit A",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 1412.0,
-     "price": 4700.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-05",
-     "ppsf": 3,
-     "mi": 0.64
-    },
-    {
-     "slug": "201-main-street-westport-connecticut-24138891",
-     "addr": "201 Main Street Unit 203",
-     "unit": "Unit 203",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 830.0,
-     "price": 4500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-03",
-     "ppsf": 5,
-     "mi": 0.67
-    },
-    {
-     "slug": "201-main-street-westport-connecticut-24179108",
-     "addr": "201 Main Street Unit 302",
-     "unit": "Unit 302",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 850.0,
-     "price": 4800.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-11",
-     "ppsf": 6,
-     "mi": 0.68
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 3500.0,
-    "high": 6995.0,
-    "median": 4600
+ "comps": [
+  {
+   "mls": "24182260",
+   "slug": "5-church-lane-westport-connecticut-24182260",
+   "address": {
+    "line": "5 Church Lane",
+    "unit": "Unit 310",
+    "lineWithUnit": "5 Church Lane Unit 310",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1220.0,
+   "price": 6995.0,
+   "date": "2026-04-28",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.1423,
+    "lng": -73.36077
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9605449764241154,
+   "ppsf": 5.733606557377049
+  },
+  {
+   "mls": "24174719",
+   "slug": "30-crescent-park-road-westport-connecticut-24174719",
+   "address": {
+    "line": "30 Crescent Park Road",
+    "unit": null,
+    "lineWithUnit": "30 Crescent Park Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 960.0,
+   "price": 3500.0,
+   "date": "2026-07-13",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.141382,
+    "lng": -73.346636
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.2409115167660524,
+   "ppsf": 3.6458333333333335
+  },
+  {
+   "mls": "24179563",
+   "slug": "19-whitney-street-westport-connecticut-24179563",
+   "address": {
+    "line": "19 Whitney Street",
+    "unit": null,
+    "lineWithUnit": "19 Whitney Street",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1400.0,
+   "price": 3800.0,
+   "date": "2026-06-17",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.143182,
+    "lng": -73.348947
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.1131236761806525,
+   "ppsf": 2.7142857142857144
+  },
+  {
+   "mls": "24182426",
+   "slug": "7-colony-road-westport-connecticut-24182426",
+   "address": {
+    "line": "7 Colony Road",
+    "unit": "Unit A",
+    "lineWithUnit": "7 Colony Road Unit A",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 1412.0,
+   "price": 4700.0,
+   "date": "2026-08-05",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.14391,
+    "lng": -73.33712
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0374951790170388,
+   "ppsf": 3.328611898016997
+  },
+  {
+   "mls": "24186243",
+   "slug": "34-crescent-road-westport-connecticut-24186243",
+   "address": {
+    "line": "34 Crescent Road",
+    "unit": null,
+    "lineWithUnit": "34 Crescent Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1326.0,
+   "price": 5400.0,
+   "date": "2026-07-28",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.140214,
+    "lng": -73.343282
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5502082873665125,
+   "ppsf": 4.072398190045249
   }
- }
+ ]
 }

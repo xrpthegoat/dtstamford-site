@@ -117,100 +117,141 @@
    "walk": 11
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "2-roland-drive-darien-connecticut-24165314",
-     "addr": "2 Roland Drive",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 5.0,
-     "sqft": 5678.0,
-     "price": 4200000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-07",
-     "ppsf": 740,
-     "mi": 0.36
-    },
-    {
-     "slug": "43-stony-brook-road-darien-connecticut-24161606",
-     "addr": "43 Stony Brook Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 7.0,
-     "sqft": 7200.0,
-     "price": 3775000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-17",
-     "ppsf": 524,
-     "mi": 0.38
-    },
-    {
-     "slug": "8-sunset-road-darien-connecticut-24178118",
-     "addr": "8 Sunset Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 5.0,
-     "sqft": 4840.0,
-     "price": 3925000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-16",
-     "ppsf": 811,
-     "mi": 0.39
-    },
-    {
-     "slug": "21-fox-hill-lane-darien-connecticut-24161616",
-     "addr": "21 Fox Hill Lane",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 7.0,
-     "sqft": 6308.0,
-     "price": 4597500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-29",
-     "ppsf": 729,
-     "mi": 0.49
-    },
-    {
-     "slug": "16-overbrook-lane-darien-connecticut-24183935",
-     "addr": "16 Overbrook Lane",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 5.0,
-     "sqft": 5166.0,
-     "price": 4000000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-29",
-     "ppsf": 774,
-     "mi": 0.5
-    },
-    {
-     "slug": "28-royle-road-darien-connecticut-24188627",
-     "addr": "28 Royle Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 4.0,
-     "sqft": 3829.0,
-     "price": 3295000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 861,
-     "mi": 0.19
-    }
-   ],
-   "summary": {
-    "n": 5,
-    "low": 3775000.0,
-    "high": 4597500.0,
-    "median": 4000000
+ "comps": [
+  {
+   "mls": "24160428",
+   "slug": "12-sunset-road-darien-connecticut-24160428",
+   "address": {
+    "line": "12 Sunset Road",
+    "unit": null,
+    "lineWithUnit": "12 Sunset Road",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 5.0,
+   "sqft": 4306.0,
+   "price": 3912000.0,
+   "date": "2026-06-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.086144,
+    "lng": -73.470673
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6784177130694233,
+   "ppsf": 908.499767765908
+  },
+  {
+   "mls": "24161616",
+   "slug": "21-fox-hill-lane-darien-connecticut-24161616",
+   "address": {
+    "line": "21 Fox Hill Lane",
+    "unit": null,
+    "lineWithUnit": "21 Fox Hill Lane",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 5.0,
+   "baths": 7.0,
+   "sqft": 6308.0,
+   "price": 4597500.0,
+   "date": "2026-06-29",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.091329,
+    "lng": -73.482236
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7948877800506222,
+   "ppsf": 728.8363982244769
+  },
+  {
+   "mls": "24174660",
+   "slug": "6-old-parish-road-darien-connecticut-24174660",
+   "address": {
+    "line": "6 Old Parish Road",
+    "unit": null,
+    "lineWithUnit": "6 Old Parish Road",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 4.0,
+   "baths": 5.0,
+   "sqft": 4825.0,
+   "price": 3550000.0,
+   "date": "2026-06-12",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.079616,
+    "lng": -73.485615
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8218456851036666,
+   "ppsf": 735.7512953367876
+  },
+  {
+   "mls": "24157701",
+   "slug": "26-holly-lane-darien-connecticut-24157701",
+   "address": {
+    "line": "26 Holly Lane",
+    "unit": null,
+    "lineWithUnit": "26 Holly Lane",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 4260.0,
+   "price": 2500000.0,
+   "date": "2026-05-08",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.08188,
+    "lng": -73.489926
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.005093003481195,
+   "ppsf": 586.8544600938967
+  },
+  {
+   "mls": "24165314",
+   "slug": "2-roland-drive-darien-connecticut-24165314",
+   "address": {
+    "line": "2 Roland Drive",
+    "unit": null,
+    "lineWithUnit": "2 Roland Drive",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 5.0,
+   "baths": 5.0,
+   "sqft": 5678.0,
+   "price": 4200000.0,
+   "date": "2026-08-07",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.083815,
+    "lng": -73.471793
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5757076878558848,
+   "ppsf": 739.6970764353646
   }
- }
+ ]
 }

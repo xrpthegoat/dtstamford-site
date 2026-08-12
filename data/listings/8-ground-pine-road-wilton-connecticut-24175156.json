@@ -130,31 +130,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "279-cheesespring-road-wilton-connecticut-24172360",
-     "addr": "279 Cheesespring Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1899.0,
-     "price": 1100000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-15",
-     "ppsf": 579,
-     "mi": 0.66
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 1100000.0,
-    "high": 1100000.0,
-    "median": 1100000
+ "comps": [
+  {
+   "mls": "24172360",
+   "slug": "279-cheesespring-road-wilton-connecticut-24172360",
+   "address": {
+    "line": "279 Cheesespring Road",
+    "unit": null,
+    "lineWithUnit": "279 Cheesespring Road",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1899.0,
+   "price": 1100000.0,
+   "date": "2026-07-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.198862,
+    "lng": -73.475149
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0541553702727997,
+   "ppsf": 579.2522380200105
+  },
+  {
+   "mls": "24152011",
+   "slug": "126-heather-lane-wilton-connecticut-24152011",
+   "address": {
+    "line": "126 Heather Lane",
+    "unit": null,
+    "lineWithUnit": "126 Heather Lane",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1844.0,
+   "price": 875000.0,
+   "date": "2026-03-16",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.179882,
+    "lng": -73.39714
+   },
+   "klass": "house",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 7.0757154590396265,
+   "ppsf": 474.5119305856833
+  },
+  {
+   "mls": "24155941",
+   "slug": "221-catalpa-road-wilton-connecticut-24155941",
+   "address": {
+    "line": "221 Catalpa Road",
+    "unit": null,
+    "lineWithUnit": "221 Catalpa Road",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2520.0,
+   "price": 1310000.0,
+   "date": "2026-06-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.214138,
+    "lng": -73.443744
+   },
+   "klass": "house",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 2.5253109766313844,
+   "ppsf": 519.8412698412699
+  },
+  {
+   "mls": "24165402",
+   "slug": "35-orchard-drive-wilton-connecticut-24165402",
+   "address": {
+    "line": "35 Orchard Drive",
+    "unit": null,
+    "lineWithUnit": "35 Orchard Drive",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1853.0,
+   "price": 951000.0,
+   "date": "2026-06-11",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.214839,
+    "lng": -73.40191
+   },
+   "klass": "house",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 5.982376028250056,
+   "ppsf": 513.2218024824609
+  },
+  {
+   "mls": "24169186",
+   "slug": "61-range-road-wilton-connecticut-24169186",
+   "address": {
+    "line": "61 Range Road",
+    "unit": null,
+    "lineWithUnit": "61 Range Road",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2400.0,
+   "price": 1270000.0,
+   "date": "2026-06-17",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.176938,
+    "lng": -73.426199
+   },
+   "klass": "house",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 5.2277386151307255,
+   "ppsf": 529.1666666666666
   }
- }
+ ]
 }

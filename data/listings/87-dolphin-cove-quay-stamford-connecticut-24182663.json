@@ -129,72 +129,141 @@
    "mi": 1.33
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "81-dolphin-cove-quay-stamford-connecticut-24176672",
-     "addr": "81 Dolphin Cove Quay",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 3273.0,
-     "price": 16000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-09",
-     "ppsf": 5,
-     "mi": 0.01
-    },
-    {
-     "slug": "44-davenport-drive-stamford-connecticut-24168214",
-     "addr": "44 Davenport Drive",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 3301.0,
-     "price": 9800.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-30",
-     "ppsf": 3,
-     "mi": 0.26
-    },
-    {
-     "slug": "80-tomac-avenue-greenwich-connecticut-24165600",
-     "addr": "80 Tomac Avenue",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2376.0,
-     "price": 11000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-14",
-     "ppsf": 5,
-     "mi": 0.71
-    },
-    {
-     "slug": "187-dolphin-cove-quay-stamford-connecticut-24170061",
-     "addr": "187 Dolphin Cove Quay",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 2510.0,
-     "price": 12000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 5,
-     "mi": 0.21
-    }
-   ],
-   "summary": {
-    "n": 3,
-    "low": 9800.0,
-    "high": 16000.0,
-    "median": 11000
+ "comps": [
+  {
+   "mls": "24184968",
+   "slug": "94-southfield-avenue-stamford-connecticut-24184968",
+   "address": {
+    "line": "94 Southfield Avenue",
+    "unit": "Unit 802",
+    "lineWithUnit": "94 Southfield Avenue Unit 802",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 1632.0,
+   "price": 5250.0,
+   "date": "2026-08-03",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.037357,
+    "lng": -73.545941
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9917015200605326,
+   "ppsf": 3.2169117647058822
+  },
+  {
+   "mls": "24188904",
+   "slug": "16-burwood-avenue-stamford-connecticut-24188904",
+   "address": {
+    "line": "16 Burwood Avenue",
+    "unit": "Unit 2",
+    "lineWithUnit": "16 Burwood Avenue Unit 2",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1653.0,
+   "price": 3999.0,
+   "date": "2026-08-06",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.03245,
+    "lng": -73.55301
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6407374234207937,
+   "ppsf": 2.4192377495462796
+  },
+  {
+   "mls": "24157364",
+   "slug": "85-burwood-avenue-stamford-connecticut-24157364",
+   "address": {
+    "line": "85 Burwood Avenue",
+    "unit": "Unit Back",
+    "lineWithUnit": "85 Burwood Avenue Unit Back",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 2408.0,
+   "price": 3460.0,
+   "date": "2026-05-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.032005,
+    "lng": -73.549978
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.44327853545551305,
+   "ppsf": 1.43687707641196
+  },
+  {
+   "mls": "24183135",
+   "slug": "92-burwood-avenue-stamford-connecticut-24183135",
+   "address": {
+    "line": "92 Burwood Avenue",
+    "unit": "Unit 2",
+    "lineWithUnit": "92 Burwood Avenue Unit 2",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1800.0,
+   "price": 4300.0,
+   "date": "2026-06-24",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.032445,
+    "lng": -73.549535
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.47164726454701456,
+   "ppsf": 2.388888888888889
+  },
+  {
+   "mls": "24155229",
+   "slug": "59-liberty-street-stamford-connecticut-24155229",
+   "address": {
+    "line": "59 Liberty Street",
+    "unit": "Apt 21",
+    "lineWithUnit": "59 Liberty Street Apt 21",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1582.0,
+   "price": 3300.0,
+   "date": "2026-03-13",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.050089,
+    "lng": -73.553525
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.4532181468105367,
+   "ppsf": 2.0859671302149176
   }
- }
+ ]
 }

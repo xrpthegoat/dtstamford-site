@@ -139,109 +139,141 @@
    "mi": 1.04
   }
  },
- "comps": {
-  "building": {
-   "rows": [
-    {
-     "slug": "81-wolfpit-avenue-norwalk-connecticut-24174687",
-     "addr": "81 Wolfpit Avenue Unit B3",
-     "unit": "Unit B3",
-     "beds": 2.0,
-     "baths": 3.0,
-     "sqft": 1218.0,
-     "price": 530000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-15",
-     "ppsf": 435
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 530000.0,
-    "high": 530000.0,
-    "median": 530000
+ "comps": [
+  {
+   "mls": "24174687",
+   "slug": "81-wolfpit-avenue-norwalk-connecticut-24174687",
+   "address": {
+    "line": "81 Wolfpit Avenue",
+    "unit": "Unit B3",
+    "lineWithUnit": "81 Wolfpit Avenue Unit B3",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
    },
-   "label": "81 Wolfpit Avenue"
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 1218.0,
+   "price": 530000.0,
+   "date": "2026-07-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.12941,
+    "lng": -73.39151
+   },
+   "klass": "condo",
+   "tier": 1,
+   "why": "Same building, sold in the last year",
+   "km": 0.00025126468378890485,
+   "ppsf": 435.1395730706075
   },
-  "area": {
-   "rows": [
-    {
-     "slug": "60-wolfpit-avenue-norwalk-connecticut-24172638",
-     "addr": "60 Wolfpit Avenue Unit 1B",
-     "unit": "Unit 1B",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1056.0,
-     "price": 355000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-04",
-     "ppsf": 336,
-     "mi": 0.14
-    },
-    {
-     "slug": "12-willard-road-norwalk-connecticut-24155785",
-     "addr": "12 Willard Road Unit 8",
-     "unit": "Unit 8",
-     "beds": 2.0,
-     "baths": 3.0,
-     "sqft": 1710.0,
-     "price": 625000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-27",
-     "ppsf": 365,
-     "mi": 0.17
-    },
-    {
-     "slug": "80-county-street-norwalk-connecticut-24183383",
-     "addr": "80 County Street Unit 12D",
-     "unit": "Unit 12D",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1058.0,
-     "price": 390000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-23",
-     "ppsf": 369,
-     "mi": 0.39
-    },
-    {
-     "slug": "100-wolfpit-avenue-norwalk-connecticut-24183512",
-     "addr": "100 Wolfpit Avenue Unit 14",
-     "unit": "Unit 14",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1440.0,
-     "price": 499000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 347,
-     "mi": 0.09
-    },
-    {
-     "slug": "80-county-street-norwalk-connecticut-24196939",
-     "addr": "80 County Street Unit 7B",
-     "unit": "Unit 7B",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 990.0,
-     "price": 385000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 389,
-     "mi": 0.39
-    }
-   ],
-   "summary": {
-    "n": 3,
-    "low": 355000.0,
-    "high": 625000.0,
-    "median": 390000
+  {
+   "mls": "24169489",
+   "slug": "80-county-street-norwalk-connecticut-24169489",
+   "address": {
+    "line": "80 County Street",
+    "unit": "Unit 8A",
+    "lineWithUnit": "80 County Street Unit 8A",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1320.0,
+   "price": 445000.0,
+   "date": "2026-07-09",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.125286,
+    "lng": -73.38696
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5964149639174975,
+   "ppsf": 337.1212121212121
+  },
+  {
+   "mls": "24172638",
+   "slug": "60-wolfpit-avenue-norwalk-connecticut-24172638",
+   "address": {
+    "line": "60 Wolfpit Avenue",
+    "unit": "Unit 1B",
+    "lineWithUnit": "60 Wolfpit Avenue Unit 1B",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1056.0,
+   "price": 355000.0,
+   "date": "2026-06-04",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.127385,
+    "lng": -73.392229
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.23301875079590442,
+   "ppsf": 336.17424242424244
+  },
+  {
+   "mls": "24183383",
+   "slug": "80-county-street-norwalk-connecticut-24183383",
+   "address": {
+    "line": "80 County Street",
+    "unit": "Unit 12D",
+    "lineWithUnit": "80 County Street Unit 12D",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1058.0,
+   "price": 390000.0,
+   "date": "2026-07-23",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.124718,
+    "lng": -73.387428
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6239117978812853,
+   "ppsf": 368.62003780718334
+  },
+  {
+   "mls": "24165295",
+   "slug": "3-hills-lane-norwalk-connecticut-24165295",
+   "address": {
+    "line": "3 Hills Lane",
+    "unit": "Unit 3",
+    "lineWithUnit": "3 Hills Lane Unit 3",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1386.0,
+   "price": 525000.0,
+   "date": "2026-05-29",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.132659,
+    "lng": -73.383087
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7928000781849681,
+   "ppsf": 378.7878787878788
   }
- }
+ ]
 }

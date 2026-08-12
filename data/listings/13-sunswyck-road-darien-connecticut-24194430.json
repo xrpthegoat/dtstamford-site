@@ -140,72 +140,141 @@
    "mi": 1.16
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "15-queens-lane-darien-connecticut-24162662",
-     "addr": "15 Queens Lane",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 5.0,
-     "sqft": 3512.0,
-     "price": 3450000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-15",
-     "ppsf": 982,
-     "mi": 0.52
-    },
-    {
-     "slug": "76-arrowhead-way-darien-connecticut-24081666",
-     "addr": "76 Arrowhead Way",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 8.0,
-     "sqft": 7941.0,
-     "price": 7200000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-18",
-     "ppsf": 907,
-     "mi": 0.59
-    },
-    {
-     "slug": "44-andrews-drive-darien-connecticut-24157816",
-     "addr": "44 Andrews Drive",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 6.0,
-     "sqft": 6517.0,
-     "price": 4350000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-04",
-     "ppsf": 667,
-     "mi": 0.72
-    },
-    {
-     "slug": "82-arrowhead-way-darien-connecticut-24180009",
-     "addr": "82 Arrowhead Way",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 6.0,
-     "sqft": 5823.0,
-     "price": 8650000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 1485,
-     "mi": 0.61
-    }
-   ],
-   "summary": {
-    "n": 3,
-    "low": 3450000.0,
-    "high": 7200000.0,
-    "median": 4350000
+ "comps": [
+  {
+   "mls": "24157276",
+   "slug": "7-raiders-lane-darien-connecticut-24157276",
+   "address": {
+    "line": "7 Raiders Lane",
+    "unit": null,
+    "lineWithUnit": "7 Raiders Lane",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 4662.0,
+   "price": 3800000.0,
+   "date": "2026-06-22",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.062927,
+    "lng": -73.470052
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.45363893339832534,
+   "ppsf": 815.1008151008151
+  },
+  {
+   "mls": "24167667",
+   "slug": "8-pasture-lane-darien-connecticut-24167667",
+   "address": {
+    "line": "8 Pasture Lane",
+    "unit": null,
+    "lineWithUnit": "8 Pasture Lane",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 6.0,
+   "baths": 6.0,
+   "sqft": 5505.0,
+   "price": 4300000.0,
+   "date": "2026-06-16",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.057255,
+    "lng": -73.486521
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.066186235650987,
+   "ppsf": 781.1080835603997
+  },
+  {
+   "mls": "24157816",
+   "slug": "44-andrews-drive-darien-connecticut-24157816",
+   "address": {
+    "line": "44 Andrews Drive",
+    "unit": null,
+    "lineWithUnit": "44 Andrews Drive",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 5.0,
+   "baths": 6.0,
+   "sqft": 6517.0,
+   "price": 4350000.0,
+   "date": "2026-05-04",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.070309,
+    "lng": -73.468803
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.154400523389469,
+   "ppsf": 667.4850391284333
+  },
+  {
+   "mls": "24081666",
+   "slug": "76-arrowhead-way-darien-connecticut-24081666",
+   "address": {
+    "line": "76 Arrowhead Way",
+    "unit": null,
+    "lineWithUnit": "76 Arrowhead Way",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 5.0,
+   "baths": 8.0,
+   "sqft": 7941.0,
+   "price": 7200000.0,
+   "date": "2026-05-18",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.062156,
+    "lng": -73.463541
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 0.9526961272491822,
+   "ppsf": 906.6868152625614
+  },
+  {
+   "mls": "24115997",
+   "slug": "17-contentment-island-road-darien-connecticut-24115997",
+   "address": {
+    "line": "17 Contentment Island Road",
+    "unit": null,
+    "lineWithUnit": "17 Contentment Island Road",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 6.0,
+   "baths": 5.0,
+   "sqft": 7174.0,
+   "price": 9420000.0,
+   "date": "2026-03-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.058152,
+    "lng": -73.45404
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.7678266555689237,
+   "ppsf": 1313.0749930303875
   }
- }
+ ]
 }

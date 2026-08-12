@@ -125,57 +125,141 @@
    "mi": 1.2
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "67-osborne-avenue-norwalk-connecticut-24154154",
-     "addr": "67 Osborne Avenue",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 2.0,
-     "sqft": 1500.0,
-     "price": 4000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-01",
-     "ppsf": 3,
-     "mi": 0.56
-    },
-    {
-     "slug": "2-third-street-norwalk-connecticut-24180199",
-     "addr": "2 Third Street Unit 1",
-     "unit": "Unit 1",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 1750.0,
-     "price": 5500.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 3,
-     "mi": 0.22
-    },
-    {
-     "slug": "21-victory-court-norwalk-connecticut-24193436",
-     "addr": "21 Victory Court",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 2.0,
-     "sqft": 1989.0,
-     "price": 4500.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 2,
-     "mi": 0.74
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 4000.0,
-    "high": 4000.0,
-    "median": 4000
+ "comps": [
+  {
+   "mls": "24150485",
+   "slug": "4-villaway-road-norwalk-connecticut-24150485",
+   "address": {
+    "line": "4 Villaway Road",
+    "unit": "Unit Left Side",
+    "lineWithUnit": "4 Villaway Road Unit Left Side",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06855"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 2226.0,
+   "price": 3300.0,
+   "date": "2026-05-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.10468,
+    "lng": -73.39872
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6280762984974679,
+   "ppsf": 1.482479784366577
+  },
+  {
+   "mls": "24162228",
+   "slug": "3-wallace-avenue-norwalk-connecticut-24162228",
+   "address": {
+    "line": "3 Wallace Avenue",
+    "unit": null,
+    "lineWithUnit": "3 Wallace Avenue",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06855"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1938.0,
+   "price": 7250.0,
+   "date": "2026-04-07",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.092426,
+    "lng": -73.39908
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8149185416454706,
+   "ppsf": 3.740970072239422
+  },
+  {
+   "mls": "24155362",
+   "slug": "25-channel-avenue-norwalk-connecticut-24155362",
+   "address": {
+    "line": "25 Channel Avenue",
+    "unit": null,
+    "lineWithUnit": "25 Channel Avenue",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 2994.0,
+   "price": 20000.0,
+   "date": "2026-03-26",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.082005,
+    "lng": -73.41098
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.094692119680064,
+   "ppsf": 6.680026720106881
+  },
+  {
+   "mls": "24158394",
+   "slug": "43-brooklawn-avenue-norwalk-connecticut-24158394",
+   "address": {
+    "line": "43 Brooklawn Avenue",
+    "unit": null,
+    "lineWithUnit": "43 Brooklawn Avenue",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 5.0,
+   "baths": 3.0,
+   "sqft": 2334.0,
+   "price": 4200.0,
+   "date": "2026-04-02",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.103381,
+    "lng": -73.422732
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.816678878103652,
+   "ppsf": 1.7994858611825193
+  },
+  {
+   "mls": "24167872",
+   "slug": "8-quintard-avenue-norwalk-connecticut-24167872",
+   "address": {
+    "line": "8 Quintard Avenue",
+    "unit": null,
+    "lineWithUnit": "8 Quintard Avenue",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1685.0,
+   "price": 4000.0,
+   "date": "2026-04-27",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.091474,
+    "lng": -73.414328
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.3851061606196786,
+   "ppsf": 2.373887240356083
   }
- }
+ ]
 }

@@ -131,45 +131,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "204-parade-hill-road-new-canaan-connecticut-24134964",
-     "addr": "204 Parade Hill Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 5.0,
-     "sqft": 3260.0,
-     "price": 2450000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-23",
-     "ppsf": 752,
-     "mi": 0.68
-    },
-    {
-     "slug": "94-glen-drive-new-canaan-connecticut-24153070",
-     "addr": "94 Glen Drive",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 3086.0,
-     "price": 2305000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-30",
-     "ppsf": 747,
-     "mi": 0.68
-    }
-   ],
-   "summary": {
-    "n": 2,
-    "low": 2305000.0,
-    "high": 2450000.0,
-    "median": 2377500
+ "comps": [
+  {
+   "mls": "24153851",
+   "slug": "32-west-road-new-canaan-connecticut-24153851",
+   "address": {
+    "line": "32 West Road",
+    "unit": null,
+    "lineWithUnit": "32 West Road",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
    },
-   "radiusMi": 0.75
+   "beds": 5.0,
+   "baths": 6.0,
+   "sqft": 5679.0,
+   "price": 4362500.0,
+   "date": "2026-04-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.159083,
+    "lng": -73.506678
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6401184640369951,
+   "ppsf": 768.1810177848213
+  },
+  {
+   "mls": "24166322",
+   "slug": "2-sleepy-hollow-road-new-canaan-connecticut-24166322",
+   "address": {
+    "line": "2 Sleepy Hollow Road",
+    "unit": null,
+    "lineWithUnit": "2 Sleepy Hollow Road",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 5.0,
+   "baths": 3.0,
+   "sqft": 5658.0,
+   "price": 2400000.0,
+   "date": "2026-06-29",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.173093,
+    "lng": -73.48828
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.0079706159576545,
+   "ppsf": 424.1781548250265
+  },
+  {
+   "mls": "24169658",
+   "slug": "3-holmewood-lane-new-canaan-connecticut-24169658",
+   "address": {
+    "line": "3 Holmewood Lane",
+    "unit": null,
+    "lineWithUnit": "3 Holmewood Lane",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 4.0,
+   "baths": 5.0,
+   "sqft": 3742.0,
+   "price": 2413250.0,
+   "date": "2026-06-26",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.15533,
+    "lng": -73.4983
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.3751734290226794,
+   "ppsf": 644.9091394975949
+  },
+  {
+   "mls": "24130047",
+   "slug": "104-ramhorne-road-new-canaan-connecticut-24130047",
+   "address": {
+    "line": "104 Ramhorne Road",
+    "unit": null,
+    "lineWithUnit": "104 Ramhorne Road",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 4.0,
+   "baths": 6.0,
+   "sqft": 3985.0,
+   "price": 2595000.0,
+   "date": "2026-03-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.166293,
+    "lng": -73.533808
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.056487443075878,
+   "ppsf": 651.1919698870765
+  },
+  {
+   "mls": "24140410",
+   "slug": "42-sturbridge-hill-road-new-canaan-connecticut-24140410",
+   "address": {
+    "line": "42 Sturbridge Hill Road",
+    "unit": null,
+    "lineWithUnit": "42 Sturbridge Hill Road",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 6.0,
+   "baths": 5.0,
+   "sqft": 4085.0,
+   "price": 2275000.0,
+   "date": "2026-04-10",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.157172,
+    "lng": -73.481572
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.463893341819226,
+   "ppsf": 556.9155446756426
   }
- }
+ ]
 }

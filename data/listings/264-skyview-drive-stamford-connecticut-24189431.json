@@ -129,101 +129,141 @@
    "mi": 0.97
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "244-westwood-road-stamford-connecticut-24156180",
-     "addr": "244 Westwood Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 1852.0,
-     "price": 845000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-17",
-     "ppsf": 456,
-     "mi": 0.16
-    },
-    {
-     "slug": "47-london-lane-stamford-connecticut-24174458",
-     "addr": "47 London Lane",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 2.0,
-     "sqft": 2276.0,
-     "price": 895000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-31",
-     "ppsf": 393,
-     "mi": 0.31
-    },
-    {
-     "slug": "75-westwood-road-stamford-connecticut-24177987",
-     "addr": "75 Westwood Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2496.0,
-     "price": 820000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-07",
-     "ppsf": 329,
-     "mi": 0.32
-    },
-    {
-     "slug": "59-westwood-road-stamford-connecticut-24169086",
-     "addr": "59 Westwood Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2452.0,
-     "price": 1019000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-27",
-     "ppsf": 416,
-     "mi": 0.36
-    },
-    {
-     "slug": "1049-stillwater-road-stamford-connecticut-24160817",
-     "addr": "1049 Stillwater Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 5.0,
-     "sqft": 4597.0,
-     "price": 1550000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-10",
-     "ppsf": 337,
-     "mi": 0.36
-    },
-    {
-     "slug": "82-three-lakes-drive-stamford-connecticut-24184803",
-     "addr": "82 Three Lakes Drive",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2572.0,
-     "price": 1085000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-05",
-     "ppsf": 422,
-     "mi": 0.44
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 820000.0,
-    "high": 1550000.0,
-    "median": 957000
+ "comps": [
+  {
+   "mls": "24177987",
+   "slug": "75-westwood-road-stamford-connecticut-24177987",
+   "address": {
+    "line": "75 Westwood Road",
+    "unit": null,
+    "lineWithUnit": "75 Westwood Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2496.0,
+   "price": 820000.0,
+   "date": "2026-07-07",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.078708,
+    "lng": -73.562062
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5133003057703448,
+   "ppsf": 328.52564102564105
+  },
+  {
+   "mls": "24148356",
+   "slug": "7-dubois-street-stamford-connecticut-24148356",
+   "address": {
+    "line": "7 Dubois Street",
+    "unit": null,
+    "lineWithUnit": "7 Dubois Street",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2036.0,
+   "price": 954000.0,
+   "date": "2026-03-16",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.077353,
+    "lng": -73.549526
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1510507823552494,
+   "ppsf": 468.56581532416504
+  },
+  {
+   "mls": "24156180",
+   "slug": "244-westwood-road-stamford-connecticut-24156180",
+   "address": {
+    "line": "244 Westwood Road",
+    "unit": null,
+    "lineWithUnit": "244 Westwood Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 1852.0,
+   "price": 845000.0,
+   "date": "2026-04-17",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.084842,
+    "lng": -73.56308
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.2601145117726697,
+   "ppsf": 456.2634989200864
+  },
+  {
+   "mls": "24174458",
+   "slug": "47-london-lane-stamford-connecticut-24174458",
+   "address": {
+    "line": "47 London Lane",
+    "unit": null,
+    "lineWithUnit": "47 London Lane",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 4.0,
+   "baths": 2.0,
+   "sqft": 2276.0,
+   "price": 895000.0,
+   "date": "2026-07-31",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.079944,
+    "lng": -73.556737
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.501252416984516,
+   "ppsf": 393.23374340949033
+  },
+  {
+   "mls": "24156887",
+   "slug": "130-wood-ridge-drive-stamford-connecticut-24156887",
+   "address": {
+    "line": "130 Wood Ridge Drive",
+    "unit": null,
+    "lineWithUnit": "130 Wood Ridge Drive",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2363.0,
+   "price": 792500.0,
+   "date": "2026-05-29",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.089015,
+    "lng": -73.55209
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9749187856042185,
+   "ppsf": 335.3787558188743
   }
- }
+ ]
 }

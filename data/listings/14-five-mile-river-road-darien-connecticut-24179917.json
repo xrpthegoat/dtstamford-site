@@ -128,31 +128,141 @@
    "mi": 1.36
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "10-cross-road-darien-connecticut-24153454",
-     "addr": "10 Cross Road",
-     "unit": "",
-     "beds": 6.0,
-     "baths": 8.0,
-     "sqft": 6959.0,
-     "price": 6500000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-20",
-     "ppsf": 934,
-     "mi": 0.69
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 6500000.0,
-    "high": 6500000.0,
-    "median": 6500000
+ "comps": [
+  {
+   "mls": "24153454",
+   "slug": "10-cross-road-darien-connecticut-24153454",
+   "address": {
+    "line": "10 Cross Road",
+    "unit": null,
+    "lineWithUnit": "10 Cross Road",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
    },
-   "radiusMi": 0.75
+   "beds": 6.0,
+   "baths": 8.0,
+   "sqft": 6959.0,
+   "price": 6500000.0,
+   "date": "2026-04-20",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.065327,
+    "lng": -73.45851
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.112335460370755,
+   "ppsf": 934.0422474493462
+  },
+  {
+   "mls": "24162725",
+   "slug": "28-old-farm-road-darien-connecticut-24162725",
+   "address": {
+    "line": "28 Old Farm Road",
+    "unit": null,
+    "lineWithUnit": "28 Old Farm Road",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 5.0,
+   "baths": 8.0,
+   "sqft": 8370.0,
+   "price": 6510000.0,
+   "date": "2026-07-20",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.068655,
+    "lng": -73.455582
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6833789724158376,
+   "ppsf": 777.7777777777778
+  },
+  {
+   "mls": "24172903",
+   "slug": "107-raymond-street-darien-connecticut-24172903",
+   "address": {
+    "line": "107 Raymond Street",
+    "unit": null,
+    "lineWithUnit": "107 Raymond Street",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 5.0,
+   "baths": 6.0,
+   "sqft": 6764.0,
+   "price": 3850000.0,
+   "date": "2026-07-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.080326,
+    "lng": -73.450218
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8894841413844169,
+   "ppsf": 569.1898285038438
+  },
+  {
+   "mls": "24081666",
+   "slug": "76-arrowhead-way-darien-connecticut-24081666",
+   "address": {
+    "line": "76 Arrowhead Way",
+    "unit": null,
+    "lineWithUnit": "76 Arrowhead Way",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 5.0,
+   "baths": 8.0,
+   "sqft": 7941.0,
+   "price": 7200000.0,
+   "date": "2026-05-18",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.062156,
+    "lng": -73.463541
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.6607601441825002,
+   "ppsf": 906.6868152625614
+  },
+  {
+   "mls": "24115997",
+   "slug": "17-contentment-island-road-darien-connecticut-24115997",
+   "address": {
+    "line": "17 Contentment Island Road",
+    "unit": null,
+    "lineWithUnit": "17 Contentment Island Road",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 6.0,
+   "baths": 5.0,
+   "sqft": 7174.0,
+   "price": 9420000.0,
+   "date": "2026-03-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.058152,
+    "lng": -73.45404
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.6347433699268445,
+   "ppsf": 1313.0749930303875
   }
- }
+ ]
 }

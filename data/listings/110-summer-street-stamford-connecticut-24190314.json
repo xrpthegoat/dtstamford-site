@@ -130,101 +130,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "72-summer-street-new-canaan-connecticut-24167562",
-     "addr": "72 Summer Street Unit B",
-     "unit": "Unit B",
-     "beds": 2.0,
-     "baths": 3.0,
-     "sqft": 2220.0,
-     "price": 1300000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-01",
-     "ppsf": 586,
-     "mi": 0.09
-    },
-    {
-     "slug": "99-forest-street-new-canaan-connecticut-24185794",
-     "addr": "99 Forest Street Unit 99",
-     "unit": "Unit 99",
-     "beds": 2.0,
-     "baths": 3.0,
-     "sqft": 2326.0,
-     "price": 1625000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-06",
-     "ppsf": 699,
-     "mi": 0.36
-    },
-    {
-     "slug": "100-south-avenue-new-canaan-connecticut-24157367",
-     "addr": "100 South Avenue",
-     "unit": "",
-     "beds": 2.0,
-     "baths": 3.0,
-     "sqft": 1750.0,
-     "price": 1550000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-30",
-     "ppsf": 886,
-     "mi": 0.49
-    },
-    {
-     "slug": "95-heritage-hill-road-new-canaan-connecticut-24154387",
-     "addr": "95 Heritage Hill Road",
-     "unit": "",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1120.0,
-     "price": 690000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-18",
-     "ppsf": 616,
-     "mi": 0.5
-    },
-    {
-     "slug": "125-heritage-hill-road-new-canaan-connecticut-24173058",
-     "addr": "125 Heritage Hill Road Unit A",
-     "unit": "Unit A",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1079.0,
-     "price": 730000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-24",
-     "ppsf": 677,
-     "mi": 0.53
-    },
-    {
-     "slug": "177-south-avenue-new-canaan-connecticut-24180669",
-     "addr": "177 South Avenue Unit 5",
-     "unit": "Unit 5",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1456.0,
-     "price": 1300000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-23",
-     "ppsf": 893,
-     "mi": 0.61
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 690000.0,
-    "high": 1625000.0,
-    "median": 1300000
+ "comps": [
+  {
+   "mls": "24179985",
+   "slug": "134-summer-street-stamford-connecticut-24179985",
+   "address": {
+    "line": "134 Summer Street",
+    "unit": "Unit 1",
+    "lineWithUnit": "134 Summer Street Unit 1",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06840"
    },
-   "radiusMi": 0.75
+   "beds": 1.0,
+   "baths": 2.0,
+   "sqft": 753.0,
+   "price": 245000.0,
+   "date": "2026-07-07",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.147699,
+    "lng": -73.486455
+   },
+   "klass": "condo",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 0.09625593480250126,
+   "ppsf": 325.3652058432935
+  },
+  {
+   "mls": "24136406",
+   "slug": "274-sylvan-knoll-road-stamford-connecticut-24136406",
+   "address": {
+    "line": "274 Sylvan Knoll Road",
+    "unit": null,
+    "lineWithUnit": "274 Sylvan Knoll Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1100.0,
+   "price": 325000.0,
+   "date": "2026-04-10",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.052828,
+    "lng": -73.511851
+   },
+   "klass": "condo",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 10.857483854531164,
+   "ppsf": 295.45454545454544
+  },
+  {
+   "mls": "24150400",
+   "slug": "1400-bedford-street-stamford-connecticut-24150400",
+   "address": {
+    "line": "1400 Bedford Street",
+    "unit": "Unit 11",
+    "lineWithUnit": "1400 Bedford Street Unit 11",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 1268.0,
+   "price": 455000.0,
+   "date": "2026-03-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.063573,
+    "lng": -73.540821
+   },
+   "klass": "condo",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 10.494956864651623,
+   "ppsf": 358.83280757097793
+  },
+  {
+   "mls": "24123197",
+   "slug": "697-cove-road-stamford-connecticut-24123197",
+   "address": {
+    "line": "697 Cove Road",
+    "unit": "Apt 2A",
+    "lineWithUnit": "697 Cove Road Apt 2A",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 854.0,
+   "price": 300000.0,
+   "date": "2026-03-16",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.048593,
+    "lng": -73.512573
+   },
+   "klass": "condo",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 11.331150260356724,
+   "ppsf": 351.288056206089
+  },
+  {
+   "mls": "24140379",
+   "slug": "93-spruce-street-stamford-connecticut-24140379",
+   "address": {
+    "line": "93 Spruce Street",
+    "unit": "Apt 11",
+    "lineWithUnit": "93 Spruce Street Apt 11",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 950.0,
+   "price": 295000.0,
+   "date": "2026-04-09",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.051298,
+    "lng": -73.549693
+   },
+   "klass": "condo",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 12.047775557927894,
+   "ppsf": 310.5263157894737
   }
- }
+ ]
 }

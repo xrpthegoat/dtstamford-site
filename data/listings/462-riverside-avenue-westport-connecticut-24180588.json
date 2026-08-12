@@ -133,100 +133,141 @@
    "mi": 1.14
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "5-treadwell-avenue-westport-connecticut-24184256",
-     "addr": "5 Treadwell Avenue",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1552.0,
-     "price": 4950.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-29",
-     "ppsf": 3,
-     "mi": 0.05
-    },
-    {
-     "slug": "414-riverside-avenue-westport-connecticut-24148167",
-     "addr": "414 Riverside Avenue",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 2857.0,
-     "price": 7725.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-02",
-     "ppsf": 3,
-     "mi": 0.11
-    },
-    {
-     "slug": "4-river-view-road-westport-connecticut-24172561",
-     "addr": "4 River View Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1258.0,
-     "price": 7300.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-13",
-     "ppsf": 6,
-     "mi": 0.55
-    },
-    {
-     "slug": "188-compo-road-south-westport-connecticut-24155993",
-     "addr": "188 Compo Road South",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 4.0,
-     "sqft": 3090.0,
-     "price": 10750.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-21",
-     "ppsf": 3,
-     "mi": 0.59
-    },
-    {
-     "slug": "26-hiawatha-lane-extension-westport-connecticut-24155254",
-     "addr": "26 Hiawatha Lane Extension",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1056.0,
-     "price": 5000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-01",
-     "ppsf": 5,
-     "mi": 0.6
-    },
-    {
-     "slug": "28-treadwell-avenue-westport-connecticut-24182720",
-     "addr": "28 Treadwell Avenue",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1651.0,
-     "price": 6950.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 4,
-     "mi": 0.18
-    }
-   ],
-   "summary": {
-    "n": 5,
-    "low": 4950.0,
-    "high": 10750.0,
-    "median": 7300
+ "comps": [
+  {
+   "mls": "24167542",
+   "slug": "4-ivanhoe-lane-westport-connecticut-24167542",
+   "address": {
+    "line": "4 Ivanhoe Lane",
+    "unit": null,
+    "lineWithUnit": "4 Ivanhoe Lane",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
    },
-   "radiusMi": 0.75
+   "beds": 5.0,
+   "baths": 4.0,
+   "sqft": 2582.0,
+   "price": 11500.0,
+   "date": "2026-06-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.12672,
+    "lng": -73.36116
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9750441503352081,
+   "ppsf": 4.453911696359412
+  },
+  {
+   "mls": "24148167",
+   "slug": "414-riverside-avenue-westport-connecticut-24148167",
+   "address": {
+    "line": "414 Riverside Avenue",
+    "unit": null,
+    "lineWithUnit": "414 Riverside Avenue",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2857.0,
+   "price": 7725.0,
+   "date": "2026-04-02",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.126633,
+    "lng": -73.37189
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 0.17401379293092703,
+   "ppsf": 2.703885194259713
+  },
+  {
+   "mls": "24158964",
+   "slug": "14-burr-road-westport-connecticut-24158964",
+   "address": {
+    "line": "14 Burr Road",
+    "unit": null,
+    "lineWithUnit": "14 Burr Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 2282.0,
+   "price": 7500.0,
+   "date": "2026-05-05",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.136309,
+    "lng": -73.366308
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.3469085235247302,
+   "ppsf": 3.286590709903593
+  },
+  {
+   "mls": "24167029",
+   "slug": "200-hillspoint-road-westport-connecticut-24167029",
+   "address": {
+    "line": "200 Hillspoint Road",
+    "unit": null,
+    "lineWithUnit": "200 Hillspoint Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2762.0,
+   "price": 35000.0,
+   "date": "2026-06-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.11501,
+    "lng": -73.34653
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.4598303009905185,
+   "ppsf": 12.671976828385228
+  },
+  {
+   "mls": "24159366",
+   "slug": "55-kings-highway-north-westport-connecticut-24159366",
+   "address": {
+    "line": "55 Kings Highway North",
+    "unit": null,
+    "lineWithUnit": "55 Kings Highway North",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1719.0,
+   "price": 10000.0,
+   "date": "2026-06-03",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.13966,
+    "lng": -73.370346
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.6227331008849006,
+   "ppsf": 5.817335660267598
   }
- }
+ ]
 }

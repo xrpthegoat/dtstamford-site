@@ -116,31 +116,141 @@
    "walk": 11
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "28-beal-street-stamford-connecticut-24153193",
-     "addr": "28 Beal Street",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 2.0,
-     "sqft": 2182.0,
-     "price": 840000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-14",
-     "ppsf": 385,
-     "mi": 0.71
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 840000.0,
-    "high": 840000.0,
-    "median": 840000
+ "comps": [
+  {
+   "mls": "24153193",
+   "slug": "28-beal-street-stamford-connecticut-24153193",
+   "address": {
+    "line": "28 Beal Street",
+    "unit": null,
+    "lineWithUnit": "28 Beal Street",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
    },
-   "radiusMi": 0.75
+   "beds": 5.0,
+   "baths": 2.0,
+   "sqft": 2182.0,
+   "price": 840000.0,
+   "date": "2026-04-14",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.033215,
+    "lng": -73.55122
+   },
+   "klass": "multi",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1386694502134427,
+   "ppsf": 384.967919340055
+  },
+  {
+   "mls": "24165197",
+   "slug": "10-harvard-avenue-stamford-connecticut-24165197",
+   "address": {
+    "line": "10 Harvard Avenue",
+    "unit": null,
+    "lineWithUnit": "10 Harvard Avenue",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 4.0,
+   "baths": 2.0,
+   "sqft": 1638.0,
+   "price": 560000.0,
+   "date": "2026-06-05",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.048138,
+    "lng": -73.559925
+   },
+   "klass": "multi",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6953365265781613,
+   "ppsf": 341.88034188034186
+  },
+  {
+   "mls": "24178916",
+   "slug": "50-victory-street-stamford-connecticut-24178916",
+   "address": {
+    "line": "50 Victory Street",
+    "unit": null,
+    "lineWithUnit": "50 Victory Street",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1656.0,
+   "price": 599000.0,
+   "date": "2026-07-08",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.046413,
+    "lng": -73.555136
+   },
+   "klass": "multi",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5472895753980476,
+   "ppsf": 361.7149758454106
+  },
+  {
+   "mls": "24174736",
+   "slug": "29-roosevelt-avenue-stamford-connecticut-24174736",
+   "address": {
+    "line": "29 Roosevelt Avenue",
+    "unit": null,
+    "lineWithUnit": "29 Roosevelt Avenue",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2658.0,
+   "price": 805000.0,
+   "date": "2026-06-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.047009,
+    "lng": -73.554593
+   },
+   "klass": "multi",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 0.6271293549052321,
+   "ppsf": 302.8592927012792
+  },
+  {
+   "mls": "24151343",
+   "slug": "85-avery-street-stamford-connecticut-24151343",
+   "address": {
+    "line": "85 Avery Street",
+    "unit": null,
+    "lineWithUnit": "85 Avery Street",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 6.0,
+   "baths": 2.0,
+   "sqft": 1792.0,
+   "price": 883000.0,
+   "date": "2026-03-25",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.045981,
+    "lng": -73.509787
+   },
+   "klass": "multi",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 4.076902492526134,
+   "ppsf": 492.7455357142857
   }
- }
+ ]
 }

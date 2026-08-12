@@ -128,44 +128,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "1020-north-street-greenwich-connecticut-24150733",
-     "addr": "1020 North Street",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1812.0,
-     "price": 1600000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-08",
-     "ppsf": 883,
-     "mi": 0.68
-    },
-    {
-     "slug": "1018-north-street-greenwich-connecticut-24176002",
-     "addr": "1018 North Street",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1546.0,
-     "price": 999000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 646,
-     "mi": 0.68
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 1600000.0,
-    "high": 1600000.0,
-    "median": 1600000
+ "comps": [
+  {
+   "mls": "24170555",
+   "slug": "28-pony-trail-road-stamford-connecticut-24170555",
+   "address": {
+    "line": "28 Pony Trail Road",
+    "unit": null,
+    "lineWithUnit": "28 Pony Trail Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 2988.0,
+   "price": 1400000.0,
+   "date": "2026-06-23",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.12484,
+    "lng": -73.607633
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.3385728020172274,
+   "ppsf": 468.5408299866131
+  },
+  {
+   "mls": "170552650",
+   "slug": "0-south-brook-drive-stamford-connecticut-170552650",
+   "address": {
+    "line": "0 South Brook Drive",
+    "unit": null,
+    "lineWithUnit": "0 South Brook Drive",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06904"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 4100.0,
+   "price": 1758371.0,
+   "date": "2026-05-11",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.148846,
+    "lng": -73.608215
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.7052785507857868,
+   "ppsf": 428.8709756097561
+  },
+  {
+   "mls": "24146135",
+   "slug": "139-wyndover-lane-stamford-connecticut-24146135",
+   "address": {
+    "line": "139 Wyndover Lane",
+    "unit": null,
+    "lineWithUnit": "139 Wyndover Lane",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 4398.0,
+   "price": 892504.0,
+   "date": "2026-05-29",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.071794,
+    "lng": -73.559332
+   },
+   "klass": "house",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 9.48341425328002,
+   "ppsf": 202.93406093678945
+  },
+  {
+   "mls": "24155308",
+   "slug": "37-quarry-road-stamford-connecticut-24155308",
+   "address": {
+    "line": "37 Quarry Road",
+    "unit": null,
+    "lineWithUnit": "37 Quarry Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
+   },
+   "beds": 3.0,
+   "baths": 4.0,
+   "sqft": 3775.0,
+   "price": 1375000.0,
+   "date": "2026-04-08",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.125762,
+    "lng": -73.535248
+   },
+   "klass": "house",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 7.755734618029057,
+   "ppsf": 364.2384105960265
+  },
+  {
+   "mls": "24151825",
+   "slug": "10-turner-road-stamford-connecticut-24151825",
+   "address": {
+    "line": "10 Turner Road",
+    "unit": null,
+    "lineWithUnit": "10 Turner Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 3247.0,
+   "price": 1300000.0,
+   "date": "2026-07-01",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.082798,
+    "lng": -73.534536
+   },
+   "klass": "house",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 10.000763727509948,
+   "ppsf": 400.36957191253464
   }
- }
+ ]
 }

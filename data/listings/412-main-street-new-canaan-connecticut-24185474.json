@@ -122,98 +122,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "16r-old-stamford-road-new-canaan-connecticut-24187664",
-     "addr": "16R Old Stamford Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 5.0,
-     "sqft": 3608.0,
-     "price": 15000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-16",
-     "ppsf": 4,
-     "mi": 0.62
-    },
-    {
-     "slug": "24-old-stamford-road-new-canaan-connecticut-24191058",
-     "addr": "24 Old Stamford Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 5.0,
-     "sqft": 3608.0,
-     "price": 15000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-13",
-     "ppsf": 4,
-     "mi": 0.64
-    },
-    {
-     "slug": "141-park-street-new-canaan-connecticut-24174715",
-     "addr": "141 Park Street",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 5.0,
-     "sqft": 3783.0,
-     "price": 17250.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-29",
-     "ppsf": 5,
-     "mi": 0.71
-    },
-    {
-     "slug": "11-gower-road-new-canaan-connecticut-24188970",
-     "addr": "11 Gower Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 6.0,
-     "sqft": 4188.0,
-     "price": 23000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 5,
-     "mi": 0.54
-    },
-    {
-     "slug": "22-old-stamford-road-new-canaan-connecticut-24191227",
-     "addr": "22 Old Stamford Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 5.0,
-     "sqft": 3608.0,
-     "price": 14500.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 4,
-     "mi": 0.62
-    },
-    {
-     "slug": "18-old-stamford-road-new-canaan-connecticut-24187704",
-     "addr": "18 Old Stamford Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 5.0,
-     "sqft": 3608.0,
-     "price": 15000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 4,
-     "mi": 0.63
-    }
-   ],
-   "summary": {
-    "n": 3,
-    "low": 15000.0,
-    "high": 17250.0,
-    "median": 15000
+ "comps": [
+  {
+   "mls": "24134653",
+   "slug": "44-cross-street-new-canaan-connecticut-24134653",
+   "address": {
+    "line": "44 Cross Street",
+    "unit": null,
+    "lineWithUnit": "44 Cross Street",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 2120.0,
+   "price": 5000.0,
+   "date": "2026-03-27",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.149638,
+    "lng": -73.488858
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.169022696581165,
+   "ppsf": 2.358490566037736
+  },
+  {
+   "mls": "24116174",
+   "slug": "190-main-street-new-canaan-connecticut-24116174",
+   "address": {
+    "line": "190 Main Street",
+    "unit": null,
+    "lineWithUnit": "190 Main Street",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 3.0,
+   "baths": 4.0,
+   "sqft": 2000.0,
+   "price": 7900.0,
+   "date": "2026-04-10",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.144985,
+    "lng": -73.49066
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8408890200569757,
+   "ppsf": 3.95
+  },
+  {
+   "mls": "24157929",
+   "slug": "37-maple-street-new-canaan-connecticut-24157929",
+   "address": {
+    "line": "37 Maple Street",
+    "unit": null,
+    "lineWithUnit": "37 Maple Street",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 1506.0,
+   "price": 5500.0,
+   "date": "2026-05-23",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.144444,
+    "lng": -73.49328
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9873636976041092,
+   "ppsf": 3.652058432934927
+  },
+  {
+   "mls": "24170330",
+   "slug": "140-millport-avenue-new-canaan-connecticut-24170330",
+   "address": {
+    "line": "140 Millport Avenue",
+    "unit": null,
+    "lineWithUnit": "140 Millport Avenue",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1550.0,
+   "price": 5200.0,
+   "date": "2026-06-20",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.14304,
+    "lng": -73.48436
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.3467072287748106,
+   "ppsf": 3.3548387096774195
+  },
+  {
+   "mls": "24171026",
+   "slug": "138-millport-avenue-new-canaan-connecticut-24171026",
+   "address": {
+    "line": "138 Millport Avenue",
+    "unit": null,
+    "lineWithUnit": "138 Millport Avenue",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1750.0,
+   "price": 5300.0,
+   "date": "2026-08-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.143093,
+    "lng": -73.48429
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.3504277574194503,
+   "ppsf": 3.0285714285714285
   }
- }
+ ]
 }

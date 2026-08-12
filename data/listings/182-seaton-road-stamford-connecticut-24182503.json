@@ -113,101 +113,141 @@
    "mi": 1.05
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "53-standish-road-stamford-connecticut-24159876",
-     "addr": "53 Standish Road Unit 1",
-     "unit": "Unit 1",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 775.0,
-     "price": 290000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-21",
-     "ppsf": 374,
-     "mi": 0.13
-    },
-    {
-     "slug": "1060-east-main-street-stamford-connecticut-24161327",
-     "addr": "1060 East Main Street Unit 14-D",
-     "unit": "Unit 14-D",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 814.0,
-     "price": 235000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-02",
-     "ppsf": 289,
-     "mi": 0.15
-    },
-    {
-     "slug": "1046-east-main-street-stamford-connecticut-24135555",
-     "addr": "1046 East Main Street Apt 4",
-     "unit": "Apt 4",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 763.0,
-     "price": 310000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-05",
-     "ppsf": 406,
-     "mi": 0.16
-    },
-    {
-     "slug": "60-lawn-avenue-stamford-connecticut-24161574",
-     "addr": "60 Lawn Avenue Unit 21",
-     "unit": "Unit 21",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1420.0,
-     "price": 540000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-30",
-     "ppsf": 380,
-     "mi": 0.18
-    },
-    {
-     "slug": "151-courtland-avenue-stamford-connecticut-24143040",
-     "addr": "151 Courtland Avenue Apt 6C",
-     "unit": "Apt 6C",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 990.0,
-     "price": 385000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-09",
-     "ppsf": 389,
-     "mi": 0.33
-    },
-    {
-     "slug": "250-glenbrook-road-stamford-connecticut-24165124",
-     "addr": "250 Glenbrook Road Unit 38C",
-     "unit": "Unit 38C",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 1050.0,
-     "price": 350000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-22",
-     "ppsf": 333,
-     "mi": 0.46
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 235000.0,
-    "high": 540000.0,
-    "median": 330000
+ "comps": [
+  {
+   "mls": "24135555",
+   "slug": "1046-east-main-street-stamford-connecticut-24135555",
+   "address": {
+    "line": "1046 East Main Street",
+    "unit": "Apt 4",
+    "lineWithUnit": "1046 East Main Street Apt 4",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 763.0,
+   "price": 310000.0,
+   "date": "2026-05-05",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.057174,
+    "lng": -73.517542
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.2596848956388376,
+   "ppsf": 406.2909567496723
+  },
+  {
+   "mls": "24150595",
+   "slug": "30-glenbrook-road-stamford-connecticut-24150595",
+   "address": {
+    "line": "30 Glenbrook Road",
+    "unit": "Apt 10F",
+    "lineWithUnit": "30 Glenbrook Road Apt 10F",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 800.0,
+   "price": 285000.0,
+   "date": "2026-04-14",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.056417,
+    "lng": -73.529723
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.100530417897667,
+   "ppsf": 356.25
+  },
+  {
+   "mls": "24157387",
+   "slug": "59-courtland-avenue-stamford-connecticut-24157387",
+   "address": {
+    "line": "59 Courtland Avenue",
+    "unit": "Apt 3B",
+    "lineWithUnit": "59 Courtland Avenue Apt 3B",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 590.0,
+   "price": 239000.0,
+   "date": "2026-05-29",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.060718,
+    "lng": -73.513609
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.3340131199935565,
+   "ppsf": 405.08474576271186
+  },
+  {
+   "mls": "24158144",
+   "slug": "50-glenbrook-road-stamford-connecticut-24158144",
+   "address": {
+    "line": "50 Glenbrook Road",
+    "unit": "Apt 16F",
+    "lineWithUnit": "50 Glenbrook Road Apt 16F",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 939.0,
+   "price": 378000.0,
+   "date": "2026-04-27",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.05694,
+    "lng": -73.52944
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0609492322527554,
+   "ppsf": 402.555910543131
+  },
+  {
+   "mls": "24159876",
+   "slug": "53-standish-road-stamford-connecticut-24159876",
+   "address": {
+    "line": "53 Standish Road",
+    "unit": "Unit 1",
+    "lineWithUnit": "53 Standish Road Unit 1",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 775.0,
+   "price": 290000.0,
+   "date": "2026-04-21",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.058183,
+    "lng": -73.515573
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.20293790911729667,
+   "ppsf": 374.19354838709677
   }
- }
+ ]
 }

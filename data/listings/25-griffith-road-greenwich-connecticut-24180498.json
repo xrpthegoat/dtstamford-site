@@ -126,85 +126,141 @@
    "walk": 11
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "15-lancer-road-greenwich-connecticut-24174565",
-     "addr": "15 Lancer Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 3031.0,
-     "price": 8850.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-29",
-     "ppsf": 3,
-     "mi": 0.3
-    },
-    {
-     "slug": "4-sickle-bar-lane-greenwich-connecticut-24187870",
-     "addr": "4 Sickle Bar Lane",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 4735.0,
-     "price": 12500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-06",
-     "ppsf": 3,
-     "mi": 0.31
-    },
-    {
-     "slug": "40-mianus-view-terrace-greenwich-connecticut-24180823",
-     "addr": "40 Mianus View Terrace",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 2895.0,
-     "price": 12000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-27",
-     "ppsf": 4,
-     "mi": 0.64
-    },
-    {
-     "slug": "1-crawford-terrace-greenwich-connecticut-24178376",
-     "addr": "1 Crawford Terrace",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 2819.0,
-     "price": 18000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 6,
-     "mi": 0.34
-    },
-    {
-     "slug": "26-revere-road-greenwich-connecticut-24181504",
-     "addr": "26 Revere Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2383.0,
-     "price": 11900.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 5,
-     "mi": 0.48
-    }
-   ],
-   "summary": {
-    "n": 3,
-    "low": 8850.0,
-    "high": 12500.0,
-    "median": 12000
+ "comps": [
+  {
+   "mls": "24149196",
+   "slug": "1-old-kings-highway-greenwich-connecticut-24149196",
+   "address": {
+    "line": "1 Old Kings Highway",
+    "unit": null,
+    "lineWithUnit": "1 Old Kings Highway",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06870"
    },
-   "radiusMi": 0.75
+   "beds": 5.0,
+   "baths": 0.0,
+   "sqft": 2174.0,
+   "price": 6500.0,
+   "date": "2026-03-14",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.048223,
+    "lng": -73.568624
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8859465271633951,
+   "ppsf": 2.9898804047838086
+  },
+  {
+   "mls": "24150496",
+   "slug": "92-valley-road-greenwich-connecticut-24150496",
+   "address": {
+    "line": "92 Valley Road",
+    "unit": "Unit A",
+    "lineWithUnit": "92 Valley Road Unit A",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06807"
+   },
+   "beds": 5.0,
+   "baths": 3.0,
+   "sqft": 3000.0,
+   "price": 7035.0,
+   "date": "2026-03-24",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.044882,
+    "lng": -73.590877
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.060433595245265,
+   "ppsf": 2.345
+  },
+  {
+   "mls": "24175897",
+   "slug": "272-valley-road-greenwich-connecticut-24175897",
+   "address": {
+    "line": "272 Valley Road",
+    "unit": "Unit 2",
+    "lineWithUnit": "272 Valley Road Unit 2",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06807"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 2423.0,
+   "price": 2800.0,
+   "date": "2026-06-21",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.05687,
+    "lng": -73.58423
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0215267365327583,
+   "ppsf": 1.1555922410235246
+  },
+  {
+   "mls": "24174565",
+   "slug": "15-lancer-road-greenwich-connecticut-24174565",
+   "address": {
+    "line": "15 Lancer Road",
+    "unit": null,
+    "lineWithUnit": "15 Lancer Road",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06878"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 3031.0,
+   "price": 8850.0,
+   "date": "2026-05-29",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.052672,
+    "lng": -73.580843
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.4834051651882983,
+   "ppsf": 2.9198284394589242
+  },
+  {
+   "mls": "24180823",
+   "slug": "40-mianus-view-terrace-greenwich-connecticut-24180823",
+   "address": {
+    "line": "40 Mianus View Terrace",
+    "unit": null,
+    "lineWithUnit": "40 Mianus View Terrace",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06807"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 2895.0,
+   "price": 12000.0,
+   "date": "2026-06-27",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.053814,
+    "lng": -73.589136
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0220939520303356,
+   "ppsf": 4.1450777202072535
   }
- }
+ ]
 }

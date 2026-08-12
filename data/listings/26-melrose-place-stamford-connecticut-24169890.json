@@ -132,45 +132,141 @@
    "mi": 0.85
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "18-cook-road-stamford-connecticut-24173295",
-     "addr": "18 Cook Road",
-     "unit": "",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1864.0,
-     "price": 899000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-21",
-     "ppsf": 482,
-     "mi": 0.45
-    },
-    {
-     "slug": "250-davenport-drive-stamford-connecticut-24174434",
-     "addr": "250 Davenport Drive",
-     "unit": "",
-     "beds": 2.0,
-     "baths": 3.0,
-     "sqft": 2858.0,
-     "price": 6014250.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-29",
-     "ppsf": 2104,
-     "mi": 0.73
-    }
-   ],
-   "summary": {
-    "n": 2,
-    "low": 899000.0,
-    "high": 6014250.0,
-    "median": 3456625
+ "comps": [
+  {
+   "mls": "24169816",
+   "slug": "19-burwood-avenue-stamford-connecticut-24169816",
+   "address": {
+    "line": "19 Burwood Avenue",
+    "unit": null,
+    "lineWithUnit": "19 Burwood Avenue",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 2.0,
+   "sqft": 1608.0,
+   "price": 875000.0,
+   "date": "2026-06-17",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.032109,
+    "lng": -73.552841
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.3685705816276668,
+   "ppsf": 544.1542288557214
+  },
+  {
+   "mls": "24159917",
+   "slug": "46-young-dixon-way-stamford-connecticut-24159917",
+   "address": {
+    "line": "46 Young Dixon Way",
+    "unit": "Unit 46",
+    "lineWithUnit": "46 Young Dixon Way Unit 46",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1380.0,
+   "price": 366060.0,
+   "date": "2026-05-22",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.042749,
+    "lng": -73.553837
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.81965304841416,
+   "ppsf": 265.2608695652174
+  },
+  {
+   "mls": "24173295",
+   "slug": "18-cook-road-stamford-connecticut-24173295",
+   "address": {
+    "line": "18 Cook Road",
+    "unit": null,
+    "lineWithUnit": "18 Cook Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1864.0,
+   "price": 899000.0,
+   "date": "2026-07-21",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.030834,
+    "lng": -73.546759
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7164623051124664,
+   "ppsf": 482.2961373390558
+  },
+  {
+   "mls": "24157942",
+   "slug": "22-auldwood-road-stamford-connecticut-24157942",
+   "address": {
+    "line": "22 Auldwood Road",
+    "unit": null,
+    "lineWithUnit": "22 Auldwood Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1864.0,
+   "price": 1230000.0,
+   "date": "2026-06-29",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.035349,
+    "lng": -73.526174
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.2294913956764746,
+   "ppsf": 659.8712446351931
+  },
+  {
+   "mls": "24164426",
+   "slug": "47-mitchell-street-stamford-connecticut-24164426",
+   "address": {
+    "line": "47 Mitchell Street",
+    "unit": null,
+    "lineWithUnit": "47 Mitchell Street",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 4.0,
+   "baths": 2.0,
+   "sqft": 1462.0,
+   "price": 900000.0,
+   "date": "2026-06-29",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.03528,
+    "lng": -73.529623
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.940258181697814,
+   "ppsf": 615.595075239398
   }
- }
+ ]
 }

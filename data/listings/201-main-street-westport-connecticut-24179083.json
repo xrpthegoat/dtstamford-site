@@ -127,149 +127,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "building": {
-   "rows": [
-    {
-     "slug": "201-main-street-westport-connecticut-24179108",
-     "addr": "201 Main Street Unit 302",
-     "unit": "Unit 302",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 850.0,
-     "price": 4800.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-11",
-     "ppsf": 6
-    },
-    {
-     "slug": "201-main-street-westport-connecticut-24138891",
-     "addr": "201 Main Street Unit 203",
-     "unit": "Unit 203",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 830.0,
-     "price": 4500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-03",
-     "ppsf": 5
-    },
-    {
-     "slug": "201-main-street-westport-connecticut-24184955",
-     "addr": "201 Main Street Unit 303",
-     "unit": "Unit 303",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 800.0,
-     "price": 4900.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 6
-    }
-   ],
-   "summary": {
-    "n": 2,
-    "low": 4500.0,
-    "high": 4800.0,
-    "median": 4650
+ "comps": [
+  {
+   "mls": "24138891",
+   "slug": "201-main-street-westport-connecticut-24138891",
+   "address": {
+    "line": "201 Main Street",
+    "unit": "Unit 203",
+    "lineWithUnit": "201 Main Street Unit 203",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
    },
-   "label": "201 Main Street"
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 830.0,
+   "price": 4500.0,
+   "date": "2026-06-03",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.1447,
+    "lng": -73.36182
+   },
+   "klass": "rental",
+   "tier": 1,
+   "why": "Same building, sold in the last year",
+   "km": 0.008340547222741176,
+   "ppsf": 5.421686746987952
   },
-  "area": {
-   "rows": [
-    {
-     "slug": "5-church-lane-westport-connecticut-24182260",
-     "addr": "5 Church Lane Unit 310",
-     "unit": "Unit 310",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1220.0,
-     "price": 6995.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-28",
-     "ppsf": 6,
-     "mi": 0.18
-    },
-    {
-     "slug": "113-kings-highway-north-westport-connecticut-24158091",
-     "addr": "113 Kings Highway North",
-     "unit": "",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1078.0,
-     "price": 3700.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-22",
-     "ppsf": 3,
-     "mi": 0.32
-    },
-    {
-     "slug": "315-main-street-westport-connecticut-24146601",
-     "addr": "315 Main Street",
-     "unit": "",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 740.0,
-     "price": 3250.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-30",
-     "ppsf": 4,
-     "mi": 0.36
-    },
-    {
-     "slug": "20-cross-street-westport-connecticut-24172100",
-     "addr": "20 Cross Street Unit 5",
-     "unit": "Unit 5",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1182.0,
-     "price": 4900.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-06",
-     "ppsf": 4,
-     "mi": 0.45
-    },
-    {
-     "slug": "19-whitney-street-westport-connecticut-24179563",
-     "addr": "19 Whitney Street",
-     "unit": "",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1400.0,
-     "price": 3800.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-17",
-     "ppsf": 3,
-     "mi": 0.68
-    },
-    {
-     "slug": "87-myrtle-avenue-westport-connecticut-24183144",
-     "addr": "87 Myrtle Avenue",
-     "unit": "",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1604.0,
-     "price": 16500.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 10,
-     "mi": 0.11
-    }
-   ],
-   "summary": {
-    "n": 5,
-    "low": 3250.0,
-    "high": 6995.0,
-    "median": 3800
+  {
+   "mls": "24179108",
+   "slug": "201-main-street-westport-connecticut-24179108",
+   "address": {
+    "line": "201 Main Street",
+    "unit": "Unit 302",
+    "lineWithUnit": "201 Main Street Unit 302",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 850.0,
+   "price": 4800.0,
+   "date": "2026-07-11",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.14472,
+    "lng": -73.361916
+   },
+   "klass": "rental",
+   "tier": 1,
+   "why": "Same building, sold in the last year",
+   "km": 0.0,
+   "ppsf": 5.647058823529412
+  },
+  {
+   "mls": "24146601",
+   "slug": "315-main-street-westport-connecticut-24146601",
+   "address": {
+    "line": "315 Main Street",
+    "unit": null,
+    "lineWithUnit": "315 Main Street",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 740.0,
+   "price": 3250.0,
+   "date": "2026-03-30",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.149874,
+    "lng": -73.362429
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5747061490827204,
+   "ppsf": 4.391891891891892
+  },
+  {
+   "mls": "24150619",
+   "slug": "92-compo-road-south-westport-connecticut-24150619",
+   "address": {
+    "line": "92 Compo Road South",
+    "unit": null,
+    "lineWithUnit": "92 Compo Road South",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 793.0,
+   "price": 3000.0,
+   "date": "2026-04-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.1348,
+    "lng": -73.356476
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1934226105545658,
+   "ppsf": 3.7831021437578816
+  },
+  {
+   "mls": "24160395",
+   "slug": "33-elm-street-westport-connecticut-24160395",
+   "address": {
+    "line": "33 Elm Street",
+    "unit": "Unit 3",
+    "lineWithUnit": "33 Elm Street Unit 3",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 802.0,
+   "price": 3800.0,
+   "date": "2026-06-12",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.14303,
+    "lng": -73.36101
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.20265547030896972,
+   "ppsf": 4.738154613466334
   }
- }
+ ]
 }

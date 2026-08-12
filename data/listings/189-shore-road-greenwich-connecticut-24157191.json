@@ -125,84 +125,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "44-willowmere-avenue-greenwich-connecticut-24170939",
-     "addr": "44 Willowmere Avenue",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 5.0,
-     "sqft": 4358.0,
-     "price": 4050000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-17",
-     "ppsf": 929,
-     "mi": 0.7
-    },
-    {
-     "slug": "8-willow-lane-greenwich-connecticut-24161971",
-     "addr": "8 Willow Lane",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 2.0,
-     "sqft": 1944.0,
-     "price": 2410000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-15",
-     "ppsf": 1240,
-     "mi": 0.71
-    },
-    {
-     "slug": "14-shorehame-club-road-greenwich-connecticut-24179259",
-     "addr": "14 Shorehame Club Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2014.0,
-     "price": 4000000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 1986,
-     "mi": 0.15
-    },
-    {
-     "slug": "67-benjamin-street-greenwich-connecticut-24189215",
-     "addr": "67 Benjamin Street",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2346.0,
-     "price": 2995000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 1277,
-     "mi": 0.64
-    },
-    {
-     "slug": "greenwich-connecticut-24162737",
-     "addr": null,
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2965.0,
-     "price": 3850000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 1298,
-     "mi": 0.66
-    }
-   ],
-   "summary": {
-    "n": 2,
-    "low": 2410000.0,
-    "high": 4050000.0,
-    "median": 3230000
+ "comps": [
+  {
+   "mls": "24170939",
+   "slug": "44-willowmere-avenue-greenwich-connecticut-24170939",
+   "address": {
+    "line": "44 Willowmere Avenue",
+    "unit": null,
+    "lineWithUnit": "44 Willowmere Avenue",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06878"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 5.0,
+   "sqft": 4358.0,
+   "price": 4050000.0,
+   "date": "2026-06-17",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.023485,
+    "lng": -73.577897
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1237593407412143,
+   "ppsf": 929.3253786140432
+  },
+  {
+   "mls": "24168405",
+   "slug": "7-heusted-drive-greenwich-connecticut-24168405",
+   "address": {
+    "line": "7 Heusted Drive",
+    "unit": null,
+    "lineWithUnit": "7 Heusted Drive",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06870"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 4348.0,
+   "price": 3100000.0,
+   "date": "2026-06-17",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.027651,
+    "lng": -73.571268
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.2298507166476085,
+   "ppsf": 712.9714811407543
+  },
+  {
+   "mls": "24133496",
+   "slug": "1-prescott-lane-greenwich-connecticut-24133496",
+   "address": {
+    "line": "1 Prescott Lane",
+    "unit": null,
+    "lineWithUnit": "1 Prescott Lane",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06830"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 3912.0,
+   "price": 3800000.0,
+   "date": "2026-04-06",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.037109,
+    "lng": -73.63313
+   },
+   "klass": "house",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 5.929005755237537,
+   "ppsf": 971.3701431492842
+  },
+  {
+   "mls": "24053927",
+   "slug": "201-shore-road-greenwich-connecticut-24053927",
+   "address": {
+    "line": "201 Shore Road",
+    "unit": null,
+    "lineWithUnit": "201 Shore Road",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06830"
+   },
+   "beds": 5.0,
+   "baths": 5.0,
+   "sqft": 3598.0,
+   "price": 2025000.0,
+   "date": "2026-05-18",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.018843,
+    "lng": -73.629262
+   },
+   "klass": "house",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 5.168287321858774,
+   "ppsf": 562.8126737076153
+  },
+  {
+   "mls": "24146212",
+   "slug": "484-cognewaugh-road-greenwich-connecticut-24146212",
+   "address": {
+    "line": "484 Cognewaugh Road",
+    "unit": null,
+    "lineWithUnit": "484 Cognewaugh Road",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06807"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2832.0,
+   "price": 1900000.0,
+   "date": "2026-04-23",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.08088,
+    "lng": -73.597397
+   },
+   "klass": "house",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 7.534986906698883,
+   "ppsf": 670.9039548022599
   }
- }
+ ]
 }

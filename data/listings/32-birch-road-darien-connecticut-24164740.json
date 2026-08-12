@@ -134,99 +134,141 @@
    "mi": 1.12
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "27-point-o-woods-road-south-darien-connecticut-24171930",
-     "addr": "27 Point O Woods Road South",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 3384.0,
-     "price": 2900000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-15",
-     "ppsf": 857,
-     "mi": 0.22
-    },
-    {
-     "slug": "29-richmond-drive-darien-connecticut-24154972",
-     "addr": "29 Richmond Drive",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 3512.0,
-     "price": 2060000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-12",
-     "ppsf": 587,
-     "mi": 0.31
-    },
-    {
-     "slug": "12-sunset-road-darien-connecticut-24160428",
-     "addr": "12 Sunset Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 5.0,
-     "sqft": 4306.0,
-     "price": 3912000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-15",
-     "ppsf": 908,
-     "mi": 0.56
-    },
-    {
-     "slug": "33-fairview-avenue-darien-connecticut-24171484",
-     "addr": "33 Fairview Avenue",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 3102.0,
-     "price": 3300000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-12",
-     "ppsf": 1064,
-     "mi": 0.71
-    },
-    {
-     "slug": "17-richmond-drive-darien-connecticut-24190296",
-     "addr": "17 Richmond Drive",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2894.0,
-     "price": 2095000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 724,
-     "mi": 0.17
-    },
-    {
-     "slug": "22-powder-horn-road-norwalk-connecticut-24186069",
-     "addr": "22 Powder Horn Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 2.0,
-     "sqft": 1904.0,
-     "price": 795000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 418,
-     "mi": 0.49
-    }
-   ],
-   "summary": {
-    "n": 4,
-    "low": 2060000.0,
-    "high": 3912000.0,
-    "median": 3100000
+ "comps": [
+  {
+   "mls": "24160428",
+   "slug": "12-sunset-road-darien-connecticut-24160428",
+   "address": {
+    "line": "12 Sunset Road",
+    "unit": null,
+    "lineWithUnit": "12 Sunset Road",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 5.0,
+   "sqft": 4306.0,
+   "price": 3912000.0,
+   "date": "2026-06-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.086144,
+    "lng": -73.470673
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9017023992812867,
+   "ppsf": 908.499767765908
+  },
+  {
+   "mls": "24156013",
+   "slug": "12-dellwood-road-darien-connecticut-24156013",
+   "address": {
+    "line": "12 Dellwood Road",
+    "unit": null,
+    "lineWithUnit": "12 Dellwood Road",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 5.0,
+   "baths": 6.0,
+   "sqft": 4672.0,
+   "price": 2300000.0,
+   "date": "2026-04-16",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.095232,
+    "lng": -73.457221
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6127261772756454,
+   "ppsf": 492.2945205479452
+  },
+  {
+   "mls": "24157614",
+   "slug": "9-point-o-woods-road-south-darien-connecticut-24157614",
+   "address": {
+    "line": "9 Point O Woods Road South",
+    "unit": null,
+    "lineWithUnit": "9 Point O Woods Road South",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 6.0,
+   "baths": 6.0,
+   "sqft": 4848.0,
+   "price": 2950000.0,
+   "date": "2026-05-28",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.09067,
+    "lng": -73.460362
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.19941007584801484,
+   "ppsf": 608.4983498349835
+  },
+  {
+   "mls": "24165314",
+   "slug": "2-roland-drive-darien-connecticut-24165314",
+   "address": {
+    "line": "2 Roland Drive",
+    "unit": null,
+    "lineWithUnit": "2 Roland Drive",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 5.0,
+   "baths": 5.0,
+   "sqft": 5678.0,
+   "price": 4200000.0,
+   "date": "2026-08-07",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.083815,
+    "lng": -73.471793
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1497173507043352,
+   "ppsf": 739.6970764353646
+  },
+  {
+   "mls": "24178118",
+   "slug": "8-sunset-road-darien-connecticut-24178118",
+   "address": {
+    "line": "8 Sunset Road",
+    "unit": null,
+    "lineWithUnit": "8 Sunset Road",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 5.0,
+   "baths": 5.0,
+   "sqft": 4840.0,
+   "price": 3925000.0,
+   "date": "2026-07-16",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.085896,
+    "lng": -73.471187
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9523709203965282,
+   "ppsf": 810.9504132231405
   }
- }
+ ]
 }

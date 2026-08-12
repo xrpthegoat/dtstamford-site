@@ -129,101 +129,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "208-cascade-road-stamford-connecticut-24159984",
-     "addr": "208 Cascade Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2802.0,
-     "price": 1225000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-29",
-     "ppsf": 437,
-     "mi": 0.19
-    },
-    {
-     "slug": "87-pembroke-drive-stamford-connecticut-24151641",
-     "addr": "87 Pembroke Drive",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 5.0,
-     "sqft": 4421.0,
-     "price": 1654117.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-08",
-     "ppsf": 374,
-     "mi": 0.24
-    },
-    {
-     "slug": "15-very-merry-road-stamford-connecticut-24162004",
-     "addr": "15 Very Merry Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 3030.0,
-     "price": 1210000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-21",
-     "ppsf": 399,
-     "mi": 0.4
-    },
-    {
-     "slug": "167-larkspur-road-stamford-connecticut-24154062",
-     "addr": "167 Larkspur Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 4530.0,
-     "price": 1250000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-27",
-     "ppsf": 276,
-     "mi": 0.53
-    },
-    {
-     "slug": "12-woodbine-way-stamford-connecticut-24172956",
-     "addr": "12 Woodbine Way",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 7.0,
-     "sqft": 6891.0,
-     "price": 2275000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-10",
-     "ppsf": 330,
-     "mi": 0.69
-    },
-    {
-     "slug": "2408-high-ridge-road-stamford-connecticut-24160597",
-     "addr": "2408 High Ridge Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 1702.0,
-     "price": 700000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-15",
-     "ppsf": 411,
-     "mi": 0.7
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 700000.0,
-    "high": 2275000.0,
-    "median": 1237500
+ "comps": [
+  {
+   "mls": "24159984",
+   "slug": "208-cascade-road-stamford-connecticut-24159984",
+   "address": {
+    "line": "208 Cascade Road",
+    "unit": null,
+    "lineWithUnit": "208 Cascade Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2802.0,
+   "price": 1225000.0,
+   "date": "2026-05-29",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.143409,
+    "lng": -73.541276
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.2980193236303805,
+   "ppsf": 437.18772305496077
+  },
+  {
+   "mls": "24162004",
+   "slug": "15-very-merry-road-stamford-connecticut-24162004",
+   "address": {
+    "line": "15 Very Merry Road",
+    "unit": null,
+    "lineWithUnit": "15 Very Merry Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 3030.0,
+   "price": 1210000.0,
+   "date": "2026-05-21",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.140782,
+    "lng": -73.551869
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6368524498767845,
+   "ppsf": 399.3399339933993
+  },
+  {
+   "mls": "24133749",
+   "slug": "27-wellington-drive-stamford-connecticut-24133749",
+   "address": {
+    "line": "27 Wellington Drive",
+    "unit": null,
+    "lineWithUnit": "27 Wellington Drive",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2402.0,
+   "price": 774000.0,
+   "date": "2026-03-25",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.137419,
+    "lng": -73.573063
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.445923925597396,
+   "ppsf": 322.23147377185677
+  },
+  {
+   "mls": "24155308",
+   "slug": "37-quarry-road-stamford-connecticut-24155308",
+   "address": {
+    "line": "37 Quarry Road",
+    "unit": null,
+    "lineWithUnit": "37 Quarry Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
+   },
+   "beds": 3.0,
+   "baths": 4.0,
+   "sqft": 3775.0,
+   "price": 1375000.0,
+   "date": "2026-04-08",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.125762,
+    "lng": -73.535248
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.048061467978891,
+   "ppsf": 364.2384105960265
+  },
+  {
+   "mls": "24146138",
+   "slug": "106-east-hunting-ridge-road-stamford-connecticut-24146138",
+   "address": {
+    "line": "106 East Hunting Ridge Road",
+    "unit": null,
+    "lineWithUnit": "106 East Hunting Ridge Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
+   },
+   "beds": 4.0,
+   "baths": 2.0,
+   "sqft": 2476.0,
+   "price": 1067000.0,
+   "date": "2026-04-02",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.141283,
+    "lng": -73.570994
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.205876034702086,
+   "ppsf": 430.93699515347333
   }
- }
+ ]
 }

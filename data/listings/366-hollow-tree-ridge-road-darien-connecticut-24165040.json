@@ -133,31 +133,141 @@
    "mi": 1.13
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "8-haskell-lane-darien-connecticut-24167376",
-     "addr": "8 Haskell Lane",
-     "unit": "",
-     "beds": 6.0,
-     "baths": 6.0,
-     "sqft": 6810.0,
-     "price": 4750000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-22",
-     "ppsf": 698,
-     "mi": 0.4
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 4750000.0,
-    "high": 4750000.0,
-    "median": 4750000
+ "comps": [
+  {
+   "mls": "24167376",
+   "slug": "8-haskell-lane-darien-connecticut-24167376",
+   "address": {
+    "line": "8 Haskell Lane",
+    "unit": null,
+    "lineWithUnit": "8 Haskell Lane",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
    },
-   "radiusMi": 0.75
+   "beds": 6.0,
+   "baths": 6.0,
+   "sqft": 6810.0,
+   "price": 4750000.0,
+   "date": "2026-06-22",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.079929,
+    "lng": -73.495129
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6424785989881345,
+   "ppsf": 697.503671071953
+  },
+  {
+   "mls": "24152795",
+   "slug": "15-waterbury-lane-darien-connecticut-24152795",
+   "address": {
+    "line": "15 Waterbury Lane",
+    "unit": null,
+    "lineWithUnit": "15 Waterbury Lane",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 5.0,
+   "baths": 6.0,
+   "sqft": 6052.0,
+   "price": 4400000.0,
+   "date": "2026-04-28",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.084477,
+    "lng": -73.50214
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5280683743745216,
+   "ppsf": 727.0323859881031
+  },
+  {
+   "mls": "24157029",
+   "slug": "473-hollow-tree-ridge-road-darien-connecticut-24157029",
+   "address": {
+    "line": "473 Hollow Tree Ridge Road",
+    "unit": null,
+    "lineWithUnit": "473 Hollow Tree Ridge Road",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 5.0,
+   "baths": 8.0,
+   "sqft": 8035.0,
+   "price": 5000000.0,
+   "date": "2026-07-23",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.089591,
+    "lng": -73.501575
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6369169063697757,
+   "ppsf": 622.2775357809583
+  },
+  {
+   "mls": "24170301",
+   "slug": "39-leeuwarden-road-darien-connecticut-24170301",
+   "address": {
+    "line": "39 Leeuwarden Road",
+    "unit": null,
+    "lineWithUnit": "39 Leeuwarden Road",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 5.0,
+   "baths": 7.0,
+   "sqft": 6424.0,
+   "price": 3795000.0,
+   "date": "2026-08-06",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.087274,
+    "lng": -73.506535
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8975720494930127,
+   "ppsf": 590.7534246575342
+  },
+  {
+   "mls": "24125071",
+   "slug": "10-stony-brook-road-darien-connecticut-24125071",
+   "address": {
+    "line": "10 Stony Brook Road",
+    "unit": null,
+    "lineWithUnit": "10 Stony Brook Road",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 6.0,
+   "baths": 8.0,
+   "sqft": 8680.0,
+   "price": 5660000.0,
+   "date": "2026-04-14",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.078951,
+    "lng": -73.479109
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.603523079237573,
+   "ppsf": 652.073732718894
   }
- }
+ ]
 }

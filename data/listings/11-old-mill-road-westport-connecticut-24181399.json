@@ -127,31 +127,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "205-hillspoint-road-westport-connecticut-24166860",
-     "addr": "205 Hillspoint Road Unit 2nd Floor",
-     "unit": "Unit 2nd Floor",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 935.0,
-     "price": 4750.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-01",
-     "ppsf": 5,
-     "mi": 0.04
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 4750.0,
-    "high": 4750.0,
-    "median": 4750
+ "comps": [
+  {
+   "mls": "24164566",
+   "slug": "25-saugatuck-avenue-westport-connecticut-24164566",
+   "address": {
+    "line": "25 Saugatuck Avenue",
+    "unit": "Unit 9",
+    "lineWithUnit": "25 Saugatuck Avenue Unit 9",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
    },
-   "radiusMi": 0.75
+   "beds": null,
+   "baths": 1.0,
+   "sqft": 550.0,
+   "price": 1550.0,
+   "date": "2026-04-10",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.1239,
+    "lng": -73.3718
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.448253523745154,
+   "ppsf": 2.8181818181818183
+  },
+  {
+   "mls": "24146601",
+   "slug": "315-main-street-westport-connecticut-24146601",
+   "address": {
+    "line": "315 Main Street",
+    "unit": null,
+    "lineWithUnit": "315 Main Street",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 740.0,
+   "price": 3250.0,
+   "date": "2026-03-30",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.149874,
+    "lng": -73.362429
+   },
+   "klass": "rental",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 4.173560894887466,
+   "ppsf": 4.391891891891892
+  },
+  {
+   "mls": "24169134",
+   "slug": "5-rowland-place-westport-connecticut-24169134",
+   "address": {
+    "line": "5 Rowland Place",
+    "unit": null,
+    "lineWithUnit": "5 Rowland Place",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 662.0,
+   "price": 4000.0,
+   "date": "2026-05-11",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.10074,
+    "lng": -73.375694
+   },
+   "klass": "rental",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 2.9789841097097556,
+   "ppsf": 6.042296072507553
+  },
+  {
+   "mls": "24177236",
+   "slug": "4a-stoneboat-road-westport-connecticut-24177236",
+   "address": {
+    "line": "4A Stoneboat Road",
+    "unit": null,
+    "lineWithUnit": "4A Stoneboat Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 720.0,
+   "price": 4200.0,
+   "date": "2026-07-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.164771,
+    "lng": -73.374494
+   },
+   "klass": "rental",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 6.088209252891637,
+   "ppsf": 5.833333333333333
+  },
+  {
+   "mls": "24184511",
+   "slug": "9-hiawatha-lane-westport-connecticut-24184511",
+   "address": {
+    "line": "9 Hiawatha Lane",
+    "unit": null,
+    "lineWithUnit": "9 Hiawatha Lane",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 475.0,
+   "price": 2100.0,
+   "date": "2026-07-23",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.119148,
+    "lng": -73.377346
+   },
+   "klass": "rental",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 2.7319477035998667,
+   "ppsf": 4.421052631578948
   }
- }
+ ]
 }

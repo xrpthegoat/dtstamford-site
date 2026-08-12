@@ -135,101 +135,141 @@
    "mi": 0.73
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "1-duffys-lane-darien-connecticut-24169160",
-     "addr": "1 Duffys Lane",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 6.0,
-     "sqft": 4966.0,
-     "price": 3500000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-08",
-     "ppsf": 705,
-     "mi": 0.37
-    },
-    {
-     "slug": "19-thomasina-lane-darien-connecticut-24155231",
-     "addr": "19 Thomasina Lane",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 4.0,
-     "sqft": 4170.0,
-     "price": 3600000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-15",
-     "ppsf": 863,
-     "mi": 0.42
-    },
-    {
-     "slug": "18-thomasina-lane-darien-connecticut-24168968",
-     "addr": "18 Thomasina Lane",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 5.0,
-     "sqft": 4446.0,
-     "price": 3250000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-24",
-     "ppsf": 731,
-     "mi": 0.44
-    },
-    {
-     "slug": "29-walmsley-road-darien-connecticut-24155790",
-     "addr": "29 Walmsley Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 4.0,
-     "sqft": 3498.0,
-     "price": 2925000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-14",
-     "ppsf": 836,
-     "mi": 0.46
-    },
-    {
-     "slug": "20-walmsley-road-darien-connecticut-24016280",
-     "addr": "20 Walmsley Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 4.0,
-     "sqft": 4173.0,
-     "price": 3150000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-21",
-     "ppsf": 755,
-     "mi": 0.47
-    },
-    {
-     "slug": "25-patricia-lane-darien-connecticut-24161087",
-     "addr": "25 Patricia Lane",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 6.0,
-     "sqft": 5735.0,
-     "price": 3615000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-10",
-     "ppsf": 630,
-     "mi": 0.48
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 2925000.0,
-    "high": 3615000.0,
-    "median": 3375000
+ "comps": [
+  {
+   "mls": "24163569",
+   "slug": "7-walmsley-road-darien-connecticut-24163569",
+   "address": {
+    "line": "7 Walmsley Road",
+    "unit": null,
+    "lineWithUnit": "7 Walmsley Road",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2521.0,
+   "price": 2652500.0,
+   "date": "2026-06-22",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.06658,
+    "lng": -73.498226
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8708016321297924,
+   "ppsf": 1052.1618405394684
+  },
+  {
+   "mls": "24172553",
+   "slug": "8-seagate-road-darien-connecticut-24172553",
+   "address": {
+    "line": "8 Seagate Road",
+    "unit": null,
+    "lineWithUnit": "8 Seagate Road",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2796.0,
+   "price": 2400000.0,
+   "date": "2026-07-07",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.057672,
+    "lng": -73.497694
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.1306869452640457,
+   "ppsf": 858.3690987124463
+  },
+  {
+   "mls": "24150639",
+   "slug": "18-pasture-lane-darien-connecticut-24150639",
+   "address": {
+    "line": "18 Pasture Lane",
+    "unit": null,
+    "lineWithUnit": "18 Pasture Lane",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 3061.0,
+   "price": 3050000.0,
+   "date": "2026-03-31",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.055853,
+    "lng": -73.48548
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1235615664734424,
+   "ppsf": 996.40640313623
+  },
+  {
+   "mls": "24184331",
+   "slug": "29-coachlamp-lane-darien-connecticut-24184331",
+   "address": {
+    "line": "29 Coachlamp Lane",
+    "unit": null,
+    "lineWithUnit": "29 Coachlamp Lane",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2332.0,
+   "price": 2118000.0,
+   "date": "2026-07-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.06158,
+    "lng": -73.492181
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6032014574112281,
+   "ppsf": 908.2332761578044
+  },
+  {
+   "mls": "24150178",
+   "slug": "12-walmsley-road-darien-connecticut-24150178",
+   "address": {
+    "line": "12 Walmsley Road",
+    "unit": null,
+    "lineWithUnit": "12 Walmsley Road",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 5.0,
+   "baths": 4.0,
+   "sqft": 3280.0,
+   "price": 2705000.0,
+   "date": "2026-05-21",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.066048,
+    "lng": -73.498694
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8122237536510863,
+   "ppsf": 824.6951219512196
   }
- }
+ ]
 }

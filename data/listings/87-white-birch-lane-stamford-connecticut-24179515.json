@@ -133,101 +133,141 @@
    "mi": 1.02
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "257-silver-hill-lane-stamford-connecticut-24170879",
-     "addr": "257 Silver Hill Lane",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2269.0,
-     "price": 1075000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-10",
-     "ppsf": 474,
-     "mi": 0.07
-    },
-    {
-     "slug": "232-silver-hill-lane-stamford-connecticut-24157659",
-     "addr": "232 Silver Hill Lane",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 3272.0,
-     "price": 985000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-17",
-     "ppsf": 301,
-     "mi": 0.13
-    },
-    {
-     "slug": "212-high-clear-drive-stamford-connecticut-24152692",
-     "addr": "212 High Clear Drive",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2332.0,
-     "price": 1300000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-19",
-     "ppsf": 557,
-     "mi": 0.27
-    },
-    {
-     "slug": "28-walnut-ridge-lane-stamford-connecticut-24178549",
-     "addr": "28 Walnut Ridge Lane",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 5.0,
-     "sqft": 4164.0,
-     "price": 1445000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-04",
-     "ppsf": 347,
-     "mi": 0.32
-    },
-    {
-     "slug": "56-lakeview-drive-stamford-connecticut-24170014",
-     "addr": "56 lakeview Drive",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2883.0,
-     "price": 1040816.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-16",
-     "ppsf": 361,
-     "mi": 0.4
-    },
-    {
-     "slug": "179-berrian-road-stamford-connecticut-24165726",
-     "addr": "179 Berrian Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 2.0,
-     "sqft": 2270.0,
-     "price": 1150000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-21",
-     "ppsf": 507,
-     "mi": 0.54
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 985000.0,
-    "high": 1445000.0,
-    "median": 1112500
+ "comps": [
+  {
+   "mls": "24151825",
+   "slug": "10-turner-road-stamford-connecticut-24151825",
+   "address": {
+    "line": "10 Turner Road",
+    "unit": null,
+    "lineWithUnit": "10 Turner Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 3247.0,
+   "price": 1300000.0,
+   "date": "2026-07-01",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.082798,
+    "lng": -73.534536
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9257600911869815,
+   "ppsf": 400.36957191253464
+  },
+  {
+   "mls": "24170014",
+   "slug": "56-lakeview-drive-stamford-connecticut-24170014",
+   "address": {
+    "line": "56 lakeview Drive",
+    "unit": null,
+    "lineWithUnit": "56 lakeview Drive",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2883.0,
+   "price": 1040816.0,
+   "date": "2026-06-16",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.084642,
+    "lng": -73.551589
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6468960293341027,
+   "ppsf": 361.0183836281651
+  },
+  {
+   "mls": "24170879",
+   "slug": "257-silver-hill-lane-stamford-connecticut-24170879",
+   "address": {
+    "line": "257 Silver Hill Lane",
+    "unit": null,
+    "lineWithUnit": "257 Silver Hill Lane",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2269.0,
+   "price": 1075000.0,
+   "date": "2026-07-10",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.085709,
+    "lng": -73.543935
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.10847024037485513,
+   "ppsf": 473.7769942706038
+  },
+  {
+   "mls": "24148356",
+   "slug": "7-dubois-street-stamford-connecticut-24148356",
+   "address": {
+    "line": "7 Dubois Street",
+    "unit": null,
+    "lineWithUnit": "7 Dubois Street",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2036.0,
+   "price": 954000.0,
+   "date": "2026-03-16",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.077353,
+    "lng": -73.549526
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.120073269624468,
+   "ppsf": 468.56581532416504
+  },
+  {
+   "mls": "24152692",
+   "slug": "212-high-clear-drive-stamford-connecticut-24152692",
+   "address": {
+    "line": "212 High Clear Drive",
+    "unit": null,
+    "lineWithUnit": "212 High Clear Drive",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2332.0,
+   "price": 1300000.0,
+   "date": "2026-03-19",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.083672,
+    "lng": -73.541009
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.4318212807738419,
+   "ppsf": 557.4614065180103
   }
- }
+ ]
 }

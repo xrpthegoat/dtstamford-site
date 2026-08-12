@@ -134,101 +134,141 @@
    "mi": 1.51
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "49-mollbrook-drive-wilton-connecticut-24173839",
-     "addr": "49 Mollbrook Drive",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 3892.0,
-     "price": 1650000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-22",
-     "ppsf": 424,
-     "mi": 0.44
-    },
-    {
-     "slug": "49-heather-lane-wilton-connecticut-24182497",
-     "addr": "49 Heather Lane",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2171.0,
-     "price": 1255000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-06",
-     "ppsf": 578,
-     "mi": 0.53
-    },
-    {
-     "slug": "6-downe-lane-wilton-connecticut-24155517",
-     "addr": "6 Downe Lane",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2862.0,
-     "price": 1160000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-06",
-     "ppsf": 405,
-     "mi": 0.57
-    },
-    {
-     "slug": "209-westport-road-wilton-connecticut-24170772",
-     "addr": "209 Westport Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 2.0,
-     "sqft": 2964.0,
-     "price": 1055000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-31",
-     "ppsf": 356,
-     "mi": 0.57
-    },
-    {
-     "slug": "141-cavalry-road-wilton-connecticut-24169957",
-     "addr": "141 Cavalry Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 2840.0,
-     "price": 1200000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-22",
-     "ppsf": 423,
-     "mi": 0.63
-    },
-    {
-     "slug": "381-chestnut-hill-road-norwalk-connecticut-24147896",
-     "addr": "381 Chestnut Hill Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 3438.0,
-     "price": 1325000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-10",
-     "ppsf": 385,
-     "mi": 0.7
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 1055000.0,
-    "high": 1650000.0,
-    "median": 1227500
+ "comps": [
+  {
+   "mls": "24089948",
+   "slug": "89-chestnut-hill-road-wilton-connecticut-24089948",
+   "address": {
+    "line": "89 Chestnut Hill Road",
+    "unit": null,
+    "lineWithUnit": "89 Chestnut Hill Road",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
    },
-   "radiusMi": 0.75
+   "beds": 6.0,
+   "baths": 5.0,
+   "sqft": 5576.0,
+   "price": 2206020.0,
+   "date": "2026-05-12",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.177452,
+    "lng": -73.392882
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.36736787254097075,
+   "ppsf": 395.6276901004304
+  },
+  {
+   "mls": "24173839",
+   "slug": "49-mollbrook-drive-wilton-connecticut-24173839",
+   "address": {
+    "line": "49 Mollbrook Drive",
+    "unit": null,
+    "lineWithUnit": "49 Mollbrook Drive",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 3892.0,
+   "price": 1650000.0,
+   "date": "2026-07-22",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.175184,
+    "lng": -73.385484
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7067010492111975,
+   "ppsf": 423.9465570400822
+  },
+  {
+   "mls": "24083683",
+   "slug": "33-middlebrook-farm-road-wilton-connecticut-24083683",
+   "address": {
+    "line": "33 Middlebrook Farm Road",
+    "unit": null,
+    "lineWithUnit": "33 Middlebrook Farm Road",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 5.0,
+   "baths": 7.0,
+   "sqft": 5860.0,
+   "price": 2335000.0,
+   "date": "2026-03-31",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.203682,
+    "lng": -73.447547
+   },
+   "klass": "house",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 5.432811304612154,
+   "ppsf": 398.4641638225256
+  },
+  {
+   "mls": "24153585",
+   "slug": "25-powder-horn-hill-road-wilton-connecticut-24153585",
+   "address": {
+    "line": "25 Powder Horn Hill Road",
+    "unit": null,
+    "lineWithUnit": "25 Powder Horn Hill Road",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 4145.0,
+   "price": 1700000.0,
+   "date": "2026-04-20",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.197811,
+    "lng": -73.42454
+   },
+   "klass": "house",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 3.448292198748571,
+   "ppsf": 410.1326899879373
+  },
+  {
+   "mls": "24152217",
+   "slug": "78-ruscoe-road-wilton-connecticut-24152217",
+   "address": {
+    "line": "78 Ruscoe Road",
+    "unit": null,
+    "lineWithUnit": "78 Ruscoe Road",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 3646.0,
+   "price": 1210000.0,
+   "date": "2026-05-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.231578,
+    "lng": -73.486615
+   },
+   "klass": "house",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 9.85525200581158,
+   "ppsf": 331.8705430608886
   }
- }
+ ]
 }

@@ -133,101 +133,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "40-oenoke-place-stamford-connecticut-24155766",
-     "addr": "40 Oenoke Place Apt 13",
-     "unit": "Apt 13",
-     "beds": 2.0,
-     "baths": 3.0,
-     "sqft": 1400.0,
-     "price": 696000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-31",
-     "ppsf": 497,
-     "mi": 0.13
-    },
-    {
-     "slug": "83-columbus-place-stamford-connecticut-24179222",
-     "addr": "83 Columbus Place Unit A",
-     "unit": "Unit A",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1710.0,
-     "price": 510000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-03",
-     "ppsf": 298,
-     "mi": 0.16
-    },
-    {
-     "slug": "85-camp-avenue-stamford-connecticut-24155495",
-     "addr": "85 Camp Avenue Apt 3B",
-     "unit": "Apt 3B",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1625.0,
-     "price": 640000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-01",
-     "ppsf": 394,
-     "mi": 0.18
-    },
-    {
-     "slug": "85-camp-avenue-stamford-connecticut-24166666",
-     "addr": "85 Camp Avenue Unit 6I",
-     "unit": "Unit 6I",
-     "beds": 2.0,
-     "baths": 3.0,
-     "sqft": 1925.0,
-     "price": 725000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-11",
-     "ppsf": 377,
-     "mi": 0.18
-    },
-    {
-     "slug": "85-camp-avenue-stamford-connecticut-24174799",
-     "addr": "85 Camp Avenue Unit 14E",
-     "unit": "Unit 14E",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1625.0,
-     "price": 620000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-22",
-     "ppsf": 382,
-     "mi": 0.18
-    },
-    {
-     "slug": "85-camp-avenue-stamford-connecticut-24172406",
-     "addr": "85 Camp Avenue Unit 11A",
-     "unit": "Unit 11A",
-     "beds": 2.0,
-     "baths": 3.0,
-     "sqft": 1925.0,
-     "price": 740000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-29",
-     "ppsf": 384,
-     "mi": 0.18
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 510000.0,
-    "high": 740000.0,
-    "median": 668000
+ "comps": [
+  {
+   "mls": "24155495",
+   "slug": "85-camp-avenue-stamford-connecticut-24155495",
+   "address": {
+    "line": "85 Camp Avenue",
+    "unit": "Apt 3B",
+    "lineWithUnit": "85 Camp Avenue Apt 3B",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06907"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1625.0,
+   "price": 640000.0,
+   "date": "2026-05-01",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.09433,
+    "lng": -73.51573
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.2920594296886447,
+   "ppsf": 393.84615384615387
+  },
+  {
+   "mls": "24162414",
+   "slug": "39-woodway-road-stamford-connecticut-24162414",
+   "address": {
+    "line": "39 Woodway Road",
+    "unit": "Unit C5",
+    "lineWithUnit": "39 Woodway Road Unit C5",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06907"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1150.0,
+   "price": 395000.0,
+   "date": "2026-06-12",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.10186,
+    "lng": -73.514556
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.578118388764958,
+   "ppsf": 343.4782608695652
+  },
+  {
+   "mls": "24164798",
+   "slug": "16-bouton-street-east-stamford-connecticut-24164798",
+   "address": {
+    "line": "16 Bouton Street East",
+    "unit": "Unit (16) B6",
+    "lineWithUnit": "16 Bouton Street East Unit (16) B6",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06907"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1350.0,
+   "price": 484900.0,
+   "date": "2026-06-25",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.101124,
+    "lng": -73.515542
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5088698090388896,
+   "ppsf": 359.18518518518516
+  },
+  {
+   "mls": "24174799",
+   "slug": "85-camp-avenue-stamford-connecticut-24174799",
+   "address": {
+    "line": "85 Camp Avenue",
+    "unit": "Unit 14E",
+    "lineWithUnit": "85 Camp Avenue Unit 14E",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06907"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1625.0,
+   "price": 620000.0,
+   "date": "2026-06-22",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.094329,
+    "lng": -73.515733
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.2922727279408407,
+   "ppsf": 381.53846153846155
+  },
+  {
+   "mls": "24154964",
+   "slug": "85-camp-avenue-stamford-connecticut-24154964",
+   "address": {
+    "line": "85 Camp Avenue",
+    "unit": "Apt 18B",
+    "lineWithUnit": "85 Camp Avenue Apt 18B",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06907"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1625.0,
+   "price": 615000.0,
+   "date": "2026-04-20",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.094329,
+    "lng": -73.515733
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.2922727279408407,
+   "ppsf": 378.46153846153845
   }
- }
+ ]
 }

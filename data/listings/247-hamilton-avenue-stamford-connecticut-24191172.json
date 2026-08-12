@@ -122,101 +122,141 @@
    "mi": 0.88
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "24-king-street-stamford-connecticut-24154237",
-     "addr": "24 King Street",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1620.0,
-     "price": 6200.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-28",
-     "ppsf": 4,
-     "mi": 0.09
-    },
-    {
-     "slug": "306-courtland-avenue-stamford-connecticut-24178965",
-     "addr": "306 Courtland Avenue Unit 2",
-     "unit": "Unit 2",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1480.0,
-     "price": 4000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-29",
-     "ppsf": 3,
-     "mi": 0.42
-    },
-    {
-     "slug": "47-hollow-tree-ridge-road-darien-connecticut-24151558",
-     "addr": "47 Hollow Tree Ridge Road Unit 47",
-     "unit": "Unit 47",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1511.0,
-     "price": 6500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-13",
-     "ppsf": 4,
-     "mi": 0.48
-    },
-    {
-     "slug": "13-hollow-tree-ridge-road-darien-connecticut-24158110",
-     "addr": "13 Hollow Tree Ridge Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1498.0,
-     "price": 4500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-27",
-     "ppsf": 3,
-     "mi": 0.53
-    },
-    {
-     "slug": "77-webb-avenue-stamford-connecticut-24175729",
-     "addr": "77 Webb Avenue Unit 8",
-     "unit": "Unit 8",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1444.0,
-     "price": 3500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-01",
-     "ppsf": 2,
-     "mi": 0.54
-    },
-    {
-     "slug": "13-parker-avenue-stamford-connecticut-24183102",
-     "addr": "13 Parker Avenue",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1898.0,
-     "price": 3400.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-03",
-     "ppsf": 2,
-     "mi": 0.63
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 3400.0,
-    "high": 6500.0,
-    "median": 4250
+ "comps": [
+  {
+   "mls": "24148713",
+   "slug": "36-middlebury-street-stamford-connecticut-24148713",
+   "address": {
+    "line": "36 Middlebury Street",
+    "unit": null,
+    "lineWithUnit": "36 Middlebury Street",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 1.0,
+   "sqft": 1365.0,
+   "price": 4500.0,
+   "date": "2026-03-14",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.054045,
+    "lng": -73.506514
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1304387908645057,
+   "ppsf": 3.2967032967032965
+  },
+  {
+   "mls": "24159619",
+   "slug": "35-seaside-avenue-stamford-connecticut-24159619",
+   "address": {
+    "line": "35 Seaside Avenue",
+    "unit": "Apt 35",
+    "lineWithUnit": "35 Seaside Avenue Apt 35",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1534.0,
+   "price": 3450.0,
+   "date": "2026-04-07",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.057468,
+    "lng": -73.511421
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6551469191479258,
+   "ppsf": 2.2490221642764014
+  },
+  {
+   "mls": "24154237",
+   "slug": "24-king-street-stamford-connecticut-24154237",
+   "address": {
+    "line": "24 King Street",
+    "unit": null,
+    "lineWithUnit": "24 King Street",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1620.0,
+   "price": 6200.0,
+   "date": "2026-04-28",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.064059,
+    "lng": -73.510404
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.15244038347020036,
+   "ppsf": 3.8271604938271606
+  },
+  {
+   "mls": "24163698",
+   "slug": "431-glenbrook-road-stamford-connecticut-24163698",
+   "address": {
+    "line": "431 Glenbrook Road",
+    "unit": "Unit 3",
+    "lineWithUnit": "431 Glenbrook Road Unit 3",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06906"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1290.0,
+   "price": 2800.0,
+   "date": "2026-05-15",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.068016,
+    "lng": -73.52072
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8996512194383205,
+   "ppsf": 2.1705426356589146
+  },
+  {
+   "mls": "24156981",
+   "slug": "12-houston-terrace-stamford-connecticut-24156981",
+   "address": {
+    "line": "12 Houston Terrace",
+    "unit": "Unit 4",
+    "lineWithUnit": "12 Houston Terrace Unit 4",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 1200.0,
+   "price": 2300.0,
+   "date": "2026-06-17",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.059467,
+    "lng": -73.50925
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.48739295951257283,
+   "ppsf": 1.9166666666666667
   }
- }
+ ]
 }

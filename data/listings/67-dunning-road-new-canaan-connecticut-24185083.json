@@ -134,85 +134,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "32-west-road-new-canaan-connecticut-24153851",
-     "addr": "32 West Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 6.0,
-     "sqft": 5679.0,
-     "price": 4362500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-30",
-     "ppsf": 768,
-     "mi": 0.38
-    },
-    {
-     "slug": "2-wahackme-lane-new-canaan-connecticut-24150447",
-     "addr": "2 Wahackme Lane",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 5.0,
-     "sqft": 4911.0,
-     "price": 2635000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-30",
-     "ppsf": 537,
-     "mi": 0.48
-    },
-    {
-     "slug": "211-oenoke-ridge-new-canaan-connecticut-24174226",
-     "addr": "211 Oenoke Ridge",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 7.0,
-     "sqft": 6588.0,
-     "price": 6250000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-10",
-     "ppsf": 949,
-     "mi": 0.7
-    },
-    {
-     "slug": "537-oenoke-ridge-new-canaan-connecticut-24161583",
-     "addr": "537 Oenoke Ridge",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 7.0,
-     "sqft": 6823.0,
-     "price": 4700000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 689,
-     "mi": 0.6
-    },
-    {
-     "slug": "146-lambert-road-new-canaan-connecticut-24165514",
-     "addr": "146 Lambert Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 8.0,
-     "sqft": 7443.0,
-     "price": 4695000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 631,
-     "mi": 0.67
-    }
-   ],
-   "summary": {
-    "n": 3,
-    "low": 2635000.0,
-    "high": 6250000.0,
-    "median": 4362500
+ "comps": [
+  {
+   "mls": "24150447",
+   "slug": "2-wahackme-lane-new-canaan-connecticut-24150447",
+   "address": {
+    "line": "2 Wahackme Lane",
+    "unit": null,
+    "lineWithUnit": "2 Wahackme Lane",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
    },
-   "radiusMi": 0.75
+   "beds": 5.0,
+   "baths": 5.0,
+   "sqft": 4911.0,
+   "price": 2635000.0,
+   "date": "2026-03-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.149546,
+    "lng": -73.515542
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7743513769831999,
+   "ppsf": 536.5506006923233
+  },
+  {
+   "mls": "24153851",
+   "slug": "32-west-road-new-canaan-connecticut-24153851",
+   "address": {
+    "line": "32 West Road",
+    "unit": null,
+    "lineWithUnit": "32 West Road",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 5.0,
+   "baths": 6.0,
+   "sqft": 5679.0,
+   "price": 4362500.0,
+   "date": "2026-04-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.159083,
+    "lng": -73.506678
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6175899339315034,
+   "ppsf": 768.1810177848213
+  },
+  {
+   "mls": "24174226",
+   "slug": "211-oenoke-ridge-new-canaan-connecticut-24174226",
+   "address": {
+    "line": "211 Oenoke Ridge",
+    "unit": null,
+    "lineWithUnit": "211 Oenoke Ridge",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 5.0,
+   "baths": 7.0,
+   "sqft": 6588.0,
+   "price": 6250000.0,
+   "date": "2026-08-10",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.155586,
+    "lng": -73.49965
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1217536663923828,
+   "ppsf": 948.6945962355799
+  },
+  {
+   "mls": "170336173",
+   "slug": "240-rosebrook-road-new-canaan-connecticut-170336173",
+   "address": {
+    "line": "240 Rosebrook Road",
+    "unit": null,
+    "lineWithUnit": "240 Rosebrook Road",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 6.0,
+   "baths": 8.0,
+   "sqft": 6700.0,
+   "price": 2970797.0,
+   "date": "2026-05-12",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.166096,
+    "lng": -73.48868
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.31332197771902,
+   "ppsf": 443.40253731343284
+  },
+  {
+   "mls": "24146706",
+   "slug": "111-parish-lane-new-canaan-connecticut-24146706",
+   "address": {
+    "line": "111 Parish Lane",
+    "unit": null,
+    "lineWithUnit": "111 Parish Lane",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 6.0,
+   "baths": 8.0,
+   "sqft": 7315.0,
+   "price": 4500000.0,
+   "date": "2026-03-16",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.13463,
+    "lng": -73.507575
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.4464501695702214,
+   "ppsf": 615.1742993848256
   }
- }
+ ]
 }

@@ -135,125 +135,141 @@
    "walk": 4
   }
  },
- "comps": {
-  "building": {
-   "rows": [
-    {
-     "slug": "51-old-kings-highway-greenwich-connecticut-24164904",
-     "addr": "51 Old Kings Highway Unit 12",
-     "unit": "Unit 12",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 905.0,
-     "price": 4000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-16",
-     "ppsf": 4
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 4000.0,
-    "high": 4000.0,
-    "median": 4000
+ "comps": [
+  {
+   "mls": "24164904",
+   "slug": "51-old-kings-highway-greenwich-connecticut-24164904",
+   "address": {
+    "line": "51 Old Kings Highway",
+    "unit": "Unit 12",
+    "lineWithUnit": "51 Old Kings Highway Unit 12",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06870"
    },
-   "label": "51 Old Kings Highway"
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 905.0,
+   "price": 4000.0,
+   "date": "2026-04-16",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.045959,
+    "lng": -73.572333
+   },
+   "klass": "rental",
+   "tier": 1,
+   "why": "Same building, sold in the last year",
+   "km": 0.0,
+   "ppsf": 4.419889502762431
   },
-  "area": {
-   "rows": [
-    {
-     "slug": "21-whitmore-lane-stamford-connecticut-24187796",
-     "addr": "21 Whitmore Lane Unit 1",
-     "unit": "Unit 1",
-     "beds": 2.0,
-     "baths": 3.0,
-     "sqft": 1400.0,
-     "price": 3600.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-11",
-     "ppsf": 3,
-     "mi": 0.45
-    },
-    {
-     "slug": "74-myano-lane-stamford-connecticut-24173265",
-     "addr": "74 Myano Lane Unit 1",
-     "unit": "Unit 1",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 1000.0,
-     "price": 2500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-31",
-     "ppsf": 2,
-     "mi": 0.54
-    },
-    {
-     "slug": "63-myano-lane-stamford-connecticut-24176870",
-     "addr": "63 Myano Lane Unit 4",
-     "unit": "Unit 4",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1300.0,
-     "price": 3750.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-01",
-     "ppsf": 3,
-     "mi": 0.55
-    },
-    {
-     "slug": "50-alvord-lane-stamford-connecticut-24191341",
-     "addr": "50 Alvord Lane Unit 14",
-     "unit": "Unit 14",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1950.0,
-     "price": 3200.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-01",
-     "ppsf": 2,
-     "mi": 0.55
-    },
-    {
-     "slug": "511-west-main-street-stamford-connecticut-24154625",
-     "addr": "511 West Main Street Apt 6",
-     "unit": "Apt 6",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1136.0,
-     "price": 2750.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-13",
-     "ppsf": 2,
-     "mi": 0.7
-    },
-    {
-     "slug": "77-havemeyer-lane-stamford-connecticut-24188986",
-     "addr": "77 Havemeyer Lane Unit 303",
-     "unit": "Unit 303",
-     "beds": 2.0,
-     "baths": 3.0,
-     "sqft": 1832.0,
-     "price": 6500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-20",
-     "ppsf": 4,
-     "mi": 0.75
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 2500.0,
-    "high": 6500.0,
-    "median": 3400
+  {
+   "mls": "24151269",
+   "slug": "1465-east-putnam-avenue-greenwich-connecticut-24151269",
+   "address": {
+    "line": "1465 East Putnam Avenue",
+    "unit": "Unit 532",
+    "lineWithUnit": "1465 East Putnam Avenue Unit 532",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06870"
    },
-   "radiusMi": 0.75
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 784.0,
+   "price": 2900.0,
+   "date": "2026-04-27",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.046842,
+    "lng": -73.570312
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.1958690262166256,
+   "ppsf": 3.6989795918367347
+  },
+  {
+   "mls": "24144403",
+   "slug": "9-river-road-greenwich-connecticut-24144403",
+   "address": {
+    "line": "9 River Road",
+    "unit": "Unit 411",
+    "lineWithUnit": "9 River Road Unit 411",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06807"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1125.0,
+   "price": 4000.0,
+   "date": "2026-04-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.034423,
+    "lng": -73.595537
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.3308144437685616,
+   "ppsf": 3.5555555555555554
+  },
+  {
+   "mls": "24186022",
+   "slug": "51-forest-avenue-greenwich-connecticut-24186022",
+   "address": {
+    "line": "51 Forest Avenue",
+    "unit": "Unit 24",
+    "lineWithUnit": "51 Forest Avenue Unit 24",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06870"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1160.0,
+   "price": 6500.0,
+   "date": "2026-08-03",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.034892,
+    "lng": -73.565059
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.3735114651404405,
+   "ppsf": 5.603448275862069
+  },
+  {
+   "mls": "24183550",
+   "slug": "7-bible-street-greenwich-connecticut-24183550",
+   "address": {
+    "line": "7 Bible Street",
+    "unit": "Unit 1",
+    "lineWithUnit": "7 Bible Street Unit 1",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06807"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 800.0,
+   "price": 2950.0,
+   "date": "2026-07-03",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.04252,
+    "lng": -73.59561
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.9891931856287675,
+   "ppsf": 3.6875
   }
- }
+ ]
 }

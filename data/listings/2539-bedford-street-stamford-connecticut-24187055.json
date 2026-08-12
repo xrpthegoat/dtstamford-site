@@ -143,101 +143,141 @@
    "walk": 2
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "9-old-north-stamford-road-stamford-connecticut-24162336",
-     "addr": "9 Old North Stamford Road Unit 36A",
-     "unit": "Unit 36A",
-     "beds": 2.0,
-     "baths": 4.0,
-     "sqft": 3691.0,
-     "price": 770000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-26",
-     "ppsf": 209,
-     "mi": 0.0
-    },
-    {
-     "slug": "2700-bedford-street-stamford-connecticut-24177790",
-     "addr": "2700 Bedford Street Unit G",
-     "unit": "Unit G",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1403.0,
-     "price": 567500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-07",
-     "ppsf": 404,
-     "mi": 0.1
-    },
-    {
-     "slug": "2289-bedford-street-stamford-connecticut-24152016",
-     "addr": "2289 Bedford Street Unit G17",
-     "unit": "Unit G17",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1199.0,
-     "price": 599000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-02",
-     "ppsf": 500,
-     "mi": 0.13
-    },
-    {
-     "slug": "2475-summer-street-stamford-connecticut-24146970",
-     "addr": "2475 Summer Street Apt 2I",
-     "unit": "Apt 2I",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 819.0,
-     "price": 320000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-01",
-     "ppsf": 391,
-     "mi": 0.19
-    },
-    {
-     "slug": "2435-bedford-street-stamford-connecticut-24159741",
-     "addr": "2435 Bedford Street Unit 3A",
-     "unit": "Unit 3A",
-     "beds": 2.0,
-     "baths": 4.0,
-     "sqft": 2040.0,
-     "price": 697000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-23",
-     "ppsf": 342,
-     "mi": 0.21
-    },
-    {
-     "slug": "2435-bedford-street-stamford-connecticut-24154386",
-     "addr": "2435 Bedford Street Unit 14D",
-     "unit": "Unit 14D",
-     "beds": 2.0,
-     "baths": 4.0,
-     "sqft": 2211.0,
-     "price": 740000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-01",
-     "ppsf": 335,
-     "mi": 0.21
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 320000.0,
-    "high": 770000.0,
-    "median": 648000
+ "comps": [
+  {
+   "mls": "24159741",
+   "slug": "2435-bedford-street-stamford-connecticut-24159741",
+   "address": {
+    "line": "2435 Bedford Street",
+    "unit": "Unit 3A",
+    "lineWithUnit": "2435 Bedford Street Unit 3A",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 4.0,
+   "sqft": 2040.0,
+   "price": 697000.0,
+   "date": "2026-06-23",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.070549,
+    "lng": -73.541509
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.33558062789652066,
+   "ppsf": 341.6666666666667
+  },
+  {
+   "mls": "24154386",
+   "slug": "2435-bedford-street-stamford-connecticut-24154386",
+   "address": {
+    "line": "2435 Bedford Street",
+    "unit": "Unit 14D",
+    "lineWithUnit": "2435 Bedford Street Unit 14D",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 2.0,
+   "baths": 4.0,
+   "sqft": 2211.0,
+   "price": 740000.0,
+   "date": "2026-07-01",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.070549,
+    "lng": -73.541509
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.33558062789652066,
+   "ppsf": 334.6901854364541
+  },
+  {
+   "mls": "24109603",
+   "slug": "168-colonial-road-stamford-connecticut-24109603",
+   "address": {
+    "line": "168 Colonial Road",
+    "unit": "Apt 6",
+    "lineWithUnit": "168 Colonial Road Apt 6",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06906"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2481.0,
+   "price": 830000.0,
+   "date": "2026-04-06",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.06964,
+    "lng": -73.533138
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0433476857926527,
+   "ppsf": 334.5425231761387
+  },
+  {
+   "mls": "24167249",
+   "slug": "320-strawberry-hill-avenue-stamford-connecticut-24167249",
+   "address": {
+    "line": "320 Strawberry Hill Avenue",
+    "unit": "Unit 16",
+    "lineWithUnit": "320 Strawberry Hill Avenue Unit 16",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 2086.0,
+   "price": 810000.0,
+   "date": "2026-05-29",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.071676,
+    "lng": -73.536909
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7295920320249188,
+   "ppsf": 388.30297219558963
+  },
+  {
+   "mls": "24156906",
+   "slug": "20-third-street-stamford-connecticut-24156906",
+   "address": {
+    "line": "20 Third Street",
+    "unit": "Unit 23",
+    "lineWithUnit": "20 Third Street Unit 23",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2333.0,
+   "price": 845000.0,
+   "date": "2026-07-29",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.064611,
+    "lng": -73.542535
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7181739003397816,
+   "ppsf": 362.1945992284612
   }
- }
+ ]
 }

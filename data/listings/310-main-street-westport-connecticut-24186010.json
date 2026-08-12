@@ -126,31 +126,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "1-woods-grove-road-westport-connecticut-24169653",
-     "addr": "1 Woods Grove Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1545.0,
-     "price": 5500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-18",
-     "ppsf": 4,
-     "mi": 0.09
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 5500.0,
-    "high": 5500.0,
-    "median": 5500
+ "comps": [
+  {
+   "mls": "24169653",
+   "slug": "1-woods-grove-road-westport-connecticut-24169653",
+   "address": {
+    "line": "1 Woods Grove Road",
+    "unit": null,
+    "lineWithUnit": "1 Woods Grove Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1545.0,
+   "price": 5500.0,
+   "date": "2026-07-18",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.15016,
+    "lng": -73.36344
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.1386967346352878,
+   "ppsf": 3.559870550161812
+  },
+  {
+   "mls": "24158964",
+   "slug": "14-burr-road-westport-connecticut-24158964",
+   "address": {
+    "line": "14 Burr Road",
+    "unit": null,
+    "lineWithUnit": "14 Burr Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 2282.0,
+   "price": 7500.0,
+   "date": "2026-05-05",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.136309,
+    "lng": -73.366308
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.550075114175884,
+   "ppsf": 3.286590709903593
+  },
+  {
+   "mls": "24163215",
+   "slug": "11-beechwood-lane-westport-connecticut-24163215",
+   "address": {
+    "line": "11 Beechwood Lane",
+    "unit": null,
+    "lineWithUnit": "11 Beechwood Lane",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 1886.0,
+   "price": 6500.0,
+   "date": "2026-06-06",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.13561,
+    "lng": -73.34497
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.1209038828423146,
+   "ppsf": 3.4464475079533403
+  },
+  {
+   "mls": "24175707",
+   "slug": "251-riverside-avenue-westport-connecticut-24175707",
+   "address": {
+    "line": "251 Riverside Avenue",
+    "unit": "Unit 251 A - 2nd floor",
+    "lineWithUnit": "251 Riverside Avenue Unit 251 A - 2nd floor",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 1560.0,
+   "price": 11000.0,
+   "date": "2026-07-31",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.131784,
+    "lng": -73.367883
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.07020342345478,
+   "ppsf": 7.051282051282051
+  },
+  {
+   "mls": "24159366",
+   "slug": "55-kings-highway-north-westport-connecticut-24159366",
+   "address": {
+    "line": "55 Kings Highway North",
+    "unit": null,
+    "lineWithUnit": "55 Kings Highway North",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1719.0,
+   "price": 10000.0,
+   "date": "2026-06-03",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.13966,
+    "lng": -73.370346
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.3371207493043085,
+   "ppsf": 5.817335660267598
   }
- }
+ ]
 }

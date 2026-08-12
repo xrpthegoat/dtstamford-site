@@ -135,101 +135,141 @@
    "mi": 0.68
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "6-park-lane-darien-connecticut-24167492",
-     "addr": "6 Park Lane",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2108.0,
-     "price": 1550000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-29",
-     "ppsf": 735,
-     "mi": 0.11
-    },
-    {
-     "slug": "34-intervale-road-darien-connecticut-24166383",
-     "addr": "34 Intervale Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 3180.0,
-     "price": 2850000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-22",
-     "ppsf": 896,
-     "mi": 0.24
-    },
-    {
-     "slug": "3-abbey-road-darien-connecticut-24159158",
-     "addr": "3 Abbey Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2450.0,
-     "price": 2258000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-01",
-     "ppsf": 922,
-     "mi": 0.26
-    },
-    {
-     "slug": "19-chester-road-darien-connecticut-24170445",
-     "addr": "19 Chester Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 3264.0,
-     "price": 2365000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-31",
-     "ppsf": 725,
-     "mi": 0.31
-    },
-    {
-     "slug": "25-devon-road-darien-connecticut-24158996",
-     "addr": "25 Devon Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 2.0,
-     "sqft": 1953.0,
-     "price": 1710000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-27",
-     "ppsf": 876,
-     "mi": 0.34
-    },
-    {
-     "slug": "86-middlesex-road-darien-connecticut-24160884",
-     "addr": "86 Middlesex Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2850.0,
-     "price": 2400000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-19",
-     "ppsf": 842,
-     "mi": 0.4
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 1550000.0,
-    "high": 2850000.0,
-    "median": 2311500
+ "comps": [
+  {
+   "mls": "24166383",
+   "slug": "34-intervale-road-darien-connecticut-24166383",
+   "address": {
+    "line": "34 Intervale Road",
+    "unit": null,
+    "lineWithUnit": "34 Intervale Road",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 3180.0,
+   "price": 2850000.0,
+   "date": "2026-06-22",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.075552,
+    "lng": -73.508724
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.3890104778515095,
+   "ppsf": 896.2264150943396
+  },
+  {
+   "mls": "24163569",
+   "slug": "7-walmsley-road-darien-connecticut-24163569",
+   "address": {
+    "line": "7 Walmsley Road",
+    "unit": null,
+    "lineWithUnit": "7 Walmsley Road",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2521.0,
+   "price": 2652500.0,
+   "date": "2026-06-22",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.06658,
+    "lng": -73.498226
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1336247070698786,
+   "ppsf": 1052.1618405394684
+  },
+  {
+   "mls": "24167492",
+   "slug": "6-park-lane-darien-connecticut-24167492",
+   "address": {
+    "line": "6 Park Lane",
+    "unit": null,
+    "lineWithUnit": "6 Park Lane",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2108.0,
+   "price": 1550000.0,
+   "date": "2026-06-29",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.072906,
+    "lng": -73.511431
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.1781959210774208,
+   "ppsf": 735.2941176470588
+  },
+  {
+   "mls": "24172575",
+   "slug": "182-hollow-tree-ridge-road-darien-connecticut-24172575",
+   "address": {
+    "line": "182 Hollow Tree Ridge Road",
+    "unit": null,
+    "lineWithUnit": "182 Hollow Tree Ridge Road",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2067.0,
+   "price": 1825000.0,
+   "date": "2026-06-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.071652,
+    "lng": -73.498637
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9190213680991712,
+   "ppsf": 882.9221093372037
+  },
+  {
+   "mls": "24179173",
+   "slug": "18-charles-street-darien-connecticut-24179173",
+   "address": {
+    "line": "18 Charles Street",
+    "unit": null,
+    "lineWithUnit": "18 Charles Street",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 3000.0,
+   "price": 2310000.0,
+   "date": "2026-07-14",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.071452,
+    "lng": -73.500476
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7669660251301395,
+   "ppsf": 770.0
   }
- }
+ ]
 }

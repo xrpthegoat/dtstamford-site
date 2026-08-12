@@ -132,98 +132,141 @@
    "mi": 1.78
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "281-roxbury-road-stamford-connecticut-24143655",
-     "addr": "281 Roxbury Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 2444.0,
-     "price": 990000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-05",
-     "ppsf": 405,
-     "mi": 0.14
-    },
-    {
-     "slug": "23-maltbie-avenue-stamford-connecticut-24169896",
-     "addr": "23 Maltbie Avenue",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 2281.0,
-     "price": 875000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-15",
-     "ppsf": 384,
-     "mi": 0.51
-    },
-    {
-     "slug": "37-elaine-drive-stamford-connecticut-24165222",
-     "addr": "37 Elaine Drive",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1586.0,
-     "price": 769000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-20",
-     "ppsf": 485,
-     "mi": 0.68
-    },
-    {
-     "slug": "60-arden-lane-stamford-connecticut-24192701",
-     "addr": "60 Arden Lane",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1231.0,
-     "price": 725000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 589,
-     "mi": 0.58
-    },
-    {
-     "slug": "16-wire-mill-road-stamford-connecticut-24186279",
-     "addr": "16 Wire Mill Road Unit A",
-     "unit": "Unit A",
-     "beds": 3.0,
-     "baths": 4.0,
-     "sqft": 3244.0,
-     "price": 1495000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 461,
-     "mi": 0.63
-    },
-    {
-     "slug": "131-clay-hill-road-stamford-connecticut-24188265",
-     "addr": "131 Clay Hill Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1931.0,
-     "price": 799000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 414,
-     "mi": 0.66
-    }
-   ],
-   "summary": {
-    "n": 3,
-    "low": 769000.0,
-    "high": 990000.0,
-    "median": 875000
+ "comps": [
+  {
+   "mls": "24143655",
+   "slug": "281-roxbury-road-stamford-connecticut-24143655",
+   "address": {
+    "line": "281 Roxbury Road",
+    "unit": null,
+    "lineWithUnit": "281 Roxbury Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 2444.0,
+   "price": 990000.0,
+   "date": "2026-05-05",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.09267,
+    "lng": -73.571406
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.22624608514444808,
+   "ppsf": 405.0736497545008
+  },
+  {
+   "mls": "24170715",
+   "slug": "107-barclay-drive-stamford-connecticut-24170715",
+   "address": {
+    "line": "107 Barclay Drive",
+    "unit": null,
+    "lineWithUnit": "107 Barclay Drive",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2168.0,
+   "price": 1425000.0,
+   "date": "2026-07-13",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.102381,
+    "lng": -73.574557
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1011670945111331,
+   "ppsf": 657.2878228782288
+  },
+  {
+   "mls": "24169896",
+   "slug": "23-maltbie-avenue-stamford-connecticut-24169896",
+   "address": {
+    "line": "23 Maltbie Avenue",
+    "unit": null,
+    "lineWithUnit": "23 Maltbie Avenue",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2281.0,
+   "price": 875000.0,
+   "date": "2026-06-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.09955,
+    "lng": -73.563454
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8187697970845751,
+   "ppsf": 383.6036825953529
+  },
+  {
+   "mls": "24170014",
+   "slug": "56-lakeview-drive-stamford-connecticut-24170014",
+   "address": {
+    "line": "56 lakeview Drive",
+    "unit": null,
+    "lineWithUnit": "56 lakeview Drive",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2883.0,
+   "price": 1040816.0,
+   "date": "2026-06-16",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.084642,
+    "lng": -73.551589
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.7502859847993477,
+   "ppsf": 361.0183836281651
+  },
+  {
+   "mls": "24167142",
+   "slug": "702-westover-road-stamford-connecticut-24167142",
+   "address": {
+    "line": "702 Westover Road",
+    "unit": null,
+    "lineWithUnit": "702 Westover Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 3309.0,
+   "price": 1412000.0,
+   "date": "2026-06-29",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.079154,
+    "lng": -73.576238
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.7032116753960027,
+   "ppsf": 426.7150196433968
   }
- }
+ ]
 }

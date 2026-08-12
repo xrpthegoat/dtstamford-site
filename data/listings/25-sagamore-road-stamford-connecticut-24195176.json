@@ -132,44 +132,141 @@
    "mi": 1.43
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "83-sea-beach-drive-stamford-connecticut-24160509",
-     "addr": "83 Sea Beach Drive",
-     "unit": "",
-     "beds": 6.0,
-     "baths": 7.0,
-     "sqft": 4815.0,
-     "price": 2650000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-04",
-     "ppsf": 550,
-     "mi": 0.45
-    },
-    {
-     "slug": "40-rogers-road-stamford-connecticut-24166634",
-     "addr": "40 Rogers Road",
-     "unit": "",
-     "beds": 6.0,
-     "baths": 4.0,
-     "sqft": 5105.0,
-     "price": 2950000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 578,
-     "mi": 0.72
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 2650000.0,
-    "high": 2650000.0,
-    "median": 2650000
+ "comps": [
+  {
+   "mls": "24090362",
+   "slug": "86-wallacks-drive-stamford-connecticut-24090362",
+   "address": {
+    "line": "86 Wallacks Drive",
+    "unit": null,
+    "lineWithUnit": "86 Wallacks Drive",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
    },
-   "radiusMi": 0.75
+   "beds": 6.0,
+   "baths": 6.0,
+   "sqft": 6543.0,
+   "price": 3032000.0,
+   "date": "2026-04-24",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.03993,
+    "lng": -73.508364
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.7717927540888543,
+   "ppsf": 463.39599572061746
+  },
+  {
+   "mls": "24134364",
+   "slug": "177-long-close-road-stamford-connecticut-24134364",
+   "address": {
+    "line": "177 Long Close Road",
+    "unit": null,
+    "lineWithUnit": "177 Long Close Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 6.0,
+   "baths": 8.0,
+   "sqft": 8543.0,
+   "price": 3125000.0,
+   "date": "2026-03-18",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.085098,
+    "lng": -73.574809
+   },
+   "klass": "house",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 7.120455733422671,
+   "ppsf": 365.7965585859768
+  },
+  {
+   "mls": "24162502",
+   "slug": "31-rosano-road-stamford-connecticut-24162502",
+   "address": {
+    "line": "31 Rosano Road",
+    "unit": null,
+    "lineWithUnit": "31 Rosano Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 6.0,
+   "baths": 5.0,
+   "sqft": 6000.0,
+   "price": 2149000.0,
+   "date": "2026-05-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.086895,
+    "lng": -73.55289
+   },
+   "klass": "house",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 6.456945906992991,
+   "ppsf": 358.1666666666667
+  },
+  {
+   "mls": "24159152",
+   "slug": "40-wildwood-road-stamford-connecticut-24159152",
+   "address": {
+    "line": "40 Wildwood Road",
+    "unit": null,
+    "lineWithUnit": "40 Wildwood Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
+   },
+   "beds": 5.0,
+   "baths": 7.0,
+   "sqft": 6034.0,
+   "price": 1675000.0,
+   "date": "2026-06-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.135593,
+    "lng": -73.58187
+   },
+   "klass": "house",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 12.382255892213914,
+   "ppsf": 277.5936360623136
+  },
+  {
+   "mls": "24166767",
+   "slug": "81-pinewood-road-stamford-connecticut-24166767",
+   "address": {
+    "line": "81 Pinewood Road",
+    "unit": null,
+    "lineWithUnit": "81 Pinewood Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
+   },
+   "beds": 5.0,
+   "baths": 6.0,
+   "sqft": 5272.0,
+   "price": 2120000.0,
+   "date": "2026-06-29",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.15034,
+    "lng": -73.541847
+   },
+   "klass": "house",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 13.19176736893964,
+   "ppsf": 402.12443095599394
   }
- }
+ ]
 }

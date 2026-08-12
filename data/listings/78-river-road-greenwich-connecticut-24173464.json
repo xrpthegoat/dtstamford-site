@@ -131,86 +131,141 @@
    "mi": 1.35
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "20-orchard-street-greenwich-connecticut-24174811",
-     "addr": "20 Orchard Street",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 2681.0,
-     "price": 8600.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-26",
-     "ppsf": 3,
-     "mi": 0.21
-    },
-    {
-     "slug": "156-river-rd-extension-greenwich-connecticut-24146768",
-     "addr": "156 River Rd Extension Unit 3",
-     "unit": "Unit 3",
-     "beds": 3.0,
-     "baths": 1.0,
-     "sqft": 1500.0,
-     "price": 3150.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-17",
-     "ppsf": 2,
-     "mi": 0.26
-    },
-    {
-     "slug": "213-b-river-rd-extension-greenwich-connecticut-24159440",
-     "addr": "213 B River Rd Extension Unit 1",
-     "unit": "Unit 1",
-     "beds": 3.0,
-     "baths": 4.0,
-     "sqft": 1640.0,
-     "price": 5200.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-23",
-     "ppsf": 3,
-     "mi": 0.29
-    },
-    {
-     "slug": "75-strickland-road-greenwich-connecticut-24164202",
-     "addr": "75 Strickland Road Unit F",
-     "unit": "Unit F",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1930.0,
-     "price": 7900.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-23",
-     "ppsf": 4,
-     "mi": 0.63
-    },
-    {
-     "slug": "80-east-putnam-avenue-greenwich-connecticut-24193417",
-     "addr": "80 East Putnam Avenue",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 4.0,
-     "sqft": 1934.0,
-     "price": 6800.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 4,
-     "mi": 0.55
-    }
-   ],
-   "summary": {
-    "n": 4,
-    "low": 3150.0,
-    "high": 8600.0,
-    "median": 6550
+ "comps": [
+  {
+   "mls": "24164202",
+   "slug": "75-strickland-road-greenwich-connecticut-24164202",
+   "address": {
+    "line": "75 Strickland Road",
+    "unit": "Unit F",
+    "lineWithUnit": "75 Strickland Road Unit F",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06807"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1930.0,
+   "price": 7900.0,
+   "date": "2026-04-23",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.031902,
+    "lng": -73.59796
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0209653635665066,
+   "ppsf": 4.0932642487046635
+  },
+  {
+   "mls": "24174811",
+   "slug": "20-orchard-street-greenwich-connecticut-24174811",
+   "address": {
+    "line": "20 Orchard Street",
+    "unit": null,
+    "lineWithUnit": "20 Orchard Street",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06807"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2681.0,
+   "price": 8600.0,
+   "date": "2026-05-26",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.041247,
+    "lng": -73.596248
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.33047966168356546,
+   "ppsf": 3.207758299142111
+  },
+  {
+   "mls": "24180840",
+   "slug": "28-pleasant-street-greenwich-connecticut-24180840",
+   "address": {
+    "line": "28 Pleasant Street",
+    "unit": null,
+    "lineWithUnit": "28 Pleasant Street",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06807"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2140.0,
+   "price": 6400.0,
+   "date": "2026-06-11",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.045901,
+    "lng": -73.598332
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8012298766499556,
+   "ppsf": 2.9906542056074765
+  },
+  {
+   "mls": "24163902",
+   "slug": "51-forest-avenue-greenwich-connecticut-24163902",
+   "address": {
+    "line": "51 Forest Avenue",
+    "unit": "Unit 25",
+    "lineWithUnit": "51 Forest Avenue Unit 25",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06870"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2271.0,
+   "price": 8500.0,
+   "date": "2026-04-20",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.034892,
+    "lng": -73.565059
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.3817332822349053,
+   "ppsf": 3.742844561867019
+  },
+  {
+   "mls": "24175897",
+   "slug": "272-valley-road-greenwich-connecticut-24175897",
+   "address": {
+    "line": "272 Valley Road",
+    "unit": "Unit 2",
+    "lineWithUnit": "272 Valley Road Unit 2",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06807"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 2423.0,
+   "price": 2800.0,
+   "date": "2026-06-21",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.05687,
+    "lng": -73.58423
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.9877957246525866,
+   "ppsf": 1.1555922410235246
   }
- }
+ ]
 }

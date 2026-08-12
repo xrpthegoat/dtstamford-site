@@ -128,31 +128,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "28-oak-street-westport-connecticut-24170995",
-     "addr": "28 Oak Street",
-     "unit": "",
-     "beds": 6.0,
-     "baths": 6.0,
-     "sqft": 4742.0,
-     "price": 35000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-25",
-     "ppsf": 7,
-     "mi": 0.71
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 35000.0,
-    "high": 35000.0,
-    "median": 35000
+ "comps": [
+  {
+   "mls": "24159420",
+   "slug": "62-weston-road-westport-connecticut-24159420",
+   "address": {
+    "line": "62 Weston Road",
+    "unit": null,
+    "lineWithUnit": "62 Weston Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 7.0,
+   "sqft": 6821.0,
+   "price": 58000.0,
+   "date": "2026-07-14",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.17071,
+    "lng": -73.35941
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8425123328905197,
+   "ppsf": 8.503152030494062
+  },
+  {
+   "mls": "24170995",
+   "slug": "28-oak-street-westport-connecticut-24170995",
+   "address": {
+    "line": "28 Oak Street",
+    "unit": null,
+    "lineWithUnit": "28 Oak Street",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 6.0,
+   "baths": 6.0,
+   "sqft": 4742.0,
+   "price": 35000.0,
+   "date": "2026-06-25",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.157807,
+    "lng": -73.362873
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1392407160142115,
+   "ppsf": 7.3808519611978065
+  },
+  {
+   "mls": "24166654",
+   "slug": "38-berndale-drive-westport-connecticut-24166654",
+   "address": {
+    "line": "38 Berndale Drive",
+    "unit": null,
+    "lineWithUnit": "38 Berndale Drive",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 6.0,
+   "baths": 4.0,
+   "sqft": 5284.0,
+   "price": 14000.0,
+   "date": "2026-06-15",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.155884,
+    "lng": -73.34259
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.4946528331939577,
+   "ppsf": 2.6495079485238455
+  },
+  {
+   "mls": "24158398",
+   "slug": "95-compo-road-north-westport-connecticut-24158398",
+   "address": {
+    "line": "95 Compo Road North",
+    "unit": null,
+    "lineWithUnit": "95 Compo Road North",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 4225.0,
+   "price": 19000.0,
+   "date": "2026-06-17",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.150368,
+    "lng": -73.35427
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.2102512244712917,
+   "ppsf": 4.497041420118343
+  },
+  {
+   "mls": "24157309",
+   "slug": "74-bulkley-avenue-north-westport-connecticut-24157309",
+   "address": {
+    "line": "74 Bulkley Avenue North",
+    "unit": null,
+    "lineWithUnit": "74 Bulkley Avenue North",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 5.0,
+   "baths": 6.0,
+   "sqft": 7242.0,
+   "price": 15500.0,
+   "date": "2026-03-16",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.147552,
+    "lng": -73.306885
+   },
+   "klass": "rental",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 5.588276390270159,
+   "ppsf": 2.140292736813035
   }
- }
+ ]
 }

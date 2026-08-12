@@ -123,101 +123,141 @@
    "walk": 5
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "2700-bedford-street-stamford-connecticut-24169832",
-     "addr": "2700 Bedford Street Unit O",
-     "unit": "Unit O",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1410.0,
-     "price": 4000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-28",
-     "ppsf": 3,
-     "mi": 0.38
-    },
-    {
-     "slug": "20-third-street-stamford-connecticut-24158555",
-     "addr": "20 Third Street Unit 18",
-     "unit": "Unit 18",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1645.0,
-     "price": 4900.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-09",
-     "ppsf": 3,
-     "mi": 0.45
-    },
-    {
-     "slug": "20-third-street-stamford-connecticut-24175898",
-     "addr": "20 Third Street Unit 19",
-     "unit": "Unit 19",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1610.0,
-     "price": 4800.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-27",
-     "ppsf": 3,
-     "mi": 0.45
-    },
-    {
-     "slug": "102-old-barn-road-west-stamford-connecticut-24183339",
-     "addr": "102 Old Barn Road West",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1414.0,
-     "price": 4500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-19",
-     "ppsf": 3,
-     "mi": 0.49
-    },
-    {
-     "slug": "2-washington-court-stamford-connecticut-24150917",
-     "addr": "2 Washington Court Unit 12",
-     "unit": "Unit 12",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1064.0,
-     "price": 3190.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-01",
-     "ppsf": 3,
-     "mi": 0.63
-    },
-    {
-     "slug": "29-dolsen-place-stamford-connecticut-24154904",
-     "addr": "29 Dolsen Place Unit 2",
-     "unit": "Unit 2",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1400.0,
-     "price": 3600.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-21",
-     "ppsf": 3,
-     "mi": 0.73
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 3190.0,
-    "high": 4900.0,
-    "median": 4250
+ "comps": [
+  {
+   "mls": "24158555",
+   "slug": "20-third-street-stamford-connecticut-24158555",
+   "address": {
+    "line": "20 Third Street",
+    "unit": "Unit 18",
+    "lineWithUnit": "20 Third Street Unit 18",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1645.0,
+   "price": 4900.0,
+   "date": "2026-05-09",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.06464,
+    "lng": -73.54251
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7224813586628139,
+   "ppsf": 2.978723404255319
+  },
+  {
+   "mls": "24175898",
+   "slug": "20-third-street-stamford-connecticut-24175898",
+   "address": {
+    "line": "20 Third Street",
+    "unit": "Unit 19",
+    "lineWithUnit": "20 Third Street Unit 19",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1610.0,
+   "price": 4800.0,
+   "date": "2026-05-27",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.06464,
+    "lng": -73.54251
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7224813586628139,
+   "ppsf": 2.981366459627329
+  },
+  {
+   "mls": "24180915",
+   "slug": "9-old-north-stamford-road-stamford-connecticut-24180915",
+   "address": {
+    "line": "9 Old North Stamford Road",
+    "unit": "Unit 35G",
+    "lineWithUnit": "9 Old North Stamford Road Unit 35G",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 1.0,
+   "baths": 3.0,
+   "sqft": 1916.0,
+   "price": 2700.0,
+   "date": "2026-06-03",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.070557,
+    "lng": -73.54574
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.698659611717077,
+   "ppsf": 1.4091858037578289
+  },
+  {
+   "mls": "24169832",
+   "slug": "2700-bedford-street-stamford-connecticut-24169832",
+   "address": {
+    "line": "2700 Bedford Street",
+    "unit": "Unit O",
+    "lineWithUnit": "2700 Bedford Street Unit O",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1410.0,
+   "price": 4000.0,
+   "date": "2026-06-28",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.07051,
+    "lng": -73.547325
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6185921585473756,
+   "ppsf": 2.8368794326241136
+  },
+  {
+   "mls": "24178813",
+   "slug": "1611-washington-boulevard-stamford-connecticut-24178813",
+   "address": {
+    "line": "1611 Washington Boulevard",
+    "unit": "Unit 2",
+    "lineWithUnit": "1611 Washington Boulevard Unit 2",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 1566.0,
+   "price": 3450.0,
+   "date": "2026-07-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.06157,
+    "lng": -73.54351
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7783833453346706,
+   "ppsf": 2.203065134099617
   }
- }
+ ]
 }

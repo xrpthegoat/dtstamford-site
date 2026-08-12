@@ -119,151 +119,141 @@
    "mi": 0.64
   }
  },
- "comps": {
-  "building": {
-   "rows": [
-    {
-     "slug": "25-grand-street-norwalk-connecticut-24173553",
-     "addr": "25 Grand Street Unit 240",
-     "unit": "Unit 240",
-     "beds": 1.0,
-     "baths": 2.0,
-     "sqft": 825.0,
-     "price": 2500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-02",
-     "ppsf": 3
-    },
-    {
-     "slug": "25-grand-street-norwalk-connecticut-24166642",
-     "addr": "25 Grand Street Unit 105",
-     "unit": "Unit 105",
-     "beds": 1.0,
-     "baths": 2.0,
-     "sqft": 725.0,
-     "price": 2650.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-01",
-     "ppsf": 4
-    },
-    {
-     "slug": "25-grand-street-norwalk-connecticut-24135547",
-     "addr": "25 Grand Street Apt 104",
-     "unit": "Apt 104",
-     "beds": 1.0,
-     "baths": 2.0,
-     "sqft": 730.0,
-     "price": 2400.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-01",
-     "ppsf": 3
-    }
-   ],
-   "summary": {
-    "n": 3,
-    "low": 2400.0,
-    "high": 2650.0,
-    "median": 2500
+ "comps": [
+  {
+   "mls": "24135547",
+   "slug": "25-grand-street-norwalk-connecticut-24135547",
+   "address": {
+    "line": "25 Grand Street",
+    "unit": "Apt 104",
+    "lineWithUnit": "25 Grand Street Apt 104",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
    },
-   "label": "25 Grand Street"
+   "beds": 1.0,
+   "baths": 2.0,
+   "sqft": 730.0,
+   "price": 2400.0,
+   "date": "2026-04-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.124688,
+    "lng": -73.423326
+   },
+   "klass": "rental",
+   "tier": 1,
+   "why": "Same building, sold in the last year",
+   "km": 0.04751219328775355,
+   "ppsf": 3.287671232876712
   },
-  "area": {
-   "rows": [
-    {
-     "slug": "59-fair-street-norwalk-connecticut-24189427",
-     "addr": "59 Fair Street",
-     "unit": "",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 676.0,
-     "price": 2200.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-01",
-     "ppsf": 3,
-     "mi": 0.08
-    },
-    {
-     "slug": "66-wilton-avenue-norwalk-connecticut-24171850",
-     "addr": "66 Wilton Avenue Unit 9",
-     "unit": "Unit 9",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 800.0,
-     "price": 1995.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-30",
-     "ppsf": 2,
-     "mi": 0.18
-    },
-    {
-     "slug": "168-main-street-norwalk-connecticut-24174451",
-     "addr": "168 Main Street Unit 3B",
-     "unit": "Unit 3B",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 500.0,
-     "price": 1400.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-01",
-     "ppsf": 3,
-     "mi": 0.22
-    },
-    {
-     "slug": "168-main-street-norwalk-connecticut-24182641",
-     "addr": "168 Main Street Unit 3A",
-     "unit": "Unit 3A",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 650.0,
-     "price": 1950.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-13",
-     "ppsf": 3,
-     "mi": 0.22
-    },
-    {
-     "slug": "25-west-main-street-norwalk-connecticut-24192098",
-     "addr": "25 West Main Street Unit 8",
-     "unit": "Unit 8",
-     "beds": 1.0,
-     "baths": 2.0,
-     "sqft": 634.0,
-     "price": 2300.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-11",
-     "ppsf": 4,
-     "mi": 0.24
-    },
-    {
-     "slug": "14-center-avenue-norwalk-connecticut-24161730",
-     "addr": "14 Center Avenue Unit 1N",
-     "unit": "Unit 1N",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 500.0,
-     "price": 1900.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-13",
-     "ppsf": 4,
-     "mi": 0.28
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 1400.0,
-    "high": 2300.0,
-    "median": 1972
+  {
+   "mls": "24166642",
+   "slug": "25-grand-street-norwalk-connecticut-24166642",
+   "address": {
+    "line": "25 Grand Street",
+    "unit": "Unit 105",
+    "lineWithUnit": "25 Grand Street Unit 105",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
    },
-   "radiusMi": 0.75
+   "beds": 1.0,
+   "baths": 2.0,
+   "sqft": 725.0,
+   "price": 2650.0,
+   "date": "2026-06-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.124687,
+    "lng": -73.423325
+   },
+   "klass": "rental",
+   "tier": 1,
+   "why": "Same building, sold in the last year",
+   "km": 0.04762960927226886,
+   "ppsf": 3.6551724137931036
+  },
+  {
+   "mls": "24173553",
+   "slug": "25-grand-street-norwalk-connecticut-24173553",
+   "address": {
+    "line": "25 Grand Street",
+    "unit": "Unit 240",
+    "lineWithUnit": "25 Grand Street Unit 240",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 1.0,
+   "baths": 2.0,
+   "sqft": 825.0,
+   "price": 2500.0,
+   "date": "2026-06-02",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.124687,
+    "lng": -73.423325
+   },
+   "klass": "rental",
+   "tier": 1,
+   "why": "Same building, sold in the last year",
+   "km": 0.04762960927226886,
+   "ppsf": 3.0303030303030303
+  },
+  {
+   "mls": "24149160",
+   "slug": "50-aiken-street-norwalk-connecticut-24149160",
+   "address": {
+    "line": "50 Aiken Street",
+    "unit": "Unit 225",
+    "lineWithUnit": "50 Aiken Street Unit 225",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 736.0,
+   "price": 2100.0,
+   "date": "2026-03-15",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.132792,
+    "lng": -73.421743
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8645614807221822,
+   "ppsf": 2.8532608695652173
+  },
+  {
+   "mls": "24156052",
+   "slug": "14-1-2-fairview-avenue-norwalk-connecticut-24156052",
+   "address": {
+    "line": "14 1/2 Fairview Avenue",
+    "unit": "Unit D6",
+    "lineWithUnit": "14 1/2 Fairview Avenue Unit D6",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 654.0,
+   "price": 2100.0,
+   "date": "2026-03-17",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.11538,
+    "lng": -73.422941
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0829678059038363,
+   "ppsf": 3.2110091743119265
   }
- }
+ ]
 }

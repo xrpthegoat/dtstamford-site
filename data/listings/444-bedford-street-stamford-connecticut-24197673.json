@@ -123,101 +123,141 @@
    "walk": 2
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "641-summer-street-stamford-connecticut-24174372",
-     "addr": "641 Summer Street Unit 6",
-     "unit": "Unit 6",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 661.0,
-     "price": 260000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-23",
-     "ppsf": 393,
-     "mi": 0.09
-    },
-    {
-     "slug": "833-summer-street-stamford-connecticut-24164255",
-     "addr": "833 Summer Street Unit 2E",
-     "unit": "Unit 2E",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 712.0,
-     "price": 300000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-16",
-     "ppsf": 421,
-     "mi": 0.09
-    },
-    {
-     "slug": "700-summer-street-stamford-connecticut-24148008",
-     "addr": "700 Summer Street Unit 6G",
-     "unit": "Unit 6G",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 478.0,
-     "price": 245000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-10",
-     "ppsf": 513,
-     "mi": 0.12
-    },
-    {
-     "slug": "700-summer-street-stamford-connecticut-24174543",
-     "addr": "700 Summer Street Unit 7G",
-     "unit": "Unit 7G",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 478.0,
-     "price": 235000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-24",
-     "ppsf": 492,
-     "mi": 0.12
-    },
-    {
-     "slug": "25-forest-street-stamford-connecticut-24184338",
-     "addr": "25 Forest Street Unit 7F",
-     "unit": "Unit 7F",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 875.0,
-     "price": 455000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-15",
-     "ppsf": 520,
-     "mi": 0.15
-    },
-    {
-     "slug": "25-forest-street-stamford-connecticut-24150167",
-     "addr": "25 Forest Street Unit 15E",
-     "unit": "Unit 15E",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 783.0,
-     "price": 435000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-31",
-     "ppsf": 556,
-     "mi": 0.15
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 235000.0,
-    "high": 455000.0,
-    "median": 280000
+ "comps": [
+  {
+   "mls": "24153809",
+   "slug": "127-greyrock-place-stamford-connecticut-24153809",
+   "address": {
+    "line": "127 Greyrock Place",
+    "unit": "Apt 1401",
+    "lineWithUnit": "127 Greyrock Place Apt 1401",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06901"
    },
-   "radiusMi": 0.75
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 764.0,
+   "price": 364500.0,
+   "date": "2026-04-10",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.054543,
+    "lng": -73.535805
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.46134774798760336,
+   "ppsf": 477.09424083769636
+  },
+  {
+   "mls": "24164255",
+   "slug": "833-summer-street-stamford-connecticut-24164255",
+   "address": {
+    "line": "833 Summer Street",
+    "unit": "Unit 2E",
+    "lineWithUnit": "833 Summer Street Unit 2E",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06901"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 712.0,
+   "price": 300000.0,
+   "date": "2026-06-16",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.059025,
+    "lng": -73.539654
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.1399705594795474,
+   "ppsf": 421.34831460674155
+  },
+  {
+   "mls": "24140571",
+   "slug": "44-strawberry-hill-avenue-stamford-connecticut-24140571",
+   "address": {
+    "line": "44 Strawberry Hill Avenue",
+    "unit": "Apt 1H",
+    "lineWithUnit": "44 Strawberry Hill Avenue Apt 1H",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 0.0,
+   "baths": 1.0,
+   "sqft": 610.0,
+   "price": 259000.0,
+   "date": "2026-03-25",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.06147,
+    "lng": -73.533742
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5320174632817416,
+   "ppsf": 424.59016393442624
+  },
+  {
+   "mls": "24150167",
+   "slug": "25-forest-street-stamford-connecticut-24150167",
+   "address": {
+    "line": "25 Forest Street",
+    "unit": "Unit 15E",
+    "lineWithUnit": "25 Forest Street Unit 15E",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06901"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 783.0,
+   "price": 435000.0,
+   "date": "2026-03-31",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.056534,
+    "lng": -73.536469
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.2458248294382176,
+   "ppsf": 555.5555555555555
+  },
+  {
+   "mls": "24150595",
+   "slug": "30-glenbrook-road-stamford-connecticut-24150595",
+   "address": {
+    "line": "30 Glenbrook Road",
+    "unit": "Apt 10F",
+    "lineWithUnit": "30 Glenbrook Road Apt 10F",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 800.0,
+   "price": 285000.0,
+   "date": "2026-04-14",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.056417,
+    "lng": -73.529723
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7530098503093725,
+   "ppsf": 356.25
   }
- }
+ ]
 }

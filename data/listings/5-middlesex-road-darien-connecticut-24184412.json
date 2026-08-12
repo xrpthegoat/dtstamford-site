@@ -135,70 +135,141 @@
    "mi": 1.03
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "35-hazel-street-darien-connecticut-24164635",
-     "addr": "35 Hazel Street",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 6.0,
-     "sqft": 4515.0,
-     "price": 3150000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-16",
-     "ppsf": 698,
-     "mi": 0.53
-    },
-    {
-     "slug": "18-phillips-lane-darien-connecticut-24172629",
-     "addr": "18 Phillips Lane",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 4.0,
-     "sqft": 4567.0,
-     "price": 3250000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 712,
-     "mi": 0.12
-    },
-    {
-     "slug": "29-hillcrest-avenue-darien-connecticut-24189152",
-     "addr": "29 Hillcrest Avenue",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 4.0,
-     "sqft": 3621.0,
-     "price": 2795000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 772,
-     "mi": 0.48
-    },
-    {
-     "slug": "44-toms-road-stamford-connecticut-24186121",
-     "addr": "44 Toms Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 4.0,
-     "sqft": 2846.0,
-     "price": 849999.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 299,
-     "mi": 0.53
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 3150000.0,
-    "high": 3150000.0,
-    "median": 3150000
+ "comps": [
+  {
+   "mls": "24164635",
+   "slug": "35-hazel-street-darien-connecticut-24164635",
+   "address": {
+    "line": "35 Hazel Street",
+    "unit": null,
+    "lineWithUnit": "35 Hazel Street",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
    },
-   "radiusMi": 0.75
+   "beds": 5.0,
+   "baths": 6.0,
+   "sqft": 4515.0,
+   "price": 3150000.0,
+   "date": "2026-06-16",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.072379,
+    "lng": -73.505838
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 0.8511403220030738,
+   "ppsf": 697.6744186046511
+  },
+  {
+   "mls": "24167376",
+   "slug": "8-haskell-lane-darien-connecticut-24167376",
+   "address": {
+    "line": "8 Haskell Lane",
+    "unit": null,
+    "lineWithUnit": "8 Haskell Lane",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 6.0,
+   "baths": 6.0,
+   "sqft": 6810.0,
+   "price": 4750000.0,
+   "date": "2026-06-22",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.079929,
+    "lng": -73.495129
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.6873029017457901,
+   "ppsf": 697.503671071953
+  },
+  {
+   "mls": "24174660",
+   "slug": "6-old-parish-road-darien-connecticut-24174660",
+   "address": {
+    "line": "6 Old Parish Road",
+    "unit": null,
+    "lineWithUnit": "6 Old Parish Road",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 4.0,
+   "baths": 5.0,
+   "sqft": 4825.0,
+   "price": 3550000.0,
+   "date": "2026-06-12",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.079616,
+    "lng": -73.485615
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.4624523285404445,
+   "ppsf": 735.7512953367876
+  },
+  {
+   "mls": "24146804",
+   "slug": "32-relihan-road-darien-connecticut-24146804",
+   "address": {
+    "line": "32 Relihan Road",
+    "unit": null,
+    "lineWithUnit": "32 Relihan Road",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 5.0,
+   "baths": 6.0,
+   "sqft": 4900.0,
+   "price": 3100000.0,
+   "date": "2026-06-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.06543,
+    "lng": -73.492871
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.1824426907329917,
+   "ppsf": 632.6530612244898
+  },
+  {
+   "mls": "24150779",
+   "slug": "5-shields-lane-darien-connecticut-24150779",
+   "address": {
+    "line": "5 Shields Lane",
+    "unit": null,
+    "lineWithUnit": "5 Shields Lane",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 4.0,
+   "baths": 7.0,
+   "sqft": 4748.0,
+   "price": 4602000.0,
+   "date": "2026-05-01",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.077452,
+    "lng": -73.489139
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.142109398594612,
+   "ppsf": 969.2502106149958
   }
- }
+ ]
 }

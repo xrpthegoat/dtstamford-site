@@ -132,45 +132,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "245-benedict-hill-road-new-canaan-connecticut-24133809",
-     "addr": "245 Benedict Hill Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 5.0,
-     "sqft": 5300.0,
-     "price": 3600000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-15",
-     "ppsf": 679,
-     "mi": 0.19
-    },
-    {
-     "slug": "30-wild-duck-road-wilton-connecticut-24139563",
-     "addr": "30 Wild Duck Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 5.0,
-     "sqft": 4434.0,
-     "price": 1850000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-31",
-     "ppsf": 417,
-     "mi": 0.51
-    }
-   ],
-   "summary": {
-    "n": 2,
-    "low": 1850000.0,
-    "high": 3600000.0,
-    "median": 2725000
+ "comps": [
+  {
+   "mls": "24133809",
+   "slug": "245-benedict-hill-road-new-canaan-connecticut-24133809",
+   "address": {
+    "line": "245 Benedict Hill Road",
+    "unit": null,
+    "lineWithUnit": "245 Benedict Hill Road",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
    },
-   "radiusMi": 0.75
+   "beds": 5.0,
+   "baths": 5.0,
+   "sqft": 5300.0,
+   "price": 3600000.0,
+   "date": "2026-07-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.192359,
+    "lng": -73.476338
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.306154835964033,
+   "ppsf": 679.2452830188679
+  },
+  {
+   "mls": "24176198",
+   "slug": "493-valley-road-new-canaan-connecticut-24176198",
+   "address": {
+    "line": "493 Valley Road",
+    "unit": null,
+    "lineWithUnit": "493 Valley Road",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 4322.0,
+   "price": 1850000.0,
+   "date": "2026-06-17",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.172348,
+    "lng": -73.476909
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.9751175830125758,
+   "ppsf": 428.04257288292456
+  },
+  {
+   "mls": "24154457",
+   "slug": "792-north-wilton-road-new-canaan-connecticut-24154457",
+   "address": {
+    "line": "792 North Wilton Road",
+    "unit": null,
+    "lineWithUnit": "792 North Wilton Road",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 5.0,
+   "baths": 5.0,
+   "sqft": 5038.0,
+   "price": 2855000.0,
+   "date": "2026-05-28",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.203486,
+    "lng": -73.486659
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.8145224348397804,
+   "ppsf": 566.6931321953156
+  },
+  {
+   "mls": "24152198",
+   "slug": "719-valley-road-new-canaan-connecticut-24152198",
+   "address": {
+    "line": "719 Valley Road",
+    "unit": null,
+    "lineWithUnit": "719 Valley Road",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 5.0,
+   "baths": 5.0,
+   "sqft": 3785.0,
+   "price": 2150000.0,
+   "date": "2026-03-19",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.178364,
+    "lng": -73.48284
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.4742622021047023,
+   "ppsf": 568.0317040951123
+  },
+  {
+   "mls": "24161810",
+   "slug": "160-lantern-ridge-road-new-canaan-connecticut-24161810",
+   "address": {
+    "line": "160 Lantern Ridge Road",
+    "unit": null,
+    "lineWithUnit": "160 Lantern Ridge Road",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 5.0,
+   "baths": 7.0,
+   "sqft": 4367.0,
+   "price": 2200000.0,
+   "date": "2026-07-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.207223,
+    "lng": -73.492288
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.4282033183928746,
+   "ppsf": 503.77833753148616
   }
- }
+ ]
 }

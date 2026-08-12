@@ -132,101 +132,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "205-main-street-new-canaan-connecticut-24174815",
-     "addr": "205 Main Street Unit 36",
-     "unit": "Unit 36",
-     "beds": 3.0,
-     "baths": 4.0,
-     "sqft": 2806.0,
-     "price": 1500000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-30",
-     "ppsf": 535,
-     "mi": 0.15
-    },
-    {
-     "slug": "205-main-street-new-canaan-connecticut-24157292",
-     "addr": "205 Main Street Unit 33",
-     "unit": "Unit 33",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 2620.0,
-     "price": 1475000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-09",
-     "ppsf": 563,
-     "mi": 0.16
-    },
-    {
-     "slug": "377-main-street-new-canaan-connecticut-24155641",
-     "addr": "377 Main Street Apt 17",
-     "unit": "Apt 17",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 2922.0,
-     "price": 1700000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-17",
-     "ppsf": 582,
-     "mi": 0.24
-    },
-    {
-     "slug": "28-east-maple-street-new-canaan-connecticut-24149928",
-     "addr": "28 East Maple Street Unit 28",
-     "unit": "Unit 28",
-     "beds": 3.0,
-     "baths": 4.0,
-     "sqft": 2579.0,
-     "price": 2000000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-29",
-     "ppsf": 775,
-     "mi": 0.31
-    },
-    {
-     "slug": "58-lakeview-avenue-new-canaan-connecticut-24164401",
-     "addr": "58 Lakeview Avenue Unit 9",
-     "unit": "Unit 9",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 2216.0,
-     "price": 1650000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-09",
-     "ppsf": 745,
-     "mi": 0.32
-    },
-    {
-     "slug": "164-summer-street-new-canaan-connecticut-24153987",
-     "addr": "164 Summer Street Apt A",
-     "unit": "Apt A",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 2232.0,
-     "price": 1155000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-02",
-     "ppsf": 517,
-     "mi": 0.33
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 1155000.0,
-    "high": 2000000.0,
-    "median": 1575000
+ "comps": [
+  {
+   "mls": "24171429",
+   "slug": "50-heritage-hill-road-new-canaan-connecticut-24171429",
+   "address": {
+    "line": "50 Heritage Hill Road",
+    "unit": "Unit 50",
+    "lineWithUnit": "50 Heritage Hill Road Unit 50",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2875.0,
+   "price": 1551540.0,
+   "date": "2026-06-23",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.150269,
+    "lng": -73.494933
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0630777370582356,
+   "ppsf": 539.6660869565218
+  },
+  {
+   "mls": "24155641",
+   "slug": "377-main-street-new-canaan-connecticut-24155641",
+   "address": {
+    "line": "377 Main Street",
+    "unit": "Apt 17",
+    "lineWithUnit": "377 Main Street Apt 17",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2922.0,
+   "price": 1700000.0,
+   "date": "2026-04-17",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.140676,
+    "lng": -73.484236
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.3851146439147127,
+   "ppsf": 581.7932922655715
+  },
+  {
+   "mls": "24156529",
+   "slug": "53-bank-street-new-canaan-connecticut-24156529",
+   "address": {
+    "line": "53 Bank Street",
+    "unit": null,
+    "lineWithUnit": "53 Bank Street",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 2611.0,
+   "price": 1565000.0,
+   "date": "2026-04-16",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.138997,
+    "lng": -73.492511
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.4793907507111271,
+   "ppsf": 599.3872079662964
+  },
+  {
+   "mls": "24149928",
+   "slug": "28-east-maple-street-new-canaan-connecticut-24149928",
+   "address": {
+    "line": "28 East Maple Street",
+    "unit": "Unit 28",
+    "lineWithUnit": "28 East Maple Street Unit 28",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 3.0,
+   "baths": 4.0,
+   "sqft": 2579.0,
+   "price": 2000000.0,
+   "date": "2026-04-29",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.146378,
+    "lng": -73.490226
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5040722353545093,
+   "ppsf": 775.4943776657619
+  },
+  {
+   "mls": "24151803",
+   "slug": "302-gramercy-park-new-canaan-connecticut-24151803",
+   "address": {
+    "line": "302 Gramercy Park",
+    "unit": "Unit 302",
+    "lineWithUnit": "302 Gramercy Park Unit 302",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 3.0,
+   "baths": 4.0,
+   "sqft": 2417.0,
+   "price": 2800000.0,
+   "date": "2026-06-05",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.14838248,
+    "lng": -73.4892509
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7079035406390853,
+   "ppsf": 1158.4609019445593
   }
- }
+ ]
 }

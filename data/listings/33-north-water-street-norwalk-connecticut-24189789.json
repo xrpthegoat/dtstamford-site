@@ -135,162 +135,141 @@
    "mi": 0.65
   }
  },
- "comps": {
-  "building": {
-   "rows": [
-    {
-     "slug": "33-north-water-street-norwalk-connecticut-24162479",
-     "addr": "33 North Water Street Unit 607",
-     "unit": "Unit 607",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1407.0,
-     "price": 755000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-05",
-     "ppsf": 537
-    },
-    {
-     "slug": "33-north-water-street-norwalk-connecticut-24158324",
-     "addr": "33 North Water Street Unit 207",
-     "unit": "Unit 207",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1407.0,
-     "price": 699000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-15",
-     "ppsf": 497
-    },
-    {
-     "slug": "33-north-water-street-norwalk-connecticut-24139103",
-     "addr": "33 North Water Street Unit 505",
-     "unit": "Unit 505",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1395.0,
-     "price": 625000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 448
-    },
-    {
-     "slug": "33-north-water-street-norwalk-connecticut-24163011",
-     "addr": "33 North Water Street Unit 604",
-     "unit": "Unit 604",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1392.0,
-     "price": 695000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 499
-    }
-   ],
-   "summary": {
-    "n": 2,
-    "low": 699000.0,
-    "high": 755000.0,
-    "median": 727000
+ "comps": [
+  {
+   "mls": "24158324",
+   "slug": "33-north-water-street-norwalk-connecticut-24158324",
+   "address": {
+    "line": "33 North Water Street",
+    "unit": "Unit 207",
+    "lineWithUnit": "33 North Water Street Unit 207",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
    },
-   "label": "33 North Water Street"
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1407.0,
+   "price": 699000.0,
+   "date": "2026-04-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.102261,
+    "lng": -73.417412
+   },
+   "klass": "condo",
+   "tier": 1,
+   "why": "Same building, sold in the last year",
+   "km": 0.0,
+   "ppsf": 496.80170575692966
   },
-  "area": {
-   "rows": [
-    {
-     "slug": "115-flax-hill-road-norwalk-connecticut-24160936",
-     "addr": "115 Flax Hill Road Apt 6",
-     "unit": "Apt 6",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 862.0,
-     "price": 420000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-16",
-     "ppsf": 487,
-     "mi": 0.37
-    },
-    {
-     "slug": "5-van-zant-street-norwalk-connecticut-24165093",
-     "addr": "5 Van Zant Street Unit 1",
-     "unit": "Unit 1",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 990.0,
-     "price": 420000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-03",
-     "ppsf": 424,
-     "mi": 0.39
-    },
-    {
-     "slug": "71a-osborne-avenue-norwalk-connecticut-24158585",
-     "addr": "71A Osborne Avenue Apt A4",
-     "unit": "Apt A4",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1227.0,
-     "price": 400000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-19",
-     "ppsf": 326,
-     "mi": 0.5
-    },
-    {
-     "slug": "187-flax-hill-road-norwalk-connecticut-24121510",
-     "addr": "187 Flax Hill Road Apt D5",
-     "unit": "Apt D5",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 1088.0,
-     "price": 350000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-15",
-     "ppsf": 322,
-     "mi": 0.52
-    },
-    {
-     "slug": "187-flax-hill-road-norwalk-connecticut-24172753",
-     "addr": "187 Flax Hill Road Unit D1",
-     "unit": "Unit D1",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 1088.0,
-     "price": 415000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-24",
-     "ppsf": 381,
-     "mi": 0.52
-    },
-    {
-     "slug": "39-stuart-avenue-norwalk-connecticut-24180515",
-     "addr": "39 Stuart Avenue Unit 5",
-     "unit": "Unit 5",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1204.0,
-     "price": 420000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-10",
-     "ppsf": 349,
-     "mi": 0.54
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 350000.0,
-    "high": 420000.0,
-    "median": 417500
+  {
+   "mls": "24162479",
+   "slug": "33-north-water-street-norwalk-connecticut-24162479",
+   "address": {
+    "line": "33 North Water Street",
+    "unit": "Unit 607",
+    "lineWithUnit": "33 North Water Street Unit 607",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1407.0,
+   "price": 755000.0,
+   "date": "2026-06-05",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.102261,
+    "lng": -73.417412
+   },
+   "klass": "condo",
+   "tier": 1,
+   "why": "Same building, sold in the last year",
+   "km": 0.0,
+   "ppsf": 536.6027007818053
+  },
+  {
+   "mls": "24138292",
+   "slug": "100-seaview-avenue-norwalk-connecticut-24138292",
+   "address": {
+    "line": "100 Seaview Avenue",
+    "unit": "Unit 3I",
+    "lineWithUnit": "100 Seaview Avenue Unit 3I",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06855"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1178.0,
+   "price": 830000.0,
+   "date": "2026-04-09",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.097333,
+    "lng": -73.405557
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1344770622308589,
+   "ppsf": 704.5840407470289
+  },
+  {
+   "mls": "24180515",
+   "slug": "39-stuart-avenue-norwalk-connecticut-24180515",
+   "address": {
+    "line": "39 Stuart Avenue",
+    "unit": "Unit 5",
+    "lineWithUnit": "39 Stuart Avenue Unit 5",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1204.0,
+   "price": 420000.0,
+   "date": "2026-07-10",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.10821,
+    "lng": -73.42428
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8767623382697347,
+   "ppsf": 348.83720930232556
+  },
+  {
+   "mls": "24121510",
+   "slug": "187-flax-hill-road-norwalk-connecticut-24121510",
+   "address": {
+    "line": "187 Flax Hill Road",
+    "unit": "Apt D5",
+    "lineWithUnit": "187 Flax Hill Road Apt D5",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 1088.0,
+   "price": 350000.0,
+   "date": "2026-05-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.097792,
+    "lng": -73.425433
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8358566376447158,
+   "ppsf": 321.69117647058823
   }
- }
+ ]
 }

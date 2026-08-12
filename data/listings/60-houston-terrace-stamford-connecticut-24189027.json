@@ -122,101 +122,141 @@
    "mi": 0.98
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "77-webb-avenue-stamford-connecticut-24175729",
-     "addr": "77 Webb Avenue Unit 8",
-     "unit": "Unit 8",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1444.0,
-     "price": 3500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-01",
-     "ppsf": 2,
-     "mi": 0.15
-    },
-    {
-     "slug": "36-middlebury-street-stamford-connecticut-24148713",
-     "addr": "36 Middlebury Street",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 1.0,
-     "sqft": 1365.0,
-     "price": 4500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-14",
-     "ppsf": 3,
-     "mi": 0.29
-    },
-    {
-     "slug": "151-seaside-avenue-stamford-connecticut-24161430",
-     "addr": "151 Seaside Avenue Unit 1",
-     "unit": "Unit 1",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1635.0,
-     "price": 3900.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-13",
-     "ppsf": 2,
-     "mi": 0.31
-    },
-    {
-     "slug": "13-hollow-tree-ridge-road-darien-connecticut-24158110",
-     "addr": "13 Hollow Tree Ridge Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1498.0,
-     "price": 4500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-27",
-     "ppsf": 3,
-     "mi": 0.35
-    },
-    {
-     "slug": "24-king-street-stamford-connecticut-24154237",
-     "addr": "24 King Street",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1620.0,
-     "price": 6200.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-28",
-     "ppsf": 4,
-     "mi": 0.43
-    },
-    {
-     "slug": "47-hollow-tree-ridge-road-darien-connecticut-24151558",
-     "addr": "47 Hollow Tree Ridge Road Unit 47",
-     "unit": "Unit 47",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1511.0,
-     "price": 6500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-13",
-     "ppsf": 4,
-     "mi": 0.44
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 3500.0,
-    "high": 6500.0,
-    "median": 4500
+ "comps": [
+  {
+   "mls": "24148713",
+   "slug": "36-middlebury-street-stamford-connecticut-24148713",
+   "address": {
+    "line": "36 Middlebury Street",
+    "unit": null,
+    "lineWithUnit": "36 Middlebury Street",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 1.0,
+   "sqft": 1365.0,
+   "price": 4500.0,
+   "date": "2026-03-14",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.054045,
+    "lng": -73.506514
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.4630569608393648,
+   "ppsf": 3.2967032967032965
+  },
+  {
+   "mls": "24150197",
+   "slug": "104-palmer-avenue-stamford-connecticut-24150197",
+   "address": {
+    "line": "104 Palmer Avenue",
+    "unit": "Unit 1",
+    "lineWithUnit": "104 Palmer Avenue Unit 1",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 1420.0,
+   "price": 2500.0,
+   "date": "2026-03-06",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.050453,
+    "lng": -73.51005
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8499144249994162,
+   "ppsf": 1.7605633802816902
+  },
+  {
+   "mls": "24159619",
+   "slug": "35-seaside-avenue-stamford-connecticut-24159619",
+   "address": {
+    "line": "35 Seaside Avenue",
+    "unit": "Apt 35",
+    "lineWithUnit": "35 Seaside Avenue Apt 35",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1534.0,
+   "price": 3450.0,
+   "date": "2026-04-07",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.057468,
+    "lng": -73.511421
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.2670579249950924,
+   "ppsf": 2.2490221642764014
+  },
+  {
+   "mls": "24154237",
+   "slug": "24-king-street-stamford-connecticut-24154237",
+   "address": {
+    "line": "24 King Street",
+    "unit": null,
+    "lineWithUnit": "24 King Street",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1620.0,
+   "price": 6200.0,
+   "date": "2026-04-28",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.064059,
+    "lng": -73.510404
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6980588161283715,
+   "ppsf": 3.8271604938271606
+  },
+  {
+   "mls": "24167397",
+   "slug": "73-dora-street-stamford-connecticut-24167397",
+   "address": {
+    "line": "73 Dora Street",
+    "unit": "Unit D",
+    "lineWithUnit": "73 Dora Street Unit D",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 1396.0,
+   "price": 3650.0,
+   "date": "2026-05-16",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.05165,
+    "lng": -73.50761
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7066393592379228,
+   "ppsf": 2.6146131805157595
   }
- }
+ ]
 }

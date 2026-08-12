@@ -132,101 +132,141 @@
    "walk": 4
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "186-stillwater-avenue-stamford-connecticut-24158713",
-     "addr": "186 Stillwater Avenue Apt 115",
-     "unit": "Apt 115",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 890.0,
-     "price": 295000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-30",
-     "ppsf": 331,
-     "mi": 0.14
-    },
-    {
-     "slug": "93-spruce-street-stamford-connecticut-24140379",
-     "addr": "93 Spruce Street Apt 11",
-     "unit": "Apt 11",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 950.0,
-     "price": 295000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-09",
-     "ppsf": 311,
-     "mi": 0.22
-    },
-    {
-     "slug": "105-richmond-hill-avenue-stamford-connecticut-24173862",
-     "addr": "105 Richmond Hill Avenue Unit 2",
-     "unit": "Unit 2",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 810.0,
-     "price": 320000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-23",
-     "ppsf": 395,
-     "mi": 0.32
-    },
-    {
-     "slug": "35-west-broad-street-stamford-connecticut-24160059",
-     "addr": "35 West Broad Street Unit 224",
-     "unit": "Unit 224",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1148.0,
-     "price": 526000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-28",
-     "ppsf": 458,
-     "mi": 0.55
-    },
-    {
-     "slug": "25-adams-avenue-stamford-connecticut-24167713",
-     "addr": "25 Adams Avenue Unit 112",
-     "unit": "Unit 112",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1200.0,
-     "price": 517500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-15",
-     "ppsf": 431,
-     "mi": 0.55
-    },
-    {
-     "slug": "25-adams-avenue-stamford-connecticut-24160889",
-     "addr": "25 Adams Avenue Unit 405",
-     "unit": "Unit 405",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1492.0,
-     "price": 610000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-29",
-     "ppsf": 409,
-     "mi": 0.55
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 295000.0,
-    "high": 610000.0,
-    "median": 418750
+ "comps": [
+  {
+   "mls": "24165518",
+   "slug": "1-broad-street-stamford-connecticut-24165518",
+   "address": {
+    "line": "1 Broad Street",
+    "unit": "Unit PH26B",
+    "lineWithUnit": "1 Broad Street Unit PH26B",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06901"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 1738.0,
+   "price": 1025000.0,
+   "date": "2026-06-02",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.05522,
+    "lng": -73.54305
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.04739206513001,
+   "ppsf": 589.7583429228998
+  },
+  {
+   "mls": "24167713",
+   "slug": "25-adams-avenue-stamford-connecticut-24167713",
+   "address": {
+    "line": "25 Adams Avenue",
+    "unit": "Unit 112",
+    "lineWithUnit": "25 Adams Avenue Unit 112",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1200.0,
+   "price": 517500.0,
+   "date": "2026-06-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.05659,
+    "lng": -73.5473
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8916356907745148,
+   "ppsf": 431.25
+  },
+  {
+   "mls": "24170395",
+   "slug": "2-finney-lane-stamford-connecticut-24170395",
+   "address": {
+    "line": "2 Finney Lane",
+    "unit": "Unit 31",
+    "lineWithUnit": "2 Finney Lane Unit 31",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1634.0,
+   "price": 560000.0,
+   "date": "2026-06-11",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.050425,
+    "lng": -73.553449
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.03790114823983247,
+   "ppsf": 342.7172582619339
+  },
+  {
+   "mls": "24162674",
+   "slug": "77-havemeyer-lane-stamford-connecticut-24162674",
+   "address": {
+    "line": "77 Havemeyer Lane",
+    "unit": "Unit 310",
+    "lineWithUnit": "77 Havemeyer Lane Unit 310",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1400.0,
+   "price": 1100000.0,
+   "date": "2026-06-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.055176,
+    "lng": -73.5651
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.123394792846895,
+   "ppsf": 785.7142857142857
+  },
+  {
+   "mls": "24160889",
+   "slug": "25-adams-avenue-stamford-connecticut-24160889",
+   "address": {
+    "line": "25 Adams Avenue",
+    "unit": "Unit 405",
+    "lineWithUnit": "25 Adams Avenue Unit 405",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1492.0,
+   "price": 610000.0,
+   "date": "2026-06-29",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.05659,
+    "lng": -73.5473
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8916356907745148,
+   "ppsf": 408.84718498659515
   }
- }
+ ]
 }

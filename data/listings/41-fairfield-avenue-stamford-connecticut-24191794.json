@@ -127,101 +127,141 @@
    "walk": 3
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "31-fairgate-drive-stamford-connecticut-24155168",
-     "addr": "31 Fairgate Drive",
-     "unit": "",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1188.0,
-     "price": 3100.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-01",
-     "ppsf": 3,
-     "mi": 0.0
-    },
-    {
-     "slug": "22-fairgate-drive-stamford-connecticut-24178424",
-     "addr": "22 Fairgate Drive",
-     "unit": "",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1158.0,
-     "price": 3175.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-20",
-     "ppsf": 3,
-     "mi": 0.0
-    },
-    {
-     "slug": "14-fairgate-drive-stamford-connecticut-24173014",
-     "addr": "14 Fairgate Drive",
-     "unit": "",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1188.0,
-     "price": 3195.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-01",
-     "ppsf": 3,
-     "mi": 0.0
-    },
-    {
-     "slug": "59-liberty-street-stamford-connecticut-24155229",
-     "addr": "59 Liberty Street Apt 21",
-     "unit": "Apt 21",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1582.0,
-     "price": 3300.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-13",
-     "ppsf": 2,
-     "mi": 0.09
-    },
-    {
-     "slug": "59-liberty-street-stamford-connecticut-24189634",
-     "addr": "59 Liberty Street Unit 19",
-     "unit": "Unit 19",
-     "beds": 2.0,
-     "baths": 3.0,
-     "sqft": 1685.0,
-     "price": 3900.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-03",
-     "ppsf": 2,
-     "mi": 0.09
-    },
-    {
-     "slug": "94-liberty-street-stamford-connecticut-24160882",
-     "addr": "94 Liberty Street Unit 12",
-     "unit": "Unit 12",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1300.0,
-     "price": 3150.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-01",
-     "ppsf": 2,
-     "mi": 0.15
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 3100.0,
-    "high": 3900.0,
-    "median": 3185
+ "comps": [
+  {
+   "mls": "24155229",
+   "slug": "59-liberty-street-stamford-connecticut-24155229",
+   "address": {
+    "line": "59 Liberty Street",
+    "unit": "Apt 21",
+    "lineWithUnit": "59 Liberty Street Apt 21",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1582.0,
+   "price": 3300.0,
+   "date": "2026-03-13",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.050089,
+    "lng": -73.553525
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.14802408325637798,
+   "ppsf": 2.0859671302149176
+  },
+  {
+   "mls": "24149354",
+   "slug": "118-summer-street-stamford-connecticut-24149354",
+   "address": {
+    "line": "118 Summer Street",
+    "unit": "Unit 2B",
+    "lineWithUnit": "118 Summer Street Unit 2B",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06901"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 983.0,
+   "price": 2700.0,
+   "date": "2026-03-30",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.054213,
+    "lng": -73.540866
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.030114682074825,
+   "ppsf": 2.7466937945066126
+  },
+  {
+   "mls": "24155168",
+   "slug": "31-fairgate-drive-stamford-connecticut-24155168",
+   "address": {
+    "line": "31 Fairgate Drive",
+    "unit": null,
+    "lineWithUnit": "31 Fairgate Drive",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1188.0,
+   "price": 3100.0,
+   "date": "2026-04-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.049946,
+    "lng": -73.55177
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.0,
+   "ppsf": 2.6094276094276094
+  },
+  {
+   "mls": "24150917",
+   "slug": "2-washington-court-stamford-connecticut-24150917",
+   "address": {
+    "line": "2 Washington Court",
+    "unit": "Unit 12",
+    "lineWithUnit": "2 Washington Court Unit 12",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1064.0,
+   "price": 3190.0,
+   "date": "2026-04-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.057766,
+    "lng": -73.544879
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0440221434631651,
+   "ppsf": 2.9981203007518795
+  },
+  {
+   "mls": "24154625",
+   "slug": "511-west-main-street-stamford-connecticut-24154625",
+   "address": {
+    "line": "511 West Main Street",
+    "unit": "Apt 6",
+    "lineWithUnit": "511 West Main Street Apt 6",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1136.0,
+   "price": 2750.0,
+   "date": "2026-04-13",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.049009,
+    "lng": -73.559602
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6649798247062687,
+   "ppsf": 2.420774647887324
   }
- }
+ ]
 }

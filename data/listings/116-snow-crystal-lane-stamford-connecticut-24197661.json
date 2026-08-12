@@ -121,101 +121,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "20-wild-horse-road-stamford-connecticut-24166729",
-     "addr": "20 Wild Horse Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1890.0,
-     "price": 740000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-05",
-     "ppsf": 392,
-     "mi": 0.18
-    },
-    {
-     "slug": "136-shadow-ridge-road-stamford-connecticut-24150151",
-     "addr": "136 Shadow Ridge Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1314.0,
-     "price": 900000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-17",
-     "ppsf": 685,
-     "mi": 0.27
-    },
-    {
-     "slug": "54-merriman-road-stamford-connecticut-24169145",
-     "addr": "54 Merriman Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1500.0,
-     "price": 650000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-01",
-     "ppsf": 433,
-     "mi": 0.28
-    },
-    {
-     "slug": "55-merriman-road-stamford-connecticut-24144777",
-     "addr": "55 Merriman Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1644.0,
-     "price": 620000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-09",
-     "ppsf": 377,
-     "mi": 0.28
-    },
-    {
-     "slug": "30-archer-lane-stamford-connecticut-24169511",
-     "addr": "30 Archer Lane",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1447.0,
-     "price": 935000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-22",
-     "ppsf": 646,
-     "mi": 0.35
-    },
-    {
-     "slug": "11-barmore-drive-west-stamford-connecticut-24171481",
-     "addr": "11 Barmore Drive West",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1870.0,
-     "price": 665555.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-26",
-     "ppsf": 356,
-     "mi": 0.39
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 620000.0,
-    "high": 935000.0,
-    "median": 702778
+ "comps": [
+  {
+   "mls": "24150151",
+   "slug": "136-shadow-ridge-road-stamford-connecticut-24150151",
+   "address": {
+    "line": "136 Shadow Ridge Road",
+    "unit": null,
+    "lineWithUnit": "136 Shadow Ridge Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1314.0,
+   "price": 900000.0,
+   "date": "2026-04-17",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.099088,
+    "lng": -73.553391
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.4342890533538389,
+   "ppsf": 684.931506849315
+  },
+  {
+   "mls": "24162286",
+   "slug": "64-alpine-street-stamford-connecticut-24162286",
+   "address": {
+    "line": "64 Alpine Street",
+    "unit": null,
+    "lineWithUnit": "64 Alpine Street",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 3.0,
+   "baths": 1.0,
+   "sqft": 1082.0,
+   "price": 651025.0,
+   "date": "2026-06-05",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.108339,
+    "lng": -73.551899
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6896899615673372,
+   "ppsf": 601.6866913123845
+  },
+  {
+   "mls": "24149018",
+   "slug": "154-knox-road-stamford-connecticut-24149018",
+   "address": {
+    "line": "154 Knox Road",
+    "unit": null,
+    "lineWithUnit": "154 Knox Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06907"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1314.0,
+   "price": 826000.0,
+   "date": "2026-03-20",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.097543,
+    "lng": -73.526269
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.0841233383511555,
+   "ppsf": 628.6149162861492
+  },
+  {
+   "mls": "24169855",
+   "slug": "97-ogden-road-stamford-connecticut-24169855",
+   "address": {
+    "line": "97 Ogden Road",
+    "unit": null,
+    "lineWithUnit": "97 Ogden Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1134.0,
+   "price": 644000.0,
+   "date": "2026-07-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.08245,
+    "lng": -73.538469
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.415950695615095,
+   "ppsf": 567.9012345679013
+  },
+  {
+   "mls": "24179043",
+   "slug": "27-lund-avenue-stamford-connecticut-24179043",
+   "address": {
+    "line": "27 Lund Avenue",
+    "unit": null,
+    "lineWithUnit": "27 Lund Avenue",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06907"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1376.0,
+   "price": 685000.0,
+   "date": "2026-07-24",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.097813,
+    "lng": -73.528947
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.8595719294382846,
+   "ppsf": 497.81976744186045
   }
- }
+ ]
 }

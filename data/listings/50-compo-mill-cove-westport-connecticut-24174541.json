@@ -121,38 +121,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "30-edgewater-hillside-westport-connecticut-24187956",
-     "addr": "30 Edgewater Hillside",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 7.0,
-     "sqft": 5372.0,
-     "price": 80000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 15,
-     "mi": 0.24
-    },
-    {
-     "slug": "9-bluewater-hill-westport-connecticut-24175081",
-     "addr": "9 Bluewater Hill",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 6.0,
-     "sqft": 6209.0,
-     "price": 22000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 4,
-     "mi": 0.42
-    }
-   ],
-   "summary": null,
-   "radiusMi": 0.75
+ "comps": [
+  {
+   "mls": "24088536",
+   "slug": "19-bluewater-hill-westport-connecticut-24088536",
+   "address": {
+    "line": "19 Bluewater Hill",
+    "unit": null,
+    "lineWithUnit": "19 Bluewater Hill",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 3066.0,
+   "price": 33541.0,
+   "date": "2026-04-15",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.112705,
+    "lng": -73.34854
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5054317909839299,
+   "ppsf": 10.93966079582518
+  },
+  {
+   "mls": "24151868",
+   "slug": "23-sterling-drive-westport-connecticut-24151868",
+   "address": {
+    "line": "23 Sterling Drive",
+    "unit": null,
+    "lineWithUnit": "23 Sterling Drive",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 6.0,
+   "baths": 6.0,
+   "sqft": 3989.0,
+   "price": 60000.0,
+   "date": "2026-05-19",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.11333,
+    "lng": -73.34785
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.4352401836990538,
+   "ppsf": 15.041363750313362
+  },
+  {
+   "mls": "24140482",
+   "slug": "4-vani-court-westport-connecticut-24140482",
+   "address": {
+    "line": "4 Vani Court",
+    "unit": null,
+    "lineWithUnit": "4 Vani Court",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 5.0,
+   "baths": 6.0,
+   "sqft": 4347.0,
+   "price": 12500.0,
+   "date": "2026-04-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.12019,
+    "lng": -73.362378
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.7930345336095257,
+   "ppsf": 2.8755463538072235
+  },
+  {
+   "mls": "24155986",
+   "slug": "17-ferry-lane-westport-connecticut-24155986",
+   "address": {
+    "line": "17 Ferry Lane",
+    "unit": null,
+    "lineWithUnit": "17 Ferry Lane",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 6.0,
+   "baths": 4.0,
+   "sqft": 3800.0,
+   "price": 11000.0,
+   "date": "2026-06-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.11795,
+    "lng": -73.371704
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.472210318604373,
+   "ppsf": 2.8947368421052633
+  },
+  {
+   "mls": "24155993",
+   "slug": "188-compo-road-south-westport-connecticut-24155993",
+   "address": {
+    "line": "188 Compo Road South",
+    "unit": null,
+    "lineWithUnit": "188 Compo Road South",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 3.0,
+   "baths": 4.0,
+   "sqft": 3090.0,
+   "price": 10750.0,
+   "date": "2026-04-21",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.123113,
+    "lng": -73.361581
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.8876962964570825,
+   "ppsf": 3.4789644012944985
   }
- }
+ ]
 }

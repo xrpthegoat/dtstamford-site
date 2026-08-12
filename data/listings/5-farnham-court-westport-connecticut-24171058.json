@@ -133,86 +133,141 @@
    "mi": 1.59
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "19-east-horseshoe-lane-westport-connecticut-24169575",
-     "addr": "19 East Horseshoe Lane",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 5.0,
-     "sqft": 5476.0,
-     "price": 3200000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-15",
-     "ppsf": 584,
-     "mi": 0.17
-    },
-    {
-     "slug": "28-ferry-lane-east-westport-connecticut-24175264",
-     "addr": "28 Ferry Lane East",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 9.0,
-     "sqft": 8466.0,
-     "price": 6100000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-10",
-     "ppsf": 721,
-     "mi": 0.49
-    },
-    {
-     "slug": "24-compo-parkway-westport-connecticut-24146922",
-     "addr": "24 Compo Parkway",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 6.0,
-     "sqft": 6020.0,
-     "price": 5035000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-20",
-     "ppsf": 836,
-     "mi": 0.66
-    },
-    {
-     "slug": "422-riverside-avenue-westport-connecticut-24176205",
-     "addr": "422 Riverside Avenue",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 4.0,
-     "sqft": 3345.0,
-     "price": 1800000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-07",
-     "ppsf": 538,
-     "mi": 0.68
-    },
-    {
-     "slug": "5-franklin-avenue-westport-connecticut-24115906",
-     "addr": "5 Franklin Avenue",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 6.0,
-     "sqft": 4879.0,
-     "price": 4299000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 881,
-     "mi": 0.32
-    }
-   ],
-   "summary": {
-    "n": 4,
-    "low": 1800000.0,
-    "high": 6100000.0,
-    "median": 4117500
+ "comps": [
+  {
+   "mls": "24180382",
+   "slug": "4-raymond-place-westport-connecticut-24180382",
+   "address": {
+    "line": "4 Raymond Place",
+    "unit": null,
+    "lineWithUnit": "4 Raymond Place",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 5.0,
+   "sqft": 3180.0,
+   "price": 2275000.0,
+   "date": "2026-06-29",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.127574,
+    "lng": -73.371826
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1052881577764522,
+   "ppsf": 715.4088050314465
+  },
+  {
+   "mls": "24156649",
+   "slug": "6-imperial-landing-westport-connecticut-24156649",
+   "address": {
+    "line": "6 Imperial Landing",
+    "unit": null,
+    "lineWithUnit": "6 Imperial Landing",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 3073.0,
+   "price": 2400000.0,
+   "date": "2026-05-28",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.124228,
+    "lng": -73.367616
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6474375013033127,
+   "ppsf": 780.995769606248
+  },
+  {
+   "mls": "24168078",
+   "slug": "171-compo-road-south-westport-connecticut-24168078",
+   "address": {
+    "line": "171 Compo Road South",
+    "unit": null,
+    "lineWithUnit": "171 Compo Road South",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 4.0,
+   "baths": 5.0,
+   "sqft": 3800.0,
+   "price": 2425000.0,
+   "date": "2026-06-23",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.125164,
+    "lng": -73.359726
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.22834499284506,
+   "ppsf": 638.1578947368421
+  },
+  {
+   "mls": "24173081",
+   "slug": "2-mortar-rock-road-westport-connecticut-24173081",
+   "address": {
+    "line": "2 Mortar Rock Road",
+    "unit": null,
+    "lineWithUnit": "2 Mortar Rock Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 4.0,
+   "baths": 6.0,
+   "sqft": 4312.0,
+   "price": 3000000.0,
+   "date": "2026-08-05",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.127632,
+    "lng": -73.35941
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5040343636187481,
+   "ppsf": 695.7328385899815
+  },
+  {
+   "mls": "24176205",
+   "slug": "422-riverside-avenue-westport-connecticut-24176205",
+   "address": {
+    "line": "422 Riverside Avenue",
+    "unit": null,
+    "lineWithUnit": "422 Riverside Avenue",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 5.0,
+   "baths": 4.0,
+   "sqft": 3345.0,
+   "price": 1800000.0,
+   "date": "2026-08-07",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.12637,
+    "lng": -73.372368
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0949326329333766,
+   "ppsf": 538.1165919282511
   }
- }
+ ]
 }

@@ -142,55 +142,141 @@
    "mi": 0.79
   }
  },
- "comps": {
-  "building": {
-   "rows": [
-    {
-     "slug": "80-county-street-norwalk-connecticut-24169489",
-     "addr": "80 County Street Unit 8A",
-     "unit": "Unit 8A",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1320.0,
-     "price": 445000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-09",
-     "ppsf": 337
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 445000.0,
-    "high": 445000.0,
-    "median": 445000
+ "comps": [
+  {
+   "mls": "24169489",
+   "slug": "80-county-street-norwalk-connecticut-24169489",
+   "address": {
+    "line": "80 County Street",
+    "unit": "Unit 8A",
+    "lineWithUnit": "80 County Street Unit 8A",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
    },
-   "label": "80 County Street"
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1320.0,
+   "price": 445000.0,
+   "date": "2026-07-09",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.125286,
+    "lng": -73.38696
+   },
+   "klass": "condo",
+   "tier": 1,
+   "why": "Same building, sold in the last year",
+   "km": 0.0744232451666317,
+   "ppsf": 337.1212121212121
   },
-  "area": {
-   "rows": [
-    {
-     "slug": "3-hills-lane-norwalk-connecticut-24165295",
-     "addr": "3 Hills Lane Unit 3",
-     "unit": "Unit 3",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1386.0,
-     "price": 525000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-29",
-     "ppsf": 379,
-     "mi": 0.59
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 525000.0,
-    "high": 525000.0,
-    "median": 525000
+  {
+   "mls": "24174687",
+   "slug": "81-wolfpit-avenue-norwalk-connecticut-24174687",
+   "address": {
+    "line": "81 Wolfpit Avenue",
+    "unit": "Unit B3",
+    "lineWithUnit": "81 Wolfpit Avenue Unit B3",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 1218.0,
+   "price": 530000.0,
+   "date": "2026-07-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.12941,
+    "lng": -73.39151
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6236822335812379,
+   "ppsf": 435.1395730706075
+  },
+  {
+   "mls": "24172638",
+   "slug": "60-wolfpit-avenue-norwalk-connecticut-24172638",
+   "address": {
+    "line": "60 Wolfpit Avenue",
+    "unit": "Unit 1B",
+    "lineWithUnit": "60 Wolfpit Avenue Unit 1B",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1056.0,
+   "price": 355000.0,
+   "date": "2026-06-04",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.127385,
+    "lng": -73.392229
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.4995178365611625,
+   "ppsf": 336.17424242424244
+  },
+  {
+   "mls": "24183383",
+   "slug": "80-county-street-norwalk-connecticut-24183383",
+   "address": {
+    "line": "80 County Street",
+    "unit": "Unit 12D",
+    "lineWithUnit": "80 County Street Unit 12D",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1058.0,
+   "price": 390000.0,
+   "date": "2026-07-23",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.124718,
+    "lng": -73.387428
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.00016752176679688048,
+   "ppsf": 368.62003780718334
+  },
+  {
+   "mls": "24165295",
+   "slug": "3-hills-lane-norwalk-connecticut-24165295",
+   "address": {
+    "line": "3 Hills Lane",
+    "unit": "Unit 3",
+    "lineWithUnit": "3 Hills Lane Unit 3",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1386.0,
+   "price": 525000.0,
+   "date": "2026-05-29",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.132659,
+    "lng": -73.383087
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9549880821833379,
+   "ppsf": 378.7878787878788
   }
- }
+ ]
 }

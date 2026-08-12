@@ -110,138 +110,141 @@
    "walk": 11
   }
  },
- "comps": {
-  "building": {
-   "rows": [
-    {
-     "slug": "6-east-walnut-street-stamford-connecticut-24180158",
-     "addr": "6 East Walnut Street Unit 1L",
-     "unit": "Unit 1L",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 550.0,
-     "price": 2912.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-18",
-     "ppsf": 5
-    },
-    {
-     "slug": "6-east-walnut-street-stamford-connecticut-24181048",
-     "addr": "6 East Walnut Street Unit 2L",
-     "unit": "Unit 2L",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 550.0,
-     "price": 2912.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-18",
-     "ppsf": 5
-    }
-   ],
-   "summary": {
-    "n": 2,
-    "low": 2912.0,
-    "high": 2912.0,
-    "median": 2912
+ "comps": [
+  {
+   "mls": "24180158",
+   "slug": "6-east-walnut-street-stamford-connecticut-24180158",
+   "address": {
+    "line": "6 East Walnut Street",
+    "unit": "Unit 1L",
+    "lineWithUnit": "6 East Walnut Street Unit 1L",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
    },
-   "label": "6 East Walnut Street"
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 550.0,
+   "price": 2912.0,
+   "date": "2026-07-18",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.041891,
+    "lng": -73.538138
+   },
+   "klass": "rental",
+   "tier": 1,
+   "why": "Same building, sold in the last year",
+   "km": 0.00020124284542263467,
+   "ppsf": 5.294545454545455
   },
-  "area": {
-   "rows": [
-    {
-     "slug": "41-elmcroft-road-stamford-connecticut-24158009",
-     "addr": "41 Elmcroft Road",
-     "unit": "",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1058.0,
-     "price": 2840.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-12",
-     "ppsf": 3,
-     "mi": 0.11
-    },
-    {
-     "slug": "100-commons-park-north-stamford-connecticut-24139922",
-     "addr": "100 Commons Park North Unit 1361",
-     "unit": "Unit 1361",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1109.0,
-     "price": 3285.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-30",
-     "ppsf": 3,
-     "mi": 0.16
-    },
-    {
-     "slug": "100-commons-park-north-stamford-connecticut-24124492",
-     "addr": "100 Commons Park North Unit 1402",
-     "unit": "Unit 1402",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1109.0,
-     "price": 3455.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-30",
-     "ppsf": 3,
-     "mi": 0.16
-    },
-    {
-     "slug": "100-commons-park-north-stamford-connecticut-24146227",
-     "addr": "100 Commons Park North Unit 958",
-     "unit": "Unit 958",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1109.0,
-     "price": 3495.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-30",
-     "ppsf": 3,
-     "mi": 0.16
-    },
-    {
-     "slug": "100-commons-park-north-stamford-connecticut-24170468",
-     "addr": "100 Commons Park North Unit 961",
-     "unit": "Unit 961",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1109.0,
-     "price": 3915.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-16",
-     "ppsf": 4,
-     "mi": 0.16
-    },
-    {
-     "slug": "816-pacific-street-stamford-connecticut-24165579",
-     "addr": "816 Pacific Street Unit 2nd Floor",
-     "unit": "Unit 2nd Floor",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1240.0,
-     "price": 2850.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-27",
-     "ppsf": 2,
-     "mi": 0.19
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 2840.0,
-    "high": 3915.0,
-    "median": 3370
+  {
+   "mls": "24181048",
+   "slug": "6-east-walnut-street-stamford-connecticut-24181048",
+   "address": {
+    "line": "6 East Walnut Street",
+    "unit": "Unit 2L",
+    "lineWithUnit": "6 East Walnut Street Unit 2L",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 550.0,
+   "price": 2912.0,
+   "date": "2026-07-18",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.04189,
+    "lng": -73.53814
+   },
+   "klass": "rental",
+   "tier": 1,
+   "why": "Same building, sold in the last year",
+   "km": 0.0,
+   "ppsf": 5.294545454545455
+  },
+  {
+   "mls": "24146235",
+   "slug": "850-south-pacific-street-stamford-connecticut-24146235",
+   "address": {
+    "line": "850 South Pacific Street",
+    "unit": "Unit 448",
+    "lineWithUnit": "850 South Pacific Street Unit 448",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 657.0,
+   "price": 2845.0,
+   "date": "2026-05-10",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.039536,
+    "lng": -73.5423
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.4361644848184821,
+   "ppsf": 4.3302891933028915
+  },
+  {
+   "mls": "24161401",
+   "slug": "60-strawberry-hill-avenue-stamford-connecticut-24161401",
+   "address": {
+    "line": "60 Strawberry Hill Avenue",
+    "unit": "Unit 1002",
+    "lineWithUnit": "60 Strawberry Hill Avenue Unit 1002",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 431.0,
+   "price": 1850.0,
+   "date": "2026-03-27",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.062366,
+    "lng": -73.53354
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.3092698309114237,
+   "ppsf": 4.292343387470997
+  },
+  {
+   "mls": "24151434",
+   "slug": "444-bedford-street-stamford-connecticut-24151434",
+   "address": {
+    "line": "444 Bedford Street",
+    "unit": "Apt 7M",
+    "lineWithUnit": "444 Bedford Street Apt 7M",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06901"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 610.0,
+   "price": 2185.0,
+   "date": "2026-03-23",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.058212,
+    "lng": -73.5384
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.8150545447071267,
+   "ppsf": 3.581967213114754
   }
- }
+ ]
 }

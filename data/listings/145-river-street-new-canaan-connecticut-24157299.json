@@ -129,101 +129,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "107-parade-hill-road-new-canaan-connecticut-24159886",
-     "addr": "107 Parade Hill Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 6.0,
-     "sqft": 4557.0,
-     "price": 2400500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-08",
-     "ppsf": 527,
-     "mi": 0.24
-    },
-    {
-     "slug": "143-oenoke-ridge-new-canaan-connecticut-24135729",
-     "addr": "143 Oenoke Ridge",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 8.0,
-     "sqft": 8022.0,
-     "price": 5900000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-01",
-     "ppsf": 735,
-     "mi": 0.35
-    },
-    {
-     "slug": "211-oenoke-ridge-new-canaan-connecticut-24174226",
-     "addr": "211 Oenoke Ridge",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 7.0,
-     "sqft": 6588.0,
-     "price": 6250000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-10",
-     "ppsf": 949,
-     "mi": 0.37
-    },
-    {
-     "slug": "295-brushy-ridge-road-new-canaan-connecticut-24149920",
-     "addr": "295 Brushy Ridge Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 7.0,
-     "sqft": 6705.0,
-     "price": 4100000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-31",
-     "ppsf": 611,
-     "mi": 0.48
-    },
-    {
-     "slug": "71-saint-johns-place-new-canaan-connecticut-24134303",
-     "addr": "71 Saint Johns Place",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 6.0,
-     "sqft": 5688.0,
-     "price": 4650000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-02",
-     "ppsf": 818,
-     "mi": 0.63
-    },
-    {
-     "slug": "372-brushy-ridge-road-new-canaan-connecticut-24165499",
-     "addr": "372 Brushy Ridge Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 6.0,
-     "sqft": 7976.0,
-     "price": 7650000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-08",
-     "ppsf": 959,
-     "mi": 0.65
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 2400500.0,
-    "high": 7650000.0,
-    "median": 5275000
+ "comps": [
+  {
+   "mls": "24160505",
+   "slug": "27-raymond-street-new-canaan-connecticut-24160505",
+   "address": {
+    "line": "27 Raymond Street",
+    "unit": null,
+    "lineWithUnit": "27 Raymond Street",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
    },
-   "radiusMi": 0.75
+   "beds": 6.0,
+   "baths": 7.0,
+   "sqft": 5456.0,
+   "price": 3350000.0,
+   "date": "2026-06-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.146444,
+    "lng": -73.489569
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0449289310029968,
+   "ppsf": 614.0029325513196
+  },
+  {
+   "mls": "24131013",
+   "slug": "113-brushy-ridge-road-new-canaan-connecticut-24131013",
+   "address": {
+    "line": "113 Brushy Ridge Road",
+    "unit": null,
+    "lineWithUnit": "113 Brushy Ridge Road",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 4.0,
+   "baths": 7.0,
+   "sqft": 6528.0,
+   "price": 2900875.0,
+   "date": "2026-04-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.154958,
+    "lng": -73.488659
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.33246606323088296,
+   "ppsf": 444.37423406862746
+  },
+  {
+   "mls": "24140410",
+   "slug": "42-sturbridge-hill-road-new-canaan-connecticut-24140410",
+   "address": {
+    "line": "42 Sturbridge Hill Road",
+    "unit": null,
+    "lineWithUnit": "42 Sturbridge Hill Road",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 6.0,
+   "baths": 5.0,
+   "sqft": 4085.0,
+   "price": 2275000.0,
+   "date": "2026-04-10",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.157172,
+    "lng": -73.481572
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9358581525008801,
+   "ppsf": 556.9155446756426
+  },
+  {
+   "mls": "24134303",
+   "slug": "71-saint-johns-place-new-canaan-connecticut-24134303",
+   "address": {
+    "line": "71 Saint Johns Place",
+    "unit": null,
+    "lineWithUnit": "71 Saint Johns Place",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 5.0,
+   "baths": 6.0,
+   "sqft": 5688.0,
+   "price": 4650000.0,
+   "date": "2026-06-02",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.147724,
+    "lng": -73.498858
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0200178439781726,
+   "ppsf": 817.5105485232068
+  },
+  {
+   "mls": "24159886",
+   "slug": "107-parade-hill-road-new-canaan-connecticut-24159886",
+   "address": {
+    "line": "107 Parade Hill Road",
+    "unit": null,
+    "lineWithUnit": "107 Parade Hill Road",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 5.0,
+   "baths": 6.0,
+   "sqft": 4557.0,
+   "price": 2400500.0,
+   "date": "2026-06-08",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.158083,
+    "lng": -73.495605
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.3790375764088467,
+   "ppsf": 526.7719991222295
   }
- }
+ ]
 }

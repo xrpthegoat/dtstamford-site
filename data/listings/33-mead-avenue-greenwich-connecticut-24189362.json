@@ -134,98 +134,141 @@
    "mi": 1.6
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "4-miami-court-greenwich-connecticut-24149277",
-     "addr": "4 Miami Court",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2765.0,
-     "price": 1885000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-20",
-     "ppsf": 682,
-     "mi": 0.15
-    },
-    {
-     "slug": "34-1-2-orchard-street-greenwich-connecticut-24175545",
-     "addr": "34 1/2 Orchard Street",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2126.0,
-     "price": 2022000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-22",
-     "ppsf": 951,
-     "mi": 0.36
-    },
-    {
-     "slug": "50-valleywood-road-greenwich-connecticut-24168116",
-     "addr": "50 Valleywood Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 2.0,
-     "sqft": 1954.0,
-     "price": 1150000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-07",
-     "ppsf": 589,
-     "mi": 0.5
-    },
-    {
-     "slug": "4-cos-cob-avenue-greenwich-connecticut-24182748",
-     "addr": "4 Cos Cob Avenue",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2720.0,
-     "price": 1579000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 581,
-     "mi": 0.37
-    },
-    {
-     "slug": "5-bayside-terrace-greenwich-connecticut-24192398",
-     "addr": "5 Bayside Terrace",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 2461.0,
-     "price": 1999000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 812,
-     "mi": 0.4
-    },
-    {
-     "slug": "4-sachem-lane-greenwich-connecticut-24187684",
-     "addr": "4 Sachem Lane",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 5.0,
-     "sqft": 4662.0,
-     "price": 3875000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 831,
-     "mi": 0.52
-    }
-   ],
-   "summary": {
-    "n": 3,
-    "low": 1150000.0,
-    "high": 2022000.0,
-    "median": 1885000
+ "comps": [
+  {
+   "mls": "24149277",
+   "slug": "4-miami-court-greenwich-connecticut-24149277",
+   "address": {
+    "line": "4 Miami Court",
+    "unit": null,
+    "lineWithUnit": "4 Miami Court",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06807"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2765.0,
+   "price": 1885000.0,
+   "date": "2026-03-20",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.038792,
+    "lng": -73.596324
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.24652241225292776,
+   "ppsf": 681.7359855334539
+  },
+  {
+   "mls": "24149951",
+   "slug": "17-pintail-lane-greenwich-connecticut-24149951",
+   "address": {
+    "line": "17 Pintail Lane",
+    "unit": null,
+    "lineWithUnit": "17 Pintail Lane",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06830"
+   },
+   "beds": 5.0,
+   "baths": 5.0,
+   "sqft": 3643.0,
+   "price": 4271000.0,
+   "date": "2026-03-16",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.033389,
+    "lng": -73.616228
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.7665778216752652,
+   "ppsf": 1172.3853966511117
+  },
+  {
+   "mls": "24167767",
+   "slug": "185-valley-road-greenwich-connecticut-24167767",
+   "address": {
+    "line": "185 Valley Road",
+    "unit": null,
+    "lineWithUnit": "185 Valley Road",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06807"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 3569.0,
+   "price": 3000000.0,
+   "date": "2026-07-07",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.050881,
+    "lng": -73.586622
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.7537470764439589,
+   "ppsf": 840.5715886803026
+  },
+  {
+   "mls": "24155152",
+   "slug": "21-amherst-road-greenwich-connecticut-24155152",
+   "address": {
+    "line": "21 Amherst Road",
+    "unit": null,
+    "lineWithUnit": "21 Amherst Road",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06878"
+   },
+   "beds": 5.0,
+   "baths": 3.0,
+   "sqft": 2911.0,
+   "price": 1700000.0,
+   "date": "2026-06-25",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.048539,
+    "lng": -73.57219
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.368290286777795,
+   "ppsf": 583.9917554105118
+  },
+  {
+   "mls": "24170939",
+   "slug": "44-willowmere-avenue-greenwich-connecticut-24170939",
+   "address": {
+    "line": "44 Willowmere Avenue",
+    "unit": null,
+    "lineWithUnit": "44 Willowmere Avenue",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06878"
+   },
+   "beds": 4.0,
+   "baths": 5.0,
+   "sqft": 4358.0,
+   "price": 4050000.0,
+   "date": "2026-06-17",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.023485,
+    "lng": -73.577897
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.085210596235881,
+   "ppsf": 929.3253786140432
   }
- }
+ ]
 }

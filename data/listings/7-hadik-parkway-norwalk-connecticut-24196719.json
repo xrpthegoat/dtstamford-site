@@ -132,101 +132,141 @@
    "mi": 1.57
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "8-michael-street-norwalk-connecticut-24150514",
-     "addr": "8 Michael Street",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 2.0,
-     "sqft": 1428.0,
-     "price": 710000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-16",
-     "ppsf": 497,
-     "mi": 0.06
-    },
-    {
-     "slug": "1-westview-lane-norwalk-connecticut-24137951",
-     "addr": "1 Westview Lane",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 3148.0,
-     "price": 1650000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-15",
-     "ppsf": 524,
-     "mi": 0.24
-    },
-    {
-     "slug": "18-oakhill-avenue-norwalk-connecticut-24154775",
-     "addr": "18 Oakhill Avenue",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 2.0,
-     "sqft": 3084.0,
-     "price": 910000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-24",
-     "ppsf": 295,
-     "mi": 0.4
-    },
-    {
-     "slug": "24-deepwood-lane-norwalk-connecticut-24155974",
-     "addr": "24 Deepwood Lane",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 2.0,
-     "sqft": 1428.0,
-     "price": 692000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-08",
-     "ppsf": 485,
-     "mi": 0.54
-    },
-    {
-     "slug": "11-charcoal-road-norwalk-connecticut-24135368",
-     "addr": "11 Charcoal Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 2.0,
-     "sqft": 2704.0,
-     "price": 855000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-30",
-     "ppsf": 316,
-     "mi": 0.66
-    },
-    {
-     "slug": "2-finch-court-norwalk-connecticut-24150545",
-     "addr": "2 Finch Court",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 2.0,
-     "sqft": 2260.0,
-     "price": 1027000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-08",
-     "ppsf": 454,
-     "mi": 0.71
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 692000.0,
-    "high": 1650000.0,
-    "median": 882500
+ "comps": [
+  {
+   "mls": "24129213",
+   "slug": "4-senga-road-norwalk-connecticut-24129213",
+   "address": {
+    "line": "4 Senga Road",
+    "unit": null,
+    "lineWithUnit": "4 Senga Road",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 2354.0,
+   "price": 600000.0,
+   "date": "2026-05-01",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.09975,
+    "lng": -73.435754
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9657183960924324,
+   "ppsf": 254.88530161427357
+  },
+  {
+   "mls": "24167668",
+   "slug": "46-devils-garden-road-norwalk-connecticut-24167668",
+   "address": {
+    "line": "46 Devils Garden Road",
+    "unit": null,
+    "lineWithUnit": "46 Devils Garden Road",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 3.0,
+   "baths": 4.0,
+   "sqft": 2178.0,
+   "price": 1051000.0,
+   "date": "2026-06-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.084219,
+    "lng": -73.438164
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8660590847968397,
+   "ppsf": 482.5528007346189
+  },
+  {
+   "mls": "24150545",
+   "slug": "2-finch-court-norwalk-connecticut-24150545",
+   "address": {
+    "line": "2 Finch Court",
+    "unit": null,
+    "lineWithUnit": "2 Finch Court",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 4.0,
+   "baths": 2.0,
+   "sqft": 2260.0,
+   "price": 1027000.0,
+   "date": "2026-06-08",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.085028,
+    "lng": -73.444581
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.147535821061953,
+   "ppsf": 454.42477876106193
+  },
+  {
+   "mls": "24153239",
+   "slug": "16-possum-lane-norwalk-connecticut-24153239",
+   "address": {
+    "line": "16 Possum Lane",
+    "unit": null,
+    "lineWithUnit": "16 Possum Lane",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1736.0,
+   "price": 776000.0,
+   "date": "2026-05-28",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.081514,
+    "lng": -73.438772
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1618495104410933,
+   "ppsf": 447.0046082949309
+  },
+  {
+   "mls": "24158185",
+   "slug": "4-robins-square-east-norwalk-connecticut-24158185",
+   "address": {
+    "line": "4 Robins Square East",
+    "unit": null,
+    "lineWithUnit": "4 Robins Square East",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2376.0,
+   "price": 690000.0,
+   "date": "2026-05-12",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.08645,
+    "lng": -73.43021
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.602080514720474,
+   "ppsf": 290.4040404040404
   }
- }
+ ]
 }

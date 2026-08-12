@@ -129,119 +129,141 @@
    "walk": 2
   }
  },
- "comps": {
-  "building": {
-   "rows": [
-    {
-     "slug": "104-north-street-stamford-connecticut-24181030",
-     "addr": "104 North Street Unit 604",
-     "unit": "Unit 604",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1116.0,
-     "price": 3100.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 3
-    }
-   ],
-   "summary": null,
-   "label": "104 North Street"
-  },
-  "area": {
-   "rows": [
-    {
-     "slug": "1611-washington-boulevard-stamford-connecticut-24183679",
-     "addr": "1611 Washington Boulevard Unit 10",
-     "unit": "Unit 10",
-     "beds": 2.0,
-     "baths": 3.0,
-     "sqft": 1652.0,
-     "price": 3500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-01",
-     "ppsf": 2,
-     "mi": 0.14
-    },
-    {
-     "slug": "10-linden-place-stamford-connecticut-24164676",
-     "addr": "10 Linden Place Unit 1B",
-     "unit": "Unit 1B",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 5412.0,
-     "price": 2600.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-14",
-     "ppsf": 0,
-     "mi": 0.15
-    },
-    {
-     "slug": "15-renwick-street-stamford-connecticut-24175452",
-     "addr": "15 Renwick Street Unit 2",
-     "unit": "Unit 2",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1064.0,
-     "price": 2550.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-20",
-     "ppsf": 2,
-     "mi": 0.16
-    },
-    {
-     "slug": "1611-washington-boulevard-stamford-connecticut-24178813",
-     "addr": "1611 Washington Boulevard Unit 2",
-     "unit": "Unit 2",
-     "beds": 2.0,
-     "baths": 3.0,
-     "sqft": 1566.0,
-     "price": 3450.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-01",
-     "ppsf": 2,
-     "mi": 0.18
-    },
-    {
-     "slug": "23-dolsen-place-stamford-connecticut-24181017",
-     "addr": "23 Dolsen Place",
-     "unit": "",
-     "beds": 2.0,
-     "baths": 3.0,
-     "sqft": 1300.0,
-     "price": 3250.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-01",
-     "ppsf": 2,
-     "mi": 0.21
-    },
-    {
-     "slug": "17-dolsen-place-stamford-connecticut-24171687",
-     "addr": "17 Dolsen Place",
-     "unit": "",
-     "beds": 2.0,
-     "baths": 3.0,
-     "sqft": 1300.0,
-     "price": 3500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-02",
-     "ppsf": 3,
-     "mi": 0.22
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 2550.0,
-    "high": 3500.0,
-    "median": 3350
+ "comps": [
+  {
+   "mls": "24148070",
+   "slug": "101-grove-street-stamford-connecticut-24148070",
+   "address": {
+    "line": "101 Grove Street",
+    "unit": "Apt 17",
+    "lineWithUnit": "101 Grove Street Apt 17",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06901"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 1475.0,
+   "price": 3500.0,
+   "date": "2026-03-19",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.05745,
+    "lng": -73.53367
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7491407201370214,
+   "ppsf": 2.3728813559322033
+  },
+  {
+   "mls": "24153723",
+   "slug": "109-forest-street-stamford-connecticut-24153723",
+   "address": {
+    "line": "109 Forest Street",
+    "unit": "Apt 3",
+    "lineWithUnit": "109 Forest Street Apt 3",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06901"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1695.0,
+   "price": 4500.0,
+   "date": "2026-03-31",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.05626,
+    "lng": -73.532936
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8486546276547545,
+   "ppsf": 2.6548672566371683
+  },
+  {
+   "mls": "24146915",
+   "slug": "143-hoyt-street-stamford-connecticut-24146915",
+   "address": {
+    "line": "143 Hoyt Street",
+    "unit": "Unit 5L",
+    "lineWithUnit": "143 Hoyt Street Unit 5L",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1732.0,
+   "price": 3600.0,
+   "date": "2026-04-26",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.060379,
+    "lng": -73.534578
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6660644012783369,
+   "ppsf": 2.0785219399538106
+  },
+  {
+   "mls": "24158555",
+   "slug": "20-third-street-stamford-connecticut-24158555",
+   "address": {
+    "line": "20 Third Street",
+    "unit": "Unit 18",
+    "lineWithUnit": "20 Third Street Unit 18",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1645.0,
+   "price": 4900.0,
+   "date": "2026-05-09",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.06464,
+    "lng": -73.54251
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.617304245314306,
+   "ppsf": 2.978723404255319
+  },
+  {
+   "mls": "24158511",
+   "slug": "109-forest-street-stamford-connecticut-24158511",
+   "address": {
+    "line": "109 Forest Street",
+    "unit": "Unit 10",
+    "lineWithUnit": "109 Forest Street Unit 10",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06901"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1650.0,
+   "price": 4300.0,
+   "date": "2026-05-26",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.056232,
+    "lng": -73.53293
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8502807732250449,
+   "ppsf": 2.606060606060606
   }
- }
+ ]
 }

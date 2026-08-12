@@ -131,101 +131,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "7-gray-squirrel-drive-norwalk-connecticut-24161013",
-     "addr": "7 Gray Squirrel Drive",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 2439.0,
-     "price": 1165000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-03",
-     "ppsf": 478,
-     "mi": 0.27
-    },
-    {
-     "slug": "49-weed-avenue-norwalk-connecticut-24172799",
-     "addr": "49 Weed Avenue",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 3190.0,
-     "price": 1750000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-10",
-     "ppsf": 549,
-     "mi": 0.42
-    },
-    {
-     "slug": "254-white-oak-shade-road-new-canaan-connecticut-24169480",
-     "addr": "254 White Oak Shade Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2461.0,
-     "price": 2275000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-10",
-     "ppsf": 924,
-     "mi": 0.59
-    },
-    {
-     "slug": "293-old-norwalk-road-new-canaan-connecticut-24180010",
-     "addr": "293 Old Norwalk Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 4014.0,
-     "price": 2650000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-03",
-     "ppsf": 660,
-     "mi": 0.6
-    },
-    {
-     "slug": "8-huckleberry-drive-south-norwalk-connecticut-24186393",
-     "addr": "8 Huckleberry Drive South",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2422.0,
-     "price": 950000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-03",
-     "ppsf": 392,
-     "mi": 0.6
-    },
-    {
-     "slug": "34-horton-lane-new-canaan-connecticut-24161493",
-     "addr": "34 Horton Lane",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 3512.0,
-     "price": 2725000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-13",
-     "ppsf": 776,
-     "mi": 0.66
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 950000.0,
-    "high": 2725000.0,
-    "median": 2012500
+ "comps": [
+  {
+   "mls": "24152824",
+   "slug": "37-glen-avenue-norwalk-connecticut-24152824",
+   "address": {
+    "line": "37 Glen Avenue",
+    "unit": null,
+    "lineWithUnit": "37 Glen Avenue",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 2929.0,
+   "price": 805000.0,
+   "date": "2026-03-16",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.12993,
+    "lng": -73.451546
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.031134172792517,
+   "ppsf": 274.8378286104473
+  },
+  {
+   "mls": "24172799",
+   "slug": "49-weed-avenue-norwalk-connecticut-24172799",
+   "address": {
+    "line": "49 Weed Avenue",
+    "unit": null,
+    "lineWithUnit": "49 Weed Avenue",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 3190.0,
+   "price": 1750000.0,
+   "date": "2026-07-10",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.12041,
+    "lng": -73.461527
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6797545298854775,
+   "ppsf": 548.58934169279
+  },
+  {
+   "mls": "24144110",
+   "slug": "300-buttery-road-norwalk-connecticut-24144110",
+   "address": {
+    "line": "300 Buttery Road",
+    "unit": null,
+    "lineWithUnit": "300 Buttery Road",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2926.0,
+   "price": 1096100.0,
+   "date": "2026-03-16",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.144909,
+    "lng": -73.451989
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.2504572838311607,
+   "ppsf": 374.60697197539304
+  },
+  {
+   "mls": "24131002",
+   "slug": "150-fillow-street-norwalk-connecticut-24131002",
+   "address": {
+    "line": "150 Fillow Street",
+    "unit": null,
+    "lineWithUnit": "150 Fillow Street",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 4.0,
+   "baths": 2.0,
+   "sqft": 2602.0,
+   "price": 795000.0,
+   "date": "2026-04-01",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.119642,
+    "lng": -73.441027
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.9850553451611916,
+   "ppsf": 305.5342044581092
+  },
+  {
+   "mls": "24172328",
+   "slug": "196-west-norwalk-road-norwalk-connecticut-24172328",
+   "address": {
+    "line": "196 West Norwalk Road",
+    "unit": null,
+    "lineWithUnit": "196 West Norwalk Road",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 3960.0,
+   "price": 1675000.0,
+   "date": "2026-07-01",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.110785,
+    "lng": -73.463979
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.7416843948008398,
+   "ppsf": 422.979797979798
   }
- }
+ ]
 }

@@ -138,101 +138,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "95-heritage-hill-road-new-canaan-connecticut-24154387",
-     "addr": "95 Heritage Hill Road",
-     "unit": "",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1120.0,
-     "price": 690000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-18",
-     "ppsf": 616,
-     "mi": 0.06
-    },
-    {
-     "slug": "99-forest-street-new-canaan-connecticut-24185794",
-     "addr": "99 Forest Street Unit 99",
-     "unit": "Unit 99",
-     "beds": 2.0,
-     "baths": 3.0,
-     "sqft": 2326.0,
-     "price": 1625000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-06",
-     "ppsf": 699,
-     "mi": 0.08
-    },
-    {
-     "slug": "125-heritage-hill-road-new-canaan-connecticut-24173058",
-     "addr": "125 Heritage Hill Road Unit A",
-     "unit": "Unit A",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1079.0,
-     "price": 730000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-24",
-     "ppsf": 677,
-     "mi": 0.11
-    },
-    {
-     "slug": "72-summer-street-new-canaan-connecticut-24167562",
-     "addr": "72 Summer Street Unit B",
-     "unit": "Unit B",
-     "beds": 2.0,
-     "baths": 3.0,
-     "sqft": 2220.0,
-     "price": 1300000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-01",
-     "ppsf": 586,
-     "mi": 0.36
-    },
-    {
-     "slug": "100-south-avenue-new-canaan-connecticut-24157367",
-     "addr": "100 South Avenue",
-     "unit": "",
-     "beds": 2.0,
-     "baths": 3.0,
-     "sqft": 1750.0,
-     "price": 1550000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-30",
-     "ppsf": 886,
-     "mi": 0.59
-    },
-    {
-     "slug": "177-south-avenue-new-canaan-connecticut-24180669",
-     "addr": "177 South Avenue Unit 5",
-     "unit": "Unit 5",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1456.0,
-     "price": 1300000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-23",
-     "ppsf": 893,
-     "mi": 0.75
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 690000.0,
-    "high": 1625000.0,
-    "median": 1300000
+ "comps": [
+  {
+   "mls": "24154387",
+   "slug": "95-heritage-hill-road-new-canaan-connecticut-24154387",
+   "address": {
+    "line": "95 Heritage Hill Road",
+    "unit": null,
+    "lineWithUnit": "95 Heritage Hill Road",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1120.0,
+   "price": 690000.0,
+   "date": "2026-03-18",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.151989,
+    "lng": -73.494743
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.09805502498763022,
+   "ppsf": 616.0714285714286
+  },
+  {
+   "mls": "24160793",
+   "slug": "84-parade-hill-road-new-canaan-connecticut-24160793",
+   "address": {
+    "line": "84 Parade Hill Road",
+    "unit": "Unit 84",
+    "lineWithUnit": "84 Parade Hill Road Unit 84",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1361.0,
+   "price": 740000.0,
+   "date": "2026-07-08",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.157154,
+    "lng": -73.49593
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6662269549513978,
+   "ppsf": 543.7178545187362
+  },
+  {
+   "mls": "24164867",
+   "slug": "111-heritage-hill-road-new-canaan-connecticut-24164867",
+   "address": {
+    "line": "111 Heritage Hill Road",
+    "unit": "Unit 111",
+    "lineWithUnit": "111 Heritage Hill Road Unit 111",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1616.0,
+   "price": 936000.0,
+   "date": "2026-05-27",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.152355,
+    "lng": -73.49421
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.11365665333209186,
+   "ppsf": 579.2079207920792
+  },
+  {
+   "mls": "24173058",
+   "slug": "125-heritage-hill-road-new-canaan-connecticut-24173058",
+   "address": {
+    "line": "125 Heritage Hill Road",
+    "unit": "Unit A",
+    "lineWithUnit": "125 Heritage Hill Road Unit A",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1079.0,
+   "price": 730000.0,
+   "date": "2026-07-24",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.152745,
+    "lng": -73.494985
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.17806244878525057,
+   "ppsf": 676.5523632993512
+  },
+  {
+   "mls": "24177687",
+   "slug": "33-east-hills-drive-new-canaan-connecticut-24177687",
+   "address": {
+    "line": "33 East Hills Drive",
+    "unit": "Unit 33",
+    "lineWithUnit": "33 East Hills Drive Unit 33",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1554.0,
+   "price": 734000.0,
+   "date": "2026-07-13",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.148782,
+    "lng": -73.485615
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7526203087405974,
+   "ppsf": 472.3294723294723
   }
- }
+ ]
 }

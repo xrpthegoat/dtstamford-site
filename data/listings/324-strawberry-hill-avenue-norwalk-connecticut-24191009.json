@@ -120,58 +120,141 @@
    "mi": 0.97
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "1-walter-avenue-norwalk-connecticut-24167267",
-     "addr": "1 Walter Avenue Unit 42",
-     "unit": "Unit 42",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 494.0,
-     "price": 223900.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-10",
-     "ppsf": 453,
-     "mi": 0.46
-    },
-    {
-     "slug": "1-walter-avenue-norwalk-connecticut-24171356",
-     "addr": "1 Walter Avenue Unit 49",
-     "unit": "Unit 49",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 574.0,
-     "price": 220000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-02",
-     "ppsf": 383,
-     "mi": 0.46
-    },
-    {
-     "slug": "1-walter-avenue-norwalk-connecticut-24179683",
-     "addr": "1 Walter Avenue Unit 25",
-     "unit": "Unit 25",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 574.0,
-     "price": 219900.0,
-     "kind": "asking",
-     "status": "Under Contract - Continue to Show",
-     "ppsf": 383,
-     "mi": 0.43
-    }
-   ],
-   "summary": {
-    "n": 2,
-    "low": 220000.0,
-    "high": 223900.0,
-    "median": 221950
+ "comps": [
+  {
+   "mls": "24167267",
+   "slug": "1-walter-avenue-norwalk-connecticut-24167267",
+   "address": {
+    "line": "1 Walter Avenue",
+    "unit": "Unit 42",
+    "lineWithUnit": "1 Walter Avenue Unit 42",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
    },
-   "radiusMi": 0.75
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 494.0,
+   "price": 223900.0,
+   "date": "2026-07-10",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.123485,
+    "lng": -73.398049
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7329184517161106,
+   "ppsf": 453.2388663967611
+  },
+  {
+   "mls": "24171356",
+   "slug": "1-walter-avenue-norwalk-connecticut-24171356",
+   "address": {
+    "line": "1 Walter Avenue",
+    "unit": "Unit 49",
+    "lineWithUnit": "1 Walter Avenue Unit 49",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 574.0,
+   "price": 220000.0,
+   "date": "2026-06-02",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.123485,
+    "lng": -73.398049
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7329184517161106,
+   "ppsf": 383.2752613240418
+  },
+  {
+   "mls": "24167594",
+   "slug": "47-cedar-street-norwalk-connecticut-24167594",
+   "address": {
+    "line": "47 Cedar Street",
+    "unit": "Unit 2",
+    "lineWithUnit": "47 Cedar Street Unit 2",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 609.0,
+   "price": 290000.0,
+   "date": "2026-06-17",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.10486,
+    "lng": -73.424369
+   },
+   "klass": "condo",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 3.7506919251261888,
+   "ppsf": 476.1904761904762
+  },
+  {
+   "mls": "24159894",
+   "slug": "26-prospect-avenue-norwalk-connecticut-24159894",
+   "address": {
+    "line": "26 Prospect Avenue",
+    "unit": "Unit F8",
+    "lineWithUnit": "26 Prospect Avenue Unit F8",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 654.0,
+   "price": 275000.0,
+   "date": "2026-06-18",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.11538,
+    "lng": -73.422941
+   },
+   "klass": "condo",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 2.994593518670038,
+   "ppsf": 420.4892966360856
+  },
+  {
+   "mls": "24137573",
+   "slug": "131-washington-street-norwalk-connecticut-24137573",
+   "address": {
+    "line": "131 Washington Street",
+    "unit": "Apt 204",
+    "lineWithUnit": "131 Washington Street Apt 204",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 677.0,
+   "price": 265000.0,
+   "date": "2026-03-20",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.099134,
+    "lng": -73.416792
+   },
+   "klass": "condo",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 3.8038856483603074,
+   "ppsf": 391.4327917282127
   }
- }
+ ]
 }

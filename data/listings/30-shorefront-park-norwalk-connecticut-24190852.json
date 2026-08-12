@@ -135,100 +135,141 @@
    "mi": 1.44
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "58-shorefront-park-norwalk-connecticut-24182023",
-     "addr": "58 Shorefront Park",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 2.0,
-     "sqft": 2907.0,
-     "price": 2725000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-05",
-     "ppsf": 937,
-     "mi": 0.15
-    },
-    {
-     "slug": "4-harbor-view-avenue-norwalk-connecticut-24180497",
-     "addr": "4 Harbor View Avenue",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 4826.0,
-     "price": 2700000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-28",
-     "ppsf": 559,
-     "mi": 0.59
-    },
-    {
-     "slug": "10-elliott-street-norwalk-connecticut-24173075",
-     "addr": "10 Elliott Street",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 2.0,
-     "sqft": 2112.0,
-     "price": 1042000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-13",
-     "ppsf": 493,
-     "mi": 0.61
-    },
-    {
-     "slug": "281-east-avenue-norwalk-connecticut-24107413",
-     "addr": "281 East Avenue",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 2674.0,
-     "price": 1250000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-30",
-     "ppsf": 467,
-     "mi": 0.63
-    },
-    {
-     "slug": "34-channel-avenue-norwalk-connecticut-24173410",
-     "addr": "34 Channel Avenue",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2518.0,
-     "price": 2600000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-18",
-     "ppsf": 1033,
-     "mi": 0.71
-    },
-    {
-     "slug": "15-marion-avenue-norwalk-connecticut-24178235",
-     "addr": "15 Marion Avenue",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2094.0,
-     "price": 1600000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 764,
-     "mi": 0.59
-    }
-   ],
-   "summary": {
-    "n": 5,
-    "low": 1042000.0,
-    "high": 2725000.0,
-    "median": 2600000
+ "comps": [
+  {
+   "mls": "24107413",
+   "slug": "281-east-avenue-norwalk-connecticut-24107413",
+   "address": {
+    "line": "281 East Avenue",
+    "unit": null,
+    "lineWithUnit": "281 East Avenue",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06855"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 2674.0,
+   "price": 1250000.0,
+   "date": "2026-04-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.099792,
+    "lng": -73.404601
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0214676860969347,
+   "ppsf": 467.4644727000748
+  },
+  {
+   "mls": "24182023",
+   "slug": "58-shorefront-park-norwalk-connecticut-24182023",
+   "address": {
+    "line": "58 Shorefront Park",
+    "unit": null,
+    "lineWithUnit": "58 Shorefront Park",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 4.0,
+   "baths": 2.0,
+   "sqft": 2907.0,
+   "price": 2725000.0,
+   "date": "2026-06-05",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.089773,
+    "lng": -73.411853
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.24785211781813193,
+   "ppsf": 937.3925008599931
+  },
+  {
+   "mls": "24154775",
+   "slug": "18-oakhill-avenue-norwalk-connecticut-24154775",
+   "address": {
+    "line": "18 Oakhill Avenue",
+    "unit": null,
+    "lineWithUnit": "18 Oakhill Avenue",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 4.0,
+   "baths": 2.0,
+   "sqft": 3084.0,
+   "price": 910000.0,
+   "date": "2026-03-24",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.094415,
+    "lng": -73.440078
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.491847720297494,
+   "ppsf": 295.07133592736704
+  },
+  {
+   "mls": "24168001",
+   "slug": "18-dock-road-norwalk-connecticut-24168001",
+   "address": {
+    "line": "18 Dock Road",
+    "unit": null,
+    "lineWithUnit": "18 Dock Road",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 4082.0,
+   "price": 2030000.0,
+   "date": "2026-06-26",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.080343,
+    "lng": -73.418276
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.4264978342842078,
+   "ppsf": 497.30524252817247
+  },
+  {
+   "mls": "24173410",
+   "slug": "34-channel-avenue-norwalk-connecticut-24173410",
+   "address": {
+    "line": "34 Channel Avenue",
+    "unit": null,
+    "lineWithUnit": "34 Channel Avenue",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2518.0,
+   "price": 2600000.0,
+   "date": "2026-06-18",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.081438,
+    "lng": -73.410368
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.1494119763138673,
+   "ppsf": 1032.5655281969816
   }
- }
+ ]
 }

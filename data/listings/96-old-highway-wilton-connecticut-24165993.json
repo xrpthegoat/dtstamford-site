@@ -125,57 +125,141 @@
    "walk": 11
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "125-skunk-lane-wilton-connecticut-24187095",
-     "addr": "125 Skunk Lane",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 7.0,
-     "sqft": 5072.0,
-     "price": 1925000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-10",
-     "ppsf": 380,
-     "mi": 0.64
-    },
-    {
-     "slug": "39-powder-horn-hill-road-wilton-connecticut-24181977",
-     "addr": "39 Powder Horn Hill Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 6.0,
-     "sqft": 5657.0,
-     "price": 1900000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 336,
-     "mi": 0.29
-    },
-    {
-     "slug": "14-powder-horn-hill-road-wilton-connecticut-24194109",
-     "addr": "14 Powder Horn Hill Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 6.0,
-     "sqft": 7843.0,
-     "price": 2399000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 306,
-     "mi": 0.4
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 1925000.0,
-    "high": 1925000.0,
-    "median": 1925000
+ "comps": [
+  {
+   "mls": "24178583",
+   "slug": "42-old-highway-wilton-connecticut-24178583",
+   "address": {
+    "line": "42 Old Highway",
+    "unit": null,
+    "lineWithUnit": "42 Old Highway",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 5.0,
+   "sqft": 5040.0,
+   "price": 1935000.0,
+   "date": "2026-07-28",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.1933,
+    "lng": -73.425
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.4178959803227823,
+   "ppsf": 383.92857142857144
+  },
+  {
+   "mls": "24187095",
+   "slug": "125-skunk-lane-wilton-connecticut-24187095",
+   "address": {
+    "line": "125 Skunk Lane",
+    "unit": null,
+    "lineWithUnit": "125 Skunk Lane",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 5.0,
+   "baths": 7.0,
+   "sqft": 5072.0,
+   "price": 1925000.0,
+   "date": "2026-08-10",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.204154,
+    "lng": -73.416944
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0360479992464515,
+   "ppsf": 379.5347003154574
+  },
+  {
+   "mls": "24083683",
+   "slug": "33-middlebrook-farm-road-wilton-connecticut-24083683",
+   "address": {
+    "line": "33 Middlebrook Farm Road",
+    "unit": null,
+    "lineWithUnit": "33 Middlebrook Farm Road",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 5.0,
+   "baths": 7.0,
+   "sqft": 5860.0,
+   "price": 2335000.0,
+   "date": "2026-03-31",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.203682,
+    "lng": -73.447547
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.427300107085901,
+   "ppsf": 398.4641638225256
+  },
+  {
+   "mls": "24153585",
+   "slug": "25-powder-horn-hill-road-wilton-connecticut-24153585",
+   "address": {
+    "line": "25 Powder Horn Hill Road",
+    "unit": null,
+    "lineWithUnit": "25 Powder Horn Hill Road",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 4145.0,
+   "price": 1700000.0,
+   "date": "2026-04-20",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.197811,
+    "lng": -73.42454
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 0.42229494092775444,
+   "ppsf": 410.1326899879373
+  },
+  {
+   "mls": "24163135",
+   "slug": "18-brandon-circle-wilton-connecticut-24163135",
+   "address": {
+    "line": "18 Brandon Circle",
+    "unit": null,
+    "lineWithUnit": "18 Brandon Circle",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 5.0,
+   "baths": 6.0,
+   "sqft": 5120.0,
+   "price": 2550000.0,
+   "date": "2026-06-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.202457,
+    "lng": -73.405389
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.5131646414670648,
+   "ppsf": 498.046875
   }
- }
+ ]
 }

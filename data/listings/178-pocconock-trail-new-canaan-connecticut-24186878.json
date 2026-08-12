@@ -134,58 +134,141 @@
    "mi": 1.67
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "15-may-drive-norwalk-connecticut-24179020",
-     "addr": "15 May Drive",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 6.0,
-     "sqft": 5989.0,
-     "price": 2200000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-21",
-     "ppsf": 367,
-     "mi": 0.23
-    },
-    {
-     "slug": "201-ponus-avenue-extension-norwalk-connecticut-24168724",
-     "addr": "201 Ponus Avenue Extension",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 5.0,
-     "sqft": 6132.0,
-     "price": 2000000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-18",
-     "ppsf": 326,
-     "mi": 0.39
-    },
-    {
-     "slug": "83-long-lots-road-new-canaan-connecticut-24179208",
-     "addr": "83 Long Lots Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 6.0,
-     "sqft": 6211.0,
-     "price": 4395000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 708,
-     "mi": 0.73
-    }
-   ],
-   "summary": {
-    "n": 2,
-    "low": 2000000.0,
-    "high": 2200000.0,
-    "median": 2100000
+ "comps": [
+  {
+   "mls": "24180010",
+   "slug": "293-old-norwalk-road-new-canaan-connecticut-24180010",
+   "address": {
+    "line": "293 Old Norwalk Road",
+    "unit": null,
+    "lineWithUnit": "293 Old Norwalk Road",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 4014.0,
+   "price": 2650000.0,
+   "date": "2026-08-03",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.134345,
+    "lng": -73.467803
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8906308114413151,
+   "ppsf": 660.1893373193822
+  },
+  {
+   "mls": "24161493",
+   "slug": "34-horton-lane-new-canaan-connecticut-24161493",
+   "address": {
+    "line": "34 Horton Lane",
+    "unit": null,
+    "lineWithUnit": "34 Horton Lane",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 3512.0,
+   "price": 2725000.0,
+   "date": "2026-07-13",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.126602,
+    "lng": -73.475565
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.8798696453323338,
+   "ppsf": 775.9111617312072
+  },
+  {
+   "mls": "24173413",
+   "slug": "176-carter-street-new-canaan-connecticut-24173413",
+   "address": {
+    "line": "176 Carter Street",
+    "unit": null,
+    "lineWithUnit": "176 Carter Street",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 6.0,
+   "baths": 6.0,
+   "sqft": 4158.0,
+   "price": 2805000.0,
+   "date": "2026-06-22",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.152066,
+    "lng": -73.471282
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.040827992324171,
+   "ppsf": 674.6031746031746
+  },
+  {
+   "mls": "24147808",
+   "slug": "135-comstock-hill-road-new-canaan-connecticut-24147808",
+   "address": {
+    "line": "135 Comstock Hill Road",
+    "unit": null,
+    "lineWithUnit": "135 Comstock Hill Road",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 4186.0,
+   "price": 2485000.0,
+   "date": "2026-05-05",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.149433,
+    "lng": -73.45122
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.5025617138843863,
+   "ppsf": 593.6454849498327
+  },
+  {
+   "mls": "24149903",
+   "slug": "48-green-meadow-lane-new-canaan-connecticut-24149903",
+   "address": {
+    "line": "48 Green Meadow Lane",
+    "unit": null,
+    "lineWithUnit": "48 Green Meadow Lane",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 5.0,
+   "baths": 5.0,
+   "sqft": 4454.0,
+   "price": 2850000.0,
+   "date": "2026-05-14",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.132065,
+    "lng": -73.47492
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.5369509164024706,
+   "ppsf": 639.8742703188145
   }
- }
+ ]
 }

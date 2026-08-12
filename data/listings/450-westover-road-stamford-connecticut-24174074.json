@@ -131,101 +131,141 @@
    "mi": 1.19
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "681-river-road-greenwich-connecticut-24143732",
-     "addr": "681 River Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 5.0,
-     "sqft": 3826.0,
-     "price": 2445000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-24",
-     "ppsf": 639,
-     "mi": 0.27
-    },
-    {
-     "slug": "420-valley-road-greenwich-connecticut-24160915",
-     "addr": "420 Valley Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 1601.0,
-     "price": 1300000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-14",
-     "ppsf": 812,
-     "mi": 0.54
-    },
-    {
-     "slug": "45-carriage-drive-south-stamford-connecticut-24175682",
-     "addr": "45 Carriage Drive South",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2893.0,
-     "price": 1260000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-13",
-     "ppsf": 436,
-     "mi": 0.59
-    },
-    {
-     "slug": "702-westover-road-stamford-connecticut-24167142",
-     "addr": "702 Westover Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 3309.0,
-     "price": 1412000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-29",
-     "ppsf": 427,
-     "mi": 0.59
-    },
-    {
-     "slug": "37-west-rock-trail-stamford-connecticut-24182108",
-     "addr": "37 West Rock Trail",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 5.0,
-     "sqft": 4391.0,
-     "price": 1875000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-07",
-     "ppsf": 427,
-     "mi": 0.71
-    },
-    {
-     "slug": "59-westwood-road-stamford-connecticut-24169086",
-     "addr": "59 Westwood Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2452.0,
-     "price": 1019000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-27",
-     "ppsf": 416,
-     "mi": 0.71
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 1019000.0,
-    "high": 2445000.0,
-    "median": 1356000
+ "comps": [
+  {
+   "mls": "24175682",
+   "slug": "45-carriage-drive-south-stamford-connecticut-24175682",
+   "address": {
+    "line": "45 Carriage Drive South",
+    "unit": null,
+    "lineWithUnit": "45 Carriage Drive South",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2893.0,
+   "price": 1260000.0,
+   "date": "2026-07-13",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.079376,
+    "lng": -73.5697
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9513594395472622,
+   "ppsf": 435.5340477013481
+  },
+  {
+   "mls": "24169086",
+   "slug": "59-westwood-road-stamford-connecticut-24169086",
+   "address": {
+    "line": "59 Westwood Road",
+    "unit": null,
+    "lineWithUnit": "59 Westwood Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2452.0,
+   "price": 1019000.0,
+   "date": "2026-05-27",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.07824,
+    "lng": -73.562535
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1497769304677998,
+   "ppsf": 415.57911908646
+  },
+  {
+   "mls": "24143655",
+   "slug": "281-roxbury-road-stamford-connecticut-24143655",
+   "address": {
+    "line": "281 Roxbury Road",
+    "unit": null,
+    "lineWithUnit": "281 Roxbury Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 2444.0,
+   "price": 990000.0,
+   "date": "2026-05-05",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.09267,
+    "lng": -73.571406
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.4034158754482213,
+   "ppsf": 405.0736497545008
+  },
+  {
+   "mls": "24170637",
+   "slug": "56-hubbard-avenue-stamford-connecticut-24170637",
+   "address": {
+    "line": "56 Hubbard Avenue",
+    "unit": null,
+    "lineWithUnit": "56 Hubbard Avenue",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2010.0,
+   "price": 1100000.0,
+   "date": "2026-06-17",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.058058,
+    "lng": -73.552485
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.2103210602643455,
+   "ppsf": 547.2636815920398
+  },
+  {
+   "mls": "24169239",
+   "slug": "43-randall-avenue-stamford-connecticut-24169239",
+   "address": {
+    "line": "43 Randall Avenue",
+    "unit": null,
+    "lineWithUnit": "43 Randall Avenue",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2024.0,
+   "price": 750000.0,
+   "date": "2026-07-02",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.069835,
+    "lng": -73.551288
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.776553329347706,
+   "ppsf": 370.55335968379444
   }
- }
+ ]
 }

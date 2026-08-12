@@ -135,101 +135,141 @@
    "mi": 0.92
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "100-hope-street-stamford-connecticut-24141028",
-     "addr": "100 Hope Street Apt 10",
-     "unit": "Apt 10",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 2005.0,
-     "price": 575000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-20",
-     "ppsf": 287,
-     "mi": 0.35
-    },
-    {
-     "slug": "135-courtland-avenue-stamford-connecticut-24159750",
-     "addr": "135 Courtland Avenue Apt 13",
-     "unit": "Apt 13",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1384.0,
-     "price": 505000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-09",
-     "ppsf": 365,
-     "mi": 0.47
-    },
-    {
-     "slug": "596-glenbrook-road-stamford-connecticut-24158012",
-     "addr": "596 Glenbrook Road Apt 12",
-     "unit": "Apt 12",
-     "beds": 3.0,
-     "baths": 4.0,
-     "sqft": 2016.0,
-     "price": 795000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-15",
-     "ppsf": 394,
-     "mi": 0.49
-    },
-    {
-     "slug": "39-maple-tree-avenue-stamford-connecticut-24150175",
-     "addr": "39 Maple Tree Avenue Unit 1",
-     "unit": "Unit 1",
-     "beds": 3.0,
-     "baths": 5.0,
-     "sqft": 2617.0,
-     "price": 925000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-22",
-     "ppsf": 353,
-     "mi": 0.51
-    },
-    {
-     "slug": "455-hope-street-stamford-connecticut-24172788",
-     "addr": "455 Hope Street Unit 1C",
-     "unit": "Unit 1C",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1667.0,
-     "price": 715000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-23",
-     "ppsf": 429,
-     "mi": 0.61
-    },
-    {
-     "slug": "88-maple-tree-avenue-stamford-connecticut-24127210",
-     "addr": "88 Maple Tree Avenue Apt G",
-     "unit": "Apt G",
-     "beds": 3.0,
-     "baths": 5.0,
-     "sqft": 3301.0,
-     "price": 925000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-14",
-     "ppsf": 280,
-     "mi": 0.61
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 505000.0,
-    "high": 925000.0,
-    "median": 755000
+ "comps": [
+  {
+   "mls": "24141028",
+   "slug": "100-hope-street-stamford-connecticut-24141028",
+   "address": {
+    "line": "100 Hope Street",
+    "unit": "Apt 10",
+    "lineWithUnit": "100 Hope Street Apt 10",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06906"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2005.0,
+   "price": 575000.0,
+   "date": "2026-04-20",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.064756,
+    "lng": -73.527643
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5573215831493227,
+   "ppsf": 286.78304239401496
+  },
+  {
+   "mls": "24175347",
+   "slug": "30-maple-tree-avenue-stamford-connecticut-24175347",
+   "address": {
+    "line": "30 Maple Tree Avenue",
+    "unit": "Unit B",
+    "lineWithUnit": "30 Maple Tree Avenue Unit B",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06906"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1590.0,
+   "price": 469000.0,
+   "date": "2026-07-02",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.071783,
+    "lng": -73.515039
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.800225048270582,
+   "ppsf": 294.9685534591195
+  },
+  {
+   "mls": "24175141",
+   "slug": "39-maple-tree-avenue-stamford-connecticut-24175141",
+   "address": {
+    "line": "39 Maple Tree Avenue",
+    "unit": "Unit 26",
+    "lineWithUnit": "39 Maple Tree Avenue Unit 26",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06906"
+   },
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 1667.0,
+   "price": 630000.0,
+   "date": "2026-07-13",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.070646,
+    "lng": -73.513312
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8240386779984611,
+   "ppsf": 377.9244151169766
+  },
+  {
+   "mls": "24172788",
+   "slug": "455-hope-street-stamford-connecticut-24172788",
+   "address": {
+    "line": "455 Hope Street",
+    "unit": "Unit 1C",
+    "lineWithUnit": "455 Hope Street Unit 1C",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06906"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1667.0,
+   "price": 715000.0,
+   "date": "2026-06-23",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.075229,
+    "lng": -73.522029
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9845712701265026,
+   "ppsf": 428.91421715656867
+  },
+  {
+   "mls": "24109603",
+   "slug": "168-colonial-road-stamford-connecticut-24109603",
+   "address": {
+    "line": "168 Colonial Road",
+    "unit": "Apt 6",
+    "lineWithUnit": "168 Colonial Road Apt 6",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06906"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2481.0,
+   "price": 830000.0,
+   "date": "2026-04-06",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.06964,
+    "lng": -73.533138
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0516386938210445,
+   "ppsf": 334.5425231761387
   }
- }
+ ]
 }

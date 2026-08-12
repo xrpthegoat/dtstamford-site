@@ -106,57 +106,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "26-morningside-drive-south-westport-connecticut-24147443",
-     "addr": "26 Morningside Drive South",
-     "unit": "",
-     "beds": 7.0,
-     "baths": 8.0,
-     "sqft": 9335.0,
-     "price": 4350000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-09",
-     "ppsf": 466,
-     "mi": 0.69
-    },
-    {
-     "slug": "13-edgemarth-hill-road-westport-connecticut-24183173",
-     "addr": "13 Edgemarth Hill Road",
-     "unit": "",
-     "beds": 7.0,
-     "baths": 8.0,
-     "sqft": 8700.0,
-     "price": 5999999.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 690,
-     "mi": 0.38
-    },
-    {
-     "slug": "20-fresenius-road-westport-connecticut-24176785",
-     "addr": "20 Fresenius Road",
-     "unit": "",
-     "beds": 7.0,
-     "baths": 9.0,
-     "sqft": 7105.0,
-     "price": 4000000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 563,
-     "mi": 0.7
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 4350000.0,
-    "high": 4350000.0,
-    "median": 4350000
+ "comps": [
+  {
+   "mls": "24103087",
+   "slug": "10-tierney-lane-westport-connecticut-24103087",
+   "address": {
+    "line": "10 Tierney Lane",
+    "unit": null,
+    "lineWithUnit": "10 Tierney Lane",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
    },
-   "radiusMi": 0.75
+   "beds": 5.0,
+   "baths": 8.0,
+   "sqft": 7400.0,
+   "price": 4625000.0,
+   "date": "2026-06-01",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.128402,
+    "lng": -73.325418
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1361013536184306,
+   "ppsf": 625.0
+  },
+  {
+   "mls": "24147443",
+   "slug": "26-morningside-drive-south-westport-connecticut-24147443",
+   "address": {
+    "line": "26 Morningside Drive South",
+    "unit": null,
+    "lineWithUnit": "26 Morningside Drive South",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 7.0,
+   "baths": 8.0,
+   "sqft": 9335.0,
+   "price": 4350000.0,
+   "date": "2026-06-09",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.136592,
+    "lng": -73.326034
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1178254080833232,
+   "ppsf": 465.98821638993036
+  },
+  {
+   "mls": "24119112",
+   "slug": "49-hillspoint-road-westport-connecticut-24119112",
+   "address": {
+    "line": "49 Hillspoint Road",
+    "unit": null,
+    "lineWithUnit": "49 Hillspoint Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 5.0,
+   "baths": 7.0,
+   "sqft": 8550.0,
+   "price": 4225000.0,
+   "date": "2026-06-12",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.131257,
+    "lng": -73.344239
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5304329166960435,
+   "ppsf": 494.15204678362574
+  },
+  {
+   "mls": "24167975",
+   "slug": "32-webb-road-westport-connecticut-24167975",
+   "address": {
+    "line": "32 Webb Road",
+    "unit": null,
+    "lineWithUnit": "32 Webb Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 8.0,
+   "baths": 9.0,
+   "sqft": 8412.0,
+   "price": 4100000.0,
+   "date": "2026-07-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.14166,
+    "lng": -73.34306
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1358802211910457,
+   "ppsf": 487.39895387541605
+  },
+  {
+   "mls": "24132302",
+   "slug": "249-greens-farms-road-westport-connecticut-24132302",
+   "address": {
+    "line": "249 Greens Farms Road",
+    "unit": null,
+    "lineWithUnit": "249 Greens Farms Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 7.0,
+   "baths": 9.0,
+   "sqft": 10104.0,
+   "price": 3480000.0,
+   "date": "2026-04-16",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.122032,
+    "lng": -73.321185
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.8058984266114013,
+   "ppsf": 344.41805225653206
   }
- }
+ ]
 }

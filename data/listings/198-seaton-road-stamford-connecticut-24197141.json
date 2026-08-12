@@ -119,101 +119,141 @@
    "mi": 1.07
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "246-seaton-road-stamford-connecticut-24158469",
-     "addr": "246 Seaton Road Apt 2",
-     "unit": "Apt 2",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 575.0,
-     "price": 1975.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-28",
-     "ppsf": 3,
-     "mi": 0.12
-    },
-    {
-     "slug": "81-courtland-avenue-stamford-connecticut-24154403",
-     "addr": "81 Courtland Avenue Unit 81-07",
-     "unit": "Unit 81-07",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 828.0,
-     "price": 2700.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-16",
-     "ppsf": 3,
-     "mi": 0.24
-    },
-    {
-     "slug": "84-blachley-road-stamford-connecticut-24159034",
-     "addr": "84 Blachley Road Unit B",
-     "unit": "Unit B",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 825.0,
-     "price": 1989.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-19",
-     "ppsf": 2,
-     "mi": 0.33
-    },
-    {
-     "slug": "136-blachley-road-stamford-connecticut-24159039",
-     "addr": "136 Blachley Road Unit B",
-     "unit": "Unit B",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 825.0,
-     "price": 1989.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-19",
-     "ppsf": 2,
-     "mi": 0.33
-    },
-    {
-     "slug": "128-blachley-road-stamford-connecticut-24186983",
-     "addr": "128 Blachley Road Unit B",
-     "unit": "Unit B",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 825.0,
-     "price": 2295.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-22",
-     "ppsf": 3,
-     "mi": 0.33
-    },
-    {
-     "slug": "29-hamilton-court-stamford-connecticut-24159021",
-     "addr": "29 Hamilton Court Unit C",
-     "unit": "Unit C",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 825.0,
-     "price": 1989.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-25",
-     "ppsf": 2,
-     "mi": 0.34
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 1975.0,
-    "high": 2700.0,
-    "median": 1989
+ "comps": [
+  {
+   "mls": "24158469",
+   "slug": "246-seaton-road-stamford-connecticut-24158469",
+   "address": {
+    "line": "246 Seaton Road",
+    "unit": "Apt 2",
+    "lineWithUnit": "246 Seaton Road Apt 2",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
    },
-   "radiusMi": 0.75
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 575.0,
+   "price": 1975.0,
+   "date": "2026-05-28",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.06025,
+    "lng": -73.514539
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.19432698390416756,
+   "ppsf": 3.4347826086956523
+  },
+  {
+   "mls": "24172465",
+   "slug": "34-standish-road-stamford-connecticut-24172465",
+   "address": {
+    "line": "34 Standish Road",
+    "unit": "Unit 3",
+    "lineWithUnit": "34 Standish Road Unit 3",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 633.0,
+   "price": 2100.0,
+   "date": "2026-05-18",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.05844,
+    "lng": -73.516881
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.1809407416924942,
+   "ppsf": 3.3175355450236967
+  },
+  {
+   "mls": "24178687",
+   "slug": "48-lockwood-avenue-stamford-connecticut-24178687",
+   "address": {
+    "line": "48 Lockwood Avenue",
+    "unit": "Unit 3",
+    "lineWithUnit": "48 Lockwood Avenue Unit 3",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 600.0,
+   "price": 1800.0,
+   "date": "2026-06-14",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.054432,
+    "lng": -73.52111
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7214912785422413,
+   "ppsf": 3.0
+  },
+  {
+   "mls": "24186937",
+   "slug": "39-glenbrook-road-stamford-connecticut-24186937",
+   "address": {
+    "line": "39 Glenbrook Road",
+    "unit": "Unit 2W",
+    "lineWithUnit": "39 Glenbrook Road Unit 2W",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 0.0,
+   "baths": 1.0,
+   "sqft": 477.0,
+   "price": 1695.0,
+   "date": "2026-07-29",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.056555,
+    "lng": -73.528682
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0666239629419518,
+   "ppsf": 3.5534591194968552
+  },
+  {
+   "mls": "24161401",
+   "slug": "60-strawberry-hill-avenue-stamford-connecticut-24161401",
+   "address": {
+    "line": "60 Strawberry Hill Avenue",
+    "unit": "Unit 1002",
+    "lineWithUnit": "60 Strawberry Hill Avenue Unit 1002",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 431.0,
+   "price": 1850.0,
+   "date": "2026-03-27",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.062366,
+    "lng": -73.53354
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.4229750299667352,
+   "ppsf": 4.292343387470997
   }
- }
+ ]
 }

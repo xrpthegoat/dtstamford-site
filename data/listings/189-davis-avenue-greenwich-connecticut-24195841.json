@@ -131,45 +131,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "115-east-elm-street-greenwich-connecticut-24188694",
-     "addr": "115 East Elm Street",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 2228.0,
-     "price": 14950.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-10",
-     "ppsf": 7,
-     "mi": 0.1
-    },
-    {
-     "slug": "181-east-putnam-avenue-greenwich-connecticut-24146165",
-     "addr": "181 East Putnam Avenue",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 2.0,
-     "sqft": 1904.0,
-     "price": 8400.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-03",
-     "ppsf": 4,
-     "mi": 0.72
-    }
-   ],
-   "summary": {
-    "n": 2,
-    "low": 8400.0,
-    "high": 14950.0,
-    "median": 11675
+ "comps": [
+  {
+   "mls": "24114506",
+   "slug": "greenwich-connecticut-24114506",
+   "address": {
+    "line": null,
+    "unit": null,
+    "lineWithUnit": null,
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06830"
    },
-   "radiusMi": 0.75
+   "beds": 5.0,
+   "baths": 4.0,
+   "sqft": 3500.0,
+   "price": 15500.0,
+   "date": "2026-03-27",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.020529,
+    "lng": -73.607722
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1782693234120676,
+   "ppsf": 4.428571428571429
+  },
+  {
+   "mls": "24164099",
+   "slug": "28-home-place-greenwich-connecticut-24164099",
+   "address": {
+    "line": "28 Home Place",
+    "unit": "Unit A-2",
+    "lineWithUnit": "28 Home Place Unit A-2",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06830"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2565.0,
+   "price": 6550.0,
+   "date": "2026-05-17",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.02078,
+    "lng": -73.61663
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6833433787763369,
+   "ppsf": 2.5536062378167643
+  },
+  {
+   "mls": "24176245",
+   "slug": "24-orchard-place-greenwich-connecticut-24176245",
+   "address": {
+    "line": "24 Orchard Place",
+    "unit": "Unit B",
+    "lineWithUnit": "24 Orchard Place Unit B",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06830"
+   },
+   "beds": 5.0,
+   "baths": 5.0,
+   "sqft": 3427.0,
+   "price": 19000.0,
+   "date": "2026-05-26",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.020979,
+    "lng": -73.618312
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.630194563335142,
+   "ppsf": 5.544207761890867
+  },
+  {
+   "mls": "24168846",
+   "slug": "47-indian-harbor-drive-greenwich-connecticut-24168846",
+   "address": {
+    "line": "47 Indian Harbor Drive",
+    "unit": "Unit 7",
+    "lineWithUnit": "47 Indian Harbor Drive Unit 7",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06830"
+   },
+   "beds": 3.0,
+   "baths": 4.0,
+   "sqft": 2830.0,
+   "price": 10000.0,
+   "date": "2026-06-14",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.021399,
+    "lng": -73.618912
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5793840640525669,
+   "ppsf": 3.5335689045936394
+  },
+  {
+   "mls": "24149199",
+   "slug": "519-east-putnam-avenue-greenwich-connecticut-24149199",
+   "address": {
+    "line": "519 East Putnam Avenue",
+    "unit": null,
+    "lineWithUnit": "519 East Putnam Avenue",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06807"
+   },
+   "beds": 5.0,
+   "baths": 3.0,
+   "sqft": 2992.0,
+   "price": 11100.0,
+   "date": "2026-03-24",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.037148,
+    "lng": -73.607056
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.5547841479212359,
+   "ppsf": 3.7098930481283423
   }
- }
+ ]
 }

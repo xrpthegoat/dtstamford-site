@@ -131,57 +131,141 @@
    "walk": 7
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "16-mountain-road-wilton-connecticut-24167605",
-     "addr": "16 Mountain Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2325.0,
-     "price": 905000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-24",
-     "ppsf": 389,
-     "mi": 0.39
-    },
-    {
-     "slug": "206-mountain-road-wilton-connecticut-24195335",
-     "addr": "206 Mountain Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 3758.0,
-     "price": 1799000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 479,
-     "mi": 0.63
-    },
-    {
-     "slug": "8-indian-rock-place-wilton-connecticut-24195404",
-     "addr": "8 Indian Rock Place",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 4502.0,
-     "price": 1575000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 350,
-     "mi": 0.63
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 905000.0,
-    "high": 905000.0,
-    "median": 905000
+ "comps": [
+  {
+   "mls": "24181036",
+   "slug": "172-mather-street-wilton-connecticut-24181036",
+   "address": {
+    "line": "172 Mather Street",
+    "unit": null,
+    "lineWithUnit": "172 Mather Street",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 3036.0,
+   "price": 815000.0,
+   "date": "2026-08-03",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.242108,
+    "lng": -73.431645
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0420772273049534,
+   "ppsf": 268.4453227931489
+  },
+  {
+   "mls": "24167605",
+   "slug": "16-mountain-road-wilton-connecticut-24167605",
+   "address": {
+    "line": "16 Mountain Road",
+    "unit": null,
+    "lineWithUnit": "16 Mountain Road",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2325.0,
+   "price": 905000.0,
+   "date": "2026-06-24",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.256255,
+    "lng": -73.436961
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 0.6297043201743702,
+   "ppsf": 389.247311827957
+  },
+  {
+   "mls": "24151997",
+   "slug": "349-mountain-road-wilton-connecticut-24151997",
+   "address": {
+    "line": "349 Mountain Road",
+    "unit": null,
+    "lineWithUnit": "349 Mountain Road",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2884.0,
+   "price": 1195000.0,
+   "date": "2026-04-21",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.235464,
+    "lng": -73.436527
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.798170808815124,
+   "ppsf": 414.35506241331484
+  },
+  {
+   "mls": "24156757",
+   "slug": "17-tall-oaks-road-wilton-connecticut-24156757",
+   "address": {
+    "line": "17 Tall Oaks Road",
+    "unit": null,
+    "lineWithUnit": "17 Tall Oaks Road",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 3854.0,
+   "price": 1550000.0,
+   "date": "2026-04-17",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.256299,
+    "lng": -73.453272
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.776397548127868,
+   "ppsf": 402.1795537104307
+  },
+  {
+   "mls": "24168476",
+   "slug": "8-dorado-court-wilton-connecticut-24168476",
+   "address": {
+    "line": "8 Dorado Court",
+    "unit": null,
+    "lineWithUnit": "8 Dorado Court",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2771.0,
+   "price": 1390000.0,
+   "date": "2026-08-07",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.238648,
+    "lng": -73.438697
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.4970522121479164,
+   "ppsf": 501.623962468423
   }
- }
+ ]
 }

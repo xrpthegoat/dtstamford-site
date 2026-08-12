@@ -112,101 +112,141 @@
    "mi": 0.86
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "84-taylor-avenue-norwalk-connecticut-24147701",
-     "addr": "84 Taylor Avenue Apt 1",
-     "unit": "Apt 1",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1106.0,
-     "price": 3400.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-06",
-     "ppsf": 3,
-     "mi": 0.05
-    },
-    {
-     "slug": "6-hillside-place-norwalk-connecticut-24174630",
-     "addr": "6 Hillside Place",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 1.0,
-     "sqft": 1205.0,
-     "price": 4100.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-15",
-     "ppsf": 3,
-     "mi": 0.28
-    },
-    {
-     "slug": "7-mcallister-avenue-norwalk-connecticut-24149043",
-     "addr": "7 McAllister Avenue Unit 2",
-     "unit": "Unit 2",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1274.0,
-     "price": 2600.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-23",
-     "ppsf": 2,
-     "mi": 0.28
-    },
-    {
-     "slug": "27-ferris-avenue-norwalk-connecticut-24164787",
-     "addr": "27 Ferris Avenue Unit 4",
-     "unit": "Unit 4",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1726.0,
-     "price": 3850.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-24",
-     "ppsf": 2,
-     "mi": 0.44
-    },
-    {
-     "slug": "71-connecticut-avenue-norwalk-connecticut-24141494",
-     "addr": "71 Connecticut Avenue Unit 209",
-     "unit": "Unit 209",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1444.0,
-     "price": 3500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-28",
-     "ppsf": 2,
-     "mi": 0.47
-    },
-    {
-     "slug": "18-soundview-avenue-norwalk-connecticut-24159808",
-     "addr": "18 Soundview Avenue Unit 1",
-     "unit": "Unit 1",
-     "beds": 3.0,
-     "baths": 1.0,
-     "sqft": 3168.0,
-     "price": 3000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-20",
-     "ppsf": 1,
-     "mi": 0.56
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 2600.0,
-    "high": 4100.0,
-    "median": 3450
+ "comps": [
+  {
+   "mls": "24146189",
+   "slug": "12-splitrock-road-norwalk-connecticut-24146189",
+   "address": {
+    "line": "12 Splitrock Road",
+    "unit": null,
+    "lineWithUnit": "12 Splitrock Road",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 3316.0,
+   "price": 8000.0,
+   "date": "2026-06-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.082144,
+    "lng": -73.418512
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.3232894408055036,
+   "ppsf": 2.4125452352231602
+  },
+  {
+   "mls": "24173590",
+   "slug": "51-wall-street-norwalk-connecticut-24173590",
+   "address": {
+    "line": "51 Wall Street",
+    "unit": "Unit 1",
+    "lineWithUnit": "51 Wall Street Unit 1",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 0.0,
+   "baths": 1.0,
+   "sqft": 4648.0,
+   "price": 1520.0,
+   "date": "2026-06-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.117687,
+    "lng": -73.41311
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.276243034898522,
+   "ppsf": 0.3270223752151463
+  },
+  {
+   "mls": "24155362",
+   "slug": "25-channel-avenue-norwalk-connecticut-24155362",
+   "address": {
+    "line": "25 Channel Avenue",
+    "unit": null,
+    "lineWithUnit": "25 Channel Avenue",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 2994.0,
+   "price": 20000.0,
+   "date": "2026-03-26",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.082005,
+    "lng": -73.41098
+   },
+   "klass": "rental",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 2.649670476199937,
+   "ppsf": 6.680026720106881
+  },
+  {
+   "mls": "24141837",
+   "slug": "9-barclay-court-norwalk-connecticut-24141837",
+   "address": {
+    "line": "9 Barclay Court",
+    "unit": null,
+    "lineWithUnit": "9 Barclay Court",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06853"
+   },
+   "beds": 5.0,
+   "baths": 5.0,
+   "sqft": 3373.0,
+   "price": 20000.0,
+   "date": "2026-04-10",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.066319,
+    "lng": -73.442979
+   },
+   "klass": "rental",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 4.0554976844533694,
+   "ppsf": 5.929439667951379
+  },
+  {
+   "mls": "24138654",
+   "slug": "7-longview-court-norwalk-connecticut-24138654",
+   "address": {
+    "line": "7 Longview Court",
+    "unit": null,
+    "lineWithUnit": "7 Longview Court",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 4.0,
+   "baths": 2.0,
+   "sqft": 3200.0,
+   "price": 3500.0,
+   "date": "2026-04-03",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.130936,
+    "lng": -73.422688
+   },
+   "klass": "rental",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 3.33960210217238,
+   "ppsf": 1.09375
   }
- }
+ ]
 }

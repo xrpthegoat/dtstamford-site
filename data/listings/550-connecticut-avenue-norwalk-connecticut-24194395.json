@@ -121,101 +121,141 @@
    "mi": 1.65
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "105-richards-avenue-norwalk-connecticut-24166049",
-     "addr": "105 Richards Avenue Unit 2410",
-     "unit": "Unit 2410",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1136.0,
-     "price": 3150.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-15",
-     "ppsf": 3,
-     "mi": 0.36
-    },
-    {
-     "slug": "105-richards-avenue-norwalk-connecticut-24149129",
-     "addr": "105 Richards Avenue Unit 2305",
-     "unit": "Unit 2305",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1132.0,
-     "price": 2895.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-15",
-     "ppsf": 3,
-     "mi": 0.36
-    },
-    {
-     "slug": "105-richards-avenue-norwalk-connecticut-24153578",
-     "addr": "105 Richards Avenue Unit 1206",
-     "unit": "Unit 1206",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1116.0,
-     "price": 3000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-31",
-     "ppsf": 3,
-     "mi": 0.36
-    },
-    {
-     "slug": "105-richards-avenue-norwalk-connecticut-24176972",
-     "addr": "105 Richards Avenue Unit 2508",
-     "unit": "Unit 2508",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1082.0,
-     "price": 3400.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-10",
-     "ppsf": 3,
-     "mi": 0.36
-    },
-    {
-     "slug": "105-richards-avenue-norwalk-connecticut-24172247",
-     "addr": "105 Richards Avenue Unit 1305",
-     "unit": "Unit 1305",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1116.0,
-     "price": 3250.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-07",
-     "ppsf": 3,
-     "mi": 0.36
-    },
-    {
-     "slug": "105-richards-avenue-norwalk-connecticut-24190952",
-     "addr": "105 Richards Avenue Unit 2310",
-     "unit": "Unit 2310",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1136.0,
-     "price": 3200.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-21",
-     "ppsf": 3,
-     "mi": 0.36
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 2895.0,
-    "high": 3400.0,
-    "median": 3175
+ "comps": [
+  {
+   "mls": "24150892",
+   "slug": "1-horizon-drive-norwalk-connecticut-24150892",
+   "address": {
+    "line": "1 Horizon Drive",
+    "unit": "Apt 2",
+    "lineWithUnit": "1 Horizon Drive Apt 2",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1258.0,
+   "price": 3150.0,
+   "date": "2026-03-26",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.101133,
+    "lng": -73.434452
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.007626208802808,
+   "ppsf": 2.503974562798092
+  },
+  {
+   "mls": "24139759",
+   "slug": "2-frances-avenue-norwalk-connecticut-24139759",
+   "address": {
+    "line": "2 Frances Avenue",
+    "unit": "Unit 2",
+    "lineWithUnit": "2 Frances Avenue Unit 2",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 1200.0,
+   "price": 2850.0,
+   "date": "2026-03-27",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.095258,
+    "lng": -73.431722
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.17999792278419,
+   "ppsf": 2.375
+  },
+  {
+   "mls": "24149129",
+   "slug": "105-richards-avenue-norwalk-connecticut-24149129",
+   "address": {
+    "line": "105 Richards Avenue",
+    "unit": "Unit 2305",
+    "lineWithUnit": "105 Richards Avenue Unit 2305",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1132.0,
+   "price": 2895.0,
+   "date": "2026-04-15",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.096504,
+    "lng": -73.452328
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5848517949127641,
+   "ppsf": 2.5574204946996466
+  },
+  {
+   "mls": "24166049",
+   "slug": "105-richards-avenue-norwalk-connecticut-24166049",
+   "address": {
+    "line": "105 Richards Avenue",
+    "unit": "Unit 2410",
+    "lineWithUnit": "105 Richards Avenue Unit 2410",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1136.0,
+   "price": 3150.0,
+   "date": "2026-05-15",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.096516,
+    "lng": -73.45232
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5839374408737756,
+   "ppsf": 2.772887323943662
+  },
+  {
+   "mls": "24153578",
+   "slug": "105-richards-avenue-norwalk-connecticut-24153578",
+   "address": {
+    "line": "105 Richards Avenue",
+    "unit": "Unit 1206",
+    "lineWithUnit": "105 Richards Avenue Unit 1206",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1116.0,
+   "price": 3000.0,
+   "date": "2026-05-31",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.096504,
+    "lng": -73.452328
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5848517949127641,
+   "ppsf": 2.6881720430107525
   }
- }
+ ]
 }

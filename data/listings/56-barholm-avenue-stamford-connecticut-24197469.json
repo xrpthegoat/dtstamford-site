@@ -126,73 +126,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "53-dagmar-road-stamford-connecticut-24170188",
-     "addr": "53 Dagmar Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2963.0,
-     "price": 6028.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-19",
-     "ppsf": 2,
-     "mi": 0.43
-    },
-    {
-     "slug": "46-prudence-drive-stamford-connecticut-24157278",
-     "addr": "46 Prudence Drive",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 2.0,
-     "sqft": 1628.0,
-     "price": 5300.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-18",
-     "ppsf": 3,
-     "mi": 0.48
-    },
-    {
-     "slug": "1312-hope-street-stamford-connecticut-24157858",
-     "addr": "1312 Hope Street Unit 2",
-     "unit": "Unit 2",
-     "beds": 4.0,
-     "baths": 2.0,
-     "sqft": 1625.0,
-     "price": 3750.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-30",
-     "ppsf": 2,
-     "mi": 0.61
-    },
-    {
-     "slug": "17-oenoke-place-stamford-connecticut-24180929",
-     "addr": "17 Oenoke Place Unit REAR Home",
-     "unit": "Unit REAR Home",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2350.0,
-     "price": 5300.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-13",
-     "ppsf": 2,
-     "mi": 0.62
-    }
-   ],
-   "summary": {
-    "n": 4,
-    "low": 3750.0,
-    "high": 6028.0,
-    "median": 5300
+ "comps": [
+  {
+   "mls": "24154348",
+   "slug": "32-bouton-street-east-stamford-connecticut-24154348",
+   "address": {
+    "line": "32 Bouton Street East",
+    "unit": "Unit 2",
+    "lineWithUnit": "32 Bouton Street East Unit 2",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06907"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 2400.0,
+   "price": 3500.0,
+   "date": "2026-03-28",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.100479,
+    "lng": -73.514838
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1215165031511356,
+   "ppsf": 1.4583333333333333
+  },
+  {
+   "mls": "24180929",
+   "slug": "17-oenoke-place-stamford-connecticut-24180929",
+   "address": {
+    "line": "17 Oenoke Place",
+    "unit": "Unit REAR Home",
+    "lineWithUnit": "17 Oenoke Place Unit REAR Home",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06907"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2350.0,
+   "price": 5300.0,
+   "date": "2026-07-13",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.098851,
+    "lng": -73.516609
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9938783663415509,
+   "ppsf": 2.25531914893617
+  },
+  {
+   "mls": "24154341",
+   "slug": "6-bouton-street-east-stamford-connecticut-24154341",
+   "address": {
+    "line": "6 Bouton Street East",
+    "unit": "Unit 4",
+    "lineWithUnit": "6 Bouton Street East Unit 4",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06907"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 2400.0,
+   "price": 3300.0,
+   "date": "2026-07-11",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.100803,
+    "lng": -73.51625
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0030818904179934,
+   "ppsf": 1.375
+  },
+  {
+   "mls": "24167217",
+   "slug": "45-mead-street-stamford-connecticut-24167217",
+   "address": {
+    "line": "45 Mead Street",
+    "unit": "Unit 1",
+    "lineWithUnit": "45 Mead Street Unit 1",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06907"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 1844.0,
+   "price": 2050.0,
+   "date": "2026-04-14",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.099056,
+    "lng": -73.515495
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0813884787240935,
+   "ppsf": 1.1117136659436009
+  },
+  {
+   "mls": "24192422",
+   "slug": "27-bouton-street-east-stamford-connecticut-24192422",
+   "address": {
+    "line": "27 Bouton Street East",
+    "unit": null,
+    "lineWithUnit": "27 Bouton Street East",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06907"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2380.0,
+   "price": 3650.0,
+   "date": "2026-08-05",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.100078,
+    "lng": -73.515565
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0624768411459355,
+   "ppsf": 1.5336134453781514
   }
- }
+ ]
 }

@@ -117,125 +117,141 @@
    "mi": 1.0
   }
  },
- "comps": {
-  "building": {
-   "rows": [
-    {
-     "slug": "306-courtland-avenue-stamford-connecticut-24178965",
-     "addr": "306 Courtland Avenue Unit 2",
-     "unit": "Unit 2",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1480.0,
-     "price": 4000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-29",
-     "ppsf": 3
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 4000.0,
-    "high": 4000.0,
-    "median": 4000
+ "comps": [
+  {
+   "mls": "24178965",
+   "slug": "306-courtland-avenue-stamford-connecticut-24178965",
+   "address": {
+    "line": "306 Courtland Avenue",
+    "unit": "Unit 2",
+    "lineWithUnit": "306 Courtland Avenue Unit 2",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06906"
    },
-   "label": "306 Courtland Avenue"
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1480.0,
+   "price": 4000.0,
+   "date": "2026-06-29",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.068562,
+    "lng": -73.516242
+   },
+   "klass": "rental",
+   "tier": 1,
+   "why": "Same building, sold in the last year",
+   "km": 0.00027851178554598753,
+   "ppsf": 2.7027027027027026
   },
-  "area": {
-   "rows": [
-    {
-     "slug": "13-parker-avenue-stamford-connecticut-24183102",
-     "addr": "13 Parker Avenue",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1898.0,
-     "price": 3400.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-03",
-     "ppsf": 2,
-     "mi": 0.27
-    },
-    {
-     "slug": "18-elm-tree-place-stamford-connecticut-24193797",
-     "addr": "18 Elm Tree Place Unit 1st floor",
-     "unit": "Unit 1st floor",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1759.0,
-     "price": 6500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-01",
-     "ppsf": 4,
-     "mi": 0.4
-    },
-    {
-     "slug": "57-scofield-avenue-stamford-connecticut-24161103",
-     "addr": "57 Scofield Avenue",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 4.0,
-     "sqft": 2390.0,
-     "price": 4300.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-03",
-     "ppsf": 2,
-     "mi": 0.41
-    },
-    {
-     "slug": "15-rose-street-stamford-connecticut-24175286",
-     "addr": "15 Rose Street Unit 2",
-     "unit": "Unit 2",
-     "beds": 3.0,
-     "baths": 1.0,
-     "sqft": 1250.0,
-     "price": 3200.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-31",
-     "ppsf": 3,
-     "mi": 0.43
-    },
-    {
-     "slug": "24-king-street-stamford-connecticut-24154237",
-     "addr": "24 King Street",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1620.0,
-     "price": 6200.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-28",
-     "ppsf": 4,
-     "mi": 0.43
-    },
-    {
-     "slug": "22-union-street-stamford-connecticut-24175922",
-     "addr": "22 Union Street Unit 1st Floor",
-     "unit": "Unit 1st Floor",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 2130.0,
-     "price": 4300.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-15",
-     "ppsf": 2,
-     "mi": 0.47
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 3200.0,
-    "high": 6500.0,
-    "median": 4300
+  {
+   "mls": "24151966",
+   "slug": "137-rock-spring-road-stamford-connecticut-24151966",
+   "address": {
+    "line": "137 Rock Spring Road",
+    "unit": "Unit 1",
+    "lineWithUnit": "137 Rock Spring Road Unit 1",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06906"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 1200.0,
+   "price": 3250.0,
+   "date": "2026-03-28",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.067978,
+    "lng": -73.52781
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.97210312524754,
+   "ppsf": 2.7083333333333335
+  },
+  {
+   "mls": "24152158",
+   "slug": "54-morris-street-stamford-connecticut-24152158",
+   "address": {
+    "line": "54 Morris Street",
+    "unit": "Unit 1",
+    "lineWithUnit": "54 Morris Street Unit 1",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06906"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1160.0,
+   "price": 3200.0,
+   "date": "2026-04-13",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.06847,
+    "lng": -73.52546
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7730011834335075,
+   "ppsf": 2.7586206896551726
+  },
+  {
+   "mls": "24154237",
+   "slug": "24-king-street-stamford-connecticut-24154237",
+   "address": {
+    "line": "24 King Street",
+    "unit": null,
+    "lineWithUnit": "24 King Street",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1620.0,
+   "price": 6200.0,
+   "date": "2026-04-28",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.064059,
+    "lng": -73.510404
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6999051604703421,
+   "ppsf": 3.8271604938271606
+  },
+  {
+   "mls": "24163698",
+   "slug": "431-glenbrook-road-stamford-connecticut-24163698",
+   "address": {
+    "line": "431 Glenbrook Road",
+    "unit": "Unit 3",
+    "lineWithUnit": "431 Glenbrook Road Unit 3",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06906"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1290.0,
+   "price": 2800.0,
+   "date": "2026-05-15",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.068016,
+    "lng": -73.52072
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.38041137891101406,
+   "ppsf": 2.1705426356589146
   }
- }
+ ]
 }

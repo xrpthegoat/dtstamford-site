@@ -127,101 +127,141 @@
    "mi": 0.98
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "59-courtland-avenue-stamford-connecticut-24156487",
-     "addr": "59 Courtland Avenue Apt 2T",
-     "unit": "Apt 2T",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 480.0,
-     "price": 160000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-01",
-     "ppsf": 333,
-     "mi": 0.2
-    },
-    {
-     "slug": "59-courtland-avenue-stamford-connecticut-24157387",
-     "addr": "59 Courtland Avenue Apt 3B",
-     "unit": "Apt 3B",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 590.0,
-     "price": 239000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-29",
-     "ppsf": 405,
-     "mi": 0.2
-    },
-    {
-     "slug": "194-seaton-road-stamford-connecticut-24167892",
-     "addr": "194 Seaton Road Unit 3",
-     "unit": "Unit 3",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 575.0,
-     "price": 230000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-18",
-     "ppsf": 400,
-     "mi": 0.29
-    },
-    {
-     "slug": "190-seaton-road-stamford-connecticut-24176427",
-     "addr": "190 Seaton Road Unit 1",
-     "unit": "Unit 1",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 575.0,
-     "price": 235500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-01",
-     "ppsf": 410,
-     "mi": 0.3
-    },
-    {
-     "slug": "76-maple-tree-avenue-stamford-connecticut-24172053",
-     "addr": "76 Maple Tree Avenue Unit 5",
-     "unit": "Unit 5",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 850.0,
-     "price": 365000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-06",
-     "ppsf": 429,
-     "mi": 0.59
-    },
-    {
-     "slug": "5-hundley-court-stamford-connecticut-24150941",
-     "addr": "5 Hundley Court Unit LL",
-     "unit": "Unit LL",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 1100.0,
-     "price": 310000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-27",
-     "ppsf": 282,
-     "mi": 0.72
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 160000.0,
-    "high": 365000.0,
-    "median": 237250
+ "comps": [
+  {
+   "mls": "24176427",
+   "slug": "190-seaton-road-stamford-connecticut-24176427",
+   "address": {
+    "line": "190 Seaton Road",
+    "unit": "Unit 1",
+    "lineWithUnit": "190 Seaton Road Unit 1",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
    },
-   "radiusMi": 0.75
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 575.0,
+   "price": 235500.0,
+   "date": "2026-07-01",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.059766,
+    "lng": -73.517008
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.47670722207733457,
+   "ppsf": 409.5652173913044
+  },
+  {
+   "mls": "24156487",
+   "slug": "59-courtland-avenue-stamford-connecticut-24156487",
+   "address": {
+    "line": "59 Courtland Avenue",
+    "unit": "Apt 2T",
+    "lineWithUnit": "59 Courtland Avenue Apt 2T",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 480.0,
+   "price": 160000.0,
+   "date": "2026-06-01",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.060718,
+    "lng": -73.513609
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.3156212729415397,
+   "ppsf": 333.3333333333333
+  },
+  {
+   "mls": "24157387",
+   "slug": "59-courtland-avenue-stamford-connecticut-24157387",
+   "address": {
+    "line": "59 Courtland Avenue",
+    "unit": "Apt 3B",
+    "lineWithUnit": "59 Courtland Avenue Apt 3B",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 590.0,
+   "price": 239000.0,
+   "date": "2026-05-29",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.060718,
+    "lng": -73.513609
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.3156212729415397,
+   "ppsf": 405.08474576271186
+  },
+  {
+   "mls": "24167892",
+   "slug": "194-seaton-road-stamford-connecticut-24167892",
+   "address": {
+    "line": "194 Seaton Road",
+    "unit": "Unit 3",
+    "lineWithUnit": "194 Seaton Road Unit 3",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 575.0,
+   "price": 230000.0,
+   "date": "2026-05-18",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.059881,
+    "lng": -73.517008
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.46556613392006385,
+   "ppsf": 400.0
+  },
+  {
+   "mls": "24156278",
+   "slug": "11-belltown-road-stamford-connecticut-24156278",
+   "address": {
+    "line": "11 Belltown Road",
+    "unit": "Apt 1",
+    "lineWithUnit": "11 Belltown Road Apt 1",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 700.0,
+   "price": 257254.0,
+   "date": "2026-05-12",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.076278,
+    "lng": -73.530861
+   },
+   "klass": "condo",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.9882577287516867,
+   "ppsf": 367.5057142857143
   }
- }
+ ]
 }

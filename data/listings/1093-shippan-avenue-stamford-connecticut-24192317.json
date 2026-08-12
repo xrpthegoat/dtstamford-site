@@ -126,101 +126,141 @@
    "mi": 1.11
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "86-harbor-drive-stamford-connecticut-24156877",
-     "addr": "86 Harbor Drive Unit 88",
-     "unit": "Unit 88",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1600.0,
-     "price": 3400.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-14",
-     "ppsf": 2,
-     "mi": 0.09
-    },
-    {
-     "slug": "48-lanell-drive-stamford-connecticut-24145256",
-     "addr": "48 Lanell Drive",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 2050.0,
-     "price": 5500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-01",
-     "ppsf": 3,
-     "mi": 0.16
-    },
-    {
-     "slug": "73-harbor-drive-stamford-connecticut-24162163",
-     "addr": "73 Harbor Drive Unit 412",
-     "unit": "Unit 412",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1665.0,
-     "price": 6500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-01",
-     "ppsf": 4,
-     "mi": 0.17
-    },
-    {
-     "slug": "90-iroquois-road-stamford-connecticut-24156738",
-     "addr": "90 Iroquois Road Unit A",
-     "unit": "Unit A",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1500.0,
-     "price": 4300.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-01",
-     "ppsf": 3,
-     "mi": 0.21
-    },
-    {
-     "slug": "82-rippowam-road-stamford-connecticut-24184604",
-     "addr": "82 Rippowam Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 2555.0,
-     "price": 7200.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-15",
-     "ppsf": 3,
-     "mi": 0.23
-    },
-    {
-     "slug": "123-harbor-drive-stamford-connecticut-24133811",
-     "addr": "123 Harbor Drive Apt 512",
-     "unit": "Apt 512",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 2172.0,
-     "price": 6000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-01",
-     "ppsf": 3,
-     "mi": 0.24
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 3400.0,
-    "high": 7200.0,
-    "median": 5750
+ "comps": [
+  {
+   "mls": "24157967",
+   "slug": "239-henry-street-stamford-connecticut-24157967",
+   "address": {
+    "line": "239 Henry Street",
+    "unit": "#3",
+    "lineWithUnit": "239 Henry Street #3",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 4.0,
+   "sqft": 1962.0,
+   "price": 6000.0,
+   "date": "2026-05-10",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.04389,
+    "lng": -73.53399
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8990395201188914,
+   "ppsf": 3.058103975535168
+  },
+  {
+   "mls": "24133811",
+   "slug": "123-harbor-drive-stamford-connecticut-24133811",
+   "address": {
+    "line": "123 Harbor Drive",
+    "unit": "Apt 512",
+    "lineWithUnit": "123 Harbor Drive Apt 512",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2172.0,
+   "price": 6000.0,
+   "date": "2026-06-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.037834,
+    "lng": -73.53239
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.38751038671898935,
+   "ppsf": 2.7624309392265194
+  },
+  {
+   "mls": "24145256",
+   "slug": "48-lanell-drive-stamford-connecticut-24145256",
+   "address": {
+    "line": "48 Lanell Drive",
+    "unit": null,
+    "lineWithUnit": "48 Lanell Drive",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 2050.0,
+   "price": 5500.0,
+   "date": "2026-06-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.036078,
+    "lng": -73.525232
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.25522154290926385,
+   "ppsf": 2.682926829268293
+  },
+  {
+   "mls": "24162163",
+   "slug": "73-harbor-drive-stamford-connecticut-24162163",
+   "address": {
+    "line": "73 Harbor Drive",
+    "unit": "Unit 412",
+    "lineWithUnit": "73 Harbor Drive Unit 412",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1665.0,
+   "price": 6500.0,
+   "date": "2026-07-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.038242,
+    "lng": -73.530919
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.28059227147377763,
+   "ppsf": 3.903903903903904
+  },
+  {
+   "mls": "24156738",
+   "slug": "90-iroquois-road-stamford-connecticut-24156738",
+   "address": {
+    "line": "90 Iroquois Road",
+    "unit": "Unit A",
+    "lineWithUnit": "90 Iroquois Road Unit A",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1500.0,
+   "price": 4300.0,
+   "date": "2026-08-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.037663,
+    "lng": -73.52379
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.34160727265884844,
+   "ppsf": 2.8666666666666667
   }
- }
+ ]
 }

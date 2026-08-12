@@ -128,58 +128,141 @@
    "mi": 1.26
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "80-gregory-boulevard-norwalk-connecticut-24157898",
-     "addr": "80 Gregory Boulevard",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 2.0,
-     "sqft": 3120.0,
-     "price": 915000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-04",
-     "ppsf": 293,
-     "mi": 0.14
-    },
-    {
-     "slug": "11-bethel-street-norwalk-connecticut-24169396",
-     "addr": "11 Bethel Street",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2244.0,
-     "price": 770000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-31",
-     "ppsf": 343,
-     "mi": 0.16
-    },
-    {
-     "slug": "12-first-street-norwalk-connecticut-24190567",
-     "addr": "12 First Street",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 2.0,
-     "sqft": 1904.0,
-     "price": 819000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 430,
-     "mi": 0.19
-    }
-   ],
-   "summary": {
-    "n": 2,
-    "low": 770000.0,
-    "high": 915000.0,
-    "median": 842500
+ "comps": [
+  {
+   "mls": "24155945",
+   "slug": "40-1st-street-norwalk-connecticut-24155945",
+   "address": {
+    "line": "40 1st Street",
+    "unit": null,
+    "lineWithUnit": "40 1st Street",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06855"
    },
-   "radiusMi": 0.75
+   "beds": 5.0,
+   "baths": 4.0,
+   "sqft": 1988.0,
+   "price": 950000.0,
+   "date": "2026-04-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.098363,
+    "lng": -73.402482
+   },
+   "klass": "multi",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.12472235836141976,
+   "ppsf": 477.8672032193159
+  },
+  {
+   "mls": "24169396",
+   "slug": "11-bethel-street-norwalk-connecticut-24169396",
+   "address": {
+    "line": "11 Bethel Street",
+    "unit": null,
+    "lineWithUnit": "11 Bethel Street",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06855"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2244.0,
+   "price": 770000.0,
+   "date": "2026-07-31",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.099655,
+    "lng": -73.40327
+   },
+   "klass": "multi",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.255555343125621,
+   "ppsf": 343.1372549019608
+  },
+  {
+   "mls": "24157898",
+   "slug": "80-gregory-boulevard-norwalk-connecticut-24157898",
+   "address": {
+    "line": "80 Gregory Boulevard",
+    "unit": null,
+    "lineWithUnit": "80 Gregory Boulevard",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06855"
+   },
+   "beds": 4.0,
+   "baths": 2.0,
+   "sqft": 3120.0,
+   "price": 915000.0,
+   "date": "2026-06-04",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.096264,
+    "lng": -73.399873
+   },
+   "klass": "multi",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 0.22512721714301698,
+   "ppsf": 293.2692307692308
+  },
+  {
+   "mls": "24166656",
+   "slug": "9-quintard-avenue-norwalk-connecticut-24166656",
+   "address": {
+    "line": "9 Quintard Avenue",
+    "unit": null,
+    "lineWithUnit": "9 Quintard Avenue",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 6.0,
+   "baths": 3.0,
+   "sqft": 2183.0,
+   "price": 735000.0,
+   "date": "2026-06-11",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.09122,
+    "lng": -73.414665
+   },
+   "klass": "multi",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.3736941117640342,
+   "ppsf": 336.6926248282181
+  },
+  {
+   "mls": "24153042",
+   "slug": "9-frost-street-norwalk-connecticut-24153042",
+   "address": {
+    "line": "9 Frost Street",
+    "unit": null,
+    "lineWithUnit": "9 Frost Street",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1824.0,
+   "price": 745000.0,
+   "date": "2026-05-06",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.108753,
+    "lng": -73.426732
+   },
+   "klass": "multi",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.4577934477898493,
+   "ppsf": 408.4429824561403
   }
- }
+ ]
 }

@@ -112,59 +112,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "65-west-parish-road-westport-connecticut-24157128",
-     "addr": "65 West Parish Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1183.0,
-     "price": 1100000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-30",
-     "ppsf": 930,
-     "mi": 0.17
-    },
-    {
-     "slug": "23-west-parish-road-westport-connecticut-24176734",
-     "addr": "23 West Parish Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1187.0,
-     "price": 1175000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-10",
-     "ppsf": 990,
-     "mi": 0.35
-    },
-    {
-     "slug": "20-hickory-drive-westport-connecticut-24156644",
-     "addr": "20 Hickory Drive",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1560.0,
-     "price": 1160000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-14",
-     "ppsf": 744,
-     "mi": 0.67
-    }
-   ],
-   "summary": {
-    "n": 3,
-    "low": 1100000.0,
-    "high": 1175000.0,
-    "median": 1160000
+ "comps": [
+  {
+   "mls": "24149889",
+   "slug": "69-grove-point-road-westport-connecticut-24149889",
+   "address": {
+    "line": "69 Grove Point Road",
+    "unit": null,
+    "lineWithUnit": "69 Grove Point Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1394.0,
+   "price": 1225000.0,
+   "date": "2026-04-01",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.122152,
+    "lng": -73.341014
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1798076842591825,
+   "ppsf": 878.7661406025825
+  },
+  {
+   "mls": "24157128",
+   "slug": "65-west-parish-road-westport-connecticut-24157128",
+   "address": {
+    "line": "65 West Parish Road",
+    "unit": null,
+    "lineWithUnit": "65 West Parish Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1183.0,
+   "price": 1100000.0,
+   "date": "2026-03-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.132224,
+    "lng": -73.330459
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.26949987884836785,
+   "ppsf": 929.839391377853
+  },
+  {
+   "mls": "24176734",
+   "slug": "23-west-parish-road-westport-connecticut-24176734",
+   "address": {
+    "line": "23 West Parish Road",
+    "unit": null,
+    "lineWithUnit": "23 West Parish Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1187.0,
+   "price": 1175000.0,
+   "date": "2026-08-10",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.135884,
+    "lng": -73.331416
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5643369630240072,
+   "ppsf": 989.8904802021904
+  },
+  {
+   "mls": "24137231",
+   "slug": "26-crescent-park-road-westport-connecticut-24137231",
+   "address": {
+    "line": "26 Crescent Park Road",
+    "unit": null,
+    "lineWithUnit": "26 Crescent Park Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1104.0,
+   "price": 568000.0,
+   "date": "2026-03-31",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.141148,
+    "lng": -73.34653
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.5855338863165935,
+   "ppsf": 514.4927536231884
+  },
+  {
+   "mls": "24156644",
+   "slug": "20-hickory-drive-westport-connecticut-24156644",
+   "address": {
+    "line": "20 Hickory Drive",
+    "unit": null,
+    "lineWithUnit": "20 Hickory Drive",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1560.0,
+   "price": 1160000.0,
+   "date": "2026-05-14",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.140279,
+    "lng": -73.329746
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.0726516769416097,
+   "ppsf": 743.5897435897435
   }
- }
+ ]
 }

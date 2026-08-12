@@ -133,99 +133,141 @@
    "mi": 1.72
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "32-juhasz-road-norwalk-connecticut-24174123",
-     "addr": "32 Juhasz Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 3064.0,
-     "price": 1125000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-22",
-     "ppsf": 367,
-     "mi": 0.05
-    },
-    {
-     "slug": "132-1-2-west-norwalk-road-norwalk-connecticut-24172632",
-     "addr": "132 1/2 West Norwalk Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 3900.0,
-     "price": 1650000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-22",
-     "ppsf": 423,
-     "mi": 0.42
-    },
-    {
-     "slug": "18-oakhill-avenue-norwalk-connecticut-24154775",
-     "addr": "18 Oakhill Avenue",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 2.0,
-     "sqft": 3084.0,
-     "price": 910000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-24",
-     "ppsf": 295,
-     "mi": 0.63
-    },
-    {
-     "slug": "29-richmond-drive-darien-connecticut-24154972",
-     "addr": "29 Richmond Drive",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 3512.0,
-     "price": 2060000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-12",
-     "ppsf": 587,
-     "mi": 0.74
-    },
-    {
-     "slug": "278-west-cedar-street-norwalk-connecticut-24175655",
-     "addr": "278 West Cedar Street",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 2.0,
-     "sqft": 1770.0,
-     "price": 660000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 373,
-     "mi": 0.39
-    },
-    {
-     "slug": "22-powder-horn-road-norwalk-connecticut-24186069",
-     "addr": "22 Powder Horn Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 2.0,
-     "sqft": 1904.0,
-     "price": 795000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 418,
-     "mi": 0.52
-    }
-   ],
-   "summary": {
-    "n": 4,
-    "low": 910000.0,
-    "high": 2060000.0,
-    "median": 1387500
+ "comps": [
+  {
+   "mls": "24136403",
+   "slug": "6-west-couch-street-norwalk-connecticut-24136403",
+   "address": {
+    "line": "6 West Couch Street",
+    "unit": null,
+    "lineWithUnit": "6 West Couch Street",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1519.0,
+   "price": 550000.0,
+   "date": "2026-04-17",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.099718,
+    "lng": -73.429475
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.666234165071158,
+   "ppsf": 362.0803159973667
+  },
+  {
+   "mls": "24150514",
+   "slug": "8-michael-street-norwalk-connecticut-24150514",
+   "address": {
+    "line": "8 Michael Street",
+    "unit": null,
+    "lineWithUnit": "8 Michael Street",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 4.0,
+   "baths": 2.0,
+   "sqft": 1428.0,
+   "price": 710000.0,
+   "date": "2026-03-16",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.091709,
+    "lng": -73.434546
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.560380047749012,
+   "ppsf": 497.1988795518207
+  },
+  {
+   "mls": "24150904",
+   "slug": "2-rochelle-road-norwalk-connecticut-24150904",
+   "address": {
+    "line": "2 Rochelle Road",
+    "unit": null,
+    "lineWithUnit": "2 Rochelle Road",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1566.0,
+   "price": 616200.0,
+   "date": "2026-05-06",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.0934,
+    "lng": -73.437119
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.2750333303577608,
+   "ppsf": 393.48659003831415
+  },
+  {
+   "mls": "24155974",
+   "slug": "24-deepwood-lane-norwalk-connecticut-24155974",
+   "address": {
+    "line": "24 Deepwood Lane",
+    "unit": null,
+    "lineWithUnit": "24 Deepwood Lane",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 4.0,
+   "baths": 2.0,
+   "sqft": 1428.0,
+   "price": 692000.0,
+   "date": "2026-06-08",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.083798,
+    "lng": -73.436709
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.1112290529785867,
+   "ppsf": 484.593837535014
+  },
+  {
+   "mls": "24169470",
+   "slug": "29-chatham-drive-norwalk-connecticut-24169470",
+   "address": {
+    "line": "29 Chatham Drive",
+    "unit": null,
+    "lineWithUnit": "29 Chatham Drive",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1260.0,
+   "price": 650000.0,
+   "date": "2026-06-26",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.098632,
+    "lng": -73.43727
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.0274631988214333,
+   "ppsf": 515.8730158730159
   }
- }
+ ]
 }

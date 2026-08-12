@@ -127,72 +127,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "168-rowayton-avenue-norwalk-connecticut-24118947",
-     "addr": "168 Rowayton Avenue",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 2265.0,
-     "price": 12000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-01",
-     "ppsf": 5,
-     "mi": 0.62
-    },
-    {
-     "slug": "168-rowayton-avenue-norwalk-connecticut-24175575",
-     "addr": "168 Rowayton Avenue Unit A",
-     "unit": "Unit A",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1400.0,
-     "price": 8750.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-06",
-     "ppsf": 6,
-     "mi": 0.62
-    },
-    {
-     "slug": "233-rowayton-avenue-norwalk-connecticut-24153587",
-     "addr": "233 Rowayton Avenue",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 2579.0,
-     "price": 33000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-23",
-     "ppsf": 13,
-     "mi": 0.75
-    },
-    {
-     "slug": "124-rowayton-avenue-norwalk-connecticut-24197986",
-     "addr": "124 Rowayton Avenue",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 2477.0,
-     "price": 13000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 5,
-     "mi": 0.72
-    }
-   ],
-   "summary": {
-    "n": 3,
-    "low": 8750.0,
-    "high": 33000.0,
-    "median": 12000
+ "comps": [
+  {
+   "mls": "24141837",
+   "slug": "9-barclay-court-norwalk-connecticut-24141837",
+   "address": {
+    "line": "9 Barclay Court",
+    "unit": null,
+    "lineWithUnit": "9 Barclay Court",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06853"
    },
-   "radiusMi": 0.75
+   "beds": 5.0,
+   "baths": 5.0,
+   "sqft": 3373.0,
+   "price": 20000.0,
+   "date": "2026-04-10",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.066319,
+    "lng": -73.442979
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1115625985221442,
+   "ppsf": 5.929439667951379
+  },
+  {
+   "mls": "24153587",
+   "slug": "233-rowayton-avenue-norwalk-connecticut-24153587",
+   "address": {
+    "line": "233 Rowayton Avenue",
+    "unit": null,
+    "lineWithUnit": "233 Rowayton Avenue",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06853"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2579.0,
+   "price": 33000.0,
+   "date": "2026-03-23",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.07241,
+    "lng": -73.44574
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.2067384511755188,
+   "ppsf": 12.795657231485071
+  },
+  {
+   "mls": "24155362",
+   "slug": "25-channel-avenue-norwalk-connecticut-24155362",
+   "address": {
+    "line": "25 Channel Avenue",
+    "unit": null,
+    "lineWithUnit": "25 Channel Avenue",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 2994.0,
+   "price": 20000.0,
+   "date": "2026-03-26",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.082005,
+    "lng": -73.41098
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.0913789638589844,
+   "ppsf": 6.680026720106881
+  },
+  {
+   "mls": "24146189",
+   "slug": "12-splitrock-road-norwalk-connecticut-24146189",
+   "address": {
+    "line": "12 Splitrock Road",
+    "unit": null,
+    "lineWithUnit": "12 Splitrock Road",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 3316.0,
+   "price": 8000.0,
+   "date": "2026-06-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.082144,
+    "lng": -73.418512
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.6264278362582016,
+   "ppsf": 2.4125452352231602
+  },
+  {
+   "mls": "24159808",
+   "slug": "18-soundview-avenue-norwalk-connecticut-24159808",
+   "address": {
+    "line": "18 Soundview Avenue",
+    "unit": "Unit 1",
+    "lineWithUnit": "18 Soundview Avenue Unit 1",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 3.0,
+   "baths": 1.0,
+   "sqft": 3168.0,
+   "price": 3000.0,
+   "date": "2026-05-20",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.093333,
+    "lng": -73.428494
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.4700301452446016,
+   "ppsf": 0.946969696969697
   }
- }
+ ]
 }

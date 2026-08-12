@@ -126,72 +126,141 @@
    "mi": 1.02
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "42-county-street-norwalk-connecticut-24179019",
-     "addr": "42 County Street",
-     "unit": "",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 910.0,
-     "price": 3680.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-01",
-     "ppsf": 4,
-     "mi": 0.33
-    },
-    {
-     "slug": "33-strathmore-lane-norwalk-connecticut-24180910",
-     "addr": "33 Strathmore Lane Unit 33",
-     "unit": "Unit 33",
-     "beds": 2.0,
-     "baths": 3.0,
-     "sqft": 1440.0,
-     "price": 4100.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-16",
-     "ppsf": 3,
-     "mi": 0.47
-    },
-    {
-     "slug": "2-margaret-street-norwalk-connecticut-24180735",
-     "addr": "2 Margaret Street",
-     "unit": "",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 1351.0,
-     "price": 3800.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-15",
-     "ppsf": 3,
-     "mi": 0.53
-    },
-    {
-     "slug": "8-rome-street-norwalk-connecticut-24192796",
-     "addr": "8 Rome Street",
-     "unit": "",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 908.0,
-     "price": 3400.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 4,
-     "mi": 0.65
-    }
-   ],
-   "summary": {
-    "n": 3,
-    "low": 3680.0,
-    "high": 4100.0,
-    "median": 3800
+ "comps": [
+  {
+   "mls": "24150140",
+   "slug": "365-westport-avenue-norwalk-connecticut-24150140",
+   "address": {
+    "line": "365 Westport Avenue",
+    "unit": "Unit 2B",
+    "lineWithUnit": "365 Westport Avenue Unit 2B",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
    },
-   "radiusMi": 0.75
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 800.0,
+   "price": 2195.0,
+   "date": "2026-04-07",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.12623,
+    "lng": -73.39206
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.29335820268428003,
+   "ppsf": 2.74375
+  },
+  {
+   "mls": "24162600",
+   "slug": "365-westport-avenue-norwalk-connecticut-24162600",
+   "address": {
+    "line": "365 Westport Avenue",
+    "unit": "Unit 2E",
+    "lineWithUnit": "365 Westport Avenue Unit 2E",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 900.0,
+   "price": 2250.0,
+   "date": "2026-04-07",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.126152,
+    "lng": -73.39188
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.28852396701940813,
+   "ppsf": 2.5
+  },
+  {
+   "mls": "24162589",
+   "slug": "365-westport-avenue-norwalk-connecticut-24162589",
+   "address": {
+    "line": "365 Westport Avenue",
+    "unit": "Unit 2K",
+    "lineWithUnit": "365 Westport Avenue Unit 2K",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 800.0,
+   "price": 2250.0,
+   "date": "2026-05-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.126152,
+    "lng": -73.391873
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.28811408218119655,
+   "ppsf": 2.8125
+  },
+  {
+   "mls": "24179395",
+   "slug": "291-strawberry-hill-avenue-norwalk-connecticut-24179395",
+   "address": {
+    "line": "291 Strawberry Hill Avenue",
+    "unit": null,
+    "lineWithUnit": "291 Strawberry Hill Avenue",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 1000.0,
+   "price": 2400.0,
+   "date": "2026-06-10",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.124333,
+    "lng": -73.391762
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.45128784639595315,
+   "ppsf": 2.4
+  },
+  {
+   "mls": "24186376",
+   "slug": "365-westport-avenue-norwalk-connecticut-24186376",
+   "address": {
+    "line": "365 Westport Avenue",
+    "unit": "Unit 1J",
+    "lineWithUnit": "365 Westport Avenue Unit 1J",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 900.0,
+   "price": 2300.0,
+   "date": "2026-07-15",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.126152,
+    "lng": -73.39188
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.28852396701940813,
+   "ppsf": 2.5555555555555554
   }
- }
+ ]
 }

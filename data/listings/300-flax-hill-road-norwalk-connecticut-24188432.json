@@ -130,125 +130,141 @@
    "mi": 1.4
   }
  },
- "comps": {
-  "building": {
-   "rows": [
-    {
-     "slug": "300-flax-hill-road-norwalk-connecticut-24167624",
-     "addr": "300 Flax Hill Road Unit 3",
-     "unit": "Unit 3",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 1138.0,
-     "price": 450000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-26",
-     "ppsf": 395
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 450000.0,
-    "high": 450000.0,
-    "median": 450000
+ "comps": [
+  {
+   "mls": "24167624",
+   "slug": "300-flax-hill-road-norwalk-connecticut-24167624",
+   "address": {
+    "line": "300 Flax Hill Road",
+    "unit": "Unit 3",
+    "lineWithUnit": "300 Flax Hill Road Unit 3",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
    },
-   "label": "300 Flax Hill Road"
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 1138.0,
+   "price": 450000.0,
+   "date": "2026-05-26",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.093415,
+    "lng": -73.431833
+   },
+   "klass": "condo",
+   "tier": 1,
+   "why": "Same building, sold in the last year",
+   "km": 0.0,
+   "ppsf": 395.4305799648506
   },
-  "area": {
-   "rows": [
-    {
-     "slug": "43-soundview-avenue-norwalk-connecticut-24179539",
-     "addr": "43 Soundview Avenue Unit 4",
-     "unit": "Unit 4",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1326.0,
-     "price": 480000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-31",
-     "ppsf": 362,
-     "mi": 0.12
-    },
-    {
-     "slug": "187-flax-hill-road-norwalk-connecticut-24121510",
-     "addr": "187 Flax Hill Road Apt D5",
-     "unit": "Apt D5",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 1088.0,
-     "price": 350000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-15",
-     "ppsf": 322,
-     "mi": 0.45
-    },
-    {
-     "slug": "187-flax-hill-road-norwalk-connecticut-24172753",
-     "addr": "187 Flax Hill Road Unit D1",
-     "unit": "Unit D1",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 1088.0,
-     "price": 415000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-24",
-     "ppsf": 381,
-     "mi": 0.45
-    },
-    {
-     "slug": "1-horizon-drive-norwalk-connecticut-24165319",
-     "addr": "1 Horizon Drive Unit 28",
-     "unit": "Unit 28",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1258.0,
-     "price": 440000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-01",
-     "ppsf": 350,
-     "mi": 0.56
-    },
-    {
-     "slug": "115-flax-hill-road-norwalk-connecticut-24160936",
-     "addr": "115 Flax Hill Road Apt 6",
-     "unit": "Apt 6",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 862.0,
-     "price": 420000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-16",
-     "ppsf": 487,
-     "mi": 0.6
-    },
-    {
-     "slug": "72-chestnut-street-norwalk-connecticut-24149453",
-     "addr": "72 Chestnut Street Apt 6",
-     "unit": "Apt 6",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 920.0,
-     "price": 240000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-07",
-     "ppsf": 261,
-     "mi": 0.63
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 240000.0,
-    "high": 480000.0,
-    "median": 417500
+  {
+   "mls": "24149453",
+   "slug": "72-chestnut-street-norwalk-connecticut-24149453",
+   "address": {
+    "line": "72 Chestnut Street",
+    "unit": "Apt 6",
+    "lineWithUnit": "72 Chestnut Street Apt 6",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 920.0,
+   "price": 240000.0,
+   "date": "2026-05-07",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.090532,
+    "lng": -73.420332
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0157295967997932,
+   "ppsf": 260.8695652173913
+  },
+  {
+   "mls": "24121510",
+   "slug": "187-flax-hill-road-norwalk-connecticut-24121510",
+   "address": {
+    "line": "187 Flax Hill Road",
+    "unit": "Apt D5",
+    "lineWithUnit": "187 Flax Hill Road Apt D5",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 1088.0,
+   "price": 350000.0,
+   "date": "2026-05-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.097792,
+    "lng": -73.425433
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7242256072307022,
+   "ppsf": 321.69117647058823
+  },
+  {
+   "mls": "24172753",
+   "slug": "187-flax-hill-road-norwalk-connecticut-24172753",
+   "address": {
+    "line": "187 Flax Hill Road",
+    "unit": "Unit D1",
+    "lineWithUnit": "187 Flax Hill Road Unit D1",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 1088.0,
+   "price": 415000.0,
+   "date": "2026-07-24",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.097792,
+    "lng": -73.425433
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7242256072307022,
+   "ppsf": 381.43382352941177
+  },
+  {
+   "mls": "24160936",
+   "slug": "115-flax-hill-road-norwalk-connecticut-24160936",
+   "address": {
+    "line": "115 Flax Hill Road",
+    "unit": "Apt 6",
+    "lineWithUnit": "115 Flax Hill Road Apt 6",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 862.0,
+   "price": 420000.0,
+   "date": "2026-04-16",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.099532,
+    "lng": -73.423537
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9725832681579034,
+   "ppsf": 487.23897911832944
   }
- }
+ ]
 }

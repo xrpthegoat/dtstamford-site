@@ -123,100 +123,141 @@
    "walk": 3
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "2700-bedford-street-stamford-connecticut-24169832",
-     "addr": "2700 Bedford Street Unit O",
-     "unit": "Unit O",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1410.0,
-     "price": 4000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-28",
-     "ppsf": 3,
-     "mi": 0.23
-    },
-    {
-     "slug": "102-old-barn-road-west-stamford-connecticut-24183339",
-     "addr": "102 Old Barn Road West",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1414.0,
-     "price": 4500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-19",
-     "ppsf": 3,
-     "mi": 0.31
-    },
-    {
-     "slug": "20-third-street-stamford-connecticut-24158555",
-     "addr": "20 Third Street Unit 18",
-     "unit": "Unit 18",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1645.0,
-     "price": 4900.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-09",
-     "ppsf": 3,
-     "mi": 0.54
-    },
-    {
-     "slug": "20-third-street-stamford-connecticut-24175898",
-     "addr": "20 Third Street Unit 19",
-     "unit": "Unit 19",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1610.0,
-     "price": 4800.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-27",
-     "ppsf": 3,
-     "mi": 0.54
-    },
-    {
-     "slug": "98-east-lane-stamford-connecticut-24185202",
-     "addr": "98 East Lane",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 4640.0,
-     "price": 6300.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-08",
-     "ppsf": 1,
-     "mi": 0.66
-    },
-    {
-     "slug": "125-bridge-street-stamford-connecticut-24189556",
-     "addr": "125 Bridge Street",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1694.0,
-     "price": 5600.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 3,
-     "mi": 0.23
-    }
-   ],
-   "summary": {
-    "n": 5,
-    "low": 4000.0,
-    "high": 6300.0,
-    "median": 4800
+ "comps": [
+  {
+   "mls": "24154184",
+   "slug": "1-reynolds-avenue-stamford-connecticut-24154184",
+   "address": {
+    "line": "1 Reynolds Avenue",
+    "unit": "Unit Upstairs",
+    "lineWithUnit": "1 Reynolds Avenue Unit Upstairs",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 768.0,
+   "price": 2600.0,
+   "date": "2026-03-20",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.070049,
+    "lng": -73.554426
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.2924633658273974,
+   "ppsf": 3.3854166666666665
+  },
+  {
+   "mls": "24185960",
+   "slug": "1500-bedford-street-stamford-connecticut-24185960",
+   "address": {
+    "line": "1500 Bedford Street",
+    "unit": "Unit 307",
+    "lineWithUnit": "1500 Bedford Street Unit 307",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 1167.0,
+   "price": 3300.0,
+   "date": "2026-07-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.064379,
+    "lng": -73.541212
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9836354113747745,
+   "ppsf": 2.827763496143959
+  },
+  {
+   "mls": "24149303",
+   "slug": "73-riverside-avenue-stamford-connecticut-24149303",
+   "address": {
+    "line": "73 Riverside Avenue",
+    "unit": "Unit 3A",
+    "lineWithUnit": "73 Riverside Avenue Unit 3A",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1193.0,
+   "price": 3200.0,
+   "date": "2026-07-15",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.067245,
+    "lng": -73.552666
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.22388439925866405,
+   "ppsf": 2.682313495389774
+  },
+  {
+   "mls": "24167197",
+   "slug": "1872-bedford-street-stamford-connecticut-24167197",
+   "address": {
+    "line": "1872 Bedford Street",
+    "unit": "Unit 2",
+    "lineWithUnit": "1872 Bedford Street Unit 2",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 900.0,
+   "price": 3300.0,
+   "date": "2026-05-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.066486,
+    "lng": -73.5428
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7600055360472479,
+   "ppsf": 3.6666666666666665
+  },
+  {
+   "mls": "24180770",
+   "slug": "7-fourth-street-stamford-connecticut-24180770",
+   "address": {
+    "line": "7 Fourth Street",
+    "unit": "Unit 5F",
+    "lineWithUnit": "7 Fourth Street Unit 5F",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 905.0,
+   "price": 2850.0,
+   "date": "2026-06-30",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.06438,
+    "lng": -73.54488
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7377156761600764,
+   "ppsf": 3.149171270718232
   }
- }
+ ]
 }

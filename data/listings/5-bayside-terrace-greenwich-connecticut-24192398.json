@@ -135,85 +135,141 @@
    "mi": 1.41
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "4-miami-court-greenwich-connecticut-24149277",
-     "addr": "4 Miami Court",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2765.0,
-     "price": 1885000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-20",
-     "ppsf": 682,
-     "mi": 0.52
-    },
-    {
-     "slug": "34-1-2-orchard-street-greenwich-connecticut-24175545",
-     "addr": "34 1/2 Orchard Street",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2126.0,
-     "price": 2022000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-22",
-     "ppsf": 951,
-     "mi": 0.68
-    },
-    {
-     "slug": "14-neil-lane-greenwich-connecticut-24179144",
-     "addr": "14 Neil Lane",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2568.0,
-     "price": 1800000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-31",
-     "ppsf": 701,
-     "mi": 0.72
-    },
-    {
-     "slug": "33-mead-avenue-greenwich-connecticut-24189362",
-     "addr": "33 Mead Avenue",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 3492.0,
-     "price": 2495000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 714,
-     "mi": 0.4
-    },
-    {
-     "slug": "4-cos-cob-avenue-greenwich-connecticut-24182748",
-     "addr": "4 Cos Cob Avenue",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2720.0,
-     "price": 1579000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 581,
-     "mi": 0.65
-    }
-   ],
-   "summary": {
-    "n": 3,
-    "low": 1800000.0,
-    "high": 2022000.0,
-    "median": 1885000
+ "comps": [
+  {
+   "mls": "24175545",
+   "slug": "34-1-2-orchard-street-greenwich-connecticut-24175545",
+   "address": {
+    "line": "34 1/2 Orchard Street",
+    "unit": null,
+    "lineWithUnit": "34 1/2 Orchard Street",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06807"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2126.0,
+   "price": 2022000.0,
+   "date": "2026-06-22",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.04172,
+    "lng": -73.596758
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0969312543083567,
+   "ppsf": 951.0818438381938
+  },
+  {
+   "mls": "24149277",
+   "slug": "4-miami-court-greenwich-connecticut-24149277",
+   "address": {
+    "line": "4 Miami Court",
+    "unit": null,
+    "lineWithUnit": "4 Miami Court",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06807"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2765.0,
+   "price": 1885000.0,
+   "date": "2026-03-20",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.038792,
+    "lng": -73.596324
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.833796058517852,
+   "ppsf": 681.7359855334539
+  },
+  {
+   "mls": "24179144",
+   "slug": "14-neil-lane-greenwich-connecticut-24179144",
+   "address": {
+    "line": "14 Neil Lane",
+    "unit": null,
+    "lineWithUnit": "14 Neil Lane",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06878"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2568.0,
+   "price": 1800000.0,
+   "date": "2026-07-31",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.042413,
+    "lng": -73.580742
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1637784688859627,
+   "ppsf": 700.9345794392524
+  },
+  {
+   "mls": "24159022",
+   "slug": "31-thornhill-road-greenwich-connecticut-24159022",
+   "address": {
+    "line": "31 Thornhill Road",
+    "unit": null,
+    "lineWithUnit": "31 Thornhill Road",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06878"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 2074.0,
+   "price": 2050000.0,
+   "date": "2026-06-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.044617,
+    "lng": -73.585559
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.2231330427438387,
+   "ppsf": 988.4281581485053
+  },
+  {
+   "mls": "24155152",
+   "slug": "21-amherst-road-greenwich-connecticut-24155152",
+   "address": {
+    "line": "21 Amherst Road",
+    "unit": null,
+    "lineWithUnit": "21 Amherst Road",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06878"
+   },
+   "beds": 5.0,
+   "baths": 3.0,
+   "sqft": 2911.0,
+   "price": 1700000.0,
+   "date": "2026-06-25",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.048539,
+    "lng": -73.57219
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.1431032606259612,
+   "ppsf": 583.9917554105118
   }
- }
+ ]
 }

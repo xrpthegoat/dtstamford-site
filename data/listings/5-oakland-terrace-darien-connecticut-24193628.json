@@ -126,101 +126,141 @@
    "mi": 0.79
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "69-weed-avenue-stamford-connecticut-24167439",
-     "addr": "69 Weed Avenue",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 3212.0,
-     "price": 8500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-05",
-     "ppsf": 3,
-     "mi": 0.16
-    },
-    {
-     "slug": "19-weeds-landing-darien-connecticut-24181057",
-     "addr": "19 Weeds Landing",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 5.0,
-     "sqft": 4117.0,
-     "price": 37500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-16",
-     "ppsf": 9,
-     "mi": 0.25
-    },
-    {
-     "slug": "28-hearthstone-court-stamford-connecticut-24168367",
-     "addr": "28 Hearthstone Court",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 1.0,
-     "sqft": 1196.0,
-     "price": 3500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-09",
-     "ppsf": 3,
-     "mi": 0.54
-    },
-    {
-     "slug": "49-midland-avenue-stamford-connecticut-24179183",
-     "addr": "49 Midland Avenue",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 1887.0,
-     "price": 5300.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-20",
-     "ppsf": 3,
-     "mi": 0.59
-    },
-    {
-     "slug": "30-dora-street-stamford-connecticut-24180944",
-     "addr": "30 Dora Street",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 2.0,
-     "sqft": 1800.0,
-     "price": 4950.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-11",
-     "ppsf": 3,
-     "mi": 0.66
-    },
-    {
-     "slug": "14-laforge-road-darien-connecticut-24158573",
-     "addr": "14 Laforge Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2073.0,
-     "price": 10500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-02",
-     "ppsf": 5,
-     "mi": 0.67
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 3500.0,
-    "high": 37500.0,
-    "median": 6900
+ "comps": [
+  {
+   "mls": "24158573",
+   "slug": "14-laforge-road-darien-connecticut-24158573",
+   "address": {
+    "line": "14 Laforge Road",
+    "unit": null,
+    "lineWithUnit": "14 Laforge Road",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2073.0,
+   "price": 10500.0,
+   "date": "2026-04-02",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.065881,
+    "lng": -73.495104
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0773192855479174,
+   "ppsf": 5.065123010130246
+  },
+  {
+   "mls": "24182208",
+   "slug": "90-linden-avenue-darien-connecticut-24182208",
+   "address": {
+    "line": "90 Linden Avenue",
+    "unit": null,
+    "lineWithUnit": "90 Linden Avenue",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1784.0,
+   "price": 7500.0,
+   "date": "2026-07-06",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.06712,
+    "lng": -73.498924
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9931375582337825,
+   "ppsf": 4.2040358744394615
+  },
+  {
+   "mls": "24161107",
+   "slug": "340-heights-road-darien-connecticut-24161107",
+   "address": {
+    "line": "340 Heights Road",
+    "unit": "Unit 316",
+    "lineWithUnit": "340 Heights Road Unit 316",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 1492.0,
+   "price": 9250.0,
+   "date": "2026-04-15",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.069534,
+    "lng": -73.498392
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.2544975272465466,
+   "ppsf": 6.1997319034852545
+  },
+  {
+   "mls": "24161140",
+   "slug": "340-heights-road-darien-connecticut-24161140",
+   "address": {
+    "line": "340 Heights Road",
+    "unit": "Unit 314",
+    "lineWithUnit": "340 Heights Road Unit 314",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 1546.0,
+   "price": 8600.0,
+   "date": "2026-04-24",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.06953,
+    "lng": -73.49892
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.2369155809336831,
+   "ppsf": 5.562742561448901
+  },
+  {
+   "mls": "24156830",
+   "slug": "3-park-place-darien-connecticut-24156830",
+   "address": {
+    "line": "3 Park Place",
+    "unit": null,
+    "lineWithUnit": "3 Park Place",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1452.0,
+   "price": 5500.0,
+   "date": "2026-05-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.06478,
+    "lng": -73.488042
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.5064552685592547,
+   "ppsf": 3.787878787878788
   }
- }
+ ]
 }

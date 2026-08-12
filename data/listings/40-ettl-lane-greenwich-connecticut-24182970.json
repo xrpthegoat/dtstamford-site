@@ -133,76 +133,141 @@
    "mi": 1.89
   }
  },
- "comps": {
-  "building": {
-   "rows": [
-    {
-     "slug": "40-ettl-lane-greenwich-connecticut-24179084",
-     "addr": "40 Ettl Lane Unit 23",
-     "unit": "Unit 23",
-     "beds": 3.0,
-     "baths": 4.0,
-     "sqft": 2364.0,
-     "price": 7700.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 3
-    }
-   ],
-   "summary": null,
-   "label": "40 Ettl Lane"
-  },
-  "area": {
-   "rows": [
-    {
-     "slug": "57-grey-rock-drive-greenwich-connecticut-24163088",
-     "addr": "57 Grey Rock Drive",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1372.0,
-     "price": 5800.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-04",
-     "ppsf": 4,
-     "mi": 0.29
-    },
-    {
-     "slug": "60-greenwich-hills-drive-greenwich-connecticut-24166893",
-     "addr": "60 Greenwich Hills Drive Unit 60",
-     "unit": "Unit 60",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1900.0,
-     "price": 5500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-01",
-     "ppsf": 3,
-     "mi": 0.58
-    },
-    {
-     "slug": "120-pilgrim-drive-greenwich-connecticut-24187985",
-     "addr": "120 Pilgrim Drive",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1204.0,
-     "price": 6200.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 5,
-     "mi": 0.71
-    }
-   ],
-   "summary": {
-    "n": 2,
-    "low": 5500.0,
-    "high": 5800.0,
-    "median": 5650
+ "comps": [
+  {
+   "mls": "24166893",
+   "slug": "60-greenwich-hills-drive-greenwich-connecticut-24166893",
+   "address": {
+    "line": "60 Greenwich Hills Drive",
+    "unit": "Unit 60",
+    "lineWithUnit": "60 Greenwich Hills Drive Unit 60",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06831"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1900.0,
+   "price": 5500.0,
+   "date": "2026-07-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.02632,
+    "lng": -73.66494
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9284203627706153,
+   "ppsf": 2.8947368421052633
+  },
+  {
+   "mls": "24181639",
+   "slug": "35-homestead-road-greenwich-connecticut-24181639",
+   "address": {
+    "line": "35 Homestead Road",
+    "unit": null,
+    "lineWithUnit": "35 Homestead Road",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06831"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2525.0,
+   "price": 6800.0,
+   "date": "2026-07-29",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.03344,
+    "lng": -73.662025
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.4503574812067662,
+   "ppsf": 2.6930693069306932
+  },
+  {
+   "mls": "24124570",
+   "slug": "119-bowman-drive-greenwich-connecticut-24124570",
+   "address": {
+    "line": "119 Bowman Drive",
+    "unit": null,
+    "lineWithUnit": "119 Bowman Drive",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06831"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 2153.0,
+   "price": 5995.0,
+   "date": "2026-03-20",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.048539,
+    "lng": -73.681202
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.9536449598903798,
+   "ppsf": 2.784486762656758
+  },
+  {
+   "mls": "24124138",
+   "slug": "10-highland-place-greenwich-connecticut-24124138",
+   "address": {
+    "line": "10 Highland Place",
+    "unit": null,
+    "lineWithUnit": "10 Highland Place",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06831"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2170.0,
+   "price": 8200.0,
+   "date": "2026-04-28",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.020204,
+    "lng": -73.654007
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.9366901119647588,
+   "ppsf": 3.7788018433179724
+  },
+  {
+   "mls": "24167246",
+   "slug": "81-pemberwick-road-greenwich-connecticut-24167246",
+   "address": {
+    "line": "81 Pemberwick Road",
+    "unit": "Unit A",
+    "lineWithUnit": "81 Pemberwick Road Unit A",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06831"
+   },
+   "beds": 2.0,
+   "baths": 4.0,
+   "sqft": 2092.0,
+   "price": 4950.0,
+   "date": "2026-05-15",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.019289,
+    "lng": -73.654433
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.0016362973990662,
+   "ppsf": 2.366156787762906
   }
- }
+ ]
 }

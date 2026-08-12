@@ -132,138 +132,141 @@
    "walk": 7
   }
  },
- "comps": {
-  "building": {
-   "rows": [
-    {
-     "slug": "1-strawberry-hill-court-stamford-connecticut-24175395",
-     "addr": "1 Strawberry Hill Court Unit 6C",
-     "unit": "Unit 6C",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1324.0,
-     "price": 450000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-31",
-     "ppsf": 340
-    },
-    {
-     "slug": "1-strawberry-hill-court-stamford-connecticut-24163680",
-     "addr": "1 Strawberry Hill Court Unit 2C",
-     "unit": "Unit 2C",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1356.0,
-     "price": 390000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-20",
-     "ppsf": 288
-    }
-   ],
-   "summary": {
-    "n": 2,
-    "low": 390000.0,
-    "high": 450000.0,
-    "median": 420000
+ "comps": [
+  {
+   "mls": "24175395",
+   "slug": "1-strawberry-hill-court-stamford-connecticut-24175395",
+   "address": {
+    "line": "1 Strawberry Hill Court",
+    "unit": "Unit 6C",
+    "lineWithUnit": "1 Strawberry Hill Court Unit 6C",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
    },
-   "label": "1 Strawberry Hill Court"
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1324.0,
+   "price": 450000.0,
+   "date": "2026-07-31",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.065692,
+    "lng": -73.533775
+   },
+   "klass": "condo",
+   "tier": 1,
+   "why": "Same building, sold in the last year",
+   "km": 0.0,
+   "ppsf": 339.87915407854985
   },
-  "area": {
-   "rows": [
-    {
-     "slug": "91-strawberry-hill-avenue-stamford-connecticut-24175241",
-     "addr": "91 Strawberry Hill Avenue Unit 636",
-     "unit": "Unit 636",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 875.0,
-     "price": 325000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-01",
-     "ppsf": 371,
-     "mi": 0.15
-    },
-    {
-     "slug": "91-strawberry-hill-avenue-stamford-connecticut-24163632",
-     "addr": "91 Strawberry Hill Avenue Unit 841",
-     "unit": "Unit 841",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 875.0,
-     "price": 305000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-15",
-     "ppsf": 349,
-     "mi": 0.15
-    },
-    {
-     "slug": "91-strawberry-hill-avenue-stamford-connecticut-24144410",
-     "addr": "91 Strawberry Hill Avenue Apt 139",
-     "unit": "Apt 139",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 875.0,
-     "price": 315000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-08",
-     "ppsf": 360,
-     "mi": 0.15
-    },
-    {
-     "slug": "91-strawberry-hill-avenue-stamford-connecticut-24153388",
-     "addr": "91 Strawberry Hill Avenue Apt 639",
-     "unit": "Apt 639",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 875.0,
-     "price": 307500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-27",
-     "ppsf": 351,
-     "mi": 0.15
-    },
-    {
-     "slug": "91-strawberry-hill-avenue-stamford-connecticut-24165833",
-     "addr": "91 Strawberry Hill Avenue Unit 334",
-     "unit": "Unit 334",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 875.0,
-     "price": 315000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-05",
-     "ppsf": 360,
-     "mi": 0.15
-    },
-    {
-     "slug": "90-strawberry-hill-avenue-stamford-connecticut-24149486",
-     "addr": "90 Strawberry Hill Avenue Unit 3",
-     "unit": "Unit 3",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 860.0,
-     "price": 234000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-16",
-     "ppsf": 272,
-     "mi": 0.16
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 234000.0,
-    "high": 325000.0,
-    "median": 311250
+  {
+   "mls": "24163680",
+   "slug": "1-strawberry-hill-court-stamford-connecticut-24163680",
+   "address": {
+    "line": "1 Strawberry Hill Court",
+    "unit": "Unit 2C",
+    "lineWithUnit": "1 Strawberry Hill Court Unit 2C",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1356.0,
+   "price": 390000.0,
+   "date": "2026-07-20",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.065693,
+    "lng": -73.533775
+   },
+   "klass": "condo",
+   "tier": 1,
+   "why": "Same building, sold in the last year",
+   "km": 0.00011119492715390602,
+   "ppsf": 287.6106194690266
+  },
+  {
+   "mls": "24150400",
+   "slug": "1400-bedford-street-stamford-connecticut-24150400",
+   "address": {
+    "line": "1400 Bedford Street",
+    "unit": "Unit 11",
+    "lineWithUnit": "1400 Bedford Street Unit 11",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 1268.0,
+   "price": 455000.0,
+   "date": "2026-03-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.063573,
+    "lng": -73.540821
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6359771827467631,
+   "ppsf": 358.83280757097793
+  },
+  {
+   "mls": "24145504",
+   "slug": "54-hope-street-stamford-connecticut-24145504",
+   "address": {
+    "line": "54 Hope Street",
+    "unit": "Unit 4",
+    "lineWithUnit": "54 Hope Street Unit 4",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06906"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1226.0,
+   "price": 469900.0,
+   "date": "2026-04-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.062504,
+    "lng": -73.526658
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6940357843122249,
+   "ppsf": 383.278955954323
+  },
+  {
+   "mls": "24174905",
+   "slug": "2289-bedford-street-stamford-connecticut-24174905",
+   "address": {
+    "line": "2289 Bedford Street",
+    "unit": "Unit A9",
+    "lineWithUnit": "2289 Bedford Street Unit A9",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 1.0,
+   "baths": 2.0,
+   "sqft": 1066.0,
+   "price": 480000.0,
+   "date": "2026-07-02",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.068822,
+    "lng": -73.544718
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9811982866726897,
+   "ppsf": 450.281425891182
   }
- }
+ ]
 }

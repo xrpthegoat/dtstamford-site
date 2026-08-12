@@ -126,121 +126,141 @@
    "mi": 1.09
   }
  },
- "comps": {
-  "building": {
-   "rows": [
-    {
-     "slug": "168-belltown-road-stamford-connecticut-24183190",
-     "addr": "168 Belltown Road Unit C3",
-     "unit": "Unit C3",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1260.0,
-     "price": 580000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-16",
-     "ppsf": 460
-    },
-    {
-     "slug": "168-belltown-road-stamford-connecticut-24190654",
-     "addr": "168 Belltown Road Unit 29",
-     "unit": "Unit 29",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1260.0,
-     "price": 570000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 452
-    },
-    {
-     "slug": "168-belltown-road-stamford-connecticut-24194601",
-     "addr": "168 Belltown Road Unit C7",
-     "unit": "Unit C7",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1279.0,
-     "price": 485000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 379
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 580000.0,
-    "high": 580000.0,
-    "median": 580000
+ "comps": [
+  {
+   "mls": "24183190",
+   "slug": "168-belltown-road-stamford-connecticut-24183190",
+   "address": {
+    "line": "168 Belltown Road",
+    "unit": "Unit C3",
+    "lineWithUnit": "168 Belltown Road Unit C3",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
    },
-   "label": "168 Belltown Road"
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1260.0,
+   "price": 580000.0,
+   "date": "2026-07-16",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.081919,
+    "lng": -73.532505
+   },
+   "klass": "condo",
+   "tier": 1,
+   "why": "Same building, sold in the last year",
+   "km": 0.0,
+   "ppsf": 460.3174603174603
   },
-  "area": {
-   "rows": [
-    {
-     "slug": "11-belltown-road-stamford-connecticut-24156278",
-     "addr": "11 Belltown Road Apt 1",
-     "unit": "Apt 1",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 700.0,
-     "price": 257254.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-12",
-     "ppsf": 368,
-     "mi": 0.4
-    },
-    {
-     "slug": "680-hope-street-stamford-connecticut-24155609",
-     "addr": "680 Hope Street Unit 12",
-     "unit": "Unit 12",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1100.0,
-     "price": 525000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-26",
-     "ppsf": 477,
-     "mi": 0.61
-    },
-    {
-     "slug": "455-hope-street-stamford-connecticut-24148522",
-     "addr": "455 Hope Street Apt 4B",
-     "unit": "Apt 4B",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1860.0,
-     "price": 627000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-29",
-     "ppsf": 337,
-     "mi": 0.7
-    },
-    {
-     "slug": "320-strawberry-hill-avenue-stamford-connecticut-24167249",
-     "addr": "320 Strawberry Hill Avenue Unit 16",
-     "unit": "Unit 16",
-     "beds": 2.0,
-     "baths": 3.0,
-     "sqft": 2086.0,
-     "price": 810000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-29",
-     "ppsf": 388,
-     "mi": 0.74
-    }
-   ],
-   "summary": {
-    "n": 4,
-    "low": 257254.0,
-    "high": 810000.0,
-    "median": 576000
+  {
+   "mls": "24155609",
+   "slug": "680-hope-street-stamford-connecticut-24155609",
+   "address": {
+    "line": "680 Hope Street",
+    "unit": "Unit 12",
+    "lineWithUnit": "680 Hope Street Unit 12",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06907"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1100.0,
+   "price": 525000.0,
+   "date": "2026-05-26",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.082658,
+    "lng": -73.520779
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9862441588057705,
+   "ppsf": 477.27272727272725
+  },
+  {
+   "mls": "24150400",
+   "slug": "1400-bedford-street-stamford-connecticut-24150400",
+   "address": {
+    "line": "1400 Bedford Street",
+    "unit": "Unit 11",
+    "lineWithUnit": "1400 Bedford Street Unit 11",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 1268.0,
+   "price": 455000.0,
+   "date": "2026-03-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.063573,
+    "lng": -73.540821
+   },
+   "klass": "condo",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.1558026491933515,
+   "ppsf": 358.83280757097793
+  },
+  {
+   "mls": "24153250",
+   "slug": "35-maple-tree-avenue-stamford-connecticut-24153250",
+   "address": {
+    "line": "35 Maple Tree Avenue",
+    "unit": "Apt 1",
+    "lineWithUnit": "35 Maple Tree Avenue Apt 1",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06906"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1348.0,
+   "price": 520000.0,
+   "date": "2026-03-13",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.070852,
+    "lng": -73.514617
+   },
+   "klass": "condo",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.9397462792797033,
+   "ppsf": 385.7566765578635
+  },
+  {
+   "mls": "24145504",
+   "slug": "54-hope-street-stamford-connecticut-24145504",
+   "address": {
+    "line": "54 Hope Street",
+    "unit": "Unit 4",
+    "lineWithUnit": "54 Hope Street Unit 4",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06906"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1226.0,
+   "price": 469900.0,
+   "date": "2026-04-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.062504,
+    "lng": -73.526658
+   },
+   "klass": "condo",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.2137908425209116,
+   "ppsf": 383.278955954323
   }
- }
+ ]
 }

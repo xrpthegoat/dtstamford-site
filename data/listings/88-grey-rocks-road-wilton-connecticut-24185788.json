@@ -133,31 +133,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "55-tanners-drive-wilton-connecticut-24158976",
-     "addr": "55 Tanners Drive",
-     "unit": "",
-     "beds": 6.0,
-     "baths": 7.0,
-     "sqft": 8500.0,
-     "price": 2650000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-23",
-     "ppsf": 312,
-     "mi": 0.29
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 2650000.0,
-    "high": 2650000.0,
-    "median": 2650000
+ "comps": [
+  {
+   "mls": "24158976",
+   "slug": "55-tanners-drive-wilton-connecticut-24158976",
+   "address": {
+    "line": "55 Tanners Drive",
+    "unit": null,
+    "lineWithUnit": "55 Tanners Drive",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
    },
-   "radiusMi": 0.75
+   "beds": 6.0,
+   "baths": 7.0,
+   "sqft": 8500.0,
+   "price": 2650000.0,
+   "date": "2026-06-23",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.22753,
+    "lng": -73.47611
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 0.46561744346738126,
+   "ppsf": 311.7647058823529
+  },
+  {
+   "mls": "24161502",
+   "slug": "137-linden-tree-road-wilton-connecticut-24161502",
+   "address": {
+    "line": "137 Linden Tree Road",
+    "unit": null,
+    "lineWithUnit": "137 Linden Tree Road",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 5.0,
+   "baths": 7.0,
+   "sqft": 7108.0,
+   "price": 2825000.0,
+   "date": "2026-07-27",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.20964,
+    "lng": -73.480188
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.2731229602522407,
+   "ppsf": 397.4395047833427
+  },
+  {
+   "mls": "24083683",
+   "slug": "33-middlebrook-farm-road-wilton-connecticut-24083683",
+   "address": {
+    "line": "33 Middlebrook Farm Road",
+    "unit": null,
+    "lineWithUnit": "33 Middlebrook Farm Road",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 5.0,
+   "baths": 7.0,
+   "sqft": 5860.0,
+   "price": 2335000.0,
+   "date": "2026-03-31",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.203682,
+    "lng": -73.447547
+   },
+   "klass": "house",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 3.4069474186021433,
+   "ppsf": 398.4641638225256
+  },
+  {
+   "mls": "24142765",
+   "slug": "109-signal-hill-road-wilton-connecticut-24142765",
+   "address": {
+    "line": "109 Signal Hill Road",
+    "unit": null,
+    "lineWithUnit": "109 Signal Hill Road",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 4.0,
+   "baths": 5.0,
+   "sqft": 4800.0,
+   "price": 2150000.0,
+   "date": "2026-06-23",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.20329,
+    "lng": -73.463234
+   },
+   "klass": "house",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 2.9097780743185093,
+   "ppsf": 447.9166666666667
+  },
+  {
+   "mls": "24159919",
+   "slug": "21-lee-allen-lane-wilton-connecticut-24159919",
+   "address": {
+    "line": "21 Lee Allen Lane",
+    "unit": null,
+    "lineWithUnit": "21 Lee Allen Lane",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 5.0,
+   "baths": 6.0,
+   "sqft": 5919.0,
+   "price": 3200000.0,
+   "date": "2026-06-24",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.216048,
+    "lng": -73.404023
+   },
+   "klass": "house",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 5.764326052676331,
+   "ppsf": 540.6318634904545
   }
- }
+ ]
 }

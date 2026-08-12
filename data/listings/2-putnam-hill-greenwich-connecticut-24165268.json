@@ -127,101 +127,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "4-putnam-hill-road-greenwich-connecticut-24145654",
-     "addr": "4 Putnam Hill Road Unit 2B",
-     "unit": "Unit 2B",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1300.0,
-     "price": 662500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-17",
-     "ppsf": 510,
-     "mi": 0.08
-    },
-    {
-     "slug": "148-putnam-park-greenwich-connecticut-24164334",
-     "addr": "148 Putnam Park",
-     "unit": "",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1218.0,
-     "price": 800000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-23",
-     "ppsf": 657,
-     "mi": 0.15
-    },
-    {
-     "slug": "186-putnam-park-greenwich-connecticut-24145747",
-     "addr": "186 Putnam Park Unit 186",
-     "unit": "Unit 186",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1200.0,
-     "price": 905000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-20",
-     "ppsf": 754,
-     "mi": 0.17
-    },
-    {
-     "slug": "11-lafayette-court-greenwich-connecticut-24150479",
-     "addr": "11 Lafayette Court Apt 5B",
-     "unit": "Apt 5B",
-     "beds": 2.0,
-     "baths": 3.0,
-     "sqft": 1514.0,
-     "price": 1515000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-06",
-     "ppsf": 1001,
-     "mi": 0.56
-    },
-    {
-     "slug": "11-lafayette-court-greenwich-connecticut-24169594",
-     "addr": "11 Lafayette Court Unit 1C",
-     "unit": "Unit 1C",
-     "beds": 2.0,
-     "baths": 3.0,
-     "sqft": 1640.0,
-     "price": 1700000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-22",
-     "ppsf": 1037,
-     "mi": 0.56
-    },
-    {
-     "slug": "25-west-elm-street-greenwich-connecticut-24167901",
-     "addr": "25 West Elm Street Unit 10",
-     "unit": "Unit 10",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1250.0,
-     "price": 1150000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-07",
-     "ppsf": 920,
-     "mi": 0.69
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 662500.0,
-    "high": 1700000.0,
-    "median": 1027500
+ "comps": [
+  {
+   "mls": "24145747",
+   "slug": "186-putnam-park-greenwich-connecticut-24145747",
+   "address": {
+    "line": "186 Putnam Park",
+    "unit": "Unit 186",
+    "lineWithUnit": "186 Putnam Park Unit 186",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06830"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1200.0,
+   "price": 905000.0,
+   "date": "2026-03-20",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.03366,
+    "lng": -73.62139
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.2767617661949939,
+   "ppsf": 754.1666666666666
+  },
+  {
+   "mls": "24138948",
+   "slug": "47-lafayette-place-greenwich-connecticut-24138948",
+   "address": {
+    "line": "47 Lafayette Place",
+    "unit": "Apt 6J",
+    "lineWithUnit": "47 Lafayette Place Apt 6J",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06830"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 769.0,
+   "price": 700000.0,
+   "date": "2026-04-13",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.033148,
+    "lng": -73.627652
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8036737534738996,
+   "ppsf": 910.2730819245774
+  },
+  {
+   "mls": "24164334",
+   "slug": "148-putnam-park-greenwich-connecticut-24164334",
+   "address": {
+    "line": "148 Putnam Park",
+    "unit": null,
+    "lineWithUnit": "148 Putnam Park",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06830"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1218.0,
+   "price": 800000.0,
+   "date": "2026-06-23",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.033716,
+    "lng": -73.621002
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.24366235553181434,
+   "ppsf": 656.8144499178982
+  },
+  {
+   "mls": "24158003",
+   "slug": "4-putnam-hill-greenwich-connecticut-24158003",
+   "address": {
+    "line": "4 Putnam Hill",
+    "unit": "Unit 4F",
+    "lineWithUnit": "4 Putnam Hill Unit 4F",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06830"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 985.0,
+   "price": 460000.0,
+   "date": "2026-07-24",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.03493,
+    "lng": -73.6177
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.0872974622534296,
+   "ppsf": 467.005076142132
+  },
+  {
+   "mls": "24163299",
+   "slug": "50-lafayette-place-greenwich-connecticut-24163299",
+   "address": {
+    "line": "50 Lafayette Place",
+    "unit": "Unit 2H",
+    "lineWithUnit": "50 Lafayette Place Unit 2H",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06830"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 740.0,
+   "price": 515000.0,
+   "date": "2026-07-13",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.032022,
+    "lng": -73.627937
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8546052584992662,
+   "ppsf": 695.9459459459459
   }
- }
+ ]
 }

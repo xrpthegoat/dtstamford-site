@@ -138,101 +138,141 @@
    "walk": 9
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "26-melbourne-road-norwalk-connecticut-24054751",
-     "addr": "26 Melbourne Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 2.0,
-     "sqft": 2142.0,
-     "price": 865000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-10",
-     "ppsf": 404,
-     "mi": 0.04
-    },
-    {
-     "slug": "20-eversley-avenue-norwalk-connecticut-24160433",
-     "addr": "20 Eversley Avenue",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 2.0,
-     "sqft": 1526.0,
-     "price": 810000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-01",
-     "ppsf": 531,
-     "mi": 0.22
-    },
-    {
-     "slug": "29-morgan-avenue-norwalk-connecticut-24164978",
-     "addr": "29 Morgan Avenue",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 1953.0,
-     "price": 920000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-09",
-     "ppsf": 471,
-     "mi": 0.28
-    },
-    {
-     "slug": "107-strawberry-hill-avenue-norwalk-connecticut-24160974",
-     "addr": "107 Strawberry Hill Avenue",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 2.0,
-     "sqft": 1691.0,
-     "price": 730000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-18",
-     "ppsf": 432,
-     "mi": 0.36
-    },
-    {
-     "slug": "12-william-street-norwalk-connecticut-24172384",
-     "addr": "12 William Street",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2290.0,
-     "price": 1055000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-29",
-     "ppsf": 461,
-     "mi": 0.46
-    },
-    {
-     "slug": "33-myrtle-street-norwalk-connecticut-24158130",
-     "addr": "33 Myrtle Street",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2710.0,
-     "price": 900000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-13",
-     "ppsf": 332,
-     "mi": 0.55
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 730000.0,
-    "high": 1055000.0,
-    "median": 882500
+ "comps": [
+  {
+   "mls": "24158130",
+   "slug": "33-myrtle-street-norwalk-connecticut-24158130",
+   "address": {
+    "line": "33 Myrtle Street",
+    "unit": null,
+    "lineWithUnit": "33 Myrtle Street",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06855"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2710.0,
+   "price": 900000.0,
+   "date": "2026-05-13",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.106689,
+    "lng": -73.401621
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8831524039066079,
+   "ppsf": 332.1033210332103
+  },
+  {
+   "mls": "24160860",
+   "slug": "10-maurice-street-norwalk-connecticut-24160860",
+   "address": {
+    "line": "10 Maurice Street",
+    "unit": null,
+    "lineWithUnit": "10 Maurice Street",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2686.0,
+   "price": 1067000.0,
+   "date": "2026-05-29",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.11765,
+    "lng": -73.391597
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1940553478668439,
+   "ppsf": 397.2449739389427
+  },
+  {
+   "mls": "24174860",
+   "slug": "3-knickerbocker-avenue-norwalk-connecticut-24174860",
+   "address": {
+    "line": "3 Knickerbocker Avenue",
+    "unit": null,
+    "lineWithUnit": "3 Knickerbocker Avenue",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06855"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 3567.0,
+   "price": 875000.0,
+   "date": "2026-07-27",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.108764,
+    "lng": -73.403438
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6189056711106522,
+   "ppsf": 245.30417717970283
+  },
+  {
+   "mls": "24159581",
+   "slug": "29-hyatt-avenue-norwalk-connecticut-24159581",
+   "address": {
+    "line": "29 Hyatt Avenue",
+    "unit": null,
+    "lineWithUnit": "29 Hyatt Avenue",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 2475.0,
+   "price": 695000.0,
+   "date": "2026-06-11",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.110668,
+    "lng": -73.42707
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.8825707925674404,
+   "ppsf": 280.80808080808083
+  },
+  {
+   "mls": "24162010",
+   "slug": "23-sachem-street-norwalk-connecticut-24162010",
+   "address": {
+    "line": "23 Sachem Street",
+    "unit": null,
+    "lineWithUnit": "23 Sachem Street",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 2508.0,
+   "price": 775000.0,
+   "date": "2026-06-23",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.120241,
+    "lng": -73.433546
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.4769404187822754,
+   "ppsf": 309.01116427432214
   }
- }
+ ]
 }

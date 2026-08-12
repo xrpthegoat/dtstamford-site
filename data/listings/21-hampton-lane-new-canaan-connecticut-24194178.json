@@ -133,72 +133,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "101-parade-hill-road-new-canaan-connecticut-24150007",
-     "addr": "101 Parade Hill Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1404.0,
-     "price": 1100000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-14",
-     "ppsf": 783,
-     "mi": 0.14
-    },
-    {
-     "slug": "60-east-avenue-new-canaan-connecticut-24092533",
-     "addr": "60 East Avenue",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1400.0,
-     "price": 975000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-17",
-     "ppsf": 696,
-     "mi": 0.62
-    },
-    {
-     "slug": "45-seminary-street-new-canaan-connecticut-24165203",
-     "addr": "45 Seminary Street",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 2455.0,
-     "price": 1605290.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-13",
-     "ppsf": 654,
-     "mi": 0.63
-    },
-    {
-     "slug": "122-summer-street-new-canaan-connecticut-24164700",
-     "addr": "122 Summer Street Unit 122",
-     "unit": "Unit 122",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1370.0,
-     "price": 958000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 699,
-     "mi": 0.71
-    }
-   ],
-   "summary": {
-    "n": 3,
-    "low": 975000.0,
-    "high": 1605290.0,
-    "median": 1100000
+ "comps": [
+  {
+   "mls": "24165203",
+   "slug": "45-seminary-street-new-canaan-connecticut-24165203",
+   "address": {
+    "line": "45 Seminary Street",
+    "unit": null,
+    "lineWithUnit": "45 Seminary Street",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2455.0,
+   "price": 1605290.0,
+   "date": "2026-07-13",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.147044,
+    "lng": -73.497832
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.012155148790859,
+   "ppsf": 653.8859470468432
+  },
+  {
+   "mls": "24150224",
+   "slug": "58-lambert-road-new-canaan-connecticut-24150224",
+   "address": {
+    "line": "58 Lambert Road",
+    "unit": null,
+    "lineWithUnit": "58 Lambert Road",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 1.0,
+   "baths": 3.0,
+   "sqft": 2631.0,
+   "price": 3045000.0,
+   "date": "2026-04-17",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.161201,
+    "lng": -73.502887
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8831855012954939,
+   "ppsf": 1157.3546180159635
+  },
+  {
+   "mls": "24128764",
+   "slug": "180-summer-street-new-canaan-connecticut-24128764",
+   "address": {
+    "line": "180 Summer Street",
+    "unit": null,
+    "lineWithUnit": "180 Summer Street",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2747.0,
+   "price": 1450000.0,
+   "date": "2026-03-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.146023,
+    "lng": -73.486778
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.2975196876745652,
+   "ppsf": 527.8485620677102
+  },
+  {
+   "mls": "24170801",
+   "slug": "33-village-drive-new-canaan-connecticut-24170801",
+   "address": {
+    "line": "33 Village Drive",
+    "unit": null,
+    "lineWithUnit": "33 Village Drive",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 5.0,
+   "baths": 3.0,
+   "sqft": 3109.0,
+   "price": 2300000.0,
+   "date": "2026-07-10",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.13473,
+    "lng": -73.48532
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.490405593829015,
+   "ppsf": 739.787713091026
+  },
+  {
+   "mls": "24169806",
+   "slug": "215-chichester-road-new-canaan-connecticut-24169806",
+   "address": {
+    "line": "215 Chichester Road",
+    "unit": null,
+    "lineWithUnit": "215 Chichester Road",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2990.0,
+   "price": 2210000.0,
+   "date": "2026-06-18",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.154289,
+    "lng": -73.520333
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.1258044599324872,
+   "ppsf": 739.1304347826087
   }
- }
+ ]
 }

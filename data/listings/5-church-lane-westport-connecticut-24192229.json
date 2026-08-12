@@ -127,125 +127,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "building": {
-   "rows": [
-    {
-     "slug": "5-church-lane-westport-connecticut-24182260",
-     "addr": "5 Church Lane Unit 310",
-     "unit": "Unit 310",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1220.0,
-     "price": 6995.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-28",
-     "ppsf": 6
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 6995.0,
-    "high": 6995.0,
-    "median": 6995
+ "comps": [
+  {
+   "mls": "24182260",
+   "slug": "5-church-lane-westport-connecticut-24182260",
+   "address": {
+    "line": "5 Church Lane",
+    "unit": "Unit 310",
+    "lineWithUnit": "5 Church Lane Unit 310",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
    },
-   "label": "5 Church Lane"
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1220.0,
+   "price": 6995.0,
+   "date": "2026-04-28",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.1423,
+    "lng": -73.36077
+   },
+   "klass": "rental",
+   "tier": 1,
+   "why": "Same building, sold in the last year",
+   "km": 0.0017791188265616213,
+   "ppsf": 5.733606557377049
   },
-  "area": {
-   "rows": [
-    {
-     "slug": "201-main-street-westport-connecticut-24138891",
-     "addr": "201 Main Street Unit 203",
-     "unit": "Unit 203",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 830.0,
-     "price": 4500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-03",
-     "ppsf": 5,
-     "mi": 0.18
-    },
-    {
-     "slug": "201-main-street-westport-connecticut-24179108",
-     "addr": "201 Main Street Unit 302",
-     "unit": "Unit 302",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 850.0,
-     "price": 4800.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-11",
-     "ppsf": 6,
-     "mi": 0.18
-    },
-    {
-     "slug": "20-cross-street-westport-connecticut-24172100",
-     "addr": "20 Cross Street Unit 5",
-     "unit": "Unit 5",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1182.0,
-     "price": 4900.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-06",
-     "ppsf": 4,
-     "mi": 0.33
-    },
-    {
-     "slug": "113-kings-highway-north-westport-connecticut-24158091",
-     "addr": "113 Kings Highway North",
-     "unit": "",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1078.0,
-     "price": 3700.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-22",
-     "ppsf": 3,
-     "mi": 0.45
-    },
-    {
-     "slug": "315-main-street-westport-connecticut-24146601",
-     "addr": "315 Main Street",
-     "unit": "",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 740.0,
-     "price": 3250.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-30",
-     "ppsf": 4,
-     "mi": 0.53
-    },
-    {
-     "slug": "19-whitney-street-westport-connecticut-24179563",
-     "addr": "19 Whitney Street",
-     "unit": "",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1400.0,
-     "price": 3800.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-17",
-     "ppsf": 3,
-     "mi": 0.62
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 3250.0,
-    "high": 4900.0,
-    "median": 4150
+  {
+   "mls": "24172100",
+   "slug": "20-cross-street-westport-connecticut-24172100",
+   "address": {
+    "line": "20 Cross Street",
+    "unit": "Unit 5",
+    "lineWithUnit": "20 Cross Street Unit 5",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1182.0,
+   "price": 4900.0,
+   "date": "2026-07-06",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.138584,
+    "lng": -73.36472
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5279018360424255,
+   "ppsf": 4.145516074450085
+  },
+  {
+   "mls": "24174719",
+   "slug": "30-crescent-park-road-westport-connecticut-24174719",
+   "address": {
+    "line": "30 Crescent Park Road",
+    "unit": null,
+    "lineWithUnit": "30 Crescent Park Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 960.0,
+   "price": 3500.0,
+   "date": "2026-07-13",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.141382,
+    "lng": -73.346636
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1878096213077336,
+   "ppsf": 3.6458333333333335
+  },
+  {
+   "mls": "24158091",
+   "slug": "113-kings-highway-north-westport-connecticut-24158091",
+   "address": {
+    "line": "113 Kings Highway North",
+    "unit": null,
+    "lineWithUnit": "113 Kings Highway North",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1078.0,
+   "price": 3700.0,
+   "date": "2026-04-22",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.145775,
+    "lng": -73.36799
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7184681590890073,
+   "ppsf": 3.4322820037105752
+  },
+  {
+   "mls": "24179563",
+   "slug": "19-whitney-street-westport-connecticut-24179563",
+   "address": {
+    "line": "19 Whitney Street",
+    "unit": null,
+    "lineWithUnit": "19 Whitney Street",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1400.0,
+   "price": 3800.0,
+   "date": "2026-06-17",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.143182,
+    "lng": -73.348947
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.99505577574297,
+   "ppsf": 2.7142857142857144
   }
- }
+ ]
 }

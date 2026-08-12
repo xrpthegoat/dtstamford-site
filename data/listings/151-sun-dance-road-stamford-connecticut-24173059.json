@@ -125,101 +125,141 @@
    "mi": 1.75
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "35-archer-lane-stamford-connecticut-24158106",
-     "addr": "35 Archer Lane",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 3620.0,
-     "price": 1125000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-23",
-     "ppsf": 311,
-     "mi": 0.28
-    },
-    {
-     "slug": "79-loughran-avenue-stamford-connecticut-24166996",
-     "addr": "79 Loughran Avenue",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 1576.0,
-     "price": 725000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-30",
-     "ppsf": 460,
-     "mi": 0.34
-    },
-    {
-     "slug": "57-jay-road-stamford-connecticut-24161476",
-     "addr": "57 Jay Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 2600.0,
-     "price": 950000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-10",
-     "ppsf": 365,
-     "mi": 0.52
-    },
-    {
-     "slug": "82-three-lakes-drive-stamford-connecticut-24184803",
-     "addr": "82 Three Lakes Drive",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2572.0,
-     "price": 1085000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-05",
-     "ppsf": 422,
-     "mi": 0.63
-    },
-    {
-     "slug": "78-vine-road-stamford-connecticut-24155070",
-     "addr": "78 Vine Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 2.0,
-     "sqft": 2183.0,
-     "price": 802500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-10",
-     "ppsf": 368,
-     "mi": 0.69
-    },
-    {
-     "slug": "28-walnut-ridge-lane-stamford-connecticut-24178549",
-     "addr": "28 Walnut Ridge Lane",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 5.0,
-     "sqft": 4164.0,
-     "price": 1445000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-04",
-     "ppsf": 347,
-     "mi": 0.74
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 725000.0,
-    "high": 1445000.0,
-    "median": 1017500
+ "comps": [
+  {
+   "mls": "24155070",
+   "slug": "78-vine-road-stamford-connecticut-24155070",
+   "address": {
+    "line": "78 Vine Road",
+    "unit": null,
+    "lineWithUnit": "78 Vine Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 2.0,
+   "sqft": 2183.0,
+   "price": 802500.0,
+   "date": "2026-04-10",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.101778,
+    "lng": -73.544363
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1109608710198402,
+   "ppsf": 367.61337608795236
+  },
+  {
+   "mls": "24156887",
+   "slug": "130-wood-ridge-drive-stamford-connecticut-24156887",
+   "address": {
+    "line": "130 Wood Ridge Drive",
+    "unit": null,
+    "lineWithUnit": "130 Wood Ridge Drive",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2363.0,
+   "price": 792500.0,
+   "date": "2026-05-29",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.089015,
+    "lng": -73.55209
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9541330223196391,
+   "ppsf": 335.3787558188743
+  },
+  {
+   "mls": "24161476",
+   "slug": "57-jay-road-stamford-connecticut-24161476",
+   "address": {
+    "line": "57 Jay Road",
+    "unit": null,
+    "lineWithUnit": "57 Jay Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 2600.0,
+   "price": 950000.0,
+   "date": "2026-06-10",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.104646,
+    "lng": -73.555693
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.844054950973641,
+   "ppsf": 365.38461538461536
+  },
+  {
+   "mls": "24164004",
+   "slug": "38-woods-end-road-stamford-connecticut-24164004",
+   "address": {
+    "line": "38 Woods End Road",
+    "unit": null,
+    "lineWithUnit": "38 Woods End Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2340.0,
+   "price": 875000.0,
+   "date": "2026-05-05",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.090976,
+    "lng": -73.546568
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0435719253409468,
+   "ppsf": 373.9316239316239
+  },
+  {
+   "mls": "24169896",
+   "slug": "23-maltbie-avenue-stamford-connecticut-24169896",
+   "address": {
+    "line": "23 Maltbie Avenue",
+    "unit": null,
+    "lineWithUnit": "23 Maltbie Avenue",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2281.0,
+   "price": 875000.0,
+   "date": "2026-06-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.09955,
+    "lng": -73.563454
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6793930427519397,
+   "ppsf": 383.6036825953529
   }
- }
+ ]
 }

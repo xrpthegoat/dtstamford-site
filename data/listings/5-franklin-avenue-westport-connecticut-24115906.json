@@ -119,86 +119,141 @@
    "mi": 1.58
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "19-east-horseshoe-lane-westport-connecticut-24169575",
-     "addr": "19 East Horseshoe Lane",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 5.0,
-     "sqft": 5476.0,
-     "price": 3200000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-15",
-     "ppsf": 584,
-     "mi": 0.16
-    },
-    {
-     "slug": "422-riverside-avenue-westport-connecticut-24176205",
-     "addr": "422 Riverside Avenue",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 4.0,
-     "sqft": 3345.0,
-     "price": 1800000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-07",
-     "ppsf": 538,
-     "mi": 0.47
-    },
-    {
-     "slug": "28-ferry-lane-east-westport-connecticut-24175264",
-     "addr": "28 Ferry Lane East",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 9.0,
-     "sqft": 8466.0,
-     "price": 6100000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-10",
-     "ppsf": 721,
-     "mi": 0.64
-    },
-    {
-     "slug": "26-treadwell-avenue-westport-connecticut-24132802",
-     "addr": "26 Treadwell Avenue",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 5.0,
-     "sqft": 3200.0,
-     "price": 3150000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-16",
-     "ppsf": 984,
-     "mi": 0.66
-    },
-    {
-     "slug": "5-farnham-court-westport-connecticut-24171058",
-     "addr": "5 Farnham Court",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 5.0,
-     "sqft": 3988.0,
-     "price": 2099000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 526,
-     "mi": 0.32
-    }
-   ],
-   "summary": {
-    "n": 4,
-    "low": 1800000.0,
-    "high": 6100000.0,
-    "median": 3175000
+ "comps": [
+  {
+   "mls": "24163587",
+   "slug": "23-harborview-road-westport-connecticut-24163587",
+   "address": {
+    "line": "23 Harborview Road",
+    "unit": null,
+    "lineWithUnit": "23 Harborview Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 3674.0,
+   "price": 2750000.0,
+   "date": "2026-05-08",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.13451,
+    "lng": -73.35844
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9267039056837101,
+   "ppsf": 748.502994011976
+  },
+  {
+   "mls": "24168078",
+   "slug": "171-compo-road-south-westport-connecticut-24168078",
+   "address": {
+    "line": "171 Compo Road South",
+    "unit": null,
+    "lineWithUnit": "171 Compo Road South",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 4.0,
+   "baths": 5.0,
+   "sqft": 3800.0,
+   "price": 2425000.0,
+   "date": "2026-06-23",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.125164,
+    "lng": -73.359726
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.37396484244872136,
+   "ppsf": 638.1578947368421
+  },
+  {
+   "mls": "24169575",
+   "slug": "19-east-horseshoe-lane-westport-connecticut-24169575",
+   "address": {
+    "line": "19 East Horseshoe Lane",
+    "unit": null,
+    "lineWithUnit": "19 East Horseshoe Lane",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 5.0,
+   "baths": 5.0,
+   "sqft": 5476.0,
+   "price": 3200000.0,
+   "date": "2026-07-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.12485,
+    "lng": -73.362335
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.26213500404899326,
+   "ppsf": 584.3681519357195
+  },
+  {
+   "mls": "24173081",
+   "slug": "2-mortar-rock-road-westport-connecticut-24173081",
+   "address": {
+    "line": "2 Mortar Rock Road",
+    "unit": null,
+    "lineWithUnit": "2 Mortar Rock Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 4.0,
+   "baths": 6.0,
+   "sqft": 4312.0,
+   "price": 3000000.0,
+   "date": "2026-08-05",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.127632,
+    "lng": -73.35941
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.34093136519230316,
+   "ppsf": 695.7328385899815
+  },
+  {
+   "mls": "24137404",
+   "slug": "123-greens-farms-road-westport-connecticut-24137404",
+   "address": {
+    "line": "123 Greens Farms Road",
+    "unit": null,
+    "lineWithUnit": "123 Greens Farms Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 4.0,
+   "baths": 5.0,
+   "sqft": 5207.0,
+   "price": 2600000.0,
+   "date": "2026-05-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.126299,
+    "lng": -73.340884
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.8886577956765955,
+   "ppsf": 499.3278279239485
   }
- }
+ ]
 }

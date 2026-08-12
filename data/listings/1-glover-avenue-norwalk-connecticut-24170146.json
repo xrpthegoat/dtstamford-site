@@ -119,49 +119,141 @@
    "walk": 4
   }
  },
- "comps": {
-  "building": {
-   "rows": [
-    {
-     "slug": "1-glover-avenue-norwalk-connecticut-24139925",
-     "addr": "1 Glover Avenue Unit 410",
-     "unit": "Unit 410",
-     "beds": 0.0,
-     "baths": 1.0,
-     "sqft": 560.0,
-     "price": 1860.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-07",
-     "ppsf": 3
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 1860.0,
-    "high": 1860.0,
-    "median": 1860
+ "comps": [
+  {
+   "mls": "24139925",
+   "slug": "1-glover-avenue-norwalk-connecticut-24139925",
+   "address": {
+    "line": "1 Glover Avenue",
+    "unit": "Unit 410",
+    "lineWithUnit": "1 Glover Avenue Unit 410",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
    },
-   "label": "1 Glover Avenue"
+   "beds": 0.0,
+   "baths": 1.0,
+   "sqft": 560.0,
+   "price": 1860.0,
+   "date": "2026-07-07",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.143,
+    "lng": -73.427475
+   },
+   "klass": "rental",
+   "tier": 1,
+   "why": "Same building, sold in the last year",
+   "km": 0.0,
+   "ppsf": 3.3214285714285716
   },
-  "area": {
-   "rows": [
-    {
-     "slug": "16-ruby-street-norwalk-connecticut-24190338",
-     "addr": "16 Ruby Street Unit 2",
-     "unit": "Unit 2",
-     "beds": 0.0,
-     "baths": 1.0,
-     "sqft": 400.0,
-     "price": 1495.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 4,
-     "mi": 0.39
-    }
-   ],
-   "summary": null,
-   "radiusMi": 0.75
+  {
+   "mls": "24180263",
+   "slug": "8-oakwood-avenue-norwalk-connecticut-24180263",
+   "address": {
+    "line": "8 Oakwood Avenue",
+    "unit": "Unit C1",
+    "lineWithUnit": "8 Oakwood Avenue Unit C1",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 570.0,
+   "price": 2295.0,
+   "date": "2026-06-11",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.148,
+    "lng": -73.42878
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5666113775746381,
+   "ppsf": 4.026315789473684
+  },
+  {
+   "mls": "24162480",
+   "slug": "32-pulaski-street-norwalk-connecticut-24162480",
+   "address": {
+    "line": "32 Pulaski Street",
+    "unit": "Unit 3",
+    "lineWithUnit": "32 Pulaski Street Unit 3",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 600.0,
+   "price": 1795.0,
+   "date": "2026-04-11",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.132504,
+    "lng": -73.42716
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1674000327788956,
+   "ppsf": 2.9916666666666667
+  },
+  {
+   "mls": "24164114",
+   "slug": "289-main-avenue-norwalk-connecticut-24164114",
+   "address": {
+    "line": "289 Main Avenue",
+    "unit": null,
+    "lineWithUnit": "289 Main Avenue",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": null,
+   "baths": 2.0,
+   "sqft": 600.0,
+   "price": 1750.0,
+   "date": "2026-04-28",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.13134,
+    "lng": -73.42359
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.33673092597577,
+   "ppsf": 2.9166666666666665
+  },
+  {
+   "mls": "24139929",
+   "slug": "300-glover-avenue-norwalk-connecticut-24139929",
+   "address": {
+    "line": "300 Glover Avenue",
+    "unit": "Unit b149",
+    "lineWithUnit": "300 Glover Avenue Unit b149",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 0.0,
+   "baths": 1.0,
+   "sqft": 524.0,
+   "price": 2045.0,
+   "date": "2026-04-30",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.153976,
+    "lng": -73.425835
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.228176183227398,
+   "ppsf": 3.9026717557251906
   }
- }
+ ]
 }

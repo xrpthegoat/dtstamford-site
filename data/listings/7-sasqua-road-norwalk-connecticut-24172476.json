@@ -134,57 +134,141 @@
    "mi": 0.74
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "22-cavray-road-norwalk-connecticut-24165362",
-     "addr": "22 Cavray Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 7.0,
-     "sqft": 7867.0,
-     "price": 1850000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-05",
-     "ppsf": 235,
-     "mi": 0.25
-    },
-    {
-     "slug": "95-old-saugatuck-road-norwalk-connecticut-24187690",
-     "addr": "95 Old Saugatuck Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 7.0,
-     "sqft": 8294.0,
-     "price": 4200000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 506,
-     "mi": 0.11
-    },
-    {
-     "slug": "279-saugatuck-avenue-westport-connecticut-24179641",
-     "addr": "279 Saugatuck Avenue",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 9.0,
-     "sqft": 9546.0,
-     "price": 14900000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 1561,
-     "mi": 0.74
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 1850000.0,
-    "high": 1850000.0,
-    "median": 1850000
+ "comps": [
+  {
+   "mls": "24166244",
+   "slug": "12-white-barns-lane-norwalk-connecticut-24166244",
+   "address": {
+    "line": "12 White Barns Lane",
+    "unit": "Unit 12",
+    "lineWithUnit": "12 White Barns Lane Unit 12",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 5.0,
+   "sqft": 4832.0,
+   "price": 1925000.0,
+   "date": "2026-04-19",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.15129,
+    "lng": -73.390205
+   },
+   "klass": "house",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 5.415348869421129,
+   "ppsf": 398.38576158940396
+  },
+  {
+   "mls": "24156989",
+   "slug": "16-juniper-road-norwalk-connecticut-24156989",
+   "address": {
+    "line": "16 Juniper Road",
+    "unit": null,
+    "lineWithUnit": "16 Juniper Road",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06853"
+   },
+   "beds": 5.0,
+   "baths": 5.0,
+   "sqft": 4423.0,
+   "price": 6950000.0,
+   "date": "2026-06-17",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.060294,
+    "lng": -73.443687
+   },
+   "klass": "house",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 6.553446163522673,
+   "ppsf": 1571.331675333484
+  },
+  {
+   "mls": "24167554",
+   "slug": "12-ledge-road-norwalk-connecticut-24167554",
+   "address": {
+    "line": "12 Ledge Road",
+    "unit": null,
+    "lineWithUnit": "12 Ledge Road",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06853"
+   },
+   "beds": 5.0,
+   "baths": 5.0,
+   "sqft": 4679.0,
+   "price": 3127000.0,
+   "date": "2026-07-02",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.074719,
+    "lng": -73.438569
+   },
+   "klass": "house",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 5.166889265762874,
+   "ppsf": 668.3051934173969
+  },
+  {
+   "mls": "24172328",
+   "slug": "196-west-norwalk-road-norwalk-connecticut-24172328",
+   "address": {
+    "line": "196 West Norwalk Road",
+    "unit": null,
+    "lineWithUnit": "196 West Norwalk Road",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 3960.0,
+   "price": 1675000.0,
+   "date": "2026-07-01",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.110785,
+    "lng": -73.463979
+   },
+   "klass": "house",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 6.327649360622596,
+   "ppsf": 422.979797979798
+  },
+  {
+   "mls": "24168001",
+   "slug": "18-dock-road-norwalk-connecticut-24168001",
+   "address": {
+    "line": "18 Dock Road",
+    "unit": null,
+    "lineWithUnit": "18 Dock Road",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 4082.0,
+   "price": 2030000.0,
+   "date": "2026-06-26",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.080343,
+    "lng": -73.418276
+   },
+   "klass": "house",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 3.4701373152500277,
+   "ppsf": 497.30524252817247
   }
- }
+ ]
 }

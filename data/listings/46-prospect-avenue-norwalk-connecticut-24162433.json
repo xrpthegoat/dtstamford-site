@@ -130,101 +130,141 @@
    "walk": 3
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "50-fairview-avenue-norwalk-connecticut-24168362",
-     "addr": "50 Fairview Avenue Unit 2D",
-     "unit": "Unit 2D",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 899.0,
-     "price": 2290.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-02",
-     "ppsf": 3,
-     "mi": 0.08
-    },
-    {
-     "slug": "14-1-2-fairview-avenue-norwalk-connecticut-24180229",
-     "addr": "14-1/2 Fairview Avenue Unit D3",
-     "unit": "Unit D3",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1142.0,
-     "price": 3000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-05",
-     "ppsf": 3,
-     "mi": 0.15
-    },
-    {
-     "slug": "20-magnolia-avenue-norwalk-connecticut-24183331",
-     "addr": "20 Magnolia Avenue Unit 2",
-     "unit": "Unit 2",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 700.0,
-     "price": 2650.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-01",
-     "ppsf": 4,
-     "mi": 0.16
-    },
-    {
-     "slug": "14-1-2-fairview-avenue-norwalk-connecticut-24161070",
-     "addr": "14-1/2 Fairview Avenue Unit B3",
-     "unit": "Unit B3",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1142.0,
-     "price": 2950.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-15",
-     "ppsf": 3,
-     "mi": 0.17
-    },
-    {
-     "slug": "18-prospect-avenue-norwalk-connecticut-24159924",
-     "addr": "18 Prospect Avenue Apt D1",
-     "unit": "Apt D1",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 960.0,
-     "price": 2900.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-05",
-     "ppsf": 3,
-     "mi": 0.21
-    },
-    {
-     "slug": "14-hyatt-avenue-norwalk-connecticut-24192159",
-     "addr": "14 Hyatt Avenue Unit A2",
-     "unit": "Unit A2",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1400.0,
-     "price": 2995.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-16",
-     "ppsf": 2,
-     "mi": 0.28
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 2290.0,
-    "high": 3000.0,
-    "median": 2925
+ "comps": [
+  {
+   "mls": "24154959",
+   "slug": "24-ferris-avenue-norwalk-connecticut-24154959",
+   "address": {
+    "line": "24 Ferris Avenue",
+    "unit": "Unit 2",
+    "lineWithUnit": "24 Ferris Avenue Unit 2",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 900.0,
+   "price": 2195.0,
+   "date": "2026-03-18",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.10736,
+    "lng": -73.42941
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8732452069452137,
+   "ppsf": 2.438888888888889
+  },
+  {
+   "mls": "24161811",
+   "slug": "44-stuart-avenue-norwalk-connecticut-24161811",
+   "address": {
+    "line": "44 Stuart Avenue",
+    "unit": "Unit B3",
+    "lineWithUnit": "44 Stuart Avenue Unit B3",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 750.0,
+   "price": 2195.0,
+   "date": "2026-04-08",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.108795,
+    "lng": -73.42396
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.494934438056916,
+   "ppsf": 2.9266666666666667
+  },
+  {
+   "mls": "24161814",
+   "slug": "15-arch-street-norwalk-connecticut-24161814",
+   "address": {
+    "line": "15 Arch Street",
+    "unit": "Unit C1",
+    "lineWithUnit": "15 Arch Street Unit C1",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 750.0,
+   "price": 2195.0,
+   "date": "2026-04-22",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.112892,
+    "lng": -73.41817
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.340248838861895,
+   "ppsf": 2.9266666666666667
+  },
+  {
+   "mls": "24158357",
+   "slug": "71-connecticut-avenue-norwalk-connecticut-24158357",
+   "address": {
+    "line": "71 Connecticut Avenue",
+    "unit": "Unit 301",
+    "lineWithUnit": "71 Connecticut Avenue Unit 301",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1049.0,
+   "price": 2950.0,
+   "date": "2026-04-30",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.1067,
+    "lng": -73.423965
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.72096216520757,
+   "ppsf": 2.8122020972354624
+  },
+  {
+   "mls": "24148007",
+   "slug": "11-bedford-avenue-norwalk-connecticut-24148007",
+   "address": {
+    "line": "11 Bedford Avenue",
+    "unit": "Apt N4",
+    "lineWithUnit": "11 Bedford Avenue Apt N4",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 732.0,
+   "price": 2150.0,
+   "date": "2026-05-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.115296,
+    "lng": -73.421444
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.2581932019357165,
+   "ppsf": 2.9371584699453552
   }
- }
+ ]
 }

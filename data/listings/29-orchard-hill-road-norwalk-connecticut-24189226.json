@@ -133,51 +133,141 @@
    "mi": 1.55
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "34-pequot-trail-westport-connecticut-24178738",
-     "addr": "34 Pequot Trail",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 4.0,
-     "sqft": 3782.0,
-     "price": 2100000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 555,
-     "mi": 0.35
-    },
-    {
-     "slug": "30-pequot-trail-westport-connecticut-24170706",
-     "addr": "30 Pequot Trail",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 4.0,
-     "sqft": 3156.0,
-     "price": 1599876.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 507,
-     "mi": 0.42
-    },
-    {
-     "slug": "31-stonybrook-road-westport-connecticut-24178699",
-     "addr": "31 Stonybrook Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 8.0,
-     "sqft": 6503.0,
-     "price": 5750000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 884,
-     "mi": 0.55
-    }
-   ],
-   "summary": null,
-   "radiusMi": 0.75
+ "comps": [
+  {
+   "mls": "24122969",
+   "slug": "13-orchard-hill-road-norwalk-connecticut-24122969",
+   "address": {
+    "line": "13 Orchard Hill Road",
+    "unit": null,
+    "lineWithUnit": "13 Orchard Hill Road",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 4.0,
+   "baths": 5.0,
+   "sqft": 5588.0,
+   "price": 1400000.0,
+   "date": "2026-04-16",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.133669,
+    "lng": -73.385739
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.306181818012017,
+   "ppsf": 250.53686471009306
+  },
+  {
+   "mls": "24166244",
+   "slug": "12-white-barns-lane-norwalk-connecticut-24166244",
+   "address": {
+    "line": "12 White Barns Lane",
+    "unit": "Unit 12",
+    "lineWithUnit": "12 White Barns Lane Unit 12",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 4.0,
+   "baths": 5.0,
+   "sqft": 4832.0,
+   "price": 1925000.0,
+   "date": "2026-04-19",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.15129,
+    "lng": -73.390205
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.857403561005358,
+   "ppsf": 398.38576158940396
+  },
+  {
+   "mls": "24160182",
+   "slug": "143-partrick-avenue-norwalk-connecticut-24160182",
+   "address": {
+    "line": "143 Partrick Avenue",
+    "unit": null,
+    "lineWithUnit": "143 Partrick Avenue",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 4.0,
+   "baths": 5.0,
+   "sqft": 4380.0,
+   "price": 1310000.0,
+   "date": "2026-04-17",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.143698,
+    "lng": -73.392964
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.2365126554164172,
+   "ppsf": 299.08675799086757
+  },
+  {
+   "mls": "24147896",
+   "slug": "381-chestnut-hill-road-norwalk-connecticut-24147896",
+   "address": {
+    "line": "381 Chestnut Hill Road",
+    "unit": null,
+    "lineWithUnit": "381 Chestnut Hill Road",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 3438.0,
+   "price": 1325000.0,
+   "date": "2026-04-10",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.170969,
+    "lng": -73.395882
+   },
+   "klass": "house",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 4.089665727599281,
+   "ppsf": 385.39848749272835
+  },
+  {
+   "mls": "24151095",
+   "slug": "40-tory-hill-lane-norwalk-connecticut-24151095",
+   "address": {
+    "line": "40 Tory Hill Lane",
+    "unit": null,
+    "lineWithUnit": "40 Tory Hill Lane",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06853"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 3354.0,
+   "price": 1500000.0,
+   "date": "2026-03-31",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.073395,
+    "lng": -73.43173
+   },
+   "klass": "house",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 8.02173506131575,
+   "ppsf": 447.2271914132379
   }
- }
+ ]
 }

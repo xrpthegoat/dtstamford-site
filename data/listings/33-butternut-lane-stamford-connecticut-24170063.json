@@ -132,58 +132,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "198-woodchuck-road-stamford-connecticut-24177197",
-     "addr": "198 Woodchuck Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 3322.0,
-     "price": 2450000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-30",
-     "ppsf": 738,
-     "mi": 0.23
-    },
-    {
-     "slug": "320-chestnut-hill-road-stamford-connecticut-24157806",
-     "addr": "320 Chestnut Hill Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 3342.0,
-     "price": 1440000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-18",
-     "ppsf": 431,
-     "mi": 0.37
-    },
-    {
-     "slug": "761-den-road-stamford-connecticut-24185396",
-     "addr": "761 Den Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1903.0,
-     "price": 799000.0,
-     "kind": "asking",
-     "status": "Under Contract - Continue to Show",
-     "ppsf": 420,
-     "mi": 0.51
-    }
-   ],
-   "summary": {
-    "n": 2,
-    "low": 1440000.0,
-    "high": 2450000.0,
-    "median": 1945000
+ "comps": [
+  {
+   "mls": "24133749",
+   "slug": "27-wellington-drive-stamford-connecticut-24133749",
+   "address": {
+    "line": "27 Wellington Drive",
+    "unit": null,
+    "lineWithUnit": "27 Wellington Drive",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2402.0,
+   "price": 774000.0,
+   "date": "2026-03-25",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.137419,
+    "lng": -73.573063
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.4629582418729372,
+   "ppsf": 322.23147377185677
+  },
+  {
+   "mls": "24171383",
+   "slug": "290-red-fox-road-stamford-connecticut-24171383",
+   "address": {
+    "line": "290 Red Fox Road",
+    "unit": null,
+    "lineWithUnit": "290 Red Fox Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 2384.0,
+   "price": 880000.0,
+   "date": "2026-06-23",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.118812,
+    "lng": -73.558683
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.5533402430009877,
+   "ppsf": 369.1275167785235
+  },
+  {
+   "mls": "24170715",
+   "slug": "107-barclay-drive-stamford-connecticut-24170715",
+   "address": {
+    "line": "107 Barclay Drive",
+    "unit": null,
+    "lineWithUnit": "107 Barclay Drive",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2168.0,
+   "price": 1425000.0,
+   "date": "2026-07-13",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.102381,
+    "lng": -73.574557
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.4512966202013615,
+   "ppsf": 657.2878228782288
+  },
+  {
+   "mls": "24146138",
+   "slug": "106-east-hunting-ridge-road-stamford-connecticut-24146138",
+   "address": {
+    "line": "106 East Hunting Ridge Road",
+    "unit": null,
+    "lineWithUnit": "106 East Hunting Ridge Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
+   },
+   "beds": 4.0,
+   "baths": 2.0,
+   "sqft": 2476.0,
+   "price": 1067000.0,
+   "date": "2026-04-02",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.141283,
+    "lng": -73.570994
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.9166787487103607,
+   "ppsf": 430.93699515347333
+  },
+  {
+   "mls": "24151949",
+   "slug": "160-rock-rimmon-road-stamford-connecticut-24151949",
+   "address": {
+    "line": "160 Rock Rimmon Road",
+    "unit": null,
+    "lineWithUnit": "160 Rock Rimmon Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2324.0,
+   "price": 1070000.0,
+   "date": "2026-04-08",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.140817,
+    "lng": -73.564126
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.064841433410031,
+   "ppsf": 460.4130808950086
   }
- }
+ ]
 }

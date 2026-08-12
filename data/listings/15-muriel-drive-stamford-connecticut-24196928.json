@@ -126,101 +126,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "154-knox-road-stamford-connecticut-24149018",
-     "addr": "154 Knox Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1314.0,
-     "price": 826000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-20",
-     "ppsf": 629,
-     "mi": 0.14
-    },
-    {
-     "slug": "49-minivale-road-stamford-connecticut-24149754",
-     "addr": "49 Minivale Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1998.0,
-     "price": 975000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-30",
-     "ppsf": 488,
-     "mi": 0.2
-    },
-    {
-     "slug": "130-mulberry-street-stamford-connecticut-24150631",
-     "addr": "130 Mulberry Street",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1707.0,
-     "price": 780000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-22",
-     "ppsf": 457,
-     "mi": 0.25
-    },
-    {
-     "slug": "27-lund-avenue-stamford-connecticut-24179043",
-     "addr": "27 Lund Avenue",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1376.0,
-     "price": 685000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-24",
-     "ppsf": 498,
-     "mi": 0.25
-    },
-    {
-     "slug": "345-haig-avenue-stamford-connecticut-24178735",
-     "addr": "345 Haig Avenue",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1640.0,
-     "price": 645000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-21",
-     "ppsf": 393,
-     "mi": 0.26
-    },
-    {
-     "slug": "52-bon-air-avenue-stamford-connecticut-24178345",
-     "addr": "52 Bon Air Avenue",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1512.0,
-     "price": 799000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-15",
-     "ppsf": 528,
-     "mi": 0.69
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 645000.0,
-    "high": 975000.0,
-    "median": 789500
+ "comps": [
+  {
+   "mls": "24149018",
+   "slug": "154-knox-road-stamford-connecticut-24149018",
+   "address": {
+    "line": "154 Knox Road",
+    "unit": null,
+    "lineWithUnit": "154 Knox Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06907"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1314.0,
+   "price": 826000.0,
+   "date": "2026-03-20",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.097543,
+    "lng": -73.526269
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.2317902581682758,
+   "ppsf": 628.6149162861492
+  },
+  {
+   "mls": "24190185",
+   "slug": "58-sleepy-hollow-lane-stamford-connecticut-24190185",
+   "address": {
+    "line": "58 Sleepy Hollow Lane",
+    "unit": null,
+    "lineWithUnit": "58 Sleepy Hollow Lane",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06907"
+   },
+   "beds": 4.0,
+   "baths": 2.0,
+   "sqft": 1490.0,
+   "price": 725000.0,
+   "date": "2026-08-05",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.094833,
+    "lng": -73.52627
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.4957331006556598,
+   "ppsf": 486.5771812080537
+  },
+  {
+   "mls": "24150631",
+   "slug": "130-mulberry-street-stamford-connecticut-24150631",
+   "address": {
+    "line": "130 Mulberry Street",
+    "unit": null,
+    "lineWithUnit": "130 Mulberry Street",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06907"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1707.0,
+   "price": 780000.0,
+   "date": "2026-05-22",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.095581,
+    "lng": -73.525752
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.40325651779246197,
+   "ppsf": 456.9420035149385
+  },
+  {
+   "mls": "24167108",
+   "slug": "50-hilltop-avenue-stamford-connecticut-24167108",
+   "address": {
+    "line": "50 Hilltop Avenue",
+    "unit": null,
+    "lineWithUnit": "50 Hilltop Avenue",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06907"
+   },
+   "beds": 4.0,
+   "baths": 2.0,
+   "sqft": 1771.0,
+   "price": 815000.0,
+   "date": "2026-06-05",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.100353,
+    "lng": -73.529375
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.4442302197501212,
+   "ppsf": 460.19198193111237
+  },
+  {
+   "mls": "24174271",
+   "slug": "128-knapp-street-stamford-connecticut-24174271",
+   "address": {
+    "line": "128 Knapp Street",
+    "unit": null,
+    "lineWithUnit": "128 Knapp Street",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06907"
+   },
+   "beds": 4.0,
+   "baths": 2.0,
+   "sqft": 1662.0,
+   "price": 975000.0,
+   "date": "2026-07-17",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.093718,
+    "lng": -73.524102
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.59362488599983,
+   "ppsf": 586.6425992779783
   }
- }
+ ]
 }

@@ -121,45 +121,141 @@
    "mi": 0.91
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "22-sunswyck-road-darien-connecticut-24167193",
-     "addr": "22 Sunswyck Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 2.0,
-     "sqft": 2880.0,
-     "price": 12000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-07",
-     "ppsf": 4,
-     "mi": 0.17
-    },
-    {
-     "slug": "3-raiders-lane-darien-connecticut-24150302",
-     "addr": "3 Raiders Lane",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 3945.0,
-     "price": 20000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-24",
-     "ppsf": 5,
-     "mi": 0.25
-    }
-   ],
-   "summary": {
-    "n": 2,
-    "low": 12000.0,
-    "high": 20000.0,
-    "median": 16000
+ "comps": [
+  {
+   "mls": "24150302",
+   "slug": "3-raiders-lane-darien-connecticut-24150302",
+   "address": {
+    "line": "3 Raiders Lane",
+    "unit": null,
+    "lineWithUnit": "3 Raiders Lane",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 3945.0,
+   "price": 20000.0,
+   "date": "2026-07-24",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.063559,
+    "lng": -73.47017
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.40861889551907576,
+   "ppsf": 5.069708491761724
+  },
+  {
+   "mls": "24165778",
+   "slug": "23-garden-city-road-darien-connecticut-24165778",
+   "address": {
+    "line": "23 Garden City Road",
+    "unit": null,
+    "lineWithUnit": "23 Garden City Road",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 3372.0,
+   "price": 12500.0,
+   "date": "2026-04-22",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.062656,
+    "lng": -73.486555
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0042191836343637,
+   "ppsf": 3.7069988137603795
+  },
+  {
+   "mls": "24167193",
+   "slug": "22-sunswyck-road-darien-connecticut-24167193",
+   "address": {
+    "line": "22 Sunswyck Road",
+    "unit": null,
+    "lineWithUnit": "22 Sunswyck Road",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 4.0,
+   "baths": 2.0,
+   "sqft": 2880.0,
+   "price": 12000.0,
+   "date": "2026-05-07",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.062294,
+    "lng": -73.47375
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.2704614591110556,
+   "ppsf": 4.166666666666667
+  },
+  {
+   "mls": "24178361",
+   "slug": "31-harbor-road-darien-connecticut-24178361",
+   "address": {
+    "line": "31 Harbor Road",
+    "unit": null,
+    "lineWithUnit": "31 Harbor Road",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 5.0,
+   "baths": 6.0,
+   "sqft": 4317.0,
+   "price": 17000.0,
+   "date": "2026-06-17",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.056696,
+    "lng": -73.481373
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.033177779990141,
+   "ppsf": 3.9379198517489
+  },
+  {
+   "mls": "24147196",
+   "slug": "88-five-mile-river-road-darien-connecticut-24147196",
+   "address": {
+    "line": "88 Five Mile River Road",
+    "unit": null,
+    "lineWithUnit": "88 Five Mile River Road",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2756.0,
+   "price": 11500.0,
+   "date": "2026-03-23",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.068066,
+    "lng": -73.44717
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.3528802157591975,
+   "ppsf": 4.172714078374455
   }
- }
+ ]
 }

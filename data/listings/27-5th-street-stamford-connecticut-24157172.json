@@ -125,131 +125,141 @@
    "walk": 1
   }
  },
- "comps": {
-  "building": {
-   "rows": [
-    {
-     "slug": "27-5th-street-stamford-connecticut-24157204",
-     "addr": "27 5th Street Unit 3",
-     "unit": "Unit 3",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 760.0,
-     "price": 2400.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 3
-    },
-    {
-     "slug": "27-5th-street-stamford-connecticut-24157192",
-     "addr": "27 5th Street Unit 1",
-     "unit": "Unit 1",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 818.0,
-     "price": 2800.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 3
-    }
-   ],
-   "summary": null,
-   "label": "27 5th Street"
-  },
-  "area": {
-   "rows": [
-    {
-     "slug": "1872-bedford-street-stamford-connecticut-24167197",
-     "addr": "1872 Bedford Street Unit 2",
-     "unit": "Unit 2",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 900.0,
-     "price": 3300.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-01",
-     "ppsf": 4,
-     "mi": 0.04
-    },
-    {
-     "slug": "7-fourth-street-stamford-connecticut-24180770",
-     "addr": "7 Fourth Street Unit 5F",
-     "unit": "Unit 5F",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 905.0,
-     "price": 2850.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-30",
-     "ppsf": 3,
-     "mi": 0.14
-    },
-    {
-     "slug": "7-fourth-street-stamford-connecticut-24191693",
-     "addr": "7 Fourth Street Unit 3H",
-     "unit": "Unit 3H",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 1064.0,
-     "price": 3000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-28",
-     "ppsf": 3,
-     "mi": 0.14
-    },
-    {
-     "slug": "1500-bedford-street-stamford-connecticut-24185960",
-     "addr": "1500 Bedford Street Unit 307",
-     "unit": "Unit 307",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 1167.0,
-     "price": 3300.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-01",
-     "ppsf": 3,
-     "mi": 0.16
-    },
-    {
-     "slug": "134-woodside-green-street-stamford-connecticut-24169712",
-     "addr": "134 Woodside Green Street Unit 3B",
-     "unit": "Unit 3B",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 983.0,
-     "price": 2700.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-22",
-     "ppsf": 3,
-     "mi": 0.19
-    },
-    {
-     "slug": "1611-washington-boulevard-stamford-connecticut-24178813",
-     "addr": "1611 Washington Boulevard Unit 2",
-     "unit": "Unit 2",
-     "beds": 2.0,
-     "baths": 3.0,
-     "sqft": 1566.0,
-     "price": 3450.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-01",
-     "ppsf": 2,
-     "mi": 0.31
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 2700.0,
-    "high": 3450.0,
-    "median": 3150
+ "comps": [
+  {
+   "mls": "24152334",
+   "slug": "2437-bedford-street-stamford-connecticut-24152334",
+   "address": {
+    "line": "2437 Bedford Street",
+    "unit": "Unit F17",
+    "lineWithUnit": "2437 Bedford Street Unit F17",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
    },
-   "radiusMi": 0.75
+   "beds": 1.0,
+   "baths": 2.0,
+   "sqft": 1066.0,
+   "price": 3100.0,
+   "date": "2026-03-15",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.070187,
+    "lng": -73.54405
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.46505448485784345,
+   "ppsf": 2.9080675422138835
+  },
+  {
+   "mls": "24159111",
+   "slug": "30-riverside-avenue-stamford-connecticut-24159111",
+   "address": {
+    "line": "30 Riverside Avenue",
+    "unit": "Unit B",
+    "lineWithUnit": "30 Riverside Avenue Unit B",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 730.0,
+   "price": 2500.0,
+   "date": "2026-03-18",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.066103,
+    "lng": -73.550917
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6409552101249814,
+   "ppsf": 3.4246575342465753
+  },
+  {
+   "mls": "24152598",
+   "slug": "22-hackett-circle-north-stamford-connecticut-24152598",
+   "address": {
+    "line": "22 Hackett Circle North",
+    "unit": "Unit 2nd Fl.",
+    "lineWithUnit": "22 Hackett Circle North Unit 2nd Fl.",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06906"
+   },
+   "beds": 3.0,
+   "baths": 1.0,
+   "sqft": 1100.0,
+   "price": 3200.0,
+   "date": "2026-03-26",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.067519,
+    "lng": -73.532141
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9474303222601259,
+   "ppsf": 2.909090909090909
+  },
+  {
+   "mls": "24150210",
+   "slug": "2475-summer-street-stamford-connecticut-24150210",
+   "address": {
+    "line": "2475 Summer Street",
+    "unit": "Apt 3H",
+    "lineWithUnit": "2475 Summer Street Apt 3H",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 689.0,
+   "price": 2250.0,
+   "date": "2026-04-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.068597,
+    "lng": -73.547851
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.4773081450431028,
+   "ppsf": 3.265602322206096
+  },
+  {
+   "mls": "24150917",
+   "slug": "2-washington-court-stamford-connecticut-24150917",
+   "address": {
+    "line": "2 Washington Court",
+    "unit": "Unit 12",
+    "lineWithUnit": "2 Washington Court Unit 12",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1064.0,
+   "price": 3190.0,
+   "date": "2026-04-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.057766,
+    "lng": -73.544879
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9305000129441303,
+   "ppsf": 2.9981203007518795
   }
- }
+ ]
 }

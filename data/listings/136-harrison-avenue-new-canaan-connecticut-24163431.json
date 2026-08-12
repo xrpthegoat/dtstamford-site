@@ -118,99 +118,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "50-oak-street-new-canaan-connecticut-24164565",
-     "addr": "50 Oak Street",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 3000.0,
-     "price": 9500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-25",
-     "ppsf": 3,
-     "mi": 0.2
-    },
-    {
-     "slug": "51-hawthorne-road-new-canaan-connecticut-24176416",
-     "addr": "51 Hawthorne Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 2569.0,
-     "price": 12000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-01",
-     "ppsf": 5,
-     "mi": 0.37
-    },
-    {
-     "slug": "143-east-avenue-new-canaan-connecticut-24157010",
-     "addr": "143 East Avenue Unit 143",
-     "unit": "Unit 143",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2721.0,
-     "price": 7950.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-20",
-     "ppsf": 3,
-     "mi": 0.41
-    },
-    {
-     "slug": "112-east-avenue-new-canaan-connecticut-24178530",
-     "addr": "112 East Avenue",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2800.0,
-     "price": 7000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-19",
-     "ppsf": 2,
-     "mi": 0.47
-    },
-    {
-     "slug": "123-east-avenue-new-canaan-connecticut-24197645",
-     "addr": "123 East Avenue",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 2.0,
-     "sqft": 1800.0,
-     "price": 6750.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 4,
-     "mi": 0.43
-    },
-    {
-     "slug": "64-white-oak-shade-road-new-canaan-connecticut-24179963",
-     "addr": "64 White Oak Shade Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 3242.0,
-     "price": 9550.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 3,
-     "mi": 0.6
-    }
-   ],
-   "summary": {
-    "n": 4,
-    "low": 7000.0,
-    "high": 12000.0,
-    "median": 8725
+ "comps": [
+  {
+   "mls": "24153334",
+   "slug": "40-church-street-new-canaan-connecticut-24153334",
+   "address": {
+    "line": "40 Church Street",
+    "unit": null,
+    "lineWithUnit": "40 Church Street",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 4.0,
+   "sqft": 2804.0,
+   "price": 9500.0,
+   "date": "2026-04-15",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.143158,
+    "lng": -73.49032
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.47156302294229774,
+   "ppsf": 3.3880171184022823
+  },
+  {
+   "mls": "24164565",
+   "slug": "50-oak-street-new-canaan-connecticut-24164565",
+   "address": {
+    "line": "50 Oak Street",
+    "unit": null,
+    "lineWithUnit": "50 Oak Street",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 3000.0,
+   "price": 9500.0,
+   "date": "2026-04-25",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.1414,
+    "lng": -73.48917
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.32879843586614343,
+   "ppsf": 3.1666666666666665
+  },
+  {
+   "mls": "24174715",
+   "slug": "141-park-street-new-canaan-connecticut-24174715",
+   "address": {
+    "line": "141 Park Street",
+    "unit": null,
+    "lineWithUnit": "141 Park Street",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 5.0,
+   "baths": 5.0,
+   "sqft": 3783.0,
+   "price": 17250.0,
+   "date": "2026-05-29",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.14453,
+    "lng": -73.4953
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9145144817038992,
+   "ppsf": 4.559873116574147
+  },
+  {
+   "mls": "24191058",
+   "slug": "24-old-stamford-road-new-canaan-connecticut-24191058",
+   "address": {
+    "line": "24 Old Stamford Road",
+    "unit": null,
+    "lineWithUnit": "24 Old Stamford Road",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 5.0,
+   "baths": 5.0,
+   "sqft": 3608.0,
+   "price": 15000.0,
+   "date": "2026-07-13",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.136773,
+    "lng": -73.494467
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9230612876520085,
+   "ppsf": 4.157427937915743
+  },
+  {
+   "mls": "24157010",
+   "slug": "143-east-avenue-new-canaan-connecticut-24157010",
+   "address": {
+    "line": "143 East Avenue",
+    "unit": "Unit 143",
+    "lineWithUnit": "143 East Avenue Unit 143",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2721.0,
+   "price": 7950.0,
+   "date": "2026-06-20",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.147266,
+    "lng": -73.48548
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6614578014330063,
+   "ppsf": 2.921719955898567
   }
- }
+ ]
 }

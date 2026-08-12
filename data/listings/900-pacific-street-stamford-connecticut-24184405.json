@@ -112,138 +112,141 @@
    "mi": 0.73
   }
  },
- "comps": {
-  "building": {
-   "rows": [
-    {
-     "slug": "900-pacific-street-stamford-connecticut-24172111",
-     "addr": "900 Pacific Street Unit 404",
-     "unit": "Unit 404",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 902.0,
-     "price": 3685.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-16",
-     "ppsf": 4
-    },
-    {
-     "slug": "900-pacific-street-stamford-connecticut-24124712",
-     "addr": "900 Pacific Street Unit 322",
-     "unit": "Unit 322",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 788.0,
-     "price": 3095.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-10",
-     "ppsf": 4
-    }
-   ],
-   "summary": {
-    "n": 2,
-    "low": 3095.0,
-    "high": 3685.0,
-    "median": 3390
+ "comps": [
+  {
+   "mls": "24124712",
+   "slug": "900-pacific-street-stamford-connecticut-24124712",
+   "address": {
+    "line": "900 Pacific Street",
+    "unit": "Unit 322",
+    "lineWithUnit": "900 Pacific Street Unit 322",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
    },
-   "label": "900 Pacific Street"
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 788.0,
+   "price": 3095.0,
+   "date": "2026-05-10",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.037956,
+    "lng": -73.54282
+   },
+   "klass": "rental",
+   "tier": 1,
+   "why": "Same building, sold in the last year",
+   "km": 0.0,
+   "ppsf": 3.9276649746192893
   },
-  "area": {
-   "rows": [
-    {
-     "slug": "880-pacific-street-stamford-connecticut-24139914",
-     "addr": "880 Pacific Street Unit 1557",
-     "unit": "Unit 1557",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 820.0,
-     "price": 2915.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-10",
-     "ppsf": 4,
-     "mi": 0.05
-    },
-    {
-     "slug": "880-pacific-street-stamford-connecticut-24150506",
-     "addr": "880 Pacific Street Unit 706",
-     "unit": "Unit 706",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 746.0,
-     "price": 3225.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-16",
-     "ppsf": 4,
-     "mi": 0.05
-    },
-    {
-     "slug": "850-south-pacific-street-stamford-connecticut-24172457",
-     "addr": "850 South Pacific Street Unit 1558",
-     "unit": "Unit 1558",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 766.0,
-     "price": 3425.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-16",
-     "ppsf": 4,
-     "mi": 0.11
-    },
-    {
-     "slug": "850-south-pacific-street-stamford-connecticut-24146235",
-     "addr": "850 South Pacific Street Unit 448",
-     "unit": "Unit 448",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 657.0,
-     "price": 2845.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-10",
-     "ppsf": 4,
-     "mi": 0.11
-    },
-    {
-     "slug": "2-harbor-point-road-south-stamford-connecticut-24124502",
-     "addr": "2 Harbor Point Road South Unit 326",
-     "unit": "Unit 326",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 783.0,
-     "price": 2985.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-30",
-     "ppsf": 4,
-     "mi": 0.12
-    },
-    {
-     "slug": "100-commons-park-north-stamford-connecticut-24139923",
-     "addr": "100 Commons Park North Unit 759",
-     "unit": "Unit 759",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 759.0,
-     "price": 2865.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-30",
-     "ppsf": 4,
-     "mi": 0.29
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 2845.0,
-    "high": 3425.0,
-    "median": 2950
+  {
+   "mls": "24172111",
+   "slug": "900-pacific-street-stamford-connecticut-24172111",
+   "address": {
+    "line": "900 Pacific Street",
+    "unit": "Unit 404",
+    "lineWithUnit": "900 Pacific Street Unit 404",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
    },
-   "radiusMi": 0.75
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 902.0,
+   "price": 3685.0,
+   "date": "2026-06-16",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.037956,
+    "lng": -73.54282
+   },
+   "klass": "rental",
+   "tier": 1,
+   "why": "Same building, sold in the last year",
+   "km": 0.0,
+   "ppsf": 4.085365853658536
+  },
+  {
+   "mls": "24153134",
+   "slug": "229-southfield-avenue-stamford-connecticut-24153134",
+   "address": {
+    "line": "229 Southfield Avenue",
+    "unit": "Unit 1",
+    "lineWithUnit": "229 Southfield Avenue Unit 1",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 726.0,
+   "price": 2200.0,
+   "date": "2026-03-21",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.032242,
+    "lng": -73.548146
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.776691873603791,
+   "ppsf": 3.0303030303030303
+  },
+  {
+   "mls": "24139923",
+   "slug": "100-commons-park-north-stamford-connecticut-24139923",
+   "address": {
+    "line": "100 Commons Park North",
+    "unit": "Unit 759",
+    "lineWithUnit": "100 Commons Park North Unit 759",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 759.0,
+   "price": 2865.0,
+   "date": "2026-04-30",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.042053,
+    "lng": -73.54127
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.47375014967622064,
+   "ppsf": 3.774703557312253
+  },
+  {
+   "mls": "24124502",
+   "slug": "2-harbor-point-road-south-stamford-connecticut-24124502",
+   "address": {
+    "line": "2 Harbor Point Road South",
+    "unit": "Unit 326",
+    "lineWithUnit": "2 Harbor Point Road South Unit 326",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 783.0,
+   "price": 2985.0,
+   "date": "2026-04-30",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.0397,
+    "lng": -73.5426
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.1947997863459217,
+   "ppsf": 3.8122605363984676
   }
- }
+ ]
 }

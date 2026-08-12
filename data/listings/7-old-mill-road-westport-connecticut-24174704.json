@@ -124,38 +124,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "10-danbury-avenue-westport-connecticut-24176825",
-     "addr": "10 Danbury Avenue",
-     "unit": "",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1914.0,
-     "price": 10000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 5,
-     "mi": 0.5
-    },
-    {
-     "slug": "12-roosevelt-road-westport-connecticut-24197207",
-     "addr": "12 Roosevelt Road",
-     "unit": "",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1324.0,
-     "price": 8500.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 6,
-     "mi": 0.66
-    }
-   ],
-   "summary": null,
-   "radiusMi": 0.75
+ "comps": [
+  {
+   "mls": "24078871",
+   "slug": "232-hillspoint-road-westport-connecticut-24078871",
+   "address": {
+    "line": "232 Hillspoint Road",
+    "unit": null,
+    "lineWithUnit": "232 Hillspoint Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 4.0,
+   "baths": 2.0,
+   "sqft": 2234.0,
+   "price": 30000.0,
+   "date": "2026-06-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.11355,
+    "lng": -73.34653
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.12819201223764456,
+   "ppsf": 13.42882721575649
+  },
+  {
+   "mls": "24125469",
+   "slug": "19-soundview-drive-westport-connecticut-24125469",
+   "address": {
+    "line": "19 Soundview Drive",
+    "unit": null,
+    "lineWithUnit": "19 Soundview Drive",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 1692.0,
+   "price": 49900.0,
+   "date": "2026-06-05",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.107327,
+    "lng": -73.34997
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.870240430145759,
+   "ppsf": 29.491725768321512
+  },
+  {
+   "mls": "24165861",
+   "slug": "199-hillspoint-road-westport-connecticut-24165861",
+   "address": {
+    "line": "199 Hillspoint Road",
+    "unit": null,
+    "lineWithUnit": "199 Hillspoint Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1920.0,
+   "price": 16000.0,
+   "date": "2026-04-24",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.115047,
+    "lng": -73.34607
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.0896889432008513,
+   "ppsf": 8.333333333333334
+  },
+  {
+   "mls": "24176335",
+   "slug": "14-norwalk-avenue-westport-connecticut-24176335",
+   "address": {
+    "line": "14 Norwalk Avenue",
+    "unit": null,
+    "lineWithUnit": "14 Norwalk Avenue",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1995.0,
+   "price": 11500.0,
+   "date": "2026-05-26",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.10772,
+    "lng": -73.35109
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8776497692023122,
+   "ppsf": 5.764411027568922
+  },
+  {
+   "mls": "24163215",
+   "slug": "11-beechwood-lane-westport-connecticut-24163215",
+   "address": {
+    "line": "11 Beechwood Lane",
+    "unit": null,
+    "lineWithUnit": "11 Beechwood Lane",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 1886.0,
+   "price": 6500.0,
+   "date": "2026-06-06",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.13561,
+    "lng": -73.34497
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.3610367936425374,
+   "ppsf": 3.4464475079533403
   }
- }
+ ]
 }

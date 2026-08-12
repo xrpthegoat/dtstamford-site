@@ -135,87 +135,141 @@
    "mi": 1.76
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "2-thistle-road-norwalk-connecticut-24161629",
-     "addr": "2 Thistle Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2600.0,
-     "price": 922500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-01",
-     "ppsf": 355,
-     "mi": 0.27
-    },
-    {
-     "slug": "26-thistle-road-norwalk-connecticut-24157509",
-     "addr": "26 Thistle Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2350.0,
-     "price": 745000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-20",
-     "ppsf": 317,
-     "mi": 0.48
-    },
-    {
-     "slug": "2-quarter-mile-road-westport-connecticut-24185821",
-     "addr": "2 Quarter Mile Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 2724.0,
-     "price": 1375000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-03",
-     "ppsf": 505,
-     "mi": 0.65
-    },
-    {
-     "slug": "368b-wilton-road-westport-connecticut-24130527",
-     "addr": "368B Wilton Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 4166.0,
-     "price": 2310000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-23",
-     "ppsf": 554,
-     "mi": 0.7
-    },
-    {
-     "slug": "12-white-barns-lane-norwalk-connecticut-24166244",
-     "addr": "12 White Barns Lane Unit 12",
-     "unit": "Unit 12",
-     "beds": 4.0,
-     "baths": 5.0,
-     "sqft": 4832.0,
-     "price": 1925000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-19",
-     "ppsf": 398,
-     "mi": 0.73
-    }
-   ],
-   "summary": {
-    "n": 5,
-    "low": 745000.0,
-    "high": 2310000.0,
-    "median": 1375000
+ "comps": [
+  {
+   "mls": "24159568",
+   "slug": "104-newtown-turnpike-westport-connecticut-24159568",
+   "address": {
+    "line": "104 Newtown Turnpike",
+    "unit": null,
+    "lineWithUnit": "104 Newtown Turnpike",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2309.0,
+   "price": 1500000.0,
+   "date": "2026-06-18",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.168992,
+    "lng": -73.38038
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.961829099814483,
+   "ppsf": 649.63187527068
+  },
+  {
+   "mls": "24185821",
+   "slug": "2-quarter-mile-road-westport-connecticut-24185821",
+   "address": {
+    "line": "2 Quarter Mile Road",
+    "unit": null,
+    "lineWithUnit": "2 Quarter Mile Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 2724.0,
+   "price": 1375000.0,
+   "date": "2026-08-03",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.164578,
+    "lng": -73.37259
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.048749103260795,
+   "ppsf": 504.7723935389134
+  },
+  {
+   "mls": "24172773",
+   "slug": "44-sniffen-road-westport-connecticut-24172773",
+   "address": {
+    "line": "44 Sniffen Road",
+    "unit": null,
+    "lineWithUnit": "44 Sniffen Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 2246.0,
+   "price": 1450000.0,
+   "date": "2026-06-17",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.160056,
+    "lng": -73.36413
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.6712479533352869,
+   "ppsf": 645.5921638468388
+  },
+  {
+   "mls": "24169665",
+   "slug": "3-cedar-pond-road-westport-connecticut-24169665",
+   "address": {
+    "line": "3 Cedar Pond Road",
+    "unit": null,
+    "lineWithUnit": "3 Cedar Pond Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 3046.0,
+   "price": 1850000.0,
+   "date": "2026-07-02",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.177102,
+    "lng": -73.364898
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.420936325818245,
+   "ppsf": 607.3539067629679
+  },
+  {
+   "mls": "24121354",
+   "slug": "489-main-street-westport-connecticut-24121354",
+   "address": {
+    "line": "489 Main Street",
+    "unit": null,
+    "lineWithUnit": "489 Main Street",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 5.0,
+   "baths": 4.0,
+   "sqft": 2192.0,
+   "price": 840000.0,
+   "date": "2026-05-01",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.160217,
+    "lng": -73.35807
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.177476263863533,
+   "ppsf": 383.2116788321168
   }
- }
+ ]
 }

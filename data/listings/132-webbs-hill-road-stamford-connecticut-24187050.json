@@ -129,84 +129,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "15-four-brooks-circle-stamford-connecticut-24155507",
-     "addr": "15 Four Brooks Circle",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1588.0,
-     "price": 825000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-03",
-     "ppsf": 520,
-     "mi": 0.5
-    },
-    {
-     "slug": "23-maltbie-avenue-stamford-connecticut-24169896",
-     "addr": "23 Maltbie Avenue",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 2281.0,
-     "price": 875000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-15",
-     "ppsf": 384,
-     "mi": 0.68
-    },
-    {
-     "slug": "24-smoke-hill-drive-stamford-connecticut-24195487",
-     "addr": "24 Smoke Hill Drive",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 3383.0,
-     "price": 1000000.0,
-     "kind": "asking",
-     "status": "Coming Soon",
-     "ppsf": 296,
-     "mi": 0.38
-    },
-    {
-     "slug": "16-wire-mill-road-stamford-connecticut-24186279",
-     "addr": "16 Wire Mill Road Unit A",
-     "unit": "Unit A",
-     "beds": 3.0,
-     "baths": 4.0,
-     "sqft": 3244.0,
-     "price": 1495000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 461,
-     "mi": 0.51
-    },
-    {
-     "slug": "761-den-road-stamford-connecticut-24185396",
-     "addr": "761 Den Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1903.0,
-     "price": 799000.0,
-     "kind": "asking",
-     "status": "Under Contract - Continue to Show",
-     "ppsf": 420,
-     "mi": 0.65
-    }
-   ],
-   "summary": {
-    "n": 2,
-    "low": 825000.0,
-    "high": 875000.0,
-    "median": 850000
+ "comps": [
+  {
+   "mls": "24166996",
+   "slug": "79-loughran-avenue-stamford-connecticut-24166996",
+   "address": {
+    "line": "79 Loughran Avenue",
+    "unit": null,
+    "lineWithUnit": "79 Loughran Avenue",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 1576.0,
+   "price": 725000.0,
+   "date": "2026-06-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.09961,
+    "lng": -73.561727
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.161732572132672,
+   "ppsf": 460.0253807106599
+  },
+  {
+   "mls": "24170715",
+   "slug": "107-barclay-drive-stamford-connecticut-24170715",
+   "address": {
+    "line": "107 Barclay Drive",
+    "unit": null,
+    "lineWithUnit": "107 Barclay Drive",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2168.0,
+   "price": 1425000.0,
+   "date": "2026-07-13",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.102381,
+    "lng": -73.574557
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.820860288415629,
+   "ppsf": 657.2878228782288
+  },
+  {
+   "mls": "24155507",
+   "slug": "15-four-brooks-circle-stamford-connecticut-24155507",
+   "address": {
+    "line": "15 Four Brooks Circle",
+    "unit": null,
+    "lineWithUnit": "15 Four Brooks Circle",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1588.0,
+   "price": 825000.0,
+   "date": "2026-05-03",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.110904,
+    "lng": -73.559903
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8118125664597112,
+   "ppsf": 519.5214105793451
+  },
+  {
+   "mls": "24169896",
+   "slug": "23-maltbie-avenue-stamford-connecticut-24169896",
+   "address": {
+    "line": "23 Maltbie Avenue",
+    "unit": null,
+    "lineWithUnit": "23 Maltbie Avenue",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2281.0,
+   "price": 875000.0,
+   "date": "2026-06-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.09955,
+    "lng": -73.563454
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0983279127257763,
+   "ppsf": 383.6036825953529
+  },
+  {
+   "mls": "24143655",
+   "slug": "281-roxbury-road-stamford-connecticut-24143655",
+   "address": {
+    "line": "281 Roxbury Road",
+    "unit": null,
+    "lineWithUnit": "281 Roxbury Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 2444.0,
+   "price": 990000.0,
+   "date": "2026-05-05",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.09267,
+    "lng": -73.571406
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.769530090510643,
+   "ppsf": 405.0736497545008
   }
- }
+ ]
 }

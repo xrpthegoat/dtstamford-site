@@ -104,101 +104,141 @@
    "walk": 8
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "45-highland-road-stamford-connecticut-24167883",
-     "addr": "45 Highland Road Unit 45",
-     "unit": "Unit 45",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1800.0,
-     "price": 4100.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-02",
-     "ppsf": 2,
-     "mi": 0.16
-    },
-    {
-     "slug": "5-daly-street-stamford-connecticut-24180627",
-     "addr": "5 Daly Street Unit 2nd floor",
-     "unit": "Unit 2nd floor",
-     "beds": 3.0,
-     "baths": 1.0,
-     "sqft": 1000.0,
-     "price": 2600.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-01",
-     "ppsf": 3,
-     "mi": 0.16
-    },
-    {
-     "slug": "130-forest-street-stamford-connecticut-24180052",
-     "addr": "130 Forest Street Unit 130",
-     "unit": "Unit 130",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 2390.0,
-     "price": 4500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-15",
-     "ppsf": 2,
-     "mi": 0.19
-    },
-    {
-     "slug": "109-forest-street-stamford-connecticut-24153723",
-     "addr": "109 Forest Street Apt 3",
-     "unit": "Apt 3",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1695.0,
-     "price": 4500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-31",
-     "ppsf": 3,
-     "mi": 0.19
-    },
-    {
-     "slug": "109-forest-street-stamford-connecticut-24158511",
-     "addr": "109 Forest Street Unit 10",
-     "unit": "Unit 10",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1650.0,
-     "price": 4300.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-26",
-     "ppsf": 3,
-     "mi": 0.19
-    },
-    {
-     "slug": "21-quintard-terrace-stamford-connecticut-24154717",
-     "addr": "21 Quintard Terrace Unit 2nd Floor",
-     "unit": "Unit 2nd Floor",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 2839.0,
-     "price": 3300.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-15",
-     "ppsf": 1,
-     "mi": 0.21
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 2600.0,
-    "high": 4500.0,
-    "median": 4200
+ "comps": [
+  {
+   "mls": "24148070",
+   "slug": "101-grove-street-stamford-connecticut-24148070",
+   "address": {
+    "line": "101 Grove Street",
+    "unit": "Apt 17",
+    "lineWithUnit": "101 Grove Street Apt 17",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06901"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 1475.0,
+   "price": 3500.0,
+   "date": "2026-03-19",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.05745,
+    "lng": -73.53367
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.35923077386069846,
+   "ppsf": 2.3728813559322033
+  },
+  {
+   "mls": "24153723",
+   "slug": "109-forest-street-stamford-connecticut-24153723",
+   "address": {
+    "line": "109 Forest Street",
+    "unit": "Apt 3",
+    "lineWithUnit": "109 Forest Street Apt 3",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06901"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1695.0,
+   "price": 4500.0,
+   "date": "2026-03-31",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.05626,
+    "lng": -73.532936
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.302643656616423,
+   "ppsf": 2.6548672566371683
+  },
+  {
+   "mls": "24146915",
+   "slug": "143-hoyt-street-stamford-connecticut-24146915",
+   "address": {
+    "line": "143 Hoyt Street",
+    "unit": "Unit 5L",
+    "lineWithUnit": "143 Hoyt Street Unit 5L",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1732.0,
+   "price": 3600.0,
+   "date": "2026-04-26",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.060379,
+    "lng": -73.534578
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.576255162406651,
+   "ppsf": 2.0785219399538106
+  },
+  {
+   "mls": "24158511",
+   "slug": "109-forest-street-stamford-connecticut-24158511",
+   "address": {
+    "line": "109 Forest Street",
+    "unit": "Unit 10",
+    "lineWithUnit": "109 Forest Street Unit 10",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06901"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1650.0,
+   "price": 4300.0,
+   "date": "2026-05-26",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.056232,
+    "lng": -73.53293
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.30294715784229587,
+   "ppsf": 2.606060606060606
+  },
+  {
+   "mls": "24139947",
+   "slug": "170-forest-street-stamford-connecticut-24139947",
+   "address": {
+    "line": "170 Forest Street",
+    "unit": "Apt 12",
+    "lineWithUnit": "170 Forest Street Apt 12",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06901"
+   },
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 1400.0,
+   "price": 2800.0,
+   "date": "2026-05-31",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.056696,
+    "lng": -73.531565
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.18017988920008726,
+   "ppsf": 2.0
   }
- }
+ ]
 }

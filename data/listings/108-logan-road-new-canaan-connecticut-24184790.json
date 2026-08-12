@@ -131,57 +131,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "1690-oenoke-ridge-new-canaan-connecticut-24183502",
-     "addr": "1690 Oenoke Ridge",
-     "unit": "",
-     "beds": 6.0,
-     "baths": 7.0,
-     "sqft": 5552.0,
-     "price": 3000000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-09",
-     "ppsf": 540,
-     "mi": 0.45
-    },
-    {
-     "slug": "119-proprietors-crossing-new-canaan-connecticut-24156735",
-     "addr": "119 Proprietors Crossing",
-     "unit": "",
-     "beds": 6.0,
-     "baths": 10.0,
-     "sqft": 15399.0,
-     "price": 7250000.0,
-     "kind": "asking",
-     "status": "Under Contract - Continue to Show",
-     "ppsf": 471,
-     "mi": 0.59
-    },
-    {
-     "slug": "81-lukes-wood-road-new-canaan-connecticut-24180326",
-     "addr": "81 Lukes Wood Road",
-     "unit": "",
-     "beds": 6.0,
-     "baths": 7.0,
-     "sqft": 8505.0,
-     "price": 4995000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 587,
-     "mi": 0.73
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 3000000.0,
-    "high": 3000000.0,
-    "median": 3000000
+ "comps": [
+  {
+   "mls": "24141648",
+   "slug": "1038-west-road-new-canaan-connecticut-24141648",
+   "address": {
+    "line": "1038 West Road",
+    "unit": null,
+    "lineWithUnit": "1038 West Road",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 4562.0,
+   "price": 2500000.0,
+   "date": "2026-05-01",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.182735,
+    "lng": -73.53435
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.53563676649242,
+   "ppsf": 548.0052608505042
+  },
+  {
+   "mls": "24159147",
+   "slug": "46-wakeman-road-new-canaan-connecticut-24159147",
+   "address": {
+    "line": "46 Wakeman Road",
+    "unit": null,
+    "lineWithUnit": "46 Wakeman Road",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 4.0,
+   "baths": 6.0,
+   "sqft": 6950.0,
+   "price": 3662900.0,
+   "date": "2026-06-10",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.189243,
+    "lng": -73.524344
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9142802887268214,
+   "ppsf": 527.0359712230215
+  },
+  {
+   "mls": "24166609",
+   "slug": "1541-oenoke-ridge-new-canaan-connecticut-24166609",
+   "address": {
+    "line": "1541 Oenoke Ridge",
+    "unit": null,
+    "lineWithUnit": "1541 Oenoke Ridge",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 5.0,
+   "baths": 6.0,
+   "sqft": 5687.0,
+   "price": 3200000.0,
+   "date": "2026-06-22",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.186259,
+    "lng": -73.528723
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5273506379281313,
+   "ppsf": 562.6868296113944
+  },
+  {
+   "mls": "24183502",
+   "slug": "1690-oenoke-ridge-new-canaan-connecticut-24183502",
+   "address": {
+    "line": "1690 Oenoke Ridge",
+    "unit": null,
+    "lineWithUnit": "1690 Oenoke Ridge",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 6.0,
+   "baths": 7.0,
+   "sqft": 5552.0,
+   "price": 3000000.0,
+   "date": "2026-07-09",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.18472,
+    "lng": -73.535774
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7295997236324363,
+   "ppsf": 540.3458213256484
+  },
+  {
+   "mls": "24165312",
+   "slug": "1191-oenoke-ridge-new-canaan-connecticut-24165312",
+   "address": {
+    "line": "1191 Oenoke Ridge",
+    "unit": null,
+    "lineWithUnit": "1191 Oenoke Ridge",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 5.0,
+   "baths": 6.0,
+   "sqft": 6557.0,
+   "price": 4700000.0,
+   "date": "2026-08-04",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.18382,
+    "lng": -73.52093
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6555015286917868,
+   "ppsf": 716.7912154948909
   }
- }
+ ]
 }

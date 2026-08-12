@@ -131,101 +131,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "40-church-street-new-canaan-connecticut-24153334",
-     "addr": "40 Church Street",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 4.0,
-     "sqft": 2804.0,
-     "price": 9500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-15",
-     "ppsf": 3,
-     "mi": 0.24
-    },
-    {
-     "slug": "40-church-street-new-canaan-connecticut-24167366",
-     "addr": "40 Church Street",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 4.0,
-     "sqft": 2804.0,
-     "price": 10000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-15",
-     "ppsf": 4,
-     "mi": 0.24
-    },
-    {
-     "slug": "40-church-street-new-canaan-connecticut-24167369",
-     "addr": "40 Church Street",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 4.0,
-     "sqft": 2804.0,
-     "price": 10000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-15",
-     "ppsf": 4,
-     "mi": 0.24
-    },
-    {
-     "slug": "89-richmond-hill-road-new-canaan-connecticut-24126597",
-     "addr": "89 Richmond Hill Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 1.0,
-     "sqft": 900.0,
-     "price": 5600.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-30",
-     "ppsf": 6,
-     "mi": 0.26
-    },
-    {
-     "slug": "129-park-street-new-canaan-connecticut-24182000",
-     "addr": "129 Park Street",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 3058.0,
-     "price": 6950.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-04",
-     "ppsf": 2,
-     "mi": 0.26
-    },
-    {
-     "slug": "190-main-street-new-canaan-connecticut-24116174",
-     "addr": "190 Main Street",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 4.0,
-     "sqft": 2000.0,
-     "price": 7900.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-10",
-     "ppsf": 4,
-     "mi": 0.31
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 5600.0,
-    "high": 10000.0,
-    "median": 8700
+ "comps": [
+  {
+   "mls": "24155028",
+   "slug": "59-vitti-street-new-canaan-connecticut-24155028",
+   "address": {
+    "line": "59 Vitti Street",
+    "unit": null,
+    "lineWithUnit": "59 Vitti Street",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1200.0,
+   "price": 5600.0,
+   "date": "2026-03-15",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.14901,
+    "lng": -73.48766
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0182892348849775,
+   "ppsf": 4.666666666666667
+  },
+  {
+   "mls": "24132206",
+   "slug": "40-ledge-avenue-new-canaan-connecticut-24132206",
+   "address": {
+    "line": "40 Ledge Avenue",
+    "unit": null,
+    "lineWithUnit": "40 Ledge Avenue",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 1370.0,
+   "price": 3950.0,
+   "date": "2026-03-25",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.150372,
+    "lng": -73.487402
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1598782839136852,
+   "ppsf": 2.883211678832117
+  },
+  {
+   "mls": "24157929",
+   "slug": "37-maple-street-new-canaan-connecticut-24157929",
+   "address": {
+    "line": "37 Maple Street",
+    "unit": null,
+    "lineWithUnit": "37 Maple Street",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 1506.0,
+   "price": 5500.0,
+   "date": "2026-05-23",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.144444,
+    "lng": -73.49328
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.3628397013775401,
+   "ppsf": 3.652058432934927
+  },
+  {
+   "mls": "24170330",
+   "slug": "140-millport-avenue-new-canaan-connecticut-24170330",
+   "address": {
+    "line": "140 Millport Avenue",
+    "unit": null,
+    "lineWithUnit": "140 Millport Avenue",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1550.0,
+   "price": 5200.0,
+   "date": "2026-06-20",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.14304,
+    "lng": -73.48436
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8393523584522055,
+   "ppsf": 3.3548387096774195
+  },
+  {
+   "mls": "24156741",
+   "slug": "44-hillside-avenue-new-canaan-connecticut-24156741",
+   "address": {
+    "line": "44 Hillside Avenue",
+    "unit": null,
+    "lineWithUnit": "44 Hillside Avenue",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1200.0,
+   "price": 5100.0,
+   "date": "2026-06-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.15158,
+    "lng": -73.4916
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.168676054746565,
+   "ppsf": 4.25
   }
- }
+ ]
 }

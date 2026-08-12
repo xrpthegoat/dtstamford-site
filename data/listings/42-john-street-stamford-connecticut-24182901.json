@@ -129,71 +129,141 @@
    "walk": 7
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "39-glenbrook-road-stamford-connecticut-24186937",
-     "addr": "39 Glenbrook Road Unit 2W",
-     "unit": "Unit 2W",
-     "beds": 0.0,
-     "baths": 1.0,
-     "sqft": 477.0,
-     "price": 1695.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-29",
-     "ppsf": 4,
-     "mi": 0.7
-    },
-    {
-     "slug": "53-prospect-street-stamford-connecticut-24173596",
-     "addr": "53 Prospect Street Unit 215",
-     "unit": "Unit 215",
-     "beds": 0.0,
-     "baths": 1.0,
-     "sqft": 500.0,
-     "price": 1625.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-22",
-     "ppsf": 3,
-     "mi": 0.71
-    },
-    {
-     "slug": "401-atlantic-street-stamford-connecticut-24174703",
-     "addr": "401 atlantic Street Unit 26A",
-     "unit": "Unit 26A",
-     "beds": 0.0,
-     "baths": 1.0,
-     "sqft": 488.0,
-     "price": 2302.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 5,
-     "mi": 0.31
-    },
-    {
-     "slug": "460a-summer-street-stamford-connecticut-24198159",
-     "addr": "460a Summer Street Unit 507",
-     "unit": "Unit 507",
-     "beds": 0.0,
-     "baths": 1.0,
-     "sqft": 418.0,
-     "price": 2227.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 5,
-     "mi": 0.71
-    }
-   ],
-   "summary": {
-    "n": 2,
-    "low": 1625.0,
-    "high": 1695.0,
-    "median": 1660
+ "comps": [
+  {
+   "mls": "24154487",
+   "slug": "127-greyrock-place-stamford-connecticut-24154487",
+   "address": {
+    "line": "127 Greyrock Place",
+    "unit": "Apt 507",
+    "lineWithUnit": "127 Greyrock Place Apt 507",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06901"
    },
-   "radiusMi": 0.75
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 557.0,
+   "price": 2100.0,
+   "date": "2026-04-15",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.054544,
+    "lng": -73.535808
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8030151451472947,
+   "ppsf": 3.770197486535009
+  },
+  {
+   "mls": "24159254",
+   "slug": "127-greyrock-place-stamford-connecticut-24159254",
+   "address": {
+    "line": "127 Greyrock Place",
+    "unit": "Unit 1103",
+    "lineWithUnit": "127 Greyrock Place Unit 1103",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06901"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 580.0,
+   "price": 2200.0,
+   "date": "2026-05-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.054544,
+    "lng": -73.535808
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8030151451472947,
+   "ppsf": 3.793103448275862
+  },
+  {
+   "mls": "24140652",
+   "slug": "300-broad-street-stamford-connecticut-24140652",
+   "address": {
+    "line": "300 Broad Street",
+    "unit": "Unit 107",
+    "lineWithUnit": "300 Broad Street Unit 107",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 517.0,
+   "price": 2100.0,
+   "date": "2026-05-15",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.055572,
+    "lng": -73.531269
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9527716608096094,
+   "ppsf": 4.061895551257253
+  },
+  {
+   "mls": "24150039",
+   "slug": "300-broad-street-stamford-connecticut-24150039",
+   "address": {
+    "line": "300 Broad Street",
+    "unit": "Unit 603",
+    "lineWithUnit": "300 Broad Street Unit 603",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 677.0,
+   "price": 2200.0,
+   "date": "2026-06-02",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.055572,
+    "lng": -73.531269
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9527716608096094,
+   "ppsf": 3.2496307237813884
+  },
+  {
+   "mls": "24176587",
+   "slug": "485-summer-street-stamford-connecticut-24176587",
+   "address": {
+    "line": "485 Summer Street",
+    "unit": "Unit 307",
+    "lineWithUnit": "485 Summer Street Unit 307",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06901"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 619.0,
+   "price": 2200.0,
+   "date": "2026-06-02",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.056572,
+    "lng": -73.53999
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.117575107027791,
+   "ppsf": 3.5541195476575123
   }
- }
+ ]
 }

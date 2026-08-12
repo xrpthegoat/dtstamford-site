@@ -129,101 +129,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "149-club-road-stamford-connecticut-24176382",
-     "addr": "149 Club Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2616.0,
-     "price": 1230000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-08",
-     "ppsf": 470,
-     "mi": 0.26
-    },
-    {
-     "slug": "78-vine-road-stamford-connecticut-24155070",
-     "addr": "78 Vine Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 2.0,
-     "sqft": 2183.0,
-     "price": 802500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-10",
-     "ppsf": 368,
-     "mi": 0.27
-    },
-    {
-     "slug": "2-arnold-drive-stamford-connecticut-24189104",
-     "addr": "2 Arnold Drive",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2476.0,
-     "price": 1272020.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-11",
-     "ppsf": 514,
-     "mi": 0.3
-    },
-    {
-     "slug": "6-gaxton-road-stamford-connecticut-24166298",
-     "addr": "6 Gaxton Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2877.0,
-     "price": 1475000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-01",
-     "ppsf": 513,
-     "mi": 0.41
-    },
-    {
-     "slug": "7-the-reserve-at-sterling-ridge-stamford-connecticut-24061476",
-     "addr": "7 The Reserve at Sterling Ridge",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 3368.0,
-     "price": 1889000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-23",
-     "ppsf": 561,
-     "mi": 0.48
-    },
-    {
-     "slug": "50-hilltop-avenue-stamford-connecticut-24167108",
-     "addr": "50 Hilltop Avenue",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 2.0,
-     "sqft": 1771.0,
-     "price": 815000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-05",
-     "ppsf": 460,
-     "mi": 0.52
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 802500.0,
-    "high": 1889000.0,
-    "median": 1251010
+ "comps": [
+  {
+   "mls": "24061476",
+   "slug": "7-the-reserve-at-sterling-ridge-stamford-connecticut-24061476",
+   "address": {
+    "line": "7 The Reserve at Sterling Ridge",
+    "unit": null,
+    "lineWithUnit": "7 The Reserve at Sterling Ridge",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 3368.0,
+   "price": 1889000.0,
+   "date": "2026-03-23",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.10716,
+    "lng": -73.54491
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7795101768053242,
+   "ppsf": 560.8669833729216
+  },
+  {
+   "mls": "24150706",
+   "slug": "156-intervale-road-stamford-connecticut-24150706",
+   "address": {
+    "line": "156 Intervale Road",
+    "unit": null,
+    "lineWithUnit": "156 Intervale Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 3.0,
+   "baths": 4.0,
+   "sqft": 2705.0,
+   "price": 1404000.0,
+   "date": "2026-04-29",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.107222,
+    "lng": -73.538672
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6250229433345573,
+   "ppsf": 519.0388170055453
+  },
+  {
+   "mls": "24166298",
+   "slug": "6-gaxton-road-stamford-connecticut-24166298",
+   "address": {
+    "line": "6 Gaxton Road",
+    "unit": null,
+    "lineWithUnit": "6 Gaxton Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2877.0,
+   "price": 1475000.0,
+   "date": "2026-06-01",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.107375,
+    "lng": -73.541017
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.657910725171032,
+   "ppsf": 512.6868265554397
+  },
+  {
+   "mls": "24172577",
+   "slug": "33-club-circle-stamford-connecticut-24172577",
+   "address": {
+    "line": "33 Club Circle",
+    "unit": null,
+    "lineWithUnit": "33 Club Circle",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 5.0,
+   "baths": 4.0,
+   "sqft": 4192.0,
+   "price": 1503000.0,
+   "date": "2026-08-03",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.102422,
+    "lng": -73.540249
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.12459556722266626,
+   "ppsf": 358.54007633587787
+  },
+  {
+   "mls": "24176382",
+   "slug": "149-club-road-stamford-connecticut-24176382",
+   "address": {
+    "line": "149 Club Road",
+    "unit": null,
+    "lineWithUnit": "149 Club Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2616.0,
+   "price": 1230000.0,
+   "date": "2026-07-08",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.099688,
+    "lng": -73.534824
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.42590345840104105,
+   "ppsf": 470.1834862385321
   }
- }
+ ]
 }

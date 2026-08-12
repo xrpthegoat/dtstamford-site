@@ -102,101 +102,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "375-greenwich-avenue-greenwich-connecticut-24163981",
-     "addr": "375 Greenwich Avenue Unit 4",
-     "unit": "Unit 4",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 900.0,
-     "price": 2500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-09",
-     "ppsf": 3,
-     "mi": 0.04
-    },
-    {
-     "slug": "375-greenwich-avenue-greenwich-connecticut-24169122",
-     "addr": "375 Greenwich Avenue Unit 5",
-     "unit": "Unit 5",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 1350.0,
-     "price": 2500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-03",
-     "ppsf": 2,
-     "mi": 0.04
-    },
-    {
-     "slug": "271-greenwich-avenue-greenwich-connecticut-24174743",
-     "addr": "271 Greenwich Avenue Unit 3B",
-     "unit": "Unit 3B",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 800.0,
-     "price": 3100.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-26",
-     "ppsf": 4,
-     "mi": 0.19
-    },
-    {
-     "slug": "271-greenwich-avenue-greenwich-connecticut-24186622",
-     "addr": "271 Greenwich Avenue Unit 1B",
-     "unit": "Unit 1B",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 900.0,
-     "price": 3400.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-22",
-     "ppsf": 4,
-     "mi": 0.19
-    },
-    {
-     "slug": "140-field-point-road-greenwich-connecticut-24158334",
-     "addr": "140 Field Point Road Unit 2",
-     "unit": "Unit 2",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1226.0,
-     "price": 3950.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-25",
-     "ppsf": 3,
-     "mi": 0.35
-    },
-    {
-     "slug": "156-greenwich-avenue-greenwich-connecticut-24183708",
-     "addr": "156 Greenwich Avenue",
-     "unit": "",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 800.0,
-     "price": 2300.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-29",
-     "ppsf": 3,
-     "mi": 0.36
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 2300.0,
-    "high": 3950.0,
-    "median": 2800
+ "comps": [
+  {
+   "mls": "24111163",
+   "slug": "507-river-road-greenwich-connecticut-24111163",
+   "address": {
+    "line": "507 River Road",
+    "unit": null,
+    "lineWithUnit": "507 River Road",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06807"
    },
-   "radiusMi": 0.75
+   "beds": 5.0,
+   "baths": 5.0,
+   "sqft": 5723.0,
+   "price": 17000.0,
+   "date": "2026-07-06",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.058213,
+    "lng": -73.578654
+   },
+   "klass": "rental",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 5.49301503939961,
+   "ppsf": 2.970470033199371
+  },
+  {
+   "mls": "24187870",
+   "slug": "4-sickle-bar-lane-greenwich-connecticut-24187870",
+   "address": {
+    "line": "4 Sickle Bar Lane",
+    "unit": null,
+    "lineWithUnit": "4 Sickle Bar Lane",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06878"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 4735.0,
+   "price": 12500.0,
+   "date": "2026-08-06",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.044544,
+    "lng": -73.576429
+   },
+   "klass": "rental",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 4.707667994068137,
+   "ppsf": 2.6399155227032733
+  },
+  {
+   "mls": "24166724",
+   "slug": "175-cat-rock-road-greenwich-connecticut-24166724",
+   "address": {
+    "line": "175 Cat Rock Road",
+    "unit": null,
+    "lineWithUnit": "175 Cat Rock Road",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06807"
+   },
+   "beds": 7.0,
+   "baths": 7.0,
+   "sqft": 5109.0,
+   "price": 25000.0,
+   "date": "2026-05-22",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.071533,
+    "lng": -73.59728
+   },
+   "klass": "rental",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 5.84638013386338,
+   "ppsf": 4.893325504012527
+  },
+  {
+   "mls": "24167409",
+   "slug": "47-carriglea-drive-greenwich-connecticut-24167409",
+   "address": {
+    "line": "47 Carriglea Drive",
+    "unit": null,
+    "lineWithUnit": "47 Carriglea Drive",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06878"
+   },
+   "beds": 5.0,
+   "baths": 6.0,
+   "sqft": 6075.0,
+   "price": 29250.0,
+   "date": "2026-07-14",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.022175,
+    "lng": -73.58777
+   },
+   "klass": "rental",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 3.122309270095491,
+   "ppsf": 4.814814814814815
+  },
+  {
+   "mls": "24170035",
+   "slug": "378-taconic-road-greenwich-connecticut-24170035",
+   "address": {
+    "line": "378 Taconic Road",
+    "unit": null,
+    "lineWithUnit": "378 Taconic Road",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06831"
+   },
+   "beds": 5.0,
+   "baths": 8.0,
+   "sqft": 9124.0,
+   "price": 61785.0,
+   "date": "2026-07-06",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.131294,
+    "lng": -73.62257
+   },
+   "klass": "rental",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 12.01261297376246,
+   "ppsf": 6.77170100832968
   }
- }
+ ]
 }

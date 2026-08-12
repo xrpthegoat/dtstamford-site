@@ -111,101 +111,141 @@
    "mi": 0.85
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "128-north-taylor-avenue-norwalk-connecticut-24163114",
-     "addr": "128 North Taylor Avenue",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 2132.0,
-     "price": 4100.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-15",
-     "ppsf": 2,
-     "mi": 0.17
-    },
-    {
-     "slug": "38-eagle-road-norwalk-connecticut-24181722",
-     "addr": "38 Eagle Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 1.0,
-     "sqft": 1920.0,
-     "price": 4000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-01",
-     "ppsf": 2,
-     "mi": 0.26
-    },
-    {
-     "slug": "53-1-2-glenwood-avenue-norwalk-connecticut-24168697",
-     "addr": "53-1/2 Glenwood Avenue Unit A",
-     "unit": "Unit A",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 2650.0,
-     "price": 2600.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-08",
-     "ppsf": 1,
-     "mi": 0.41
-    },
-    {
-     "slug": "85-ledgebrook-drive-norwalk-connecticut-24153011",
-     "addr": "85 Ledgebrook Drive Unit 85",
-     "unit": "Unit 85",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1806.0,
-     "price": 4500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-28",
-     "ppsf": 2,
-     "mi": 0.47
-    },
-    {
-     "slug": "27-ferris-avenue-norwalk-connecticut-24164787",
-     "addr": "27 Ferris Avenue Unit 4",
-     "unit": "Unit 4",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1726.0,
-     "price": 3850.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-24",
-     "ppsf": 2,
-     "mi": 0.49
-    },
-    {
-     "slug": "29-ledgebrook-drive-norwalk-connecticut-24179848",
-     "addr": "29 Ledgebrook Drive Unit 29",
-     "unit": "Unit 29",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1650.0,
-     "price": 3800.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-27",
-     "ppsf": 2,
-     "mi": 0.59
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 2600.0,
-    "high": 4500.0,
-    "median": 3925
+ "comps": [
+  {
+   "mls": "24154959",
+   "slug": "24-ferris-avenue-norwalk-connecticut-24154959",
+   "address": {
+    "line": "24 Ferris Avenue",
+    "unit": "Unit 2",
+    "lineWithUnit": "24 Ferris Avenue Unit 2",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 900.0,
+   "price": 2195.0,
+   "date": "2026-03-18",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.10736,
+    "lng": -73.42941
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8743868997051284,
+   "ppsf": 2.438888888888889
+  },
+  {
+   "mls": "24151349",
+   "slug": "norwalk-connecticut-24151349",
+   "address": {
+    "line": null,
+    "unit": null,
+    "lineWithUnit": null,
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1200.0,
+   "price": 3600.0,
+   "date": "2026-04-28",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.115313,
+    "lng": -73.424047
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0059850556791126,
+   "ppsf": 3.0
+  },
+  {
+   "mls": "24159924",
+   "slug": "18-prospect-avenue-norwalk-connecticut-24159924",
+   "address": {
+    "line": "18 Prospect Avenue",
+    "unit": "Apt D1",
+    "lineWithUnit": "18 Prospect Avenue Apt D1",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 960.0,
+   "price": 2900.0,
+   "date": "2026-05-05",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.115998,
+    "lng": -73.423326
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.081825475823141,
+   "ppsf": 3.0208333333333335
+  },
+  {
+   "mls": "24172140",
+   "slug": "9-glenwood-avenue-norwalk-connecticut-24172140",
+   "address": {
+    "line": "9 Glenwood Avenue",
+    "unit": "Unit 3",
+    "lineWithUnit": "9 Glenwood Avenue Unit 3",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1200.0,
+   "price": 2500.0,
+   "date": "2026-05-20",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.106777,
+    "lng": -73.42833
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.981654966307042,
+   "ppsf": 2.0833333333333335
+  },
+  {
+   "mls": "24165488",
+   "slug": "14-ferris-avenue-norwalk-connecticut-24165488",
+   "address": {
+    "line": "14 Ferris Avenue",
+    "unit": "Unit 9",
+    "lineWithUnit": "14 Ferris Avenue Unit 9",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1040.0,
+   "price": 2925.0,
+   "date": "2026-06-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.10654,
+    "lng": -73.429061
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9648362079186914,
+   "ppsf": 2.8125
   }
- }
+ ]
 }

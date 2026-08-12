@@ -119,58 +119,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "240-rosebrook-road-new-canaan-connecticut-170336173",
-     "addr": "240 Rosebrook Road",
-     "unit": "",
-     "beds": 6.0,
-     "baths": 8.0,
-     "sqft": 6700.0,
-     "price": 2970797.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-12",
-     "ppsf": 443,
-     "mi": 0.6
-    },
-    {
-     "slug": "91-sunset-hill-road-new-canaan-connecticut-24147271",
-     "addr": "91 Sunset Hill Road",
-     "unit": "",
-     "beds": 6.0,
-     "baths": 8.0,
-     "sqft": 8020.0,
-     "price": 5715000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-01",
-     "ppsf": 713,
-     "mi": 0.72
-    },
-    {
-     "slug": "46-norholt-drive-new-canaan-connecticut-24184383",
-     "addr": "46 Norholt Drive",
-     "unit": "",
-     "beds": 6.0,
-     "baths": 10.0,
-     "sqft": 9429.0,
-     "price": 7499000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 795,
-     "mi": 0.21
-    }
-   ],
-   "summary": {
-    "n": 2,
-    "low": 2970797.0,
-    "high": 5715000.0,
-    "median": 4342898
+ "comps": [
+  {
+   "mls": "24147271",
+   "slug": "91-sunset-hill-road-new-canaan-connecticut-24147271",
+   "address": {
+    "line": "91 Sunset Hill Road",
+    "unit": null,
+    "lineWithUnit": "91 Sunset Hill Road",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
    },
-   "radiusMi": 0.75
+   "beds": 6.0,
+   "baths": 8.0,
+   "sqft": 8020.0,
+   "price": 5715000.0,
+   "date": "2026-04-01",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.154764,
+    "lng": -73.50614
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1551459664926031,
+   "ppsf": 712.5935162094763
+  },
+  {
+   "mls": "24135729",
+   "slug": "143-oenoke-ridge-new-canaan-connecticut-24135729",
+   "address": {
+    "line": "143 Oenoke Ridge",
+    "unit": null,
+    "lineWithUnit": "143 Oenoke Ridge",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 5.0,
+   "baths": 8.0,
+   "sqft": 8022.0,
+   "price": 5900000.0,
+   "date": "2026-07-01",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.153507,
+    "lng": -73.498734
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.167782171126416,
+   "ppsf": 735.4774370481176
+  },
+  {
+   "mls": "24132650",
+   "slug": "114-ferris-hill-road-new-canaan-connecticut-24132650",
+   "address": {
+    "line": "114 Ferris Hill Road",
+    "unit": null,
+    "lineWithUnit": "114 Ferris Hill Road",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 6.0,
+   "baths": 9.0,
+   "sqft": 7700.0,
+   "price": 4925000.0,
+   "date": "2026-04-10",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.17001,
+    "lng": -73.48167
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.6569843772327117,
+   "ppsf": 639.6103896103896
+  },
+  {
+   "mls": "24141707",
+   "slug": "276-greenley-road-new-canaan-connecticut-24141707",
+   "address": {
+    "line": "276 Greenley Road",
+    "unit": null,
+    "lineWithUnit": "276 Greenley Road",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 6.0,
+   "baths": 7.0,
+   "sqft": 7605.0,
+   "price": 5600000.0,
+   "date": "2026-04-02",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.15415,
+    "lng": -73.523476
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.2655476060597026,
+   "ppsf": 736.3576594345825
+  },
+  {
+   "mls": "24147831",
+   "slug": "757-oenoke-ridge-new-canaan-connecticut-24147831",
+   "address": {
+    "line": "757 Oenoke Ridge",
+    "unit": null,
+    "lineWithUnit": "757 Oenoke Ridge",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 7.0,
+   "baths": 8.0,
+   "sqft": 8194.0,
+   "price": 5700000.0,
+   "date": "2026-05-12",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.170696,
+    "lng": -73.51308
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.3411216591351498,
+   "ppsf": 695.6309494752257
   }
- }
+ ]
 }

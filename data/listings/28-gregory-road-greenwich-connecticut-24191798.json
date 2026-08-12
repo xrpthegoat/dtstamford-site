@@ -130,99 +130,141 @@
    "mi": 1.34
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "420-valley-road-greenwich-connecticut-24160915",
-     "addr": "420 Valley Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 1601.0,
-     "price": 1300000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-14",
-     "ppsf": 812,
-     "mi": 0.13
-    },
-    {
-     "slug": "98-hillcrest-park-road-greenwich-connecticut-24154215",
-     "addr": "98 Hillcrest Park Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 3298.0,
-     "price": 2610000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-29",
-     "ppsf": 791,
-     "mi": 0.26
-    },
-    {
-     "slug": "681-river-road-greenwich-connecticut-24143732",
-     "addr": "681 River Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 5.0,
-     "sqft": 3826.0,
-     "price": 2445000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-24",
-     "ppsf": 639,
-     "mi": 0.4
-    },
-    {
-     "slug": "120-florence-road-greenwich-connecticut-24159325",
-     "addr": "120 Florence Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 1540.0,
-     "price": 1280000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-01",
-     "ppsf": 831,
-     "mi": 0.66
-    },
-    {
-     "slug": "9-deluca-drive-greenwich-connecticut-24182954",
-     "addr": "9 Deluca Drive",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 2902.0,
-     "price": 2395000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 825,
-     "mi": 0.27
-    },
-    {
-     "slug": "47-ridge-street-greenwich-connecticut-24168793",
-     "addr": "47 Ridge Street",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 5.0,
-     "sqft": 3408.0,
-     "price": 2895000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 849,
-     "mi": 0.29
-    }
-   ],
-   "summary": {
-    "n": 4,
-    "low": 1280000.0,
-    "high": 2610000.0,
-    "median": 1872500
+ "comps": [
+  {
+   "mls": "24143732",
+   "slug": "681-river-road-greenwich-connecticut-24143732",
+   "address": {
+    "line": "681 River Road",
+    "unit": null,
+    "lineWithUnit": "681 River Road",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06807"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 5.0,
+   "sqft": 3826.0,
+   "price": 2445000.0,
+   "date": "2026-07-24",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.068317,
+    "lng": -73.576096
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6511020614208503,
+   "ppsf": 639.0486147412441
+  },
+  {
+   "mls": "24154215",
+   "slug": "98-hillcrest-park-road-greenwich-connecticut-24154215",
+   "address": {
+    "line": "98 Hillcrest Park Road",
+    "unit": null,
+    "lineWithUnit": "98 Hillcrest Park Road",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06807"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 3298.0,
+   "price": 2610000.0,
+   "date": "2026-05-29",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.06158,
+    "lng": -73.577979
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.41765185237765245,
+   "ppsf": 791.3887204366282
+  },
+  {
+   "mls": "24146212",
+   "slug": "484-cognewaugh-road-greenwich-connecticut-24146212",
+   "address": {
+    "line": "484 Cognewaugh Road",
+    "unit": null,
+    "lineWithUnit": "484 Cognewaugh Road",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06807"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2832.0,
+   "price": 1900000.0,
+   "date": "2026-04-23",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.08088,
+    "lng": -73.597397
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.2822172717726574,
+   "ppsf": 670.9039548022599
+  },
+  {
+   "mls": "24167767",
+   "slug": "185-valley-road-greenwich-connecticut-24167767",
+   "address": {
+    "line": "185 Valley Road",
+    "unit": null,
+    "lineWithUnit": "185 Valley Road",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06807"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 3569.0,
+   "price": 3000000.0,
+   "date": "2026-07-07",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.050881,
+    "lng": -73.586622
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.5372057493636793,
+   "ppsf": 840.5715886803026
+  },
+  {
+   "mls": "24155152",
+   "slug": "21-amherst-road-greenwich-connecticut-24155152",
+   "address": {
+    "line": "21 Amherst Road",
+    "unit": null,
+    "lineWithUnit": "21 Amherst Road",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06878"
+   },
+   "beds": 5.0,
+   "baths": 3.0,
+   "sqft": 2911.0,
+   "price": 1700000.0,
+   "date": "2026-06-25",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.048539,
+    "lng": -73.57219
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.9085071195048937,
+   "ppsf": 583.9917554105118
   }
- }
+ ]
 }

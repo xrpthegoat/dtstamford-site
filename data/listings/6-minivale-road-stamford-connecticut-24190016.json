@@ -120,101 +120,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "31-oenoke-place-stamford-connecticut-24161728",
-     "addr": "31 Oenoke Place Unit 2",
-     "unit": "Unit 2",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 756.0,
-     "price": 2200.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-06",
-     "ppsf": 3,
-     "mi": 0.17
-    },
-    {
-     "slug": "45-mead-street-stamford-connecticut-24167217",
-     "addr": "45 Mead Street Unit 1",
-     "unit": "Unit 1",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 1844.0,
-     "price": 2050.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-14",
-     "ppsf": 1,
-     "mi": 0.25
-    },
-    {
-     "slug": "6-bouton-street-east-stamford-connecticut-24160196",
-     "addr": "6 Bouton Street East Unit 9",
-     "unit": "Unit 9",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1680.0,
-     "price": 3400.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-02",
-     "ppsf": 2,
-     "mi": 0.26
-    },
-    {
-     "slug": "6-bouton-street-east-stamford-connecticut-24154341",
-     "addr": "6 Bouton Street East Unit 4",
-     "unit": "Unit 4",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 2400.0,
-     "price": 3300.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-11",
-     "ppsf": 1,
-     "mi": 0.26
-    },
-    {
-     "slug": "1283-hope-street-stamford-connecticut-24156421",
-     "addr": "1283 Hope Street Apt 5",
-     "unit": "Apt 5",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 990.0,
-     "price": 2700.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-19",
-     "ppsf": 3,
-     "mi": 0.26
-    },
-    {
-     "slug": "32-bouton-street-east-stamford-connecticut-24154348",
-     "addr": "32 Bouton Street East Unit 2",
-     "unit": "Unit 2",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 2400.0,
-     "price": 3500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-28",
-     "ppsf": 1,
-     "mi": 0.31
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 2050.0,
-    "high": 3500.0,
-    "median": 3000
+ "comps": [
+  {
+   "mls": "24156421",
+   "slug": "1283-hope-street-stamford-connecticut-24156421",
+   "address": {
+    "line": "1283 Hope Street",
+    "unit": "Apt 5",
+    "lineWithUnit": "1283 Hope Street Apt 5",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06907"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 990.0,
+   "price": 2700.0,
+   "date": "2026-04-19",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.10102,
+    "lng": -73.516426
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.4211550875570473,
+   "ppsf": 2.727272727272727
+  },
+  {
+   "mls": "24148325",
+   "slug": "947-hope-street-stamford-connecticut-24148325",
+   "address": {
+    "line": "947 Hope Street",
+    "unit": "Unit 304",
+    "lineWithUnit": "947 Hope Street Unit 304",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06907"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 800.0,
+   "price": 2425.0,
+   "date": "2026-05-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.091248,
+    "lng": -73.51767
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.846000933341832,
+   "ppsf": 3.03125
+  },
+  {
+   "mls": "24186353",
+   "slug": "965-hope-street-stamford-connecticut-24186353",
+   "address": {
+    "line": "965 Hope Street",
+    "unit": "Unit 203",
+    "lineWithUnit": "965 Hope Street Unit 203",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06907"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 900.0,
+   "price": 2800.0,
+   "date": "2026-07-16",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.09187,
+    "lng": -73.51767
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7794097719462928,
+   "ppsf": 3.111111111111111
+  },
+  {
+   "mls": "24161728",
+   "slug": "31-oenoke-place-stamford-connecticut-24161728",
+   "address": {
+    "line": "31 Oenoke Place",
+    "unit": "Unit 2",
+    "lineWithUnit": "31 Oenoke Place Unit 2",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06907"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 756.0,
+   "price": 2200.0,
+   "date": "2026-05-06",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.098503,
+    "lng": -73.51696
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.279059024696833,
+   "ppsf": 2.9100529100529102
+  },
+  {
+   "mls": "24170665",
+   "slug": "27-northill-street-stamford-connecticut-24170665",
+   "address": {
+    "line": "27 Northill Street",
+    "unit": "Unit 6U",
+    "lineWithUnit": "27 Northill Street Unit 6U",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06907"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 660.0,
+   "price": 1925.0,
+   "date": "2026-06-30",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.09355,
+    "lng": -73.51937
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5663383755542182,
+   "ppsf": 2.9166666666666665
   }
- }
+ ]
 }

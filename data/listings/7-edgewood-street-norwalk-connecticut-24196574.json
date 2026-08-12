@@ -128,57 +128,141 @@
    "mi": 1.66
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "13-joemar-road-norwalk-connecticut-24179818",
-     "addr": "13 Joemar Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 1.0,
-     "sqft": 1080.0,
-     "price": 3950.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-04",
-     "ppsf": 4,
-     "mi": 0.7
-    },
-    {
-     "slug": "9-oakledge-circle-norwalk-connecticut-24196252",
-     "addr": "9 Oakledge Circle",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 2.0,
-     "sqft": 1157.0,
-     "price": 6000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 5,
-     "mi": 0.55
-    },
-    {
-     "slug": "149-south-main-street-norwalk-connecticut-24195433",
-     "addr": "149 South Main Street Unit D",
-     "unit": "Unit D",
-     "beds": 4.0,
-     "baths": 2.0,
-     "sqft": 816.0,
-     "price": 3800.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 5,
-     "mi": 0.68
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 3950.0,
-    "high": 3950.0,
-    "median": 3950
+ "comps": [
+  {
+   "mls": "24159808",
+   "slug": "18-soundview-avenue-norwalk-connecticut-24159808",
+   "address": {
+    "line": "18 Soundview Avenue",
+    "unit": "Unit 1",
+    "lineWithUnit": "18 Soundview Avenue Unit 1",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 1.0,
+   "sqft": 3168.0,
+   "price": 3000.0,
+   "date": "2026-05-20",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.093333,
+    "lng": -73.428494
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5562151024020004,
+   "ppsf": 0.946969696969697
+  },
+  {
+   "mls": "24153587",
+   "slug": "233-rowayton-avenue-norwalk-connecticut-24153587",
+   "address": {
+    "line": "233 Rowayton Avenue",
+    "unit": null,
+    "lineWithUnit": "233 Rowayton Avenue",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06853"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2579.0,
+   "price": 33000.0,
+   "date": "2026-03-23",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.07241,
+    "lng": -73.44574
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.1880943398387998,
+   "ppsf": 12.795657231485071
+  },
+  {
+   "mls": "24155362",
+   "slug": "25-channel-avenue-norwalk-connecticut-24155362",
+   "address": {
+    "line": "25 Channel Avenue",
+    "unit": null,
+    "lineWithUnit": "25 Channel Avenue",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 2994.0,
+   "price": 20000.0,
+   "date": "2026-03-26",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.082005,
+    "lng": -73.41098
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.9967279326588565,
+   "ppsf": 6.680026720106881
+  },
+  {
+   "mls": "24160294",
+   "slug": "125-richards-avenue-norwalk-connecticut-24160294",
+   "address": {
+    "line": "125 Richards Avenue",
+    "unit": "#3",
+    "lineWithUnit": "125 Richards Avenue #3",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2550.0,
+   "price": 7500.0,
+   "date": "2026-04-08",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.097709,
+    "lng": -73.452464
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.8968020066008058,
+   "ppsf": 2.9411764705882355
+  },
+  {
+   "mls": "24118947",
+   "slug": "168-rowayton-avenue-norwalk-connecticut-24118947",
+   "address": {
+    "line": "168 Rowayton Avenue",
+    "unit": null,
+    "lineWithUnit": "168 Rowayton Avenue",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06853"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2265.0,
+   "price": 12000.0,
+   "date": "2026-04-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.069035,
+    "lng": -73.442914
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.426323936953937,
+   "ppsf": 5.298013245033113
   }
- }
+ ]
 }

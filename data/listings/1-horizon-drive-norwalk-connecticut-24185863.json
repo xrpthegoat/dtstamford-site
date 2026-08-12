@@ -139,125 +139,141 @@
    "mi": 1.04
   }
  },
- "comps": {
-  "building": {
-   "rows": [
-    {
-     "slug": "1-horizon-drive-norwalk-connecticut-24165319",
-     "addr": "1 Horizon Drive Unit 28",
-     "unit": "Unit 28",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1258.0,
-     "price": 440000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-01",
-     "ppsf": 350
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 440000.0,
-    "high": 440000.0,
-    "median": 440000
+ "comps": [
+  {
+   "mls": "24165319",
+   "slug": "1-horizon-drive-norwalk-connecticut-24165319",
+   "address": {
+    "line": "1 Horizon Drive",
+    "unit": "Unit 28",
+    "lineWithUnit": "1 Horizon Drive Unit 28",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
    },
-   "label": "1 Horizon Drive"
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1258.0,
+   "price": 440000.0,
+   "date": "2026-06-01",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.101456,
+    "lng": -73.43358
+   },
+   "klass": "condo",
+   "tier": 1,
+   "why": "Same building, sold in the last year",
+   "km": 0.0814157949729543,
+   "ppsf": 349.7615262321145
   },
-  "area": {
-   "rows": [
-    {
-     "slug": "14-ferris-avenue-norwalk-connecticut-24152954",
-     "addr": "14 Ferris Avenue Apt 9",
-     "unit": "Apt 9",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1040.0,
-     "price": 385000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-17",
-     "ppsf": 370,
-     "mi": 0.47
-    },
-    {
-     "slug": "11-ledgebrook-drive-norwalk-connecticut-24155958",
-     "addr": "11 Ledgebrook Drive Unit 11",
-     "unit": "Unit 11",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1173.0,
-     "price": 490000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-05",
-     "ppsf": 418,
-     "mi": 0.49
-    },
-    {
-     "slug": "92-ledgebrook-drive-norwalk-connecticut-24159844",
-     "addr": "92 Ledgebrook Drive Unit 92",
-     "unit": "Unit 92",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 1095.0,
-     "price": 493000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-22",
-     "ppsf": 450,
-     "mi": 0.52
-    },
-    {
-     "slug": "187-flax-hill-road-norwalk-connecticut-24121510",
-     "addr": "187 Flax Hill Road Apt D5",
-     "unit": "Apt D5",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 1088.0,
-     "price": 350000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-15",
-     "ppsf": 322,
-     "mi": 0.52
-    },
-    {
-     "slug": "187-flax-hill-road-norwalk-connecticut-24172753",
-     "addr": "187 Flax Hill Road Unit D1",
-     "unit": "Unit D1",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 1088.0,
-     "price": 415000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-24",
-     "ppsf": 381,
-     "mi": 0.52
-    },
-    {
-     "slug": "192-gillies-lane-norwalk-connecticut-24151426",
-     "addr": "192 Gillies Lane Unit 192",
-     "unit": "Unit 192",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1662.0,
-     "price": 525000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-27",
-     "ppsf": 316,
-     "mi": 0.55
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 350000.0,
-    "high": 525000.0,
-    "median": 452500
+  {
+   "mls": "24180515",
+   "slug": "39-stuart-avenue-norwalk-connecticut-24180515",
+   "address": {
+    "line": "39 Stuart Avenue",
+    "unit": "Unit 5",
+    "lineWithUnit": "39 Stuart Avenue Unit 5",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1204.0,
+   "price": 420000.0,
+   "date": "2026-07-10",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.10821,
+    "lng": -73.42428
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.160011884142553,
+   "ppsf": 348.83720930232556
+  },
+  {
+   "mls": "24121510",
+   "slug": "187-flax-hill-road-norwalk-connecticut-24121510",
+   "address": {
+    "line": "187 Flax Hill Road",
+    "unit": "Apt D5",
+    "lineWithUnit": "187 Flax Hill Road Apt D5",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 1088.0,
+   "price": 350000.0,
+   "date": "2026-05-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.097792,
+    "lng": -73.425433
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8421056158100754,
+   "ppsf": 321.69117647058823
+  },
+  {
+   "mls": "24152954",
+   "slug": "14-ferris-avenue-norwalk-connecticut-24152954",
+   "address": {
+    "line": "14 Ferris Avenue",
+    "unit": "Apt 9",
+    "lineWithUnit": "14 Ferris Avenue Apt 9",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1040.0,
+   "price": 385000.0,
+   "date": "2026-03-17",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.10654,
+    "lng": -73.42906
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7520545100185994,
+   "ppsf": 370.1923076923077
+  },
+  {
+   "mls": "24155217",
+   "slug": "41-nash-place-norwalk-connecticut-24155217",
+   "address": {
+    "line": "41 Nash Place",
+    "unit": "Unit B",
+    "lineWithUnit": "41 Nash Place Unit B",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1110.0,
+   "price": 430000.0,
+   "date": "2026-04-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.110085,
+    "lng": -73.43599
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0037232287431854,
+   "ppsf": 387.3873873873874
   }
- }
+ ]
 }

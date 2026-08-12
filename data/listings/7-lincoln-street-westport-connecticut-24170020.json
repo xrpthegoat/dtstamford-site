@@ -128,70 +128,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "23-harborview-road-westport-connecticut-24163587",
-     "addr": "23 Harborview Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 3674.0,
-     "price": 2750000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-08",
-     "ppsf": 749,
-     "mi": 0.47
-    },
-    {
-     "slug": "34-woodside-avenue-westport-connecticut-24185246",
-     "addr": "34 Woodside Avenue",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 5.0,
-     "sqft": 3600.0,
-     "price": 2699000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 750,
-     "mi": 0.45
-    },
-    {
-     "slug": "23-pequot-trail-westport-connecticut-24197030",
-     "addr": "23 Pequot Trail",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 3536.0,
-     "price": 1599000.0,
-     "kind": "asking",
-     "status": "Coming Soon",
-     "ppsf": 452,
-     "mi": 0.61
-    },
-    {
-     "slug": "3-laurel-lane-westport-connecticut-24180388",
-     "addr": "3 Laurel Lane",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 6.0,
-     "sqft": 4204.0,
-     "price": 3685000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 877,
-     "mi": 0.69
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 2750000.0,
-    "high": 2750000.0,
-    "median": 2750000
+ "comps": [
+  {
+   "mls": "24147214",
+   "slug": "79-riverside-avenue-westport-connecticut-24147214",
+   "address": {
+    "line": "79 Riverside Avenue",
+    "unit": null,
+    "lineWithUnit": "79 Riverside Avenue",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 4.0,
+   "sqft": 1841.0,
+   "price": 2650000.0,
+   "date": "2026-06-10",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.137503,
+    "lng": -73.363903
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.20105797376672846,
+   "ppsf": 1439.4350896252038
+  },
+  {
+   "mls": "24169070",
+   "slug": "39-kings-highway-north-westport-connecticut-24169070",
+   "address": {
+    "line": "39 Kings Highway North",
+    "unit": null,
+    "lineWithUnit": "39 Kings Highway North",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1752.0,
+   "price": 1310000.0,
+   "date": "2026-07-08",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.13851,
+    "lng": -73.370808
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.38832461826835957,
+   "ppsf": 747.716894977169
+  },
+  {
+   "mls": "24153684",
+   "slug": "5-inwood-lane-westport-connecticut-24153684",
+   "address": {
+    "line": "5 Inwood Lane",
+    "unit": null,
+    "lineWithUnit": "5 Inwood Lane",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2084.0,
+   "price": 1250000.0,
+   "date": "2026-04-23",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.120329,
+    "lng": -73.349066
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.4291154333919547,
+   "ppsf": 599.8080614203454
+  },
+  {
+   "mls": "24151653",
+   "slug": "23-bridge-street-westport-connecticut-24151653",
+   "address": {
+    "line": "23 Bridge Street",
+    "unit": null,
+    "lineWithUnit": "23 Bridge Street",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2622.0,
+   "price": 1058500.0,
+   "date": "2026-03-27",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.124076,
+    "lng": -73.364386
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.548914045680417,
+   "ppsf": 403.6994660564455
+  },
+  {
+   "mls": "24172773",
+   "slug": "44-sniffen-road-westport-connecticut-24172773",
+   "address": {
+    "line": "44 Sniffen Road",
+    "unit": null,
+    "lineWithUnit": "44 Sniffen Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 2246.0,
+   "price": 1450000.0,
+   "date": "2026-06-17",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.160056,
+    "lng": -73.36413
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.465932588611396,
+   "ppsf": 645.5921638468388
   }
- }
+ ]
 }

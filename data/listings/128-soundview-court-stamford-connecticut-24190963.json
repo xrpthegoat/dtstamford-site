@@ -133,72 +133,141 @@
    "mi": 1.47
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "70-kenilworth-drive-east-stamford-connecticut-24167138",
-     "addr": "70 Kenilworth Drive East",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 3741.0,
-     "price": 2750000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-15",
-     "ppsf": 735,
-     "mi": 0.29
-    },
-    {
-     "slug": "102-soundview-drive-stamford-connecticut-24163171",
-     "addr": "102 Soundview Drive",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2146.0,
-     "price": 1850000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-15",
-     "ppsf": 862,
-     "mi": 0.31
-    },
-    {
-     "slug": "14-park-street-stamford-connecticut-24160789",
-     "addr": "14 Park Street",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 2.0,
-     "sqft": 2580.0,
-     "price": 810000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-15",
-     "ppsf": 314,
-     "mi": 0.59
-    },
-    {
-     "slug": "62-64-wallacks-drive-stamford-connecticut-24179654",
-     "addr": "62-64 Wallacks Drive",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 5.0,
-     "sqft": 4599.0,
-     "price": 2995000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 651,
-     "mi": 0.4
-    }
-   ],
-   "summary": {
-    "n": 3,
-    "low": 810000.0,
-    "high": 2750000.0,
-    "median": 1850000
+ "comps": [
+  {
+   "mls": "24166537",
+   "slug": "34-andover-road-stamford-connecticut-24166537",
+   "address": {
+    "line": "34 Andover Road",
+    "unit": null,
+    "lineWithUnit": "34 Andover Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1858.0,
+   "price": 1127500.0,
+   "date": "2026-06-26",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.052739,
+    "lng": -73.505758
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0664546886160933,
+   "ppsf": 606.8353067814854
+  },
+  {
+   "mls": "24162834",
+   "slug": "25-albin-road-stamford-connecticut-24162834",
+   "address": {
+    "line": "25 Albin Road",
+    "unit": null,
+    "lineWithUnit": "25 Albin Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1588.0,
+   "price": 620000.0,
+   "date": "2026-07-14",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.049901,
+    "lng": -73.506395
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7779505487076295,
+   "ppsf": 390.42821158690174
+  },
+  {
+   "mls": "24153811",
+   "slug": "140-frederick-street-stamford-connecticut-24153811",
+   "address": {
+    "line": "140 Frederick Street",
+    "unit": null,
+    "lineWithUnit": "140 Frederick Street",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 2340.0,
+   "price": 675000.0,
+   "date": "2026-04-07",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.048798,
+    "lng": -73.521743
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9188154268157771,
+   "ppsf": 288.46153846153845
+  },
+  {
+   "mls": "24160789",
+   "slug": "14-park-street-stamford-connecticut-24160789",
+   "address": {
+    "line": "14 Park Street",
+    "unit": null,
+    "lineWithUnit": "14 Park Street",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 4.0,
+   "baths": 2.0,
+   "sqft": 2580.0,
+   "price": 810000.0,
+   "date": "2026-05-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.046524,
+    "lng": -73.52333
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9465619151157192,
+   "ppsf": 313.95348837209303
+  },
+  {
+   "mls": "24163171",
+   "slug": "102-soundview-drive-stamford-connecticut-24163171",
+   "address": {
+    "line": "102 Soundview Drive",
+    "unit": null,
+    "lineWithUnit": "102 Soundview Drive",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2146.0,
+   "price": 1850000.0,
+   "date": "2026-05-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.040035,
+    "lng": -73.512573
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5011586168954337,
+   "ppsf": 862.0689655172414
   }
- }
+ ]
 }

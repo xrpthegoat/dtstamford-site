@@ -122,44 +122,141 @@
    "mi": 1.78
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "27-snow-crystal-lane-stamford-connecticut-24176006",
-     "addr": "27 Snow Crystal Lane",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1172.0,
-     "price": 4250.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-04",
-     "ppsf": 4,
-     "mi": 0.6
-    },
-    {
-     "slug": "73-crestwood-drive-stamford-connecticut-24185079",
-     "addr": "73 Crestwood Drive",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1682.0,
-     "price": 5000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 3,
-     "mi": 0.68
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 4250.0,
-    "high": 4250.0,
-    "median": 4250
+ "comps": [
+  {
+   "mls": "24149668",
+   "slug": "817-newfield-avenue-stamford-connecticut-24149668",
+   "address": {
+    "line": "817 Newfield Avenue",
+    "unit": null,
+    "lineWithUnit": "817 Newfield Avenue",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 2984.0,
+   "price": 4800.0,
+   "date": "2026-05-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.088093,
+    "lng": -73.53411
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1301119527455306,
+   "ppsf": 1.6085790884718498
+  },
+  {
+   "mls": "24170188",
+   "slug": "53-dagmar-road-stamford-connecticut-24170188",
+   "address": {
+    "line": "53 Dagmar Road",
+    "unit": null,
+    "lineWithUnit": "53 Dagmar Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2963.0,
+   "price": 6028.0,
+   "date": "2026-05-19",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.094428,
+    "lng": -73.528494
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.036531494669082,
+   "ppsf": 2.0344245696928787
+  },
+  {
+   "mls": "24154348",
+   "slug": "32-bouton-street-east-stamford-connecticut-24154348",
+   "address": {
+    "line": "32 Bouton Street East",
+    "unit": "Unit 2",
+    "lineWithUnit": "32 Bouton Street East Unit 2",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06907"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 2400.0,
+   "price": 3500.0,
+   "date": "2026-03-28",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.100479,
+    "lng": -73.514838
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.1697435148167403,
+   "ppsf": 1.4583333333333333
+  },
+  {
+   "mls": "24172929",
+   "slug": "12-westwood-place-stamford-connecticut-24172929",
+   "address": {
+    "line": "12 Westwood Place",
+    "unit": null,
+    "lineWithUnit": "12 Westwood Place",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2734.0,
+   "price": 7700.0,
+   "date": "2026-06-15",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.086525,
+    "lng": -73.563381
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.260976088255938,
+   "ppsf": 2.8163862472567667
+  },
+  {
+   "mls": "24183778",
+   "slug": "584-hope-street-stamford-connecticut-24183778",
+   "address": {
+    "line": "584 Hope Street",
+    "unit": "Unit 7",
+    "lineWithUnit": "584 Hope Street Unit 7",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06907"
+   },
+   "beds": 3.0,
+   "baths": 4.0,
+   "sqft": 2366.0,
+   "price": 4950.0,
+   "date": "2026-07-06",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.079796,
+    "lng": -73.52263
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.430681971056943,
+   "ppsf": 2.0921386306001692
   }
- }
+ ]
 }

@@ -139,129 +139,141 @@
    "mi": 1.13
   }
  },
- "comps": {
-  "building": {
-   "rows": [
-    {
-     "slug": "34-crescent-street-stamford-connecticut-24141003",
-     "addr": "34 Crescent Street Apt 2D",
-     "unit": "Apt 2D",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 783.0,
-     "price": 299000.0,
-     "kind": "asking",
-     "status": "Under Contract - Continue to Show",
-     "ppsf": 382
-    },
-    {
-     "slug": "34-crescent-street-stamford-connecticut-24183395",
-     "addr": "34 Crescent Street Unit 1H",
-     "unit": "Unit 1H",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 1071.0,
-     "price": 285000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 266
-    }
-   ],
-   "summary": null,
-   "label": "34 Crescent Street"
-  },
-  "area": {
-   "rows": [
-    {
-     "slug": "76-maple-tree-avenue-stamford-connecticut-24172053",
-     "addr": "76 Maple Tree Avenue Unit 5",
-     "unit": "Unit 5",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 850.0,
-     "price": 365000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-06",
-     "ppsf": 429,
-     "mi": 0.31
-    },
-    {
-     "slug": "59-courtland-avenue-stamford-connecticut-24156487",
-     "addr": "59 Courtland Avenue Apt 2T",
-     "unit": "Apt 2T",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 480.0,
-     "price": 160000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-01",
-     "ppsf": 333,
-     "mi": 0.73
-    },
-    {
-     "slug": "59-courtland-avenue-stamford-connecticut-24157387",
-     "addr": "59 Courtland Avenue Apt 3B",
-     "unit": "Apt 3B",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 590.0,
-     "price": 239000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-29",
-     "ppsf": 405,
-     "mi": 0.73
-    },
-    {
-     "slug": "194-seaton-road-stamford-connecticut-24167892",
-     "addr": "194 Seaton Road Unit 3",
-     "unit": "Unit 3",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 575.0,
-     "price": 230000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-18",
-     "ppsf": 400,
-     "mi": 0.74
-    },
-    {
-     "slug": "291-hope-street-stamford-connecticut-24192806",
-     "addr": "291 Hope Street Unit A14",
-     "unit": "Unit A14",
-     "beds": 1.0,
-     "baths": 2.0,
-     "sqft": 880.0,
-     "price": 350000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 398,
-     "mi": 0.34
-    },
-    {
-     "slug": "151-courtland-avenue-stamford-connecticut-24176995",
-     "addr": "151 Courtland Avenue Unit 1",
-     "unit": "Unit 1",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 570.0,
-     "price": 253000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 444,
-     "mi": 0.54
-    }
-   ],
-   "summary": {
-    "n": 4,
-    "low": 160000.0,
-    "high": 365000.0,
-    "median": 234500
+ "comps": [
+  {
+   "mls": "24172053",
+   "slug": "76-maple-tree-avenue-stamford-connecticut-24172053",
+   "address": {
+    "line": "76 Maple Tree Avenue",
+    "unit": "Unit 5",
+    "lineWithUnit": "76 Maple Tree Avenue Unit 5",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06906"
    },
-   "radiusMi": 0.75
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 850.0,
+   "price": 365000.0,
+   "date": "2026-08-06",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.071965,
+    "lng": -73.512971
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5032336141725725,
+   "ppsf": 429.4117647058824
+  },
+  {
+   "mls": "24157387",
+   "slug": "59-courtland-avenue-stamford-connecticut-24157387",
+   "address": {
+    "line": "59 Courtland Avenue",
+    "unit": "Apt 3B",
+    "lineWithUnit": "59 Courtland Avenue Apt 3B",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 590.0,
+   "price": 239000.0,
+   "date": "2026-05-29",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.060718,
+    "lng": -73.513609
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1730445564302396,
+   "ppsf": 405.08474576271186
+  },
+  {
+   "mls": "24123197",
+   "slug": "697-cove-road-stamford-connecticut-24123197",
+   "address": {
+    "line": "697 Cove Road",
+    "unit": "Apt 2A",
+    "lineWithUnit": "697 Cove Road Apt 2A",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 854.0,
+   "price": 300000.0,
+   "date": "2026-03-16",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.048593,
+    "lng": -73.512573
+   },
+   "klass": "condo",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.494735967433324,
+   "ppsf": 351.288056206089
+  },
+  {
+   "mls": "24153809",
+   "slug": "127-greyrock-place-stamford-connecticut-24153809",
+   "address": {
+    "line": "127 Greyrock Place",
+    "unit": "Apt 1401",
+    "lineWithUnit": "127 Greyrock Place Apt 1401",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06901"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 764.0,
+   "price": 364500.0,
+   "date": "2026-04-10",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.054543,
+    "lng": -73.535805
+   },
+   "klass": "condo",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.2872880249997745,
+   "ppsf": 477.09424083769636
+  },
+  {
+   "mls": "24155215",
+   "slug": "91-highland-road-stamford-connecticut-24155215",
+   "address": {
+    "line": "91 Highland Road",
+    "unit": "Unit 91",
+    "lineWithUnit": "91 Highland Road Unit 91",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 1.0,
+   "baths": 2.0,
+   "sqft": 965.0,
+   "price": 395000.0,
+   "date": "2026-04-10",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.056985,
+    "lng": -73.531951
+   },
+   "klass": "condo",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.8747977947681853,
+   "ppsf": 409.3264248704663
   }
- }
+ ]
 }

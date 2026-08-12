@@ -127,45 +127,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "24-taylor-drive-greenwich-connecticut-24157194",
-     "addr": "24 Taylor Drive",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1356.0,
-     "price": 1395000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-11",
-     "ppsf": 1029,
-     "mi": 0.62
-    },
-    {
-     "slug": "20-ridge-road-greenwich-connecticut-24174599",
-     "addr": "20 Ridge Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 4.0,
-     "sqft": 1839.0,
-     "price": 2503000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-31",
-     "ppsf": 1361,
-     "mi": 0.75
-    }
-   ],
-   "summary": {
-    "n": 2,
-    "low": 1395000.0,
-    "high": 2503000.0,
-    "median": 1949000
+ "comps": [
+  {
+   "mls": "24149277",
+   "slug": "4-miami-court-greenwich-connecticut-24149277",
+   "address": {
+    "line": "4 Miami Court",
+    "unit": null,
+    "lineWithUnit": "4 Miami Court",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06807"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2765.0,
+   "price": 1885000.0,
+   "date": "2026-03-20",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.038792,
+    "lng": -73.596324
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.104385102496055,
+   "ppsf": 681.7359855334539
+  },
+  {
+   "mls": "24149951",
+   "slug": "17-pintail-lane-greenwich-connecticut-24149951",
+   "address": {
+    "line": "17 Pintail Lane",
+    "unit": null,
+    "lineWithUnit": "17 Pintail Lane",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06830"
+   },
+   "beds": 5.0,
+   "baths": 5.0,
+   "sqft": 3643.0,
+   "price": 4271000.0,
+   "date": "2026-03-16",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.033389,
+    "lng": -73.616228
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.23001055413214,
+   "ppsf": 1172.3853966511117
+  },
+  {
+   "mls": "24175545",
+   "slug": "34-1-2-orchard-street-greenwich-connecticut-24175545",
+   "address": {
+    "line": "34 1/2 Orchard Street",
+    "unit": null,
+    "lineWithUnit": "34 1/2 Orchard Street",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06807"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2126.0,
+   "price": 2022000.0,
+   "date": "2026-06-22",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.04172,
+    "lng": -73.596758
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.3897675880665743,
+   "ppsf": 951.0818438381938
+  },
+  {
+   "mls": "24149962",
+   "slug": "103-connecticut-avenue-greenwich-connecticut-24149962",
+   "address": {
+    "line": "103 Connecticut Avenue",
+    "unit": null,
+    "lineWithUnit": "103 Connecticut Avenue",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06830"
+   },
+   "beds": 4.0,
+   "baths": 5.0,
+   "sqft": 3341.0,
+   "price": 3890000.0,
+   "date": "2026-04-08",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.028223,
+    "lng": -73.621623
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.6324901939538028,
+   "ppsf": 1164.3220592636935
+  },
+  {
+   "mls": "24168797",
+   "slug": "64-hillside-road-greenwich-connecticut-24168797",
+   "address": {
+    "line": "64 Hillside Road",
+    "unit": null,
+    "lineWithUnit": "64 Hillside Road",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06830"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2145.0,
+   "price": 2500000.0,
+   "date": "2026-07-16",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.045882,
+    "lng": -73.61103
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.9180945837292365,
+   "ppsf": 1165.5011655011656
   }
- }
+ ]
 }

@@ -135,99 +135,141 @@
    "mi": 1.66
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "10-elliott-street-norwalk-connecticut-24173075",
-     "addr": "10 Elliott Street",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 2.0,
-     "sqft": 2112.0,
-     "price": 1042000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-13",
-     "ppsf": 493,
-     "mi": 0.03
-    },
-    {
-     "slug": "58-shorefront-park-norwalk-connecticut-24182023",
-     "addr": "58 Shorefront Park",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 2.0,
-     "sqft": 2907.0,
-     "price": 2725000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-05",
-     "ppsf": 937,
-     "mi": 0.68
-    },
-    {
-     "slug": "281-east-avenue-norwalk-connecticut-24107413",
-     "addr": "281 East Avenue",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 2674.0,
-     "price": 1250000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-30",
-     "ppsf": 467,
-     "mi": 0.69
-    },
-    {
-     "slug": "4-harbor-view-avenue-norwalk-connecticut-24180497",
-     "addr": "4 Harbor View Avenue",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 4826.0,
-     "price": 2700000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-28",
-     "ppsf": 559,
-     "mi": 0.71
-    },
-    {
-     "slug": "15-marion-avenue-norwalk-connecticut-24178235",
-     "addr": "15 Marion Avenue",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2094.0,
-     "price": 1600000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 764,
-     "mi": 0.07
-    },
-    {
-     "slug": "108-gregory-boulevard-norwalk-connecticut-24161150",
-     "addr": "108 Gregory Boulevard",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 3091.0,
-     "price": 2149000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 695,
-     "mi": 0.27
-    }
-   ],
-   "summary": {
-    "n": 4,
-    "low": 1042000.0,
-    "high": 2725000.0,
-    "median": 1975000
+ "comps": [
+  {
+   "mls": "24168360",
+   "slug": "47-shorefront-park-norwalk-connecticut-24168360",
+   "address": {
+    "line": "47 Shorefront Park",
+    "unit": null,
+    "lineWithUnit": "47 Shorefront Park",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1796.0,
+   "price": 1150000.0,
+   "date": "2026-06-11",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.090699,
+    "lng": -73.412753
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1664755498327624,
+   "ppsf": 640.3118040089087
+  },
+  {
+   "mls": "24172453",
+   "slug": "10-shorefront-park-norwalk-connecticut-24172453",
+   "address": {
+    "line": "10 Shorefront Park",
+    "unit": null,
+    "lineWithUnit": "10 Shorefront Park",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 3.0,
+   "baths": 1.0,
+   "sqft": 1444.0,
+   "price": 860000.0,
+   "date": "2026-07-08",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.091543,
+    "lng": -73.412368
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.137832205581531,
+   "ppsf": 595.5678670360111
+  },
+  {
+   "mls": "24173525",
+   "slug": "10-island-drive-norwalk-connecticut-24173525",
+   "address": {
+    "line": "10 Island Drive",
+    "unit": null,
+    "lineWithUnit": "10 Island Drive",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06855"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1617.0,
+   "price": 1600000.0,
+   "date": "2026-06-22",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.090197,
+    "lng": -73.396278
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.22213425505175965,
+   "ppsf": 989.4867037724181
+  },
+  {
+   "mls": "24149540",
+   "slug": "11-roland-avenue-norwalk-connecticut-24149540",
+   "address": {
+    "line": "11 Roland Avenue",
+    "unit": null,
+    "lineWithUnit": "11 Roland Avenue",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06855"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1962.0,
+   "price": 1450000.0,
+   "date": "2026-04-09",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.094474,
+    "lng": -73.399971
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.42751200603093864,
+   "ppsf": 739.0417940876656
+  },
+  {
+   "mls": "24158382",
+   "slug": "13-elliott-street-norwalk-connecticut-24158382",
+   "address": {
+    "line": "13 Elliott Street",
+    "unit": null,
+    "lineWithUnit": "13 Elliott Street",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06855"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1287.0,
+   "price": 1010000.0,
+   "date": "2026-05-28",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.090985,
+    "lng": -73.399115
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.03720165890845217,
+   "ppsf": 784.7707847707848
   }
- }
+ ]
 }

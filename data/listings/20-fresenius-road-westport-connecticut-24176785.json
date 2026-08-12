@@ -121,44 +121,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "26-morningside-drive-south-westport-connecticut-24147443",
-     "addr": "26 Morningside Drive South",
-     "unit": "",
-     "beds": 7.0,
-     "baths": 8.0,
-     "sqft": 9335.0,
-     "price": 4350000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-09",
-     "ppsf": 466,
-     "mi": 0.58
-    },
-    {
-     "slug": "25-ellery-lane-westport-connecticut-24100505",
-     "addr": "25 Ellery Lane",
-     "unit": "",
-     "beds": 7.0,
-     "baths": 9.0,
-     "sqft": 7806.0,
-     "price": 5926000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 759,
-     "mi": 0.7
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 4350000.0,
-    "high": 4350000.0,
-    "median": 4350000
+ "comps": [
+  {
+   "mls": "24114691",
+   "slug": "13-terhune-drive-westport-connecticut-24114691",
+   "address": {
+    "line": "13 Terhune Drive",
+    "unit": null,
+    "lineWithUnit": "13 Terhune Drive",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
    },
-   "radiusMi": 0.75
+   "beds": 6.0,
+   "baths": 6.0,
+   "sqft": 6010.0,
+   "price": 3499999.0,
+   "date": "2026-06-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.151407,
+    "lng": -73.331303
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0833431541111413,
+   "ppsf": 582.3625623960066
+  },
+  {
+   "mls": "24138367",
+   "slug": "116-roseville-road-westport-connecticut-24138367",
+   "address": {
+    "line": "116 Roseville Road",
+    "unit": null,
+    "lineWithUnit": "116 Roseville Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 5.0,
+   "baths": 7.0,
+   "sqft": 5771.0,
+   "price": 3860000.0,
+   "date": "2026-04-06",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.149012,
+    "lng": -73.340617
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9318707437295987,
+   "ppsf": 668.861549124935
+  },
+  {
+   "mls": "24170859",
+   "slug": "5-marc-lane-westport-connecticut-24170859",
+   "address": {
+    "line": "5 Marc Lane",
+    "unit": null,
+    "lineWithUnit": "5 Marc Lane",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 4.0,
+   "baths": 5.0,
+   "sqft": 5550.0,
+   "price": 4310811.0,
+   "date": "2026-07-02",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.140955,
+    "lng": -73.340601
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.518118009060998,
+   "ppsf": 776.7227027027027
+  },
+  {
+   "mls": "24167975",
+   "slug": "32-webb-road-westport-connecticut-24167975",
+   "address": {
+    "line": "32 Webb Road",
+    "unit": null,
+    "lineWithUnit": "32 Webb Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 8.0,
+   "baths": 9.0,
+   "sqft": 8412.0,
+   "price": 4100000.0,
+   "date": "2026-07-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.14166,
+    "lng": -73.34306
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7122470534968035,
+   "ppsf": 487.39895387541605
+  },
+  {
+   "mls": "24137404",
+   "slug": "123-greens-farms-road-westport-connecticut-24137404",
+   "address": {
+    "line": "123 Greens Farms Road",
+    "unit": null,
+    "lineWithUnit": "123 Greens Farms Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 4.0,
+   "baths": 5.0,
+   "sqft": 5207.0,
+   "price": 2600000.0,
+   "date": "2026-05-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.126299,
+    "lng": -73.340884
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.8220816511062161,
+   "ppsf": 499.3278279239485
   }
- }
+ ]
 }

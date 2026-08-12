@@ -128,101 +128,141 @@
    "mi": 1.0
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "26-thistle-road-norwalk-connecticut-24157509",
-     "addr": "26 Thistle Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2350.0,
-     "price": 745000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-20",
-     "ppsf": 317,
-     "mi": 0.46
-    },
-    {
-     "slug": "41-mohawk-drive-norwalk-connecticut-24115022",
-     "addr": "41 Mohawk Drive",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 3018.0,
-     "price": 915000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-22",
-     "ppsf": 303,
-     "mi": 0.46
-    },
-    {
-     "slug": "89-bayne-street-norwalk-connecticut-24165342",
-     "addr": "89 Bayne Street",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2838.0,
-     "price": 836000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-03",
-     "ppsf": 295,
-     "mi": 0.51
-    },
-    {
-     "slug": "2-thistle-road-norwalk-connecticut-24161629",
-     "addr": "2 Thistle Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2600.0,
-     "price": 922500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-01",
-     "ppsf": 355,
-     "mi": 0.51
-    },
-    {
-     "slug": "381-chestnut-hill-road-norwalk-connecticut-24147896",
-     "addr": "381 Chestnut Hill Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 3438.0,
-     "price": 1325000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-10",
-     "ppsf": 385,
-     "mi": 0.63
-    },
-    {
-     "slug": "norwalk-connecticut-24151761",
-     "addr": null,
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 1772.0,
-     "price": 930000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-26",
-     "ppsf": 525,
-     "mi": 0.72
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 745000.0,
-    "high": 1325000.0,
-    "median": 918750
+ "comps": [
+  {
+   "mls": "24147896",
+   "slug": "381-chestnut-hill-road-norwalk-connecticut-24147896",
+   "address": {
+    "line": "381 Chestnut Hill Road",
+    "unit": null,
+    "lineWithUnit": "381 Chestnut Hill Road",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 3438.0,
+   "price": 1325000.0,
+   "date": "2026-04-10",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.170969,
+    "lng": -73.395882
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.011773846671703,
+   "ppsf": 385.39848749272835
+  },
+  {
+   "mls": "24115022",
+   "slug": "41-mohawk-drive-norwalk-connecticut-24115022",
+   "address": {
+    "line": "41 Mohawk Drive",
+    "unit": null,
+    "lineWithUnit": "41 Mohawk Drive",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 3018.0,
+   "price": 915000.0,
+   "date": "2026-04-22",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.15549,
+    "lng": -73.397826
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7475243752449664,
+   "ppsf": 303.18091451292247
+  },
+  {
+   "mls": "24165342",
+   "slug": "89-bayne-street-norwalk-connecticut-24165342",
+   "address": {
+    "line": "89 Bayne Street",
+    "unit": null,
+    "lineWithUnit": "89 Bayne Street",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2838.0,
+   "price": 836000.0,
+   "date": "2026-06-03",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.156407,
+    "lng": -73.405164
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.826287005696312,
+   "ppsf": 294.5736434108527
+  },
+  {
+   "mls": "24167508",
+   "slug": "16-eastwood-road-norwalk-connecticut-24167508",
+   "address": {
+    "line": "16 Eastwood Road",
+    "unit": null,
+    "lineWithUnit": "16 Eastwood Road",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 5.0,
+   "baths": 4.0,
+   "sqft": 2713.0,
+   "price": 981825.0,
+   "date": "2026-06-24",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.153155,
+    "lng": -73.414642
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.653941409979562,
+   "ppsf": 361.89642462218944
+  },
+  {
+   "mls": "24129813",
+   "slug": "4-frank-street-norwalk-connecticut-24129813",
+   "address": {
+    "line": "4 Frank Street",
+    "unit": null,
+    "lineWithUnit": "4 Frank Street",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 2607.0,
+   "price": 950000.0,
+   "date": "2026-04-07",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.147847,
+    "lng": -73.394463
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.6349085676363346,
+   "ppsf": 364.403528960491
   }
- }
+ ]
 }

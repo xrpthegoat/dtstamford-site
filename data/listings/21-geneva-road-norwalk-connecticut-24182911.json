@@ -134,101 +134,141 @@
    "mi": 1.93
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "3-princes-pine-road-norwalk-connecticut-24185226",
-     "addr": "3 Princes Pine Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 1.0,
-     "sqft": 1125.0,
-     "price": 475000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-05",
-     "ppsf": 422,
-     "mi": 0.3
-    },
-    {
-     "slug": "196-west-norwalk-road-norwalk-connecticut-24172328",
-     "addr": "196 West Norwalk Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 3960.0,
-     "price": 1675000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-01",
-     "ppsf": 423,
-     "mi": 0.38
-    },
-    {
-     "slug": "19-ravenwood-road-norwalk-connecticut-24170267",
-     "addr": "19 Ravenwood Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 2090.0,
-     "price": 815000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-16",
-     "ppsf": 390,
-     "mi": 0.48
-    },
-    {
-     "slug": "7-tommys-lane-norwalk-connecticut-24138869",
-     "addr": "7 Tommys Lane",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 2154.0,
-     "price": 1210000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-02",
-     "ppsf": 562,
-     "mi": 0.48
-    },
-    {
-     "slug": "15-imperial-drive-norwalk-connecticut-24168376",
-     "addr": "15 Imperial Drive",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1248.0,
-     "price": 735000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-18",
-     "ppsf": 589,
-     "mi": 0.51
-    },
-    {
-     "slug": "13-alewives-road-norwalk-connecticut-24179937",
-     "addr": "13 Alewives Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 2175.0,
-     "price": 940000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-02",
-     "ppsf": 432,
-     "mi": 0.53
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 475000.0,
-    "high": 1675000.0,
-    "median": 877500
+ "comps": [
+  {
+   "mls": "24172973",
+   "slug": "2-rising-road-norwalk-connecticut-24172973",
+   "address": {
+    "line": "2 Rising Road",
+    "unit": null,
+    "lineWithUnit": "2 Rising Road",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2660.0,
+   "price": 1025000.0,
+   "date": "2026-07-31",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.110439,
+    "lng": -73.465089
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6926270920869666,
+   "ppsf": 385.3383458646617
+  },
+  {
+   "mls": "24182567",
+   "slug": "130-west-norwalk-road-norwalk-connecticut-24182567",
+   "address": {
+    "line": "130 West Norwalk Road",
+    "unit": null,
+    "lineWithUnit": "130 West Norwalk Road",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 5.0,
+   "baths": 3.0,
+   "sqft": 3188.0,
+   "price": 1350000.0,
+   "date": "2026-07-24",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.102096,
+    "lng": -73.457017
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8402583819818286,
+   "ppsf": 423.4629861982434
+  },
+  {
+   "mls": "24131002",
+   "slug": "150-fillow-street-norwalk-connecticut-24131002",
+   "address": {
+    "line": "150 Fillow Street",
+    "unit": null,
+    "lineWithUnit": "150 Fillow Street",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 4.0,
+   "baths": 2.0,
+   "sqft": 2602.0,
+   "price": 795000.0,
+   "date": "2026-04-01",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.119642,
+    "lng": -73.441027
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.7319055610573642,
+   "ppsf": 305.5342044581092
+  },
+  {
+   "mls": "24154775",
+   "slug": "18-oakhill-avenue-norwalk-connecticut-24154775",
+   "address": {
+    "line": "18 Oakhill Avenue",
+    "unit": null,
+    "lineWithUnit": "18 Oakhill Avenue",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 4.0,
+   "baths": 2.0,
+   "sqft": 3084.0,
+   "price": 910000.0,
+   "date": "2026-03-24",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.094415,
+    "lng": -73.440078
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.203285503572947,
+   "ppsf": 295.07133592736704
+  },
+  {
+   "mls": "24152824",
+   "slug": "37-glen-avenue-norwalk-connecticut-24152824",
+   "address": {
+    "line": "37 Glen Avenue",
+    "unit": null,
+    "lineWithUnit": "37 Glen Avenue",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 2929.0,
+   "price": 805000.0,
+   "date": "2026-03-16",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.12993,
+    "lng": -73.451546
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.298785228512433,
+   "ppsf": 274.8378286104473
   }
- }
+ ]
 }

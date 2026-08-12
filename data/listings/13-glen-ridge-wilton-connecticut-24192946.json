@@ -141,100 +141,141 @@
    "walk": 8
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "7-glen-ridge-wilton-connecticut-24161063",
-     "addr": "7 Glen Ridge Unit 7",
-     "unit": "Unit 7",
-     "beds": 2.0,
-     "baths": 3.0,
-     "sqft": 1255.0,
-     "price": 685000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-23",
-     "ppsf": 546,
-     "mi": 0.07
-    },
-    {
-     "slug": "40-village-walk-wilton-connecticut-24166620",
-     "addr": "40 Village Walk Unit 40",
-     "unit": "Unit 40",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1088.0,
-     "price": 480000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-20",
-     "ppsf": 441,
-     "mi": 0.09
-    },
-    {
-     "slug": "43-village-walk-wilton-connecticut-24166404",
-     "addr": "43 Village Walk Unit 43",
-     "unit": "Unit 43",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1088.0,
-     "price": 490000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-23",
-     "ppsf": 450,
-     "mi": 0.09
-    },
-    {
-     "slug": "70-wilton-crest-wilton-connecticut-24180060",
-     "addr": "70 Wilton Crest Unit 70",
-     "unit": "Unit 70",
-     "beds": 2.0,
-     "baths": 3.0,
-     "sqft": 1449.0,
-     "price": 657000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-24",
-     "ppsf": 453,
-     "mi": 0.26
-    },
-    {
-     "slug": "85-wilton-crest-wilton-connecticut-24169581",
-     "addr": "85 Wilton Crest Unit 85",
-     "unit": "Unit 85",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 910.0,
-     "price": 425000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-29",
-     "ppsf": 467,
-     "mi": 0.28
-    },
-    {
-     "slug": "66-glen-view-wilton-connecticut-24188536",
-     "addr": "66 Glen View Unit 66",
-     "unit": "Unit 66",
-     "beds": 2.0,
-     "baths": 3.0,
-     "sqft": 1320.0,
-     "price": 765000.0,
-     "kind": "asking",
-     "status": "Under Contract - Continue to Show",
-     "ppsf": 580,
-     "mi": 0.02
-    }
-   ],
-   "summary": {
-    "n": 5,
-    "low": 425000.0,
-    "high": 685000.0,
-    "median": 490000
+ "comps": [
+  {
+   "mls": "24161063",
+   "slug": "7-glen-ridge-wilton-connecticut-24161063",
+   "address": {
+    "line": "7 Glen Ridge",
+    "unit": "Unit 7",
+    "lineWithUnit": "7 Glen Ridge Unit 7",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 1255.0,
+   "price": 685000.0,
+   "date": "2026-04-23",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.185063,
+    "lng": -73.429601
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.1093280497723292,
+   "ppsf": 545.816733067729
+  },
+  {
+   "mls": "24166404",
+   "slug": "43-village-walk-wilton-connecticut-24166404",
+   "address": {
+    "line": "43 Village Walk",
+    "unit": "Unit 43",
+    "lineWithUnit": "43 Village Walk Unit 43",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1088.0,
+   "price": 490000.0,
+   "date": "2026-06-23",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.186819,
+    "lng": -73.431511
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.14991041690504187,
+   "ppsf": 450.36764705882354
+  },
+  {
+   "mls": "24166620",
+   "slug": "40-village-walk-wilton-connecticut-24166620",
+   "address": {
+    "line": "40 Village Walk",
+    "unit": "Unit 40",
+    "lineWithUnit": "40 Village Walk Unit 40",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1088.0,
+   "price": 480000.0,
+   "date": "2026-07-20",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.186807,
+    "lng": -73.431423
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.14342031717930134,
+   "ppsf": 441.1764705882353
+  },
+  {
+   "mls": "24180060",
+   "slug": "70-wilton-crest-wilton-connecticut-24180060",
+   "address": {
+    "line": "70 Wilton Crest",
+    "unit": "Unit 70",
+    "lineWithUnit": "70 Wilton Crest Unit 70",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 1449.0,
+   "price": 657000.0,
+   "date": "2026-07-24",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.184384,
+    "lng": -73.425581
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.4189882171498639,
+   "ppsf": 453.41614906832297
+  },
+  {
+   "mls": "24169581",
+   "slug": "85-wilton-crest-wilton-connecticut-24169581",
+   "address": {
+    "line": "85 Wilton Crest",
+    "unit": "Unit 85",
+    "lineWithUnit": "85 Wilton Crest Unit 85",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 910.0,
+   "price": 425000.0,
+   "date": "2026-05-29",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.184,
+    "lng": -73.42552
+   },
+   "klass": "condo",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 0.4430338882434797,
+   "ppsf": 467.032967032967
   }
- }
+ ]
 }

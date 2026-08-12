@@ -126,86 +126,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "40-cerretta-street-stamford-connecticut-24171221",
-     "addr": "40 Cerretta Street Unit 16D",
-     "unit": "Unit 16D",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 660.0,
-     "price": 315000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-17",
-     "ppsf": 477,
-     "mi": 0.28
-    },
-    {
-     "slug": "27-northill-street-stamford-connecticut-24175257",
-     "addr": "27 Northill Street Unit 2B",
-     "unit": "Unit 2B",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 600.0,
-     "price": 225000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-28",
-     "ppsf": 375,
-     "mi": 0.63
-    },
-    {
-     "slug": "27-northill-street-stamford-connecticut-24176083",
-     "addr": "27 Northill Street Unit 1P",
-     "unit": "Unit 1P",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 706.0,
-     "price": 281000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-10",
-     "ppsf": 398,
-     "mi": 0.67
-    },
-    {
-     "slug": "970-hope-street-stamford-connecticut-24162865",
-     "addr": "970 Hope Street Unit 5E",
-     "unit": "Unit 5E",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 860.0,
-     "price": 340000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-18",
-     "ppsf": 395,
-     "mi": 0.69
-    },
-    {
-     "slug": "970-hope-street-stamford-connecticut-24171555",
-     "addr": "970 Hope Street Unit 3D",
-     "unit": "Unit 3D",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 844.0,
-     "price": 339000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 402,
-     "mi": 0.69
-    }
-   ],
-   "summary": {
-    "n": 4,
-    "low": 225000.0,
-    "high": 340000.0,
-    "median": 298000
+ "comps": [
+  {
+   "mls": "24175257",
+   "slug": "27-northill-street-stamford-connecticut-24175257",
+   "address": {
+    "line": "27 Northill Street",
+    "unit": "Unit 2B",
+    "lineWithUnit": "27 Northill Street Unit 2B",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06907"
    },
-   "radiusMi": 0.75
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 600.0,
+   "price": 225000.0,
+   "date": "2026-07-28",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.09355,
+    "lng": -73.519368
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.012487789350082,
+   "ppsf": 375.0
+  },
+  {
+   "mls": "24171221",
+   "slug": "40-cerretta-street-stamford-connecticut-24171221",
+   "address": {
+    "line": "40 Cerretta Street",
+    "unit": "Unit 16D",
+    "lineWithUnit": "40 Cerretta Street Unit 16D",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06907"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 660.0,
+   "price": 315000.0,
+   "date": "2026-07-17",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.097049,
+    "lng": -73.513762
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.44327266722063763,
+   "ppsf": 477.27272727272725
+  },
+  {
+   "mls": "24176083",
+   "slug": "27-northill-street-stamford-connecticut-24176083",
+   "address": {
+    "line": "27 Northill Street",
+    "unit": "Unit 1P",
+    "lineWithUnit": "27 Northill Street Unit 1P",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06907"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 706.0,
+   "price": 281000.0,
+   "date": "2026-08-10",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.09315,
+    "lng": -73.519949
+   },
+   "klass": "condo",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.077338504080934,
+   "ppsf": 398.0169971671388
+  },
+  {
+   "mls": "24156278",
+   "slug": "11-belltown-road-stamford-connecticut-24156278",
+   "address": {
+    "line": "11 Belltown Road",
+    "unit": "Apt 1",
+    "lineWithUnit": "11 Belltown Road Apt 1",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 700.0,
+   "price": 257254.0,
+   "date": "2026-05-12",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.076278,
+    "lng": -73.530861
+   },
+   "klass": "condo",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 3.1502593697577024,
+   "ppsf": 367.5057142857143
+  },
+  {
+   "mls": "24148008",
+   "slug": "700-summer-street-stamford-connecticut-24148008",
+   "address": {
+    "line": "700 Summer Street",
+    "unit": "Unit 6G",
+    "lineWithUnit": "700 Summer Street Unit 6G",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06901"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 478.0,
+   "price": 245000.0,
+   "date": "2026-06-10",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.057985,
+    "lng": -73.540723
+   },
+   "klass": "condo",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 5.33409526943976,
+   "ppsf": 512.5523012552301
   }
- }
+ ]
 }

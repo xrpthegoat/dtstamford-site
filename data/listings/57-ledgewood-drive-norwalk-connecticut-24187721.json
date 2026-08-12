@@ -133,101 +133,141 @@
    "mi": 1.11
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "32-styles-lane-norwalk-connecticut-24168706",
-     "addr": "32 Styles Lane",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2848.0,
-     "price": 900000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-16",
-     "ppsf": 316,
-     "mi": 0.16
-    },
-    {
-     "slug": "41-ledgewood-drive-norwalk-connecticut-24182589",
-     "addr": "41 Ledgewood Drive",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 1832.0,
-     "price": 750000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-10",
-     "ppsf": 409,
-     "mi": 0.17
-    },
-    {
-     "slug": "11-lycett-court-norwalk-connecticut-24184912",
-     "addr": "11 Lycett Court",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 1925.0,
-     "price": 665000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-05",
-     "ppsf": 345,
-     "mi": 0.19
-    },
-    {
-     "slug": "18-kreiner-lane-norwalk-connecticut-24171646",
-     "addr": "18 Kreiner Lane",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2204.0,
-     "price": 952000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-29",
-     "ppsf": 432,
-     "mi": 0.21
-    },
-    {
-     "slug": "33-purdy-road-east-norwalk-connecticut-24147515",
-     "addr": "33 Purdy Road East",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2361.0,
-     "price": 890000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-16",
-     "ppsf": 377,
-     "mi": 0.33
-    },
-    {
-     "slug": "103-ponus-avenue-norwalk-connecticut-24169442",
-     "addr": "103 Ponus Avenue",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2702.0,
-     "price": 900000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-05",
-     "ppsf": 333,
-     "mi": 0.34
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 665000.0,
-    "high": 952000.0,
-    "median": 895000
+ "comps": [
+  {
+   "mls": "24147515",
+   "slug": "33-purdy-road-east-norwalk-connecticut-24147515",
+   "address": {
+    "line": "33 Purdy Road East",
+    "unit": null,
+    "lineWithUnit": "33 Purdy Road East",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2361.0,
+   "price": 890000.0,
+   "date": "2026-03-16",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.134527,
+    "lng": -73.447078
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5335965189202897,
+   "ppsf": 376.95891571368065
+  },
+  {
+   "mls": "24152824",
+   "slug": "37-glen-avenue-norwalk-connecticut-24152824",
+   "address": {
+    "line": "37 Glen Avenue",
+    "unit": null,
+    "lineWithUnit": "37 Glen Avenue",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 2929.0,
+   "price": 805000.0,
+   "date": "2026-03-16",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.12993,
+    "lng": -73.451546
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5891401624736052,
+   "ppsf": 274.8378286104473
+  },
+  {
+   "mls": "24171646",
+   "slug": "18-kreiner-lane-norwalk-connecticut-24171646",
+   "address": {
+    "line": "18 Kreiner Lane",
+    "unit": null,
+    "lineWithUnit": "18 Kreiner Lane",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2204.0,
+   "price": 952000.0,
+   "date": "2026-06-29",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.132828,
+    "lng": -73.4428
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.3323875708793216,
+   "ppsf": 431.9419237749546
+  },
+  {
+   "mls": "24153590",
+   "slug": "153-fillow-street-norwalk-connecticut-24153590",
+   "address": {
+    "line": "153 Fillow Street",
+    "unit": null,
+    "lineWithUnit": "153 Fillow Street",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2409.0,
+   "price": 1025000.0,
+   "date": "2026-05-14",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.119785,
+    "lng": -73.442338
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1650303068503303,
+   "ppsf": 425.48775425487753
+  },
+  {
+   "mls": "24165609",
+   "slug": "140-ponus-avenue-norwalk-connecticut-24165609",
+   "address": {
+    "line": "140 Ponus Avenue",
+    "unit": null,
+    "lineWithUnit": "140 Ponus Avenue",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2200.0,
+   "price": 760000.0,
+   "date": "2026-05-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.125228,
+    "lng": -73.448474
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6382139479160833,
+   "ppsf": 345.45454545454544
   }
- }
+ ]
 }

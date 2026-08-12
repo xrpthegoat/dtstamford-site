@@ -123,44 +123,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "26-high-street-westport-connecticut-24182493",
-     "addr": "26 High Street",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1440.0,
-     "price": 6350.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-01",
-     "ppsf": 4,
-     "mi": 0.49
-    },
-    {
-     "slug": "18-hales-road-westport-connecticut-24193607",
-     "addr": "18 Hales Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1492.0,
-     "price": 5900.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 4,
-     "mi": 0.5
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 6350.0,
-    "high": 6350.0,
-    "median": 6350
+ "comps": [
+  {
+   "mls": "24154074",
+   "slug": "63-valley-road-westport-connecticut-24154074",
+   "address": {
+    "line": "63 Valley Road",
+    "unit": null,
+    "lineWithUnit": "63 Valley Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1342.0,
+   "price": 4800.0,
+   "date": "2026-03-15",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.125946,
+    "lng": -73.353699
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5794743323848872,
+   "ppsf": 3.5767511177347244
+  },
+  {
+   "mls": "24163215",
+   "slug": "11-beechwood-lane-westport-connecticut-24163215",
+   "address": {
+    "line": "11 Beechwood Lane",
+    "unit": null,
+    "lineWithUnit": "11 Beechwood Lane",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 1886.0,
+   "price": 6500.0,
+   "date": "2026-06-06",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.13561,
+    "lng": -73.34497
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7845532816423192,
+   "ppsf": 3.4464475079533403
+  },
+  {
+   "mls": "24161167",
+   "slug": "18a-hillandale-road-westport-connecticut-24161167",
+   "address": {
+    "line": "18a Hillandale Road",
+    "unit": null,
+    "lineWithUnit": "18a Hillandale Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 1500.0,
+   "price": 3900.0,
+   "date": "2026-05-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.135567,
+    "lng": -73.33841
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0921683825963429,
+   "ppsf": 2.6
+  },
+  {
+   "mls": "24182493",
+   "slug": "26-high-street-westport-connecticut-24182493",
+   "address": {
+    "line": "26 High Street",
+    "unit": null,
+    "lineWithUnit": "26 High Street",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1440.0,
+   "price": 6350.0,
+   "date": "2026-08-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.12364,
+    "lng": -73.354428
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7963154344703552,
+   "ppsf": 4.409722222222222
+  },
+  {
+   "mls": "24125469",
+   "slug": "19-soundview-drive-westport-connecticut-24125469",
+   "address": {
+    "line": "19 Soundview Drive",
+    "unit": null,
+    "lineWithUnit": "19 Soundview Drive",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 1692.0,
+   "price": 49900.0,
+   "date": "2026-06-05",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.107327,
+    "lng": -73.34997
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.4091317751464625,
+   "ppsf": 29.491725768321512
   }
- }
+ ]
 }

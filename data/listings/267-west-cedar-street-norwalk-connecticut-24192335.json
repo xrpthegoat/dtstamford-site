@@ -134,101 +134,141 @@
    "mi": 1.32
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "11-ledgebrook-drive-norwalk-connecticut-24155958",
-     "addr": "11 Ledgebrook Drive Unit 11",
-     "unit": "Unit 11",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1173.0,
-     "price": 490000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-05",
-     "ppsf": 418,
-     "mi": 0.25
-    },
-    {
-     "slug": "192-gillies-lane-norwalk-connecticut-24151426",
-     "addr": "192 Gillies Lane Unit 192",
-     "unit": "Unit 192",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1662.0,
-     "price": 525000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-27",
-     "ppsf": 316,
-     "mi": 0.3
-    },
-    {
-     "slug": "76-gillies-lane-norwalk-connecticut-24167486",
-     "addr": "76 Gillies Lane Unit 76",
-     "unit": "Unit 76",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1525.0,
-     "price": 565000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-30",
-     "ppsf": 370,
-     "mi": 0.43
-    },
-    {
-     "slug": "1-horizon-drive-norwalk-connecticut-24165319",
-     "addr": "1 Horizon Drive Unit 28",
-     "unit": "Unit 28",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1258.0,
-     "price": 440000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-01",
-     "ppsf": 350,
-     "mi": 0.44
-    },
-    {
-     "slug": "92-ledgebrook-drive-norwalk-connecticut-24159844",
-     "addr": "92 Ledgebrook Drive Unit 92",
-     "unit": "Unit 92",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 1095.0,
-     "price": 493000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-22",
-     "ppsf": 450,
-     "mi": 0.48
-    },
-    {
-     "slug": "41-nash-place-norwalk-connecticut-24155217",
-     "addr": "41 Nash Place Unit B",
-     "unit": "Unit B",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1110.0,
-     "price": 430000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-15",
-     "ppsf": 387,
-     "mi": 0.63
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 430000.0,
-    "high": 565000.0,
-    "median": 491500
+ "comps": [
+  {
+   "mls": "24151398",
+   "slug": "105-richards-avenue-norwalk-connecticut-24151398",
+   "address": {
+    "line": "105 Richards Avenue",
+    "unit": "Unit 1407",
+    "lineWithUnit": "105 Richards Avenue Unit 1407",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1096.0,
+   "price": 462500.0,
+   "date": "2026-03-24",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.096504,
+    "lng": -73.452328
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0678140557571865,
+   "ppsf": 421.9890510948905
+  },
+  {
+   "mls": "24152954",
+   "slug": "14-ferris-avenue-norwalk-connecticut-24152954",
+   "address": {
+    "line": "14 Ferris Avenue",
+    "unit": "Apt 9",
+    "lineWithUnit": "14 Ferris Avenue Apt 9",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1040.0,
+   "price": 385000.0,
+   "date": "2026-03-17",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.10654,
+    "lng": -73.42906
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1903379811372268,
+   "ppsf": 370.1923076923077
+  },
+  {
+   "mls": "24155217",
+   "slug": "41-nash-place-norwalk-connecticut-24155217",
+   "address": {
+    "line": "41 Nash Place",
+    "unit": "Unit B",
+    "lineWithUnit": "41 Nash Place Unit B",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1110.0,
+   "price": 430000.0,
+   "date": "2026-04-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.110085,
+    "lng": -73.43599
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0171232675221944,
+   "ppsf": 387.3873873873874
+  },
+  {
+   "mls": "24155958",
+   "slug": "11-ledgebrook-drive-norwalk-connecticut-24155958",
+   "address": {
+    "line": "11 Ledgebrook Drive",
+    "unit": "Unit 11",
+    "lineWithUnit": "11 Ledgebrook Drive Unit 11",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1173.0,
+   "price": 490000.0,
+   "date": "2026-05-05",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.105778,
+    "lng": -73.441442
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.4070151668417355,
+   "ppsf": 417.73231031543054
+  },
+  {
+   "mls": "24159844",
+   "slug": "92-ledgebrook-drive-norwalk-connecticut-24159844",
+   "address": {
+    "line": "92 Ledgebrook Drive",
+    "unit": "Unit 92",
+    "lineWithUnit": "92 Ledgebrook Drive Unit 92",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 1095.0,
+   "price": 493000.0,
+   "date": "2026-04-22",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.10825,
+    "lng": -73.43763
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7720056599481847,
+   "ppsf": 450.2283105022831
   }
- }
+ ]
 }

@@ -127,98 +127,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "36-village-drive-new-canaan-connecticut-24151120",
-     "addr": "36 Village Drive",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 2196.0,
-     "price": 1650000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-27",
-     "ppsf": 751,
-     "mi": 0.24
-    },
-    {
-     "slug": "42-old-stamford-road-new-canaan-connecticut-24165503",
-     "addr": "42 Old Stamford Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 2132.0,
-     "price": 1955000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-24",
-     "ppsf": 917,
-     "mi": 0.69
-    },
-    {
-     "slug": "788-south-avenue-new-canaan-connecticut-24166805",
-     "addr": "788 South Avenue",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 3143.0,
-     "price": 1800000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-21",
-     "ppsf": 573,
-     "mi": 0.75
-    },
-    {
-     "slug": "19-s-down-river-road-new-canaan-connecticut-24195555",
-     "addr": "19 S Down River Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1440.0,
-     "price": 1095000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 760,
-     "mi": 0.53
-    },
-    {
-     "slug": "36-mortimer-street-new-canaan-connecticut-24179113",
-     "addr": "36 Mortimer Street",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 2170.0,
-     "price": 1795000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 827,
-     "mi": 0.57
-    },
-    {
-     "slug": "211-old-norwalk-road-new-canaan-connecticut-24185717",
-     "addr": "211 Old Norwalk Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 2564.0,
-     "price": 1550000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 605,
-     "mi": 0.66
-    }
-   ],
-   "summary": {
-    "n": 3,
-    "low": 1650000.0,
-    "high": 1955000.0,
-    "median": 1800000
+ "comps": [
+  {
+   "mls": "24161493",
+   "slug": "34-horton-lane-new-canaan-connecticut-24161493",
+   "address": {
+    "line": "34 Horton Lane",
+    "unit": null,
+    "lineWithUnit": "34 Horton Lane",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 3512.0,
+   "price": 2725000.0,
+   "date": "2026-07-13",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.126602,
+    "lng": -73.475565
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8631656270336807,
+   "ppsf": 775.9111617312072
+  },
+  {
+   "mls": "24156389",
+   "slug": "6-field-crest-road-new-canaan-connecticut-24156389",
+   "address": {
+    "line": "6 Field Crest Road",
+    "unit": null,
+    "lineWithUnit": "6 Field Crest Road",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2442.0,
+   "price": 1866800.0,
+   "date": "2026-06-26",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.132884,
+    "lng": -73.486434
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.295506018890645,
+   "ppsf": 764.4553644553645
+  },
+  {
+   "mls": "24169480",
+   "slug": "254-white-oak-shade-road-new-canaan-connecticut-24169480",
+   "address": {
+    "line": "254 White Oak Shade Road",
+    "unit": null,
+    "lineWithUnit": "254 White Oak Shade Road",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2461.0,
+   "price": 2275000.0,
+   "date": "2026-06-10",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.128999,
+    "lng": -73.473693
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8559068892100461,
+   "ppsf": 924.4209670865501
+  },
+  {
+   "mls": "24170801",
+   "slug": "33-village-drive-new-canaan-connecticut-24170801",
+   "address": {
+    "line": "33 Village Drive",
+    "unit": null,
+    "lineWithUnit": "33 Village Drive",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 5.0,
+   "baths": 3.0,
+   "sqft": 3109.0,
+   "price": 2300000.0,
+   "date": "2026-07-10",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.13473,
+    "lng": -73.48532
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.3697251196146802,
+   "ppsf": 739.787713091026
+  },
+  {
+   "mls": "24157134",
+   "slug": "105-white-oak-shade-road-new-canaan-connecticut-24157134",
+   "address": {
+    "line": "105 White Oak Shade Road",
+    "unit": null,
+    "lineWithUnit": "105 White Oak Shade Road",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 3744.0,
+   "price": 3500000.0,
+   "date": "2026-04-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.132586,
+    "lng": -73.479352
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.33408340596436237,
+   "ppsf": 934.8290598290598
   }
- }
+ ]
 }

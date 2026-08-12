@@ -132,51 +132,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "189-shore-road-greenwich-connecticut-24157191",
-     "addr": "189 Shore Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 4262.0,
-     "price": 8750000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 2053,
-     "mi": 0.15
-    },
-    {
-     "slug": "67-benjamin-street-greenwich-connecticut-24189215",
-     "addr": "67 Benjamin Street",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2346.0,
-     "price": 2995000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 1277,
-     "mi": 0.62
-    },
-    {
-     "slug": "greenwich-connecticut-24162737",
-     "addr": null,
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2965.0,
-     "price": 3850000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 1298,
-     "mi": 0.72
-    }
-   ],
-   "summary": null,
-   "radiusMi": 0.75
+ "comps": [
+  {
+   "mls": "24159830",
+   "slug": "13-mortimer-drive-greenwich-connecticut-24159830",
+   "address": {
+    "line": "13 Mortimer Drive",
+    "unit": null,
+    "lineWithUnit": "13 Mortimer Drive",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06870"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1717.0,
+   "price": 2300000.0,
+   "date": "2026-07-17",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.027075,
+    "lng": -73.570387
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.3006958106360174,
+   "ppsf": 1339.5457192778101
+  },
+  {
+   "mls": "24161971",
+   "slug": "8-willow-lane-greenwich-connecticut-24161971",
+   "address": {
+    "line": "8 Willow Lane",
+    "unit": null,
+    "lineWithUnit": "8 Willow Lane",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06870"
+   },
+   "beds": 4.0,
+   "baths": 2.0,
+   "sqft": 1944.0,
+   "price": 2410000.0,
+   "date": "2026-05-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.027182,
+    "lng": -73.568454
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.2647670755537244,
+   "ppsf": 1239.7119341563787
+  },
+  {
+   "mls": "24150539",
+   "slug": "105-glenville-street-greenwich-connecticut-24150539",
+   "address": {
+    "line": "105 Glenville Street",
+    "unit": null,
+    "lineWithUnit": "105 Glenville Street",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06831"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1713.0,
+   "price": 977500.0,
+   "date": "2026-03-17",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.03328,
+    "lng": -73.671593
+   },
+   "klass": "house",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 9.146422941320838,
+   "ppsf": 570.636310566258
+  },
+  {
+   "mls": "24112915",
+   "slug": "33-halsey-drive-greenwich-connecticut-24112915",
+   "address": {
+    "line": "33 Halsey Drive",
+    "unit": null,
+    "lineWithUnit": "33 Halsey Drive",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06870"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1481.0,
+   "price": 1410000.0,
+   "date": "2026-07-01",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.050455,
+    "lng": -73.570632
+   },
+   "klass": "house",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 3.8477161541221063,
+   "ppsf": 952.0594193112762
+  },
+  {
+   "mls": "24157235",
+   "slug": "21-zygmont-lane-greenwich-connecticut-24157235",
+   "address": {
+    "line": "21 Zygmont Lane",
+    "unit": null,
+    "lineWithUnit": "21 Zygmont Lane",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06831"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2077.0,
+   "price": 1850000.0,
+   "date": "2026-06-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.141861,
+    "lng": -73.634513
+   },
+   "klass": "house",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 15.14874450709432,
+   "ppsf": 890.7077515647569
   }
- }
+ ]
 }

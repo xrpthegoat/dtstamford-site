@@ -117,86 +117,141 @@
    "mi": 0.73
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "97-ogden-road-stamford-connecticut-24169855",
-     "addr": "97 Ogden Road",
-     "unit": "",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1134.0,
-     "price": 644000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-15",
-     "ppsf": 568,
-     "mi": 0.19
-    },
-    {
-     "slug": "20-norman-road-stamford-connecticut-24144289",
-     "addr": "20 Norman Road",
-     "unit": "",
-     "beds": 2.0,
-     "baths": 3.0,
-     "sqft": 2932.0,
-     "price": 900000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-30",
-     "ppsf": 307,
-     "mi": 0.57
-    },
-    {
-     "slug": "62-bellmere-avenue-stamford-connecticut-24183651",
-     "addr": "62 Bellmere Avenue",
-     "unit": "",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1506.0,
-     "price": 700000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-24",
-     "ppsf": 465,
-     "mi": 0.63
-    },
-    {
-     "slug": "71-deleo-drive-stamford-connecticut-24129919",
-     "addr": "71 Deleo Drive",
-     "unit": "",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1357.0,
-     "price": 665000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-06",
-     "ppsf": 490,
-     "mi": 0.7
-    },
-    {
-     "slug": "19-pine-tree-drive-stamford-connecticut-24182692",
-     "addr": "19 Pine Tree Drive",
-     "unit": "",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1580.0,
-     "price": 895000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 566,
-     "mi": 0.59
-    }
-   ],
-   "summary": {
-    "n": 4,
-    "low": 644000.0,
-    "high": 900000.0,
-    "median": 682500
+ "comps": [
+  {
+   "mls": "24129919",
+   "slug": "71-deleo-drive-stamford-connecticut-24129919",
+   "address": {
+    "line": "71 Deleo Drive",
+    "unit": null,
+    "lineWithUnit": "71 Deleo Drive",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06906"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1357.0,
+   "price": 665000.0,
+   "date": "2026-04-06",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.076479,
+    "lng": -73.526643
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1306852887984684,
+   "ppsf": 490.0515843773029
+  },
+  {
+   "mls": "24164817",
+   "slug": "190-toms-road-stamford-connecticut-24164817",
+   "address": {
+    "line": "190 Toms Road",
+    "unit": null,
+    "lineWithUnit": "190 Toms Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06906"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1800.0,
+   "price": 750000.0,
+   "date": "2026-06-18",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.078549,
+    "lng": -73.530545
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7548144073788554,
+   "ppsf": 416.6666666666667
+  },
+  {
+   "mls": "24170208",
+   "slug": "130-toms-road-stamford-connecticut-24170208",
+   "address": {
+    "line": "130 Toms Road",
+    "unit": null,
+    "lineWithUnit": "130 Toms Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06906"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1416.0,
+   "price": 700000.0,
+   "date": "2026-06-10",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.078676,
+    "lng": -73.527818
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.978577452693728,
+   "ppsf": 494.3502824858757
+  },
+  {
+   "mls": "24174137",
+   "slug": "101-hirsch-road-stamford-connecticut-24174137",
+   "address": {
+    "line": "101 Hirsch Road",
+    "unit": null,
+    "lineWithUnit": "101 Hirsch Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1812.0,
+   "price": 880000.0,
+   "date": "2026-06-23",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.081553,
+    "lng": -73.538622
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.2072310273982586,
+   "ppsf": 485.6512141280353
+  },
+  {
+   "mls": "24154996",
+   "slug": "102-hirsch-road-stamford-connecticut-24154996",
+   "address": {
+    "line": "102 Hirsch Road",
+    "unit": null,
+    "lineWithUnit": "102 Hirsch Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1526.0,
+   "price": 820000.0,
+   "date": "2026-04-01",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.081163,
+    "lng": -73.538666
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.16521933605004763,
+   "ppsf": 537.3525557011795
   }
- }
+ ]
 }

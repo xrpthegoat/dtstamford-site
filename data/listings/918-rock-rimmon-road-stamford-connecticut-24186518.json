@@ -115,58 +115,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "46-breezy-hill-road-stamford-connecticut-24170427",
-     "addr": "46 Breezy Hill Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 4.0,
-     "sqft": 5902.0,
-     "price": 1450000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-01",
-     "ppsf": 246,
-     "mi": 0.23
-    },
-    {
-     "slug": "95-saddle-hill-road-stamford-connecticut-24168378",
-     "addr": "95 Saddle Hill Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 4.0,
-     "sqft": 3892.0,
-     "price": 1450000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-12",
-     "ppsf": 373,
-     "mi": 0.7
-    },
-    {
-     "slug": "171-blackberry-drive-stamford-connecticut-24174457",
-     "addr": "171 Blackberry Drive",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 3.0,
-     "sqft": 3908.0,
-     "price": 1200000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 307,
-     "mi": 0.52
-    }
-   ],
-   "summary": {
-    "n": 2,
-    "low": 1450000.0,
-    "high": 1450000.0,
-    "median": 1450000
+ "comps": [
+  {
+   "mls": "24161008",
+   "slug": "81-ridge-brook-drive-stamford-connecticut-24161008",
+   "address": {
+    "line": "81 Ridge Brook Drive",
+    "unit": null,
+    "lineWithUnit": "81 Ridge Brook Drive",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 3316.0,
+   "price": 1178925.0,
+   "date": "2026-06-01",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.155472,
+    "lng": -73.579246
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5885225752069144,
+   "ppsf": 355.526236429433
+  },
+  {
+   "mls": "24168378",
+   "slug": "95-saddle-hill-road-stamford-connecticut-24168378",
+   "address": {
+    "line": "95 Saddle Hill Road",
+    "unit": null,
+    "lineWithUnit": "95 Saddle Hill Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
+   },
+   "beds": 5.0,
+   "baths": 4.0,
+   "sqft": 3892.0,
+   "price": 1450000.0,
+   "date": "2026-06-12",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.151241,
+    "lng": -73.575238
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1216269024825714,
+   "ppsf": 372.55909558067833
+  },
+  {
+   "mls": "24152881",
+   "slug": "5-old-wagon-road-stamford-connecticut-24152881",
+   "address": {
+    "line": "5 Old Wagon Road",
+    "unit": null,
+    "lineWithUnit": "5 Old Wagon Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2890.0,
+   "price": 1025800.0,
+   "date": "2026-03-31",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.146531,
+    "lng": -73.59411
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.9895195749751429,
+   "ppsf": 354.94809688581313
+  },
+  {
+   "mls": "24150843",
+   "slug": "10-heritage-lane-stamford-connecticut-24150843",
+   "address": {
+    "line": "10 Heritage Lane",
+    "unit": null,
+    "lineWithUnit": "10 Heritage Lane",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 3240.0,
+   "price": 1300000.0,
+   "date": "2026-05-04",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.141935,
+    "lng": -73.570168
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.239393639608622,
+   "ppsf": 401.2345679012346
+  },
+  {
+   "mls": "24158856",
+   "slug": "202-fox-ridge-road-stamford-connecticut-24158856",
+   "address": {
+    "line": "202 Fox Ridge Road",
+    "unit": null,
+    "lineWithUnit": "202 Fox Ridge Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 3202.0,
+   "price": 1394000.0,
+   "date": "2026-05-07",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.145239,
+    "lng": -73.580351
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.7260686786066608,
+   "ppsf": 435.3529044347283
   }
- }
+ ]
 }

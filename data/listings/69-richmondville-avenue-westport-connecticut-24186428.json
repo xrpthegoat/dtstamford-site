@@ -127,63 +127,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "building": {
-   "rows": [
-    {
-     "slug": "69-richmondville-avenue-westport-connecticut-24180825",
-     "addr": "69 Richmondville Avenue",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 4.0,
-     "sqft": 3998.0,
-     "price": 20000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 5
-    }
-   ],
-   "summary": null,
-   "label": "69 Richmondville Avenue"
-  },
-  "area": {
-   "rows": [
-    {
-     "slug": "5-tall-trees-drive-westport-connecticut-24155697",
-     "addr": "5 Tall Trees Drive",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 3.0,
-     "sqft": 2729.0,
-     "price": 7750.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-15",
-     "ppsf": 3,
-     "mi": 0.6
-    },
-    {
-     "slug": "11-partrick-lane-westport-connecticut-24156532",
-     "addr": "11 Partrick Lane",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 4.0,
-     "sqft": 3389.0,
-     "price": 11300.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-23",
-     "ppsf": 3,
-     "mi": 0.71
-    }
-   ],
-   "summary": {
-    "n": 2,
-    "low": 7750.0,
-    "high": 11300.0,
-    "median": 9525
+ "comps": [
+  {
+   "mls": "24156532",
+   "slug": "11-partrick-lane-westport-connecticut-24156532",
+   "address": {
+    "line": "11 Partrick Lane",
+    "unit": null,
+    "lineWithUnit": "11 Partrick Lane",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
    },
-   "radiusMi": 0.75
+   "beds": 5.0,
+   "baths": 4.0,
+   "sqft": 3389.0,
+   "price": 11300.0,
+   "date": "2026-03-23",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.152204,
+    "lng": -73.378984
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1479581670016097,
+   "ppsf": 3.334316907642372
+  },
+  {
+   "mls": "24170995",
+   "slug": "28-oak-street-westport-connecticut-24170995",
+   "address": {
+    "line": "28 Oak Street",
+    "unit": null,
+    "lineWithUnit": "28 Oak Street",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 6.0,
+   "baths": 6.0,
+   "sqft": 4742.0,
+   "price": 35000.0,
+   "date": "2026-06-25",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.157807,
+    "lng": -73.362873
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.3393168392930826,
+   "ppsf": 7.3808519611978065
+  },
+  {
+   "mls": "24149288",
+   "slug": "174a-post-road-west-westport-connecticut-24149288",
+   "address": {
+    "line": "174A Post Road West",
+    "unit": null,
+    "lineWithUnit": "174A Post Road West",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 3678.0,
+   "price": 5800.0,
+   "date": "2026-04-14",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.137492,
+    "lng": -73.369692
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.1572965453347472,
+   "ppsf": 1.5769439912996193
+  },
+  {
+   "mls": "24151405",
+   "slug": "47-woodside-avenue-westport-connecticut-24151405",
+   "address": {
+    "line": "47 Woodside Avenue",
+    "unit": null,
+    "lineWithUnit": "47 Woodside Avenue",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 3.0,
+   "baths": 4.0,
+   "sqft": 3815.0,
+   "price": 33000.0,
+   "date": "2026-04-02",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.141438,
+    "lng": -73.376236
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.8822555204680453,
+   "ppsf": 8.650065530799475
+  },
+  {
+   "mls": "24169311",
+   "slug": "12-burr-road-westport-connecticut-24169311",
+   "address": {
+    "line": "12 Burr Road",
+    "unit": null,
+    "lineWithUnit": "12 Burr Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 3.0,
+   "baths": 4.0,
+   "sqft": 3310.0,
+   "price": 7500.0,
+   "date": "2026-04-30",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.136353,
+    "lng": -73.36648
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.26921666302451,
+   "ppsf": 2.2658610271903323
   }
- }
+ ]
 }

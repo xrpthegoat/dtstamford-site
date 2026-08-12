@@ -126,72 +126,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "50-duke-drive-stamford-connecticut-24190361",
-     "addr": "50 Duke Drive",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1832.0,
-     "price": 4100.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-22",
-     "ppsf": 2,
-     "mi": 0.53
-    },
-    {
-     "slug": "63-alpine-street-stamford-connecticut-24147481",
-     "addr": "63 Alpine Street",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 1.0,
-     "sqft": 2000.0,
-     "price": 3500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-28",
-     "ppsf": 2,
-     "mi": 0.58
-    },
-    {
-     "slug": "70-clay-hill-road-stamford-connecticut-24183685",
-     "addr": "70 Clay Hill Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 3280.0,
-     "price": 4300.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-01",
-     "ppsf": 1,
-     "mi": 0.73
-    },
-    {
-     "slug": "1286-long-ridge-road-stamford-connecticut-24187537",
-     "addr": "1286 Long Ridge Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 2200.0,
-     "price": 5200.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 2,
-     "mi": 0.42
-    }
-   ],
-   "summary": {
-    "n": 3,
-    "low": 3500.0,
-    "high": 4300.0,
-    "median": 4100
+ "comps": [
+  {
+   "mls": "24183685",
+   "slug": "70-clay-hill-road-stamford-connecticut-24183685",
+   "address": {
+    "line": "70 Clay Hill Road",
+    "unit": null,
+    "lineWithUnit": "70 Clay Hill Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 3280.0,
+   "price": 4300.0,
+   "date": "2026-07-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.10119,
+    "lng": -73.558075
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1713404029772838,
+   "ppsf": 1.3109756097560976
+  },
+  {
+   "mls": "24174529",
+   "slug": "511-roxbury-road-stamford-connecticut-24174529",
+   "address": {
+    "line": "511 Roxbury Road",
+    "unit": null,
+    "lineWithUnit": "511 Roxbury Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 2463.0,
+   "price": 6200.0,
+   "date": "2026-07-04",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.098289,
+    "lng": -73.578009
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.8940171183252215,
+   "ppsf": 2.5172553796183514
+  },
+  {
+   "mls": "24160513",
+   "slug": "35-jordan-lane-stamford-connecticut-24160513",
+   "address": {
+    "line": "35 Jordan Lane",
+    "unit": null,
+    "lineWithUnit": "35 Jordan Lane",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2716.0,
+   "price": 6800.0,
+   "date": "2026-06-15",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.125034,
+    "lng": -73.5677
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.6043907503350419,
+   "ppsf": 2.503681885125184
+  },
+  {
+   "mls": "24175649",
+   "slug": "33-loughran-avenue-stamford-connecticut-24175649",
+   "address": {
+    "line": "33 Loughran Avenue",
+    "unit": null,
+    "lineWithUnit": "33 Loughran Avenue",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 3252.0,
+   "price": 5250.0,
+   "date": "2026-06-30",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.097885,
+    "lng": -73.562675
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.463283853846609,
+   "ppsf": 1.6143911439114391
+  },
+  {
+   "mls": "24154348",
+   "slug": "32-bouton-street-east-stamford-connecticut-24154348",
+   "address": {
+    "line": "32 Bouton Street East",
+    "unit": "Unit 2",
+    "lineWithUnit": "32 Bouton Street East Unit 2",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06907"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 2400.0,
+   "price": 3500.0,
+   "date": "2026-03-28",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.100479,
+    "lng": -73.514838
+   },
+   "klass": "rental",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 4.204652463460426,
+   "ppsf": 1.4583333333333333
   }
- }
+ ]
 }

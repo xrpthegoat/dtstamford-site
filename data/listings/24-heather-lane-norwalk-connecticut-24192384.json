@@ -136,73 +136,141 @@
    "walk": 11
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "33-macintosh-road-norwalk-connecticut-24182526",
-     "addr": "33 Macintosh Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 1.0,
-     "sqft": 1044.0,
-     "price": 3100.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-20",
-     "ppsf": 3,
-     "mi": 0.18
-    },
-    {
-     "slug": "60-walter-avenue-norwalk-connecticut-24161289",
-     "addr": "60 Walter Avenue",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1320.0,
-     "price": 3700.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-14",
-     "ppsf": 3,
-     "mi": 0.21
-    },
-    {
-     "slug": "24-highbrook-road-norwalk-connecticut-24178349",
-     "addr": "24 Highbrook Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1815.0,
-     "price": 5050.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-15",
-     "ppsf": 3,
-     "mi": 0.62
-    },
-    {
-     "slug": "10-olmstead-place-norwalk-connecticut-24148627",
-     "addr": "10 Olmstead Place",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1254.0,
-     "price": 3750.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-03",
-     "ppsf": 3,
-     "mi": 0.67
-    }
-   ],
-   "summary": {
-    "n": 4,
-    "low": 3100.0,
-    "high": 5050.0,
-    "median": 3725
+ "comps": [
+  {
+   "mls": "24169622",
+   "slug": "4-daskams-lane-norwalk-connecticut-24169622",
+   "address": {
+    "line": "4 Daskams Lane",
+    "unit": "Unit 309",
+    "lineWithUnit": "4 Daskams Lane Unit 309",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1344.0,
+   "price": 3400.0,
+   "date": "2026-07-20",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.11429,
+    "lng": -73.40873
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9588604918170076,
+   "ppsf": 2.5297619047619047
+  },
+  {
+   "mls": "24127829",
+   "slug": "104-east-avenue-norwalk-connecticut-24127829",
+   "address": {
+    "line": "104 East Avenue",
+    "unit": "#2nd Floor",
+    "lineWithUnit": "104 East Avenue #2nd Floor",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 1584.0,
+   "price": 2800.0,
+   "date": "2026-07-27",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.115454,
+    "lng": -73.407987
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8703375731596258,
+   "ppsf": 1.7676767676767677
+  },
+  {
+   "mls": "24148627",
+   "slug": "10-olmstead-place-norwalk-connecticut-24148627",
+   "address": {
+    "line": "10 Olmstead Place",
+    "unit": null,
+    "lineWithUnit": "10 Olmstead Place",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06855"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1254.0,
+   "price": 3750.0,
+   "date": "2026-06-03",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.108238,
+    "lng": -73.404322
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0859806337342373,
+   "ppsf": 2.9904306220095696
+  },
+  {
+   "mls": "24161289",
+   "slug": "60-walter-avenue-norwalk-connecticut-24161289",
+   "address": {
+    "line": "60 Walter Avenue",
+    "unit": null,
+    "lineWithUnit": "60 Walter Avenue",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1320.0,
+   "price": 3700.0,
+   "date": "2026-07-14",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.11959,
+    "lng": -73.396426
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.34520761140627426,
+   "ppsf": 2.803030303030303
+  },
+  {
+   "mls": "24183776",
+   "slug": "9-park-street-norwalk-connecticut-24183776",
+   "address": {
+    "line": "9 Park Street",
+    "unit": "Unit 2L",
+    "lineWithUnit": "9 Park Street Unit 2L",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 1056.0,
+   "price": 2500.0,
+   "date": "2026-07-15",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.119668,
+    "lng": -73.409067
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0084847118266838,
+   "ppsf": 2.367424242424242
   }
- }
+ ]
 }

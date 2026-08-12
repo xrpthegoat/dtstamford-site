@@ -136,101 +136,141 @@
    "walk": 2
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "51-old-kings-highway-greenwich-connecticut-24164904",
-     "addr": "51 Old Kings Highway Unit 12",
-     "unit": "Unit 12",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 905.0,
-     "price": 4000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-16",
-     "ppsf": 4,
-     "mi": 0.14
-    },
-    {
-     "slug": "21-whitmore-lane-stamford-connecticut-24187796",
-     "addr": "21 Whitmore Lane Unit 1",
-     "unit": "Unit 1",
-     "beds": 2.0,
-     "baths": 3.0,
-     "sqft": 1400.0,
-     "price": 3600.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-11",
-     "ppsf": 3,
-     "mi": 0.31
-    },
-    {
-     "slug": "74-myano-lane-stamford-connecticut-24173265",
-     "addr": "74 Myano Lane Unit 1",
-     "unit": "Unit 1",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 1000.0,
-     "price": 2500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-31",
-     "ppsf": 2,
-     "mi": 0.4
-    },
-    {
-     "slug": "63-myano-lane-stamford-connecticut-24176870",
-     "addr": "63 Myano Lane Unit 4",
-     "unit": "Unit 4",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1300.0,
-     "price": 3750.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-01",
-     "ppsf": 3,
-     "mi": 0.4
-    },
-    {
-     "slug": "50-alvord-lane-stamford-connecticut-24191341",
-     "addr": "50 Alvord Lane Unit 14",
-     "unit": "Unit 14",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1950.0,
-     "price": 3200.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-01",
-     "ppsf": 2,
-     "mi": 0.4
-    },
-    {
-     "slug": "511-west-main-street-stamford-connecticut-24154625",
-     "addr": "511 West Main Street Apt 6",
-     "unit": "Apt 6",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1136.0,
-     "price": 2750.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-13",
-     "ppsf": 2,
-     "mi": 0.56
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 2500.0,
-    "high": 4000.0,
-    "median": 3400
+ "comps": [
+  {
+   "mls": "24164904",
+   "slug": "51-old-kings-highway-greenwich-connecticut-24164904",
+   "address": {
+    "line": "51 Old Kings Highway",
+    "unit": "Unit 12",
+    "lineWithUnit": "51 Old Kings Highway Unit 12",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06870"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 905.0,
+   "price": 4000.0,
+   "date": "2026-04-16",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.045959,
+    "lng": -73.572333
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.23266572742075062,
+   "ppsf": 4.419889502762431
+  },
+  {
+   "mls": "24186022",
+   "slug": "51-forest-avenue-greenwich-connecticut-24186022",
+   "address": {
+    "line": "51 Forest Avenue",
+    "unit": "Unit 24",
+    "lineWithUnit": "51 Forest Avenue Unit 24",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06870"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1160.0,
+   "price": 6500.0,
+   "date": "2026-08-03",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.034892,
+    "lng": -73.565059
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.434340660281832,
+   "ppsf": 5.603448275862069
+  },
+  {
+   "mls": "24157455",
+   "slug": "15-richmond-drive-greenwich-connecticut-24157455",
+   "address": {
+    "line": "15 Richmond Drive",
+    "unit": null,
+    "lineWithUnit": "15 Richmond Drive",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06870"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1435.0,
+   "price": 8250.0,
+   "date": "2026-03-23",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.040874,
+    "lng": -73.56964
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 0.7062066947597856,
+   "ppsf": 5.7491289198606275
+  },
+  {
+   "mls": "24163031",
+   "slug": "274-valley-road-greenwich-connecticut-24163031",
+   "address": {
+    "line": "274 Valley Road",
+    "unit": "#1",
+    "lineWithUnit": "274 Valley Road #1",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06807"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1400.0,
+   "price": 3800.0,
+   "date": "2026-05-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.05698,
+    "lng": -73.584015
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.5930273487826545,
+   "ppsf": 2.7142857142857144
+  },
+  {
+   "mls": "24163093",
+   "slug": "274-valley-road-greenwich-connecticut-24163093",
+   "address": {
+    "line": "274 Valley Road",
+    "unit": "#2",
+    "lineWithUnit": "274 Valley Road #2",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06807"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1400.0,
+   "price": 3500.0,
+   "date": "2026-05-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.057033,
+    "lng": -73.583999
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.596070785384958,
+   "ppsf": 2.5
   }
- }
+ ]
 }

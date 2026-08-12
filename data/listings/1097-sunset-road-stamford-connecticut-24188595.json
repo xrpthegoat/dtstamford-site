@@ -130,98 +130,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "2408-high-ridge-road-stamford-connecticut-24160597",
-     "addr": "2408 High Ridge Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 1702.0,
-     "price": 700000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-15",
-     "ppsf": 411,
-     "mi": 0.13
-    },
-    {
-     "slug": "189-fishing-trail-stamford-connecticut-24174246",
-     "addr": "189 Fishing Trail",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2808.0,
-     "price": 1160000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-29",
-     "ppsf": 413,
-     "mi": 0.43
-    },
-    {
-     "slug": "15-very-merry-road-stamford-connecticut-24162004",
-     "addr": "15 Very Merry Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 3030.0,
-     "price": 1210000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-21",
-     "ppsf": 399,
-     "mi": 0.74
-    },
-    {
-     "slug": "2596-high-ridge-road-stamford-connecticut-24177896",
-     "addr": "2596 High Ridge Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 3160.0,
-     "price": 1000000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 316,
-     "mi": 0.34
-    },
-    {
-     "slug": "829-scofieldtown-road-stamford-connecticut-24188261",
-     "addr": "829 Scofieldtown Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2963.0,
-     "price": 799000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 270,
-     "mi": 0.53
-    },
-    {
-     "slug": "42-briar-woods-trail-stamford-connecticut-24179600",
-     "addr": "42 Briar Woods Trail",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 5.0,
-     "sqft": 5326.0,
-     "price": 1325000.0,
-     "kind": "asking",
-     "status": "Under Contract - Continue to Show",
-     "ppsf": 249,
-     "mi": 0.61
-    }
-   ],
-   "summary": {
-    "n": 3,
-    "low": 700000.0,
-    "high": 1210000.0,
-    "median": 1160000
+ "comps": [
+  {
+   "mls": "24162004",
+   "slug": "15-very-merry-road-stamford-connecticut-24162004",
+   "address": {
+    "line": "15 Very Merry Road",
+    "unit": null,
+    "lineWithUnit": "15 Very Merry Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 3030.0,
+   "price": 1210000.0,
+   "date": "2026-05-21",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.140782,
+    "lng": -73.551869
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1971541074810579,
+   "ppsf": 399.3399339933993
+  },
+  {
+   "mls": "24174246",
+   "slug": "189-fishing-trail-stamford-connecticut-24174246",
+   "address": {
+    "line": "189 Fishing Trail",
+    "unit": null,
+    "lineWithUnit": "189 Fishing Trail",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2808.0,
+   "price": 1160000.0,
+   "date": "2026-06-29",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.146279,
+    "lng": -73.561397
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6847538179876059,
+   "ppsf": 413.1054131054131
+  },
+  {
+   "mls": "24133749",
+   "slug": "27-wellington-drive-stamford-connecticut-24133749",
+   "address": {
+    "line": "27 Wellington Drive",
+    "unit": null,
+    "lineWithUnit": "27 Wellington Drive",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2402.0,
+   "price": 774000.0,
+   "date": "2026-03-25",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.137419,
+    "lng": -73.573063
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.0701360188470406,
+   "ppsf": 322.23147377185677
+  },
+  {
+   "mls": "24146138",
+   "slug": "106-east-hunting-ridge-road-stamford-connecticut-24146138",
+   "address": {
+    "line": "106 East Hunting Ridge Road",
+    "unit": null,
+    "lineWithUnit": "106 East Hunting Ridge Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
+   },
+   "beds": 4.0,
+   "baths": 2.0,
+   "sqft": 2476.0,
+   "price": 1067000.0,
+   "date": "2026-04-02",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.141283,
+    "lng": -73.570994
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.6460580608378605,
+   "ppsf": 430.93699515347333
+  },
+  {
+   "mls": "24151949",
+   "slug": "160-rock-rimmon-road-stamford-connecticut-24151949",
+   "address": {
+    "line": "160 Rock Rimmon Road",
+    "unit": null,
+    "lineWithUnit": "160 Rock Rimmon Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2324.0,
+   "price": 1070000.0,
+   "date": "2026-04-08",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.140817,
+    "lng": -73.564126
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.3158812566070786,
+   "ppsf": 460.4130808950086
   }
- }
+ ]
 }

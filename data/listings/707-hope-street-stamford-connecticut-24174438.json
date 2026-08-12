@@ -132,101 +132,141 @@
    "mi": 1.52
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "7-barnstable-lane-stamford-connecticut-24133238",
-     "addr": "7 Barnstable Lane",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1260.0,
-     "price": 519000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-08",
-     "ppsf": 412,
-     "mi": 0.18
-    },
-    {
-     "slug": "8-barnstable-lane-stamford-connecticut-24158342",
-     "addr": "8 Barnstable Lane",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 2364.0,
-     "price": 564300.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-29",
-     "ppsf": 239,
-     "mi": 0.2
-    },
-    {
-     "slug": "8-avon-lane-stamford-connecticut-24163691",
-     "addr": "8 Avon Lane",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1260.0,
-     "price": 595000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-22",
-     "ppsf": 472,
-     "mi": 0.25
-    },
-    {
-     "slug": "51-saint-charles-avenue-stamford-connecticut-24158957",
-     "addr": "51 Saint Charles Avenue",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1408.0,
-     "price": 760000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-21",
-     "ppsf": 540,
-     "mi": 0.26
-    },
-    {
-     "slug": "71-elizabeth-avenue-stamford-connecticut-24168878",
-     "addr": "71 Elizabeth Avenue",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1484.0,
-     "price": 950000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-15",
-     "ppsf": 640,
-     "mi": 0.28
-    },
-    {
-     "slug": "6-bon-air-avenue-stamford-connecticut-24175466",
-     "addr": "6 Bon Air Avenue",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 2363.0,
-     "price": 982900.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-31",
-     "ppsf": 416,
-     "mi": 0.33
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 519000.0,
-    "high": 982900.0,
-    "median": 677500
+ "comps": [
+  {
+   "mls": "24158342",
+   "slug": "8-barnstable-lane-stamford-connecticut-24158342",
+   "address": {
+    "line": "8 Barnstable Lane",
+    "unit": null,
+    "lineWithUnit": "8 Barnstable Lane",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06907"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 2364.0,
+   "price": 564300.0,
+   "date": "2026-05-29",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.086207,
+    "lng": -73.519074
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.3263442612311861,
+   "ppsf": 238.7055837563452
+  },
+  {
+   "mls": "24160482",
+   "slug": "42-hastings-lane-stamford-connecticut-24160482",
+   "address": {
+    "line": "42 Hastings Lane",
+    "unit": null,
+    "lineWithUnit": "42 Hastings Lane",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 5.0,
+   "baths": 3.0,
+   "sqft": 3702.0,
+   "price": 1660000.0,
+   "date": "2026-05-01",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.08668,
+    "lng": -73.532861
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.174117507465081,
+   "ppsf": 448.4062668827661
+  },
+  {
+   "mls": "24166116",
+   "slug": "49-buena-vista-street-stamford-connecticut-24166116",
+   "address": {
+    "line": "49 Buena Vista Street",
+    "unit": null,
+    "lineWithUnit": "49 Buena Vista Street",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06907"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 2393.0,
+   "price": 1025000.0,
+   "date": "2026-06-08",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.087591,
+    "lng": -73.523961
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6017273621438787,
+   "ppsf": 428.33263685750103
+  },
+  {
+   "mls": "24168772",
+   "slug": "125-joffre-avenue-stamford-connecticut-24168772",
+   "address": {
+    "line": "125 Joffre Avenue",
+    "unit": null,
+    "lineWithUnit": "125 Joffre Avenue",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 2375.0,
+   "price": 980000.0,
+   "date": "2026-06-25",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.082986,
+    "lng": -73.527676
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6786068253515483,
+   "ppsf": 412.63157894736844
+  },
+  {
+   "mls": "24184578",
+   "slug": "31-edward-place-stamford-connecticut-24184578",
+   "address": {
+    "line": "31 Edward Place",
+    "unit": null,
+    "lineWithUnit": "31 Edward Place",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 2324.0,
+   "price": 755000.0,
+   "date": "2026-08-07",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.084934,
+    "lng": -73.531808
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0400562400585966,
+   "ppsf": 324.87091222030983
   }
- }
+ ]
 }

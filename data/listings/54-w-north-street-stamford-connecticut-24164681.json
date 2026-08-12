@@ -135,119 +135,141 @@
    "walk": 7
   }
  },
- "comps": {
-  "building": {
-   "rows": [
-    {
-     "slug": "54-w-north-street-stamford-connecticut-24168171",
-     "addr": "54 W North Street Unit 417",
-     "unit": "Unit 417",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 900.0,
-     "price": 175000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 194
-    }
-   ],
-   "summary": null,
-   "label": "54 W. North Street"
-  },
-  "area": {
-   "rows": [
-    {
-     "slug": "25-adams-avenue-stamford-connecticut-24167713",
-     "addr": "25 Adams Avenue Unit 112",
-     "unit": "Unit 112",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1200.0,
-     "price": 517500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-15",
-     "ppsf": 431,
-     "mi": 0.15
-    },
-    {
-     "slug": "25-adams-avenue-stamford-connecticut-24160889",
-     "addr": "25 Adams Avenue Unit 405",
-     "unit": "Unit 405",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1492.0,
-     "price": 610000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-29",
-     "ppsf": 409,
-     "mi": 0.15
-    },
-    {
-     "slug": "54-west-north-street-stamford-connecticut-24144382",
-     "addr": "54 West North Street Unit 410",
-     "unit": "Unit 410",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 900.0,
-     "price": 205000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-24",
-     "ppsf": 228,
-     "mi": 0.22
-    },
-    {
-     "slug": "35-west-broad-street-stamford-connecticut-24160059",
-     "addr": "35 West Broad Street Unit 224",
-     "unit": "Unit 224",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1148.0,
-     "price": 526000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-28",
-     "ppsf": 458,
-     "mi": 0.23
-    },
-    {
-     "slug": "1611-washington-boulevard-stamford-connecticut-24159422",
-     "addr": "1611 Washington Boulevard Apt 1",
-     "unit": "Apt 1",
-     "beds": 2.0,
-     "baths": 3.0,
-     "sqft": 1566.0,
-     "price": 565000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-19",
-     "ppsf": 361,
-     "mi": 0.33
-    },
-    {
-     "slug": "104-north-street-stamford-connecticut-24142621",
-     "addr": "104 North Street Apt 801",
-     "unit": "Apt 801",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1421.0,
-     "price": 533000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-06",
-     "ppsf": 375,
-     "mi": 0.34
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 205000.0,
-    "high": 610000.0,
-    "median": 529500
+ "comps": [
+  {
+   "mls": "24140379",
+   "slug": "93-spruce-street-stamford-connecticut-24140379",
+   "address": {
+    "line": "93 Spruce Street",
+    "unit": "Apt 11",
+    "lineWithUnit": "93 Spruce Street Apt 11",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 950.0,
+   "price": 295000.0,
+   "date": "2026-04-09",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.051298,
+    "lng": -73.549693
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7999010906549925,
+   "ppsf": 310.5263157894737
+  },
+  {
+   "mls": "24153809",
+   "slug": "127-greyrock-place-stamford-connecticut-24153809",
+   "address": {
+    "line": "127 Greyrock Place",
+    "unit": "Apt 1401",
+    "lineWithUnit": "127 Greyrock Place Apt 1401",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06901"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 764.0,
+   "price": 364500.0,
+   "date": "2026-04-10",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.054543,
+    "lng": -73.535805
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1689064555887576,
+   "ppsf": 477.09424083769636
+  },
+  {
+   "mls": "24171671",
+   "slug": "1-broad-street-stamford-connecticut-24171671",
+   "address": {
+    "line": "1 Broad Street",
+    "unit": "Unit 17B",
+    "lineWithUnit": "1 Broad Street Unit 17B",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06901"
+   },
+   "beds": 1.0,
+   "baths": 2.0,
+   "sqft": 1112.0,
+   "price": 545000.0,
+   "date": "2026-06-05",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.055317,
+    "lng": -73.5429
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6016092471612742,
+   "ppsf": 490.10791366906477
+  },
+  {
+   "mls": "24161602",
+   "slug": "700-summer-street-stamford-connecticut-24161602",
+   "address": {
+    "line": "700 Summer Street",
+    "unit": "Unit 4L",
+    "lineWithUnit": "700 Summer Street Unit 4L",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06901"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 1069.0,
+   "price": 360000.0,
+   "date": "2026-07-01",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.057983,
+    "lng": -73.540726
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6743291203773328,
+   "ppsf": 336.7633302151543
+  },
+  {
+   "mls": "24174433",
+   "slug": "1515-summer-street-stamford-connecticut-24174433",
+   "address": {
+    "line": "1515 Summer Street",
+    "unit": "Unit 506",
+    "lineWithUnit": "1515 Summer Street Unit 506",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 893.0,
+   "price": 473000.0,
+   "date": "2026-06-25",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.063198,
+    "lng": -73.542338
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.752662724332506,
+   "ppsf": 529.6752519596864
   }
- }
+ ]
 }

@@ -127,72 +127,141 @@
    "mi": 1.36
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "64-ocean-drive-east-stamford-connecticut-24125614",
-     "addr": "64 Ocean Drive East",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 3132.0,
-     "price": 2775000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-22",
-     "ppsf": 886,
-     "mi": 0.2
-    },
-    {
-     "slug": "47-mitchell-street-stamford-connecticut-24164426",
-     "addr": "47 Mitchell Street",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 2.0,
-     "sqft": 1462.0,
-     "price": 900000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-29",
-     "ppsf": 616,
-     "mi": 0.33
-    },
-    {
-     "slug": "102-soundview-drive-stamford-connecticut-24163171",
-     "addr": "102 Soundview Drive",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2146.0,
-     "price": 1850000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-15",
-     "ppsf": 862,
-     "mi": 0.64
-    },
-    {
-     "slug": "52-chesterfield-road-stamford-connecticut-24187400",
-     "addr": "52 Chesterfield Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 4164.0,
-     "price": 2500000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 600,
-     "mi": 0.1
-    }
-   ],
-   "summary": {
-    "n": 3,
-    "low": 900000.0,
-    "high": 2775000.0,
-    "median": 1850000
+ "comps": [
+  {
+   "mls": "24125614",
+   "slug": "64-ocean-drive-east-stamford-connecticut-24125614",
+   "address": {
+    "line": "64 Ocean Drive East",
+    "unit": null,
+    "lineWithUnit": "64 Ocean Drive East",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 3132.0,
+   "price": 2775000.0,
+   "date": "2026-06-22",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.032488,
+    "lng": -73.522358
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.3282608919510344,
+   "ppsf": 886.0153256704981
+  },
+  {
+   "mls": "24160509",
+   "slug": "83-sea-beach-drive-stamford-connecticut-24160509",
+   "address": {
+    "line": "83 Sea Beach Drive",
+    "unit": null,
+    "lineWithUnit": "83 Sea Beach Drive",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 6.0,
+   "baths": 7.0,
+   "sqft": 4815.0,
+   "price": 2650000.0,
+   "date": "2026-06-04",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.029894,
+    "lng": -73.518844
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7117741896106952,
+   "ppsf": 550.3634475597092
+  },
+  {
+   "mls": "24161501",
+   "slug": "1073-shippan-avenue-stamford-connecticut-24161501",
+   "address": {
+    "line": "1073 Shippan Avenue",
+    "unit": null,
+    "lineWithUnit": "1073 Shippan Avenue",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 5.0,
+   "baths": 3.0,
+   "sqft": 3216.0,
+   "price": 1125000.0,
+   "date": "2026-07-27",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.037556,
+    "lng": -73.5278
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.4524343872629692,
+   "ppsf": 349.8134328358209
+  },
+  {
+   "mls": "24167138",
+   "slug": "70-kenilworth-drive-east-stamford-connecticut-24167138",
+   "address": {
+    "line": "70 Kenilworth Drive East",
+    "unit": null,
+    "lineWithUnit": "70 Kenilworth Drive East",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 3741.0,
+   "price": 2750000.0,
+   "date": "2026-06-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.0406,
+    "lng": -73.510236
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.2378248171506137,
+   "ppsf": 735.0975674953221
+  },
+  {
+   "mls": "24174434",
+   "slug": "250-davenport-drive-stamford-connecticut-24174434",
+   "address": {
+    "line": "250 Davenport Drive",
+    "unit": null,
+    "lineWithUnit": "250 Davenport Drive",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 2858.0,
+   "price": 6014250.0,
+   "date": "2026-06-29",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.026613,
+    "lng": -73.545154
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.078335022989574,
+   "ppsf": 2104.3561931420572
   }
- }
+ ]
 }

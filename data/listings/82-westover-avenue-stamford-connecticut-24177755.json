@@ -130,44 +130,141 @@
    "mi": 1.35
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "376-westover-road-stamford-connecticut-24181529",
-     "addr": "376 Westover Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 6.0,
-     "sqft": 6447.0,
-     "price": 17500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-04",
-     "ppsf": 3,
-     "mi": 0.24
-    },
-    {
-     "slug": "386-westover-road-stamford-connecticut-24181497",
-     "addr": "386 Westover Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 7.0,
-     "sqft": 7342.0,
-     "price": 17500.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 2,
-     "mi": 0.21
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 17500.0,
-    "high": 17500.0,
-    "median": 17500
+ "comps": [
+  {
+   "mls": "24163283",
+   "slug": "30-saint-george-avenue-stamford-connecticut-24163283",
+   "address": {
+    "line": "30 Saint George Avenue",
+    "unit": null,
+    "lineWithUnit": "30 Saint George Avenue",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 2.0,
+   "sqft": 3300.0,
+   "price": 5300.0,
+   "date": "2026-05-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.057175,
+    "lng": -73.553474
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.353768317874358,
+   "ppsf": 1.606060606060606
+  },
+  {
+   "mls": "24168273",
+   "slug": "163-macgregor-drive-stamford-connecticut-24168273",
+   "address": {
+    "line": "163 Macgregor Drive",
+    "unit": null,
+    "lineWithUnit": "163 Macgregor Drive",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 3070.0,
+   "price": 7500.0,
+   "date": "2026-06-07",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.08623,
+    "lng": -73.572024
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.7821347824613496,
+   "ppsf": 2.44299674267101
+  },
+  {
+   "mls": "24158518",
+   "slug": "86-shady-knoll-drive-stamford-connecticut-24158518",
+   "address": {
+    "line": "86 Shady Knoll Drive",
+    "unit": null,
+    "lineWithUnit": "86 Shady Knoll Drive",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
+   },
+   "beds": 4.0,
+   "baths": 5.0,
+   "sqft": 3405.0,
+   "price": 7500.0,
+   "date": "2026-04-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.16107,
+    "lng": -73.55857
+   },
+   "klass": "rental",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 10.179480522673076,
+   "ppsf": 2.202643171806167
+  },
+  {
+   "mls": "24149668",
+   "slug": "817-newfield-avenue-stamford-connecticut-24149668",
+   "address": {
+    "line": "817 Newfield Avenue",
+    "unit": null,
+    "lineWithUnit": "817 Newfield Avenue",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 2984.0,
+   "price": 4800.0,
+   "date": "2026-05-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.088093,
+    "lng": -73.53411
+   },
+   "klass": "rental",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 3.9799834540498176,
+   "ppsf": 1.6085790884718498
+  },
+  {
+   "mls": "24158274",
+   "slug": "850-pacific-street-stamford-connecticut-24158274",
+   "address": {
+    "line": "850 Pacific Street",
+    "unit": "Unit 2160",
+    "lineWithUnit": "850 Pacific Street Unit 2160",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 4.0,
+   "baths": 5.0,
+   "sqft": 4760.0,
+   "price": 20000.0,
+   "date": "2026-06-20",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.039536,
+    "lng": -73.5423
+   },
+   "klass": "rental",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 4.41364361019951,
+   "ppsf": 4.201680672268908
   }
- }
+ ]
 }

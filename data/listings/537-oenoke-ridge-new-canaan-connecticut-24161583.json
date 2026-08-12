@@ -132,99 +132,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "32-west-road-new-canaan-connecticut-24153851",
-     "addr": "32 West Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 6.0,
-     "sqft": 5679.0,
-     "price": 4362500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-30",
-     "ppsf": 768,
-     "mi": 0.33
-    },
-    {
-     "slug": "211-oenoke-ridge-new-canaan-connecticut-24174226",
-     "addr": "211 Oenoke Ridge",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 7.0,
-     "sqft": 6588.0,
-     "price": 6250000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-10",
-     "ppsf": 949,
-     "mi": 0.7
-    },
-    {
-     "slug": "323-smith-ridge-road-new-canaan-connecticut-24166880",
-     "addr": "323 Smith Ridge Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 7.0,
-     "sqft": 6715.0,
-     "price": 3600000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-03",
-     "ppsf": 536,
-     "mi": 0.72
-    },
-    {
-     "slug": "107-parade-hill-road-new-canaan-connecticut-24159886",
-     "addr": "107 Parade Hill Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 6.0,
-     "sqft": 4557.0,
-     "price": 2400500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-08",
-     "ppsf": 527,
-     "mi": 0.73
-    },
-    {
-     "slug": "146-lambert-road-new-canaan-connecticut-24165514",
-     "addr": "146 Lambert Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 8.0,
-     "sqft": 7443.0,
-     "price": 4695000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 631,
-     "mi": 0.1
-    },
-    {
-     "slug": "256-country-club-road-new-canaan-connecticut-24178654",
-     "addr": "256 Country Club Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 9.0,
-     "sqft": 9473.0,
-     "price": 7150000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 755,
-     "mi": 0.26
-    }
-   ],
-   "summary": {
-    "n": 4,
-    "low": 2400500.0,
-    "high": 6250000.0,
-    "median": 3981250
+ "comps": [
+  {
+   "mls": "24166880",
+   "slug": "323-smith-ridge-road-new-canaan-connecticut-24166880",
+   "address": {
+    "line": "323 Smith Ridge Road",
+    "unit": null,
+    "lineWithUnit": "323 Smith Ridge Road",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
    },
-   "radiusMi": 0.75
+   "beds": 5.0,
+   "baths": 7.0,
+   "sqft": 6715.0,
+   "price": 3600000.0,
+   "date": "2026-07-03",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.166404,
+    "lng": -73.493949
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1524752963269416,
+   "ppsf": 536.1131794489947
+  },
+  {
+   "mls": "24147271",
+   "slug": "91-sunset-hill-road-new-canaan-connecticut-24147271",
+   "address": {
+    "line": "91 Sunset Hill Road",
+    "unit": null,
+    "lineWithUnit": "91 Sunset Hill Road",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 6.0,
+   "baths": 8.0,
+   "sqft": 8020.0,
+   "price": 5715000.0,
+   "date": "2026-04-01",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.154764,
+    "lng": -73.50614
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0138895936052137,
+   "ppsf": 712.5935162094763
+  },
+  {
+   "mls": "24147831",
+   "slug": "757-oenoke-ridge-new-canaan-connecticut-24147831",
+   "address": {
+    "line": "757 Oenoke Ridge",
+    "unit": null,
+    "lineWithUnit": "757 Oenoke Ridge",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 7.0,
+   "baths": 8.0,
+   "sqft": 8194.0,
+   "price": 5700000.0,
+   "date": "2026-05-12",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.170696,
+    "lng": -73.51308
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9033211108305998,
+   "ppsf": 695.6309494752257
+  },
+  {
+   "mls": "24153851",
+   "slug": "32-west-road-new-canaan-connecticut-24153851",
+   "address": {
+    "line": "32 West Road",
+    "unit": null,
+    "lineWithUnit": "32 West Road",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 5.0,
+   "baths": 6.0,
+   "sqft": 5679.0,
+   "price": 4362500.0,
+   "date": "2026-04-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.159083,
+    "lng": -73.506678
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5315322248445989,
+   "ppsf": 768.1810177848213
+  },
+  {
+   "mls": "24174226",
+   "slug": "211-oenoke-ridge-new-canaan-connecticut-24174226",
+   "address": {
+    "line": "211 Oenoke Ridge",
+    "unit": null,
+    "lineWithUnit": "211 Oenoke Ridge",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 5.0,
+   "baths": 7.0,
+   "sqft": 6588.0,
+   "price": 6250000.0,
+   "date": "2026-08-10",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.155586,
+    "lng": -73.49965
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1187210868710413,
+   "ppsf": 948.6945962355799
   }
- }
+ ]
 }

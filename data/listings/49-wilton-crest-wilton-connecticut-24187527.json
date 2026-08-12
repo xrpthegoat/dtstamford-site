@@ -141,100 +141,87 @@
    "walk": 6
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "85-wilton-crest-wilton-connecticut-24169581",
-     "addr": "85 Wilton Crest Unit 85",
-     "unit": "Unit 85",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 910.0,
-     "price": 425000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-29",
-     "ppsf": 467,
-     "mi": 0.02
-    },
-    {
-     "slug": "70-wilton-crest-wilton-connecticut-24180060",
-     "addr": "70 Wilton Crest Unit 70",
-     "unit": "Unit 70",
-     "beds": 2.0,
-     "baths": 3.0,
-     "sqft": 1449.0,
-     "price": 657000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-24",
-     "ppsf": 453,
-     "mi": 0.03
-    },
-    {
-     "slug": "7-glen-ridge-wilton-connecticut-24161063",
-     "addr": "7 Glen Ridge Unit 7",
-     "unit": "Unit 7",
-     "beds": 2.0,
-     "baths": 3.0,
-     "sqft": 1255.0,
-     "price": 685000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-23",
-     "ppsf": 546,
-     "mi": 0.21
-    },
-    {
-     "slug": "40-village-walk-wilton-connecticut-24166620",
-     "addr": "40 Village Walk Unit 40",
-     "unit": "Unit 40",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1088.0,
-     "price": 480000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-20",
-     "ppsf": 441,
-     "mi": 0.35
-    },
-    {
-     "slug": "43-village-walk-wilton-connecticut-24166404",
-     "addr": "43 Village Walk Unit 43",
-     "unit": "Unit 43",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1088.0,
-     "price": 490000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-23",
-     "ppsf": 450,
-     "mi": 0.35
-    },
-    {
-     "slug": "50-wilton-crest-wilton-connecticut-24190757",
-     "addr": "50 Wilton Crest Unit 50",
-     "unit": "Unit 50",
-     "beds": 2.0,
-     "baths": 3.0,
-     "sqft": 1449.0,
-     "price": 725000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 500,
-     "mi": 0.01
-    }
-   ],
-   "summary": {
-    "n": 5,
-    "low": 425000.0,
-    "high": 685000.0,
-    "median": 490000
+ "comps": [
+  {
+   "mls": "24180060",
+   "slug": "70-wilton-crest-wilton-connecticut-24180060",
+   "address": {
+    "line": "70 Wilton Crest",
+    "unit": "Unit 70",
+    "lineWithUnit": "70 Wilton Crest Unit 70",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 1449.0,
+   "price": 657000.0,
+   "date": "2026-07-24",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.184384,
+    "lng": -73.425581
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.04047801248694995,
+   "ppsf": 453.41614906832297
+  },
+  {
+   "mls": "24150826",
+   "slug": "2-village-court-wilton-connecticut-24150826",
+   "address": {
+    "line": "2 Village Court",
+    "unit": "Unit 2",
+    "lineWithUnit": "2 Village Court Unit 2",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1783.0,
+   "price": 1002000.0,
+   "date": "2026-03-20",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.170787,
+    "lng": -73.414531
+   },
+   "klass": "condo",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.755130677142443,
+   "ppsf": 561.9742007851935
+  },
+  {
+   "mls": "24161063",
+   "slug": "7-glen-ridge-wilton-connecticut-24161063",
+   "address": {
+    "line": "7 Glen Ridge",
+    "unit": "Unit 7",
+    "lineWithUnit": "7 Glen Ridge Unit 7",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 1255.0,
+   "price": 685000.0,
+   "date": "2026-04-23",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.185063,
+    "lng": -73.429601
+   },
+   "klass": "condo",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 0.33301304951354926,
+   "ppsf": 545.816733067729
   }
- }
+ ]
 }

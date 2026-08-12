@@ -139,96 +139,141 @@
    "walk": 4
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "204-mather-street-wilton-connecticut-24174392",
-     "addr": "204 Mather Street",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 2409.0,
-     "price": 740000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-15",
-     "ppsf": 307,
-     "mi": 0.75
-    },
-    {
-     "slug": "28-new-street-wilton-connecticut-24179106",
-     "addr": "28 New Street",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1205.0,
-     "price": 739000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 613,
-     "mi": 0.3
-    },
-    {
-     "slug": "6-new-st-extension-wilton-connecticut-24186767",
-     "addr": "6 New St Extension",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1333.0,
-     "price": 689000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 517,
-     "mi": 0.34
-    },
-    {
-     "slug": "23-church-street-wilton-connecticut-24179285",
-     "addr": "23 Church Street",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1612.0,
-     "price": 849000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 527,
-     "mi": 0.36
-    },
-    {
-     "slug": "82-old-mill-road-wilton-connecticut-24193390",
-     "addr": "82 Old Mill Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 2391.0,
-     "price": 1049000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 439,
-     "mi": 0.49
-    },
-    {
-     "slug": "175-mountain-road-wilton-connecticut-24181353",
-     "addr": "175 Mountain Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 2062.0,
-     "price": 899000.0,
-     "kind": "asking",
-     "status": "Under Contract - Continue to Show",
-     "ppsf": 436,
-     "mi": 0.55
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 740000.0,
-    "high": 740000.0,
-    "median": 740000
+ "comps": [
+  {
+   "mls": "24167605",
+   "slug": "16-mountain-road-wilton-connecticut-24167605",
+   "address": {
+    "line": "16 Mountain Road",
+    "unit": null,
+    "lineWithUnit": "16 Mountain Road",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2325.0,
+   "price": 905000.0,
+   "date": "2026-06-24",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.256255,
+    "lng": -73.436961
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.2207546305849427,
+   "ppsf": 389.247311827957
+  },
+  {
+   "mls": "24151997",
+   "slug": "349-mountain-road-wilton-connecticut-24151997",
+   "address": {
+    "line": "349 Mountain Road",
+    "unit": null,
+    "lineWithUnit": "349 Mountain Road",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2884.0,
+   "price": 1195000.0,
+   "date": "2026-04-21",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.235464,
+    "lng": -73.436527
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.1132749840363614,
+   "ppsf": 414.35506241331484
+  },
+  {
+   "mls": "24168476",
+   "slug": "8-dorado-court-wilton-connecticut-24168476",
+   "address": {
+    "line": "8 Dorado Court",
+    "unit": null,
+    "lineWithUnit": "8 Dorado Court",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2771.0,
+   "price": 1390000.0,
+   "date": "2026-08-07",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.238648,
+    "lng": -73.438697
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.7564603956776343,
+   "ppsf": 501.623962468423
+  },
+  {
+   "mls": "24174392",
+   "slug": "204-mather-street-wilton-connecticut-24174392",
+   "address": {
+    "line": "204 Mather Street",
+    "unit": null,
+    "lineWithUnit": "204 Mather Street",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 2409.0,
+   "price": 740000.0,
+   "date": "2026-07-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.244576,
+    "lng": -73.43206
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.2042580765516295,
+   "ppsf": 307.18140307181403
+  },
+  {
+   "mls": "24152011",
+   "slug": "126-heather-lane-wilton-connecticut-24152011",
+   "address": {
+    "line": "126 Heather Lane",
+    "unit": null,
+    "lineWithUnit": "126 Heather Lane",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1844.0,
+   "price": 875000.0,
+   "date": "2026-03-16",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.179882,
+    "lng": -73.39714
+   },
+   "klass": "house",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 8.967479633403826,
+   "ppsf": 474.5119305856833
   }
- }
+ ]
 }

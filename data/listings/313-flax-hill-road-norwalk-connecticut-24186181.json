@@ -117,100 +117,141 @@
    "mi": 1.4
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "18-soundview-avenue-norwalk-connecticut-24159808",
-     "addr": "18 Soundview Avenue Unit 1",
-     "unit": "Unit 1",
-     "beds": 3.0,
-     "baths": 1.0,
-     "sqft": 3168.0,
-     "price": 3000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-20",
-     "ppsf": 1,
-     "mi": 0.26
-    },
-    {
-     "slug": "7-mcallister-avenue-norwalk-connecticut-24149043",
-     "addr": "7 McAllister Avenue Unit 2",
-     "unit": "Unit 2",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1274.0,
-     "price": 2600.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-23",
-     "ppsf": 2,
-     "mi": 0.31
-    },
-    {
-     "slug": "9-laura-street-norwalk-connecticut-24171314",
-     "addr": "9 Laura Street",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1174.0,
-     "price": 2900.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-11",
-     "ppsf": 2,
-     "mi": 0.5
-    },
-    {
-     "slug": "6-hillside-place-norwalk-connecticut-24174630",
-     "addr": "6 Hillside Place",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 1.0,
-     "sqft": 1205.0,
-     "price": 4100.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-15",
-     "ppsf": 3,
-     "mi": 0.54
-    },
-    {
-     "slug": "84-taylor-avenue-norwalk-connecticut-24147701",
-     "addr": "84 Taylor Avenue Apt 1",
-     "unit": "Apt 1",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1106.0,
-     "price": 3400.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-06",
-     "ppsf": 3,
-     "mi": 0.59
-    },
-    {
-     "slug": "72-b-taylor-avenue-norwalk-connecticut-24192657",
-     "addr": "72-B Taylor Avenue",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 1.0,
-     "sqft": 4566.0,
-     "price": 3600.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 1,
-     "mi": 0.55
-    }
-   ],
-   "summary": {
-    "n": 5,
-    "low": 2600.0,
-    "high": 4100.0,
-    "median": 3000
+ "comps": [
+  {
+   "mls": "24150892",
+   "slug": "1-horizon-drive-norwalk-connecticut-24150892",
+   "address": {
+    "line": "1 Horizon Drive",
+    "unit": "Apt 2",
+    "lineWithUnit": "1 Horizon Drive Apt 2",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1258.0,
+   "price": 3150.0,
+   "date": "2026-03-26",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.101133,
+    "lng": -73.434452
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8077826607199164,
+   "ppsf": 2.503974562798092
+  },
+  {
+   "mls": "24139759",
+   "slug": "2-frances-avenue-norwalk-connecticut-24139759",
+   "address": {
+    "line": "2 Frances Avenue",
+    "unit": "Unit 2",
+    "lineWithUnit": "2 Frances Avenue Unit 2",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 1200.0,
+   "price": 2850.0,
+   "date": "2026-03-27",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.095258,
+    "lng": -73.431722
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.20601686346052217,
+   "ppsf": 2.375
+  },
+  {
+   "mls": "24147701",
+   "slug": "84-taylor-avenue-norwalk-connecticut-24147701",
+   "address": {
+    "line": "84 Taylor Avenue",
+    "unit": "Apt 1",
+    "lineWithUnit": "84 Taylor Avenue Apt 1",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1106.0,
+   "price": 3400.0,
+   "date": "2026-04-06",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.101949,
+    "lng": -73.429813
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9432389986636435,
+   "ppsf": 3.0741410488245933
+  },
+  {
+   "mls": "24147839",
+   "slug": "7-hamilton-avenue-norwalk-connecticut-24147839",
+   "address": {
+    "line": "7 Hamilton Avenue",
+    "unit": "Unit 32",
+    "lineWithUnit": "7 Hamilton Avenue Unit 32",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 980.0,
+   "price": 2975.0,
+   "date": "2026-06-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.095391,
+    "lng": -73.424388
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7737405767644798,
+   "ppsf": 3.0357142857142856
+  },
+  {
+   "mls": "24177014",
+   "slug": "21-avenue-b-norwalk-connecticut-24177014",
+   "address": {
+    "line": "21 Avenue B",
+    "unit": "Unit A",
+    "lineWithUnit": "21 Avenue B Unit A",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1100.0,
+   "price": 2695.0,
+   "date": "2026-06-13",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.099583,
+    "lng": -73.43033
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6814629291822604,
+   "ppsf": 2.45
   }
- }
+ ]
 }

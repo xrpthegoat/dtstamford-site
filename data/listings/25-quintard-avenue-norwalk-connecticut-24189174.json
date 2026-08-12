@@ -115,101 +115,141 @@
    "mi": 1.5
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "149-water-street-norwalk-connecticut-24184805",
-     "addr": "149 Water Street Unit 28",
-     "unit": "Unit 28",
-     "beds": 1.0,
-     "baths": 2.0,
-     "sqft": 747.0,
-     "price": 2400.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-01",
-     "ppsf": 3,
-     "mi": 0.23
-    },
-    {
-     "slug": "149-water-street-norwalk-connecticut-24157112",
-     "addr": "149 Water Street Apt 27",
-     "unit": "Apt 27",
-     "beds": 1.0,
-     "baths": 2.0,
-     "sqft": 747.0,
-     "price": 2300.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-27",
-     "ppsf": 3,
-     "mi": 0.23
-    },
-    {
-     "slug": "107-south-main-street-norwalk-connecticut-24168201",
-     "addr": "107 South Main Street Unit 7",
-     "unit": "Unit 7",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 550.0,
-     "price": 1984.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-08",
-     "ppsf": 4,
-     "mi": 0.38
-    },
-    {
-     "slug": "107-south-main-street-norwalk-connecticut-24166820",
-     "addr": "107 South Main Street Unit C",
-     "unit": "Unit C",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 525.0,
-     "price": 1799.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-14",
-     "ppsf": 3,
-     "mi": 0.38
-    },
-    {
-     "slug": "3-yost-street-norwalk-connecticut-24160236",
-     "addr": "3 Yost Street Unit 3",
-     "unit": "Unit 3",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 916.0,
-     "price": 2100.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-30",
-     "ppsf": 2,
-     "mi": 0.56
-    },
-    {
-     "slug": "131-washington-street-norwalk-connecticut-24182632",
-     "addr": "131 Washington Street Unit 301",
-     "unit": "Unit 301",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 703.0,
-     "price": 2300.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-01",
-     "ppsf": 3,
-     "mi": 0.63
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 1799.0,
-    "high": 2400.0,
-    "median": 2200
+ "comps": [
+  {
+   "mls": "24128453",
+   "slug": "2-south-main-street-norwalk-connecticut-24128453",
+   "address": {
+    "line": "2 South Main Street",
+    "unit": "Unit W201",
+    "lineWithUnit": "2 South Main Street Unit W201",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
    },
-   "radiusMi": 0.75
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 671.0,
+   "price": 2400.0,
+   "date": "2026-03-31",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.09887,
+    "lng": -73.41873
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0353602004238005,
+   "ppsf": 3.5767511177347244
+  },
+  {
+   "mls": "24168963",
+   "slug": "19-day-street-norwalk-connecticut-24168963",
+   "address": {
+    "line": "19 Day Street",
+    "unit": "Unit 206",
+    "lineWithUnit": "19 Day Street Unit 206",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 0.0,
+   "baths": 1.0,
+   "sqft": 607.0,
+   "price": 2300.0,
+   "date": "2026-05-02",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.095734,
+    "lng": -73.4181
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6974642682392449,
+   "ppsf": 3.7891268533772653
+  },
+  {
+   "mls": "24157112",
+   "slug": "149-water-street-norwalk-connecticut-24157112",
+   "address": {
+    "line": "149 Water Street",
+    "unit": "Apt 27",
+    "lineWithUnit": "149 Water Street Apt 27",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 1.0,
+   "baths": 2.0,
+   "sqft": 747.0,
+   "price": 2300.0,
+   "date": "2026-05-27",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.093266,
+    "lng": -73.41604
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.3741817541531224,
+   "ppsf": 3.0789825970548863
+  },
+  {
+   "mls": "24156987",
+   "slug": "125-washington-street-norwalk-connecticut-24156987",
+   "address": {
+    "line": "125 Washington Street",
+    "unit": "Apt 203",
+    "lineWithUnit": "125 Washington Street Apt 203",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 762.0,
+   "price": 2450.0,
+   "date": "2026-06-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.099167,
+    "lng": -73.41707
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0232178499491738,
+   "ppsf": 3.215223097112861
+  },
+  {
+   "mls": "24159755",
+   "slug": "70-south-main-street-norwalk-connecticut-24159755",
+   "address": {
+    "line": "70 South Main Street",
+    "unit": "Unit 3B",
+    "lineWithUnit": "70 South Main Street Unit 3B",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 890.0,
+   "price": 2800.0,
+   "date": "2026-06-11",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.09669,
+    "lng": -73.41868
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8140511554152768,
+   "ppsf": 3.146067415730337
   }
- }
+ ]
 }

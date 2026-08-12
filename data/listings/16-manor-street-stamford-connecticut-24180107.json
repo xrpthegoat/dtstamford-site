@@ -122,101 +122,141 @@
    "mi": 0.64
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "850-south-pacific-street-stamford-connecticut-24139919",
-     "addr": "850 South Pacific Street Unit 2001",
-     "unit": "Unit 2001",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1510.0,
-     "price": 6995.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-10",
-     "ppsf": 5,
-     "mi": 0.1
-    },
-    {
-     "slug": "775-atlantic-street-stamford-connecticut-24168722",
-     "addr": "775 Atlantic Street Unit 1R",
-     "unit": "Unit 1R",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 8120.0,
-     "price": 2800.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-01",
-     "ppsf": 0,
-     "mi": 0.29
-    },
-    {
-     "slug": "775-atlantic-street-stamford-connecticut-24172566",
-     "addr": "775 Atlantic Street Unit 3L",
-     "unit": "Unit 3L",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1150.0,
-     "price": 2800.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-25",
-     "ppsf": 2,
-     "mi": 0.29
-    },
-    {
-     "slug": "75-henry-street-stamford-connecticut-24150551",
-     "addr": "75 Henry Street Unit 3West",
-     "unit": "Unit 3West",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 991.0,
-     "price": 3850.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-01",
-     "ppsf": 4,
-     "mi": 0.35
-    },
-    {
-     "slug": "123-harbor-drive-stamford-connecticut-24133811",
-     "addr": "123 Harbor Drive Apt 512",
-     "unit": "Apt 512",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 2172.0,
-     "price": 6000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-01",
-     "ppsf": 3,
-     "mi": 0.44
-    },
-    {
-     "slug": "239-henry-street-stamford-connecticut-24157967",
-     "addr": "239 Henry Street #3",
-     "unit": "#3",
-     "beds": 3.0,
-     "baths": 4.0,
-     "sqft": 1962.0,
-     "price": 6000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-10",
-     "ppsf": 3,
-     "mi": 0.44
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 2800.0,
-    "high": 6995.0,
-    "median": 4925
+ "comps": [
+  {
+   "mls": "24148039",
+   "slug": "105-harbor-drive-stamford-connecticut-24148039",
+   "address": {
+    "line": "105 Harbor Drive",
+    "unit": "Apt 107",
+    "lineWithUnit": "105 Harbor Drive Apt 107",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 1450.0,
+   "price": 4100.0,
+   "date": "2026-04-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.037318,
+    "lng": -73.530622
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8641503074209688,
+   "ppsf": 2.8275862068965516
+  },
+  {
+   "mls": "24157967",
+   "slug": "239-henry-street-stamford-connecticut-24157967",
+   "address": {
+    "line": "239 Henry Street",
+    "unit": "#3",
+    "lineWithUnit": "239 Henry Street #3",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 3.0,
+   "baths": 4.0,
+   "sqft": 1962.0,
+   "price": 6000.0,
+   "date": "2026-05-10",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.04389,
+    "lng": -73.53399
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7110552236710833,
+   "ppsf": 3.058103975535168
+  },
+  {
+   "mls": "24133811",
+   "slug": "123-harbor-drive-stamford-connecticut-24133811",
+   "address": {
+    "line": "123 Harbor Drive",
+    "unit": "Apt 512",
+    "lineWithUnit": "123 Harbor Drive Apt 512",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2172.0,
+   "price": 6000.0,
+   "date": "2026-06-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.037834,
+    "lng": -73.53239
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7054420072579316,
+   "ppsf": 2.7624309392265194
+  },
+  {
+   "mls": "24162163",
+   "slug": "73-harbor-drive-stamford-connecticut-24162163",
+   "address": {
+    "line": "73 Harbor Drive",
+    "unit": "Unit 412",
+    "lineWithUnit": "73 Harbor Drive Unit 412",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1665.0,
+   "price": 6500.0,
+   "date": "2026-07-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.038242,
+    "lng": -73.530919
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8136671941689912,
+   "ppsf": 3.903903903903904
+  },
+  {
+   "mls": "24121080",
+   "slug": "147-southfield-avenue-stamford-connecticut-24121080",
+   "address": {
+    "line": "147 Southfield Avenue",
+    "unit": null,
+    "lineWithUnit": "147 Southfield Avenue",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1563.0,
+   "price": 5000.0,
+   "date": "2026-04-15",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.035228,
+    "lng": -73.547965
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8063282980600874,
+   "ppsf": 3.198976327575176
   }
- }
+ ]
 }

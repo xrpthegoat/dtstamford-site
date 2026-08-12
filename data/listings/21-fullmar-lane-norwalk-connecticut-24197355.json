@@ -118,44 +118,141 @@
    "mi": 1.43
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "51-ledgewood-drive-norwalk-connecticut-24156823",
-     "addr": "51 Ledgewood Drive",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 2.0,
-     "sqft": 1655.0,
-     "price": 5000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-01",
-     "ppsf": 3,
-     "mi": 0.67
-    },
-    {
-     "slug": "301-old-norwalk-road-new-canaan-connecticut-24163148",
-     "addr": "301 Old Norwalk Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 6.0,
-     "sqft": 5066.0,
-     "price": 35000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 7,
-     "mi": 0.71
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 5000.0,
-    "high": 5000.0,
-    "median": 5000
+ "comps": [
+  {
+   "mls": "24148030",
+   "slug": "norwalk-connecticut-24148030",
+   "address": {
+    "line": null,
+    "unit": null,
+    "lineWithUnit": null,
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1760.0,
+   "price": 3975.0,
+   "date": "2026-03-18",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.126247,
+    "lng": -73.435616
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.827349684776667,
+   "ppsf": 2.258522727272727
+  },
+  {
+   "mls": "24155197",
+   "slug": "133-musket-ridge-road-norwalk-connecticut-24155197",
+   "address": {
+    "line": "133 Musket Ridge Road",
+    "unit": null,
+    "lineWithUnit": "133 Musket Ridge Road",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2422.0,
+   "price": 5100.0,
+   "date": "2026-04-10",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.155368,
+    "lng": -73.439241
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.4277389665830946,
+   "ppsf": 2.1056977704376547
+  },
+  {
+   "mls": "24178609",
+   "slug": "103-silver-creek-lane-norwalk-connecticut-24178609",
+   "address": {
+    "line": "103 Silver Creek Lane",
+    "unit": "Unit 103",
+    "lineWithUnit": "103 Silver Creek Lane Unit 103",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 2.0,
+   "baths": 4.0,
+   "sqft": 2856.0,
+   "price": 7000.0,
+   "date": "2026-06-17",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.13575,
+    "lng": -73.43566
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.4545476180882149,
+   "ppsf": 2.450980392156863
+  },
+  {
+   "mls": "24161335",
+   "slug": "30-1-2-bartlett-avenue-norwalk-connecticut-24161335",
+   "address": {
+    "line": "30-1/2 Bartlett Avenue",
+    "unit": "Unit B",
+    "lineWithUnit": "30-1/2 Bartlett Avenue Unit B",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 3.0,
+   "baths": 1.0,
+   "sqft": 2036.0,
+   "price": 3300.0,
+   "date": "2026-04-24",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.13087,
+    "lng": -73.43557
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.57528553919224,
+   "ppsf": 1.6208251473477406
+  },
+  {
+   "mls": "24179677",
+   "slug": "11-cornwall-road-norwalk-connecticut-24179677",
+   "address": {
+    "line": "11 Cornwall Road",
+    "unit": null,
+    "lineWithUnit": "11 Cornwall Road",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 2128.0,
+   "price": 4500.0,
+   "date": "2026-07-24",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.127274,
+    "lng": -73.44335
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.277406261522132,
+   "ppsf": 2.1146616541353382
   }
- }
+ ]
 }

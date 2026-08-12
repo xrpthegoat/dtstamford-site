@@ -129,58 +129,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "121-thornwood-road-stamford-connecticut-24180810",
-     "addr": "121 Thornwood Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2948.0,
-     "price": 1480000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-31",
-     "ppsf": 502,
-     "mi": 0.1
-    },
-    {
-     "slug": "12-woodbine-way-stamford-connecticut-24172956",
-     "addr": "12 Woodbine Way",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 7.0,
-     "sqft": 6891.0,
-     "price": 2275000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-10",
-     "ppsf": 330,
-     "mi": 0.41
-    },
-    {
-     "slug": "46-fernwood-drive-stamford-connecticut-24194755",
-     "addr": "46 Fernwood Drive",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 6.0,
-     "sqft": 6124.0,
-     "price": 1425000.0,
-     "kind": "asking",
-     "status": "Under Contract - Continue to Show",
-     "ppsf": 233,
-     "mi": 0.47
-    }
-   ],
-   "summary": {
-    "n": 2,
-    "low": 1480000.0,
-    "high": 2275000.0,
-    "median": 1877500
+ "comps": [
+  {
+   "mls": "24180810",
+   "slug": "121-thornwood-road-stamford-connecticut-24180810",
+   "address": {
+    "line": "121 Thornwood Road",
+    "unit": null,
+    "lineWithUnit": "121 Thornwood Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2948.0,
+   "price": 1480000.0,
+   "date": "2026-07-31",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.157229,
+    "lng": -73.538889
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.1587406260506775,
+   "ppsf": 502.0352781546811
+  },
+  {
+   "mls": "24151641",
+   "slug": "87-pembroke-drive-stamford-connecticut-24151641",
+   "address": {
+    "line": "87 Pembroke Drive",
+    "unit": null,
+    "lineWithUnit": "87 Pembroke Drive",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
+   },
+   "beds": 4.0,
+   "baths": 5.0,
+   "sqft": 4421.0,
+   "price": 1654117.0,
+   "date": "2026-04-08",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.142239,
+    "lng": -73.540249
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.5199613999084487,
+   "ppsf": 374.14996607102466
+  },
+  {
+   "mls": "24154062",
+   "slug": "167-larkspur-road-stamford-connecticut-24154062",
+   "address": {
+    "line": "167 Larkspur Road",
+    "unit": null,
+    "lineWithUnit": "167 Larkspur Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 4530.0,
+   "price": 1250000.0,
+   "date": "2026-07-27",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.137066,
+    "lng": -73.551652
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.3254042845899168,
+   "ppsf": 275.9381898454746
+  },
+  {
+   "mls": "24159984",
+   "slug": "208-cascade-road-stamford-connecticut-24159984",
+   "address": {
+    "line": "208 Cascade Road",
+    "unit": null,
+    "lineWithUnit": "208 Cascade Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2802.0,
+   "price": 1225000.0,
+   "date": "2026-05-29",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.143409,
+    "lng": -73.541276
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.396082633141847,
+   "ppsf": 437.18772305496077
+  },
+  {
+   "mls": "24161743",
+   "slug": "124-shady-knoll-drive-stamford-connecticut-24161743",
+   "address": {
+    "line": "124 Shady Knoll Drive",
+    "unit": null,
+    "lineWithUnit": "124 Shady Knoll Drive",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
+   },
+   "beds": 5.0,
+   "baths": 5.0,
+   "sqft": 4274.0,
+   "price": 1750000.0,
+   "date": "2026-05-01",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.162459,
+    "lng": -73.558713
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.7601808556479555,
+   "ppsf": 409.4525035095929
   }
- }
+ ]
 }

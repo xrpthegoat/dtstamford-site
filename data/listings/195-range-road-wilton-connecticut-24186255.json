@@ -131,58 +131,141 @@
    "mi": 0.81
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "113-range-road-wilton-connecticut-24164761",
-     "addr": "113 Range Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 2496.0,
-     "price": 1290000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-25",
-     "ppsf": 517,
-     "mi": 0.32
-    },
-    {
-     "slug": "66-kent-hills-lane-wilton-connecticut-24170988",
-     "addr": "66 Kent Hills Lane",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 2296.0,
-     "price": 525000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-29",
-     "ppsf": 229,
-     "mi": 0.39
-    },
-    {
-     "slug": "512-belden-hill-road-wilton-connecticut-24191982",
-     "addr": "512 Belden Hill Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 2738.0,
-     "price": 979000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 358,
-     "mi": 0.62
-    }
-   ],
-   "summary": {
-    "n": 2,
-    "low": 525000.0,
-    "high": 1290000.0,
-    "median": 907500
+ "comps": [
+  {
+   "mls": "24186677",
+   "slug": "56-chipmunk-lane-wilton-connecticut-24186677",
+   "address": {
+    "line": "56 Chipmunk Lane",
+    "unit": null,
+    "lineWithUnit": "56 Chipmunk Lane",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2268.0,
+   "price": 1050000.0,
+   "date": "2026-08-10",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.161263,
+    "lng": -73.424764
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1473458900158326,
+   "ppsf": 462.962962962963
+  },
+  {
+   "mls": "24131722",
+   "slug": "3-deerfield-road-wilton-connecticut-24131722",
+   "address": {
+    "line": "3 Deerfield Road",
+    "unit": null,
+    "lineWithUnit": "3 Deerfield Road",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1982.0,
+   "price": 1075000.0,
+   "date": "2026-04-02",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.188181,
+    "lng": -73.424029
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.133710281041743,
+   "ppsf": 542.3814328960646
+  },
+  {
+   "mls": "24149192",
+   "slug": "20-arrowhead-road-wilton-connecticut-24149192",
+   "address": {
+    "line": "20 Arrowhead Road",
+    "unit": null,
+    "lineWithUnit": "20 Arrowhead Road",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1980.0,
+   "price": 650000.0,
+   "date": "2026-04-29",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.17479,
+    "lng": -73.418406
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.264882513393744,
+   "ppsf": 328.2828282828283
+  },
+  {
+   "mls": "24170988",
+   "slug": "66-kent-hills-lane-wilton-connecticut-24170988",
+   "address": {
+    "line": "66 Kent Hills Lane",
+    "unit": null,
+    "lineWithUnit": "66 Kent Hills Lane",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 2296.0,
+   "price": 525000.0,
+   "date": "2026-05-29",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.168722,
+    "lng": -73.424782
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 0.6282894767160335,
+   "ppsf": 228.65853658536585
+  },
+  {
+   "mls": "24171732",
+   "slug": "192-new-canaan-road-wilton-connecticut-24171732",
+   "address": {
+    "line": "192 New Canaan Road",
+    "unit": null,
+    "lineWithUnit": "192 New Canaan Road",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1824.0,
+   "price": 1190000.0,
+   "date": "2026-06-26",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.166935,
+    "lng": -73.450872
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.6073532995644744,
+   "ppsf": 652.4122807017544
   }
- }
+ ]
 }

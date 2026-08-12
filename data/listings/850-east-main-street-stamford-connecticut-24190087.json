@@ -136,123 +136,141 @@
    "walk": 11
   }
  },
- "comps": {
-  "building": {
-   "rows": [
-    {
-     "slug": "850-east-main-street-stamford-connecticut-24156291",
-     "addr": "850 East Main Street Apt 526",
-     "unit": "Apt 526",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1265.0,
-     "price": 609000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-18",
-     "ppsf": 481
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 609000.0,
-    "high": 609000.0,
-    "median": 609000
+ "comps": [
+  {
+   "mls": "24156291",
+   "slug": "850-east-main-street-stamford-connecticut-24156291",
+   "address": {
+    "line": "850 East Main Street",
+    "unit": "Apt 526",
+    "lineWithUnit": "850 East Main Street Apt 526",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
    },
-   "label": "850 East Main Street"
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1265.0,
+   "price": 609000.0,
+   "date": "2026-05-18",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.055907,
+    "lng": -73.526682
+   },
+   "klass": "condo",
+   "tier": 1,
+   "why": "Same building, sold in the last year",
+   "km": 0.0,
+   "ppsf": 481.42292490118575
   },
-  "area": {
-   "rows": [
-    {
-     "slug": "42-highland-road-stamford-connecticut-24184309",
-     "addr": "42 Highland Road Unit 6",
-     "unit": "Unit 6",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1988.0,
-     "price": 830000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-17",
-     "ppsf": 418,
-     "mi": 0.32
-    },
-    {
-     "slug": "61-grove-street-stamford-connecticut-24155772",
-     "addr": "61 Grove Street Apt D",
-     "unit": "Apt D",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1428.0,
-     "price": 551000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-16",
-     "ppsf": 386,
-     "mi": 0.36
-    },
-    {
-     "slug": "100-hope-street-stamford-connecticut-24141028",
-     "addr": "100 Hope Street Apt 10",
-     "unit": "Apt 10",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 2005.0,
-     "price": 575000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-20",
-     "ppsf": 287,
-     "mi": 0.61
-    },
-    {
-     "slug": "118-summer-street-stamford-connecticut-24165266",
-     "addr": "118 Summer Street Unit 1A",
-     "unit": "Unit 1A",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1696.0,
-     "price": 430000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-05",
-     "ppsf": 254,
-     "mi": 0.75
-    },
-    {
-     "slug": "50-glenbrook-road-stamford-connecticut-24159084",
-     "addr": "50 Glenbrook Road Apt 7C",
-     "unit": "Apt 7C",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1680.0,
-     "price": 470000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 280,
-     "mi": 0.16
-    },
-    {
-     "slug": "50-glenbrook-road-stamford-connecticut-24155718",
-     "addr": "50 Glenbrook Road Unit 9C",
-     "unit": "Unit 9C",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1680.0,
-     "price": 450000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 268,
-     "mi": 0.16
-    }
-   ],
-   "summary": {
-    "n": 4,
-    "low": 430000.0,
-    "high": 830000.0,
-    "median": 563000
+  {
+   "mls": "24145504",
+   "slug": "54-hope-street-stamford-connecticut-24145504",
+   "address": {
+    "line": "54 Hope Street",
+    "unit": "Unit 4",
+    "lineWithUnit": "54 Hope Street Unit 4",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06906"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1226.0,
+   "price": 469900.0,
+   "date": "2026-04-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.062504,
+    "lng": -73.526658
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7335556910725972,
+   "ppsf": 383.278955954323
+  },
+  {
+   "mls": "24165172",
+   "slug": "850-east-main-street-stamford-connecticut-24165172",
+   "address": {
+    "line": "850 East Main Street",
+    "unit": "Unit 205",
+    "lineWithUnit": "850 East Main Street Unit 205",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1080.0,
+   "price": 470000.0,
+   "date": "2026-05-29",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.055907,
+    "lng": -73.526682
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.0,
+   "ppsf": 435.18518518518516
+  },
+  {
+   "mls": "24161602",
+   "slug": "700-summer-street-stamford-connecticut-24161602",
+   "address": {
+    "line": "700 Summer Street",
+    "unit": "Unit 4L",
+    "lineWithUnit": "700 Summer Street Unit 4L",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06901"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 1069.0,
+   "price": 360000.0,
+   "date": "2026-07-01",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.057983,
+    "lng": -73.540726
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.199964971114726,
+   "ppsf": 336.7633302151543
+  },
+  {
+   "mls": "24115746",
+   "slug": "107-lockwood-avenue-stamford-connecticut-24115746",
+   "address": {
+    "line": "107 Lockwood Avenue",
+    "unit": "Apt 1B",
+    "lineWithUnit": "107 Lockwood Avenue Apt 1B",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1070.0,
+   "price": 307000.0,
+   "date": "2026-03-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.052425,
+    "lng": -73.521834
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5613898074729451,
+   "ppsf": 286.9158878504673
   }
- }
+ ]
 }

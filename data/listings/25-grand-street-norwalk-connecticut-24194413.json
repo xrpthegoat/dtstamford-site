@@ -120,125 +120,141 @@
    "mi": 0.61
   }
  },
- "comps": {
-  "building": {
-   "rows": [
-    {
-     "slug": "25-grand-street-norwalk-connecticut-24175790",
-     "addr": "25 Grand Street Unit 138",
-     "unit": "Unit 138",
-     "beds": 1.0,
-     "baths": 2.0,
-     "sqft": 725.0,
-     "price": 375000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-29",
-     "ppsf": 517
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 375000.0,
-    "high": 375000.0,
-    "median": 375000
+ "comps": [
+  {
+   "mls": "24175790",
+   "slug": "25-grand-street-norwalk-connecticut-24175790",
+   "address": {
+    "line": "25 Grand Street",
+    "unit": "Unit 138",
+    "lineWithUnit": "25 Grand Street Unit 138",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
    },
-   "label": "25 Grand Street"
+   "beds": 1.0,
+   "baths": 2.0,
+   "sqft": 725.0,
+   "price": 375000.0,
+   "date": "2026-06-29",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.124688,
+    "lng": -73.423326
+   },
+   "klass": "condo",
+   "tier": 1,
+   "why": "Same building, sold in the last year",
+   "km": 0.0,
+   "ppsf": 517.2413793103449
   },
-  "area": {
-   "rows": [
-    {
-     "slug": "63-ward-street-norwalk-connecticut-24164495",
-     "addr": "63 Ward Street Unit 2C",
-     "unit": "Unit 2C",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 804.0,
-     "price": 275000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-12",
-     "ppsf": 342,
-     "mi": 0.47
-    },
-    {
-     "slug": "18-prospect-avenue-norwalk-connecticut-24158892",
-     "addr": "18 Prospect Avenue Apt C10",
-     "unit": "Apt C10",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 572.0,
-     "price": 220000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-03",
-     "ppsf": 385,
-     "mi": 0.61
-    },
-    {
-     "slug": "50-aiken-street-norwalk-connecticut-24147084",
-     "addr": "50 Aiken Street Apt 253",
-     "unit": "Apt 253",
-     "beds": 1.0,
-     "baths": 2.0,
-     "sqft": 956.0,
-     "price": 384000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-17",
-     "ppsf": 402,
-     "mi": 0.63
-    },
-    {
-     "slug": "50-aiken-street-norwalk-connecticut-24162459",
-     "addr": "50 Aiken Street Unit 286",
-     "unit": "Unit 286",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 736.0,
-     "price": 330000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-15",
-     "ppsf": 448,
-     "mi": 0.63
-    },
-    {
-     "slug": "26-prospect-avenue-norwalk-connecticut-24159894",
-     "addr": "26 Prospect Avenue Unit F8",
-     "unit": "Unit F8",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 654.0,
-     "price": 275000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-18",
-     "ppsf": 420,
-     "mi": 0.64
-    },
-    {
-     "slug": "26-prospect-avenue-norwalk-connecticut-24149328",
-     "addr": "26 Prospect Avenue Unit F4",
-     "unit": "Unit F4",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 654.0,
-     "price": 265000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-02",
-     "ppsf": 405,
-     "mi": 0.64
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 220000.0,
-    "high": 384000.0,
-    "median": 275000
+  {
+   "mls": "24164495",
+   "slug": "63-ward-street-norwalk-connecticut-24164495",
+   "address": {
+    "line": "63 Ward Street",
+    "unit": "Unit 2C",
+    "lineWithUnit": "63 Ward Street Unit 2C",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
    },
-   "radiusMi": 0.75
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 804.0,
+   "price": 275000.0,
+   "date": "2026-06-12",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.129167,
+    "lng": -73.41643
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7626680743801398,
+   "ppsf": 342.03980099502485
+  },
+  {
+   "mls": "24159894",
+   "slug": "26-prospect-avenue-norwalk-connecticut-24159894",
+   "address": {
+    "line": "26 Prospect Avenue",
+    "unit": "Unit F8",
+    "lineWithUnit": "26 Prospect Avenue Unit F8",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 654.0,
+   "price": 275000.0,
+   "date": "2026-06-18",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.11538,
+    "lng": -73.422941
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0355047073378065,
+   "ppsf": 420.4892966360856
+  },
+  {
+   "mls": "24111498",
+   "slug": "11-bedford-avenue-norwalk-connecticut-24111498",
+   "address": {
+    "line": "11 Bedford Avenue",
+    "unit": "Apt J2",
+    "lineWithUnit": "11 Bedford Avenue Apt J2",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 857.0,
+   "price": 253000.0,
+   "date": "2026-04-07",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.115296,
+    "lng": -73.421444
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0561747461372746,
+   "ppsf": 295.2158693115519
+  },
+  {
+   "mls": "24148214",
+   "slug": "11-bedford-avenue-norwalk-connecticut-24148214",
+   "address": {
+    "line": "11 Bedford Avenue",
+    "unit": "Apt G1",
+    "lineWithUnit": "11 Bedford Avenue Apt G1",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 719.0,
+   "price": 220000.0,
+   "date": "2026-03-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.115296,
+    "lng": -73.421444
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0561747461372746,
+   "ppsf": 305.980528511822
   }
- }
+ ]
 }

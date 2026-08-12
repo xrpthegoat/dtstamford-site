@@ -113,101 +113,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "45-mead-street-stamford-connecticut-24167217",
-     "addr": "45 Mead Street Unit 1",
-     "unit": "Unit 1",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 1844.0,
-     "price": 2050.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-14",
-     "ppsf": 1,
-     "mi": 0.05
-    },
-    {
-     "slug": "31-oenoke-place-stamford-connecticut-24161728",
-     "addr": "31 Oenoke Place Unit 2",
-     "unit": "Unit 2",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 756.0,
-     "price": 2200.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-06",
-     "ppsf": 3,
-     "mi": 0.11
-    },
-    {
-     "slug": "32-bouton-street-east-stamford-connecticut-24154348",
-     "addr": "32 Bouton Street East Unit 2",
-     "unit": "Unit 2",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 2400.0,
-     "price": 3500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-28",
-     "ppsf": 1,
-     "mi": 0.13
-    },
-    {
-     "slug": "6-bouton-street-east-stamford-connecticut-24160196",
-     "addr": "6 Bouton Street East Unit 9",
-     "unit": "Unit 9",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1680.0,
-     "price": 3400.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-02",
-     "ppsf": 2,
-     "mi": 0.17
-    },
-    {
-     "slug": "6-bouton-street-east-stamford-connecticut-24154341",
-     "addr": "6 Bouton Street East Unit 4",
-     "unit": "Unit 4",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 2400.0,
-     "price": 3300.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-11",
-     "ppsf": 1,
-     "mi": 0.17
-    },
-    {
-     "slug": "168-highview-avenue-stamford-connecticut-24140527",
-     "addr": "168 Highview Avenue Unit B",
-     "unit": "Unit B",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1080.0,
-     "price": 2700.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-16",
-     "ppsf": 2,
-     "mi": 0.17
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 2050.0,
-    "high": 3500.0,
-    "median": 3000
+ "comps": [
+  {
+   "mls": "24154409",
+   "slug": "878-hope-street-stamford-connecticut-24154409",
+   "address": {
+    "line": "878 Hope Street",
+    "unit": null,
+    "lineWithUnit": "878 Hope Street",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06907"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 1458.0,
+   "price": 3200.0,
+   "date": "2026-03-02",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.088995,
+    "lng": -73.518668
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.109114716973774,
+   "ppsf": 2.1947873799725652
+  },
+  {
+   "mls": "24156421",
+   "slug": "1283-hope-street-stamford-connecticut-24156421",
+   "address": {
+    "line": "1283 Hope Street",
+    "unit": "Apt 5",
+    "lineWithUnit": "1283 Hope Street Apt 5",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06907"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 990.0,
+   "price": 2700.0,
+   "date": "2026-04-19",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.10102,
+    "lng": -73.516426
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.3040275475862866,
+   "ppsf": 2.727272727272727
+  },
+  {
+   "mls": "24140527",
+   "slug": "168-highview-avenue-stamford-connecticut-24140527",
+   "address": {
+    "line": "168 Highview Avenue",
+    "unit": "Unit B",
+    "lineWithUnit": "168 Highview Avenue Unit B",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06907"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1080.0,
+   "price": 2700.0,
+   "date": "2026-05-16",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.10103,
+    "lng": -73.514465
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.277843692810046,
+   "ppsf": 2.5
+  },
+  {
+   "mls": "24158493",
+   "slug": "85-camp-avenue-stamford-connecticut-24158493",
+   "address": {
+    "line": "85 Camp Avenue",
+    "unit": "Apt 12A",
+    "lineWithUnit": "85 Camp Avenue Apt 12A",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06907"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1625.0,
+   "price": 3750.0,
+   "date": "2026-04-08",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.09371,
+    "lng": -73.51571
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 0.542767116049272,
+   "ppsf": 2.3076923076923075
+  },
+  {
+   "mls": "24152345",
+   "slug": "15-bon-air-avenue-stamford-connecticut-24152345",
+   "address": {
+    "line": "15 Bon Air Avenue",
+    "unit": null,
+    "lineWithUnit": "15 Bon Air Avenue",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06907"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1262.0,
+   "price": 3800.0,
+   "date": "2026-04-22",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.087955,
+    "lng": -73.521437
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.3003066502417602,
+   "ppsf": 3.011093502377179
   }
- }
+ ]
 }

@@ -138,96 +138,114 @@
    "walk": 4
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "204-mather-street-wilton-connecticut-24174392",
-     "addr": "204 Mather Street",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 2409.0,
-     "price": 740000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-15",
-     "ppsf": 307,
-     "mi": 0.65
-    },
-    {
-     "slug": "28-new-street-wilton-connecticut-24179106",
-     "addr": "28 New Street",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1205.0,
-     "price": 739000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 613,
-     "mi": 0.04
-    },
-    {
-     "slug": "23-church-street-wilton-connecticut-24179285",
-     "addr": "23 Church Street",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1612.0,
-     "price": 849000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 527,
-     "mi": 0.28
-    },
-    {
-     "slug": "82-old-mill-road-wilton-connecticut-24193390",
-     "addr": "82 Old Mill Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 2391.0,
-     "price": 1049000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 439,
-     "mi": 0.28
-    },
-    {
-     "slug": "48-mountain-road-wilton-connecticut-24195002",
-     "addr": "48 Mountain Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 2234.0,
-     "price": 799000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 358,
-     "mi": 0.34
-    },
-    {
-     "slug": "175-mountain-road-wilton-connecticut-24181353",
-     "addr": "175 Mountain Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 2062.0,
-     "price": 899000.0,
-     "kind": "asking",
-     "status": "Under Contract - Continue to Show",
-     "ppsf": 436,
-     "mi": 0.72
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 740000.0,
-    "high": 740000.0,
-    "median": 740000
+ "comps": [
+  {
+   "mls": "24149503",
+   "slug": "30-freshwater-lane-wilton-connecticut-24149503",
+   "address": {
+    "line": "30 Freshwater Lane",
+    "unit": null,
+    "lineWithUnit": "30 Freshwater Lane",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 1260.0,
+   "price": 650000.0,
+   "date": "2026-03-31",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.169948,
+    "lng": -73.402322
+   },
+   "klass": "house",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 9.652514817856554,
+   "ppsf": 515.8730158730159
+  },
+  {
+   "mls": "24149593",
+   "slug": "21-old-highway-wilton-connecticut-24149593",
+   "address": {
+    "line": "21 Old Highway",
+    "unit": null,
+    "lineWithUnit": "21 Old Highway",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1517.0,
+   "price": 665000.0,
+   "date": "2026-04-14",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.192034,
+    "lng": -73.426102
+   },
+   "klass": "house",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 6.897761605786423,
+   "ppsf": 438.3651944627554
+  },
+  {
+   "mls": "24161439",
+   "slug": "110-dudley-road-wilton-connecticut-24161439",
+   "address": {
+    "line": "110 Dudley Road",
+    "unit": null,
+    "lineWithUnit": "110 Dudley Road",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 3.0,
+   "baths": 1.0,
+   "sqft": 1522.0,
+   "price": 695000.0,
+   "date": "2026-05-18",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.18672,
+    "lng": -73.40834
+   },
+   "klass": "house",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 7.720822166349564,
+   "ppsf": 456.6360052562418
+  },
+  {
+   "mls": "24168387",
+   "slug": "36-scribner-hill-road-wilton-connecticut-24168387",
+   "address": {
+    "line": "36 Scribner Hill Road",
+    "unit": null,
+    "lineWithUnit": "36 Scribner Hill Road",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 1.0,
+   "baths": 2.0,
+   "sqft": 1288.0,
+   "price": 345000.0,
+   "date": "2026-06-01",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.230757,
+    "lng": -73.429251
+   },
+   "klass": "house",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 2.58402187212194,
+   "ppsf": 267.85714285714283
   }
- }
+ ]
 }

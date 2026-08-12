@@ -135,99 +135,141 @@
    "walk": 12
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "1-driftwood-lane-norwalk-connecticut-24165360",
-     "addr": "1 Driftwood Lane",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 2340.0,
-     "price": 781500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-10",
-     "ppsf": 334,
-     "mi": 0.3
-    },
-    {
-     "slug": "276-grumman-avenue-norwalk-connecticut-24149272",
-     "addr": "276 Grumman Avenue",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1488.0,
-     "price": 675000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-14",
-     "ppsf": 454,
-     "mi": 0.53
-    },
-    {
-     "slug": "47-creeping-hemlock-drive-norwalk-connecticut-24165571",
-     "addr": "47 Creeping Hemlock Drive",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 2800.0,
-     "price": 789000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-23",
-     "ppsf": 282,
-     "mi": 0.66
-    },
-    {
-     "slug": "19-cricklewood-lane-norwalk-connecticut-24159975",
-     "addr": "19 Cricklewood Lane",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 3038.0,
-     "price": 800000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-01",
-     "ppsf": 263,
-     "mi": 0.74
-    },
-    {
-     "slug": "19-eastwood-road-norwalk-connecticut-24176076",
-     "addr": "19 Eastwood Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1404.0,
-     "price": 720000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 513,
-     "mi": 0.17
-    },
-    {
-     "slug": "50-bayne-street-norwalk-connecticut-24188833",
-     "addr": "50 Bayne Street",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 1.0,
-     "sqft": 1708.0,
-     "price": 759000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 444,
-     "mi": 0.27
-    }
-   ],
-   "summary": {
-    "n": 4,
-    "low": 675000.0,
-    "high": 800000.0,
-    "median": 785250
+ "comps": [
+  {
+   "mls": "24151761",
+   "slug": "norwalk-connecticut-24151761",
+   "address": {
+    "line": null,
+    "unit": null,
+    "lineWithUnit": null,
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 1772.0,
+   "price": 930000.0,
+   "date": "2026-03-26",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.154444,
+    "lng": -73.408179
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.3736571184824268,
+   "ppsf": 524.8306997742663
+  },
+  {
+   "mls": "24149272",
+   "slug": "276-grumman-avenue-norwalk-connecticut-24149272",
+   "address": {
+    "line": "276 Grumman Avenue",
+    "unit": null,
+    "lineWithUnit": "276 Grumman Avenue",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1488.0,
+   "price": 675000.0,
+   "date": "2026-05-14",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.158588,
+    "lng": -73.404049
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.854928984495017,
+   "ppsf": 453.6290322580645
+  },
+  {
+   "mls": "24143673",
+   "slug": "5-tod-road-norwalk-connecticut-24143673",
+   "address": {
+    "line": "5 Tod Road",
+    "unit": null,
+    "lineWithUnit": "5 Tod Road",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1619.0,
+   "price": 595000.0,
+   "date": "2026-04-20",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.139094,
+    "lng": -73.420159
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.818153922165374,
+   "ppsf": 367.51080914144535
+  },
+  {
+   "mls": "24170048",
+   "slug": "120-old-belden-hill-road-norwalk-connecticut-24170048",
+   "address": {
+    "line": "120 Old Belden Hill Road",
+    "unit": null,
+    "lineWithUnit": "120 Old Belden Hill Road",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1212.0,
+   "price": 661900.0,
+   "date": "2026-06-11",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.157899,
+    "lng": -73.428174
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.3562299954592316,
+   "ppsf": 546.1221122112212
+  },
+  {
+   "mls": "24165191",
+   "slug": "10-scott-street-norwalk-connecticut-24165191",
+   "address": {
+    "line": "10 Scott Street",
+    "unit": null,
+    "lineWithUnit": "10 Scott Street",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 4.0,
+   "baths": 2.0,
+   "sqft": 2027.0,
+   "price": 850000.0,
+   "date": "2026-07-08",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.145859,
+    "lng": -73.401389
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.340480755324369,
+   "ppsf": 419.33892451899357
   }
- }
+ ]
 }

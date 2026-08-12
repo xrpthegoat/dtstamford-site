@@ -136,101 +136,141 @@
    "mi": 0.73
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "30-lenox-avenue-stamford-connecticut-24169364",
-     "addr": "30 Lenox Avenue",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 2172.0,
-     "price": 650000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-31",
-     "ppsf": 299,
-     "mi": 0.2
-    },
-    {
-     "slug": "15-tremont-avenue-stamford-connecticut-24157239",
-     "addr": "15 Tremont Avenue",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 2526.0,
-     "price": 825500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-29",
-     "ppsf": 327,
-     "mi": 0.25
-    },
-    {
-     "slug": "140-courtland-avenue-stamford-connecticut-24169148",
-     "addr": "140 Courtland Avenue",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1915.0,
-     "price": 875000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-03",
-     "ppsf": 457,
-     "mi": 0.43
-    },
-    {
-     "slug": "11-patton-drive-darien-connecticut-24154291",
-     "addr": "11 Patton Drive",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 2063.0,
-     "price": 1578300.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-15",
-     "ppsf": 765,
-     "mi": 0.55
-    },
-    {
-     "slug": "15-charles-street-darien-connecticut-24156259",
-     "addr": "15 Charles Street",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 1.0,
-     "sqft": 1742.0,
-     "price": 1395000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-30",
-     "ppsf": 801,
-     "mi": 0.56
-    },
-    {
-     "slug": "9-patton-drive-darien-connecticut-24180375",
-     "addr": "9 Patton Drive",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1450.0,
-     "price": 1250000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-16",
-     "ppsf": 862,
-     "mi": 0.57
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 650000.0,
-    "high": 1578300.0,
-    "median": 1062500
+ "comps": [
+  {
+   "mls": "24155116",
+   "slug": "29-waterbury-avenue-stamford-connecticut-24155116",
+   "address": {
+    "line": "29 Waterbury Avenue",
+    "unit": null,
+    "lineWithUnit": "29 Waterbury Avenue",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 2035.0,
+   "price": 710000.0,
+   "date": "2026-04-13",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.059288,
+    "lng": -73.508414
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.044582891013293,
+   "ppsf": 348.89434889434887
+  },
+  {
+   "mls": "24166084",
+   "slug": "287-glenbrook-road-stamford-connecticut-24166084",
+   "address": {
+    "line": "287 Glenbrook Road",
+    "unit": null,
+    "lineWithUnit": "287 Glenbrook Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06906"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2568.0,
+   "price": 835000.0,
+   "date": "2026-07-08",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.06347,
+    "lng": -73.523002
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1461358939099158,
+   "ppsf": 325.1557632398754
+  },
+  {
+   "mls": "24157239",
+   "slug": "15-tremont-avenue-stamford-connecticut-24157239",
+   "address": {
+    "line": "15 Tremont Avenue",
+    "unit": null,
+    "lineWithUnit": "15 Tremont Avenue",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06906"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 2526.0,
+   "price": 825500.0,
+   "date": "2026-04-29",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.065941,
+    "lng": -73.514573
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.4079942117772662,
+   "ppsf": 326.8012668250198
+  },
+  {
+   "mls": "24160028",
+   "slug": "51-houston-terrace-stamford-connecticut-24160028",
+   "address": {
+    "line": "51 Houston Terrace",
+    "unit": null,
+    "lineWithUnit": "51 Houston Terrace",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1648.0,
+   "price": 701000.0,
+   "date": "2026-05-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.058045,
+    "lng": -73.508967
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1722506133478225,
+   "ppsf": 425.36407766990294
+  },
+  {
+   "mls": "24169148",
+   "slug": "140-courtland-avenue-stamford-connecticut-24169148",
+   "address": {
+    "line": "140 Courtland Avenue",
+    "unit": null,
+    "lineWithUnit": "140 Courtland Avenue",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1915.0,
+   "price": 875000.0,
+   "date": "2026-06-03",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.062975,
+    "lng": -73.514939
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6926803280925109,
+   "ppsf": 456.9190600522193
   }
- }
+ ]
 }

@@ -121,176 +121,141 @@
    "walk": 4
   }
  },
- "comps": {
-  "building": {
-   "rows": [
-    {
-     "slug": "1-glover-avenue-norwalk-connecticut-24131781",
-     "addr": "1 Glover Avenue Unit 515",
-     "unit": "Unit 515",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 953.0,
-     "price": 2755.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-07",
-     "ppsf": 3
-    },
-    {
-     "slug": "1-glover-avenue-norwalk-connecticut-24131789",
-     "addr": "1 Glover Avenue Unit 416",
-     "unit": "Unit 416",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1304.0,
-     "price": 3330.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-07",
-     "ppsf": 3
-    },
-    {
-     "slug": "1-glover-avenue-norwalk-connecticut-24139924",
-     "addr": "1 Glover Avenue Unit 517",
-     "unit": "Unit 517",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1320.0,
-     "price": 3329.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-07",
-     "ppsf": 3
-    },
-    {
-     "slug": "1-glover-avenue-norwalk-connecticut-24146223",
-     "addr": "1 Glover Avenue Unit 519",
-     "unit": "Unit 519",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 966.0,
-     "price": 3195.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-07",
-     "ppsf": 3
-    },
-    {
-     "slug": "1-glover-avenue-norwalk-connecticut-24170147",
-     "addr": "1 Glover Avenue Unit 203",
-     "unit": "Unit 203",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 962.0,
-     "price": 2895.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 3
-    }
-   ],
-   "summary": {
-    "n": 4,
-    "low": 2755.0,
-    "high": 3330.0,
-    "median": 3262
+ "comps": [
+  {
+   "mls": "24131789",
+   "slug": "1-glover-avenue-norwalk-connecticut-24131789",
+   "address": {
+    "line": "1 Glover Avenue",
+    "unit": "Unit 416",
+    "lineWithUnit": "1 Glover Avenue Unit 416",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
    },
-   "label": "1 Glover Avenue"
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1304.0,
+   "price": 3330.0,
+   "date": "2026-07-07",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.143,
+    "lng": -73.427475
+   },
+   "klass": "rental",
+   "tier": 1,
+   "why": "Same building, sold in the last year",
+   "km": 0.0,
+   "ppsf": 2.553680981595092
   },
-  "area": {
-   "rows": [
-    {
-     "slug": "3-seir-hill-road-norwalk-connecticut-24163709",
-     "addr": "3 Seir Hill Road Unit A5",
-     "unit": "Unit A5",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1093.0,
-     "price": 2800.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-10",
-     "ppsf": 3,
-     "mi": 0.26
-    },
-    {
-     "slug": "7-seir-hill-road-norwalk-connecticut-24161383",
-     "addr": "7 Seir Hill Road Unit 41",
-     "unit": "Unit 41",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 694.0,
-     "price": 2400.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-05",
-     "ppsf": 3,
-     "mi": 0.29
-    },
-    {
-     "slug": "7-seir-hill-road-norwalk-connecticut-24172452",
-     "addr": "7 Seir Hill Road Unit 15",
-     "unit": "Unit 15",
-     "beds": 2.0,
-     "baths": 3.0,
-     "sqft": 932.0,
-     "price": 2950.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-01",
-     "ppsf": 3,
-     "mi": 0.29
-    },
-    {
-     "slug": "7-seir-hill-road-norwalk-connecticut-24182045",
-     "addr": "7 Seir Hill Road Unit 35",
-     "unit": "Unit 35",
-     "beds": 2.0,
-     "baths": 3.0,
-     "sqft": 1304.0,
-     "price": 3250.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-23",
-     "ppsf": 2,
-     "mi": 0.31
-    },
-    {
-     "slug": "21-seir-hill-road-norwalk-connecticut-24161138",
-     "addr": "21 Seir Hill Road Apt 8",
-     "unit": "Apt 8",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1258.0,
-     "price": 3450.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-23",
-     "ppsf": 3,
-     "mi": 0.33
-    },
-    {
-     "slug": "32-oakwood-avenue-norwalk-connecticut-24159059",
-     "addr": "32 Oakwood Avenue Unit 5",
-     "unit": "Unit 5",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1300.0,
-     "price": 2495.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-24",
-     "ppsf": 2,
-     "mi": 0.46
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 2400.0,
-    "high": 3450.0,
-    "median": 2875
+  {
+   "mls": "24139924",
+   "slug": "1-glover-avenue-norwalk-connecticut-24139924",
+   "address": {
+    "line": "1 Glover Avenue",
+    "unit": "Unit 517",
+    "lineWithUnit": "1 Glover Avenue Unit 517",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1320.0,
+   "price": 3329.0,
+   "date": "2026-07-07",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.143,
+    "lng": -73.427475
+   },
+   "klass": "rental",
+   "tier": 1,
+   "why": "Same building, sold in the last year",
+   "km": 0.0,
+   "ppsf": 2.521969696969697
+  },
+  {
+   "mls": "24161138",
+   "slug": "21-seir-hill-road-norwalk-connecticut-24161138",
+   "address": {
+    "line": "21 Seir Hill Road",
+    "unit": "Apt 8",
+    "lineWithUnit": "21 Seir Hill Road Apt 8",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1258.0,
+   "price": 3450.0,
+   "date": "2026-03-23",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.147266,
+    "lng": -73.430511
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5381843070991773,
+   "ppsf": 2.742448330683625
+  },
+  {
+   "mls": "24159059",
+   "slug": "32-oakwood-avenue-norwalk-connecticut-24159059",
+   "address": {
+    "line": "32 Oakwood Avenue",
+    "unit": "Unit 5",
+    "lineWithUnit": "32 Oakwood Avenue Unit 5",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1300.0,
+   "price": 2495.0,
+   "date": "2026-03-24",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.1495,
+    "lng": -73.429
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7339603400511086,
+   "ppsf": 1.9192307692307693
+  },
+  {
+   "mls": "24182045",
+   "slug": "7-seir-hill-road-norwalk-connecticut-24182045",
+   "address": {
+    "line": "7 Seir Hill Road",
+    "unit": "Unit 35",
+    "lineWithUnit": "7 Seir Hill Road Unit 35",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 1304.0,
+   "price": 3250.0,
+   "date": "2026-06-23",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.147102,
+    "lng": -73.43001
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5030950433961157,
+   "ppsf": 2.4923312883435584
   }
- }
+ ]
 }

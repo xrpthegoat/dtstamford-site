@@ -132,83 +132,141 @@
    "mi": 1.21
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "42-hastings-lane-stamford-connecticut-24160482",
-     "addr": "42 Hastings Lane",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 3.0,
-     "sqft": 3702.0,
-     "price": 1660000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-01",
-     "ppsf": 448,
-     "mi": 0.74
-    },
-    {
-     "slug": "103-ledge-lane-stamford-connecticut-24168681",
-     "addr": "103 Ledge Lane",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 2.0,
-     "sqft": 2146.0,
-     "price": 899000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 419,
-     "mi": 0.33
-    },
-    {
-     "slug": "519-newfield-avenue-stamford-connecticut-24197396",
-     "addr": "519 Newfield Avenue",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 4.0,
-     "sqft": 3487.0,
-     "price": 1649000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 473,
-     "mi": 0.45
-    },
-    {
-     "slug": "18-phillips-lane-darien-connecticut-24172629",
-     "addr": "18 Phillips Lane",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 4.0,
-     "sqft": 4567.0,
-     "price": 3250000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 712,
-     "mi": 0.52
-    },
-    {
-     "slug": "5-middlesex-road-darien-connecticut-24184412",
-     "addr": "5 Middlesex Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 5.0,
-     "sqft": 6195.0,
-     "price": 2995000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 483,
-     "mi": 0.53
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 1660000.0,
-    "high": 1660000.0,
-    "median": 1660000
+ "comps": [
+  {
+   "mls": "24151825",
+   "slug": "10-turner-road-stamford-connecticut-24151825",
+   "address": {
+    "line": "10 Turner Road",
+    "unit": null,
+    "lineWithUnit": "10 Turner Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 3247.0,
+   "price": 1300000.0,
+   "date": "2026-07-01",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.082798,
+    "lng": -73.534536
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9894669150728477,
+   "ppsf": 400.36957191253464
+  },
+  {
+   "mls": "24160116",
+   "slug": "27-holbrook-drive-stamford-connecticut-24160116",
+   "address": {
+    "line": "27 Holbrook Drive",
+    "unit": null,
+    "lineWithUnit": "27 Holbrook Drive",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06906"
+   },
+   "beds": 4.0,
+   "baths": 5.0,
+   "sqft": 3539.0,
+   "price": 1610000.0,
+   "date": "2026-06-26",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.072114,
+    "lng": -73.53317
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9794296880294292,
+   "ppsf": 454.9307714043515
+  },
+  {
+   "mls": "24144289",
+   "slug": "20-norman-road-stamford-connecticut-24144289",
+   "address": {
+    "line": "20 Norman Road",
+    "unit": null,
+    "lineWithUnit": "20 Norman Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06906"
+   },
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 2932.0,
+   "price": 900000.0,
+   "date": "2026-03-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.074906,
+    "lng": -73.530597
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6164610704649036,
+   "ppsf": 306.95770804911325
+  },
+  {
+   "mls": "24158342",
+   "slug": "8-barnstable-lane-stamford-connecticut-24158342",
+   "address": {
+    "line": "8 Barnstable Lane",
+    "unit": null,
+    "lineWithUnit": "8 Barnstable Lane",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06907"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 2364.0,
+   "price": 564300.0,
+   "date": "2026-05-29",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.086207,
+    "lng": -73.519074
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0156851249408467,
+   "ppsf": 238.7055837563452
+  },
+  {
+   "mls": "24164643",
+   "slug": "19-jamroga-lane-stamford-connecticut-24164643",
+   "address": {
+    "line": "19 Jamroga Lane",
+    "unit": null,
+    "lineWithUnit": "19 Jamroga Lane",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2246.0,
+   "price": 875000.0,
+   "date": "2026-05-21",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.080039,
+    "lng": -73.537278
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.089704434239916,
+   "ppsf": 389.58147818343724
   }
- }
+ ]
 }

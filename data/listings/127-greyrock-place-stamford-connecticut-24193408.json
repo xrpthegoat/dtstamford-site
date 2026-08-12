@@ -125,101 +125,141 @@
    "walk": 1
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "25-forest-street-stamford-connecticut-24161661",
-     "addr": "25 Forest Street Unit 7K",
-     "unit": "Unit 7K",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1267.0,
-     "price": 3800.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-29",
-     "ppsf": 3,
-     "mi": 0.14
-    },
-    {
-     "slug": "25-forest-street-stamford-connecticut-24179313",
-     "addr": "25 Forest Street Unit 11A",
-     "unit": "Unit 11A",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1342.0,
-     "price": 3975.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-06",
-     "ppsf": 3,
-     "mi": 0.14
-    },
-    {
-     "slug": "160-elm-street-greenwich-connecticut-24166239",
-     "addr": "160 Elm Street Unit C3",
-     "unit": "Unit C3",
-     "beds": 2.0,
-     "baths": 3.0,
-     "sqft": 1400.0,
-     "price": 4985.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-18",
-     "ppsf": 4,
-     "mi": 0.21
-    },
-    {
-     "slug": "101-grove-street-stamford-connecticut-24148070",
-     "addr": "101 Grove Street Apt 17",
-     "unit": "Apt 17",
-     "beds": 2.0,
-     "baths": 3.0,
-     "sqft": 1475.0,
-     "price": 3500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-19",
-     "ppsf": 2,
-     "mi": 0.23
-    },
-    {
-     "slug": "33-pleasant-street-stamford-connecticut-24174647",
-     "addr": "33 Pleasant Street Unit 13",
-     "unit": "Unit 13",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 760.0,
-     "price": 2800.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-22",
-     "ppsf": 4,
-     "mi": 0.23
-    },
-    {
-     "slug": "300-broad-street-stamford-connecticut-24180961",
-     "addr": "300 Broad Street Unit 601",
-     "unit": "Unit 601",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 875.0,
-     "price": 2850.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-22",
-     "ppsf": 3,
-     "mi": 0.25
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 2800.0,
-    "high": 4985.0,
-    "median": 3650
+ "comps": [
+  {
+   "mls": "24149354",
+   "slug": "118-summer-street-stamford-connecticut-24149354",
+   "address": {
+    "line": "118 Summer Street",
+    "unit": "Unit 2B",
+    "lineWithUnit": "118 Summer Street Unit 2B",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06901"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 983.0,
+   "price": 2700.0,
+   "date": "2026-03-30",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.054213,
+    "lng": -73.540866
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.42571037415232926,
+   "ppsf": 2.7466937945066126
+  },
+  {
+   "mls": "24150917",
+   "slug": "2-washington-court-stamford-connecticut-24150917",
+   "address": {
+    "line": "2 Washington Court",
+    "unit": "Unit 12",
+    "lineWithUnit": "2 Washington Court Unit 12",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1064.0,
+   "price": 3190.0,
+   "date": "2026-04-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.057766,
+    "lng": -73.544879
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.840744881005495,
+   "ppsf": 2.9981203007518795
+  },
+  {
+   "mls": "24151628",
+   "slug": "60-strawberry-hill-avenue-stamford-connecticut-24151628",
+   "address": {
+    "line": "60 Strawberry Hill Avenue",
+    "unit": "Unit 318",
+    "lineWithUnit": "60 Strawberry Hill Avenue Unit 318",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 828.0,
+   "price": 2800.0,
+   "date": "2026-04-06",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.062359,
+    "lng": -73.533613
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8882633201743628,
+   "ppsf": 3.3816425120772946
+  },
+  {
+   "mls": "24156115",
+   "slug": "87-glenbrook-road-stamford-connecticut-24156115",
+   "address": {
+    "line": "87 Glenbrook Road",
+    "unit": "Apt 6E",
+    "lineWithUnit": "87 Glenbrook Road Apt 6E",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 835.0,
+   "price": 2200.0,
+   "date": "2026-04-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.058174,
+    "lng": -73.528226
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7530496153098436,
+   "ppsf": 2.6347305389221556
+  },
+  {
+   "mls": "24148116",
+   "slug": "850-east-main-street-stamford-connecticut-24148116",
+   "address": {
+    "line": "850 East Main Street",
+    "unit": "Apt 420",
+    "lineWithUnit": "850 East Main Street Apt 420",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1073.0,
+   "price": 2800.0,
+   "date": "2026-04-13",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.05591,
+    "lng": -73.52668
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7803046833794521,
+   "ppsf": 2.60950605778192
   }
- }
+ ]
 }

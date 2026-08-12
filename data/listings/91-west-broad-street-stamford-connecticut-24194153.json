@@ -123,100 +123,141 @@
    "walk": 6
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "2-washington-court-stamford-connecticut-24150917",
-     "addr": "2 Washington Court Unit 12",
-     "unit": "Unit 12",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1064.0,
-     "price": 3190.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-01",
-     "ppsf": 3,
-     "mi": 0.23
-    },
-    {
-     "slug": "16-carolina-road-stamford-connecticut-24191657",
-     "addr": "16 Carolina Road Unit 2",
-     "unit": "Unit 2",
-     "beds": 3.0,
-     "baths": 1.0,
-     "sqft": 2344.0,
-     "price": 3600.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-20",
-     "ppsf": 2,
-     "mi": 0.37
-    },
-    {
-     "slug": "29-dolsen-place-stamford-connecticut-24154904",
-     "addr": "29 Dolsen Place Unit 2",
-     "unit": "Unit 2",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1400.0,
-     "price": 3600.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-21",
-     "ppsf": 3,
-     "mi": 0.59
-    },
-    {
-     "slug": "20-third-street-stamford-connecticut-24158555",
-     "addr": "20 Third Street Unit 18",
-     "unit": "Unit 18",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1645.0,
-     "price": 4900.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-09",
-     "ppsf": 3,
-     "mi": 0.68
-    },
-    {
-     "slug": "20-third-street-stamford-connecticut-24175898",
-     "addr": "20 Third Street Unit 19",
-     "unit": "Unit 19",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1610.0,
-     "price": 4800.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-27",
-     "ppsf": 3,
-     "mi": 0.68
-    },
-    {
-     "slug": "46-vernon-place-stamford-connecticut-24191078",
-     "addr": "46 Vernon Place",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 1.0,
-     "sqft": 1056.0,
-     "price": 3520.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 3,
-     "mi": 0.2
-    }
-   ],
-   "summary": {
-    "n": 5,
-    "low": 3190.0,
-    "high": 4900.0,
-    "median": 3600
+ "comps": [
+  {
+   "mls": "24155229",
+   "slug": "59-liberty-street-stamford-connecticut-24155229",
+   "address": {
+    "line": "59 Liberty Street",
+    "unit": "Apt 21",
+    "lineWithUnit": "59 Liberty Street Apt 21",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1582.0,
+   "price": 3300.0,
+   "date": "2026-03-13",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.050089,
+    "lng": -73.553525
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7746854761503752,
+   "ppsf": 2.0859671302149176
+  },
+  {
+   "mls": "24158555",
+   "slug": "20-third-street-stamford-connecticut-24158555",
+   "address": {
+    "line": "20 Third Street",
+    "unit": "Unit 18",
+    "lineWithUnit": "20 Third Street Unit 18",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1645.0,
+   "price": 4900.0,
+   "date": "2026-05-09",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.06464,
+    "lng": -73.54251
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0888260913139785,
+   "ppsf": 2.978723404255319
+  },
+  {
+   "mls": "24175898",
+   "slug": "20-third-street-stamford-connecticut-24175898",
+   "address": {
+    "line": "20 Third Street",
+    "unit": "Unit 19",
+    "lineWithUnit": "20 Third Street Unit 19",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1610.0,
+   "price": 4800.0,
+   "date": "2026-05-27",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.06464,
+    "lng": -73.54251
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0888260913139785,
+   "ppsf": 2.981366459627329
+  },
+  {
+   "mls": "24178813",
+   "slug": "1611-washington-boulevard-stamford-connecticut-24178813",
+   "address": {
+    "line": "1611 Washington Boulevard",
+    "unit": "Unit 2",
+    "lineWithUnit": "1611 Washington Boulevard Unit 2",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 1566.0,
+   "price": 3450.0,
+   "date": "2026-07-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.06157,
+    "lng": -73.54351
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7544075665842228,
+   "ppsf": 2.203065134099617
+  },
+  {
+   "mls": "24183679",
+   "slug": "1611-washington-boulevard-stamford-connecticut-24183679",
+   "address": {
+    "line": "1611 Washington Boulevard",
+    "unit": "Unit 10",
+    "lineWithUnit": "1611 Washington Boulevard Unit 10",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 1652.0,
+   "price": 3500.0,
+   "date": "2026-07-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.060989,
+    "lng": -73.543363
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7105431625488896,
+   "ppsf": 2.1186440677966103
   }
- }
+ ]
 }

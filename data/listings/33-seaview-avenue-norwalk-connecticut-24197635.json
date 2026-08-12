@@ -126,101 +126,141 @@
    "mi": 0.98
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "35-seaview-avenue-norwalk-connecticut-24161153",
-     "addr": "35 Seaview Avenue Unit 2nd fl",
-     "unit": "Unit 2nd fl",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 1100.0,
-     "price": 2800.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-25",
-     "ppsf": 3,
-     "mi": 0.01
-    },
-    {
-     "slug": "37-seaview-avenue-norwalk-connecticut-24179133",
-     "addr": "37 Seaview Avenue Unit 2",
-     "unit": "Unit 2",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 650.0,
-     "price": 2350.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-01",
-     "ppsf": 4,
-     "mi": 0.02
-    },
-    {
-     "slug": "4-van-zant-street-norwalk-connecticut-24149292",
-     "addr": "4 Van Zant Street Unit B13",
-     "unit": "Unit B13",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 550.0,
-     "price": 1900.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-01",
-     "ppsf": 3,
-     "mi": 0.07
-    },
-    {
-     "slug": "3-betts-place-norwalk-connecticut-24172850",
-     "addr": "3 Betts Place Unit 4",
-     "unit": "Unit 4",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 800.0,
-     "price": 2250.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-26",
-     "ppsf": 3,
-     "mi": 0.09
-    },
-    {
-     "slug": "61-van-zant-street-norwalk-connecticut-24152360",
-     "addr": "61 Van Zant Street Unit 2",
-     "unit": "Unit 2",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 900.0,
-     "price": 2100.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-01",
-     "ppsf": 2,
-     "mi": 0.27
-    },
-    {
-     "slug": "49-osborne-avenue-norwalk-connecticut-24151683",
-     "addr": "49 Osborne Avenue",
-     "unit": "",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 850.0,
-     "price": 2100.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-18",
-     "ppsf": 2,
-     "mi": 0.29
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 1900.0,
-    "high": 2800.0,
-    "median": 2175
+ "comps": [
+  {
+   "mls": "24147318",
+   "slug": "19-day-street-norwalk-connecticut-24147318",
+   "address": {
+    "line": "19 Day Street",
+    "unit": "Unit 311",
+    "lineWithUnit": "19 Day Street Unit 311",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1341.0,
+   "price": 3500.0,
+   "date": "2026-03-16",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.095734,
+    "lng": -73.4181
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8726984385474971,
+   "ppsf": 2.609992542878449
+  },
+  {
+   "mls": "24139289",
+   "slug": "265-east-avenue-norwalk-connecticut-24139289",
+   "address": {
+    "line": "265 East Avenue",
+    "unit": "Unit 2",
+    "lineWithUnit": "265 East Avenue Unit 2",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06855"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 900.0,
+   "price": 2100.0,
+   "date": "2026-03-11",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.100568,
+    "lng": -73.403948
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.44807528738068,
+   "ppsf": 2.3333333333333335
+  },
+  {
+   "mls": "24151683",
+   "slug": "49-osborne-avenue-norwalk-connecticut-24151683",
+   "address": {
+    "line": "49 Osborne Avenue",
+    "unit": null,
+    "lineWithUnit": "49 Osborne Avenue",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06855"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 850.0,
+   "price": 2100.0,
+   "date": "2026-04-18",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.103949,
+    "lng": -73.408219
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.4675184562998212,
+   "ppsf": 2.4705882352941178
+  },
+  {
+   "mls": "24143420",
+   "slug": "10-ann-street-norwalk-connecticut-24143420",
+   "address": {
+    "line": "10 Ann Street",
+    "unit": "Apt 102",
+    "lineWithUnit": "10 Ann Street Apt 102",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 1.0,
+   "baths": 2.0,
+   "sqft": 1016.0,
+   "price": 2500.0,
+   "date": "2026-04-20",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.101204,
+    "lng": -73.41889
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8266057952368545,
+   "ppsf": 2.4606299212598426
+  },
+  {
+   "mls": "24147317",
+   "slug": "19-day-street-norwalk-connecticut-24147317",
+   "address": {
+    "line": "19 Day Street",
+    "unit": "Unit 402",
+    "lineWithUnit": "19 Day Street Unit 402",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1086.0,
+   "price": 3100.0,
+   "date": "2026-04-28",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.095734,
+    "lng": -73.4181
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8726984385474971,
+   "ppsf": 2.85451197053407
   }
- }
+ ]
 }

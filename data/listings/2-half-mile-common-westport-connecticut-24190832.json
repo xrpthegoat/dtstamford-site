@@ -129,101 +129,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "19-half-mile-common-westport-connecticut-24163442",
-     "addr": "19 Half Mile Common",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 2340.0,
-     "price": 1250000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-04",
-     "ppsf": 534,
-     "mi": 0.33
-    },
-    {
-     "slug": "24-blue-ribbon-drive-westport-connecticut-24168290",
-     "addr": "24 Blue Ribbon Drive",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 3584.0,
-     "price": 2400000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-30",
-     "ppsf": 670,
-     "mi": 0.35
-    },
-    {
-     "slug": "4-highland-road-westport-connecticut-24170310",
-     "addr": "4 Highland Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2556.0,
-     "price": 1475000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-06",
-     "ppsf": 577,
-     "mi": 0.51
-    },
-    {
-     "slug": "13-highland-road-westport-connecticut-24160076",
-     "addr": "13 Highland Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2170.0,
-     "price": 1671000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-15",
-     "ppsf": 770,
-     "mi": 0.64
-    },
-    {
-     "slug": "10-reimer-road-westport-connecticut-24152179",
-     "addr": "10 Reimer Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 3464.0,
-     "price": 2125000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-01",
-     "ppsf": 613,
-     "mi": 0.67
-    },
-    {
-     "slug": "6-nutcracker-lane-westport-connecticut-24133128",
-     "addr": "6 Nutcracker Lane",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 5434.0,
-     "price": 2725000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-01",
-     "ppsf": 501,
-     "mi": 0.71
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 1250000.0,
-    "high": 2725000.0,
-    "median": 1898000
+ "comps": [
+  {
+   "mls": "24133128",
+   "slug": "6-nutcracker-lane-westport-connecticut-24133128",
+   "address": {
+    "line": "6 Nutcracker Lane",
+    "unit": null,
+    "lineWithUnit": "6 Nutcracker Lane",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 5434.0,
+   "price": 2725000.0,
+   "date": "2026-04-01",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.175014,
+    "lng": -73.336753
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1450652358560731,
+   "ppsf": 501.47221199852777
+  },
+  {
+   "mls": "24165047",
+   "slug": "114-cross-highway-westport-connecticut-24165047",
+   "address": {
+    "line": "114 Cross Highway",
+    "unit": null,
+    "lineWithUnit": "114 Cross Highway",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 5.0,
+   "baths": 5.0,
+   "sqft": 4179.0,
+   "price": 2550000.0,
+   "date": "2026-08-06",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.161705,
+    "lng": -73.339005
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6915188616697208,
+   "ppsf": 610.1938262742283
+  },
+  {
+   "mls": "24158858",
+   "slug": "35-woody-lane-westport-connecticut-24158858",
+   "address": {
+    "line": "35 Woody Lane",
+    "unit": null,
+    "lineWithUnit": "35 Woody Lane",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 5.0,
+   "baths": 4.0,
+   "sqft": 4486.0,
+   "price": 3015000.0,
+   "date": "2026-07-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.158864,
+    "lng": -73.326396
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8665394658689217,
+   "ppsf": 672.0909496210433
+  },
+  {
+   "mls": "24114691",
+   "slug": "13-terhune-drive-westport-connecticut-24114691",
+   "address": {
+    "line": "13 Terhune Drive",
+    "unit": null,
+    "lineWithUnit": "13 Terhune Drive",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 6.0,
+   "baths": 6.0,
+   "sqft": 6010.0,
+   "price": 3499999.0,
+   "date": "2026-06-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.151407,
+    "lng": -73.331303
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.545659807348269,
+   "ppsf": 582.3625623960066
+  },
+  {
+   "mls": "24166818",
+   "slug": "119-long-lots-road-westport-connecticut-24166818",
+   "address": {
+    "line": "119 Long Lots Road",
+    "unit": null,
+    "lineWithUnit": "119 Long Lots Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 5.0,
+   "baths": 5.0,
+   "sqft": 5616.0,
+   "price": 3352000.0,
+   "date": "2026-06-19",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.146531,
+    "lng": -73.319498
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.343298238521227,
+   "ppsf": 596.8660968660969
   }
- }
+ ]
 }

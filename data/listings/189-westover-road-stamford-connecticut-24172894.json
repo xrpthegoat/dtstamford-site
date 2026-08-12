@@ -134,100 +134,141 @@
    "mi": 0.94
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "19-emery-drive-stamford-connecticut-24155501",
-     "addr": "19 Emery Drive",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 2731.0,
-     "price": 1590000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-17",
-     "ppsf": 582,
-     "mi": 0.32
-    },
-    {
-     "slug": "5-halliwell-drive-stamford-connecticut-24155832",
-     "addr": "5 Halliwell Drive",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 4.0,
-     "sqft": 2502.0,
-     "price": 1596000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-04",
-     "ppsf": 638,
-     "mi": 0.35
-    },
-    {
-     "slug": "516-stillwater-road-stamford-connecticut-24182098",
-     "addr": "516 Stillwater Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 2240.0,
-     "price": 975000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-30",
-     "ppsf": 435,
-     "mi": 0.4
-    },
-    {
-     "slug": "139-wyndover-lane-stamford-connecticut-24146135",
-     "addr": "139 Wyndover Lane",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 4398.0,
-     "price": 892504.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-29",
-     "ppsf": 203,
-     "mi": 0.63
-    },
-    {
-     "slug": "4-austin-avenue-stamford-connecticut-24146033",
-     "addr": "4 Austin Avenue",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1776.0,
-     "price": 700000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-16",
-     "ppsf": 394,
-     "mi": 0.65
-    },
-    {
-     "slug": "17-reynolds-avenue-stamford-connecticut-24197482",
-     "addr": "17 Reynolds Avenue",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1495.0,
-     "price": 610000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 408,
-     "mi": 0.69
-    }
-   ],
-   "summary": {
-    "n": 5,
-    "low": 700000.0,
-    "high": 1596000.0,
-    "median": 975000
+ "comps": [
+  {
+   "mls": "24155501",
+   "slug": "19-emery-drive-stamford-connecticut-24155501",
+   "address": {
+    "line": "19 Emery Drive",
+    "unit": null,
+    "lineWithUnit": "19 Emery Drive",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2731.0,
+   "price": 1590000.0,
+   "date": "2026-04-17",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.059964,
+    "lng": -73.562831
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5149547895015515,
+   "ppsf": 582.2043207616258
+  },
+  {
+   "mls": "24155832",
+   "slug": "5-halliwell-drive-stamford-connecticut-24155832",
+   "address": {
+    "line": "5 Halliwell Drive",
+    "unit": null,
+    "lineWithUnit": "5 Halliwell Drive",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 3.0,
+   "baths": 4.0,
+   "sqft": 2502.0,
+   "price": 1596000.0,
+   "date": "2026-05-04",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.063988,
+    "lng": -73.559074
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5578162070595039,
+   "ppsf": 637.8896882494005
+  },
+  {
+   "mls": "24166559",
+   "slug": "143-palmers-hill-road-stamford-connecticut-24166559",
+   "address": {
+    "line": "143 Palmers Hill Road",
+    "unit": null,
+    "lineWithUnit": "143 Palmers Hill Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 3178.0,
+   "price": 1529000.0,
+   "date": "2026-05-28",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.059881,
+    "lng": -73.566579
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.4688231377974558,
+   "ppsf": 481.12020138451857
+  },
+  {
+   "mls": "24182098",
+   "slug": "516-stillwater-road-stamford-connecticut-24182098",
+   "address": {
+    "line": "516 Stillwater Road",
+    "unit": null,
+    "lineWithUnit": "516 Stillwater Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 2240.0,
+   "price": 975000.0,
+   "date": "2026-07-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.060445,
+    "lng": -73.559804
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6380501687954458,
+   "ppsf": 435.26785714285717
+  },
+  {
+   "mls": "24168000",
+   "slug": "41-chester-street-stamford-connecticut-24168000",
+   "address": {
+    "line": "41 Chester Street",
+    "unit": null,
+    "lineWithUnit": "41 Chester Street",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 3213.0,
+   "price": 1455000.0,
+   "date": "2026-06-25",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.067462,
+    "lng": -73.541176
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.0929752849952195,
+   "ppsf": 452.84780578898227
   }
- }
+ ]
 }

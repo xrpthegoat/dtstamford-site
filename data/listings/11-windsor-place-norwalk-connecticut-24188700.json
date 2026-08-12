@@ -131,58 +131,141 @@
    "mi": 1.5
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "25-lincoln-avenue-norwalk-connecticut-24149728",
-     "addr": "25 Lincoln Avenue",
-     "unit": "",
-     "beds": 6.0,
-     "baths": 3.0,
-     "sqft": 3921.0,
-     "price": 900000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-28",
-     "ppsf": 230,
-     "mi": 0.71
-    },
-    {
-     "slug": "9-quintard-avenue-norwalk-connecticut-24166656",
-     "addr": "9 Quintard Avenue",
-     "unit": "",
-     "beds": 6.0,
-     "baths": 3.0,
-     "sqft": 2183.0,
-     "price": 735000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-11",
-     "ppsf": 337,
-     "mi": 0.72
-    },
-    {
-     "slug": "36-taylor-avenue-norwalk-connecticut-24174136",
-     "addr": "36 Taylor Avenue",
-     "unit": "",
-     "beds": 6.0,
-     "baths": 4.0,
-     "sqft": 3209.0,
-     "price": 1300000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 405,
-     "mi": 0.55
-    }
-   ],
-   "summary": {
-    "n": 2,
-    "low": 735000.0,
-    "high": 900000.0,
-    "median": 817500
+ "comps": [
+  {
+   "mls": "24166656",
+   "slug": "9-quintard-avenue-norwalk-connecticut-24166656",
+   "address": {
+    "line": "9 Quintard Avenue",
+    "unit": null,
+    "lineWithUnit": "9 Quintard Avenue",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
    },
-   "radiusMi": 0.75
+   "beds": 6.0,
+   "baths": 3.0,
+   "sqft": 2183.0,
+   "price": 735000.0,
+   "date": "2026-06-11",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.09122,
+    "lng": -73.414665
+   },
+   "klass": "multi",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1616174207871284,
+   "ppsf": 336.6926248282181
+  },
+  {
+   "mls": "24153742",
+   "slug": "29-nash-place-norwalk-connecticut-24153742",
+   "address": {
+    "line": "29 Nash Place",
+    "unit": null,
+    "lineWithUnit": "29 Nash Place",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 6.0,
+   "baths": 6.0,
+   "sqft": 2475.0,
+   "price": 949875.0,
+   "date": "2026-04-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.109142,
+    "lng": -73.4361
+   },
+   "klass": "multi",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.143591184987017,
+   "ppsf": 383.7878787878788
+  },
+  {
+   "mls": "24157898",
+   "slug": "80-gregory-boulevard-norwalk-connecticut-24157898",
+   "address": {
+    "line": "80 Gregory Boulevard",
+    "unit": null,
+    "lineWithUnit": "80 Gregory Boulevard",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06855"
+   },
+   "beds": 4.0,
+   "baths": 2.0,
+   "sqft": 3120.0,
+   "price": 915000.0,
+   "date": "2026-06-04",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.096264,
+    "lng": -73.399873
+   },
+   "klass": "multi",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.477465128951924,
+   "ppsf": 293.2692307692308
+  },
+  {
+   "mls": "24152299",
+   "slug": "10-burritt-avenue-norwalk-connecticut-24152299",
+   "address": {
+    "line": "10 Burritt Avenue",
+    "unit": null,
+    "lineWithUnit": "10 Burritt Avenue",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 5.0,
+   "baths": 2.0,
+   "sqft": 2066.0,
+   "price": 710000.0,
+   "date": "2026-05-01",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.091515,
+    "lng": -73.41529
+   },
+   "klass": "multi",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.111384970694282,
+   "ppsf": 343.6592449177154
+  },
+  {
+   "mls": "24161139",
+   "slug": "23-quintard-avenue-norwalk-connecticut-24161139",
+   "address": {
+    "line": "23 Quintard Avenue",
+    "unit": null,
+    "lineWithUnit": "23 Quintard Avenue",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 2499.0,
+   "price": 675000.0,
+   "date": "2026-06-03",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.090359,
+    "lng": -73.414154
+   },
+   "klass": "multi",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.2038956733495123,
+   "ppsf": 270.10804321728693
   }
- }
+ ]
 }

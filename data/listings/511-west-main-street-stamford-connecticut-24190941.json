@@ -121,125 +121,141 @@
    "walk": 9
   }
  },
- "comps": {
-  "building": {
-   "rows": [
-    {
-     "slug": "511-west-main-street-stamford-connecticut-24154625",
-     "addr": "511 West Main Street Apt 6",
-     "unit": "Apt 6",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1136.0,
-     "price": 2750.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-13",
-     "ppsf": 2
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 2750.0,
-    "high": 2750.0,
-    "median": 2750
+ "comps": [
+  {
+   "mls": "24154625",
+   "slug": "511-west-main-street-stamford-connecticut-24154625",
+   "address": {
+    "line": "511 West Main Street",
+    "unit": "Apt 6",
+    "lineWithUnit": "511 West Main Street Apt 6",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
    },
-   "label": "511 West Main Street"
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1136.0,
+   "price": 2750.0,
+   "date": "2026-04-13",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.049009,
+    "lng": -73.559602
+   },
+   "klass": "rental",
+   "tier": 1,
+   "why": "Same building, sold in the last year",
+   "km": 0.0,
+   "ppsf": 2.420774647887324
   },
-  "area": {
-   "rows": [
-    {
-     "slug": "63-myano-lane-stamford-connecticut-24176870",
-     "addr": "63 Myano Lane Unit 4",
-     "unit": "Unit 4",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1300.0,
-     "price": 3750.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-01",
-     "ppsf": 3,
-     "mi": 0.23
-    },
-    {
-     "slug": "50-alvord-lane-stamford-connecticut-24191341",
-     "addr": "50 Alvord Lane Unit 14",
-     "unit": "Unit 14",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1950.0,
-     "price": 3200.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-01",
-     "ppsf": 2,
-     "mi": 0.23
-    },
-    {
-     "slug": "21-whitmore-lane-stamford-connecticut-24187796",
-     "addr": "21 Whitmore Lane Unit 1",
-     "unit": "Unit 1",
-     "beds": 2.0,
-     "baths": 3.0,
-     "sqft": 1400.0,
-     "price": 3600.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-11",
-     "ppsf": 3,
-     "mi": 0.28
-    },
-    {
-     "slug": "23-roosevelt-avenue-stamford-connecticut-24168292",
-     "addr": "23 Roosevelt Avenue #2",
-     "unit": "#2",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 888.0,
-     "price": 2700.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-12",
-     "ppsf": 3,
-     "mi": 0.29
-    },
-    {
-     "slug": "94-liberty-street-stamford-connecticut-24160882",
-     "addr": "94 Liberty Street Unit 12",
-     "unit": "Unit 12",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1300.0,
-     "price": 3150.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-01",
-     "ppsf": 2,
-     "mi": 0.31
-    },
-    {
-     "slug": "74-myano-lane-stamford-connecticut-24173265",
-     "addr": "74 Myano Lane Unit 1",
-     "unit": "Unit 1",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 1000.0,
-     "price": 2500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-31",
-     "ppsf": 2,
-     "mi": 0.31
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 2500.0,
-    "high": 3750.0,
-    "median": 3175
+  {
+   "mls": "24155168",
+   "slug": "31-fairgate-drive-stamford-connecticut-24155168",
+   "address": {
+    "line": "31 Fairgate Drive",
+    "unit": null,
+    "lineWithUnit": "31 Fairgate Drive",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1188.0,
+   "price": 3100.0,
+   "date": "2026-04-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.049946,
+    "lng": -73.55177
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6649798247062687,
+   "ppsf": 2.6094276094276094
+  },
+  {
+   "mls": "24143000",
+   "slug": "77-havemeyer-lane-stamford-connecticut-24143000",
+   "address": {
+    "line": "77 Havemeyer Lane",
+    "unit": "Unit 313",
+    "lineWithUnit": "77 Havemeyer Lane Unit 313",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1100.0,
+   "price": 4850.0,
+   "date": "2026-03-21",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.055644,
+    "lng": -73.564879
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8603007105005639,
+   "ppsf": 4.409090909090909
+  },
+  {
+   "mls": "24160217",
+   "slug": "14-taylor-street-stamford-connecticut-24160217",
+   "address": {
+    "line": "14 Taylor Street",
+    "unit": "Unit 18",
+    "lineWithUnit": "14 Taylor Street Unit 18",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1100.0,
+   "price": 3100.0,
+   "date": "2026-04-15",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.047432,
+    "lng": -73.54861
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9383032340375604,
+   "ppsf": 2.8181818181818183
+  },
+  {
+   "mls": "24163054",
+   "slug": "15-greenwich-avenue-stamford-connecticut-24163054",
+   "address": {
+    "line": "15 Greenwich Avenue",
+    "unit": "Unit 9",
+    "lineWithUnit": "15 Greenwich Avenue Unit 9",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1134.0,
+   "price": 2800.0,
+   "date": "2026-05-12",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.050058,
+    "lng": -73.54722
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0448458994534142,
+   "ppsf": 2.4691358024691357
   }
- }
+ ]
 }

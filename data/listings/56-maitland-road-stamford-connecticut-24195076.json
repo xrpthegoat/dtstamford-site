@@ -123,101 +123,141 @@
    "mi": 1.06
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "24-king-street-stamford-connecticut-24154237",
-     "addr": "24 King Street",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1620.0,
-     "price": 6200.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-28",
-     "ppsf": 4,
-     "mi": 0.28
-    },
-    {
-     "slug": "306-courtland-avenue-stamford-connecticut-24178965",
-     "addr": "306 Courtland Avenue Unit 2",
-     "unit": "Unit 2",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1480.0,
-     "price": 4000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-29",
-     "ppsf": 3,
-     "mi": 0.45
-    },
-    {
-     "slug": "77-webb-avenue-stamford-connecticut-24175729",
-     "addr": "77 Webb Avenue Unit 8",
-     "unit": "Unit 8",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1444.0,
-     "price": 3500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-01",
-     "ppsf": 2,
-     "mi": 0.54
-    },
-    {
-     "slug": "13-parker-avenue-stamford-connecticut-24183102",
-     "addr": "13 Parker Avenue",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1898.0,
-     "price": 3400.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-03",
-     "ppsf": 2,
-     "mi": 0.59
-    },
-    {
-     "slug": "48-lockwood-avenue-stamford-connecticut-24159211",
-     "addr": "48 Lockwood Avenue Unit First Floor",
-     "unit": "Unit First Floor",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 2526.0,
-     "price": 3600.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-01",
-     "ppsf": 1,
-     "mi": 0.61
-    },
-    {
-     "slug": "100-hope-street-stamford-connecticut-24169280",
-     "addr": "100 Hope Street Unit 5",
-     "unit": "Unit 5",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 2608.0,
-     "price": 4500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-18",
-     "ppsf": 2,
-     "mi": 0.63
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 3400.0,
-    "high": 6200.0,
-    "median": 3800
+ "comps": [
+  {
+   "mls": "24161103",
+   "slug": "57-scofield-avenue-stamford-connecticut-24161103",
+   "address": {
+    "line": "57 Scofield Avenue",
+    "unit": null,
+    "lineWithUnit": "57 Scofield Avenue",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06906"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 4.0,
+   "sqft": 2390.0,
+   "price": 4300.0,
+   "date": "2026-04-03",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.06888,
+    "lng": -73.524025
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0661497782572924,
+   "ppsf": 1.799163179916318
+  },
+  {
+   "mls": "24154717",
+   "slug": "21-quintard-terrace-stamford-connecticut-24154717",
+   "address": {
+    "line": "21 Quintard Terrace",
+    "unit": "Unit 2nd Floor",
+    "lineWithUnit": "21 Quintard Terrace Unit 2nd Floor",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2839.0,
+   "price": 3300.0,
+   "date": "2026-05-15",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.056313,
+    "lng": -73.52553
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0801111883652994,
+   "ppsf": 1.1623811201127157
+  },
+  {
+   "mls": "24159211",
+   "slug": "48-lockwood-avenue-stamford-connecticut-24159211",
+   "address": {
+    "line": "48 Lockwood Avenue",
+    "unit": "Unit First Floor",
+    "lineWithUnit": "48 Lockwood Avenue Unit First Floor",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 2526.0,
+   "price": 3600.0,
+   "date": "2026-05-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.054431,
+    "lng": -73.521113
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9835690080774685,
+   "ppsf": 1.4251781472684086
+  },
+  {
+   "mls": "24167439",
+   "slug": "69-weed-avenue-stamford-connecticut-24167439",
+   "address": {
+    "line": "69 Weed Avenue",
+    "unit": null,
+    "lineWithUnit": "69 Weed Avenue",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 3212.0,
+   "price": 8500.0,
+   "date": "2026-05-05",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.05848,
+    "lng": -73.507238
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.770055211831583,
+   "ppsf": 2.6463262764632627
+  },
+  {
+   "mls": "24169280",
+   "slug": "100-hope-street-stamford-connecticut-24169280",
+   "address": {
+    "line": "100 Hope Street",
+    "unit": "Unit 5",
+    "lineWithUnit": "100 Hope Street Unit 5",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06906"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2608.0,
+   "price": 4500.0,
+   "date": "2026-07-18",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.06375,
+    "lng": -73.527016
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0154252922404268,
+   "ppsf": 1.7254601226993864
   }
- }
+ ]
 }

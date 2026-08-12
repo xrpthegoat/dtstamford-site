@@ -111,101 +111,141 @@
    "mi": 0.64
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "30-ferris-avenue-norwalk-connecticut-24171827",
-     "addr": "30 Ferris Avenue Unit B7",
-     "unit": "Unit B7",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 750.0,
-     "price": 2195.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-12",
-     "ppsf": 3,
-     "mi": 0.07
-    },
-    {
-     "slug": "53-glenwood-avenue-norwalk-connecticut-24157345",
-     "addr": "53 Glenwood Avenue Unit 3",
-     "unit": "Unit 3",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 350.0,
-     "price": 1150.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-31",
-     "ppsf": 3,
-     "mi": 0.2
-    },
-    {
-     "slug": "13-south-street-norwalk-connecticut-24159486",
-     "addr": "13 South Street Unit 2 Rear",
-     "unit": "Unit 2 Rear",
-     "beds": 1.0,
-     "baths": 2.0,
-     "sqft": 782.0,
-     "price": 2200.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-01",
-     "ppsf": 3,
-     "mi": 0.29
-    },
-    {
-     "slug": "155-west-cedar-street-norwalk-connecticut-24164645",
-     "addr": "155 West Cedar Street Unit 5",
-     "unit": "Unit 5",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 700.0,
-     "price": 1900.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-24",
-     "ppsf": 3,
-     "mi": 0.3
-    },
-    {
-     "slug": "10-elmwood-avenue-norwalk-connecticut-24182789",
-     "addr": "10 Elmwood Avenue",
-     "unit": "",
-     "beds": 1.0,
-     "baths": 2.0,
-     "sqft": 1053.0,
-     "price": 2400.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-01",
-     "ppsf": 2,
-     "mi": 0.3
-    },
-    {
-     "slug": "6-8-hyatt-avenue-norwalk-connecticut-24185009",
-     "addr": "6-8 Hyatt Avenue Unit 5",
-     "unit": "Unit 5",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 525.0,
-     "price": 1850.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-03",
-     "ppsf": 4,
-     "mi": 0.3
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 1150.0,
-    "high": 2400.0,
-    "median": 2048
+ "comps": [
+  {
+   "mls": "24141589",
+   "slug": "7-fairfield-avenue-norwalk-connecticut-24141589",
+   "address": {
+    "line": "7 Fairfield Avenue",
+    "unit": "Unit 1",
+    "lineWithUnit": "7 Fairfield Avenue Unit 1",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
    },
-   "radiusMi": 0.75
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 400.0,
+   "price": 1995.0,
+   "date": "2026-06-15",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.100616,
+    "lng": -73.423159
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9313161309229763,
+   "ppsf": 4.9875
+  },
+  {
+   "mls": "24157345",
+   "slug": "53-glenwood-avenue-norwalk-connecticut-24157345",
+   "address": {
+    "line": "53 Glenwood Avenue",
+    "unit": "Unit 3",
+    "lineWithUnit": "53 Glenwood Avenue Unit 3",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 350.0,
+   "price": 1150.0,
+   "date": "2026-03-31",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.109678,
+    "lng": -73.42989
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.31490045866223,
+   "ppsf": 3.2857142857142856
+  },
+  {
+   "mls": "24186271",
+   "slug": "36-woodbury-avenue-norwalk-connecticut-24186271",
+   "address": {
+    "line": "36 Woodbury Avenue",
+    "unit": "Unit 2F",
+    "lineWithUnit": "36 Woodbury Avenue Unit 2F",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 0.0,
+   "baths": 1.0,
+   "sqft": 350.0,
+   "price": 1700.0,
+   "date": "2026-07-10",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.109947,
+    "lng": -73.42321
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7011283689040175,
+   "ppsf": 4.857142857142857
+  },
+  {
+   "mls": "24191316",
+   "slug": "36-woodbury-avenue-norwalk-connecticut-24191316",
+   "address": {
+    "line": "36 Woodbury Avenue",
+    "unit": "#2B",
+    "lineWithUnit": "36 Woodbury Avenue #2B",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 0.0,
+   "baths": 1.0,
+   "sqft": 500.0,
+   "price": 1700.0,
+   "date": "2026-07-27",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.109737,
+    "lng": -73.42317
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6930778799042341,
+   "ppsf": 3.4
+  },
+  {
+   "mls": "24144633",
+   "slug": "32-main-street-norwalk-connecticut-24144633",
+   "address": {
+    "line": "32 Main Street",
+    "unit": "Unit 207",
+    "lineWithUnit": "32 Main Street Unit 207",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 0.0,
+   "baths": 7.0,
+   "sqft": 375.0,
+   "price": 1350.0,
+   "date": "2026-04-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.11951,
+    "lng": -73.412544
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.059073280009786,
+   "ppsf": 3.6
   }
- }
+ ]
 }

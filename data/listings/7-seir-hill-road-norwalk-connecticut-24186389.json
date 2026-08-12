@@ -136,100 +136,141 @@
    "walk": 2
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "3-seir-hill-road-norwalk-connecticut-24160235",
-     "addr": "3 Seir Hill Road Apt A6",
-     "unit": "Apt A6",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 1093.0,
-     "price": 425000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-30",
-     "ppsf": 389,
-     "mi": 0.04
-    },
-    {
-     "slug": "20-glenrock-norwalk-connecticut-24184298",
-     "addr": "20 Glenrock Unit 20",
-     "unit": "Unit 20",
-     "beds": 2.0,
-     "baths": 3.0,
-     "sqft": 1558.0,
-     "price": 565000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-06",
-     "ppsf": 363,
-     "mi": 0.05
-    },
-    {
-     "slug": "3-valley-view-road-norwalk-connecticut-24175042",
-     "addr": "3 Valley View Road Unit 23",
-     "unit": "Unit 23",
-     "beds": 2.0,
-     "baths": 3.0,
-     "sqft": 1440.0,
-     "price": 590000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-17",
-     "ppsf": 410,
-     "mi": 0.29
-    },
-    {
-     "slug": "3-valley-view-road-norwalk-connecticut-24153411",
-     "addr": "3 Valley View Road Apt 45",
-     "unit": "Apt 45",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1482.0,
-     "price": 405000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-10",
-     "ppsf": 273,
-     "mi": 0.29
-    },
-    {
-     "slug": "21-linden-street-norwalk-connecticut-24160952",
-     "addr": "21 Linden Street Unit 12",
-     "unit": "Unit 12",
-     "beds": 2.0,
-     "baths": 3.0,
-     "sqft": 1170.0,
-     "price": 480000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-15",
-     "ppsf": 410,
-     "mi": 0.65
-    },
-    {
-     "slug": "9-glenrock-norwalk-connecticut-24189476",
-     "addr": "9 Glenrock Unit 9",
-     "unit": "Unit 9",
-     "beds": 2.0,
-     "baths": 3.0,
-     "sqft": 1558.0,
-     "price": 525000.0,
-     "kind": "asking",
-     "status": "Under Contract - Continue to Show",
-     "ppsf": 337,
-     "mi": 0.05
-    }
-   ],
-   "summary": {
-    "n": 5,
-    "low": 405000.0,
-    "high": 590000.0,
-    "median": 480000
+ "comps": [
+  {
+   "mls": "24180806",
+   "slug": "1-glenrock-norwalk-connecticut-24180806",
+   "address": {
+    "line": "1 Glenrock",
+    "unit": "Unit 1",
+    "lineWithUnit": "1 Glenrock Unit 1",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
    },
-   "radiusMi": 0.75
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 735.0,
+   "price": 360000.0,
+   "date": "2026-07-21",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.147943,
+    "lng": -73.429959
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.11835462812162184,
+   "ppsf": 489.7959183673469
+  },
+  {
+   "mls": "24160235",
+   "slug": "3-seir-hill-road-norwalk-connecticut-24160235",
+   "address": {
+    "line": "3 Seir Hill Road",
+    "unit": "Apt A6",
+    "lineWithUnit": "3 Seir Hill Road Apt A6",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 1093.0,
+   "price": 425000.0,
+   "date": "2026-04-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.146417,
+    "lng": -73.429594
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.07049202594074647,
+   "ppsf": 388.8380603842635
+  },
+  {
+   "mls": "24164495",
+   "slug": "63-ward-street-norwalk-connecticut-24164495",
+   "address": {
+    "line": "63 Ward Street",
+    "unit": "Unit 2C",
+    "lineWithUnit": "63 Ward Street Unit 2C",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 804.0,
+   "price": 275000.0,
+   "date": "2026-06-12",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.129167,
+    "lng": -73.41643
+   },
+   "klass": "condo",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.2570390438882946,
+   "ppsf": 342.03980099502485
+  },
+  {
+   "mls": "24178788",
+   "slug": "15-perry-avenue-norwalk-connecticut-24178788",
+   "address": {
+    "line": "15 Perry Avenue",
+    "unit": "Unit B6",
+    "lineWithUnit": "15 Perry Avenue Unit B6",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 1.0,
+   "baths": 2.0,
+   "sqft": 1160.0,
+   "price": 430000.0,
+   "date": "2026-06-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.135231,
+    "lng": -73.426707
+   },
+   "klass": "condo",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.3271216060932822,
+   "ppsf": 370.6896551724138
+  },
+  {
+   "mls": "24147084",
+   "slug": "50-aiken-street-norwalk-connecticut-24147084",
+   "address": {
+    "line": "50 Aiken Street",
+    "unit": "Apt 253",
+    "lineWithUnit": "50 Aiken Street Apt 253",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 1.0,
+   "baths": 2.0,
+   "sqft": 956.0,
+   "price": 384000.0,
+   "date": "2026-04-17",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.133678,
+    "lng": -73.421675
+   },
+   "klass": "condo",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.6133472164820601,
+   "ppsf": 401.673640167364
   }
- }
+ ]
 }

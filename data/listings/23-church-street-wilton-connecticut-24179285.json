@@ -140,64 +140,141 @@
    "walk": 3
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "28-new-street-wilton-connecticut-24179106",
-     "addr": "28 New Street",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1205.0,
-     "price": 739000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 613,
-     "mi": 0.26
-    },
-    {
-     "slug": "6-new-st-extension-wilton-connecticut-24186767",
-     "addr": "6 New St Extension",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1333.0,
-     "price": 689000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 517,
-     "mi": 0.28
-    },
-    {
-     "slug": "48-mountain-road-wilton-connecticut-24195002",
-     "addr": "48 Mountain Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 2234.0,
-     "price": 799000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 358,
-     "mi": 0.36
-    },
-    {
-     "slug": "82-old-mill-road-wilton-connecticut-24193390",
-     "addr": "82 Old Mill Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 2391.0,
-     "price": 1049000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 439,
-     "mi": 0.56
-    }
-   ],
-   "summary": null,
-   "radiusMi": 0.75
+ "comps": [
+  {
+   "mls": "24152011",
+   "slug": "126-heather-lane-wilton-connecticut-24152011",
+   "address": {
+    "line": "126 Heather Lane",
+    "unit": null,
+    "lineWithUnit": "126 Heather Lane",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1844.0,
+   "price": 875000.0,
+   "date": "2026-03-16",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.179882,
+    "lng": -73.39714
+   },
+   "klass": "house",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 9.166011442171623,
+   "ppsf": 474.5119305856833
+  },
+  {
+   "mls": "24165402",
+   "slug": "35-orchard-drive-wilton-connecticut-24165402",
+   "address": {
+    "line": "35 Orchard Drive",
+    "unit": null,
+    "lineWithUnit": "35 Orchard Drive",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1853.0,
+   "price": 951000.0,
+   "date": "2026-06-11",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.214839,
+    "lng": -73.40191
+   },
+   "klass": "house",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 5.43238466521235,
+   "ppsf": 513.2218024824609
+  },
+  {
+   "mls": "24168410",
+   "slug": "74-raymond-lane-wilton-connecticut-24168410",
+   "address": {
+    "line": "74 Raymond Lane",
+    "unit": null,
+    "lineWithUnit": "74 Raymond Lane",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2092.0,
+   "price": 805000.0,
+   "date": "2026-06-29",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.187684,
+    "lng": -73.411642
+   },
+   "klass": "house",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 7.998480389771544,
+   "ppsf": 384.79923518164435
+  },
+  {
+   "mls": "24160141",
+   "slug": "31-longmeadows-road-wilton-connecticut-24160141",
+   "address": {
+    "line": "31 Longmeadows Road",
+    "unit": null,
+    "lineWithUnit": "31 Longmeadows Road",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2172.0,
+   "price": 1030000.0,
+   "date": "2026-06-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.237092,
+    "lng": -73.476638
+   },
+   "klass": "house",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 4.3357470552597315,
+   "ppsf": 474.2173112338858
+  },
+  {
+   "mls": "24131722",
+   "slug": "3-deerfield-road-wilton-connecticut-24131722",
+   "address": {
+    "line": "3 Deerfield Road",
+    "unit": null,
+    "lineWithUnit": "3 Deerfield Road",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1982.0,
+   "price": 1075000.0,
+   "date": "2026-04-02",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.188181,
+    "lng": -73.424029
+   },
+   "klass": "house",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 7.780413481237528,
+   "ppsf": 542.3814328960646
   }
- }
+ ]
 }

@@ -128,72 +128,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "342-greens-farms-road-westport-connecticut-24122231",
-     "addr": "342 Greens Farms Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 5.0,
-     "sqft": 6600.0,
-     "price": 2100000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-27",
-     "ppsf": 318,
-     "mi": 0.51
-    },
-    {
-     "slug": "86-maple-avenue-south-westport-connecticut-24148769",
-     "addr": "86 Maple Avenue South",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 3218.0,
-     "price": 2345000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-03",
-     "ppsf": 729,
-     "mi": 0.59
-    },
-    {
-     "slug": "28-turkey-hill-road-north-westport-connecticut-24151540",
-     "addr": "28 Turkey Hill Road North",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 3244.0,
-     "price": 1875000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-08",
-     "ppsf": 578,
-     "mi": 0.74
-    },
-    {
-     "slug": "61-clapboard-hill-road-westport-connecticut-24171986",
-     "addr": "61 Clapboard Hill Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 3418.0,
-     "price": 3795000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 1110,
-     "mi": 0.65
-    }
-   ],
-   "summary": {
-    "n": 3,
-    "low": 1875000.0,
-    "high": 2345000.0,
-    "median": 2100000
+ "comps": [
+  {
+   "mls": "24148769",
+   "slug": "86-maple-avenue-south-westport-connecticut-24148769",
+   "address": {
+    "line": "86 Maple Avenue South",
+    "unit": null,
+    "lineWithUnit": "86 Maple Avenue South",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 3218.0,
+   "price": 2345000.0,
+   "date": "2026-04-03",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.12841,
+    "lng": -73.309452
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9520293059402364,
+   "ppsf": 728.7134866376631
+  },
+  {
+   "mls": "24151540",
+   "slug": "28-turkey-hill-road-north-westport-connecticut-24151540",
+   "address": {
+    "line": "28 Turkey Hill Road North",
+    "unit": null,
+    "lineWithUnit": "28 Turkey Hill Road North",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 3244.0,
+   "price": 1875000.0,
+   "date": "2026-06-08",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.141493,
+    "lng": -73.32152
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1864214819786167,
+   "ppsf": 577.9901356350185
+  },
+  {
+   "mls": "24161803",
+   "slug": "21-turkey-hill-road-north-westport-connecticut-24161803",
+   "address": {
+    "line": "21 Turkey Hill Road North",
+    "unit": null,
+    "lineWithUnit": "21 Turkey Hill Road North",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 3.0,
+   "baths": 4.0,
+   "sqft": 2883.0,
+   "price": 2025000.0,
+   "date": "2026-05-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.140465,
+    "lng": -73.321913
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1734663040202669,
+   "ppsf": 702.3933402705516
+  },
+  {
+   "mls": "24129625",
+   "slug": "4-burr-farms-road-westport-connecticut-24129625",
+   "address": {
+    "line": "4 Burr Farms Road",
+    "unit": null,
+    "lineWithUnit": "4 Burr Farms Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 3377.0,
+   "price": 2200000.0,
+   "date": "2026-04-17",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.1437,
+    "lng": -73.329299
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.881141448161239,
+   "ppsf": 651.4657980456026
+  },
+  {
+   "mls": "24154436",
+   "slug": "8-iris-lane-westport-connecticut-24154436",
+   "address": {
+    "line": "8 Iris Lane",
+    "unit": null,
+    "lineWithUnit": "8 Iris Lane",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2959.0,
+   "price": 1630000.0,
+   "date": "2026-04-14",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.136113,
+    "lng": -73.327864
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.6077038336809393,
+   "ppsf": 550.8617776275769
   }
- }
+ ]
 }

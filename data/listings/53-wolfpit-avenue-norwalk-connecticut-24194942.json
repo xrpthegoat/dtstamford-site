@@ -132,101 +132,141 @@
    "mi": 0.89
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "8-wildmere-lane-norwalk-connecticut-24178355",
-     "addr": "8 Wildmere Lane",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1632.0,
-     "price": 675000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-15",
-     "ppsf": 414,
-     "mi": 0.25
-    },
-    {
-     "slug": "71-saddle-road-norwalk-connecticut-24104142",
-     "addr": "71 Saddle Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1256.0,
-     "price": 520000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-16",
-     "ppsf": 414,
-     "mi": 0.25
-    },
-    {
-     "slug": "6-wildmere-lane-norwalk-connecticut-24158420",
-     "addr": "6 Wildmere Lane",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1344.0,
-     "price": 655000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-12",
-     "ppsf": 487,
-     "mi": 0.25
-    },
-    {
-     "slug": "12-hawthorne-drive-norwalk-connecticut-24167321",
-     "addr": "12 Hawthorne Drive",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1230.0,
-     "price": 525000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-10",
-     "ppsf": 427,
-     "mi": 0.26
-    },
-    {
-     "slug": "10-leann-drive-norwalk-connecticut-24173012",
-     "addr": "10 Leann Drive",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1428.0,
-     "price": 785000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-29",
-     "ppsf": 550,
-     "mi": 0.42
-    },
-    {
-     "slug": "27-fairweather-drive-norwalk-connecticut-24165389",
-     "addr": "27 Fairweather Drive",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1076.0,
-     "price": 665000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-08",
-     "ppsf": 618,
-     "mi": 0.42
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 520000.0,
-    "high": 785000.0,
-    "median": 660000
+ "comps": [
+  {
+   "mls": "24158420",
+   "slug": "6-wildmere-lane-norwalk-connecticut-24158420",
+   "address": {
+    "line": "6 Wildmere Lane",
+    "unit": null,
+    "lineWithUnit": "6 Wildmere Lane",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1344.0,
+   "price": 655000.0,
+   "date": "2026-06-12",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.126437,
+    "lng": -73.397882
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.4097511572664198,
+   "ppsf": 487.3511904761905
+  },
+  {
+   "mls": "24173012",
+   "slug": "10-leann-drive-norwalk-connecticut-24173012",
+   "address": {
+    "line": "10 Leann Drive",
+    "unit": null,
+    "lineWithUnit": "10 Leann Drive",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1428.0,
+   "price": 785000.0,
+   "date": "2026-06-29",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.125241,
+    "lng": -73.385942
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6748274545693062,
+   "ppsf": 549.7198879551821
+  },
+  {
+   "mls": "24166318",
+   "slug": "6-eric-court-norwalk-connecticut-24166318",
+   "address": {
+    "line": "6 Eric Court",
+    "unit": null,
+    "lineWithUnit": "6 Eric Court",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 4.0,
+   "baths": 2.0,
+   "sqft": 1825.0,
+   "price": 800000.0,
+   "date": "2026-06-18",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.122696,
+    "lng": -73.38632
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8083949213205703,
+   "ppsf": 438.35616438356163
+  },
+  {
+   "mls": "24173035",
+   "slug": "43-george-avenue-norwalk-connecticut-24173035",
+   "address": {
+    "line": "43 George Avenue",
+    "unit": null,
+    "lineWithUnit": "43 George Avenue",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1288.0,
+   "price": 700000.0,
+   "date": "2026-07-08",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.120437,
+    "lng": -73.399676
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9702638309162891,
+   "ppsf": 543.4782608695652
+  },
+  {
+   "mls": "24104142",
+   "slug": "71-saddle-road-norwalk-connecticut-24104142",
+   "address": {
+    "line": "71 Saddle Road",
+    "unit": null,
+    "lineWithUnit": "71 Saddle Road",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1256.0,
+   "price": 520000.0,
+   "date": "2026-04-16",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.128628,
+    "lng": -73.397896
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.39828938297440647,
+   "ppsf": 414.0127388535032
   }
- }
+ ]
 }

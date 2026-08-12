@@ -132,44 +132,141 @@
    "mi": 1.28
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "8-mayflower-road-norwalk-connecticut-24181729",
-     "addr": "8 Mayflower Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 3010.0,
-     "price": 760000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-07",
-     "ppsf": 252,
-     "mi": 0.38
-    },
-    {
-     "slug": "3-may-drive-norwalk-connecticut-24175960",
-     "addr": "3 May Drive",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 3492.0,
-     "price": 899000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 257,
-     "mi": 0.71
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 760000.0,
-    "high": 760000.0,
-    "median": 760000
+ "comps": [
+  {
+   "mls": "24147808",
+   "slug": "135-comstock-hill-road-new-canaan-connecticut-24147808",
+   "address": {
+    "line": "135 Comstock Hill Road",
+    "unit": null,
+    "lineWithUnit": "135 Comstock Hill Road",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 4186.0,
+   "price": 2485000.0,
+   "date": "2026-05-05",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.149433,
+    "lng": -73.45122
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.15582759650617792,
+   "ppsf": 593.6454849498327
+  },
+  {
+   "mls": "24178048",
+   "slug": "130-comstock-hill-road-new-canaan-connecticut-24178048",
+   "address": {
+    "line": "130 Comstock Hill Road",
+    "unit": null,
+    "lineWithUnit": "130 Comstock Hill Road",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 5.0,
+   "baths": 5.0,
+   "sqft": 4194.0,
+   "price": 2355000.0,
+   "date": "2026-07-31",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.148763,
+    "lng": -73.451272
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.10714029376678655,
+   "ppsf": 561.516452074392
+  },
+  {
+   "mls": "24181730",
+   "slug": "917-silvermine-road-new-canaan-connecticut-24181730",
+   "address": {
+    "line": "917 Silvermine Road",
+    "unit": null,
+    "lineWithUnit": "917 Silvermine Road",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 4071.0,
+   "price": 2425000.0,
+   "date": "2026-08-11",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.154093,
+    "lng": -73.453068
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6376162125893906,
+   "ppsf": 595.6767379022353
+  },
+  {
+   "mls": "24169054",
+   "slug": "224-marvin-ridge-road-new-canaan-connecticut-24169054",
+   "address": {
+    "line": "224 Marvin Ridge Road",
+    "unit": null,
+    "lineWithUnit": "224 Marvin Ridge Road",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 3122.0,
+   "price": 1450000.0,
+   "date": "2026-06-18",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.130094,
+    "lng": -73.466615
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.354046633042998,
+   "ppsf": 464.44586803331197
+  },
+  {
+   "mls": "24173413",
+   "slug": "176-carter-street-new-canaan-connecticut-24173413",
+   "address": {
+    "line": "176 Carter Street",
+    "unit": null,
+    "lineWithUnit": "176 Carter Street",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 6.0,
+   "baths": 6.0,
+   "sqft": 4158.0,
+   "price": 2805000.0,
+   "date": "2026-06-22",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.152066,
+    "lng": -73.471282
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.6296321031244803,
+   "ppsf": 674.6031746031746
   }
- }
+ ]
 }

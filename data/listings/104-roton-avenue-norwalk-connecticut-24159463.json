@@ -125,100 +125,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "5-yarmouth-road-norwalk-connecticut-24173477",
-     "addr": "5 Yarmouth Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1704.0,
-     "price": 17500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-30",
-     "ppsf": 10,
-     "mi": 0.37
-    },
-    {
-     "slug": "111-rowayton-avenue-norwalk-connecticut-24159840",
-     "addr": "111 Rowayton Avenue Unit 201",
-     "unit": "Unit 201",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 2399.0,
-     "price": 30000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-03",
-     "ppsf": 13,
-     "mi": 0.43
-    },
-    {
-     "slug": "9-edgehill-drive-darien-connecticut-24139469",
-     "addr": "9 Edgehill Drive",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 2267.0,
-     "price": 9000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-01",
-     "ppsf": 4,
-     "mi": 0.49
-    },
-    {
-     "slug": "168-rowayton-avenue-norwalk-connecticut-24118947",
-     "addr": "168 Rowayton Avenue",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 2265.0,
-     "price": 12000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-01",
-     "ppsf": 5,
-     "mi": 0.65
-    },
-    {
-     "slug": "168-rowayton-avenue-norwalk-connecticut-24175575",
-     "addr": "168 Rowayton Avenue Unit A",
-     "unit": "Unit A",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1400.0,
-     "price": 8750.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-06",
-     "ppsf": 6,
-     "mi": 0.65
-    },
-    {
-     "slug": "124-rowayton-avenue-norwalk-connecticut-24197986",
-     "addr": "124 Rowayton Avenue",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 2477.0,
-     "price": 13000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 5,
-     "mi": 0.48
-    }
-   ],
-   "summary": {
-    "n": 5,
-    "low": 8750.0,
-    "high": 30000.0,
-    "median": 12000
+ "comps": [
+  {
+   "mls": "24118947",
+   "slug": "168-rowayton-avenue-norwalk-connecticut-24118947",
+   "address": {
+    "line": "168 Rowayton Avenue",
+    "unit": null,
+    "lineWithUnit": "168 Rowayton Avenue",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06853"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2265.0,
+   "price": 12000.0,
+   "date": "2026-04-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.069035,
+    "lng": -73.442914
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.05080986227371,
+   "ppsf": 5.298013245033113
+  },
+  {
+   "mls": "24159840",
+   "slug": "111-rowayton-avenue-norwalk-connecticut-24159840",
+   "address": {
+    "line": "111 Rowayton Avenue",
+    "unit": "Unit 201",
+    "lineWithUnit": "111 Rowayton Avenue Unit 201",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06853"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2399.0,
+   "price": 30000.0,
+   "date": "2026-08-03",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.065534,
+    "lng": -73.444254
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6852898707040115,
+   "ppsf": 12.505210504376823
+  },
+  {
+   "mls": "24153587",
+   "slug": "233-rowayton-avenue-norwalk-connecticut-24153587",
+   "address": {
+    "line": "233 Rowayton Avenue",
+    "unit": null,
+    "lineWithUnit": "233 Rowayton Avenue",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06853"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2579.0,
+   "price": 33000.0,
+   "date": "2026-03-23",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.07241,
+    "lng": -73.44574
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.4574223126897419,
+   "ppsf": 12.795657231485071
+  },
+  {
+   "mls": "24148030",
+   "slug": "norwalk-connecticut-24148030",
+   "address": {
+    "line": null,
+    "unit": null,
+    "lineWithUnit": null,
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1760.0,
+   "price": 3975.0,
+   "date": "2026-03-18",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.126247,
+    "lng": -73.435616
+   },
+   "klass": "rental",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 7.428984599468603,
+   "ppsf": 2.258522727272727
+  },
+  {
+   "mls": "24155362",
+   "slug": "25-channel-avenue-norwalk-connecticut-24155362",
+   "address": {
+    "line": "25 Channel Avenue",
+    "unit": null,
+    "lineWithUnit": "25 Channel Avenue",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 2994.0,
+   "price": 20000.0,
+   "date": "2026-03-26",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.082005,
+    "lng": -73.41098
+   },
+   "klass": "rental",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 3.60044535822661,
+   "ppsf": 6.680026720106881
   }
- }
+ ]
 }

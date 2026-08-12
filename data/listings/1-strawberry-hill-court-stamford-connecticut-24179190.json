@@ -137,101 +137,141 @@
    "walk": 7
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "237-strawberry-hill-avenue-stamford-connecticut-24160373",
-     "addr": "237 Strawberry Hill Avenue Unit 27",
-     "unit": "Unit 27",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1960.0,
-     "price": 650000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-19",
-     "ppsf": 332,
-     "mi": 0.2
-    },
-    {
-     "slug": "255-strawberry-hill-avenue-stamford-connecticut-24153433",
-     "addr": "255 Strawberry Hill Avenue Unit B1",
-     "unit": "Unit B1",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1603.0,
-     "price": 685000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-13",
-     "ppsf": 427,
-     "mi": 0.25
-    },
-    {
-     "slug": "168-colonial-road-stamford-connecticut-24109603",
-     "addr": "168 Colonial Road Apt 6",
-     "unit": "Apt 6",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 2481.0,
-     "price": 830000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-06",
-     "ppsf": 335,
-     "mi": 0.27
-    },
-    {
-     "slug": "100-hope-street-stamford-connecticut-24141028",
-     "addr": "100 Hope Street Apt 10",
-     "unit": "Apt 10",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 2005.0,
-     "price": 575000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-20",
-     "ppsf": 287,
-     "mi": 0.33
-    },
-    {
-     "slug": "20-third-street-stamford-connecticut-24163662",
-     "addr": "20 Third Street Unit 3",
-     "unit": "Unit 3",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1667.0,
-     "price": 845000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-02",
-     "ppsf": 507,
-     "mi": 0.46
-    },
-    {
-     "slug": "20-third-street-stamford-connecticut-24180398",
-     "addr": "20 Third Street Unit 14",
-     "unit": "Unit 14",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1485.0,
-     "price": 726000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-06",
-     "ppsf": 489,
-     "mi": 0.46
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 575000.0,
-    "high": 845000.0,
-    "median": 705500
+ "comps": [
+  {
+   "mls": "24150400",
+   "slug": "1400-bedford-street-stamford-connecticut-24150400",
+   "address": {
+    "line": "1400 Bedford Street",
+    "unit": "Unit 11",
+    "lineWithUnit": "1400 Bedford Street Unit 11",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 1268.0,
+   "price": 455000.0,
+   "date": "2026-03-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.063573,
+    "lng": -73.540821
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6359771827467631,
+   "ppsf": 358.83280757097793
+  },
+  {
+   "mls": "24141028",
+   "slug": "100-hope-street-stamford-connecticut-24141028",
+   "address": {
+    "line": "100 Hope Street",
+    "unit": "Apt 10",
+    "lineWithUnit": "100 Hope Street Apt 10",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06906"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2005.0,
+   "price": 575000.0,
+   "date": "2026-04-20",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.064756,
+    "lng": -73.527643
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5245168144356457,
+   "ppsf": 286.78304239401496
+  },
+  {
+   "mls": "24159741",
+   "slug": "2435-bedford-street-stamford-connecticut-24159741",
+   "address": {
+    "line": "2435 Bedford Street",
+    "unit": "Unit 3A",
+    "lineWithUnit": "2435 Bedford Street Unit 3A",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 2.0,
+   "baths": 4.0,
+   "sqft": 2040.0,
+   "price": 697000.0,
+   "date": "2026-06-23",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.070549,
+    "lng": -73.541509
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8438346601423832,
+   "ppsf": 341.6666666666667
+  },
+  {
+   "mls": "24149222",
+   "slug": "1633-washington-boulevard-stamford-connecticut-24149222",
+   "address": {
+    "line": "1633 Washington Boulevard",
+    "unit": "Apt 3D",
+    "lineWithUnit": "1633 Washington Boulevard Apt 3D",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1315.0,
+   "price": 425000.0,
+   "date": "2026-06-12",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.062023,
+    "lng": -73.543603
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9194352631788554,
+   "ppsf": 323.1939163498099
+  },
+  {
+   "mls": "24168686",
+   "slug": "143-hoyt-street-stamford-connecticut-24168686",
+   "address": {
+    "line": "143 Hoyt Street",
+    "unit": "Unit 1N",
+    "lineWithUnit": "143 Hoyt Street Unit 1N",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1836.0,
+   "price": 595000.0,
+   "date": "2026-06-12",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.060379,
+    "lng": -73.534578
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5946022344751899,
+   "ppsf": 324.0740740740741
   }
- }
+ ]
 }

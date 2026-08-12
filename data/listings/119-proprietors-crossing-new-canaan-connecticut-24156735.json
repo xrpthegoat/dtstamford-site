@@ -131,58 +131,60 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "26-pequot-lane-new-canaan-connecticut-170473214",
-     "addr": "26 Pequot Lane",
-     "unit": "",
-     "beds": 6.0,
-     "baths": 8.0,
-     "sqft": 12385.0,
-     "price": 5250000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-06",
-     "ppsf": 424,
-     "mi": 0.17
-    },
-    {
-     "slug": "1690-oenoke-ridge-new-canaan-connecticut-24183502",
-     "addr": "1690 Oenoke Ridge",
-     "unit": "",
-     "beds": 6.0,
-     "baths": 7.0,
-     "sqft": 5552.0,
-     "price": 3000000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-09",
-     "ppsf": 540,
-     "mi": 0.31
-    },
-    {
-     "slug": "108-logan-road-new-canaan-connecticut-24184790",
-     "addr": "108 Logan Road",
-     "unit": "",
-     "beds": 6.0,
-     "baths": 8.0,
-     "sqft": 6069.0,
-     "price": 3200000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 527,
-     "mi": 0.59
-    }
-   ],
-   "summary": {
-    "n": 2,
-    "low": 3000000.0,
-    "high": 5250000.0,
-    "median": 4125000
+ "comps": [
+  {
+   "mls": "170473214",
+   "slug": "26-pequot-lane-new-canaan-connecticut-170473214",
+   "address": {
+    "line": "26 Pequot Lane",
+    "unit": null,
+    "lineWithUnit": "26 Pequot Lane",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
    },
-   "radiusMi": 0.75
+   "beds": 6.0,
+   "baths": 8.0,
+   "sqft": 12385.0,
+   "price": 5250000.0,
+   "date": "2026-04-06",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.180664,
+    "lng": -73.5427
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.27320418595093265,
+   "ppsf": 423.8998788857489
+  },
+  {
+   "mls": "24137474",
+   "slug": "928-west-road-new-canaan-connecticut-24137474",
+   "address": {
+    "line": "928 West Road",
+    "unit": null,
+    "lineWithUnit": "928 West Road",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 7.0,
+   "baths": 9.0,
+   "sqft": 11494.0,
+   "price": 8000000.0,
+   "date": "2026-04-17",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.177116,
+    "lng": -73.53329
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 0.6974992549996346,
+   "ppsf": 696.0153123368714
   }
- }
+ ]
 }

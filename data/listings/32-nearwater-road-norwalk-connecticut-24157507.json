@@ -133,98 +133,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "35-yarmouth-road-norwalk-connecticut-24175145",
-     "addr": "35 Yarmouth Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 2435.0,
-     "price": 3810000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-16",
-     "ppsf": 1565,
-     "mi": 0.19
-    },
-    {
-     "slug": "6-richmond-road-norwalk-connecticut-24150853",
-     "addr": "6 Richmond Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 2171.0,
-     "price": 2400000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-14",
-     "ppsf": 1105,
-     "mi": 0.39
-    },
-    {
-     "slug": "22-craw-avenue-norwalk-connecticut-24167126",
-     "addr": "22 Craw Avenue",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 4.0,
-     "sqft": 3117.0,
-     "price": 3900000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-24",
-     "ppsf": 1251,
-     "mi": 0.42
-    },
-    {
-     "slug": "5-yarmouth-road-norwalk-connecticut-24171728",
-     "addr": "5 Yarmouth Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1704.0,
-     "price": 2725000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 1599,
-     "mi": 0.11
-    },
-    {
-     "slug": "12-parkview-road-norwalk-connecticut-24198193",
-     "addr": "12 Parkview Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1464.0,
-     "price": 2000000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 1366,
-     "mi": 0.18
-    },
-    {
-     "slug": "14-rocky-point-road-norwalk-connecticut-24192999",
-     "addr": "14 Rocky Point Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 4.0,
-     "sqft": 2641.0,
-     "price": 3995000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 1513,
-     "mi": 0.22
-    }
-   ],
-   "summary": {
-    "n": 3,
-    "low": 2400000.0,
-    "high": 3900000.0,
-    "median": 3810000
+ "comps": [
+  {
+   "mls": "24143550",
+   "slug": "22-harstrom-place-norwalk-connecticut-24143550",
+   "address": {
+    "line": "22 Harstrom Place",
+    "unit": null,
+    "lineWithUnit": "22 Harstrom Place",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06853"
    },
-   "radiusMi": 0.75
+   "beds": 5.0,
+   "baths": 3.0,
+   "sqft": 2436.0,
+   "price": 2700000.0,
+   "date": "2026-03-12",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.066862,
+    "lng": -73.44132
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0258717719944759,
+   "ppsf": 1108.3743842364531
+  },
+  {
+   "mls": "24157978",
+   "slug": "1-mckinley-street-norwalk-connecticut-24157978",
+   "address": {
+    "line": "1 McKinley Street",
+    "unit": null,
+    "lineWithUnit": "1 McKinley Street",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06853"
+   },
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 2044.0,
+   "price": 2988000.0,
+   "date": "2026-06-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.06578,
+    "lng": -73.443359
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9876353762208634,
+   "ppsf": 1461.839530332681
+  },
+  {
+   "mls": "24175145",
+   "slug": "35-yarmouth-road-norwalk-connecticut-24175145",
+   "address": {
+    "line": "35 Yarmouth Road",
+    "unit": null,
+    "lineWithUnit": "35 Yarmouth Road",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06853"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2435.0,
+   "price": 3810000.0,
+   "date": "2026-06-16",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.05991,
+    "lng": -73.434645
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.30293854062789866,
+   "ppsf": 1564.6817248459959
+  },
+  {
+   "mls": "24149256",
+   "slug": "24-westmere-avenue-norwalk-connecticut-24149256",
+   "address": {
+    "line": "24 Westmere Avenue",
+    "unit": null,
+    "lineWithUnit": "24 Westmere Avenue",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06853"
+   },
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 1936.0,
+   "price": 2350000.0,
+   "date": "2026-04-17",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.058369,
+    "lng": -73.435713
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.1421518214066455,
+   "ppsf": 1213.8429752066115
+  },
+  {
+   "mls": "24150853",
+   "slug": "6-richmond-road-norwalk-connecticut-24150853",
+   "address": {
+    "line": "6 Richmond Road",
+    "unit": null,
+    "lineWithUnit": "6 Richmond Road",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06853"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2171.0,
+   "price": 2400000.0,
+   "date": "2026-04-14",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.060756,
+    "lng": -73.444082
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6335133519797181,
+   "ppsf": 1105.481345002303
   }
- }
+ ]
 }

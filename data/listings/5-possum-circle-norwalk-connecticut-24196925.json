@@ -131,31 +131,141 @@
    "mi": 1.77
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "233-rowayton-avenue-norwalk-connecticut-24153587",
-     "addr": "233 Rowayton Avenue",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 2579.0,
-     "price": 33000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-23",
-     "ppsf": 13,
-     "mi": 0.59
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 33000.0,
-    "high": 33000.0,
-    "median": 33000
+ "comps": [
+  {
+   "mls": "24153587",
+   "slug": "233-rowayton-avenue-norwalk-connecticut-24153587",
+   "address": {
+    "line": "233 Rowayton Avenue",
+    "unit": null,
+    "lineWithUnit": "233 Rowayton Avenue",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06853"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2579.0,
+   "price": 33000.0,
+   "date": "2026-03-23",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.07241,
+    "lng": -73.44574
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9474722643925086,
+   "ppsf": 12.795657231485071
+  },
+  {
+   "mls": "24160803",
+   "slug": "1-cottontail-road-norwalk-connecticut-24160803",
+   "address": {
+    "line": "1 Cottontail Road",
+    "unit": null,
+    "lineWithUnit": "1 Cottontail Road",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 1978.0,
+   "price": 5900.0,
+   "date": "2026-05-05",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.088192,
+    "lng": -73.448914
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.157230196040133,
+   "ppsf": 2.982810920121335
+  },
+  {
+   "mls": "24155362",
+   "slug": "25-channel-avenue-norwalk-connecticut-24155362",
+   "address": {
+    "line": "25 Channel Avenue",
+    "unit": null,
+    "lineWithUnit": "25 Channel Avenue",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 2994.0,
+   "price": 20000.0,
+   "date": "2026-03-26",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.082005,
+    "lng": -73.41098
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.4831081176849477,
+   "ppsf": 6.680026720106881
+  },
+  {
+   "mls": "24156436",
+   "slug": "2-lowndes-avenue-norwalk-connecticut-24156436",
+   "address": {
+    "line": "2 Lowndes Avenue",
+    "unit": "Unit 2",
+    "lineWithUnit": "2 Lowndes Avenue Unit 2",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 1721.0,
+   "price": 2450.0,
+   "date": "2026-04-11",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.086504,
+    "lng": -73.413656
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.363320874467759,
+   "ppsf": 1.4235909355026148
+  },
+  {
+   "mls": "24160294",
+   "slug": "125-richards-avenue-norwalk-connecticut-24160294",
+   "address": {
+    "line": "125 Richards Avenue",
+    "unit": "#3",
+    "lineWithUnit": "125 Richards Avenue #3",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2550.0,
+   "price": 7500.0,
+   "date": "2026-04-08",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.097709,
+    "lng": -73.452464
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.2152429364248993,
+   "ppsf": 2.9411764705882355
   }
- }
+ ]
 }

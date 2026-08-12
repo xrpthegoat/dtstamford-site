@@ -135,45 +135,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "193-hamilton-avenue-greenwich-connecticut-24178433",
-     "addr": "193 Hamilton Avenue Unit 4",
-     "unit": "Unit 4",
-     "beds": 2.0,
-     "baths": 3.0,
-     "sqft": 1420.0,
-     "price": 1005000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-20",
-     "ppsf": 708,
-     "mi": 0.7
-    },
-    {
-     "slug": "5-glen-street-greenwich-connecticut-24164788",
-     "addr": "5 Glen Street Unit 204",
-     "unit": "Unit 204",
-     "beds": 2.0,
-     "baths": 3.0,
-     "sqft": 2004.0,
-     "price": 995000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-01",
-     "ppsf": 497,
-     "mi": 0.72
-    }
-   ],
-   "summary": {
-    "n": 2,
-    "low": 995000.0,
-    "high": 1005000.0,
-    "median": 1000000
+ "comps": [
+  {
+   "mls": "24164788",
+   "slug": "5-glen-street-greenwich-connecticut-24164788",
+   "address": {
+    "line": "5 Glen Street",
+    "unit": "Unit 204",
+    "lineWithUnit": "5 Glen Street Unit 204",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06830"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 2004.0,
+   "price": 995000.0,
+   "date": "2026-07-01",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.015706,
+    "lng": -73.639669
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1562621639329607,
+   "ppsf": 496.5069860279441
+  },
+  {
+   "mls": "24154308",
+   "slug": "328-hamilton-avenue-greenwich-connecticut-24154308",
+   "address": {
+    "line": "328 Hamilton Avenue",
+    "unit": "Unit 4",
+    "lineWithUnit": "328 Hamilton Avenue Unit 4",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06830"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1604.0,
+   "price": 838000.0,
+   "date": "2026-05-11",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.013789,
+    "lng": -73.642766
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0167976428549579,
+   "ppsf": 522.4438902743142
+  },
+  {
+   "mls": "24154511",
+   "slug": "45-ettl-lane-greenwich-connecticut-24154511",
+   "address": {
+    "line": "45 Ettl Lane",
+    "unit": "Unit 205",
+    "lineWithUnit": "45 Ettl Lane Unit 205",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06831"
+   },
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 2292.0,
+   "price": 1050000.0,
+   "date": "2026-05-29",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.034927,
+    "lng": -73.666815
+   },
+   "klass": "condo",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.130894507961043,
+   "ppsf": 458.1151832460733
+  },
+  {
+   "mls": "24150479",
+   "slug": "11-lafayette-court-greenwich-connecticut-24150479",
+   "address": {
+    "line": "11 Lafayette Court",
+    "unit": "Apt 5B",
+    "lineWithUnit": "11 Lafayette Court Apt 5B",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06830"
+   },
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 1514.0,
+   "price": 1515000.0,
+   "date": "2026-04-06",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.031656,
+    "lng": -73.628463
+   },
+   "klass": "condo",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.4787225436278084,
+   "ppsf": 1000.660501981506
+  },
+  {
+   "mls": "24168979",
+   "slug": "18-stone-avenue-greenwich-connecticut-24168979",
+   "address": {
+    "line": "18 Stone Avenue",
+    "unit": "Unit 1",
+    "lineWithUnit": "18 Stone Avenue Unit 1",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06830"
+   },
+   "beds": 3.0,
+   "baths": 4.0,
+   "sqft": 2082.0,
+   "price": 1081000.0,
+   "date": "2026-05-21",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.017584,
+    "lng": -73.637809
+   },
+   "klass": "condo",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.2633832593552061,
+   "ppsf": 519.2122958693564
   }
- }
+ ]
 }

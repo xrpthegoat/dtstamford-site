@@ -132,97 +132,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "80-bayberry-lane-westport-connecticut-24175344",
-     "addr": "80 Bayberry Lane",
-     "unit": "",
-     "beds": 6.0,
-     "baths": 7.0,
-     "sqft": 9025.0,
-     "price": 4525000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-23",
-     "ppsf": 501,
-     "mi": 0.21
-    },
-    {
-     "slug": "10-debra-lane-westport-connecticut-24131564",
-     "addr": "10 Debra Lane",
-     "unit": "",
-     "beds": 6.0,
-     "baths": 9.0,
-     "sqft": 9601.0,
-     "price": 5500000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-17",
-     "ppsf": 573,
-     "mi": 0.48
-    },
-    {
-     "slug": "10-mary-jane-lane-westport-connecticut-24147970",
-     "addr": "10 Mary Jane Lane",
-     "unit": "",
-     "beds": 6.0,
-     "baths": 7.0,
-     "sqft": 6900.0,
-     "price": 5990000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 868,
-     "mi": 0.11
-    },
-    {
-     "slug": "48-bayberry-lane-westport-connecticut-24186465",
-     "addr": "48 Bayberry Lane",
-     "unit": "",
-     "beds": 6.0,
-     "baths": 6.0,
-     "sqft": 6775.0,
-     "price": 4449000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 657,
-     "mi": 0.37
-    },
-    {
-     "slug": "5-baldwin-place-westport-connecticut-24194674",
-     "addr": "5 Baldwin Place",
-     "unit": "",
-     "beds": 6.0,
-     "baths": 8.0,
-     "sqft": 9062.0,
-     "price": 6495000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 717,
-     "mi": 0.54
-    },
-    {
-     "slug": "10-beltas-farm-lane-westport-connecticut-24190641",
-     "addr": "10 Beltas Farm Lane",
-     "unit": "",
-     "beds": 6.0,
-     "baths": 8.0,
-     "sqft": 9893.0,
-     "price": 8450000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 854,
-     "mi": 0.59
-    }
-   ],
-   "summary": {
-    "n": 2,
-    "low": 4525000.0,
-    "high": 5500000.0,
-    "median": 5012500
+ "comps": [
+  {
+   "mls": "24131564",
+   "slug": "10-debra-lane-westport-connecticut-24131564",
+   "address": {
+    "line": "10 Debra Lane",
+    "unit": null,
+    "lineWithUnit": "10 Debra Lane",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
    },
-   "radiusMi": 0.75
+   "beds": 6.0,
+   "baths": 9.0,
+   "sqft": 9601.0,
+   "price": 5500000.0,
+   "date": "2026-04-17",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.151483,
+    "lng": -73.311077
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7793754767215678,
+   "ppsf": 572.8569940631185
+  },
+  {
+   "mls": "24175344",
+   "slug": "80-bayberry-lane-westport-connecticut-24175344",
+   "address": {
+    "line": "80 Bayberry Lane",
+    "unit": null,
+    "lineWithUnit": "80 Bayberry Lane",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 6.0,
+   "baths": 7.0,
+   "sqft": 9025.0,
+   "price": 4525000.0,
+   "date": "2026-07-23",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.158813,
+    "lng": -73.317215
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.33707262945950195,
+   "ppsf": 501.38504155124656
+  },
+  {
+   "mls": "24148223",
+   "slug": "125-old-road-westport-connecticut-24148223",
+   "address": {
+    "line": "125 Old Road",
+    "unit": null,
+    "lineWithUnit": "125 Old Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 6.0,
+   "baths": 9.0,
+   "sqft": 8545.0,
+   "price": 5036000.0,
+   "date": "2026-03-26",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.14368,
+    "lng": -73.30604
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.733943516653215,
+   "ppsf": 589.3504973668812
+  },
+  {
+   "mls": "24166340",
+   "slug": "4-peach-lot-place-westport-connecticut-24166340",
+   "address": {
+    "line": "4 Peach Lot Place",
+    "unit": "Unit LOT PL",
+    "lineWithUnit": "4 Peach Lot Place Unit LOT PL",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 5.0,
+   "baths": 8.0,
+   "sqft": 8364.0,
+   "price": 4500000.0,
+   "date": "2026-07-05",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.159429,
+    "lng": -73.336848
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.9798029097412875,
+   "ppsf": 538.0200860832138
+  },
+  {
+   "mls": "24168601",
+   "slug": "6-twin-circle-drive-westport-connecticut-24168601",
+   "address": {
+    "line": "6 Twin Circle Drive",
+    "unit": null,
+    "lineWithUnit": "6 Twin Circle Drive",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 6.0,
+   "baths": 7.0,
+   "sqft": 8717.0,
+   "price": 5700000.0,
+   "date": "2026-08-07",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.155046,
+    "lng": -73.334076
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.7809259614451725,
+   "ppsf": 653.8946885396352
   }
- }
+ ]
 }

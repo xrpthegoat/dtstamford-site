@@ -136,85 +136,141 @@
    "mi": 0.91
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "9-marsh-road-westport-connecticut-24162314",
-     "addr": "9 Marsh Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2959.0,
-     "price": 2325000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-01",
-     "ppsf": 786,
-     "mi": 0.48
-    },
-    {
-     "slug": "299-saugatuck-avenue-westport-connecticut-24169465",
-     "addr": "299 Saugatuck Avenue",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 6.0,
-     "sqft": 5627.0,
-     "price": 2900000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-31",
-     "ppsf": 515,
-     "mi": 0.54
-    },
-    {
-     "slug": "24-spriteview-avenue-westport-connecticut-24156059",
-     "addr": "24 Spriteview Avenue",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 3271.0,
-     "price": 3650000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-01",
-     "ppsf": 1116,
-     "mi": 0.57
-    },
-    {
-     "slug": "16-harbor-road-westport-connecticut-24183853",
-     "addr": "16 Harbor Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 3150.0,
-     "price": 2995000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 951,
-     "mi": 0.22
-    },
-    {
-     "slug": "12-marvin-street-norwalk-connecticut-24198424",
-     "addr": "12 Marvin Street",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2184.0,
-     "price": 2400000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 1099,
-     "mi": 0.69
-    }
-   ],
-   "summary": {
-    "n": 3,
-    "low": 2325000.0,
-    "high": 3650000.0,
-    "median": 2900000
+ "comps": [
+  {
+   "mls": "24167502",
+   "slug": "42-spriteview-avenue-westport-connecticut-24167502",
+   "address": {
+    "line": "42 Spriteview Avenue",
+    "unit": null,
+    "lineWithUnit": "42 Spriteview Avenue",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 4.0,
+   "sqft": 4033.0,
+   "price": 3499000.0,
+   "date": "2026-06-17",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.096578,
+    "lng": -73.372991
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9667039952127406,
+   "ppsf": 867.5923630052071
+  },
+  {
+   "mls": "24167574",
+   "slug": "7-sandpiper-road-westport-connecticut-24167574",
+   "address": {
+    "line": "7 Sandpiper Road",
+    "unit": null,
+    "lineWithUnit": "7 Sandpiper Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 4.0,
+   "baths": 6.0,
+   "sqft": 5195.0,
+   "price": 11895000.0,
+   "date": "2026-06-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.096788,
+    "lng": -73.368864
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.2772047802821656,
+   "ppsf": 2289.701636188643
+  },
+  {
+   "mls": "24150724",
+   "slug": "27-owenoke-park-westport-connecticut-24150724",
+   "address": {
+    "line": "27 Owenoke Park",
+    "unit": null,
+    "lineWithUnit": "27 Owenoke Park",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 6.0,
+   "baths": 4.0,
+   "sqft": 3572.0,
+   "price": 6750000.0,
+   "date": "2026-05-14",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.10654,
+    "lng": -73.360115
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.0549507862818706,
+   "ppsf": 1889.6976483762598
+  },
+  {
+   "mls": "24156059",
+   "slug": "24-spriteview-avenue-westport-connecticut-24156059",
+   "address": {
+    "line": "24 Spriteview Avenue",
+    "unit": null,
+    "lineWithUnit": "24 Spriteview Avenue",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 3271.0,
+   "price": 3650000.0,
+   "date": "2026-06-01",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.097788,
+    "lng": -73.372935
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 0.918452075073203,
+   "ppsf": 1115.8667074289208
+  },
+  {
+   "mls": "24169465",
+   "slug": "299-saugatuck-avenue-westport-connecticut-24169465",
+   "address": {
+    "line": "299 Saugatuck Avenue",
+    "unit": null,
+    "lineWithUnit": "299 Saugatuck Avenue",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 4.0,
+   "baths": 6.0,
+   "sqft": 5627.0,
+   "price": 2900000.0,
+   "date": "2026-07-31",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.108205,
+    "lng": -73.38126
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 0.8741477397841491,
+   "ppsf": 515.3723120668207
   }
- }
+ ]
 }

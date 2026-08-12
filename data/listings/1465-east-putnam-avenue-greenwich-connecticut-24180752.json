@@ -132,68 +132,141 @@
    "walk": 2
   }
  },
- "comps": {
-  "building": {
-   "rows": [
-    {
-     "slug": "1465-east-putnam-avenue-greenwich-connecticut-24151269",
-     "addr": "1465 East Putnam Avenue Unit 532",
-     "unit": "Unit 532",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 784.0,
-     "price": 2900.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-27",
-     "ppsf": 4
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 2900.0,
-    "high": 2900.0,
-    "median": 2900
+ "comps": [
+  {
+   "mls": "24151269",
+   "slug": "1465-east-putnam-avenue-greenwich-connecticut-24151269",
+   "address": {
+    "line": "1465 East Putnam Avenue",
+    "unit": "Unit 532",
+    "lineWithUnit": "1465 East Putnam Avenue Unit 532",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06870"
    },
-   "label": "1465 East Putnam Avenue"
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 784.0,
+   "price": 2900.0,
+   "date": "2026-04-27",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.046842,
+    "lng": -73.570312
+   },
+   "klass": "rental",
+   "tier": 1,
+   "why": "Same building, sold in the last year",
+   "km": 0.00027854512241439736,
+   "ppsf": 3.6989795918367347
   },
-  "area": {
-   "rows": [
-    {
-     "slug": "19-piave-street-stamford-connecticut-24180986",
-     "addr": "19 Piave Street",
-     "unit": "",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 501.0,
-     "price": 1995.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-09",
-     "ppsf": 4,
-     "mi": 0.68
-    },
-    {
-     "slug": "1525-east-putnam-avenue-greenwich-connecticut-24195410",
-     "addr": "1525 East Putnam Avenue Unit 201",
-     "unit": "Unit 201",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 674.0,
-     "price": 2480.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 4,
-     "mi": 0.2
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 1995.0,
-    "high": 1995.0,
-    "median": 1995
+  {
+   "mls": "24164904",
+   "slug": "51-old-kings-highway-greenwich-connecticut-24164904",
+   "address": {
+    "line": "51 Old Kings Highway",
+    "unit": "Unit 12",
+    "lineWithUnit": "51 Old Kings Highway Unit 12",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06870"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 905.0,
+   "price": 4000.0,
+   "date": "2026-04-16",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.045959,
+    "lng": -73.572333
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.19590287112794946,
+   "ppsf": 4.419889502762431
+  },
+  {
+   "mls": "24186022",
+   "slug": "51-forest-avenue-greenwich-connecticut-24186022",
+   "address": {
+    "line": "51 Forest Avenue",
+    "unit": "Unit 24",
+    "lineWithUnit": "51 Forest Avenue Unit 24",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06870"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1160.0,
+   "price": 6500.0,
+   "date": "2026-08-03",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.034892,
+    "lng": -73.565059
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.3996452965776147,
+   "ppsf": 5.603448275862069
+  },
+  {
+   "mls": "24183550",
+   "slug": "7-bible-street-greenwich-connecticut-24183550",
+   "address": {
+    "line": "7 Bible Street",
+    "unit": "Unit 1",
+    "lineWithUnit": "7 Bible Street Unit 1",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06807"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 800.0,
+   "price": 2950.0,
+   "date": "2026-07-03",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.04252,
+    "lng": -73.59561
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.1754306431880734,
+   "ppsf": 3.6875
+  },
+  {
+   "mls": "24158334",
+   "slug": "140-field-point-road-greenwich-connecticut-24158334",
+   "address": {
+    "line": "140 Field Point Road",
+    "unit": "Unit 2",
+    "lineWithUnit": "140 Field Point Road Unit 2",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06830"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1226.0,
+   "price": 3950.0,
+   "date": "2026-03-25",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.023937,
+    "lng": -73.63157
+   },
+   "klass": "rental",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 5.7346718078775485,
+   "ppsf": 3.2218597063621535
   }
- }
+ ]
 }

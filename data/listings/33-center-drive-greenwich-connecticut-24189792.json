@@ -136,71 +136,141 @@
    "walk": 9
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "10-maple-drive-greenwich-connecticut-24163995",
-     "addr": "10 Maple Drive",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 2290.0,
-     "price": 1258000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-21",
-     "ppsf": 549,
-     "mi": 0.2
-    },
-    {
-     "slug": "33-halsey-drive-greenwich-connecticut-24112915",
-     "addr": "33 Halsey Drive",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1481.0,
-     "price": 1410000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-01",
-     "ppsf": 952,
-     "mi": 0.63
-    },
-    {
-     "slug": "4-hassake-road-greenwich-connecticut-24195428",
-     "addr": "4 Hassake Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1646.0,
-     "price": 1495000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 908,
-     "mi": 0.57
-    },
-    {
-     "slug": "86-sound-beach-ave-extension-greenwich-connecticut-24181278",
-     "addr": "86 Sound Beach Ave Extension",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1668.0,
-     "price": 1340000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 803,
-     "mi": 0.68
-    }
-   ],
-   "summary": {
-    "n": 2,
-    "low": 1258000.0,
-    "high": 1410000.0,
-    "median": 1334000
+ "comps": [
+  {
+   "mls": "24112915",
+   "slug": "33-halsey-drive-greenwich-connecticut-24112915",
+   "address": {
+    "line": "33 Halsey Drive",
+    "unit": null,
+    "lineWithUnit": "33 Halsey Drive",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06870"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1481.0,
+   "price": 1410000.0,
+   "date": "2026-07-01",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.050455,
+    "lng": -73.570632
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0058945635986896,
+   "ppsf": 952.0594193112762
+  },
+  {
+   "mls": "24162644",
+   "slug": "9-stuart-drive-greenwich-connecticut-24162644",
+   "address": {
+    "line": "9 Stuart Drive",
+    "unit": null,
+    "lineWithUnit": "9 Stuart Drive",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06870"
+   },
+   "beds": 4.0,
+   "baths": 2.0,
+   "sqft": 1481.0,
+   "price": 1270000.0,
+   "date": "2026-04-20",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.050183,
+    "lng": -73.567673
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0084680628568796,
+   "ppsf": 857.5286968264686
+  },
+  {
+   "mls": "24159325",
+   "slug": "120-florence-road-greenwich-connecticut-24159325",
+   "address": {
+    "line": "120 Florence Road",
+    "unit": null,
+    "lineWithUnit": "120 Florence Road",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06878"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 1540.0,
+   "price": 1280000.0,
+   "date": "2026-06-01",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.056951,
+    "lng": -73.573268
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.7413809774234192,
+   "ppsf": 831.1688311688312
+  },
+  {
+   "mls": "24141403",
+   "slug": "15-henry-street-greenwich-connecticut-24141403",
+   "address": {
+    "line": "15 Henry Street",
+    "unit": null,
+    "lineWithUnit": "15 Henry Street",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06830"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1258.0,
+   "price": 600000.0,
+   "date": "2026-03-24",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.003594,
+    "lng": -73.655907
+   },
+   "klass": "house",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 8.291915266823711,
+   "ppsf": 476.9475357710652
+  },
+  {
+   "mls": "24150539",
+   "slug": "105-glenville-street-greenwich-connecticut-24150539",
+   "address": {
+    "line": "105 Glenville Street",
+    "unit": null,
+    "lineWithUnit": "105 Glenville Street",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06831"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1713.0,
+   "price": 977500.0,
+   "date": "2026-03-17",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.03328,
+    "lng": -73.671593
+   },
+   "klass": "house",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 8.508850218031787,
+   "ppsf": 570.636310566258
   }
- }
+ ]
 }

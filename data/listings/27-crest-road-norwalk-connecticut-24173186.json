@@ -128,101 +128,141 @@
    "mi": 1.84
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "22-harstrom-place-norwalk-connecticut-24143550",
-     "addr": "22 Harstrom Place",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 3.0,
-     "sqft": 2436.0,
-     "price": 2700000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-12",
-     "ppsf": 1108,
-     "mi": 0.16
-    },
-    {
-     "slug": "90-five-mile-river-road-darien-connecticut-24158599",
-     "addr": "90 Five Mile River Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 5.0,
-     "sqft": 5060.0,
-     "price": 4250000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-08",
-     "ppsf": 840,
-     "mi": 0.36
-    },
-    {
-     "slug": "12-ledge-road-norwalk-connecticut-24167554",
-     "addr": "12 Ledge Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 5.0,
-     "sqft": 4679.0,
-     "price": 3127000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-02",
-     "ppsf": 668,
-     "mi": 0.41
-    },
-    {
-     "slug": "22-ledge-road-norwalk-connecticut-24179195",
-     "addr": "22 Ledge Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 5.0,
-     "sqft": 3434.0,
-     "price": 3000000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-08",
-     "ppsf": 874,
-     "mi": 0.49
-    },
-    {
-     "slug": "45-old-farm-road-darien-connecticut-24175610",
-     "addr": "45 Old Farm Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 8.0,
-     "sqft": 9396.0,
-     "price": 8745000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-08",
-     "ppsf": 931,
-     "mi": 0.53
-    },
-    {
-     "slug": "128-five-mile-river-road-darien-connecticut-24160382",
-     "addr": "128 Five Mile River Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 4.0,
-     "sqft": 2478.0,
-     "price": 3464000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-16",
-     "ppsf": 1398,
-     "mi": 0.56
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 2700000.0,
-    "high": 8745000.0,
-    "median": 3295500
+ "comps": [
+  {
+   "mls": "24151095",
+   "slug": "40-tory-hill-lane-norwalk-connecticut-24151095",
+   "address": {
+    "line": "40 Tory Hill Lane",
+    "unit": null,
+    "lineWithUnit": "40 Tory Hill Lane",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06853"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 3354.0,
+   "price": 1500000.0,
+   "date": "2026-03-31",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.073395,
+    "lng": -73.43173
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.901796063782737,
+   "ppsf": 447.2271914132379
+  },
+  {
+   "mls": "24167126",
+   "slug": "22-craw-avenue-norwalk-connecticut-24167126",
+   "address": {
+    "line": "22 Craw Avenue",
+    "unit": null,
+    "lineWithUnit": "22 Craw Avenue",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06853"
+   },
+   "beds": 3.0,
+   "baths": 4.0,
+   "sqft": 3117.0,
+   "price": 3900000.0,
+   "date": "2026-06-24",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.061156,
+    "lng": -73.444349
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9321409953529761,
+   "ppsf": 1251.2030798845044
+  },
+  {
+   "mls": "24123809",
+   "slug": "40-arnold-lane-norwalk-connecticut-24123809",
+   "address": {
+    "line": "40 Arnold Lane",
+    "unit": null,
+    "lineWithUnit": "40 Arnold Lane",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06853"
+   },
+   "beds": 4.0,
+   "baths": 5.0,
+   "sqft": 3319.0,
+   "price": 1835000.0,
+   "date": "2026-04-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.079235,
+    "lng": -73.440438
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1255417650475372,
+   "ppsf": 552.8773727026213
+  },
+  {
+   "mls": "24102013",
+   "slug": "3-bittersweet-trail-norwalk-connecticut-24102013",
+   "address": {
+    "line": "3 Bittersweet Trail",
+    "unit": null,
+    "lineWithUnit": "3 Bittersweet Trail",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06853"
+   },
+   "beds": 4.0,
+   "baths": 5.0,
+   "sqft": 4254.0,
+   "price": 3200000.0,
+   "date": "2026-06-01",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.072411,
+    "lng": -73.440368
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.3685751854710072,
+   "ppsf": 752.2331922896097
+  },
+  {
+   "mls": "24155353",
+   "slug": "13-pond-street-norwalk-connecticut-24155353",
+   "address": {
+    "line": "13 Pond Street",
+    "unit": null,
+    "lineWithUnit": "13 Pond Street",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06853"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 3188.0,
+   "price": 3475000.0,
+   "date": "2026-05-14",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.064312,
+    "lng": -73.442
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5427345486515961,
+   "ppsf": 1090.0250941028858
   }
- }
+ ]
 }

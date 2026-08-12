@@ -136,44 +136,141 @@
    "mi": 1.99
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "50-crestview-avenue-stamford-connecticut-24170669",
-     "addr": "50 Crestview Avenue",
-     "unit": "",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1353.0,
-     "price": 828750.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-14",
-     "ppsf": 613,
-     "mi": 0.46
-    },
-    {
-     "slug": "78-saint-charles-avenue-stamford-connecticut-24186647",
-     "addr": "78 Saint Charles Avenue",
-     "unit": "",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1478.0,
-     "price": 599000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 405,
-     "mi": 0.65
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 828750.0,
-    "high": 828750.0,
-    "median": 828750
+ "comps": [
+  {
+   "mls": "24133238",
+   "slug": "7-barnstable-lane-stamford-connecticut-24133238",
+   "address": {
+    "line": "7 Barnstable Lane",
+    "unit": null,
+    "lineWithUnit": "7 Barnstable Lane",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06907"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1260.0,
+   "price": 519000.0,
+   "date": "2026-04-08",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.085823,
+    "lng": -73.51913
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1208559178311537,
+   "ppsf": 411.9047619047619
+  },
+  {
+   "mls": "24170669",
+   "slug": "50-crestview-avenue-stamford-connecticut-24170669",
+   "address": {
+    "line": "50 Crestview Avenue",
+    "unit": null,
+    "lineWithUnit": "50 Crestview Avenue",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06907"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1353.0,
+   "price": 828750.0,
+   "date": "2026-07-14",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.088136,
+    "lng": -73.523955
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7427404604912582,
+   "ppsf": 612.5277161862527
+  },
+  {
+   "mls": "24168878",
+   "slug": "71-elizabeth-avenue-stamford-connecticut-24168878",
+   "address": {
+    "line": "71 Elizabeth Avenue",
+    "unit": null,
+    "lineWithUnit": "71 Elizabeth Avenue",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06907"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1484.0,
+   "price": 950000.0,
+   "date": "2026-06-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.084972,
+    "lng": -73.524456
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0874889867627329,
+   "ppsf": 640.1617250673854
+  },
+  {
+   "mls": "24149018",
+   "slug": "154-knox-road-stamford-connecticut-24149018",
+   "address": {
+    "line": "154 Knox Road",
+    "unit": null,
+    "lineWithUnit": "154 Knox Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06907"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1314.0,
+   "price": 826000.0,
+   "date": "2026-03-20",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.097543,
+    "lng": -73.526269
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.3215512674011049,
+   "ppsf": 628.6149162861492
+  },
+  {
+   "mls": "24190185",
+   "slug": "58-sleepy-hollow-lane-stamford-connecticut-24190185",
+   "address": {
+    "line": "58 Sleepy Hollow Lane",
+    "unit": null,
+    "lineWithUnit": "58 Sleepy Hollow Lane",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06907"
+   },
+   "beds": 4.0,
+   "baths": 2.0,
+   "sqft": 1490.0,
+   "price": 725000.0,
+   "date": "2026-08-05",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.094833,
+    "lng": -73.52627
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.07370426327017938,
+   "ppsf": 486.5771812080537
   }
- }
+ ]
 }

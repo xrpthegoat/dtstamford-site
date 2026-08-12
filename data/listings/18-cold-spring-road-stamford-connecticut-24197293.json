@@ -124,101 +124,141 @@
    "walk": 2
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "2475-summer-street-stamford-connecticut-24150210",
-     "addr": "2475 Summer Street Apt 3H",
-     "unit": "Apt 3H",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 689.0,
-     "price": 2250.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-01",
-     "ppsf": 3,
-     "mi": 0.27
-    },
-    {
-     "slug": "9-old-north-stamford-road-stamford-connecticut-24180915",
-     "addr": "9 Old North Stamford Road Unit 35G",
-     "unit": "Unit 35G",
-     "beds": 1.0,
-     "baths": 3.0,
-     "sqft": 1916.0,
-     "price": 2700.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-03",
-     "ppsf": 1,
-     "mi": 0.28
-    },
-    {
-     "slug": "154-cold-spring-road-stamford-connecticut-24171743",
-     "addr": "154 Cold Spring Road Unit 47",
-     "unit": "Unit 47",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 927.0,
-     "price": 2250.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-31",
-     "ppsf": 2,
-     "mi": 0.33
-    },
-    {
-     "slug": "2437-bedford-street-stamford-connecticut-24152334",
-     "addr": "2437 Bedford Street Unit F17",
-     "unit": "Unit F17",
-     "beds": 1.0,
-     "baths": 2.0,
-     "sqft": 1066.0,
-     "price": 3100.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-15",
-     "ppsf": 3,
-     "mi": 0.37
-    },
-    {
-     "slug": "2437-bedford-street-stamford-connecticut-24164640",
-     "addr": "2437 Bedford Street Unit F21",
-     "unit": "Unit F21",
-     "beds": 1.0,
-     "baths": 2.0,
-     "sqft": 1069.0,
-     "price": 3000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-01",
-     "ppsf": 3,
-     "mi": 0.37
-    },
-    {
-     "slug": "154-cold-spring-road-stamford-connecticut-24179288",
-     "addr": "154 Cold Spring Road Unit 88",
-     "unit": "Unit 88",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 927.0,
-     "price": 2300.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-27",
-     "ppsf": 2,
-     "mi": 0.38
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 2250.0,
-    "high": 3100.0,
-    "median": 2500
+ "comps": [
+  {
+   "mls": "24158555",
+   "slug": "20-third-street-stamford-connecticut-24158555",
+   "address": {
+    "line": "20 Third Street",
+    "unit": "Unit 18",
+    "lineWithUnit": "20 Third Street Unit 18",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1645.0,
+   "price": 4900.0,
+   "date": "2026-05-09",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.06464,
+    "lng": -73.54251
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0621861084733863,
+   "ppsf": 2.978723404255319
+  },
+  {
+   "mls": "24180915",
+   "slug": "9-old-north-stamford-road-stamford-connecticut-24180915",
+   "address": {
+    "line": "9 Old North Stamford Road",
+    "unit": "Unit 35G",
+    "lineWithUnit": "9 Old North Stamford Road Unit 35G",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 1.0,
+   "baths": 3.0,
+   "sqft": 1916.0,
+   "price": 2700.0,
+   "date": "2026-06-03",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.070557,
+    "lng": -73.54574
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.4461629215210242,
+   "ppsf": 1.4091858037578289
+  },
+  {
+   "mls": "24155229",
+   "slug": "59-liberty-street-stamford-connecticut-24155229",
+   "address": {
+    "line": "59 Liberty Street",
+    "unit": "Apt 21",
+    "lineWithUnit": "59 Liberty Street Apt 21",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1582.0,
+   "price": 3300.0,
+   "date": "2026-03-13",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.050089,
+    "lng": -73.553525
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.4352200682064966,
+   "ppsf": 2.0859671302149176
+  },
+  {
+   "mls": "24153723",
+   "slug": "109-forest-street-stamford-connecticut-24153723",
+   "address": {
+    "line": "109 Forest Street",
+    "unit": "Apt 3",
+    "lineWithUnit": "109 Forest Street Apt 3",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06901"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1695.0,
+   "price": 4500.0,
+   "date": "2026-03-31",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.05626,
+    "lng": -73.532936
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.2920718932537776,
+   "ppsf": 2.6548672566371683
+  },
+  {
+   "mls": "24161103",
+   "slug": "57-scofield-avenue-stamford-connecticut-24161103",
+   "address": {
+    "line": "57 Scofield Avenue",
+    "unit": null,
+    "lineWithUnit": "57 Scofield Avenue",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06906"
+   },
+   "beds": 3.0,
+   "baths": 4.0,
+   "sqft": 2390.0,
+   "price": 4300.0,
+   "date": "2026-04-03",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.06888,
+    "lng": -73.524025
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.2660540009844605,
+   "ppsf": 1.799163179916318
   }
- }
+ ]
 }

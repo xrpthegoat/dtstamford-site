@@ -124,101 +124,141 @@
    "mi": 1.8
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "171-compo-road-south-westport-connecticut-24168078",
-     "addr": "171 Compo Road South",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 5.0,
-     "sqft": 3800.0,
-     "price": 2425000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-23",
-     "ppsf": 638,
-     "mi": 0.26
-    },
-    {
-     "slug": "2-mortar-rock-road-westport-connecticut-24173081",
-     "addr": "2 Mortar Rock Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 6.0,
-     "sqft": 4312.0,
-     "price": 3000000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-05",
-     "ppsf": 696,
-     "mi": 0.37
-    },
-    {
-     "slug": "18-hales-road-westport-connecticut-24178779",
-     "addr": "18 Hales Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 1542.0,
-     "price": 1350000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-20",
-     "ppsf": 875,
-     "mi": 0.37
-    },
-    {
-     "slug": "5-inwood-lane-westport-connecticut-24153684",
-     "addr": "5 Inwood Lane",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2084.0,
-     "price": 1250000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-23",
-     "ppsf": 600,
-     "mi": 0.39
-    },
-    {
-     "slug": "23-bridge-street-westport-connecticut-24151653",
-     "addr": "23 Bridge Street",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2622.0,
-     "price": 1058500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-27",
-     "ppsf": 404,
-     "mi": 0.46
-    },
-    {
-     "slug": "150-hillspoint-road-westport-connecticut-24154934",
-     "addr": "150 Hillspoint Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 3759.0,
-     "price": 3500000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-11",
-     "ppsf": 931,
-     "mi": 0.53
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 1058500.0,
-    "high": 3500000.0,
-    "median": 1887500
+ "comps": [
+  {
+   "mls": "24151653",
+   "slug": "23-bridge-street-westport-connecticut-24151653",
+   "address": {
+    "line": "23 Bridge Street",
+    "unit": null,
+    "lineWithUnit": "23 Bridge Street",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2622.0,
+   "price": 1058500.0,
+   "date": "2026-03-27",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.124076,
+    "lng": -73.364386
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7424922565749366,
+   "ppsf": 403.6994660564455
+  },
+  {
+   "mls": "24156649",
+   "slug": "6-imperial-landing-westport-connecticut-24156649",
+   "address": {
+    "line": "6 Imperial Landing",
+    "unit": null,
+    "lineWithUnit": "6 Imperial Landing",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 3073.0,
+   "price": 2400000.0,
+   "date": "2026-05-28",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.124228,
+    "lng": -73.367616
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0129907855234332,
+   "ppsf": 780.995769606248
+  },
+  {
+   "mls": "24170051",
+   "slug": "170-imperial-avenue-westport-connecticut-24170051",
+   "address": {
+    "line": "170 Imperial Avenue",
+    "unit": null,
+    "lineWithUnit": "170 Imperial Avenue",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 2640.0,
+   "price": 1350000.0,
+   "date": "2026-07-20",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.124999,
+    "lng": -73.365836
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8810694277276798,
+   "ppsf": 511.3636363636364
+  },
+  {
+   "mls": "24170843",
+   "slug": "15-jennie-lane-westport-connecticut-24170843",
+   "address": {
+    "line": "15 Jennie Lane",
+    "unit": null,
+    "lineWithUnit": "15 Jennie Lane",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 2240.0,
+   "price": 500000.0,
+   "date": "2026-06-29",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.120929,
+    "lng": -73.357998
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.3181404311909905,
+   "ppsf": 223.21428571428572
+  },
+  {
+   "mls": "24132802",
+   "slug": "26-treadwell-avenue-westport-connecticut-24132802",
+   "address": {
+    "line": "26 Treadwell Avenue",
+    "unit": null,
+    "lineWithUnit": "26 Treadwell Avenue",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 5.0,
+   "baths": 5.0,
+   "sqft": 3200.0,
+   "price": 3150000.0,
+   "date": "2026-03-16",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.124679,
+    "lng": -73.375725
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.6936547995671587,
+   "ppsf": 984.375
   }
- }
+ ]
 }

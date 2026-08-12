@@ -135,101 +135,141 @@
    "mi": 1.82
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "22-ledge-road-norwalk-connecticut-24179195",
-     "addr": "22 Ledge Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 5.0,
-     "sqft": 3434.0,
-     "price": 3000000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-08",
-     "ppsf": 874,
-     "mi": 0.07
-    },
-    {
-     "slug": "12-ledge-road-norwalk-connecticut-24167554",
-     "addr": "12 Ledge Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 5.0,
-     "sqft": 4679.0,
-     "price": 3127000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-02",
-     "ppsf": 668,
-     "mi": 0.15
-    },
-    {
-     "slug": "9-knollwood-road-norwalk-connecticut-24155462",
-     "addr": "9 Knollwood Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 6.0,
-     "sqft": 3608.0,
-     "price": 1156140.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-28",
-     "ppsf": 320,
-     "mi": 0.42
-    },
-    {
-     "slug": "89-raymond-street-darien-connecticut-24160675",
-     "addr": "89 Raymond Street",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 5.0,
-     "sqft": 4865.0,
-     "price": 3450000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-01",
-     "ppsf": 709,
-     "mi": 0.56
-    },
-    {
-     "slug": "107-raymond-street-darien-connecticut-24172903",
-     "addr": "107 Raymond Street",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 6.0,
-     "sqft": 6764.0,
-     "price": 3850000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-30",
-     "ppsf": 569,
-     "mi": 0.62
-    },
-    {
-     "slug": "45-old-farm-road-darien-connecticut-24175610",
-     "addr": "45 Old Farm Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 8.0,
-     "sqft": 9396.0,
-     "price": 8745000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-08",
-     "ppsf": 931,
-     "mi": 0.68
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 1156140.0,
-    "high": 8745000.0,
-    "median": 3288500
+ "comps": [
+  {
+   "mls": "24167554",
+   "slug": "12-ledge-road-norwalk-connecticut-24167554",
+   "address": {
+    "line": "12 Ledge Road",
+    "unit": null,
+    "lineWithUnit": "12 Ledge Road",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06853"
    },
-   "radiusMi": 0.75
+   "beds": 5.0,
+   "baths": 5.0,
+   "sqft": 4679.0,
+   "price": 3127000.0,
+   "date": "2026-07-02",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.074719,
+    "lng": -73.438569
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.2433593755596798,
+   "ppsf": 668.3051934173969
+  },
+  {
+   "mls": "24102013",
+   "slug": "3-bittersweet-trail-norwalk-connecticut-24102013",
+   "address": {
+    "line": "3 Bittersweet Trail",
+    "unit": null,
+    "lineWithUnit": "3 Bittersweet Trail",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06853"
+   },
+   "beds": 4.0,
+   "baths": 5.0,
+   "sqft": 4254.0,
+   "price": 3200000.0,
+   "date": "2026-06-01",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.072411,
+    "lng": -73.440368
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.4980486183941338,
+   "ppsf": 752.2331922896097
+  },
+  {
+   "mls": "24165673",
+   "slug": "370-rowayton-avenue-norwalk-connecticut-24165673",
+   "address": {
+    "line": "370 Rowayton Avenue",
+    "unit": null,
+    "lineWithUnit": "370 Rowayton Avenue",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06853"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 4064.0,
+   "price": 2500000.0,
+   "date": "2026-07-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.081851,
+    "lng": -73.443368
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6521094168961977,
+   "ppsf": 615.1574803149606
+  },
+  {
+   "mls": "24156989",
+   "slug": "16-juniper-road-norwalk-connecticut-24156989",
+   "address": {
+    "line": "16 Juniper Road",
+    "unit": null,
+    "lineWithUnit": "16 Juniper Road",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06853"
+   },
+   "beds": 5.0,
+   "baths": 5.0,
+   "sqft": 4423.0,
+   "price": 6950000.0,
+   "date": "2026-06-17",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.060294,
+    "lng": -73.443687
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.873629628913486,
+   "ppsf": 1571.331675333484
+  },
+  {
+   "mls": "24168001",
+   "slug": "18-dock-road-norwalk-connecticut-24168001",
+   "address": {
+    "line": "18 Dock Road",
+    "unit": null,
+    "lineWithUnit": "18 Dock Road",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 4082.0,
+   "price": 2030000.0,
+   "date": "2026-06-26",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.080343,
+    "lng": -73.418276
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.8099503511812898,
+   "ppsf": 497.30524252817247
   }
- }
+ ]
 }

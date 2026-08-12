@@ -140,99 +140,141 @@
    "walk": 8
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "44-andrews-drive-darien-connecticut-24157816",
-     "addr": "44 Andrews Drive",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 6.0,
-     "sqft": 6517.0,
-     "price": 4350000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-04",
-     "ppsf": 667,
-     "mi": 0.26
-    },
-    {
-     "slug": "15-queens-lane-darien-connecticut-24162662",
-     "addr": "15 Queens Lane",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 5.0,
-     "sqft": 3512.0,
-     "price": 3450000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-15",
-     "ppsf": 982,
-     "mi": 0.48
-    },
-    {
-     "slug": "2-roland-drive-darien-connecticut-24165314",
-     "addr": "2 Roland Drive",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 5.0,
-     "sqft": 5678.0,
-     "price": 4200000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-07",
-     "ppsf": 740,
-     "mi": 0.71
-    },
-    {
-     "slug": "28-old-farm-road-darien-connecticut-24162725",
-     "addr": "28 Old Farm Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 8.0,
-     "sqft": 8370.0,
-     "price": 6510000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-20",
-     "ppsf": 778,
-     "mi": 0.74
-    },
-    {
-     "slug": "72-old-kings-highway-south-darien-connecticut-24144031",
-     "addr": "72 Old Kings Highway South",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 6.0,
-     "sqft": 7833.0,
-     "price": 3800000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 485,
-     "mi": 0.24
-    },
-    {
-     "slug": "12-settlers-trail-darien-connecticut-24183301",
-     "addr": "12 Settlers Trail",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 5.0,
-     "sqft": 5777.0,
-     "price": 3295000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 570,
-     "mi": 0.34
-    }
-   ],
-   "summary": {
-    "n": 4,
-    "low": 3450000.0,
-    "high": 6510000.0,
-    "median": 4275000
+ "comps": [
+  {
+   "mls": "24157816",
+   "slug": "44-andrews-drive-darien-connecticut-24157816",
+   "address": {
+    "line": "44 Andrews Drive",
+    "unit": null,
+    "lineWithUnit": "44 Andrews Drive",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
    },
-   "radiusMi": 0.75
+   "beds": 5.0,
+   "baths": 6.0,
+   "sqft": 6517.0,
+   "price": 4350000.0,
+   "date": "2026-05-04",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.070309,
+    "lng": -73.468803
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.41117784805540153,
+   "ppsf": 667.4850391284333
+  },
+  {
+   "mls": "24165314",
+   "slug": "2-roland-drive-darien-connecticut-24165314",
+   "address": {
+    "line": "2 Roland Drive",
+    "unit": null,
+    "lineWithUnit": "2 Roland Drive",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 5.0,
+   "baths": 5.0,
+   "sqft": 5678.0,
+   "price": 4200000.0,
+   "date": "2026-08-07",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.083815,
+    "lng": -73.471793
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1404315216645744,
+   "ppsf": 739.6970764353646
+  },
+  {
+   "mls": "24081666",
+   "slug": "76-arrowhead-way-darien-connecticut-24081666",
+   "address": {
+    "line": "76 Arrowhead Way",
+    "unit": null,
+    "lineWithUnit": "76 Arrowhead Way",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 5.0,
+   "baths": 8.0,
+   "sqft": 7941.0,
+   "price": 7200000.0,
+   "date": "2026-05-18",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.062156,
+    "lng": -73.463541
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.3653134822904567,
+   "ppsf": 906.6868152625614
+  },
+  {
+   "mls": "24115997",
+   "slug": "17-contentment-island-road-darien-connecticut-24115997",
+   "address": {
+    "line": "17 Contentment Island Road",
+    "unit": null,
+    "lineWithUnit": "17 Contentment Island Road",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 6.0,
+   "baths": 5.0,
+   "sqft": 7174.0,
+   "price": 9420000.0,
+   "date": "2026-03-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.058152,
+    "lng": -73.45404
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.1129066798419274,
+   "ppsf": 1313.0749930303875
+  },
+  {
+   "mls": "24157276",
+   "slug": "7-raiders-lane-darien-connecticut-24157276",
+   "address": {
+    "line": "7 Raiders Lane",
+    "unit": null,
+    "lineWithUnit": "7 Raiders Lane",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 4662.0,
+   "price": 3800000.0,
+   "date": "2026-06-22",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.062927,
+    "lng": -73.470052
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.238526333258277,
+   "ppsf": 815.1008151008151
   }
- }
+ ]
 }

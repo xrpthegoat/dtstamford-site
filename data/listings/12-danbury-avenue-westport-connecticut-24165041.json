@@ -128,85 +128,141 @@
    "mi": 2.0
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "19-soundview-drive-westport-connecticut-24125469",
-     "addr": "19 Soundview Drive",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 1692.0,
-     "price": 49900.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-05",
-     "ppsf": 29,
-     "mi": 0.05
-    },
-    {
-     "slug": "5-longview-road-westport-connecticut-24169951",
-     "addr": "5 Longview Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 6.0,
-     "sqft": 5191.0,
-     "price": 19000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-21",
-     "ppsf": 4,
-     "mi": 0.33
-    },
-    {
-     "slug": "232-hillspoint-road-westport-connecticut-24078871",
-     "addr": "232 Hillspoint Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 2.0,
-     "sqft": 2234.0,
-     "price": 30000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-01",
-     "ppsf": 13,
-     "mi": 0.43
-    },
-    {
-     "slug": "19-soundview-drive-westport-connecticut-24125259",
-     "addr": "19 Soundview Drive",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 1692.0,
-     "price": 21900.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 13,
-     "mi": 0.05
-    },
-    {
-     "slug": "29-soundview-drive-westport-connecticut-24140110",
-     "addr": "29 Soundview Drive",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 1900.0,
-     "price": 22000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 12,
-     "mi": 0.06
-    }
-   ],
-   "summary": {
-    "n": 3,
-    "low": 19000.0,
-    "high": 49900.0,
-    "median": 30000
+ "comps": [
+  {
+   "mls": "24078871",
+   "slug": "232-hillspoint-road-westport-connecticut-24078871",
+   "address": {
+    "line": "232 Hillspoint Road",
+    "unit": null,
+    "lineWithUnit": "232 Hillspoint Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 2.0,
+   "sqft": 2234.0,
+   "price": 30000.0,
+   "date": "2026-06-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.11355,
+    "lng": -73.34653
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6843580727427625,
+   "ppsf": 13.42882721575649
+  },
+  {
+   "mls": "24167029",
+   "slug": "200-hillspoint-road-westport-connecticut-24167029",
+   "address": {
+    "line": "200 Hillspoint Road",
+    "unit": null,
+    "lineWithUnit": "200 Hillspoint Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2762.0,
+   "price": 35000.0,
+   "date": "2026-06-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.11501,
+    "lng": -73.34653
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8338419930841346,
+   "ppsf": 12.671976828385228
+  },
+  {
+   "mls": "24165861",
+   "slug": "199-hillspoint-road-westport-connecticut-24165861",
+   "address": {
+    "line": "199 Hillspoint Road",
+    "unit": null,
+    "lineWithUnit": "199 Hillspoint Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1920.0,
+   "price": 16000.0,
+   "date": "2026-04-24",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.115047,
+    "lng": -73.34607
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.852000292062596,
+   "ppsf": 8.333333333333334
+  },
+  {
+   "mls": "24176335",
+   "slug": "14-norwalk-avenue-westport-connecticut-24176335",
+   "address": {
+    "line": "14 Norwalk Avenue",
+    "unit": null,
+    "lineWithUnit": "14 Norwalk Avenue",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1995.0,
+   "price": 11500.0,
+   "date": "2026-05-26",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.10772,
+    "lng": -73.35109
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.09278146512437473,
+   "ppsf": 5.764411027568922
+  },
+  {
+   "mls": "24185793",
+   "slug": "8-sherwood-drive-westport-connecticut-24185793",
+   "address": {
+    "line": "8 Sherwood Drive",
+    "unit": null,
+    "lineWithUnit": "8 Sherwood Drive",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2734.0,
+   "price": 8900.0,
+   "date": "2026-07-09",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.115281,
+    "lng": -73.347513
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.837562487482935,
+   "ppsf": 3.2553035844915876
   }
- }
+ ]
 }

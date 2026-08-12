@@ -117,101 +117,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "34-windy-knolls-greenwich-connecticut-24184354",
-     "addr": "34 Windy Knolls Unit A",
-     "unit": "Unit A",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 2146.0,
-     "price": 7500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-26",
-     "ppsf": 3,
-     "mi": 0.04
-    },
-    {
-     "slug": "31-a-hollow-wood-lane-greenwich-connecticut-24168303",
-     "addr": "31-A Hollow Wood Lane",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1292.0,
-     "price": 4400.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-06",
-     "ppsf": 3,
-     "mi": 0.15
-    },
-    {
-     "slug": "8-ridge-place-greenwich-connecticut-24187117",
-     "addr": "8 Ridge Place Unit 1",
-     "unit": "Unit 1",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 2300.0,
-     "price": 5900.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-09",
-     "ppsf": 3,
-     "mi": 0.16
-    },
-    {
-     "slug": "24-hollow-wood-lane-greenwich-connecticut-24171951",
-     "addr": "24 Hollow Wood Lane",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 2350.0,
-     "price": 4600.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-30",
-     "ppsf": 2,
-     "mi": 0.16
-    },
-    {
-     "slug": "10-highland-place-greenwich-connecticut-24124138",
-     "addr": "10 Highland Place",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 2170.0,
-     "price": 8200.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-28",
-     "ppsf": 4,
-     "mi": 0.18
-    },
-    {
-     "slug": "5-river-street-greenwich-connecticut-24160447",
-     "addr": "5 River Street",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1536.0,
-     "price": 6000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-28",
-     "ppsf": 4,
-     "mi": 0.2
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 4400.0,
-    "high": 8200.0,
-    "median": 5950
+ "comps": [
+  {
+   "mls": "24156407",
+   "slug": "119-halstead-avenue-greenwich-connecticut-24156407",
+   "address": {
+    "line": "119 Halstead Avenue",
+    "unit": "Unit 2",
+    "lineWithUnit": "119 Halstead Avenue Unit 2",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06831"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 1014.0,
+   "price": 2825.0,
+   "date": "2026-04-07",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.017223,
+    "lng": -73.6581
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.43674921957651774,
+   "ppsf": 2.7859960552268244
+  },
+  {
+   "mls": "24160613",
+   "slug": "17-artic-street-greenwich-connecticut-24160613",
+   "address": {
+    "line": "17 Artic Street",
+    "unit": "Unit 1",
+    "lineWithUnit": "17 Artic Street Unit 1",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06830"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 850.0,
+   "price": 3850.0,
+   "date": "2026-04-15",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.019806,
+    "lng": -73.640878
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.038402121358093,
+   "ppsf": 4.529411764705882
+  },
+  {
+   "mls": "24160646",
+   "slug": "17-artic-street-greenwich-connecticut-24160646",
+   "address": {
+    "line": "17 Artic Street",
+    "unit": "Unit 2",
+    "lineWithUnit": "17 Artic Street Unit 2",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06830"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 850.0,
+   "price": 3350.0,
+   "date": "2026-04-24",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.019806,
+    "lng": -73.640878
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.038402121358093,
+   "ppsf": 3.9411764705882355
+  },
+  {
+   "mls": "24160849",
+   "slug": "27-high-street-greenwich-connecticut-24160849",
+   "address": {
+    "line": "27 High Street",
+    "unit": "Unit B",
+    "lineWithUnit": "27 High Street Unit B",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06830"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1096.0,
+   "price": 4500.0,
+   "date": "2026-04-23",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.00831,
+    "lng": -73.65088
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0555460107866084,
+   "ppsf": 4.105839416058394
+  },
+  {
+   "mls": "24168303",
+   "slug": "31-a-hollow-wood-lane-greenwich-connecticut-24168303",
+   "address": {
+    "line": "31-A Hollow Wood Lane",
+    "unit": null,
+    "lineWithUnit": "31-A Hollow Wood Lane",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06831"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1292.0,
+   "price": 4400.0,
+   "date": "2026-05-06",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.018623,
+    "lng": -73.655608
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.2482040037647951,
+   "ppsf": 3.4055727554179565
   }
- }
+ ]
 }

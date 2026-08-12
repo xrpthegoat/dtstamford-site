@@ -135,83 +135,141 @@
    "mi": 1.09
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "35-hazel-street-darien-connecticut-24164635",
-     "addr": "35 Hazel Street",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 6.0,
-     "sqft": 4515.0,
-     "price": 3150000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-16",
-     "ppsf": 698,
-     "mi": 0.59
-    },
-    {
-     "slug": "5-middlesex-road-darien-connecticut-24184412",
-     "addr": "5 Middlesex Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 5.0,
-     "sqft": 6195.0,
-     "price": 2995000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 483,
-     "mi": 0.12
-    },
-    {
-     "slug": "29-hillcrest-avenue-darien-connecticut-24189152",
-     "addr": "29 Hillcrest Avenue",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 4.0,
-     "sqft": 3621.0,
-     "price": 2795000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 772,
-     "mi": 0.46
-    },
-    {
-     "slug": "44-toms-road-stamford-connecticut-24186121",
-     "addr": "44 Toms Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 4.0,
-     "sqft": 2846.0,
-     "price": 849999.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 299,
-     "mi": 0.52
-    },
-    {
-     "slug": "103-ledge-lane-stamford-connecticut-24168681",
-     "addr": "103 Ledge Lane",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 2.0,
-     "sqft": 2146.0,
-     "price": 899000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 419,
-     "mi": 0.75
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 3150000.0,
-    "high": 3150000.0,
-    "median": 3150000
+ "comps": [
+  {
+   "mls": "24164635",
+   "slug": "35-hazel-street-darien-connecticut-24164635",
+   "address": {
+    "line": "35 Hazel Street",
+    "unit": null,
+    "lineWithUnit": "35 Hazel Street",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
    },
-   "radiusMi": 0.75
+   "beds": 5.0,
+   "baths": 6.0,
+   "sqft": 4515.0,
+   "price": 3150000.0,
+   "date": "2026-06-16",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.072379,
+    "lng": -73.505838
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9561929845996419,
+   "ppsf": 697.6744186046511
+  },
+  {
+   "mls": "24155300",
+   "slug": "5-wheat-lane-darien-connecticut-24155300",
+   "address": {
+    "line": "5 Wheat Lane",
+    "unit": null,
+    "lineWithUnit": "5 Wheat Lane",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 5.0,
+   "baths": 5.0,
+   "sqft": 3509.0,
+   "price": 3308000.0,
+   "date": "2026-04-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.097173,
+    "lng": -73.501057
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.4262696901070484,
+   "ppsf": 942.7187232829866
+  },
+  {
+   "mls": "24170630",
+   "slug": "31-stephanie-lane-darien-connecticut-24170630",
+   "address": {
+    "line": "31 Stephanie Lane",
+    "unit": null,
+    "lineWithUnit": "31 Stephanie Lane",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 3340.0,
+   "price": 3526000.0,
+   "date": "2026-06-17",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.093215,
+    "lng": -73.507861
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.7954877955656845,
+   "ppsf": 1055.688622754491
+  },
+  {
+   "mls": "24174660",
+   "slug": "6-old-parish-road-darien-connecticut-24174660",
+   "address": {
+    "line": "6 Old Parish Road",
+    "unit": null,
+    "lineWithUnit": "6 Old Parish Road",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 4.0,
+   "baths": 5.0,
+   "sqft": 4825.0,
+   "price": 3550000.0,
+   "date": "2026-06-12",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.079616,
+    "lng": -73.485615
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.43693700654118,
+   "ppsf": 735.7512953367876
+  },
+  {
+   "mls": "24152838",
+   "slug": "112-camp-avenue-darien-connecticut-24152838",
+   "address": {
+    "line": "112 Camp Avenue",
+    "unit": null,
+    "lineWithUnit": "112 Camp Avenue",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 3550.0,
+   "price": 2395000.0,
+   "date": "2026-04-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.094566,
+    "lng": -73.50524
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.0136367562580144,
+   "ppsf": 674.6478873239437
   }
- }
+ ]
 }

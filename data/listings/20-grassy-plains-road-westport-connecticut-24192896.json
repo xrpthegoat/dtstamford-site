@@ -119,45 +119,141 @@
    "mi": 1.91
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "5-tall-trees-drive-westport-connecticut-24155697",
-     "addr": "5 Tall Trees Drive",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 3.0,
-     "sqft": 2729.0,
-     "price": 7750.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-15",
-     "ppsf": 3,
-     "mi": 0.51
-    },
-    {
-     "slug": "11-partrick-lane-westport-connecticut-24156532",
-     "addr": "11 Partrick Lane",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 4.0,
-     "sqft": 3389.0,
-     "price": 11300.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-23",
-     "ppsf": 3,
-     "mi": 0.57
-    }
-   ],
-   "summary": {
-    "n": 2,
-    "low": 7750.0,
-    "high": 11300.0,
-    "median": 9525
+ "comps": [
+  {
+   "mls": "24156532",
+   "slug": "11-partrick-lane-westport-connecticut-24156532",
+   "address": {
+    "line": "11 Partrick Lane",
+    "unit": null,
+    "lineWithUnit": "11 Partrick Lane",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
    },
-   "radiusMi": 0.75
+   "beds": 5.0,
+   "baths": 4.0,
+   "sqft": 3389.0,
+   "price": 11300.0,
+   "date": "2026-03-23",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.152204,
+    "lng": -73.378984
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9207683262061185,
+   "ppsf": 3.334316907642372
+  },
+  {
+   "mls": "24155697",
+   "slug": "5-tall-trees-drive-westport-connecticut-24155697",
+   "address": {
+    "line": "5 Tall Trees Drive",
+    "unit": null,
+    "lineWithUnit": "5 Tall Trees Drive",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 5.0,
+   "baths": 3.0,
+   "sqft": 2729.0,
+   "price": 7750.0,
+   "date": "2026-05-15",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.153544,
+    "lng": -73.377316
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 0.8190604453338644,
+   "ppsf": 2.8398680835470866
+  },
+  {
+   "mls": "24170995",
+   "slug": "28-oak-street-westport-connecticut-24170995",
+   "address": {
+    "line": "28 Oak Street",
+    "unit": null,
+    "lineWithUnit": "28 Oak Street",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 6.0,
+   "baths": 6.0,
+   "sqft": 4742.0,
+   "price": 35000.0,
+   "date": "2026-06-25",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.157807,
+    "lng": -73.362873
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.5546589217017934,
+   "ppsf": 7.3808519611978065
+  },
+  {
+   "mls": "24150537",
+   "slug": "14-cockenoe-drive-westport-connecticut-24150537",
+   "address": {
+    "line": "14 Cockenoe Drive",
+    "unit": null,
+    "lineWithUnit": "14 Cockenoe Drive",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 4.0,
+   "baths": 6.0,
+   "sqft": 3627.0,
+   "price": 49000.0,
+   "date": "2026-03-24",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.095718,
+    "lng": -73.371854
+   },
+   "klass": "rental",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 7.225839300338836,
+   "ppsf": 13.509787703336091
+  },
+  {
+   "mls": "24140482",
+   "slug": "4-vani-court-westport-connecticut-24140482",
+   "address": {
+    "line": "4 Vani Court",
+    "unit": null,
+    "lineWithUnit": "4 Vani Court",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 5.0,
+   "baths": 6.0,
+   "sqft": 4347.0,
+   "price": 12500.0,
+   "date": "2026-04-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.12019,
+    "lng": -73.362378
+   },
+   "klass": "rental",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 4.731191881755243,
+   "ppsf": 2.8755463538072235
   }
- }
+ ]
 }

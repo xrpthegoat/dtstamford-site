@@ -129,57 +129,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "198-woodchuck-road-stamford-connecticut-24177197",
-     "addr": "198 Woodchuck Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 3322.0,
-     "price": 2450000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-30",
-     "ppsf": 738,
-     "mi": 0.68
-    },
-    {
-     "slug": "761-den-road-stamford-connecticut-24185396",
-     "addr": "761 Den Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1903.0,
-     "price": 799000.0,
-     "kind": "asking",
-     "status": "Under Contract - Continue to Show",
-     "ppsf": 420,
-     "mi": 0.38
-    },
-    {
-     "slug": "132-webbs-hill-road-stamford-connecticut-24187050",
-     "addr": "132 Webbs Hill Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1933.0,
-     "price": 1015000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 525,
-     "mi": 0.38
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 2450000.0,
-    "high": 2450000.0,
-    "median": 2450000
+ "comps": [
+  {
+   "mls": "24177197",
+   "slug": "198-woodchuck-road-stamford-connecticut-24177197",
+   "address": {
+    "line": "198 Woodchuck Road",
+    "unit": null,
+    "lineWithUnit": "198 Woodchuck Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 3322.0,
+   "price": 2450000.0,
+   "date": "2026-06-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.121548,
+    "lng": -73.577948
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0978380476932714,
+   "ppsf": 737.5075255869958
+  },
+  {
+   "mls": "24148859",
+   "slug": "48-briarwood-lane-stamford-connecticut-24148859",
+   "address": {
+    "line": "48 Briarwood Lane",
+    "unit": null,
+    "lineWithUnit": "48 Briarwood Lane",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 3324.0,
+   "price": 1125000.0,
+   "date": "2026-04-23",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.108367,
+    "lng": -73.564256
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9664527490333771,
+   "ppsf": 338.4476534296029
+  },
+  {
+   "mls": "24137258",
+   "slug": "511-den-road-stamford-connecticut-24137258",
+   "address": {
+    "line": "511 Den Road",
+    "unit": null,
+    "lineWithUnit": "511 Den Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 3400.0,
+   "price": 1915000.0,
+   "date": "2026-07-01",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.112679,
+    "lng": -73.579146
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.376392527995663,
+   "ppsf": 563.2352941176471
+  },
+  {
+   "mls": "24165195",
+   "slug": "1016-long-ridge-road-stamford-connecticut-24165195",
+   "address": {
+    "line": "1016 Long Ridge Road",
+    "unit": null,
+    "lineWithUnit": "1016 Long Ridge Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
+   },
+   "beds": 6.0,
+   "baths": 4.0,
+   "sqft": 3585.0,
+   "price": 800000.0,
+   "date": "2026-07-17",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.103046,
+    "lng": -73.56697
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1876152368889445,
+   "ppsf": 223.15202231520223
+  },
+  {
+   "mls": "24168271",
+   "slug": "192-barclay-drive-stamford-connecticut-24168271",
+   "address": {
+    "line": "192 Barclay Drive",
+    "unit": null,
+    "lineWithUnit": "192 Barclay Drive",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 3148.0,
+   "price": 1650000.0,
+   "date": "2026-06-05",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.104172,
+    "lng": -73.573853
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8706955509114982,
+   "ppsf": 524.1423125794155
   }
- }
+ ]
 }

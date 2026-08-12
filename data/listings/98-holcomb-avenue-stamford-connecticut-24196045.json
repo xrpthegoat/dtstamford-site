@@ -108,101 +108,141 @@
    "walk": 11
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "287-glenbrook-road-stamford-connecticut-24166084",
-     "addr": "287 Glenbrook Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2568.0,
-     "price": 835000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-08",
-     "ppsf": 325,
-     "mi": 0.3
-    },
-    {
-     "slug": "31-puritan-lane-stamford-connecticut-24178352",
-     "addr": "31 Puritan Lane",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 1553.0,
-     "price": 770000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-15",
-     "ppsf": 496,
-     "mi": 0.3
-    },
-    {
-     "slug": "55-arlington-road-stamford-connecticut-24166468",
-     "addr": "55 Arlington Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 3797.0,
-     "price": 1250000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-08",
-     "ppsf": 329,
-     "mi": 0.35
-    },
-    {
-     "slug": "151-fifth-street-stamford-connecticut-24188689",
-     "addr": "151 Fifth Street",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 3200.0,
-     "price": 915000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-06",
-     "ppsf": 286,
-     "mi": 0.5
-    },
-    {
-     "slug": "27-holbrook-drive-stamford-connecticut-24160116",
-     "addr": "27 Holbrook Drive",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 5.0,
-     "sqft": 3539.0,
-     "price": 1610000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-26",
-     "ppsf": 455,
-     "mi": 0.58
-    },
-    {
-     "slug": "41-chester-street-stamford-connecticut-24168000",
-     "addr": "41 Chester Street",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 3213.0,
-     "price": 1455000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-25",
-     "ppsf": 453,
-     "mi": 0.69
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 770000.0,
-    "high": 1610000.0,
-    "median": 1082500
+ "comps": [
+  {
+   "mls": "24153540",
+   "slug": "29-quintard-terrace-stamford-connecticut-24153540",
+   "address": {
+    "line": "29 Quintard Terrace",
+    "unit": null,
+    "lineWithUnit": "29 Quintard Terrace",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 1.0,
+   "sqft": 1378.0,
+   "price": 700000.0,
+   "date": "2026-04-07",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.056572,
+    "lng": -73.525481
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9193552222480845,
+   "ppsf": 507.98258345428155
+  },
+  {
+   "mls": "24162493",
+   "slug": "72-glendale-drive-stamford-connecticut-24162493",
+   "address": {
+    "line": "72 Glendale Drive",
+    "unit": null,
+    "lineWithUnit": "72 Glendale Drive",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06906"
+   },
+   "beds": 4.0,
+   "baths": 2.0,
+   "sqft": 1629.0,
+   "price": 874300.0,
+   "date": "2026-05-29",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.074752,
+    "lng": -73.524664
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1857542750831649,
+   "ppsf": 536.7096378146102
+  },
+  {
+   "mls": "24169148",
+   "slug": "140-courtland-avenue-stamford-connecticut-24169148",
+   "address": {
+    "line": "140 Courtland Avenue",
+    "unit": null,
+    "lineWithUnit": "140 Courtland Avenue",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1915.0,
+   "price": 875000.0,
+   "date": "2026-06-03",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.062975,
+    "lng": -73.514939
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1557971866016814,
+   "ppsf": 456.9190600522193
+  },
+  {
+   "mls": "24171612",
+   "slug": "40-cowan-avenue-stamford-connecticut-24171612",
+   "address": {
+    "line": "40 Cowan Avenue",
+    "unit": null,
+    "lineWithUnit": "40 Cowan Avenue",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06906"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1344.0,
+   "price": 712000.0,
+   "date": "2026-07-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.064961,
+    "lng": -73.528919
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.05842964655075524,
+   "ppsf": 529.7619047619048
+  },
+  {
+   "mls": "24178352",
+   "slug": "31-puritan-lane-stamford-connecticut-24178352",
+   "address": {
+    "line": "31 Puritan Lane",
+    "unit": null,
+    "lineWithUnit": "31 Puritan Lane",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06906"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 1553.0,
+   "price": 770000.0,
+   "date": "2026-07-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.068854,
+    "lng": -73.529037
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.48524615978075253,
+   "ppsf": 495.81455247907274
   }
- }
+ ]
 }

@@ -116,101 +116,141 @@
    "walk": 2
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "25-maple-street-norwalk-connecticut-24157039",
-     "addr": "25 Maple Street Unit 7",
-     "unit": "Unit 7",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 550.0,
-     "price": 1300.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-19",
-     "ppsf": 2,
-     "mi": 0.04
-    },
-    {
-     "slug": "40-2-prospect-avenue-norwalk-connecticut-24172603",
-     "addr": "40-2 Prospect Avenue Unit 2G",
-     "unit": "Unit 2G",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 700.0,
-     "price": 1840.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-24",
-     "ppsf": 3,
-     "mi": 0.11
-    },
-    {
-     "slug": "15-arch-street-norwalk-connecticut-24161814",
-     "addr": "15 Arch Street Unit C1",
-     "unit": "Unit C1",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 750.0,
-     "price": 2195.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-22",
-     "ppsf": 3,
-     "mi": 0.12
-    },
-    {
-     "slug": "11-bedford-avenue-norwalk-connecticut-24148007",
-     "addr": "11 Bedford Avenue Apt N4",
-     "unit": "Apt N4",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 732.0,
-     "price": 2150.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-01",
-     "ppsf": 3,
-     "mi": 0.17
-    },
-    {
-     "slug": "11-bedford-avenue-norwalk-connecticut-24146874",
-     "addr": "11 Bedford Avenue Unit O-3",
-     "unit": "Unit O-3",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 732.0,
-     "price": 2100.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-15",
-     "ppsf": 3,
-     "mi": 0.17
-    },
-    {
-     "slug": "11-bedford-avenue-norwalk-connecticut-24186661",
-     "addr": "11 Bedford Avenue Unit N2",
-     "unit": "Unit N2",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 500.0,
-     "price": 2000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-01",
-     "ppsf": 4,
-     "mi": 0.17
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 1300.0,
-    "high": 2195.0,
-    "median": 2050
+ "comps": [
+  {
+   "mls": "24156052",
+   "slug": "14-1-2-fairview-avenue-norwalk-connecticut-24156052",
+   "address": {
+    "line": "14 1/2 Fairview Avenue",
+    "unit": "Unit D6",
+    "lineWithUnit": "14 1/2 Fairview Avenue Unit D6",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
    },
-   "radiusMi": 0.75
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 654.0,
+   "price": 2100.0,
+   "date": "2026-03-17",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.11538,
+    "lng": -73.422941
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.3435431970185899,
+   "ppsf": 3.2110091743119265
+  },
+  {
+   "mls": "24157039",
+   "slug": "25-maple-street-norwalk-connecticut-24157039",
+   "address": {
+    "line": "25 Maple Street",
+    "unit": "Unit 7",
+    "lineWithUnit": "25 Maple Street Unit 7",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 550.0,
+   "price": 1300.0,
+   "date": "2026-03-19",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.112247,
+    "lng": -73.42056
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.07007929863138009,
+   "ppsf": 2.3636363636363638
+  },
+  {
+   "mls": "24148634",
+   "slug": "112-east-avenue-norwalk-connecticut-24148634",
+   "address": {
+    "line": "112 East Avenue",
+    "unit": "Unit 1",
+    "lineWithUnit": "112 East Avenue Unit 1",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 500.0,
+   "price": 1650.0,
+   "date": "2026-04-22",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.114864,
+    "lng": -73.408066
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0678617102324732,
+   "ppsf": 3.3
+  },
+  {
+   "mls": "24157221",
+   "slug": "18-prospect-avenue-norwalk-connecticut-24157221",
+   "address": {
+    "line": "18 Prospect Avenue",
+    "unit": "Apt C8",
+    "lineWithUnit": "18 Prospect Avenue Apt C8",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 572.0,
+   "price": 2100.0,
+   "date": "2026-06-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.115997,
+    "lng": -73.423325
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.4182228223971762,
+   "ppsf": 3.6713286713286712
+  },
+  {
+   "mls": "24185867",
+   "slug": "41-fairfield-avenue-norwalk-connecticut-24185867",
+   "address": {
+    "line": "41 Fairfield Avenue",
+    "unit": "Unit B",
+    "lineWithUnit": "41 Fairfield Avenue Unit B",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 537.0,
+   "price": 2300.0,
+   "date": "2026-07-31",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.102753,
+    "lng": -73.424174
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1662491580839212,
+   "ppsf": 4.283054003724395
   }
- }
+ ]
 }

@@ -130,101 +130,141 @@
    "mi": 0.64
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "59-rock-spring-road-stamford-connecticut-24171720",
-     "addr": "59 Rock Spring Road Unit 32",
-     "unit": "Unit 32",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 3377.0,
-     "price": 4100.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-05",
-     "ppsf": 1,
-     "mi": 0.13
-    },
-    {
-     "slug": "59-rock-spring-road-stamford-connecticut-24179282",
-     "addr": "59 Rock Spring Road Unit 28",
-     "unit": "Unit 28",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 2783.0,
-     "price": 3800.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-29",
-     "ppsf": 1,
-     "mi": 0.14
-    },
-    {
-     "slug": "22-hackett-circle-north-stamford-connecticut-24152598",
-     "addr": "22 Hackett Circle North Unit 2nd Fl.",
-     "unit": "Unit 2nd Fl.",
-     "beds": 3.0,
-     "baths": 1.0,
-     "sqft": 1100.0,
-     "price": 3200.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-26",
-     "ppsf": 3,
-     "mi": 0.15
-    },
-    {
-     "slug": "237-strawberry-hill-avenue-stamford-connecticut-24180013",
-     "addr": "237 Strawberry Hill Avenue Unit 42",
-     "unit": "Unit 42",
-     "beds": 3.0,
-     "baths": 4.0,
-     "sqft": 2870.0,
-     "price": 4400.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-10",
-     "ppsf": 2,
-     "mi": 0.17
-    },
-    {
-     "slug": "115-71-colonial-road-stamford-connecticut-24189569",
-     "addr": "115-71 Colonial Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 4.0,
-     "sqft": 2582.0,
-     "price": 5200.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-01",
-     "ppsf": 2,
-     "mi": 0.2
-    },
-    {
-     "slug": "54-morris-street-stamford-connecticut-24152158",
-     "addr": "54 Morris Street Unit 1",
-     "unit": "Unit 1",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1160.0,
-     "price": 3200.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-13",
-     "ppsf": 3,
-     "mi": 0.21
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 3200.0,
-    "high": 5200.0,
-    "median": 3950
+ "comps": [
+  {
+   "mls": "24151966",
+   "slug": "137-rock-spring-road-stamford-connecticut-24151966",
+   "address": {
+    "line": "137 Rock Spring Road",
+    "unit": "Unit 1",
+    "lineWithUnit": "137 Rock Spring Road Unit 1",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06906"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 1200.0,
+   "price": 3250.0,
+   "date": "2026-03-28",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.067978,
+    "lng": -73.52781
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.14458934773133178,
+   "ppsf": 2.7083333333333335
+  },
+  {
+   "mls": "24152158",
+   "slug": "54-morris-street-stamford-connecticut-24152158",
+   "address": {
+    "line": "54 Morris Street",
+    "unit": "Unit 1",
+    "lineWithUnit": "54 Morris Street Unit 1",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06906"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1160.0,
+   "price": 3200.0,
+   "date": "2026-04-13",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.06847,
+    "lng": -73.52546
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.3360422371385297,
+   "ppsf": 2.7586206896551726
+  },
+  {
+   "mls": "24146915",
+   "slug": "143-hoyt-street-stamford-connecticut-24146915",
+   "address": {
+    "line": "143 Hoyt Street",
+    "unit": "Unit 5L",
+    "lineWithUnit": "143 Hoyt Street Unit 5L",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1732.0,
+   "price": 3600.0,
+   "date": "2026-04-26",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.060379,
+    "lng": -73.534578
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9839507623373165,
+   "ppsf": 2.0785219399538106
+  },
+  {
+   "mls": "24158555",
+   "slug": "20-third-street-stamford-connecticut-24158555",
+   "address": {
+    "line": "20 Third Street",
+    "unit": "Unit 18",
+    "lineWithUnit": "20 Third Street Unit 18",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1645.0,
+   "price": 4900.0,
+   "date": "2026-05-09",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.06464,
+    "lng": -73.54251
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1686143337381885,
+   "ppsf": 2.978723404255319
+  },
+  {
+   "mls": "24163698",
+   "slug": "431-glenbrook-road-stamford-connecticut-24163698",
+   "address": {
+    "line": "431 Glenbrook Road",
+    "unit": "Unit 3",
+    "lineWithUnit": "431 Glenbrook Road Unit 3",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06906"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1290.0,
+   "price": 2800.0,
+   "date": "2026-05-15",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.068016,
+    "lng": -73.52072
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7340263188382379,
+   "ppsf": 2.1705426356589146
   }
- }
+ ]
 }

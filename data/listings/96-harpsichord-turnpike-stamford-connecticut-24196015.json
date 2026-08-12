@@ -130,99 +130,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "43-laurel-ledge-road-stamford-connecticut-24182775",
-     "addr": "43 Laurel Ledge Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 3495.0,
-     "price": 1500000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-10",
-     "ppsf": 429,
-     "mi": 0.41
-    },
-    {
-     "slug": "33-pinnacle-rock-road-stamford-connecticut-24161686",
-     "addr": "33 Pinnacle Rock Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 3036.0,
-     "price": 1220000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-11",
-     "ppsf": 402,
-     "mi": 0.45
-    },
-    {
-     "slug": "25-wildwood-road-stamford-connecticut-24161680",
-     "addr": "25 Wildwood Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 5.0,
-     "sqft": 5972.0,
-     "price": 2410000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-20",
-     "ppsf": 404,
-     "mi": 0.55
-    },
-    {
-     "slug": "1895-long-ridge-road-stamford-connecticut-24152029",
-     "addr": "1895 Long Ridge Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 3000.0,
-     "price": 1144250.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-07",
-     "ppsf": 381,
-     "mi": 0.71
-    },
-    {
-     "slug": "73-harpsichord-turnpike-stamford-connecticut-24176765",
-     "addr": "73 Harpsichord Turnpike",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 5167.0,
-     "price": 1600000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 310,
-     "mi": 0.08
-    },
-    {
-     "slug": "20-round-hill-drive-stamford-connecticut-24184010",
-     "addr": "20 Round Hill Drive",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 3440.0,
-     "price": 1050000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 305,
-     "mi": 0.33
-    }
-   ],
-   "summary": {
-    "n": 4,
-    "low": 1144250.0,
-    "high": 2410000.0,
-    "median": 1360000
+ "comps": [
+  {
+   "mls": "24159152",
+   "slug": "40-wildwood-road-stamford-connecticut-24159152",
+   "address": {
+    "line": "40 Wildwood Road",
+    "unit": null,
+    "lineWithUnit": "40 Wildwood Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
    },
-   "radiusMi": 0.75
+   "beds": 5.0,
+   "baths": 7.0,
+   "sqft": 6034.0,
+   "price": 1675000.0,
+   "date": "2026-06-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.135593,
+    "lng": -73.58187
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8749929521801912,
+   "ppsf": 277.5936360623136
+  },
+  {
+   "mls": "24161680",
+   "slug": "25-wildwood-road-stamford-connecticut-24161680",
+   "address": {
+    "line": "25 Wildwood Road",
+    "unit": null,
+    "lineWithUnit": "25 Wildwood Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
+   },
+   "beds": 4.0,
+   "baths": 5.0,
+   "sqft": 5972.0,
+   "price": 2410000.0,
+   "date": "2026-04-20",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.137022,
+    "lng": -73.582142
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8882958384001368,
+   "ppsf": 403.54989953114534
+  },
+  {
+   "mls": "24164539",
+   "slug": "88-bentwood-drive-stamford-connecticut-24164539",
+   "address": {
+    "line": "88 Bentwood Drive",
+    "unit": null,
+    "lineWithUnit": "88 Bentwood Drive",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
+   },
+   "beds": 5.0,
+   "baths": 5.0,
+   "sqft": 6067.0,
+   "price": 1899000.0,
+   "date": "2026-07-14",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.132449,
+    "lng": -73.602839
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9189049574790983,
+   "ppsf": 313.0047799571452
+  },
+  {
+   "mls": "24173258",
+   "slug": "19-timber-mill-circle-stamford-connecticut-24173258",
+   "address": {
+    "line": "19 Timber Mill Circle",
+    "unit": null,
+    "lineWithUnit": "19 Timber Mill Circle",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 4076.0,
+   "price": 975000.0,
+   "date": "2026-06-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.12337,
+    "lng": -73.583166
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.4554182052659368,
+   "ppsf": 239.20510304219823
+  },
+  {
+   "mls": "24143674",
+   "slug": "21-ravenglass-drive-stamford-connecticut-24143674",
+   "address": {
+    "line": "21 Ravenglass Drive",
+    "unit": "Unit 21",
+    "lineWithUnit": "21 Ravenglass Drive Unit 21",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
+   },
+   "beds": 4.0,
+   "baths": 5.0,
+   "sqft": 5441.0,
+   "price": 2600000.0,
+   "date": "2026-04-09",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.152046,
+    "lng": -73.600199
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.0579430237927063,
+   "ppsf": 477.85333578386326
   }
- }
+ ]
 }

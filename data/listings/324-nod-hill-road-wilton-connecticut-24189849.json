@@ -133,58 +133,141 @@
    "mi": 1.98
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "79-pipers-hill-road-wilton-connecticut-24169308",
-     "addr": "79 Pipers Hill Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 3612.0,
-     "price": 1250000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-15",
-     "ppsf": 346,
-     "mi": 0.22
-    },
-    {
-     "slug": "63-pipers-hill-road-wilton-connecticut-24172493",
-     "addr": "63 Pipers Hill Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 3817.0,
-     "price": 1345000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-04",
-     "ppsf": 352,
-     "mi": 0.28
-    },
-    {
-     "slug": "35-hickory-hill-road-wilton-connecticut-24189488",
-     "addr": "35 Hickory Hill Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 3755.0,
-     "price": 1849000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 492,
-     "mi": 0.66
-    }
-   ],
-   "summary": {
-    "n": 2,
-    "low": 1250000.0,
-    "high": 1345000.0,
-    "median": 1297500
+ "comps": [
+  {
+   "mls": "24161492",
+   "slug": "78-keelers-ridge-road-wilton-connecticut-24161492",
+   "address": {
+    "line": "78 Keelers Ridge Road",
+    "unit": null,
+    "lineWithUnit": "78 Keelers Ridge Road",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 4154.0,
+   "price": 2000000.0,
+   "date": "2026-06-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.219213,
+    "lng": -73.471224
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.8970413649501239,
+   "ppsf": 481.46364949446314
+  },
+  {
+   "mls": "24154286",
+   "slug": "78-pin-oak-lane-wilton-connecticut-24154286",
+   "address": {
+    "line": "78 Pin Oak Lane",
+    "unit": null,
+    "lineWithUnit": "78 Pin Oak Lane",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 4741.0,
+   "price": 1830000.0,
+   "date": "2026-04-24",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.24176552,
+    "lng": -73.4453331
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.416169201022185,
+   "ppsf": 385.99451592491033
+  },
+  {
+   "mls": "24163233",
+   "slug": "79-warncke-road-wilton-connecticut-24163233",
+   "address": {
+    "line": "79 Warncke Road",
+    "unit": null,
+    "lineWithUnit": "79 Warncke Road",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 4.0,
+   "baths": 6.0,
+   "sqft": 4386.0,
+   "price": 1600000.0,
+   "date": "2026-06-04",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.214528,
+    "lng": -73.439134
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.4459167247456084,
+   "ppsf": 364.797081623347
+  },
+  {
+   "mls": "24167687",
+   "slug": "22-fox-run-wilton-connecticut-24167687",
+   "address": {
+    "line": "22 Fox Run",
+    "unit": null,
+    "lineWithUnit": "22 Fox Run",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 5.0,
+   "baths": 4.0,
+   "sqft": 4476.0,
+   "price": 1700000.0,
+   "date": "2026-07-16",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.246662,
+    "lng": -73.478615
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.4479430182949757,
+   "ppsf": 379.8033958891868
+  },
+  {
+   "mls": "24168973",
+   "slug": "45-keelers-ridge-road-wilton-connecticut-24168973",
+   "address": {
+    "line": "45 Keelers Ridge Road",
+    "unit": null,
+    "lineWithUnit": "45 Keelers Ridge Road",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 4152.0,
+   "price": 2176300.0,
+   "date": "2026-07-24",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.216243,
+    "lng": -73.47437
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.319129586645553,
+   "ppsf": 524.1570327552987
   }
- }
+ ]
 }

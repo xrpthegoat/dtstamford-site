@@ -134,72 +134,141 @@
    "mi": 1.07
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "105-harbor-drive-stamford-connecticut-24162148",
-     "addr": "105 Harbor Drive Unit 112",
-     "unit": "Unit 112",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1665.0,
-     "price": 820000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-26",
-     "ppsf": 492,
-     "mi": 0.2
-    },
-    {
-     "slug": "61-seaview-avenue-stamford-connecticut-24165940",
-     "addr": "61 Seaview Avenue Unit 63",
-     "unit": "Unit 63",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 3476.0,
-     "price": 900000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-26",
-     "ppsf": 259,
-     "mi": 0.25
-    },
-    {
-     "slug": "123-harbor-drive-stamford-connecticut-24157599",
-     "addr": "123 Harbor Drive Apt 203",
-     "unit": "Apt 203",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 2172.0,
-     "price": 1030000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-12",
-     "ppsf": 474,
-     "mi": 0.26
-    },
-    {
-     "slug": "89-harbor-drive-stamford-connecticut-24177579",
-     "addr": "89 Harbor Drive Unit 206",
-     "unit": "Unit 206",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1665.0,
-     "price": 660000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 396,
-     "mi": 0.17
-    }
-   ],
-   "summary": {
-    "n": 3,
-    "low": 820000.0,
-    "high": 1030000.0,
-    "median": 900000
+ "comps": [
+  {
+   "mls": "24157599",
+   "slug": "123-harbor-drive-stamford-connecticut-24157599",
+   "address": {
+    "line": "123 Harbor Drive",
+    "unit": "Apt 203",
+    "lineWithUnit": "123 Harbor Drive Apt 203",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2172.0,
+   "price": 1030000.0,
+   "date": "2026-06-12",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.037078,
+    "lng": -73.531703
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.4225330043019888,
+   "ppsf": 474.2173112338858
+  },
+  {
+   "mls": "24160551",
+   "slug": "1-broad-street-stamford-connecticut-24160551",
+   "address": {
+    "line": "1 Broad Street",
+    "unit": "Unit 11A&B",
+    "lineWithUnit": "1 Broad Street Unit 11A&B",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06901"
+   },
+   "beds": 3.0,
+   "baths": 4.0,
+   "sqft": 2937.0,
+   "price": 1710000.0,
+   "date": "2026-06-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.055134,
+    "lng": -73.542079
+   },
+   "klass": "condo",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.255174798770295,
+   "ppsf": 582.2267620020428
+  },
+  {
+   "mls": "24175288",
+   "slug": "35-wascussee-lane-stamford-connecticut-24175288",
+   "address": {
+    "line": "35 Wascussee Lane",
+    "unit": "Unit 66",
+    "lineWithUnit": "35 Wascussee Lane Unit 66",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2411.0,
+   "price": 640000.0,
+   "date": "2026-06-22",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.045427,
+    "lng": -73.515585
+   },
+   "klass": "condo",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.2359492905073088,
+   "ppsf": 265.4500207382829
+  },
+  {
+   "mls": "24165940",
+   "slug": "61-seaview-avenue-stamford-connecticut-24165940",
+   "address": {
+    "line": "61 Seaview Avenue",
+    "unit": "Unit 63",
+    "lineWithUnit": "61 Seaview Avenue Unit 63",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 3476.0,
+   "price": 900000.0,
+   "date": "2026-05-26",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.040627,
+    "lng": -73.52321
+   },
+   "klass": "condo",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 0.4030602795120059,
+   "ppsf": 258.91829689298044
+  },
+  {
+   "mls": "24184309",
+   "slug": "42-highland-road-stamford-connecticut-24184309",
+   "address": {
+    "line": "42 Highland Road",
+    "unit": "Unit 6",
+    "lineWithUnit": "42 Highland Road Unit 6",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1988.0,
+   "price": 830000.0,
+   "date": "2026-07-17",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.058152,
+    "lng": -73.53196
+   },
+   "klass": "condo",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.240230927032678,
+   "ppsf": 417.5050301810865
   }
- }
+ ]
 }

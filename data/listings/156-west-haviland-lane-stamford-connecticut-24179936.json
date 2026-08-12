@@ -130,101 +130,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "27-wellington-drive-stamford-connecticut-24133749",
-     "addr": "27 Wellington Drive",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2402.0,
-     "price": 774000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-25",
-     "ppsf": 322,
-     "mi": 0.46
-    },
-    {
-     "slug": "1895-long-ridge-road-stamford-connecticut-24152029",
-     "addr": "1895 Long Ridge Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 3000.0,
-     "price": 1144250.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-07",
-     "ppsf": 381,
-     "mi": 0.54
-    },
-    {
-     "slug": "107-deepwood-road-stamford-connecticut-24121490",
-     "addr": "107 Deepwood Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 3812.0,
-     "price": 1900000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-23",
-     "ppsf": 498,
-     "mi": 0.61
-    },
-    {
-     "slug": "106-east-hunting-ridge-road-stamford-connecticut-24146138",
-     "addr": "106 East Hunting Ridge Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 2.0,
-     "sqft": 2476.0,
-     "price": 1067000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-02",
-     "ppsf": 431,
-     "mi": 0.71
-    },
-    {
-     "slug": "160-rock-rimmon-road-stamford-connecticut-24151949",
-     "addr": "160 Rock Rimmon Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2324.0,
-     "price": 1070000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-08",
-     "ppsf": 460,
-     "mi": 0.74
-    },
-    {
-     "slug": "25-wildwood-road-stamford-connecticut-24161680",
-     "addr": "25 Wildwood Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 5.0,
-     "sqft": 5972.0,
-     "price": 2410000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-20",
-     "ppsf": 404,
-     "mi": 0.75
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 774000.0,
-    "high": 2410000.0,
-    "median": 1107125
+ "comps": [
+  {
+   "mls": "24157806",
+   "slug": "320-chestnut-hill-road-stamford-connecticut-24157806",
+   "address": {
+    "line": "320 Chestnut Hill Road",
+    "unit": null,
+    "lineWithUnit": "320 Chestnut Hill Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 3342.0,
+   "price": 1440000.0,
+   "date": "2026-06-18",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.126064,
+    "lng": -73.569004
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5670120321066253,
+   "ppsf": 430.87971274685816
+  },
+  {
+   "mls": "24121490",
+   "slug": "107-deepwood-road-stamford-connecticut-24121490",
+   "address": {
+    "line": "107 Deepwood Road",
+    "unit": null,
+    "lineWithUnit": "107 Deepwood Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 3812.0,
+   "price": 1900000.0,
+   "date": "2026-03-23",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.123329,
+    "lng": -73.564427
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9861839990291187,
+   "ppsf": 498.42602308499477
+  },
+  {
+   "mls": "24152029",
+   "slug": "1895-long-ridge-road-stamford-connecticut-24152029",
+   "address": {
+    "line": "1895 Long Ridge Road",
+    "unit": null,
+    "lineWithUnit": "1895 Long Ridge Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 3000.0,
+   "price": 1144250.0,
+   "date": "2026-04-07",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.129574,
+    "lng": -73.580209
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8620574019296308,
+   "ppsf": 381.4166666666667
+  },
+  {
+   "mls": "24173258",
+   "slug": "19-timber-mill-circle-stamford-connecticut-24173258",
+   "address": {
+    "line": "19 Timber Mill Circle",
+    "unit": null,
+    "lineWithUnit": "19 Timber Mill Circle",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 4076.0,
+   "price": 975000.0,
+   "date": "2026-06-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.12337,
+    "lng": -73.583166
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.3901037075083977,
+   "ppsf": 239.20510304219823
+  },
+  {
+   "mls": "24177197",
+   "slug": "198-woodchuck-road-stamford-connecticut-24177197",
+   "address": {
+    "line": "198 Woodchuck Road",
+    "unit": null,
+    "lineWithUnit": "198 Woodchuck Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 3322.0,
+   "price": 2450000.0,
+   "date": "2026-06-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.121548,
+    "lng": -73.577948
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.2478167614288769,
+   "ppsf": 737.5075255869958
   }
- }
+ ]
 }

@@ -117,101 +117,60 @@
    "mi": 1.01
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "70-south-main-street-norwalk-connecticut-24159755",
-     "addr": "70 South Main Street Unit 3B",
-     "unit": "Unit 3B",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 890.0,
-     "price": 2800.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-11",
-     "ppsf": 3,
-     "mi": 0.01
-    },
-    {
-     "slug": "70-south-main-street-norwalk-connecticut-24159738",
-     "addr": "70 South Main Street Unit 3D",
-     "unit": "Unit 3D",
-     "beds": 2.0,
-     "baths": 4.0,
-     "sqft": 2000.0,
-     "price": 4500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-11",
-     "ppsf": 2,
-     "mi": 0.01
-    },
-    {
-     "slug": "8-haviland-street-norwalk-connecticut-24170015",
-     "addr": "8 Haviland Street Unit A",
-     "unit": "Unit A",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 1100.0,
-     "price": 2900.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-02",
-     "ppsf": 3,
-     "mi": 0.06
-    },
-    {
-     "slug": "19-day-street-norwalk-connecticut-24147318",
-     "addr": "19 Day Street Unit 311",
-     "unit": "Unit 311",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1341.0,
-     "price": 3500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-16",
-     "ppsf": 3,
-     "mi": 0.08
-    },
-    {
-     "slug": "19-day-street-norwalk-connecticut-24147317",
-     "addr": "19 Day Street Unit 402",
-     "unit": "Unit 402",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1086.0,
-     "price": 3100.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-28",
-     "ppsf": 3,
-     "mi": 0.08
-    },
-    {
-     "slug": "178-flax-hill-road-norwalk-connecticut-24157859",
-     "addr": "178 Flax Hill Road Apt C203",
-     "unit": "Apt C203",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1130.0,
-     "price": 2900.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-18",
-     "ppsf": 3,
-     "mi": 0.29
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 2800.0,
-    "high": 4500.0,
-    "median": 3000
+ "comps": [
+  {
+   "mls": "24146189",
+   "slug": "12-splitrock-road-norwalk-connecticut-24146189",
+   "address": {
+    "line": "12 Splitrock Road",
+    "unit": null,
+    "lineWithUnit": "12 Splitrock Road",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 3316.0,
+   "price": 8000.0,
+   "date": "2026-06-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.082144,
+    "lng": -73.418512
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.6311390557123715,
+   "ppsf": 2.4125452352231602
+  },
+  {
+   "mls": "24159808",
+   "slug": "18-soundview-avenue-norwalk-connecticut-24159808",
+   "address": {
+    "line": "18 Soundview Avenue",
+    "unit": "Unit 1",
+    "lineWithUnit": "18 Soundview Avenue Unit 1",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 3.0,
+   "baths": 1.0,
+   "sqft": 3168.0,
+   "price": 3000.0,
+   "date": "2026-05-20",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.093333,
+    "lng": -73.428494
+   },
+   "klass": "rental",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 0.91420024977368,
+   "ppsf": 0.946969696969697
   }
- }
+ ]
 }

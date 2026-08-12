@@ -128,101 +128,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "16-possum-lane-norwalk-connecticut-24153239",
-     "addr": "16 Possum Lane",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1736.0,
-     "price": 776000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-28",
-     "ppsf": 447,
-     "mi": 0.4
-    },
-    {
-     "slug": "26-flicker-lane-norwalk-connecticut-24167420",
-     "addr": "26 Flicker Lane",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1408.0,
-     "price": 2000000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-22",
-     "ppsf": 1420,
-     "mi": 0.43
-    },
-    {
-     "slug": "9-arnold-lane-norwalk-connecticut-24148191",
-     "addr": "9 Arnold Lane",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 2264.0,
-     "price": 1100700.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-06",
-     "ppsf": 486,
-     "mi": 0.44
-    },
-    {
-     "slug": "7-thomes-street-norwalk-connecticut-24163267",
-     "addr": "7 Thomes Street",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1940.0,
-     "price": 2000000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-20",
-     "ppsf": 1031,
-     "mi": 0.47
-    },
-    {
-     "slug": "1-ryan-avenue-norwalk-connecticut-24163564",
-     "addr": "1 Ryan Avenue",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1760.0,
-     "price": 670000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-18",
-     "ppsf": 381,
-     "mi": 0.51
-    },
-    {
-     "slug": "10-hunt-street-norwalk-connecticut-24166664",
-     "addr": "10 Hunt Street",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1858.0,
-     "price": 1608000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-15",
-     "ppsf": 865,
-     "mi": 0.51
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 670000.0,
-    "high": 2000000.0,
-    "median": 1354350
+ "comps": [
+  {
+   "mls": "24143550",
+   "slug": "22-harstrom-place-norwalk-connecticut-24143550",
+   "address": {
+    "line": "22 Harstrom Place",
+    "unit": null,
+    "lineWithUnit": "22 Harstrom Place",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06853"
    },
-   "radiusMi": 0.75
+   "beds": 5.0,
+   "baths": 3.0,
+   "sqft": 2436.0,
+   "price": 2700000.0,
+   "date": "2026-03-12",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.066862,
+    "lng": -73.44132
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1564606790857097,
+   "ppsf": 1108.3743842364531
+  },
+  {
+   "mls": "24166664",
+   "slug": "10-hunt-street-norwalk-connecticut-24166664",
+   "address": {
+    "line": "10 Hunt Street",
+    "unit": null,
+    "lineWithUnit": "10 Hunt Street",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06853"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1858.0,
+   "price": 1608000.0,
+   "date": "2026-06-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.074268,
+    "lng": -73.444921
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8251927565603137,
+   "ppsf": 865.4467168998924
+  },
+  {
+   "mls": "24163564",
+   "slug": "1-ryan-avenue-norwalk-connecticut-24163564",
+   "address": {
+    "line": "1 Ryan Avenue",
+    "unit": null,
+    "lineWithUnit": "1 Ryan Avenue",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1760.0,
+   "price": 670000.0,
+   "date": "2026-06-18",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.080758,
+    "lng": -73.427646
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8221568992334215,
+   "ppsf": 380.6818181818182
+  },
+  {
+   "mls": "24148191",
+   "slug": "9-arnold-lane-norwalk-connecticut-24148191",
+   "address": {
+    "line": "9 Arnold Lane",
+    "unit": null,
+    "lineWithUnit": "9 Arnold Lane",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06853"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 2264.0,
+   "price": 1100700.0,
+   "date": "2026-04-06",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.078291,
+    "lng": -73.443474
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7097334956668534,
+   "ppsf": 486.1749116607774
+  },
+  {
+   "mls": "24167668",
+   "slug": "46-devils-garden-road-norwalk-connecticut-24167668",
+   "address": {
+    "line": "46 Devils Garden Road",
+    "unit": null,
+    "lineWithUnit": "46 Devils Garden Road",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 3.0,
+   "baths": 4.0,
+   "sqft": 2178.0,
+   "price": 1051000.0,
+   "date": "2026-06-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.084219,
+    "lng": -73.438164
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9127515627363006,
+   "ppsf": 482.5528007346189
   }
- }
+ ]
 }

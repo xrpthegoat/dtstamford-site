@@ -122,59 +122,141 @@
    "walk": 5
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "70-fawn-ridge-lane-norwalk-connecticut-24175703",
-     "addr": "70 Fawn Ridge Lane Unit 70",
-     "unit": "Unit 70",
-     "beds": 1.0,
-     "baths": 3.0,
-     "sqft": 2434.0,
-     "price": 750000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-08",
-     "ppsf": 308,
-     "mi": 0.61
-    },
-    {
-     "slug": "8-oakwood-avenue-norwalk-connecticut-24160577",
-     "addr": "8 Oakwood Avenue Apt B13",
-     "unit": "Apt B13",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 514.0,
-     "price": 270000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-13",
-     "ppsf": 525,
-     "mi": 0.71
-    },
-    {
-     "slug": "1-glenrock-norwalk-connecticut-24180806",
-     "addr": "1 Glenrock Unit 1",
-     "unit": "Unit 1",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 735.0,
-     "price": 360000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-21",
-     "ppsf": 490,
-     "mi": 0.75
-    }
-   ],
-   "summary": {
-    "n": 3,
-    "low": 270000.0,
-    "high": 750000.0,
-    "median": 360000
+ "comps": [
+  {
+   "mls": "24180806",
+   "slug": "1-glenrock-norwalk-connecticut-24180806",
+   "address": {
+    "line": "1 Glenrock",
+    "unit": "Unit 1",
+    "lineWithUnit": "1 Glenrock Unit 1",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
    },
-   "radiusMi": 0.75
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 735.0,
+   "price": 360000.0,
+   "date": "2026-07-21",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.147943,
+    "lng": -73.429959
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1990722048861369,
+   "ppsf": 489.7959183673469
+  },
+  {
+   "mls": "24152817",
+   "slug": "50-fairview-avenue-norwalk-connecticut-24152817",
+   "address": {
+    "line": "50 Fairview Avenue",
+    "unit": "Apt 2D",
+    "lineWithUnit": "50 Fairview Avenue Apt 2D",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 899.0,
+   "price": 275000.0,
+   "date": "2026-03-27",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.113148,
+    "lng": -73.423836
+   },
+   "klass": "condo",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 5.028885524420309,
+   "ppsf": 305.89543937708567
+  },
+  {
+   "mls": "24149453",
+   "slug": "72-chestnut-street-norwalk-connecticut-24149453",
+   "address": {
+    "line": "72 Chestnut Street",
+    "unit": "Apt 6",
+    "lineWithUnit": "72 Chestnut Street Apt 6",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 920.0,
+   "price": 240000.0,
+   "date": "2026-05-07",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.090532,
+    "lng": -73.420332
+   },
+   "klass": "condo",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 7.555686274768711,
+   "ppsf": 260.8695652173913
+  },
+  {
+   "mls": "24164495",
+   "slug": "63-ward-street-norwalk-connecticut-24164495",
+   "address": {
+    "line": "63 Ward Street",
+    "unit": "Unit 2C",
+    "lineWithUnit": "63 Ward Street Unit 2C",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 804.0,
+   "price": 275000.0,
+   "date": "2026-06-12",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.129167,
+    "lng": -73.41643
+   },
+   "klass": "condo",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 3.344624356747885,
+   "ppsf": 342.03980099502485
+  },
+  {
+   "mls": "24166430",
+   "slug": "39-prospect-avenue-norwalk-connecticut-24166430",
+   "address": {
+    "line": "39 Prospect Avenue",
+    "unit": "Unit 39",
+    "lineWithUnit": "39 Prospect Avenue Unit 39",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 870.0,
+   "price": 300000.0,
+   "date": "2026-07-08",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.113408,
+    "lng": -73.421776
+   },
+   "klass": "condo",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 5.009675932370151,
+   "ppsf": 344.82758620689657
   }
- }
+ ]
 }

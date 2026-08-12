@@ -127,101 +127,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "35-woody-lane-westport-connecticut-24158858",
-     "addr": "35 Woody Lane",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 4.0,
-     "sqft": 4486.0,
-     "price": 3015000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-15",
-     "ppsf": 672,
-     "mi": 0.13
-    },
-    {
-     "slug": "71-high-point-road-westport-connecticut-24178245",
-     "addr": "71 High Point Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 4.0,
-     "sqft": 6310.0,
-     "price": 1917500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-23",
-     "ppsf": 304,
-     "mi": 0.21
-    },
-    {
-     "slug": "22-sturges-commons-westport-connecticut-24178328",
-     "addr": "22 Sturges Commons",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 8.0,
-     "sqft": 4911.0,
-     "price": 3000000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-20",
-     "ppsf": 611,
-     "mi": 0.58
-    },
-    {
-     "slug": "4-peach-lot-place-westport-connecticut-24166340",
-     "addr": "4 Peach Lot Place Unit LOT PL",
-     "unit": "Unit LOT PL",
-     "beds": 5.0,
-     "baths": 8.0,
-     "sqft": 8364.0,
-     "price": 4500000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-05",
-     "ppsf": 538,
-     "mi": 0.61
-    },
-    {
-     "slug": "123-cross-highway-westport-connecticut-24166688",
-     "addr": "123 Cross Highway",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 6.0,
-     "sqft": 7048.0,
-     "price": 3500000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-15",
-     "ppsf": 497,
-     "mi": 0.62
-    },
-    {
-     "slug": "17-vineyard-lane-westport-connecticut-24170642",
-     "addr": "17 Vineyard Lane",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 6.0,
-     "sqft": 7964.0,
-     "price": 3895000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-15",
-     "ppsf": 489,
-     "mi": 0.69
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 1917500.0,
-    "high": 4500000.0,
-    "median": 3257500
+ "comps": [
+  {
+   "mls": "24183954",
+   "slug": "143-north-avenue-westport-connecticut-24183954",
+   "address": {
+    "line": "143 North Avenue",
+    "unit": null,
+    "lineWithUnit": "143 North Avenue",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2192.0,
+   "price": 1906000.0,
+   "date": "2026-07-22",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.162797,
+    "lng": -73.338469
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1375875449834563,
+   "ppsf": 869.5255474452555
+  },
+  {
+   "mls": "24149417",
+   "slug": "48-burr-farms-road-westport-connecticut-24149417",
+   "address": {
+    "line": "48 Burr Farms Road",
+    "unit": null,
+    "lineWithUnit": "48 Burr Farms Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1950.0,
+   "price": 1951000.0,
+   "date": "2026-04-22",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.15138,
+    "lng": -73.333705
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.2437369876100774,
+   "ppsf": 1000.5128205128206
+  },
+  {
+   "mls": "24160076",
+   "slug": "13-highland-road-westport-connecticut-24160076",
+   "address": {
+    "line": "13 Highland Road",
+    "unit": null,
+    "lineWithUnit": "13 Highland Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2170.0,
+   "price": 1671000.0,
+   "date": "2026-06-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.174076,
+    "lng": -73.32836
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.5263034490118903,
+   "ppsf": 770.0460829493088
+  },
+  {
+   "mls": "24170310",
+   "slug": "4-highland-road-westport-connecticut-24170310",
+   "address": {
+    "line": "4 Highland Road",
+    "unit": null,
+    "lineWithUnit": "4 Highland Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2556.0,
+   "price": 1475000.0,
+   "date": "2026-07-06",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.172552,
+    "lng": -73.330903
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.4164641711614712,
+   "ppsf": 577.0735524256651
+  },
+  {
+   "mls": "24156275",
+   "slug": "32-bauer-place-extension-westport-connecticut-24156275",
+   "address": {
+    "line": "32 Bauer Place Extension",
+    "unit": null,
+    "lineWithUnit": "32 Bauer Place Extension",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1752.0,
+   "price": 1410000.0,
+   "date": "2026-04-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.141755,
+    "lng": -73.316498
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.2141762461609082,
+   "ppsf": 804.7945205479452
   }
- }
+ ]
 }

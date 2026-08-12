@@ -130,44 +130,141 @@
    "mi": 1.58
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "25-cove-avenue-norwalk-connecticut-24161858",
-     "addr": "25 Cove Avenue Unit 1",
-     "unit": "Unit 1",
-     "beds": 5.0,
-     "baths": 2.0,
-     "sqft": 1577.0,
-     "price": 4450.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-01",
-     "ppsf": 3,
-     "mi": 0.23
-    },
-    {
-     "slug": "25-quintard-avenue-norwalk-connecticut-24189758",
-     "addr": "25 Quintard Avenue",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 3.0,
-     "sqft": 2349.0,
-     "price": 7725.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 3,
-     "mi": 0.67
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 4450.0,
-    "high": 4450.0,
-    "median": 4450
+ "comps": [
+  {
+   "mls": "24152514",
+   "slug": "38-gregory-boulevard-norwalk-connecticut-24152514",
+   "address": {
+    "line": "38 Gregory Boulevard",
+    "unit": null,
+    "lineWithUnit": "38 Gregory Boulevard",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06855"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 2611.0,
+   "price": 3600.0,
+   "date": "2026-05-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.099301,
+    "lng": -73.401006
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.695678910287231,
+   "ppsf": 1.3787820758330143
+  },
+  {
+   "mls": "24155362",
+   "slug": "25-channel-avenue-norwalk-connecticut-24155362",
+   "address": {
+    "line": "25 Channel Avenue",
+    "unit": null,
+    "lineWithUnit": "25 Channel Avenue",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 2994.0,
+   "price": 20000.0,
+   "date": "2026-03-26",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.082005,
+    "lng": -73.41098
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.4515740594121969,
+   "ppsf": 6.680026720106881
+  },
+  {
+   "mls": "24141253",
+   "slug": "11-avenue-a-norwalk-connecticut-24141253",
+   "address": {
+    "line": "11 Avenue A",
+    "unit": "Unit 3",
+    "lineWithUnit": "11 Avenue A Unit 3",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 2632.0,
+   "price": 2350.0,
+   "date": "2026-05-15",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.100143,
+    "lng": -73.429567
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.456321361766452,
+   "ppsf": 0.8928571428571429
+  },
+  {
+   "mls": "24146189",
+   "slug": "12-splitrock-road-norwalk-connecticut-24146189",
+   "address": {
+    "line": "12 Splitrock Road",
+    "unit": null,
+    "lineWithUnit": "12 Splitrock Road",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 3316.0,
+   "price": 8000.0,
+   "date": "2026-06-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.082144,
+    "lng": -73.418512
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.8545779653061298,
+   "ppsf": 2.4125452352231602
+  },
+  {
+   "mls": "24159808",
+   "slug": "18-soundview-avenue-norwalk-connecticut-24159808",
+   "address": {
+    "line": "18 Soundview Avenue",
+    "unit": "Unit 1",
+    "lineWithUnit": "18 Soundview Avenue Unit 1",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 3.0,
+   "baths": 1.0,
+   "sqft": 3168.0,
+   "price": 3000.0,
+   "date": "2026-05-20",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.093333,
+    "lng": -73.428494
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.237508463506392,
+   "ppsf": 0.946969696969697
   }
- }
+ ]
 }

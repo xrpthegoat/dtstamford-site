@@ -132,101 +132,141 @@
    "mi": 1.29
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "104-sylvan-knoll-road-stamford-connecticut-24147353",
-     "addr": "104 Sylvan Knoll Road",
-     "unit": "",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 1100.0,
-     "price": 305000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-05",
-     "ppsf": 277,
-     "mi": 0.03
-    },
-    {
-     "slug": "171-sylvan-knoll-road-stamford-connecticut-24137378",
-     "addr": "171 Sylvan Knoll Road",
-     "unit": "",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 1100.0,
-     "price": 315000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-18",
-     "ppsf": 286,
-     "mi": 0.05
-    },
-    {
-     "slug": "221-sylvan-knoll-road-stamford-connecticut-24158714",
-     "addr": "221 Sylvan Knoll Road",
-     "unit": "",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 1100.0,
-     "price": 269000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-03",
-     "ppsf": 245,
-     "mi": 0.05
-    },
-    {
-     "slug": "163-sylvan-knoll-stamford-connecticut-24149586",
-     "addr": "163 Sylvan Knoll",
-     "unit": "",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 1240.0,
-     "price": 361000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-07",
-     "ppsf": 291,
-     "mi": 0.06
-    },
-    {
-     "slug": "264-sylvan-knoll-road-stamford-connecticut-24172691",
-     "addr": "264 Sylvan Knoll Road",
-     "unit": "",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 1500.0,
-     "price": 380000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-18",
-     "ppsf": 253,
-     "mi": 0.07
-    },
-    {
-     "slug": "274-sylvan-knoll-road-stamford-connecticut-24136406",
-     "addr": "274 Sylvan Knoll Road",
-     "unit": "",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1100.0,
-     "price": 325000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-10",
-     "ppsf": 295,
-     "mi": 0.09
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 269000.0,
-    "high": 380000.0,
-    "median": 320000
+ "comps": [
+  {
+   "mls": "24136406",
+   "slug": "274-sylvan-knoll-road-stamford-connecticut-24136406",
+   "address": {
+    "line": "274 Sylvan Knoll Road",
+    "unit": null,
+    "lineWithUnit": "274 Sylvan Knoll Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1100.0,
+   "price": 325000.0,
+   "date": "2026-04-10",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.052828,
+    "lng": -73.511851
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.14745269221894602,
+   "ppsf": 295.45454545454544
+  },
+  {
+   "mls": "24123197",
+   "slug": "697-cove-road-stamford-connecticut-24123197",
+   "address": {
+    "line": "697 Cove Road",
+    "unit": "Apt 2A",
+    "lineWithUnit": "697 Cove Road Apt 2A",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 854.0,
+   "price": 300000.0,
+   "date": "2026-03-16",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.048593,
+    "lng": -73.512573
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.621957585345381,
+   "ppsf": 351.288056206089
+  },
+  {
+   "mls": "24115746",
+   "slug": "107-lockwood-avenue-stamford-connecticut-24115746",
+   "address": {
+    "line": "107 Lockwood Avenue",
+    "unit": "Apt 1B",
+    "lineWithUnit": "107 Lockwood Avenue Apt 1B",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1070.0,
+   "price": 307000.0,
+   "date": "2026-03-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.052425,
+    "lng": -73.521834
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8866489388310868,
+   "ppsf": 286.9158878504673
+  },
+  {
+   "mls": "24137378",
+   "slug": "171-sylvan-knoll-road-stamford-connecticut-24137378",
+   "address": {
+    "line": "171 Sylvan Knoll Road",
+    "unit": null,
+    "lineWithUnit": "171 Sylvan Knoll Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 1100.0,
+   "price": 315000.0,
+   "date": "2026-03-18",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.053696,
+    "lng": -73.510795
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.07643192470267468,
+   "ppsf": 286.3636363636364
+  },
+  {
+   "mls": "24149586",
+   "slug": "163-sylvan-knoll-stamford-connecticut-24149586",
+   "address": {
+    "line": "163 Sylvan Knoll",
+    "unit": null,
+    "lineWithUnit": "163 Sylvan Knoll",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 1240.0,
+   "price": 361000.0,
+   "date": "2026-04-07",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.053528,
+    "lng": -73.510765
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.09105466202941762,
+   "ppsf": 291.1290322580645
   }
- }
+ ]
 }

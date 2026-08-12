@@ -119,87 +119,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "4-burr-farms-road-westport-connecticut-24129625",
-     "addr": "4 Burr Farms Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 3377.0,
-     "price": 2200000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-17",
-     "ppsf": 651,
-     "mi": 0.15
-    },
-    {
-     "slug": "28-turkey-hill-road-north-westport-connecticut-24151540",
-     "addr": "28 Turkey Hill Road North",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 3244.0,
-     "price": 1875000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-08",
-     "ppsf": 578,
-     "mi": 0.3
-    },
-    {
-     "slug": "3-valley-field-road-westport-connecticut-24167718",
-     "addr": "3 Valley Field Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 3581.0,
-     "price": 2590000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-31",
-     "ppsf": 723,
-     "mi": 0.31
-    },
-    {
-     "slug": "8-iris-lane-westport-connecticut-24154436",
-     "addr": "8 Iris Lane",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2959.0,
-     "price": 1630000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-14",
-     "ppsf": 551,
-     "mi": 0.42
-    },
-    {
-     "slug": "5-marc-lane-westport-connecticut-24170859",
-     "addr": "5 Marc Lane",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 5.0,
-     "sqft": 5550.0,
-     "price": 4310811.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-02",
-     "ppsf": 777,
-     "mi": 0.7
-    }
-   ],
-   "summary": {
-    "n": 5,
-    "low": 1630000.0,
-    "high": 4310811.0,
-    "median": 2200000
+ "comps": [
+  {
+   "mls": "24149417",
+   "slug": "48-burr-farms-road-westport-connecticut-24149417",
+   "address": {
+    "line": "48 Burr Farms Road",
+    "unit": null,
+    "lineWithUnit": "48 Burr Farms Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1950.0,
+   "price": 1951000.0,
+   "date": "2026-04-22",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.15138,
+    "lng": -73.333705
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1607536096413091,
+   "ppsf": 1000.5128205128206
+  },
+  {
+   "mls": "24156275",
+   "slug": "32-bauer-place-extension-westport-connecticut-24156275",
+   "address": {
+    "line": "32 Bauer Place Extension",
+    "unit": null,
+    "lineWithUnit": "32 Bauer Place Extension",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1752.0,
+   "price": 1410000.0,
+   "date": "2026-04-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.141755,
+    "lng": -73.316498
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9003276311410947,
+   "ppsf": 804.7945205479452
+  },
+  {
+   "mls": "24156092",
+   "slug": "21-rayfield-road-westport-connecticut-24156092",
+   "address": {
+    "line": "21 Rayfield Road",
+    "unit": null,
+    "lineWithUnit": "21 Rayfield Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1677.0,
+   "price": 1350000.0,
+   "date": "2026-03-31",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.136475,
+    "lng": -73.346923
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.76507694792004,
+   "ppsf": 805.0089445438283
+  },
+  {
+   "mls": "24161803",
+   "slug": "21-turkey-hill-road-north-westport-connecticut-24161803",
+   "address": {
+    "line": "21 Turkey Hill Road North",
+    "unit": null,
+    "lineWithUnit": "21 Turkey Hill Road North",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 3.0,
+   "baths": 4.0,
+   "sqft": 2883.0,
+   "price": 2025000.0,
+   "date": "2026-05-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.140465,
+    "lng": -73.321913
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 0.48347154849324137,
+   "ppsf": 702.3933402705516
+  },
+  {
+   "mls": "24179836",
+   "slug": "4-joann-circle-westport-connecticut-24179836",
+   "address": {
+    "line": "4 Joann Circle",
+    "unit": null,
+    "lineWithUnit": "4 Joann Circle",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2559.0,
+   "price": 2050000.0,
+   "date": "2026-06-24",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.155149,
+    "lng": -73.345601
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.1105683172356997,
+   "ppsf": 801.094177413052
   }
- }
+ ]
 }

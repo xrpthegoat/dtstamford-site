@@ -118,101 +118,141 @@
    "walk": 2
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "23-dolsen-place-stamford-connecticut-24181017",
-     "addr": "23 Dolsen Place",
-     "unit": "",
-     "beds": 2.0,
-     "baths": 3.0,
-     "sqft": 1300.0,
-     "price": 3250.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-01",
-     "ppsf": 2,
-     "mi": 0.0
-    },
-    {
-     "slug": "17-dolsen-place-stamford-connecticut-24171687",
-     "addr": "17 Dolsen Place",
-     "unit": "",
-     "beds": 2.0,
-     "baths": 3.0,
-     "sqft": 1300.0,
-     "price": 3500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-02",
-     "ppsf": 3,
-     "mi": 0.02
-    },
-    {
-     "slug": "143-hoyt-street-stamford-connecticut-24146915",
-     "addr": "143 Hoyt Street Unit 5L",
-     "unit": "Unit 5L",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1732.0,
-     "price": 3600.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-26",
-     "ppsf": 2,
-     "mi": 0.21
-    },
-    {
-     "slug": "143-hoyt-street-stamford-connecticut-24164844",
-     "addr": "143 Hoyt Street Unit 1K",
-     "unit": "Unit 1K",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 1315.0,
-     "price": 3200.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-14",
-     "ppsf": 2,
-     "mi": 0.21
-    },
-    {
-     "slug": "125-prospect-street-stamford-connecticut-24158005",
-     "addr": "125 Prospect Street Apt 3I",
-     "unit": "Apt 3I",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1250.0,
-     "price": 2650.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-08",
-     "ppsf": 2,
-     "mi": 0.23
-    },
-    {
-     "slug": "28-strawberry-hill-avenue-stamford-connecticut-24171285",
-     "addr": "28 Strawberry Hill Avenue Unit 98-2F",
-     "unit": "Unit 98-2F",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 800.0,
-     "price": 2291.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-02",
-     "ppsf": 3,
-     "mi": 0.24
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 2291.0,
-    "high": 3600.0,
-    "median": 3225
+ "comps": [
+  {
+   "mls": "24152334",
+   "slug": "2437-bedford-street-stamford-connecticut-24152334",
+   "address": {
+    "line": "2437 Bedford Street",
+    "unit": "Unit F17",
+    "lineWithUnit": "2437 Bedford Street Unit F17",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
    },
-   "radiusMi": 0.75
+   "beds": 1.0,
+   "baths": 2.0,
+   "sqft": 1066.0,
+   "price": 3100.0,
+   "date": "2026-03-15",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.070187,
+    "lng": -73.54405
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1853081214564083,
+   "ppsf": 2.9080675422138835
+  },
+  {
+   "mls": "24148070",
+   "slug": "101-grove-street-stamford-connecticut-24148070",
+   "address": {
+    "line": "101 Grove Street",
+    "unit": "Apt 17",
+    "lineWithUnit": "101 Grove Street Apt 17",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06901"
+   },
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 1475.0,
+   "price": 3500.0,
+   "date": "2026-03-19",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.05745,
+    "lng": -73.53367
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5290077425698865,
+   "ppsf": 2.3728813559322033
+  },
+  {
+   "mls": "24152598",
+   "slug": "22-hackett-circle-north-stamford-connecticut-24152598",
+   "address": {
+    "line": "22 Hackett Circle North",
+    "unit": "Unit 2nd Fl.",
+    "lineWithUnit": "22 Hackett Circle North Unit 2nd Fl.",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06906"
+   },
+   "beds": 3.0,
+   "baths": 1.0,
+   "sqft": 1100.0,
+   "price": 3200.0,
+   "date": "2026-03-26",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.067519,
+    "lng": -73.532141
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9714054631174242,
+   "ppsf": 2.909090909090909
+  },
+  {
+   "mls": "24149354",
+   "slug": "118-summer-street-stamford-connecticut-24149354",
+   "address": {
+    "line": "118 Summer Street",
+    "unit": "Unit 2B",
+    "lineWithUnit": "118 Summer Street Unit 2B",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06901"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 983.0,
+   "price": 2700.0,
+   "date": "2026-03-30",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.054213,
+    "lng": -73.540866
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7027612145346505,
+   "ppsf": 2.7466937945066126
+  },
+  {
+   "mls": "24150917",
+   "slug": "2-washington-court-stamford-connecticut-24150917",
+   "address": {
+    "line": "2 Washington Court",
+    "unit": "Unit 12",
+    "lineWithUnit": "2 Washington Court Unit 12",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1064.0,
+   "price": 3190.0,
+   "date": "2026-04-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.057766,
+    "lng": -73.544879
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5905341166332144,
+   "ppsf": 2.9981203007518795
   }
- }
+ ]
 }

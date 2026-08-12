@@ -131,58 +131,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "24-compo-parkway-westport-connecticut-24146922",
-     "addr": "24 Compo Parkway",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 6.0,
-     "sqft": 6020.0,
-     "price": 5035000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-20",
-     "ppsf": 836,
-     "mi": 0.6
-    },
-    {
-     "slug": "22-apple-tree-trail-westport-connecticut-24158799",
-     "addr": "22 Apple Tree Trail",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 5.0,
-     "sqft": 4550.0,
-     "price": 5995000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-26",
-     "ppsf": 1318,
-     "mi": 0.62
-    },
-    {
-     "slug": "4-bradley-street-westport-connecticut-24193283",
-     "addr": "4 Bradley Street",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 4.0,
-     "sqft": 3255.0,
-     "price": 2997000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 921,
-     "mi": 0.56
-    }
-   ],
-   "summary": {
-    "n": 2,
-    "low": 5035000.0,
-    "high": 5995000.0,
-    "median": 5515000
+ "comps": [
+  {
+   "mls": "24173977",
+   "slug": "312-compo-road-south-westport-connecticut-24173977",
+   "address": {
+    "line": "312 Compo Road South",
+    "unit": null,
+    "lineWithUnit": "312 Compo Road South",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 3215.0,
+   "price": 3750000.0,
+   "date": "2026-06-18",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.109557,
+    "lng": -73.35118
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8903461519544192,
+   "ppsf": 1166.407465007776
+  },
+  {
+   "mls": "24154934",
+   "slug": "150-hillspoint-road-westport-connecticut-24154934",
+   "address": {
+    "line": "150 Hillspoint Road",
+    "unit": null,
+    "lineWithUnit": "150 Hillspoint Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 3759.0,
+   "price": 3500000.0,
+   "date": "2026-05-11",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.120007,
+    "lng": -73.346254
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7499515796604437,
+   "ppsf": 931.0986964618249
+  },
+  {
+   "mls": "24158799",
+   "slug": "22-apple-tree-trail-westport-connecticut-24158799",
+   "address": {
+    "line": "22 Apple Tree Trail",
+    "unit": null,
+    "lineWithUnit": "22 Apple Tree Trail",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 5.0,
+   "baths": 5.0,
+   "sqft": 4550.0,
+   "price": 5995000.0,
+   "date": "2026-05-26",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.109494,
+    "lng": -73.35261
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9961039891113788,
+   "ppsf": 1317.5824175824175
+  },
+  {
+   "mls": "24160000",
+   "slug": "11-edgewater-hillside-westport-connecticut-24160000",
+   "address": {
+    "line": "11 Edgewater Hillside",
+    "unit": null,
+    "lineWithUnit": "11 Edgewater Hillside",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 4.0,
+   "baths": 5.0,
+   "sqft": 4693.0,
+   "price": 3899000.0,
+   "date": "2026-07-31",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.11864,
+    "lng": -73.344246
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5457532463123557,
+   "ppsf": 830.8118474323461
+  },
+  {
+   "mls": "24172491",
+   "slug": "4-wake-robin-road-westport-connecticut-24172491",
+   "address": {
+    "line": "4 Wake Robin Road",
+    "unit": null,
+    "lineWithUnit": "4 Wake Robin Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 5.0,
+   "baths": 4.0,
+   "sqft": 3255.0,
+   "price": 2048000.0,
+   "date": "2026-07-07",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.12637,
+    "lng": -73.336364
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.4672009460648607,
+   "ppsf": 629.1858678955454
   }
- }
+ ]
 }

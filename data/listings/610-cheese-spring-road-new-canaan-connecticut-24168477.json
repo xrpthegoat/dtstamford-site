@@ -132,73 +132,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "45-ledgewood-drive-wilton-connecticut-24153655",
-     "addr": "45 Ledgewood Drive",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2732.0,
-     "price": 1308000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-01",
-     "ppsf": 479,
-     "mi": 0.49
-    },
-    {
-     "slug": "26-ledgewood-drive-wilton-connecticut-24142746",
-     "addr": "26 Ledgewood Drive",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2528.0,
-     "price": 1225000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-23",
-     "ppsf": 485,
-     "mi": 0.51
-    },
-    {
-     "slug": "360-thayer-pond-road-wilton-connecticut-24128928",
-     "addr": "360 Thayer Pond Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 3600.0,
-     "price": 1650000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-06",
-     "ppsf": 458,
-     "mi": 0.57
-    },
-    {
-     "slug": "35-marvin-ridge-place-wilton-connecticut-24159746",
-     "addr": "35 Marvin Ridge Place",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 3304.0,
-     "price": 1670000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-25",
-     "ppsf": 505,
-     "mi": 0.69
-    }
-   ],
-   "summary": {
-    "n": 4,
-    "low": 1225000.0,
-    "high": 1670000.0,
-    "median": 1479000
+ "comps": [
+  {
+   "mls": "24133809",
+   "slug": "245-benedict-hill-road-new-canaan-connecticut-24133809",
+   "address": {
+    "line": "245 Benedict Hill Road",
+    "unit": null,
+    "lineWithUnit": "245 Benedict Hill Road",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
    },
-   "radiusMi": 0.75
+   "beds": 5.0,
+   "baths": 5.0,
+   "sqft": 5300.0,
+   "price": 3600000.0,
+   "date": "2026-07-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.192359,
+    "lng": -73.476338
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.23524705798508766,
+   "ppsf": 679.2452830188679
+  },
+  {
+   "mls": "24131919",
+   "slug": "199-mariomi-road-new-canaan-connecticut-24131919",
+   "address": {
+    "line": "199 Mariomi Road",
+    "unit": null,
+    "lineWithUnit": "199 Mariomi Road",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 5.0,
+   "baths": 5.0,
+   "sqft": 5805.0,
+   "price": 3525000.0,
+   "date": "2026-03-31",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.178394,
+    "lng": -73.473579
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.5029265278886752,
+   "ppsf": 607.235142118863
+  },
+  {
+   "mls": "24166322",
+   "slug": "2-sleepy-hollow-road-new-canaan-connecticut-24166322",
+   "address": {
+    "line": "2 Sleepy Hollow Road",
+    "unit": null,
+    "lineWithUnit": "2 Sleepy Hollow Road",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 5.0,
+   "baths": 3.0,
+   "sqft": 5658.0,
+   "price": 2400000.0,
+   "date": "2026-06-29",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.173093,
+    "lng": -73.48828
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.177536960565408,
+   "ppsf": 424.1781548250265
+  },
+  {
+   "mls": "24176198",
+   "slug": "493-valley-road-new-canaan-connecticut-24176198",
+   "address": {
+    "line": "493 Valley Road",
+    "unit": null,
+    "lineWithUnit": "493 Valley Road",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 4322.0,
+   "price": 1850000.0,
+   "date": "2026-06-17",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.172348,
+    "lng": -73.476909
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.1163609841283035,
+   "ppsf": 428.04257288292456
+  },
+  {
+   "mls": "24132650",
+   "slug": "114-ferris-hill-road-new-canaan-connecticut-24132650",
+   "address": {
+    "line": "114 Ferris Hill Road",
+    "unit": null,
+    "lineWithUnit": "114 Ferris Hill Road",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 6.0,
+   "baths": 9.0,
+   "sqft": 7700.0,
+   "price": 4925000.0,
+   "date": "2026-04-10",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.17001,
+    "lng": -73.48167
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.3826501819817087,
+   "ppsf": 639.6103896103896
   }
- }
+ ]
 }

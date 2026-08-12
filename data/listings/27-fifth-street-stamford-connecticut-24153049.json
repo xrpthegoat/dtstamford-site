@@ -104,101 +104,141 @@
    "walk": 1
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "1872-bedford-street-stamford-connecticut-24167197",
-     "addr": "1872 Bedford Street Unit 2",
-     "unit": "Unit 2",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 900.0,
-     "price": 3300.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-01",
-     "ppsf": 4,
-     "mi": 0.04
-    },
-    {
-     "slug": "1500-bedford-street-stamford-connecticut-24185960",
-     "addr": "1500 Bedford Street Unit 307",
-     "unit": "Unit 307",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 1167.0,
-     "price": 3300.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-01",
-     "ppsf": 3,
-     "mi": 0.14
-    },
-    {
-     "slug": "7-fourth-street-stamford-connecticut-24180770",
-     "addr": "7 Fourth Street Unit 5F",
-     "unit": "Unit 5F",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 905.0,
-     "price": 2850.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-30",
-     "ppsf": 3,
-     "mi": 0.15
-    },
-    {
-     "slug": "7-fourth-street-stamford-connecticut-24191693",
-     "addr": "7 Fourth Street Unit 3H",
-     "unit": "Unit 3H",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 1064.0,
-     "price": 3000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-28",
-     "ppsf": 3,
-     "mi": 0.15
-    },
-    {
-     "slug": "134-woodside-green-street-stamford-connecticut-24169712",
-     "addr": "134 Woodside Green Street Unit 3B",
-     "unit": "Unit 3B",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 983.0,
-     "price": 2700.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-22",
-     "ppsf": 3,
-     "mi": 0.2
-    },
-    {
-     "slug": "1611-washington-boulevard-stamford-connecticut-24178813",
-     "addr": "1611 Washington Boulevard Unit 2",
-     "unit": "Unit 2",
-     "beds": 2.0,
-     "baths": 3.0,
-     "sqft": 1566.0,
-     "price": 3450.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-01",
-     "ppsf": 2,
-     "mi": 0.3
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 2700.0,
-    "high": 3450.0,
-    "median": 3150
+ "comps": [
+  {
+   "mls": "24152334",
+   "slug": "2437-bedford-street-stamford-connecticut-24152334",
+   "address": {
+    "line": "2437 Bedford Street",
+    "unit": "Unit F17",
+    "lineWithUnit": "2437 Bedford Street Unit F17",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
    },
-   "radiusMi": 0.75
+   "beds": 1.0,
+   "baths": 2.0,
+   "sqft": 1066.0,
+   "price": 3100.0,
+   "date": "2026-03-15",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.070187,
+    "lng": -73.54405
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.48001009467182254,
+   "ppsf": 2.9080675422138835
+  },
+  {
+   "mls": "24152598",
+   "slug": "22-hackett-circle-north-stamford-connecticut-24152598",
+   "address": {
+    "line": "22 Hackett Circle North",
+    "unit": "Unit 2nd Fl.",
+    "lineWithUnit": "22 Hackett Circle North Unit 2nd Fl.",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06906"
+   },
+   "beds": 3.0,
+   "baths": 1.0,
+   "sqft": 1100.0,
+   "price": 3200.0,
+   "date": "2026-03-26",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.067519,
+    "lng": -73.532141
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.928517829937538,
+   "ppsf": 2.909090909090909
+  },
+  {
+   "mls": "24150917",
+   "slug": "2-washington-court-stamford-connecticut-24150917",
+   "address": {
+    "line": "2 Washington Court",
+    "unit": "Unit 12",
+    "lineWithUnit": "2 Washington Court Unit 12",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1064.0,
+   "price": 3190.0,
+   "date": "2026-04-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.057766,
+    "lng": -73.544879
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9223262225167564,
+   "ppsf": 2.9981203007518795
+  },
+  {
+   "mls": "24151628",
+   "slug": "60-strawberry-hill-avenue-stamford-connecticut-24151628",
+   "address": {
+    "line": "60 Strawberry Hill Avenue",
+    "unit": "Unit 318",
+    "lineWithUnit": "60 Strawberry Hill Avenue Unit 318",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 828.0,
+   "price": 2800.0,
+   "date": "2026-04-06",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.062359,
+    "lng": -73.533613
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8833117191438654,
+   "ppsf": 3.3816425120772946
+  },
+  {
+   "mls": "24153572",
+   "slug": "444-bedford-street-stamford-connecticut-24153572",
+   "address": {
+    "line": "444 Bedford Street",
+    "unit": "Apt 3G",
+    "lineWithUnit": "444 Bedford Street Apt 3G",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06901"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 770.0,
+   "price": 1925.0,
+   "date": "2026-04-14",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.058208,
+    "lng": -73.538384
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9435350150479439,
+   "ppsf": 2.5
   }
- }
+ ]
 }

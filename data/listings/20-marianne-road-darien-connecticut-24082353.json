@@ -127,99 +127,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "15-marianne-road-darien-connecticut-24156751",
-     "addr": "15 Marianne Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 6.0,
-     "sqft": 6325.0,
-     "price": 4600000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-08",
-     "ppsf": 727,
-     "mi": 0.08
-    },
-    {
-     "slug": "74-salisbury-road-darien-connecticut-24164236",
-     "addr": "74 Salisbury Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 6.0,
-     "sqft": 6798.0,
-     "price": 4795000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-23",
-     "ppsf": 705,
-     "mi": 0.25
-    },
-    {
-     "slug": "49-salisbury-road-darien-connecticut-24103076",
-     "addr": "49 Salisbury Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 5.0,
-     "sqft": 3906.0,
-     "price": 2865000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-20",
-     "ppsf": 733,
-     "mi": 0.35
-    },
-    {
-     "slug": "130-west-norwalk-road-norwalk-connecticut-24182567",
-     "addr": "130 West Norwalk Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 3.0,
-     "sqft": 3188.0,
-     "price": 1350000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-24",
-     "ppsf": 423,
-     "mi": 0.69
-    },
-    {
-     "slug": "38-three-wells-lane-darien-connecticut-24173379",
-     "addr": "38 Three Wells Lane",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 7.0,
-     "sqft": 7306.0,
-     "price": 5195000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 711,
-     "mi": 0.32
-    },
-    {
-     "slug": "222-brookside-road-darien-connecticut-24189523",
-     "addr": "222 Brookside Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 6.0,
-     "sqft": 10000.0,
-     "price": 3900000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 390,
-     "mi": 0.49
-    }
-   ],
-   "summary": {
-    "n": 4,
-    "low": 1350000.0,
-    "high": 4795000.0,
-    "median": 3732500
+ "comps": [
+  {
+   "mls": "24164236",
+   "slug": "74-salisbury-road-darien-connecticut-24164236",
+   "address": {
+    "line": "74 Salisbury Road",
+    "unit": null,
+    "lineWithUnit": "74 Salisbury Road",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
    },
-   "radiusMi": 0.75
+   "beds": 5.0,
+   "baths": 6.0,
+   "sqft": 6798.0,
+   "price": 4795000.0,
+   "date": "2026-06-23",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.105052,
+    "lng": -73.472949
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.4085963912806426,
+   "ppsf": 705.3545160341276
+  },
+  {
+   "mls": "24175837",
+   "slug": "27-hillsley-road-darien-connecticut-24175837",
+   "address": {
+    "line": "27 Hillsley Road",
+    "unit": null,
+    "lineWithUnit": "27 Hillsley Road",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 6.0,
+   "baths": 6.0,
+   "sqft": 7670.0,
+   "price": 5200000.0,
+   "date": "2026-06-25",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.113889,
+    "lng": -73.479329
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1867931455783203,
+   "ppsf": 677.9661016949152
+  },
+  {
+   "mls": "24156751",
+   "slug": "15-marianne-road-darien-connecticut-24156751",
+   "address": {
+    "line": "15 Marianne Road",
+    "unit": null,
+    "lineWithUnit": "15 Marianne Road",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 5.0,
+   "baths": 6.0,
+   "sqft": 6325.0,
+   "price": 4600000.0,
+   "date": "2026-05-08",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.106008,
+    "lng": -73.469635
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.12193820318514144,
+   "ppsf": 727.2727272727273
+  },
+  {
+   "mls": "24158797",
+   "slug": "304-brookside-road-darien-connecticut-24158797",
+   "address": {
+    "line": "304 Brookside Road",
+    "unit": null,
+    "lineWithUnit": "304 Brookside Road",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 6.0,
+   "baths": 8.0,
+   "sqft": 7344.0,
+   "price": 6095000.0,
+   "date": "2026-07-16",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.105349,
+    "lng": -73.471657
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.298926704069973,
+   "ppsf": 829.9291938997821
+  },
+  {
+   "mls": "24161616",
+   "slug": "21-fox-hill-lane-darien-connecticut-24161616",
+   "address": {
+    "line": "21 Fox Hill Lane",
+    "unit": null,
+    "lineWithUnit": "21 Fox Hill Lane",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 5.0,
+   "baths": 7.0,
+   "sqft": 6308.0,
+   "price": 4597500.0,
+   "date": "2026-06-29",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.091329,
+    "lng": -73.482236
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.0649189211598493,
+   "ppsf": 728.8363982244769
   }
- }
+ ]
 }

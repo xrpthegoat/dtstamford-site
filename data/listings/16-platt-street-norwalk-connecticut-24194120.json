@@ -129,101 +129,141 @@
    "mi": 0.69
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "26-rowan-street-norwalk-connecticut-24189690",
-     "addr": "26 Rowan Street Unit 1",
-     "unit": "Unit 1",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 2015.0,
-     "price": 2200.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-29",
-     "ppsf": 1,
-     "mi": 0.3
-    },
-    {
-     "slug": "11-betts-place-norwalk-connecticut-24186301",
-     "addr": "11 Betts Place",
-     "unit": "",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 1154.0,
-     "price": 2600.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-07",
-     "ppsf": 2,
-     "mi": 0.33
-    },
-    {
-     "slug": "25-cottage-street-norwalk-connecticut-24173113",
-     "addr": "25 Cottage Street Unit 202",
-     "unit": "Unit 202",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 992.0,
-     "price": 2900.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-31",
-     "ppsf": 3,
-     "mi": 0.37
-    },
-    {
-     "slug": "265-east-avenue-norwalk-connecticut-24139289",
-     "addr": "265 East Avenue Unit 2",
-     "unit": "Unit 2",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 900.0,
-     "price": 2100.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-11",
-     "ppsf": 2,
-     "mi": 0.43
-    },
-    {
-     "slug": "265-east-avenue-norwalk-connecticut-24172477",
-     "addr": "265 East Avenue Unit 3",
-     "unit": "Unit 3",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 1000.0,
-     "price": 2100.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-29",
-     "ppsf": 2,
-     "mi": 0.43
-    },
-    {
-     "slug": "265-east-avenue-norwalk-connecticut-24191129",
-     "addr": "265 East Avenue Unit 1",
-     "unit": "Unit 1",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 900.0,
-     "price": 2100.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-31",
-     "ppsf": 2,
-     "mi": 0.43
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 2100.0,
-    "high": 2900.0,
-    "median": 2150
+ "comps": [
+  {
+   "mls": "24156335",
+   "slug": "1-3-pine-street-norwalk-connecticut-24156335",
+   "address": {
+    "line": "1-3 Pine Street",
+    "unit": "Unit 4",
+    "lineWithUnit": "1-3 Pine Street Unit 4",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 1400.0,
+   "price": 3475.0,
+   "date": "2026-03-18",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.102116,
+    "lng": -73.419586
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8647683945109612,
+   "ppsf": 2.482142857142857
+  },
+  {
+   "mls": "24141494",
+   "slug": "71-connecticut-avenue-norwalk-connecticut-24141494",
+   "address": {
+    "line": "71 Connecticut Avenue",
+    "unit": "Unit 209",
+    "lineWithUnit": "71 Connecticut Avenue Unit 209",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1444.0,
+   "price": 3500.0,
+   "date": "2026-04-28",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.1067,
+    "lng": -73.423965
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1959713480006635,
+   "ppsf": 2.4238227146814406
+  },
+  {
+   "mls": "24170015",
+   "slug": "8-haviland-street-norwalk-connecticut-24170015",
+   "address": {
+    "line": "8 Haviland Street",
+    "unit": "Unit A",
+    "lineWithUnit": "8 Haviland Street Unit A",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 1100.0,
+   "price": 2900.0,
+   "date": "2026-07-02",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.097581,
+    "lng": -73.417996
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.05230118201742,
+   "ppsf": 2.6363636363636362
+  },
+  {
+   "mls": "24169622",
+   "slug": "4-daskams-lane-norwalk-connecticut-24169622",
+   "address": {
+    "line": "4 Daskams Lane",
+    "unit": "Unit 309",
+    "lineWithUnit": "4 Daskams Lane Unit 309",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1344.0,
+   "price": 3400.0,
+   "date": "2026-07-20",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.11429,
+    "lng": -73.40873
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0574250444430056,
+   "ppsf": 2.5297619047619047
+  },
+  {
+   "mls": "24127829",
+   "slug": "104-east-avenue-norwalk-connecticut-24127829",
+   "address": {
+    "line": "104 East Avenue",
+    "unit": "#2nd Floor",
+    "lineWithUnit": "104 East Avenue #2nd Floor",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 1584.0,
+   "price": 2800.0,
+   "date": "2026-07-27",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.115454,
+    "lng": -73.407987
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.193151477773971,
+   "ppsf": 1.7676767676767677
   }
- }
+ ]
 }

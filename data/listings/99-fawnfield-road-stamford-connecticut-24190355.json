@@ -129,86 +129,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "511-den-road-stamford-connecticut-24137258",
-     "addr": "511 Den Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 3400.0,
-     "price": 1915000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-01",
-     "ppsf": 563,
-     "mi": 0.42
-    },
-    {
-     "slug": "192-barclay-drive-stamford-connecticut-24168271",
-     "addr": "192 Barclay Drive",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 3148.0,
-     "price": 1650000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-05",
-     "ppsf": 524,
-     "mi": 0.5
-    },
-    {
-     "slug": "107-barclay-drive-stamford-connecticut-24170715",
-     "addr": "107 Barclay Drive",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2168.0,
-     "price": 1425000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-13",
-     "ppsf": 657,
-     "mi": 0.53
-    },
-    {
-     "slug": "80-east-ridge-road-stamford-connecticut-24176564",
-     "addr": "80 East Ridge Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 5436.0,
-     "price": 1170000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-15",
-     "ppsf": 215,
-     "mi": 0.62
-    },
-    {
-     "slug": "58-arrow-head-drive-stamford-connecticut-24189095",
-     "addr": "58 Arrow Head Drive",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 4116.0,
-     "price": 1150000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 279,
-     "mi": 0.64
-    }
-   ],
-   "summary": {
-    "n": 4,
-    "low": 1170000.0,
-    "high": 1915000.0,
-    "median": 1537500
+ "comps": [
+  {
+   "mls": "24176564",
+   "slug": "80-east-ridge-road-stamford-connecticut-24176564",
+   "address": {
+    "line": "80 East Ridge Road",
+    "unit": null,
+    "lineWithUnit": "80 East Ridge Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 5436.0,
+   "price": 1170000.0,
+   "date": "2026-07-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.108494,
+    "lng": -73.570786
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.992772605464317,
+   "ppsf": 215.2317880794702
+  },
+  {
+   "mls": "24179884",
+   "slug": "29-flint-rock-road-stamford-connecticut-24179884",
+   "address": {
+    "line": "29 Flint Rock Road",
+    "unit": null,
+    "lineWithUnit": "29 Flint Rock Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
+   },
+   "beds": 5.0,
+   "baths": 4.0,
+   "sqft": 5655.0,
+   "price": 2295000.0,
+   "date": "2026-07-27",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.107949,
+    "lng": -73.57939
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.2750700090673036,
+   "ppsf": 405.83554376657827
+  },
+  {
+   "mls": "24167171",
+   "slug": "231-roxbury-road-stamford-connecticut-24167171",
+   "address": {
+    "line": "231 Roxbury Road",
+    "unit": null,
+    "lineWithUnit": "231 Roxbury Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 4.0,
+   "baths": 5.0,
+   "sqft": 5079.0,
+   "price": 1829500.0,
+   "date": "2026-07-01",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.092182,
+    "lng": -73.569218
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.0035254644972667,
+   "ppsf": 360.2087025004922
+  },
+  {
+   "mls": "24154144",
+   "slug": "490-june-road-stamford-connecticut-24154144",
+   "address": {
+    "line": "490 June Road",
+    "unit": null,
+    "lineWithUnit": "490 June Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
+   },
+   "beds": 4.0,
+   "baths": 5.0,
+   "sqft": 6394.0,
+   "price": 2500000.0,
+   "date": "2026-03-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.108291,
+    "lng": -73.604616
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.8569248278284824,
+   "ppsf": 390.99155458242103
+  },
+  {
+   "mls": "24154380",
+   "slug": "43-ridgecrest-road-stamford-connecticut-24154380",
+   "address": {
+    "line": "43 Ridgecrest Road",
+    "unit": null,
+    "lineWithUnit": "43 Ridgecrest Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
+   },
+   "beds": 4.0,
+   "baths": 7.0,
+   "sqft": 5673.0,
+   "price": 1950000.0,
+   "date": "2026-04-27",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.123802,
+    "lng": -73.599493
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.334290915141931,
+   "ppsf": 343.7334743521946
   }
- }
+ ]
 }

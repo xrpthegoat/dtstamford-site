@@ -129,100 +129,141 @@
    "mi": 1.43
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "264-chestnut-hill-road-norwalk-connecticut-24160403",
-     "addr": "264 Chestnut Hill Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 2076.0,
-     "price": 875000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-15",
-     "ppsf": 421,
-     "mi": 0.17
-    },
-    {
-     "slug": "56-freshwater-lane-norwalk-connecticut-24169625",
-     "addr": "56 Freshwater Lane",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 4.0,
-     "sqft": 4698.0,
-     "price": 2090000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-20",
-     "ppsf": 445,
-     "mi": 0.61
-    },
-    {
-     "slug": "104-newtown-turnpike-westport-connecticut-24159568",
-     "addr": "104 Newtown Turnpike",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 2309.0,
-     "price": 1500000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-18",
-     "ppsf": 650,
-     "mi": 0.61
-    },
-    {
-     "slug": "458-newtown-avenue-norwalk-connecticut-24179630",
-     "addr": "458 Newtown Avenue",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 2044.0,
-     "price": 850000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-15",
-     "ppsf": 416,
-     "mi": 0.71
-    },
-    {
-     "slug": "38-stonecrop-road-norwalk-connecticut-24178526",
-     "addr": "38 Stonecrop Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 2121.0,
-     "price": 901000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-21",
-     "ppsf": 425,
-     "mi": 0.71
-    },
-    {
-     "slug": "329-chestnut-hill-road-norwalk-connecticut-24186977",
-     "addr": "329 Chestnut Hill Road Unit 5",
-     "unit": "Unit 5",
-     "beds": 3.0,
-     "baths": 4.0,
-     "sqft": 4146.0,
-     "price": 2100000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 507,
-     "mi": 0.48
-    }
-   ],
-   "summary": {
-    "n": 5,
-    "low": 850000.0,
-    "high": 2090000.0,
-    "median": 901000
+ "comps": [
+  {
+   "mls": "24157509",
+   "slug": "26-thistle-road-norwalk-connecticut-24157509",
+   "address": {
+    "line": "26 Thistle Road",
+    "unit": null,
+    "lineWithUnit": "26 Thistle Road",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2350.0,
+   "price": 745000.0,
+   "date": "2026-04-20",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.157688,
+    "lng": -73.392356
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6889317836409796,
+   "ppsf": 317.02127659574467
+  },
+  {
+   "mls": "24160403",
+   "slug": "264-chestnut-hill-road-norwalk-connecticut-24160403",
+   "address": {
+    "line": "264 Chestnut Hill Road",
+    "unit": null,
+    "lineWithUnit": "264 Chestnut Hill Road",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2076.0,
+   "price": 875000.0,
+   "date": "2026-05-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.162959,
+    "lng": -73.392964
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.27996330138598785,
+   "ppsf": 421.48362235067435
+  },
+  {
+   "mls": "24178526",
+   "slug": "38-stonecrop-road-norwalk-connecticut-24178526",
+   "address": {
+    "line": "38 Stonecrop Road",
+    "unit": null,
+    "lineWithUnit": "38 Stonecrop Road",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2121.0,
+   "price": 901000.0,
+   "date": "2026-07-21",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.154034,
+    "lng": -73.394971
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1465904614737958,
+   "ppsf": 424.7996228194248
+  },
+  {
+   "mls": "24179630",
+   "slug": "458-newtown-avenue-norwalk-connecticut-24179630",
+   "address": {
+    "line": "458 Newtown Avenue",
+    "unit": null,
+    "lineWithUnit": "458 Newtown Avenue",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 2044.0,
+   "price": 850000.0,
+   "date": "2026-07-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.153299,
+    "lng": -73.389619
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1405546789777852,
+   "ppsf": 415.8512720156556
+  },
+  {
+   "mls": "24151761",
+   "slug": "norwalk-connecticut-24151761",
+   "address": {
+    "line": null,
+    "unit": null,
+    "lineWithUnit": null,
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 1772.0,
+   "price": 930000.0,
+   "date": "2026-03-26",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.154444,
+    "lng": -73.408179
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.848226794156911,
+   "ppsf": 524.8306997742663
   }
- }
+ ]
 }

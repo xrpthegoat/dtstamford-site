@@ -126,57 +126,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "46-burr-farms-road-westport-connecticut-24168505",
-     "addr": "46 Burr Farms Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 6.0,
-     "sqft": 5409.0,
-     "price": 19000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-01",
-     "ppsf": 4,
-     "mi": 0.64
-    },
-    {
-     "slug": "15-timber-lane-westport-connecticut-24188577",
-     "addr": "15 Timber Lane",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 5.0,
-     "sqft": 4605.0,
-     "price": 15500.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 3,
-     "mi": 0.29
-    },
-    {
-     "slug": "10-fernwood-road-westport-connecticut-24171869",
-     "addr": "10 Fernwood Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 5.0,
-     "sqft": 4029.0,
-     "price": 12000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 3,
-     "mi": 0.58
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 19000.0,
-    "high": 19000.0,
-    "median": 19000
+ "comps": [
+  {
+   "mls": "24176767",
+   "slug": "22-berndale-drive-westport-connecticut-24176767",
+   "address": {
+    "line": "22 Berndale Drive",
+    "unit": null,
+    "lineWithUnit": "22 Berndale Drive",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 3240.0,
+   "price": 10200.0,
+   "date": "2026-06-03",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.157407,
+    "lng": -73.339049
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5504079004152158,
+   "ppsf": 3.1481481481481484
+  },
+  {
+   "mls": "24168423",
+   "slug": "28-punch-bowl-drive-westport-connecticut-24168423",
+   "address": {
+    "line": "28 Punch Bowl Drive",
+    "unit": null,
+    "lineWithUnit": "28 Punch Bowl Drive",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 3178.0,
+   "price": 7300.0,
+   "date": "2026-08-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.160847,
+    "lng": -73.34615
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6911846791219107,
+   "ppsf": 2.2970421648835746
+  },
+  {
+   "mls": "24158398",
+   "slug": "95-compo-road-north-westport-connecticut-24158398",
+   "address": {
+    "line": "95 Compo Road North",
+    "unit": null,
+    "lineWithUnit": "95 Compo Road North",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 4225.0,
+   "price": 19000.0,
+   "date": "2026-06-17",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.150368,
+    "lng": -73.35427
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9452556175542305,
+   "ppsf": 4.497041420118343
+  },
+  {
+   "mls": "24156558",
+   "slug": "14-winslow-lane-westport-connecticut-24156558",
+   "address": {
+    "line": "14 Winslow Lane",
+    "unit": null,
+    "lineWithUnit": "14 Winslow Lane",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 4.0,
+   "baths": 5.0,
+   "sqft": 3600.0,
+   "price": 14000.0,
+   "date": "2026-07-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.143288,
+    "lng": -73.35009
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.3544303471321462,
+   "ppsf": 3.888888888888889
+  },
+  {
+   "mls": "24168794",
+   "slug": "14-north-avenue-westport-connecticut-24168794",
+   "address": {
+    "line": "14 North Avenue",
+    "unit": null,
+    "lineWithUnit": "14 North Avenue",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 3280.0,
+   "price": 10000.0,
+   "date": "2026-07-02",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.146454,
+    "lng": -73.3256
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.8378233825382886,
+   "ppsf": 3.048780487804878
   }
- }
+ ]
 }

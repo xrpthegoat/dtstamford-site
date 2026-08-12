@@ -134,99 +134,141 @@
    "walk": 7
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "85-wilton-crest-wilton-connecticut-24179466",
-     "addr": "85 Wilton Crest Unit 85",
-     "unit": "Unit 85",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 910.0,
-     "price": 3200.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-10",
-     "ppsf": 4,
-     "mi": 0.13
-    },
-    {
-     "slug": "22-hubbard-road-wilton-connecticut-24174967",
-     "addr": "22 Hubbard Road Unit 403",
-     "unit": "Unit 403",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1411.0,
-     "price": 6250.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-01",
-     "ppsf": 4,
-     "mi": 0.64
-    },
-    {
-     "slug": "22-hubbard-road-wilton-connecticut-24150983",
-     "addr": "22 Hubbard Road Unit 110",
-     "unit": "Unit 110",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1195.0,
-     "price": 3800.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-07",
-     "ppsf": 3,
-     "mi": 0.64
-    },
-    {
-     "slug": "22-hubbard-road-wilton-connecticut-24150967",
-     "addr": "22 Hubbard Road Unit 107",
-     "unit": "Unit 107",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1600.0,
-     "price": 5995.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-07",
-     "ppsf": 4,
-     "mi": 0.64
-    },
-    {
-     "slug": "22-hubbard-road-wilton-connecticut-24150974",
-     "addr": "22 Hubbard Road Unit 210",
-     "unit": "Unit 210",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1195.0,
-     "price": 4538.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 4,
-     "mi": 0.64
-    },
-    {
-     "slug": "22-hubbard-road-wilton-connecticut-24150972",
-     "addr": "22 Hubbard Road Unit 303",
-     "unit": "Unit 303",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1477.0,
-     "price": 5225.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 4,
-     "mi": 0.64
-    }
-   ],
-   "summary": {
-    "n": 4,
-    "low": 3200.0,
-    "high": 6250.0,
-    "median": 4898
+ "comps": [
+  {
+   "mls": "24138956",
+   "slug": "66-wilton-crest-wilton-connecticut-24138956",
+   "address": {
+    "line": "66 Wilton Crest",
+    "unit": "Unit 66",
+    "lineWithUnit": "66 Wilton Crest Unit 66",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1795.0,
+   "price": 5100.0,
+   "date": "2026-03-18",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.183998,
+    "lng": -73.425521
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.131627852690309,
+   "ppsf": 2.8412256267409473
+  },
+  {
+   "mls": "24150967",
+   "slug": "22-hubbard-road-wilton-connecticut-24150967",
+   "address": {
+    "line": "22 Hubbard Road",
+    "unit": "Unit 107",
+    "lineWithUnit": "22 Hubbard Road Unit 107",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1600.0,
+   "price": 5995.0,
+   "date": "2026-07-07",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.1923,
+    "lng": -73.43288
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0275303416527597,
+   "ppsf": 3.746875
+  },
+  {
+   "mls": "24139040",
+   "slug": "22-horseshoe-road-wilton-connecticut-24139040",
+   "address": {
+    "line": "22 Horseshoe Road",
+    "unit": null,
+    "lineWithUnit": "22 Horseshoe Road",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1391.0,
+   "price": 4250.0,
+   "date": "2026-05-09",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.183075,
+    "lng": -73.4254
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 0.18489948414081986,
+   "ppsf": 3.0553558590941767
+  },
+  {
+   "mls": "24174967",
+   "slug": "22-hubbard-road-wilton-connecticut-24174967",
+   "address": {
+    "line": "22 Hubbard Road",
+    "unit": "Unit 403",
+    "lineWithUnit": "22 Hubbard Road Unit 403",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1411.0,
+   "price": 6250.0,
+   "date": "2026-07-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.1923,
+    "lng": -73.43288
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.0275303416527597,
+   "ppsf": 4.429482636428065
+  },
+  {
+   "mls": "24180788",
+   "slug": "3-millstone-road-wilton-connecticut-24180788",
+   "address": {
+    "line": "3 Millstone Road",
+    "unit": null,
+    "lineWithUnit": "3 Millstone Road",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1637.0,
+   "price": 5700.0,
+   "date": "2026-07-09",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.229526,
+    "lng": -73.479201
+   },
+   "klass": "rental",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 6.668126145311372,
+   "ppsf": 3.481979230299328
   }
- }
+ ]
 }

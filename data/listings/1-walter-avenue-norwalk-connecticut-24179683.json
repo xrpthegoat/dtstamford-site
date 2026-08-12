@@ -125,62 +125,141 @@
    "walk": 11
   }
  },
- "comps": {
-  "building": {
-   "rows": [
-    {
-     "slug": "1-walter-avenue-norwalk-connecticut-24167267",
-     "addr": "1 Walter Avenue Unit 42",
-     "unit": "Unit 42",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 494.0,
-     "price": 223900.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-10",
-     "ppsf": 453
-    },
-    {
-     "slug": "1-walter-avenue-norwalk-connecticut-24171356",
-     "addr": "1 Walter Avenue Unit 49",
-     "unit": "Unit 49",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 574.0,
-     "price": 220000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-02",
-     "ppsf": 383
-    }
-   ],
-   "summary": {
-    "n": 2,
-    "low": 220000.0,
-    "high": 223900.0,
-    "median": 221950
+ "comps": [
+  {
+   "mls": "24167267",
+   "slug": "1-walter-avenue-norwalk-connecticut-24167267",
+   "address": {
+    "line": "1 Walter Avenue",
+    "unit": "Unit 42",
+    "lineWithUnit": "1 Walter Avenue Unit 42",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
    },
-   "label": "1 Walter Avenue"
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 494.0,
+   "price": 223900.0,
+   "date": "2026-07-10",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.123485,
+    "lng": -73.398049
+   },
+   "klass": "condo",
+   "tier": 1,
+   "why": "Same building, sold in the last year",
+   "km": 0.04151653965126154,
+   "ppsf": 453.2388663967611
   },
-  "area": {
-   "rows": [
-    {
-     "slug": "324-strawberry-hill-avenue-norwalk-connecticut-24191009",
-     "addr": "324 Strawberry Hill Avenue Unit A109",
-     "unit": "Unit A109",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 519.0,
-     "price": 239000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 461,
-     "mi": 0.43
-    }
-   ],
-   "summary": null,
-   "radiusMi": 0.75
+  {
+   "mls": "24171356",
+   "slug": "1-walter-avenue-norwalk-connecticut-24171356",
+   "address": {
+    "line": "1 Walter Avenue",
+    "unit": "Unit 49",
+    "lineWithUnit": "1 Walter Avenue Unit 49",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 574.0,
+   "price": 220000.0,
+   "date": "2026-06-02",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.123485,
+    "lng": -73.398049
+   },
+   "klass": "condo",
+   "tier": 1,
+   "why": "Same building, sold in the last year",
+   "km": 0.04151653965126154,
+   "ppsf": 383.2752613240418
+  },
+  {
+   "mls": "24159894",
+   "slug": "26-prospect-avenue-norwalk-connecticut-24159894",
+   "address": {
+    "line": "26 Prospect Avenue",
+    "unit": "Unit F8",
+    "lineWithUnit": "26 Prospect Avenue Unit F8",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 654.0,
+   "price": 275000.0,
+   "date": "2026-06-18",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.11538,
+    "lng": -73.422941
+   },
+   "klass": "condo",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.312813088181996,
+   "ppsf": 420.4892966360856
+  },
+  {
+   "mls": "24175790",
+   "slug": "25-grand-street-norwalk-connecticut-24175790",
+   "address": {
+    "line": "25 Grand Street",
+    "unit": "Unit 138",
+    "lineWithUnit": "25 Grand Street Unit 138",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 1.0,
+   "baths": 2.0,
+   "sqft": 725.0,
+   "price": 375000.0,
+   "date": "2026-06-29",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.124688,
+    "lng": -73.423326
+   },
+   "klass": "condo",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.15613667588634,
+   "ppsf": 517.2413793103449
+  },
+  {
+   "mls": "24148214",
+   "slug": "11-bedford-avenue-norwalk-connecticut-24148214",
+   "address": {
+    "line": "11 Bedford Avenue",
+    "unit": "Apt G1",
+    "lineWithUnit": "11 Bedford Avenue Apt G1",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 719.0,
+   "price": 220000.0,
+   "date": "2026-03-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.115296,
+    "lng": -73.421444
+   },
+   "klass": "condo",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.202312437350591,
+   "ppsf": 305.980528511822
   }
- }
+ ]
 }

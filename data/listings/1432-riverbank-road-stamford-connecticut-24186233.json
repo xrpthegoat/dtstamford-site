@@ -128,45 +128,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "80-old-long-ridge-road-stamford-connecticut-24167380",
-     "addr": "80 Old Long Ridge Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 2351.0,
-     "price": 995000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-02",
-     "ppsf": 423,
-     "mi": 0.56
-    },
-    {
-     "slug": "5-old-wagon-road-stamford-connecticut-24152881",
-     "addr": "5 Old Wagon Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 2890.0,
-     "price": 1025800.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-31",
-     "ppsf": 355,
-     "mi": 0.63
-    }
-   ],
-   "summary": {
-    "n": 2,
-    "low": 995000.0,
-    "high": 1025800.0,
-    "median": 1010400
+ "comps": [
+  {
+   "mls": "24167380",
+   "slug": "80-old-long-ridge-road-stamford-connecticut-24167380",
+   "address": {
+    "line": "80 Old Long Ridge Road",
+    "unit": null,
+    "lineWithUnit": "80 Old Long Ridge Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 2351.0,
+   "price": 995000.0,
+   "date": "2026-07-02",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.144909,
+    "lng": -73.590885
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9032869282891589,
+   "ppsf": 423.22415993194386
+  },
+  {
+   "mls": "24133749",
+   "slug": "27-wellington-drive-stamford-connecticut-24133749",
+   "address": {
+    "line": "27 Wellington Drive",
+    "unit": null,
+    "lineWithUnit": "27 Wellington Drive",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2402.0,
+   "price": 774000.0,
+   "date": "2026-03-25",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.137419,
+    "lng": -73.573063
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.8513470083582977,
+   "ppsf": 322.23147377185677
+  },
+  {
+   "mls": "24146138",
+   "slug": "106-east-hunting-ridge-road-stamford-connecticut-24146138",
+   "address": {
+    "line": "106 East Hunting Ridge Road",
+    "unit": null,
+    "lineWithUnit": "106 East Hunting Ridge Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
+   },
+   "beds": 4.0,
+   "baths": 2.0,
+   "sqft": 2476.0,
+   "price": 1067000.0,
+   "date": "2026-04-02",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.141283,
+    "lng": -73.570994
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.068836080089146,
+   "ppsf": 430.93699515347333
+  },
+  {
+   "mls": "24170713",
+   "slug": "2525-long-ridge-road-stamford-connecticut-24170713",
+   "address": {
+    "line": "2525 Long Ridge Road",
+    "unit": null,
+    "lineWithUnit": "2525 Long Ridge Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2524.0,
+   "price": 1225000.0,
+   "date": "2026-07-16",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.148123,
+    "lng": -73.590476
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.2497598863467052,
+   "ppsf": 485.3407290015848
+  },
+  {
+   "mls": "24143655",
+   "slug": "281-roxbury-road-stamford-connecticut-24143655",
+   "address": {
+    "line": "281 Roxbury Road",
+    "unit": null,
+    "lineWithUnit": "281 Roxbury Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 2444.0,
+   "price": 990000.0,
+   "date": "2026-05-05",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.09267,
+    "lng": -73.571406
+   },
+   "klass": "house",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 5.362944720292515,
+   "ppsf": 405.0736497545008
   }
- }
+ ]
 }

@@ -121,73 +121,141 @@
    "walk": 11
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "14-amherst-road-greenwich-connecticut-24166765",
-     "addr": "14 Amherst Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1470.0,
-     "price": 6150.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-04",
-     "ppsf": 4,
-     "mi": 0.39
-    },
-    {
-     "slug": "15-richmond-drive-greenwich-connecticut-24157455",
-     "addr": "15 Richmond Drive",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1435.0,
-     "price": 8250.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-23",
-     "ppsf": 6,
-     "mi": 0.55
-    },
-    {
-     "slug": "213-b-river-rd-extension-greenwich-connecticut-24159440",
-     "addr": "213 B River Rd Extension Unit 1",
-     "unit": "Unit 1",
-     "beds": 3.0,
-     "baths": 4.0,
-     "sqft": 1640.0,
-     "price": 5200.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-23",
-     "ppsf": 3,
-     "mi": 0.6
-    },
-    {
-     "slug": "156-river-rd-extension-greenwich-connecticut-24146768",
-     "addr": "156 River Rd Extension Unit 3",
-     "unit": "Unit 3",
-     "beds": 3.0,
-     "baths": 1.0,
-     "sqft": 1500.0,
-     "price": 3150.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-17",
-     "ppsf": 2,
-     "mi": 0.66
-    }
-   ],
-   "summary": {
-    "n": 4,
-    "low": 3150.0,
-    "high": 8250.0,
-    "median": 5675
+ "comps": [
+  {
+   "mls": "24149196",
+   "slug": "1-old-kings-highway-greenwich-connecticut-24149196",
+   "address": {
+    "line": "1 Old Kings Highway",
+    "unit": null,
+    "lineWithUnit": "1 Old Kings Highway",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06870"
    },
-   "radiusMi": 0.75
+   "beds": 5.0,
+   "baths": 0.0,
+   "sqft": 2174.0,
+   "price": 6500.0,
+   "date": "2026-03-14",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.048223,
+    "lng": -73.568624
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8985431290178416,
+   "ppsf": 2.9898804047838086
+  },
+  {
+   "mls": "24150496",
+   "slug": "92-valley-road-greenwich-connecticut-24150496",
+   "address": {
+    "line": "92 Valley Road",
+    "unit": "Unit A",
+    "lineWithUnit": "92 Valley Road Unit A",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06807"
+   },
+   "beds": 5.0,
+   "baths": 3.0,
+   "sqft": 3000.0,
+   "price": 7035.0,
+   "date": "2026-03-24",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.044882,
+    "lng": -73.590877
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.033764669086184,
+   "ppsf": 2.345
+  },
+  {
+   "mls": "24174565",
+   "slug": "15-lancer-road-greenwich-connecticut-24174565",
+   "address": {
+    "line": "15 Lancer Road",
+    "unit": null,
+    "lineWithUnit": "15 Lancer Road",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06878"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 3031.0,
+   "price": 8850.0,
+   "date": "2026-05-29",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.052672,
+    "lng": -73.580843
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8534351079743119,
+   "ppsf": 2.9198284394589242
+  },
+  {
+   "mls": "24165600",
+   "slug": "80-tomac-avenue-greenwich-connecticut-24165600",
+   "address": {
+    "line": "80 Tomac Avenue",
+    "unit": null,
+    "lineWithUnit": "80 Tomac Avenue",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06870"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2376.0,
+   "price": 11000.0,
+   "date": "2026-04-14",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.030627,
+    "lng": -73.560819
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.19922926857394,
+   "ppsf": 4.62962962962963
+  },
+  {
+   "mls": "24163902",
+   "slug": "51-forest-avenue-greenwich-connecticut-24163902",
+   "address": {
+    "line": "51 Forest Avenue",
+    "unit": "Unit 25",
+    "lineWithUnit": "51 Forest Avenue Unit 25",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06870"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2271.0,
+   "price": 8500.0,
+   "date": "2026-04-20",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.034892,
+    "lng": -73.565059
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.6104499391665872,
+   "ppsf": 3.742844561867019
   }
- }
+ ]
 }

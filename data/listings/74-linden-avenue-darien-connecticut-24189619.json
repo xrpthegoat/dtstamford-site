@@ -126,100 +126,141 @@
    "walk": 2
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "340-heights-road-darien-connecticut-24161107",
-     "addr": "340 Heights Road Unit 316",
-     "unit": "Unit 316",
-     "beds": 2.0,
-     "baths": 3.0,
-     "sqft": 1492.0,
-     "price": 9250.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-15",
-     "ppsf": 6,
-     "mi": 0.14
-    },
-    {
-     "slug": "340-heights-road-darien-connecticut-24161140",
-     "addr": "340 Heights Road Unit 314",
-     "unit": "Unit 314",
-     "beds": 2.0,
-     "baths": 3.0,
-     "sqft": 1546.0,
-     "price": 8600.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-24",
-     "ppsf": 6,
-     "mi": 0.15
-    },
-    {
-     "slug": "440-heights-road-darien-connecticut-24160971",
-     "addr": "440 Heights Road Unit 210",
-     "unit": "Unit 210",
-     "beds": 2.0,
-     "baths": 3.0,
-     "sqft": 1236.0,
-     "price": 6500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-25",
-     "ppsf": 5,
-     "mi": 0.16
-    },
-    {
-     "slug": "375-west-avenue-darien-connecticut-24166078",
-     "addr": "375 West Avenue",
-     "unit": "",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1510.0,
-     "price": 6200.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-20",
-     "ppsf": 4,
-     "mi": 0.54
-    },
-    {
-     "slug": "410-west-avenue-darien-connecticut-24176762",
-     "addr": "410 West Avenue Unit 202",
-     "unit": "Unit 202",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 1440.0,
-     "price": 3600.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-15",
-     "ppsf": 2,
-     "mi": 0.75
-    },
-    {
-     "slug": "440-heights-road-darien-connecticut-24176917",
-     "addr": "440 Heights Road Unit 205",
-     "unit": "Unit 205",
-     "beds": 2.0,
-     "baths": 3.0,
-     "sqft": 1348.0,
-     "price": 8200.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 6,
-     "mi": 0.15
-    }
-   ],
-   "summary": {
-    "n": 5,
-    "low": 3600.0,
-    "high": 9250.0,
-    "median": 6500
+ "comps": [
+  {
+   "mls": "24160295",
+   "slug": "340-heights-road-darien-connecticut-24160295",
+   "address": {
+    "line": "340 Heights Road",
+    "unit": "Unit 308",
+    "lineWithUnit": "340 Heights Road Unit 308",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
    },
-   "radiusMi": 0.75
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 965.0,
+   "price": 4600.0,
+   "date": "2026-03-24",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.06953,
+    "lng": -73.49892
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.24833074350515438,
+   "ppsf": 4.766839378238342
+  },
+  {
+   "mls": "24176214",
+   "slug": "72-west-avenue-darien-connecticut-24176214",
+   "address": {
+    "line": "72 West Avenue",
+    "unit": "Unit B",
+    "lineWithUnit": "72 West Avenue Unit B",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 960.0,
+   "price": 3200.0,
+   "date": "2026-06-14",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.078173,
+    "lng": -73.475852
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.1751365101869737,
+   "ppsf": 3.3333333333333335
+  },
+  {
+   "mls": "24160960",
+   "slug": "1077-boston-post-road-darien-connecticut-24160960",
+   "address": {
+    "line": "1077 Boston Post Road",
+    "unit": "Unit 3",
+    "lineWithUnit": "1077 Boston Post Road Unit 3",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 640.0,
+   "price": 3400.0,
+   "date": "2026-04-02",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.074852,
+    "lng": -73.473114
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.209862173971917,
+   "ppsf": 5.3125
+  },
+  {
+   "mls": "24155938",
+   "slug": "693-boston-post-road-darien-connecticut-24155938",
+   "address": {
+    "line": "693 Boston Post Road",
+    "unit": "Unit A",
+    "lineWithUnit": "693 Boston Post Road Unit A",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 820.0,
+   "price": 4250.0,
+   "date": "2026-04-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.08127,
+    "lng": -73.46721
+   },
+   "klass": "rental",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 2.97210858504632,
+   "ppsf": 5.182926829268292
+  },
+  {
+   "mls": "24138417",
+   "slug": "3-wild-rose-lane-darien-connecticut-24138417",
+   "address": {
+    "line": "3 Wild Rose Lane",
+    "unit": "Unit Cottage",
+    "lineWithUnit": "3 Wild Rose Lane Unit Cottage",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 700.0,
+   "price": 3250.0,
+   "date": "2026-04-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.07096,
+    "lng": -73.4653
+   },
+   "klass": "rental",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 2.736078531584078,
+   "ppsf": 4.642857142857143
   }
- }
+ ]
 }

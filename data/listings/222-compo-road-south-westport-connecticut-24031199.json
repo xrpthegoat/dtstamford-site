@@ -131,71 +131,141 @@
    "mi": 1.33
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "11-treadwell-avenue-westport-connecticut-24180824",
-     "addr": "11 Treadwell Avenue",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 3069.0,
-     "price": 9000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-09",
-     "ppsf": 3,
-     "mi": 0.68
-    },
-    {
-     "slug": "5-longview-road-westport-connecticut-24169951",
-     "addr": "5 Longview Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 6.0,
-     "sqft": 5191.0,
-     "price": 19000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-21",
-     "ppsf": 4,
-     "mi": 0.69
-    },
-    {
-     "slug": "2-drumlin-road-westport-connecticut-24194715",
-     "addr": "2 Drumlin Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2528.0,
-     "price": 15000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 6,
-     "mi": 0.6
-    },
-    {
-     "slug": "4-nappa-lane-westport-connecticut-24189482",
-     "addr": "4 Nappa Lane",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2936.0,
-     "price": 12000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 4,
-     "mi": 0.68
-    }
-   ],
-   "summary": {
-    "n": 2,
-    "low": 9000.0,
-    "high": 19000.0,
-    "median": 14000
+ "comps": [
+  {
+   "mls": "24140482",
+   "slug": "4-vani-court-westport-connecticut-24140482",
+   "address": {
+    "line": "4 Vani Court",
+    "unit": null,
+    "lineWithUnit": "4 Vani Court",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
    },
-   "radiusMi": 0.75
+   "beds": 5.0,
+   "baths": 6.0,
+   "sqft": 4347.0,
+   "price": 12500.0,
+   "date": "2026-04-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.12019,
+    "lng": -73.362378
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.19025653626418904,
+   "ppsf": 2.8755463538072235
+  },
+  {
+   "mls": "24169951",
+   "slug": "5-longview-road-westport-connecticut-24169951",
+   "address": {
+    "line": "5 Longview Road",
+    "unit": null,
+    "lineWithUnit": "5 Longview Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 4.0,
+   "baths": 6.0,
+   "sqft": 5191.0,
+   "price": 19000.0,
+   "date": "2026-06-21",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.112247,
+    "lng": -73.35299
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1124057991816636,
+   "ppsf": 3.660181082643036
+  },
+  {
+   "mls": "24155986",
+   "slug": "17-ferry-lane-westport-connecticut-24155986",
+   "address": {
+    "line": "17 Ferry Lane",
+    "unit": null,
+    "lineWithUnit": "17 Ferry Lane",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 6.0,
+   "baths": 4.0,
+   "sqft": 3800.0,
+   "price": 11000.0,
+   "date": "2026-06-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.11795,
+    "lng": -73.371704
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7127754137487908,
+   "ppsf": 2.8947368421052633
+  },
+  {
+   "mls": "24149288",
+   "slug": "174a-post-road-west-westport-connecticut-24149288",
+   "address": {
+    "line": "174A Post Road West",
+    "unit": null,
+    "lineWithUnit": "174A Post Road West",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 3678.0,
+   "price": 5800.0,
+   "date": "2026-04-14",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.137492,
+    "lng": -73.369692
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.1683352507654448,
+   "ppsf": 1.5769439912996193
+  },
+  {
+   "mls": "24169311",
+   "slug": "12-burr-road-westport-connecticut-24169311",
+   "address": {
+    "line": "12 Burr Road",
+    "unit": null,
+    "lineWithUnit": "12 Burr Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 3.0,
+   "baths": 4.0,
+   "sqft": 3310.0,
+   "price": 7500.0,
+   "date": "2026-04-30",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.136353,
+    "lng": -73.36648
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.9918381418514162,
+   "ppsf": 2.2658610271903323
   }
- }
+ ]
 }

@@ -131,98 +131,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "80-bayberry-lane-westport-connecticut-24175344",
-     "addr": "80 Bayberry Lane",
-     "unit": "",
-     "beds": 6.0,
-     "baths": 7.0,
-     "sqft": 9025.0,
-     "price": 4525000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-23",
-     "ppsf": 501,
-     "mi": 0.31
-    },
-    {
-     "slug": "10-debra-lane-westport-connecticut-24131564",
-     "addr": "10 Debra Lane",
-     "unit": "",
-     "beds": 6.0,
-     "baths": 9.0,
-     "sqft": 9601.0,
-     "price": 5500000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-17",
-     "ppsf": 573,
-     "mi": 0.4
-    },
-    {
-     "slug": "13-terhune-drive-westport-connecticut-24114691",
-     "addr": "13 Terhune Drive",
-     "unit": "",
-     "beds": 6.0,
-     "baths": 6.0,
-     "sqft": 6010.0,
-     "price": 3499999.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-30",
-     "ppsf": 582,
-     "mi": 0.73
-    },
-    {
-     "slug": "10-mary-jane-lane-westport-connecticut-24147970",
-     "addr": "10 Mary Jane Lane",
-     "unit": "",
-     "beds": 6.0,
-     "baths": 7.0,
-     "sqft": 6900.0,
-     "price": 5990000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 868,
-     "mi": 0.35
-    },
-    {
-     "slug": "4-sycamore-drive-westport-connecticut-24177071",
-     "addr": "4 Sycamore Drive",
-     "unit": "",
-     "beds": 6.0,
-     "baths": 8.0,
-     "sqft": 8935.0,
-     "price": 5199000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 582,
-     "mi": 0.37
-    },
-    {
-     "slug": "5-baldwin-place-westport-connecticut-24194674",
-     "addr": "5 Baldwin Place",
-     "unit": "",
-     "beds": 6.0,
-     "baths": 8.0,
-     "sqft": 9062.0,
-     "price": 6495000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 717,
-     "mi": 0.63
-    }
-   ],
-   "summary": {
-    "n": 3,
-    "low": 3499999.0,
-    "high": 5500000.0,
-    "median": 4525000
+ "comps": [
+  {
+   "mls": "24114691",
+   "slug": "13-terhune-drive-westport-connecticut-24114691",
+   "address": {
+    "line": "13 Terhune Drive",
+    "unit": null,
+    "lineWithUnit": "13 Terhune Drive",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
    },
-   "radiusMi": 0.75
+   "beds": 6.0,
+   "baths": 6.0,
+   "sqft": 6010.0,
+   "price": 3499999.0,
+   "date": "2026-06-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.151407,
+    "lng": -73.331303
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1691207398036496,
+   "ppsf": 582.3625623960066
+  },
+  {
+   "mls": "24166818",
+   "slug": "119-long-lots-road-westport-connecticut-24166818",
+   "address": {
+    "line": "119 Long Lots Road",
+    "unit": null,
+    "lineWithUnit": "119 Long Lots Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 5.0,
+   "baths": 5.0,
+   "sqft": 5616.0,
+   "price": 3352000.0,
+   "date": "2026-06-19",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.146531,
+    "lng": -73.319498
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8733009084799149,
+   "ppsf": 596.8660968660969
+  },
+  {
+   "mls": "24171000",
+   "slug": "10-sprucewood-lane-westport-connecticut-24171000",
+   "address": {
+    "line": "10 Sprucewood Lane",
+    "unit": null,
+    "lineWithUnit": "10 Sprucewood Lane",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 5.0,
+   "baths": 5.0,
+   "sqft": 5526.0,
+   "price": 3276000.0,
+   "date": "2026-06-29",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.152204,
+    "lng": -73.313689
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.4201444961659371,
+   "ppsf": 592.8338762214984
+  },
+  {
+   "mls": "24168021",
+   "slug": "1-greystone-farm-lane-westport-connecticut-24168021",
+   "address": {
+    "line": "1 Greystone Farm Lane",
+    "unit": null,
+    "lineWithUnit": "1 Greystone Farm Lane",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 5.0,
+   "baths": 6.0,
+   "sqft": 5182.0,
+   "price": 4199000.0,
+   "date": "2026-06-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.1477,
+    "lng": -73.32764
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0979062278926814,
+   "ppsf": 810.3049015824006
+  },
+  {
+   "mls": "24178245",
+   "slug": "71-high-point-road-westport-connecticut-24178245",
+   "address": {
+    "line": "71 High Point Road",
+    "unit": null,
+    "lineWithUnit": "71 High Point Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 5.0,
+   "baths": 4.0,
+   "sqft": 6310.0,
+   "price": 1917500.0,
+   "date": "2026-07-23",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.157791,
+    "lng": -73.326681
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.833841312445835,
+   "ppsf": 303.8827258320127
   }
- }
+ ]
 }

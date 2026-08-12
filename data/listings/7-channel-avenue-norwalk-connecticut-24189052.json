@@ -133,100 +133,141 @@
    "line": "Metro-North Railroad;CTrail"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "17-seabreeze-place-norwalk-connecticut-24176004",
-     "addr": "17 Seabreeze Place",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 4.0,
-     "sqft": 2067.0,
-     "price": 1495000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-04",
-     "ppsf": 723,
-     "mi": 0.19
-    },
-    {
-     "slug": "47-shorefront-park-norwalk-connecticut-24168360",
-     "addr": "47 Shorefront Park",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1796.0,
-     "price": 1150000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-11",
-     "ppsf": 640,
-     "mi": 0.52
-    },
-    {
-     "slug": "8-lincoln-avenue-norwalk-connecticut-24173903",
-     "addr": "8 Lincoln Avenue",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1967.0,
-     "price": 580000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-10",
-     "ppsf": 295,
-     "mi": 0.57
-    },
-    {
-     "slug": "10-shorefront-park-norwalk-connecticut-24172453",
-     "addr": "10 Shorefront Park",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 1.0,
-     "sqft": 1444.0,
-     "price": 860000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-08",
-     "ppsf": 596,
-     "mi": 0.58
-    },
-    {
-     "slug": "30-burritt-avenue-norwalk-connecticut-24154577",
-     "addr": "30 Burritt Avenue",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1827.0,
-     "price": 700000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-01",
-     "ppsf": 383,
-     "mi": 0.6
-    },
-    {
-     "slug": "17-oliver-street-norwalk-connecticut-24191420",
-     "addr": "17 Oliver Street",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1924.0,
-     "price": 1749000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 909,
-     "mi": 0.1
-    }
-   ],
-   "summary": {
-    "n": 5,
-    "low": 580000.0,
-    "high": 1495000.0,
-    "median": 860000
+ "comps": [
+  {
+   "mls": "24168360",
+   "slug": "47-shorefront-park-norwalk-connecticut-24168360",
+   "address": {
+    "line": "47 Shorefront Park",
+    "unit": null,
+    "lineWithUnit": "47 Shorefront Park",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1796.0,
+   "price": 1150000.0,
+   "date": "2026-06-11",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.090699,
+    "lng": -73.412753
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8408974392131507,
+   "ppsf": 640.3118040089087
+  },
+  {
+   "mls": "24173410",
+   "slug": "34-channel-avenue-norwalk-connecticut-24173410",
+   "address": {
+    "line": "34 Channel Avenue",
+    "unit": null,
+    "lineWithUnit": "34 Channel Avenue",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2518.0,
+   "price": 2600000.0,
+   "date": "2026-06-18",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.081438,
+    "lng": -73.410368
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.20863247496966586,
+   "ppsf": 1032.5655281969816
+  },
+  {
+   "mls": "24154577",
+   "slug": "30-burritt-avenue-norwalk-connecticut-24154577",
+   "address": {
+    "line": "30 Burritt Avenue",
+    "unit": null,
+    "lineWithUnit": "30 Burritt Avenue",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1827.0,
+   "price": 700000.0,
+   "date": "2026-04-01",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.091626,
+    "lng": -73.413889
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9640706872529203,
+   "ppsf": 383.1417624521073
+  },
+  {
+   "mls": "24176004",
+   "slug": "17-seabreeze-place-norwalk-connecticut-24176004",
+   "address": {
+    "line": "17 Seabreeze Place",
+    "unit": null,
+    "lineWithUnit": "17 Seabreeze Place",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 3.0,
+   "baths": 4.0,
+   "sqft": 2067.0,
+   "price": 1495000.0,
+   "date": "2026-06-04",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.085957,
+    "lng": -73.41139
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.30140462491424996,
+   "ppsf": 723.2704402515724
+  },
+  {
+   "mls": "24173903",
+   "slug": "8-lincoln-avenue-norwalk-connecticut-24173903",
+   "address": {
+    "line": "8 Lincoln Avenue",
+    "unit": null,
+    "lineWithUnit": "8 Lincoln Avenue",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1967.0,
+   "price": 580000.0,
+   "date": "2026-08-10",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.090841,
+    "lng": -73.415057
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9151841627373335,
+   "ppsf": 294.8652770716828
   }
- }
+ ]
 }

@@ -142,146 +142,141 @@
    "walk": 7
   }
  },
- "comps": {
-  "building": {
-   "rows": [
-    {
-     "slug": "154-cold-spring-road-stamford-connecticut-24155604",
-     "addr": "154 Cold Spring Road Apt 87",
-     "unit": "Apt 87",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1317.0,
-     "price": 425000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-14",
-     "ppsf": 323
-    },
-    {
-     "slug": "154-cold-spring-road-stamford-connecticut-24186842",
-     "addr": "154 Cold Spring Road Unit 19",
-     "unit": "Unit 19",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1317.0,
-     "price": 425000.0,
-     "kind": "asking",
-     "status": "Under Contract - Continue to Show",
-     "ppsf": 323
-    },
-    {
-     "slug": "154-cold-spring-road-stamford-connecticut-24194286",
-     "addr": "154 Cold Spring Road Unit 80",
-     "unit": "Unit 80",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1317.0,
-     "price": 385000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 292
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 425000.0,
-    "high": 425000.0,
-    "median": 425000
+ "comps": [
+  {
+   "mls": "24155604",
+   "slug": "154-cold-spring-road-stamford-connecticut-24155604",
+   "address": {
+    "line": "154 Cold Spring Road",
+    "unit": "Apt 87",
+    "lineWithUnit": "154 Cold Spring Road Apt 87",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
    },
-   "label": "154 Cold Spring Road"
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1317.0,
+   "price": 425000.0,
+   "date": "2026-05-14",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.067346,
+    "lng": -73.554804
+   },
+   "klass": "condo",
+   "tier": 1,
+   "why": "Same building, sold in the last year",
+   "km": 0.0,
+   "ppsf": 322.703113135915
   },
-  "area": {
-   "rows": [
-    {
-     "slug": "20-third-street-stamford-connecticut-24163662",
-     "addr": "20 Third Street Unit 3",
-     "unit": "Unit 3",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1667.0,
-     "price": 845000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-02",
-     "ppsf": 507,
-     "mi": 0.67
-    },
-    {
-     "slug": "20-third-street-stamford-connecticut-24180398",
-     "addr": "20 Third Street Unit 14",
-     "unit": "Unit 14",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1485.0,
-     "price": 726000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-06",
-     "ppsf": 489,
-     "mi": 0.67
-    },
-    {
-     "slug": "20-third-street-stamford-connecticut-24156906",
-     "addr": "20 Third Street Unit 23",
-     "unit": "Unit 23",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 2333.0,
-     "price": 845000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-29",
-     "ppsf": 362,
-     "mi": 0.67
-    },
-    {
-     "slug": "40-riverside-avenue-stamford-connecticut-24198417",
-     "addr": "40 Riverside Avenue Unit 4",
-     "unit": "Unit 4",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1590.0,
-     "price": 579000.0,
-     "kind": "asking",
-     "status": "Coming Soon",
-     "ppsf": 364,
-     "mi": 0.2
-    },
-    {
-     "slug": "55-waterford-lane-stamford-connecticut-24170821",
-     "addr": "55 Waterford Lane Unit 2",
-     "unit": "Unit 2",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1625.0,
-     "price": 775000.0,
-     "kind": "asking",
-     "status": "Under Contract - Continue to Show",
-     "ppsf": 477,
-     "mi": 0.23
-    },
-    {
-     "slug": "20-third-street-stamford-connecticut-24186054",
-     "addr": "20 Third Street Unit 4",
-     "unit": "Unit 4",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1687.0,
-     "price": 831000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 493,
-     "mi": 0.67
-    }
-   ],
-   "summary": {
-    "n": 3,
-    "low": 726000.0,
-    "high": 845000.0,
-    "median": 845000
+  {
+   "mls": "24149222",
+   "slug": "1633-washington-boulevard-stamford-connecticut-24149222",
+   "address": {
+    "line": "1633 Washington Boulevard",
+    "unit": "Apt 3D",
+    "lineWithUnit": "1633 Washington Boulevard Apt 3D",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1315.0,
+   "price": 425000.0,
+   "date": "2026-06-12",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.062023,
+    "lng": -73.543603
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1100336154181911,
+   "ppsf": 323.1939163498099
+  },
+  {
+   "mls": "24166450",
+   "slug": "1633-washington-boulevard-stamford-connecticut-24166450",
+   "address": {
+    "line": "1633 Washington Boulevard",
+    "unit": "Unit 4D",
+    "lineWithUnit": "1633 Washington Boulevard Unit 4D",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1315.0,
+   "price": 445000.0,
+   "date": "2026-06-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.062023,
+    "lng": -73.543603
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1100336154181911,
+   "ppsf": 338.40304182509504
+  },
+  {
+   "mls": "24151048",
+   "slug": "34-4th-street-stamford-connecticut-24151048",
+   "address": {
+    "line": "34 4th Street",
+    "unit": "Unit 34",
+    "lineWithUnit": "34 4th Street Unit 34",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 1054.0,
+   "price": 393000.0,
+   "date": "2026-03-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.064989,
+    "lng": -73.544401
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9106701173747039,
+   "ppsf": 372.865275142315
+  },
+  {
+   "mls": "24152016",
+   "slug": "2289-bedford-street-stamford-connecticut-24152016",
+   "address": {
+    "line": "2289 Bedford Street",
+    "unit": "Unit G17",
+    "lineWithUnit": "2289 Bedford Street Unit G17",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1199.0,
+   "price": 599000.0,
+   "date": "2026-04-02",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.06882,
+    "lng": -73.544716
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8614445669490672,
+   "ppsf": 499.5829858215179
   }
- }
+ ]
 }

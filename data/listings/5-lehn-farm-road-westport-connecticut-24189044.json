@@ -130,58 +130,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "48-burr-farms-road-westport-connecticut-24149417",
-     "addr": "48 Burr Farms Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1950.0,
-     "price": 1951000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-22",
-     "ppsf": 1001,
-     "mi": 0.53
-    },
-    {
-     "slug": "143-north-avenue-westport-connecticut-24183954",
-     "addr": "143 North Avenue",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 2192.0,
-     "price": 1906000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-22",
-     "ppsf": 870,
-     "mi": 0.69
-    },
-    {
-     "slug": "107-roseville-road-westport-connecticut-24190631",
-     "addr": "107 Roseville Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1572.0,
-     "price": 1199000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 763,
-     "mi": 0.44
-    }
-   ],
-   "summary": {
-    "n": 2,
-    "low": 1906000.0,
-    "high": 1951000.0,
-    "median": 1928500
+ "comps": [
+  {
+   "mls": "24137231",
+   "slug": "26-crescent-park-road-westport-connecticut-24137231",
+   "address": {
+    "line": "26 Crescent Park Road",
+    "unit": null,
+    "lineWithUnit": "26 Crescent Park Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1104.0,
+   "price": 568000.0,
+   "date": "2026-03-31",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.141148,
+    "lng": -73.34653
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.3971779206785475,
+   "ppsf": 514.4927536231884
+  },
+  {
+   "mls": "24156092",
+   "slug": "21-rayfield-road-westport-connecticut-24156092",
+   "address": {
+    "line": "21 Rayfield Road",
+    "unit": null,
+    "lineWithUnit": "21 Rayfield Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1677.0,
+   "price": 1350000.0,
+   "date": "2026-03-31",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.136475,
+    "lng": -73.346923
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.9151886950014576,
+   "ppsf": 805.0089445438283
+  },
+  {
+   "mls": "24156644",
+   "slug": "20-hickory-drive-westport-connecticut-24156644",
+   "address": {
+    "line": "20 Hickory Drive",
+    "unit": null,
+    "lineWithUnit": "20 Hickory Drive",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1560.0,
+   "price": 1160000.0,
+   "date": "2026-05-14",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.140279,
+    "lng": -73.329746
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.86913958965098,
+   "ppsf": 743.5897435897435
+  },
+  {
+   "mls": "24176734",
+   "slug": "23-west-parish-road-westport-connecticut-24176734",
+   "address": {
+    "line": "23 West Parish Road",
+    "unit": null,
+    "lineWithUnit": "23 West Parish Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1187.0,
+   "price": 1175000.0,
+   "date": "2026-08-10",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.135884,
+    "lng": -73.331416
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.2061811016522905,
+   "ppsf": 989.8904802021904
+  },
+  {
+   "mls": "24169070",
+   "slug": "39-kings-highway-north-westport-connecticut-24169070",
+   "address": {
+    "line": "39 Kings Highway North",
+    "unit": null,
+    "lineWithUnit": "39 Kings Highway North",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1752.0,
+   "price": 1310000.0,
+   "date": "2026-07-08",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.13851,
+    "lng": -73.370808
+   },
+   "klass": "house",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 2.8287348432174575,
+   "ppsf": 747.716894977169
   }
- }
+ ]
 }

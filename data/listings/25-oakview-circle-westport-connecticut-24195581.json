@@ -119,58 +119,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "135-regents-park-westport-connecticut-24176028",
-     "addr": "135 Regents Park Unit 135",
-     "unit": "Unit 135",
-     "beds": 2.0,
-     "baths": 4.0,
-     "sqft": 2692.0,
-     "price": 6100.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-04",
-     "ppsf": 2,
-     "mi": 0.48
-    },
-    {
-     "slug": "162-regents-park-westport-connecticut-24172336",
-     "addr": "162 Regents Park Unit 162",
-     "unit": "Unit 162",
-     "beds": 2.0,
-     "baths": 4.0,
-     "sqft": 2692.0,
-     "price": 5500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-13",
-     "ppsf": 2,
-     "mi": 0.48
-    },
-    {
-     "slug": "51-maple-avenue-south-westport-connecticut-24193466",
-     "addr": "51 Maple Avenue South",
-     "unit": "",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 2720.0,
-     "price": 7950.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 3,
-     "mi": 0.42
-    }
-   ],
-   "summary": {
-    "n": 2,
-    "low": 5500.0,
-    "high": 6100.0,
-    "median": 5800
+ "comps": [
+  {
+   "mls": "24146601",
+   "slug": "315-main-street-westport-connecticut-24146601",
+   "address": {
+    "line": "315 Main Street",
+    "unit": null,
+    "lineWithUnit": "315 Main Street",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 740.0,
+   "price": 3250.0,
+   "date": "2026-03-30",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.149874,
+    "lng": -73.362429
+   },
+   "klass": "rental",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 4.720117852909776,
+   "ppsf": 4.391891891891892
+  },
+  {
+   "mls": "24150619",
+   "slug": "92-compo-road-south-westport-connecticut-24150619",
+   "address": {
+    "line": "92 Compo Road South",
+    "unit": null,
+    "lineWithUnit": "92 Compo Road South",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 793.0,
+   "price": 3000.0,
+   "date": "2026-04-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.1348,
+    "lng": -73.356476
+   },
+   "klass": "rental",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 4.167486902587059,
+   "ppsf": 3.7831021437578816
+  },
+  {
+   "mls": "24151465",
+   "slug": "44-roseville-road-westport-connecticut-24151465",
+   "address": {
+    "line": "44 Roseville Road",
+    "unit": null,
+    "lineWithUnit": "44 Roseville Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 796.0,
+   "price": 3000.0,
+   "date": "2026-04-29",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.140239,
+    "lng": -73.339057
+   },
+   "klass": "rental",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 2.655358109250037,
+   "ppsf": 3.7688442211055277
+  },
+  {
+   "mls": "24155254",
+   "slug": "26-hiawatha-lane-extension-westport-connecticut-24155254",
+   "address": {
+    "line": "26 Hiawatha Lane Extension",
+    "unit": null,
+    "lineWithUnit": "26 Hiawatha Lane Extension",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1056.0,
+   "price": 5000.0,
+   "date": "2026-05-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.118412,
+    "lng": -73.379917
+   },
+   "klass": "rental",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 6.5680653974904954,
+   "ppsf": 4.734848484848484
+  },
+  {
+   "mls": "24172567",
+   "slug": "230-saugatuck-avenue-westport-connecticut-24172567",
+   "address": {
+    "line": "230 Saugatuck Avenue",
+    "unit": "Unit 17",
+    "lineWithUnit": "230 Saugatuck Avenue Unit 17",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 1200.0,
+   "price": 4800.0,
+   "date": "2026-05-26",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.115753,
+    "lng": -73.37709
+   },
+   "klass": "rental",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 6.471451510721713,
+   "ppsf": 4.0
   }
- }
+ ]
 }

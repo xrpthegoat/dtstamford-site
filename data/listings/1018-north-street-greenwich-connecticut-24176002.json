@@ -119,44 +119,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "1020-north-street-greenwich-connecticut-24150733",
-     "addr": "1020 North Street",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1812.0,
-     "price": 1600000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-08",
-     "ppsf": 883,
-     "mi": 0.02
-    },
-    {
-     "slug": "198-east-middle-patent-road-stamford-connecticut-24137827",
-     "addr": "198 East Middle Patent Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 3994.0,
-     "price": 1775000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 444,
-     "mi": 0.68
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 1600000.0,
-    "high": 1600000.0,
-    "median": 1600000
+ "comps": [
+  {
+   "mls": "24150733",
+   "slug": "1020-north-street-greenwich-connecticut-24150733",
+   "address": {
+    "line": "1020 North Street",
+    "unit": null,
+    "lineWithUnit": "1020 North Street",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06831"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1812.0,
+   "price": 1600000.0,
+   "date": "2026-05-08",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.139375,
+    "lng": -73.638465
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.02429828511854465,
+   "ppsf": 883.0022075055188
+  },
+  {
+   "mls": "24141403",
+   "slug": "15-henry-street-greenwich-connecticut-24141403",
+   "address": {
+    "line": "15 Henry Street",
+    "unit": null,
+    "lineWithUnit": "15 Henry Street",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06830"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1258.0,
+   "price": 600000.0,
+   "date": "2026-03-24",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.003594,
+    "lng": -73.655907
+   },
+   "klass": "house",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 15.144826419067194,
+   "ppsf": 476.9475357710652
+  },
+  {
+   "mls": "24150539",
+   "slug": "105-glenville-street-greenwich-connecticut-24150539",
+   "address": {
+    "line": "105 Glenville Street",
+    "unit": null,
+    "lineWithUnit": "105 Glenville Street",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06831"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1713.0,
+   "price": 977500.0,
+   "date": "2026-03-17",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.03328,
+    "lng": -73.671593
+   },
+   "klass": "house",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 12.096330158123306,
+   "ppsf": 570.636310566258
+  },
+  {
+   "mls": "24112915",
+   "slug": "33-halsey-drive-greenwich-connecticut-24112915",
+   "address": {
+    "line": "33 Halsey Drive",
+    "unit": null,
+    "lineWithUnit": "33 Halsey Drive",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06870"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1481.0,
+   "price": 1410000.0,
+   "date": "2026-07-01",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.050455,
+    "lng": -73.570632
+   },
+   "klass": "house",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 11.383128684610961,
+   "ppsf": 952.0594193112762
+  },
+  {
+   "mls": "24157235",
+   "slug": "21-zygmont-lane-greenwich-connecticut-24157235",
+   "address": {
+    "line": "21 Zygmont Lane",
+    "unit": null,
+    "lineWithUnit": "21 Zygmont Lane",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06831"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2077.0,
+   "price": 1850000.0,
+   "date": "2026-06-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.141861,
+    "lng": -73.634513
+   },
+   "klass": "house",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 0.44589333209640725,
+   "ppsf": 890.7077515647569
   }
- }
+ ]
 }

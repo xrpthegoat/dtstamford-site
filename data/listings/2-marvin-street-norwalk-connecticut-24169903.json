@@ -118,101 +118,141 @@
    "mi": 1.34
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "11-ludlow-manor-norwalk-connecticut-24157508",
-     "addr": "11 Ludlow Manor",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 2190.0,
-     "price": 1050000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-14",
-     "ppsf": 479,
-     "mi": 0.13
-    },
-    {
-     "slug": "8-roland-avenue-norwalk-connecticut-24175531",
-     "addr": "8 Roland Avenue",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1667.0,
-     "price": 1510000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-15",
-     "ppsf": 906,
-     "mi": 0.14
-    },
-    {
-     "slug": "11-roland-avenue-norwalk-connecticut-24149540",
-     "addr": "11 Roland Avenue",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1962.0,
-     "price": 1450000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-09",
-     "ppsf": 739,
-     "mi": 0.14
-    },
-    {
-     "slug": "66-cove-avenue-norwalk-connecticut-24166619",
-     "addr": "66 Cove Avenue",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1346.0,
-     "price": 1300000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-21",
-     "ppsf": 966,
-     "mi": 0.29
-    },
-    {
-     "slug": "10-island-drive-norwalk-connecticut-24173525",
-     "addr": "10 Island Drive",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1617.0,
-     "price": 1600000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-22",
-     "ppsf": 989,
-     "mi": 0.36
-    },
-    {
-     "slug": "12-old-saugatuck-road-norwalk-connecticut-24160991",
-     "addr": "12 Old Saugatuck Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 1.0,
-     "sqft": 1617.0,
-     "price": 832000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-08",
-     "ppsf": 515,
-     "mi": 0.4
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 832000.0,
-    "high": 1600000.0,
-    "median": 1375000
+ "comps": [
+  {
+   "mls": "24158382",
+   "slug": "13-elliott-street-norwalk-connecticut-24158382",
+   "address": {
+    "line": "13 Elliott Street",
+    "unit": null,
+    "lineWithUnit": "13 Elliott Street",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06855"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1287.0,
+   "price": 1010000.0,
+   "date": "2026-05-28",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.090985,
+    "lng": -73.399115
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5029056524874825,
+   "ppsf": 784.7707847707848
+  },
+  {
+   "mls": "24166619",
+   "slug": "66-cove-avenue-norwalk-connecticut-24166619",
+   "address": {
+    "line": "66 Cove Avenue",
+    "unit": null,
+    "lineWithUnit": "66 Cove Avenue",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06855"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1346.0,
+   "price": 1300000.0,
+   "date": "2026-07-21",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.093363,
+    "lng": -73.402478
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.4739188440520918,
+   "ppsf": 965.8246656760773
+  },
+  {
+   "mls": "24172453",
+   "slug": "10-shorefront-park-norwalk-connecticut-24172453",
+   "address": {
+    "line": "10 Shorefront Park",
+    "unit": null,
+    "lineWithUnit": "10 Shorefront Park",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 3.0,
+   "baths": 1.0,
+   "sqft": 1444.0,
+   "price": 860000.0,
+   "date": "2026-07-08",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.091543,
+    "lng": -73.412368
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.318229992217438,
+   "ppsf": 595.5678670360111
+  },
+  {
+   "mls": "24161104",
+   "slug": "19-lyncrest-drive-norwalk-connecticut-24161104",
+   "address": {
+    "line": "19 Lyncrest Drive",
+    "unit": null,
+    "lineWithUnit": "19 Lyncrest Drive",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1460.0,
+   "price": 752000.0,
+   "date": "2026-05-29",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.114698,
+    "lng": -73.396749
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.154120605875363,
+   "ppsf": 515.068493150685
+  },
+  {
+   "mls": "24162002",
+   "slug": "60-myrtle-street-extension-norwalk-connecticut-24162002",
+   "address": {
+    "line": "60 Myrtle Street Extension",
+    "unit": null,
+    "lineWithUnit": "60 Myrtle Street Extension",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06855"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 1105.0,
+   "price": 450000.0,
+   "date": "2026-07-01",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.107254,
+    "lng": -73.398997
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.3317719684898437,
+   "ppsf": 407.23981900452486
   }
- }
+ ]
 }

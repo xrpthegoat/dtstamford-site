@@ -135,98 +135,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "43-laurel-ledge-road-stamford-connecticut-24182775",
-     "addr": "43 Laurel Ledge Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 3495.0,
-     "price": 1500000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-10",
-     "ppsf": 429,
-     "mi": 0.08
-    },
-    {
-     "slug": "25-wildwood-road-stamford-connecticut-24161680",
-     "addr": "25 Wildwood Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 5.0,
-     "sqft": 5972.0,
-     "price": 2410000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-20",
-     "ppsf": 404,
-     "mi": 0.67
-    },
-    {
-     "slug": "2525-long-ridge-road-stamford-connecticut-24170713",
-     "addr": "2525 Long Ridge Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2524.0,
-     "price": 1225000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-16",
-     "ppsf": 485,
-     "mi": 0.67
-    },
-    {
-     "slug": "73-harpsichord-turnpike-stamford-connecticut-24176765",
-     "addr": "73 Harpsichord Turnpike",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 5167.0,
-     "price": 1600000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 310,
-     "mi": 0.32
-    },
-    {
-     "slug": "96-harpsichord-turnpike-stamford-connecticut-24196015",
-     "addr": "96 Harpsichord Turnpike",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 5.0,
-     "sqft": 5492.0,
-     "price": 2225000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 405,
-     "mi": 0.33
-    },
-    {
-     "slug": "418-hunting-ridge-road-stamford-connecticut-24177438",
-     "addr": "418 Hunting Ridge Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 4077.0,
-     "price": 1345000.0,
-     "kind": "asking",
-     "status": "Under Contract - Continue to Show",
-     "ppsf": 330,
-     "mi": 0.61
-    }
-   ],
-   "summary": {
-    "n": 3,
-    "low": 1225000.0,
-    "high": 2410000.0,
-    "median": 1500000
+ "comps": [
+  {
+   "mls": "24152881",
+   "slug": "5-old-wagon-road-stamford-connecticut-24152881",
+   "address": {
+    "line": "5 Old Wagon Road",
+    "unit": null,
+    "lineWithUnit": "5 Old Wagon Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2890.0,
+   "price": 1025800.0,
+   "date": "2026-03-31",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.146531,
+    "lng": -73.59411
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8414071956126259,
+   "ppsf": 354.94809688581313
+  },
+  {
+   "mls": "24182775",
+   "slug": "43-laurel-ledge-road-stamford-connecticut-24182775",
+   "address": {
+    "line": "43 Laurel Ledge Road",
+    "unit": null,
+    "lineWithUnit": "43 Laurel Ledge Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 3495.0,
+   "price": 1500000.0,
+   "date": "2026-08-10",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.140038,
+    "lng": -73.59533
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.12846001274160662,
+   "ppsf": 429.18454935622316
+  },
+  {
+   "mls": "24170555",
+   "slug": "28-pony-trail-road-stamford-connecticut-24170555",
+   "address": {
+    "line": "28 Pony Trail Road",
+    "unit": null,
+    "lineWithUnit": "28 Pony Trail Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 2988.0,
+   "price": 1400000.0,
+   "date": "2026-06-23",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.12484,
+    "lng": -73.607633
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.9081477101260749,
+   "ppsf": 468.5408299866131
+  },
+  {
+   "mls": "24173258",
+   "slug": "19-timber-mill-circle-stamford-connecticut-24173258",
+   "address": {
+    "line": "19 Timber Mill Circle",
+    "unit": null,
+    "lineWithUnit": "19 Timber Mill Circle",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 4076.0,
+   "price": 975000.0,
+   "date": "2026-06-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.12337,
+    "lng": -73.583166
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.9870748791539388,
+   "ppsf": 239.20510304219823
+  },
+  {
+   "mls": "24177197",
+   "slug": "198-woodchuck-road-stamford-connecticut-24177197",
+   "address": {
+    "line": "198 Woodchuck Road",
+    "unit": null,
+    "lineWithUnit": "198 Woodchuck Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 3322.0,
+   "price": 2450000.0,
+   "date": "2026-06-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.121548,
+    "lng": -73.577948
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.3936527333020927,
+   "ppsf": 737.5075255869958
   }
- }
+ ]
 }

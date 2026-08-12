@@ -136,101 +136,141 @@
    "mi": 0.78
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "1-duffys-lane-darien-connecticut-24169160",
-     "addr": "1 Duffys Lane",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 6.0,
-     "sqft": 4966.0,
-     "price": 3500000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-08",
-     "ppsf": 705,
-     "mi": 0.29
-    },
-    {
-     "slug": "19-thomasina-lane-darien-connecticut-24155231",
-     "addr": "19 Thomasina Lane",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 4.0,
-     "sqft": 4170.0,
-     "price": 3600000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-15",
-     "ppsf": 863,
-     "mi": 0.41
-    },
-    {
-     "slug": "25-patricia-lane-darien-connecticut-24161087",
-     "addr": "25 Patricia Lane",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 6.0,
-     "sqft": 5735.0,
-     "price": 3615000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-10",
-     "ppsf": 630,
-     "mi": 0.42
-    },
-    {
-     "slug": "18-thomasina-lane-darien-connecticut-24168968",
-     "addr": "18 Thomasina Lane",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 5.0,
-     "sqft": 4446.0,
-     "price": 3250000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-24",
-     "ppsf": 731,
-     "mi": 0.43
-    },
-    {
-     "slug": "43-dubois-street-darien-connecticut-24160871",
-     "addr": "43 Dubois Street",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 6.0,
-     "sqft": 3482.0,
-     "price": 2900000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-01",
-     "ppsf": 833,
-     "mi": 0.47
-    },
-    {
-     "slug": "29-walmsley-road-darien-connecticut-24155790",
-     "addr": "29 Walmsley Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 4.0,
-     "sqft": 3498.0,
-     "price": 2925000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-14",
-     "ppsf": 836,
-     "mi": 0.53
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 2900000.0,
-    "high": 3615000.0,
-    "median": 3375000
+ "comps": [
+  {
+   "mls": "24165331",
+   "slug": "15-beach-drive-darien-connecticut-24165331",
+   "address": {
+    "line": "15 Beach Drive",
+    "unit": null,
+    "lineWithUnit": "15 Beach Drive",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 5.0,
+   "sqft": 4748.0,
+   "price": 4300000.0,
+   "date": "2026-06-12",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.056803,
+    "lng": -73.493511
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.27736328862426507,
+   "ppsf": 905.6444818871104
+  },
+  {
+   "mls": "24167667",
+   "slug": "8-pasture-lane-darien-connecticut-24167667",
+   "address": {
+    "line": "8 Pasture Lane",
+    "unit": null,
+    "lineWithUnit": "8 Pasture Lane",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 6.0,
+   "baths": 6.0,
+   "sqft": 5505.0,
+   "price": 4300000.0,
+   "date": "2026-06-16",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.057255,
+    "lng": -73.486521
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8342898216799974,
+   "ppsf": 781.1080835603997
+  },
+  {
+   "mls": "24154543",
+   "slug": "3-salt-box-lane-east-darien-connecticut-24154543",
+   "address": {
+    "line": "3 Salt Box Lane East",
+    "unit": null,
+    "lineWithUnit": "3 Salt Box Lane East",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 3946.0,
+   "price": 2895000.0,
+   "date": "2026-04-24",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.0613,
+    "lng": -73.49478
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.3935402042574753,
+   "ppsf": 733.6543335022808
+  },
+  {
+   "mls": "24155342",
+   "slug": "20-outlook-drive-darien-connecticut-24155342",
+   "address": {
+    "line": "20 Outlook Drive",
+    "unit": null,
+    "lineWithUnit": "20 Outlook Drive",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 6.0,
+   "baths": 6.0,
+   "sqft": 5378.0,
+   "price": 3825000.0,
+   "date": "2026-04-20",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.056564,
+    "lng": -73.4929
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.33507147890517314,
+   "ppsf": 711.230940870212
+  },
+  {
+   "mls": "24146804",
+   "slug": "32-relihan-road-darien-connecticut-24146804",
+   "address": {
+    "line": "32 Relihan Road",
+    "unit": null,
+    "lineWithUnit": "32 Relihan Road",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 5.0,
+   "baths": 6.0,
+   "sqft": 4900.0,
+   "price": 3100000.0,
+   "date": "2026-06-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.06543,
+    "lng": -73.492871
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8798105689818133,
+   "ppsf": 632.6530612244898
   }
- }
+ ]
 }

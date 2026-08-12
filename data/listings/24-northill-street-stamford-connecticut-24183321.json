@@ -117,101 +117,141 @@
    "mi": 1.99
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "965-hope-street-stamford-connecticut-24186353",
-     "addr": "965 Hope Street Unit 203",
-     "unit": "Unit 203",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 900.0,
-     "price": 2800.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-16",
-     "ppsf": 3,
-     "mi": 0.1
-    },
-    {
-     "slug": "211-knickerbocker-avenue-stamford-connecticut-24177086",
-     "addr": "211 Knickerbocker Avenue",
-     "unit": "",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 2184.0,
-     "price": 2575.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-01",
-     "ppsf": 1,
-     "mi": 0.1
-    },
-    {
-     "slug": "85-camp-avenue-stamford-connecticut-24159306",
-     "addr": "85 Camp Avenue Apt 9i",
-     "unit": "Apt 9i",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1625.0,
-     "price": 3700.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-01",
-     "ppsf": 2,
-     "mi": 0.18
-    },
-    {
-     "slug": "85-camp-avenue-stamford-connecticut-24158493",
-     "addr": "85 Camp Avenue Apt 12A",
-     "unit": "Apt 12A",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1625.0,
-     "price": 3750.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-08",
-     "ppsf": 2,
-     "mi": 0.19
-    },
-    {
-     "slug": "85-camp-avenue-stamford-connecticut-24156960",
-     "addr": "85 Camp Avenue Apt 14J",
-     "unit": "Apt 14J",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1625.0,
-     "price": 3600.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-15",
-     "ppsf": 2,
-     "mi": 0.2
-    },
-    {
-     "slug": "878-hope-street-stamford-connecticut-24154409",
-     "addr": "878 Hope Street",
-     "unit": "",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 1458.0,
-     "price": 3200.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-02",
-     "ppsf": 2,
-     "mi": 0.26
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 2575.0,
-    "high": 3750.0,
-    "median": 3400
+ "comps": [
+  {
+   "mls": "24157278",
+   "slug": "46-prudence-drive-stamford-connecticut-24157278",
+   "address": {
+    "line": "46 Prudence Drive",
+    "unit": null,
+    "lineWithUnit": "46 Prudence Drive",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06907"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 2.0,
+   "sqft": 1628.0,
+   "price": 5300.0,
+   "date": "2026-03-18",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.100349,
+    "lng": -73.519012
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8388762234986128,
+   "ppsf": 3.2555282555282554
+  },
+  {
+   "mls": "24154348",
+   "slug": "32-bouton-street-east-stamford-connecticut-24154348",
+   "address": {
+    "line": "32 Bouton Street East",
+    "unit": "Unit 2",
+    "lineWithUnit": "32 Bouton Street East Unit 2",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06907"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 2400.0,
+   "price": 3500.0,
+   "date": "2026-03-28",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.100479,
+    "lng": -73.514838
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.924517149572489,
+   "ppsf": 1.4583333333333333
+  },
+  {
+   "mls": "24160196",
+   "slug": "6-bouton-street-east-stamford-connecticut-24160196",
+   "address": {
+    "line": "6 Bouton Street East",
+    "unit": "Unit 9",
+    "lineWithUnit": "6 Bouton Street East Unit 9",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06907"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1680.0,
+   "price": 3400.0,
+   "date": "2026-07-02",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.100803,
+    "lng": -73.51625
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9204981011282272,
+   "ppsf": 2.0238095238095237
+  },
+  {
+   "mls": "24180929",
+   "slug": "17-oenoke-place-stamford-connecticut-24180929",
+   "address": {
+    "line": "17 Oenoke Place",
+    "unit": "Unit REAR Home",
+    "lineWithUnit": "17 Oenoke Place Unit REAR Home",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06907"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2350.0,
+   "price": 5300.0,
+   "date": "2026-07-13",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.098851,
+    "lng": -73.516609
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7035488660572631,
+   "ppsf": 2.25531914893617
+  },
+  {
+   "mls": "24186180",
+   "slug": "806-hope-street-stamford-connecticut-24186180",
+   "address": {
+    "line": "806 Hope Street",
+    "unit": "Unit 2",
+    "lineWithUnit": "806 Hope Street Unit 2",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06907"
+   },
+   "beds": 3.0,
+   "baths": 4.0,
+   "sqft": 2174.0,
+   "price": 4400.0,
+   "date": "2026-07-24",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.086582,
+    "lng": -73.5196
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6933159453785973,
+   "ppsf": 2.0239190432382705
   }
- }
+ ]
 }

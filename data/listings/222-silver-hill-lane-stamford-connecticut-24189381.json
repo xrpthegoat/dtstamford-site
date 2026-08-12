@@ -131,101 +131,141 @@
    "mi": 0.96
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "91-dann-drive-stamford-connecticut-24161029",
-     "addr": "91 Dann Drive",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1413.0,
-     "price": 765000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-17",
-     "ppsf": 541,
-     "mi": 0.24
-    },
-    {
-     "slug": "101-hirsch-road-stamford-connecticut-24174137",
-     "addr": "101 Hirsch Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1812.0,
-     "price": 880000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-23",
-     "ppsf": 486,
-     "mi": 0.31
-    },
-    {
-     "slug": "67-barrett-avenue-stamford-connecticut-24166303",
-     "addr": "67 Barrett Avenue",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 2189.0,
-     "price": 1018000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-28",
-     "ppsf": 465,
-     "mi": 0.31
-    },
-    {
-     "slug": "102-hirsch-road-stamford-connecticut-24154996",
-     "addr": "102 Hirsch Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1526.0,
-     "price": 820000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-01",
-     "ppsf": 537,
-     "mi": 0.33
-    },
-    {
-     "slug": "5-woods-end-road-stamford-connecticut-24182223",
-     "addr": "5 Woods End Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 2020.0,
-     "price": 820000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-16",
-     "ppsf": 406,
-     "mi": 0.39
-    },
-    {
-     "slug": "125-oaklawn-avenue-stamford-connecticut-24163597",
-     "addr": "125 Oaklawn Avenue",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1164.0,
-     "price": 672701.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-31",
-     "ppsf": 578,
-     "mi": 0.42
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 672701.0,
-    "high": 1018000.0,
-    "median": 820000
+ "comps": [
+  {
+   "mls": "24174137",
+   "slug": "101-hirsch-road-stamford-connecticut-24174137",
+   "address": {
+    "line": "101 Hirsch Road",
+    "unit": null,
+    "lineWithUnit": "101 Hirsch Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1812.0,
+   "price": 880000.0,
+   "date": "2026-06-23",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.081553,
+    "lng": -73.538622
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.49896918768294957,
+   "ppsf": 485.6512141280353
+  },
+  {
+   "mls": "24148356",
+   "slug": "7-dubois-street-stamford-connecticut-24148356",
+   "address": {
+    "line": "7 Dubois Street",
+    "unit": null,
+    "lineWithUnit": "7 Dubois Street",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2036.0,
+   "price": 954000.0,
+   "date": "2026-03-16",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.077353,
+    "lng": -73.549526
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0638432379588552,
+   "ppsf": 468.56581532416504
+  },
+  {
+   "mls": "24154789",
+   "slug": "62-ridge-park-avenue-stamford-connecticut-24154789",
+   "address": {
+    "line": "62 Ridge Park Avenue",
+    "unit": null,
+    "lineWithUnit": "62 Ridge Park Avenue",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1609.0,
+   "price": 715000.0,
+   "date": "2026-03-24",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.09161,
+    "lng": -73.549612
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9507207868516395,
+   "ppsf": 444.37538844002484
+  },
+  {
+   "mls": "24154996",
+   "slug": "102-hirsch-road-stamford-connecticut-24154996",
+   "address": {
+    "line": "102 Hirsch Road",
+    "unit": null,
+    "lineWithUnit": "102 Hirsch Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1526.0,
+   "price": 820000.0,
+   "date": "2026-04-01",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.081163,
+    "lng": -73.538666
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.532341022797635,
+   "ppsf": 537.3525557011795
+  },
+  {
+   "mls": "24153075",
+   "slug": "47-wood-ridge-drive-stamford-connecticut-24153075",
+   "address": {
+    "line": "47 Wood Ridge Drive",
+    "unit": null,
+    "lineWithUnit": "47 Wood Ridge Drive",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1753.0,
+   "price": 757500.0,
+   "date": "2026-04-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.092018,
+    "lng": -73.551972
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1210286022370344,
+   "ppsf": 432.11637193382774
   }
- }
+ ]
 }

@@ -107,101 +107,141 @@
    "mi": 0.7
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "26-harris-street-norwalk-connecticut-24170909",
-     "addr": "26 Harris Street",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1492.0,
-     "price": 650000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-02",
-     "ppsf": 436,
-     "mi": 0.22
-    },
-    {
-     "slug": "46-ponus-avenue-norwalk-connecticut-24169429",
-     "addr": "46 Ponus Avenue",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1338.0,
-     "price": 570000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-14",
-     "ppsf": 426,
-     "mi": 0.23
-    },
-    {
-     "slug": "8-bartlett-manor-norwalk-connecticut-24165229",
-     "addr": "8 Bartlett Manor",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 1.0,
-     "sqft": 1074.0,
-     "price": 608125.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-11",
-     "ppsf": 566,
-     "mi": 0.24
-    },
-    {
-     "slug": "80-broad-street-norwalk-connecticut-24151591",
-     "addr": "80 Broad Street",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1610.0,
-     "price": 760000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-20",
-     "ppsf": 472,
-     "mi": 0.29
-    },
-    {
-     "slug": "2-james-street-norwalk-connecticut-24174518",
-     "addr": "2 James Street",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1570.0,
-     "price": 695000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-10",
-     "ppsf": 443,
-     "mi": 0.41
-    },
-    {
-     "slug": "48-fair-street-norwalk-connecticut-24131710",
-     "addr": "48 Fair Street",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1643.0,
-     "price": 535000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-14",
-     "ppsf": 326,
-     "mi": 0.58
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 535000.0,
-    "high": 760000.0,
-    "median": 629062
+ "comps": [
+  {
+   "mls": "24170426",
+   "slug": "39-fair-street-norwalk-connecticut-24170426",
+   "address": {
+    "line": "39 Fair Street",
+    "unit": null,
+    "lineWithUnit": "39 Fair Street",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 1120.0,
+   "price": 515000.0,
+   "date": "2026-06-22",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.122762,
+    "lng": -73.422581
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0015340351372075,
+   "ppsf": 459.82142857142856
+  },
+  {
+   "mls": "24122720",
+   "slug": "5-tower-drive-norwalk-connecticut-24122720",
+   "address": {
+    "line": "5 Tower Drive",
+    "unit": null,
+    "lineWithUnit": "5 Tower Drive",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 4.0,
+   "baths": 2.0,
+   "sqft": 1260.0,
+   "price": 635000.0,
+   "date": "2026-04-13",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.123894,
+    "lng": -73.434918
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5862993543442678,
+   "ppsf": 503.968253968254
+  },
+  {
+   "mls": "24165229",
+   "slug": "8-bartlett-manor-norwalk-connecticut-24165229",
+   "address": {
+    "line": "8 Bartlett Manor",
+    "unit": null,
+    "lineWithUnit": "8 Bartlett Manor",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 3.0,
+   "baths": 1.0,
+   "sqft": 1074.0,
+   "price": 608125.0,
+   "date": "2026-05-11",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.125632,
+    "lng": -73.434203
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.38870356093300196,
+   "ppsf": 566.2243947858473
+  },
+  {
+   "mls": "24165843",
+   "slug": "28-silvermine-avenue-norwalk-connecticut-24165843",
+   "address": {
+    "line": "28 Silvermine Avenue",
+    "unit": null,
+    "lineWithUnit": "28 Silvermine Avenue",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 891.0,
+   "price": 475000.0,
+   "date": "2026-05-27",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.128999,
+    "lng": -73.432359
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.07165566812416256,
+   "ppsf": 533.1088664421998
+  },
+  {
+   "mls": "24169429",
+   "slug": "46-ponus-avenue-norwalk-connecticut-24169429",
+   "address": {
+    "line": "46 Ponus Avenue",
+    "unit": null,
+    "lineWithUnit": "46 Ponus Avenue",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1338.0,
+   "price": 570000.0,
+   "date": "2026-07-14",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.126333,
+    "lng": -73.435092
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.3777769824126714,
+   "ppsf": 426.00896860986546
   }
- }
+ ]
 }

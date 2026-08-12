@@ -137,101 +137,141 @@
    "mi": 1.01
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "54-lindstrom-road-stamford-connecticut-24162859",
-     "addr": "54 Lindstrom Road Unit 54",
-     "unit": "Unit 54",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1534.0,
-     "price": 540009.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-30",
-     "ppsf": 352,
-     "mi": 0.1
-    },
-    {
-     "slug": "43-harbor-drive-stamford-connecticut-24174717",
-     "addr": "43 Harbor Drive Unit 101",
-     "unit": "Unit 101",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1065.0,
-     "price": 640000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-06",
-     "ppsf": 601,
-     "mi": 0.14
-    },
-    {
-     "slug": "105-harbor-drive-stamford-connecticut-24156414",
-     "addr": "105 Harbor Drive Unit 120",
-     "unit": "Unit 120",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1600.0,
-     "price": 629000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-14",
-     "ppsf": 393,
-     "mi": 0.22
-    },
-    {
-     "slug": "61-seaview-avenue-stamford-connecticut-24150586",
-     "addr": "61 Seaview Avenue Apt 42",
-     "unit": "Apt 42",
-     "beds": 2.0,
-     "baths": 3.0,
-     "sqft": 1450.0,
-     "price": 551700.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-06",
-     "ppsf": 380,
-     "mi": 0.25
-    },
-    {
-     "slug": "123-harbor-drive-stamford-connecticut-24167499",
-     "addr": "123 Harbor Drive Unit 501",
-     "unit": "Unit 501",
-     "beds": 2.0,
-     "baths": 3.0,
-     "sqft": 1489.0,
-     "price": 817500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-01",
-     "ppsf": 549,
-     "mi": 0.27
-    },
-    {
-     "slug": "123-harbor-drive-stamford-connecticut-24169116",
-     "addr": "123 Harbor Drive Unit 308",
-     "unit": "Unit 308",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1406.0,
-     "price": 794000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-21",
-     "ppsf": 565,
-     "mi": 0.27
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 540009.0,
-    "high": 817500.0,
-    "median": 634500
+ "comps": [
+  {
+   "mls": "24156414",
+   "slug": "105-harbor-drive-stamford-connecticut-24156414",
+   "address": {
+    "line": "105 Harbor Drive",
+    "unit": "Unit 120",
+    "lineWithUnit": "105 Harbor Drive Unit 120",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1600.0,
+   "price": 629000.0,
+   "date": "2026-05-14",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.037318,
+    "lng": -73.530622
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.3490433575661913,
+   "ppsf": 393.125
+  },
+  {
+   "mls": "24167136",
+   "slug": "77-van-buskirk-avenue-stamford-connecticut-24167136",
+   "address": {
+    "line": "77 Van Buskirk Avenue",
+    "unit": "Unit 77",
+    "lineWithUnit": "77 Van Buskirk Avenue Unit 77",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1503.0,
+   "price": 485000.0,
+   "date": "2026-07-16",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.047043,
+    "lng": -73.517653
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.186498174300549,
+   "ppsf": 322.68795741849635
+  },
+  {
+   "mls": "24130036",
+   "slug": "55-woodland-place-stamford-connecticut-24130036",
+   "address": {
+    "line": "55 Woodland Place",
+    "unit": "Apt 1",
+    "lineWithUnit": "55 Woodland Place Apt 1",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1394.0,
+   "price": 495000.0,
+   "date": "2026-05-11",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.041265,
+    "lng": -73.536027
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7533513256701234,
+   "ppsf": 355.09325681492106
+  },
+  {
+   "mls": "24149691",
+   "slug": "75-van-buskirk-avenue-stamford-connecticut-24149691",
+   "address": {
+    "line": "75 Van Buskirk Avenue",
+    "unit": "Unit 75",
+    "lineWithUnit": "75 Van Buskirk Avenue Unit 75",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1427.0,
+   "price": 503000.0,
+   "date": "2026-06-03",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.046486,
+    "lng": -73.51855
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0898197179205558,
+   "ppsf": 352.4877365101612
+  },
+  {
+   "mls": "24150586",
+   "slug": "61-seaview-avenue-stamford-connecticut-24150586",
+   "address": {
+    "line": "61 Seaview Avenue",
+    "unit": "Apt 42",
+    "lineWithUnit": "61 Seaview Avenue Apt 42",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 1450.0,
+   "price": 551700.0,
+   "date": "2026-05-06",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.040738,
+    "lng": -73.523099
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.3951124789997353,
+   "ppsf": 380.48275862068965
   }
- }
+ ]
 }

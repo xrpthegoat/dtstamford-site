@@ -133,101 +133,141 @@
    "walk": 10
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "300-hubbard-avenue-stamford-connecticut-24191197",
-     "addr": "300 Hubbard Avenue",
-     "unit": "",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 1135.0,
-     "price": 3000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-27",
-     "ppsf": 3,
-     "mi": 0.19
-    },
-    {
-     "slug": "73-riverside-avenue-stamford-connecticut-24149303",
-     "addr": "73 Riverside Avenue Unit 3A",
-     "unit": "Unit 3A",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1193.0,
-     "price": 3200.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-15",
-     "ppsf": 3,
-     "mi": 0.27
-    },
-    {
-     "slug": "17-duncanson-street-stamford-connecticut-24188542",
-     "addr": "17 Duncanson Street",
-     "unit": "",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 700.0,
-     "price": 2300.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-28",
-     "ppsf": 3,
-     "mi": 0.32
-    },
-    {
-     "slug": "1-reynolds-avenue-stamford-connecticut-24154184",
-     "addr": "1 Reynolds Avenue Unit Upstairs",
-     "unit": "Unit Upstairs",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 768.0,
-     "price": 2600.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-20",
-     "ppsf": 3,
-     "mi": 0.37
-    },
-    {
-     "slug": "17-rockfield-drive-stamford-connecticut-24158738",
-     "addr": "17 Rockfield Drive",
-     "unit": "",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1200.0,
-     "price": 3195.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-01",
-     "ppsf": 3,
-     "mi": 0.52
-    },
-    {
-     "slug": "134-woodside-green-street-stamford-connecticut-24169712",
-     "addr": "134 Woodside Green Street Unit 3B",
-     "unit": "Unit 3B",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 983.0,
-     "price": 2700.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-22",
-     "ppsf": 3,
-     "mi": 0.53
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 2300.0,
-    "high": 3200.0,
-    "median": 2850
+ "comps": [
+  {
+   "mls": "24180915",
+   "slug": "9-old-north-stamford-road-stamford-connecticut-24180915",
+   "address": {
+    "line": "9 Old North Stamford Road",
+    "unit": "Unit 35G",
+    "lineWithUnit": "9 Old North Stamford Road Unit 35G",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
    },
-   "radiusMi": 0.75
+   "beds": 1.0,
+   "baths": 3.0,
+   "sqft": 1916.0,
+   "price": 2700.0,
+   "date": "2026-06-03",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.070557,
+    "lng": -73.54574
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1218213911873813,
+   "ppsf": 1.4091858037578289
+  },
+  {
+   "mls": "24169551",
+   "slug": "49-woodside-street-stamford-connecticut-24169551",
+   "address": {
+    "line": "49 Woodside Street",
+    "unit": null,
+    "lineWithUnit": "49 Woodside Street",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 2160.0,
+   "price": 1900.0,
+   "date": "2026-06-05",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.06225,
+    "lng": -73.543182
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1896629613961236,
+   "ppsf": 0.8796296296296297
+  },
+  {
+   "mls": "24169832",
+   "slug": "2700-bedford-street-stamford-connecticut-24169832",
+   "address": {
+    "line": "2700 Bedford Street",
+    "unit": "Unit O",
+    "lineWithUnit": "2700 Bedford Street Unit O",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1410.0,
+   "price": 4000.0,
+   "date": "2026-06-28",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.07051,
+    "lng": -73.547325
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.010487445994578,
+   "ppsf": 2.8368794326241136
+  },
+  {
+   "mls": "24178813",
+   "slug": "1611-washington-boulevard-stamford-connecticut-24178813",
+   "address": {
+    "line": "1611 Washington Boulevard",
+    "unit": "Unit 2",
+    "lineWithUnit": "1611 Washington Boulevard Unit 2",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 1566.0,
+   "price": 3450.0,
+   "date": "2026-07-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.06157,
+    "lng": -73.54351
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.185155287816358,
+   "ppsf": 2.203065134099617
+  },
+  {
+   "mls": "24183339",
+   "slug": "102-old-barn-road-west-stamford-connecticut-24183339",
+   "address": {
+    "line": "102 Old Barn Road West",
+    "unit": null,
+    "lineWithUnit": "102 Old Barn Road West",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1414.0,
+   "price": 4500.0,
+   "date": "2026-06-19",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.071616,
+    "lng": -73.556107
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7398739423999153,
+   "ppsf": 3.1824611032531824
   }
- }
+ ]
 }

@@ -130,70 +130,141 @@
    "mi": 1.28
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "42-hastings-lane-stamford-connecticut-24160482",
-     "addr": "42 Hastings Lane",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 3.0,
-     "sqft": 3702.0,
-     "price": 1660000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-01",
-     "ppsf": 448,
-     "mi": 0.41
-    },
-    {
-     "slug": "44-toms-road-stamford-connecticut-24186121",
-     "addr": "44 Toms Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 4.0,
-     "sqft": 2846.0,
-     "price": 849999.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 299,
-     "mi": 0.33
-    },
-    {
-     "slug": "519-newfield-avenue-stamford-connecticut-24197396",
-     "addr": "519 Newfield Avenue",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 4.0,
-     "sqft": 3487.0,
-     "price": 1649000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 473,
-     "mi": 0.43
-    },
-    {
-     "slug": "18-phillips-lane-darien-connecticut-24172629",
-     "addr": "18 Phillips Lane",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 4.0,
-     "sqft": 4567.0,
-     "price": 3250000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 712,
-     "mi": 0.75
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 1660000.0,
-    "high": 1660000.0,
-    "median": 1660000
+ "comps": [
+  {
+   "mls": "24164817",
+   "slug": "190-toms-road-stamford-connecticut-24164817",
+   "address": {
+    "line": "190 Toms Road",
+    "unit": null,
+    "lineWithUnit": "190 Toms Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06906"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1800.0,
+   "price": 750000.0,
+   "date": "2026-06-18",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.078549,
+    "lng": -73.530545
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.4771552650266012,
+   "ppsf": 416.6666666666667
+  },
+  {
+   "mls": "24174137",
+   "slug": "101-hirsch-road-stamford-connecticut-24174137",
+   "address": {
+    "line": "101 Hirsch Road",
+    "unit": null,
+    "lineWithUnit": "101 Hirsch Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1812.0,
+   "price": 880000.0,
+   "date": "2026-06-23",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.081553,
+    "lng": -73.538622
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9202865559228491,
+   "ppsf": 485.6512141280353
+  },
+  {
+   "mls": "24173882",
+   "slug": "11-klondike-avenue-stamford-connecticut-24173882",
+   "address": {
+    "line": "11 Klondike Avenue",
+    "unit": null,
+    "lineWithUnit": "11 Klondike Avenue",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06907"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 2012.0,
+   "price": 860000.0,
+   "date": "2026-07-10",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.086642,
+    "lng": -73.526437
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.49852130145796436,
+   "ppsf": 427.43538767395626
+  },
+  {
+   "mls": "24152692",
+   "slug": "212-high-clear-drive-stamford-connecticut-24152692",
+   "address": {
+    "line": "212 High Clear Drive",
+    "unit": null,
+    "lineWithUnit": "212 High Clear Drive",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2332.0,
+   "price": 1300000.0,
+   "date": "2026-03-19",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.083672,
+    "lng": -73.541009
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.128002926017956,
+   "ppsf": 557.4614065180103
+  },
+  {
+   "mls": "24155470",
+   "slug": "78-elizabeth-avenue-stamford-connecticut-24155470",
+   "address": {
+    "line": "78 Elizabeth Avenue",
+    "unit": null,
+    "lineWithUnit": "78 Elizabeth Avenue",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06907"
+   },
+   "beds": 4.0,
+   "baths": 2.0,
+   "sqft": 1832.0,
+   "price": 770000.0,
+   "date": "2026-04-23",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.084553,
+    "lng": -73.525059
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.3368294940700986,
+   "ppsf": 420.3056768558952
   }
- }
+ ]
 }

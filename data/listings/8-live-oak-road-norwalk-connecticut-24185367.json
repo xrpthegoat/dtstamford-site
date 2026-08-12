@@ -133,98 +133,141 @@
    "mi": 0.76
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "89-bayne-street-norwalk-connecticut-24165342",
-     "addr": "89 Bayne Street",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2838.0,
-     "price": 836000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-03",
-     "ppsf": 295,
-     "mi": 0.23
-    },
-    {
-     "slug": "norwalk-connecticut-24151761",
-     "addr": null,
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 1772.0,
-     "price": 930000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-26",
-     "ppsf": 525,
-     "mi": 0.32
-    },
-    {
-     "slug": "41-mohawk-drive-norwalk-connecticut-24115022",
-     "addr": "41 Mohawk Drive",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 3018.0,
-     "price": 915000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-22",
-     "ppsf": 303,
-     "mi": 0.58
-    },
-    {
-     "slug": "12-stonehedge-road-norwalk-connecticut-24194759",
-     "addr": "12 Stonehedge Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2896.0,
-     "price": 989000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 342,
-     "mi": 0.27
-    },
-    {
-     "slug": "31-granite-drive-norwalk-connecticut-24185020",
-     "addr": "31 Granite Drive",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 3003.0,
-     "price": 849999.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 283,
-     "mi": 0.38
-    },
-    {
-     "slug": "3-susan-court-norwalk-connecticut-24194994",
-     "addr": "3 Susan Court",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 3706.0,
-     "price": 1199000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 324,
-     "mi": 0.51
-    }
-   ],
-   "summary": {
-    "n": 3,
-    "low": 836000.0,
-    "high": 930000.0,
-    "median": 915000
+ "comps": [
+  {
+   "mls": "24167508",
+   "slug": "16-eastwood-road-norwalk-connecticut-24167508",
+   "address": {
+    "line": "16 Eastwood Road",
+    "unit": null,
+    "lineWithUnit": "16 Eastwood Road",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
    },
-   "radiusMi": 0.75
+   "beds": 5.0,
+   "baths": 4.0,
+   "sqft": 2713.0,
+   "price": 981825.0,
+   "date": "2026-06-24",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.153155,
+    "lng": -73.414642
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.863450469208952,
+   "ppsf": 361.89642462218944
+  },
+  {
+   "mls": "24165360",
+   "slug": "1-driftwood-lane-norwalk-connecticut-24165360",
+   "address": {
+    "line": "1 Driftwood Lane",
+    "unit": null,
+    "lineWithUnit": "1 Driftwood Lane",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2340.0,
+   "price": 781500.0,
+   "date": "2026-07-10",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.150916,
+    "lng": -73.416139
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.135635659294919,
+   "ppsf": 333.97435897435895
+  },
+  {
+   "mls": "24115022",
+   "slug": "41-mohawk-drive-norwalk-connecticut-24115022",
+   "address": {
+    "line": "41 Mohawk Drive",
+    "unit": null,
+    "lineWithUnit": "41 Mohawk Drive",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 3018.0,
+   "price": 915000.0,
+   "date": "2026-04-22",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.15549,
+    "lng": -73.397826
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9278016561431929,
+   "ppsf": 303.18091451292247
+  },
+  {
+   "mls": "24165342",
+   "slug": "89-bayne-street-norwalk-connecticut-24165342",
+   "address": {
+    "line": "89 Bayne Street",
+    "unit": null,
+    "lineWithUnit": "89 Bayne Street",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2838.0,
+   "price": 836000.0,
+   "date": "2026-06-03",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.156407,
+    "lng": -73.405164
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.3679219526101994,
+   "ppsf": 294.5736434108527
+  },
+  {
+   "mls": "24151761",
+   "slug": "norwalk-connecticut-24151761",
+   "address": {
+    "line": null,
+    "unit": null,
+    "lineWithUnit": null,
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 1772.0,
+   "price": 930000.0,
+   "date": "2026-03-26",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.154444,
+    "lng": -73.408179
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 0.5086993328749131,
+   "ppsf": 524.8306997742663
   }
- }
+ ]
 }

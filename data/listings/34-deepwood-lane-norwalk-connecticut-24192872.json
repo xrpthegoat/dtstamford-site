@@ -132,101 +132,141 @@
    "mi": 1.95
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "24-deepwood-lane-norwalk-connecticut-24155974",
-     "addr": "24 Deepwood Lane",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 2.0,
-     "sqft": 1428.0,
-     "price": 692000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-08",
-     "ppsf": 485,
-     "mi": 0.08
-    },
-    {
-     "slug": "40-arnold-lane-norwalk-connecticut-24123809",
-     "addr": "40 Arnold Lane",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 5.0,
-     "sqft": 3319.0,
-     "price": 1835000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-15",
-     "ppsf": 553,
-     "mi": 0.29
-    },
-    {
-     "slug": "11-charcoal-road-norwalk-connecticut-24135368",
-     "addr": "11 Charcoal Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 2.0,
-     "sqft": 2704.0,
-     "price": 855000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-30",
-     "ppsf": 316,
-     "mi": 0.29
-    },
-    {
-     "slug": "370-rowayton-avenue-norwalk-connecticut-24165673",
-     "addr": "370 Rowayton Avenue",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 4064.0,
-     "price": 2500000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-15",
-     "ppsf": 615,
-     "mi": 0.32
-    },
-    {
-     "slug": "2-finch-court-norwalk-connecticut-24150545",
-     "addr": "2 Finch Court",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 2.0,
-     "sqft": 2260.0,
-     "price": 1027000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-08",
-     "ppsf": 454,
-     "mi": 0.41
-    },
-    {
-     "slug": "45-cottontail-road-norwalk-connecticut-24189941",
-     "addr": "45 Cottontail Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2492.0,
-     "price": 1100000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-07",
-     "ppsf": 441,
-     "mi": 0.45
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 692000.0,
-    "high": 2500000.0,
-    "median": 1063500
+ "comps": [
+  {
+   "mls": "24150514",
+   "slug": "8-michael-street-norwalk-connecticut-24150514",
+   "address": {
+    "line": "8 Michael Street",
+    "unit": null,
+    "lineWithUnit": "8 Michael Street",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 2.0,
+   "sqft": 1428.0,
+   "price": 710000.0,
+   "date": "2026-03-16",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.091709,
+    "lng": -73.434546
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0287850898659032,
+   "ppsf": 497.1988795518207
+  },
+  {
+   "mls": "24150904",
+   "slug": "2-rochelle-road-norwalk-connecticut-24150904",
+   "address": {
+    "line": "2 Rochelle Road",
+    "unit": null,
+    "lineWithUnit": "2 Rochelle Road",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1566.0,
+   "price": 616200.0,
+   "date": "2026-05-06",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.0934,
+    "lng": -73.437119
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1901394847404403,
+   "ppsf": 393.48659003831415
+  },
+  {
+   "mls": "24166664",
+   "slug": "10-hunt-street-norwalk-connecticut-24166664",
+   "address": {
+    "line": "10 Hunt Street",
+    "unit": null,
+    "lineWithUnit": "10 Hunt Street",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06853"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1858.0,
+   "price": 1608000.0,
+   "date": "2026-06-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.074268,
+    "lng": -73.444921
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1329238888506719,
+   "ppsf": 865.4467168998924
+  },
+  {
+   "mls": "24163564",
+   "slug": "1-ryan-avenue-norwalk-connecticut-24163564",
+   "address": {
+    "line": "1 Ryan Avenue",
+    "unit": null,
+    "lineWithUnit": "1 Ryan Avenue",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1760.0,
+   "price": 670000.0,
+   "date": "2026-06-18",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.080758,
+    "lng": -73.427646
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.839848224382128,
+   "ppsf": 380.6818181818182
+  },
+  {
+   "mls": "24155974",
+   "slug": "24-deepwood-lane-norwalk-connecticut-24155974",
+   "address": {
+    "line": "24 Deepwood Lane",
+    "unit": null,
+    "lineWithUnit": "24 Deepwood Lane",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 4.0,
+   "baths": 2.0,
+   "sqft": 1428.0,
+   "price": 692000.0,
+   "date": "2026-06-08",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.083798,
+    "lng": -73.436709
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.13292798654956206,
+   "ppsf": 484.593837535014
   }
- }
+ ]
 }

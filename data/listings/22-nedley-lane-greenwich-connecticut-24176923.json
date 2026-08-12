@@ -132,72 +132,141 @@
    "mi": 1.86
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "105-glenville-street-greenwich-connecticut-24150539",
-     "addr": "105 Glenville Street",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1713.0,
-     "price": 977500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-17",
-     "ppsf": 571,
-     "mi": 0.21
-    },
-    {
-     "slug": "40-ettl-lane-greenwich-connecticut-24149318",
-     "addr": "40 Ettl Lane Unit 17",
-     "unit": "Unit 17",
-     "beds": 3.0,
-     "baths": 4.0,
-     "sqft": 2990.0,
-     "price": 1850000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-16",
-     "ppsf": 619,
-     "mi": 0.23
-    },
-    {
-     "slug": "1-pilgrim-drive-greenwich-connecticut-24186503",
-     "addr": "1 Pilgrim Drive",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 1.0,
-     "sqft": 1276.0,
-     "price": 980000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-07",
-     "ppsf": 768,
-     "mi": 0.66
-    },
-    {
-     "slug": "52-francis-lane-greenwich-connecticut-24182873",
-     "addr": "52 Francis Lane",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 4.0,
-     "sqft": 3049.0,
-     "price": 1895000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 622,
-     "mi": 0.68
-    }
-   ],
-   "summary": {
-    "n": 3,
-    "low": 977500.0,
-    "high": 1850000.0,
-    "median": 980000
+ "comps": [
+  {
+   "mls": "24150539",
+   "slug": "105-glenville-street-greenwich-connecticut-24150539",
+   "address": {
+    "line": "105 Glenville Street",
+    "unit": null,
+    "lineWithUnit": "105 Glenville Street",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06831"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1713.0,
+   "price": 977500.0,
+   "date": "2026-03-17",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.03328,
+    "lng": -73.671593
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.33984527914680424,
+   "ppsf": 570.636310566258
+  },
+  {
+   "mls": "24186503",
+   "slug": "1-pilgrim-drive-greenwich-connecticut-24186503",
+   "address": {
+    "line": "1 Pilgrim Drive",
+    "unit": null,
+    "lineWithUnit": "1 Pilgrim Drive",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06831"
+   },
+   "beds": 3.0,
+   "baths": 1.0,
+   "sqft": 1276.0,
+   "price": 980000.0,
+   "date": "2026-08-07",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.023029,
+    "lng": -73.662327
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0541868574215059,
+   "ppsf": 768.0250783699059
+  },
+  {
+   "mls": "24170385",
+   "slug": "19-cross-street-greenwich-connecticut-24170385",
+   "address": {
+    "line": "19 Cross Street",
+    "unit": null,
+    "lineWithUnit": "19 Cross Street",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06831"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1854.0,
+   "price": 1325000.0,
+   "date": "2026-07-07",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.021726,
+    "lng": -73.657228
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.4236470931724319,
+   "ppsf": 714.6709816612729
+  },
+  {
+   "mls": "24141403",
+   "slug": "15-henry-street-greenwich-connecticut-24141403",
+   "address": {
+    "line": "15 Henry Street",
+    "unit": null,
+    "lineWithUnit": "15 Henry Street",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06830"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1258.0,
+   "price": 600000.0,
+   "date": "2026-03-24",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.003594,
+    "lng": -73.655907
+   },
+   "klass": "house",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 3.254780454717216,
+   "ppsf": 476.9475357710652
+  },
+  {
+   "mls": "24112915",
+   "slug": "33-halsey-drive-greenwich-connecticut-24112915",
+   "address": {
+    "line": "33 Halsey Drive",
+    "unit": null,
+    "lineWithUnit": "33 Halsey Drive",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06870"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1481.0,
+   "price": 1410000.0,
+   "date": "2026-07-01",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.050455,
+    "lng": -73.570632
+   },
+   "klass": "house",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 8.484105341665176,
+   "ppsf": 952.0594193112762
   }
- }
+ ]
 }

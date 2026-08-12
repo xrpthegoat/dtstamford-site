@@ -110,99 +110,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "343-greenwich-avenue-greenwich-connecticut-24153469",
-     "addr": "343 Greenwich Avenue Unit 2nd Floor",
-     "unit": "Unit 2nd Floor",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 800.0,
-     "price": 3950.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-03",
-     "ppsf": 5,
-     "mi": 0.29
-    },
-    {
-     "slug": "271-greenwich-avenue-greenwich-connecticut-24180209",
-     "addr": "271 Greenwich Avenue Unit 2D",
-     "unit": "Unit 2D",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 700.0,
-     "price": 2675.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-10",
-     "ppsf": 4,
-     "mi": 0.3
-    },
-    {
-     "slug": "118-greenwich-avenue-greenwich-connecticut-24184969",
-     "addr": "118 Greenwich Avenue Unit 1",
-     "unit": "Unit 1",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 800.0,
-     "price": 2100.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-27",
-     "ppsf": 3,
-     "mi": 0.42
-    },
-    {
-     "slug": "59-church-street-greenwich-connecticut-24188438",
-     "addr": "59 Church Street Unit 6",
-     "unit": "Unit 6",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 800.0,
-     "price": 2400.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-13",
-     "ppsf": 3,
-     "mi": 0.69
-    },
-    {
-     "slug": "59-church-street-greenwich-connecticut-24194608",
-     "addr": "59 Church Street Unit 6",
-     "unit": "Unit 6",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 700.0,
-     "price": 2500.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 4,
-     "mi": 0.69
-    },
-    {
-     "slug": "63-church-street-greenwich-connecticut-24193821",
-     "addr": "63 Church Street Unit 4",
-     "unit": "Unit 4",
-     "beds": 1.0,
-     "baths": 2.0,
-     "sqft": 990.0,
-     "price": 9000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 9,
-     "mi": 0.7
-    }
-   ],
-   "summary": {
-    "n": 4,
-    "low": 2100.0,
-    "high": 3950.0,
-    "median": 2538
+ "comps": [
+  {
+   "mls": "24153412",
+   "slug": "40-orchard-place-greenwich-connecticut-24153412",
+   "address": {
+    "line": "40 Orchard Place",
+    "unit": "Unit 2",
+    "lineWithUnit": "40 Orchard Place Unit 2",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06830"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 1348.0,
+   "price": 3800.0,
+   "date": "2026-04-06",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.02043,
+    "lng": -73.61815
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6207540558197451,
+   "ppsf": 2.8189910979228485
+  },
+  {
+   "mls": "24165475",
+   "slug": "33-circle-drive-greenwich-connecticut-24165475",
+   "address": {
+    "line": "33 Circle Drive",
+    "unit": null,
+    "lineWithUnit": "33 Circle Drive",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06830"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1631.0,
+   "price": 6800.0,
+   "date": "2026-05-09",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.027599,
+    "lng": -73.608019
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.011649465422052,
+   "ppsf": 4.169221336603311
+  },
+  {
+   "mls": "24169122",
+   "slug": "375-greenwich-avenue-greenwich-connecticut-24169122",
+   "address": {
+    "line": "375 Greenwich Avenue",
+    "unit": "Unit 5",
+    "lineWithUnit": "375 Greenwich Avenue Unit 5",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06830"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 1350.0,
+   "price": 2500.0,
+   "date": "2026-06-03",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.022778,
+    "lng": -73.624504
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5191978852660019,
+   "ppsf": 1.8518518518518519
+  },
+  {
+   "mls": "24158334",
+   "slug": "140-field-point-road-greenwich-connecticut-24158334",
+   "address": {
+    "line": "140 Field Point Road",
+    "unit": "Unit 2",
+    "lineWithUnit": "140 Field Point Road Unit 2",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06830"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1226.0,
+   "price": 3950.0,
+   "date": "2026-03-25",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.023937,
+    "lng": -73.63157
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.0056266985938958,
+   "ppsf": 3.2218597063621535
+  },
+  {
+   "mls": "24165479",
+   "slug": "150-prospect-street-greenwich-connecticut-24165479",
+   "address": {
+    "line": "150 Prospect Street",
+    "unit": "Unit 7",
+    "lineWithUnit": "150 Prospect Street Unit 7",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06830"
+   },
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 1224.0,
+   "price": 4400.0,
+   "date": "2026-04-20",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.020302,
+    "lng": -73.633892
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.3298507327480549,
+   "ppsf": 3.5947712418300655
   }
- }
+ ]
 }

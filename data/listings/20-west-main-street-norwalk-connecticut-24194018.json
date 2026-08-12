@@ -133,101 +133,141 @@
    "walk": 8
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "6-harriet-street-norwalk-connecticut-24188378",
-     "addr": "6 Harriet Street Unit 2",
-     "unit": "Unit 2",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 2531.0,
-     "price": 2375.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-01",
-     "ppsf": 1,
-     "mi": 0.13
-    },
-    {
-     "slug": "20-spring-hill-avenue-norwalk-connecticut-24151393",
-     "addr": "20 Spring Hill Avenue",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1602.0,
-     "price": 3500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-21",
-     "ppsf": 2,
-     "mi": 0.45
-    },
-    {
-     "slug": "6-ward-street-norwalk-connecticut-24182435",
-     "addr": "6 Ward Street",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1245.0,
-     "price": 3400.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-17",
-     "ppsf": 3,
-     "mi": 0.46
-    },
-    {
-     "slug": "10-glendenning-street-norwalk-connecticut-24164557",
-     "addr": "10 Glendenning Street Unit Right",
-     "unit": "Unit Right",
-     "beds": 3.0,
-     "baths": 1.0,
-     "sqft": 2172.0,
-     "price": 3500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-09",
-     "ppsf": 2,
-     "mi": 0.49
-    },
-    {
-     "slug": "49-spring-hill-avenue-norwalk-connecticut-24171044",
-     "addr": "49 Spring Hill Avenue",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1870.0,
-     "price": 5100.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-22",
-     "ppsf": 3,
-     "mi": 0.49
-    },
-    {
-     "slug": "2-maplewood-terrace-norwalk-connecticut-24166900",
-     "addr": "2 Maplewood Terrace Unit 1",
-     "unit": "Unit 1",
-     "beds": 3.0,
-     "baths": 1.0,
-     "sqft": 1203.0,
-     "price": 2600.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-01",
-     "ppsf": 2,
-     "mi": 0.59
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 2375.0,
-    "high": 5100.0,
-    "median": 3450
+ "comps": [
+  {
+   "mls": "24151393",
+   "slug": "20-spring-hill-avenue-norwalk-connecticut-24151393",
+   "address": {
+    "line": "20 Spring Hill Avenue",
+    "unit": null,
+    "lineWithUnit": "20 Spring Hill Avenue",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1602.0,
+   "price": 3500.0,
+   "date": "2026-05-21",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.119029,
+    "lng": -73.424055
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7309975118100671,
+   "ppsf": 2.184769038701623
+  },
+  {
+   "mls": "24171044",
+   "slug": "49-spring-hill-avenue-norwalk-connecticut-24171044",
+   "address": {
+    "line": "49 Spring Hill Avenue",
+    "unit": null,
+    "lineWithUnit": "49 Spring Hill Avenue",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1870.0,
+   "price": 5100.0,
+   "date": "2026-05-22",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.120744,
+    "lng": -73.426699
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7907426665168021,
+   "ppsf": 2.727272727272727
+  },
+  {
+   "mls": "24166934",
+   "slug": "2-maplewood-terrace-norwalk-connecticut-24166934",
+   "address": {
+    "line": "2 Maplewood Terrace",
+    "unit": "Unit 2",
+    "lineWithUnit": "2 Maplewood Terrace Unit 2",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 1433.0,
+   "price": 2600.0,
+   "date": "2026-05-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.131723,
+    "lng": -73.422885
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9461017742258153,
+   "ppsf": 1.8143754361479414
+  },
+  {
+   "mls": "24174552",
+   "slug": "17-reservoir-avenue-norwalk-connecticut-24174552",
+   "address": {
+    "line": "17 Reservoir Avenue",
+    "unit": null,
+    "lineWithUnit": "17 Reservoir Avenue",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 4.0,
+   "baths": 2.0,
+   "sqft": 1600.0,
+   "price": 4250.0,
+   "date": "2026-06-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.118357,
+    "lng": -73.426934
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9557418822604734,
+   "ppsf": 2.65625
+  },
+  {
+   "mls": "24156335",
+   "slug": "1-3-pine-street-norwalk-connecticut-24156335",
+   "address": {
+    "line": "1-3 Pine Street",
+    "unit": "Unit 4",
+    "lineWithUnit": "1-3 Pine Street Unit 4",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 1400.0,
+   "price": 3475.0,
+   "date": "2026-03-18",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.102116,
+    "lng": -73.419586
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.4308646254175406,
+   "ppsf": 2.482142857142857
   }
- }
+ ]
 }

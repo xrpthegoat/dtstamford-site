@@ -130,45 +130,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "48-lexington-avenue-greenwich-connecticut-24093214",
-     "addr": "48 Lexington Avenue",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 6.0,
-     "sqft": 7028.0,
-     "price": 7200000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-24",
-     "ppsf": 1024,
-     "mi": 0.33
-    },
-    {
-     "slug": "17-pintail-lane-greenwich-connecticut-24149951",
-     "addr": "17 Pintail Lane",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 5.0,
-     "sqft": 3643.0,
-     "price": 4271000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-16",
-     "ppsf": 1172,
-     "mi": 0.52
-    }
-   ],
-   "summary": {
-    "n": 2,
-    "low": 4271000.0,
-    "high": 7200000.0,
-    "median": 5735500
+ "comps": [
+  {
+   "mls": "24149962",
+   "slug": "103-connecticut-avenue-greenwich-connecticut-24149962",
+   "address": {
+    "line": "103 Connecticut Avenue",
+    "unit": null,
+    "lineWithUnit": "103 Connecticut Avenue",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06830"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 5.0,
+   "sqft": 3341.0,
+   "price": 3890000.0,
+   "date": "2026-04-08",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.028223,
+    "lng": -73.621623
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8722472679515667,
+   "ppsf": 1164.3220592636935
+  },
+  {
+   "mls": "24178567",
+   "slug": "22-mallard-drive-greenwich-connecticut-24178567",
+   "address": {
+    "line": "22 Mallard Drive",
+    "unit": null,
+    "lineWithUnit": "22 Mallard Drive",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06830"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 3106.0,
+   "price": 2850000.0,
+   "date": "2026-07-24",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.035792,
+    "lng": -73.615648
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8568548636120704,
+   "ppsf": 917.5788795878944
+  },
+  {
+   "mls": "24053927",
+   "slug": "201-shore-road-greenwich-connecticut-24053927",
+   "address": {
+    "line": "201 Shore Road",
+    "unit": null,
+    "lineWithUnit": "201 Shore Road",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06830"
+   },
+   "beds": 5.0,
+   "baths": 5.0,
+   "sqft": 3598.0,
+   "price": 2025000.0,
+   "date": "2026-05-18",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.018843,
+    "lng": -73.629262
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.8620709627010117,
+   "ppsf": 562.8126737076153
+  },
+  {
+   "mls": "24149951",
+   "slug": "17-pintail-lane-greenwich-connecticut-24149951",
+   "address": {
+    "line": "17 Pintail Lane",
+    "unit": null,
+    "lineWithUnit": "17 Pintail Lane",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06830"
+   },
+   "beds": 5.0,
+   "baths": 5.0,
+   "sqft": 3643.0,
+   "price": 4271000.0,
+   "date": "2026-03-16",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.033389,
+    "lng": -73.616228
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 0.8371651318249177,
+   "ppsf": 1172.3853966511117
+  },
+  {
+   "mls": "24157586",
+   "slug": "249-shore-road-greenwich-connecticut-24157586",
+   "address": {
+    "line": "249 Shore Road",
+    "unit": null,
+    "lineWithUnit": "249 Shore Road",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06830"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 3242.0,
+   "price": 3000000.0,
+   "date": "2026-04-13",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.017439,
+    "lng": -73.630148
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.0283607462388766,
+   "ppsf": 925.3547193090685
   }
- }
+ ]
 }

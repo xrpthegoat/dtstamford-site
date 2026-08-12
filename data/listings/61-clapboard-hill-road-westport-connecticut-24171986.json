@@ -128,58 +128,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "86-maple-avenue-south-westport-connecticut-24148769",
-     "addr": "86 Maple Avenue South",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 3218.0,
-     "price": 2345000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-03",
-     "ppsf": 729,
-     "mi": 0.34
-    },
-    {
-     "slug": "342-greens-farms-road-westport-connecticut-24122231",
-     "addr": "342 Greens Farms Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 5.0,
-     "sqft": 6600.0,
-     "price": 2100000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-27",
-     "ppsf": 318,
-     "mi": 0.59
-    },
-    {
-     "slug": "7-high-gate-road-westport-connecticut-24184506",
-     "addr": "7 High Gate Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2604.0,
-     "price": 1625000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 624,
-     "mi": 0.65
-    }
-   ],
-   "summary": {
-    "n": 2,
-    "low": 2100000.0,
-    "high": 2345000.0,
-    "median": 2222500
+ "comps": [
+  {
+   "mls": "24148769",
+   "slug": "86-maple-avenue-south-westport-connecticut-24148769",
+   "address": {
+    "line": "86 Maple Avenue South",
+    "unit": null,
+    "lineWithUnit": "86 Maple Avenue South",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 3218.0,
+   "price": 2345000.0,
+   "date": "2026-04-03",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.12841,
+    "lng": -73.309452
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.541786187161351,
+   "ppsf": 728.7134866376631
+  },
+  {
+   "mls": "24172491",
+   "slug": "4-wake-robin-road-westport-connecticut-24172491",
+   "address": {
+    "line": "4 Wake Robin Road",
+    "unit": null,
+    "lineWithUnit": "4 Wake Robin Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 5.0,
+   "baths": 4.0,
+   "sqft": 3255.0,
+   "price": 2048000.0,
+   "date": "2026-07-07",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.12637,
+    "lng": -73.336364
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.747134759098813,
+   "ppsf": 629.1858678955454
+  },
+  {
+   "mls": "24129625",
+   "slug": "4-burr-farms-road-westport-connecticut-24129625",
+   "address": {
+    "line": "4 Burr Farms Road",
+    "unit": null,
+    "lineWithUnit": "4 Burr Farms Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 3377.0,
+   "price": 2200000.0,
+   "date": "2026-04-17",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.1437,
+    "lng": -73.329299
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.9693365438943409,
+   "ppsf": 651.4657980456026
+  },
+  {
+   "mls": "24154436",
+   "slug": "8-iris-lane-westport-connecticut-24154436",
+   "address": {
+    "line": "8 Iris Lane",
+    "unit": null,
+    "lineWithUnit": "8 Iris Lane",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2959.0,
+   "price": 1630000.0,
+   "date": "2026-04-14",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.136113,
+    "lng": -73.327864
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.268428613586956,
+   "ppsf": 550.8617776275769
+  },
+  {
+   "mls": "24144977",
+   "slug": "2-fairport-road-westport-connecticut-24144977",
+   "address": {
+    "line": "2 Fairport Road",
+    "unit": null,
+    "lineWithUnit": "2 Fairport Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 5.0,
+   "baths": 5.0,
+   "sqft": 4288.0,
+   "price": 2600000.0,
+   "date": "2026-04-01",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.139013,
+    "lng": -73.303631
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.497229295410181,
+   "ppsf": 606.3432835820895
   }
- }
+ ]
 }

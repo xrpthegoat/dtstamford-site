@@ -128,44 +128,141 @@
    "walk": 10
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "98-scofield-avenue-stamford-connecticut-24145854",
-     "addr": "98 Scofield Avenue",
-     "unit": "",
-     "beds": 6.0,
-     "baths": 6.0,
-     "sqft": 3535.0,
-     "price": 1120000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-18",
-     "ppsf": 317,
-     "mi": 0.55
-    },
-    {
-     "slug": "355-hope-street-stamford-connecticut-24188355",
-     "addr": "355 Hope Street",
-     "unit": "",
-     "beds": 6.0,
-     "baths": 2.0,
-     "sqft": 2888.0,
-     "price": 935000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 324,
-     "mi": 0.56
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 1120000.0,
-    "high": 1120000.0,
-    "median": 1120000
+ "comps": [
+  {
+   "mls": "24181068",
+   "slug": "321-glenbrook-road-stamford-connecticut-24181068",
+   "address": {
+    "line": "321 Glenbrook Road",
+    "unit": null,
+    "lineWithUnit": "321 Glenbrook Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06906"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 2.0,
+   "sqft": 2366.0,
+   "price": 952000.0,
+   "date": "2026-07-08",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.064662,
+    "lng": -73.522515
+   },
+   "klass": "multi",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8959795610093806,
+   "ppsf": 402.36686390532543
+  },
+  {
+   "mls": "24146021",
+   "slug": "28-dolsen-place-stamford-connecticut-24146021",
+   "address": {
+    "line": "28 Dolsen Place",
+    "unit": null,
+    "lineWithUnit": "28 Dolsen Place",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06901"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2026.0,
+   "price": 940000.0,
+   "date": "2026-03-20",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.060048,
+    "lng": -73.538713
+   },
+   "klass": "multi",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9776169018464279,
+   "ppsf": 463.9684106614018
+  },
+  {
+   "mls": "24124399",
+   "slug": "51-4th-street-stamford-connecticut-24124399",
+   "address": {
+    "line": "51 4th Street",
+    "unit": null,
+    "lineWithUnit": "51 4th Street",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 4.0,
+   "baths": 2.0,
+   "sqft": 2139.0,
+   "price": 700000.0,
+   "date": "2026-06-03",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.065048,
+    "lng": -73.543206
+   },
+   "klass": "multi",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9364194833222553,
+   "ppsf": 327.25572697522205
+  },
+  {
+   "mls": "24170528",
+   "slug": "112-colonial-road-stamford-connecticut-24170528",
+   "address": {
+    "line": "112 Colonial Road",
+    "unit": null,
+    "lineWithUnit": "112 Colonial Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06906"
+   },
+   "beds": 4.0,
+   "baths": 2.0,
+   "sqft": 2346.0,
+   "price": 878000.0,
+   "date": "2026-07-31",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.070093,
+    "lng": -73.53
+   },
+   "klass": "multi",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.3576590008199025,
+   "ppsf": 374.2540494458653
+  },
+  {
+   "mls": "24154926",
+   "slug": "251-cove-road-stamford-connecticut-24154926",
+   "address": {
+    "line": "251 Cove Road",
+    "unit": null,
+    "lineWithUnit": "251 Cove Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 4.0,
+   "baths": 2.0,
+   "sqft": 2080.0,
+   "price": 825000.0,
+   "date": "2026-06-05",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.049321,
+    "lng": -73.519844
+   },
+   "klass": "multi",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.283457738175156,
+   "ppsf": 396.63461538461536
   }
- }
+ ]
 }

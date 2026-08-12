@@ -129,38 +129,141 @@
    "mi": 1.28
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "19-spriteview-avenue-westport-connecticut-24073587",
-     "addr": "19 Spriteview Avenue",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 5.0,
-     "sqft": 4554.0,
-     "price": 25000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 5,
-     "mi": 0.07
-    },
-    {
-     "slug": "28-surf-road-westport-connecticut-24182407",
-     "addr": "28 Surf Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 4.0,
-     "sqft": 3312.0,
-     "price": 9800.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 3,
-     "mi": 0.46
-    }
-   ],
-   "summary": null,
-   "radiusMi": 0.75
+ "comps": [
+  {
+   "mls": "24169919",
+   "slug": "4-covlee-drive-westport-connecticut-24169919",
+   "address": {
+    "line": "4 Covlee Drive",
+    "unit": null,
+    "lineWithUnit": "4 Covlee Drive",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 2935.0,
+   "price": 9500.0,
+   "date": "2026-05-11",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.10257,
+    "lng": -73.38293
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9899676876846735,
+   "ppsf": 3.2367972742759794
+  },
+  {
+   "mls": "24088536",
+   "slug": "19-bluewater-hill-westport-connecticut-24088536",
+   "address": {
+    "line": "19 Bluewater Hill",
+    "unit": null,
+    "lineWithUnit": "19 Bluewater Hill",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 3066.0,
+   "price": 33541.0,
+   "date": "2026-04-15",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.112705,
+    "lng": -73.34854
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.487441169671947,
+   "ppsf": 10.93966079582518
+  },
+  {
+   "mls": "24176335",
+   "slug": "14-norwalk-avenue-westport-connecticut-24176335",
+   "address": {
+    "line": "14 Norwalk Avenue",
+    "unit": null,
+    "lineWithUnit": "14 Norwalk Avenue",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1995.0,
+   "price": 11500.0,
+   "date": "2026-05-26",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.10772,
+    "lng": -73.35109
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.0041293919806753,
+   "ppsf": 5.764411027568922
+  },
+  {
+   "mls": "24178049",
+   "slug": "6-plover-lane-westport-connecticut-24178049",
+   "address": {
+    "line": "6 Plover Lane",
+    "unit": null,
+    "lineWithUnit": "6 Plover Lane",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 4.0,
+   "baths": 6.0,
+   "sqft": 3540.0,
+   "price": 15500.0,
+   "date": "2026-06-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.102738,
+    "lng": -73.379301
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 0.73075666594271,
+   "ppsf": 4.378531073446328
+  },
+  {
+   "mls": "24156532",
+   "slug": "11-partrick-lane-westport-connecticut-24156532",
+   "address": {
+    "line": "11 Partrick Lane",
+    "unit": null,
+    "lineWithUnit": "11 Partrick Lane",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 5.0,
+   "baths": 4.0,
+   "sqft": 3389.0,
+   "price": 11300.0,
+   "date": "2026-03-23",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.152204,
+    "lng": -73.378984
+   },
+   "klass": "rental",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 5.937209280493092,
+   "ppsf": 3.334316907642372
   }
- }
+ ]
 }

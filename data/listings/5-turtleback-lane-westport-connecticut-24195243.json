@@ -126,101 +126,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "14-winslow-lane-westport-connecticut-24156558",
-     "addr": "14 Winslow Lane",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 5.0,
-     "sqft": 3600.0,
-     "price": 14000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-01",
-     "ppsf": 4,
-     "mi": 0.06
-    },
-    {
-     "slug": "16-sue-terrace-westport-connecticut-24182475",
-     "addr": "16 Sue Terrace",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 3355.0,
-     "price": 13500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-30",
-     "ppsf": 4,
-     "mi": 0.27
-    },
-    {
-     "slug": "95-compo-road-north-westport-connecticut-24158398",
-     "addr": "95 Compo Road North",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 4225.0,
-     "price": 19000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-17",
-     "ppsf": 4,
-     "mi": 0.49
-    },
-    {
-     "slug": "59-crescent-road-westport-connecticut-24162571",
-     "addr": "59 Crescent Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 4508.0,
-     "price": 10000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-22",
-     "ppsf": 2,
-     "mi": 0.55
-    },
-    {
-     "slug": "118-roseville-road-westport-connecticut-24169484",
-     "addr": "118 Roseville Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 4243.0,
-     "price": 13000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-01",
-     "ppsf": 3,
-     "mi": 0.55
-    },
-    {
-     "slug": "11-beechwood-lane-westport-connecticut-24163215",
-     "addr": "11 Beechwood Lane",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 1886.0,
-     "price": 6500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-06",
-     "ppsf": 3,
-     "mi": 0.64
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 6500.0,
-    "high": 19000.0,
-    "median": 13250
+ "comps": [
+  {
+   "mls": "24163215",
+   "slug": "11-beechwood-lane-westport-connecticut-24163215",
+   "address": {
+    "line": "11 Beechwood Lane",
+    "unit": null,
+    "lineWithUnit": "11 Beechwood Lane",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 1886.0,
+   "price": 6500.0,
+   "date": "2026-06-06",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.13561,
+    "lng": -73.34497
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0284526367623301,
+   "ppsf": 3.4464475079533403
+  },
+  {
+   "mls": "24158964",
+   "slug": "14-burr-road-westport-connecticut-24158964",
+   "address": {
+    "line": "14 Burr Road",
+    "unit": null,
+    "lineWithUnit": "14 Burr Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 2282.0,
+   "price": 7500.0,
+   "date": "2026-05-05",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.136309,
+    "lng": -73.366308
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.642462334600538,
+   "ppsf": 3.286590709903593
+  },
+  {
+   "mls": "24159366",
+   "slug": "55-kings-highway-north-westport-connecticut-24159366",
+   "address": {
+    "line": "55 Kings Highway North",
+    "unit": null,
+    "lineWithUnit": "55 Kings Highway North",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1719.0,
+   "price": 10000.0,
+   "date": "2026-06-03",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.13966,
+    "lng": -73.370346
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.800646214683038,
+   "ppsf": 5.817335660267598
+  },
+  {
+   "mls": "24159715",
+   "slug": "28-fillow-street-westport-connecticut-24159715",
+   "address": {
+    "line": "28 Fillow Street",
+    "unit": null,
+    "lineWithUnit": "28 Fillow Street",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2208.0,
+   "price": 6000.0,
+   "date": "2026-04-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.161797,
+    "lng": -73.360429
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.1585811077240056,
+   "ppsf": 2.717391304347826
+  },
+  {
+   "mls": "24165305",
+   "slug": "7-nappa-drive-westport-connecticut-24165305",
+   "address": {
+    "line": "7 Nappa Drive",
+    "unit": null,
+    "lineWithUnit": "7 Nappa Drive",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2904.0,
+   "price": 12000.0,
+   "date": "2026-05-27",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.128265,
+    "lng": -73.35576
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.8381176269424695,
+   "ppsf": 4.132231404958677
   }
- }
+ ]
 }

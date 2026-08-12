@@ -123,101 +123,141 @@
    "mi": 0.62
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "106-lafayette-street-stamford-connecticut-24179699",
-     "addr": "106 Lafayette Street Unit 3",
-     "unit": "Unit 3",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 1000.0,
-     "price": 1550.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-02",
-     "ppsf": 2,
-     "mi": 0.13
-    },
-    {
-     "slug": "77-glenbrook-road-stamford-connecticut-24170990",
-     "addr": "77 Glenbrook Road Unit 202",
-     "unit": "Unit 202",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 800.0,
-     "price": 2150.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-01",
-     "ppsf": 3,
-     "mi": 0.17
-    },
-    {
-     "slug": "821-east-main-street-stamford-connecticut-24091431",
-     "addr": "821 East Main Street Unit 209",
-     "unit": "Unit 209",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 1040.0,
-     "price": 2400.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-01",
-     "ppsf": 2,
-     "mi": 0.17
-    },
-    {
-     "slug": "821-east-main-street-stamford-connecticut-24091417",
-     "addr": "821 East Main Street Unit 230",
-     "unit": "Unit 230",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 1040.0,
-     "price": 2400.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-01",
-     "ppsf": 2,
-     "mi": 0.17
-    },
-    {
-     "slug": "87-glenbrook-road-stamford-connecticut-24158461",
-     "addr": "87 Glenbrook Road Apt 3E",
-     "unit": "Apt 3E",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 835.0,
-     "price": 2250.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-04",
-     "ppsf": 3,
-     "mi": 0.17
-    },
-    {
-     "slug": "65-glenbrook-road-stamford-connecticut-24160372",
-     "addr": "65 Glenbrook Road Unit 12D",
-     "unit": "Unit 12D",
-     "beds": 1.0,
-     "baths": 2.0,
-     "sqft": 1080.0,
-     "price": 2450.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-01",
-     "ppsf": 2,
-     "mi": 0.17
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 1550.0,
-    "high": 2450.0,
-    "median": 2325
+ "comps": [
+  {
+   "mls": "24154403",
+   "slug": "81-courtland-avenue-stamford-connecticut-24154403",
+   "address": {
+    "line": "81 Courtland Avenue",
+    "unit": "Unit 81-07",
+    "lineWithUnit": "81 Courtland Avenue Unit 81-07",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
    },
-   "radiusMi": 0.75
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 828.0,
+   "price": 2700.0,
+   "date": "2026-03-16",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.062227,
+    "lng": -73.513176
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1515424406956463,
+   "ppsf": 3.260869565217391
+  },
+  {
+   "mls": "24151501",
+   "slug": "175-seaton-road-stamford-connecticut-24151501",
+   "address": {
+    "line": "175 Seaton Road",
+    "unit": "Apt 3",
+    "lineWithUnit": "175 Seaton Road Apt 3",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 775.0,
+   "price": 2495.0,
+   "date": "2026-03-17",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.059147,
+    "lng": -73.51702
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.712284603310816,
+   "ppsf": 3.2193548387096773
+  },
+  {
+   "mls": "24156969",
+   "slug": "15-bungalow-park-stamford-connecticut-24156969",
+   "address": {
+    "line": "15 Bungalow Park",
+    "unit": "Unit 1",
+    "lineWithUnit": "15 Bungalow Park Unit 1",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 850.0,
+   "price": 2100.0,
+   "date": "2026-03-18",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.05617,
+    "lng": -73.510864
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1894504999227735,
+   "ppsf": 2.4705882352941178
+  },
+  {
+   "mls": "24143301",
+   "slug": "1084-east-main-street-stamford-connecticut-24143301",
+   "address": {
+    "line": "1084 East Main Street",
+    "unit": "Apt 3",
+    "lineWithUnit": "1084 East Main Street Apt 3",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 775.0,
+   "price": 2400.0,
+   "date": "2026-03-27",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.05771,
+    "lng": -73.516054
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7554148217652121,
+   "ppsf": 3.096774193548387
+  },
+  {
+   "mls": "24144402",
+   "slug": "57-seaside-avenue-stamford-connecticut-24144402",
+   "address": {
+    "line": "57 Seaside Avenue",
+    "unit": "Unit 2",
+    "lineWithUnit": "57 Seaside Avenue Unit 2",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 1000.0,
+   "price": 2250.0,
+   "date": "2026-04-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.05671,
+    "lng": -73.510753
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1957655383001635,
+   "ppsf": 2.25
   }
- }
+ ]
 }

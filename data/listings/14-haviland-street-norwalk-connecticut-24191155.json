@@ -122,101 +122,141 @@
    "mi": 0.94
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "6-hillside-place-norwalk-connecticut-24174630",
-     "addr": "6 Hillside Place",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 1.0,
-     "sqft": 1205.0,
-     "price": 4100.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-15",
-     "ppsf": 3,
-     "mi": 0.4
-    },
-    {
-     "slug": "8-quintard-avenue-norwalk-connecticut-24167872",
-     "addr": "8 Quintard Avenue",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1685.0,
-     "price": 4000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-27",
-     "ppsf": 2,
-     "mi": 0.48
-    },
-    {
-     "slug": "6-pleasant-street-norwalk-connecticut-24157798",
-     "addr": "6 Pleasant Street Unit 3",
-     "unit": "Unit 3",
-     "beds": 3.0,
-     "baths": 1.0,
-     "sqft": 1000.0,
-     "price": 2650.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-01",
-     "ppsf": 3,
-     "mi": 0.58
-    },
-    {
-     "slug": "9-laura-street-norwalk-connecticut-24171314",
-     "addr": "9 Laura Street",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1174.0,
-     "price": 2900.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-11",
-     "ppsf": 2,
-     "mi": 0.61
-    },
-    {
-     "slug": "100-shorefront-park-norwalk-connecticut-24163496",
-     "addr": "100 Shorefront Park",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1276.0,
-     "price": 5200.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-28",
-     "ppsf": 4,
-     "mi": 0.62
-    },
-    {
-     "slug": "18-soundview-avenue-norwalk-connecticut-24159808",
-     "addr": "18 Soundview Avenue Unit 1",
-     "unit": "Unit 1",
-     "beds": 3.0,
-     "baths": 1.0,
-     "sqft": 3168.0,
-     "price": 3000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-20",
-     "ppsf": 1,
-     "mi": 0.65
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 2650.0,
-    "high": 5200.0,
-    "median": 3500
+ "comps": [
+  {
+   "mls": "24141253",
+   "slug": "11-avenue-a-norwalk-connecticut-24141253",
+   "address": {
+    "line": "11 Avenue A",
+    "unit": "Unit 3",
+    "lineWithUnit": "11 Avenue A Unit 3",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 2632.0,
+   "price": 2350.0,
+   "date": "2026-05-15",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.100143,
+    "lng": -73.429567
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.021135988312401,
+   "ppsf": 0.8928571428571429
+  },
+  {
+   "mls": "24159738",
+   "slug": "70-south-main-street-norwalk-connecticut-24159738",
+   "address": {
+    "line": "70 South Main Street",
+    "unit": "Unit 3D",
+    "lineWithUnit": "70 South Main Street Unit 3D",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 2.0,
+   "baths": 4.0,
+   "sqft": 2000.0,
+   "price": 4500.0,
+   "date": "2026-06-11",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.09669,
+    "lng": -73.41868
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.16210959579002715,
+   "ppsf": 2.25
+  },
+  {
+   "mls": "24189690",
+   "slug": "26-rowan-street-norwalk-connecticut-24189690",
+   "address": {
+    "line": "26 Rowan Street",
+    "unit": "Unit 1",
+    "lineWithUnit": "26 Rowan Street Unit 1",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06855"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 2015.0,
+   "price": 2200.0,
+   "date": "2026-07-29",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.102522,
+    "lng": -73.404938
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.185844344004969,
+   "ppsf": 1.0918114143920596
+  },
+  {
+   "mls": "24188939",
+   "slug": "25-quintard-avenue-norwalk-connecticut-24188939",
+   "address": {
+    "line": "25 Quintard Avenue",
+    "unit": "Unit A",
+    "lineWithUnit": "25 Quintard Avenue Unit A",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 4.0,
+   "baths": 2.0,
+   "sqft": 2469.0,
+   "price": 4500.0,
+   "date": "2026-08-10",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.090248,
+    "lng": -73.414065
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9108751959011011,
+   "ppsf": 1.8226002430133657
+  },
+  {
+   "mls": "24153011",
+   "slug": "85-ledgebrook-drive-norwalk-connecticut-24153011",
+   "address": {
+    "line": "85 Ledgebrook Drive",
+    "unit": "Unit 85",
+    "lineWithUnit": "85 Ledgebrook Drive Unit 85",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1806.0,
+   "price": 4500.0,
+   "date": "2026-03-28",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.107291,
+    "lng": -73.4391
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.0694638274781516,
+   "ppsf": 2.4916943521594686
   }
- }
+ ]
 }

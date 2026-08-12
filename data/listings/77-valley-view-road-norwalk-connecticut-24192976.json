@@ -134,58 +134,141 @@
    "walk": 6
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "2-lakewood-drive-norwalk-connecticut-24176100",
-     "addr": "2 Lakewood Drive",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1175.0,
-     "price": 4300.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-15",
-     "ppsf": 4,
-     "mi": 0.18
-    },
-    {
-     "slug": "9-cobblers-lane-norwalk-connecticut-24163731",
-     "addr": "9 Cobblers Lane",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 1.0,
-     "sqft": 1232.0,
-     "price": 5000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-03",
-     "ppsf": 4,
-     "mi": 0.23
-    },
-    {
-     "slug": "10-donohue-drive-norwalk-connecticut-24186696",
-     "addr": "10 Donohue Drive",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1032.0,
-     "price": 5200.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 5,
-     "mi": 0.24
-    }
-   ],
-   "summary": {
-    "n": 2,
-    "low": 4300.0,
-    "high": 5000.0,
-    "median": 4650
+ "comps": [
+  {
+   "mls": "24148030",
+   "slug": "norwalk-connecticut-24148030",
+   "address": {
+    "line": null,
+    "unit": null,
+    "lineWithUnit": null,
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1760.0,
+   "price": 3975.0,
+   "date": "2026-03-18",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.126247,
+    "lng": -73.435616
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.2646217214225226,
+   "ppsf": 2.258522727272727
+  },
+  {
+   "mls": "24155197",
+   "slug": "133-musket-ridge-road-norwalk-connecticut-24155197",
+   "address": {
+    "line": "133 Musket Ridge Road",
+    "unit": null,
+    "lineWithUnit": "133 Musket Ridge Road",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2422.0,
+   "price": 5100.0,
+   "date": "2026-04-10",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.155368,
+    "lng": -73.439241
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.7013736074744497,
+   "ppsf": 2.1056977704376547
+  },
+  {
+   "mls": "24178609",
+   "slug": "103-silver-creek-lane-norwalk-connecticut-24178609",
+   "address": {
+    "line": "103 Silver Creek Lane",
+    "unit": "Unit 103",
+    "lineWithUnit": "103 Silver Creek Lane Unit 103",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 2.0,
+   "baths": 4.0,
+   "sqft": 2856.0,
+   "price": 7000.0,
+   "date": "2026-06-17",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.13575,
+    "lng": -73.43566
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.373771497811524,
+   "ppsf": 2.450980392156863
+  },
+  {
+   "mls": "24179040",
+   "slug": "5-wakerobin-road-norwalk-connecticut-24179040",
+   "address": {
+    "line": "5 Wakerobin Road",
+    "unit": null,
+    "lineWithUnit": "5 Wakerobin Road",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1848.0,
+   "price": 4900.0,
+   "date": "2026-07-06",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.152687,
+    "lng": -73.40013
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.2217251149553996,
+   "ppsf": 2.6515151515151514
+  },
+  {
+   "mls": "24149017",
+   "slug": "30-toilsome-avenue-norwalk-connecticut-24149017",
+   "address": {
+    "line": "30 Toilsome Avenue",
+    "unit": null,
+    "lineWithUnit": "30 Toilsome Avenue",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2288.0,
+   "price": 4400.0,
+   "date": "2026-03-23",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.141815,
+    "lng": -73.4033
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.808128486597028,
+   "ppsf": 1.9230769230769231
   }
- }
+ ]
 }

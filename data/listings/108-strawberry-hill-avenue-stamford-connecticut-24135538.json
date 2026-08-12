@@ -127,101 +127,141 @@
    "walk": 6
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "91-strawberry-hill-avenue-stamford-connecticut-24159378",
-     "addr": "91 Strawberry Hill Avenue Apt 935",
-     "unit": "Apt 935",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 725.0,
-     "price": 259000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-05",
-     "ppsf": 357,
-     "mi": 0.05
-    },
-    {
-     "slug": "91-strawberry-hill-avenue-stamford-connecticut-24169644",
-     "addr": "91 Strawberry Hill Avenue Unit 727",
-     "unit": "Unit 727",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 725.0,
-     "price": 245000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-08",
-     "ppsf": 338,
-     "mi": 0.05
-    },
-    {
-     "slug": "71-strawberry-hill-avenue-stamford-connecticut-24151829",
-     "addr": "71 Strawberry Hill Avenue Apt 515",
-     "unit": "Apt 515",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 725.0,
-     "price": 215000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-26",
-     "ppsf": 297,
-     "mi": 0.09
-    },
-    {
-     "slug": "44-strawberry-hill-avenue-stamford-connecticut-24158578",
-     "addr": "44 Strawberry Hill Avenue Unit 9M",
-     "unit": "Unit 9M",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 875.0,
-     "price": 300000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-01",
-     "ppsf": 343,
-     "mi": 0.18
-    },
-    {
-     "slug": "143-hoyt-street-stamford-connecticut-24153899",
-     "addr": "143 Hoyt Street Apt 3K",
-     "unit": "Apt 3K",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 1315.0,
-     "price": 449000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-28",
-     "ppsf": 341,
-     "mi": 0.26
-    },
-    {
-     "slug": "143-hoyt-street-stamford-connecticut-24148864",
-     "addr": "143 Hoyt Street Apt 5K",
-     "unit": "Apt 5K",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 1315.0,
-     "price": 480000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-04",
-     "ppsf": 365,
-     "mi": 0.26
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 215000.0,
-    "high": 480000.0,
-    "median": 279500
+ "comps": [
+  {
+   "mls": "24153809",
+   "slug": "127-greyrock-place-stamford-connecticut-24153809",
+   "address": {
+    "line": "127 Greyrock Place",
+    "unit": "Apt 1401",
+    "lineWithUnit": "127 Greyrock Place Apt 1401",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06901"
    },
-   "radiusMi": 0.75
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 764.0,
+   "price": 364500.0,
+   "date": "2026-04-10",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.054543,
+    "lng": -73.535805
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.081463598361251,
+   "ppsf": 477.09424083769636
+  },
+  {
+   "mls": "24175241",
+   "slug": "91-strawberry-hill-avenue-stamford-connecticut-24175241",
+   "address": {
+    "line": "91 Strawberry Hill Avenue",
+    "unit": "Unit 636",
+    "lineWithUnit": "91 Strawberry Hill Avenue Unit 636",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 875.0,
+   "price": 325000.0,
+   "date": "2026-07-01",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.063897,
+    "lng": -73.532292
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.08437307132856246,
+   "ppsf": 371.42857142857144
+  },
+  {
+   "mls": "24163632",
+   "slug": "91-strawberry-hill-avenue-stamford-connecticut-24163632",
+   "address": {
+    "line": "91 Strawberry Hill Avenue",
+    "unit": "Unit 841",
+    "lineWithUnit": "91 Strawberry Hill Avenue Unit 841",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 875.0,
+   "price": 305000.0,
+   "date": "2026-06-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.063897,
+    "lng": -73.532292
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.08437307132856246,
+   "ppsf": 348.57142857142856
+  },
+  {
+   "mls": "24174433",
+   "slug": "1515-summer-street-stamford-connecticut-24174433",
+   "address": {
+    "line": "1515 Summer Street",
+    "unit": "Unit 506",
+    "lineWithUnit": "1515 Summer Street Unit 506",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 893.0,
+   "price": 473000.0,
+   "date": "2026-06-25",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.063198,
+    "lng": -73.542338
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.766618930410159,
+   "ppsf": 529.6752519596864
+  },
+  {
+   "mls": "24164255",
+   "slug": "833-summer-street-stamford-connecticut-24164255",
+   "address": {
+    "line": "833 Summer Street",
+    "unit": "Unit 2E",
+    "lineWithUnit": "833 Summer Street Unit 2E",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06901"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 712.0,
+   "price": 300000.0,
+   "date": "2026-06-16",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.059025,
+    "lng": -73.539654
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.776141954846365,
+   "ppsf": 421.34831460674155
   }
- }
+ ]
 }

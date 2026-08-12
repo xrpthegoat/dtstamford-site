@@ -129,85 +129,141 @@
    "mi": 1.98
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "293-old-norwalk-road-new-canaan-connecticut-24180010",
-     "addr": "293 Old Norwalk Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 4014.0,
-     "price": 2650000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-03",
-     "ppsf": 660,
-     "mi": 0.39
-    },
-    {
-     "slug": "11-inwood-road-norwalk-connecticut-24172565",
-     "addr": "11 Inwood Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2516.0,
-     "price": 950000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-18",
-     "ppsf": 378,
-     "mi": 0.56
-    },
-    {
-     "slug": "300-buttery-road-norwalk-connecticut-24144110",
-     "addr": "300 Buttery Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2926.0,
-     "price": 1096100.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-16",
-     "ppsf": 375,
-     "mi": 0.73
-    },
-    {
-     "slug": "185-middle-ridge-road-new-canaan-connecticut-24192365",
-     "addr": "185 Middle Ridge Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2800.0,
-     "price": 1649900.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 589,
-     "mi": 0.2
-    },
-    {
-     "slug": "14-fullmar-lane-norwalk-connecticut-24176088",
-     "addr": "14 Fullmar Lane",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 5.0,
-     "sqft": 5120.0,
-     "price": 1450000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 283,
-     "mi": 0.68
-    }
-   ],
-   "summary": {
-    "n": 3,
-    "low": 950000.0,
-    "high": 2650000.0,
-    "median": 1096100
+ "comps": [
+  {
+   "mls": "24169054",
+   "slug": "224-marvin-ridge-road-new-canaan-connecticut-24169054",
+   "address": {
+    "line": "224 Marvin Ridge Road",
+    "unit": null,
+    "lineWithUnit": "224 Marvin Ridge Road",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 3122.0,
+   "price": 1450000.0,
+   "date": "2026-06-18",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.130094,
+    "lng": -73.466615
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0288921916277012,
+   "ppsf": 464.44586803331197
+  },
+  {
+   "mls": "24180010",
+   "slug": "293-old-norwalk-road-new-canaan-connecticut-24180010",
+   "address": {
+    "line": "293 Old Norwalk Road",
+    "unit": null,
+    "lineWithUnit": "293 Old Norwalk Road",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 4014.0,
+   "price": 2650000.0,
+   "date": "2026-08-03",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.134345,
+    "lng": -73.467803
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6257946664034922,
+   "ppsf": 660.1893373193822
+  },
+  {
+   "mls": "24128764",
+   "slug": "180-summer-street-new-canaan-connecticut-24128764",
+   "address": {
+    "line": "180 Summer Street",
+    "unit": null,
+    "lineWithUnit": "180 Summer Street",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2747.0,
+   "price": 1450000.0,
+   "date": "2026-03-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.146023,
+    "lng": -73.486778
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.071354256176503,
+   "ppsf": 527.8485620677102
+  },
+  {
+   "mls": "24161493",
+   "slug": "34-horton-lane-new-canaan-connecticut-24161493",
+   "address": {
+    "line": "34 Horton Lane",
+    "unit": null,
+    "lineWithUnit": "34 Horton Lane",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 3512.0,
+   "price": 2725000.0,
+   "date": "2026-07-13",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.126602,
+    "lng": -73.475565
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.70326684156075,
+   "ppsf": 775.9111617312072
+  },
+  {
+   "mls": "24156389",
+   "slug": "6-field-crest-road-new-canaan-connecticut-24156389",
+   "address": {
+    "line": "6 Field Crest Road",
+    "unit": null,
+    "lineWithUnit": "6 Field Crest Road",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2442.0,
+   "price": 1866800.0,
+   "date": "2026-06-26",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.132884,
+    "lng": -73.486434
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.0167750157985553,
+   "ppsf": 764.4553644553645
   }
- }
+ ]
 }

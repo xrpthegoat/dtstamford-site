@@ -133,70 +133,141 @@
    "mi": 0.85
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "22-cavray-road-norwalk-connecticut-24165362",
-     "addr": "22 Cavray Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 7.0,
-     "sqft": 7867.0,
-     "price": 1850000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-05",
-     "ppsf": 235,
-     "mi": 0.28
-    },
-    {
-     "slug": "7-sasqua-road-norwalk-connecticut-24172476",
-     "addr": "7 Sasqua Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 8.0,
-     "sqft": 5508.0,
-     "price": 2495000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 453,
-     "mi": 0.11
-    },
-    {
-     "slug": "10-shorehaven-road-norwalk-connecticut-24172989",
-     "addr": "10 Shorehaven Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 10.0,
-     "sqft": 9564.0,
-     "price": 11500000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 1202,
-     "mi": 0.7
-    },
-    {
-     "slug": "3-shorehaven-road-norwalk-connecticut-24163499",
-     "addr": "3 Shorehaven Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 6.0,
-     "sqft": 5481.0,
-     "price": 3595000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 656,
-     "mi": 0.71
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 1850000.0,
-    "high": 1850000.0,
-    "median": 1850000
+ "comps": [
+  {
+   "mls": "24165362",
+   "slug": "22-cavray-road-norwalk-connecticut-24165362",
+   "address": {
+    "line": "22 Cavray Road",
+    "unit": null,
+    "lineWithUnit": "22 Cavray Road",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06855"
    },
-   "radiusMi": 0.75
+   "beds": 5.0,
+   "baths": 7.0,
+   "sqft": 7867.0,
+   "price": 1850000.0,
+   "date": "2026-08-05",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.103782,
+    "lng": -73.393676
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.45760263311547,
+   "ppsf": 235.15952713868057
+  },
+  {
+   "mls": "24122969",
+   "slug": "13-orchard-hill-road-norwalk-connecticut-24122969",
+   "address": {
+    "line": "13 Orchard Hill Road",
+    "unit": null,
+    "lineWithUnit": "13 Orchard Hill Road",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 4.0,
+   "baths": 5.0,
+   "sqft": 5588.0,
+   "price": 1400000.0,
+   "date": "2026-04-16",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.133669,
+    "lng": -73.385739
+   },
+   "klass": "house",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 3.6441487098210743,
+   "ppsf": 250.53686471009306
+  },
+  {
+   "mls": "24138103",
+   "slug": "106a-comstock-hill-avenue-norwalk-connecticut-24138103",
+   "address": {
+    "line": "106A Comstock Hill Avenue",
+    "unit": null,
+    "lineWithUnit": "106A Comstock Hill Avenue",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 7.0,
+   "baths": 6.0,
+   "sqft": 5705.0,
+   "price": 1350000.0,
+   "date": "2026-05-22",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.146038,
+    "lng": -73.449687
+   },
+   "klass": "house",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 7.096855151796121,
+   "ppsf": 236.63453111305873
+  },
+  {
+   "mls": "24149822",
+   "slug": "4-nursery-street-norwalk-connecticut-24149822",
+   "address": {
+    "line": "4 Nursery Street",
+    "unit": null,
+    "lineWithUnit": "4 Nursery Street",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 3.0,
+   "baths": 4.0,
+   "sqft": 5480.0,
+   "price": 1200000.0,
+   "date": "2026-04-28",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.132936,
+    "lng": -73.455236
+   },
+   "klass": "house",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 6.54246116720362,
+   "ppsf": 218.97810218978103
+  },
+  {
+   "mls": "24151950",
+   "slug": "205-east-rocks-road-norwalk-connecticut-24151950",
+   "address": {
+    "line": "205 East Rocks Road",
+    "unit": null,
+    "lineWithUnit": "205 East Rocks Road",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 5.0,
+   "baths": 5.0,
+   "sqft": 6774.0,
+   "price": 1310000.0,
+   "date": "2026-05-29",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.148955,
+    "lng": -73.412611
+   },
+   "klass": "house",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 5.666636274185922,
+   "ppsf": 193.38647770888693
   }
- }
+ ]
 }

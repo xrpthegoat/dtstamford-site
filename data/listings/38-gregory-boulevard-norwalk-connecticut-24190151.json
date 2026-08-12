@@ -126,125 +126,141 @@
    "mi": 1.19
   }
  },
- "comps": {
-  "building": {
-   "rows": [
-    {
-     "slug": "38-gregory-boulevard-norwalk-connecticut-24152514",
-     "addr": "38 Gregory Boulevard",
-     "unit": "",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 2611.0,
-     "price": 3600.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-01",
-     "ppsf": 1
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 3600.0,
-    "high": 3600.0,
-    "median": 3600
+ "comps": [
+  {
+   "mls": "24139289",
+   "slug": "265-east-avenue-norwalk-connecticut-24139289",
+   "address": {
+    "line": "265 East Avenue",
+    "unit": "Unit 2",
+    "lineWithUnit": "265 East Avenue Unit 2",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06855"
    },
-   "label": "38 Gregory Boulevard"
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 900.0,
+   "price": 2100.0,
+   "date": "2026-03-11",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.100568,
+    "lng": -73.403948
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.28393520861466437,
+   "ppsf": 2.3333333333333335
   },
-  "area": {
-   "rows": [
-    {
-     "slug": "42-first-street-norwalk-connecticut-24168799",
-     "addr": "42 First Street",
-     "unit": "",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1010.0,
-     "price": 2500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-23",
-     "ppsf": 2,
-     "mi": 0.09
-    },
-    {
-     "slug": "265-east-avenue-norwalk-connecticut-24139289",
-     "addr": "265 East Avenue Unit 2",
-     "unit": "Unit 2",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 900.0,
-     "price": 2100.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-11",
-     "ppsf": 2,
-     "mi": 0.18
-    },
-    {
-     "slug": "265-east-avenue-norwalk-connecticut-24172477",
-     "addr": "265 East Avenue Unit 3",
-     "unit": "Unit 3",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 1000.0,
-     "price": 2100.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-29",
-     "ppsf": 2,
-     "mi": 0.18
-    },
-    {
-     "slug": "265-east-avenue-norwalk-connecticut-24191129",
-     "addr": "265 East Avenue Unit 1",
-     "unit": "Unit 1",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 900.0,
-     "price": 2100.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-31",
-     "ppsf": 2,
-     "mi": 0.18
-    },
-    {
-     "slug": "21-cove-avenue-norwalk-connecticut-24193138",
-     "addr": "21 Cove Avenue Unit Rear",
-     "unit": "Unit Rear",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 1200.0,
-     "price": 3300.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-23",
-     "ppsf": 3,
-     "mi": 0.21
-    },
-    {
-     "slug": "21-cove-avenue-norwalk-connecticut-24197819",
-     "addr": "21 Cove Avenue Unit 1st Fl",
-     "unit": "Unit 1st Fl",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 1000.0,
-     "price": 3000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-10",
-     "ppsf": 3,
-     "mi": 0.22
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 2100.0,
-    "high": 3300.0,
-    "median": 2300
+  {
+   "mls": "24151683",
+   "slug": "49-osborne-avenue-norwalk-connecticut-24151683",
+   "address": {
+    "line": "49 Osborne Avenue",
+    "unit": null,
+    "lineWithUnit": "49 Osborne Avenue",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06855"
    },
-   "radiusMi": 0.75
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 850.0,
+   "price": 2100.0,
+   "date": "2026-04-18",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.103949,
+    "lng": -73.408219
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7952310130933233,
+   "ppsf": 2.4705882352941178
+  },
+  {
+   "mls": "24152360",
+   "slug": "61-van-zant-street-norwalk-connecticut-24152360",
+   "address": {
+    "line": "61 Van Zant Street",
+    "unit": "Unit 2",
+    "lineWithUnit": "61 Van Zant Street Unit 2",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06855"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 900.0,
+   "price": 2100.0,
+   "date": "2026-05-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.102027,
+    "lng": -73.404833
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.4412591392396827,
+   "ppsf": 2.3333333333333335
+  },
+  {
+   "mls": "24157798",
+   "slug": "6-pleasant-street-norwalk-connecticut-24157798",
+   "address": {
+    "line": "6 Pleasant Street",
+    "unit": "Unit 3",
+    "lineWithUnit": "6 Pleasant Street Unit 3",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06855"
+   },
+   "beds": 3.0,
+   "baths": 1.0,
+   "sqft": 1000.0,
+   "price": 2650.0,
+   "date": "2026-06-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.103622,
+    "lng": -73.409587
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8647689636995145,
+   "ppsf": 2.65
+  },
+  {
+   "mls": "24159385",
+   "slug": "7-bridge-street-norwalk-connecticut-24159385",
+   "address": {
+    "line": "7 Bridge Street",
+    "unit": null,
+    "lineWithUnit": "7 Bridge Street",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06855"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 750.0,
+   "price": 1900.0,
+   "date": "2026-04-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.106899,
+    "lng": -73.395868
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9482201825081494,
+   "ppsf": 2.533333333333333
   }
- }
+ ]
 }

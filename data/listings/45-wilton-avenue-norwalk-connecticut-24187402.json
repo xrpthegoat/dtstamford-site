@@ -127,101 +127,141 @@
    "walk": 7
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "6-harriet-street-norwalk-connecticut-24188378",
-     "addr": "6 Harriet Street Unit 2",
-     "unit": "Unit 2",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 2531.0,
-     "price": 2375.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-01",
-     "ppsf": 1,
-     "mi": 0.27
-    },
-    {
-     "slug": "20-spring-hill-avenue-norwalk-connecticut-24151393",
-     "addr": "20 Spring Hill Avenue",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1602.0,
-     "price": 3500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-21",
-     "ppsf": 2,
-     "mi": 0.31
-    },
-    {
-     "slug": "49-spring-hill-avenue-norwalk-connecticut-24171044",
-     "addr": "49 Spring Hill Avenue",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1870.0,
-     "price": 5100.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-22",
-     "ppsf": 3,
-     "mi": 0.37
-    },
-    {
-     "slug": "norwalk-connecticut-24151349",
-     "addr": null,
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1200.0,
-     "price": 3600.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-28",
-     "ppsf": 3,
-     "mi": 0.53
-    },
-    {
-     "slug": "6-ward-street-norwalk-connecticut-24182435",
-     "addr": "6 Ward Street",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1245.0,
-     "price": 3400.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-17",
-     "ppsf": 3,
-     "mi": 0.54
-    },
-    {
-     "slug": "10-glendenning-street-norwalk-connecticut-24164557",
-     "addr": "10 Glendenning Street Unit Right",
-     "unit": "Unit Right",
-     "beds": 3.0,
-     "baths": 1.0,
-     "sqft": 2172.0,
-     "price": 3500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-09",
-     "ppsf": 2,
-     "mi": 0.61
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 2375.0,
-    "high": 5100.0,
-    "median": 3500
+ "comps": [
+  {
+   "mls": "24152015",
+   "slug": "50-aiken-street-norwalk-connecticut-24152015",
+   "address": {
+    "line": "50 Aiken Street",
+    "unit": "Apt 144",
+    "lineWithUnit": "50 Aiken Street Apt 144",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 990.0,
+   "price": 2900.0,
+   "date": "2026-04-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.132792,
+    "lng": -73.421743
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1804425798851284,
+   "ppsf": 2.9292929292929295
+  },
+  {
+   "mls": "24151349",
+   "slug": "norwalk-connecticut-24151349",
+   "address": {
+    "line": null,
+    "unit": null,
+    "lineWithUnit": null,
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1200.0,
+   "price": 3600.0,
+   "date": "2026-04-28",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.115313,
+    "lng": -73.424047
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.849413244936708,
+   "ppsf": 3.0
+  },
+  {
+   "mls": "24159924",
+   "slug": "18-prospect-avenue-norwalk-connecticut-24159924",
+   "address": {
+    "line": "18 Prospect Avenue",
+    "unit": "Apt D1",
+    "lineWithUnit": "18 Prospect Avenue Apt D1",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 960.0,
+   "price": 2900.0,
+   "date": "2026-05-05",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.115998,
+    "lng": -73.423326
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7554748310500999,
+   "ppsf": 3.0208333333333335
+  },
+  {
+   "mls": "24178778",
+   "slug": "15-west-main-street-norwalk-connecticut-24178778",
+   "address": {
+    "line": "15 West Main Street",
+    "unit": "Unit J201",
+    "lineWithUnit": "15 West Main Street Unit J201",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1240.0,
+   "price": 3200.0,
+   "date": "2026-06-05",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.123185,
+    "lng": -73.417889
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.1940146756694181,
+   "ppsf": 2.5806451612903225
+  },
+  {
+   "mls": "24175428",
+   "slug": "4-union-avenue-norwalk-connecticut-24175428",
+   "address": {
+    "line": "4 Union Avenue",
+    "unit": "Unit 8",
+    "lineWithUnit": "4 Union Avenue Unit 8",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 992.0,
+   "price": 2500.0,
+   "date": "2026-06-29",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.124138,
+    "lng": -73.41538
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.4290012003331205,
+   "ppsf": 2.5201612903225805
   }
- }
+ ]
 }

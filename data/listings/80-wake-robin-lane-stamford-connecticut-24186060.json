@@ -132,101 +132,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "190-red-fox-road-stamford-connecticut-24174989",
-     "addr": "190 Red Fox Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2021.0,
-     "price": 915000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-02",
-     "ppsf": 453,
-     "mi": 0.27
-    },
-    {
-     "slug": "223-red-fox-road-stamford-connecticut-24149973",
-     "addr": "223 Red Fox Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 3305.0,
-     "price": 1050000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-22",
-     "ppsf": 318,
-     "mi": 0.37
-    },
-    {
-     "slug": "42-dogwood-lane-stamford-connecticut-24160080",
-     "addr": "42 Dogwood Lane",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 5.0,
-     "sqft": 7116.0,
-     "price": 1650000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-24",
-     "ppsf": 232,
-     "mi": 0.54
-    },
-    {
-     "slug": "48-briarwood-lane-stamford-connecticut-24148859",
-     "addr": "48 Briarwood Lane",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 3324.0,
-     "price": 1125000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-23",
-     "ppsf": 338,
-     "mi": 0.55
-    },
-    {
-     "slug": "107-deepwood-road-stamford-connecticut-24121490",
-     "addr": "107 Deepwood Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 3812.0,
-     "price": 1900000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-23",
-     "ppsf": 498,
-     "mi": 0.67
-    },
-    {
-     "slug": "57-jay-road-stamford-connecticut-24161476",
-     "addr": "57 Jay Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 2600.0,
-     "price": 950000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-10",
-     "ppsf": 365,
-     "mi": 0.71
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 915000.0,
-    "high": 1900000.0,
-    "median": 1087500
+ "comps": [
+  {
+   "mls": "24171383",
+   "slug": "290-red-fox-road-stamford-connecticut-24171383",
+   "address": {
+    "line": "290 Red Fox Road",
+    "unit": null,
+    "lineWithUnit": "290 Red Fox Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 2384.0,
+   "price": 880000.0,
+   "date": "2026-06-23",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.118812,
+    "lng": -73.558683
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.44738937259385514,
+   "ppsf": 369.1275167785235
+  },
+  {
+   "mls": "24148859",
+   "slug": "48-briarwood-lane-stamford-connecticut-24148859",
+   "address": {
+    "line": "48 Briarwood Lane",
+    "unit": null,
+    "lineWithUnit": "48 Briarwood Lane",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 3324.0,
+   "price": 1125000.0,
+   "date": "2026-04-23",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.108367,
+    "lng": -73.564256
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8825912257991247,
+   "ppsf": 338.4476534296029
+  },
+  {
+   "mls": "24149973",
+   "slug": "223-red-fox-road-stamford-connecticut-24149973",
+   "address": {
+    "line": "223 Red Fox Road",
+    "unit": null,
+    "lineWithUnit": "223 Red Fox Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 3305.0,
+   "price": 1050000.0,
+   "date": "2026-04-22",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.119698,
+    "lng": -73.555381
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5893391225802572,
+   "ppsf": 317.7004538577912
+  },
+  {
+   "mls": "24161476",
+   "slug": "57-jay-road-stamford-connecticut-24161476",
+   "address": {
+    "line": "57 Jay Road",
+    "unit": null,
+    "lineWithUnit": "57 Jay Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 2600.0,
+   "price": 950000.0,
+   "date": "2026-06-10",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.104646,
+    "lng": -73.555693
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1483572688289327,
+   "ppsf": 365.38461538461536
+  },
+  {
+   "mls": "24177160",
+   "slug": "326-four-brooks-road-stamford-connecticut-24177160",
+   "address": {
+    "line": "326 Four Brooks Road",
+    "unit": null,
+    "lineWithUnit": "326 Four Brooks Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
+   },
+   "beds": 5.0,
+   "baths": 4.0,
+   "sqft": 3088.0,
+   "price": 1170000.0,
+   "date": "2026-08-11",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.116512,
+    "lng": -73.563108
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.45961788026328215,
+   "ppsf": 378.8860103626943
   }
- }
+ ]
 }

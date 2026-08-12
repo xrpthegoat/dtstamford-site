@@ -118,101 +118,141 @@
    "walk": 4
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "36-woodbury-avenue-norwalk-connecticut-24186271",
-     "addr": "36 Woodbury Avenue Unit 2F",
-     "unit": "Unit 2F",
-     "beds": 0.0,
-     "baths": 1.0,
-     "sqft": 350.0,
-     "price": 1700.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-10",
-     "ppsf": 5,
-     "mi": 0.25
-    },
-    {
-     "slug": "36-woodbury-avenue-norwalk-connecticut-24191316",
-     "addr": "36 Woodbury Avenue #2B",
-     "unit": "#2B",
-     "beds": 0.0,
-     "baths": 1.0,
-     "sqft": 500.0,
-     "price": 1700.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-27",
-     "ppsf": 3,
-     "mi": 0.27
-    },
-    {
-     "slug": "1-arch-street-norwalk-connecticut-24161003",
-     "addr": "1 Arch Street Unit 4",
-     "unit": "Unit 4",
-     "beds": 0.0,
-     "baths": 1.0,
-     "sqft": 450.0,
-     "price": 1650.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-07",
-     "ppsf": 4,
-     "mi": 0.32
-    },
-    {
-     "slug": "51-wall-street-norwalk-connecticut-24157042",
-     "addr": "51 Wall Street Unit 4",
-     "unit": "Unit 4",
-     "beds": 0.0,
-     "baths": 1.0,
-     "sqft": 300.0,
-     "price": 1545.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-31",
-     "ppsf": 5,
-     "mi": 0.56
-    },
-    {
-     "slug": "51-wall-street-norwalk-connecticut-24173590",
-     "addr": "51 Wall Street Unit 1",
-     "unit": "Unit 1",
-     "beds": 0.0,
-     "baths": 1.0,
-     "sqft": 4648.0,
-     "price": 1520.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-01",
-     "ppsf": 0,
-     "mi": 0.56
-    },
-    {
-     "slug": "51-wall-street-norwalk-connecticut-24192576",
-     "addr": "51 Wall Street Unit 5",
-     "unit": "Unit 5",
-     "beds": 0.0,
-     "baths": 1.0,
-     "sqft": 300.0,
-     "price": 1545.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-11",
-     "ppsf": 5,
-     "mi": 0.56
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 1520.0,
-    "high": 1700.0,
-    "median": 1598
+ "comps": [
+  {
+   "mls": "24157039",
+   "slug": "25-maple-street-norwalk-connecticut-24157039",
+   "address": {
+    "line": "25 Maple Street",
+    "unit": "Unit 7",
+    "lineWithUnit": "25 Maple Street Unit 7",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
    },
-   "radiusMi": 0.75
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 550.0,
+   "price": 1300.0,
+   "date": "2026-03-19",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.112247,
+    "lng": -73.42056
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.2197918761289997,
+   "ppsf": 2.3636363636363638
+  },
+  {
+   "mls": "24144633",
+   "slug": "32-main-street-norwalk-connecticut-24144633",
+   "address": {
+    "line": "32 Main Street",
+    "unit": "Unit 207",
+    "lineWithUnit": "32 Main Street Unit 207",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 0.0,
+   "baths": 7.0,
+   "sqft": 375.0,
+   "price": 1350.0,
+   "date": "2026-04-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.11951,
+    "lng": -73.412544
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0615231726606715,
+   "ppsf": 3.6
+  },
+  {
+   "mls": "24157221",
+   "slug": "18-prospect-avenue-norwalk-connecticut-24157221",
+   "address": {
+    "line": "18 Prospect Avenue",
+    "unit": "Apt C8",
+    "lineWithUnit": "18 Prospect Avenue Apt C8",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 572.0,
+   "price": 2100.0,
+   "date": "2026-06-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.115997,
+    "lng": -73.423325
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.27674245863223856,
+   "ppsf": 3.6713286713286712
+  },
+  {
+   "mls": "24161003",
+   "slug": "1-arch-street-norwalk-connecticut-24161003",
+   "address": {
+    "line": "1 Arch Street",
+    "unit": "Unit 4",
+    "lineWithUnit": "1 Arch Street Unit 4",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 0.0,
+   "baths": 1.0,
+   "sqft": 450.0,
+   "price": 1650.0,
+   "date": "2026-04-07",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.112743,
+    "lng": -73.41649
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.510989376722225,
+   "ppsf": 3.6666666666666665
+  },
+  {
+   "mls": "24164068",
+   "slug": "39-wall-street-norwalk-connecticut-24164068",
+   "address": {
+    "line": "39 Wall Street",
+    "unit": "Unit 9",
+    "lineWithUnit": "39 Wall Street Unit 9",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 0.0,
+   "baths": 1.0,
+   "sqft": 400.0,
+   "price": 1595.0,
+   "date": "2026-04-10",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.117912,
+    "lng": -73.41259
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9581658078717153,
+   "ppsf": 3.9875
   }
- }
+ ]
 }

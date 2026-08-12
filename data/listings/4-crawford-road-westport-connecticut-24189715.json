@@ -135,44 +135,141 @@
    "mi": 1.93
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "52-partrick-road-westport-connecticut-24168672",
-     "addr": "52 Partrick Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 6.0,
-     "sqft": 5095.0,
-     "price": 1625000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-03",
-     "ppsf": 319,
-     "mi": 0.2
-    },
-    {
-     "slug": "31-stonybrook-road-westport-connecticut-24178699",
-     "addr": "31 Stonybrook Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 8.0,
-     "sqft": 6503.0,
-     "price": 5750000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 884,
-     "mi": 0.73
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 1625000.0,
-    "high": 1625000.0,
-    "median": 1625000
+ "comps": [
+  {
+   "mls": "24168672",
+   "slug": "52-partrick-road-westport-connecticut-24168672",
+   "address": {
+    "line": "52 Partrick Road",
+    "unit": null,
+    "lineWithUnit": "52 Partrick Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
    },
-   "radiusMi": 0.75
+   "beds": 5.0,
+   "baths": 6.0,
+   "sqft": 5095.0,
+   "price": 1625000.0,
+   "date": "2026-06-03",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.154808,
+    "lng": -73.38211
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.32098869139337344,
+   "ppsf": 318.9401373895976
+  },
+  {
+   "mls": "24154644",
+   "slug": "39-marion-road-westport-connecticut-24154644",
+   "address": {
+    "line": "39 Marion Road",
+    "unit": null,
+    "lineWithUnit": "39 Marion Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 4018.0,
+   "price": 1780000.0,
+   "date": "2026-06-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.134616,
+    "lng": -73.381981
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.059473170252382,
+   "ppsf": 443.00647088103534
+  },
+  {
+   "mls": "24150512",
+   "slug": "13-river-lane-westport-connecticut-24150512",
+   "address": {
+    "line": "13 River Lane",
+    "unit": null,
+    "lineWithUnit": "13 River Lane",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 3264.0,
+   "price": 2400000.0,
+   "date": "2026-04-02",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.156372,
+    "lng": -73.368927
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.404279222665138,
+   "ppsf": 735.2941176470588
+  },
+  {
+   "mls": "24154925",
+   "slug": "4-the-fenway-westport-connecticut-24154925",
+   "address": {
+    "line": "4 The Fenway",
+    "unit": null,
+    "lineWithUnit": "4 The Fenway",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 6.0,
+   "baths": 5.0,
+   "sqft": 5083.0,
+   "price": 2581433.0,
+   "date": "2026-05-01",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.142754,
+    "lng": -73.37424
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.4560613438792154,
+   "ppsf": 507.8561872909699
+  },
+  {
+   "mls": "24120677",
+   "slug": "5-tanglewood-lane-westport-connecticut-24120677",
+   "address": {
+    "line": "5 Tanglewood Lane",
+    "unit": null,
+    "lineWithUnit": "5 Tanglewood Lane",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 3253.0,
+   "price": 2000000.0,
+   "date": "2026-06-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.147472,
+    "lng": -73.37845
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 0.8277342278312124,
+   "ppsf": 614.8170919151553
   }
- }
+ ]
 }

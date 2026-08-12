@@ -121,101 +121,141 @@
    "mi": 0.66
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "2-westwood-drive-stamford-connecticut-24168669",
-     "addr": "2 Westwood Drive Unit 2",
-     "unit": "Unit 2",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 700.0,
-     "price": 2250.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-01",
-     "ppsf": 3,
-     "mi": 0.0
-    },
-    {
-     "slug": "1-birch-drive-stamford-connecticut-24171996",
-     "addr": "1 Birch Drive Unit 38",
-     "unit": "Unit 38",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 675.0,
-     "price": 2295.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-15",
-     "ppsf": 3,
-     "mi": 0.0
-    },
-    {
-     "slug": "1-birch-drive-stamford-connecticut-24188131",
-     "addr": "1 Birch Drive Unit 36",
-     "unit": "Unit 36",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 800.0,
-     "price": 2295.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-01",
-     "ppsf": 3,
-     "mi": 0.0
-    },
-    {
-     "slug": "1-birch-drive-stamford-connecticut-24191843",
-     "addr": "1 Birch Drive Unit 21",
-     "unit": "Unit 21",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 700.0,
-     "price": 2295.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-01",
-     "ppsf": 3,
-     "mi": 0.0
-    },
-    {
-     "slug": "46-fairgate-drive-stamford-connecticut-24154014",
-     "addr": "46 Fairgate Drive",
-     "unit": "",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 795.0,
-     "price": 2395.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-20",
-     "ppsf": 3,
-     "mi": 0.51
-    },
-    {
-     "slug": "54-fairgate-drive-stamford-connecticut-24162005",
-     "addr": "54 Fairgate Drive",
-     "unit": "",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 795.0,
-     "price": 2395.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-20",
-     "ppsf": 3,
-     "mi": 0.51
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 2250.0,
-    "high": 2395.0,
-    "median": 2295
+ "comps": [
+  {
+   "mls": "24154014",
+   "slug": "46-fairgate-drive-stamford-connecticut-24154014",
+   "address": {
+    "line": "46 Fairgate Drive",
+    "unit": null,
+    "lineWithUnit": "46 Fairgate Drive",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
    },
-   "radiusMi": 0.75
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 795.0,
+   "price": 2395.0,
+   "date": "2026-03-20",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.049946,
+    "lng": -73.55177
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8146336685873297,
+   "ppsf": 3.0125786163522013
+  },
+  {
+   "mls": "24162005",
+   "slug": "54-fairgate-drive-stamford-connecticut-24162005",
+   "address": {
+    "line": "54 Fairgate Drive",
+    "unit": null,
+    "lineWithUnit": "54 Fairgate Drive",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 795.0,
+   "price": 2395.0,
+   "date": "2026-04-20",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.049946,
+    "lng": -73.55177
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8146336685873297,
+   "ppsf": 3.0125786163522013
+  },
+  {
+   "mls": "24168292",
+   "slug": "23-roosevelt-avenue-stamford-connecticut-24168292",
+   "address": {
+    "line": "23 Roosevelt Avenue",
+    "unit": "#2",
+    "lineWithUnit": "23 Roosevelt Avenue #2",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 888.0,
+   "price": 2700.0,
+   "date": "2026-05-12",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.047247,
+    "lng": -73.554525
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9111996549543322,
+   "ppsf": 3.0405405405405403
+  },
+  {
+   "mls": "24168669",
+   "slug": "2-westwood-drive-stamford-connecticut-24168669",
+   "address": {
+    "line": "2 Westwood Drive",
+    "unit": "Unit 2",
+    "lineWithUnit": "2 Westwood Drive Unit 2",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 700.0,
+   "price": 2250.0,
+   "date": "2026-05-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.05463,
+    "lng": -73.55924
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.0,
+   "ppsf": 3.2142857142857144
+  },
+  {
+   "mls": "24171996",
+   "slug": "1-birch-drive-stamford-connecticut-24171996",
+   "address": {
+    "line": "1 Birch Drive",
+    "unit": "Unit 38",
+    "lineWithUnit": "1 Birch Drive Unit 38",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 675.0,
+   "price": 2295.0,
+   "date": "2026-05-15",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.05463,
+    "lng": -73.55924
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.0,
+   "ppsf": 3.4
   }
- }
+ ]
 }

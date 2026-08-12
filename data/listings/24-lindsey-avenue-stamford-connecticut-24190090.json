@@ -109,101 +109,141 @@
    "mi": 0.77
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "5-brighton-place-stamford-connecticut-24165900",
-     "addr": "5 Brighton Place",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1902.0,
-     "price": 985000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-28",
-     "ppsf": 518,
-     "mi": 0.08
-    },
-    {
-     "slug": "19-jamroga-lane-stamford-connecticut-24164643",
-     "addr": "19 Jamroga Lane",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 2246.0,
-     "price": 875000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-21",
-     "ppsf": 390,
-     "mi": 0.18
-    },
-    {
-     "slug": "25-fairland-street-stamford-connecticut-24163292",
-     "addr": "25 Fairland Street",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1232.0,
-     "price": 690000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-28",
-     "ppsf": 560,
-     "mi": 0.18
-    },
-    {
-     "slug": "125-oaklawn-avenue-stamford-connecticut-24163597",
-     "addr": "125 Oaklawn Avenue",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1164.0,
-     "price": 672701.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-31",
-     "ppsf": 578,
-     "mi": 0.19
-    },
-    {
-     "slug": "174-east-lane-stamford-connecticut-24170650",
-     "addr": "174 East Lane",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 2556.0,
-     "price": 1521000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-18",
-     "ppsf": 595,
-     "mi": 0.24
-    },
-    {
-     "slug": "408-strawberry-hill-avenue-stamford-connecticut-24159236",
-     "addr": "408 Strawberry Hill Avenue",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 2062.0,
-     "price": 875000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-02",
-     "ppsf": 424,
-     "mi": 0.25
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 672701.0,
-    "high": 1521000.0,
-    "median": 875000
+ "comps": [
+  {
+   "mls": "24164817",
+   "slug": "190-toms-road-stamford-connecticut-24164817",
+   "address": {
+    "line": "190 Toms Road",
+    "unit": null,
+    "lineWithUnit": "190 Toms Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06906"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1800.0,
+   "price": 750000.0,
+   "date": "2026-06-18",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.078549,
+    "lng": -73.530545
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.4441861357671912,
+   "ppsf": 416.6666666666667
+  },
+  {
+   "mls": "24170208",
+   "slug": "130-toms-road-stamford-connecticut-24170208",
+   "address": {
+    "line": "130 Toms Road",
+    "unit": null,
+    "lineWithUnit": "130 Toms Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06906"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1416.0,
+   "price": 700000.0,
+   "date": "2026-06-10",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.078676,
+    "lng": -73.527818
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.671821410761762,
+   "ppsf": 494.3502824858757
+  },
+  {
+   "mls": "24174137",
+   "slug": "101-hirsch-road-stamford-connecticut-24174137",
+   "address": {
+    "line": "101 Hirsch Road",
+    "unit": null,
+    "lineWithUnit": "101 Hirsch Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1812.0,
+   "price": 880000.0,
+   "date": "2026-06-23",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.081553,
+    "lng": -73.538622
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.4851869504733109,
+   "ppsf": 485.6512141280353
+  },
+  {
+   "mls": "24170879",
+   "slug": "257-silver-hill-lane-stamford-connecticut-24170879",
+   "address": {
+    "line": "257 Silver Hill Lane",
+    "unit": null,
+    "lineWithUnit": "257 Silver Hill Lane",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2269.0,
+   "price": 1075000.0,
+   "date": "2026-07-10",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.085709,
+    "lng": -73.543935
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1185915136702584,
+   "ppsf": 473.7769942706038
+  },
+  {
+   "mls": "24148356",
+   "slug": "7-dubois-street-stamford-connecticut-24148356",
+   "address": {
+    "line": "7 Dubois Street",
+    "unit": null,
+    "lineWithUnit": "7 Dubois Street",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2036.0,
+   "price": 954000.0,
+   "date": "2026-03-16",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.077353,
+    "lng": -73.549526
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1563104775851811,
+   "ppsf": 468.56581532416504
   }
- }
+ ]
 }

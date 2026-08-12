@@ -122,71 +122,141 @@
    "mi": 0.7
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "693-boston-post-road-darien-connecticut-24155938",
-     "addr": "693 Boston Post Road Unit A",
-     "unit": "Unit A",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 820.0,
-     "price": 4250.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-01",
-     "ppsf": 5,
-     "mi": 0.27
-    },
-    {
-     "slug": "darien-connecticut-24173255",
-     "addr": null,
-     "unit": "",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 835.0,
-     "price": 2725.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-18",
-     "ppsf": 3,
-     "mi": 0.48
-    },
-    {
-     "slug": "11-pond-lane-darien-connecticut-24173438",
-     "addr": "11 Pond Lane Unit 11",
-     "unit": "Unit 11",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 900.0,
-     "price": 4200.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 5,
-     "mi": 0.03
-    },
-    {
-     "slug": "1015-boston-post-road-darien-connecticut-24191192",
-     "addr": "1015 Boston Post Road #202",
-     "unit": "#202",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 900.0,
-     "price": 4000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 4,
-     "mi": 0.72
-    }
-   ],
-   "summary": {
-    "n": 2,
-    "low": 2725.0,
-    "high": 4250.0,
-    "median": 3488
+ "comps": [
+  {
+   "mls": "24155938",
+   "slug": "693-boston-post-road-darien-connecticut-24155938",
+   "address": {
+    "line": "693 Boston Post Road",
+    "unit": "Unit A",
+    "lineWithUnit": "693 Boston Post Road Unit A",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
    },
-   "radiusMi": 0.75
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 820.0,
+   "price": 4250.0,
+   "date": "2026-04-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.08127,
+    "lng": -73.46721
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.4362175371246806,
+   "ppsf": 5.182926829268292
+  },
+  {
+   "mls": "24156503",
+   "slug": "19-a-robin-hood-lane-darien-connecticut-24156503",
+   "address": {
+    "line": "19 A Robin Hood Lane",
+    "unit": null,
+    "lineWithUnit": "19 A Robin Hood Lane",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 1000.0,
+   "price": 4500.0,
+   "date": "2026-04-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.081387,
+    "lng": -73.472198
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7753094208228543,
+   "ppsf": 4.5
+  },
+  {
+   "mls": "24173255",
+   "slug": "darien-connecticut-24173255",
+   "address": {
+    "line": null,
+    "unit": null,
+    "lineWithUnit": null,
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 835.0,
+   "price": 2725.0,
+   "date": "2026-05-18",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.078494,
+    "lng": -73.468989
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.771301837117112,
+   "ppsf": 3.2634730538922154
+  },
+  {
+   "mls": "24183384",
+   "slug": "885-boston-post-road-darien-connecticut-24183384",
+   "address": {
+    "line": "885 Boston Post Road",
+    "unit": "Unit 2A",
+    "lineWithUnit": "885 Boston Post Road Unit 2A",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 1000.0,
+   "price": 3100.0,
+   "date": "2026-06-29",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.077768,
+    "lng": -73.470124
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8925092061417755,
+   "ppsf": 3.1
+  },
+  {
+   "mls": "24138417",
+   "slug": "3-wild-rose-lane-darien-connecticut-24138417",
+   "address": {
+    "line": "3 Wild Rose Lane",
+    "unit": "Unit Cottage",
+    "lineWithUnit": "3 Wild Rose Lane Unit Cottage",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 700.0,
+   "price": 3250.0,
+   "date": "2026-04-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.07096,
+    "lng": -73.4653
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.4762529417542765,
+   "ppsf": 4.642857142857143
   }
- }
+ ]
 }

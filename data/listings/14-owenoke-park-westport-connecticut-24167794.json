@@ -139,58 +139,141 @@
    "mi": 1.59
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "22-apple-tree-trail-westport-connecticut-24158799",
-     "addr": "22 Apple Tree Trail",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 5.0,
-     "sqft": 4550.0,
-     "price": 5995000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-26",
-     "ppsf": 1318,
-     "mi": 0.33
-    },
-    {
-     "slug": "24-compo-parkway-westport-connecticut-24146922",
-     "addr": "24 Compo Parkway",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 6.0,
-     "sqft": 6020.0,
-     "price": 5035000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-20",
-     "ppsf": 836,
-     "mi": 0.57
-    },
-    {
-     "slug": "4-bradley-street-westport-connecticut-24193283",
-     "addr": "4 Bradley Street",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 4.0,
-     "sqft": 3255.0,
-     "price": 2997000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 921,
-     "mi": 0.39
-    }
-   ],
-   "summary": {
-    "n": 2,
-    "low": 5035000.0,
-    "high": 5995000.0,
-    "median": 5515000
+ "comps": [
+  {
+   "mls": "24146922",
+   "slug": "24-compo-parkway-westport-connecticut-24146922",
+   "address": {
+    "line": "24 Compo Parkway",
+    "unit": null,
+    "lineWithUnit": "24 Compo Parkway",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
    },
-   "radiusMi": 0.75
+   "beds": 5.0,
+   "baths": 6.0,
+   "sqft": 6020.0,
+   "price": 5035000.0,
+   "date": "2026-03-20",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.114773,
+    "lng": -73.353806
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9119021464290257,
+   "ppsf": 836.3787375415283
+  },
+  {
+   "mls": "24158799",
+   "slug": "22-apple-tree-trail-westport-connecticut-24158799",
+   "address": {
+    "line": "22 Apple Tree Trail",
+    "unit": null,
+    "lineWithUnit": "22 Apple Tree Trail",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 5.0,
+   "baths": 5.0,
+   "sqft": 4550.0,
+   "price": 5995000.0,
+   "date": "2026-05-26",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.109494,
+    "lng": -73.35261
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5313286740592654,
+   "ppsf": 1317.5824175824175
+  },
+  {
+   "mls": "24167574",
+   "slug": "7-sandpiper-road-westport-connecticut-24167574",
+   "address": {
+    "line": "7 Sandpiper Road",
+    "unit": null,
+    "lineWithUnit": "7 Sandpiper Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 4.0,
+   "baths": 6.0,
+   "sqft": 5195.0,
+   "price": 11895000.0,
+   "date": "2026-06-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.096788,
+    "lng": -73.368864
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.467994373960687,
+   "ppsf": 2289.701636188643
+  },
+  {
+   "mls": "24172774",
+   "slug": "7-pond-edge-road-westport-connecticut-24172774",
+   "address": {
+    "line": "7 Pond Edge Road",
+    "unit": null,
+    "lineWithUnit": "7 Pond Edge Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 4.0,
+   "baths": 6.0,
+   "sqft": 5729.0,
+   "price": 4400000.0,
+   "date": "2026-07-21",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.11665,
+    "lng": -73.348182
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.3394638923148772,
+   "ppsf": 768.0223424681445
+  },
+  {
+   "mls": "24143533",
+   "slug": "9-pond-edge-road-westport-connecticut-24143533",
+   "address": {
+    "line": "9 Pond Edge Road",
+    "unit": null,
+    "lineWithUnit": "9 Pond Edge Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 6.0,
+   "baths": 7.0,
+   "sqft": 6100.0,
+   "price": 5775000.0,
+   "date": "2026-05-11",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.116642,
+    "lng": -73.348582
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.3179587611812442,
+   "ppsf": 946.7213114754098
   }
- }
+ ]
 }

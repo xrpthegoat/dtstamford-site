@@ -133,101 +133,141 @@
    "mi": 0.96
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "71-saddle-road-norwalk-connecticut-24104142",
-     "addr": "71 Saddle Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1256.0,
-     "price": 520000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-16",
-     "ppsf": 414,
-     "mi": 0.2
-    },
-    {
-     "slug": "27-fairweather-drive-norwalk-connecticut-24165389",
-     "addr": "27 Fairweather Drive",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1076.0,
-     "price": 665000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-08",
-     "ppsf": 618,
-     "mi": 0.29
-    },
-    {
-     "slug": "12-hawthorne-drive-norwalk-connecticut-24167321",
-     "addr": "12 Hawthorne Drive",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1230.0,
-     "price": 525000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-10",
-     "ppsf": 427,
-     "mi": 0.3
-    },
-    {
-     "slug": "8-wildmere-lane-norwalk-connecticut-24178355",
-     "addr": "8 Wildmere Lane",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1632.0,
-     "price": 675000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-15",
-     "ppsf": 414,
-     "mi": 0.3
-    },
-    {
-     "slug": "6-wildmere-lane-norwalk-connecticut-24158420",
-     "addr": "6 Wildmere Lane",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1344.0,
-     "price": 655000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-12",
-     "ppsf": 487,
-     "mi": 0.31
-    },
-    {
-     "slug": "37-murray-street-norwalk-connecticut-24153393",
-     "addr": "37 Murray Street",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1769.0,
-     "price": 595000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-10",
-     "ppsf": 336,
-     "mi": 0.38
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 520000.0,
-    "high": 675000.0,
-    "median": 625000
+ "comps": [
+  {
+   "mls": "24166318",
+   "slug": "6-eric-court-norwalk-connecticut-24166318",
+   "address": {
+    "line": "6 Eric Court",
+    "unit": null,
+    "lineWithUnit": "6 Eric Court",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 2.0,
+   "sqft": 1825.0,
+   "price": 800000.0,
+   "date": "2026-06-18",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.122696,
+    "lng": -73.38632
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.072466223938459,
+   "ppsf": 438.35616438356163
+  },
+  {
+   "mls": "24120459",
+   "slug": "9-trailside-drive-norwalk-connecticut-24120459",
+   "address": {
+    "line": "9 Trailside Drive",
+    "unit": null,
+    "lineWithUnit": "9 Trailside Drive",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 2120.0,
+   "price": 780000.0,
+   "date": "2026-03-31",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.138033,
+    "lng": -73.393541
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8843566800759767,
+   "ppsf": 367.92452830188677
+  },
+  {
+   "mls": "24153393",
+   "slug": "37-murray-street-norwalk-connecticut-24153393",
+   "address": {
+    "line": "37 Murray Street",
+    "unit": null,
+    "lineWithUnit": "37 Murray Street",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1769.0,
+   "price": 595000.0,
+   "date": "2026-04-10",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.135475,
+    "lng": -73.396029
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6097358335592721,
+   "ppsf": 336.3482193329565
+  },
+  {
+   "mls": "24157388",
+   "slug": "3-stonybrook-road-norwalk-connecticut-24157388",
+   "address": {
+    "line": "3 Stonybrook Road",
+    "unit": null,
+    "lineWithUnit": "3 Stonybrook Road",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2550.0,
+   "price": 905000.0,
+   "date": "2026-04-27",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.137871,
+    "lng": -73.399532
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9599020094913745,
+   "ppsf": 354.9019607843137
+  },
+  {
+   "mls": "24157952",
+   "slug": "10-merrill-road-norwalk-connecticut-24157952",
+   "address": {
+    "line": "10 Merrill Road",
+    "unit": null,
+    "lineWithUnit": "10 Merrill Road",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2434.0,
+   "price": 1000000.0,
+   "date": "2026-05-13",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.125299,
+    "lng": -73.403683
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9367347712437695,
+   "ppsf": 410.84634346754314
   }
- }
+ ]
 }

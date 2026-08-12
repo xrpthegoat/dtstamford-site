@@ -138,51 +138,141 @@
    "mi": 1.52
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "207-209-long-neck-point-road-darien-connecticut-24166336",
-     "addr": "207-209 Long Neck Point Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 8.0,
-     "sqft": 8248.0,
-     "price": 16995000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 2060,
-     "mi": 0.68
-    },
-    {
-     "slug": "209-209-long-neck-point-road-darien-connecticut-24187039",
-     "addr": "209-209 Long Neck Point Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 8.0,
-     "sqft": 7610.0,
-     "price": 12995000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 1708,
-     "mi": 0.68
-    },
-    {
-     "slug": "21-nearwater-lane-darien-connecticut-24179384",
-     "addr": "21 Nearwater Lane",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 4.0,
-     "sqft": 3553.0,
-     "price": 2795000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 787,
-     "mi": 0.74
-    }
-   ],
-   "summary": null,
-   "radiusMi": 0.75
+ "comps": [
+  {
+   "mls": "24167667",
+   "slug": "8-pasture-lane-darien-connecticut-24167667",
+   "address": {
+    "line": "8 Pasture Lane",
+    "unit": null,
+    "lineWithUnit": "8 Pasture Lane",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 6.0,
+   "baths": 6.0,
+   "sqft": 5505.0,
+   "price": 4300000.0,
+   "date": "2026-06-16",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.057255,
+    "lng": -73.486521
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9854521787425139,
+   "ppsf": 781.1080835603997
+  },
+  {
+   "mls": "24155342",
+   "slug": "20-outlook-drive-darien-connecticut-24155342",
+   "address": {
+    "line": "20 Outlook Drive",
+    "unit": null,
+    "lineWithUnit": "20 Outlook Drive",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 6.0,
+   "baths": 6.0,
+   "sqft": 5378.0,
+   "price": 3825000.0,
+   "date": "2026-04-20",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.056564,
+    "lng": -73.4929
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.102454758910939,
+   "ppsf": 711.230940870212
+  },
+  {
+   "mls": "24081666",
+   "slug": "76-arrowhead-way-darien-connecticut-24081666",
+   "address": {
+    "line": "76 Arrowhead Way",
+    "unit": null,
+    "lineWithUnit": "76 Arrowhead Way",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 5.0,
+   "baths": 8.0,
+   "sqft": 7941.0,
+   "price": 7200000.0,
+   "date": "2026-05-18",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.062156,
+    "lng": -73.463541
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.383039424019764,
+   "ppsf": 906.6868152625614
+  },
+  {
+   "mls": "24146804",
+   "slug": "32-relihan-road-darien-connecticut-24146804",
+   "address": {
+    "line": "32 Relihan Road",
+    "unit": null,
+    "lineWithUnit": "32 Relihan Road",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 5.0,
+   "baths": 6.0,
+   "sqft": 4900.0,
+   "price": 3100000.0,
+   "date": "2026-06-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.06543,
+    "lng": -73.492871
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.9915903967992388,
+   "ppsf": 632.6530612244898
+  },
+  {
+   "mls": "24157440",
+   "slug": "66-stanton-road-darien-connecticut-24157440",
+   "address": {
+    "line": "66 Stanton Road",
+    "unit": null,
+    "lineWithUnit": "66 Stanton Road",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 6.0,
+   "baths": 8.0,
+   "sqft": 6762.0,
+   "price": 4700000.0,
+   "date": "2026-05-09",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.064718,
+    "lng": -73.498497
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.118760529594012,
+   "ppsf": 695.0606329488317
   }
- }
+ ]
 }

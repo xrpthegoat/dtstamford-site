@@ -126,83 +126,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "80-bayberry-lane-westport-connecticut-24175344",
-     "addr": "80 Bayberry Lane",
-     "unit": "",
-     "beds": 6.0,
-     "baths": 7.0,
-     "sqft": 9025.0,
-     "price": 4525000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-23",
-     "ppsf": 501,
-     "mi": 0.36
-    },
-    {
-     "slug": "10-beltas-farm-lane-westport-connecticut-24190641",
-     "addr": "10 Beltas Farm Lane",
-     "unit": "",
-     "beds": 6.0,
-     "baths": 8.0,
-     "sqft": 9893.0,
-     "price": 8450000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 854,
-     "mi": 0.08
-    },
-    {
-     "slug": "10-mary-jane-lane-westport-connecticut-24147970",
-     "addr": "10 Mary Jane Lane",
-     "unit": "",
-     "beds": 6.0,
-     "baths": 7.0,
-     "sqft": 6900.0,
-     "price": 5990000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 868,
-     "mi": 0.43
-    },
-    {
-     "slug": "4-sycamore-drive-westport-connecticut-24177071",
-     "addr": "4 Sycamore Drive",
-     "unit": "",
-     "beds": 6.0,
-     "baths": 8.0,
-     "sqft": 8935.0,
-     "price": 5199000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 582,
-     "mi": 0.54
-    },
-    {
-     "slug": "48-bayberry-lane-westport-connecticut-24186465",
-     "addr": "48 Bayberry Lane",
-     "unit": "",
-     "beds": 6.0,
-     "baths": 6.0,
-     "sqft": 6775.0,
-     "price": 4449000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 657,
-     "mi": 0.63
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 4525000.0,
-    "high": 4525000.0,
-    "median": 4525000
+ "comps": [
+  {
+   "mls": "24175344",
+   "slug": "80-bayberry-lane-westport-connecticut-24175344",
+   "address": {
+    "line": "80 Bayberry Lane",
+    "unit": null,
+    "lineWithUnit": "80 Bayberry Lane",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
    },
-   "radiusMi": 0.75
+   "beds": 6.0,
+   "baths": 7.0,
+   "sqft": 9025.0,
+   "price": 4525000.0,
+   "date": "2026-07-23",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.158813,
+    "lng": -73.317215
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5859862209520315,
+   "ppsf": 501.38504155124656
+  },
+  {
+   "mls": "24170642",
+   "slug": "17-vineyard-lane-westport-connecticut-24170642",
+   "address": {
+    "line": "17 Vineyard Lane",
+    "unit": null,
+    "lineWithUnit": "17 Vineyard Lane",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 5.0,
+   "baths": 6.0,
+   "sqft": 7964.0,
+   "price": 3895000.0,
+   "date": "2026-07-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.168592,
+    "lng": -73.333057
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.151390713092099,
+   "ppsf": 489.07584128578605
+  },
+  {
+   "mls": "24166340",
+   "slug": "4-peach-lot-place-westport-connecticut-24166340",
+   "address": {
+    "line": "4 Peach Lot Place",
+    "unit": "Unit LOT PL",
+    "lineWithUnit": "4 Peach Lot Place Unit LOT PL",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 5.0,
+   "baths": 8.0,
+   "sqft": 8364.0,
+   "price": 4500000.0,
+   "date": "2026-07-05",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.159429,
+    "lng": -73.336848
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.3446486844187173,
+   "ppsf": 538.0200860832138
+  },
+  {
+   "mls": "24131564",
+   "slug": "10-debra-lane-westport-connecticut-24131564",
+   "address": {
+    "line": "10 Debra Lane",
+    "unit": null,
+    "lineWithUnit": "10 Debra Lane",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 6.0,
+   "baths": 9.0,
+   "sqft": 9601.0,
+   "price": 5500000.0,
+   "date": "2026-04-17",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.151483,
+    "lng": -73.311077
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.5478671683512062,
+   "ppsf": 572.8569940631185
+  },
+  {
+   "mls": "24146474",
+   "slug": "21-warnock-drive-westport-connecticut-24146474",
+   "address": {
+    "line": "21 Warnock Drive",
+    "unit": null,
+    "lineWithUnit": "21 Warnock Drive",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 6.0,
+   "baths": 9.0,
+   "sqft": 9324.0,
+   "price": 4475000.0,
+   "date": "2026-07-02",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.16829,
+    "lng": -73.349106
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.3854229129899767,
+   "ppsf": 479.94422994422996
   }
- }
+ ]
 }

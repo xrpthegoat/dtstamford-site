@@ -138,99 +138,141 @@
    "walk": 10
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "61-range-road-wilton-connecticut-24169186",
-     "addr": "61 Range Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2400.0,
-     "price": 1270000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-17",
-     "ppsf": 529,
-     "mi": 0.55
-    },
-    {
-     "slug": "73-wolfpit-road-wilton-connecticut-24171729",
-     "addr": "73 Wolfpit Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2621.0,
-     "price": 1250000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-12",
-     "ppsf": 477,
-     "mi": 0.6
-    },
-    {
-     "slug": "8-gaylord-drive-south-wilton-connecticut-24172737",
-     "addr": "8 Gaylord Drive South",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2502.0,
-     "price": 1635000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-16",
-     "ppsf": 653,
-     "mi": 0.67
-    },
-    {
-     "slug": "30-wilton-hunt-road-wilton-connecticut-24178340",
-     "addr": "30 Wilton Hunt Road Unit 30",
-     "unit": "Unit 30",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 3041.0,
-     "price": 1500000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-15",
-     "ppsf": 493,
-     "mi": 0.68
-    },
-    {
-     "slug": "65-whipple-road-wilton-connecticut-24190698",
-     "addr": "65 Whipple Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2329.0,
-     "price": 799000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 343,
-     "mi": 0.66
-    },
-    {
-     "slug": "22-bittersweet-trail-wilton-connecticut-24169858",
-     "addr": "22 Bittersweet Trail",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 2.0,
-     "sqft": 2240.0,
-     "price": 949000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 424,
-     "mi": 0.71
-    }
-   ],
-   "summary": {
-    "n": 4,
-    "low": 1250000.0,
-    "high": 1635000.0,
-    "median": 1385000
+ "comps": [
+  {
+   "mls": "24169186",
+   "slug": "61-range-road-wilton-connecticut-24169186",
+   "address": {
+    "line": "61 Range Road",
+    "unit": null,
+    "lineWithUnit": "61 Range Road",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2400.0,
+   "price": 1270000.0,
+   "date": "2026-06-17",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.176938,
+    "lng": -73.426199
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8894032383140377,
+   "ppsf": 529.1666666666666
+  },
+  {
+   "mls": "24164761",
+   "slug": "113-range-road-wilton-connecticut-24164761",
+   "address": {
+    "line": "113 Range Road",
+    "unit": null,
+    "lineWithUnit": "113 Range Road",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2496.0,
+   "price": 1290000.0,
+   "date": "2026-06-25",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.173387,
+    "lng": -73.427852
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0320227441642538,
+   "ppsf": 516.8269230769231
+  },
+  {
+   "mls": "24171729",
+   "slug": "73-wolfpit-road-wilton-connecticut-24171729",
+   "address": {
+    "line": "73 Wolfpit Road",
+    "unit": null,
+    "lineWithUnit": "73 Wolfpit Road",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2621.0,
+   "price": 1250000.0,
+   "date": "2026-06-12",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.18058,
+    "lng": -73.424999
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9673956698991043,
+   "ppsf": 476.9172071728348
+  },
+  {
+   "mls": "24149192",
+   "slug": "20-arrowhead-road-wilton-connecticut-24149192",
+   "address": {
+    "line": "20 Arrowhead Road",
+    "unit": null,
+    "lineWithUnit": "20 Arrowhead Road",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1980.0,
+   "price": 650000.0,
+   "date": "2026-04-29",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.17479,
+    "lng": -73.418406
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.2265813289312684,
+   "ppsf": 328.2828282828283
+  },
+  {
+   "mls": "24150645",
+   "slug": "25-arrowhead-road-wilton-connecticut-24150645",
+   "address": {
+    "line": "25 Arrowhead Road",
+    "unit": null,
+    "lineWithUnit": "25 Arrowhead Road",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2679.0,
+   "price": 900000.0,
+   "date": "2026-04-03",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.17347,
+    "lng": -73.418147
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.28490036088787163,
+   "ppsf": 335.94624860022395
   }
- }
+ ]
 }

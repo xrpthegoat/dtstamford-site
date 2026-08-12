@@ -135,100 +135,141 @@
    "mi": 1.86
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "7-douglas-drive-norwalk-connecticut-24158941",
-     "addr": "7 Douglas Drive",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 2022.0,
-     "price": 960000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-24",
-     "ppsf": 475,
-     "mi": 0.29
-    },
-    {
-     "slug": "3-princes-pine-road-norwalk-connecticut-24185226",
-     "addr": "3 Princes Pine Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 1.0,
-     "sqft": 1125.0,
-     "price": 475000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-05",
-     "ppsf": 422,
-     "mi": 0.67
-    },
-    {
-     "slug": "37-glen-avenue-norwalk-connecticut-24152824",
-     "addr": "37 Glen Avenue",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 2929.0,
-     "price": 805000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-16",
-     "ppsf": 275,
-     "mi": 0.69
-    },
-    {
-     "slug": "45-princes-pine-road-norwalk-connecticut-24153435",
-     "addr": "45 Princes Pine Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1988.0,
-     "price": 960000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-28",
-     "ppsf": 483,
-     "mi": 0.7
-    },
-    {
-     "slug": "13-alewives-road-norwalk-connecticut-24179937",
-     "addr": "13 Alewives Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 2175.0,
-     "price": 940000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-02",
-     "ppsf": 432,
-     "mi": 0.72
-    },
-    {
-     "slug": "134-ponus-avenue-norwalk-connecticut-24192635",
-     "addr": "134 Ponus Avenue",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 3136.0,
-     "price": 750000.0,
-     "kind": "asking",
-     "status": "Under Contract - Continue to Show",
-     "ppsf": 239,
-     "mi": 0.47
-    }
-   ],
-   "summary": {
-    "n": 5,
-    "low": 475000.0,
-    "high": 960000.0,
-    "median": 940000
+ "comps": [
+  {
+   "mls": "24131002",
+   "slug": "150-fillow-street-norwalk-connecticut-24131002",
+   "address": {
+    "line": "150 Fillow Street",
+    "unit": null,
+    "lineWithUnit": "150 Fillow Street",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 2.0,
+   "sqft": 2602.0,
+   "price": 795000.0,
+   "date": "2026-04-01",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.119642,
+    "lng": -73.441027
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.061487384245169,
+   "ppsf": 305.5342044581092
+  },
+  {
+   "mls": "24153435",
+   "slug": "45-princes-pine-road-norwalk-connecticut-24153435",
+   "address": {
+    "line": "45 Princes Pine Road",
+    "unit": null,
+    "lineWithUnit": "45 Princes Pine Road",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1988.0,
+   "price": 960000.0,
+   "date": "2026-04-28",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.118281,
+    "lng": -73.466993
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.131081570142636,
+   "ppsf": 482.89738430583503
+  },
+  {
+   "mls": "24153590",
+   "slug": "153-fillow-street-norwalk-connecticut-24153590",
+   "address": {
+    "line": "153 Fillow Street",
+    "unit": null,
+    "lineWithUnit": "153 Fillow Street",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2409.0,
+   "price": 1025000.0,
+   "date": "2026-05-14",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.119785,
+    "lng": -73.442338
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9511955078082992,
+   "ppsf": 425.48775425487753
+  },
+  {
+   "mls": "24158941",
+   "slug": "7-douglas-drive-norwalk-connecticut-24158941",
+   "address": {
+    "line": "7 Douglas Drive",
+    "unit": null,
+    "lineWithUnit": "7 Douglas Drive",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 2022.0,
+   "price": 960000.0,
+   "date": "2026-04-24",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.123618,
+    "lng": -73.456728
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.4742926880335292,
+   "ppsf": 474.7774480712166
+  },
+  {
+   "mls": "24161013",
+   "slug": "7-gray-squirrel-drive-norwalk-connecticut-24161013",
+   "address": {
+    "line": "7 Gray Squirrel Drive",
+    "unit": null,
+    "lineWithUnit": "7 Gray Squirrel Drive",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 2439.0,
+   "price": 1165000.0,
+   "date": "2026-06-03",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.124064,
+    "lng": -73.466959
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1991053319919907,
+   "ppsf": 477.6547765477655
   }
- }
+ ]
 }

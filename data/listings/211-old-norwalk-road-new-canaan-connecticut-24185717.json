@@ -132,57 +132,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "224-marvin-ridge-road-new-canaan-connecticut-24169054",
-     "addr": "224 Marvin Ridge Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 3122.0,
-     "price": 1450000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-18",
-     "ppsf": 464,
-     "mi": 0.42
-    },
-    {
-     "slug": "19-s-down-river-road-new-canaan-connecticut-24195555",
-     "addr": "19 S Down River Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1440.0,
-     "price": 1095000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 760,
-     "mi": 0.64
-    },
-    {
-     "slug": "97-overlook-drive-new-canaan-connecticut-24194440",
-     "addr": "97 Overlook Drive",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 3132.0,
-     "price": 1795000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 573,
-     "mi": 0.66
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 1450000.0,
-    "high": 1450000.0,
-    "median": 1450000
+ "comps": [
+  {
+   "mls": "24169480",
+   "slug": "254-white-oak-shade-road-new-canaan-connecticut-24169480",
+   "address": {
+    "line": "254 White Oak Shade Road",
+    "unit": null,
+    "lineWithUnit": "254 White Oak Shade Road",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2461.0,
+   "price": 2275000.0,
+   "date": "2026-06-10",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.128999,
+    "lng": -73.473693
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7028008512341041,
+   "ppsf": 924.4209670865501
+  },
+  {
+   "mls": "24170801",
+   "slug": "33-village-drive-new-canaan-connecticut-24170801",
+   "address": {
+    "line": "33 Village Drive",
+    "unit": null,
+    "lineWithUnit": "33 Village Drive",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 5.0,
+   "baths": 3.0,
+   "sqft": 3109.0,
+   "price": 2300000.0,
+   "date": "2026-07-10",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.13473,
+    "lng": -73.48532
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.169069165825041,
+   "ppsf": 739.787713091026
+  },
+  {
+   "mls": "24169054",
+   "slug": "224-marvin-ridge-road-new-canaan-connecticut-24169054",
+   "address": {
+    "line": "224 Marvin Ridge Road",
+    "unit": null,
+    "lineWithUnit": "224 Marvin Ridge Road",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 3122.0,
+   "price": 1450000.0,
+   "date": "2026-06-18",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.130094,
+    "lng": -73.466615
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6818002422866798,
+   "ppsf": 464.44586803331197
+  },
+  {
+   "mls": "24128764",
+   "slug": "180-summer-street-new-canaan-connecticut-24128764",
+   "address": {
+    "line": "180 Summer Street",
+    "unit": null,
+    "lineWithUnit": "180 Summer Street",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2747.0,
+   "price": 1450000.0,
+   "date": "2026-03-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.146023,
+    "lng": -73.486778
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.774268265811243,
+   "ppsf": 527.8485620677102
+  },
+  {
+   "mls": "24156389",
+   "slug": "6-field-crest-road-new-canaan-connecticut-24156389",
+   "address": {
+    "line": "6 Field Crest Road",
+    "unit": null,
+    "lineWithUnit": "6 Field Crest Road",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2442.0,
+   "price": 1866800.0,
+   "date": "2026-06-26",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.132884,
+    "lng": -73.486434
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.2850054638961976,
+   "ppsf": 764.4553644553645
   }
- }
+ ]
 }

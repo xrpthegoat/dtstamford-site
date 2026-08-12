@@ -117,81 +117,141 @@
    "walk": 4
   }
  },
- "comps": {
-  "building": {
-   "rows": [
-    {
-     "slug": "36-woodbury-avenue-norwalk-connecticut-24191316",
-     "addr": "36 Woodbury Avenue #2B",
-     "unit": "#2B",
-     "beds": 0.0,
-     "baths": 1.0,
-     "sqft": 500.0,
-     "price": 1700.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-27",
-     "ppsf": 3
-    },
-    {
-     "slug": "36-woodbury-avenue-norwalk-connecticut-24186271",
-     "addr": "36 Woodbury Avenue Unit 2F",
-     "unit": "Unit 2F",
-     "beds": 0.0,
-     "baths": 1.0,
-     "sqft": 350.0,
-     "price": 1700.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-10",
-     "ppsf": 5
-    }
-   ],
-   "summary": {
-    "n": 2,
-    "low": 1700.0,
-    "high": 1700.0,
-    "median": 1700
+ "comps": [
+  {
+   "mls": "24186271",
+   "slug": "36-woodbury-avenue-norwalk-connecticut-24186271",
+   "address": {
+    "line": "36 Woodbury Avenue",
+    "unit": "Unit 2F",
+    "lineWithUnit": "36 Woodbury Avenue Unit 2F",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
    },
-   "label": "36 Woodbury Avenue"
+   "beds": 0.0,
+   "baths": 1.0,
+   "sqft": 350.0,
+   "price": 1700.0,
+   "date": "2026-07-10",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.109947,
+    "lng": -73.42321
+   },
+   "klass": "rental",
+   "tier": 1,
+   "why": "Same building, sold in the last year",
+   "km": 0.02359018127704105,
+   "ppsf": 4.857142857142857
   },
-  "area": {
-   "rows": [
-    {
-     "slug": "1-arch-street-norwalk-connecticut-24161003",
-     "addr": "1 Arch Street Unit 4",
-     "unit": "Unit 4",
-     "beds": 0.0,
-     "baths": 1.0,
-     "sqft": 450.0,
-     "price": 1650.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-07",
-     "ppsf": 4,
-     "mi": 0.41
-    },
-    {
-     "slug": "40-1-prospect-avenue-norwalk-connecticut-24196487",
-     "addr": "40-1 Prospect Avenue Unit 4b",
-     "unit": "Unit 4b",
-     "beds": 0.0,
-     "baths": 0.0,
-     "sqft": 500.0,
-     "price": 1695.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 3,
-     "mi": 0.27
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 1650.0,
-    "high": 1650.0,
-    "median": 1650
+  {
+   "mls": "24191316",
+   "slug": "36-woodbury-avenue-norwalk-connecticut-24191316",
+   "address": {
+    "line": "36 Woodbury Avenue",
+    "unit": "#2B",
+    "lineWithUnit": "36 Woodbury Avenue #2B",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
    },
-   "radiusMi": 0.75
+   "beds": 0.0,
+   "baths": 1.0,
+   "sqft": 500.0,
+   "price": 1700.0,
+   "date": "2026-07-27",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.109737,
+    "lng": -73.42317
+   },
+   "klass": "rental",
+   "tier": 2,
+   "why": "Same building, sold in the last 2 years",
+   "km": 0.0,
+   "ppsf": 3.4
+  },
+  {
+   "mls": "24141589",
+   "slug": "7-fairfield-avenue-norwalk-connecticut-24141589",
+   "address": {
+    "line": "7 Fairfield Avenue",
+    "unit": "Unit 1",
+    "lineWithUnit": "7 Fairfield Avenue Unit 1",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 400.0,
+   "price": 1995.0,
+   "date": "2026-06-15",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.100616,
+    "lng": -73.423159
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0142093446886582,
+   "ppsf": 4.9875
+  },
+  {
+   "mls": "24157345",
+   "slug": "53-glenwood-avenue-norwalk-connecticut-24157345",
+   "address": {
+    "line": "53 Glenwood Avenue",
+    "unit": "Unit 3",
+    "lineWithUnit": "53 Glenwood Avenue Unit 3",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 350.0,
+   "price": 1150.0,
+   "date": "2026-03-31",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.109678,
+    "lng": -73.42989
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5630400931696056,
+   "ppsf": 3.2857142857142856
+  },
+  {
+   "mls": "24161003",
+   "slug": "1-arch-street-norwalk-connecticut-24161003",
+   "address": {
+    "line": "1 Arch Street",
+    "unit": "Unit 4",
+    "lineWithUnit": "1 Arch Street Unit 4",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 0.0,
+   "baths": 1.0,
+   "sqft": 450.0,
+   "price": 1650.0,
+   "date": "2026-04-07",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.112743,
+    "lng": -73.41649
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6518578185217965,
+   "ppsf": 3.6666666666666665
   }
- }
+ ]
 }

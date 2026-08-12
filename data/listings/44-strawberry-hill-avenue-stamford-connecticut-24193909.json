@@ -131,151 +131,141 @@
    "walk": 4
   }
  },
- "comps": {
-  "building": {
-   "rows": [
-    {
-     "slug": "44-strawberry-hill-avenue-stamford-connecticut-24184007",
-     "addr": "44 Strawberry Hill Avenue Unit 5C",
-     "unit": "Unit 5C",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 885.0,
-     "price": 2500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-20",
-     "ppsf": 3
-    },
-    {
-     "slug": "44-strawberry-hill-avenue-stamford-connecticut-24180335",
-     "addr": "44 Strawberry Hill Avenue Unit 7E",
-     "unit": "Unit 7E",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 885.0,
-     "price": 2500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-26",
-     "ppsf": 3
-    },
-    {
-     "slug": "44-strawberry-hill-avenue-stamford-connecticut-24170016",
-     "addr": "44 Strawberry Hill Avenue Unit 7C",
-     "unit": "Unit 7C",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 885.0,
-     "price": 2500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-20",
-     "ppsf": 3
-    }
-   ],
-   "summary": {
-    "n": 3,
-    "low": 2500.0,
-    "high": 2500.0,
-    "median": 2500
+ "comps": [
+  {
+   "mls": "24184007",
+   "slug": "44-strawberry-hill-avenue-stamford-connecticut-24184007",
+   "address": {
+    "line": "44 Strawberry Hill Avenue",
+    "unit": "Unit 5C",
+    "lineWithUnit": "44 Strawberry Hill Avenue Unit 5C",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
    },
-   "label": "44 Strawberry Hill Avenue"
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 885.0,
+   "price": 2500.0,
+   "date": "2026-07-20",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.06147,
+    "lng": -73.533742
+   },
+   "klass": "rental",
+   "tier": 1,
+   "why": "Same building, sold in the last year",
+   "km": 0.00025152468827674884,
+   "ppsf": 2.824858757062147
   },
-  "area": {
-   "rows": [
-    {
-     "slug": "60-strawberry-hill-avenue-stamford-connecticut-24164348",
-     "addr": "60 Strawberry Hill Avenue Unit 605",
-     "unit": "Unit 605",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 403.0,
-     "price": 1800.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-15",
-     "ppsf": 4,
-     "mi": 0.06
-    },
-    {
-     "slug": "60-strawberry-hill-avenue-stamford-connecticut-24161401",
-     "addr": "60 Strawberry Hill Avenue Unit 1002",
-     "unit": "Unit 1002",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 431.0,
-     "price": 1850.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-27",
-     "ppsf": 4,
-     "mi": 0.06
-    },
-    {
-     "slug": "70-strawberry-hill-avenue-stamford-connecticut-24162885",
-     "addr": "70 Strawberry Hill Avenue Unit 5-1D",
-     "unit": "Unit 5-1D",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 800.0,
-     "price": 2200.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-02",
-     "ppsf": 3,
-     "mi": 0.1
-    },
-    {
-     "slug": "70-strawberry-hill-avenue-stamford-connecticut-24163416",
-     "addr": "70 Strawberry Hill Avenue Unit 1-1A",
-     "unit": "Unit 1-1A",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 840.0,
-     "price": 2400.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-06",
-     "ppsf": 3,
-     "mi": 0.1
-    },
-    {
-     "slug": "70-strawberry-hill-avenue-stamford-connecticut-24167616",
-     "addr": "70 Strawberry Hill Avenue Unit 5-1D",
-     "unit": "Unit 5-1D",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 800.0,
-     "price": 2250.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-01",
-     "ppsf": 3,
-     "mi": 0.1
-    },
-    {
-     "slug": "70-strawberry-hill-avenue-stamford-connecticut-24170104",
-     "addr": "70 Strawberry Hill Avenue Unit 3-2D",
-     "unit": "Unit 3-2D",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 716.0,
-     "price": 2175.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-09",
-     "ppsf": 3,
-     "mi": 0.1
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 1800.0,
-    "high": 2400.0,
-    "median": 2188
+  {
+   "mls": "24170016",
+   "slug": "44-strawberry-hill-avenue-stamford-connecticut-24170016",
+   "address": {
+    "line": "44 Strawberry Hill Avenue",
+    "unit": "Unit 7C",
+    "lineWithUnit": "44 Strawberry Hill Avenue Unit 7C",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
    },
-   "radiusMi": 0.75
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 885.0,
+   "price": 2500.0,
+   "date": "2026-05-20",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.06147,
+    "lng": -73.533745
+   },
+   "klass": "rental",
+   "tier": 1,
+   "why": "Same building, sold in the last year",
+   "km": 0.0,
+   "ppsf": 2.824858757062147
+  },
+  {
+   "mls": "24180335",
+   "slug": "44-strawberry-hill-avenue-stamford-connecticut-24180335",
+   "address": {
+    "line": "44 Strawberry Hill Avenue",
+    "unit": "Unit 7E",
+    "lineWithUnit": "44 Strawberry Hill Avenue Unit 7E",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 885.0,
+   "price": 2500.0,
+   "date": "2026-06-26",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.06147,
+    "lng": -73.533742
+   },
+   "klass": "rental",
+   "tier": 1,
+   "why": "Same building, sold in the last year",
+   "km": 0.00025152468827674884,
+   "ppsf": 2.824858757062147
+  },
+  {
+   "mls": "24149354",
+   "slug": "118-summer-street-stamford-connecticut-24149354",
+   "address": {
+    "line": "118 Summer Street",
+    "unit": "Unit 2B",
+    "lineWithUnit": "118 Summer Street Unit 2B",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06901"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 983.0,
+   "price": 2700.0,
+   "date": "2026-03-30",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.054213,
+    "lng": -73.540866
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0038155994270341,
+   "ppsf": 2.7466937945066126
+  },
+  {
+   "mls": "24151628",
+   "slug": "60-strawberry-hill-avenue-stamford-connecticut-24151628",
+   "address": {
+    "line": "60 Strawberry Hill Avenue",
+    "unit": "Unit 318",
+    "lineWithUnit": "60 Strawberry Hill Avenue Unit 318",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 828.0,
+   "price": 2800.0,
+   "date": "2026-04-06",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.062359,
+    "lng": -73.533613
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.09946986448162737,
+   "ppsf": 3.3816425120772946
   }
- }
+ ]
 }

@@ -116,45 +116,141 @@
    "mi": 0.99
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "274-valley-road-greenwich-connecticut-24163093",
-     "addr": "274 Valley Road #2",
-     "unit": "#2",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1400.0,
-     "price": 3500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-01",
-     "ppsf": 2,
-     "mi": 0.3
-    },
-    {
-     "slug": "274-valley-road-greenwich-connecticut-24163031",
-     "addr": "274 Valley Road #1",
-     "unit": "#1",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1400.0,
-     "price": 3800.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-01",
-     "ppsf": 3,
-     "mi": 0.31
-    }
-   ],
-   "summary": {
-    "n": 2,
-    "low": 3500.0,
-    "high": 3800.0,
-    "median": 3650
+ "comps": [
+  {
+   "mls": "24163031",
+   "slug": "274-valley-road-greenwich-connecticut-24163031",
+   "address": {
+    "line": "274 Valley Road",
+    "unit": "#1",
+    "lineWithUnit": "274 Valley Road #1",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06807"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1400.0,
+   "price": 3800.0,
+   "date": "2026-05-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.05698,
+    "lng": -73.584015
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.49204608332987404,
+   "ppsf": 2.7142857142857144
+  },
+  {
+   "mls": "24163093",
+   "slug": "274-valley-road-greenwich-connecticut-24163093",
+   "address": {
+    "line": "274 Valley Road",
+    "unit": "#2",
+    "lineWithUnit": "274 Valley Road #2",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06807"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1400.0,
+   "price": 3500.0,
+   "date": "2026-05-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.057033,
+    "lng": -73.583999
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.4877190688283352,
+   "ppsf": 2.5
+  },
+  {
+   "mls": "24146768",
+   "slug": "156-river-rd-extension-greenwich-connecticut-24146768",
+   "address": {
+    "line": "156 River Rd Extension",
+    "unit": "Unit 3",
+    "lineWithUnit": "156 River Rd Extension Unit 3",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06807"
+   },
+   "beds": 3.0,
+   "baths": 1.0,
+   "sqft": 1500.0,
+   "price": 3150.0,
+   "date": "2026-06-17",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.043749,
+    "lng": -73.591104
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.0103093693144376,
+   "ppsf": 2.1
+  },
+  {
+   "mls": "24157455",
+   "slug": "15-richmond-drive-greenwich-connecticut-24157455",
+   "address": {
+    "line": "15 Richmond Drive",
+    "unit": null,
+    "lineWithUnit": "15 Richmond Drive",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06870"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1435.0,
+   "price": 8250.0,
+   "date": "2026-03-23",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.040874,
+    "lng": -73.56964
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.2073860498362405,
+   "ppsf": 5.7491289198606275
+  },
+  {
+   "mls": "24164904",
+   "slug": "51-old-kings-highway-greenwich-connecticut-24164904",
+   "address": {
+    "line": "51 Old Kings Highway",
+    "unit": "Unit 12",
+    "lineWithUnit": "51 Old Kings Highway Unit 12",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06870"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 905.0,
+   "price": 4000.0,
+   "date": "2026-04-16",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.045959,
+    "lng": -73.572333
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.5985881325689937,
+   "ppsf": 4.419889502762431
   }
- }
+ ]
 }

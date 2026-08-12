@@ -115,100 +115,141 @@
    "walk": 3
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "16-carolina-road-stamford-connecticut-24191657",
-     "addr": "16 Carolina Road Unit 2",
-     "unit": "Unit 2",
-     "beds": 3.0,
-     "baths": 1.0,
-     "sqft": 2344.0,
-     "price": 3600.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-20",
-     "ppsf": 2,
-     "mi": 0.43
-    },
-    {
-     "slug": "75-henry-street-stamford-connecticut-24150551",
-     "addr": "75 Henry Street Unit 3West",
-     "unit": "Unit 3West",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 991.0,
-     "price": 3850.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-01",
-     "ppsf": 4,
-     "mi": 0.67
-    },
-    {
-     "slug": "775-atlantic-street-stamford-connecticut-24168722",
-     "addr": "775 Atlantic Street Unit 1R",
-     "unit": "Unit 1R",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 8120.0,
-     "price": 2800.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-01",
-     "ppsf": 0,
-     "mi": 0.72
-    },
-    {
-     "slug": "775-atlantic-street-stamford-connecticut-24172566",
-     "addr": "775 Atlantic Street Unit 3L",
-     "unit": "Unit 3L",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1150.0,
-     "price": 2800.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-25",
-     "ppsf": 2,
-     "mi": 0.72
-    },
-    {
-     "slug": "2-washington-court-stamford-connecticut-24150917",
-     "addr": "2 Washington Court Unit 12",
-     "unit": "Unit 12",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1064.0,
-     "price": 3190.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-01",
-     "ppsf": 3,
-     "mi": 0.73
-    },
-    {
-     "slug": "175-west-avenue-stamford-connecticut-24191457",
-     "addr": "175 West Avenue Unit 8",
-     "unit": "Unit 8",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 1800.0,
-     "price": 3500.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 2,
-     "mi": 0.3
-    }
-   ],
-   "summary": {
-    "n": 5,
-    "low": 2800.0,
-    "high": 3850.0,
-    "median": 3190
+ "comps": [
+  {
+   "mls": "24191341",
+   "slug": "50-alvord-lane-stamford-connecticut-24191341",
+   "address": {
+    "line": "50 Alvord Lane",
+    "unit": "Unit 14",
+    "lineWithUnit": "50 Alvord Lane Unit 14",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1950.0,
+   "price": 3200.0,
+   "date": "2026-08-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.050399,
+    "lng": -73.563636
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9107630140591141,
+   "ppsf": 1.641025641025641
+  },
+  {
+   "mls": "24191657",
+   "slug": "16-carolina-road-stamford-connecticut-24191657",
+   "address": {
+    "line": "16 Carolina Road",
+    "unit": "Unit 2",
+    "lineWithUnit": "16 Carolina Road Unit 2",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 3.0,
+   "baths": 1.0,
+   "sqft": 2344.0,
+   "price": 3600.0,
+   "date": "2026-07-20",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.054891,
+    "lng": -73.555749
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6885143597118495,
+   "ppsf": 1.5358361774744027
+  },
+  {
+   "mls": "24153723",
+   "slug": "109-forest-street-stamford-connecticut-24153723",
+   "address": {
+    "line": "109 Forest Street",
+    "unit": "Apt 3",
+    "lineWithUnit": "109 Forest Street Apt 3",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06901"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1695.0,
+   "price": 4500.0,
+   "date": "2026-03-31",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.05626,
+    "lng": -73.532936
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.8560069456041854,
+   "ppsf": 2.6548672566371683
+  },
+  {
+   "mls": "24146915",
+   "slug": "143-hoyt-street-stamford-connecticut-24146915",
+   "address": {
+    "line": "143 Hoyt Street",
+    "unit": "Unit 5L",
+    "lineWithUnit": "143 Hoyt Street Unit 5L",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1732.0,
+   "price": 3600.0,
+   "date": "2026-04-26",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.060379,
+    "lng": -73.534578
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.9858011864795184,
+   "ppsf": 2.0785219399538106
+  },
+  {
+   "mls": "24158555",
+   "slug": "20-third-street-stamford-connecticut-24158555",
+   "address": {
+    "line": "20 Third Street",
+    "unit": "Unit 18",
+    "lineWithUnit": "20 Third Street Unit 18",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1645.0,
+   "price": 4900.0,
+   "date": "2026-05-09",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.06464,
+    "lng": -73.54251
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.9378813415193419,
+   "ppsf": 2.978723404255319
   }
- }
+ ]
 }

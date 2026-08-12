@@ -110,101 +110,141 @@
    "mi": 0.7
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "14-center-avenue-norwalk-connecticut-24161730",
-     "addr": "14 Center Avenue Unit 1N",
-     "unit": "Unit 1N",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 500.0,
-     "price": 1900.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-13",
-     "ppsf": 4,
-     "mi": 0.1
-    },
-    {
-     "slug": "14-center-avenue-norwalk-connecticut-24194519",
-     "addr": "14 Center Avenue Unit 1S",
-     "unit": "Unit 1S",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 600.0,
-     "price": 1925.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-03",
-     "ppsf": 3,
-     "mi": 0.1
-    },
-    {
-     "slug": "168-main-street-norwalk-connecticut-24174451",
-     "addr": "168 Main Street Unit 3B",
-     "unit": "Unit 3B",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 500.0,
-     "price": 1400.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-01",
-     "ppsf": 3,
-     "mi": 0.19
-    },
-    {
-     "slug": "168-main-street-norwalk-connecticut-24182641",
-     "addr": "168 Main Street Unit 3A",
-     "unit": "Unit 3A",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 650.0,
-     "price": 1950.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-13",
-     "ppsf": 3,
-     "mi": 0.19
-    },
-    {
-     "slug": "50-aiken-street-norwalk-connecticut-24149160",
-     "addr": "50 Aiken Street Unit 225",
-     "unit": "Unit 225",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 736.0,
-     "price": 2100.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-15",
-     "ppsf": 3,
-     "mi": 0.32
-    },
-    {
-     "slug": "50-aiken-street-norwalk-connecticut-24190372",
-     "addr": "50 Aiken Street Unit 123",
-     "unit": "Unit 123",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 736.0,
-     "price": 2200.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-22",
-     "ppsf": 3,
-     "mi": 0.33
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 1400.0,
-    "high": 2200.0,
-    "median": 1938
+ "comps": [
+  {
+   "mls": "24149160",
+   "slug": "50-aiken-street-norwalk-connecticut-24149160",
+   "address": {
+    "line": "50 Aiken Street",
+    "unit": "Unit 225",
+    "lineWithUnit": "50 Aiken Street Unit 225",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
    },
-   "radiusMi": 0.75
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 736.0,
+   "price": 2100.0,
+   "date": "2026-03-15",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.132792,
+    "lng": -73.421743
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5216609253680009,
+   "ppsf": 2.8532608695652173
+  },
+  {
+   "mls": "24145491",
+   "slug": "50-aiken-street-norwalk-connecticut-24145491",
+   "address": {
+    "line": "50 Aiken Street",
+    "unit": "Apt 404",
+    "lineWithUnit": "50 Aiken Street Apt 404",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 990.0,
+   "price": 2750.0,
+   "date": "2026-03-15",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.133678,
+    "lng": -73.421675
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6101195220409609,
+   "ppsf": 2.7777777777777777
+  },
+  {
+   "mls": "24145295",
+   "slug": "133-main-street-norwalk-connecticut-24145295",
+   "address": {
+    "line": "133 Main Street",
+    "unit": "Apt 7",
+    "lineWithUnit": "133 Main Street Apt 7",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 876.0,
+   "price": 2715.0,
+   "date": "2026-04-02",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.123881,
+    "lng": -73.416284
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5696464106753493,
+   "ppsf": 3.0993150684931505
+  },
+  {
+   "mls": "24135547",
+   "slug": "25-grand-street-norwalk-connecticut-24135547",
+   "address": {
+    "line": "25 Grand Street",
+    "unit": "Apt 104",
+    "lineWithUnit": "25 Grand Street Apt 104",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 1.0,
+   "baths": 2.0,
+   "sqft": 730.0,
+   "price": 2400.0,
+   "date": "2026-04-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.124688,
+    "lng": -73.423326
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.557663378100767,
+   "ppsf": 3.287671232876712
+  },
+  {
+   "mls": "24152015",
+   "slug": "50-aiken-street-norwalk-connecticut-24152015",
+   "address": {
+    "line": "50 Aiken Street",
+    "unit": "Apt 144",
+    "lineWithUnit": "50 Aiken Street Apt 144",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 990.0,
+   "price": 2900.0,
+   "date": "2026-04-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.132792,
+    "lng": -73.421743
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5216609253680009,
+   "ppsf": 2.9292929292929295
   }
- }
+ ]
 }

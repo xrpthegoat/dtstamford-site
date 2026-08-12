@@ -134,72 +134,141 @@
    "mi": 1.87
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "141-cavalry-road-wilton-connecticut-24169957",
-     "addr": "141 Cavalry Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 2840.0,
-     "price": 1200000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-22",
-     "ppsf": 423,
-     "mi": 0.32
-    },
-    {
-     "slug": "49-mollbrook-drive-wilton-connecticut-24173839",
-     "addr": "49 Mollbrook Drive",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 3892.0,
-     "price": 1650000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-22",
-     "ppsf": 424,
-     "mi": 0.44
-    },
-    {
-     "slug": "368b-wilton-road-westport-connecticut-24130527",
-     "addr": "368B Wilton Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 4166.0,
-     "price": 2310000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-23",
-     "ppsf": 554,
-     "mi": 0.74
-    },
-    {
-     "slug": "18-west-meadow-road-wilton-connecticut-24181450",
-     "addr": "18 West Meadow Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 5.0,
-     "sqft": 4808.0,
-     "price": 1999000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 416,
-     "mi": 0.38
-    }
-   ],
-   "summary": {
-    "n": 3,
-    "low": 1200000.0,
-    "high": 2310000.0,
-    "median": 1650000
+ "comps": [
+  {
+   "mls": "24169957",
+   "slug": "141-cavalry-road-wilton-connecticut-24169957",
+   "address": {
+    "line": "141 Cavalry Road",
+    "unit": null,
+    "lineWithUnit": "141 Cavalry Road",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 2840.0,
+   "price": 1200000.0,
+   "date": "2026-06-22",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.185453,
+    "lng": -73.380703
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5152274534132385,
+   "ppsf": 422.53521126760563
+  },
+  {
+   "mls": "24163741",
+   "slug": "120-chestnut-hill-road-wilton-connecticut-24163741",
+   "address": {
+    "line": "120 Chestnut Hill Road",
+    "unit": null,
+    "lineWithUnit": "120 Chestnut Hill Road",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 5.0,
+   "baths": 4.0,
+   "sqft": 2695.0,
+   "price": 1417000.0,
+   "date": "2026-05-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.179524,
+    "lng": -73.392267
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7633417458028728,
+   "ppsf": 525.7884972170687
+  },
+  {
+   "mls": "24168315",
+   "slug": "99-rivergate-drive-wilton-connecticut-24168315",
+   "address": {
+    "line": "99 Rivergate Drive",
+    "unit": null,
+    "lineWithUnit": "99 Rivergate Drive",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2440.0,
+   "price": 1150000.0,
+   "date": "2026-06-08",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.187273,
+    "lng": -73.391332
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9346742736582271,
+   "ppsf": 471.3114754098361
+  },
+  {
+   "mls": "24172948",
+   "slug": "15-rivergate-woods-wilton-connecticut-24172948",
+   "address": {
+    "line": "15 Rivergate Woods",
+    "unit": null,
+    "lineWithUnit": "15 Rivergate Woods",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 3134.0,
+   "price": 1030000.0,
+   "date": "2026-07-08",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.192229,
+    "lng": -73.390662
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.3554877051258367,
+   "ppsf": 328.6534779834078
+  },
+  {
+   "mls": "24152097",
+   "slug": "25-cherry-lane-wilton-connecticut-24152097",
+   "address": {
+    "line": "25 Cherry Lane",
+    "unit": null,
+    "lineWithUnit": "25 Cherry Lane",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2331.0,
+   "price": 1105000.0,
+   "date": "2026-06-01",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.188628,
+    "lng": -73.409495
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.3257106132524403,
+   "ppsf": 474.04547404547407
   }
- }
+ ]
 }

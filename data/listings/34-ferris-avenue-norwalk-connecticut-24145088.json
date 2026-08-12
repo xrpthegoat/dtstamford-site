@@ -134,72 +134,141 @@
    "walk": 11
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "82-ledgebrook-drive-norwalk-connecticut-24162790",
-     "addr": "82 Ledgebrook Drive Unit 82",
-     "unit": "Unit 82",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1806.0,
-     "price": 513000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-14",
-     "ppsf": 284,
-     "mi": 0.54
-    },
-    {
-     "slug": "19-ledgebrook-drive-norwalk-connecticut-24161955",
-     "addr": "19 Ledgebrook Drive Unit 19",
-     "unit": "Unit 19",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1806.0,
-     "price": 655000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-18",
-     "ppsf": 363,
-     "mi": 0.64
-    },
-    {
-     "slug": "33-north-water-street-norwalk-connecticut-24138234",
-     "addr": "33 North Water Street Unit 804",
-     "unit": "Unit 804",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 2147.0,
-     "price": 1299000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-27",
-     "ppsf": 605,
-     "mi": 0.75
-    },
-    {
-     "slug": "106-gillies-lane-norwalk-connecticut-24186629",
-     "addr": "106 Gillies Lane Unit 106",
-     "unit": "Unit 106",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1806.0,
-     "price": 499500.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 277,
-     "mi": 0.56
-    }
-   ],
-   "summary": {
-    "n": 3,
-    "low": 513000.0,
-    "high": 1299000.0,
-    "median": 655000
+ "comps": [
+  {
+   "mls": "24161955",
+   "slug": "19-ledgebrook-drive-norwalk-connecticut-24161955",
+   "address": {
+    "line": "19 Ledgebrook Drive",
+    "unit": "Unit 19",
+    "lineWithUnit": "19 Ledgebrook Drive Unit 19",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1806.0,
+   "price": 655000.0,
+   "date": "2026-06-18",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.105722,
+    "lng": -73.441398
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.023570981611605,
+   "ppsf": 362.67995570321153
+  },
+  {
+   "mls": "24151426",
+   "slug": "192-gillies-lane-norwalk-connecticut-24151426",
+   "address": {
+    "line": "192 Gillies Lane",
+    "unit": "Unit 192",
+    "lineWithUnit": "192 Gillies Lane Unit 192",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1662.0,
+   "price": 525000.0,
+   "date": "2026-04-27",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.106449,
+    "lng": -73.442298
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0804426107051623,
+   "ppsf": 315.884476534296
+  },
+  {
+   "mls": "24155668",
+   "slug": "115-fillow-street-norwalk-connecticut-24155668",
+   "address": {
+    "line": "115 Fillow Street",
+    "unit": "Unit 78",
+    "lineWithUnit": "115 Fillow Street Unit 78",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1448.0,
+   "price": 470000.0,
+   "date": "2026-04-06",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.116642,
+    "lng": -73.437813
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.178213360329828,
+   "ppsf": 324.585635359116
+  },
+  {
+   "mls": "24167486",
+   "slug": "76-gillies-lane-norwalk-connecticut-24167486",
+   "address": {
+    "line": "76 Gillies Lane",
+    "unit": "Unit 76",
+    "lineWithUnit": "76 Gillies Lane Unit 76",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1525.0,
+   "price": 565000.0,
+   "date": "2026-07-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.108205,
+    "lng": -73.439766
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.853657338899936,
+   "ppsf": 370.4918032786885
+  },
+  {
+   "mls": "24162790",
+   "slug": "82-ledgebrook-drive-norwalk-connecticut-24162790",
+   "address": {
+    "line": "82 Ledgebrook Drive",
+    "unit": "Unit 82",
+    "lineWithUnit": "82 Ledgebrook Drive Unit 82",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1806.0,
+   "price": 513000.0,
+   "date": "2026-05-14",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.107339,
+    "lng": -73.439833
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8627573390663088,
+   "ppsf": 284.0531561461794
   }
- }
+ ]
 }

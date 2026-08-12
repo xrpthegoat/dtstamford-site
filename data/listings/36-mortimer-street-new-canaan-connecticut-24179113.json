@@ -133,100 +133,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "42-old-stamford-road-new-canaan-connecticut-24165503",
-     "addr": "42 Old Stamford Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 2132.0,
-     "price": 1955000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-24",
-     "ppsf": 917,
-     "mi": 0.2
-    },
-    {
-     "slug": "36-village-drive-new-canaan-connecticut-24151120",
-     "addr": "36 Village Drive",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 2196.0,
-     "price": 1650000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-27",
-     "ppsf": 751,
-     "mi": 0.34
-    },
-    {
-     "slug": "218-summer-street-new-canaan-connecticut-24182418",
-     "addr": "218 Summer Street",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 2256.0,
-     "price": 1475000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-30",
-     "ppsf": 654,
-     "mi": 0.56
-    },
-    {
-     "slug": "42-hoyt-street-new-canaan-connecticut-24176539",
-     "addr": "42 Hoyt Street",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 2842.0,
-     "price": 1792600.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-04",
-     "ppsf": 631,
-     "mi": 0.59
-    },
-    {
-     "slug": "60-east-avenue-new-canaan-connecticut-24092533",
-     "addr": "60 East Avenue",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1400.0,
-     "price": 975000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-17",
-     "ppsf": 696,
-     "mi": 0.73
-    },
-    {
-     "slug": "19-s-down-river-road-new-canaan-connecticut-24195555",
-     "addr": "19 S Down River Road",
-     "unit": "",
-     "beds": 3.0,
-     "baths": 2.0,
-     "sqft": 1440.0,
-     "price": 1095000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 760,
-     "mi": 0.5
-    }
-   ],
-   "summary": {
-    "n": 5,
-    "low": 975000.0,
-    "high": 1955000.0,
-    "median": 1650000
+ "comps": [
+  {
+   "mls": "24156389",
+   "slug": "6-field-crest-road-new-canaan-connecticut-24156389",
+   "address": {
+    "line": "6 Field Crest Road",
+    "unit": null,
+    "lineWithUnit": "6 Field Crest Road",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2442.0,
+   "price": 1866800.0,
+   "date": "2026-06-26",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.132884,
+    "lng": -73.486434
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6447987974529368,
+   "ppsf": 764.4553644553645
+  },
+  {
+   "mls": "24165503",
+   "slug": "42-old-stamford-road-new-canaan-connecticut-24165503",
+   "address": {
+    "line": "42 Old Stamford Road",
+    "unit": null,
+    "lineWithUnit": "42 Old Stamford Road",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2132.0,
+   "price": 1955000.0,
+   "date": "2026-06-24",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.136345,
+    "lng": -73.494929
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.3158539739961296,
+   "ppsf": 916.9793621013133
+  },
+  {
+   "mls": "24146450",
+   "slug": "12-field-crest-road-new-canaan-connecticut-24146450",
+   "address": {
+    "line": "12 Field Crest Road",
+    "unit": null,
+    "lineWithUnit": "12 Field Crest Road",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2160.0,
+   "price": 2200000.0,
+   "date": "2026-04-01",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.133157,
+    "lng": -73.486519
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6171409031847389,
+   "ppsf": 1018.5185185185185
+  },
+  {
+   "mls": "24151120",
+   "slug": "36-village-drive-new-canaan-connecticut-24151120",
+   "address": {
+    "line": "36 Village Drive",
+    "unit": null,
+    "lineWithUnit": "36 Village Drive",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 2196.0,
+   "price": 1650000.0,
+   "date": "2026-04-27",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.13458,
+    "lng": -73.486046
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5414547203933738,
+   "ppsf": 751.3661202185792
+  },
+  {
+   "mls": "24157409",
+   "slug": "100-harrison-avenue-new-canaan-connecticut-24157409",
+   "address": {
+    "line": "100 Harrison Avenue",
+    "unit": null,
+    "lineWithUnit": "100 Harrison Avenue",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2635.0,
+   "price": 1700000.0,
+   "date": "2026-08-03",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.140847,
+    "lng": -73.486521
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5653887945585682,
+   "ppsf": 645.1612903225806
   }
- }
+ ]
 }

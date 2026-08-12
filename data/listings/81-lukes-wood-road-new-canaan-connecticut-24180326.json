@@ -131,58 +131,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "197-bowery-road-new-canaan-connecticut-24166472",
-     "addr": "197 Bowery Road",
-     "unit": "",
-     "beds": 6.0,
-     "baths": 6.0,
-     "sqft": 5549.0,
-     "price": 2702500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-06",
-     "ppsf": 487,
-     "mi": 0.26
-    },
-    {
-     "slug": "1218-smith-ridge-road-new-canaan-connecticut-24165816",
-     "addr": "1218 Smith Ridge Road",
-     "unit": "",
-     "beds": 6.0,
-     "baths": 9.0,
-     "sqft": 8539.0,
-     "price": 4501000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-12",
-     "ppsf": 527,
-     "mi": 0.64
-    },
-    {
-     "slug": "108-logan-road-new-canaan-connecticut-24184790",
-     "addr": "108 Logan Road",
-     "unit": "",
-     "beds": 6.0,
-     "baths": 8.0,
-     "sqft": 6069.0,
-     "price": 3200000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 527,
-     "mi": 0.73
-    }
-   ],
-   "summary": {
-    "n": 2,
-    "low": 2702500.0,
-    "high": 4501000.0,
-    "median": 3601750
+ "comps": [
+  {
+   "mls": "24165816",
+   "slug": "1218-smith-ridge-road-new-canaan-connecticut-24165816",
+   "address": {
+    "line": "1218 Smith Ridge Road",
+    "unit": null,
+    "lineWithUnit": "1218 Smith Ridge Road",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
    },
-   "radiusMi": 0.75
+   "beds": 6.0,
+   "baths": 9.0,
+   "sqft": 8539.0,
+   "price": 4501000.0,
+   "date": "2026-06-12",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.194893,
+    "lng": -73.508891
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0376374459632256,
+   "ppsf": 527.1109029160323
+  },
+  {
+   "mls": "24159147",
+   "slug": "46-wakeman-road-new-canaan-connecticut-24159147",
+   "address": {
+    "line": "46 Wakeman Road",
+    "unit": null,
+    "lineWithUnit": "46 Wakeman Road",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 4.0,
+   "baths": 6.0,
+   "sqft": 6950.0,
+   "price": 3662900.0,
+   "date": "2026-06-10",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.189243,
+    "lng": -73.524344
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.44573192909499876,
+   "ppsf": 527.0359712230215
+  },
+  {
+   "mls": "24165312",
+   "slug": "1191-oenoke-ridge-new-canaan-connecticut-24165312",
+   "address": {
+    "line": "1191 Oenoke Ridge",
+    "unit": null,
+    "lineWithUnit": "1191 Oenoke Ridge",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 5.0,
+   "baths": 6.0,
+   "sqft": 6557.0,
+   "price": 4700000.0,
+   "date": "2026-08-04",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.18382,
+    "lng": -73.52093
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6534493139728688,
+   "ppsf": 716.7912154948909
+  },
+  {
+   "mls": "24147565",
+   "slug": "1343-smith-ridge-road-new-canaan-connecticut-24147565",
+   "address": {
+    "line": "1343 Smith Ridge Road",
+    "unit": null,
+    "lineWithUnit": "1343 Smith Ridge Road",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 6.0,
+   "baths": 8.0,
+   "sqft": 9656.0,
+   "price": 3795000.0,
+   "date": "2026-07-08",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.19895,
+    "lng": -73.507645
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.4166703141580095,
+   "ppsf": 393.019884009942
+  },
+  {
+   "mls": "24147831",
+   "slug": "757-oenoke-ridge-new-canaan-connecticut-24147831",
+   "address": {
+    "line": "757 Oenoke Ridge",
+    "unit": null,
+    "lineWithUnit": "757 Oenoke Ridge",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 7.0,
+   "baths": 8.0,
+   "sqft": 8194.0,
+   "price": 5700000.0,
+   "date": "2026-05-12",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.170696,
+    "lng": -73.51308
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.1515500306710402,
+   "ppsf": 695.6309494752257
   }
- }
+ ]
 }

@@ -133,55 +133,141 @@
    "walk": 12
   }
  },
- "comps": {
-  "building": {
-   "rows": [
-    {
-     "slug": "1-howard-avenue-norwalk-connecticut-24157220",
-     "addr": "1 Howard Avenue Unit C4",
-     "unit": "Unit C4",
-     "beds": 3.0,
-     "baths": 4.0,
-     "sqft": 1731.0,
-     "price": 815000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-08",
-     "ppsf": 471
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 815000.0,
-    "high": 815000.0,
-    "median": 815000
+ "comps": [
+  {
+   "mls": "24157220",
+   "slug": "1-howard-avenue-norwalk-connecticut-24157220",
+   "address": {
+    "line": "1 Howard Avenue",
+    "unit": "Unit C4",
+    "lineWithUnit": "1 Howard Avenue Unit C4",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06855"
    },
-   "label": "1 Howard Avenue"
+   "beds": 3.0,
+   "baths": 4.0,
+   "sqft": 1731.0,
+   "price": 815000.0,
+   "date": "2026-04-08",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.106381,
+    "lng": -73.394463
+   },
+   "klass": "condo",
+   "tier": 1,
+   "why": "Same building, sold in the last year",
+   "km": 0.00027485008712917956,
+   "ppsf": 470.8261120739457
   },
-  "area": {
-   "rows": [
-    {
-     "slug": "59-osborne-avenue-norwalk-connecticut-24174684",
-     "addr": "59 Osborne Avenue Unit A",
-     "unit": "Unit A",
-     "beds": 3.0,
-     "baths": 3.0,
-     "sqft": 2265.0,
-     "price": 767500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-29",
-     "ppsf": 339,
-     "mi": 0.75
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 767500.0,
-    "high": 767500.0,
-    "median": 767500
+  {
+   "mls": "24138292",
+   "slug": "100-seaview-avenue-norwalk-connecticut-24138292",
+   "address": {
+    "line": "100 Seaview Avenue",
+    "unit": "Unit 3I",
+    "lineWithUnit": "100 Seaview Avenue Unit 3I",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06855"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1178.0,
+   "price": 830000.0,
+   "date": "2026-04-09",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.097333,
+    "lng": -73.405557
+   },
+   "klass": "condo",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.369875459942756,
+   "ppsf": 704.5840407470289
+  },
+  {
+   "mls": "24138234",
+   "slug": "33-north-water-street-norwalk-connecticut-24138234",
+   "address": {
+    "line": "33 North Water Street",
+    "unit": "Unit 804",
+    "lineWithUnit": "33 North Water Street Unit 804",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2147.0,
+   "price": 1299000.0,
+   "date": "2026-03-27",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.102261,
+    "lng": -73.417412
+   },
+   "klass": "condo",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.9768664538405274,
+   "ppsf": 605.0302748020493
+  },
+  {
+   "mls": "24122289",
+   "slug": "100-seaview-avenue-norwalk-connecticut-24122289",
+   "address": {
+    "line": "100 Seaview Avenue",
+    "unit": "Unit 4F",
+    "lineWithUnit": "100 Seaview Avenue Unit 4F",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06855"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1448.0,
+   "price": 907000.0,
+   "date": "2026-08-06",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.097333,
+    "lng": -73.405557
+   },
+   "klass": "condo",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.369875459942756,
+   "ppsf": 626.3812154696133
+  },
+  {
+   "mls": "24156169",
+   "slug": "136-east-avenue-norwalk-connecticut-24156169",
+   "address": {
+    "line": "136 East Avenue",
+    "unit": "Apt 4C",
+    "lineWithUnit": "136 East Avenue Apt 4C",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 1180.0,
+   "price": 580000.0,
+   "date": "2026-05-28",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.112547,
+    "lng": -73.407887
+   },
+   "klass": "condo",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.3174522340908594,
+   "ppsf": 491.52542372881356
   }
- }
+ ]
 }

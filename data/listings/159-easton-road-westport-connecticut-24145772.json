@@ -134,31 +134,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "319-bayberry-lane-westport-connecticut-24136529",
-     "addr": "319 Bayberry Lane",
-     "unit": "",
-     "beds": 6.0,
-     "baths": 8.0,
-     "sqft": 9238.0,
-     "price": 7750000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-11",
-     "ppsf": 839,
-     "mi": 0.48
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 7750000.0,
-    "high": 7750000.0,
-    "median": 7750000
+ "comps": [
+  {
+   "mls": "24136529",
+   "slug": "319-bayberry-lane-westport-connecticut-24136529",
+   "address": {
+    "line": "319 Bayberry Lane",
+    "unit": null,
+    "lineWithUnit": "319 Bayberry Lane",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
    },
-   "radiusMi": 0.75
+   "beds": 6.0,
+   "baths": 8.0,
+   "sqft": 9238.0,
+   "price": 7750000.0,
+   "date": "2026-06-11",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.187557,
+    "lng": -73.34576
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7754799880801572,
+   "ppsf": 838.9261744966443
+  },
+  {
+   "mls": "24144655",
+   "slug": "18-woodhill-road-westport-connecticut-24144655",
+   "address": {
+    "line": "18 Woodhill Road",
+    "unit": null,
+    "lineWithUnit": "18 Woodhill Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 6.0,
+   "baths": 7.0,
+   "sqft": 7092.0,
+   "price": 3800000.0,
+   "date": "2026-03-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.136891,
+    "lng": -73.303322
+   },
+   "klass": "house",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 6.818415392311121,
+   "ppsf": 535.8150028200789
+  },
+  {
+   "mls": "24132302",
+   "slug": "249-greens-farms-road-westport-connecticut-24132302",
+   "address": {
+    "line": "249 Greens Farms Road",
+    "unit": null,
+    "lineWithUnit": "249 Greens Farms Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 7.0,
+   "baths": 9.0,
+   "sqft": 10104.0,
+   "price": 3480000.0,
+   "date": "2026-04-16",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.122032,
+    "lng": -73.321185
+   },
+   "klass": "house",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 7.929705521541261,
+   "ppsf": 344.41805225653206
+  },
+  {
+   "mls": "24147210",
+   "slug": "102-compo-road-south-westport-connecticut-24147210",
+   "address": {
+    "line": "102 Compo Road South",
+    "unit": null,
+    "lineWithUnit": "102 Compo Road South",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 7.0,
+   "baths": 8.0,
+   "sqft": 6679.0,
+   "price": 3963000.0,
+   "date": "2026-04-27",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.133774,
+    "lng": -73.35737
+   },
+   "klass": "house",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 6.67151152298361,
+   "ppsf": 593.3522982482408
+  },
+  {
+   "mls": "24148223",
+   "slug": "125-old-road-westport-connecticut-24148223",
+   "address": {
+    "line": "125 Old Road",
+    "unit": null,
+    "lineWithUnit": "125 Old Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 6.0,
+   "baths": 9.0,
+   "sqft": 8545.0,
+   "price": 5036000.0,
+   "date": "2026-03-26",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.14368,
+    "lng": -73.30604
+   },
+   "klass": "house",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 6.040877486161003,
+   "ppsf": 589.3504973668812
   }
- }
+ ]
 }

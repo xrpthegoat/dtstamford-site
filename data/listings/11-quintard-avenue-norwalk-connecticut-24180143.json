@@ -123,70 +123,141 @@
    "mi": 1.43
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "25-quintard-avenue-norwalk-connecticut-24188939",
-     "addr": "25 Quintard Avenue Unit A",
-     "unit": "Unit A",
-     "beds": 4.0,
-     "baths": 2.0,
-     "sqft": 2469.0,
-     "price": 4500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-10",
-     "ppsf": 2,
-     "mi": 0.06
-    },
-    {
-     "slug": "149-south-main-street-norwalk-connecticut-24195433",
-     "addr": "149 South Main Street Unit D",
-     "unit": "Unit D",
-     "beds": 4.0,
-     "baths": 2.0,
-     "sqft": 816.0,
-     "price": 3800.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 5,
-     "mi": 0.27
-    },
-    {
-     "slug": "134-woodward-avenue-norwalk-connecticut-24166039",
-     "addr": "134 Woodward Avenue Unit 2",
-     "unit": "Unit 2",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 1681.0,
-     "price": 3500.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 2,
-     "mi": 0.32
-    },
-    {
-     "slug": "2-third-street-norwalk-connecticut-24180199",
-     "addr": "2 Third Street Unit 1",
-     "unit": "Unit 1",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 1750.0,
-     "price": 5500.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 3,
-     "mi": 0.72
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 4500.0,
-    "high": 4500.0,
-    "median": 4500
+ "comps": [
+  {
+   "mls": "24176190",
+   "slug": "119-woodward-avenue-norwalk-connecticut-24176190",
+   "address": {
+    "line": "119 Woodward Avenue",
+    "unit": null,
+    "lineWithUnit": "119 Woodward Avenue",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 1.0,
+   "sqft": 1000.0,
+   "price": 3200.0,
+   "date": "2026-06-19",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.087373,
+    "lng": -73.414698
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.4130771298690738,
+   "ppsf": 3.2
+  },
+  {
+   "mls": "24163496",
+   "slug": "100-shorefront-park-norwalk-connecticut-24163496",
+   "address": {
+    "line": "100 Shorefront Park",
+    "unit": null,
+    "lineWithUnit": "100 Shorefront Park",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1276.0,
+   "price": 5200.0,
+   "date": "2026-05-28",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.08988,
+    "lng": -73.412709
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.20703179981047157,
+   "ppsf": 4.075235109717869
+  },
+  {
+   "mls": "24171314",
+   "slug": "9-laura-street-norwalk-connecticut-24171314",
+   "address": {
+    "line": "9 Laura Street",
+    "unit": null,
+    "lineWithUnit": "9 Laura Street",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1174.0,
+   "price": 2900.0,
+   "date": "2026-05-11",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.09087,
+    "lng": -73.424632
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8419049583849473,
+   "ppsf": 2.4701873935264054
+  },
+  {
+   "mls": "24171607",
+   "slug": "10-hawkins-avenue-norwalk-connecticut-24171607",
+   "address": {
+    "line": "10 Hawkins Avenue",
+    "unit": "Unit A",
+    "lineWithUnit": "10 Hawkins Avenue Unit A",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06855"
+   },
+   "beds": 3.0,
+   "baths": 1.0,
+   "sqft": 1000.0,
+   "price": 3900.0,
+   "date": "2026-06-26",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.094063,
+    "lng": -73.40147
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.148200208634132,
+   "ppsf": 3.9
+  },
+  {
+   "mls": "24147701",
+   "slug": "84-taylor-avenue-norwalk-connecticut-24147701",
+   "address": {
+    "line": "84 Taylor Avenue",
+    "unit": "Apt 1",
+    "lineWithUnit": "84 Taylor Avenue Apt 1",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1106.0,
+   "price": 3400.0,
+   "date": "2026-04-06",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.101949,
+    "lng": -73.429813
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.7567116499502407,
+   "ppsf": 3.0741410488245933
   }
- }
+ ]
 }

@@ -128,101 +128,141 @@
    "mi": 0.63
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "31-puritan-lane-stamford-connecticut-24178352",
-     "addr": "31 Puritan Lane",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 1553.0,
-     "price": 770000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-15",
-     "ppsf": 496,
-     "mi": 0.19
-    },
-    {
-     "slug": "287-glenbrook-road-stamford-connecticut-24166084",
-     "addr": "287 Glenbrook Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2568.0,
-     "price": 835000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-08",
-     "ppsf": 325,
-     "mi": 0.31
-    },
-    {
-     "slug": "55-arlington-road-stamford-connecticut-24166468",
-     "addr": "55 Arlington Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 3797.0,
-     "price": 1250000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-08",
-     "ppsf": 329,
-     "mi": 0.48
-    },
-    {
-     "slug": "27-holbrook-drive-stamford-connecticut-24160116",
-     "addr": "27 Holbrook Drive",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 5.0,
-     "sqft": 3539.0,
-     "price": 1610000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-26",
-     "ppsf": 455,
-     "mi": 0.5
-    },
-    {
-     "slug": "151-fifth-street-stamford-connecticut-24188689",
-     "addr": "151 Fifth Street",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 3200.0,
-     "price": 915000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-06",
-     "ppsf": 286,
-     "mi": 0.53
-    },
-    {
-     "slug": "72-glendale-drive-stamford-connecticut-24162493",
-     "addr": "72 Glendale Drive",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 2.0,
-     "sqft": 1629.0,
-     "price": 874300.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-29",
-     "ppsf": 537,
-     "mi": 0.6
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 770000.0,
-    "high": 1610000.0,
-    "median": 894650
+ "comps": [
+  {
+   "mls": "24160116",
+   "slug": "27-holbrook-drive-stamford-connecticut-24160116",
+   "address": {
+    "line": "27 Holbrook Drive",
+    "unit": null,
+    "lineWithUnit": "27 Holbrook Drive",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06906"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 5.0,
+   "sqft": 3539.0,
+   "price": 1610000.0,
+   "date": "2026-06-26",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.072114,
+    "lng": -73.53317
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8012843181907318,
+   "ppsf": 454.9307714043515
+  },
+  {
+   "mls": "24166468",
+   "slug": "55-arlington-road-stamford-connecticut-24166468",
+   "address": {
+    "line": "55 Arlington Road",
+    "unit": null,
+    "lineWithUnit": "55 Arlington Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 3797.0,
+   "price": 1250000.0,
+   "date": "2026-06-08",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.05967,
+    "lng": -73.53033
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7705274789417688,
+   "ppsf": 329.2072688964972
+  },
+  {
+   "mls": "24151825",
+   "slug": "10-turner-road-stamford-connecticut-24151825",
+   "address": {
+    "line": "10 Turner Road",
+    "unit": null,
+    "lineWithUnit": "10 Turner Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 3247.0,
+   "price": 1300000.0,
+   "date": "2026-07-01",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.082798,
+    "lng": -73.534536
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.9276935448318453,
+   "ppsf": 400.36957191253464
+  },
+  {
+   "mls": "24168000",
+   "slug": "41-chester-street-stamford-connecticut-24168000",
+   "address": {
+    "line": "41 Chester Street",
+    "unit": null,
+    "lineWithUnit": "41 Chester Street",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 3213.0,
+   "price": 1455000.0,
+   "date": "2026-06-25",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.067462,
+    "lng": -73.541176
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.1488102976763035,
+   "ppsf": 452.84780578898227
+  },
+  {
+   "mls": "24157659",
+   "slug": "232-silver-hill-lane-stamford-connecticut-24157659",
+   "address": {
+    "line": "232 Silver Hill Lane",
+    "unit": null,
+    "lineWithUnit": "232 Silver Hill Lane",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 3272.0,
+   "price": 985000.0,
+   "date": "2026-06-17",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.085183,
+    "lng": -73.542723
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.4563855811923734,
+   "ppsf": 301.03911980440097
   }
- }
+ ]
 }

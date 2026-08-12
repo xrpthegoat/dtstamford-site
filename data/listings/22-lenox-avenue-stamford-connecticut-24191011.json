@@ -131,101 +131,141 @@
    "mi": 0.93
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "6-park-lane-darien-connecticut-24167492",
-     "addr": "6 Park Lane",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2108.0,
-     "price": 1550000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-29",
-     "ppsf": 735,
-     "mi": 0.34
-    },
-    {
-     "slug": "262-hamilton-avenue-stamford-connecticut-24174865",
-     "addr": "262 Hamilton Avenue",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 2.0,
-     "sqft": 1509.0,
-     "price": 630000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-27",
-     "ppsf": 417,
-     "mi": 0.34
-    },
-    {
-     "slug": "3-abbey-road-darien-connecticut-24159158",
-     "addr": "3 Abbey Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2450.0,
-     "price": 2258000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-01",
-     "ppsf": 922,
-     "mi": 0.51
-    },
-    {
-     "slug": "287-glenbrook-road-stamford-connecticut-24166084",
-     "addr": "287 Glenbrook Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2568.0,
-     "price": 835000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-08",
-     "ppsf": 325,
-     "mi": 0.56
-    },
-    {
-     "slug": "34-intervale-road-darien-connecticut-24166383",
-     "addr": "34 Intervale Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 3180.0,
-     "price": 2850000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-22",
-     "ppsf": 896,
-     "mi": 0.57
-    },
-    {
-     "slug": "72-glendale-drive-stamford-connecticut-24162493",
-     "addr": "72 Glendale Drive",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 2.0,
-     "sqft": 1629.0,
-     "price": 874300.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-29",
-     "ppsf": 537,
-     "mi": 0.66
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 630000.0,
-    "high": 2850000.0,
-    "median": 1212150
+ "comps": [
+  {
+   "mls": "24155116",
+   "slug": "29-waterbury-avenue-stamford-connecticut-24155116",
+   "address": {
+    "line": "29 Waterbury Avenue",
+    "unit": null,
+    "lineWithUnit": "29 Waterbury Avenue",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 2035.0,
+   "price": 710000.0,
+   "date": "2026-04-13",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.059288,
+    "lng": -73.508414
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1847598570514553,
+   "ppsf": 348.89434889434887
+  },
+  {
+   "mls": "24174865",
+   "slug": "262-hamilton-avenue-stamford-connecticut-24174865",
+   "address": {
+    "line": "262 Hamilton Avenue",
+    "unit": null,
+    "lineWithUnit": "262 Hamilton Avenue",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 4.0,
+   "baths": 2.0,
+   "sqft": 1509.0,
+   "price": 630000.0,
+   "date": "2026-07-27",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.064301,
+    "lng": -73.512039
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5501216178762345,
+   "ppsf": 417.49502982107356
+  },
+  {
+   "mls": "24162493",
+   "slug": "72-glendale-drive-stamford-connecticut-24162493",
+   "address": {
+    "line": "72 Glendale Drive",
+    "unit": null,
+    "lineWithUnit": "72 Glendale Drive",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06906"
+   },
+   "beds": 4.0,
+   "baths": 2.0,
+   "sqft": 1629.0,
+   "price": 874300.0,
+   "date": "2026-05-29",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.074752,
+    "lng": -73.524664
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0543476772855231,
+   "ppsf": 536.7096378146102
+  },
+  {
+   "mls": "24164855",
+   "slug": "19-glendale-circle-stamford-connecticut-24164855",
+   "address": {
+    "line": "19 Glendale Circle",
+    "unit": null,
+    "lineWithUnit": "19 Glendale Circle",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06906"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 2260.0,
+   "price": 750000.0,
+   "date": "2026-05-22",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.074552,
+    "lng": -73.526871
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.190918804602683,
+   "ppsf": 331.85840707964604
+  },
+  {
+   "mls": "24169148",
+   "slug": "140-courtland-avenue-stamford-connecticut-24169148",
+   "address": {
+    "line": "140 Courtland Avenue",
+    "unit": null,
+    "lineWithUnit": "140 Courtland Avenue",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1915.0,
+   "price": 875000.0,
+   "date": "2026-06-03",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.062975,
+    "lng": -73.514939
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6409275571791492,
+   "ppsf": 456.9190600522193
   }
- }
+ ]
 }

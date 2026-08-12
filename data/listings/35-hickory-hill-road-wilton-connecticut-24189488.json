@@ -130,71 +130,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "31-longmeadows-road-wilton-connecticut-24160141",
-     "addr": "31 Longmeadows Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2172.0,
-     "price": 1030000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-15",
-     "ppsf": 474,
-     "mi": 0.5
-    },
-    {
-     "slug": "117-whipstick-road-wilton-connecticut-24166495",
-     "addr": "117 Whipstick Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2677.0,
-     "price": 1505000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-11",
-     "ppsf": 562,
-     "mi": 0.74
-    },
-    {
-     "slug": "wilton-connecticut-24196391",
-     "addr": null,
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2060.0,
-     "price": 1050000.0,
-     "kind": "asking",
-     "status": "Under Contract - Continue to Show",
-     "ppsf": 510,
-     "mi": 0.65
-    },
-    {
-     "slug": "324-nod-hill-road-wilton-connecticut-24189849",
-     "addr": "324 Nod Hill Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 7.0,
-     "sqft": 5846.0,
-     "price": 1995000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 341,
-     "mi": 0.66
-    }
-   ],
-   "summary": {
-    "n": 2,
-    "low": 1030000.0,
-    "high": 1505000.0,
-    "median": 1267500
+ "comps": [
+  {
+   "mls": "24152217",
+   "slug": "78-ruscoe-road-wilton-connecticut-24152217",
+   "address": {
+    "line": "78 Ruscoe Road",
+    "unit": null,
+    "lineWithUnit": "78 Ruscoe Road",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
    },
-   "radiusMi": 0.75
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 3646.0,
+   "price": 1210000.0,
+   "date": "2026-05-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.231578,
+    "lng": -73.486615
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.4624704279277376,
+   "ppsf": 331.8705430608886
+  },
+  {
+   "mls": "24161492",
+   "slug": "78-keelers-ridge-road-wilton-connecticut-24161492",
+   "address": {
+    "line": "78 Keelers Ridge Road",
+    "unit": null,
+    "lineWithUnit": "78 Keelers Ridge Road",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 4154.0,
+   "price": 2000000.0,
+   "date": "2026-06-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.219213,
+    "lng": -73.471224
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.4992334043438946,
+   "ppsf": 481.46364949446314
+  },
+  {
+   "mls": "24169308",
+   "slug": "79-pipers-hill-road-wilton-connecticut-24169308",
+   "address": {
+    "line": "79 Pipers Hill Road",
+    "unit": null,
+    "lineWithUnit": "79 Pipers Hill Road",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 3612.0,
+   "price": 1250000.0,
+   "date": "2026-06-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.234092,
+    "lng": -73.45308
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.3563902507609387,
+   "ppsf": 346.0686600221484
+  },
+  {
+   "mls": "24175132",
+   "slug": "118-silver-spring-road-wilton-connecticut-24175132",
+   "address": {
+    "line": "118 Silver Spring Road",
+    "unit": null,
+    "lineWithUnit": "118 Silver Spring Road",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 3964.0,
+   "price": 1740000.0,
+   "date": "2026-06-16",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.23082,
+    "lng": -73.49513
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.1791357273309955,
+   "ppsf": 438.9505549949546
+  },
+  {
+   "mls": "24151390",
+   "slug": "178-linden-tree-road-wilton-connecticut-24151390",
+   "address": {
+    "line": "178 Linden Tree Road",
+    "unit": null,
+    "lineWithUnit": "178 Linden Tree Road",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 5.0,
+   "baths": 4.0,
+   "sqft": 3615.0,
+   "price": 1560000.0,
+   "date": "2026-04-02",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.212933,
+    "lng": -73.479638
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.3561253661348514,
+   "ppsf": 431.53526970954357
   }
- }
+ ]
 }

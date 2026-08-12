@@ -130,97 +130,141 @@
    "mi": 0.62
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "8-merrill-road-norwalk-connecticut-24163240",
-     "addr": "8 Merrill Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 3198.0,
-     "price": 935000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-10",
-     "ppsf": 292,
-     "mi": 0.54
-    },
-    {
-     "slug": "4-yale-street-norwalk-connecticut-24176956",
-     "addr": "4 Yale Street",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2432.0,
-     "price": 810000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-27",
-     "ppsf": 333,
-     "mi": 0.72
-    },
-    {
-     "slug": "12-rainbow-road-norwalk-connecticut-24181174",
-     "addr": "12 Rainbow Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 2.0,
-     "sqft": 1326.0,
-     "price": 620000.0,
-     "kind": "asking",
-     "status": "Under Contract - Continue to Show",
-     "ppsf": 468,
-     "mi": 0.04
-    },
-    {
-     "slug": "2-blue-mountain-court-norwalk-connecticut-24188755",
-     "addr": "2 Blue Mountain Court",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 3565.0,
-     "price": 1295000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 363,
-     "mi": 0.2
-    },
-    {
-     "slug": "37-center-avenue-norwalk-connecticut-24191755",
-     "addr": "37 Center Avenue",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 1.0,
-     "sqft": 1200.0,
-     "price": 450000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 375,
-     "mi": 0.24
-    },
-    {
-     "slug": "22-old-lantern-place-norwalk-connecticut-24192113",
-     "addr": "22 Old Lantern Place",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2573.0,
-     "price": 900000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 350,
-     "mi": 0.33
-    }
-   ],
-   "summary": {
-    "n": 2,
-    "low": 810000.0,
-    "high": 935000.0,
-    "median": 872500
+ "comps": [
+  {
+   "mls": "24170426",
+   "slug": "39-fair-street-norwalk-connecticut-24170426",
+   "address": {
+    "line": "39 Fair Street",
+    "unit": null,
+    "lineWithUnit": "39 Fair Street",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 1120.0,
+   "price": 515000.0,
+   "date": "2026-06-22",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.122762,
+    "lng": -73.422581
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8903547585788695,
+   "ppsf": 459.82142857142856
+  },
+  {
+   "mls": "24169657",
+   "slug": "37-harriet-street-norwalk-connecticut-24169657",
+   "address": {
+    "line": "37 Harriet Street",
+    "unit": null,
+    "lineWithUnit": "37 Harriet Street",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1546.0,
+   "price": 630000.0,
+   "date": "2026-06-26",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.128398,
+    "lng": -73.417013
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.2746766160924373,
+   "ppsf": 407.503234152652
+  },
+  {
+   "mls": "24131710",
+   "slug": "48-fair-street-norwalk-connecticut-24131710",
+   "address": {
+    "line": "48 Fair Street",
+    "unit": null,
+    "lineWithUnit": "48 Fair Street",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1643.0,
+   "price": 535000.0,
+   "date": "2026-04-14",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.12358,
+    "lng": -73.422843
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8590681940485387,
+   "ppsf": 325.6238587948874
+  },
+  {
+   "mls": "24159860",
+   "slug": "126-west-rocks-road-norwalk-connecticut-24159860",
+   "address": {
+    "line": "126 West Rocks Road",
+    "unit": null,
+    "lineWithUnit": "126 West Rocks Road",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1249.0,
+   "price": 675000.0,
+   "date": "2026-05-08",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.137323,
+    "lng": -73.415328
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1020943846754399,
+   "ppsf": 540.4323458767013
+  },
+  {
+   "mls": "24170491",
+   "slug": "5-fairfield-terrace-norwalk-connecticut-24170491",
+   "address": {
+    "line": "5 Fairfield Terrace",
+    "unit": null,
+    "lineWithUnit": "5 Fairfield Terrace",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1108.0,
+   "price": 535000.0,
+   "date": "2026-06-26",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.131157,
+    "lng": -73.418912
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5826406290019256,
+   "ppsf": 482.8519855595668
   }
- }
+ ]
 }

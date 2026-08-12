@@ -122,57 +122,141 @@
    "mi": 1.76
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "25-quintard-avenue-norwalk-connecticut-24188939",
-     "addr": "25 Quintard Avenue Unit A",
-     "unit": "Unit A",
-     "beds": 4.0,
-     "baths": 2.0,
-     "sqft": 2469.0,
-     "price": 4500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-10",
-     "ppsf": 2,
-     "mi": 0.26
-    },
-    {
-     "slug": "11-quintard-avenue-norwalk-connecticut-24180143",
-     "addr": "11 Quintard Avenue Unit 1",
-     "unit": "Unit 1",
-     "beds": 4.0,
-     "baths": 2.0,
-     "sqft": 1235.0,
-     "price": 4350.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 4,
-     "mi": 0.32
-    },
-    {
-     "slug": "149-south-main-street-norwalk-connecticut-24195433",
-     "addr": "149 South Main Street Unit D",
-     "unit": "Unit D",
-     "beds": 4.0,
-     "baths": 2.0,
-     "sqft": 816.0,
-     "price": 3800.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 5,
-     "mi": 0.43
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 4500.0,
-    "high": 4500.0,
-    "median": 4500
+ "comps": [
+  {
+   "mls": "24163496",
+   "slug": "100-shorefront-park-norwalk-connecticut-24163496",
+   "address": {
+    "line": "100 Shorefront Park",
+    "unit": null,
+    "lineWithUnit": "100 Shorefront Park",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1276.0,
+   "price": 5200.0,
+   "date": "2026-05-28",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.08988,
+    "lng": -73.412709
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.3976409738407851,
+   "ppsf": 4.075235109717869
+  },
+  {
+   "mls": "24167872",
+   "slug": "8-quintard-avenue-norwalk-connecticut-24167872",
+   "address": {
+    "line": "8 Quintard Avenue",
+    "unit": null,
+    "lineWithUnit": "8 Quintard Avenue",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1685.0,
+   "price": 4000.0,
+   "date": "2026-04-27",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.091474,
+    "lng": -73.414328
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5606684679223921,
+   "ppsf": 2.373887240356083
+  },
+  {
+   "mls": "24141494",
+   "slug": "71-connecticut-avenue-norwalk-connecticut-24141494",
+   "address": {
+    "line": "71 Connecticut Avenue",
+    "unit": "Unit 209",
+    "lineWithUnit": "71 Connecticut Avenue Unit 209",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1444.0,
+   "price": 3500.0,
+   "date": "2026-04-28",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.1067,
+    "lng": -73.423965
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.402913850357843,
+   "ppsf": 2.4238227146814406
+  },
+  {
+   "mls": "24174630",
+   "slug": "6-hillside-place-norwalk-connecticut-24174630",
+   "address": {
+    "line": "6 Hillside Place",
+    "unit": null,
+    "lineWithUnit": "6 Hillside Place",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 3.0,
+   "baths": 1.0,
+   "sqft": 1205.0,
+   "price": 4100.0,
+   "date": "2026-06-15",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.098785,
+    "lng": -73.42537
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.6713581090059348,
+   "ppsf": 3.4024896265560165
+  },
+  {
+   "mls": "24149043",
+   "slug": "7-mcallister-avenue-norwalk-connecticut-24149043",
+   "address": {
+    "line": "7 McAllister Avenue",
+    "unit": "Unit 2",
+    "lineWithUnit": "7 McAllister Avenue Unit 2",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1274.0,
+   "price": 2600.0,
+   "date": "2026-06-23",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.098363,
+    "lng": -73.433164
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.082915149844554,
+   "ppsf": 2.0408163265306123
   }
- }
+ ]
 }

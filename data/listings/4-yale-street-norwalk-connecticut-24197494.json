@@ -121,101 +121,141 @@
    "mi": 0.63
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "193-westport-avenue-norwalk-connecticut-24180654",
-     "addr": "193 Westport Avenue Unit 3",
-     "unit": "Unit 3",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 800.0,
-     "price": 1950.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-01",
-     "ppsf": 2,
-     "mi": 0.23
-    },
-    {
-     "slug": "181-westport-avenue-norwalk-connecticut-24161315",
-     "addr": "181 Westport Avenue Unit 1",
-     "unit": "Unit 1",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 600.0,
-     "price": 1900.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-24",
-     "ppsf": 3,
-     "mi": 0.24
-    },
-    {
-     "slug": "1-walter-avenue-norwalk-connecticut-24184792",
-     "addr": "1 Walter Avenue Unit 23",
-     "unit": "Unit 23",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 574.0,
-     "price": 1900.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-05",
-     "ppsf": 3,
-     "mi": 0.3
-    },
-    {
-     "slug": "1-walter-avenue-norwalk-connecticut-24187629",
-     "addr": "1 Walter Avenue Unit 49",
-     "unit": "Unit 49",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 574.0,
-     "price": 2000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-01",
-     "ppsf": 3,
-     "mi": 0.3
-    },
-    {
-     "slug": "1-walter-avenue-norwalk-connecticut-24190679",
-     "addr": "1 Walter Avenue Unit 42",
-     "unit": "Unit 42",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 494.0,
-     "price": 2000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-30",
-     "ppsf": 4,
-     "mi": 0.3
-    },
-    {
-     "slug": "365-westport-avenue-norwalk-connecticut-24150140",
-     "addr": "365 Westport Avenue Unit 2B",
-     "unit": "Unit 2B",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 800.0,
-     "price": 2195.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-07",
-     "ppsf": 3,
-     "mi": 0.43
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 1900.0,
-    "high": 2195.0,
-    "median": 1975
+ "comps": [
+  {
+   "mls": "24178349",
+   "slug": "24-highbrook-road-norwalk-connecticut-24178349",
+   "address": {
+    "line": "24 Highbrook Road",
+    "unit": null,
+    "lineWithUnit": "24 Highbrook Road",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1815.0,
+   "price": 5050.0,
+   "date": "2026-06-15",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.124385,
+    "lng": -73.403576
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.4471279039747119,
+   "ppsf": 2.7823691460055096
+  },
+  {
+   "mls": "24161289",
+   "slug": "60-walter-avenue-norwalk-connecticut-24161289",
+   "address": {
+    "line": "60 Walter Avenue",
+    "unit": null,
+    "lineWithUnit": "60 Walter Avenue",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1320.0,
+   "price": 3700.0,
+   "date": "2026-07-14",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.11959,
+    "lng": -73.396426
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.937664698312339,
+   "ppsf": 2.803030303030303
+  },
+  {
+   "mls": "24180735",
+   "slug": "2-margaret-street-norwalk-connecticut-24180735",
+   "address": {
+    "line": "2 Margaret Street",
+    "unit": null,
+    "lineWithUnit": "2 Margaret Street",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 1351.0,
+   "price": 3800.0,
+   "date": "2026-07-15",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.129537,
+    "lng": -73.399524
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.23200848292048024,
+   "ppsf": 2.8127313101406366
+  },
+  {
+   "mls": "24151349",
+   "slug": "norwalk-connecticut-24151349",
+   "address": {
+    "line": null,
+    "unit": null,
+    "lineWithUnit": null,
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1200.0,
+   "price": 3600.0,
+   "date": "2026-04-28",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.115313,
+    "lng": -73.424047
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.4127933748353105,
+   "ppsf": 3.0
+  },
+  {
+   "mls": "24151393",
+   "slug": "20-spring-hill-avenue-norwalk-connecticut-24151393",
+   "address": {
+    "line": "20 Spring Hill Avenue",
+    "unit": null,
+    "lineWithUnit": "20 Spring Hill Avenue",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1602.0,
+   "price": 3500.0,
+   "date": "2026-05-21",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.119029,
+    "lng": -73.424055
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.2074950910571562,
+   "ppsf": 2.184769038701623
   }
- }
+ ]
 }

@@ -130,59 +130,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "215-south-lake-drive-stamford-connecticut-24159274",
-     "addr": "215 South Lake Drive",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 8.0,
-     "sqft": 7169.0,
-     "price": 2410000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-15",
-     "ppsf": 336,
-     "mi": 0.18
-    },
-    {
-     "slug": "21-ravenglass-drive-stamford-connecticut-24143674",
-     "addr": "21 Ravenglass Drive Unit 21",
-     "unit": "Unit 21",
-     "beds": 4.0,
-     "baths": 5.0,
-     "sqft": 5441.0,
-     "price": 2600000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-09",
-     "ppsf": 478,
-     "mi": 0.43
-    },
-    {
-     "slug": "0-south-brook-drive-stamford-connecticut-170552650",
-     "addr": "0 South Brook Drive",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 4100.0,
-     "price": 1758371.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-11",
-     "ppsf": 429,
-     "mi": 0.53
-    }
-   ],
-   "summary": {
-    "n": 3,
-    "low": 1758371.0,
-    "high": 2600000.0,
-    "median": 2410000
+ "comps": [
+  {
+   "mls": "24164154",
+   "slug": "29-echo-hill-drive-stamford-connecticut-24164154",
+   "address": {
+    "line": "29 Echo Hill Drive",
+    "unit": null,
+    "lineWithUnit": "29 Echo Hill Drive",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2848.0,
+   "price": 1220000.0,
+   "date": "2026-06-03",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.158204,
+    "lng": -73.598081
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7084488740066457,
+   "ppsf": 428.3707865168539
+  },
+  {
+   "mls": "170552650",
+   "slug": "0-south-brook-drive-stamford-connecticut-170552650",
+   "address": {
+    "line": "0 South Brook Drive",
+    "unit": null,
+    "lineWithUnit": "0 South Brook Drive",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06904"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 4100.0,
+   "price": 1758371.0,
+   "date": "2026-05-11",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.148846,
+    "lng": -73.608215
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8547432821277539,
+   "ppsf": 428.8709756097561
+  },
+  {
+   "mls": "24152881",
+   "slug": "5-old-wagon-road-stamford-connecticut-24152881",
+   "address": {
+    "line": "5 Old Wagon Road",
+    "unit": null,
+    "lineWithUnit": "5 Old Wagon Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2890.0,
+   "price": 1025800.0,
+   "date": "2026-03-31",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.146531,
+    "lng": -73.59411
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.490695170131612,
+   "ppsf": 354.94809688581313
+  },
+  {
+   "mls": "24158856",
+   "slug": "202-fox-ridge-road-stamford-connecticut-24158856",
+   "address": {
+    "line": "202 Fox Ridge Road",
+    "unit": null,
+    "lineWithUnit": "202 Fox Ridge Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 3202.0,
+   "price": 1394000.0,
+   "date": "2026-05-07",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.145239,
+    "lng": -73.580351
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.4929455889663825,
+   "ppsf": 435.3529044347283
+  },
+  {
+   "mls": "24161008",
+   "slug": "81-ridge-brook-drive-stamford-connecticut-24161008",
+   "address": {
+    "line": "81 Ridge Brook Drive",
+    "unit": null,
+    "lineWithUnit": "81 Ridge Brook Drive",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 3316.0,
+   "price": 1178925.0,
+   "date": "2026-06-01",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.155472,
+    "lng": -73.579246
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.257954356898503,
+   "ppsf": 355.526236429433
   }
- }
+ ]
 }

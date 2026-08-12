@@ -131,57 +131,141 @@
    "mi": 1.18
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "146-dudley-road-wilton-connecticut-24165720",
-     "addr": "146 Dudley Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2660.0,
-     "price": 1585000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-02",
-     "ppsf": 596,
-     "mi": 0.61
-    },
-    {
-     "slug": "137-sturges-ridge-road-wilton-connecticut-24185031",
-     "addr": "137 Sturges Ridge Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 5.0,
-     "sqft": 3615.0,
-     "price": 1695000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 469,
-     "mi": 0.62
-    },
-    {
-     "slug": "47-pine-ridge-road-wilton-connecticut-24187681",
-     "addr": "47 Pine Ridge Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 3314.0,
-     "price": 1349000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 407,
-     "mi": 0.73
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 1585000.0,
-    "high": 1585000.0,
-    "median": 1585000
+ "comps": [
+  {
+   "mls": "24152097",
+   "slug": "25-cherry-lane-wilton-connecticut-24152097",
+   "address": {
+    "line": "25 Cherry Lane",
+    "unit": null,
+    "lineWithUnit": "25 Cherry Lane",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2331.0,
+   "price": 1105000.0,
+   "date": "2026-06-01",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.188628,
+    "lng": -73.409495
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0327439064757693,
+   "ppsf": 474.04547404547407
+  },
+  {
+   "mls": "24152011",
+   "slug": "126-heather-lane-wilton-connecticut-24152011",
+   "address": {
+    "line": "126 Heather Lane",
+    "unit": null,
+    "lineWithUnit": "126 Heather Lane",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1844.0,
+   "price": 875000.0,
+   "date": "2026-03-16",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.179882,
+    "lng": -73.39714
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.9897093693048298,
+   "ppsf": 474.5119305856833
+  },
+  {
+   "mls": "24165402",
+   "slug": "35-orchard-drive-wilton-connecticut-24165402",
+   "address": {
+    "line": "35 Orchard Drive",
+    "unit": null,
+    "lineWithUnit": "35 Orchard Drive",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1853.0,
+   "price": 951000.0,
+   "date": "2026-06-11",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.214839,
+    "lng": -73.40191
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.9935167320437435,
+   "ppsf": 513.2218024824609
+  },
+  {
+   "mls": "24168410",
+   "slug": "74-raymond-lane-wilton-connecticut-24168410",
+   "address": {
+    "line": "74 Raymond Lane",
+    "unit": null,
+    "lineWithUnit": "74 Raymond Lane",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2092.0,
+   "price": 805000.0,
+   "date": "2026-06-29",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.187684,
+    "lng": -73.411642
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.2110590859529138,
+   "ppsf": 384.79923518164435
+  },
+  {
+   "mls": "24166971",
+   "slug": "43-twin-oak-lane-wilton-connecticut-24166971",
+   "address": {
+    "line": "43 Twin Oak Lane",
+    "unit": null,
+    "lineWithUnit": "43 Twin Oak Lane",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2650.0,
+   "price": 1318900.0,
+   "date": "2026-07-01",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.19887,
+    "lng": -73.4237
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.651685234350509,
+   "ppsf": 497.6981132075472
   }
- }
+ ]
 }

@@ -135,188 +135,141 @@
    "walk": 1
   }
  },
- "comps": {
-  "building": {
-   "rows": [
-    {
-     "slug": "127-greyrock-place-stamford-connecticut-24156149",
-     "addr": "127 Greyrock Place Unit 1611",
-     "unit": "Unit 1611",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 557.0,
-     "price": 305000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-01",
-     "ppsf": 548
-    },
-    {
-     "slug": "127-greyrock-place-stamford-connecticut-24165015",
-     "addr": "127 Greyrock Place Unit 1206",
-     "unit": "Unit 1206",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 746.0,
-     "price": 410000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-27",
-     "ppsf": 550
-    },
-    {
-     "slug": "127-greyrock-place-stamford-connecticut-24155153",
-     "addr": "127 Greyrock Place Apt 1408",
-     "unit": "Apt 1408",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 831.0,
-     "price": 357500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-24",
-     "ppsf": 430
-    },
-    {
-     "slug": "127-greyrock-place-stamford-connecticut-24153809",
-     "addr": "127 Greyrock Place Apt 1401",
-     "unit": "Apt 1401",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 764.0,
-     "price": 364500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-10",
-     "ppsf": 477
-    },
-    {
-     "slug": "127-greyrock-place-stamford-connecticut-24191024",
-     "addr": "127 Greyrock Place Unit 609",
-     "unit": "Unit 609",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 557.0,
-     "price": 349000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 627
-    },
-    {
-     "slug": "127-greyrock-place-stamford-connecticut-24187710",
-     "addr": "127 Greyrock Place Unit 1205",
-     "unit": "Unit 1205",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 629.0,
-     "price": 410000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 652
-    }
-   ],
-   "summary": {
-    "n": 4,
-    "low": 305000.0,
-    "high": 410000.0,
-    "median": 361000
+ "comps": [
+  {
+   "mls": "24153809",
+   "slug": "127-greyrock-place-stamford-connecticut-24153809",
+   "address": {
+    "line": "127 Greyrock Place",
+    "unit": "Apt 1401",
+    "lineWithUnit": "127 Greyrock Place Apt 1401",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06901"
    },
-   "label": "127 Greyrock Place"
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 764.0,
+   "price": 364500.0,
+   "date": "2026-04-10",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.054543,
+    "lng": -73.535805
+   },
+   "klass": "condo",
+   "tier": 1,
+   "why": "Same building, sold in the last year",
+   "km": 0.0002750314644294681,
+   "ppsf": 477.09424083769636
   },
-  "area": {
-   "rows": [
-    {
-     "slug": "25-forest-street-stamford-connecticut-24150167",
-     "addr": "25 Forest Street Unit 15E",
-     "unit": "Unit 15E",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 783.0,
-     "price": 435000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-31",
-     "ppsf": 556,
-     "mi": 0.14
-    },
-    {
-     "slug": "25-forest-street-stamford-connecticut-24151470",
-     "addr": "25 Forest Street Unit 7D",
-     "unit": "Unit 7D",
-     "beds": 1.0,
-     "baths": 2.0,
-     "sqft": 1067.0,
-     "price": 490000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-28",
-     "ppsf": 459,
-     "mi": 0.14
-    },
-    {
-     "slug": "25-forest-street-stamford-connecticut-24182471",
-     "addr": "25 Forest Street Unit 14D",
-     "unit": "Unit 14D",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 864.0,
-     "price": 450000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-02",
-     "ppsf": 521,
-     "mi": 0.14
-    },
-    {
-     "slug": "25-forest-street-stamford-connecticut-24184338",
-     "addr": "25 Forest Street Unit 7F",
-     "unit": "Unit 7F",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 875.0,
-     "price": 455000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-15",
-     "ppsf": 520,
-     "mi": 0.14
-    },
-    {
-     "slug": "300-broad-street-stamford-connecticut-24155323",
-     "addr": "300 Broad Street Unit 707",
-     "unit": "Unit 707",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 654.0,
-     "price": 310000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-14",
-     "ppsf": 474,
-     "mi": 0.25
-    },
-    {
-     "slug": "91-highland-road-stamford-connecticut-24155215",
-     "addr": "91 Highland Road Unit 91",
-     "unit": "Unit 91",
-     "beds": 1.0,
-     "baths": 2.0,
-     "sqft": 965.0,
-     "price": 395000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-10",
-     "ppsf": 409,
-     "mi": 0.26
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 310000.0,
-    "high": 490000.0,
-    "median": 442500
+  {
+   "mls": "24155153",
+   "slug": "127-greyrock-place-stamford-connecticut-24155153",
+   "address": {
+    "line": "127 Greyrock Place",
+    "unit": "Apt 1408",
+    "lineWithUnit": "127 Greyrock Place Apt 1408",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06901"
    },
-   "radiusMi": 0.75
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 831.0,
+   "price": 357500.0,
+   "date": "2026-04-24",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.054544,
+    "lng": -73.535808
+   },
+   "klass": "condo",
+   "tier": 1,
+   "why": "Same building, sold in the last year",
+   "km": 0.0,
+   "ppsf": 430.2045728038508
+  },
+  {
+   "mls": "24165015",
+   "slug": "127-greyrock-place-stamford-connecticut-24165015",
+   "address": {
+    "line": "127 Greyrock Place",
+    "unit": "Unit 1206",
+    "lineWithUnit": "127 Greyrock Place Unit 1206",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06901"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 746.0,
+   "price": 410000.0,
+   "date": "2026-05-27",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.054455,
+    "lng": -73.53567
+   },
+   "klass": "condo",
+   "tier": 1,
+   "why": "Same building, sold in the last year",
+   "km": 0.015226100241181215,
+   "ppsf": 549.5978552278821
+  },
+  {
+   "mls": "24175241",
+   "slug": "91-strawberry-hill-avenue-stamford-connecticut-24175241",
+   "address": {
+    "line": "91 Strawberry Hill Avenue",
+    "unit": "Unit 636",
+    "lineWithUnit": "91 Strawberry Hill Avenue Unit 636",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 875.0,
+   "price": 325000.0,
+   "date": "2026-07-01",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.063897,
+    "lng": -73.532292
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0809801435967692,
+   "ppsf": 371.42857142857144
+  },
+  {
+   "mls": "24163632",
+   "slug": "91-strawberry-hill-avenue-stamford-connecticut-24163632",
+   "address": {
+    "line": "91 Strawberry Hill Avenue",
+    "unit": "Unit 841",
+    "lineWithUnit": "91 Strawberry Hill Avenue Unit 841",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 875.0,
+   "price": 305000.0,
+   "date": "2026-06-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.063897,
+    "lng": -73.532292
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0809801435967692,
+   "ppsf": 348.57142857142856
   }
- }
+ ]
 }

@@ -115,101 +115,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "113-kings-highway-north-westport-connecticut-24158091",
-     "addr": "113 Kings Highway North",
-     "unit": "",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1078.0,
-     "price": 3700.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-22",
-     "ppsf": 3,
-     "mi": 0.11
-    },
-    {
-     "slug": "201-main-street-westport-connecticut-24179108",
-     "addr": "201 Main Street Unit 302",
-     "unit": "Unit 302",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 850.0,
-     "price": 4800.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-11",
-     "ppsf": 6,
-     "mi": 0.21
-    },
-    {
-     "slug": "201-main-street-westport-connecticut-24138891",
-     "addr": "201 Main Street Unit 203",
-     "unit": "Unit 203",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 830.0,
-     "price": 4500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-03",
-     "ppsf": 5,
-     "mi": 0.22
-    },
-    {
-     "slug": "5-church-lane-westport-connecticut-24182260",
-     "addr": "5 Church Lane Unit 310",
-     "unit": "Unit 310",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1220.0,
-     "price": 6995.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-28",
-     "ppsf": 6,
-     "mi": 0.33
-    },
-    {
-     "slug": "315-main-street-westport-connecticut-24146601",
-     "addr": "315 Main Street",
-     "unit": "",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 740.0,
-     "price": 3250.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-30",
-     "ppsf": 4,
-     "mi": 0.38
-    },
-    {
-     "slug": "20-cross-street-westport-connecticut-24172100",
-     "addr": "20 Cross Street Unit 5",
-     "unit": "Unit 5",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1182.0,
-     "price": 4900.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-06",
-     "ppsf": 4,
-     "mi": 0.46
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 3250.0,
-    "high": 6995.0,
-    "median": 4650
+ "comps": [
+  {
+   "mls": "24159366",
+   "slug": "55-kings-highway-north-westport-connecticut-24159366",
+   "address": {
+    "line": "55 Kings Highway North",
+    "unit": null,
+    "lineWithUnit": "55 Kings Highway North",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1719.0,
+   "price": 10000.0,
+   "date": "2026-06-03",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.13966,
+    "lng": -73.370346
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7090782974754462,
+   "ppsf": 5.817335660267598
+  },
+  {
+   "mls": "24175707",
+   "slug": "251-riverside-avenue-westport-connecticut-24175707",
+   "address": {
+    "line": "251 Riverside Avenue",
+    "unit": "Unit 251 A - 2nd floor",
+    "lineWithUnit": "251 Riverside Avenue Unit 251 A - 2nd floor",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 1560.0,
+   "price": 11000.0,
+   "date": "2026-07-31",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.131784,
+    "lng": -73.367883
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.4917837667803628,
+   "ppsf": 7.051282051282051
+  },
+  {
+   "mls": "24167393",
+   "slug": "24-timber-lane-westport-connecticut-24167393",
+   "address": {
+    "line": "24 Timber Lane",
+    "unit": null,
+    "lineWithUnit": "24 Timber Lane",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 2092.0,
+   "price": 7850.0,
+   "date": "2026-04-30",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.153602,
+    "lng": -73.339809
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.385350825594686,
+   "ppsf": 3.7523900573613767
+  },
+  {
+   "mls": "24169653",
+   "slug": "1-woods-grove-road-westport-connecticut-24169653",
+   "address": {
+    "line": "1 Woods Grove Road",
+    "unit": null,
+    "lineWithUnit": "1 Woods Grove Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1545.0,
+   "price": 5500.0,
+   "date": "2026-07-18",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.15016,
+    "lng": -73.36344
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 0.5990495586165381,
+   "ppsf": 3.559870550161812
+  },
+  {
+   "mls": "24184256",
+   "slug": "5-treadwell-avenue-westport-connecticut-24184256",
+   "address": {
+    "line": "5 Treadwell Avenue",
+    "unit": null,
+    "lineWithUnit": "5 Treadwell Avenue",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1552.0,
+   "price": 4950.0,
+   "date": "2026-07-29",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.124499,
+    "lng": -73.373105
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.3696853026614657,
+   "ppsf": 3.189432989690722
   }
- }
+ ]
 }

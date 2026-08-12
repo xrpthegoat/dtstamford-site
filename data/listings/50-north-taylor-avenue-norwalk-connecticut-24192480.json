@@ -109,59 +109,141 @@
    "mi": 0.7
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "40-marlin-drive-norwalk-connecticut-24154538",
-     "addr": "40 Marlin Drive",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2240.0,
-     "price": 4800.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-10",
-     "ppsf": 2,
-     "mi": 0.37
-    },
-    {
-     "slug": "norwalk-connecticut-24160129",
-     "addr": null,
-     "unit": "",
-     "beds": 4.0,
-     "baths": 2.0,
-     "sqft": 1428.0,
-     "price": 3300.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-01",
-     "ppsf": 2,
-     "mi": 0.57
-    },
-    {
-     "slug": "17-reservoir-avenue-norwalk-connecticut-24174552",
-     "addr": "17 Reservoir Avenue",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 2.0,
-     "sqft": 1600.0,
-     "price": 4250.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-01",
-     "ppsf": 3,
-     "mi": 0.71
-    }
-   ],
-   "summary": {
-    "n": 3,
-    "low": 3300.0,
-    "high": 4800.0,
-    "median": 4250
+ "comps": [
+  {
+   "mls": "24150892",
+   "slug": "1-horizon-drive-norwalk-connecticut-24150892",
+   "address": {
+    "line": "1 Horizon Drive",
+    "unit": "Apt 2",
+    "lineWithUnit": "1 Horizon Drive Apt 2",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1258.0,
+   "price": 3150.0,
+   "date": "2026-03-26",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.101133,
+    "lng": -73.434452
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8900152986688662,
+   "ppsf": 2.503974562798092
+  },
+  {
+   "mls": "24153011",
+   "slug": "85-ledgebrook-drive-norwalk-connecticut-24153011",
+   "address": {
+    "line": "85 Ledgebrook Drive",
+    "unit": "Unit 85",
+    "lineWithUnit": "85 Ledgebrook Drive Unit 85",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1806.0,
+   "price": 4500.0,
+   "date": "2026-03-28",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.107291,
+    "lng": -73.4391
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5629485779076533,
+   "ppsf": 2.4916943521594686
+  },
+  {
+   "mls": "24141494",
+   "slug": "71-connecticut-avenue-norwalk-connecticut-24141494",
+   "address": {
+    "line": "71 Connecticut Avenue",
+    "unit": "Unit 209",
+    "lineWithUnit": "71 Connecticut Avenue Unit 209",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1444.0,
+   "price": 3500.0,
+   "date": "2026-04-28",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.1067,
+    "lng": -73.423965
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7841058494876963,
+   "ppsf": 2.4238227146814406
+  },
+  {
+   "mls": "24174539",
+   "slug": "28-rockmeadow-road-norwalk-connecticut-24174539",
+   "address": {
+    "line": "28 Rockmeadow Road",
+    "unit": "Unit 88",
+    "lineWithUnit": "28 Rockmeadow Road Unit 88",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 2016.0,
+   "price": 4500.0,
+   "date": "2026-05-21",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.116123,
+    "lng": -73.437452
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.879066931894268,
+   "ppsf": 2.232142857142857
+  },
+  {
+   "mls": "24160129",
+   "slug": "norwalk-connecticut-24160129",
+   "address": {
+    "line": null,
+    "unit": null,
+    "lineWithUnit": null,
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 4.0,
+   "baths": 2.0,
+   "sqft": 1428.0,
+   "price": 3300.0,
+   "date": "2026-06-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.105306,
+    "lng": -73.442635
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9231029134184651,
+   "ppsf": 2.310924369747899
   }
- }
+ ]
 }

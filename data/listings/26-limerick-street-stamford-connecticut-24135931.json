@@ -105,45 +105,141 @@
    "mi": 1.06
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "85-avery-street-stamford-connecticut-24151343",
-     "addr": "85 Avery Street",
-     "unit": "",
-     "beds": 6.0,
-     "baths": 2.0,
-     "sqft": 1792.0,
-     "price": 883000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-25",
-     "ppsf": 493,
-     "mi": 0.51
-    },
-    {
-     "slug": "251-seaside-avenue-stamford-connecticut-24185360",
-     "addr": "251 Seaside Avenue",
-     "unit": "",
-     "beds": 6.0,
-     "baths": 5.0,
-     "sqft": 4376.0,
-     "price": 1060000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-29",
-     "ppsf": 242,
-     "mi": 0.56
-    }
-   ],
-   "summary": {
-    "n": 2,
-    "low": 883000.0,
-    "high": 1060000.0,
-    "median": 971500
+ "comps": [
+  {
+   "mls": "24151343",
+   "slug": "85-avery-street-stamford-connecticut-24151343",
+   "address": {
+    "line": "85 Avery Street",
+    "unit": null,
+    "lineWithUnit": "85 Avery Street",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
    },
-   "radiusMi": 0.75
+   "beds": 6.0,
+   "baths": 2.0,
+   "sqft": 1792.0,
+   "price": 883000.0,
+   "date": "2026-03-25",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.045981,
+    "lng": -73.509787
+   },
+   "klass": "multi",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8198000835877048,
+   "ppsf": 492.7455357142857
+  },
+  {
+   "mls": "24154926",
+   "slug": "251-cove-road-stamford-connecticut-24154926",
+   "address": {
+    "line": "251 Cove Road",
+    "unit": null,
+    "lineWithUnit": "251 Cove Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 4.0,
+   "baths": 2.0,
+   "sqft": 2080.0,
+   "price": 825000.0,
+   "date": "2026-06-05",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.049321,
+    "lng": -73.519844
+   },
+   "klass": "multi",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.2349790395462985,
+   "ppsf": 396.63461538461536
+  },
+  {
+   "mls": "24154935",
+   "slug": "25-limerick-street-stamford-connecticut-24154935",
+   "address": {
+    "line": "25 Limerick Street",
+    "unit": null,
+    "lineWithUnit": "25 Limerick Street",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 4.0,
+   "baths": 2.0,
+   "sqft": 1568.0,
+   "price": 725000.0,
+   "date": "2026-06-05",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.046995,
+    "lng": -73.519393
+   },
+   "klass": "multi",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.026457597888834842,
+   "ppsf": 462.3724489795918
+  },
+  {
+   "mls": "24146021",
+   "slug": "28-dolsen-place-stamford-connecticut-24146021",
+   "address": {
+    "line": "28 Dolsen Place",
+    "unit": null,
+    "lineWithUnit": "28 Dolsen Place",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06901"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2026.0,
+   "price": 940000.0,
+   "date": "2026-03-20",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.060048,
+    "lng": -73.538713
+   },
+   "klass": "multi",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.1558462691256643,
+   "ppsf": 463.9684106614018
+  },
+  {
+   "mls": "24181068",
+   "slug": "321-glenbrook-road-stamford-connecticut-24181068",
+   "address": {
+    "line": "321 Glenbrook Road",
+    "unit": null,
+    "lineWithUnit": "321 Glenbrook Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06906"
+   },
+   "beds": 4.0,
+   "baths": 2.0,
+   "sqft": 2366.0,
+   "price": 952000.0,
+   "date": "2026-07-08",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.064662,
+    "lng": -73.522515
+   },
+   "klass": "multi",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 1.9554132938791466,
+   "ppsf": 402.36686390532543
   }
- }
+ ]
 }

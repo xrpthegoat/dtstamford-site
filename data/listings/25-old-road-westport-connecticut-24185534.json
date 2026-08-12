@@ -130,101 +130,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "36-turkey-hill-road-north-westport-connecticut-24178616",
-     "addr": "36 Turkey Hill Road North",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 4.0,
-     "sqft": 3584.0,
-     "price": 2015000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-23",
-     "ppsf": 562,
-     "mi": 0.26
-    },
-    {
-     "slug": "119-long-lots-road-westport-connecticut-24166818",
-     "addr": "119 Long Lots Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 5.0,
-     "sqft": 5616.0,
-     "price": 3352000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-19",
-     "ppsf": 597,
-     "mi": 0.45
-    },
-    {
-     "slug": "1-angora-road-westport-connecticut-24164819",
-     "addr": "1 Angora Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 5.0,
-     "sqft": 4628.0,
-     "price": 2650000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-15",
-     "ppsf": 573,
-     "mi": 0.67
-    },
-    {
-     "slug": "16-burr-school-road-westport-connecticut-24118985",
-     "addr": "16 Burr School Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 5.0,
-     "sqft": 5056.0,
-     "price": 3250000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-02",
-     "ppsf": 643,
-     "mi": 0.72
-    },
-    {
-     "slug": "2-fairport-road-westport-connecticut-24144977",
-     "addr": "2 Fairport Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 5.0,
-     "sqft": 4288.0,
-     "price": 2600000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-01",
-     "ppsf": 606,
-     "mi": 0.73
-    },
-    {
-     "slug": "1-greystone-farm-lane-westport-connecticut-24168021",
-     "addr": "1 Greystone Farm Lane",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 6.0,
-     "sqft": 5182.0,
-     "price": 4199000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-30",
-     "ppsf": 810,
-     "mi": 0.74
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 2015000.0,
-    "high": 4199000.0,
-    "median": 2950000
+ "comps": [
+  {
+   "mls": "24166818",
+   "slug": "119-long-lots-road-westport-connecticut-24166818",
+   "address": {
+    "line": "119 Long Lots Road",
+    "unit": null,
+    "lineWithUnit": "119 Long Lots Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
    },
-   "radiusMi": 0.75
+   "beds": 5.0,
+   "baths": 5.0,
+   "sqft": 5616.0,
+   "price": 3352000.0,
+   "date": "2026-06-19",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.146531,
+    "lng": -73.319498
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.730997544390542,
+   "ppsf": 596.8660968660969
+  },
+  {
+   "mls": "24168021",
+   "slug": "1-greystone-farm-lane-westport-connecticut-24168021",
+   "address": {
+    "line": "1 Greystone Farm Lane",
+    "unit": null,
+    "lineWithUnit": "1 Greystone Farm Lane",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 5.0,
+   "baths": 6.0,
+   "sqft": 5182.0,
+   "price": 4199000.0,
+   "date": "2026-06-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.1477,
+    "lng": -73.32764
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1924776041268699,
+   "ppsf": 810.3049015824006
+  },
+  {
+   "mls": "24118985",
+   "slug": "16-burr-school-road-westport-connecticut-24118985",
+   "address": {
+    "line": "16 Burr School Road",
+    "unit": null,
+    "lineWithUnit": "16 Burr School Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 5.0,
+   "baths": 5.0,
+   "sqft": 5056.0,
+   "price": 3250000.0,
+   "date": "2026-04-02",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.14639,
+    "lng": -73.32852
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.152145064531457,
+   "ppsf": 642.8006329113924
+  },
+  {
+   "mls": "24169947",
+   "slug": "3-bowling-lane-westport-connecticut-24169947",
+   "address": {
+    "line": "3 Bowling Lane",
+    "unit": null,
+    "lineWithUnit": "3 Bowling Lane",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 6.0,
+   "baths": 6.0,
+   "sqft": 5844.0,
+   "price": 3400000.0,
+   "date": "2026-08-03",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.1403,
+    "lng": -73.31665
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.07927512262431421,
+   "ppsf": 581.7932922655715
+  },
+  {
+   "mls": "24161889",
+   "slug": "36-bauer-pl-extension-westport-connecticut-24161889",
+   "address": {
+    "line": "36 Bauer Pl Extension",
+    "unit": null,
+    "lineWithUnit": "36 Bauer Pl Extension",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 6.0,
+   "baths": 6.0,
+   "sqft": 5938.0,
+   "price": 3025000.0,
+   "date": "2026-05-18",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.14166,
+    "lng": -73.31707
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.17620547952701884,
+   "ppsf": 509.43078477601887
   }
- }
+ ]
 }

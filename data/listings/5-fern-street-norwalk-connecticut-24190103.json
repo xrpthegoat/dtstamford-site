@@ -127,101 +127,141 @@
    "mi": 1.79
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "5-1-2-lenox-avenue-norwalk-connecticut-24157993",
-     "addr": "5-1/2 Lenox Avenue",
-     "unit": "",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 918.0,
-     "price": 2500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-25",
-     "ppsf": 3,
-     "mi": 0.04
-    },
-    {
-     "slug": "3-edgewood-street-norwalk-connecticut-24165539",
-     "addr": "3 Edgewood Street",
-     "unit": "",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 1000.0,
-     "price": 2800.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-27",
-     "ppsf": 3,
-     "mi": 0.13
-    },
-    {
-     "slug": "155-bouton-street-norwalk-connecticut-24161099",
-     "addr": "155 Bouton Street Unit Front",
-     "unit": "Unit Front",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 700.0,
-     "price": 2150.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-25",
-     "ppsf": 3,
-     "mi": 0.25
-    },
-    {
-     "slug": "2-frances-avenue-norwalk-connecticut-24139759",
-     "addr": "2 Frances Avenue Unit 2",
-     "unit": "Unit 2",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 1200.0,
-     "price": 2850.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-27",
-     "ppsf": 2,
-     "mi": 0.52
-    },
-    {
-     "slug": "309-ely-avenue-norwalk-connecticut-24180031",
-     "addr": "309 Ely Avenue Unit H1",
-     "unit": "Unit H1",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 805.0,
-     "price": 2500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-11",
-     "ppsf": 3,
-     "mi": 0.57
-    },
-    {
-     "slug": "236-flax-hill-road-norwalk-connecticut-24179763",
-     "addr": "236 Flax Hill Road Unit 2",
-     "unit": "Unit 2",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 775.0,
-     "price": 2500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-15",
-     "ppsf": 3,
-     "mi": 0.63
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 2150.0,
-    "high": 2850.0,
-    "median": 2500
+ "comps": [
+  {
+   "mls": "24147318",
+   "slug": "19-day-street-norwalk-connecticut-24147318",
+   "address": {
+    "line": "19 Day Street",
+    "unit": "Unit 311",
+    "lineWithUnit": "19 Day Street Unit 311",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1341.0,
+   "price": 3500.0,
+   "date": "2026-03-16",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.095734,
+    "lng": -73.4181
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.6104931798537536,
+   "ppsf": 2.609992542878449
+  },
+  {
+   "mls": "24156335",
+   "slug": "1-3-pine-street-norwalk-connecticut-24156335",
+   "address": {
+    "line": "1-3 Pine Street",
+    "unit": "Unit 4",
+    "lineWithUnit": "1-3 Pine Street Unit 4",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 1400.0,
+   "price": 3475.0,
+   "date": "2026-03-18",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.102116,
+    "lng": -73.419586
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.9952711258445086,
+   "ppsf": 2.482142857142857
+  },
+  {
+   "mls": "24153011",
+   "slug": "85-ledgebrook-drive-norwalk-connecticut-24153011",
+   "address": {
+    "line": "85 Ledgebrook Drive",
+    "unit": "Unit 85",
+    "lineWithUnit": "85 Ledgebrook Drive Unit 85",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1806.0,
+   "price": 4500.0,
+   "date": "2026-03-28",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.107291,
+    "lng": -73.4391
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.1726721178059676,
+   "ppsf": 2.4916943521594686
+  },
+  {
+   "mls": "24156436",
+   "slug": "2-lowndes-avenue-norwalk-connecticut-24156436",
+   "address": {
+    "line": "2 Lowndes Avenue",
+    "unit": "Unit 2",
+    "lineWithUnit": "2 Lowndes Avenue Unit 2",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 1721.0,
+   "price": 2450.0,
+   "date": "2026-04-11",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.086504,
+    "lng": -73.413656
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.748103465995355,
+   "ppsf": 1.4235909355026148
+  },
+  {
+   "mls": "24118947",
+   "slug": "168-rowayton-avenue-norwalk-connecticut-24118947",
+   "address": {
+    "line": "168 Rowayton Avenue",
+    "unit": null,
+    "lineWithUnit": "168 Rowayton Avenue",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06853"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2265.0,
+   "price": 12000.0,
+   "date": "2026-04-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.069035,
+    "lng": -73.442914
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.2338191350570256,
+   "ppsf": 5.298013245033113
   }
- }
+ ]
 }

@@ -132,98 +132,141 @@
    "mi": 1.45
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "8-willow-lane-greenwich-connecticut-24161971",
-     "addr": "8 Willow Lane",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 2.0,
-     "sqft": 1944.0,
-     "price": 2410000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-15",
-     "ppsf": 1240,
-     "mi": 0.09
-    },
-    {
-     "slug": "7-heusted-drive-greenwich-connecticut-24168405",
-     "addr": "7 Heusted Drive",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 4348.0,
-     "price": 3100000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-17",
-     "ppsf": 713,
-     "mi": 0.24
-    },
-    {
-     "slug": "44-willowmere-avenue-greenwich-connecticut-24170939",
-     "addr": "44 Willowmere Avenue",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 5.0,
-     "sqft": 4358.0,
-     "price": 4050000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-17",
-     "ppsf": 929,
-     "mi": 0.6
-    },
-    {
-     "slug": "67-benjamin-street-greenwich-connecticut-24189215",
-     "addr": "67 Benjamin Street",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 2346.0,
-     "price": 2995000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 1277,
-     "mi": 0.34
-    },
-    {
-     "slug": "58-arch-street-greenwich-connecticut-24188087",
-     "addr": "58 Arch Street",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 2941.0,
-     "price": 2750000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 935,
-     "mi": 0.61
-    },
-    {
-     "slug": "189-shore-road-greenwich-connecticut-24157191",
-     "addr": "189 Shore Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 4262.0,
-     "price": 8750000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 2053,
-     "mi": 0.66
-    }
-   ],
-   "summary": {
-    "n": 3,
-    "low": 2410000.0,
-    "high": 4050000.0,
-    "median": 3100000
+ "comps": [
+  {
+   "mls": "24155152",
+   "slug": "21-amherst-road-greenwich-connecticut-24155152",
+   "address": {
+    "line": "21 Amherst Road",
+    "unit": null,
+    "lineWithUnit": "21 Amherst Road",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06878"
    },
-   "radiusMi": 0.75
+   "beds": 5.0,
+   "baths": 3.0,
+   "sqft": 2911.0,
+   "price": 1700000.0,
+   "date": "2026-06-25",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.048539,
+    "lng": -73.57219
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.4989844964622585,
+   "ppsf": 583.9917554105118
+  },
+  {
+   "mls": "24163995",
+   "slug": "10-maple-drive-greenwich-connecticut-24163995",
+   "address": {
+    "line": "10 Maple Drive",
+    "unit": null,
+    "lineWithUnit": "10 Maple Drive",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06870"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 2290.0,
+   "price": 1258000.0,
+   "date": "2026-05-21",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.043891,
+    "lng": -73.568831
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.9506028477900792,
+   "ppsf": 549.3449781659389
+  },
+  {
+   "mls": "24179144",
+   "slug": "14-neil-lane-greenwich-connecticut-24179144",
+   "address": {
+    "line": "14 Neil Lane",
+    "unit": null,
+    "lineWithUnit": "14 Neil Lane",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06878"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2568.0,
+   "price": 1800000.0,
+   "date": "2026-07-31",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.042413,
+    "lng": -73.580742
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.117846019109466,
+   "ppsf": 700.9345794392524
+  },
+  {
+   "mls": "24133496",
+   "slug": "1-prescott-lane-greenwich-connecticut-24133496",
+   "address": {
+    "line": "1 Prescott Lane",
+    "unit": null,
+    "lineWithUnit": "1 Prescott Lane",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06830"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 3912.0,
+   "price": 3800000.0,
+   "date": "2026-04-06",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.037109,
+    "lng": -73.63313
+   },
+   "klass": "house",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 5.667359456887584,
+   "ppsf": 971.3701431492842
+  },
+  {
+   "mls": "24053927",
+   "slug": "201-shore-road-greenwich-connecticut-24053927",
+   "address": {
+    "line": "201 Shore Road",
+    "unit": null,
+    "lineWithUnit": "201 Shore Road",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06830"
+   },
+   "beds": 5.0,
+   "baths": 5.0,
+   "sqft": 3598.0,
+   "price": 2025000.0,
+   "date": "2026-05-18",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.018843,
+    "lng": -73.629262
+   },
+   "klass": "house",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 5.284322624715652,
+   "ppsf": 562.8126737076153
   }
- }
+ ]
 }

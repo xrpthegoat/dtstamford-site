@@ -131,100 +131,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "511-den-road-stamford-connecticut-24137258",
-     "addr": "511 Den Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 3400.0,
-     "price": 1915000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-01",
-     "ppsf": 563,
-     "mi": 0.27
-    },
-    {
-     "slug": "80-east-ridge-road-stamford-connecticut-24176564",
-     "addr": "80 East Ridge Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 5436.0,
-     "price": 1170000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-15",
-     "ppsf": 215,
-     "mi": 0.43
-    },
-    {
-     "slug": "42-dogwood-lane-stamford-connecticut-24160080",
-     "addr": "42 Dogwood Lane",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 5.0,
-     "sqft": 7116.0,
-     "price": 1650000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-24",
-     "ppsf": 232,
-     "mi": 0.5
-    },
-    {
-     "slug": "48-briarwood-lane-stamford-connecticut-24148859",
-     "addr": "48 Briarwood Lane",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 3324.0,
-     "price": 1125000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-23",
-     "ppsf": 338,
-     "mi": 0.65
-    },
-    {
-     "slug": "192-barclay-drive-stamford-connecticut-24168271",
-     "addr": "192 Barclay Drive",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 3148.0,
-     "price": 1650000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-05",
-     "ppsf": 524,
-     "mi": 0.68
-    },
-    {
-     "slug": "27-nob-hill-lane-stamford-connecticut-24170169",
-     "addr": "27 Nob Hill Lane",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 3020.0,
-     "price": 1125000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 373,
-     "mi": 0.37
-    }
-   ],
-   "summary": {
-    "n": 5,
-    "low": 1125000.0,
-    "high": 1915000.0,
-    "median": 1650000
+ "comps": [
+  {
+   "mls": "24177197",
+   "slug": "198-woodchuck-road-stamford-connecticut-24177197",
+   "address": {
+    "line": "198 Woodchuck Road",
+    "unit": null,
+    "lineWithUnit": "198 Woodchuck Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 3322.0,
+   "price": 2450000.0,
+   "date": "2026-06-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.121548,
+    "lng": -73.577948
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8862742381726303,
+   "ppsf": 737.5075255869958
+  },
+  {
+   "mls": "24148859",
+   "slug": "48-briarwood-lane-stamford-connecticut-24148859",
+   "address": {
+    "line": "48 Briarwood Lane",
+    "unit": null,
+    "lineWithUnit": "48 Briarwood Lane",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 3324.0,
+   "price": 1125000.0,
+   "date": "2026-04-23",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.108367,
+    "lng": -73.564256
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0531282362289502,
+   "ppsf": 338.4476534296029
+  },
+  {
+   "mls": "24137258",
+   "slug": "511-den-road-stamford-connecticut-24137258",
+   "address": {
+    "line": "511 Den Road",
+    "unit": null,
+    "lineWithUnit": "511 Den Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 3400.0,
+   "price": 1915000.0,
+   "date": "2026-07-01",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.112679,
+    "lng": -73.579146
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.43483230944401163,
+   "ppsf": 563.2352941176471
+  },
+  {
+   "mls": "24157368",
+   "slug": "72-barclay-drive-stamford-connecticut-24157368",
+   "address": {
+    "line": "72 Barclay Drive",
+    "unit": null,
+    "lineWithUnit": "72 Barclay Drive",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
+   },
+   "beds": 5.0,
+   "baths": 4.0,
+   "sqft": 4904.0,
+   "price": 1850000.0,
+   "date": "2026-05-01",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.103557,
+    "lng": -73.575268
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1716151445202054,
+   "ppsf": 377.2430668841762
+  },
+  {
+   "mls": "24168271",
+   "slug": "192-barclay-drive-stamford-connecticut-24168271",
+   "address": {
+    "line": "192 Barclay Drive",
+    "unit": null,
+    "lineWithUnit": "192 Barclay Drive",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 3148.0,
+   "price": 1650000.0,
+   "date": "2026-06-05",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.104172,
+    "lng": -73.573853
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1010051045513798,
+   "ppsf": 524.1423125794155
   }
- }
+ ]
 }

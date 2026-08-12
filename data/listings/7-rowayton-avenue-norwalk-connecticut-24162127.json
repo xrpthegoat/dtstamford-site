@@ -135,100 +135,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "5-craw-avenue-norwalk-connecticut-24184787",
-     "addr": "5 Craw Avenue",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 2274.0,
-     "price": 2785000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-15",
-     "ppsf": 1225,
-     "mi": 0.27
-    },
-    {
-     "slug": "50-roton-avenue-norwalk-connecticut-24164170",
-     "addr": "50 Roton Avenue",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 3366.0,
-     "price": 3600000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-22",
-     "ppsf": 1070,
-     "mi": 0.37
-    },
-    {
-     "slug": "13-pond-street-norwalk-connecticut-24155353",
-     "addr": "13 Pond Street",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 3188.0,
-     "price": 3475000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-14",
-     "ppsf": 1090,
-     "mi": 0.41
-    },
-    {
-     "slug": "15-yarmouth-road-norwalk-connecticut-24184535",
-     "addr": "15 Yarmouth Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 5.0,
-     "sqft": 3015.0,
-     "price": 3750000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-08",
-     "ppsf": 1244,
-     "mi": 0.5
-    },
-    {
-     "slug": "20-roton-avenue-norwalk-connecticut-24170910",
-     "addr": "20 Roton Avenue",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 5.0,
-     "sqft": 4006.0,
-     "price": 2450000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-08-07",
-     "ppsf": 612,
-     "mi": 0.55
-    },
-    {
-     "slug": "2-sunwich-road-norwalk-connecticut-24188454",
-     "addr": "2 Sunwich Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 2.0,
-     "sqft": 1858.0,
-     "price": 3150000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 1695,
-     "mi": 0.07
-    }
-   ],
-   "summary": {
-    "n": 5,
-    "low": 2450000.0,
-    "high": 3750000.0,
-    "median": 3475000
+ "comps": [
+  {
+   "mls": "24156989",
+   "slug": "16-juniper-road-norwalk-connecticut-24156989",
+   "address": {
+    "line": "16 Juniper Road",
+    "unit": null,
+    "lineWithUnit": "16 Juniper Road",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06853"
    },
-   "radiusMi": 0.75
+   "beds": 5.0,
+   "baths": 5.0,
+   "sqft": 4423.0,
+   "price": 6950000.0,
+   "date": "2026-06-17",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.060294,
+    "lng": -73.443687
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 0.19584459528050166,
+   "ppsf": 1571.331675333484
+  },
+  {
+   "mls": "24167554",
+   "slug": "12-ledge-road-norwalk-connecticut-24167554",
+   "address": {
+    "line": "12 Ledge Road",
+    "unit": null,
+    "lineWithUnit": "12 Ledge Road",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06853"
+   },
+   "beds": 5.0,
+   "baths": 5.0,
+   "sqft": 4679.0,
+   "price": 3127000.0,
+   "date": "2026-07-02",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.074719,
+    "lng": -73.438569
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.852225516246155,
+   "ppsf": 668.3051934173969
+  },
+  {
+   "mls": "24102013",
+   "slug": "3-bittersweet-trail-norwalk-connecticut-24102013",
+   "address": {
+    "line": "3 Bittersweet Trail",
+    "unit": null,
+    "lineWithUnit": "3 Bittersweet Trail",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06853"
+   },
+   "beds": 4.0,
+   "baths": 5.0,
+   "sqft": 4254.0,
+   "price": 3200000.0,
+   "date": "2026-06-01",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.072411,
+    "lng": -73.440368
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.5653220455033108,
+   "ppsf": 752.2331922896097
+  },
+  {
+   "mls": "24182404",
+   "slug": "2-point-road-norwalk-connecticut-24182404",
+   "address": {
+    "line": "2 Point Road",
+    "unit": null,
+    "lineWithUnit": "2 Point Road",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 4.0,
+   "baths": 5.0,
+   "sqft": 4907.0,
+   "price": 3670000.0,
+   "date": "2026-07-22",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.069608,
+    "lng": -73.428199
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.8413205176908407,
+   "ppsf": 747.911147340534
+  },
+  {
+   "mls": "24166244",
+   "slug": "12-white-barns-lane-norwalk-connecticut-24166244",
+   "address": {
+    "line": "12 White Barns Lane",
+    "unit": "Unit 12",
+    "lineWithUnit": "12 White Barns Lane Unit 12",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 4.0,
+   "baths": 5.0,
+   "sqft": 4832.0,
+   "price": 1925000.0,
+   "date": "2026-04-19",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.15129,
+    "lng": -73.390205
+   },
+   "klass": "house",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 11.261637842169034,
+   "ppsf": 398.38576158940396
   }
- }
+ ]
 }

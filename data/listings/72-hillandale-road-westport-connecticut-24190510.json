@@ -123,57 +123,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "59-crescent-road-westport-connecticut-24162571",
-     "addr": "59 Crescent Road",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 4.0,
-     "sqft": 4508.0,
-     "price": 10000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-22",
-     "ppsf": 2,
-     "mi": 0.66
-    },
-    {
-     "slug": "1-brightfield-lane-westport-connecticut-24193991",
-     "addr": "1 Brightfield Lane",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 3321.0,
-     "price": 9800.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 3,
-     "mi": 0.22
-    },
-    {
-     "slug": "12-signal-lane-westport-connecticut-24156707",
-     "addr": "12 Signal Lane",
-     "unit": "",
-     "beds": 4.0,
-     "baths": 3.0,
-     "sqft": 3157.0,
-     "price": 8400.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 3,
-     "mi": 0.72
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 10000.0,
-    "high": 10000.0,
-    "median": 10000
+ "comps": [
+  {
+   "mls": "24178569",
+   "slug": "24-mills-street-westport-connecticut-24178569",
+   "address": {
+    "line": "24 Mills Street",
+    "unit": null,
+    "lineWithUnit": "24 Mills Street",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
    },
-   "radiusMi": 0.75
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2108.0,
+   "price": 7500.0,
+   "date": "2026-07-30",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.13775,
+    "lng": -73.31638
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1715042769461712,
+   "ppsf": 3.5578747628083494
+  },
+  {
+   "mls": "24176028",
+   "slug": "135-regents-park-westport-connecticut-24176028",
+   "address": {
+    "line": "135 Regents Park",
+    "unit": "Unit 135",
+    "lineWithUnit": "135 Regents Park Unit 135",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 2.0,
+   "baths": 4.0,
+   "sqft": 2692.0,
+   "price": 6100.0,
+   "date": "2026-06-04",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.136707,
+    "lng": -73.31481
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.2831324899028154,
+   "ppsf": 2.265973254086181
+  },
+  {
+   "mls": "24172336",
+   "slug": "162-regents-park-westport-connecticut-24172336",
+   "address": {
+    "line": "162 Regents Park",
+    "unit": "Unit 162",
+    "lineWithUnit": "162 Regents Park Unit 162",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 2.0,
+   "baths": 4.0,
+   "sqft": 2692.0,
+   "price": 5500.0,
+   "date": "2026-07-13",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.136707,
+    "lng": -73.31481
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.2831324899028154,
+   "ppsf": 2.0430906389301633
+  },
+  {
+   "mls": "24157031",
+   "slug": "8-bauer-place-westport-connecticut-24157031",
+   "address": {
+    "line": "8 Bauer Place",
+    "unit": null,
+    "lineWithUnit": "8 Bauer Place",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 2599.0,
+   "price": 9650.0,
+   "date": "2026-07-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.14101,
+    "lng": -73.31501
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.4000567887555306,
+   "ppsf": 3.712966525586764
+  },
+  {
+   "mls": "24163215",
+   "slug": "11-beechwood-lane-westport-connecticut-24163215",
+   "address": {
+    "line": "11 Beechwood Lane",
+    "unit": null,
+    "lineWithUnit": "11 Beechwood Lane",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 1886.0,
+   "price": 6500.0,
+   "date": "2026-06-06",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.13561,
+    "lng": -73.34497
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.2496391035792291,
+   "ppsf": 3.4464475079533403
   }
- }
+ ]
 }

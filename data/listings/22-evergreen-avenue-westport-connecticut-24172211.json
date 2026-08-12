@@ -131,99 +131,141 @@
    "line": "Metro-North Railroad"
   }
  },
- "comps": {
-  "area": {
-   "rows": [
-    {
-     "slug": "72-compo-road-north-westport-connecticut-24178717",
-     "addr": "72 Compo Road North",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 7.0,
-     "sqft": 6302.0,
-     "price": 3225000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-30",
-     "ppsf": 512,
-     "mi": 0.28
-    },
-    {
-     "slug": "8-washington-avenue-westport-connecticut-24173805",
-     "addr": "8 Washington Avenue",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 6.0,
-     "sqft": 3606.0,
-     "price": 2850000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-16",
-     "ppsf": 790,
-     "mi": 0.31
-    },
-    {
-     "slug": "4-wild-rose-road-westport-connecticut-24167522",
-     "addr": "4 Wild Rose Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 5.0,
-     "sqft": 4460.0,
-     "price": 3300000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-21",
-     "ppsf": 740,
-     "mi": 0.43
-    },
-    {
-     "slug": "21-dover-road-westport-connecticut-24167866",
-     "addr": "21 Dover Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 5.0,
-     "sqft": 6356.0,
-     "price": 2800000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-16",
-     "ppsf": 441,
-     "mi": 0.7
-    },
-    {
-     "slug": "4-lantern-hill-road-westport-connecticut-24196608",
-     "addr": "4 Lantern Hill Road",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 7.0,
-     "sqft": 11000.0,
-     "price": 6650000.0,
-     "kind": "asking",
-     "status": "Active",
-     "ppsf": 605,
-     "mi": 0.21
-    },
-    {
-     "slug": "30-saint-johns-place-westport-connecticut-24182424",
-     "addr": "30 Saint Johns Place",
-     "unit": "",
-     "beds": 5.0,
-     "baths": 4.0,
-     "sqft": 3999.0,
-     "price": 2895000.0,
-     "kind": "asking",
-     "status": "Under Contract",
-     "ppsf": 724,
-     "mi": 0.28
-    }
-   ],
-   "summary": {
-    "n": 4,
-    "low": 2800000.0,
-    "high": 3300000.0,
-    "median": 3037500
+ "comps": [
+  {
+   "mls": "24167522",
+   "slug": "4-wild-rose-road-westport-connecticut-24167522",
+   "address": {
+    "line": "4 Wild Rose Road",
+    "unit": null,
+    "lineWithUnit": "4 Wild Rose Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
    },
-   "radiusMi": 0.75
+   "beds": 5.0,
+   "baths": 5.0,
+   "sqft": 4460.0,
+   "price": 3300000.0,
+   "date": "2026-07-21",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.149801,
+    "lng": -73.360824
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6961864412943738,
+   "ppsf": 739.9103139013453
+  },
+  {
+   "mls": "24167866",
+   "slug": "21-dover-road-westport-connecticut-24167866",
+   "address": {
+    "line": "21 Dover Road",
+    "unit": null,
+    "lineWithUnit": "21 Dover Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 5.0,
+   "baths": 5.0,
+   "sqft": 6356.0,
+   "price": 2800000.0,
+   "date": "2026-07-16",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.154958,
+    "lng": -73.351777
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1190378304916455,
+   "ppsf": 440.52863436123346
+  },
+  {
+   "mls": "24178717",
+   "slug": "72-compo-road-north-westport-connecticut-24178717",
+   "address": {
+    "line": "72 Compo Road North",
+    "unit": null,
+    "lineWithUnit": "72 Compo Road North",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 5.0,
+   "baths": 7.0,
+   "sqft": 6302.0,
+   "price": 3225000.0,
+   "date": "2026-07-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.148167,
+    "lng": -73.35158
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.44375237002672385,
+   "ppsf": 511.7423040304665
+  },
+  {
+   "mls": "24175092",
+   "slug": "24-washington-avenue-westport-connecticut-24175092",
+   "address": {
+    "line": "24 Washington Avenue",
+    "unit": null,
+    "lineWithUnit": "24 Washington Avenue",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 4230.0,
+   "price": 3126000.0,
+   "date": "2026-07-28",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.147659,
+    "lng": -73.359366
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.4447679303249376,
+   "ppsf": 739.0070921985815
+  },
+  {
+   "mls": "24137404",
+   "slug": "123-greens-farms-road-westport-connecticut-24137404",
+   "address": {
+    "line": "123 Greens Farms Road",
+    "unit": null,
+    "lineWithUnit": "123 Greens Farms Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 4.0,
+   "baths": 5.0,
+   "sqft": 5207.0,
+   "price": 2600000.0,
+   "date": "2026-05-15",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.126299,
+    "lng": -73.340884
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.4197785829166767,
+   "ppsf": 499.3278279239485
   }
- }
+ ]
 }

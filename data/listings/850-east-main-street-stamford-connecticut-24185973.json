@@ -124,138 +124,141 @@
    "walk": 11
   }
  },
- "comps": {
-  "building": {
-   "rows": [
-    {
-     "slug": "850-east-main-street-stamford-connecticut-24165568",
-     "addr": "850 East Main Street Unit 524",
-     "unit": "Unit 524",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1073.0,
-     "price": 567500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-10",
-     "ppsf": 529
-    },
-    {
-     "slug": "850-east-main-street-stamford-connecticut-24165172",
-     "addr": "850 East Main Street Unit 205",
-     "unit": "Unit 205",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1080.0,
-     "price": 470000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-29",
-     "ppsf": 435
-    }
-   ],
-   "summary": {
-    "n": 2,
-    "low": 470000.0,
-    "high": 567500.0,
-    "median": 518750
+ "comps": [
+  {
+   "mls": "24165172",
+   "slug": "850-east-main-street-stamford-connecticut-24165172",
+   "address": {
+    "line": "850 East Main Street",
+    "unit": "Unit 205",
+    "lineWithUnit": "850 East Main Street Unit 205",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
    },
-   "label": "850 East Main Street"
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1080.0,
+   "price": 470000.0,
+   "date": "2026-05-29",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.055907,
+    "lng": -73.526682
+   },
+   "klass": "condo",
+   "tier": 1,
+   "why": "Same building, sold in the last year",
+   "km": 0.0176357667671709,
+   "ppsf": 435.18518518518516
   },
-  "area": {
-   "rows": [
-    {
-     "slug": "49-glenbrook-road-stamford-connecticut-24162281",
-     "addr": "49 Glenbrook Road Unit 103",
-     "unit": "Unit 103",
-     "beds": 2.0,
-     "baths": 1.0,
-     "sqft": 748.0,
-     "price": 320000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-12",
-     "ppsf": 428,
-     "mi": 0.13
-    },
-    {
-     "slug": "1-valley-road-stamford-connecticut-24170392",
-     "addr": "1 Valley Road Unit 207",
-     "unit": "Unit 207",
-     "beds": 2.0,
-     "baths": 3.0,
-     "sqft": 1400.0,
-     "price": 510000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-07-02",
-     "ppsf": 364,
-     "mi": 0.21
-    },
-    {
-     "slug": "160-glenbrook-road-stamford-connecticut-24171916",
-     "addr": "160 Glenbrook Road Unit 2B",
-     "unit": "Unit 2B",
-     "beds": 2.0,
-     "baths": 3.0,
-     "sqft": 1430.0,
-     "price": 602500.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-06",
-     "ppsf": 421,
-     "mi": 0.29
-    },
-    {
-     "slug": "107-lockwood-avenue-stamford-connecticut-24115746",
-     "addr": "107 Lockwood Avenue Apt 1B",
-     "unit": "Apt 1B",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1070.0,
-     "price": 307000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-03-30",
-     "ppsf": 287,
-     "mi": 0.34
-    },
-    {
-     "slug": "60-lawn-avenue-stamford-connecticut-24161574",
-     "addr": "60 Lawn Avenue Unit 21",
-     "unit": "Unit 21",
-     "beds": 2.0,
-     "baths": 2.0,
-     "sqft": 1420.0,
-     "price": 540000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-30",
-     "ppsf": 380,
-     "mi": 0.37
-    },
-    {
-     "slug": "101-grove-street-stamford-connecticut-24157458",
-     "addr": "101 Grove Street Unit 19",
-     "unit": "Unit 19",
-     "beds": 2.0,
-     "baths": 3.0,
-     "sqft": 1475.0,
-     "price": 595000.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-01",
-     "ppsf": 403,
-     "mi": 0.38
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 307000.0,
-    "high": 602500.0,
-    "median": 525000
+  {
+   "mls": "24165568",
+   "slug": "850-east-main-street-stamford-connecticut-24165568",
+   "address": {
+    "line": "850 East Main Street",
+    "unit": "Unit 524",
+    "lineWithUnit": "850 East Main Street Unit 524",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
    },
-   "radiusMi": 0.75
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1073.0,
+   "price": 567500.0,
+   "date": "2026-06-10",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.055958,
+    "lng": -73.52678
+   },
+   "klass": "condo",
+   "tier": 1,
+   "why": "Same building, sold in the last year",
+   "km": 0.027457842540893704,
+   "ppsf": 528.8909599254426
+  },
+  {
+   "mls": "24145504",
+   "slug": "54-hope-street-stamford-connecticut-24145504",
+   "address": {
+    "line": "54 Hope Street",
+    "unit": "Unit 4",
+    "lineWithUnit": "54 Hope Street Unit 4",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06906"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1226.0,
+   "price": 469900.0,
+   "date": "2026-04-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.062504,
+    "lng": -73.526658
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7466282913180301,
+   "ppsf": 383.278955954323
+  },
+  {
+   "mls": "24115746",
+   "slug": "107-lockwood-avenue-stamford-connecticut-24115746",
+   "address": {
+    "line": "107 Lockwood Avenue",
+    "unit": "Apt 1B",
+    "lineWithUnit": "107 Lockwood Avenue Apt 1B",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1070.0,
+   "price": 307000.0,
+   "date": "2026-03-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.052425,
+    "lng": -73.521834
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5437968964002825,
+   "ppsf": 286.9158878504673
+  },
+  {
+   "mls": "24140008",
+   "slug": "25-forest-street-stamford-connecticut-24140008",
+   "address": {
+    "line": "25 Forest Street",
+    "unit": "Apt 4A",
+    "lineWithUnit": "25 Forest Street Apt 4A",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06901"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1342.0,
+   "price": 590000.0,
+   "date": "2026-04-30",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.056534,
+    "lng": -73.536469
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8366303802588314,
+   "ppsf": 439.64232488822654
   }
- }
+ ]
 }

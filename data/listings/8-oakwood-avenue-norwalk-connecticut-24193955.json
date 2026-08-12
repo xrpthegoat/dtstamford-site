@@ -113,125 +113,141 @@
    "walk": 1
   }
  },
- "comps": {
-  "building": {
-   "rows": [
-    {
-     "slug": "8-oakwood-avenue-norwalk-connecticut-24180263",
-     "addr": "8 Oakwood Avenue Unit C1",
-     "unit": "Unit C1",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 570.0,
-     "price": 2295.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-11",
-     "ppsf": 4
-    }
-   ],
-   "summary": {
-    "n": 1,
-    "low": 2295.0,
-    "high": 2295.0,
-    "median": 2295
+ "comps": [
+  {
+   "mls": "24180263",
+   "slug": "8-oakwood-avenue-norwalk-connecticut-24180263",
+   "address": {
+    "line": "8 Oakwood Avenue",
+    "unit": "Unit C1",
+    "lineWithUnit": "8 Oakwood Avenue Unit C1",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
    },
-   "label": "8 Oakwood Avenue"
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 570.0,
+   "price": 2295.0,
+   "date": "2026-06-11",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.148,
+    "lng": -73.42878
+   },
+   "klass": "rental",
+   "tier": 1,
+   "why": "Same building, sold in the last year",
+   "km": 0.021658534923533618,
+   "ppsf": 4.026315789473684
   },
-  "area": {
-   "rows": [
-    {
-     "slug": "44-glenrock-norwalk-connecticut-24158045",
-     "addr": "44 Glenrock Unit 44",
-     "unit": "Unit 44",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 735.0,
-     "price": 2400.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-15",
-     "ppsf": 3,
-     "mi": 0.04
-    },
-    {
-     "slug": "128-perry-avenue-norwalk-connecticut-24167577",
-     "addr": "128 Perry Avenue Unit Cottage",
-     "unit": "Unit Cottage",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 1464.0,
-     "price": 2900.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-05-05",
-     "ppsf": 2,
-     "mi": 0.42
-    },
-    {
-     "slug": "300-glover-avenue-norwalk-connecticut-24139926",
-     "addr": "300 Glover Avenue Unit B153",
-     "unit": "Unit B153",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 802.0,
-     "price": 2295.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-30",
-     "ppsf": 3,
-     "mi": 0.44
-    },
-    {
-     "slug": "300-glover-avenue-norwalk-connecticut-24138767",
-     "addr": "300 Glover Avenue Unit B411",
-     "unit": "Unit B411",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 751.0,
-     "price": 2315.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-04-30",
-     "ppsf": 3,
-     "mi": 0.44
-    },
-    {
-     "slug": "300-glover-avenue-norwalk-connecticut-24170142",
-     "addr": "300 Glover Avenue Unit 169",
-     "unit": "Unit 169",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 740.0,
-     "price": 2555.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-16",
-     "ppsf": 3,
-     "mi": 0.44
-    },
-    {
-     "slug": "300-glover-avenue-norwalk-connecticut-24170143",
-     "addr": "300 Glover Avenue Unit 539",
-     "unit": "Unit 539",
-     "beds": 1.0,
-     "baths": 1.0,
-     "sqft": 833.0,
-     "price": 2520.0,
-     "kind": "sold",
-     "status": "Closed",
-     "soldOn": "2026-06-16",
-     "ppsf": 3,
-     "mi": 0.44
-    }
-   ],
-   "summary": {
-    "n": 6,
-    "low": 2295.0,
-    "high": 2900.0,
-    "median": 2460
+  {
+   "mls": "24139929",
+   "slug": "300-glover-avenue-norwalk-connecticut-24139929",
+   "address": {
+    "line": "300 Glover Avenue",
+    "unit": "Unit b149",
+    "lineWithUnit": "300 Glover Avenue Unit b149",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
    },
-   "radiusMi": 0.75
+   "beds": 0.0,
+   "baths": 1.0,
+   "sqft": 524.0,
+   "price": 2045.0,
+   "date": "2026-04-30",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.153976,
+    "lng": -73.425835
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.711171116190344,
+   "ppsf": 3.9026717557251906
+  },
+  {
+   "mls": "24170139",
+   "slug": "300-glover-avenue-norwalk-connecticut-24170139",
+   "address": {
+    "line": "300 Glover Avenue",
+    "unit": "Unit 107",
+    "lineWithUnit": "300 Glover Avenue Unit 107",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 0.0,
+   "baths": 1.0,
+   "sqft": 524.0,
+   "price": 2080.0,
+   "date": "2026-07-07",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.153976,
+    "lng": -73.425835
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.711171116190344,
+   "ppsf": 3.969465648854962
+  },
+  {
+   "mls": "24139925",
+   "slug": "1-glover-avenue-norwalk-connecticut-24139925",
+   "address": {
+    "line": "1 Glover Avenue",
+    "unit": "Unit 410",
+    "lineWithUnit": "1 Glover Avenue Unit 410",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 0.0,
+   "baths": 1.0,
+   "sqft": 560.0,
+   "price": 1860.0,
+   "date": "2026-07-07",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.143,
+    "lng": -73.427475
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.576432726066271,
+   "ppsf": 3.3214285714285716
+  },
+  {
+   "mls": "24170138",
+   "slug": "300-glover-avenue-norwalk-connecticut-24170138",
+   "address": {
+    "line": "300 Glover Avenue",
+    "unit": "Unit 107B",
+    "lineWithUnit": "300 Glover Avenue Unit 107B",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 0.0,
+   "baths": 1.0,
+   "sqft": 524.0,
+   "price": 2320.0,
+   "date": "2026-07-07",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.153976,
+    "lng": -73.425835
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.711171116190344,
+   "ppsf": 4.427480916030534
   }
- }
+ ]
 }

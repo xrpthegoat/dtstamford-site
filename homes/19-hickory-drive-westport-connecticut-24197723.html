@@ -113,6 +113,41 @@
    Desktop only — the 860px block below resets it to static, because on a phone a sticky card would
    sit on top of the content it is meant to support. */
 .idx-body > aside{align-self:stretch}
+.mtg-note{color:var(--muted);font-size:.86rem;line-height:1.6;margin:-4px 0 14px}
+.mtg{display:grid;grid-template-columns:1fr .8fr;gap:18px;align-items:center;border:1px solid var(--line);
+  border-radius:16px;padding:18px;background:rgba(255,255,255,.015);margin:0 0 26px}
+.mtg-in{display:flex;flex-direction:column;gap:12px}
+.mtg-in label{display:flex;align-items:center;gap:10px;font-family:var(--mono);font-size:.68rem;
+  letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.mtg-in input[type=range]{flex:1;accent-color:var(--gold)}
+.mtg-in input[type=number],.mtg-in select{background:rgba(255,255,255,.05);border:1px solid var(--line);
+  color:var(--fg);border-radius:9px;padding:7px 9px;font-family:var(--sans);font-size:.9rem;width:88px}
+.mtg-dpct{color:var(--gold-l);min-width:34px}
+.mtg-out{text-align:right}
+.mtg-big{font-family:var(--disp);font-size:clamp(1.7rem,4vw,2.4rem);color:#fff;line-height:1}
+.mtg-per{font-size:.9rem;color:var(--muted);font-family:var(--sans)}
+.mtg-break{font-family:var(--mono);font-size:.68rem;color:var(--muted);margin-top:7px;line-height:1.7}
+@media(max-width:700px){.mtg{grid-template-columns:1fr}.mtg-out{text-align:left}}
+.idx-nb-grid{display:grid;grid-template-columns:1.25fr .75fr;gap:18px;align-items:start;margin:20px 0}
+.idx-nb-grid .idx-facts{margin:0}
+.nb-mapwrap{border:1px solid var(--line);border-radius:16px;padding:12px;background:rgba(255,255,255,.015)}
+.nb-map{width:100%;height:auto;display:block;border-radius:12px}
+.nb-legend{display:flex;flex-wrap:wrap;gap:8px 14px;margin-top:10px}
+.nb-key{display:inline-flex;align-items:center;gap:6px;font-family:var(--mono);font-size:.62rem;
+  letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.nb-key i{width:9px;height:9px;border-radius:50%;display:inline-block}
+.nb-mapnote{color:var(--faint);font-size:.7rem;line-height:1.5;margin:8px 0 0}
+@media(max-width:900px){.idx-nb-grid{grid-template-columns:1fr}}
+.idx-sibs-note{color:var(--muted);font-size:.86rem;margin:-6px 0 12px}
+.idx-sibs{list-style:none;padding:0;margin:0 0 26px;display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:10px}
+.idx-sib a{display:flex;flex-direction:column;gap:4px;padding:13px 15px;border:1px solid var(--line);
+  border-radius:14px;text-decoration:none;background:rgba(255,255,255,.02);transition:border-color .2s,background .2s}
+.idx-sib a:hover{border-color:var(--gold-d);background:rgba(203,171,104,.05)}
+.idx-sib-addr{color:var(--fg);font-size:.94rem;line-height:1.35}
+.idx-sib-meta{font-family:var(--mono);font-size:.68rem;color:var(--muted);letter-spacing:.03em}
+.idx-sib-meta:empty{display:none}
+.idx-sib-price{color:var(--gold-l);font-weight:600;font-size:.98rem;margin-top:2px}
 .idx-cta{position:sticky;top:90px;max-height:calc(100vh - 110px);overflow:auto;border:1px solid var(--line);border-radius:20px;padding:26px;background:rgba(255,255,255,.02);box-shadow:inset 0 1px 0 rgba(255,255,255,.05)}
 .idx-cta h3{font-size:1.3rem;color:#fff;margin-bottom:6px}
 .idx-cta p{color:var(--fg-soft);font-size:.95rem;margin-bottom:16px}
@@ -234,7 +269,7 @@
     <div class="idx-facts"><div><div class="k">Zoning</div><div class="v">A</div></div><div><div class="k">Lot</div><div class="v">Fence - Full, Sloping Lot, On Cul-De-Sac</div></div><div><div class="k">Waterfront</div><div class="v">Beach Rights, Water Community, Access</div></div></div>
     <h2>Energy</h2>
     <div class="idx-facts"><div><div class="k">Energy features</div><div class="v">Storm Doors</div></div></div>
-    <h2 id="nearby">What's nearby</h2><div class="idx-facts"><div><div class="k">Grocery</div><div class="v">Trader Joe&#39;s<span class="idx-nb-d">1.18 mi away</span></div></div><div><div class="k">Also nearby</div><div class="v">Whole Foods Market<span class="idx-nb-d">2.76 mi away</span></div></div><div><div class="k">Pharmacy</div><div class="v">CVS Pharmacy<span class="idx-nb-d">1.17 mi away</span></div></div><div><div class="k">Train</div><div class="v">Westport Station<span class="idx-nb-d">2.61 mi away</span><span class="idx-nb-gct">Metro-North Railroad</span></div></div><div><div class="k">Elementary</div><div class="v">Long Lots</div></div><div><div class="k">Middle</div><div class="v">Bedford</div></div><div><div class="k">High school</div><div class="v">Staples</div></div></div><p class="idx-nb-note">Distances are straight-line from the property, not driving or walking routes. Places data © OpenStreetMap contributors.</p><h2>Recent comparable rentals</h2>
+    <h2 id="nearby">What's nearby</h2><div class="idx-nb-grid"><div class="idx-facts"><div><div class="k">Grocery</div><div class="v">Trader Joe&#39;s<span class="idx-nb-d">1.18 mi away</span></div></div><div><div class="k">Also nearby</div><div class="v">Whole Foods Market<span class="idx-nb-d">2.76 mi away</span></div></div><div><div class="k">Pharmacy</div><div class="v">CVS Pharmacy<span class="idx-nb-d">1.17 mi away</span></div></div><div><div class="k">Train</div><div class="v">Westport Station<span class="idx-nb-d">2.61 mi away</span><span class="idx-nb-gct">Metro-North Railroad</span></div></div><div><div class="k">Elementary</div><div class="v">Long Lots</div></div><div><div class="k">Middle</div><div class="v">Bedford</div></div><div><div class="k">High school</div><div class="v">Staples</div></div></div><div class="nb-mapwrap"><svg class="nb-map" viewBox="0 0 340 340" role="img" aria-label="Map showing this home and the nearby places listed above" xmlns="http://www.w3.org/2000/svg"><rect width="340" height="340" rx="16" fill="#0d0d11"/><circle cx="170" cy="170" r="104" fill="none" stroke="rgba(255,255,255,.10)" stroke-dasharray="3 5"/><text x="170" y="60" text-anchor="middle" font-family="monospace" font-size="9" fill="#83848f">~2.2 mi</text><line x1="170" y1="170" x2="115.6" y2="169.9" stroke="rgba(255,255,255,.12)"/><circle cx="115.6" cy="169.9" r="5" fill="#7bc47f"/><title>Trader Joe's — 1.18 mi</title><line x1="170" y1="170" x2="48.0" y2="207.1" stroke="rgba(255,255,255,.12)"/><circle cx="48.0" cy="207.1" r="5" fill="#7bc47f"/><title>Whole Foods Market — 2.76 mi</title><line x1="170" y1="170" x2="116.2" y2="167.8" stroke="rgba(255,255,255,.12)"/><circle cx="116.2" cy="167.8" r="5" fill="#e0796f"/><title>CVS Pharmacy — 1.17 mi</title><line x1="170" y1="170" x2="69.5" y2="236.4" stroke="rgba(255,255,255,.12)"/><circle cx="69.5" cy="236.4" r="5" fill="#cbab68"/><title>Westport — 2.61 mi</title><circle cx="170" cy="170" r="7" fill="#fff"/><circle cx="170" cy="170" r="12" fill="none" stroke="#fff" stroke-opacity=".35"/></svg><div class="nb-legend"><span class="nb-key"><i style="background:#fff"></i>This home</span><span class="nb-key"><i style="background:#7bc47f"></i>Grocery</span><span class="nb-key"><i style="background:#e0796f"></i>Pharmacy</span><span class="nb-key"><i style="background:#cbab68"></i>Train</span></div><p class="nb-mapnote">Relative positions and straight-line distances — a locator, not a street map.</p></div></div><p class="idx-nb-note">Distances are straight-line from the property, not driving or walking routes. Places data © OpenStreetMap contributors.</p><h2>Recent comparable rentals</h2>
 <p class="cmp-note">The five closest recent leases to this home, nearest match first — same building where possible, then the surrounding streets, widening only when there is nothing closer. These are recorded lease prices from the MLS, not estimates. <b>No automated valuation is shown</b>, because what a home is worth depends on condition, layout and timing that a formula cannot see — <a href="tel:2038833399">call John at 203&middot;883&middot;3399</a> to read them properly against this home.</p>
 <p class="cmp-sum">5 comparable rentals — <b>median $3,000/mo</b>, ranging $2,900/mo to $5,400/mo.</p><ul class="cmp-list"><div class="cmp-why">Within a 15-minute walk, sold in the last year</div>
 <li class="cmp-row"><div class="cmp-main"><span class="cmp-addr"><a href="/homes/34-crescent-road-westport-connecticut-24186243.html">34 Crescent Road</a></span><span class="cmp-meta">3 bd · 2 ba · 1,326 sq ft · 0.7 mi away</span></div><div class="cmp-fig"><span class="cmp-price">$5,400/mo</span><span class="cmp-date">2026-07-28</span></div></li>
@@ -255,8 +290,9 @@
 <div class="pr-cell"><span class="pr-k">Town appraisal</span><span class="pr-v">$506,200</span></div>
 <div class="pr-cell"><span class="pr-k">Last recorded sale</span><span class="pr-v">2014</span></div></div><div class="idx-attrib">Listing courtesy of <strong>William Raveis Real Estate</strong> — Elaine Schanzenbach · (203) 227-4343</div>
     <div class="d-legal">Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers&#39; personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.</div>
-    <h2>More homes in Westport</h2>
-    <ul class="idx-sibs"><li><a href="/homes/19-ketchum-street-westport-connecticut-24174519.html">19 Ketchum Street — $900,000</a></li><li><a href="/homes/19-mortar-rock-road-westport-connecticut-24174833.html">19 Mortar Rock Road — $4,699,000</a></li><li><a href="/homes/19-soundview-drive-westport-connecticut-24125259.html">19 Soundview Drive — $21,900/mo</a></li><li><a href="/homes/19-spriteview-avenue-westport-connecticut-24073587.html">19 Spriteview Avenue — $25,000/mo</a></li><li><a href="/homes/19-vineyard-lane-westport-connecticut-24188426.html">19 Vineyard Lane — $1,425,000</a></li><li><a href="/homes/190-north-avenue-westport-connecticut-24196220.html">190 North Avenue — $8,000/mo</a></li></ul>
+    <h2>More rentals in Westport</h2>
+    <p class="idx-sibs-note">Closest in price to this one.</p>
+    <ul class="idx-sibs"><li class="idx-sib"><a href="/homes/63-kings-highway-north-westport-connecticut-24184227.html"><span class="idx-sib-addr">63 Kings Highway North</span><span class="idx-sib-meta">4 bed · 2 bath · 1,494 sq ft</span><span class="idx-sib-price">$5,500/mo</span></a></li><li class="idx-sib"><a href="/homes/2-scofield-place-westport-connecticut-24188519.html"><span class="idx-sib-addr">2 Scofield Place</span><span class="idx-sib-meta">2 bed · 1 bath · 938 sq ft</span><span class="idx-sib-price">$5,250/mo</span></a></li><li class="idx-sib"><a href="/homes/18-hales-road-westport-connecticut-24193607.html"><span class="idx-sib-addr">18 Hales Road</span><span class="idx-sib-meta">3 bed · 3 bath · 1,492 sq ft</span><span class="idx-sib-price">$5,900/mo</span></a></li><li class="idx-sib"><a href="/homes/5-guyer-road-westport-connecticut-24193159.html"><span class="idx-sib-addr">5 Guyer Road</span><span class="idx-sib-meta">3 bed · 2 bath · 1,556 sq ft</span><span class="idx-sib-price">$6,000/mo</span></a></li><li class="idx-sib"><a href="/homes/201-main-street-westport-connecticut-24184955.html"><span class="idx-sib-addr">201 Main Street Unit 303</span><span class="idx-sib-meta">2 bed · 2 bath · 800 sq ft</span><span class="idx-sib-price">$4,900/mo</span></a></li><li class="idx-sib"><a href="/homes/14-cross-highway-westport-connecticut-24173615.html"><span class="idx-sib-addr">14 Cross Highway Unit D</span><span class="idx-sib-meta">2 bed · 2 bath · 1,165 sq ft</span><span class="idx-sib-price">$4,750/mo</span></a></li></ul>
     <p style="margin-top:22px"><a href="/homes/">← Back to all Stamford listings</a></p>
   </div>
   <aside>

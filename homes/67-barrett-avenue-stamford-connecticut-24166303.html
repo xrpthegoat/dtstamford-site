@@ -113,6 +113,41 @@
    Desktop only — the 860px block below resets it to static, because on a phone a sticky card would
    sit on top of the content it is meant to support. */
 .idx-body > aside{align-self:stretch}
+.mtg-note{color:var(--muted);font-size:.86rem;line-height:1.6;margin:-4px 0 14px}
+.mtg{display:grid;grid-template-columns:1fr .8fr;gap:18px;align-items:center;border:1px solid var(--line);
+  border-radius:16px;padding:18px;background:rgba(255,255,255,.015);margin:0 0 26px}
+.mtg-in{display:flex;flex-direction:column;gap:12px}
+.mtg-in label{display:flex;align-items:center;gap:10px;font-family:var(--mono);font-size:.68rem;
+  letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.mtg-in input[type=range]{flex:1;accent-color:var(--gold)}
+.mtg-in input[type=number],.mtg-in select{background:rgba(255,255,255,.05);border:1px solid var(--line);
+  color:var(--fg);border-radius:9px;padding:7px 9px;font-family:var(--sans);font-size:.9rem;width:88px}
+.mtg-dpct{color:var(--gold-l);min-width:34px}
+.mtg-out{text-align:right}
+.mtg-big{font-family:var(--disp);font-size:clamp(1.7rem,4vw,2.4rem);color:#fff;line-height:1}
+.mtg-per{font-size:.9rem;color:var(--muted);font-family:var(--sans)}
+.mtg-break{font-family:var(--mono);font-size:.68rem;color:var(--muted);margin-top:7px;line-height:1.7}
+@media(max-width:700px){.mtg{grid-template-columns:1fr}.mtg-out{text-align:left}}
+.idx-nb-grid{display:grid;grid-template-columns:1.25fr .75fr;gap:18px;align-items:start;margin:20px 0}
+.idx-nb-grid .idx-facts{margin:0}
+.nb-mapwrap{border:1px solid var(--line);border-radius:16px;padding:12px;background:rgba(255,255,255,.015)}
+.nb-map{width:100%;height:auto;display:block;border-radius:12px}
+.nb-legend{display:flex;flex-wrap:wrap;gap:8px 14px;margin-top:10px}
+.nb-key{display:inline-flex;align-items:center;gap:6px;font-family:var(--mono);font-size:.62rem;
+  letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.nb-key i{width:9px;height:9px;border-radius:50%;display:inline-block}
+.nb-mapnote{color:var(--faint);font-size:.7rem;line-height:1.5;margin:8px 0 0}
+@media(max-width:900px){.idx-nb-grid{grid-template-columns:1fr}}
+.idx-sibs-note{color:var(--muted);font-size:.86rem;margin:-6px 0 12px}
+.idx-sibs{list-style:none;padding:0;margin:0 0 26px;display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:10px}
+.idx-sib a{display:flex;flex-direction:column;gap:4px;padding:13px 15px;border:1px solid var(--line);
+  border-radius:14px;text-decoration:none;background:rgba(255,255,255,.02);transition:border-color .2s,background .2s}
+.idx-sib a:hover{border-color:var(--gold-d);background:rgba(203,171,104,.05)}
+.idx-sib-addr{color:var(--fg);font-size:.94rem;line-height:1.35}
+.idx-sib-meta{font-family:var(--mono);font-size:.68rem;color:var(--muted);letter-spacing:.03em}
+.idx-sib-meta:empty{display:none}
+.idx-sib-price{color:var(--gold-l);font-weight:600;font-size:.98rem;margin-top:2px}
 .idx-cta{position:sticky;top:90px;max-height:calc(100vh - 110px);overflow:auto;border:1px solid var(--line);border-radius:20px;padding:26px;background:rgba(255,255,255,.02);box-shadow:inset 0 1px 0 rgba(255,255,255,.05)}
 .idx-cta h3{font-size:1.3rem;color:#fff;margin-bottom:6px}
 .idx-cta p{color:var(--fg-soft);font-size:.95rem;margin-bottom:16px}
@@ -232,7 +267,7 @@
     <div class="idx-facts"><div><div class="k">Style</div><div class="v">Colonial</div></div><div><div class="k">Roof</div><div class="v">Asphalt Shingle</div></div><div><div class="k">Siding</div><div class="v">Clapboard, Cedar</div></div><div><div class="k">Exterior features</div><div class="v">Porch, Gutters, Lighting, Patio</div></div><div><div class="k">Foundation</div><div class="v">Concrete</div></div><div><div class="k">New construction</div><div class="v">No/Resale</div></div></div>
     <h2>Lot &amp; Land</h2>
     <div class="idx-facts"><div><div class="k">Zoning</div><div class="v">R10</div></div><div><div class="k">Lot</div><div class="v">Fence - Full</div></div></div>
-    <h2 id="nearby">What's nearby</h2><div class="idx-facts"><div><div class="k">Grocery</div><div class="v">Grade A Markets<span class="idx-nb-d">0.38 mi away · 8 min walk</span></div></div><div><div class="k">Also nearby</div><div class="v">ShopRite<span class="idx-nb-d">0.92 mi away</span></div></div><div><div class="k">Pharmacy</div><div class="v">CVS Pharmacy<span class="idx-nb-d">1.04 mi away</span></div></div><div><div class="k">Train</div><div class="v">Springdale Station<span class="idx-nb-d">1.01 mi away</span><span class="idx-nb-gct">Metro-North Railroad</span></div></div><div><div class="k">Bus stop</div><div class="v">High Ridge Rd @ Cold Spring Rd<span class="idx-nb-d">1.09 mi away</span></div></div><div><div class="k">Elementary</div><div class="v">Newfield</div></div><div><div class="k">Middle</div><div class="v">Rippowam</div></div><div><div class="k">High school</div><div class="v">Stamford</div></div></div><p class="idx-nb-note">Distances are straight-line from the property, not driving or walking routes. Places data © OpenStreetMap contributors.</p><h2>Listing &amp; sale history</h2>
+    <h2 id="nearby">What's nearby</h2><div class="idx-nb-grid"><div class="idx-facts"><div><div class="k">Grocery</div><div class="v">Grade A Markets<span class="idx-nb-d">0.38 mi away · 8 min walk</span></div></div><div><div class="k">Also nearby</div><div class="v">ShopRite<span class="idx-nb-d">0.92 mi away</span></div></div><div><div class="k">Pharmacy</div><div class="v">CVS Pharmacy<span class="idx-nb-d">1.04 mi away</span></div></div><div><div class="k">Train</div><div class="v">Springdale Station<span class="idx-nb-d">1.01 mi away</span><span class="idx-nb-gct">Metro-North Railroad</span></div></div><div><div class="k">Bus stop</div><div class="v">High Ridge Rd @ Cold Spring Rd<span class="idx-nb-d">1.09 mi away</span></div></div><div><div class="k">Elementary</div><div class="v">Newfield</div></div><div><div class="k">Middle</div><div class="v">Rippowam</div></div><div><div class="k">High school</div><div class="v">Stamford</div></div></div><div class="nb-mapwrap"><svg class="nb-map" viewBox="0 0 340 340" role="img" aria-label="Map showing this home and the nearby places listed above" xmlns="http://www.w3.org/2000/svg"><rect width="340" height="340" rx="16" fill="#0d0d11"/><circle cx="170" cy="170" r="104" fill="none" stroke="rgba(255,255,255,.10)" stroke-dasharray="3 5"/><text x="170" y="60" text-anchor="middle" font-family="monospace" font-size="9" fill="#83848f">~0.8 mi</text><line x1="170" y1="170" x2="193.3" y2="213.1" stroke="rgba(255,255,255,.12)"/><circle cx="193.3" cy="213.1" r="5" fill="#7bc47f"/><title>Grade A Markets — 0.38 mi</title><line x1="170" y1="170" x2="265.2" y2="238.9" stroke="rgba(255,255,255,.12)"/><circle cx="265.2" cy="238.9" r="5" fill="#7bc47f"/><title>ShopRite — 0.92 mi</title><line x1="170" y1="170" x2="78.6" y2="266.3" stroke="rgba(255,255,255,.12)"/><circle cx="78.6" cy="266.3" r="5" fill="#e0796f"/><title>CVS Pharmacy — 1.04 mi</title><line x1="170" y1="170" x2="292.0" y2="131.2" stroke="rgba(255,255,255,.12)"/><circle cx="292.0" cy="131.2" r="5" fill="#cbab68"/><title>Springdale — 1.01 mi</title><line x1="170" y1="170" x2="83.1" y2="278.3" stroke="rgba(255,255,255,.12)"/><circle cx="83.1" cy="278.3" r="5" fill="#7aa7d6"/><title>High Ridge Rd @ Cold Spring Rd — 1.09 mi</title><circle cx="170" cy="170" r="7" fill="#fff"/><circle cx="170" cy="170" r="12" fill="none" stroke="#fff" stroke-opacity=".35"/></svg><div class="nb-legend"><span class="nb-key"><i style="background:#fff"></i>This home</span><span class="nb-key"><i style="background:#7bc47f"></i>Grocery</span><span class="nb-key"><i style="background:#e0796f"></i>Pharmacy</span><span class="nb-key"><i style="background:#cbab68"></i>Train</span><span class="nb-key"><i style="background:#7aa7d6"></i>Bus</span></div><p class="nb-mapnote">Relative positions and straight-line distances — a locator, not a street map.</p></div></div><p class="idx-nb-note">Distances are straight-line from the property, not driving or walking routes. Places data © OpenStreetMap contributors.</p><h2>Listing &amp; sale history</h2>
 <p class="ph-note">Every time this exact home has come to market in the MLS data this site tracks. Where a sale closed, the recorded sale price is shown; "asking" marks a price the home was listed at rather than what it sold for.</p>
 <table class="ph-table"><tbody>
 <tr><td class="ph-date">2026-05-28</td><td>Sold — <b>$1,018,000</b> <span class="ph-ask">asked $895,000</span> <span class="ph-this">(this listing)</span></td><td class="ph-mls">MLS 24166303</td></tr>
@@ -254,7 +289,8 @@
 <li class="pr-sale"><span class="pr-sale-d">2002-01-04</span><span class="pr-sale-p">$480,000</span></li></ul><div class="idx-attrib">Listing courtesy of <strong>Compass Connecticut, LLC</strong> — Jonathan Makovsky · (203) 343-0141</div>
     <div class="d-legal">Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers&#39; personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.</div>
     <h2>More homes in Stamford</h2>
-    <ul class="idx-sibs"><li><a href="/homes/67-woodside-street-stamford-connecticut-24164831.html">67 Woodside Street — $1,900/mo</a></li><li><a href="/homes/678-atlantic-street-stamford-connecticut-24161236.html">678 Atlantic Street — $2,700/mo</a></li><li><a href="/homes/680-hope-street-stamford-connecticut-24155609.html">680 Hope Street — $525,000</a></li><li><a href="/homes/69-cove-road-stamford-connecticut-24170738.html">69 Cove Road — $2,200/mo</a></li><li><a href="/homes/69-webb-avenue-stamford-connecticut-24170661.html">69 Webb Avenue — $729,000</a></li><li><a href="/homes/69-weed-avenue-stamford-connecticut-24167439.html">69 Weed Avenue — $7,500/mo</a></li></ul>
+    <p class="idx-sibs-note">Closest in price to this one.</p>
+    <ul class="idx-sibs"><li class="idx-sib"><a href="/homes/147-berrian-road-stamford-connecticut-24173721.html"><span class="idx-sib-addr">147 Berrian Road</span><span class="idx-sib-meta">3 bed · 3 bath · 1,917 sq ft</span><span class="idx-sib-price">$895,000</span></a></li><li class="idx-sib"><a href="/homes/39-mcintosh-road-stamford-connecticut-24157712.html"><span class="idx-sib-addr">39 McIntosh Road</span><span class="idx-sib-meta">4 bed · 3 bath · 2,272 sq ft</span><span class="idx-sib-price">$895,000</span></a></li><li class="idx-sib"><a href="/homes/179-berrian-road-stamford-connecticut-24165726.html"><span class="idx-sib-addr">179 Berrian Road</span><span class="idx-sib-meta">4 bed · 2 bath · 2,270 sq ft</span><span class="idx-sib-price">$899,000</span></a></li><li class="idx-sib"><a href="/homes/18-cook-road-stamford-connecticut-24173295.html"><span class="idx-sib-addr">18 Cook Road</span><span class="idx-sib-meta">2 bed · 2 bath · 1,864 sq ft</span><span class="idx-sib-price">$899,000</span></a></li><li class="idx-sib"><a href="/homes/232-silver-hill-lane-stamford-connecticut-24157659.html"><span class="idx-sib-addr">232 Silver Hill Lane</span><span class="idx-sib-meta">4 bed · 3 bath · 3,272 sq ft</span><span class="idx-sib-price">$899,000</span></a></li><li class="idx-sib"><a href="/homes/34-andover-road-stamford-connecticut-24166537.html"><span class="idx-sib-addr">34 Andover Road</span><span class="idx-sib-meta">3 bed · 2 bath · 1,858 sq ft</span><span class="idx-sib-price">$899,000</span></a></li></ul>
     <p style="margin-top:22px"><a href="/homes/">← Back to all Stamford listings</a></p>
   </div>
   <aside>

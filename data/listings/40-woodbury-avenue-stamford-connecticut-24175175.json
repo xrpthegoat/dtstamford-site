@@ -90,28 +90,38 @@
   "grocery": [
    {
     "n": "Grade A Markets",
-    "mi": 0.64
+    "mi": 0.64,
+    "lat": 41.079708,
+    "lng": -73.532673
    },
    {
     "n": "ShopRite",
-    "mi": 0.73
+    "mi": 0.73,
+    "lat": 41.076777,
+    "lng": -73.52182
    }
   ],
   "pharmacy": {
    "n": "CVS Pharmacy",
    "mi": 0.6,
+   "lat": 41.094568,
+   "lng": -73.519663,
    "walk": 12,
    "chain": "CVS"
   },
   "train": {
    "n": "Springdale",
    "mi": 0.41,
+   "lat": 41.089013,
+   "lng": -73.517777,
    "walk": 8,
    "line": "Metro-North Railroad"
   },
   "bus": {
    "n": "Bedford St @ Locust Ln",
-   "mi": 1.6
+   "mi": 1.6,
+   "lat": 41.070984,
+   "lng": -73.547497
   }
  },
  "comps": []

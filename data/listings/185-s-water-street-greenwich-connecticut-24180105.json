@@ -83,28 +83,38 @@
   "grocery": [
    {
     "n": "Whole Foods Market",
-    "mi": 0.96
+    "mi": 0.96,
+    "lat": 40.99242,
+    "lng": -73.675505
    },
    {
     "n": "Citarella",
-    "mi": 1.54
+    "mi": 1.54,
+    "lat": 41.017682,
+    "lng": -73.646459
    }
   ],
   "pharmacy": {
    "n": "Walgreens",
    "mi": 0.38,
+   "lat": 41.001865,
+   "lng": -73.661707,
    "walk": 8,
    "chain": "Walgreens"
   },
   "train": {
    "n": "Port Chester",
    "mi": 0.44,
+   "lat": 41.001977,
+   "lng": -73.663566,
    "walk": 9,
    "line": "Metro-North Railroad"
   },
   "bus": {
    "n": "Lincoln Ave",
-   "mi": 1.85
+   "mi": 1.85,
+   "lat": 41.008441,
+   "lng": -73.690196
   }
  },
  "comps": []

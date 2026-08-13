@@ -88,27 +88,37 @@
   "grocery": [
    {
     "n": "Stop & Shop",
-    "mi": 0.89
+    "mi": 0.89,
+    "lat": 41.078381,
+    "lng": -73.464916
    },
    {
     "n": "Whole Foods Market",
-    "mi": 1.35
+    "mi": 1.35,
+    "lat": 41.073186,
+    "lng": -73.476345
    }
   ],
   "pharmacy": {
    "n": "CVS Pharmacy",
    "mi": 1.1,
+   "lat": 41.0763,
+   "lng": -73.470646,
    "chain": "CVS"
   },
   "train": {
    "n": "Rowayton",
    "mi": 0.53,
+   "lat": 41.077725,
+   "lng": -73.444275,
    "walk": 11,
    "line": "Metro-North Railroad"
   },
   "bus": {
    "n": "West Ave @ Leroy Ave",
-   "mi": 1.31
+   "mi": 1.31,
+   "lat": 41.077798,
+   "lng": -73.474249
   }
  },
  "comps": []

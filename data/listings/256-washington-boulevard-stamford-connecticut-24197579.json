@@ -87,27 +87,37 @@
   "grocery": [
    {
     "n": "Target",
-    "mi": 0.82
+    "mi": 0.82,
+    "lat": 41.055148,
+    "lng": -73.541856
    },
    {
     "n": "ShopRite",
-    "mi": 1.08
+    "mi": 1.08,
+    "lat": 41.048301,
+    "lng": -73.523464
    }
   ],
   "pharmacy": {
    "n": "Walgreens",
    "mi": 1.62,
+   "lat": 41.043804,
+   "lng": -73.574255,
    "chain": "Walgreens"
   },
   "train": {
    "n": "Stamford",
    "mi": 0.25,
+   "lat": 41.046904,
+   "lng": -73.542025,
    "walk": 5,
    "line": "Amtrak;Metro-North Railroad;CTrail"
   },
   "bus": {
    "n": "Richmond Hill Ave @ Clinton Ave",
    "mi": 0.36,
+   "lat": 41.048516,
+   "lng": -73.544474,
    "walk": 7
   }
  },

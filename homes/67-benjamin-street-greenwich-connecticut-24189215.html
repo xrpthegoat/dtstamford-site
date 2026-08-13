@@ -113,6 +113,41 @@
    Desktop only — the 860px block below resets it to static, because on a phone a sticky card would
    sit on top of the content it is meant to support. */
 .idx-body > aside{align-self:stretch}
+.mtg-note{color:var(--muted);font-size:.86rem;line-height:1.6;margin:-4px 0 14px}
+.mtg{display:grid;grid-template-columns:1fr .8fr;gap:18px;align-items:center;border:1px solid var(--line);
+  border-radius:16px;padding:18px;background:rgba(255,255,255,.015);margin:0 0 26px}
+.mtg-in{display:flex;flex-direction:column;gap:12px}
+.mtg-in label{display:flex;align-items:center;gap:10px;font-family:var(--mono);font-size:.68rem;
+  letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.mtg-in input[type=range]{flex:1;accent-color:var(--gold)}
+.mtg-in input[type=number],.mtg-in select{background:rgba(255,255,255,.05);border:1px solid var(--line);
+  color:var(--fg);border-radius:9px;padding:7px 9px;font-family:var(--sans);font-size:.9rem;width:88px}
+.mtg-dpct{color:var(--gold-l);min-width:34px}
+.mtg-out{text-align:right}
+.mtg-big{font-family:var(--disp);font-size:clamp(1.7rem,4vw,2.4rem);color:#fff;line-height:1}
+.mtg-per{font-size:.9rem;color:var(--muted);font-family:var(--sans)}
+.mtg-break{font-family:var(--mono);font-size:.68rem;color:var(--muted);margin-top:7px;line-height:1.7}
+@media(max-width:700px){.mtg{grid-template-columns:1fr}.mtg-out{text-align:left}}
+.idx-nb-grid{display:grid;grid-template-columns:1.25fr .75fr;gap:18px;align-items:start;margin:20px 0}
+.idx-nb-grid .idx-facts{margin:0}
+.nb-mapwrap{border:1px solid var(--line);border-radius:16px;padding:12px;background:rgba(255,255,255,.015)}
+.nb-map{width:100%;height:auto;display:block;border-radius:12px}
+.nb-legend{display:flex;flex-wrap:wrap;gap:8px 14px;margin-top:10px}
+.nb-key{display:inline-flex;align-items:center;gap:6px;font-family:var(--mono);font-size:.62rem;
+  letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.nb-key i{width:9px;height:9px;border-radius:50%;display:inline-block}
+.nb-mapnote{color:var(--faint);font-size:.7rem;line-height:1.5;margin:8px 0 0}
+@media(max-width:900px){.idx-nb-grid{grid-template-columns:1fr}}
+.idx-sibs-note{color:var(--muted);font-size:.86rem;margin:-6px 0 12px}
+.idx-sibs{list-style:none;padding:0;margin:0 0 26px;display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:10px}
+.idx-sib a{display:flex;flex-direction:column;gap:4px;padding:13px 15px;border:1px solid var(--line);
+  border-radius:14px;text-decoration:none;background:rgba(255,255,255,.02);transition:border-color .2s,background .2s}
+.idx-sib a:hover{border-color:var(--gold-d);background:rgba(203,171,104,.05)}
+.idx-sib-addr{color:var(--fg);font-size:.94rem;line-height:1.35}
+.idx-sib-meta{font-family:var(--mono);font-size:.68rem;color:var(--muted);letter-spacing:.03em}
+.idx-sib-meta:empty{display:none}
+.idx-sib-price{color:var(--gold-l);font-weight:600;font-size:.98rem;margin-top:2px}
 .idx-cta{position:sticky;top:90px;max-height:calc(100vh - 110px);overflow:auto;border:1px solid var(--line);border-radius:20px;padding:26px;background:rgba(255,255,255,.02);box-shadow:inset 0 1px 0 rgba(255,255,255,.05)}
 .idx-cta h3{font-size:1.3rem;color:#fff;margin-bottom:6px}
 .idx-cta p{color:var(--fg-soft);font-size:.95rem;margin-bottom:16px}
@@ -232,7 +267,7 @@
     <div class="idx-facts"><div><div class="k">Style</div><div class="v">Cape Cod</div></div><div><div class="k">Roof</div><div class="v">Asphalt Shingle</div></div><div><div class="k">Siding</div><div class="v">Vinyl Siding</div></div><div><div class="k">Foundation</div><div class="v">Block, Concrete</div></div><div><div class="k">New construction</div><div class="v">No/Resale</div></div></div>
     <h2>Lot &amp; Land</h2>
     <div class="idx-facts"><div><div class="k">Zoning</div><div class="v">R-12</div></div><div><div class="k">Lot</div><div class="v">Level Lot</div></div></div>
-    <h2 id="nearby">What's nearby</h2><div class="idx-facts"><div><div class="k">Grocery</div><div class="v">Kings<span class="idx-nb-d">0.62 mi away</span></div></div><div><div class="k">Also nearby</div><div class="v">Acme<span class="idx-nb-d">1.5 mi away</span></div></div><div><div class="k">Pharmacy</div><div class="v">Walgreens<span class="idx-nb-d">1.49 mi away</span></div></div><div><div class="k">Train</div><div class="v">Old Greenwich Station<span class="idx-nb-d">0.7 mi away</span><span class="idx-nb-gct">Metro-North Railroad</span></div></div><div><div class="k">Bus stop</div><div class="v">Bus stop<span class="idx-nb-d">1.62 mi away</span></div></div><div><div class="k">Elementary</div><div class="v">Old Greenwich</div></div><div><div class="k">Middle</div><div class="v">Eastern</div></div><div><div class="k">High school</div><div class="v">Greenwich</div></div></div><p class="idx-nb-note">Distances are straight-line from the property, not driving or walking routes. Places data © OpenStreetMap contributors.</p><h2>Recent comparable sales</h2>
+    <h2 id="payment">What it would cost per month</h2><p class="mtg-note">An estimate you can adjust — not a quote, and not an offer of credit. Principal and interest only, plus the taxes and HOA already on this listing. Insurance, PMI and closing costs are not included. Rate seeded at 6.5% (August 2026); change it to whatever your lender quotes.</p><div class="mtg" data-price="2995000" data-tax="0" data-hoa="0"><div class="mtg-in"><label>Down payment <span class="mtg-dpct">20%</span><input type="range" class="mtg-dp" min="0" max="50" step="1" value="20"></label><label>Rate <input type="number" class="mtg-rate" min="0" max="20" step="0.05" value="6.5">%</label><label>Term <select class="mtg-term"><option value="30">30 yr</option><option value="20">20 yr</option><option value="15">15 yr</option></select></label></div><div class="mtg-out"><div class="mtg-big"><span class="mtg-total">—</span><span class="mtg-per">/mo</span></div><div class="mtg-break"><span class="mtg-pi">—</span> principal &amp; interest<span class="mtg-extra"></span></div></div></div><h2 id="nearby">What's nearby</h2><div class="idx-nb-grid"><div class="idx-facts"><div><div class="k">Grocery</div><div class="v">Kings<span class="idx-nb-d">0.62 mi away</span></div></div><div><div class="k">Also nearby</div><div class="v">Acme<span class="idx-nb-d">1.5 mi away</span></div></div><div><div class="k">Pharmacy</div><div class="v">Walgreens<span class="idx-nb-d">1.49 mi away</span></div></div><div><div class="k">Train</div><div class="v">Old Greenwich Station<span class="idx-nb-d">0.7 mi away</span><span class="idx-nb-gct">Metro-North Railroad</span></div></div><div><div class="k">Bus stop</div><div class="v">Bus stop<span class="idx-nb-d">1.62 mi away</span></div></div><div><div class="k">Elementary</div><div class="v">Old Greenwich</div></div><div><div class="k">Middle</div><div class="v">Eastern</div></div><div><div class="k">High school</div><div class="v">Greenwich</div></div></div><div class="nb-mapwrap"><svg class="nb-map" viewBox="0 0 340 340" role="img" aria-label="Map showing this home and the nearby places listed above" xmlns="http://www.w3.org/2000/svg"><rect width="340" height="340" rx="16" fill="#0d0d11"/><circle cx="170" cy="170" r="104" fill="none" stroke="rgba(255,255,255,.10)" stroke-dasharray="3 5"/><text x="170" y="60" text-anchor="middle" font-family="monospace" font-size="9" fill="#83848f">~1.3 mi</text><line x1="170" y1="170" x2="146.3" y2="128.5" stroke="rgba(255,255,255,.12)"/><circle cx="146.3" cy="128.5" r="5" fill="#7bc47f"/><title>Kings — 0.62 mi</title><line x1="170" y1="170" x2="104.3" y2="74.2" stroke="rgba(255,255,255,.12)"/><circle cx="104.3" cy="74.2" r="5" fill="#7bc47f"/><title>Acme — 1.5 mi</title><line x1="170" y1="170" x2="116.6" y2="67.4" stroke="rgba(255,255,255,.12)"/><circle cx="116.6" cy="67.4" r="5" fill="#e0796f"/><title>Walgreens — 1.49 mi</title><line x1="170" y1="170" x2="142.4" y2="123.3" stroke="rgba(255,255,255,.12)"/><circle cx="142.4" cy="123.3" r="5" fill="#cbab68"/><title>Old Greenwich — 0.7 mi</title><line x1="170" y1="170" x2="140.9" y2="48.0" stroke="rgba(255,255,255,.12)"/><circle cx="140.9" cy="48.0" r="5" fill="#7aa7d6"/><title>Bus stop — 1.62 mi</title><circle cx="170" cy="170" r="7" fill="#fff"/><circle cx="170" cy="170" r="12" fill="none" stroke="#fff" stroke-opacity=".35"/></svg><div class="nb-legend"><span class="nb-key"><i style="background:#fff"></i>This home</span><span class="nb-key"><i style="background:#7bc47f"></i>Grocery</span><span class="nb-key"><i style="background:#e0796f"></i>Pharmacy</span><span class="nb-key"><i style="background:#cbab68"></i>Train</span><span class="nb-key"><i style="background:#7aa7d6"></i>Bus</span></div><p class="nb-mapnote">Relative positions and straight-line distances — a locator, not a street map.</p></div></div><p class="idx-nb-note">Distances are straight-line from the property, not driving or walking routes. Places data © OpenStreetMap contributors.</p><h2>Recent comparable sales</h2>
 <p class="cmp-note">The five closest recent sales to this home, nearest match first — same building where possible, then the surrounding streets, widening only when there is nothing closer. These are recorded sale prices from the MLS, not estimates. <b>No automated valuation is shown</b>, because what a home is worth depends on condition, layout and timing that a formula cannot see — <a href="tel:2038833399">call John at 203&middot;883&middot;3399</a> to read them properly against this home.</p>
 <p class="cmp-sum">5 comparable sales — <b>median $2,300,000</b>, ranging $1,258,000 to $3,875,000.</p><ul class="cmp-list"><div class="cmp-why">Within a 15-minute walk, sold in the last year</div>
 <li class="cmp-row"><div class="cmp-main"><span class="cmp-addr"><a href="/homes/8-willow-lane-greenwich-connecticut-24161971.html">8 Willow Lane</a></span><span class="cmp-meta">4 bd · 2 ba · 1,944 sq ft · 0.4 mi away</span></div><div class="cmp-fig"><span class="cmp-price">$2,410,000</span><span class="cmp-ppsf">$1,239/sq ft</span><span class="cmp-date">2026-05-15</span></div></li>
@@ -246,7 +281,8 @@
 <ul class="pr-sales"><li class="pr-sale"><span class="pr-sale-d">2020-05-13</span><span class="pr-sale-p">$1,375,000</span><span class="pr-sale-t">Single Family</span></li></ul><div class="idx-attrib">Listing courtesy of <strong>Houlihan Lawrence</strong> — Joy Kim Metalios · (203) 869-0700</div>
     <div class="d-legal">Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers&#39; personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.</div>
     <h2>More homes in Greenwich</h2>
-    <ul class="idx-sibs"><li><a href="/homes/67-stag-lane-greenwich-connecticut-24178027.html">67 Stag Lane — $10,995,000</a></li><li><a href="/homes/7-river-road-greenwich-connecticut-24197694.html">7 River Road — $5,000/mo</a></li><li><a href="/homes/72-hamilton-avenue-greenwich-connecticut-24196056.html">72 Hamilton Avenue — $2,850/mo</a></li><li><a href="/homes/76-putnam-park-greenwich-connecticut-24181536.html">76 Putnam Park — $920,000</a></li><li><a href="/homes/78-river-road-greenwich-connecticut-24173464.html">78 River Road — $12,000/mo</a></li><li><a href="/homes/8-ernel-drive-greenwich-connecticut-24183181.html">8 Ernel Drive — $1,950,000</a></li></ul>
+    <p class="idx-sibs-note">Closest in price to this one.</p>
+    <ul class="idx-sibs"><li class="idx-sib"><a href="/homes/47-ridge-street-greenwich-connecticut-24168793.html"><span class="idx-sib-addr">47 Ridge Street</span><span class="idx-sib-meta">4 bed · 5 bath · 3,408 sq ft</span><span class="idx-sib-price">$2,895,000</span></a></li><li class="idx-sib"><a href="/homes/316-valley-road-greenwich-connecticut-24197532.html"><span class="idx-sib-addr">316 Valley Road</span><span class="idx-sib-meta">4 bed · 5 bath · 3,150 sq ft</span><span class="idx-sib-price">$2,750,000</span></a></li><li class="idx-sib"><a href="/homes/58-arch-street-greenwich-connecticut-24188087.html"><span class="idx-sib-addr">58 Arch Street</span><span class="idx-sib-meta">4 bed · 4 bath · 2,941 sq ft</span><span class="idx-sib-price">$2,750,000</span></a></li><li class="idx-sib"><a href="/homes/469-taconic-road-greenwich-connecticut-24174933.html"><span class="idx-sib-addr">469 Taconic Road</span><span class="idx-sib-meta">4 bed · 5 bath · 4,616 sq ft</span><span class="idx-sib-price">$3,250,000</span></a></li><li class="idx-sib"><a href="/homes/5-willow-run-road-greenwich-connecticut-24177801.html"><span class="idx-sib-addr">5 Willow Run Road</span><span class="idx-sib-meta">4 bed · 5 bath · 3,853 sq ft</span><span class="idx-sib-price">$3,250,000</span></a></li><li class="idx-sib"><a href="/homes/1-hendrie-dr-extension-greenwich-connecticut-24194050.html"><span class="idx-sib-addr">1 Hendrie Dr Extension</span><span class="idx-sib-meta">5 bed · 3 bath · 2,092 sq ft</span><span class="idx-sib-price">$3,300,000</span></a></li></ul>
     <p style="margin-top:22px"><a href="/homes/">← Back to all Stamford listings</a></p>
   </div>
   <aside>
@@ -265,6 +301,30 @@
 <div class="col"><h4>Contact</h4><a href="tel:2038833399">203·883·3399</a><a href="mailto:John@dtstamford.com">John@dtstamford.com</a><p>Stamford, Connecticut</p><p>Jarah Tuttle LLC</p></div>
 </div><div class="fbot"><span>© 2026 Downtown Stamford · John Restrepo</span><span>Real Estate Made Simple.</span></div></div></footer>
 <script src="/assets/homes/gallery-fs.js" defer></script>
-<!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "fcdcc63885554c618f3fea8816534803"}'></script><!-- End Cloudflare Web Analytics -->
+<script>
+(function(){
+  var box=document.querySelector('.mtg'); if(!box) return;
+  var price=+box.dataset.price||0, taxYr=+box.dataset.tax||0, hoaMo=+box.dataset.hoa||0;
+  var dp=box.querySelector('.mtg-dp'), pct=box.querySelector('.mtg-dpct'),
+      rate=box.querySelector('.mtg-rate'), term=box.querySelector('.mtg-term'),
+      total=box.querySelector('.mtg-total'), pi=box.querySelector('.mtg-pi'),
+      extra=box.querySelector('.mtg-extra');
+  var money=function(n){return '$'+Math.round(n).toLocaleString('en-US');};
+  function calc(){
+    var d=+dp.value, r=(+rate.value)/100/12, n=(+term.value)*12,
+        loan=price*(1-d/100), m;
+    pct.textContent=d+'%';
+    m = r>0 ? loan*r/(1-Math.pow(1+r,-n)) : (n? loan/n : 0);
+    var t=taxYr/12, h=hoaMo, all=m+t+h;
+    total.textContent=money(all); pi.textContent=money(m);
+    var bits=[];
+    if(t>0) bits.push(money(t)+' taxes');
+    if(h>0) bits.push(money(h)+' HOA');
+    extra.innerHTML = bits.length ? '<br>'+bits.join(' &middot; ') : '';
+  }
+  [dp,rate,term].forEach(function(el){ el.addEventListener('input',calc); el.addEventListener('change',calc); });
+  calc();
+})();
+</script><!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "fcdcc63885554c618f3fea8816534803"}'></script><!-- End Cloudflare Web Analytics -->
 </body>
 </html>

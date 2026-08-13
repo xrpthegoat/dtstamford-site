@@ -113,6 +113,41 @@
    Desktop only — the 860px block below resets it to static, because on a phone a sticky card would
    sit on top of the content it is meant to support. */
 .idx-body > aside{align-self:stretch}
+.mtg-note{color:var(--muted);font-size:.86rem;line-height:1.6;margin:-4px 0 14px}
+.mtg{display:grid;grid-template-columns:1fr .8fr;gap:18px;align-items:center;border:1px solid var(--line);
+  border-radius:16px;padding:18px;background:rgba(255,255,255,.015);margin:0 0 26px}
+.mtg-in{display:flex;flex-direction:column;gap:12px}
+.mtg-in label{display:flex;align-items:center;gap:10px;font-family:var(--mono);font-size:.68rem;
+  letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.mtg-in input[type=range]{flex:1;accent-color:var(--gold)}
+.mtg-in input[type=number],.mtg-in select{background:rgba(255,255,255,.05);border:1px solid var(--line);
+  color:var(--fg);border-radius:9px;padding:7px 9px;font-family:var(--sans);font-size:.9rem;width:88px}
+.mtg-dpct{color:var(--gold-l);min-width:34px}
+.mtg-out{text-align:right}
+.mtg-big{font-family:var(--disp);font-size:clamp(1.7rem,4vw,2.4rem);color:#fff;line-height:1}
+.mtg-per{font-size:.9rem;color:var(--muted);font-family:var(--sans)}
+.mtg-break{font-family:var(--mono);font-size:.68rem;color:var(--muted);margin-top:7px;line-height:1.7}
+@media(max-width:700px){.mtg{grid-template-columns:1fr}.mtg-out{text-align:left}}
+.idx-nb-grid{display:grid;grid-template-columns:1.25fr .75fr;gap:18px;align-items:start;margin:20px 0}
+.idx-nb-grid .idx-facts{margin:0}
+.nb-mapwrap{border:1px solid var(--line);border-radius:16px;padding:12px;background:rgba(255,255,255,.015)}
+.nb-map{width:100%;height:auto;display:block;border-radius:12px}
+.nb-legend{display:flex;flex-wrap:wrap;gap:8px 14px;margin-top:10px}
+.nb-key{display:inline-flex;align-items:center;gap:6px;font-family:var(--mono);font-size:.62rem;
+  letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.nb-key i{width:9px;height:9px;border-radius:50%;display:inline-block}
+.nb-mapnote{color:var(--faint);font-size:.7rem;line-height:1.5;margin:8px 0 0}
+@media(max-width:900px){.idx-nb-grid{grid-template-columns:1fr}}
+.idx-sibs-note{color:var(--muted);font-size:.86rem;margin:-6px 0 12px}
+.idx-sibs{list-style:none;padding:0;margin:0 0 26px;display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:10px}
+.idx-sib a{display:flex;flex-direction:column;gap:4px;padding:13px 15px;border:1px solid var(--line);
+  border-radius:14px;text-decoration:none;background:rgba(255,255,255,.02);transition:border-color .2s,background .2s}
+.idx-sib a:hover{border-color:var(--gold-d);background:rgba(203,171,104,.05)}
+.idx-sib-addr{color:var(--fg);font-size:.94rem;line-height:1.35}
+.idx-sib-meta{font-family:var(--mono);font-size:.68rem;color:var(--muted);letter-spacing:.03em}
+.idx-sib-meta:empty{display:none}
+.idx-sib-price{color:var(--gold-l);font-weight:600;font-size:.98rem;margin-top:2px}
 .idx-cta{position:sticky;top:90px;max-height:calc(100vh - 110px);overflow:auto;border:1px solid var(--line);border-radius:20px;padding:26px;background:rgba(255,255,255,.02);box-shadow:inset 0 1px 0 rgba(255,255,255,.05)}
 .idx-cta h3{font-size:1.3rem;color:#fff;margin-bottom:6px}
 .idx-cta p{color:var(--fg-soft);font-size:.95rem;margin-bottom:16px}
@@ -232,7 +267,7 @@
     <div class="idx-facts"><div><div class="k">Style</div><div class="v">Colonial</div></div><div><div class="k">Roof</div><div class="v">Wood Shingle</div></div><div><div class="k">Siding</div><div class="v">Shake</div></div><div><div class="k">Foundation</div><div class="v">Block</div></div><div><div class="k">New construction</div><div class="v">No/Resale</div></div></div>
     <h2>Lot &amp; Land</h2>
     <div class="idx-facts"><div><div class="k">Zoning</div><div class="v">RA-1</div></div><div><div class="k">Lot</div><div class="v">On Cul-De-Sac</div></div></div>
-    <h2 id="nearby">What's nearby</h2><div class="idx-facts"><div><div class="k">Grocery</div><div class="v">Balducci&#39;s<span class="idx-nb-d">1.92 mi away</span></div></div><div><div class="k">Also nearby</div><div class="v">Whole Foods Market<span class="idx-nb-d">2.19 mi away</span></div></div><div><div class="k">Pharmacy</div><div class="v">CVS Pharmacy<span class="idx-nb-d">1.84 mi away</span></div></div><div><div class="k">Train</div><div class="v">Cos Cob Station<span class="idx-nb-d">2.36 mi away</span><span class="idx-nb-gct">Metro-North Railroad</span></div></div><div><div class="k">Elementary</div><div class="v">North Street</div></div><div><div class="k">Middle</div><div class="v">Central</div></div><div><div class="k">High school</div><div class="v">Greenwich</div></div></div><p class="idx-nb-note">Distances are straight-line from the property, not driving or walking routes. Places data © OpenStreetMap contributors.</p><h2>Listing &amp; sale history</h2>
+    <h2 id="nearby">What's nearby</h2><div class="idx-nb-grid"><div class="idx-facts"><div><div class="k">Grocery</div><div class="v">Balducci&#39;s<span class="idx-nb-d">1.92 mi away</span></div></div><div><div class="k">Also nearby</div><div class="v">Whole Foods Market<span class="idx-nb-d">2.19 mi away</span></div></div><div><div class="k">Pharmacy</div><div class="v">CVS Pharmacy<span class="idx-nb-d">1.84 mi away</span></div></div><div><div class="k">Train</div><div class="v">Cos Cob Station<span class="idx-nb-d">2.36 mi away</span><span class="idx-nb-gct">Metro-North Railroad</span></div></div><div><div class="k">Elementary</div><div class="v">North Street</div></div><div><div class="k">Middle</div><div class="v">Central</div></div><div><div class="k">High school</div><div class="v">Greenwich</div></div></div><div class="nb-mapwrap"><svg class="nb-map" viewBox="0 0 340 340" role="img" aria-label="Map showing this home and the nearby places listed above" xmlns="http://www.w3.org/2000/svg"><rect width="340" height="340" rx="16" fill="#0d0d11"/><circle cx="170" cy="170" r="104" fill="none" stroke="rgba(255,255,255,.10)" stroke-dasharray="3 5"/><text x="170" y="60" text-anchor="middle" font-family="monospace" font-size="9" fill="#83848f">~1.9 mi</text><line x1="170" y1="170" x2="234.8" y2="249.1" stroke="rgba(255,255,255,.12)"/><circle cx="234.8" cy="249.1" r="5" fill="#7bc47f"/><title>Balducci's — 1.92 mi</title><line x1="170" y1="170" x2="131.9" y2="279.8" stroke="rgba(255,255,255,.12)"/><circle cx="131.9" cy="279.8" r="5" fill="#7bc47f"/><title>Whole Foods Market — 2.19 mi</title><line x1="170" y1="170" x2="195.5" y2="264.1" stroke="rgba(255,255,255,.12)"/><circle cx="195.5" cy="264.1" r="5" fill="#e0796f"/><title>CVS Pharmacy — 1.84 mi</title><line x1="170" y1="170" x2="197.9" y2="292.0" stroke="rgba(255,255,255,.12)"/><circle cx="197.9" cy="292.0" r="5" fill="#cbab68"/><title>Cos Cob — 2.36 mi</title><circle cx="170" cy="170" r="7" fill="#fff"/><circle cx="170" cy="170" r="12" fill="none" stroke="#fff" stroke-opacity=".35"/></svg><div class="nb-legend"><span class="nb-key"><i style="background:#fff"></i>This home</span><span class="nb-key"><i style="background:#7bc47f"></i>Grocery</span><span class="nb-key"><i style="background:#e0796f"></i>Pharmacy</span><span class="nb-key"><i style="background:#cbab68"></i>Train</span></div><p class="nb-mapnote">Relative positions and straight-line distances — a locator, not a street map.</p></div></div><p class="idx-nb-note">Distances are straight-line from the property, not driving or walking routes. Places data © OpenStreetMap contributors.</p><h2>Listing &amp; sale history</h2>
 <p class="ph-note">Every time this exact home has come to market in the MLS data this site tracks. Where a sale closed, the recorded sale price is shown; "asking" marks a price the home was listed at rather than what it sold for.</p>
 <table class="ph-table"><tbody>
 <tr><td class="ph-date">2026-07-15</td><td>Sold — <b>$3,857,000</b> <span class="ph-ask">asked $3,150,000</span> <span class="ph-this">(this listing)</span></td><td class="ph-mls">MLS 24178864</td></tr>
@@ -242,7 +277,8 @@
 <li class="pr-sale"><span class="pr-sale-d">2004-03-03</span><span class="pr-sale-p">$2,300,000</span></li></ul><div class="idx-attrib">Listing courtesy of <strong>Houlihan Lawrence</strong> — Joy Kim Metalios · (203) 869-0700</div>
     <div class="d-legal">Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers&#39; personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.</div>
     <h2>More homes in Greenwich</h2>
-    <ul class="idx-sibs"><li><a href="/homes/60-greenwich-hills-drive-greenwich-connecticut-24166893.html">60 Greenwich Hills Drive — $5,500/mo</a></li><li><a href="/homes/60-locust-road-greenwich-connecticut-24165623.html">60 Locust Road — $2,999,000</a></li><li><a href="/homes/60-prospect-street-greenwich-connecticut-24156902.html">60 Prospect Street — $1,150,000</a></li><li><a href="/homes/63-church-street-greenwich-connecticut-24179039.html">63 Church Street — $15,000/mo</a></li><li><a href="/homes/64-hillside-road-greenwich-connecticut-24168797.html">64 Hillside Road — $2,400,000</a></li><li><a href="/homes/64-le-grande-avenue-greenwich-connecticut-24165975.html">64 Le Grande Avenue — $1,450,000</a></li></ul>
+    <p class="idx-sibs-note">Closest in price to this one.</p>
+    <ul class="idx-sibs"><li class="idx-sib"><a href="/homes/44-willowmere-avenue-greenwich-connecticut-24170939.html"><span class="idx-sib-addr">44 Willowmere Avenue</span><span class="idx-sib-meta">4 bed · 5 bath · 4,358 sq ft</span><span class="idx-sib-price">$3,200,000</span></a></li><li class="idx-sib"><a href="/homes/60-locust-road-greenwich-connecticut-24165623.html"><span class="idx-sib-addr">60 Locust Road</span><span class="idx-sib-meta">2 bed · 2 bath · 1,776 sq ft</span><span class="idx-sib-price">$2,999,000</span></a></li><li class="idx-sib"><a href="/homes/249-shore-road-greenwich-connecticut-24157586.html"><span class="idx-sib-addr">249 Shore Road</span><span class="idx-sib-meta">4 bed · 4 bath · 3,242 sq ft</span><span class="idx-sib-price">$2,995,000</span></a></li><li class="idx-sib"><a href="/homes/7-heusted-drive-greenwich-connecticut-24168405.html"><span class="idx-sib-addr">7 Heusted Drive</span><span class="idx-sib-meta">4 bed · 4 bath · 4,348 sq ft</span><span class="idx-sib-price">$2,995,000</span></a></li><li class="idx-sib"><a href="/homes/185-valley-road-greenwich-connecticut-24167767.html"><span class="idx-sib-addr">185 Valley Road</span><span class="idx-sib-meta">4 bed · 4 bath · 3,569 sq ft</span><span class="idx-sib-price">$2,950,000</span></a></li><li class="idx-sib"><a href="/homes/12-ricki-beth-lane-greenwich-connecticut-24165639.html"><span class="idx-sib-addr">12 Ricki Beth Lane</span><span class="idx-sib-meta">5 bed · 4 bath · 5,213 sq ft</span><span class="idx-sib-price">$3,375,000</span></a></li></ul>
     <p style="margin-top:22px"><a href="/homes/">← Back to all Stamford listings</a></p>
   </div>
   <aside>

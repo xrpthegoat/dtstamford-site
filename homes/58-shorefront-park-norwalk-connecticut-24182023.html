@@ -113,6 +113,41 @@
    Desktop only — the 860px block below resets it to static, because on a phone a sticky card would
    sit on top of the content it is meant to support. */
 .idx-body > aside{align-self:stretch}
+.mtg-note{color:var(--muted);font-size:.86rem;line-height:1.6;margin:-4px 0 14px}
+.mtg{display:grid;grid-template-columns:1fr .8fr;gap:18px;align-items:center;border:1px solid var(--line);
+  border-radius:16px;padding:18px;background:rgba(255,255,255,.015);margin:0 0 26px}
+.mtg-in{display:flex;flex-direction:column;gap:12px}
+.mtg-in label{display:flex;align-items:center;gap:10px;font-family:var(--mono);font-size:.68rem;
+  letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.mtg-in input[type=range]{flex:1;accent-color:var(--gold)}
+.mtg-in input[type=number],.mtg-in select{background:rgba(255,255,255,.05);border:1px solid var(--line);
+  color:var(--fg);border-radius:9px;padding:7px 9px;font-family:var(--sans);font-size:.9rem;width:88px}
+.mtg-dpct{color:var(--gold-l);min-width:34px}
+.mtg-out{text-align:right}
+.mtg-big{font-family:var(--disp);font-size:clamp(1.7rem,4vw,2.4rem);color:#fff;line-height:1}
+.mtg-per{font-size:.9rem;color:var(--muted);font-family:var(--sans)}
+.mtg-break{font-family:var(--mono);font-size:.68rem;color:var(--muted);margin-top:7px;line-height:1.7}
+@media(max-width:700px){.mtg{grid-template-columns:1fr}.mtg-out{text-align:left}}
+.idx-nb-grid{display:grid;grid-template-columns:1.25fr .75fr;gap:18px;align-items:start;margin:20px 0}
+.idx-nb-grid .idx-facts{margin:0}
+.nb-mapwrap{border:1px solid var(--line);border-radius:16px;padding:12px;background:rgba(255,255,255,.015)}
+.nb-map{width:100%;height:auto;display:block;border-radius:12px}
+.nb-legend{display:flex;flex-wrap:wrap;gap:8px 14px;margin-top:10px}
+.nb-key{display:inline-flex;align-items:center;gap:6px;font-family:var(--mono);font-size:.62rem;
+  letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.nb-key i{width:9px;height:9px;border-radius:50%;display:inline-block}
+.nb-mapnote{color:var(--faint);font-size:.7rem;line-height:1.5;margin:8px 0 0}
+@media(max-width:900px){.idx-nb-grid{grid-template-columns:1fr}}
+.idx-sibs-note{color:var(--muted);font-size:.86rem;margin:-6px 0 12px}
+.idx-sibs{list-style:none;padding:0;margin:0 0 26px;display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:10px}
+.idx-sib a{display:flex;flex-direction:column;gap:4px;padding:13px 15px;border:1px solid var(--line);
+  border-radius:14px;text-decoration:none;background:rgba(255,255,255,.02);transition:border-color .2s,background .2s}
+.idx-sib a:hover{border-color:var(--gold-d);background:rgba(203,171,104,.05)}
+.idx-sib-addr{color:var(--fg);font-size:.94rem;line-height:1.35}
+.idx-sib-meta{font-family:var(--mono);font-size:.68rem;color:var(--muted);letter-spacing:.03em}
+.idx-sib-meta:empty{display:none}
+.idx-sib-price{color:var(--gold-l);font-weight:600;font-size:.98rem;margin-top:2px}
 .idx-cta{position:sticky;top:90px;max-height:calc(100vh - 110px);overflow:auto;border:1px solid var(--line);border-radius:20px;padding:26px;background:rgba(255,255,255,.02);box-shadow:inset 0 1px 0 rgba(255,255,255,.05)}
 .idx-cta h3{font-size:1.3rem;color:#fff;margin-bottom:6px}
 .idx-cta p{color:var(--fg-soft);font-size:.95rem;margin-bottom:16px}
@@ -234,7 +269,7 @@
     <div class="idx-facts"><div><div class="k">Style</div><div class="v">Colonial</div></div><div><div class="k">Roof</div><div class="v">Asphalt Shingle</div></div><div><div class="k">Siding</div><div class="v">Wood</div></div><div><div class="k">Foundation</div><div class="v">Concrete</div></div><div><div class="k">New construction</div><div class="v">No/Resale</div></div></div>
     <h2>Lot &amp; Land</h2>
     <div class="idx-facts"><div><div class="k">Zoning</div><div class="v">B</div></div><div><div class="k">Lot</div><div class="v">Professionally Landscaped, Water View</div></div><div><div class="k">Waterfront</div><div class="v">Harbor, Beach, Water Community, View, Access</div></div><div><div class="k">Direct waterfront</div><div class="v">Yes</div></div></div>
-    <h2 id="nearby">What's nearby</h2><div class="idx-facts"><div><div class="k">Grocery</div><div class="v">Patel Brothers<span class="idx-nb-d">1.58 mi away</span></div></div><div><div class="k">Also nearby</div><div class="v">Stop &amp; Shop<span class="idx-nb-d">1.61 mi away</span></div></div><div><div class="k">Pharmacy</div><div class="v">CVS Pharmacy<span class="idx-nb-d">1.49 mi away</span></div></div><div><div class="k">Train</div><div class="v">South Norwalk Station<span class="idx-nb-d">0.66 mi away</span><span class="idx-nb-gct">Metro-North Railroad;CTrail</span></div></div><div><div class="k">Bus stop</div><div class="v">Bus stop<span class="idx-nb-d">1.55 mi away</span></div></div><div><div class="k">High school</div><div class="v">Brien McMahon</div></div><div><div class="k">School zone</div><div class="v"><a href="https://www.norwalkps.org/schools/school-finder/" target="_blank" rel="noopener nofollow">Check the district's school finder</a> <span class="idx-nb-d">the MLS did not name one for this address</span></div></div></div><p class="idx-nb-note">Distances are straight-line from the property, not driving or walking routes. Places data © OpenStreetMap contributors.</p><h2>Listing &amp; sale history</h2>
+    <h2 id="nearby">What's nearby</h2><div class="idx-nb-grid"><div class="idx-facts"><div><div class="k">Grocery</div><div class="v">Patel Brothers<span class="idx-nb-d">1.58 mi away</span></div></div><div><div class="k">Also nearby</div><div class="v">Stop &amp; Shop<span class="idx-nb-d">1.61 mi away</span></div></div><div><div class="k">Pharmacy</div><div class="v">CVS Pharmacy<span class="idx-nb-d">1.49 mi away</span></div></div><div><div class="k">Train</div><div class="v">South Norwalk Station<span class="idx-nb-d">0.66 mi away</span><span class="idx-nb-gct">Metro-North Railroad;CTrail</span></div></div><div><div class="k">Bus stop</div><div class="v">Bus stop<span class="idx-nb-d">1.55 mi away</span></div></div><div><div class="k">High school</div><div class="v">Brien McMahon</div></div><div><div class="k">School zone</div><div class="v"><a href="https://www.norwalkps.org/schools/school-finder/" target="_blank" rel="noopener nofollow">Check the district's school finder</a> <span class="idx-nb-d">the MLS did not name one for this address</span></div></div></div><div class="nb-mapwrap"><svg class="nb-map" viewBox="0 0 340 340" role="img" aria-label="Map showing this home and the nearby places listed above" xmlns="http://www.w3.org/2000/svg"><rect width="340" height="340" rx="16" fill="#0d0d11"/><circle cx="170" cy="170" r="104" fill="none" stroke="rgba(255,255,255,.10)" stroke-dasharray="3 5"/><text x="170" y="60" text-anchor="middle" font-family="monospace" font-size="9" fill="#83848f">~1.3 mi</text><line x1="170" y1="170" x2="64.3" y2="96.1" stroke="rgba(255,255,255,.12)"/><circle cx="64.3" cy="96.1" r="5" fill="#7bc47f"/><title>Patel Brothers — 1.58 mi</title><line x1="170" y1="170" x2="53.6" y2="110.2" stroke="rgba(255,255,255,.12)"/><circle cx="53.6" cy="110.2" r="5" fill="#7bc47f"/><title>Stop &amp; Shop — 1.61 mi</title><line x1="170" y1="170" x2="72.1" y2="98.5" stroke="rgba(255,255,255,.12)"/><circle cx="72.1" cy="98.5" r="5" fill="#e0796f"/><title>CVS Pharmacy — 1.49 mi</title><line x1="170" y1="170" x2="127.3" y2="136.8" stroke="rgba(255,255,255,.12)"/><circle cx="127.3" cy="136.8" r="5" fill="#cbab68"/><title>South Norwalk — 0.66 mi</title><line x1="170" y1="170" x2="136.3" y2="48.0" stroke="rgba(255,255,255,.12)"/><circle cx="136.3" cy="48.0" r="5" fill="#7aa7d6"/><title>Bus stop — 1.55 mi</title><circle cx="170" cy="170" r="7" fill="#fff"/><circle cx="170" cy="170" r="12" fill="none" stroke="#fff" stroke-opacity=".35"/></svg><div class="nb-legend"><span class="nb-key"><i style="background:#fff"></i>This home</span><span class="nb-key"><i style="background:#7bc47f"></i>Grocery</span><span class="nb-key"><i style="background:#e0796f"></i>Pharmacy</span><span class="nb-key"><i style="background:#cbab68"></i>Train</span><span class="nb-key"><i style="background:#7aa7d6"></i>Bus</span></div><p class="nb-mapnote">Relative positions and straight-line distances — a locator, not a street map.</p></div></div><p class="idx-nb-note">Distances are straight-line from the property, not driving or walking routes. Places data © OpenStreetMap contributors.</p><h2>Listing &amp; sale history</h2>
 <p class="ph-note">Every time this exact home has come to market in the MLS data this site tracks. Where a sale closed, the recorded sale price is shown; "asking" marks a price the home was listed at rather than what it sold for.</p>
 <table class="ph-table"><tbody>
 <tr><td class="ph-date">2026-06-05</td><td>Sold — <b>$2,725,000</b> <span class="ph-ask">asked $2,775,000</span> <span class="ph-this">(this listing)</span></td><td class="ph-mls">MLS 24182023</td></tr>
@@ -243,7 +278,8 @@
 <ul class="pr-sales"><li class="pr-sale"><span class="pr-sale-d">2006-04-25</span><span class="pr-sale-p">$1,087,500</span></li></ul><div class="idx-attrib">Listing courtesy of <strong>William Pitt Sotheby&#39;s Int&#39;l</strong> — Nancy Crosland Darien · (203) 655-8234</div>
     <div class="d-legal">Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers&#39; personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.</div>
     <h2>More homes in Norwalk</h2>
-    <ul class="idx-sibs"><li><a href="/homes/59-fair-street-norwalk-connecticut-24189427.html">59 Fair Street — $2,200/mo</a></li><li><a href="/homes/59-linden-street-norwalk-connecticut-24182131.html">59 Linden Street — $600,000</a></li><li><a href="/homes/59-osborne-avenue-norwalk-connecticut-24174684.html">59 Osborne Avenue — $799,000</a></li><li><a href="/homes/6-8-hyatt-avenue-norwalk-connecticut-24185009.html">6-8 Hyatt Avenue — $1,900/mo</a></li><li><a href="/homes/6-acorn-lane-norwalk-connecticut-24152587.html">6 Acorn Lane — $699,999</a></li><li><a href="/homes/6-belmont-place-norwalk-connecticut-24177593.html">6 Belmont Place — $849,000</a></li></ul>
+    <p class="idx-sibs-note">Closest in price to this one.</p>
+    <ul class="idx-sibs"><li class="idx-sib"><a href="/homes/5-craw-avenue-norwalk-connecticut-24184787.html"><span class="idx-sib-addr">5 Craw Avenue</span><span class="idx-sib-meta">4 bed · 4 bath · 2,274 sq ft</span><span class="idx-sib-price">$2,785,000</span></a></li><li class="idx-sib"><a href="/homes/13-pond-street-norwalk-connecticut-24155353.html"><span class="idx-sib-addr">13 Pond Street</span><span class="idx-sib-meta">4 bed · 4 bath · 3,188 sq ft</span><span class="idx-sib-price">$2,895,000</span></a></li><li class="idx-sib"><a href="/homes/12-ledge-road-norwalk-connecticut-24167554.html"><span class="idx-sib-addr">12 Ledge Road</span><span class="idx-sib-meta">5 bed · 5 bath · 4,679 sq ft</span><span class="idx-sib-price">$2,650,000</span></a></li><li class="idx-sib"><a href="/homes/22-ledge-road-norwalk-connecticut-24179195.html"><span class="idx-sib-addr">22 Ledge Road</span><span class="idx-sib-meta">5 bed · 5 bath · 3,434 sq ft</span><span class="idx-sib-price">$2,650,000</span></a></li><li class="idx-sib"><a href="/homes/50-roton-avenue-norwalk-connecticut-24164170.html"><span class="idx-sib-addr">50 Roton Avenue</span><span class="idx-sib-meta">4 bed · 3 bath · 3,366 sq ft</span><span class="idx-sib-price">$2,950,000</span></a></li><li class="idx-sib"><a href="/homes/4-harbor-view-avenue-norwalk-connecticut-24180497.html"><span class="idx-sib-addr">4 Harbor View Avenue</span><span class="idx-sib-meta">4 bed · 4 bath · 4,826 sq ft</span><span class="idx-sib-price">$2,599,000</span></a></li></ul>
     <p style="margin-top:22px"><a href="/homes/">← Back to all Stamford listings</a></p>
   </div>
   <aside>

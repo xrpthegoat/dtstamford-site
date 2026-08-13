@@ -91,22 +91,30 @@
   "grocery": [
    {
     "n": "Walter Stewart's Market",
-    "mi": 0.63
+    "mi": 0.63,
+    "lat": 41.146129,
+    "lng": -73.49799
    },
    {
     "n": "Acme",
-    "mi": 0.66
+    "mi": 0.66,
+    "lat": 41.144743,
+    "lng": -73.500098
    }
   ],
   "pharmacy": {
    "n": "Walgreens",
    "mi": 0.49,
+   "lat": 41.144594,
+   "lng": -73.49628,
    "walk": 10,
    "chain": "Walgreens"
   },
   "train": {
    "n": "New Canaan",
    "mi": 0.55,
+   "lat": 41.145821,
+   "lng": -73.496353,
    "walk": 11,
    "line": "Metro-North Railroad"
   }

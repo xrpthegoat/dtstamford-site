@@ -89,27 +89,37 @@
   "grocery": [
    {
     "n": "Whole Foods Market",
-    "mi": 1.03
+    "mi": 1.03,
+    "lat": 41.128183,
+    "lng": -73.380084
    },
    {
     "n": "Trader Joe's",
-    "mi": 1.24
+    "mi": 1.24,
+    "lat": 41.139852,
+    "lng": -73.351924
    }
   ],
   "pharmacy": {
    "n": "CVS Pharmacy",
    "mi": 1.29,
+   "lat": 41.140494,
+   "lng": -73.351695,
    "chain": "CVS"
   },
   "train": {
    "n": "Westport",
    "mi": 0.59,
+   "lat": 41.119008,
+   "lng": -73.371136,
    "walk": 12,
    "line": "Metro-North Railroad"
   },
   "bus": {
    "n": "Bus stop",
-   "mi": 1.54
+   "mi": 1.54,
+   "lat": 41.113309,
+   "lng": -73.387721
   }
  },
  "comps": []

@@ -113,6 +113,41 @@
    Desktop only — the 860px block below resets it to static, because on a phone a sticky card would
    sit on top of the content it is meant to support. */
 .idx-body > aside{align-self:stretch}
+.mtg-note{color:var(--muted);font-size:.86rem;line-height:1.6;margin:-4px 0 14px}
+.mtg{display:grid;grid-template-columns:1fr .8fr;gap:18px;align-items:center;border:1px solid var(--line);
+  border-radius:16px;padding:18px;background:rgba(255,255,255,.015);margin:0 0 26px}
+.mtg-in{display:flex;flex-direction:column;gap:12px}
+.mtg-in label{display:flex;align-items:center;gap:10px;font-family:var(--mono);font-size:.68rem;
+  letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.mtg-in input[type=range]{flex:1;accent-color:var(--gold)}
+.mtg-in input[type=number],.mtg-in select{background:rgba(255,255,255,.05);border:1px solid var(--line);
+  color:var(--fg);border-radius:9px;padding:7px 9px;font-family:var(--sans);font-size:.9rem;width:88px}
+.mtg-dpct{color:var(--gold-l);min-width:34px}
+.mtg-out{text-align:right}
+.mtg-big{font-family:var(--disp);font-size:clamp(1.7rem,4vw,2.4rem);color:#fff;line-height:1}
+.mtg-per{font-size:.9rem;color:var(--muted);font-family:var(--sans)}
+.mtg-break{font-family:var(--mono);font-size:.68rem;color:var(--muted);margin-top:7px;line-height:1.7}
+@media(max-width:700px){.mtg{grid-template-columns:1fr}.mtg-out{text-align:left}}
+.idx-nb-grid{display:grid;grid-template-columns:1.25fr .75fr;gap:18px;align-items:start;margin:20px 0}
+.idx-nb-grid .idx-facts{margin:0}
+.nb-mapwrap{border:1px solid var(--line);border-radius:16px;padding:12px;background:rgba(255,255,255,.015)}
+.nb-map{width:100%;height:auto;display:block;border-radius:12px}
+.nb-legend{display:flex;flex-wrap:wrap;gap:8px 14px;margin-top:10px}
+.nb-key{display:inline-flex;align-items:center;gap:6px;font-family:var(--mono);font-size:.62rem;
+  letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.nb-key i{width:9px;height:9px;border-radius:50%;display:inline-block}
+.nb-mapnote{color:var(--faint);font-size:.7rem;line-height:1.5;margin:8px 0 0}
+@media(max-width:900px){.idx-nb-grid{grid-template-columns:1fr}}
+.idx-sibs-note{color:var(--muted);font-size:.86rem;margin:-6px 0 12px}
+.idx-sibs{list-style:none;padding:0;margin:0 0 26px;display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:10px}
+.idx-sib a{display:flex;flex-direction:column;gap:4px;padding:13px 15px;border:1px solid var(--line);
+  border-radius:14px;text-decoration:none;background:rgba(255,255,255,.02);transition:border-color .2s,background .2s}
+.idx-sib a:hover{border-color:var(--gold-d);background:rgba(203,171,104,.05)}
+.idx-sib-addr{color:var(--fg);font-size:.94rem;line-height:1.35}
+.idx-sib-meta{font-family:var(--mono);font-size:.68rem;color:var(--muted);letter-spacing:.03em}
+.idx-sib-meta:empty{display:none}
+.idx-sib-price{color:var(--gold-l);font-weight:600;font-size:.98rem;margin-top:2px}
 .idx-cta{position:sticky;top:90px;max-height:calc(100vh - 110px);overflow:auto;border:1px solid var(--line);border-radius:20px;padding:26px;background:rgba(255,255,255,.02);box-shadow:inset 0 1px 0 rgba(255,255,255,.05)}
 .idx-cta h3{font-size:1.3rem;color:#fff;margin-bottom:6px}
 .idx-cta p{color:var(--fg-soft);font-size:.95rem;margin-bottom:16px}
@@ -232,14 +267,15 @@
     <div class="idx-facts"><div><div class="k">Style</div><div class="v">Apartment</div></div><div><div class="k">Siding</div><div class="v">Shingle, Brick, Wood</div></div><div><div class="k">New construction</div><div class="v">No/Resale</div></div></div>
     <h2>Lot &amp; Land</h2>
     <div class="idx-facts"><div><div class="k">Zoning</div><div class="v">B3</div></div><div><div class="k">Waterfront</div><div class="v">Walk to Water, Water Community</div></div></div>
-    <h2 id="nearby">What's nearby</h2><div class="idx-facts"><div><div class="k">Grocery</div><div class="v">Stop &amp; Shop<span class="idx-nb-d">1.34 mi away</span></div></div><div><div class="k">Also nearby</div><div class="v">Whole Foods Market<span class="idx-nb-d">1.76 mi away</span></div></div><div><div class="k">Pharmacy</div><div class="v">CVS Pharmacy<span class="idx-nb-d">1.54 mi away</span></div></div><div><div class="k">Train</div><div class="v">Rowayton Station<span class="idx-nb-d">0.68 mi away</span><span class="idx-nb-gct">Metro-North Railroad</span></div></div><div><div class="k">Bus stop</div><div class="v">West Ave @ Leroy Ave<span class="idx-nb-d">1.75 mi away</span></div></div><div><div class="k">Elementary</div><div class="v">Rowayton</div></div><div><div class="k">Middle</div><div class="v">Roton</div></div><div><div class="k">High school</div><div class="v">Brien McMahon</div></div></div><p class="idx-nb-note">Distances are straight-line from the property, not driving or walking routes. Places data © OpenStreetMap contributors.</p><h2>Listing &amp; sale history</h2>
+    <h2 id="nearby">What's nearby</h2><div class="idx-nb-grid"><div class="idx-facts"><div><div class="k">Grocery</div><div class="v">Stop &amp; Shop<span class="idx-nb-d">1.34 mi away</span></div></div><div><div class="k">Also nearby</div><div class="v">Whole Foods Market<span class="idx-nb-d">1.76 mi away</span></div></div><div><div class="k">Pharmacy</div><div class="v">CVS Pharmacy<span class="idx-nb-d">1.54 mi away</span></div></div><div><div class="k">Train</div><div class="v">Rowayton Station<span class="idx-nb-d">0.68 mi away</span><span class="idx-nb-gct">Metro-North Railroad</span></div></div><div><div class="k">Bus stop</div><div class="v">West Ave @ Leroy Ave<span class="idx-nb-d">1.75 mi away</span></div></div><div><div class="k">Elementary</div><div class="v">Rowayton</div></div><div><div class="k">Middle</div><div class="v">Roton</div></div><div><div class="k">High school</div><div class="v">Brien McMahon</div></div></div><div class="nb-mapwrap"><svg class="nb-map" viewBox="0 0 340 340" role="img" aria-label="Map showing this home and the nearby places listed above" xmlns="http://www.w3.org/2000/svg"><rect width="340" height="340" rx="16" fill="#0d0d11"/><circle cx="170" cy="170" r="104" fill="none" stroke="rgba(255,255,255,.10)" stroke-dasharray="3 5"/><text x="170" y="60" text-anchor="middle" font-family="monospace" font-size="9" fill="#83848f">~1.5 mi</text><line x1="170" y1="170" x2="90.2" y2="119.0" stroke="rgba(255,255,255,.12)"/><circle cx="90.2" cy="119.0" r="5" fill="#7bc47f"/><title>Stop &amp; Shop — 1.34 mi</title><line x1="170" y1="170" x2="48.0" y2="144.5" stroke="rgba(255,255,255,.12)"/><circle cx="48.0" cy="144.5" r="5" fill="#7bc47f"/><title>Whole Foods Market — 1.76 mi</title><line x1="170" y1="170" x2="69.0" y2="129.2" stroke="rgba(255,255,255,.12)"/><circle cx="69.0" cy="129.2" r="5" fill="#e0796f"/><title>CVS Pharmacy — 1.54 mi</title><line x1="170" y1="170" x2="166.5" y2="122.2" stroke="rgba(255,255,255,.12)"/><circle cx="166.5" cy="122.2" r="5" fill="#cbab68"/><title>Rowayton — 0.68 mi</title><line x1="170" y1="170" x2="55.7" y2="121.9" stroke="rgba(255,255,255,.12)"/><circle cx="55.7" cy="121.9" r="5" fill="#7aa7d6"/><title>West Ave @ Leroy Ave — 1.75 mi</title><circle cx="170" cy="170" r="7" fill="#fff"/><circle cx="170" cy="170" r="12" fill="none" stroke="#fff" stroke-opacity=".35"/></svg><div class="nb-legend"><span class="nb-key"><i style="background:#fff"></i>This home</span><span class="nb-key"><i style="background:#7bc47f"></i>Grocery</span><span class="nb-key"><i style="background:#e0796f"></i>Pharmacy</span><span class="nb-key"><i style="background:#cbab68"></i>Train</span><span class="nb-key"><i style="background:#7aa7d6"></i>Bus</span></div><p class="nb-mapnote">Relative positions and straight-line distances — a locator, not a street map.</p></div></div><p class="idx-nb-note">Distances are straight-line from the property, not driving or walking routes. Places data © OpenStreetMap contributors.</p><h2>Listing &amp; sale history</h2>
 <p class="ph-note">Every time this exact home has come to market in the MLS data this site tracks. Where a sale closed, the recorded sale price is shown; "asking" marks a price the home was listed at rather than what it sold for.</p>
 <table class="ph-table"><tbody>
 <tr><td class="ph-date">2026-05-15</td><td>Sold — <b>$7,000/mo</b> <span class="ph-this">(this listing)</span></td><td class="ph-mls">MLS 24146296</td></tr>
 </tbody></table><div class="idx-attrib">Listing courtesy of <strong>Compass Connecticut, LLC</strong> — Elizabeth Beinfield · (203) 423-3100</div>
     <div class="d-legal">Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers&#39; personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.</div>
-    <h2>More homes in Norwalk</h2>
-    <ul class="idx-sibs"><li><a href="/homes/142-east-avenue-norwalk-connecticut-24158085.html">142 East Avenue — $584,900</a></li><li><a href="/homes/142-east-avenue-norwalk-connecticut-24163159.html">142 East Avenue — $634,900</a></li><li><a href="/homes/142-wolfpit-avenue-norwalk-connecticut-24111560.html">142 Wolfpit Avenue — $650,000</a></li><li><a href="/homes/143-partrick-avenue-norwalk-connecticut-24160182.html">143 Partrick Avenue — $1,149,000</a></li><li><a href="/homes/144-east-avenue-norwalk-connecticut-24138115.html">144 East Avenue — $469,000</a></li><li><a href="/homes/149-water-street-norwalk-connecticut-24157112.html">149 Water Street — $2,300/mo</a></li></ul>
+    <h2>More rentals in Norwalk</h2>
+    <p class="idx-sibs-note">Closest in price to this one.</p>
+    <ul class="idx-sibs"><li class="idx-sib"><a href="/homes/103-silver-creek-lane-norwalk-connecticut-24178609.html"><span class="idx-sib-addr">103 Silver Creek Lane Unit 103</span><span class="idx-sib-meta">2 bed · 4 bath · 2,856 sq ft</span><span class="idx-sib-price">$7,000/mo</span></a></li><li class="idx-sib"><a href="/homes/125-richards-avenue-norwalk-connecticut-24160294.html"><span class="idx-sib-addr">125 Richards Avenue #3</span><span class="idx-sib-meta">3 bed · 3 bath · 2,550 sq ft</span><span class="idx-sib-price">$7,200/mo</span></a></li><li class="idx-sib"><a href="/homes/1-cottontail-road-norwalk-connecticut-24175278.html"><span class="idx-sib-addr">1 Cottontail Road</span><span class="idx-sib-meta">4 bed · 3 bath · 1,458 sq ft</span><span class="idx-sib-price">$6,500/mo</span></a></li><li class="idx-sib"><a href="/homes/3-wallace-avenue-norwalk-connecticut-24162228.html"><span class="idx-sib-addr">3 Wallace Avenue</span><span class="idx-sib-meta">3 bed · 2 bath · 1,938 sq ft</span><span class="idx-sib-price">$7,500/mo</span></a></li><li class="idx-sib"><a href="/homes/4-morgan-avenue-norwalk-connecticut-24179533.html"><span class="idx-sib-addr">4 Morgan Avenue</span><span class="idx-sib-meta">5 bed · 5 bath · 3,193 sq ft</span><span class="idx-sib-price">$7,650/mo</span></a></li><li class="idx-sib"><a href="/homes/206-wolfpit-avenue-norwalk-connecticut-24169012.html"><span class="idx-sib-addr">206 Wolfpit Avenue</span><span class="idx-sib-meta">3 bed · 2 bath · 1,988 sq ft</span><span class="idx-sib-price">$6,250/mo</span></a></li></ul>
     <p style="margin-top:22px"><a href="/homes/">← Back to all Stamford listings</a></p>
   </div>
   <aside>

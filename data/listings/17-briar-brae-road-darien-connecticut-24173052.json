@@ -86,27 +86,37 @@
   "grocery": [
    {
     "n": "ShopRite",
-    "mi": 0.95
+    "mi": 0.95,
+    "lat": 41.076777,
+    "lng": -73.52182
    },
    {
     "n": "Palmer's Market",
-    "mi": 1.31
+    "mi": 1.31,
+    "lat": 41.06993,
+    "lng": -73.496153
    }
   ],
   "pharmacy": {
    "n": "CVS Pharmacy",
    "mi": 0.8,
+   "lat": 41.094568,
+   "lng": -73.519663,
    "chain": "CVS"
   },
   "train": {
    "n": "Springdale",
    "mi": 0.5,
+   "lat": 41.089013,
+   "lng": -73.517777,
    "walk": 10,
    "line": "Metro-North Railroad"
   },
   "bus": {
    "n": "Heights Rd @ 310 Heights Rd",
-   "mi": 1.32
+   "mi": 1.32,
+   "lat": 41.069283,
+   "lng": -73.497099
   }
  },
  "comps": []

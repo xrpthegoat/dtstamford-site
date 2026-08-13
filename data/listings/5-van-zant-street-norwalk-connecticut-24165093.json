@@ -90,27 +90,37 @@
   "grocery": [
    {
     "n": "Key Food",
-    "mi": 1.05
+    "mi": 1.05,
+    "lat": 41.115881,
+    "lng": -73.414677
    },
    {
     "n": "Patel Brothers",
-    "mi": 1.4
+    "mi": 1.4,
+    "lat": 41.102906,
+    "lng": -73.436767
    }
   ],
   "pharmacy": {
    "n": "CVS Pharmacy",
    "mi": 1.0,
+   "lat": 41.115083,
+   "lng": -73.415284,
    "chain": "CVS"
   },
   "train": {
    "n": "East Norwalk",
    "mi": 0.36,
+   "lat": 41.10407,
+   "lng": -73.404241,
    "walk": 7,
    "line": "Metro-North Railroad"
   },
   "bus": {
    "n": "Bus stop",
-   "mi": 0.88
+   "mi": 0.88,
+   "lat": 41.11146,
+   "lng": -73.41981
   }
  },
  "comps": []

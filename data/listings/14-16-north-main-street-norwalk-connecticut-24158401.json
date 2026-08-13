@@ -78,27 +78,37 @@
   "grocery": [
    {
     "n": "Patel Brothers",
-    "mi": 0.95
+    "mi": 0.95,
+    "lat": 41.102906,
+    "lng": -73.436767
    },
    {
     "n": "Stop & Shop",
-    "mi": 1.05
+    "mi": 1.05,
+    "lat": 41.100397,
+    "lng": -73.439293
    }
   ],
   "pharmacy": {
    "n": "CVS Pharmacy",
    "mi": 0.85,
+   "lat": 41.102472,
+   "lng": -73.434944,
    "chain": "CVS"
   },
   "train": {
    "n": "South Norwalk",
    "mi": 0.3,
+   "lat": 41.095672,
+   "lng": -73.421925,
    "walk": 6,
    "line": "Metro-North Railroad;CTrail"
   },
   "bus": {
    "n": "Bus stop",
-   "mi": 0.83
+   "mi": 0.83,
+   "lat": 41.11146,
+   "lng": -73.41981
   }
  },
  "comps": []

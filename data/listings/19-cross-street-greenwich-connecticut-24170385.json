@@ -83,27 +83,37 @@
   "grocery": [
    {
     "n": "Citarella",
-    "mi": 0.63
+    "mi": 0.63,
+    "lat": 41.017682,
+    "lng": -73.646459
    },
    {
     "n": "Stop & Shop",
-    "mi": 1.34
+    "mi": 1.34,
+    "lat": 41.039617,
+    "lng": -73.666969
    }
   ],
   "pharmacy": {
    "n": "CVS Pharmacy",
    "mi": 0.59,
+   "lat": 41.016718,
+   "lng": -73.647966,
    "walk": 12,
    "chain": "CVS"
   },
   "train": {
    "n": "Port Chester",
    "mi": 1.4,
+   "lat": 41.001977,
+   "lng": -73.663566,
    "line": "Metro-North Railroad"
   },
   "bus": {
    "n": "Lincoln Ave",
-   "mi": 1.95
+   "mi": 1.95,
+   "lat": 41.008441,
+   "lng": -73.690196
   }
  },
  "comps": []

@@ -85,26 +85,36 @@
   "grocery": [
    {
     "n": "Acme",
-    "mi": 0.72
+    "mi": 0.72,
+    "lat": 41.04254,
+    "lng": -73.577297
    },
    {
     "n": "Balducci's",
-    "mi": 0.83
+    "mi": 0.83,
+    "lat": 41.041558,
+    "lng": -73.586758
    }
   ],
   "pharmacy": {
    "n": "Walgreens",
    "mi": 0.7,
+   "lat": 41.043804,
+   "lng": -73.574255,
    "chain": "Walgreens"
   },
   "train": {
    "n": "Riverside",
    "mi": 1.48,
+   "lat": 41.031739,
+   "lng": -73.587189,
    "line": "Metro-North Railroad"
   },
   "bus": {
    "n": "Bus stop",
-   "mi": 0.74
+   "mi": 0.74,
+   "lat": 41.047469,
+   "lng": -73.568525
   }
  },
  "comps": []

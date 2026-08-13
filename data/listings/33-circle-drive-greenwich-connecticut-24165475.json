@@ -83,21 +83,29 @@
   "grocery": [
    {
     "n": "Whole Foods Market",
-    "mi": 0.92
+    "mi": 0.92,
+    "lat": 41.033196,
+    "lng": -73.623936
    },
    {
     "n": "Stop & Shop",
-    "mi": 1.21
+    "mi": 1.21,
+    "lat": 41.027353,
+    "lng": -73.631281
    }
   ],
   "pharmacy": {
    "n": "CVS Pharmacy",
    "mi": 0.77,
+   "lat": 41.037458,
+   "lng": -73.600959,
    "chain": "CVS"
   },
   "train": {
    "n": "Cos Cob",
    "mi": 0.44,
+   "lat": 41.029862,
+   "lng": -73.600101,
    "walk": 9,
    "line": "Metro-North Railroad"
   }

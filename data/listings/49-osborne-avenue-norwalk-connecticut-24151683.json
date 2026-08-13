@@ -79,27 +79,37 @@
   "grocery": [
    {
     "n": "Key Food",
-    "mi": 0.89
+    "mi": 0.89,
+    "lat": 41.115881,
+    "lng": -73.414677
    },
    {
     "n": "Stew Leonard's",
-    "mi": 1.32
+    "mi": 1.32,
+    "lat": 41.122443,
+    "lng": -73.401699
    }
   ],
   "pharmacy": {
    "n": "CVS Pharmacy",
    "mi": 0.85,
+   "lat": 41.115083,
+   "lng": -73.415284,
    "chain": "CVS"
   },
   "train": {
    "n": "East Norwalk",
    "mi": 0.21,
+   "lat": 41.10407,
+   "lng": -73.404241,
    "walk": 4,
    "line": "Metro-North Railroad"
   },
   "bus": {
    "n": "Bus stop",
-   "mi": 0.8
+   "mi": 0.8,
+   "lat": 41.11146,
+   "lng": -73.41981
   }
  },
  "comps": []

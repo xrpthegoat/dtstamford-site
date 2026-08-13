@@ -90,21 +90,29 @@
   "grocery": [
    {
     "n": "Acme",
-    "mi": 2.34
+    "mi": 2.34,
+    "lat": 41.109839,
+    "lng": -73.546342
    },
    {
     "n": "Trader Joe's",
-    "mi": 2.4
+    "mi": 2.4,
+    "lat": 41.106913,
+    "lng": -73.547298
    }
   ],
   "pharmacy": {
    "n": "CVS Pharmacy",
    "mi": 1.41,
+   "lat": 41.094568,
+   "lng": -73.519663,
    "chain": "CVS"
   },
   "train": {
    "n": "Talmadge Hill",
    "mi": 0.49,
+   "lat": 41.116381,
+   "lng": -73.497984,
    "walk": 10,
    "line": "Metro-North Railroad"
   }

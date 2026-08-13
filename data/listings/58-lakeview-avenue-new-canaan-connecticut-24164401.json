@@ -92,22 +92,30 @@
   "grocery": [
    {
     "n": "Walter Stewart's Market",
-    "mi": 0.66
+    "mi": 0.66,
+    "lat": 41.146129,
+    "lng": -73.49799
    },
    {
     "n": "Acme",
-    "mi": 0.77
+    "mi": 0.77,
+    "lat": 41.144743,
+    "lng": -73.500098
    }
   ],
   "pharmacy": {
    "n": "CVS Pharmacy",
    "mi": 0.5,
+   "lat": 41.145965,
+   "lng": -73.494973,
    "walk": 10,
    "chain": "CVS"
   },
   "train": {
    "n": "New Canaan",
    "mi": 0.58,
+   "lat": 41.145821,
+   "lng": -73.496353,
    "walk": 12,
    "line": "Metro-North Railroad"
   }

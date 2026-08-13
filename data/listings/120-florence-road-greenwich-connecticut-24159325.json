@@ -85,26 +85,36 @@
   "grocery": [
    {
     "n": "ShopRite",
-    "mi": 0.8
+    "mi": 0.8,
+    "lat": 41.047342,
+    "lng": -73.56487
    },
    {
     "n": "Acme",
-    "mi": 1.02
+    "mi": 1.02,
+    "lat": 41.04254,
+    "lng": -73.577297
    }
   ],
   "pharmacy": {
    "n": "Walgreens",
    "mi": 0.91,
+   "lat": 41.043804,
+   "lng": -73.574255,
    "chain": "Walgreens"
   },
   "train": {
    "n": "Old Greenwich",
    "mi": 1.65,
+   "lat": 41.033377,
+   "lng": -73.567877,
    "line": "Metro-North Railroad"
   },
   "bus": {
    "n": "Bus stop",
-   "mi": 0.7
+   "mi": 0.7,
+   "lat": 41.047469,
+   "lng": -73.568525
   }
  },
  "comps": []

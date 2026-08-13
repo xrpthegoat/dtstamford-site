@@ -113,6 +113,41 @@
    Desktop only — the 860px block below resets it to static, because on a phone a sticky card would
    sit on top of the content it is meant to support. */
 .idx-body > aside{align-self:stretch}
+.mtg-note{color:var(--muted);font-size:.86rem;line-height:1.6;margin:-4px 0 14px}
+.mtg{display:grid;grid-template-columns:1fr .8fr;gap:18px;align-items:center;border:1px solid var(--line);
+  border-radius:16px;padding:18px;background:rgba(255,255,255,.015);margin:0 0 26px}
+.mtg-in{display:flex;flex-direction:column;gap:12px}
+.mtg-in label{display:flex;align-items:center;gap:10px;font-family:var(--mono);font-size:.68rem;
+  letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.mtg-in input[type=range]{flex:1;accent-color:var(--gold)}
+.mtg-in input[type=number],.mtg-in select{background:rgba(255,255,255,.05);border:1px solid var(--line);
+  color:var(--fg);border-radius:9px;padding:7px 9px;font-family:var(--sans);font-size:.9rem;width:88px}
+.mtg-dpct{color:var(--gold-l);min-width:34px}
+.mtg-out{text-align:right}
+.mtg-big{font-family:var(--disp);font-size:clamp(1.7rem,4vw,2.4rem);color:#fff;line-height:1}
+.mtg-per{font-size:.9rem;color:var(--muted);font-family:var(--sans)}
+.mtg-break{font-family:var(--mono);font-size:.68rem;color:var(--muted);margin-top:7px;line-height:1.7}
+@media(max-width:700px){.mtg{grid-template-columns:1fr}.mtg-out{text-align:left}}
+.idx-nb-grid{display:grid;grid-template-columns:1.25fr .75fr;gap:18px;align-items:start;margin:20px 0}
+.idx-nb-grid .idx-facts{margin:0}
+.nb-mapwrap{border:1px solid var(--line);border-radius:16px;padding:12px;background:rgba(255,255,255,.015)}
+.nb-map{width:100%;height:auto;display:block;border-radius:12px}
+.nb-legend{display:flex;flex-wrap:wrap;gap:8px 14px;margin-top:10px}
+.nb-key{display:inline-flex;align-items:center;gap:6px;font-family:var(--mono);font-size:.62rem;
+  letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.nb-key i{width:9px;height:9px;border-radius:50%;display:inline-block}
+.nb-mapnote{color:var(--faint);font-size:.7rem;line-height:1.5;margin:8px 0 0}
+@media(max-width:900px){.idx-nb-grid{grid-template-columns:1fr}}
+.idx-sibs-note{color:var(--muted);font-size:.86rem;margin:-6px 0 12px}
+.idx-sibs{list-style:none;padding:0;margin:0 0 26px;display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:10px}
+.idx-sib a{display:flex;flex-direction:column;gap:4px;padding:13px 15px;border:1px solid var(--line);
+  border-radius:14px;text-decoration:none;background:rgba(255,255,255,.02);transition:border-color .2s,background .2s}
+.idx-sib a:hover{border-color:var(--gold-d);background:rgba(203,171,104,.05)}
+.idx-sib-addr{color:var(--fg);font-size:.94rem;line-height:1.35}
+.idx-sib-meta{font-family:var(--mono);font-size:.68rem;color:var(--muted);letter-spacing:.03em}
+.idx-sib-meta:empty{display:none}
+.idx-sib-price{color:var(--gold-l);font-weight:600;font-size:.98rem;margin-top:2px}
 .idx-cta{position:sticky;top:90px;max-height:calc(100vh - 110px);overflow:auto;border:1px solid var(--line);border-radius:20px;padding:26px;background:rgba(255,255,255,.02);box-shadow:inset 0 1px 0 rgba(255,255,255,.05)}
 .idx-cta h3{font-size:1.3rem;color:#fff;margin-bottom:6px}
 .idx-cta p{color:var(--fg-soft);font-size:.95rem;margin-bottom:16px}
@@ -234,15 +269,16 @@
     <div class="idx-facts"><div><div class="k">Style</div><div class="v">Townhouse</div></div><div><div class="k">New construction</div><div class="v">No/Resale</div></div></div>
     <h2>Lot &amp; Land</h2>
     <div class="idx-facts"><div><div class="k">Zoning</div><div class="v">B2</div></div><div><div class="k">Lot</div><div class="v">Rolling</div></div></div>
-    <h2 id="nearby">What's nearby</h2><div class="idx-facts"><div><div class="k">Grocery</div><div class="v">Stop &amp; Shop<span class="idx-nb-d">0.52 mi away · 10 min walk</span></div></div><div><div class="k">Also nearby</div><div class="v">Stew Leonard&#39;s<span class="idx-nb-d">2.24 mi away</span></div></div><div><div class="k">Pharmacy</div><div class="v">CVS Pharmacy<span class="idx-nb-d">0.77 mi away</span></div></div><div><div class="k">Train</div><div class="v">Merritt 7 Station<span class="idx-nb-d">0.18 mi away · 4 min walk</span><span class="idx-nb-gct">Metro-North Railroad</span></div></div><div><div class="k">Bus stop</div><div class="v">Merritt 7 Railroad Station<span class="idx-nb-d">0.21 mi away · 4 min walk</span></div></div><div><div class="k">Elementary</div><div class="v">Silvermine</div></div><div><div class="k">Middle</div><div class="v">West Rocks</div></div><div><div class="k">High school</div><div class="v">Norwalk</div></div></div><p class="idx-nb-note">Distances are straight-line from the property, not driving or walking routes. Places data © OpenStreetMap contributors.</p><h2>Listing &amp; sale history</h2>
+    <h2 id="nearby">What's nearby</h2><div class="idx-nb-grid"><div class="idx-facts"><div><div class="k">Grocery</div><div class="v">Stop &amp; Shop<span class="idx-nb-d">0.52 mi away · 10 min walk</span></div></div><div><div class="k">Also nearby</div><div class="v">Stew Leonard&#39;s<span class="idx-nb-d">2.24 mi away</span></div></div><div><div class="k">Pharmacy</div><div class="v">CVS Pharmacy<span class="idx-nb-d">0.77 mi away</span></div></div><div><div class="k">Train</div><div class="v">Merritt 7 Station<span class="idx-nb-d">0.18 mi away · 4 min walk</span><span class="idx-nb-gct">Metro-North Railroad</span></div></div><div><div class="k">Bus stop</div><div class="v">Merritt 7 Railroad Station<span class="idx-nb-d">0.21 mi away · 4 min walk</span></div></div><div><div class="k">Elementary</div><div class="v">Silvermine</div></div><div><div class="k">Middle</div><div class="v">West Rocks</div></div><div><div class="k">High school</div><div class="v">Norwalk</div></div></div><div class="nb-mapwrap"><svg class="nb-map" viewBox="0 0 340 340" role="img" aria-label="Map showing this home and the nearby places listed above" xmlns="http://www.w3.org/2000/svg"><rect width="340" height="340" rx="16" fill="#0d0d11"/><circle cx="170" cy="170" r="104" fill="none" stroke="rgba(255,255,255,.10)" stroke-dasharray="3 5"/><text x="170" y="60" text-anchor="middle" font-family="monospace" font-size="9" fill="#83848f">~1.4 mi</text><line x1="170" y1="170" x2="198.0" y2="196.3" stroke="rgba(255,255,255,.12)"/><circle cx="198.0" cy="196.3" r="5" fill="#7bc47f"/><title>Stop &amp; Shop — 0.52 mi</title><line x1="170" y1="170" x2="281.2" y2="292.0" stroke="rgba(255,255,255,.12)"/><circle cx="281.2" cy="292.0" r="5" fill="#7bc47f"/><title>Stew Leonard's — 2.24 mi</title><line x1="170" y1="170" x2="191.0" y2="223.2" stroke="rgba(255,255,255,.12)"/><circle cx="191.0" cy="223.2" r="5" fill="#e0796f"/><title>CVS Pharmacy — 0.77 mi</title><line x1="170" y1="170" x2="181.0" y2="162.9" stroke="rgba(255,255,255,.12)"/><circle cx="181.0" cy="162.9" r="5" fill="#cbab68"/><title>Merritt 7 — 0.18 mi</title><line x1="170" y1="170" x2="181.0" y2="159.6" stroke="rgba(255,255,255,.12)"/><circle cx="181.0" cy="159.6" r="5" fill="#7aa7d6"/><title>Merritt 7 Railroad Station — 0.21 mi</title><circle cx="170" cy="170" r="7" fill="#fff"/><circle cx="170" cy="170" r="12" fill="none" stroke="#fff" stroke-opacity=".35"/></svg><div class="nb-legend"><span class="nb-key"><i style="background:#fff"></i>This home</span><span class="nb-key"><i style="background:#7bc47f"></i>Grocery</span><span class="nb-key"><i style="background:#e0796f"></i>Pharmacy</span><span class="nb-key"><i style="background:#cbab68"></i>Train</span><span class="nb-key"><i style="background:#7aa7d6"></i>Bus</span></div><p class="nb-mapnote">Relative positions and straight-line distances — a locator, not a street map.</p></div></div><p class="idx-nb-note">Distances are straight-line from the property, not driving or walking routes. Places data © OpenStreetMap contributors.</p><h2>Listing &amp; sale history</h2>
 <p class="ph-note">Every time this exact home has come to market in the MLS data this site tracks. Where a sale closed, the recorded sale price is shown; "asking" marks a price the home was listed at rather than what it sold for.</p>
 <table class="ph-table"><tbody>
 <tr><td class="ph-date">2026-06-05</td><td>Sold — <b>$2,400/mo</b> <span class="ph-ask">asked $2,500/mo</span> <span class="ph-this">(this listing)</span></td><td class="ph-mls">MLS 24161383</td></tr>
 </tbody></table><h2>About this building</h2>
 <p class="pr-note">The Norwalk assessor lists this building as built in 1988 with 50 units on the town's record. Unit-level assessor detail is not shown here: the town and the MLS identify individual units differently, and matching them by guesswork would attach the wrong home's numbers to this page. Ask John for the exact record on this unit.</p><div class="idx-attrib">Listing courtesy of <strong>William Pitt Sotheby&#39;s Int&#39;l</strong> — Jeff Roberts · (203) 968-1500</div>
     <div class="d-legal">Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers&#39; personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.</div>
-    <h2>More homes in Norwalk</h2>
-    <ul class="idx-sibs"><li><a href="/homes/7-seir-hill-road-norwalk-connecticut-24172452.html">7 Seir Hill Road — $2,950/mo</a></li><li><a href="/homes/7-seir-hill-road-norwalk-connecticut-24182045.html">7 Seir Hill Road — $3,300/mo</a></li><li><a href="/homes/7-thomes-street-norwalk-connecticut-24163267.html">7 Thomes Street — $1,370,000</a></li><li><a href="/homes/7-tommys-lane-norwalk-connecticut-24138869.html">7 Tommys Lane — $1,199,000</a></li><li><a href="/homes/7-winfield-street-norwalk-connecticut-24158123.html">7 Winfield Street — $1,750/mo</a></li><li><a href="/homes/7-winfield-street-norwalk-connecticut-24160259.html">7 Winfield Street — $1,750/mo</a></li></ul>
+    <h2>More rentals in Norwalk</h2>
+    <p class="idx-sibs-note">Closest in price to this one.</p>
+    <ul class="idx-sibs"><li class="idx-sib"><a href="/homes/10-ann-street-norwalk-connecticut-24143420.html"><span class="idx-sib-addr">10 Ann Street Apt 102</span><span class="idx-sib-meta">1 bed · 2 bath · 1,016 sq ft</span><span class="idx-sib-price">$2,500/mo</span></a></li><li class="idx-sib"><a href="/homes/208-flax-hill-road-norwalk-connecticut-24180300.html"><span class="idx-sib-addr">208 Flax Hill Road Unit 32</span><span class="idx-sib-meta">1 bed · 1 bath · 849 sq ft</span><span class="idx-sib-price">$2,500/mo</span></a></li><li class="idx-sib"><a href="/homes/236-flax-hill-road-norwalk-connecticut-24179763.html"><span class="idx-sib-addr">236 Flax Hill Road Unit 2</span><span class="idx-sib-meta">2 bed · 1 bath · 775 sq ft</span><span class="idx-sib-price">$2,500/mo</span></a></li><li class="idx-sib"><a href="/homes/247-east-avenue-norwalk-connecticut-24161586.html"><span class="idx-sib-addr">247 East Avenue Unit 2</span><span class="idx-sib-meta">1 bed · 2 bath · 850 sq ft</span><span class="idx-sib-price">$2,500/mo</span></a></li><li class="idx-sib"><a href="/homes/25-grand-street-norwalk-connecticut-24173553.html"><span class="idx-sib-addr">25 Grand Street Unit 240</span><span class="idx-sib-meta">1 bed · 2 bath · 825 sq ft</span><span class="idx-sib-price">$2,500/mo</span></a></li><li class="idx-sib"><a href="/homes/4-union-avenue-norwalk-connecticut-24175428.html"><span class="idx-sib-addr">4 Union Avenue Unit 8</span><span class="idx-sib-meta">2 bed · 2 bath · 992 sq ft</span><span class="idx-sib-price">$2,500/mo</span></a></li></ul>
     <p style="margin-top:22px"><a href="/homes/">← Back to all Stamford listings</a></p>
   </div>
   <aside>

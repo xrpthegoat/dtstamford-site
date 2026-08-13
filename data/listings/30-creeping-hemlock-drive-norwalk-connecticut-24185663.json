@@ -110,27 +110,37 @@
   "grocery": [
    {
     "n": "Stop & Shop",
-    "mi": 0.64
+    "mi": 0.64,
+    "lat": 41.141222,
+    "lng": -73.423376
    },
    {
     "n": "Stew Leonard's",
-    "mi": 2.17
+    "mi": 2.17,
+    "lat": 41.122443,
+    "lng": -73.401699
    }
   ],
   "pharmacy": {
    "n": "CVS Pharmacy",
    "mi": 1.01,
+   "lat": 41.135949,
+   "lng": -73.425214,
    "chain": "CVS"
   },
   "train": {
    "n": "Merritt 7",
    "mi": 0.39,
+   "lat": 41.147765,
+   "lng": -73.427821,
    "walk": 8,
    "line": "Metro-North Railroad"
   },
   "bus": {
    "n": "Norwalk DMV",
    "mi": 0.36,
+   "lat": 41.154945,
+   "lng": -73.424136,
    "walk": 7
   }
  },

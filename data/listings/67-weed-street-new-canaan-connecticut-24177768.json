@@ -85,21 +85,29 @@
   "grocery": [
    {
     "n": "Acme",
-    "mi": 1.48
+    "mi": 1.48,
+    "lat": 41.144743,
+    "lng": -73.500098
    },
    {
     "n": "Walter Stewart's Market",
-    "mi": 1.58
+    "mi": 1.58,
+    "lat": 41.146129,
+    "lng": -73.49799
    }
   ],
   "pharmacy": {
    "n": "Walgreens",
    "mi": 1.48,
+   "lat": 41.144594,
+   "lng": -73.49628,
    "chain": "Walgreens"
   },
   "train": {
    "n": "Talmadge Hill",
    "mi": 0.49,
+   "lat": 41.116381,
+   "lng": -73.497984,
    "walk": 10,
    "line": "Metro-North Railroad"
   }

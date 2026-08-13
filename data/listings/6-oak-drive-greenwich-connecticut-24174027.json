@@ -70,27 +70,37 @@
   "grocery": [
    {
     "n": "Kings",
-    "mi": 1.0
+    "mi": 1.0,
+    "lat": 41.032411,
+    "lng": -73.56691
    },
    {
     "n": "Balducci's",
-    "mi": 1.16
+    "mi": 1.16,
+    "lat": 41.041558,
+    "lng": -73.586758
    }
   ],
   "pharmacy": {
    "n": "CVS Pharmacy",
    "mi": 1.25,
+   "lat": 41.042451,
+   "lng": -73.577888,
    "chain": "CVS"
   },
   "train": {
    "n": "Riverside",
    "mi": 0.51,
+   "lat": 41.031739,
+   "lng": -73.587189,
    "walk": 10,
    "line": "Metro-North Railroad"
   },
   "bus": {
    "n": "Bus stop",
-   "mi": 1.74
+   "mi": 1.74,
+   "lat": 41.047469,
+   "lng": -73.568525
   }
  },
  "comps": []

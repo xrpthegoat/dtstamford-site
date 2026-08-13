@@ -659,8 +659,12 @@
   <!-- ORDER (2026-08-10, John): Magic Search sits ABOVE the live-inventory numbers. The search
        box is the primary action on this page, so it comes first and the counts, price bands and
        "added today" rail read as evidence underneath it rather than as a wall to scroll past.
-       The stats <script> travels WITH the inventory markup and must stay after it — it is a plain
-       inline script doing getElementById at parse time, so moving it above would silently no-op. -->
+       The stats script block travels WITH the inventory markup and must stay after it — it is a
+       plain inline script doing getElementById at parse time, so moving it above would silently
+       no-op. (Written as "script block", never the literal tag: an audit regex counted the tag
+       inside this comment, concluded the document had an unclosed script, and reported the whole
+       live-inventory section as JavaScript-only and invisible to crawlers. A real HTML parser
+       sees it in the body — comments are not markup. The tag in a comment was the artifact.) -->
   <!-- LIVE INVENTORY — auto-fed by data/stats.json (regenerated every IDX refresh) -->
   <style>
     .liveinv{padding:26px 0 4px;border-bottom:1px solid rgba(255,255,255,.08)}

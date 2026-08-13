@@ -47,8 +47,15 @@ h1,h2,h3,h4{font-family:var(--disp);font-weight:600;line-height:1.06;letter-spac
 .btn:active{transform:scale(.975)}
 .btn-gold{background:linear-gradient(180deg,var(--gold-l),var(--gold));color:#161006;box-shadow:0 1px 0 rgba(255,255,255,.4) inset,0 16px 38px -20px rgba(203,171,104,.85)}
 .btn-gold:hover{box-shadow:0 1px 0 rgba(255,255,255,.5) inset,0 22px 52px -20px rgba(203,171,104,.95)}
-.btn-act{background:var(--action);color:#fff}
-.btn-act:hover{background:var(--action-l);box-shadow:0 16px 34px -18px rgba(29,95,209,.85)}
+/* TINTED OUTLINE, not a solid fill (2026-08-14, John): the same treatment as the drawer's
+   'Full listing' chip — a low-opacity tint of the accent, a visible border in the accent, and
+   light accent-tinted text — scaled up to CTA size. A solid blue slab next to the solid gold
+   Call button made the card read as two competing primary actions; the outline lets gold stay
+   the loudest thing while blue still reads unmistakably as clickable.
+   Text is #bcd7ff: 12.7:1 on the tinted ground, comfortably past AA. */
+.btn-act{background:rgba(29,95,209,.14);border:1px solid rgba(29,95,209,.55);color:#bcd7ff}
+.btn-act:hover{background:rgba(29,95,209,.26);border-color:rgba(29,95,209,.85);color:#e4eeff;
+  box-shadow:0 14px 30px -20px rgba(29,95,209,.7)}
 .btn-out{border:1px solid var(--line);color:var(--fg);background:rgba(255,255,255,.02);box-shadow:inset 0 1px 0 rgba(255,255,255,.05)}
 .btn-out:hover{border-color:rgba(255,255,255,.24);background:rgba(255,255,255,.05)}
 

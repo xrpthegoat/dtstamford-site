@@ -39,6 +39,36 @@ const COMMUTE_INFO = {
   'Ridgeway': 'Short drive to the train · ~50 min express to GCT',
 };
 const COMMUTE_DEFAULT = 'Drive to Stamford Transportation Center · ~50 min express to GCT';
+
+/* Real transit line for one listing (2026-08-13, John): walk + drive + the train ride, in one row.
+   The old text was a single hardcoded string on EVERY listing, because commuteFor() keyed on
+   address.neighborhood — a field that is null on all ~4,400 records, so the lookup never hit and
+   the default always won. A house 400 ft from Glenbrook station and one in North Stamford both
+   read "Drive to Stamford Transportation Center".
+
+   Now derived from the same nearest-station distance the Train filter already computes:
+     walk  5 km/h (WALK_M_PER_MIN, shared with the filter so the two can never disagree)
+     drive 25 km/h — surface-street average, not highway; deliberately conservative
+   Walk is only offered when it is genuinely walkable (<= 25 min); beyond that it is noise.
+   The ~50 min express figure is the PUBLISHED Stamford->Grand Central time, so it is attached only
+   when Stamford is the nearest station; from any other stop the ride is a different number we have
+   not verified, and we name the line instead of inventing minutes. */
+const DRIVE_M_PER_MIN = 416.67;          // 25 km/h in metres per minute
+function transitLine(l) {
+  const walk = trainMinFor(l);           // memoised; also sets l._trainStation
+  const st = l._trainStation;
+  if (!st || !Number.isFinite(walk)) return COMMUTE_DEFAULT;
+  const metres = walk * WALK_M_PER_MIN;
+  const drive = Math.max(1, Math.round(metres / DRIVE_M_PER_MIN));
+  const name = /station$/i.test(st.name) ? st.name : st.name + ' Station';
+  const bits = [];
+  if (walk <= 25) bits.push(`${walk} min walk`);
+  bits.push(`${drive} min drive to ${name}`);
+  if (/stamford/i.test(st.name)) bits.push('~50 min express to Grand Central');
+  else if (st.line) bits.push(st.line);
+  return bits.join(' · ');
+}
+
 function commuteFor(l) {
   const hood = l.address && l.address.neighborhood;
   return (hood && COMMUTE_INFO[hood]) || COMMUTE_DEFAULT;
@@ -738,7 +768,12 @@ function factGroups(l) {
   const f = F(l), sold = isSold(l), psf = ppsf(l);
   const row = (k, v) => (v == null || v === '' ? null : [k, v]);
   const cost = [
-    row(isRental(l) ? 'Rent' : 'Price', priceLabel(l)),
+    // priceLabel() returns HTML for rentals (a <span class="per">/mo</span>), but every fact
+    // value is passed through esc() when the row is rendered — so the markup was printed as
+    // literal text: '$3,350<span class="per">/mo</span>'. Fact rows are plain text by
+    // contract; give this one a plain string and let esc() do its job.
+    row(isRental(l) ? 'Rent' : 'Price',
+        l.price ? money(l.price) + (isRental(l) ? '/mo' : '') : null),
     row('Price / sqft', psf ? '$' + psf : null),
     row('HOA / common charges', hoaText(l)),
     row('Includes', mlsList(f.hoaIncludes, 4)),
@@ -748,7 +783,9 @@ function factGroups(l) {
   const daily = [
     row('Parking', parkingText(l)),
     row('Laundry', laundryText(l)),
-    row('Pets', petsText(l)),
+    // Pets: rentals only. On a condo for sale the policy lives in the association bylaws, not
+    // the MLS record, and the field is usually blank or stale on a sale listing.
+    row('Pets', isRental(l) ? petsText(l) : null),
     row('Heat', [mlsList(f.heatType, 2), f.heatFuel].filter(Boolean).join(' · ') || null),
     row('Cooling', mlsList(f.cooling, 2)),
     row('Appliances', mlsList(f.appliances, 5)),
@@ -1193,7 +1230,7 @@ function renderDrawer(l) {
         ${l.yearBuilt ? `<div class="d-spec"><b>${l.yearBuilt}</b><span>Built</span></div>` : ''}
         ${(() => { const h = hoaText(l); return h ? `<div class="d-spec d-spec-hoa"><b>${esc(h)}</b><span>${isRental(l) ? 'Common charge' : 'HOA'}</span></div>` : ''; })()}
       </div>
-      <div class="d-commute" title="Estimated Metro-North commute — see stamford-to-nyc-commute.html">${esc(commuteFor(l))}</div>
+      <div class="d-commute" title="Estimated Metro-North commute — walk/drive are straight-line estimates; see stamford-to-nyc-commute.html">${esc(transitLine(l))}</div>
       <div class="d-cta">
         <a class="btn btn-gold d-callcta" href="tel:${PHONE}">
           <span class="d-callcta-t">Call John</span>

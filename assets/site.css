@@ -12,7 +12,13 @@
 }
 *{box-sizing:border-box;margin:0;padding:0}
 html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
-body{font-family:var(--sans);background:var(--bg);color:var(--fg);line-height:1.65;-webkit-font-smoothing:antialiased;overflow-x:hidden;position:relative}
+/* overflow-x is CLIP, not hidden (2026-08-13). `hidden` turns body into a scroll container, and
+   a scroll container silently disables position:sticky for every descendant — the listing
+   page's Ask-John card had `position:sticky;top:90px` and simply scrolled away. `clip` gives
+   the same horizontal-overflow protection without creating a scrollport, so sticky works.
+   Browsers without `clip` (Safari <16) fall back to the `hidden` declaration above it and
+   just lose the sticky behaviour — the page is otherwise identical. */
+body{font-family:var(--sans);background:var(--bg);color:var(--fg);line-height:1.65;-webkit-font-smoothing:antialiased;overflow-x:hidden;overflow-x:clip;position:relative}
 /* ambient futuristic backdrop (CSS-only, no markup) */
 body::before{content:"";position:fixed;inset:0;z-index:-2;pointer-events:none;
   background:

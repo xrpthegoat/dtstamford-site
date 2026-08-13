@@ -37,6 +37,9 @@
 .st-soon{color:var(--st-soon);border-color:color-mix(in srgb,var(--st-soon) 34%,transparent);background:color-mix(in srgb,var(--st-soon) 9%,transparent)}
 .idx-status .st-sep{opacity:.45}
 .idx-price{font-family:var(--disp);font-size:clamp(2.2rem,5vw,3.4rem);color:#fff;letter-spacing:-.03em;line-height:1}
+.idx-cta-call{font-size:1.06rem;padding:17px 22px;letter-spacing:-.01em}
+.idx-cta-call b{font-weight:800;white-space:nowrap}
+.idx-cta-text{font-size:.99rem;padding:15px 22px}
 .idx-price-sub{margin-top:7px;font-family:var(--mono);font-size:.74rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
 /* This is an h1, not a div (2026-08-09): every one of the 4,397 listing pages previously had NO
    h1 at all — the first heading was "About this home" — so the strongest on-page relevance signal
@@ -104,7 +107,13 @@
   .idx-remarks{font-size:1.01rem;line-height:1.68}
   .idx-gallery{gap:8px;margin:20px 0 6px}
 }
-.idx-cta{position:sticky;top:90px;border:1px solid var(--line);border-radius:20px;padding:26px;background:rgba(255,255,255,.02);box-shadow:inset 0 1px 0 rgba(255,255,255,.05)}
+/* The sticky card had ZERO travel: .idx-body sets align-items:start, which shrinks each grid item
+   to its content height, so the <aside> was exactly as tall as the card and sticky had no range to
+   move within. Stretching the column to the row height gives it the whole article to travel down.
+   Desktop only — the 860px block below resets it to static, because on a phone a sticky card would
+   sit on top of the content it is meant to support. */
+.idx-body > aside{align-self:stretch}
+.idx-cta{position:sticky;top:90px;max-height:calc(100vh - 110px);overflow:auto;border:1px solid var(--line);border-radius:20px;padding:26px;background:rgba(255,255,255,.02);box-shadow:inset 0 1px 0 rgba(255,255,255,.05)}
 .idx-cta h3{font-size:1.3rem;color:#fff;margin-bottom:6px}
 .idx-cta p{color:var(--fg-soft);font-size:.95rem;margin-bottom:16px}
 .idx-cta .btn{width:100%;justify-content:center;margin-bottom:10px}
@@ -215,8 +224,6 @@
     <div class="idx-facts"><div><div class="k">Status</div><div class="v"><span class="idx-st st-on"><span class="dot" aria-hidden="true"></span>Active</span></div></div><div><div class="k">Type</div><div class="v">Residential Rental</div></div><div><div class="k">Price</div><div class="v">$3,520/mo</div></div><div><div class="k">Beds</div><div class="v">3</div></div><div><div class="k">Baths</div><div class="v">1</div></div><div><div class="k">Interior</div><div class="v">1,056 sq ft</div></div><div><div class="k">Lot</div><div class="v">0.14 ac</div></div><div><div class="k">Year Built</div><div class="v">1900</div></div><div><div class="k">MLS #</div><div class="v">24191078</div></div><div><div class="k">ZIP</div><div class="v">06902</div></div><div><div class="k">Days on Market</div><div class="v">30</div></div><div><div class="k">Heat</div><div class="v">Oil · Hot Water</div></div><div><div class="k">Cooling</div><div class="v">Window Unit</div></div><div><div class="k">Water</div><div class="v">Public Water Connected</div></div><div><div class="k">Sewer</div><div class="v">Public Sewer Connected</div></div></div><p class="idx-flood" style="font-size:.85em;opacity:.8;margin:6px 0 0">Flood risk: <a href="https://msc.fema.gov/portal/search?AddressQuery=46%20Vernon%20Place%2C%20Stamford%2C%20Connecticut%2006902" target="_blank" rel="noopener">check the FEMA flood map for this address</a>.</p>
     <h2>Pets &amp; Lease</h2>
     <div class="idx-facts"><div><div class="k">Pets</div><div class="v">Restrictions</div></div><div><div class="k">Pet policy</div><div class="v">Ask</div></div></div>
-    <h2>Schools</h2>
-    <div class="idx-facts"><div><div class="k">Elementary</div><div class="v">Per Board of Ed</div></div><div><div class="k">High School</div><div class="v">Per Board of Ed</div></div></div>
     <h2>Interior</h2>
     <div class="idx-facts"><div><div class="k">Appliances</div><div class="v">Oven/Range, Washer, Dryer</div></div><div><div class="k">Basement</div><div class="v">Partial</div></div><div><div class="k">Attic</div><div class="v">Pull-Down Stairs</div></div><div><div class="k">Fireplaces</div><div class="v">1</div></div><div><div class="k">Total rooms</div><div class="v">6</div></div></div>
     <h2>Building &amp; Exterior</h2>
@@ -246,15 +253,15 @@
 <ul class="pr-sales"><li class="pr-sale"><span class="pr-sale-d">2010-02-16</span><span class="pr-sale-p">$285,000</span><span class="pr-sale-t">Single Family</span></li></ul><div class="idx-attrib">Listing courtesy of <strong>Nizzardo Real Estate Services</strong> — Cody Nizzardo · (203) 883-8532</div>
     <div class="d-legal">Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers&#39; personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.</div>
     <h2>More homes in Stamford</h2>
-    <ul class="idx-sibs"><li><a href="/homes/460a-summer-street-stamford-connecticut-24187937.html">460a Summer Street — $2,277/mo</a></li><li><a href="/homes/460a-summer-street-stamford-connecticut-24198159.html">460a Summer Street — $2,227/mo</a></li><li><a href="/homes/463-cove-road-stamford-connecticut-24187353.html">463 Cove Road — $405,500</a></li><li><a href="/homes/47-cross-country-trail-stamford-connecticut-24172957.html">47 Cross Country Trail — $1,725,000</a></li><li><a href="/homes/48-bungalow-park-stamford-connecticut-24191285.html">48 Bungalow Park — $679,000</a></li><li><a href="/homes/48-nelson-street-stamford-connecticut-24188997.html">48 Nelson Street — $2,750/mo</a></li></ul>
+    <ul class="idx-sibs"><li><a href="/homes/460a-summer-street-stamford-connecticut-24187937.html">460a Summer Street — $2,277/mo</a></li><li><a href="/homes/460a-summer-street-stamford-connecticut-24198159.html">460a Summer Street — $2,227/mo</a></li><li><a href="/homes/463-cove-road-stamford-connecticut-24187353.html">463 Cove Road — $405,500</a></li><li><a href="/homes/47-cross-country-trail-stamford-connecticut-24172957.html">47 Cross Country Trail — $1,725,000</a></li><li><a href="/homes/48-bouton-street-east-stamford-connecticut-24198953.html">48 Bouton Street East — $749,900</a></li><li><a href="/homes/48-bungalow-park-stamford-connecticut-24191285.html">48 Bungalow Park — $679,000</a></li></ul>
     <p style="margin-top:22px"><a href="/homes/">← Back to all Stamford listings</a></p>
   </div>
   <aside>
     <div class="idx-cta">
       <h3>Ask John about this home</h3>
       <p>Get the full story, a private tour, and honest guidance from a licensed Stamford agent.</p>
-      <a class="btn btn-gold" href="tel:2038833399">Call 203·883·3399 <span class="arr">→</span></a>
-      <a class="btn btn-out" href="mailto:John@dtstamford.com?subject=Tour%20request%3A%20Stamford%20listing%2024191078">Schedule a tour <span class="arr">→</span></a>
+      <a class="btn btn-gold idx-cta-call" href="tel:2038833399">Call John <b>203·883·3399</b> <span class="arr">→</span></a>
+      <a class="btn btn-act idx-cta-text" href="sms:+12038833399?&body=Hi%20John%2C%20I%27d%20like%20to%20see%2046%20Vernon%20Place%2C%20Stamford%20%28MLS%2024191078%29.%20When%20are%20you%20free%20for%20a%20showing%3F%0A%0A%28sent%20from%20dtstamford.com%29">Text John about this home <span class="arr">→</span></a>
     </div>
   </aside>
 </main>

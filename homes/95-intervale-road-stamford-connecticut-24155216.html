@@ -37,6 +37,9 @@
 .st-soon{color:var(--st-soon);border-color:color-mix(in srgb,var(--st-soon) 34%,transparent);background:color-mix(in srgb,var(--st-soon) 9%,transparent)}
 .idx-status .st-sep{opacity:.45}
 .idx-price{font-family:var(--disp);font-size:clamp(2.2rem,5vw,3.4rem);color:#fff;letter-spacing:-.03em;line-height:1}
+.idx-cta-call{font-size:1.06rem;padding:17px 22px;letter-spacing:-.01em}
+.idx-cta-call b{font-weight:800;white-space:nowrap}
+.idx-cta-text{font-size:.99rem;padding:15px 22px}
 .idx-price-sub{margin-top:7px;font-family:var(--mono);font-size:.74rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
 /* This is an h1, not a div (2026-08-09): every one of the 4,397 listing pages previously had NO
    h1 at all — the first heading was "About this home" — so the strongest on-page relevance signal
@@ -104,7 +107,13 @@
   .idx-remarks{font-size:1.01rem;line-height:1.68}
   .idx-gallery{gap:8px;margin:20px 0 6px}
 }
-.idx-cta{position:sticky;top:90px;border:1px solid var(--line);border-radius:20px;padding:26px;background:rgba(255,255,255,.02);box-shadow:inset 0 1px 0 rgba(255,255,255,.05)}
+/* The sticky card had ZERO travel: .idx-body sets align-items:start, which shrinks each grid item
+   to its content height, so the <aside> was exactly as tall as the card and sticky had no range to
+   move within. Stretching the column to the row height gives it the whole article to travel down.
+   Desktop only — the 860px block below resets it to static, because on a phone a sticky card would
+   sit on top of the content it is meant to support. */
+.idx-body > aside{align-self:stretch}
+.idx-cta{position:sticky;top:90px;max-height:calc(100vh - 110px);overflow:auto;border:1px solid var(--line);border-radius:20px;padding:26px;background:rgba(255,255,255,.02);box-shadow:inset 0 1px 0 rgba(255,255,255,.05)}
 .idx-cta h3{font-size:1.3rem;color:#fff;margin-bottom:6px}
 .idx-cta p{color:var(--fg-soft);font-size:.95rem;margin-bottom:16px}
 .idx-cta .btn{width:100%;justify-content:center;margin-bottom:10px}
@@ -213,12 +222,8 @@
     <h2>About this home</h2>
     <p class="idx-remarks">Sophisticated, detached single family residence in Stamford&#39;s exclusive Stonebrook enclave within the desirable Turn of the River - Newfield neighborhood surrounded by neighboring $2M homes yet privately set on a quiet cul de sac with wooded backdrop. Positioned on a desirable corner lot offering additional privacy and presence. A rare offering that blends luxury, privacy and low maintenance living in one of Stamford&#39;s most convenient locations. Thoughtfully designed open floor plan with soaring ceilings, loft overlooking the main living space, fireplace, sun filled interiors and seamless flow ideal for entertaining. 3 BR, 2.5 BA including a spacious primary suite with ensuite bath and walk in closet. Charming porch and exceptional natural light throughout. Experience single family comfort paired with condo association benefits and beautifully maintained grounds. Set on approximately 30 acres with 20 acres of protected conservation land creating a peaceful park like setting just 3 min to Merritt Pkwy and 4 min to High Ridge shopping and Trader Joe&#39;s. Approx. 400 sqft 2 car garage plus guest parking. On demand hot water, newer windows, updated appliances and W D. An exceptional blend of elegance, convenience and community in desirable Turn of the River Newfield.</p>
     <div class="idx-facts"><div><div class="k">Status</div><div class="v">Closed</div></div><div><div class="k">Type</div><div class="v">Condo/Co-Op For Sale</div></div><div><div class="k">Price</div><div class="v">$1,000,050</div></div><div><div class="k">Beds</div><div class="v">3</div></div><div><div class="k">Baths</div><div class="v">3</div></div><div><div class="k">Interior</div><div class="v">1,700 sq ft</div></div><div><div class="k">Year Built</div><div class="v">2001</div></div><div><div class="k">MLS #</div><div class="v">24155216</div></div><div><div class="k">ZIP</div><div class="v">06905</div></div><div><div class="k">Days on Market</div><div class="v">11</div></div><div><div class="k">Heat</div><div class="v">Natural Gas · Hot Air</div></div><div><div class="k">Cooling</div><div class="v">Central Air</div></div><div><div class="k">Water</div><div class="v">Public Water Connected</div></div><div><div class="k">Sewer</div><div class="v">Public Sewer Connected</div></div><div><div class="k">Parking</div><div class="v">Attached Garage (2-car)</div></div></div><p class="idx-flood" style="font-size:.85em;opacity:.8;margin:6px 0 0">Flood risk: <a href="https://msc.fema.gov/portal/search?AddressQuery=95%20Intervale%20Road%2C%20Stamford%2C%20Connecticut%2006905" target="_blank" rel="noopener">check the FEMA flood map for this address</a>.</p>
-    <h2>Pets &amp; Lease</h2>
-    <div class="idx-facts"><div><div class="k">Pets</div><div class="v">Yes</div></div><div><div class="k">Pet policy</div><div class="v">Refer to Assoc Rules and</div></div></div>
     <h2>HOA &amp; Fees</h2>
     <div class="idx-facts"><div><div class="k">HOA fee</div><div class="v">$430 / Monthly</div></div><div><div class="k">Fee includes</div><div class="v">Grounds Maintenance, Snow Removal, Road Maintenance</div></div></div>
-    <h2>Schools</h2>
-    <div class="idx-facts"><div><div class="k">Elementary</div><div class="v">Per Board of Ed</div></div><div><div class="k">High School</div><div class="v">Per Board of Ed</div></div></div>
     <h2>Taxes</h2>
     <div class="idx-facts"><div><div class="k">Property tax</div><div class="v">$10,963 (July 2025-June 2026)</div></div><div><div class="k">Assessed value</div><div class="v">$463,360</div></div></div>
     <h2>Interior</h2>
@@ -245,8 +250,8 @@
     <div class="idx-cta">
       <h3>Ask John about this home</h3>
       <p>Get the full story, a private tour, and honest guidance from a licensed Stamford agent.</p>
-      <a class="btn btn-gold" href="tel:2038833399">Call 203·883·3399 <span class="arr">→</span></a>
-      <a class="btn btn-out" href="mailto:John@dtstamford.com?subject=Tour%20request%3A%20Stamford%20listing%2024155216">Schedule a tour <span class="arr">→</span></a>
+      <a class="btn btn-gold idx-cta-call" href="tel:2038833399">Call John <b>203·883·3399</b> <span class="arr">→</span></a>
+      <a class="btn btn-act idx-cta-text" href="sms:+12038833399?&body=Hi%20John%2C%20I%27d%20like%20to%20see%2095%20Intervale%20Road%20Unit%2046%2C%20Stamford%20%28MLS%2024155216%29.%20When%20are%20you%20free%20for%20a%20showing%3F%0A%0A%28sent%20from%20dtstamford.com%29">Text John about this home <span class="arr">→</span></a>
     </div>
   </aside>
 </main>

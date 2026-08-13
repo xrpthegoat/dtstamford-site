@@ -37,6 +37,9 @@
 .st-soon{color:var(--st-soon);border-color:color-mix(in srgb,var(--st-soon) 34%,transparent);background:color-mix(in srgb,var(--st-soon) 9%,transparent)}
 .idx-status .st-sep{opacity:.45}
 .idx-price{font-family:var(--disp);font-size:clamp(2.2rem,5vw,3.4rem);color:#fff;letter-spacing:-.03em;line-height:1}
+.idx-cta-call{font-size:1.06rem;padding:17px 22px;letter-spacing:-.01em}
+.idx-cta-call b{font-weight:800;white-space:nowrap}
+.idx-cta-text{font-size:.99rem;padding:15px 22px}
 .idx-price-sub{margin-top:7px;font-family:var(--mono);font-size:.74rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
 /* This is an h1, not a div (2026-08-09): every one of the 4,397 listing pages previously had NO
    h1 at all — the first heading was "About this home" — so the strongest on-page relevance signal
@@ -104,7 +107,13 @@
   .idx-remarks{font-size:1.01rem;line-height:1.68}
   .idx-gallery{gap:8px;margin:20px 0 6px}
 }
-.idx-cta{position:sticky;top:90px;border:1px solid var(--line);border-radius:20px;padding:26px;background:rgba(255,255,255,.02);box-shadow:inset 0 1px 0 rgba(255,255,255,.05)}
+/* The sticky card had ZERO travel: .idx-body sets align-items:start, which shrinks each grid item
+   to its content height, so the <aside> was exactly as tall as the card and sticky had no range to
+   move within. Stretching the column to the row height gives it the whole article to travel down.
+   Desktop only — the 860px block below resets it to static, because on a phone a sticky card would
+   sit on top of the content it is meant to support. */
+.idx-body > aside{align-self:stretch}
+.idx-cta{position:sticky;top:90px;max-height:calc(100vh - 110px);overflow:auto;border:1px solid var(--line);border-radius:20px;padding:26px;background:rgba(255,255,255,.02);box-shadow:inset 0 1px 0 rgba(255,255,255,.05)}
 .idx-cta h3{font-size:1.3rem;color:#fff;margin-bottom:6px}
 .idx-cta p{color:var(--fg-soft);font-size:.95rem;margin-bottom:16px}
 .idx-cta .btn{width:100%;justify-content:center;margin-bottom:10px}
@@ -254,8 +263,8 @@
     <div class="idx-cta">
       <h3>Ask John about this home</h3>
       <p>Get the full story, a private tour, and honest guidance from a licensed Stamford agent.</p>
-      <a class="btn btn-gold" href="tel:2038833399">Call 203·883·3399 <span class="arr">→</span></a>
-      <a class="btn btn-out" href="mailto:John@dtstamford.com?subject=Tour%20request%3A%20Wilton%20listing%2024175156">Schedule a tour <span class="arr">→</span></a>
+      <a class="btn btn-gold idx-cta-call" href="tel:2038833399">Call John <b>203·883·3399</b> <span class="arr">→</span></a>
+      <a class="btn btn-act idx-cta-text" href="sms:+12038833399?&body=Hi%20John%2C%20I%27d%20like%20to%20see%208%20Ground%20Pine%20Road%2C%20Wilton%20%28MLS%2024175156%29.%20When%20are%20you%20free%20for%20a%20showing%3F%0A%0A%28sent%20from%20dtstamford.com%29">Text John about this home <span class="arr">→</span></a>
     </div>
   </aside>
 </main>

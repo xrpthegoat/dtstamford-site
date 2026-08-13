@@ -108,7 +108,7 @@ html{overflow-x:hidden;overscroll-behavior:none}
 .pillx{padding:9px 14px;border-radius:11px;border:1px solid var(--line);background:rgba(255,255,255,.03);
   color:var(--fg-soft);font-family:var(--sans);font-size:.82rem;font-weight:500;cursor:pointer;transition:all .2s}
 .pillx:hover{border-color:rgba(255,255,255,.22)}
-.pillx.is-on{background:var(--action);border-color:var(--action-l);color:#fff;box-shadow:0 8px 22px -14px rgba(14,107,92,.9)}
+.pillx.is-on{background:var(--action);border-color:var(--action-l);color:#fff;box-shadow:0 8px 22px -14px rgba(29,95,209,.9)}
 .check-col{display:flex;flex-direction:column;gap:2px}
 .chk{display:flex;align-items:center;gap:11px;padding:9px 8px;border-radius:11px;cursor:pointer;transition:background .2s;font-size:.9rem;color:var(--fg-soft)}
 .chk:hover{background:rgba(255,255,255,.04)}

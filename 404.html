@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<!-- EVERY same-site path here is ROOT-relative on purpose (2026-08-14). GitHub Pages
+     serves this one file for ANY missing URL, and a browser resolves a RELATIVE path
+     against the URL the visitor actually requested — so a 404 at /homes/whatever asked
+     for /homes/assets/site.css, got another 404, and rendered the page as unstyled
+     Times New Roman with dead recovery links. Aged-out listing URLs make that the most
+     common 404 on the site. Keep these absolute. -->
+
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <script>
@@ -14,24 +21,24 @@
 <meta name="robots" content="noindex, follow">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap"></noscript>
-<link rel="icon" href="assets/logo-black.png">
-<link rel="apple-touch-icon" href="assets/logo-black.png">
+<link rel="icon" href="/assets/logo-black.png">
+<link rel="apple-touch-icon" href="/assets/logo-black.png">
 <link rel="manifest" href="/site.webmanifest">
-<link rel="stylesheet" href="assets/site.css">
+<link rel="stylesheet" href="/assets/site.css">
 </head>
 <body id="top">
 <header>
   <div class="wrap nav">
-    <a class="brand" href="/"><picture><source type="image/avif" srcset="assets/logo-white.avif"><source type="image/webp" srcset="assets/logo-white.webp"><img class="logo" src="assets/logo-white.png" alt="Downtown Stamford logo" width="180" height="160"></picture><span class="wordmark">Downtown Stamford</span></a>
+    <a class="brand" href="/"><picture><source type="image/avif" srcset="/assets/logo-white.avif"><source type="image/webp" srcset="/assets/logo-white.webp"><img class="logo" src="/assets/logo-white.png" alt="Downtown Stamford logo" width="180" height="160"></picture><span class="wordmark">Downtown Stamford</span></a>
     <nav class="nav-links" aria-label="Primary">
-      <a href="search.html">Buy</a>
-      <a href="search.html?t=rent">Rent</a>
-      <a href="sold/">Sold</a>
-      <a href="neighborhoods.html">Neighborhoods</a>
-      <a href="stamford-market.html">Market Trends</a>
-      <a href="buyer-guides.html">Guides</a>
-      <a href="blog.html">Blog</a>
-      <a href="contact.html">Contact</a>
+      <a href="/search.html">Buy</a>
+      <a href="/search.html?t=rent">Rent</a>
+      <a href="/sold/">Sold</a>
+      <a href="/neighborhoods.html">Neighborhoods</a>
+      <a href="/stamford-market.html">Market Trends</a>
+      <a href="/buyer-guides.html">Guides</a>
+      <a href="/blog.html">Blog</a>
+      <a href="/contact.html">Contact</a>
     </nav>
     <a class="btn-call" href="tel:2038833399">Call 203·883·3399</a>
     <button class="navtoggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu"><span></span><span></span><span></span></button>
@@ -47,14 +54,14 @@
     </div>
     <nav class="mmenu-links" aria-label="Mobile">
       <a href="/"><span class="ix">⌂</span><span class="lb">Home</span><span class="ar" aria-hidden="true">→</span></a>
-      <a href="search.html"><span class="ix">01</span><span class="lb">Buy</span><span class="ar" aria-hidden="true">→</span></a>
-      <a href="search.html?t=rent"><span class="ix">02</span><span class="lb">Rent</span><span class="ar" aria-hidden="true">→</span></a>
-      <a href="neighborhoods.html"><span class="ix">03</span><span class="lb">Neighborhoods</span><span class="ar" aria-hidden="true">→</span></a>
-      <a href="stamford-market.html"><span class="ix">04</span><span class="lb">Market Trends</span><span class="ar" aria-hidden="true">→</span></a>
-      <a href="buyer-guides.html"><span class="ix">05</span><span class="lb">Guides</span><span class="ar" aria-hidden="true">→</span></a>
-      <a href="blog.html"><span class="ix">06</span><span class="lb">Blog</span><span class="ar" aria-hidden="true">→</span></a>
-      <a href="live-map.html"><span class="ix">07</span><span class="lb">Events Map</span><span class="ar" aria-hidden="true">→</span></a>
-      <a href="contact.html"><span class="ix">08</span><span class="lb">Contact</span><span class="ar" aria-hidden="true">→</span></a>
+      <a href="/search.html"><span class="ix">01</span><span class="lb">Buy</span><span class="ar" aria-hidden="true">→</span></a>
+      <a href="/search.html?t=rent"><span class="ix">02</span><span class="lb">Rent</span><span class="ar" aria-hidden="true">→</span></a>
+      <a href="/neighborhoods.html"><span class="ix">03</span><span class="lb">Neighborhoods</span><span class="ar" aria-hidden="true">→</span></a>
+      <a href="/stamford-market.html"><span class="ix">04</span><span class="lb">Market Trends</span><span class="ar" aria-hidden="true">→</span></a>
+      <a href="/buyer-guides.html"><span class="ix">05</span><span class="lb">Guides</span><span class="ar" aria-hidden="true">→</span></a>
+      <a href="/blog.html"><span class="ix">06</span><span class="lb">Blog</span><span class="ar" aria-hidden="true">→</span></a>
+      <a href="/live-map.html"><span class="ix">07</span><span class="lb">Events Map</span><span class="ar" aria-hidden="true">→</span></a>
+      <a href="/contact.html"><span class="ix">08</span><span class="lb">Contact</span><span class="ar" aria-hidden="true">→</span></a>
     </nav>
     <div class="mmenu-foot">
       <a class="btn btn-gold" href="tel:2038833399">Call 203·883·3399 <span aria-hidden="true">↗</span></a>
@@ -73,7 +80,7 @@
     <h1>This page took a wrong turn in Stamford.</h1>
     <p class="lead">The page you're looking for moved or never existed. Let's get you back on track — here's where most people are headed:</p>
     <div class="cta-row">
-      <a class="btn btn-gold" href="homes-for-sale-stamford.html">Browse homes for sale <span class="arr">→</span></a>
+      <a class="btn btn-gold" href="/homes-for-sale-stamford.html">Browse homes for sale <span class="arr">→</span></a>
       <a class="btn btn-out" href="/">Back to home</a>
     </div>
   </div>
@@ -82,10 +89,10 @@
 <main class="wrap prose">
   <h2>Popular pages</h2>
   <div class="related">
-    <a href="homes-for-sale-stamford.html"><div class="k">Buy</div><div class="t">Homes for Sale in Stamford →</div></a>
-    <a href="stamford-market.html"><div class="k">Market</div><div class="t">Stamford Housing Market 2026 →</div></a>
-    <a href="neighborhoods.html"><div class="k">Guide</div><div class="t">Stamford Neighborhoods →</div></a>
-    <a href="contact.html"><div class="k">Free</div><div class="t">Home Valuation →</div></a>
+    <a href="/homes-for-sale-stamford.html"><div class="k">Buy</div><div class="t">Homes for Sale in Stamford →</div></a>
+    <a href="/stamford-market.html"><div class="k">Market</div><div class="t">Stamford Housing Market 2026 →</div></a>
+    <a href="/neighborhoods.html"><div class="k">Guide</div><div class="t">Stamford Neighborhoods →</div></a>
+    <a href="/contact.html"><div class="k">Free</div><div class="t">Home Valuation →</div></a>
   </div>
   <p>Or just call or text John directly at <a href="tel:2038833399">203·883·3399</a>.</p>
 </main>

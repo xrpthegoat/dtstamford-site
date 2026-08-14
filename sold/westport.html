@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#060608">
+<title>All 271 Recently Sold Homes in Westport, CT — Sale Prices | Downtown Stamford</title>
+<meta name="description" content="Every one of the 271 homes recently sold in Westport, CT in this site&#39;s MLS data, with the recorded sale price. John Restrepo, licensed real estate agent — 203-883-3399.">
+<link rel="canonical" href="https://dtstamford.com/sold/westport.html">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta property="og:type" content="article">
+<meta property="og:title" content="All 271 Recently Sold Homes in Westport, CT — Sale Prices | Downtown Stamford">
+<meta property="og:description" content="Every one of the 271 homes recently sold in Westport, CT in this site&#39;s MLS data, with the recorded sale price. John Restrepo, licensed real estate agent — 203-883-3399.">
+<meta property="og:url" content="https://dtstamford.com/sold/westport.html">
+<meta property="og:image" content="https://dtstamford.com/assets/stamford-ct-downtown-real-estate-hero.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..700&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="icon" href="/assets/logo-black.png">
+<link rel="apple-touch-icon" href="/assets/logo-black.png">
+<link rel="stylesheet" href="/assets/site.css">
+<link rel="stylesheet" href="/assets/homes/app.css">
+<style>
+.idx-hero{padding:clamp(96px,12vw,140px) 0 24px}
+.idx-crumbs{font-family:var(--mono);font-size:.68rem;letter-spacing:.06em;text-transform:uppercase;color:var(--faint);margin-bottom:18px}
+.idx-crumbs a:hover{color:var(--gold-l)}
+/* Status pill — colour-coded by market state (2026-08-02): green = available, amber = under
+   contract, cyan = coming soon. Tokens live here so the hub cards and detail hero share them. */
+:root{--st-on:#5fd39a;--st-uc:#f0a44e;--st-ucs:#f5c168;--st-soon:#6fc9ea}
+.idx-status{display:inline-flex;align-items:center;gap:7px;font-family:var(--mono);font-size:.62rem;letter-spacing:.14em;text-transform:uppercase;color:var(--gold-l);border:1px solid var(--line);border-radius:999px;padding:6px 13px;margin-bottom:14px;background:rgba(255,255,255,.03)}
+.idx-status .dot{width:6px;height:6px;border-radius:50%;background:currentColor;flex:none;box-shadow:0 0 0 3px color-mix(in srgb,currentColor 18%,transparent)}
+.st-on{color:var(--st-on);border-color:color-mix(in srgb,var(--st-on) 34%,transparent);background:color-mix(in srgb,var(--st-on) 9%,transparent)}
+.st-uc{color:var(--st-uc);border-color:color-mix(in srgb,var(--st-uc) 34%,transparent);background:color-mix(in srgb,var(--st-uc) 9%,transparent)}
+.st-ucs{color:var(--st-ucs);border-color:color-mix(in srgb,var(--st-ucs) 34%,transparent);background:color-mix(in srgb,var(--st-ucs) 9%,transparent)}
+.st-soon{color:var(--st-soon);border-color:color-mix(in srgb,var(--st-soon) 34%,transparent);background:color-mix(in srgb,var(--st-soon) 9%,transparent)}
+.idx-status .st-sep{opacity:.45}
+.idx-price{font-family:var(--disp);font-size:clamp(2.2rem,5vw,3.4rem);color:#fff;letter-spacing:-.03em;line-height:1}
+.idx-cta-call{font-size:1.06rem;padding:17px 22px;letter-spacing:-.01em}
+.idx-cta-call b{font-weight:800;white-space:nowrap}
+.idx-cta-text{font-size:.99rem;padding:15px 22px}
+.idx-price-sub{margin-top:7px;font-family:var(--mono);font-size:.74rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+/* This is an h1, not a div (2026-08-09): every one of the 4,397 listing pages previously had NO
+   h1 at all — the first heading was "About this home" — so the strongest on-page relevance signal
+   was missing sitewide, on exactly the pages meant to rank for an address. The ADDRESS is what the
+   page is about; the price is a fact about it, so the price keeps the visual weight and the
+   address takes the semantic one. Sizes pinned because h1 carries UA margins and 2em sizing. */
+.idx-addr{color:var(--fg-soft);font-size:1.15rem;margin:10px 0 0;font-weight:400;
+  font-family:var(--sans);letter-spacing:normal;line-height:1.35}
+.idx-quick{display:flex;flex-wrap:wrap;gap:10px 26px;margin-top:18px;font-family:var(--mono);font-size:.8rem;color:var(--fg-soft)}
+.idx-quick b{color:#fff;font-weight:700}
+.idx-gallery{display:grid;grid-template-columns:2fr 1fr 1fr;gap:10px;margin:26px 0 8px;position:relative}
+.idx-gallery img,.idx-gallery .idx-shot{width:100%;height:100%;object-fit:cover;border-radius:14px;border:1px solid var(--line);background:var(--bg2);aspect-ratio:4/3}
+.idx-gallery img.lead,.idx-gallery .idx-shot.lead{grid-row:span 2;aspect-ratio:auto;min-height:280px}
+@media(max-width:760px){.idx-gallery{grid-template-columns:1fr 1fr}.idx-gallery img.lead,.idx-gallery .idx-shot.lead{grid-column:span 2}}
+/* NOTE: padding-top/bottom ONLY — the horizontal padding comes from .wrap (0 28px). The old
+   shorthand `padding:8px 0 40px` zeroed it, so on phones every block (remarks, facts, aside) ran
+   edge-to-edge with no gutter. Longhand keeps .wrap's gutter and inherits any future change. */
+.idx-body{display:grid;grid-template-columns:1.6fr .9fr;gap:40px;align-items:start;padding-top:8px;padding-bottom:40px}
+@media(max-width:860px){.idx-body{grid-template-columns:1fr;gap:28px}.idx-cta{position:static;padding:22px}}
+.idx-facts{display:grid;grid-template-columns:repeat(2,1fr);gap:0;border:1px solid var(--line);border-radius:16px;overflow:hidden;margin:20px 0;background:rgba(255,255,255,.015)}
+/* DIRECT children only: `.idx-facts div` also matched the .k/.v children, giving every label and
+   value its own padding + underline (tall rows with stray rules). */
+.idx-facts>div{padding:14px 16px;border-bottom:1px solid var(--line-2);border-right:1px solid var(--line-2);min-width:0;overflow-wrap:anywhere}
+.idx-facts>div:nth-child(2n){border-right:0}
+.idx-facts .k{font-family:var(--mono);font-size:.62rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.idx-facts .v{color:#fff;font-size:1.02rem;margin-top:3px;line-height:1.35}
+/* What's nearby: the distance sits under the place name, quiet, so the NAME is what scans. */
+.idx-nb-gct{display:block;font-family:var(--mono);font-size:.68rem;letter-spacing:.04em;color:var(--gold-l);margin-top:3px}
+.idx-nb-d{display:block;font-family:var(--mono);font-size:.62rem;letter-spacing:.06em;color:var(--muted);margin-top:3px;text-transform:none}
+.idx-nb-note{font-size:.74rem;color:var(--muted);margin:-8px 0 22px;line-height:1.5}
+.idx-cmp-sub{color:var(--muted);font-size:.82rem;margin:-6px 0 10px}
+.idx-cmp-sum{font-size:.95rem;margin:0 0 12px;color:#dfe6f0}
+.idx-cmp{width:100%;border-collapse:collapse;border:1px solid var(--line);border-radius:14px;overflow:hidden;margin:0 0 22px}
+.idx-cmp td{padding:12px 14px;border-bottom:1px solid var(--line-2);vertical-align:top}
+.idx-cmp tr:last-child td{border-bottom:0}
+.idx-cmp a{color:#fff;text-decoration:none;border-bottom:1px solid rgba(255,255,255,.22)}
+.idx-cmp-m{display:block;font-family:var(--mono);font-size:.6rem;letter-spacing:.06em;color:var(--muted);margin-top:4px}
+.idx-cmp-p{text-align:right;white-space:nowrap;color:#fff;font-size:1.02rem}
+.idx-cmp-k{display:inline-block;font-family:var(--mono);font-size:.56rem;letter-spacing:.08em;text-transform:uppercase;margin-top:5px}
+.idx-cmp-k.sold{color:#7ee0b0}
+.idx-cmp-k.ask{color:var(--muted)}
+/* Status "chip" inside the STATUS fact cell (John 2026-08-04): a colored pulsing dot next to the
+   value ("Active"/"Under Contract"/...). Reuses the .st-on/.st-uc/.st-ucs/.st-soon color tokens
+   the hero pill already defines. Active pulses; the rest show a steady dot (a Coming Soon or Under
+   Contract listing isn't "live-available", so a heartbeat animation would misread the state). */
+.idx-facts .idx-st{display:inline-flex;align-items:center;gap:8px}
+.idx-facts .idx-st .dot{width:9px;height:9px;border-radius:50%;background:currentColor;flex:none;box-shadow:0 0 0 4px color-mix(in srgb,currentColor 20%,transparent)}
+.idx-facts .idx-st.st-on .dot{animation:idx-pulse 1.9s ease-in-out infinite}
+@keyframes idx-pulse{
+  0%,100%{box-shadow:0 0 0 4px color-mix(in srgb,currentColor 22%,transparent),0 0 0 4px color-mix(in srgb,currentColor 0%,transparent)}
+  50%    {box-shadow:0 0 0 4px color-mix(in srgb,currentColor 22%,transparent),0 0 10px 6px color-mix(in srgb,currentColor 55%,transparent)}
+}
+@media (prefers-reduced-motion:reduce){.idx-facts .idx-st.st-on .dot{animation:none}}
+.idx-flood{margin:6px 2px 0}
+/* Phones: a real gutter on every block, tighter type, single-column facts so long utility values
+   ("Public Sewer Connected") stop wrapping into unreadable slivers. */
+@media(max-width:560px){
+  .idx-hero .wrap,.idx-body{padding-left:20px;padding-right:20px}
+  .idx-hero{padding-top:clamp(84px,22vw,110px)}
+  .idx-quick{gap:8px 18px;font-size:.75rem}
+  .idx-facts{grid-template-columns:1fr;margin:18px 0}
+  .idx-facts>div{border-right:0;padding:12px 15px;display:flex;align-items:baseline;justify-content:space-between;gap:14px}
+  .idx-facts .k{flex:none}
+  .idx-facts .v{margin-top:0;text-align:right;font-size:.98rem}
+  .idx-remarks{font-size:1.01rem;line-height:1.68}
+  .idx-gallery{gap:8px;margin:20px 0 6px}
+}
+/* The sticky card had ZERO travel: .idx-body sets align-items:start, which shrinks each grid item
+   to its content height, so the <aside> was exactly as tall as the card and sticky had no range to
+   move within. Stretching the column to the row height gives it the whole article to travel down.
+   Desktop only — the 860px block below resets it to static, because on a phone a sticky card would
+   sit on top of the content it is meant to support. */
+.idx-body > aside{align-self:stretch}
+.mtg-note{color:var(--muted);font-size:.86rem;line-height:1.6;margin:-4px 0 14px}
+.mtg{display:grid;grid-template-columns:1fr .8fr;gap:18px;align-items:center;border:1px solid var(--line);
+  border-radius:16px;padding:18px;background:rgba(255,255,255,.015);margin:0 0 26px}
+.mtg-in{display:flex;flex-direction:column;gap:12px}
+.mtg-in label{display:flex;align-items:center;gap:10px;font-family:var(--mono);font-size:.68rem;
+  letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.mtg-in input[type=range]{flex:1;accent-color:var(--gold)}
+.mtg-in input[type=number],.mtg-in select{background:rgba(255,255,255,.05);border:1px solid var(--line);
+  color:var(--fg);border-radius:9px;padding:7px 9px;font-family:var(--sans);font-size:.9rem;width:88px}
+.mtg-dpct{color:var(--gold-l);min-width:34px}
+.mtg-out{text-align:right}
+.mtg-big{font-family:var(--disp);font-size:clamp(1.7rem,4vw,2.4rem);color:#fff;line-height:1}
+.mtg-per{font-size:.9rem;color:var(--muted);font-family:var(--sans)}
+.mtg-break{font-family:var(--mono);font-size:.68rem;color:var(--muted);margin-top:7px;line-height:1.7}
+@media(max-width:700px){.mtg{grid-template-columns:1fr}.mtg-out{text-align:left}}
+.idx-nb-grid{display:grid;grid-template-columns:1.25fr .75fr;gap:18px;align-items:start;margin:20px 0}
+.idx-nb-grid .idx-facts{margin:0}
+.nb-mapwrap{border:1px solid var(--line);border-radius:16px;padding:12px;background:rgba(255,255,255,.015)}
+.nb-map{width:100%;height:auto;display:block;border-radius:12px}
+.nb-legend{display:flex;flex-wrap:wrap;gap:8px 14px;margin-top:10px}
+.nb-key{display:inline-flex;align-items:center;gap:6px;font-family:var(--mono);font-size:.62rem;
+  letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.nb-key i{width:9px;height:9px;border-radius:50%;display:inline-block}
+.nb-mapnote{color:var(--faint);font-size:.7rem;line-height:1.5;margin:8px 0 0}
+@media(max-width:900px){.idx-nb-grid{grid-template-columns:1fr}}
+.idx-sibs-note{color:var(--muted);font-size:.86rem;margin:-6px 0 12px}
+.idx-sibs{list-style:none;padding:0;margin:0 0 26px;display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:10px}
+.idx-sib a{display:flex;flex-direction:column;gap:4px;padding:13px 15px;border:1px solid var(--line);
+  border-radius:14px;text-decoration:none;background:rgba(255,255,255,.02);transition:border-color .2s,background .2s}
+.idx-sib a:hover{border-color:var(--gold-d);background:rgba(203,171,104,.05)}
+.idx-sib-addr{color:var(--fg);font-size:.94rem;line-height:1.35}
+.idx-sib-meta{font-family:var(--mono);font-size:.68rem;color:var(--muted);letter-spacing:.03em}
+.idx-sib-meta:empty{display:none}
+.idx-sib-price{color:var(--gold-l);font-weight:600;font-size:.98rem;margin-top:2px}
+.idx-cta{position:sticky;top:90px;max-height:calc(100vh - 110px);overflow:auto;border:1px solid var(--line);border-radius:20px;padding:26px;background:rgba(255,255,255,.02);box-shadow:inset 0 1px 0 rgba(255,255,255,.05)}
+.idx-cta h3{font-size:1.3rem;color:#fff;margin-bottom:6px}
+.idx-cta p{color:var(--fg-soft);font-size:.95rem;margin-bottom:16px}
+.idx-cta .btn{width:100%;justify-content:center;margin-bottom:10px}
+.idx-remarks{color:var(--fg-soft);font-size:1.06rem;line-height:1.7;margin:8px 0 4px;white-space:pre-line}
+.idx-attrib{font-family:var(--mono);font-size:.72rem;line-height:1.6;color:var(--fg-soft);border-top:1px solid var(--line-2);margin-top:36px;padding-top:18px}
+.idx-attrib strong{color:#fff}
+.idx-sibs{list-style:none;margin:10px 0 0;padding:0}
+.idx-sibs li{border-bottom:1px solid var(--line-2)}
+.idx-sibs a{display:block;padding:9px 2px;color:var(--fg-soft);font-size:.98rem}
+.idx-sibs a:hover{color:var(--gold-l)}
+.sold-note{font-size:.86rem;line-height:1.65;color:var(--muted);margin:0 0 18px;padding:13px 16px;
+  border:1px solid var(--line);border-left:2px solid var(--gold-d);border-radius:10px;background:rgba(255,255,255,.02)}
+.sold-note strong{color:var(--fg-soft)}
+.sold-note a{color:var(--gold-l);text-decoration:none;border-bottom:1px solid rgba(203,171,104,.35)}
+.sold-townnav{font-family:var(--mono);font-size:.72rem;line-height:2.1;color:var(--muted);margin:6px 0 18px}
+.sold-townnav a{color:var(--fg-soft);text-decoration:none;border-bottom:1px solid rgba(255,255,255,.14)}
+.sold-townnav a:hover{color:#fff}
+.sold-town{margin:0 0 34px}
+.sold-town h2{font-family:var(--disp);font-size:1.35rem;letter-spacing:-.01em;margin:0 0 12px;color:#fff}
+.sold-town h2 span{font-family:var(--mono);font-size:.7rem;color:var(--muted);letter-spacing:.06em}
+.sold-list{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}
+.sold-row{display:grid;grid-template-columns:1fr auto auto;align-items:baseline;gap:14px;padding:11px 2px;border-bottom:1px solid var(--line)}
+.sold-row:hover{background:rgba(255,255,255,.03)}
+.sold-row a{text-decoration:none;color:inherit;min-width:0;display:flex;flex-direction:column;gap:3px}
+.sold-addr{color:#fff;font-size:.97rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.sold-meta{font-family:var(--mono);font-size:.66rem;letter-spacing:.05em;text-transform:uppercase;color:var(--muted)}
+.sold-price{font-family:var(--disp);font-size:1.05rem;color:#fff;white-space:nowrap}
+.sold-when{font-family:var(--mono);font-size:.66rem;color:var(--muted);white-space:nowrap;min-width:5.5em;text-align:right}
+.sold-more{font-family:var(--mono);font-size:.68rem;color:var(--muted);margin:10px 2px 0}
+@media(max-width:640px){.sold-row{grid-template-columns:1fr auto;row-gap:2px}.sold-when{grid-column:2;text-align:right}}
+
+</style>
+<body id="top">
+<header><div class="wrap nav"><a class="brand" href="/"><img class="logo" src="/assets/logo-white.png" alt="Downtown Stamford"><span class="wordmark">Downtown Stamford</span></a><nav class="nav-links"><a href="/homes/">Buy</a><a href="/rentals/">Rent</a><a href="/sold/">Sold</a><a href="/neighborhoods.html">Neighborhoods</a><a href="/stamford-market.html">Market Trends</a><a href="/buyer-guides.html">Guides</a><a href="/blog.html">Blog</a><a href="/contact.html">Contact</a></nav><a class="btn-call" href="tel:2038833399">Call 203·883·3399</a></div></header>
+<section class="idx-hero"><div class="wrap">
+  <div class="idx-crumbs"><a href="/">Home</a> / <a href="/sold/">Recently Sold</a> / Westport</div>
+  <span class="idx-status">Closed MLS records</span>
+  <h1 class="idx-price" style="font-size:clamp(1.7rem,4vw,2.6rem)">Recently sold in Westport <span style="color:var(--muted)">(271)</span></h1>
+  <p class="idx-addr">Every sold closing this site's MLS data carries for Westport — newest first, each linking to the home's own page.</p>
+</div></section>
+<main class="wrap">
+<ul class="sold-list">
+<li class="sold-row"><a href="/homes/11-partrick-lane-westport-connecticut-24156532.html"><span class="sold-addr">11 Partrick Lane</span><span class="sold-meta">5 bed · 4 bath</span></a><span class="sold-price">$11,300</span><span class="sold-when">2026-03-23</span></li>
+<li class="sold-row"><a href="/homes/5-mayflower-parkway-westport-connecticut-24157322.html"><span class="sold-addr">5 Mayflower Parkway</span><span class="sold-meta">5 bed · 6 bath</span></a><span class="sold-price">$20,000</span><span class="sold-when">2026-03-24</span></li>
+<li class="sold-row"><a href="/homes/14-cockenoe-drive-westport-connecticut-24150537.html"><span class="sold-addr">14 Cockenoe Drive</span><span class="sold-meta">4 bed · 6 bath</span></a><span class="sold-price">$49,000</span><span class="sold-when">2026-03-24</span></li>
+<li class="sold-row"><a href="/homes/315-main-street-westport-connecticut-24146601.html"><span class="sold-addr">315 Main Street</span><span class="sold-meta">2 bed · 1 bath</span></a><span class="sold-price">$3,250</span><span class="sold-when">2026-03-30</span></li>
+<li class="sold-row"><a href="/homes/92-compo-road-south-westport-connecticut-24150619.html"><span class="sold-addr">92 Compo Road South</span><span class="sold-meta">1 bed · 1 bath</span></a><span class="sold-price">$3,000</span><span class="sold-when">2026-04-01</span></li>
+<li class="sold-row"><a href="/homes/4-vani-court-westport-connecticut-24140482.html"><span class="sold-addr">4 Vani Court</span><span class="sold-meta">5 bed · 6 bath</span></a><span class="sold-price">$12,500</span><span class="sold-when">2026-04-01</span></li>
+<li class="sold-row"><a href="/homes/174a-post-road-west-westport-connecticut-24149288.html"><span class="sold-addr">174A Post Road West</span><span class="sold-meta">4 bed · 4 bath</span></a><span class="sold-price">$5,800</span><span class="sold-when">2026-04-14</span></li>
+<li class="sold-row"><a href="/homes/414-riverside-avenue-westport-connecticut-24148167.html"><span class="sold-addr">414 Riverside Avenue</span><span class="sold-meta">3 bed · 3 bath</span></a><span class="sold-price">$7,725</span><span class="sold-when">2026-04-02</span></li>
+<li class="sold-row"><a href="/homes/59-crescent-road-westport-connecticut-24162571.html"><span class="sold-addr">59 Crescent Road</span><span class="sold-meta">4 bed · 4 bath</span></a><span class="sold-price">$10,000</span><span class="sold-when">2026-04-22</span></li>
+<li class="sold-row"><a href="/homes/47-woodside-avenue-westport-connecticut-24151405.html"><span class="sold-addr">47 Woodside Avenue</span><span class="sold-meta">3 bed · 4 bath</span></a><span class="sold-price">$33,000</span><span class="sold-when">2026-04-02</span></li>
+<li class="sold-row"><a href="/homes/19-bluewater-hill-westport-connecticut-24088536.html"><span class="sold-addr">19 Bluewater Hill</span><span class="sold-meta">3 bed · 3 bath</span></a><span class="sold-price">$33,541</span><span class="sold-when">2026-04-15</span></li>
+<li class="sold-row"><a href="/homes/44-roseville-road-westport-connecticut-24151465.html"><span class="sold-addr">44 Roseville Road</span><span class="sold-meta">1 bed · 1 bath</span></a><span class="sold-price">$3,000</span><span class="sold-when">2026-04-29</span></li>
+<li class="sold-row"><a href="/homes/12-burr-road-westport-connecticut-24169311.html"><span class="sold-addr">12 Burr Road</span><span class="sold-meta">3 bed · 4 bath</span></a><span class="sold-price">$7,500</span><span class="sold-when">2026-04-30</span></li>
+<li class="sold-row"><a href="/homes/3-little-lane-westport-connecticut-24168392.html"><span class="sold-addr">3 Little Lane</span><span class="sold-meta">5 bed · 7 bath</span></a><span class="sold-price">$50,000</span><span class="sold-when">2026-05-01</span></li>
+<li class="sold-row"><a href="/homes/26-hiawatha-lane-extension-westport-connecticut-24155254.html"><span class="sold-addr">26 Hiawatha Lane Extension</span><span class="sold-meta">3 bed · 2 bath</span></a><span class="sold-price">$5,000</span><span class="sold-when">2026-05-01</span></li>
+<li class="sold-row"><a href="/homes/14-burr-road-westport-connecticut-24158964.html"><span class="sold-addr">14 Burr Road</span><span class="sold-meta">4 bed · 4 bath</span></a><span class="sold-price">$7,500</span><span class="sold-when">2026-05-05</span></li>
+<li class="sold-row"><a href="/homes/23-sterling-drive-westport-connecticut-24151868.html"><span class="sold-addr">23 Sterling Drive</span><span class="sold-meta">6 bed · 6 bath</span></a><span class="sold-price">$60,000</span><span class="sold-when">2026-05-19</span></li>
+<li class="sold-row"><a href="/homes/230-saugatuck-avenue-westport-connecticut-24172567.html"><span class="sold-addr">230 Saugatuck Avenue Unit 17</span><span class="sold-meta">2 bed · 3 bath</span></a><span class="sold-price">$4,800</span><span class="sold-when">2026-05-26</span></li>
+<li class="sold-row"><a href="/homes/232-hillspoint-road-westport-connecticut-24078871.html"><span class="sold-addr">232 Hillspoint Road</span><span class="sold-meta">4 bed · 2 bath</span></a><span class="sold-price">$30,000</span><span class="sold-when">2026-06-01</span></li>
+<li class="sold-row"><a href="/homes/32-regents-park-westport-connecticut-24163234.html"><span class="sold-addr">32 Regents Park Unit 32</span><span class="sold-meta">3 bed · 4 bath</span></a><span class="sold-price">$8,900</span><span class="sold-when">2026-06-01</span></li>
+<li class="sold-row"><a href="/homes/22-berndale-drive-westport-connecticut-24176767.html"><span class="sold-addr">22 Berndale Drive</span><span class="sold-meta">4 bed · 3 bath</span></a><span class="sold-price">$10,200</span><span class="sold-when">2026-06-03</span></li>
+<li class="sold-row"><a href="/homes/201-main-street-westport-connecticut-24138891.html"><span class="sold-addr">201 Main Street Unit 203</span><span class="sold-meta">2 bed · 2 bath</span></a><span class="sold-price">$4,500</span><span class="sold-when">2026-06-03</span></li>
+<li class="sold-row"><a href="/homes/355-greens-farms-road-westport-connecticut-24160487.html"><span class="sold-addr">355 Greens Farms Road</span><span class="sold-meta">6 bed · 8 bath</span></a><span class="sold-price">$35,000</span><span class="sold-when">2026-06-01</span></li>
+<li class="sold-row"><a href="/homes/135-regents-park-westport-connecticut-24176028.html"><span class="sold-addr">135 Regents Park Unit 135</span><span class="sold-meta">2 bed · 4 bath</span></a><span class="sold-price">$6,100</span><span class="sold-when">2026-06-04</span></li>
+<li class="sold-row"><a href="/homes/19-soundview-drive-westport-connecticut-24125469.html"><span class="sold-addr">19 Soundview Drive</span><span class="sold-meta">4 bed · 4 bath</span></a><span class="sold-price">$49,900</span><span class="sold-when">2026-06-05</span></li>
+<li class="sold-row"><a href="/homes/5-church-lane-westport-connecticut-24182260.html"><span class="sold-addr">5 Church Lane Unit 310</span><span class="sold-meta">2 bed · 2 bath</span></a><span class="sold-price">$6,995</span><span class="sold-when">2026-04-28</span></li>
+<li class="sold-row"><a href="/homes/26-treadwell-avenue-westport-connecticut-24132802.html"><span class="sold-addr">26 Treadwell Avenue</span><span class="sold-meta">5 bed · 5 bath</span></a><span class="sold-price">$3,150,000</span><span class="sold-when">2026-03-16</span></li>
+<li class="sold-row"><a href="/homes/18-woodhill-road-westport-connecticut-24144655.html"><span class="sold-addr">18 Woodhill Road</span><span class="sold-meta">6 bed · 7 bath</span></a><span class="sold-price">$3,800,000</span><span class="sold-when">2026-03-30</span></li>
+<li class="sold-row"><a href="/homes/249-greens-farms-road-westport-connecticut-24132302.html"><span class="sold-addr">249 Greens Farms Road</span><span class="sold-meta">7 bed · 9 bath</span></a><span class="sold-price">$3,480,000</span><span class="sold-when">2026-04-16</span></li>
+<li class="sold-row"><a href="/homes/61-jesup-road-westport-connecticut-24014120.html"><span class="sold-addr">61 Jesup Road</span><span class="sold-meta">Studio · 3 bath</span></a><span class="sold-price">$1,750,000</span><span class="sold-when">2026-04-15</span></li>
+<li class="sold-row"><a href="/homes/785-post-road-east-westport-connecticut-24123814.html"><span class="sold-addr">785 Post Road East Unit 304</span><span class="sold-meta">1 bed · 1 bath</span></a><span class="sold-price">$1,000,000</span><span class="sold-when">2026-03-25</span></li>
+<li class="sold-row"><a href="/homes/123-greens-farms-road-westport-connecticut-24137404.html"><span class="sold-addr">123 Greens Farms Road</span><span class="sold-meta">4 bed · 5 bath</span></a><span class="sold-price">$2,600,000</span><span class="sold-when">2026-05-15</span></li>
+<li class="sold-row"><a href="/homes/102-compo-road-south-westport-connecticut-24147210.html"><span class="sold-addr">102 Compo Road South</span><span class="sold-meta">7 bed · 8 bath</span></a><span class="sold-price">$3,963,000</span><span class="sold-when">2026-04-27</span></li>
+<li class="sold-row"><a href="/homes/10-wakenor-road-westport-connecticut-24147552.html"><span class="sold-addr">10 Wakenor Road</span><span class="sold-meta">5 bed · 6 bath</span></a><span class="sold-price">$2,630,000</span><span class="sold-when">2026-04-01</span></li>
+<li class="sold-row"><a href="/homes/125-old-road-westport-connecticut-24148223.html"><span class="sold-addr">125 Old Road</span><span class="sold-meta">6 bed · 9 bath</span></a><span class="sold-price">$5,036,000</span><span class="sold-when">2026-03-26</span></li>
+<li class="sold-row"><a href="/homes/30-cavalry-road-westport-connecticut-24154690.html"><span class="sold-addr">30 Cavalry Road</span><span class="sold-meta">4 bed · 5 bath</span></a><span class="sold-price">$2,375,000</span><span class="sold-when">2026-04-23</span></li>
+<li class="sold-row"><a href="/homes/10-tierney-lane-westport-connecticut-24103087.html"><span class="sold-addr">10 Tierney Lane</span><span class="sold-meta">5 bed · 8 bath</span></a><span class="sold-price">$4,625,000</span><span class="sold-when">2026-06-01</span></li>
+<li class="sold-row"><a href="/homes/26-crescent-park-road-westport-connecticut-24137231.html"><span class="sold-addr">26 Crescent Park Road</span><span class="sold-meta">3 bed · 2 bath</span></a><span class="sold-price">$568,000</span><span class="sold-when">2026-03-31</span></li>
+<li class="sold-row"><a href="/homes/26-morningside-drive-south-westport-connecticut-24147443.html"><span class="sold-addr">26 Morningside Drive South</span><span class="sold-meta">7 bed · 8 bath</span></a><span class="sold-price">$4,350,000</span><span class="sold-when">2026-06-09</span></li>
+<li class="sold-row"><a href="/homes/48-burr-farms-road-westport-connecticut-24149417.html"><span class="sold-addr">48 Burr Farms Road</span><span class="sold-meta">3 bed · 3 bath</span></a><span class="sold-price">$1,951,000</span><span class="sold-when">2026-04-22</span></li>
+<li class="sold-row"><a href="/homes/5-inwood-lane-westport-connecticut-24153684.html"><span class="sold-addr">5 Inwood Lane</span><span class="sold-meta">4 bed · 3 bath</span></a><span class="sold-price">$1,250,000</span><span class="sold-when">2026-04-23</span></li>
+<li class="sold-row"><a href="/homes/41-richmondville-avenue-westport-connecticut-24090155.html"><span class="sold-addr">41 Richmondville Avenue Unit Duplex 2</span><span class="sold-meta">2 bed · 3 bath</span></a><span class="sold-price">$2,350,000</span><span class="sold-when">2026-05-04</span></li>
+<li class="sold-row"><a href="/homes/785-post-road-east-westport-connecticut-24092996.html"><span class="sold-addr">785 Post Road East Unit 302</span><span class="sold-meta">2 bed · 3 bath</span></a><span class="sold-price">$1,420,000</span><span class="sold-when">2026-04-24</span></li>
+<li class="sold-row"><a href="/homes/92-beachside-avenue-westport-connecticut-24130997.html"><span class="sold-addr">92 Beachside Avenue</span><span class="sold-meta">8 bed · 9 bath</span></a><span class="sold-price">$15,500,000</span><span class="sold-when">2026-03-31</span></li>
+<li class="sold-row"><a href="/homes/86-maple-avenue-south-westport-connecticut-24148769.html"><span class="sold-addr">86 Maple Avenue South</span><span class="sold-meta">4 bed · 4 bath</span></a><span class="sold-price">$2,345,000</span><span class="sold-when">2026-04-03</span></li>
+<li class="sold-row"><a href="/homes/23-bridge-street-westport-connecticut-24151653.html"><span class="sold-addr">23 Bridge Street</span><span class="sold-meta">4 bed · 3 bath</span></a><span class="sold-price">$1,058,500</span><span class="sold-when">2026-03-27</span></li>
+<li class="sold-row"><a href="/homes/24-compo-parkway-westport-connecticut-24146922.html"><span class="sold-addr">24 Compo Parkway</span><span class="sold-meta">5 bed · 6 bath</span></a><span class="sold-price">$5,035,000</span><span class="sold-when">2026-03-20</span></li>
+<li class="sold-row"><a href="/homes/79-riverside-avenue-westport-connecticut-24147214.html"><span class="sold-addr">79 Riverside Avenue</span><span class="sold-meta">3 bed · 4 bath</span></a><span class="sold-price">$2,650,000</span><span class="sold-when">2026-06-10</span></li>
+<li class="sold-row"><a href="/homes/785-post-road-east-westport-connecticut-24123899.html"><span class="sold-addr">785 Post Road East Unit 303</span><span class="sold-meta">3 bed · 2 bath</span></a><span class="sold-price">$1,550,000</span><span class="sold-when">2026-03-25</span></li>
+<li class="sold-row"><a href="/homes/781-post-road-east-westport-connecticut-24151662.html"><span class="sold-addr">781 Post Road East Unit 104</span><span class="sold-meta">2 bed · 3 bath</span></a><span class="sold-price">$1,420,000</span><span class="sold-when">2026-04-21</span></li>
+<li class="sold-row"><a href="/homes/33-elm-street-westport-connecticut-24160395.html"><span class="sold-addr">33 Elm Street Unit 3</span><span class="sold-meta">1 bed · 1 bath</span></a><span class="sold-price">$3,800</span><span class="sold-when">2026-06-12</span></li>
+<li class="sold-row"><a href="/homes/200-hillspoint-road-westport-connecticut-24167029.html"><span class="sold-addr">200 Hillspoint Road</span><span class="sold-meta">3 bed · 3 bath</span></a><span class="sold-price">$35,000</span><span class="sold-when">2026-06-01</span></li>
+<li class="sold-row"><a href="/homes/783-post-road-east-westport-connecticut-24169714.html"><span class="sold-addr">783 Post Road East Unit 201</span><span class="sold-meta">2 bed · 3 bath</span></a><span class="sold-price">$1,450,000</span><span class="sold-when">2026-06-13</span></li>
+<li class="sold-row"><a href="/homes/15-catamount-road-westport-connecticut-24158373.html"><span class="sold-addr">15 Catamount Road</span><span class="sold-meta">4 bed · 5 bath</span></a><span class="sold-price">$19,000</span><span class="sold-when">2026-06-23</span></li>
+<li class="sold-row"><a href="/homes/14-winslow-lane-westport-connecticut-24156558.html"><span class="sold-addr">14 Winslow Lane</span><span class="sold-meta">4 bed · 5 bath</span></a><span class="sold-price">$14,000</span><span class="sold-when">2026-07-01</span></li>
+<li class="sold-row"><a href="/homes/14-a-marion-road-westport-connecticut-24177463.html"><span class="sold-addr">14-A Marion Road</span><span class="sold-meta">6 bed · 8 bath</span></a><span class="sold-price">$20,000</span><span class="sold-when">2026-07-01</span></li>
+<li class="sold-row"><a href="/homes/4-peach-lot-place-westport-connecticut-24166340.html"><span class="sold-addr">4 Peach Lot Place Unit LOT PL</span><span class="sold-meta">5 bed · 8 bath</span></a><span class="sold-price">$4,500,000</span><span class="sold-when">2026-07-05</span></li>
+<li class="sold-row"><a href="/homes/20-cross-street-westport-connecticut-24172100.html"><span class="sold-addr">20 Cross Street Unit 5</span><span class="sold-meta">2 bed · 2 bath</span></a><span class="sold-price">$4,900</span><span class="sold-when">2026-07-06</span></li>
+<li class="sold-row"><a href="/homes/201-main-street-westport-connecticut-24179108.html"><span class="sold-addr">201 Main Street Unit 302</span><span class="sold-meta">2 bed · 2 bath</span></a><span class="sold-price">$4,800</span><span class="sold-when">2026-07-11</span></li>
+<li class="sold-row"><a href="/homes/162-regents-park-westport-connecticut-24172336.html"><span class="sold-addr">162 Regents Park Unit 162</span><span class="sold-meta">2 bed · 4 bath</span></a><span class="sold-price">$5,500</span><span class="sold-when">2026-07-13</span></li>
+<li class="sold-row"><a href="/homes/30-crescent-park-road-westport-connecticut-24174719.html"><span class="sold-addr">30 Crescent Park Road</span><span class="sold-meta">2 bed · 2 bath</span></a><span class="sold-price">$3,500</span><span class="sold-when">2026-07-13</span></li>
+<li class="sold-row"><a href="/homes/62-weston-road-westport-connecticut-24159420.html"><span class="sold-addr">62 Weston Road</span><span class="sold-meta">4 bed · 7 bath</span></a><span class="sold-price">$58,000</span><span class="sold-when">2026-07-14</span></li>
+<li class="sold-row"><a href="/homes/13-terhune-drive-westport-connecticut-24114691.html"><span class="sold-addr">13 Terhune Drive</span><span class="sold-meta">6 bed · 6 bath</span></a><span class="sold-price">$3,499,999</span><span class="sold-when">2026-06-30</span></li>
+<li class="sold-row"><a href="/homes/13-riverfield-drive-westport-connecticut-24159296.html"><span class="sold-addr">13 Riverfield Drive</span><span class="sold-meta">4 bed · 4 bath</span></a><span class="sold-price">$2,418,000</span><span class="sold-when">2026-06-30</span></li>
+<li class="sold-row"><a href="/homes/2-judy-point-lane-westport-connecticut-24159043.html"><span class="sold-addr">2 Judy Point Lane</span><span class="sold-meta">8 bed · 10 bath</span></a><span class="sold-price">$8,700,000</span><span class="sold-when">2026-06-15</span></li>
+<li class="sold-row"><a href="/homes/3-stonewall-lane-westport-connecticut-24167276.html"><span class="sold-addr">3 Stonewall Lane</span><span class="sold-meta">5 bed · 7 bath</span></a><span class="sold-price">$4,210,000</span><span class="sold-when">2026-06-30</span></li>
+<li class="sold-row"><a href="/homes/119-long-lots-road-westport-connecticut-24166818.html"><span class="sold-addr">119 Long Lots Road</span><span class="sold-meta">5 bed · 5 bath</span></a><span class="sold-price">$3,352,000</span><span class="sold-when">2026-06-19</span></li>
+<li class="sold-row"><a href="/homes/38-berndale-drive-westport-connecticut-24166654.html"><span class="sold-addr">38 Berndale Drive</span><span class="sold-meta">6 bed · 4 bath</span></a><span class="sold-price">$14,000</span><span class="sold-when">2026-06-15</span></li>
+<li class="sold-row"><a href="/homes/13-highland-road-westport-connecticut-24160076.html"><span class="sold-addr">13 Highland Road</span><span class="sold-meta">4 bed · 3 bath</span></a><span class="sold-price">$1,671,000</span><span class="sold-when">2026-06-15</span></li>
+<li class="sold-row"><a href="/homes/8-bauer-place-westport-connecticut-24157031.html"><span class="sold-addr">8 Bauer Place</span><span class="sold-meta">4 bed · 4 bath</span></a><span class="sold-price">$9,650</span><span class="sold-when">2026-07-01</span></li>
+<li class="sold-row"><a href="/homes/11-beechwood-lane-westport-connecticut-24163215.html"><span class="sold-addr">11 Beechwood Lane</span><span class="sold-meta">4 bed · 3 bath</span></a><span class="sold-price">$6,500</span><span class="sold-when">2026-06-06</span></li>
+<li class="sold-row"><a href="/homes/42-spriteview-avenue-westport-connecticut-24167502.html"><span class="sold-addr">42 Spriteview Avenue</span><span class="sold-meta">3 bed · 4 bath</span></a><span class="sold-price">$3,499,000</span><span class="sold-when">2026-06-17</span></li>
+<li class="sold-row"><a href="/homes/39-kings-highway-north-westport-connecticut-24169070.html"><span class="sold-addr">39 Kings Highway North</span><span class="sold-meta">3 bed · 2 bath</span></a><span class="sold-price">$1,310,000</span><span class="sold-when">2026-07-08</span></li>
+<li class="sold-row"><a href="/homes/10-sprucewood-lane-westport-connecticut-24171000.html"><span class="sold-addr">10 Sprucewood Lane</span><span class="sold-meta">5 bed · 5 bath</span></a><span class="sold-price">$3,276,000</span><span class="sold-when">2026-06-29</span></li>
+<li class="sold-row"><a href="/homes/104-newtown-turnpike-westport-connecticut-24159568.html"><span class="sold-addr">104 Newtown Turnpike</span><span class="sold-meta">3 bed · 3 bath</span></a><span class="sold-price">$1,500,000</span><span class="sold-when">2026-06-18</span></li>
+<li class="sold-row"><a href="/homes/49-hillspoint-road-westport-connecticut-24119112.html"><span class="sold-addr">49 Hillspoint Road</span><span class="sold-meta">5 bed · 7 bath</span></a><span class="sold-price">$4,225,000</span><span class="sold-when">2026-06-12</span></li>
+<li class="sold-row"><a href="/homes/7-sandpiper-road-westport-connecticut-24167574.html"><span class="sold-addr">7 Sandpiper Road</span><span class="sold-meta">4 bed · 6 bath</span></a><span class="sold-price">$11,895,000</span><span class="sold-when">2026-06-30</span></li>
+<li class="sold-row"><a href="/homes/4-highland-road-westport-connecticut-24170310.html"><span class="sold-addr">4 Highland Road</span><span class="sold-meta">4 bed · 3 bath</span></a><span class="sold-price">$1,475,000</span><span class="sold-when">2026-07-06</span></li>
+<li class="sold-row"><a href="/homes/190-north-avenue-westport-connecticut-24163740.html"><span class="sold-addr">190 North Avenue</span><span class="sold-meta">4 bed · 4 bath</span></a><span class="sold-price">$1,525,000</span><span class="sold-when">2026-06-15</span></li>
+<li class="sold-row"><a href="/homes/7-rowland-place-westport-connecticut-24160912.html"><span class="sold-addr">7 Rowland Place</span><span class="sold-meta">2 bed · 1 bath</span></a><span class="sold-price">$910,000</span><span class="sold-when">2026-06-25</span></li>
+<li class="sold-row"><a href="/homes/55-compo-road-north-westport-connecticut-24173921.html"><span class="sold-addr">55 Compo Road North</span><span class="sold-meta">2 bed · 3 bath</span></a><span class="sold-price">$2,236,055</span><span class="sold-when">2026-06-17</span></li>
+<li class="sold-row"><a href="/homes/312-compo-road-south-westport-connecticut-24173977.html"><span class="sold-addr">312 Compo Road South</span><span class="sold-meta">4 bed · 4 bath</span></a><span class="sold-price">$3,750,000</span><span class="sold-when">2026-06-18</span></li>
+<li class="sold-row"><a href="/homes/44-sniffen-road-westport-connecticut-24172773.html"><span class="sold-addr">44 Sniffen Road</span><span class="sold-meta">3 bed · 2 bath</span></a><span class="sold-price">$1,450,000</span><span class="sold-when">2026-06-17</span></li>
+<li class="sold-row"><a href="/homes/1-greystone-farm-lane-westport-connecticut-24168021.html"><span class="sold-addr">1 Greystone Farm Lane</span><span class="sold-meta">5 bed · 6 bath</span></a><span class="sold-price">$4,199,000</span><span class="sold-when">2026-06-30</span></li>
+<li class="sold-row"><a href="/homes/39-marion-road-westport-connecticut-24154644.html"><span class="sold-addr">39 Marion Road</span><span class="sold-meta">4 bed · 4 bath</span></a><span class="sold-price">$1,780,000</span><span class="sold-when">2026-06-30</span></li>
+<li class="sold-row"><a href="/homes/5-michele-lane-westport-connecticut-24170058.html"><span class="sold-addr">5 Michele Lane</span><span class="sold-meta">6 bed · 9 bath</span></a><span class="sold-price">$3,400,000</span><span class="sold-when">2026-06-29</span></li>
+<li class="sold-row"><a href="/homes/5-longview-road-westport-connecticut-24169951.html"><span class="sold-addr">5 Longview Road</span><span class="sold-meta">4 bed · 6 bath</span></a><span class="sold-price">$19,000</span><span class="sold-when">2026-06-21</span></li>
+<li class="sold-row"><a href="/homes/28-ferry-lane-east-westport-connecticut-24175264.html"><span class="sold-addr">28 Ferry Lane East</span><span class="sold-meta">5 bed · 9 bath</span></a><span class="sold-price">$6,100,000</span><span class="sold-when">2026-07-10</span></li>
+<li class="sold-row"><a href="/homes/3-cedar-pond-road-westport-connecticut-24169665.html"><span class="sold-addr">3 Cedar Pond Road</span><span class="sold-meta">4 bed · 4 bath</span></a><span class="sold-price">$1,850,000</span><span class="sold-when">2026-07-02</span></li>
+<li class="sold-row"><a href="/homes/186-compo-road-south-westport-connecticut-24178015.html"><span class="sold-addr">186 Compo Road South</span><span class="sold-meta">3 bed · 4 bath</span></a><span class="sold-price">$1,700,000</span><span class="sold-when">2026-06-18</span></li>
+<li class="sold-row"><a href="/homes/13-rockyfield-road-westport-connecticut-24175855.html"><span class="sold-addr">13 Rockyfield Road</span><span class="sold-meta">5 bed · 6 bath</span></a><span class="sold-price">$3,925,000</span><span class="sold-when">2026-07-08</span></li>
+<li class="sold-row"><a href="/homes/4-davenport-avenue-westport-connecticut-24166299.html"><span class="sold-addr">4 Davenport Avenue</span><span class="sold-meta">3 bed · 3 bath</span></a><span class="sold-price">$1,351,175</span><span class="sold-when">2026-07-06</span></li>
+<li class="sold-row"><a href="/homes/1-vineyard-lane-westport-connecticut-24176979.html"><span class="sold-addr">1 Vineyard Lane</span><span class="sold-meta">4 bed · 6 bath</span></a><span class="sold-price">$12,500</span><span class="sold-when">2026-07-01</span></li>
+<li class="sold-row"><a href="/homes/4-raymond-place-westport-connecticut-24180382.html"><span class="sold-addr">4 Raymond Place</span><span class="sold-meta">4 bed · 5 bath</span></a><span class="sold-price">$2,275,000</span><span class="sold-when">2026-06-29</span></li>
+<li class="sold-row"><a href="/homes/27-westway-road-westport-connecticut-24174020.html"><span class="sold-addr">27 Westway Road</span><span class="sold-meta">3 bed · 2 bath</span></a><span class="sold-price">$5,300</span><span class="sold-when">2026-07-01</span></li>
+<li class="sold-row"><a href="/homes/14-north-avenue-westport-connecticut-24168794.html"><span class="sold-addr">14 North Avenue</span><span class="sold-meta">4 bed · 3 bath</span></a><span class="sold-price">$10,000</span><span class="sold-when">2026-07-02</span></li>
+<li class="sold-row"><a href="/homes/4-wake-robin-road-westport-connecticut-24172491.html"><span class="sold-addr">4 Wake Robin Road</span><span class="sold-meta">5 bed · 4 bath</span></a><span class="sold-price">$2,048,000</span><span class="sold-when">2026-07-07</span></li>
+<li class="sold-row"><a href="/homes/19-beachside-common-westport-connecticut-24158698.html"><span class="sold-addr">19 Beachside Common</span><span class="sold-meta">7 bed · 9 bath</span></a><span class="sold-price">$8,986,000</span><span class="sold-when">2026-07-08</span></li>
+<li class="sold-row"><a href="/homes/7-pond-edge-road-westport-connecticut-24172774.html"><span class="sold-addr">7 Pond Edge Road</span><span class="sold-meta">4 bed · 6 bath</span></a><span class="sold-price">$4,400,000</span><span class="sold-when">2026-07-21</span></li>
+<li class="sold-row"><a href="/homes/16-sue-terrace-westport-connecticut-24182475.html"><span class="sold-addr">16 Sue Terrace</span><span class="sold-meta">4 bed · 3 bath</span></a><span class="sold-price">$13,500</span><span class="sold-when">2026-06-30</span></li>
+<li class="sold-row"><a href="/homes/33-elm-street-westport-connecticut-24183702.html"><span class="sold-addr">33 Elm Street Unit 4</span><span class="sold-meta">1 bed · 1 bath</span></a><span class="sold-price">$4,850</span><span class="sold-when">2026-07-17</span></li>
+<li class="sold-row"><a href="/homes/16-burr-school-road-westport-connecticut-24118985.html"><span class="sold-addr">16 Burr School Road</span><span class="sold-meta">5 bed · 5 bath</span></a><span class="sold-price">$3,250,000</span><span class="sold-when">2026-04-02</span></li>
+<li class="sold-row"><a href="/homes/489-main-street-westport-connecticut-24121354.html"><span class="sold-addr">489 Main Street</span><span class="sold-meta">5 bed · 4 bath</span></a><span class="sold-price">$840,000</span><span class="sold-when">2026-05-01</span></li>
+<li class="sold-row"><a href="/homes/342-greens-farms-road-westport-connecticut-24122231.html"><span class="sold-addr">342 Greens Farms Road</span><span class="sold-meta">4 bed · 5 bath</span></a><span class="sold-price">$2,100,000</span><span class="sold-when">2026-03-27</span></li>
+<li class="sold-row"><a href="/homes/4-burr-farms-road-westport-connecticut-24129625.html"><span class="sold-addr">4 Burr Farms Road</span><span class="sold-meta">4 bed · 3 bath</span></a><span class="sold-price">$2,200,000</span><span class="sold-when">2026-04-17</span></li>
+<li class="sold-row"><a href="/homes/25-maplewood-avenue-westport-connecticut-24130771.html"><span class="sold-addr">25 Maplewood Avenue</span><span class="sold-meta">3 bed · 3 bath</span></a><span class="sold-price">$930,000</span><span class="sold-when">2026-04-24</span></li>
+<li class="sold-row"><a href="/homes/10-debra-lane-westport-connecticut-24131564.html"><span class="sold-addr">10 Debra Lane</span><span class="sold-meta">6 bed · 9 bath</span></a><span class="sold-price">$5,500,000</span><span class="sold-when">2026-04-17</span></li>
+<li class="sold-row"><a href="/homes/6-nutcracker-lane-westport-connecticut-24133128.html"><span class="sold-addr">6 Nutcracker Lane</span><span class="sold-meta">4 bed · 4 bath</span></a><span class="sold-price">$2,725,000</span><span class="sold-when">2026-04-01</span></li>
+<li class="sold-row"><a href="/homes/220-lansdowne-westport-connecticut-24137684.html"><span class="sold-addr">220 Lansdowne Unit 220</span><span class="sold-meta">2 bed · 3 bath</span></a><span class="sold-price">$1,030,000</span><span class="sold-when">2026-03-20</span></li>
+<li class="sold-row"><a href="/homes/116-roseville-road-westport-connecticut-24138367.html"><span class="sold-addr">116 Roseville Road</span><span class="sold-meta">5 bed · 7 bath</span></a><span class="sold-price">$3,860,000</span><span class="sold-when">2026-04-06</span></li>
+<li class="sold-row"><a href="/homes/69-grove-point-road-westport-connecticut-24149889.html"><span class="sold-addr">69 Grove Point Road</span><span class="sold-meta">2 bed · 2 bath</span></a><span class="sold-price">$1,225,000</span><span class="sold-when">2026-04-01</span></li>
+<li class="sold-row"><a href="/homes/westport-connecticut-24150333.html"><span class="sold-addr">Address available on request</span><span class="sold-meta">3 bed · 4 bath</span></a><span class="sold-price">$1,395,000</span><span class="sold-when">2026-04-13</span></li>
+<li class="sold-row"><a href="/homes/13-river-lane-westport-connecticut-24150512.html"><span class="sold-addr">13 River Lane</span><span class="sold-meta">4 bed · 4 bath</span></a><span class="sold-price">$2,400,000</span><span class="sold-when">2026-04-02</span></li>
+<li class="sold-row"><a href="/homes/16-gault-park-drive-westport-connecticut-24150527.html"><span class="sold-addr">16 Gault Park Drive</span><span class="sold-meta">5 bed · 5 bath</span></a><span class="sold-price">$3,151,600</span><span class="sold-when">2026-04-02</span></li>
+<li class="sold-row"><a href="/homes/50-kings-highway-south-westport-connecticut-24151092.html"><span class="sold-addr">50 Kings Highway South</span><span class="sold-meta">3 bed · 3 bath</span></a><span class="sold-price">$1,890,000</span><span class="sold-when">2026-04-22</span></li>
+<li class="sold-row"><a href="/homes/310-lansdowne-road-westport-connecticut-24151654.html"><span class="sold-addr">310 Lansdowne Road Unit 310</span><span class="sold-meta">2 bed · 2 bath</span></a><span class="sold-price">$1,299,000</span><span class="sold-when">2026-04-10</span></li>
+<li class="sold-row"><a href="/homes/8-iris-lane-westport-connecticut-24154436.html"><span class="sold-addr">8 Iris Lane</span><span class="sold-meta">4 bed · 3 bath</span></a><span class="sold-price">$1,630,000</span><span class="sold-when">2026-04-14</span></li>
+<li class="sold-row"><a href="/homes/4-the-fenway-westport-connecticut-24154925.html"><span class="sold-addr">4 The Fenway</span><span class="sold-meta">6 bed · 5 bath</span></a><span class="sold-price">$2,581,433</span><span class="sold-when">2026-05-01</span></li>
+<li class="sold-row"><a href="/homes/21-rayfield-road-westport-connecticut-24156092.html"><span class="sold-addr">21 Rayfield Road</span><span class="sold-meta">3 bed · 3 bath</span></a><span class="sold-price">$1,350,000</span><span class="sold-when">2026-03-31</span></li>
+<li class="sold-row"><a href="/homes/2-fairport-road-westport-connecticut-24144977.html"><span class="sold-addr">2 Fairport Road</span><span class="sold-meta">5 bed · 5 bath</span></a><span class="sold-price">$2,600,000</span><span class="sold-when">2026-04-01</span></li>
+<li class="sold-row"><a href="/homes/80-bayberry-lane-westport-connecticut-24175344.html"><span class="sold-addr">80 Bayberry Lane</span><span class="sold-meta">6 bed · 7 bath</span></a><span class="sold-price">$4,525,000</span><span class="sold-when">2026-07-23</span></li>
+<li class="sold-row"><a href="/homes/21-warnock-drive-westport-connecticut-24146474.html"><span class="sold-addr">21 Warnock Drive</span><span class="sold-meta">6 bed · 9 bath</span></a><span class="sold-price">$4,475,000</span><span class="sold-when">2026-07-02</span></li>
+<li class="sold-row"><a href="/homes/3-tanglewood-lane-westport-connecticut-24064356.html"><span class="sold-addr">3 Tanglewood Lane</span><span class="sold-meta">6 bed · 7 bath</span></a><span class="sold-price">$7,300,000</span><span class="sold-when">2026-07-23</span></li>
+<li class="sold-row"><a href="/homes/5-marc-lane-westport-connecticut-24170859.html"><span class="sold-addr">5 Marc Lane</span><span class="sold-meta">4 bed · 5 bath</span></a><span class="sold-price">$4,310,811</span><span class="sold-when">2026-07-02</span></li>
+<li class="sold-row"><a href="/homes/30-maple-avenue-north-westport-connecticut-24187276.html"><span class="sold-addr">30 Maple Avenue North</span><span class="sold-meta">6 bed · 6 bath</span></a><span class="sold-price">$18,500</span><span class="sold-when">2026-07-27</span></li>
+<li class="sold-row"><a href="/homes/1a-nutcracker-lane-westport-connecticut-24189986.html"><span class="sold-addr">1a Nutcracker Lane</span><span class="sold-meta">1 bed · 1 bath</span></a><span class="sold-price">$2,600</span><span class="sold-when">2026-07-29</span></li>
+<li class="sold-row"><a href="/homes/6-loren-lane-westport-connecticut-24186033.html"><span class="sold-addr">6 Loren Lane</span><span class="sold-meta">4 bed · 3 bath</span></a><span class="sold-price">$1,550,000</span><span class="sold-when">2026-07-30</span></li>
+<li class="sold-row"><a href="/homes/28-punch-bowl-drive-westport-connecticut-24168423.html"><span class="sold-addr">28 Punch Bowl Drive</span><span class="sold-meta">3 bed · 3 bath</span></a><span class="sold-price">$7,300</span><span class="sold-when">2026-08-01</span></li>
+<li class="sold-row"><a href="/homes/46-burr-farms-road-westport-connecticut-24168505.html"><span class="sold-addr">46 Burr Farms Road</span><span class="sold-meta">5 bed · 6 bath</span></a><span class="sold-price">$19,000</span><span class="sold-when">2026-08-01</span></li>
+<li class="sold-row"><a href="/homes/32-webb-road-westport-connecticut-24167975.html"><span class="sold-addr">32 Webb Road</span><span class="sold-meta">8 bed · 9 bath</span></a><span class="sold-price">$4,100,000</span><span class="sold-when">2026-07-15</span></li>
+<li class="sold-row"><a href="/homes/3-bowling-lane-westport-connecticut-24169947.html"><span class="sold-addr">3 Bowling Lane</span><span class="sold-meta">6 bed · 6 bath</span></a><span class="sold-price">$3,400,000</span><span class="sold-when">2026-08-03</span></li>
+<li class="sold-row"><a href="/homes/253-riverside-avenue-westport-connecticut-24175550.html"><span class="sold-addr">253 Riverside Avenue Unit 201</span><span class="sold-meta">2 bed · 3 bath</span></a><span class="sold-price">$11,500</span><span class="sold-when">2026-07-31</span></li>
+<li class="sold-row"><a href="/homes/251-riverside-avenue-westport-connecticut-24175707.html"><span class="sold-addr">251 Riverside Avenue Unit 251 A - 2nd floor</span><span class="sold-meta">2 bed · 3 bath</span></a><span class="sold-price">$11,000</span><span class="sold-when">2026-07-31</span></li>
+<li class="sold-row"><a href="/homes/221-greens-farms-road-westport-connecticut-24171950.html"><span class="sold-addr">221 Greens Farms Road</span><span class="sold-meta">5 bed · 6 bath</span></a><span class="sold-price">$2,995,000</span><span class="sold-when">2026-08-05</span></li>
+<li class="sold-row"><a href="/homes/94-partrick-road-westport-connecticut-24174864.html"><span class="sold-addr">94 Partrick Road</span><span class="sold-meta">2 bed · 1 bath</span></a><span class="sold-price">$5,500</span><span class="sold-when">2026-08-01</span></li>
+<li class="sold-row"><a href="/homes/9-greenbrier-road-westport-connecticut-24112473.html"><span class="sold-addr">9 Greenbrier Road</span><span class="sold-meta">7 bed · 9 bath</span></a><span class="sold-price">$5,375,000</span><span class="sold-when">2026-05-21</span></li>
+<li class="sold-row"><a href="/homes/5-tanglewood-lane-westport-connecticut-24120677.html"><span class="sold-addr">5 Tanglewood Lane</span><span class="sold-meta">4 bed · 3 bath</span></a><span class="sold-price">$2,000,000</span><span class="sold-when">2026-06-30</span></li>
+<li class="sold-row"><a href="/homes/368b-wilton-road-westport-connecticut-24130527.html"><span class="sold-addr">368B Wilton Road</span><span class="sold-meta">4 bed · 3 bath</span></a><span class="sold-price">$2,310,000</span><span class="sold-when">2026-04-23</span></li>
+<li class="sold-row"><a href="/homes/140-roseville-road-westport-connecticut-24132813.html"><span class="sold-addr">140 Roseville Road</span><span class="sold-meta">4 bed · 3 bath</span></a><span class="sold-price">$2,520,000</span><span class="sold-when">2026-07-14</span></li>
+<li class="sold-row"><a href="/homes/319-bayberry-lane-westport-connecticut-24136529.html"><span class="sold-addr">319 Bayberry Lane</span><span class="sold-meta">6 bed · 8 bath</span></a><span class="sold-price">$7,750,000</span><span class="sold-when">2026-06-11</span></li>
+<li class="sold-row"><a href="/homes/24-warnock-drive-westport-connecticut-24141029.html"><span class="sold-addr">24 Warnock Drive</span><span class="sold-meta">3 bed · 3 bath</span></a><span class="sold-price">$1,800,000</span><span class="sold-when">2026-05-08</span></li>
+<li class="sold-row"><a href="/homes/114-cross-highway-westport-connecticut-24165047.html"><span class="sold-addr">114 Cross Highway</span><span class="sold-meta">5 bed · 5 bath</span></a><span class="sold-price">$2,550,000</span><span class="sold-when">2026-08-06</span></li>
+<li class="sold-row"><a href="/homes/9-pond-edge-road-westport-connecticut-24143533.html"><span class="sold-addr">9 Pond Edge Road</span><span class="sold-meta">6 bed · 7 bath</span></a><span class="sold-price">$5,775,000</span><span class="sold-when">2026-05-11</span></li>
+<li class="sold-row"><a href="/homes/1-dexter-road-westport-connecticut-24146583.html"><span class="sold-addr">1 Dexter Road</span><span class="sold-meta">3 bed · 1 bath</span></a><span class="sold-price">$1,251,000</span><span class="sold-when">2026-06-03</span></li>
+<li class="sold-row"><a href="/homes/9-spriteview-avenue-westport-connecticut-24150636.html"><span class="sold-addr">9 Spriteview Avenue</span><span class="sold-meta">3 bed · 2 bath</span></a><span class="sold-price">$1,675,000</span><span class="sold-when">2026-05-01</span></li>
+<li class="sold-row"><a href="/homes/27-owenoke-park-westport-connecticut-24150724.html"><span class="sold-addr">27 Owenoke Park</span><span class="sold-meta">6 bed · 4 bath</span></a><span class="sold-price">$6,750,000</span><span class="sold-when">2026-05-14</span></li>
+<li class="sold-row"><a href="/homes/28-turkey-hill-road-north-westport-connecticut-24151540.html"><span class="sold-addr">28 Turkey Hill Road North</span><span class="sold-meta">4 bed · 4 bath</span></a><span class="sold-price">$1,875,000</span><span class="sold-when">2026-06-08</span></li>
+<li class="sold-row"><a href="/homes/10-reimer-road-westport-connecticut-24152179.html"><span class="sold-addr">10 Reimer Road</span><span class="sold-meta">4 bed · 4 bath</span></a><span class="sold-price">$2,125,000</span><span class="sold-when">2026-05-01</span></li>
+<li class="sold-row"><a href="/homes/167-north-avenue-westport-connecticut-24153517.html"><span class="sold-addr">167 North Avenue Unit Cottage</span><span class="sold-meta">2 bed · 2 bath</span></a><span class="sold-price">$5,500</span><span class="sold-when">2026-08-02</span></li>
+<li class="sold-row"><a href="/homes/10-charcoal-hill-road-westport-connecticut-24153789.html"><span class="sold-addr">10 Charcoal Hill Road</span><span class="sold-meta">4 bed · 4 bath</span></a><span class="sold-price">$2,370,000</span><span class="sold-when">2026-05-01</span></li>
+<li class="sold-row"><a href="/homes/7-hale-street-westport-connecticut-24153798.html"><span class="sold-addr">7 Hale Street</span><span class="sold-meta">3 bed · 2 bath</span></a><span class="sold-price">$1,105,000</span><span class="sold-when">2026-05-20</span></li>
+<li class="sold-row"><a href="/homes/150-hillspoint-road-westport-connecticut-24154934.html"><span class="sold-addr">150 Hillspoint Road</span><span class="sold-meta">4 bed · 4 bath</span></a><span class="sold-price">$3,500,000</span><span class="sold-when">2026-05-11</span></li>
+<li class="sold-row"><a href="/homes/2-oak-street-westport-connecticut-24155099.html"><span class="sold-addr">2 Oak Street Unit Upper</span><span class="sold-meta">1 bed · 1 bath</span></a><span class="sold-price">$3,000</span><span class="sold-when">2026-05-26</span></li>
+<li class="sold-row"><a href="/homes/5-tall-trees-drive-westport-connecticut-24155697.html"><span class="sold-addr">5 Tall Trees Drive</span><span class="sold-meta">5 bed · 3 bath</span></a><span class="sold-price">$7,750</span><span class="sold-when">2026-05-15</span></li>
+<li class="sold-row"><a href="/homes/117-weston-road-westport-connecticut-24155788.html"><span class="sold-addr">117 Weston Road</span><span class="sold-meta">5 bed · 4 bath</span></a><span class="sold-price">$2,300,000</span><span class="sold-when">2026-05-15</span></li>
+<li class="sold-row"><a href="/homes/17-ferry-lane-westport-connecticut-24155986.html"><span class="sold-addr">17 Ferry Lane</span><span class="sold-meta">6 bed · 4 bath</span></a><span class="sold-price">$11,000</span><span class="sold-when">2026-06-01</span></li>
+<li class="sold-row"><a href="/homes/188-compo-road-south-westport-connecticut-24155993.html"><span class="sold-addr">188 Compo Road South</span><span class="sold-meta">3 bed · 4 bath</span></a><span class="sold-price">$10,750</span><span class="sold-when">2026-04-21</span></li>
+<li class="sold-row"><a href="/homes/24-spriteview-avenue-westport-connecticut-24156059.html"><span class="sold-addr">24 Spriteview Avenue</span><span class="sold-meta">4 bed · 4 bath</span></a><span class="sold-price">$3,650,000</span><span class="sold-when">2026-06-01</span></li>
+<li class="sold-row"><a href="/homes/32-bauer-place-extension-westport-connecticut-24156275.html"><span class="sold-addr">32 Bauer Place Extension</span><span class="sold-meta">3 bed · 3 bath</span></a><span class="sold-price">$1,410,000</span><span class="sold-when">2026-04-15</span></li>
+<li class="sold-row"><a href="/homes/20-hickory-drive-westport-connecticut-24156644.html"><span class="sold-addr">20 Hickory Drive</span><span class="sold-meta">3 bed · 2 bath</span></a><span class="sold-price">$1,160,000</span><span class="sold-when">2026-05-14</span></li>
+<li class="sold-row"><a href="/homes/6-imperial-landing-westport-connecticut-24156649.html"><span class="sold-addr">6 Imperial Landing</span><span class="sold-meta">4 bed · 4 bath</span></a><span class="sold-price">$2,400,000</span><span class="sold-when">2026-05-28</span></li>
+<li class="sold-row"><a href="/homes/462-riverside-avenue-westport-connecticut-24156927.html"><span class="sold-addr">462 Riverside Avenue</span><span class="sold-meta">3 bed · 3 bath</span></a><span class="sold-price">$1,900,000</span><span class="sold-when">2026-06-10</span></li>
+<li class="sold-row"><a href="/homes/234-wilton-road-westport-connecticut-24157114.html"><span class="sold-addr">234 Wilton Road</span><span class="sold-meta">4 bed · 4 bath</span></a><span class="sold-price">$2,199,120</span><span class="sold-when">2026-05-11</span></li>
+<li class="sold-row"><a href="/homes/65-west-parish-road-westport-connecticut-24157128.html"><span class="sold-addr">65 West Parish Road</span><span class="sold-meta">3 bed · 2 bath</span></a><span class="sold-price">$1,100,000</span><span class="sold-when">2026-03-30</span></li>
+<li class="sold-row"><a href="/homes/503-bradley-lane-westport-connecticut-24157132.html"><span class="sold-addr">503 Bradley Lane Unit 503</span><span class="sold-meta">2 bed · 3 bath</span></a><span class="sold-price">$999,000</span><span class="sold-when">2026-06-01</span></li>
+<li class="sold-row"><a href="/homes/203-lansdowne-westport-connecticut-24157312.html"><span class="sold-addr">203 Lansdowne Unit 203</span><span class="sold-meta">2 bed · 3 bath</span></a><span class="sold-price">$1,175,000</span><span class="sold-when">2026-05-18</span></li>
+<li class="sold-row"><a href="/homes/westport-connecticut-24157518.html"><span class="sold-addr">Address available on request</span><span class="sold-meta">7 bed · 10 bath</span></a><span class="sold-price">$18,000</span><span class="sold-when">2026-04-02</span></li>
+<li class="sold-row"><a href="/homes/32-berndale-drive-westport-connecticut-24157886.html"><span class="sold-addr">32 Berndale Drive</span><span class="sold-meta">5 bed · 4 bath</span></a><span class="sold-price">$2,450,000</span><span class="sold-when">2026-07-17</span></li>
+<li class="sold-row"><a href="/homes/113-kings-highway-north-westport-connecticut-24158091.html"><span class="sold-addr">113 Kings Highway North</span><span class="sold-meta">2 bed · 2 bath</span></a><span class="sold-price">$3,700</span><span class="sold-when">2026-04-22</span></li>
+<li class="sold-row"><a href="/homes/95-compo-road-north-westport-connecticut-24158398.html"><span class="sold-addr">95 Compo Road North</span><span class="sold-meta">4 bed · 4 bath</span></a><span class="sold-price">$19,000</span><span class="sold-when">2026-06-17</span></li>
+<li class="sold-row"><a href="/homes/7-fermily-lane-westport-connecticut-24158759.html"><span class="sold-addr">7 Fermily Lane</span><span class="sold-meta">7 bed · 6 bath</span></a><span class="sold-price">$2,600,108</span><span class="sold-when">2026-06-05</span></li>
+<li class="sold-row"><a href="/homes/22-apple-tree-trail-westport-connecticut-24158799.html"><span class="sold-addr">22 Apple Tree Trail</span><span class="sold-meta">5 bed · 5 bath</span></a><span class="sold-price">$5,995,000</span><span class="sold-when">2026-05-26</span></li>
+<li class="sold-row"><a href="/homes/35-woody-lane-westport-connecticut-24158858.html"><span class="sold-addr">35 Woody Lane</span><span class="sold-meta">5 bed · 4 bath</span></a><span class="sold-price">$3,015,000</span><span class="sold-when">2026-07-15</span></li>
+<li class="sold-row"><a href="/homes/26-long-lots-lane-westport-connecticut-24158909.html"><span class="sold-addr">26 Long Lots Lane</span><span class="sold-meta">5 bed · 5 bath</span></a><span class="sold-price">$27,000</span><span class="sold-when">2026-05-29</span></li>
+<li class="sold-row"><a href="/homes/55-kings-highway-north-westport-connecticut-24159366.html"><span class="sold-addr">55 Kings Highway North</span><span class="sold-meta">3 bed · 2 bath</span></a><span class="sold-price">$10,000</span><span class="sold-when">2026-06-03</span></li>
+<li class="sold-row"><a href="/homes/28-fillow-street-westport-connecticut-24159715.html"><span class="sold-addr">28 Fillow Street</span><span class="sold-meta">4 bed · 3 bath</span></a><span class="sold-price">$6,000</span><span class="sold-when">2026-04-01</span></li>
+<li class="sold-row"><a href="/homes/11-edgewater-hillside-westport-connecticut-24160000.html"><span class="sold-addr">11 Edgewater Hillside</span><span class="sold-meta">4 bed · 5 bath</span></a><span class="sold-price">$3,899,000</span><span class="sold-when">2026-07-31</span></li>
+<li class="sold-row"><a href="/homes/54-richmondville-avenue-westport-connecticut-24160951.html"><span class="sold-addr">54 Richmondville Avenue</span><span class="sold-meta">1 bed · 1 bath</span></a><span class="sold-price">$2,650</span><span class="sold-when">2026-07-02</span></li>
+<li class="sold-row"><a href="/homes/18a-hillandale-road-westport-connecticut-24161167.html"><span class="sold-addr">18a Hillandale Road</span><span class="sold-meta">2 bed · 1 bath</span></a><span class="sold-price">$3,900</span><span class="sold-when">2026-05-01</span></li>
+<li class="sold-row"><a href="/homes/25-oak-street-westport-connecticut-24161417.html"><span class="sold-addr">25 Oak Street</span><span class="sold-meta">3 bed · 2 bath</span></a><span class="sold-price">$1,466,000</span><span class="sold-when">2026-04-30</span></li>
+<li class="sold-row"><a href="/homes/21-turkey-hill-road-north-westport-connecticut-24161803.html"><span class="sold-addr">21 Turkey Hill Road North</span><span class="sold-meta">3 bed · 4 bath</span></a><span class="sold-price">$2,025,000</span><span class="sold-when">2026-05-15</span></li>
+<li class="sold-row"><a href="/homes/36-bauer-pl-extension-westport-connecticut-24161889.html"><span class="sold-addr">36 Bauer Pl Extension</span><span class="sold-meta">6 bed · 6 bath</span></a><span class="sold-price">$3,025,000</span><span class="sold-when">2026-05-18</span></li>
+<li class="sold-row"><a href="/homes/335-greens-farms-road-westport-connecticut-24191737.html"><span class="sold-addr">335 Greens Farms Road</span><span class="sold-meta">2 bed · 2 bath</span></a><span class="sold-price">$5,050</span><span class="sold-when">2026-08-07</span></li>
+<li class="sold-row"><a href="/homes/9-marsh-road-westport-connecticut-24162314.html"><span class="sold-addr">9 Marsh Road</span><span class="sold-meta">4 bed · 3 bath</span></a><span class="sold-price">$2,325,000</span><span class="sold-when">2026-07-01</span></li>
+<li class="sold-row"><a href="/homes/32-whitney-glen-westport-connecticut-24162515.html"><span class="sold-addr">32 Whitney Glen Unit 32</span><span class="sold-meta">1 bed · 2 bath</span></a><span class="sold-price">$520,000</span><span class="sold-when">2026-07-31</span></li>
+<li class="sold-row"><a href="/homes/10-winding-lane-westport-connecticut-24163168.html"><span class="sold-addr">10 Winding Lane</span><span class="sold-meta">5 bed · 5 bath</span></a><span class="sold-price">$3,600,000</span><span class="sold-when">2026-06-08</span></li>
+<li class="sold-row"><a href="/homes/41-richmondville-avenue-westport-connecticut-24184165.html"><span class="sold-addr">41 Richmondville Avenue Unit 102</span><span class="sold-meta">2 bed · 3 bath</span></a><span class="sold-price">$2,000,000</span><span class="sold-when">2026-08-07</span></li>
+<li class="sold-row"><a href="/homes/19-half-mile-common-westport-connecticut-24163442.html"><span class="sold-addr">19 Half Mile Common</span><span class="sold-meta">4 bed · 4 bath</span></a><span class="sold-price">$1,250,000</span><span class="sold-when">2026-06-04</span></li>
+<li class="sold-row"><a href="/homes/23-harborview-road-westport-connecticut-24163587.html"><span class="sold-addr">23 Harborview Road</span><span class="sold-meta">4 bed · 4 bath</span></a><span class="sold-price">$2,750,000</span><span class="sold-when">2026-05-08</span></li>
+<li class="sold-row"><a href="/homes/6-twin-circle-drive-westport-connecticut-24168601.html"><span class="sold-addr">6 Twin Circle Drive</span><span class="sold-meta">6 bed · 7 bath</span></a><span class="sold-price">$5,700,000</span><span class="sold-when">2026-08-07</span></li>
+<li class="sold-row"><a href="/homes/25-saugatuck-avenue-westport-connecticut-24164566.html"><span class="sold-addr">25 Saugatuck Avenue Unit 9</span><span class="sold-meta">1 bath</span></a><span class="sold-price">$1,550</span><span class="sold-when">2026-04-10</span></li>
+<li class="sold-row"><a href="/homes/42-easton-road-westport-connecticut-24164674.html"><span class="sold-addr">42 Easton Road</span><span class="sold-meta">6 bed · 7 bath</span></a><span class="sold-price">$3,870,000</span><span class="sold-when">2026-05-18</span></li>
+<li class="sold-row"><a href="/homes/1-angora-road-westport-connecticut-24164819.html"><span class="sold-addr">1 Angora Road</span><span class="sold-meta">5 bed · 5 bath</span></a><span class="sold-price">$2,650,000</span><span class="sold-when">2026-07-15</span></li>
+<li class="sold-row"><a href="/homes/7-nappa-drive-westport-connecticut-24165305.html"><span class="sold-addr">7 Nappa Drive</span><span class="sold-meta">4 bed · 3 bath</span></a><span class="sold-price">$12,000</span><span class="sold-when">2026-05-27</span></li>
+<li class="sold-row"><a href="/homes/199-hillspoint-road-westport-connecticut-24165861.html"><span class="sold-addr">199 Hillspoint Road</span><span class="sold-meta">3 bed · 3 bath</span></a><span class="sold-price">$16,000</span><span class="sold-when">2026-04-24</span></li>
+<li class="sold-row"><a href="/homes/18-bridge-street-westport-connecticut-24165882.html"><span class="sold-addr">18 Bridge Street</span><span class="sold-meta">5 bed · 4 bath</span></a><span class="sold-price">$11,000</span><span class="sold-when">2026-06-17</span></li>
+<li class="sold-row"><a href="/homes/107-compo-road-north-westport-connecticut-24166194.html"><span class="sold-addr">107 Compo Road North</span><span class="sold-meta">4 bed · 3 bath</span></a><span class="sold-price">$1,631,000</span><span class="sold-when">2026-07-24</span></li>
+<li class="sold-row"><a href="/homes/123-cross-highway-westport-connecticut-24166688.html"><span class="sold-addr">123 Cross Highway</span><span class="sold-meta">5 bed · 6 bath</span></a><span class="sold-price">$3,500,000</span><span class="sold-when">2026-07-15</span></li>
+<li class="sold-row"><a href="/homes/205-hillspoint-road-westport-connecticut-24166860.html"><span class="sold-addr">205 Hillspoint Road Unit 2nd Floor</span><span class="sold-meta">1 bed · 1 bath</span></a><span class="sold-price">$4,750</span><span class="sold-when">2026-06-01</span></li>
+<li class="sold-row"><a href="/homes/24-timber-lane-westport-connecticut-24167393.html"><span class="sold-addr">24 Timber Lane</span><span class="sold-meta">3 bed · 2 bath</span></a><span class="sold-price">$7,850</span><span class="sold-when">2026-04-30</span></li>
+<li class="sold-row"><a href="/homes/4-wild-rose-road-westport-connecticut-24167522.html"><span class="sold-addr">4 Wild Rose Road</span><span class="sold-meta">5 bed · 5 bath</span></a><span class="sold-price">$3,300,000</span><span class="sold-when">2026-07-21</span></li>
+<li class="sold-row"><a href="/homes/4-ivanhoe-lane-westport-connecticut-24167542.html"><span class="sold-addr">4 Ivanhoe Lane</span><span class="sold-meta">5 bed · 4 bath</span></a><span class="sold-price">$11,500</span><span class="sold-when">2026-06-01</span></li>
+<li class="sold-row"><a href="/homes/3-valley-field-road-westport-connecticut-24167718.html"><span class="sold-addr">3 Valley Field Road</span><span class="sold-meta">4 bed · 3 bath</span></a><span class="sold-price">$2,590,000</span><span class="sold-when">2026-07-31</span></li>
+<li class="sold-row"><a href="/homes/21-dover-road-westport-connecticut-24167866.html"><span class="sold-addr">21 Dover Road</span><span class="sold-meta">5 bed · 5 bath</span></a><span class="sold-price">$2,800,000</span><span class="sold-when">2026-07-16</span></li>
+<li class="sold-row"><a href="/homes/171-compo-road-south-westport-connecticut-24168078.html"><span class="sold-addr">171 Compo Road South</span><span class="sold-meta">4 bed · 5 bath</span></a><span class="sold-price">$2,425,000</span><span class="sold-when">2026-06-23</span></li>
+<li class="sold-row"><a href="/homes/24-blue-ribbon-drive-westport-connecticut-24168290.html"><span class="sold-addr">24 Blue Ribbon Drive</span><span class="sold-meta">4 bed · 4 bath</span></a><span class="sold-price">$2,400,000</span><span class="sold-when">2026-07-30</span></li>
+<li class="sold-row"><a href="/homes/201-bradley-lane-westport-connecticut-24168481.html"><span class="sold-addr">201 Bradley Lane Unit 201</span><span class="sold-meta">2 bed · 3 bath</span></a><span class="sold-price">$1,015,000</span><span class="sold-when">2026-05-21</span></li>
+<li class="sold-row"><a href="/homes/17-loren-lane-westport-connecticut-24168495.html"><span class="sold-addr">17 Loren Lane</span><span class="sold-meta">4 bed · 3 bath</span></a><span class="sold-price">$1,550,000</span><span class="sold-when">2026-06-26</span></li>
+<li class="sold-row"><a href="/homes/52-partrick-road-westport-connecticut-24168672.html"><span class="sold-addr">52 Partrick Road</span><span class="sold-meta">5 bed · 6 bath</span></a><span class="sold-price">$1,625,000</span><span class="sold-when">2026-06-03</span></li>
+<li class="sold-row"><a href="/homes/32-burnham-hill-westport-connecticut-24168754.html"><span class="sold-addr">32 Burnham Hill</span><span class="sold-meta">6 bed · 7 bath</span></a><span class="sold-price">$5,450,000</span><span class="sold-when">2026-05-28</span></li>
+<li class="sold-row"><a href="/homes/5-rowland-place-westport-connecticut-24169134.html"><span class="sold-addr">5 Rowland Place</span><span class="sold-meta">2 bed · 1 bath</span></a><span class="sold-price">$4,000</span><span class="sold-when">2026-05-11</span></li>
+<li class="sold-row"><a href="/homes/299-saugatuck-avenue-westport-connecticut-24169465.html"><span class="sold-addr">299 Saugatuck Avenue</span><span class="sold-meta">4 bed · 6 bath</span></a><span class="sold-price">$2,900,000</span><span class="sold-when">2026-07-31</span></li>
+<li class="sold-row"><a href="/homes/118-roseville-road-westport-connecticut-24169484.html"><span class="sold-addr">118 Roseville Road</span><span class="sold-meta">4 bed · 3 bath</span></a><span class="sold-price">$13,000</span><span class="sold-when">2026-07-01</span></li>
+<li class="sold-row"><a href="/homes/19-east-horseshoe-lane-westport-connecticut-24169575.html"><span class="sold-addr">19 East Horseshoe Lane</span><span class="sold-meta">5 bed · 5 bath</span></a><span class="sold-price">$3,200,000</span><span class="sold-when">2026-07-15</span></li>
+<li class="sold-row"><a href="/homes/11-hale-street-westport-connecticut-24169608.html"><span class="sold-addr">11 Hale Street</span><span class="sold-meta">3 bed · 2 bath</span></a><span class="sold-price">$710,000</span><span class="sold-when">2026-06-04</span></li>
+<li class="sold-row"><a href="/homes/1-woods-grove-road-westport-connecticut-24169653.html"><span class="sold-addr">1 Woods Grove Road</span><span class="sold-meta">3 bed · 2 bath</span></a><span class="sold-price">$5,500</span><span class="sold-when">2026-07-18</span></li>
+<li class="sold-row"><a href="/homes/4-covlee-drive-westport-connecticut-24169919.html"><span class="sold-addr">4 Covlee Drive</span><span class="sold-meta">4 bed · 4 bath</span></a><span class="sold-price">$9,500</span><span class="sold-when">2026-05-11</span></li>
+<li class="sold-row"><a href="/homes/170-imperial-avenue-westport-connecticut-24170051.html"><span class="sold-addr">170 Imperial Avenue</span><span class="sold-meta">3 bed · 2 bath</span></a><span class="sold-price">$1,350,000</span><span class="sold-when">2026-07-20</span></li>
+<li class="sold-row"><a href="/homes/25-maplewood-avenue-westport-connecticut-24170591.html"><span class="sold-addr">25 Maplewood Avenue</span><span class="sold-meta">2 bed · 2 bath</span></a><span class="sold-price">$4,750</span><span class="sold-when">2026-07-22</span></li>
+<li class="sold-row"><a href="/homes/15-jennie-lane-westport-connecticut-24170843.html"><span class="sold-addr">15 Jennie Lane</span><span class="sold-meta">2 bed · 1 bath</span></a><span class="sold-price">$500,000</span><span class="sold-when">2026-06-29</span></li>
+<li class="sold-row"><a href="/homes/28-oak-street-westport-connecticut-24170995.html"><span class="sold-addr">28 Oak Street</span><span class="sold-meta">6 bed · 6 bath</span></a><span class="sold-price">$35,000</span><span class="sold-when">2026-06-25</span></li>
+<li class="sold-row"><a href="/homes/7-keller-lane-westport-connecticut-24171265.html"><span class="sold-addr">7 Keller Lane</span><span class="sold-meta">6 bed · 3 bath</span></a><span class="sold-price">$1,250,000</span><span class="sold-when">2026-07-23</span></li>
+<li class="sold-row"><a href="/homes/24-burr-school-road-westport-connecticut-24172330.html"><span class="sold-addr">24 Burr School Road</span><span class="sold-meta">5 bed · 5 bath</span></a><span class="sold-price">$2,325,000</span><span class="sold-when">2026-07-15</span></li>
+<li class="sold-row"><a href="/homes/4-river-view-road-westport-connecticut-24172561.html"><span class="sold-addr">4 River View Road</span><span class="sold-meta">3 bed · 2 bath</span></a><span class="sold-price">$7,300</span><span class="sold-when">2026-05-13</span></li>
+<li class="sold-row"><a href="/homes/2-mortar-rock-road-westport-connecticut-24173081.html"><span class="sold-addr">2 Mortar Rock Road</span><span class="sold-meta">4 bed · 6 bath</span></a><span class="sold-price">$3,000,000</span><span class="sold-when">2026-08-05</span></li>
+<li class="sold-row"><a href="/homes/8-washington-avenue-westport-connecticut-24173805.html"><span class="sold-addr">8 Washington Avenue</span><span class="sold-meta">5 bed · 6 bath</span></a><span class="sold-price">$2,850,000</span><span class="sold-when">2026-07-16</span></li>
+<li class="sold-row"><a href="/homes/52-meadow-view-drive-westport-connecticut-24175276.html"><span class="sold-addr">52 Meadow View Drive</span><span class="sold-meta">5 bed · 6 bath</span></a><span class="sold-price">$2,425,000</span><span class="sold-when">2026-07-15</span></li>
+<li class="sold-row"><a href="/homes/15-bulkley-avenue-north-westport-connecticut-24175815.html"><span class="sold-addr">15 Bulkley Avenue North</span><span class="sold-meta">6 bed · 6 bath</span></a><span class="sold-price">$15,200</span><span class="sold-when">2026-07-15</span></li>
+<li class="sold-row"><a href="/homes/104-harvest-commons-westport-connecticut-24175833.html"><span class="sold-addr">104 Harvest Commons Unit 104</span><span class="sold-meta">2 bed · 3 bath</span></a><span class="sold-price">$1,400,000</span><span class="sold-when">2026-07-31</span></li>
+<li class="sold-row"><a href="/homes/14-norwalk-avenue-westport-connecticut-24176335.html"><span class="sold-addr">14 Norwalk Avenue</span><span class="sold-meta">3 bed · 3 bath</span></a><span class="sold-price">$11,500</span><span class="sold-when">2026-05-26</span></li>
+<li class="sold-row"><a href="/homes/22-fillow-street-westport-connecticut-24176711.html"><span class="sold-addr">22 Fillow Street</span><span class="sold-meta">3 bed · 2 bath</span></a><span class="sold-price">$1,220,000</span><span class="sold-when">2026-07-15</span></li>
+<li class="sold-row"><a href="/homes/4a-stoneboat-road-westport-connecticut-24177236.html"><span class="sold-addr">4A Stoneboat Road</span><span class="sold-meta">1 bed · 1 bath</span></a><span class="sold-price">$4,200</span><span class="sold-when">2026-07-01</span></li>
+<li class="sold-row"><a href="/homes/6-plover-lane-westport-connecticut-24178049.html"><span class="sold-addr">6 Plover Lane</span><span class="sold-meta">4 bed · 6 bath</span></a><span class="sold-price">$15,500</span><span class="sold-when">2026-06-01</span></li>
+<li class="sold-row"><a href="/homes/71-high-point-road-westport-connecticut-24178245.html"><span class="sold-addr">71 High Point Road</span><span class="sold-meta">5 bed · 4 bath</span></a><span class="sold-price">$1,917,500</span><span class="sold-when">2026-07-23</span></li>
+<li class="sold-row"><a href="/homes/22-sturges-commons-westport-connecticut-24178328.html"><span class="sold-addr">22 Sturges Commons</span><span class="sold-meta">5 bed · 8 bath</span></a><span class="sold-price">$3,000,000</span><span class="sold-when">2026-07-20</span></li>
+<li class="sold-row"><a href="/homes/24-mills-street-westport-connecticut-24178569.html"><span class="sold-addr">24 Mills Street</span><span class="sold-meta">3 bed · 3 bath</span></a><span class="sold-price">$7,500</span><span class="sold-when">2026-07-30</span></li>
+<li class="sold-row"><a href="/homes/10-side-hill-road-westport-connecticut-24178615.html"><span class="sold-addr">10 Side Hill Road</span><span class="sold-meta">6 bed · 6 bath</span></a><span class="sold-price">$3,175,000</span><span class="sold-when">2026-07-29</span></li>
+<li class="sold-row"><a href="/homes/36-turkey-hill-road-north-westport-connecticut-24178616.html"><span class="sold-addr">36 Turkey Hill Road North</span><span class="sold-meta">5 bed · 4 bath</span></a><span class="sold-price">$2,015,000</span><span class="sold-when">2026-07-23</span></li>
+<li class="sold-row"><a href="/homes/72-compo-road-north-westport-connecticut-24178717.html"><span class="sold-addr">72 Compo Road North</span><span class="sold-meta">5 bed · 7 bath</span></a><span class="sold-price">$3,225,000</span><span class="sold-when">2026-07-30</span></li>
+<li class="sold-row"><a href="/homes/18-hales-road-westport-connecticut-24178779.html"><span class="sold-addr">18 Hales Road</span><span class="sold-meta">4 bed · 3 bath</span></a><span class="sold-price">$1,350,000</span><span class="sold-when">2026-07-20</span></li>
+<li class="sold-row"><a href="/homes/19-whitney-street-westport-connecticut-24179563.html"><span class="sold-addr">19 Whitney Street</span><span class="sold-meta">2 bed · 2 bath</span></a><span class="sold-price">$3,800</span><span class="sold-when">2026-06-17</span></li>
+<li class="sold-row"><a href="/homes/4-joann-circle-westport-connecticut-24179836.html"><span class="sold-addr">4 Joann Circle</span><span class="sold-meta">4 bed · 3 bath</span></a><span class="sold-price">$2,050,000</span><span class="sold-when">2026-06-24</span></li>
+<li class="sold-row"><a href="/homes/11-treadwell-avenue-westport-connecticut-24180824.html"><span class="sold-addr">11 Treadwell Avenue</span><span class="sold-meta">4 bed · 3 bath</span></a><span class="sold-price">$9,000</span><span class="sold-when">2026-06-09</span></li>
+<li class="sold-row"><a href="/homes/36-fillow-street-westport-connecticut-24181669.html"><span class="sold-addr">36 Fillow Street</span><span class="sold-meta">3 bed · 3 bath</span></a><span class="sold-price">$1,275,000</span><span class="sold-when">2026-07-30</span></li>
+<li class="sold-row"><a href="/homes/7-colony-road-westport-connecticut-24182426.html"><span class="sold-addr">7 Colony Road Unit A</span><span class="sold-meta">2 bed · 1 bath</span></a><span class="sold-price">$4,700</span><span class="sold-when">2026-08-05</span></li>
+<li class="sold-row"><a href="/homes/26-high-street-westport-connecticut-24182493.html"><span class="sold-addr">26 High Street</span><span class="sold-meta">3 bed · 3 bath</span></a><span class="sold-price">$6,350</span><span class="sold-when">2026-08-01</span></li>
+<li class="sold-row"><a href="/homes/143-north-avenue-westport-connecticut-24183954.html"><span class="sold-addr">143 North Avenue</span><span class="sold-meta">3 bed · 3 bath</span></a><span class="sold-price">$1,906,000</span><span class="sold-when">2026-07-22</span></li>
+<li class="sold-row"><a href="/homes/5-treadwell-avenue-westport-connecticut-24184256.html"><span class="sold-addr">5 Treadwell Avenue</span><span class="sold-meta">3 bed · 2 bath</span></a><span class="sold-price">$4,950</span><span class="sold-when">2026-07-29</span></li>
+<li class="sold-row"><a href="/homes/9-hiawatha-lane-westport-connecticut-24184511.html"><span class="sold-addr">9 Hiawatha Lane</span><span class="sold-meta">1 bed · 1 bath</span></a><span class="sold-price">$2,100</span><span class="sold-when">2026-07-23</span></li>
+<li class="sold-row"><a href="/homes/8-sherwood-drive-westport-connecticut-24185793.html"><span class="sold-addr">8 Sherwood Drive</span><span class="sold-meta">3 bed · 3 bath</span></a><span class="sold-price">$8,900</span><span class="sold-when">2026-07-09</span></li>
+<li class="sold-row"><a href="/homes/2-quarter-mile-road-westport-connecticut-24185821.html"><span class="sold-addr">2 Quarter Mile Road</span><span class="sold-meta">4 bed · 4 bath</span></a><span class="sold-price">$1,375,000</span><span class="sold-when">2026-08-03</span></li>
+<li class="sold-row"><a href="/homes/34-crescent-road-westport-connecticut-24186243.html"><span class="sold-addr">34 Crescent Road</span><span class="sold-meta">3 bed · 2 bath</span></a><span class="sold-price">$5,400</span><span class="sold-when">2026-07-28</span></li>
+<li class="sold-row"><a href="/homes/14-hillspoint-road-westport-connecticut-24181130.html"><span class="sold-addr">14 Hillspoint Road</span><span class="sold-meta">1 bed · 1 bath</span></a><span class="sold-price">$2,900</span><span class="sold-when">2026-08-07</span></li>
+<li class="sold-row"><a href="/homes/37-richmondville-avenue-westport-connecticut-24187531.html"><span class="sold-addr">37 Richmondville Avenue Unit 3</span><span class="sold-meta">Studio · 1 bath</span></a><span class="sold-price">$1,850</span><span class="sold-when">2026-07-29</span></li>
+<li class="sold-row"><a href="/homes/4-raymond-place-westport-connecticut-24188177.html"><span class="sold-addr">4 Raymond Place</span><span class="sold-meta">4 bed · 5 bath</span></a><span class="sold-price">$11,250</span><span class="sold-when">2026-07-03</span></li>
+<li class="sold-row"><a href="/homes/20-woods-grove-road-westport-connecticut-24158900.html"><span class="sold-addr">20 Woods Grove Road</span><span class="sold-meta">4 bed · 2 bath</span></a><span class="sold-price">$969,000</span><span class="sold-when">2026-08-07</span></li>
+<li class="sold-row"><a href="/homes/15-roosevelt-road-westport-connecticut-24174513.html"><span class="sold-addr">15 Roosevelt Road</span><span class="sold-meta">4 bed · 5 bath</span></a><span class="sold-price">$5,300,000</span><span class="sold-when">2026-08-10</span></li>
+<li class="sold-row"><a href="/homes/422-riverside-avenue-westport-connecticut-24176205.html"><span class="sold-addr">422 Riverside Avenue</span><span class="sold-meta">5 bed · 4 bath</span></a><span class="sold-price">$1,800,000</span><span class="sold-when">2026-08-07</span></li>
+<li class="sold-row"><a href="/homes/41-richmondville-avenue-westport-connecticut-24161320.html"><span class="sold-addr">41 Richmondville Avenue Unit Duplex 1</span><span class="sold-meta">2 bed · 2 bath</span></a><span class="sold-price">$1,975,500</span><span class="sold-when">2026-08-10</span></li>
+<li class="sold-row"><a href="/homes/24-washington-avenue-westport-connecticut-24175092.html"><span class="sold-addr">24 Washington Avenue</span><span class="sold-meta">4 bed · 4 bath</span></a><span class="sold-price">$3,126,000</span><span class="sold-when">2026-07-28</span></li>
+<li class="sold-row"><a href="/homes/8-bayberry-ridge-road-westport-connecticut-24151032.html"><span class="sold-addr">8 Bayberry Ridge Road</span><span class="sold-meta">3 bed · 4 bath</span></a><span class="sold-price">$7,800</span><span class="sold-when">2026-08-10</span></li>
+<li class="sold-row"><a href="/homes/23-west-parish-road-westport-connecticut-24176734.html"><span class="sold-addr">23 West Parish Road</span><span class="sold-meta">3 bed · 2 bath</span></a><span class="sold-price">$1,175,000</span><span class="sold-when">2026-08-10</span></li>
+<li class="sold-row"><a href="/homes/17-stonybrook-road-westport-connecticut-24158601.html"><span class="sold-addr">17 Stonybrook Road</span><span class="sold-meta">5 bed · 6 bath</span></a><span class="sold-price">$52,500</span><span class="sold-when">2026-07-25</span></li>
+<li class="sold-row"><a href="/homes/260-riverside-avenue-westport-connecticut-24188606.html"><span class="sold-addr">260 Riverside Avenue Unit 6</span><span class="sold-meta">1 bed · 1 bath</span></a><span class="sold-price">$3,050</span><span class="sold-when">2026-08-01</span></li>
+<li class="sold-row"><a href="/homes/12-danbury-avenue-westport-connecticut-24165041.html"><span class="sold-addr">12 Danbury Avenue</span><span class="sold-meta">4 bed · 5 bath</span></a><span class="sold-price">$13,000</span><span class="sold-when">2026-08-12</span></li>
+<li class="sold-row"><a href="/homes/3-river-view-road-westport-connecticut-24154887.html"><span class="sold-addr">3 River View Road</span><span class="sold-meta">4 bed · 4 bath</span></a><span class="sold-price">$12,000</span><span class="sold-when">2026-08-12</span></li>
+<li class="sold-row"><a href="/homes/67-maple-avenue-north-westport-connecticut-24190059.html"><span class="sold-addr">67 Maple Avenue North</span><span class="sold-meta">3 bed · 3 bath</span></a><span class="sold-price">$9,000</span><span class="sold-when">2026-08-10</span></li>
+<li class="sold-row"><a href="/homes/12-danbury-avenue-westport-connecticut-24198792.html"><span class="sold-addr">12 Danbury Avenue</span><span class="sold-meta">4 bed · 5 bath</span></a><span class="sold-price">$28,667</span><span class="sold-when">2026-08-12</span></li>
+<li class="sold-row"><a href="/homes/20-fresenius-road-westport-connecticut-24176785.html"><span class="sold-addr">20 Fresenius Road</span><span class="sold-meta">7 bed · 9 bath</span></a><span class="sold-price">$4,000,000</span><span class="sold-when">2026-08-13</span></li>
+<li class="sold-row"><a href="/homes/17-vineyard-lane-westport-connecticut-24170642.html"><span class="sold-addr">17 Vineyard Lane</span><span class="sold-meta">5 bed · 6 bath</span></a><span class="sold-price">$3,895,000</span><span class="sold-when">2026-07-15</span></li>
+<li class="sold-row"><a href="/homes/4-cardinal-lane-westport-connecticut-24172650.html"><span class="sold-addr">4 Cardinal Lane</span><span class="sold-meta">4 bed · 4 bath</span></a><span class="sold-price">$2,150,000</span><span class="sold-when">2026-08-05</span></li>
+</ul>
+<p style="margin-top:26px"><a href="/sold/">← Back to all recently sold</a></p>
+</main>
+<footer><div class="wrap"><div class="fgrid">
+<div class="col"><div class="fbrand"><img src="/assets/logo-white.png" alt="Downtown Stamford logo"><span class="wm">Downtown Stamford</span></div>
+<p>Real estate made simple. Helping Stamford, CT buy, sell, and rent with real exposure and real results.</p></div>
+<div class="col"><h4>Explore</h4><a href="/homes-for-sale-stamford.html">Homes for Sale in Stamford</a><a href="/stamford-apartments-for-rent.html">Stamford Apartments for Rent</a><a href="/homes/">All Listings</a><a href="/sold/">Recently Sold</a><a href="/neighborhoods.html">Neighborhoods</a><a href="/blog.html">Blog</a><a href="/contact.html">Contact</a></div>
+<div class="col"><h4>Contact</h4><a href="tel:2038833399">203·883·3399</a><a href="mailto:John@dtstamford.com">John@dtstamford.com</a><p>Stamford, Connecticut</p><p>Jarah Tuttle LLC</p></div>
+</div><div class="fbot"><span>© 2026 Downtown Stamford · John Restrepo</span><span>Real Estate Made Simple.</span></div></div></footer>
+</body>
+</html>

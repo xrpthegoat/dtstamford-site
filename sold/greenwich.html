@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#060608">
+<title>All 232 Recently Sold Homes in Greenwich, CT — Sale Prices | Downtown Stamford</title>
+<meta name="description" content="Every one of the 232 homes recently sold in Greenwich, CT in this site&#39;s MLS data, with the recorded sale price. John Restrepo, licensed real estate agent — 203-883-3399.">
+<link rel="canonical" href="https://dtstamford.com/sold/greenwich.html">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta property="og:type" content="article">
+<meta property="og:title" content="All 232 Recently Sold Homes in Greenwich, CT — Sale Prices | Downtown Stamford">
+<meta property="og:description" content="Every one of the 232 homes recently sold in Greenwich, CT in this site&#39;s MLS data, with the recorded sale price. John Restrepo, licensed real estate agent — 203-883-3399.">
+<meta property="og:url" content="https://dtstamford.com/sold/greenwich.html">
+<meta property="og:image" content="https://dtstamford.com/assets/stamford-ct-downtown-real-estate-hero.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..700&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="icon" href="/assets/logo-black.png">
+<link rel="apple-touch-icon" href="/assets/logo-black.png">
+<link rel="stylesheet" href="/assets/site.css">
+<link rel="stylesheet" href="/assets/homes/app.css">
+<style>
+.idx-hero{padding:clamp(96px,12vw,140px) 0 24px}
+.idx-crumbs{font-family:var(--mono);font-size:.68rem;letter-spacing:.06em;text-transform:uppercase;color:var(--faint);margin-bottom:18px}
+.idx-crumbs a:hover{color:var(--gold-l)}
+/* Status pill — colour-coded by market state (2026-08-02): green = available, amber = under
+   contract, cyan = coming soon. Tokens live here so the hub cards and detail hero share them. */
+:root{--st-on:#5fd39a;--st-uc:#f0a44e;--st-ucs:#f5c168;--st-soon:#6fc9ea}
+.idx-status{display:inline-flex;align-items:center;gap:7px;font-family:var(--mono);font-size:.62rem;letter-spacing:.14em;text-transform:uppercase;color:var(--gold-l);border:1px solid var(--line);border-radius:999px;padding:6px 13px;margin-bottom:14px;background:rgba(255,255,255,.03)}
+.idx-status .dot{width:6px;height:6px;border-radius:50%;background:currentColor;flex:none;box-shadow:0 0 0 3px color-mix(in srgb,currentColor 18%,transparent)}
+.st-on{color:var(--st-on);border-color:color-mix(in srgb,var(--st-on) 34%,transparent);background:color-mix(in srgb,var(--st-on) 9%,transparent)}
+.st-uc{color:var(--st-uc);border-color:color-mix(in srgb,var(--st-uc) 34%,transparent);background:color-mix(in srgb,var(--st-uc) 9%,transparent)}
+.st-ucs{color:var(--st-ucs);border-color:color-mix(in srgb,var(--st-ucs) 34%,transparent);background:color-mix(in srgb,var(--st-ucs) 9%,transparent)}
+.st-soon{color:var(--st-soon);border-color:color-mix(in srgb,var(--st-soon) 34%,transparent);background:color-mix(in srgb,var(--st-soon) 9%,transparent)}
+.idx-status .st-sep{opacity:.45}
+.idx-price{font-family:var(--disp);font-size:clamp(2.2rem,5vw,3.4rem);color:#fff;letter-spacing:-.03em;line-height:1}
+.idx-cta-call{font-size:1.06rem;padding:17px 22px;letter-spacing:-.01em}
+.idx-cta-call b{font-weight:800;white-space:nowrap}
+.idx-cta-text{font-size:.99rem;padding:15px 22px}
+.idx-price-sub{margin-top:7px;font-family:var(--mono);font-size:.74rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+/* This is an h1, not a div (2026-08-09): every one of the 4,397 listing pages previously had NO
+   h1 at all — the first heading was "About this home" — so the strongest on-page relevance signal
+   was missing sitewide, on exactly the pages meant to rank for an address. The ADDRESS is what the
+   page is about; the price is a fact about it, so the price keeps the visual weight and the
+   address takes the semantic one. Sizes pinned because h1 carries UA margins and 2em sizing. */
+.idx-addr{color:var(--fg-soft);font-size:1.15rem;margin:10px 0 0;font-weight:400;
+  font-family:var(--sans);letter-spacing:normal;line-height:1.35}
+.idx-quick{display:flex;flex-wrap:wrap;gap:10px 26px;margin-top:18px;font-family:var(--mono);font-size:.8rem;color:var(--fg-soft)}
+.idx-quick b{color:#fff;font-weight:700}
+.idx-gallery{display:grid;grid-template-columns:2fr 1fr 1fr;gap:10px;margin:26px 0 8px;position:relative}
+.idx-gallery img,.idx-gallery .idx-shot{width:100%;height:100%;object-fit:cover;border-radius:14px;border:1px solid var(--line);background:var(--bg2);aspect-ratio:4/3}
+.idx-gallery img.lead,.idx-gallery .idx-shot.lead{grid-row:span 2;aspect-ratio:auto;min-height:280px}
+@media(max-width:760px){.idx-gallery{grid-template-columns:1fr 1fr}.idx-gallery img.lead,.idx-gallery .idx-shot.lead{grid-column:span 2}}
+/* NOTE: padding-top/bottom ONLY — the horizontal padding comes from .wrap (0 28px). The old
+   shorthand `padding:8px 0 40px` zeroed it, so on phones every block (remarks, facts, aside) ran
+   edge-to-edge with no gutter. Longhand keeps .wrap's gutter and inherits any future change. */
+.idx-body{display:grid;grid-template-columns:1.6fr .9fr;gap:40px;align-items:start;padding-top:8px;padding-bottom:40px}
+@media(max-width:860px){.idx-body{grid-template-columns:1fr;gap:28px}.idx-cta{position:static;padding:22px}}
+.idx-facts{display:grid;grid-template-columns:repeat(2,1fr);gap:0;border:1px solid var(--line);border-radius:16px;overflow:hidden;margin:20px 0;background:rgba(255,255,255,.015)}
+/* DIRECT children only: `.idx-facts div` also matched the .k/.v children, giving every label and
+   value its own padding + underline (tall rows with stray rules). */
+.idx-facts>div{padding:14px 16px;border-bottom:1px solid var(--line-2);border-right:1px solid var(--line-2);min-width:0;overflow-wrap:anywhere}
+.idx-facts>div:nth-child(2n){border-right:0}
+.idx-facts .k{font-family:var(--mono);font-size:.62rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.idx-facts .v{color:#fff;font-size:1.02rem;margin-top:3px;line-height:1.35}
+/* What's nearby: the distance sits under the place name, quiet, so the NAME is what scans. */
+.idx-nb-gct{display:block;font-family:var(--mono);font-size:.68rem;letter-spacing:.04em;color:var(--gold-l);margin-top:3px}
+.idx-nb-d{display:block;font-family:var(--mono);font-size:.62rem;letter-spacing:.06em;color:var(--muted);margin-top:3px;text-transform:none}
+.idx-nb-note{font-size:.74rem;color:var(--muted);margin:-8px 0 22px;line-height:1.5}
+.idx-cmp-sub{color:var(--muted);font-size:.82rem;margin:-6px 0 10px}
+.idx-cmp-sum{font-size:.95rem;margin:0 0 12px;color:#dfe6f0}
+.idx-cmp{width:100%;border-collapse:collapse;border:1px solid var(--line);border-radius:14px;overflow:hidden;margin:0 0 22px}
+.idx-cmp td{padding:12px 14px;border-bottom:1px solid var(--line-2);vertical-align:top}
+.idx-cmp tr:last-child td{border-bottom:0}
+.idx-cmp a{color:#fff;text-decoration:none;border-bottom:1px solid rgba(255,255,255,.22)}
+.idx-cmp-m{display:block;font-family:var(--mono);font-size:.6rem;letter-spacing:.06em;color:var(--muted);margin-top:4px}
+.idx-cmp-p{text-align:right;white-space:nowrap;color:#fff;font-size:1.02rem}
+.idx-cmp-k{display:inline-block;font-family:var(--mono);font-size:.56rem;letter-spacing:.08em;text-transform:uppercase;margin-top:5px}
+.idx-cmp-k.sold{color:#7ee0b0}
+.idx-cmp-k.ask{color:var(--muted)}
+/* Status "chip" inside the STATUS fact cell (John 2026-08-04): a colored pulsing dot next to the
+   value ("Active"/"Under Contract"/...). Reuses the .st-on/.st-uc/.st-ucs/.st-soon color tokens
+   the hero pill already defines. Active pulses; the rest show a steady dot (a Coming Soon or Under
+   Contract listing isn't "live-available", so a heartbeat animation would misread the state). */
+.idx-facts .idx-st{display:inline-flex;align-items:center;gap:8px}
+.idx-facts .idx-st .dot{width:9px;height:9px;border-radius:50%;background:currentColor;flex:none;box-shadow:0 0 0 4px color-mix(in srgb,currentColor 20%,transparent)}
+.idx-facts .idx-st.st-on .dot{animation:idx-pulse 1.9s ease-in-out infinite}
+@keyframes idx-pulse{
+  0%,100%{box-shadow:0 0 0 4px color-mix(in srgb,currentColor 22%,transparent),0 0 0 4px color-mix(in srgb,currentColor 0%,transparent)}
+  50%    {box-shadow:0 0 0 4px color-mix(in srgb,currentColor 22%,transparent),0 0 10px 6px color-mix(in srgb,currentColor 55%,transparent)}
+}
+@media (prefers-reduced-motion:reduce){.idx-facts .idx-st.st-on .dot{animation:none}}
+.idx-flood{margin:6px 2px 0}
+/* Phones: a real gutter on every block, tighter type, single-column facts so long utility values
+   ("Public Sewer Connected") stop wrapping into unreadable slivers. */
+@media(max-width:560px){
+  .idx-hero .wrap,.idx-body{padding-left:20px;padding-right:20px}
+  .idx-hero{padding-top:clamp(84px,22vw,110px)}
+  .idx-quick{gap:8px 18px;font-size:.75rem}
+  .idx-facts{grid-template-columns:1fr;margin:18px 0}
+  .idx-facts>div{border-right:0;padding:12px 15px;display:flex;align-items:baseline;justify-content:space-between;gap:14px}
+  .idx-facts .k{flex:none}
+  .idx-facts .v{margin-top:0;text-align:right;font-size:.98rem}
+  .idx-remarks{font-size:1.01rem;line-height:1.68}
+  .idx-gallery{gap:8px;margin:20px 0 6px}
+}
+/* The sticky card had ZERO travel: .idx-body sets align-items:start, which shrinks each grid item
+   to its content height, so the <aside> was exactly as tall as the card and sticky had no range to
+   move within. Stretching the column to the row height gives it the whole article to travel down.
+   Desktop only — the 860px block below resets it to static, because on a phone a sticky card would
+   sit on top of the content it is meant to support. */
+.idx-body > aside{align-self:stretch}
+.mtg-note{color:var(--muted);font-size:.86rem;line-height:1.6;margin:-4px 0 14px}
+.mtg{display:grid;grid-template-columns:1fr .8fr;gap:18px;align-items:center;border:1px solid var(--line);
+  border-radius:16px;padding:18px;background:rgba(255,255,255,.015);margin:0 0 26px}
+.mtg-in{display:flex;flex-direction:column;gap:12px}
+.mtg-in label{display:flex;align-items:center;gap:10px;font-family:var(--mono);font-size:.68rem;
+  letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.mtg-in input[type=range]{flex:1;accent-color:var(--gold)}
+.mtg-in input[type=number],.mtg-in select{background:rgba(255,255,255,.05);border:1px solid var(--line);
+  color:var(--fg);border-radius:9px;padding:7px 9px;font-family:var(--sans);font-size:.9rem;width:88px}
+.mtg-dpct{color:var(--gold-l);min-width:34px}
+.mtg-out{text-align:right}
+.mtg-big{font-family:var(--disp);font-size:clamp(1.7rem,4vw,2.4rem);color:#fff;line-height:1}
+.mtg-per{font-size:.9rem;color:var(--muted);font-family:var(--sans)}
+.mtg-break{font-family:var(--mono);font-size:.68rem;color:var(--muted);margin-top:7px;line-height:1.7}
+@media(max-width:700px){.mtg{grid-template-columns:1fr}.mtg-out{text-align:left}}
+.idx-nb-grid{display:grid;grid-template-columns:1.25fr .75fr;gap:18px;align-items:start;margin:20px 0}
+.idx-nb-grid .idx-facts{margin:0}
+.nb-mapwrap{border:1px solid var(--line);border-radius:16px;padding:12px;background:rgba(255,255,255,.015)}
+.nb-map{width:100%;height:auto;display:block;border-radius:12px}
+.nb-legend{display:flex;flex-wrap:wrap;gap:8px 14px;margin-top:10px}
+.nb-key{display:inline-flex;align-items:center;gap:6px;font-family:var(--mono);font-size:.62rem;
+  letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.nb-key i{width:9px;height:9px;border-radius:50%;display:inline-block}
+.nb-mapnote{color:var(--faint);font-size:.7rem;line-height:1.5;margin:8px 0 0}
+@media(max-width:900px){.idx-nb-grid{grid-template-columns:1fr}}
+.idx-sibs-note{color:var(--muted);font-size:.86rem;margin:-6px 0 12px}
+.idx-sibs{list-style:none;padding:0;margin:0 0 26px;display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:10px}
+.idx-sib a{display:flex;flex-direction:column;gap:4px;padding:13px 15px;border:1px solid var(--line);
+  border-radius:14px;text-decoration:none;background:rgba(255,255,255,.02);transition:border-color .2s,background .2s}
+.idx-sib a:hover{border-color:var(--gold-d);background:rgba(203,171,104,.05)}
+.idx-sib-addr{color:var(--fg);font-size:.94rem;line-height:1.35}
+.idx-sib-meta{font-family:var(--mono);font-size:.68rem;color:var(--muted);letter-spacing:.03em}
+.idx-sib-meta:empty{display:none}
+.idx-sib-price{color:var(--gold-l);font-weight:600;font-size:.98rem;margin-top:2px}
+.idx-cta{position:sticky;top:90px;max-height:calc(100vh - 110px);overflow:auto;border:1px solid var(--line);border-radius:20px;padding:26px;background:rgba(255,255,255,.02);box-shadow:inset 0 1px 0 rgba(255,255,255,.05)}
+.idx-cta h3{font-size:1.3rem;color:#fff;margin-bottom:6px}
+.idx-cta p{color:var(--fg-soft);font-size:.95rem;margin-bottom:16px}
+.idx-cta .btn{width:100%;justify-content:center;margin-bottom:10px}
+.idx-remarks{color:var(--fg-soft);font-size:1.06rem;line-height:1.7;margin:8px 0 4px;white-space:pre-line}
+.idx-attrib{font-family:var(--mono);font-size:.72rem;line-height:1.6;color:var(--fg-soft);border-top:1px solid var(--line-2);margin-top:36px;padding-top:18px}
+.idx-attrib strong{color:#fff}
+.idx-sibs{list-style:none;margin:10px 0 0;padding:0}
+.idx-sibs li{border-bottom:1px solid var(--line-2)}
+.idx-sibs a{display:block;padding:9px 2px;color:var(--fg-soft);font-size:.98rem}
+.idx-sibs a:hover{color:var(--gold-l)}
+.sold-note{font-size:.86rem;line-height:1.65;color:var(--muted);margin:0 0 18px;padding:13px 16px;
+  border:1px solid var(--line);border-left:2px solid var(--gold-d);border-radius:10px;background:rgba(255,255,255,.02)}
+.sold-note strong{color:var(--fg-soft)}
+.sold-note a{color:var(--gold-l);text-decoration:none;border-bottom:1px solid rgba(203,171,104,.35)}
+.sold-townnav{font-family:var(--mono);font-size:.72rem;line-height:2.1;color:var(--muted);margin:6px 0 18px}
+.sold-townnav a{color:var(--fg-soft);text-decoration:none;border-bottom:1px solid rgba(255,255,255,.14)}
+.sold-townnav a:hover{color:#fff}
+.sold-town{margin:0 0 34px}
+.sold-town h2{font-family:var(--disp);font-size:1.35rem;letter-spacing:-.01em;margin:0 0 12px;color:#fff}
+.sold-town h2 span{font-family:var(--mono);font-size:.7rem;color:var(--muted);letter-spacing:.06em}
+.sold-list{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}
+.sold-row{display:grid;grid-template-columns:1fr auto auto;align-items:baseline;gap:14px;padding:11px 2px;border-bottom:1px solid var(--line)}
+.sold-row:hover{background:rgba(255,255,255,.03)}
+.sold-row a{text-decoration:none;color:inherit;min-width:0;display:flex;flex-direction:column;gap:3px}
+.sold-addr{color:#fff;font-size:.97rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.sold-meta{font-family:var(--mono);font-size:.66rem;letter-spacing:.05em;text-transform:uppercase;color:var(--muted)}
+.sold-price{font-family:var(--disp);font-size:1.05rem;color:#fff;white-space:nowrap}
+.sold-when{font-family:var(--mono);font-size:.66rem;color:var(--muted);white-space:nowrap;min-width:5.5em;text-align:right}
+.sold-more{font-family:var(--mono);font-size:.68rem;color:var(--muted);margin:10px 2px 0}
+@media(max-width:640px){.sold-row{grid-template-columns:1fr auto;row-gap:2px}.sold-when{grid-column:2;text-align:right}}
+
+</style>
+<body id="top">
+<header><div class="wrap nav"><a class="brand" href="/"><img class="logo" src="/assets/logo-white.png" alt="Downtown Stamford"><span class="wordmark">Downtown Stamford</span></a><nav class="nav-links"><a href="/homes/">Buy</a><a href="/rentals/">Rent</a><a href="/sold/">Sold</a><a href="/neighborhoods.html">Neighborhoods</a><a href="/stamford-market.html">Market Trends</a><a href="/buyer-guides.html">Guides</a><a href="/blog.html">Blog</a><a href="/contact.html">Contact</a></nav><a class="btn-call" href="tel:2038833399">Call 203·883·3399</a></div></header>
+<section class="idx-hero"><div class="wrap">
+  <div class="idx-crumbs"><a href="/">Home</a> / <a href="/sold/">Recently Sold</a> / Greenwich</div>
+  <span class="idx-status">Closed MLS records</span>
+  <h1 class="idx-price" style="font-size:clamp(1.7rem,4vw,2.6rem)">Recently sold in Greenwich <span style="color:var(--muted)">(232)</span></h1>
+  <p class="idx-addr">Every sold closing this site's MLS data carries for Greenwich — newest first, each linking to the home's own page.</p>
+</div></section>
+<main class="wrap">
+<ul class="sold-list">
+<li class="sold-row"><a href="/homes/18-wessels-place-greenwich-connecticut-24157454.html"><span class="sold-addr">18 Wessels Place</span><span class="sold-meta">3 bed · 2 bath</span></a><span class="sold-price">$3,600</span><span class="sold-when">2026-03-17</span></li>
+<li class="sold-row"><a href="/homes/1-old-kings-highway-greenwich-connecticut-24149196.html"><span class="sold-addr">1 Old Kings Highway</span><span class="sold-meta">5 bed · 0 bath</span></a><span class="sold-price">$6,500</span><span class="sold-when">2026-03-14</span></li>
+<li class="sold-row"><a href="/homes/6-meadowbank-road-greenwich-connecticut-24141336.html"><span class="sold-addr">6 Meadowbank Road</span><span class="sold-meta">4 bed · 4 bath</span></a><span class="sold-price">$15,200</span><span class="sold-when">2026-03-19</span></li>
+<li class="sold-row"><a href="/homes/119-bowman-drive-greenwich-connecticut-24124570.html"><span class="sold-addr">119 Bowman Drive</span><span class="sold-meta">3 bed · 2 bath</span></a><span class="sold-price">$5,995</span><span class="sold-when">2026-03-20</span></li>
+<li class="sold-row"><a href="/homes/213-b-river-rd-extension-greenwich-connecticut-24159440.html"><span class="sold-addr">213 B River Rd Extension Unit 1</span><span class="sold-meta">3 bed · 4 bath</span></a><span class="sold-price">$5,200</span><span class="sold-when">2026-03-23</span></li>
+<li class="sold-row"><a href="/homes/92-valley-road-greenwich-connecticut-24150496.html"><span class="sold-addr">92 Valley Road Unit A</span><span class="sold-meta">5 bed · 3 bath</span></a><span class="sold-price">$7,035</span><span class="sold-when">2026-03-24</span></li>
+<li class="sold-row"><a href="/homes/140-field-point-road-greenwich-connecticut-24158334.html"><span class="sold-addr">140 Field Point Road Unit 2</span><span class="sold-meta">2 bed · 2 bath</span></a><span class="sold-price">$3,950</span><span class="sold-when">2026-03-25</span></li>
+<li class="sold-row"><a href="/homes/greenwich-connecticut-24114506.html"><span class="sold-addr">Address available on request</span><span class="sold-meta">5 bed · 4 bath</span></a><span class="sold-price">$15,500</span><span class="sold-when">2026-03-27</span></li>
+<li class="sold-row"><a href="/homes/519-east-putnam-avenue-greenwich-connecticut-24149199.html"><span class="sold-addr">519 East Putnam Avenue</span><span class="sold-meta">5 bed · 3 bath</span></a><span class="sold-price">$11,100</span><span class="sold-when">2026-03-24</span></li>
+<li class="sold-row"><a href="/homes/9-river-road-greenwich-connecticut-24144403.html"><span class="sold-addr">9 River Road Unit 411</span><span class="sold-meta">2 bed · 2 bath</span></a><span class="sold-price">$4,000</span><span class="sold-when">2026-04-01</span></li>
+<li class="sold-row"><a href="/homes/40-orchard-place-greenwich-connecticut-24153412.html"><span class="sold-addr">40 Orchard Place Unit 2</span><span class="sold-meta">2 bed · 1 bath</span></a><span class="sold-price">$3,800</span><span class="sold-when">2026-04-06</span></li>
+<li class="sold-row"><a href="/homes/72-prospect-street-greenwich-connecticut-24159979.html"><span class="sold-addr">72 Prospect Street</span><span class="sold-meta">3 bed · 2 bath</span></a><span class="sold-price">$4,200</span><span class="sold-when">2026-04-13</span></li>
+<li class="sold-row"><a href="/homes/80-tomac-avenue-greenwich-connecticut-24165600.html"><span class="sold-addr">80 Tomac Avenue</span><span class="sold-meta">4 bed · 3 bath</span></a><span class="sold-price">$11,000</span><span class="sold-when">2026-04-14</span></li>
+<li class="sold-row"><a href="/homes/44-sinawoy-road-greenwich-connecticut-24150805.html"><span class="sold-addr">44 Sinawoy Road</span><span class="sold-meta">1 bed · 1 bath</span></a><span class="sold-price">$2,075</span><span class="sold-when">2026-04-15</span></li>
+<li class="sold-row"><a href="/homes/greenwich-connecticut-24148689.html"><span class="sold-addr">Address available on request</span><span class="sold-meta">1 bed · 1 bath</span></a><span class="sold-price">$4,950</span><span class="sold-when">2026-04-20</span></li>
+<li class="sold-row"><a href="/homes/66-ute-place-greenwich-connecticut-24140167.html"><span class="sold-addr">66 Ute Place Unit C</span><span class="sold-meta">1 bed · 1 bath</span></a><span class="sold-price">$3,750</span><span class="sold-when">2026-04-20</span></li>
+<li class="sold-row"><a href="/homes/51-forest-avenue-greenwich-connecticut-24163902.html"><span class="sold-addr">51 Forest Avenue Unit 25</span><span class="sold-meta">3 bed · 3 bath</span></a><span class="sold-price">$8,500</span><span class="sold-when">2026-04-20</span></li>
+<li class="sold-row"><a href="/homes/150-prospect-street-greenwich-connecticut-24165479.html"><span class="sold-addr">150 Prospect Street Unit 7</span><span class="sold-meta">2 bed · 3 bath</span></a><span class="sold-price">$4,400</span><span class="sold-when">2026-04-20</span></li>
+<li class="sold-row"><a href="/homes/1465-east-putnam-avenue-greenwich-connecticut-24151269.html"><span class="sold-addr">1465 East Putnam Avenue Unit 532</span><span class="sold-meta">1 bed · 1 bath</span></a><span class="sold-price">$2,900</span><span class="sold-when">2026-04-27</span></li>
+<li class="sold-row"><a href="/homes/10-highland-place-greenwich-connecticut-24124138.html"><span class="sold-addr">10 Highland Place</span><span class="sold-meta">3 bed · 3 bath</span></a><span class="sold-price">$8,200</span><span class="sold-when">2026-04-28</span></li>
+<li class="sold-row"><a href="/homes/5-river-street-greenwich-connecticut-24160447.html"><span class="sold-addr">5 River Street</span><span class="sold-meta">3 bed · 2 bath</span></a><span class="sold-price">$6,000</span><span class="sold-when">2026-04-28</span></li>
+<li class="sold-row"><a href="/homes/5-glen-street-greenwich-connecticut-24168868.html"><span class="sold-addr">5 Glen Street Unit 305</span><span class="sold-meta">2 bed · 3 bath</span></a><span class="sold-price">$5,300</span><span class="sold-when">2026-04-30</span></li>
+<li class="sold-row"><a href="/homes/81-pemberwick-road-greenwich-connecticut-24167246.html"><span class="sold-addr">81 Pemberwick Road Unit A</span><span class="sold-meta">2 bed · 4 bath</span></a><span class="sold-price">$4,950</span><span class="sold-when">2026-05-15</span></li>
+<li class="sold-row"><a href="/homes/28-home-place-greenwich-connecticut-24164099.html"><span class="sold-addr">28 Home Place Unit A-2</span><span class="sold-meta">3 bed · 3 bath</span></a><span class="sold-price">$6,550</span><span class="sold-when">2026-05-17</span></li>
+<li class="sold-row"><a href="/homes/271-greenwich-avenue-greenwich-connecticut-24174743.html"><span class="sold-addr">271 Greenwich Avenue Unit 3B</span><span class="sold-meta">2 bed · 1 bath</span></a><span class="sold-price">$3,100</span><span class="sold-when">2026-05-26</span></li>
+<li class="sold-row"><a href="/homes/24-orchard-place-greenwich-connecticut-24176245.html"><span class="sold-addr">24 Orchard Place Unit B</span><span class="sold-meta">5 bed · 5 bath</span></a><span class="sold-price">$19,000</span><span class="sold-when">2026-05-26</span></li>
+<li class="sold-row"><a href="/homes/68-dearfield-drive-greenwich-connecticut-24180628.html"><span class="sold-addr">68 Dearfield Drive</span><span class="sold-meta">8 bed · 12 bath</span></a><span class="sold-price">$45,000</span><span class="sold-when">2026-06-09</span></li>
+<li class="sold-row"><a href="/homes/1-prescott-lane-greenwich-connecticut-24133496.html"><span class="sold-addr">1 Prescott Lane</span><span class="sold-meta">4 bed · 4 bath</span></a><span class="sold-price">$3,800,000</span><span class="sold-when">2026-04-06</span></li>
+<li class="sold-row"><a href="/homes/20-cutler-road-greenwich-connecticut-24135644.html"><span class="sold-addr">20 Cutler Road</span><span class="sold-meta">5 bed · 6 bath</span></a><span class="sold-price">$5,700,000</span><span class="sold-when">2026-03-26</span></li>
+<li class="sold-row"><a href="/homes/201-shore-road-greenwich-connecticut-24053927.html"><span class="sold-addr">201 Shore Road</span><span class="sold-meta">5 bed · 5 bath</span></a><span class="sold-price">$2,025,000</span><span class="sold-when">2026-05-18</span></li>
+<li class="sold-row"><a href="/homes/182-taconic-road-greenwich-connecticut-24073464.html"><span class="sold-addr">182 Taconic Road</span><span class="sold-meta">6 bed · 8 bath</span></a><span class="sold-price">$6,325,000</span><span class="sold-when">2026-04-10</span></li>
+<li class="sold-row"><a href="/homes/186-putnam-park-greenwich-connecticut-24145747.html"><span class="sold-addr">186 Putnam Park Unit 186</span><span class="sold-meta">2 bed · 2 bath</span></a><span class="sold-price">$905,000</span><span class="sold-when">2026-03-20</span></li>
+<li class="sold-row"><a href="/homes/484-cognewaugh-road-greenwich-connecticut-24146212.html"><span class="sold-addr">484 Cognewaugh Road</span><span class="sold-meta">3 bed · 3 bath</span></a><span class="sold-price">$1,900,000</span><span class="sold-when">2026-04-23</span></li>
+<li class="sold-row"><a href="/homes/47-lafayette-place-greenwich-connecticut-24138948.html"><span class="sold-addr">47 Lafayette Place Apt 6J</span><span class="sold-meta">1 bed · 1 bath</span></a><span class="sold-price">$700,000</span><span class="sold-when">2026-04-13</span></li>
+<li class="sold-row"><a href="/homes/11-bible-street-greenwich-connecticut-24148337.html"><span class="sold-addr">11 Bible Street</span><span class="sold-meta">4 bed · 2 bath</span></a><span class="sold-price">$1,275,000</span><span class="sold-when">2026-05-15</span></li>
+<li class="sold-row"><a href="/homes/116-hamilton-avenue-greenwich-connecticut-24148590.html"><span class="sold-addr">116 Hamilton Avenue</span><span class="sold-meta">5 bed · 3 bath</span></a><span class="sold-price">$1,049,000</span><span class="sold-when">2026-04-02</span></li>
+<li class="sold-row"><a href="/homes/108-husted-lane-greenwich-connecticut-24149956.html"><span class="sold-addr">108 Husted Lane</span><span class="sold-meta">6 bed · 9 bath</span></a><span class="sold-price">$8,200,000</span><span class="sold-when">2026-04-15</span></li>
+<li class="sold-row"><a href="/homes/15-henry-street-greenwich-connecticut-24141403.html"><span class="sold-addr">15 Henry Street</span><span class="sold-meta">2 bed · 2 bath</span></a><span class="sold-price">$600,000</span><span class="sold-when">2026-03-24</span></li>
+<li class="sold-row"><a href="/homes/107-stonehedge-drive-north-greenwich-connecticut-24151904.html"><span class="sold-addr">107 Stonehedge Drive North</span><span class="sold-meta">4 bed · 3 bath</span></a><span class="sold-price">$2,000,000</span><span class="sold-when">2026-03-13</span></li>
+<li class="sold-row"><a href="/homes/45-ettl-lane-greenwich-connecticut-24154511.html"><span class="sold-addr">45 Ettl Lane Unit 205</span><span class="sold-meta">2 bed · 3 bath</span></a><span class="sold-price">$1,050,000</span><span class="sold-when">2026-05-29</span></li>
+<li class="sold-row"><a href="/homes/411-stanwich-road-greenwich-connecticut-24128794.html"><span class="sold-addr">411 Stanwich Road</span><span class="sold-meta">6 bed · 8 bath</span></a><span class="sold-price">$11,000,000</span><span class="sold-when">2026-04-17</span></li>
+<li class="sold-row"><a href="/homes/25-dialstone-lane-greenwich-connecticut-24131024.html"><span class="sold-addr">25 Dialstone Lane</span><span class="sold-meta">6 bed · 8 bath</span></a><span class="sold-price">$5,200,000</span><span class="sold-when">2026-05-18</span></li>
+<li class="sold-row"><a href="/homes/105-glenville-street-greenwich-connecticut-24150539.html"><span class="sold-addr">105 Glenville Street</span><span class="sold-meta">3 bed · 2 bath</span></a><span class="sold-price">$977,500</span><span class="sold-when">2026-03-17</span></li>
+<li class="sold-row"><a href="/homes/51-forest-avenue-greenwich-connecticut-24167755.html"><span class="sold-addr">51 Forest Avenue Unit 23</span><span class="sold-meta">1 bed · 2 bath</span></a><span class="sold-price">$905,000</span><span class="sold-when">2026-06-05</span></li>
+<li class="sold-row"><a href="/homes/98-valley-road-greenwich-connecticut-24165767.html"><span class="sold-addr">98 Valley Road Unit 12</span><span class="sold-meta">3 bed · 2 bath</span></a><span class="sold-price">$960,000</span><span class="sold-when">2026-06-15</span></li>
+<li class="sold-row"><a href="/homes/185-s-water-street-greenwich-connecticut-24180105.html"><span class="sold-addr">185 S Water Street</span><span class="sold-meta">5 bed · 6 bath</span></a><span class="sold-price">$13,000</span><span class="sold-when">2026-06-15</span></li>
+<li class="sold-row"><a href="/homes/156-river-rd-extension-greenwich-connecticut-24146768.html"><span class="sold-addr">156 River Rd Extension Unit 3</span><span class="sold-meta">3 bed · 1 bath</span></a><span class="sold-price">$3,150</span><span class="sold-when">2026-06-17</span></li>
+<li class="sold-row"><a href="/homes/26-shady-lane-greenwich-connecticut-24161118.html"><span class="sold-addr">26 Shady Lane</span><span class="sold-meta">9 bed · 8 bath</span></a><span class="sold-price">$2,579,900</span><span class="sold-when">2026-06-17</span></li>
+<li class="sold-row"><a href="/homes/63-church-street-greenwich-connecticut-24179039.html"><span class="sold-addr">63 Church Street Unit 1</span><span class="sold-meta">2 bed · 3 bath</span></a><span class="sold-price">$18,000</span><span class="sold-when">2026-06-23</span></li>
+<li class="sold-row"><a href="/homes/195-s-water-street-greenwich-connecticut-24180204.html"><span class="sold-addr">195 S Water Street</span><span class="sold-meta">4 bed · 6 bath</span></a><span class="sold-price">$9,700</span><span class="sold-when">2026-06-23</span></li>
+<li class="sold-row"><a href="/homes/34-windy-knolls-greenwich-connecticut-24184354.html"><span class="sold-addr">34 Windy Knolls Unit A</span><span class="sold-meta">3 bed · 3 bath</span></a><span class="sold-price">$7,500</span><span class="sold-when">2026-06-26</span></li>
+<li class="sold-row"><a href="/homes/1-old-church-road-greenwich-connecticut-24172143.html"><span class="sold-addr">1 Old Church Road Unit 6</span><span class="sold-meta">3 bed · 4 bath</span></a><span class="sold-price">$3,100,000</span><span class="sold-when">2026-06-22</span></li>
+<li class="sold-row"><a href="/homes/156-greenwich-avenue-greenwich-connecticut-24183708.html"><span class="sold-addr">156 Greenwich Avenue</span><span class="sold-meta">2 bed · 1 bath</span></a><span class="sold-price">$2,300</span><span class="sold-when">2026-06-29</span></li>
+<li class="sold-row"><a href="/homes/47-indian-harbor-drive-greenwich-connecticut-24168846.html"><span class="sold-addr">47 Indian Harbor Drive Unit 7</span><span class="sold-meta">3 bed · 4 bath</span></a><span class="sold-price">$10,000</span><span class="sold-when">2026-06-14</span></li>
+<li class="sold-row"><a href="/homes/507-river-road-greenwich-connecticut-24111163.html"><span class="sold-addr">507 River Road</span><span class="sold-meta">5 bed · 5 bath</span></a><span class="sold-price">$17,000</span><span class="sold-when">2026-07-06</span></li>
+<li class="sold-row"><a href="/homes/24-decatur-street-greenwich-connecticut-24178750.html"><span class="sold-addr">24 Decatur Street Unit 2</span><span class="sold-meta">2 bed · 3 bath</span></a><span class="sold-price">$850,000</span><span class="sold-when">2026-07-06</span></li>
+<li class="sold-row"><a href="/homes/112-sheephill-road-greenwich-connecticut-24149698.html"><span class="sold-addr">112 Sheephill Road</span><span class="sold-meta">6 bed · 8 bath</span></a><span class="sold-price">$4,350,000</span><span class="sold-when">2026-07-06</span></li>
+<li class="sold-row"><a href="/homes/67-view-street-west-greenwich-connecticut-24155245.html"><span class="sold-addr">67 View Street West</span><span class="sold-meta">3 bed · 2 bath</span></a><span class="sold-price">$885,000</span><span class="sold-when">2026-06-11</span></li>
+<li class="sold-row"><a href="/homes/33-halsey-drive-greenwich-connecticut-24112915.html"><span class="sold-addr">33 Halsey Drive</span><span class="sold-meta">3 bed · 2 bath</span></a><span class="sold-price">$1,410,000</span><span class="sold-when">2026-07-01</span></li>
+<li class="sold-row"><a href="/homes/16-hendrie-drive-greenwich-connecticut-24163552.html"><span class="sold-addr">16 Hendrie Drive</span><span class="sold-meta"></span></a><span class="sold-price">$2,250,000</span><span class="sold-when">2026-07-07</span></li>
+<li class="sold-row"><a href="/homes/21-zygmont-lane-greenwich-connecticut-24157235.html"><span class="sold-addr">21 Zygmont Lane</span><span class="sold-meta">4 bed · 3 bath</span></a><span class="sold-price">$1,850,000</span><span class="sold-when">2026-06-30</span></li>
+<li class="sold-row"><a href="/homes/1-bramble-lane-greenwich-connecticut-24157206.html"><span class="sold-addr">1 Bramble Lane</span><span class="sold-meta">5 bed · 7 bath</span></a><span class="sold-price">$5,900,000</span><span class="sold-when">2026-07-06</span></li>
+<li class="sold-row"><a href="/homes/189-riversville-road-greenwich-connecticut-24161843.html"><span class="sold-addr">189 Riversville Road</span><span class="sold-meta">4 bed · 3 bath</span></a><span class="sold-price">$2,200,000</span><span class="sold-when">2026-06-08</span></li>
+<li class="sold-row"><a href="/homes/386-north-street-greenwich-connecticut-24156530.html"><span class="sold-addr">386 North Street</span><span class="sold-meta">5 bed · 9 bath</span></a><span class="sold-price">$6,250,000</span><span class="sold-when">2026-06-23</span></li>
+<li class="sold-row"><a href="/homes/31-thornhill-road-greenwich-connecticut-24159022.html"><span class="sold-addr">31 Thornhill Road</span><span class="sold-meta">4 bed · 4 bath</span></a><span class="sold-price">$2,050,000</span><span class="sold-when">2026-06-15</span></li>
+<li class="sold-row"><a href="/homes/255-byram-road-greenwich-connecticut-24164527.html"><span class="sold-addr">255 Byram Road</span><span class="sold-meta">3 bed · 2 bath</span></a><span class="sold-price">$1,054,612</span><span class="sold-when">2026-06-12</span></li>
+<li class="sold-row"><a href="/homes/47-will-merry-lane-greenwich-connecticut-24167416.html"><span class="sold-addr">47 Will Merry Lane</span><span class="sold-meta">5 bed · 4 bath</span></a><span class="sold-price">$2,700,000</span><span class="sold-when">2026-06-15</span></li>
+<li class="sold-row"><a href="/homes/25-west-elm-street-greenwich-connecticut-24167901.html"><span class="sold-addr">25 West Elm Street Unit 10</span><span class="sold-meta">2 bed · 2 bath</span></a><span class="sold-price">$1,150,000</span><span class="sold-when">2026-07-07</span></li>
+<li class="sold-row"><a href="/homes/178-milbank-avenue-greenwich-connecticut-24168623.html"><span class="sold-addr">178 Milbank Avenue Unit 2</span><span class="sold-meta">3 bed · 3 bath</span></a><span class="sold-price">$2,500,000</span><span class="sold-when">2026-06-22</span></li>
+<li class="sold-row"><a href="/homes/185-valley-road-greenwich-connecticut-24167767.html"><span class="sold-addr">185 Valley Road</span><span class="sold-meta">4 bed · 4 bath</span></a><span class="sold-price">$3,000,000</span><span class="sold-when">2026-07-07</span></li>
+<li class="sold-row"><a href="/homes/21-amherst-road-greenwich-connecticut-24155152.html"><span class="sold-addr">21 Amherst Road</span><span class="sold-meta">5 bed · 3 bath</span></a><span class="sold-price">$1,700,000</span><span class="sold-when">2026-06-25</span></li>
+<li class="sold-row"><a href="/homes/41-grove-street-greenwich-connecticut-24169371.html"><span class="sold-addr">41 Grove Street</span><span class="sold-meta">5 bed · 4 bath</span></a><span class="sold-price">$12,000</span><span class="sold-when">2026-07-01</span></li>
+<li class="sold-row"><a href="/homes/5-glen-street-greenwich-connecticut-24164788.html"><span class="sold-addr">5 Glen Street Unit 204</span><span class="sold-meta">2 bed · 3 bath</span></a><span class="sold-price">$995,000</span><span class="sold-when">2026-07-01</span></li>
+<li class="sold-row"><a href="/homes/131-pecksland-road-greenwich-connecticut-24165874.html"><span class="sold-addr">131 Pecksland Road</span><span class="sold-meta">5 bed · 8 bath</span></a><span class="sold-price">$7,526,116</span><span class="sold-when">2026-07-01</span></li>
+<li class="sold-row"><a href="/homes/2-old-church-road-greenwich-connecticut-24161638.html"><span class="sold-addr">2 Old Church Road Unit 1</span><span class="sold-meta">4 bed · 4 bath</span></a><span class="sold-price">$2,900,000</span><span class="sold-when">2026-06-12</span></li>
+<li class="sold-row"><a href="/homes/3-putnam-hill-greenwich-connecticut-24162058.html"><span class="sold-addr">3 Putnam Hill</span><span class="sold-meta">3 bed · 2 bath</span></a><span class="sold-price">$980,000</span><span class="sold-when">2026-06-17</span></li>
+<li class="sold-row"><a href="/homes/12-ricki-beth-lane-greenwich-connecticut-24165639.html"><span class="sold-addr">12 Ricki Beth Lane</span><span class="sold-meta">5 bed · 4 bath</span></a><span class="sold-price">$3,525,000</span><span class="sold-when">2026-06-29</span></li>
+<li class="sold-row"><a href="/homes/351-pemberwick-road-greenwich-connecticut-24174485.html"><span class="sold-addr">351 Pemberwick Road Unit 818</span><span class="sold-meta">1 bed · 1 bath</span></a><span class="sold-price">$500,000</span><span class="sold-when">2026-06-23</span></li>
+<li class="sold-row"><a href="/homes/44-willowmere-avenue-greenwich-connecticut-24170939.html"><span class="sold-addr">44 Willowmere Avenue</span><span class="sold-meta">4 bed · 5 bath</span></a><span class="sold-price">$4,050,000</span><span class="sold-when">2026-06-17</span></li>
+<li class="sold-row"><a href="/homes/55-stag-lane-greenwich-connecticut-24173988.html"><span class="sold-addr">55 Stag Lane</span><span class="sold-meta">5 bed · 5 bath</span></a><span class="sold-price">$3,000,000</span><span class="sold-when">2026-07-08</span></li>
+<li class="sold-row"><a href="/homes/34-1-2-orchard-street-greenwich-connecticut-24175545.html"><span class="sold-addr">34 1/2 Orchard Street</span><span class="sold-meta">4 bed · 3 bath</span></a><span class="sold-price">$2,022,000</span><span class="sold-when">2026-06-22</span></li>
+<li class="sold-row"><a href="/homes/6-oak-drive-greenwich-connecticut-24174027.html"><span class="sold-addr">6 Oak Drive</span><span class="sold-meta"></span></a><span class="sold-price">$3,800,000</span><span class="sold-when">2026-06-17</span></li>
+<li class="sold-row"><a href="/homes/4-putnam-hill-road-greenwich-connecticut-24145654.html"><span class="sold-addr">4 Putnam Hill Road Unit 2B</span><span class="sold-meta">2 bed · 2 bath</span></a><span class="sold-price">$662,500</span><span class="sold-when">2026-06-17</span></li>
+<li class="sold-row"><a href="/homes/19-cross-street-greenwich-connecticut-24170385.html"><span class="sold-addr">19 Cross Street</span><span class="sold-meta">3 bed · 3 bath</span></a><span class="sold-price">$1,325,000</span><span class="sold-when">2026-07-07</span></li>
+<li class="sold-row"><a href="/homes/7-heusted-drive-greenwich-connecticut-24168405.html"><span class="sold-addr">7 Heusted Drive</span><span class="sold-meta">4 bed · 4 bath</span></a><span class="sold-price">$3,100,000</span><span class="sold-when">2026-06-17</span></li>
+<li class="sold-row"><a href="/homes/50-valleywood-road-greenwich-connecticut-24168116.html"><span class="sold-addr">50 Valleywood Road</span><span class="sold-meta">4 bed · 2 bath</span></a><span class="sold-price">$1,150,000</span><span class="sold-when">2026-07-07</span></li>
+<li class="sold-row"><a href="/homes/148-putnam-park-greenwich-connecticut-24164334.html"><span class="sold-addr">148 Putnam Park</span><span class="sold-meta">2 bed · 2 bath</span></a><span class="sold-price">$800,000</span><span class="sold-when">2026-06-23</span></li>
+<li class="sold-row"><a href="/homes/272-valley-road-greenwich-connecticut-24175897.html"><span class="sold-addr">272 Valley Road Unit 2</span><span class="sold-meta">2 bed · 1 bath</span></a><span class="sold-price">$2,800</span><span class="sold-when">2026-06-21</span></li>
+<li class="sold-row"><a href="/homes/60-greenwich-hills-drive-greenwich-connecticut-24166893.html"><span class="sold-addr">60 Greenwich Hills Drive Unit 60</span><span class="sold-meta">3 bed · 3 bath</span></a><span class="sold-price">$5,500</span><span class="sold-when">2026-07-01</span></li>
+<li class="sold-row"><a href="/homes/2-walker-court-greenwich-connecticut-24108173.html"><span class="sold-addr">2 Walker Court</span><span class="sold-meta">5 bed · 3 bath</span></a><span class="sold-price">$7,300</span><span class="sold-when">2026-04-09</span></li>
+<li class="sold-row"><a href="/homes/1-driftway-greenwich-connecticut-24146269.html"><span class="sold-addr">1 Driftway</span><span class="sold-meta">4 bed · 4 bath</span></a><span class="sold-price">$1,768,000</span><span class="sold-when">2026-04-10</span></li>
+<li class="sold-row"><a href="/homes/18-griffith-road-greenwich-connecticut-24148843.html"><span class="sold-addr">18 Griffith Road</span><span class="sold-meta">4 bed · 3 bath</span></a><span class="sold-price">$1,625,000</span><span class="sold-when">2026-03-19</span></li>
+<li class="sold-row"><a href="/homes/4-miami-court-greenwich-connecticut-24149277.html"><span class="sold-addr">4 Miami Court</span><span class="sold-meta">4 bed · 3 bath</span></a><span class="sold-price">$1,885,000</span><span class="sold-when">2026-03-20</span></li>
+<li class="sold-row"><a href="/homes/11-lafayette-court-greenwich-connecticut-24150479.html"><span class="sold-addr">11 Lafayette Court Apt 5B</span><span class="sold-meta">2 bed · 3 bath</span></a><span class="sold-price">$1,515,000</span><span class="sold-when">2026-04-06</span></li>
+<li class="sold-row"><a href="/homes/11-rex-street-greenwich-connecticut-24156004.html"><span class="sold-addr">11 Rex Street</span><span class="sold-meta">3 bed · 2 bath</span></a><span class="sold-price">$823,000</span><span class="sold-when">2026-04-16</span></li>
+<li class="sold-row"><a href="/homes/48-lexington-avenue-greenwich-connecticut-24093214.html"><span class="sold-addr">48 Lexington Avenue</span><span class="sold-meta">5 bed · 6 bath</span></a><span class="sold-price">$7,200,000</span><span class="sold-when">2026-03-24</span></li>
+<li class="sold-row"><a href="/homes/500-river-road-greenwich-connecticut-24173734.html"><span class="sold-addr">500 River Road Unit 3</span><span class="sold-meta">2 bed · 2 bath</span></a><span class="sold-price">$1,205,000</span><span class="sold-when">2026-07-23</span></li>
+<li class="sold-row"><a href="/homes/7-indian-head-road-greenwich-connecticut-24157865.html"><span class="sold-addr">7 Indian Head Road</span><span class="sold-meta">6 bed · 7 bath</span></a><span class="sold-price">$7,750,000</span><span class="sold-when">2026-07-15</span></li>
+<li class="sold-row"><a href="/homes/4-putnam-hill-greenwich-connecticut-24158003.html"><span class="sold-addr">4 Putnam Hill Unit 4F</span><span class="sold-meta">1 bed · 1 bath</span></a><span class="sold-price">$460,000</span><span class="sold-when">2026-07-24</span></li>
+<li class="sold-row"><a href="/homes/118-greenwich-avenue-greenwich-connecticut-24184969.html"><span class="sold-addr">118 Greenwich Avenue Unit 1</span><span class="sold-meta">1 bed · 1 bath</span></a><span class="sold-price">$2,100</span><span class="sold-when">2026-07-27</span></li>
+<li class="sold-row"><a href="/homes/35-homestead-road-greenwich-connecticut-24181639.html"><span class="sold-addr">35 Homestead Road</span><span class="sold-meta">4 bed · 3 bath</span></a><span class="sold-price">$6,800</span><span class="sold-when">2026-07-29</span></li>
+<li class="sold-row"><a href="/homes/94-new-street-greenwich-connecticut-24185945.html"><span class="sold-addr">94 New Street Unit 1</span><span class="sold-meta">3 bed · 2 bath</span></a><span class="sold-price">$4,525</span><span class="sold-when">2026-07-30</span></li>
+<li class="sold-row"><a href="/homes/195-s-water-street-greenwich-connecticut-24186333.html"><span class="sold-addr">195 S Water Street Unit North</span><span class="sold-meta">4 bed · 5 bath</span></a><span class="sold-price">$9,500</span><span class="sold-when">2026-08-01</span></li>
+<li class="sold-row"><a href="/homes/51-forest-avenue-greenwich-connecticut-24186022.html"><span class="sold-addr">51 Forest Avenue Unit 24</span><span class="sold-meta">2 bed · 2 bath</span></a><span class="sold-price">$6,500</span><span class="sold-when">2026-08-03</span></li>
+<li class="sold-row"><a href="/homes/4-sickle-bar-lane-greenwich-connecticut-24187870.html"><span class="sold-addr">4 Sickle Bar Lane</span><span class="sold-meta">4 bed · 3 bath</span></a><span class="sold-price">$12,500</span><span class="sold-when">2026-08-06</span></li>
+<li class="sold-row"><a href="/homes/2-vista-drive-greenwich-connecticut-24078237.html"><span class="sold-addr">2 Vista Drive</span><span class="sold-meta"></span></a><span class="sold-price">$7,825,000</span><span class="sold-when">2026-06-23</span></li>
+<li class="sold-row"><a href="/homes/7-curt-terrace-greenwich-connecticut-24132781.html"><span class="sold-addr">7 Curt Terrace</span><span class="sold-meta">5 bed · 5 bath</span></a><span class="sold-price">$2,995,000</span><span class="sold-when">2026-06-30</span></li>
+<li class="sold-row"><a href="/homes/43-sterling-road-greenwich-connecticut-24134435.html"><span class="sold-addr">43 Sterling Road</span><span class="sold-meta">7 bed · 8 bath</span></a><span class="sold-price">$3,800,000</span><span class="sold-when">2026-07-24</span></li>
+<li class="sold-row"><a href="/homes/681-river-road-greenwich-connecticut-24143732.html"><span class="sold-addr">681 River Road</span><span class="sold-meta">4 bed · 5 bath</span></a><span class="sold-price">$2,445,000</span><span class="sold-when">2026-07-24</span></li>
+<li class="sold-row"><a href="/homes/181-east-putnam-avenue-greenwich-connecticut-24146165.html"><span class="sold-addr">181 East Putnam Avenue</span><span class="sold-meta">4 bed · 2 bath</span></a><span class="sold-price">$8,400</span><span class="sold-when">2026-04-03</span></li>
+<li class="sold-row"><a href="/homes/25-woodland-drive-greenwich-connecticut-24149767.html"><span class="sold-addr">25 Woodland Drive Unit C</span><span class="sold-meta">3 bed · 4 bath</span></a><span class="sold-price">$2,875,000</span><span class="sold-when">2026-04-28</span></li>
+<li class="sold-row"><a href="/homes/103-connecticut-avenue-greenwich-connecticut-24149962.html"><span class="sold-addr">103 Connecticut Avenue</span><span class="sold-meta">4 bed · 5 bath</span></a><span class="sold-price">$3,890,000</span><span class="sold-when">2026-04-08</span></li>
+<li class="sold-row"><a href="/homes/530-round-hill-road-greenwich-connecticut-24165781.html"><span class="sold-addr">530 Round Hill Road</span><span class="sold-meta">6 bed · 7 bath</span></a><span class="sold-price">$6,900,000</span><span class="sold-when">2026-08-06</span></li>
+<li class="sold-row"><a href="/homes/33-highland-farm-road-greenwich-connecticut-24150635.html"><span class="sold-addr">33 Highland Farm Road</span><span class="sold-meta">6 bed · 10 bath</span></a><span class="sold-price">$7,255,000</span><span class="sold-when">2026-07-15</span></li>
+<li class="sold-row"><a href="/homes/9-benders-drive-greenwich-connecticut-24150650.html"><span class="sold-addr">9 Benders Drive</span><span class="sold-meta">5 bed · 6 bath</span></a><span class="sold-price">$2,650,000</span><span class="sold-when">2026-07-15</span></li>
+<li class="sold-row"><a href="/homes/1020-north-street-greenwich-connecticut-24150733.html"><span class="sold-addr">1020 North Street</span><span class="sold-meta">3 bed · 3 bath</span></a><span class="sold-price">$1,600,000</span><span class="sold-when">2026-05-08</span></li>
+<li class="sold-row"><a href="/homes/31-duncan-drive-greenwich-connecticut-24151005.html"><span class="sold-addr">31 Duncan Drive</span><span class="sold-meta">4 bed · 5 bath</span></a><span class="sold-price">$2,276,000</span><span class="sold-when">2026-04-30</span></li>
+<li class="sold-row"><a href="/homes/49-indian-harbor-drive-greenwich-connecticut-24151417.html"><span class="sold-addr">49 Indian Harbor Drive Unit 1</span><span class="sold-meta">2 bed · 4 bath</span></a><span class="sold-price">$1,050,000</span><span class="sold-when">2026-05-29</span></li>
+<li class="sold-row"><a href="/homes/165-putnam-park-greenwich-connecticut-24152041.html"><span class="sold-addr">165 Putnam Park</span><span class="sold-meta">3 bed · 2 bath</span></a><span class="sold-price">$1,170,000</span><span class="sold-when">2026-04-30</span></li>
+<li class="sold-row"><a href="/homes/53-richland-road-greenwich-connecticut-24152827.html"><span class="sold-addr">53 Richland Road</span><span class="sold-meta">4 bed · 2 bath</span></a><span class="sold-price">$4,300</span><span class="sold-when">2026-04-30</span></li>
+<li class="sold-row"><a href="/homes/343-greenwich-avenue-greenwich-connecticut-24153469.html"><span class="sold-addr">343 Greenwich Avenue Unit 2nd Floor</span><span class="sold-meta">1 bed · 1 bath</span></a><span class="sold-price">$3,950</span><span class="sold-when">2026-04-03</span></li>
+<li class="sold-row"><a href="/homes/98-hillcrest-park-road-greenwich-connecticut-24154215.html"><span class="sold-addr">98 Hillcrest Park Road</span><span class="sold-meta">4 bed · 4 bath</span></a><span class="sold-price">$2,610,000</span><span class="sold-when">2026-05-29</span></li>
+<li class="sold-row"><a href="/homes/328-hamilton-avenue-greenwich-connecticut-24154308.html"><span class="sold-addr">328 Hamilton Avenue Unit 4</span><span class="sold-meta">3 bed · 2 bath</span></a><span class="sold-price">$838,000</span><span class="sold-when">2026-05-11</span></li>
+<li class="sold-row"><a href="/homes/37-gerry-street-greenwich-connecticut-24154495.html"><span class="sold-addr">37 Gerry Street</span><span class="sold-meta">7 bed · 5 bath</span></a><span class="sold-price">$1,625,000</span><span class="sold-when">2026-04-15</span></li>
+<li class="sold-row"><a href="/homes/29-hunting-ridge-road-greenwich-connecticut-24155699.html"><span class="sold-addr">29 Hunting Ridge Road</span><span class="sold-meta">5 bed · 5 bath</span></a><span class="sold-price">$4,020,000</span><span class="sold-when">2026-06-02</span></li>
+<li class="sold-row"><a href="/homes/119-halstead-avenue-greenwich-connecticut-24156407.html"><span class="sold-addr">119 Halstead Avenue Unit 2</span><span class="sold-meta">2 bed · 1 bath</span></a><span class="sold-price">$2,825</span><span class="sold-when">2026-04-07</span></li>
+<li class="sold-row"><a href="/homes/30-meadowcroft-lane-greenwich-connecticut-24156495.html"><span class="sold-addr">30 Meadowcroft Lane</span><span class="sold-meta">6 bed · 10 bath</span></a><span class="sold-price">$14,600,000</span><span class="sold-when">2026-07-24</span></li>
+<li class="sold-row"><a href="/homes/9-river-road-greenwich-connecticut-24156554.html"><span class="sold-addr">9 River Road Unit 418</span><span class="sold-meta">2 bed · 3 bath</span></a><span class="sold-price">$855,000</span><span class="sold-when">2026-07-01</span></li>
+<li class="sold-row"><a href="/homes/60-prospect-street-greenwich-connecticut-24156902.html"><span class="sold-addr">60 Prospect Street Unit 58A</span><span class="sold-meta">2 bed · 3 bath</span></a><span class="sold-price">$1,075,000</span><span class="sold-when">2026-05-06</span></li>
+<li class="sold-row"><a href="/homes/24-taylor-drive-greenwich-connecticut-24157194.html"><span class="sold-addr">24 Taylor Drive</span><span class="sold-meta">3 bed · 2 bath</span></a><span class="sold-price">$1,395,000</span><span class="sold-when">2026-05-11</span></li>
+<li class="sold-row"><a href="/homes/93-east-middle-patent-road-greenwich-connecticut-24157274.html"><span class="sold-addr">93 East Middle Patent Road</span><span class="sold-meta">4 bed · 3 bath</span></a><span class="sold-price">$2,000,000</span><span class="sold-when">2026-04-22</span></li>
+<li class="sold-row"><a href="/homes/15-richmond-drive-greenwich-connecticut-24157455.html"><span class="sold-addr">15 Richmond Drive</span><span class="sold-meta">3 bed · 2 bath</span></a><span class="sold-price">$8,250</span><span class="sold-when">2026-03-23</span></li>
+<li class="sold-row"><a href="/homes/249-shore-road-greenwich-connecticut-24157586.html"><span class="sold-addr">249 Shore Road</span><span class="sold-meta">4 bed · 4 bath</span></a><span class="sold-price">$3,000,000</span><span class="sold-when">2026-04-13</span></li>
+<li class="sold-row"><a href="/homes/1-old-church-road-greenwich-connecticut-24157695.html"><span class="sold-addr">1 Old Church Road Apt 1</span><span class="sold-meta">3 bed · 4 bath</span></a><span class="sold-price">$2,575,000</span><span class="sold-when">2026-04-13</span></li>
+<li class="sold-row"><a href="/homes/25-alexander-street-greenwich-connecticut-24157773.html"><span class="sold-addr">25 Alexander Street Unit B</span><span class="sold-meta">4 bed · 3 bath</span></a><span class="sold-price">$5,100</span><span class="sold-when">2026-05-20</span></li>
+<li class="sold-row"><a href="/homes/41-londonderry-drive-greenwich-connecticut-24158179.html"><span class="sold-addr">41 Londonderry Drive</span><span class="sold-meta">5 bed · 5 bath</span></a><span class="sold-price">$3,330,000</span><span class="sold-when">2026-05-06</span></li>
+<li class="sold-row"><a href="/homes/129-doubling-road-greenwich-connecticut-24159054.html"><span class="sold-addr">129 Doubling Road</span><span class="sold-meta">4 bed · 5 bath</span></a><span class="sold-price">$5,650,000</span><span class="sold-when">2026-05-19</span></li>
+<li class="sold-row"><a href="/homes/120-florence-road-greenwich-connecticut-24159325.html"><span class="sold-addr">120 Florence Road</span><span class="sold-meta">4 bed · 3 bath</span></a><span class="sold-price">$1,280,000</span><span class="sold-when">2026-06-01</span></li>
+<li class="sold-row"><a href="/homes/13-mortimer-drive-greenwich-connecticut-24159830.html"><span class="sold-addr">13 Mortimer Drive</span><span class="sold-meta">3 bed · 3 bath</span></a><span class="sold-price">$2,300,000</span><span class="sold-when">2026-07-17</span></li>
+<li class="sold-row"><a href="/homes/17-artic-street-greenwich-connecticut-24160613.html"><span class="sold-addr">17 Artic Street Unit 1</span><span class="sold-meta">2 bed · 1 bath</span></a><span class="sold-price">$3,850</span><span class="sold-when">2026-04-15</span></li>
+<li class="sold-row"><a href="/homes/17-artic-street-greenwich-connecticut-24160646.html"><span class="sold-addr">17 Artic Street Unit 2</span><span class="sold-meta">2 bed · 1 bath</span></a><span class="sold-price">$3,350</span><span class="sold-when">2026-04-24</span></li>
+<li class="sold-row"><a href="/homes/15-bowman-drive-greenwich-connecticut-24160748.html"><span class="sold-addr">15 Bowman Drive</span><span class="sold-meta">4 bed · 4 bath</span></a><span class="sold-price">$11,500</span><span class="sold-when">2026-05-04</span></li>
+<li class="sold-row"><a href="/homes/27-high-street-greenwich-connecticut-24160849.html"><span class="sold-addr">27 High Street Unit B</span><span class="sold-meta">3 bed · 2 bath</span></a><span class="sold-price">$4,500</span><span class="sold-when">2026-04-23</span></li>
+<li class="sold-row"><a href="/homes/420-valley-road-greenwich-connecticut-24160915.html"><span class="sold-addr">420 Valley Road</span><span class="sold-meta">4 bed · 3 bath</span></a><span class="sold-price">$1,300,000</span><span class="sold-when">2026-04-14</span></li>
+<li class="sold-row"><a href="/homes/351-greenwich-avenue-greenwich-connecticut-24161182.html"><span class="sold-addr">351 Greenwich Avenue Unit 3</span><span class="sold-meta">3 bed · 1 bath</span></a><span class="sold-price">$2,900</span><span class="sold-when">2026-05-26</span></li>
+<li class="sold-row"><a href="/homes/9-tamarack-place-greenwich-connecticut-24161194.html"><span class="sold-addr">9 Tamarack Place</span><span class="sold-meta">4 bed · 4 bath</span></a><span class="sold-price">$2,500,000</span><span class="sold-when">2026-06-01</span></li>
+<li class="sold-row"><a href="/homes/453-east-putnam-avenue-greenwich-connecticut-24161260.html"><span class="sold-addr">453 East Putnam Avenue Unit 4B</span><span class="sold-meta">2 bed · 3 bath</span></a><span class="sold-price">$850,000</span><span class="sold-when">2026-05-20</span></li>
+<li class="sold-row"><a href="/homes/1535-east-putnam-avenue-greenwich-connecticut-24161756.html"><span class="sold-addr">1535 East Putnam Avenue Unit 307</span><span class="sold-meta">1 bed · 1 bath</span></a><span class="sold-price">$410,000</span><span class="sold-when">2026-05-26</span></li>
+<li class="sold-row"><a href="/homes/4-highview-avenue-greenwich-connecticut-24161953.html"><span class="sold-addr">4 Highview Avenue</span><span class="sold-meta">3 bed · 2 bath</span></a><span class="sold-price">$10,000</span><span class="sold-when">2026-06-12</span></li>
+<li class="sold-row"><a href="/homes/8-willow-lane-greenwich-connecticut-24161971.html"><span class="sold-addr">8 Willow Lane</span><span class="sold-meta">4 bed · 2 bath</span></a><span class="sold-price">$2,410,000</span><span class="sold-when">2026-05-15</span></li>
+<li class="sold-row"><a href="/homes/9-stuart-drive-greenwich-connecticut-24162644.html"><span class="sold-addr">9 Stuart Drive</span><span class="sold-meta">4 bed · 2 bath</span></a><span class="sold-price">$1,270,000</span><span class="sold-when">2026-04-20</span></li>
+<li class="sold-row"><a href="/homes/274-valley-road-greenwich-connecticut-24163031.html"><span class="sold-addr">274 Valley Road #1</span><span class="sold-meta">3 bed · 3 bath</span></a><span class="sold-price">$3,800</span><span class="sold-when">2026-05-01</span></li>
+<li class="sold-row"><a href="/homes/57-grey-rock-drive-greenwich-connecticut-24163088.html"><span class="sold-addr">57 Grey Rock Drive</span><span class="sold-meta">3 bed · 3 bath</span></a><span class="sold-price">$5,800</span><span class="sold-when">2026-05-04</span></li>
+<li class="sold-row"><a href="/homes/274-valley-road-greenwich-connecticut-24163093.html"><span class="sold-addr">274 Valley Road #2</span><span class="sold-meta">3 bed · 3 bath</span></a><span class="sold-price">$3,500</span><span class="sold-when">2026-05-01</span></li>
+<li class="sold-row"><a href="/homes/6-carpenters-brook-road-greenwich-connecticut-24163258.html"><span class="sold-addr">6 Carpenters Brook Road</span><span class="sold-meta">4 bed · 4 bath</span></a><span class="sold-price">$5,075,000</span><span class="sold-when">2026-05-29</span></li>
+<li class="sold-row"><a href="/homes/50-lafayette-place-greenwich-connecticut-24163299.html"><span class="sold-addr">50 Lafayette Place Unit 2H</span><span class="sold-meta">1 bed · 1 bath</span></a><span class="sold-price">$515,000</span><span class="sold-when">2026-07-13</span></li>
+<li class="sold-row"><a href="/homes/19-lakeview-drive-greenwich-connecticut-24163785.html"><span class="sold-addr">19 Lakeview Drive</span><span class="sold-meta"></span></a><span class="sold-price">$1,800,000</span><span class="sold-when">2026-07-21</span></li>
+<li class="sold-row"><a href="/homes/375-greenwich-avenue-greenwich-connecticut-24163981.html"><span class="sold-addr">375 Greenwich Avenue Unit 4</span><span class="sold-meta">2 bed · 1 bath</span></a><span class="sold-price">$2,500</span><span class="sold-when">2026-04-09</span></li>
+<li class="sold-row"><a href="/homes/10-maple-drive-greenwich-connecticut-24163995.html"><span class="sold-addr">10 Maple Drive</span><span class="sold-meta">3 bed · 2 bath</span></a><span class="sold-price">$1,258,000</span><span class="sold-when">2026-05-21</span></li>
+<li class="sold-row"><a href="/homes/75-strickland-road-greenwich-connecticut-24164202.html"><span class="sold-addr">75 Strickland Road Unit F</span><span class="sold-meta">3 bed · 3 bath</span></a><span class="sold-price">$7,900</span><span class="sold-when">2026-04-23</span></li>
+<li class="sold-row"><a href="/homes/51-old-kings-highway-greenwich-connecticut-24164904.html"><span class="sold-addr">51 Old Kings Highway Unit 12</span><span class="sold-meta">2 bed · 2 bath</span></a><span class="sold-price">$4,000</span><span class="sold-when">2026-04-16</span></li>
+<li class="sold-row"><a href="/homes/33-circle-drive-greenwich-connecticut-24165475.html"><span class="sold-addr">33 Circle Drive</span><span class="sold-meta">3 bed · 2 bath</span></a><span class="sold-price">$6,800</span><span class="sold-when">2026-05-09</span></li>
+<li class="sold-row"><a href="/homes/60-locust-road-greenwich-connecticut-24165623.html"><span class="sold-addr">60 Locust Road</span><span class="sold-meta">2 bed · 2 bath</span></a><span class="sold-price">$3,100,000</span><span class="sold-when">2026-05-14</span></li>
+<li class="sold-row"><a href="/homes/15-river-road-greenwich-connecticut-24165804.html"><span class="sold-addr">15 River Road Unit 205</span><span class="sold-meta">2 bed · 2 bath</span></a><span class="sold-price">$914,000</span><span class="sold-when">2026-07-31</span></li>
+<li class="sold-row"><a href="/homes/64-le-grande-avenue-greenwich-connecticut-24165975.html"><span class="sold-addr">64 Le Grande Avenue</span><span class="sold-meta">6 bed · 1 bath</span></a><span class="sold-price">$1,385,000</span><span class="sold-when">2026-06-05</span></li>
+<li class="sold-row"><a href="/homes/160-elm-street-greenwich-connecticut-24166239.html"><span class="sold-addr">160 Elm Street Unit C3</span><span class="sold-meta">2 bed · 3 bath</span></a><span class="sold-price">$4,985</span><span class="sold-when">2026-04-18</span></li>
+<li class="sold-row"><a href="/homes/135-north-water-street-greenwich-connecticut-24166701.html"><span class="sold-addr">135 North Water Street</span><span class="sold-meta">5 bed · 3 bath</span></a><span class="sold-price">$1,131,000</span><span class="sold-when">2026-05-20</span></li>
+<li class="sold-row"><a href="/homes/175-cat-rock-road-greenwich-connecticut-24166724.html"><span class="sold-addr">175 Cat Rock Road</span><span class="sold-meta">7 bed · 7 bath</span></a><span class="sold-price">$25,000</span><span class="sold-when">2026-05-22</span></li>
+<li class="sold-row"><a href="/homes/14-amherst-road-greenwich-connecticut-24166765.html"><span class="sold-addr">14 Amherst Road</span><span class="sold-meta">3 bed · 2 bath</span></a><span class="sold-price">$6,150</span><span class="sold-when">2026-05-04</span></li>
+<li class="sold-row"><a href="/homes/33-talbot-lane-greenwich-connecticut-24167150.html"><span class="sold-addr">33 Talbot Lane Unit 4</span><span class="sold-meta">3 bed · 2 bath</span></a><span class="sold-price">$725,000</span><span class="sold-when">2026-06-24</span></li>
+<li class="sold-row"><a href="/homes/47-carriglea-drive-greenwich-connecticut-24167409.html"><span class="sold-addr">47 Carriglea Drive</span><span class="sold-meta">5 bed · 6 bath</span></a><span class="sold-price">$29,250</span><span class="sold-when">2026-07-14</span></li>
+<li class="sold-row"><a href="/homes/31-a-hollow-wood-lane-greenwich-connecticut-24168303.html"><span class="sold-addr">31-A Hollow Wood Lane</span><span class="sold-meta">3 bed · 2 bath</span></a><span class="sold-price">$4,400</span><span class="sold-when">2026-05-06</span></li>
+<li class="sold-row"><a href="/homes/25-lakewood-circle-north-greenwich-connecticut-24168715.html"><span class="sold-addr">25 Lakewood Circle North</span><span class="sold-meta">5 bed · 5 bath</span></a><span class="sold-price">$30,000</span><span class="sold-when">2026-04-29</span></li>
+<li class="sold-row"><a href="/homes/64-hillside-road-greenwich-connecticut-24168797.html"><span class="sold-addr">64 Hillside Road</span><span class="sold-meta">3 bed · 3 bath</span></a><span class="sold-price">$2,500,000</span><span class="sold-when">2026-07-16</span></li>
+<li class="sold-row"><a href="/homes/18-stone-avenue-greenwich-connecticut-24168979.html"><span class="sold-addr">18 Stone Avenue Unit 1</span><span class="sold-meta">3 bed · 4 bath</span></a><span class="sold-price">$1,081,000</span><span class="sold-when">2026-05-21</span></li>
+<li class="sold-row"><a href="/homes/375-greenwich-avenue-greenwich-connecticut-24169122.html"><span class="sold-addr">375 Greenwich Avenue Unit 5</span><span class="sold-meta">2 bed · 1 bath</span></a><span class="sold-price">$2,500</span><span class="sold-when">2026-06-03</span></li>
+<li class="sold-row"><a href="/homes/9-rex-street-greenwich-connecticut-24169199.html"><span class="sold-addr">9 Rex Street</span><span class="sold-meta">4 bed · 3 bath</span></a><span class="sold-price">$1,749,000</span><span class="sold-when">2026-07-29</span></li>
+<li class="sold-row"><a href="/homes/12-arther-street-greenwich-connecticut-24169431.html"><span class="sold-addr">12 Arther Street Unit 1</span><span class="sold-meta">1 bed · 1 bath</span></a><span class="sold-price">$3,250</span><span class="sold-when">2026-05-13</span></li>
+<li class="sold-row"><a href="/homes/11-lafayette-court-greenwich-connecticut-24169594.html"><span class="sold-addr">11 Lafayette Court Unit 1C</span><span class="sold-meta">2 bed · 3 bath</span></a><span class="sold-price">$1,700,000</span><span class="sold-when">2026-07-22</span></li>
+<li class="sold-row"><a href="/homes/378-taconic-road-greenwich-connecticut-24170035.html"><span class="sold-addr">378 Taconic Road</span><span class="sold-meta">5 bed · 8 bath</span></a><span class="sold-price">$61,785</span><span class="sold-when">2026-07-06</span></li>
+<li class="sold-row"><a href="/homes/1-pilgrim-drive-greenwich-connecticut-24186503.html"><span class="sold-addr">1 Pilgrim Drive</span><span class="sold-meta">3 bed · 1 bath</span></a><span class="sold-price">$980,000</span><span class="sold-when">2026-08-07</span></li>
+<li class="sold-row"><a href="/homes/1188-king-street-greenwich-connecticut-24170530.html"><span class="sold-addr">1188 King Street Unit 102</span><span class="sold-meta">2 bed · 2 bath</span></a><span class="sold-price">$12,500</span><span class="sold-when">2026-05-29</span></li>
+<li class="sold-row"><a href="/homes/70-riverdale-avenue-greenwich-connecticut-24171721.html"><span class="sold-addr">70 Riverdale Avenue Unit 1001</span><span class="sold-meta">2 bed · 3 bath</span></a><span class="sold-price">$5,800</span><span class="sold-when">2026-06-05</span></li>
+<li class="sold-row"><a href="/homes/24-hollow-wood-lane-greenwich-connecticut-24171951.html"><span class="sold-addr">24 Hollow Wood Lane</span><span class="sold-meta">3 bed · 3 bath</span></a><span class="sold-price">$4,600</span><span class="sold-when">2026-06-30</span></li>
+<li class="sold-row"><a href="/homes/greenwich-connecticut-24174070.html"><span class="sold-addr">Address available on request</span><span class="sold-meta">4 bed · 4 bath</span></a><span class="sold-price">$1,675,000</span><span class="sold-when">2026-07-10</span></li>
+<li class="sold-row"><a href="/homes/15-lancer-road-greenwich-connecticut-24174565.html"><span class="sold-addr">15 Lancer Road</span><span class="sold-meta">4 bed · 3 bath</span></a><span class="sold-price">$8,850</span><span class="sold-when">2026-05-29</span></li>
+<li class="sold-row"><a href="/homes/20-ridge-road-greenwich-connecticut-24174599.html"><span class="sold-addr">20 Ridge Road</span><span class="sold-meta">3 bed · 4 bath</span></a><span class="sold-price">$2,503,000</span><span class="sold-when">2026-07-31</span></li>
+<li class="sold-row"><a href="/homes/490-den-lane-greenwich-connecticut-24174772.html"><span class="sold-addr">490 Den Lane Unit 1st Floor</span><span class="sold-meta">2 bed · 1 bath</span></a><span class="sold-price">$2,950</span><span class="sold-when">2026-05-21</span></li>
+<li class="sold-row"><a href="/homes/20-orchard-street-greenwich-connecticut-24174811.html"><span class="sold-addr">20 Orchard Street</span><span class="sold-meta">3 bed · 3 bath</span></a><span class="sold-price">$8,600</span><span class="sold-when">2026-05-26</span></li>
+<li class="sold-row"><a href="/homes/319-delavan-avenue-greenwich-connecticut-24174937.html"><span class="sold-addr">319 Delavan Avenue Unit 1</span><span class="sold-meta">3 bed · 1 bath</span></a><span class="sold-price">$3,200</span><span class="sold-when">2026-07-21</span></li>
+<li class="sold-row"><a href="/homes/6-caroline-farms-road-greenwich-connecticut-24175137.html"><span class="sold-addr">6 Caroline Farms Road Unit 4</span><span class="sold-meta">2 bed · 4 bath</span></a><span class="sold-price">$1,190,000</span><span class="sold-when">2026-07-17</span></li>
+<li class="sold-row"><a href="/homes/71-byram-road-greenwich-connecticut-24175829.html"><span class="sold-addr">71 Byram Road</span><span class="sold-meta">3 bed · 2 bath</span></a><span class="sold-price">$3,400</span><span class="sold-when">2026-05-30</span></li>
+<li class="sold-row"><a href="/homes/1465-east-putnam-avenue-greenwich-connecticut-24175843.html"><span class="sold-addr">1465 East Putnam Avenue Unit 207</span><span class="sold-meta">1 bath</span></a><span class="sold-price">$425,000</span><span class="sold-when">2026-07-27</span></li>
+<li class="sold-row"><a href="/homes/2-grange-street-greenwich-connecticut-24176206.html"><span class="sold-addr">2 Grange Street Unit 2</span><span class="sold-meta">3 bed · 1 bath</span></a><span class="sold-price">$3,600</span><span class="sold-when">2026-06-15</span></li>
+<li class="sold-row"><a href="/homes/2-grange-street-greenwich-connecticut-24176213.html"><span class="sold-addr">2 Grange Street Unit 1</span><span class="sold-meta">3 bed · 1 bath</span></a><span class="sold-price">$3,800</span><span class="sold-when">2026-05-26</span></li>
+<li class="sold-row"><a href="/homes/20-division-street-greenwich-connecticut-24176552.html"><span class="sold-addr">20 Division Street Unit B</span><span class="sold-meta">Studio · 1 bath</span></a><span class="sold-price">$1,500</span><span class="sold-when">2026-05-22</span></li>
+<li class="sold-row"><a href="/homes/14-spezzano-drive-greenwich-connecticut-24178427.html"><span class="sold-addr">14 Spezzano Drive</span><span class="sold-meta">2 bed · 1 bath</span></a><span class="sold-price">$1,015,000</span><span class="sold-when">2026-07-02</span></li>
+<li class="sold-row"><a href="/homes/193-hamilton-avenue-greenwich-connecticut-24178433.html"><span class="sold-addr">193 Hamilton Avenue Unit 4</span><span class="sold-meta">2 bed · 3 bath</span></a><span class="sold-price">$1,005,000</span><span class="sold-when">2026-07-20</span></li>
+<li class="sold-row"><a href="/homes/6-wyngate-road-greenwich-connecticut-24178864.html"><span class="sold-addr">6 Wyngate Road</span><span class="sold-meta">5 bed · 3 bath</span></a><span class="sold-price">$3,857,000</span><span class="sold-when">2026-07-15</span></li>
+<li class="sold-row"><a href="/homes/441-cognewaugh-road-greenwich-connecticut-24178893.html"><span class="sold-addr">441 Cognewaugh Road</span><span class="sold-meta">4 bed · 3 bath</span></a><span class="sold-price">$2,000,000</span><span class="sold-when">2026-07-16</span></li>
+<li class="sold-row"><a href="/homes/14-neil-lane-greenwich-connecticut-24179144.html"><span class="sold-addr">14 Neil Lane</span><span class="sold-meta">4 bed · 3 bath</span></a><span class="sold-price">$1,800,000</span><span class="sold-when">2026-07-31</span></li>
+<li class="sold-row"><a href="/homes/51-forest-avenue-greenwich-connecticut-24179472.html"><span class="sold-addr">51 Forest Avenue Unit 43</span><span class="sold-meta">1 bed · 2 bath</span></a><span class="sold-price">$4,400</span><span class="sold-when">2026-06-05</span></li>
+<li class="sold-row"><a href="/homes/271-greenwich-avenue-greenwich-connecticut-24180209.html"><span class="sold-addr">271 Greenwich Avenue Unit 2D</span><span class="sold-meta">1 bed · 1 bath</span></a><span class="sold-price">$2,675</span><span class="sold-when">2026-06-10</span></li>
+<li class="sold-row"><a href="/homes/40-mianus-view-terrace-greenwich-connecticut-24180823.html"><span class="sold-addr">40 Mianus View Terrace</span><span class="sold-meta">4 bed · 4 bath</span></a><span class="sold-price">$12,000</span><span class="sold-when">2026-06-27</span></li>
+<li class="sold-row"><a href="/homes/28-pleasant-street-greenwich-connecticut-24180840.html"><span class="sold-addr">28 Pleasant Street</span><span class="sold-meta">4 bed · 3 bath</span></a><span class="sold-price">$6,400</span><span class="sold-when">2026-06-11</span></li>
+<li class="sold-row"><a href="/homes/22-essex-road-greenwich-connecticut-24181228.html"><span class="sold-addr">22 Essex Road</span><span class="sold-meta">4 bed · 2 bath</span></a><span class="sold-price">$6,200</span><span class="sold-when">2026-06-26</span></li>
+<li class="sold-row"><a href="/homes/7-bible-street-greenwich-connecticut-24183550.html"><span class="sold-addr">7 Bible Street Unit 1</span><span class="sold-meta">2 bed · 1 bath</span></a><span class="sold-price">$2,950</span><span class="sold-when">2026-07-03</span></li>
+<li class="sold-row"><a href="/homes/84-sherwood-place-greenwich-connecticut-24183769.html"><span class="sold-addr">84 Sherwood Place Unit 1</span><span class="sold-meta">2 bed · 1 bath</span></a><span class="sold-price">$3,299</span><span class="sold-when">2026-07-15</span></li>
+<li class="sold-row"><a href="/homes/84-sherwood-place-greenwich-connecticut-24183777.html"><span class="sold-addr">84 Sherwood Place Unit 2</span><span class="sold-meta">2 bed · 1 bath</span></a><span class="sold-price">$3,538</span><span class="sold-when">2026-06-26</span></li>
+<li class="sold-row"><a href="/homes/4-putnam-hill-greenwich-connecticut-24183906.html"><span class="sold-addr">4 Putnam Hill Unit 4H</span><span class="sold-meta">3 bed · 2 bath</span></a><span class="sold-price">$1,302,000</span><span class="sold-when">2026-07-16</span></li>
+<li class="sold-row"><a href="/homes/7-hearthstone-drive-greenwich-connecticut-24183996.html"><span class="sold-addr">7 Hearthstone Drive</span><span class="sold-meta">5 bed · 6 bath</span></a><span class="sold-price">$6,302,500</span><span class="sold-when">2026-07-14</span></li>
+<li class="sold-row"><a href="/homes/88-orchard-street-greenwich-connecticut-24184691.html"><span class="sold-addr">88 Orchard Street</span><span class="sold-meta">5 bed · 4 bath</span></a><span class="sold-price">$11,000</span><span class="sold-when">2026-07-30</span></li>
+<li class="sold-row"><a href="/homes/31-connecticut-avenue-greenwich-connecticut-24185409.html"><span class="sold-addr">31 Connecticut Avenue</span><span class="sold-meta">5 bed · 3 bath</span></a><span class="sold-price">$8,700</span><span class="sold-when">2026-06-30</span></li>
+<li class="sold-row"><a href="/homes/17-kenilworth-terrace-greenwich-connecticut-24185753.html"><span class="sold-addr">17 Kenilworth Terrace</span><span class="sold-meta">6 bed · 5 bath</span></a><span class="sold-price">$4,450,000</span><span class="sold-when">2026-08-06</span></li>
+<li class="sold-row"><a href="/homes/35-dartmouth-road-greenwich-connecticut-24186251.html"><span class="sold-addr">35 Dartmouth Road</span><span class="sold-meta">4 bed · 5 bath</span></a><span class="sold-price">$17,500</span><span class="sold-when">2026-07-30</span></li>
+<li class="sold-row"><a href="/homes/243-glenville-road-greenwich-connecticut-24186615.html"><span class="sold-addr">243 Glenville Road Unit 2nd Floor</span><span class="sold-meta">1 bed · 1 bath</span></a><span class="sold-price">$2,300</span><span class="sold-when">2026-08-03</span></li>
+<li class="sold-row"><a href="/homes/271-greenwich-avenue-greenwich-connecticut-24186622.html"><span class="sold-addr">271 Greenwich Avenue Unit 1B</span><span class="sold-meta">2 bed · 1 bath</span></a><span class="sold-price">$3,400</span><span class="sold-when">2026-07-22</span></li>
+<li class="sold-row"><a href="/homes/9-pemberwick-road-greenwich-connecticut-24187114.html"><span class="sold-addr">9 Pemberwick Road</span><span class="sold-meta">2 bed · 2 bath</span></a><span class="sold-price">$4,600</span><span class="sold-when">2026-07-02</span></li>
+<li class="sold-row"><a href="/homes/8-ridge-place-greenwich-connecticut-24187117.html"><span class="sold-addr">8 Ridge Place Unit 1</span><span class="sold-meta">3 bed · 3 bath</span></a><span class="sold-price">$5,900</span><span class="sold-when">2026-07-09</span></li>
+<li class="sold-row"><a href="/homes/205-south-water-street-greenwich-connecticut-24187589.html"><span class="sold-addr">205 South Water Street Unit 1</span><span class="sold-meta">2 bed · 1 bath</span></a><span class="sold-price">$3,100</span><span class="sold-when">2026-08-05</span></li>
+<li class="sold-row"><a href="/homes/332-riversville-road-greenwich-connecticut-24187874.html"><span class="sold-addr">332 Riversville Road</span><span class="sold-meta">4 bed · 3 bath</span></a><span class="sold-price">$7,500</span><span class="sold-when">2026-08-03</span></li>
+<li class="sold-row"><a href="/homes/59-church-street-greenwich-connecticut-24188438.html"><span class="sold-addr">59 Church Street Unit 6</span><span class="sold-meta">1 bed · 1 bath</span></a><span class="sold-price">$2,400</span><span class="sold-when">2026-07-13</span></li>
+<li class="sold-row"><a href="/homes/3-old-club-house-road-greenwich-connecticut-24189228.html"><span class="sold-addr">3 Old Club House Road</span><span class="sold-meta">5 bed · 4 bath</span></a><span class="sold-price">$15,000</span><span class="sold-when">2026-07-21</span></li>
+<li class="sold-row"><a href="/homes/225-hamilton-avenue-greenwich-connecticut-24190685.html"><span class="sold-addr">225 Hamilton Avenue Unit 1</span><span class="sold-meta">2 bed · 1 bath</span></a><span class="sold-price">$3,600</span><span class="sold-when">2026-07-20</span></li>
+<li class="sold-row"><a href="/homes/115-east-elm-street-greenwich-connecticut-24188694.html"><span class="sold-addr">115 East Elm Street</span><span class="sold-meta">4 bed · 4 bath</span></a><span class="sold-price">$14,950</span><span class="sold-when">2026-08-10</span></li>
+<li class="sold-row"><a href="/homes/33-cliffdale-road-greenwich-connecticut-24163978.html"><span class="sold-addr">33 Cliffdale Road</span><span class="sold-meta">5 bed · 5 bath</span></a><span class="sold-price">$4,260,000</span><span class="sold-when">2026-08-04</span></li>
+<li class="sold-row"><a href="/homes/22-mallard-drive-greenwich-connecticut-24178567.html"><span class="sold-addr">22 Mallard Drive</span><span class="sold-meta">4 bed · 4 bath</span></a><span class="sold-price">$2,850,000</span><span class="sold-when">2026-07-24</span></li>
+<li class="sold-row"><a href="/homes/greenwich-connecticut-24162737.html"><span class="sold-addr">Address available on request</span><span class="sold-meta">4 bed · 3 bath</span></a><span class="sold-price">$3,875,000</span><span class="sold-when">2026-07-31</span></li>
+<li class="sold-row"><a href="/homes/21-neil-lane-greenwich-connecticut-24194354.html"><span class="sold-addr">21 Neil Lane Unit B</span><span class="sold-meta">2 bed · 2 bath</span></a><span class="sold-price">$4,500</span><span class="sold-when">2026-08-12</span></li>
+<li class="sold-row"><a href="/homes/25-griffith-road-greenwich-connecticut-24180498.html"><span class="sold-addr">25 Griffith Road</span><span class="sold-meta">4 bed · 4 bath</span></a><span class="sold-price">$12,500</span><span class="sold-when">2026-08-01</span></li>
+<li class="sold-row"><a href="/homes/36-almira-drive-greenwich-connecticut-24188168.html"><span class="sold-addr">36 Almira Drive Unit A</span><span class="sold-meta">4 bed · 4 bath</span></a><span class="sold-price">$1,805,000</span><span class="sold-when">2026-08-11</span></li>
+<li class="sold-row"><a href="/homes/7-river-road-greenwich-connecticut-24141363.html"><span class="sold-addr">7 River Road Unit 310</span><span class="sold-meta">2 bed · 2 bath</span></a><span class="sold-price">$5,500</span><span class="sold-when">2026-03-19</span></li>
+</ul>
+<p style="margin-top:26px"><a href="/sold/">← Back to all recently sold</a></p>
+</main>
+<footer><div class="wrap"><div class="fgrid">
+<div class="col"><div class="fbrand"><img src="/assets/logo-white.png" alt="Downtown Stamford logo"><span class="wm">Downtown Stamford</span></div>
+<p>Real estate made simple. Helping Stamford, CT buy, sell, and rent with real exposure and real results.</p></div>
+<div class="col"><h4>Explore</h4><a href="/homes-for-sale-stamford.html">Homes for Sale in Stamford</a><a href="/stamford-apartments-for-rent.html">Stamford Apartments for Rent</a><a href="/homes/">All Listings</a><a href="/sold/">Recently Sold</a><a href="/neighborhoods.html">Neighborhoods</a><a href="/blog.html">Blog</a><a href="/contact.html">Contact</a></div>
+<div class="col"><h4>Contact</h4><a href="tel:2038833399">203·883·3399</a><a href="mailto:John@dtstamford.com">John@dtstamford.com</a><p>Stamford, Connecticut</p><p>Jarah Tuttle LLC</p></div>
+</div><div class="fbot"><span>© 2026 Downtown Stamford · John Restrepo</span><span>Real Estate Made Simple.</span></div></div></footer>
+</body>
+</html>

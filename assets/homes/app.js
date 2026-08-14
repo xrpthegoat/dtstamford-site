@@ -1280,9 +1280,13 @@ function teardownDrawer() {
   $('#drawer').setAttribute('aria-hidden', 'true');
   setTimeout(() => { $('#scrim').hidden = true; $('#drawerBody').innerHTML = ''; }, 400);
 }
+let _drawerClosing = false;   // double-close guard: scrim tap + Escape in the same beat fired
+                              // history.back() twice — the second one navigated the visitor OFF
+                              // the search page entirely (usually clean off the site).
 function closeDetail() {
-  if (_drawerHistOpen) { history.back(); }   // symmetric with the pushState on open → popstate tears down
-  else { teardownDrawer(); }                 // fallback when no history entry was pushed
+  if (_drawerClosing) return;
+  if (_drawerHistOpen) { _drawerClosing = true; history.back(); }  // popstate tears down + resets
+  else { teardownDrawer(); }
 }
 
 /* ---------- full-screen photo viewer (lightbox) ---------- */
@@ -1629,7 +1633,7 @@ function wireControls() {
   // hardware/browser Back (or the history.back() from closeDetail) pops our entry → tear the drawer down,
   // page stays put. Flag cleared so the next open pushes a fresh entry.
   window.addEventListener('popstate', () => {
-    if (_drawerHistOpen) { _drawerHistOpen = false; teardownDrawer(); }
+    if (_drawerHistOpen) { _drawerHistOpen = false; _drawerClosing = false; teardownDrawer(); }
   });
 }
 function closeDrops() { $$('.drop.is-active').forEach(d => { d.classList.remove('is-active'); d.querySelector('.drop-btn').setAttribute('aria-expanded', 'false'); }); }

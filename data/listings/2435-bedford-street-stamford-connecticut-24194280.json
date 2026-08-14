@@ -90,22 +90,22 @@
    "elementary": null,
    "middle": null,
    "high": null,
-   "lookup": "https://www.stamfordpublicschools.org/school-finder"
+   "lookup": "https://www.stamfordpublicschools.org/"
   },
   "grocery": [
-   {
-    "n": "Bev-Max",
-    "mi": 0.07,
-    "lat": 41.068152,
-    "lng": -73.545451,
-    "walk": 1
-   },
    {
     "n": "Stop & Shop",
     "mi": 0.07,
     "lat": 41.067985,
     "lng": -73.544961,
     "walk": 1
+   },
+   {
+    "n": "Whole Foods Market",
+    "mi": 0.49,
+    "lat": 41.074787,
+    "lng": -73.550452,
+    "walk": 10
    }
   ],
   "pharmacy": {
@@ -132,88 +132,32 @@
  },
  "comps": [
   {
-   "mls": "24159111",
-   "slug": "30-riverside-avenue-stamford-connecticut-24159111",
+   "mls": "24179598",
+   "slug": "2289-bedford-street-stamford-connecticut-24179598",
    "address": {
-    "line": "30 Riverside Avenue",
-    "unit": "Unit B",
-    "lineWithUnit": "30 Riverside Avenue Unit B",
+    "line": "2289 Bedford Street",
+    "unit": "Unit D13",
+    "lineWithUnit": "2289 Bedford Street Unit D13",
     "city": "Stamford",
     "state": "Connecticut",
     "zip": "06905"
    },
    "beds": 1.0,
-   "baths": 1.0,
-   "sqft": 730.0,
-   "acres": 0.29,
-   "price": 2500.0,
-   "date": "2026-03-18",
-   "listingType": "rent",
-   "geo": {
-    "lat": 41.066103,
-    "lng": -73.550917
-   },
-   "klass": "rental",
-   "tier": 3,
-   "why": "Within a 15-minute walk, sold in the last year",
-   "km": 0.6026072788844807,
-   "ppsf": 3.4246575342465753
-  },
-  {
-   "mls": "24150210",
-   "slug": "2475-summer-street-stamford-connecticut-24150210",
-   "address": {
-    "line": "2475 Summer Street",
-    "unit": "Apt 3H",
-    "lineWithUnit": "2475 Summer Street Apt 3H",
-    "city": "Stamford",
-    "state": "Connecticut",
-    "zip": "06905"
-   },
-   "beds": 1.0,
-   "baths": 1.0,
-   "sqft": 689.0,
+   "baths": 2.0,
+   "sqft": 1066.0,
    "acres": null,
-   "price": 2250.0,
-   "date": "2026-04-01",
+   "price": 3200.0,
+   "date": "2026-06-30",
    "listingType": "rent",
    "geo": {
-    "lat": 41.068597,
-    "lng": -73.547851
+    "lat": 41.068822,
+    "lng": -73.544718
    },
    "klass": "rental",
    "tier": 3,
    "why": "Within a 15-minute walk, sold in the last year",
-   "km": 0.2542188665347575,
-   "ppsf": 3.265602322206096
-  },
-  {
-   "mls": "24154184",
-   "slug": "1-reynolds-avenue-stamford-connecticut-24154184",
-   "address": {
-    "line": "1 Reynolds Avenue",
-    "unit": "Unit Upstairs",
-    "lineWithUnit": "1 Reynolds Avenue Unit Upstairs",
-    "city": "Stamford",
-    "state": "Connecticut",
-    "zip": "06905"
-   },
-   "beds": 2.0,
-   "baths": 1.0,
-   "sqft": 768.0,
-   "acres": 0.11,
-   "price": 2600.0,
-   "date": "2026-03-20",
-   "listingType": "rent",
-   "geo": {
-    "lat": 41.070049,
-    "lng": -73.554426
-   },
-   "klass": "rental",
-   "tier": 3,
-   "why": "Within a 15-minute walk, sold in the last year",
-   "km": 0.8084120260387044,
-   "ppsf": 3.3854166666666665
+   "km": 0.02762324868541841,
+   "ppsf": 3.0018761726078798
   },
   {
    "mls": "24164640",
@@ -244,32 +188,88 @@
    "ppsf": 2.8063610851262863
   },
   {
-   "mls": "24176071",
-   "slug": "1-rock-spring-road-stamford-connecticut-24176071",
+   "mls": "24150210",
+   "slug": "2475-summer-street-stamford-connecticut-24150210",
    "address": {
-    "line": "1 Rock Spring Road",
-    "unit": null,
-    "lineWithUnit": "1 Rock Spring Road",
+    "line": "2475 Summer Street",
+    "unit": "Apt 3H",
+    "lineWithUnit": "2475 Summer Street Apt 3H",
     "city": "Stamford",
     "state": "Connecticut",
-    "zip": "06906"
+    "zip": "06905"
    },
-   "beds": 2.0,
-   "baths": 2.0,
-   "sqft": 850.0,
-   "acres": 0.19,
-   "price": 2500.0,
-   "date": "2026-06-29",
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 689.0,
+   "acres": null,
+   "price": 2250.0,
+   "date": "2026-04-01",
    "listingType": "rent",
    "geo": {
-    "lat": 41.065544,
-    "lng": -73.532684
+    "lat": 41.068597,
+    "lng": -73.547851
    },
    "klass": "rental",
    "tier": 3,
    "why": "Within a 15-minute walk, sold in the last year",
-   "km": 1.09353425522065,
-   "ppsf": 2.9411764705882355
+   "km": 0.2542188665347575,
+   "ppsf": 3.265602322206096
+  },
+  {
+   "mls": "24167197",
+   "slug": "1872-bedford-street-stamford-connecticut-24167197",
+   "address": {
+    "line": "1872 Bedford Street",
+    "unit": "Unit 2",
+    "lineWithUnit": "1872 Bedford Street Unit 2",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 900.0,
+   "acres": 0.17,
+   "price": 3300.0,
+   "date": "2026-05-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.066486,
+    "lng": -73.5428
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.33307768100360874,
+   "ppsf": 3.6666666666666665
+  },
+  {
+   "mls": "24171932",
+   "slug": "140-summer-street-stamford-connecticut-24171932",
+   "address": {
+    "line": "140 Summer Street",
+    "unit": "Unit 1A",
+    "lineWithUnit": "140 Summer Street Unit 1A",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06901"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 816.0,
+   "acres": null,
+   "price": 2300.0,
+   "date": "2026-06-11",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.06602,
+    "lng": -73.54656
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.3642776178357142,
+   "ppsf": 2.8186274509803924
   }
  ]
 }

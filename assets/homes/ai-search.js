@@ -136,7 +136,9 @@ function parse(text) {
   /* ---- rent vs buy. Rentals in this feed are all propertyType "Residential Rental",
          so a home-type filter is only ever applied to sale searches (see below). ---- */
   if (/\brent(al|als|ing)?\b|\blease\b|for rent|\/mo\b|per month|a month|monthly/.test(s)) out.listingType = 'rent';
-  if (/\bbuy(ing)?\b|purchase|for sale|own(ing)?\b|mortgage/.test(s)) out.listingType = 'sale';
+  // \b on BOTH sides of own: without the left boundary, 'downtown' (and 'town') matched
+  // own(ing)? and silently classified every downtown query as a FOR-SALE search.
+  if (/\bbuy(ing)?\b|purchase|for sale|\bown(ing)?\b|mortgage/.test(s)) out.listingType = 'sale';
   if (out.listingType == null && out.priceMax != null && out.priceMax <= 15000) out.listingType = 'rent';   // "under $3,500" is a rent budget
 
   /* ---- home type (sale only) ---- */

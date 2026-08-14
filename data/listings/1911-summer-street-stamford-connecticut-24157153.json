@@ -100,7 +100,7 @@
    "elementary": null,
    "middle": null,
    "high": null,
-   "lookup": "https://www.stamfordpublicschools.org/school-finder"
+   "lookup": "https://www.stamfordpublicschools.org/"
   },
   "grocery": [
    {
@@ -111,11 +111,10 @@
     "walk": 3
    },
    {
-    "n": "Bev-Max",
-    "mi": 0.19,
-    "lat": 41.068152,
-    "lng": -73.545451,
-    "walk": 4
+    "n": "Whole Foods Market",
+    "mi": 0.71,
+    "lat": 41.074787,
+    "lng": -73.550452
    }
   ],
   "pharmacy": {
@@ -141,6 +140,34 @@
   }
  },
  "comps": [
+  {
+   "mls": "24180176",
+   "slug": "112-fourth-street-stamford-connecticut-24180176",
+   "address": {
+    "line": "112 Fourth Street",
+    "unit": null,
+    "lineWithUnit": "112 Fourth Street",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 2998.0,
+   "acres": 0.15,
+   "price": 5650.0,
+   "date": "2026-07-31",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.066105,
+    "lng": -73.540764
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.27128851092382716,
+   "ppsf": 1.884589726484323
+  },
   {
    "mls": "24180013",
    "slug": "237-strawberry-hill-avenue-stamford-connecticut-24180013",
@@ -168,34 +195,6 @@
    "why": "Within a 15-minute walk, sold in the last year",
    "km": 0.987367133232958,
    "ppsf": 1.5331010452961673
-  },
-  {
-   "mls": "24189569",
-   "slug": "115-71-colonial-road-stamford-connecticut-24189569",
-   "address": {
-    "line": "115-71 Colonial Road",
-    "unit": null,
-    "lineWithUnit": "115-71 Colonial Road",
-    "city": "Stamford",
-    "state": "Connecticut",
-    "zip": "06902"
-   },
-   "beds": 3.0,
-   "baths": 4.0,
-   "sqft": 2582.0,
-   "acres": null,
-   "price": 5200.0,
-   "date": "2026-08-01",
-   "listingType": "rent",
-   "geo": {
-    "lat": 41.070719,
-    "lng": -73.531757
-   },
-   "klass": "rental",
-   "tier": 3,
-   "why": "Within a 15-minute walk, sold in the last year",
-   "km": 1.1657790820386198,
-   "ppsf": 2.0139426800929514
   },
   {
    "mls": "24171720",
@@ -254,32 +253,32 @@
    "ppsf": 1.3654329859863457
   },
   {
-   "mls": "24180176",
-   "slug": "112-fourth-street-stamford-connecticut-24180176",
+   "mls": "24189569",
+   "slug": "115-71-colonial-road-stamford-connecticut-24189569",
    "address": {
-    "line": "112 Fourth Street",
+    "line": "115-71 Colonial Road",
     "unit": null,
-    "lineWithUnit": "112 Fourth Street",
+    "lineWithUnit": "115-71 Colonial Road",
     "city": "Stamford",
     "state": "Connecticut",
-    "zip": "06905"
+    "zip": "06902"
    },
-   "beds": 4.0,
+   "beds": 3.0,
    "baths": 4.0,
-   "sqft": 2998.0,
-   "acres": 0.15,
-   "price": 5650.0,
-   "date": "2026-07-31",
+   "sqft": 2582.0,
+   "acres": null,
+   "price": 5200.0,
+   "date": "2026-08-01",
    "listingType": "rent",
    "geo": {
-    "lat": 41.066105,
-    "lng": -73.540764
+    "lat": 41.070719,
+    "lng": -73.531757
    },
    "klass": "rental",
    "tier": 3,
    "why": "Within a 15-minute walk, sold in the last year",
-   "km": 0.27128851092382716,
-   "ppsf": 1.884589726484323
+   "km": 1.1657790820386198,
+   "ppsf": 2.0139426800929514
   }
  ]
 }

@@ -56,10 +56,6 @@
  ],
  "primaryPhotoOnly": false,
  "updated": "2026-07-03T23:20:45",
- "geo": {
-  "lat": 41.120143,
-  "lng": -73.462356
- },
  "facts": {
   "dom": 141,
   "listed": "2026-03-26",
@@ -98,6 +94,7 @@
   "directWaterfront": "0"
  },
  "indexable": false,
+ "geo": null,
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
   "attribution": "Listing data provided courtesy of SmartMLS."
@@ -107,177 +104,149 @@
    "elementary": null,
    "middle": null,
    "high": null,
-   "lookup": "https://www.norwalkps.org/schools/school-finder/"
-  },
-  "grocery": [
-   {
-    "n": "ShopRite",
-    "mi": 1.67,
-    "lat": 41.102466,
-    "lng": -73.440521
-   },
-   {
-    "n": "Patel Brothers",
-    "mi": 1.79,
-    "lat": 41.102906,
-    "lng": -73.436767
-   }
-  ],
-  "pharmacy": {
-   "n": "CVS Pharmacy",
-   "mi": 1.88,
-   "lat": 41.102472,
-   "lng": -73.434944,
-   "chain": "CVS"
-  },
-  "train": {
-   "n": "Talmadge Hill",
-   "mi": 1.87,
-   "lat": 41.116381,
-   "lng": -73.497984,
-   "line": "Metro-North Railroad"
+   "lookup": "https://www.norwalkps.org/"
   }
  },
  "comps": [
   {
-   "mls": "24172799",
-   "slug": "49-weed-avenue-norwalk-connecticut-24172799",
+   "mls": "24187658",
+   "slug": "82-county-street-norwalk-connecticut-24187658",
    "address": {
-    "line": "49 Weed Avenue",
+    "line": "82 County Street",
     "unit": null,
-    "lineWithUnit": "49 Weed Avenue",
+    "lineWithUnit": "82 County Street",
     "city": "Norwalk",
     "state": "Connecticut",
-    "zip": "06850"
-   },
-   "beds": 4.0,
-   "baths": 3.0,
-   "sqft": 3190.0,
-   "acres": 1.4,
-   "price": 1750000.0,
-   "date": "2026-07-10",
-   "listingType": "sale",
-   "geo": {
-    "lat": 41.12041,
-    "lng": -73.461527
-   },
-   "klass": "house",
-   "tier": 3,
-   "why": "Within a 15-minute walk, sold in the last year",
-   "km": 0.07552282000940608,
-   "ppsf": 548.58934169279
-  },
-  {
-   "mls": "24158941",
-   "slug": "7-douglas-drive-norwalk-connecticut-24158941",
-   "address": {
-    "line": "7 Douglas Drive",
-    "unit": null,
-    "lineWithUnit": "7 Douglas Drive",
-    "city": "Norwalk",
-    "state": "Connecticut",
-    "zip": "06850"
-   },
-   "beds": 3.0,
-   "baths": 2.0,
-   "sqft": 2022.0,
-   "acres": 1.09,
-   "price": 960000.0,
-   "date": "2026-04-24",
-   "listingType": "sale",
-   "geo": {
-    "lat": 41.123618,
-    "lng": -73.456728
-   },
-   "klass": "house",
-   "tier": 3,
-   "why": "Within a 15-minute walk, sold in the last year",
-   "km": 0.6095489023821233,
-   "ppsf": 474.7774480712166
-  },
-  {
-   "mls": "24161013",
-   "slug": "7-gray-squirrel-drive-norwalk-connecticut-24161013",
-   "address": {
-    "line": "7 Gray Squirrel Drive",
-    "unit": null,
-    "lineWithUnit": "7 Gray Squirrel Drive",
-    "city": "Norwalk",
-    "state": "Connecticut",
-    "zip": "06850"
+    "zip": "06851"
    },
    "beds": 4.0,
    "baths": 4.0,
-   "sqft": 2439.0,
-   "acres": 1.11,
-   "price": 1165000.0,
-   "date": "2026-06-03",
+   "sqft": 2820.0,
+   "acres": 0.32,
+   "price": 800000.0,
+   "date": "2026-08-14",
    "listingType": "sale",
    "geo": {
-    "lat": 41.124064,
-    "lng": -73.466959
+    "lat": 41.123955,
+    "lng": -73.385968
    },
    "klass": "house",
-   "tier": 3,
-   "why": "Within a 15-minute walk, sold in the last year",
-   "km": 0.582025423882915,
-   "ppsf": 477.6547765477655
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": null,
+   "ppsf": 283.68794326241135
   },
   {
-   "mls": "24172973",
-   "slug": "2-rising-road-norwalk-connecticut-24172973",
+   "mls": "24173903",
+   "slug": "8-lincoln-avenue-norwalk-connecticut-24173903",
    "address": {
-    "line": "2 Rising Road",
+    "line": "8 Lincoln Avenue",
     "unit": null,
-    "lineWithUnit": "2 Rising Road",
+    "lineWithUnit": "8 Lincoln Avenue",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1967.0,
+   "acres": 0.18,
+   "price": 580000.0,
+   "date": "2026-08-10",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.090841,
+    "lng": -73.415057
+   },
+   "klass": "house",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": null,
+   "ppsf": 294.8652770716828
+  },
+  {
+   "mls": "24182589",
+   "slug": "41-ledgewood-drive-norwalk-connecticut-24182589",
+   "address": {
+    "line": "41 Ledgewood Drive",
+    "unit": null,
+    "lineWithUnit": "41 Ledgewood Drive",
     "city": "Norwalk",
     "state": "Connecticut",
     "zip": "06850"
    },
    "beds": 4.0,
    "baths": 3.0,
-   "sqft": 2660.0,
-   "acres": 0.52,
-   "price": 1025000.0,
-   "date": "2026-07-31",
+   "sqft": 1832.0,
+   "acres": 0.36,
+   "price": 750000.0,
+   "date": "2026-08-10",
    "listingType": "sale",
    "geo": {
-    "lat": 41.110439,
-    "lng": -73.465089
+    "lat": 41.127762,
+    "lng": -73.443947
    },
    "klass": "house",
-   "tier": 3,
-   "why": "Within a 15-minute walk, sold in the last year",
-   "km": 1.1030577909040082,
-   "ppsf": 385.3383458646617
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": null,
+   "ppsf": 409.3886462882096
   },
   {
-   "mls": "24179937",
-   "slug": "13-alewives-road-norwalk-connecticut-24179937",
+   "mls": "24181729",
+   "slug": "8-mayflower-road-norwalk-connecticut-24181729",
    "address": {
-    "line": "13 Alewives Road",
+    "line": "8 Mayflower Road",
     "unit": null,
-    "lineWithUnit": "13 Alewives Road",
+    "lineWithUnit": "8 Mayflower Road",
     "city": "Norwalk",
     "state": "Connecticut",
-    "zip": "06850"
+    "zip": "06851"
    },
    "beds": 3.0,
    "baths": 2.0,
-   "sqft": 2175.0,
-   "acres": 0.91,
-   "price": 940000.0,
-   "date": "2026-07-02",
+   "sqft": 3010.0,
+   "acres": 1.25,
+   "price": 760000.0,
+   "date": "2026-08-07",
    "listingType": "sale",
    "geo": {
-    "lat": 41.114195,
-    "lng": -73.465159
+    "lat": 41.142847,
+    "lng": -73.453003
    },
    "klass": "house",
-   "tier": 3,
-   "why": "Within a 15-minute walk, sold in the last year",
-   "km": 0.7018322302321155,
-   "ppsf": 432.18390804597703
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": null,
+   "ppsf": 252.49169435215947
+  },
+  {
+   "mls": "24178413",
+   "slug": "46-midrocks-drive-norwalk-connecticut-24178413",
+   "address": {
+    "line": "46 Midrocks Drive",
+    "unit": null,
+    "lineWithUnit": "46 Midrocks Drive",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2829.0,
+   "acres": 0.58,
+   "price": 1131550.0,
+   "date": "2026-08-07",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.143266,
+    "lng": -73.415043
+   },
+   "klass": "house",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": null,
+   "ppsf": 399.98232591021565
   }
  ]
 }

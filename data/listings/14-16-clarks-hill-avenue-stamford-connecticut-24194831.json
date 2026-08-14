@@ -67,7 +67,7 @@
    "elementary": null,
    "middle": null,
    "high": null,
-   "lookup": "https://www.stamfordpublicschools.org/school-finder"
+   "lookup": "https://www.stamfordpublicschools.org/"
   },
   "grocery": [
    {
@@ -108,34 +108,6 @@
  },
  "comps": [
   {
-   "mls": "24145712",
-   "slug": "369-west-main-street-stamford-connecticut-24145712",
-   "address": {
-    "line": "369 West Main Street",
-    "unit": null,
-    "lineWithUnit": "369 West Main Street",
-    "city": "Stamford",
-    "state": "Connecticut",
-    "zip": "06902"
-   },
-   "beds": null,
-   "baths": null,
-   "sqft": 600.0,
-   "acres": null,
-   "price": 2000.0,
-   "date": "2026-04-26",
-   "listingType": "rent",
-   "geo": {
-    "lat": 41.048339,
-    "lng": -73.553303
-   },
-   "klass": "commercial",
-   "tier": 4,
-   "why": "Within about a mile and a half, sold in the last 2 years",
-   "km": 2.1303281845596196,
-   "ppsf": 3.3333333333333335
-  },
-  {
    "mls": "24166414",
    "slug": "1886-bedford-street-stamford-connecticut-24166414",
    "address": {
@@ -162,6 +134,34 @@
    "why": "Within about a mile and a half, sold in the last 2 years",
    "km": 1.7363927819058589,
    "ppsf": null
+  },
+  {
+   "mls": "24145712",
+   "slug": "369-west-main-street-stamford-connecticut-24145712",
+   "address": {
+    "line": "369 West Main Street",
+    "unit": null,
+    "lineWithUnit": "369 West Main Street",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": null,
+   "baths": null,
+   "sqft": 600.0,
+   "acres": null,
+   "price": 2000.0,
+   "date": "2026-04-26",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.048339,
+    "lng": -73.553303
+   },
+   "klass": "commercial",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 2.1303281845596196,
+   "ppsf": 3.3333333333333335
   },
   {
    "mls": "24158568",
@@ -209,14 +209,11 @@
    "price": 4000.0,
    "date": "2026-07-28",
    "listingType": "rent",
-   "geo": {
-    "lat": 41.078996,
-    "lng": -73.520479
-   },
+   "geo": {},
    "klass": "commercial",
    "tier": 5,
    "why": "Same town, sold in the last 3 years",
-   "km": 2.7971006988944445,
+   "km": null,
    "ppsf": null
   }
  ]

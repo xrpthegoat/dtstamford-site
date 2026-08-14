@@ -54,10 +54,6 @@
  ],
  "primaryPhotoOnly": false,
  "updated": "2026-06-29T11:52:16",
- "geo": {
-  "lat": 41.07239,
-  "lng": -73.510704
- },
  "facts": {
   "dom": 46,
   "listed": "2026-06-29",
@@ -82,6 +78,7 @@
   "directWaterfront": "0"
  },
  "indexable": false,
+ "geo": null,
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
   "attribution": "Listing data provided courtesy of SmartMLS."
@@ -92,127 +89,36 @@
    "middle": null,
    "high": "Darien",
    "lookup": "https://www.darienps.org/schools"
-  },
-  "grocery": [
-   {
-    "n": "ShopRite",
-    "mi": 0.65,
-    "lat": 41.076777,
-    "lng": -73.52182
-   },
-   {
-    "n": "Palmer's Market",
-    "mi": 0.78,
-    "lat": 41.06993,
-    "lng": -73.496153
-   }
-  ],
-  "pharmacy": {
-   "n": "CVS Pharmacy",
-   "mi": 1.6,
-   "lat": 41.094568,
-   "lng": -73.519663,
-   "chain": "CVS"
-  },
-  "train": {
-   "n": "Glenbrook",
-   "mi": 0.49,
-   "lat": 41.07105,
-   "lng": -73.519888,
-   "walk": 10,
-   "line": "Metro-North Railroad"
-  },
-  "bus": {
-   "n": "Heights Rd @ 310 Heights Rd",
-   "mi": 0.74,
-   "lat": 41.069283,
-   "lng": -73.497099
   }
  },
  "comps": [
   {
-   "mls": "24160295",
-   "slug": "340-heights-road-darien-connecticut-24160295",
+   "mls": "24188423",
+   "slug": "340-heights-road-darien-connecticut-24188423",
    "address": {
     "line": "340 Heights Road",
-    "unit": "Unit 308",
-    "lineWithUnit": "340 Heights Road Unit 308",
+    "unit": "Unit 307",
+    "lineWithUnit": "340 Heights Road Unit 307",
     "city": "Darien",
     "state": "Connecticut",
     "zip": "06820"
    },
    "beds": 1.0,
    "baths": 1.0,
-   "sqft": 965.0,
+   "sqft": 777.0,
    "acres": null,
-   "price": 4600.0,
-   "date": "2026-03-24",
+   "price": 3950.0,
+   "date": "2026-08-14",
    "listingType": "rent",
    "geo": {
-    "lat": 41.06953,
-    "lng": -73.49892
+    "lat": 41.069534,
+    "lng": -73.498392
    },
    "klass": "rental",
-   "tier": 3,
-   "why": "Within a 15-minute walk, sold in the last year",
-   "km": 1.0377743683215896,
-   "ppsf": 4.766839378238342
-  },
-  {
-   "mls": "24160971",
-   "slug": "440-heights-road-darien-connecticut-24160971",
-   "address": {
-    "line": "440 Heights Road",
-    "unit": "Unit 210",
-    "lineWithUnit": "440 Heights Road Unit 210",
-    "city": "Darien",
-    "state": "Connecticut",
-    "zip": "06820"
-   },
-   "beds": 2.0,
-   "baths": 3.0,
-   "sqft": 1236.0,
-   "acres": null,
-   "price": 6500.0,
-   "date": "2026-04-25",
-   "listingType": "rent",
-   "geo": {
-    "lat": 41.069739,
-    "lng": -73.498562
-   },
-   "klass": "rental",
-   "tier": 3,
-   "why": "Within a 15-minute walk, sold in the last year",
-   "km": 1.0596811857726753,
-   "ppsf": 5.258899676375404
-  },
-  {
-   "mls": "24171326",
-   "slug": "440-heights-road-darien-connecticut-24171326",
-   "address": {
-    "line": "440 Heights Road",
-    "unit": "Unit 311",
-    "lineWithUnit": "440 Heights Road Unit 311",
-    "city": "Darien",
-    "state": "Connecticut",
-    "zip": "06820"
-   },
-   "beds": 1.0,
-   "baths": 2.0,
-   "sqft": 1089.0,
-   "acres": null,
-   "price": 6200.0,
-   "date": "2026-05-03",
-   "listingType": "rent",
-   "geo": {
-    "lat": 41.06953,
-    "lng": -73.49892
-   },
-   "klass": "rental",
-   "tier": 3,
-   "why": "Within a 15-minute walk, sold in the last year",
-   "km": 1.0377743683215896,
-   "ppsf": 5.693296602387512
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": null,
+   "ppsf": 5.083655083655084
   },
   {
    "mls": "24176911",
@@ -237,10 +143,66 @@
     "lng": -73.4861
    },
    "klass": "rental",
-   "tier": 4,
-   "why": "Within about a mile and a half, sold in the last 2 years",
-   "km": 2.451827577764045,
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": null,
    "ppsf": 3.763440860215054
+  },
+  {
+   "mls": "24183384",
+   "slug": "885-boston-post-road-darien-connecticut-24183384",
+   "address": {
+    "line": "885 Boston Post Road",
+    "unit": "Unit 2A",
+    "lineWithUnit": "885 Boston Post Road Unit 2A",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 1000.0,
+   "acres": 0.05,
+   "price": 3100.0,
+   "date": "2026-06-29",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.077768,
+    "lng": -73.470124
+   },
+   "klass": "rental",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": null,
+   "ppsf": 3.1
+  },
+  {
+   "mls": "24176214",
+   "slug": "72-west-avenue-darien-connecticut-24176214",
+   "address": {
+    "line": "72 West Avenue",
+    "unit": "Unit B",
+    "lineWithUnit": "72 West Avenue Unit B",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 960.0,
+   "acres": 0.27,
+   "price": 3200.0,
+   "date": "2026-06-14",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.078173,
+    "lng": -73.475852
+   },
+   "klass": "rental",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": null,
+   "ppsf": 3.3333333333333335
   },
   {
    "mls": "24170678",
@@ -265,9 +227,9 @@
     "lng": -73.48683
    },
    "klass": "rental",
-   "tier": 4,
-   "why": "Within about a mile and a half, sold in the last 2 years",
-   "km": 2.3385783366815507,
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": null,
    "ppsf": 4.270186335403727
   }
  ]

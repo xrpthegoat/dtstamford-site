@@ -99,22 +99,22 @@
    "elementary": null,
    "middle": null,
    "high": null,
-   "lookup": "https://www.stamfordpublicschools.org/school-finder"
+   "lookup": "https://www.stamfordpublicschools.org/"
   },
   "grocery": [
-   {
-    "n": "Bev-Max",
-    "mi": 0.41,
-    "lat": 41.068152,
-    "lng": -73.545451,
-    "walk": 8
-   },
    {
     "n": "Stop & Shop",
     "mi": 0.44,
     "lat": 41.067985,
     "lng": -73.544961,
     "walk": 9
+   },
+   {
+    "n": "Whole Foods Market",
+    "mi": 0.53,
+    "lat": 41.074787,
+    "lng": -73.550452,
+    "walk": 11
    }
   ],
   "pharmacy": {
@@ -141,90 +141,6 @@
   }
  },
  "comps": [
-  {
-   "mls": "24174905",
-   "slug": "2289-bedford-street-stamford-connecticut-24174905",
-   "address": {
-    "line": "2289 Bedford Street",
-    "unit": "Unit A9",
-    "lineWithUnit": "2289 Bedford Street Unit A9",
-    "city": "Stamford",
-    "state": "Connecticut",
-    "zip": "06905"
-   },
-   "beds": 1.0,
-   "baths": 2.0,
-   "sqft": 1066.0,
-   "acres": null,
-   "price": 480000.0,
-   "date": "2026-07-02",
-   "listingType": "sale",
-   "geo": {
-    "lat": 41.068822,
-    "lng": -73.544718
-   },
-   "klass": "condo",
-   "tier": 3,
-   "why": "Within a 15-minute walk, sold in the last year",
-   "km": 0.7358113662193666,
-   "ppsf": 450.281425891182
-  },
-  {
-   "mls": "24174433",
-   "slug": "1515-summer-street-stamford-connecticut-24174433",
-   "address": {
-    "line": "1515 Summer Street",
-    "unit": "Unit 506",
-    "lineWithUnit": "1515 Summer Street Unit 506",
-    "city": "Stamford",
-    "state": "Connecticut",
-    "zip": "06905"
-   },
-   "beds": 1.0,
-   "baths": 1.0,
-   "sqft": 893.0,
-   "acres": null,
-   "price": 473000.0,
-   "date": "2026-06-25",
-   "listingType": "sale",
-   "geo": {
-    "lat": 41.063198,
-    "lng": -73.542338
-   },
-   "klass": "condo",
-   "tier": 3,
-   "why": "Within a 15-minute walk, sold in the last year",
-   "km": 1.0297247050185845,
-   "ppsf": 529.6752519596864
-  },
-  {
-   "mls": "24178380",
-   "slug": "1633-washington-boulevard-stamford-connecticut-24178380",
-   "address": {
-    "line": "1633 Washington Boulevard",
-    "unit": "Unit 5F",
-    "lineWithUnit": "1633 Washington Boulevard Unit 5F",
-    "city": "Stamford",
-    "state": "Connecticut",
-    "zip": "06902"
-   },
-   "beds": 1.0,
-   "baths": 2.0,
-   "sqft": 1031.0,
-   "acres": null,
-   "price": 385000.0,
-   "date": "2026-07-20",
-   "listingType": "sale",
-   "geo": {
-    "lat": 41.062023,
-    "lng": -73.543603
-   },
-   "klass": "condo",
-   "tier": 3,
-   "why": "Within a 15-minute walk, sold in the last year",
-   "km": 1.0078871396224534,
-   "ppsf": 373.4238603297769
-  },
   {
    "mls": "24146970",
    "slug": "2475-summer-street-stamford-connecticut-24146970",
@@ -254,32 +170,116 @@
    "ppsf": 390.7203907203907
   },
   {
-   "mls": "24147524",
-   "slug": "1611-washington-boulevard-stamford-connecticut-24147524",
+   "mls": "24183089",
+   "slug": "2289-bedford-street-stamford-connecticut-24183089",
    "address": {
-    "line": "1611 Washington Boulevard",
-    "unit": "Unit PH A",
-    "lineWithUnit": "1611 Washington Boulevard Unit PH A",
+    "line": "2289 Bedford Street",
+    "unit": "Unit I1",
+    "lineWithUnit": "2289 Bedford Street Unit I1",
     "city": "Stamford",
     "state": "Connecticut",
-    "zip": "06901"
+    "zip": "06905"
    },
    "beds": 1.0,
    "baths": 2.0,
-   "sqft": 1080.0,
+   "sqft": 1069.0,
    "acres": null,
-   "price": 495000.0,
-   "date": "2026-03-23",
+   "price": 505000.0,
+   "date": "2026-08-03",
    "listingType": "sale",
    "geo": {
-    "lat": 41.060989,
-    "lng": -73.543363
+    "lat": 41.068822,
+    "lng": -73.544718
    },
    "klass": "condo",
    "tier": 3,
    "why": "Within a 15-minute walk, sold in the last year",
-   "km": 1.095196035628486,
-   "ppsf": 458.3333333333333
+   "km": 0.7358113662193666,
+   "ppsf": 472.4041159962582
+  },
+  {
+   "mls": "24174905",
+   "slug": "2289-bedford-street-stamford-connecticut-24174905",
+   "address": {
+    "line": "2289 Bedford Street",
+    "unit": "Unit A9",
+    "lineWithUnit": "2289 Bedford Street Unit A9",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 1.0,
+   "baths": 2.0,
+   "sqft": 1066.0,
+   "acres": null,
+   "price": 480000.0,
+   "date": "2026-07-02",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.068822,
+    "lng": -73.544718
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7358113662193666,
+   "ppsf": 450.281425891182
+  },
+  {
+   "mls": "24153327",
+   "slug": "2289-bedford-street-stamford-connecticut-24153327",
+   "address": {
+    "line": "2289 Bedford Street",
+    "unit": "Unit A8",
+    "lineWithUnit": "2289 Bedford Street Unit A8",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 1.0,
+   "baths": 2.0,
+   "sqft": 1066.0,
+   "acres": null,
+   "price": 395000.0,
+   "date": "2026-03-27",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.068822,
+    "lng": -73.544718
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7358113662193666,
+   "ppsf": 370.5440900562852
+  },
+  {
+   "mls": "24155626",
+   "slug": "7-4th-street-stamford-connecticut-24155626",
+   "address": {
+    "line": "7 4th Street",
+    "unit": "Apt 3H",
+    "lineWithUnit": "7 4th Street Apt 3H",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 1064.0,
+   "acres": null,
+   "price": 345000.0,
+   "date": "2026-04-07",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.064379,
+    "lng": -73.544883
+   },
+   "klass": "condo",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7802812284801967,
+   "ppsf": 324.2481203007519
   }
  ]
 }

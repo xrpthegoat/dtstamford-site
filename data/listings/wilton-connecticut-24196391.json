@@ -57,10 +57,6 @@
  ],
  "primaryPhotoOnly": false,
  "updated": "2026-08-11T00:35:31",
- "geo": {
-  "lat": 41.241887,
-  "lng": -73.470579
- },
  "facts": {
   "dom": 10,
   "listed": "2026-08-04",
@@ -98,6 +94,7 @@
   "energy": "Thermopane Windows"
  },
  "indexable": false,
+ "geo": null,
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
   "attribution": "Listing data provided courtesy of SmartMLS."
@@ -107,177 +104,149 @@
    "elementary": null,
    "middle": "Middlebrook",
    "high": "Wilton",
-   "lookup": "https://www.wiltonps.org/schools"
-  },
-  "grocery": [
-   {
-    "n": "Caraluzzi's",
-    "mi": 2.16,
-    "lat": 41.256786,
-    "lng": -73.434014
-   },
-   {
-    "n": "Stop & Shop",
-    "mi": 4.03,
-    "lat": 41.191084,
-    "lng": -73.432343
-   }
-  ],
-  "pharmacy": {
-   "n": "CVS Pharmacy",
-   "mi": 2.24,
-   "lat": 41.267243,
-   "lng": -73.44365,
-   "chain": "CVS"
-  },
-  "train": {
-   "n": "Branchville",
-   "mi": 2.29,
-   "lat": 41.266247,
-   "lng": -73.440599,
-   "line": "Metro-North Railroad"
+   "lookup": "https://www.wiltonps.org/"
   }
  },
  "comps": [
   {
-   "mls": "24160141",
-   "slug": "31-longmeadows-road-wilton-connecticut-24160141",
+   "mls": "24170769",
+   "slug": "63-cannon-road-wilton-connecticut-24170769",
    "address": {
-    "line": "31 Longmeadows Road",
+    "line": "63 Cannon Road",
     "unit": null,
-    "lineWithUnit": "31 Longmeadows Road",
+    "lineWithUnit": "63 Cannon Road",
     "city": "Wilton",
     "state": "Connecticut",
     "zip": "06897"
    },
    "beds": 4.0,
    "baths": 3.0,
-   "sqft": 2172.0,
-   "acres": 2.3,
-   "price": 1030000.0,
-   "date": "2026-06-15",
+   "sqft": 1864.0,
+   "acres": 1.2,
+   "price": 875000.0,
+   "date": "2026-08-14",
    "listingType": "sale",
    "geo": {
-    "lat": 41.237092,
-    "lng": -73.476638
-   },
-   "klass": "house",
-   "tier": 3,
-   "why": "Within a 15-minute walk, sold in the last year",
-   "km": 0.7354882244956249,
-   "ppsf": 474.2173112338858
-  },
-  {
-   "mls": "24155296",
-   "slug": "51-deer-run-road-wilton-connecticut-24155296",
-   "address": {
-    "line": "51 Deer Run Road",
-    "unit": null,
-    "lineWithUnit": "51 Deer Run Road",
-    "city": "Wilton",
-    "state": "Connecticut",
-    "zip": "06897"
-   },
-   "beds": 3.0,
-   "baths": 3.0,
-   "sqft": 2674.0,
-   "acres": 1.8,
-   "price": 1135000.0,
-   "date": "2026-04-29",
-   "listingType": "sale",
-   "geo": {
-    "lat": 41.247638,
-    "lng": -73.472682
-   },
-   "klass": "house",
-   "tier": 4,
-   "why": "Within about a mile and a half, sold in the last 2 years",
-   "km": 0.6632135569016336,
-   "ppsf": 424.4577412116679
-  },
-  {
-   "mls": "24166495",
-   "slug": "117-whipstick-road-wilton-connecticut-24166495",
-   "address": {
-    "line": "117 Whipstick Road",
-    "unit": null,
-    "lineWithUnit": "117 Whipstick Road",
-    "city": "Wilton",
-    "state": "Connecticut",
-    "zip": "06897"
-   },
-   "beds": 4.0,
-   "baths": 3.0,
-   "sqft": 2677.0,
-   "acres": 2.05,
-   "price": 1505000.0,
-   "date": "2026-05-11",
-   "listingType": "sale",
-   "geo": {
-    "lat": 41.243233,
-    "lng": -73.46701
-   },
-   "klass": "house",
-   "tier": 4,
-   "why": "Within about a mile and a half, sold in the last 2 years",
-   "km": 0.33383565384139385,
-   "ppsf": 562.1964886066493
-  },
-  {
-   "mls": "24155941",
-   "slug": "221-catalpa-road-wilton-connecticut-24155941",
-   "address": {
-    "line": "221 Catalpa Road",
-    "unit": null,
-    "lineWithUnit": "221 Catalpa Road",
-    "city": "Wilton",
-    "state": "Connecticut",
-    "zip": "06897"
-   },
-   "beds": 4.0,
-   "baths": 3.0,
-   "sqft": 2520.0,
-   "acres": 2.02,
-   "price": 1310000.0,
-   "date": "2026-06-30",
-   "listingType": "sale",
-   "geo": {
-    "lat": 41.214138,
-    "lng": -73.443744
+    "lat": 41.217458,
+    "lng": -73.424098
    },
    "klass": "house",
    "tier": 5,
    "why": "Same town, sold in the last 3 years",
-   "km": 3.8153580601907753,
-   "ppsf": 519.8412698412699
+   "km": null,
+   "ppsf": 469.4206008583691
   },
   {
-   "mls": "24165402",
-   "slug": "35-orchard-drive-wilton-connecticut-24165402",
+   "mls": "24182432",
+   "slug": "34-powder-horn-hill-road-wilton-connecticut-24182432",
    "address": {
-    "line": "35 Orchard Drive",
+    "line": "34 Powder Horn Hill Road",
     "unit": null,
-    "lineWithUnit": "35 Orchard Drive",
+    "lineWithUnit": "34 Powder Horn Hill Road",
     "city": "Wilton",
     "state": "Connecticut",
     "zip": "06897"
    },
-   "beds": 3.0,
-   "baths": 2.0,
-   "sqft": 1853.0,
-   "acres": 2.2,
-   "price": 951000.0,
-   "date": "2026-06-11",
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 1933.0,
+   "acres": 2.6,
+   "price": 900000.0,
+   "date": "2026-08-10",
    "listingType": "sale",
    "geo": {
-    "lat": 41.214839,
-    "lng": -73.40191
+    "lat": 41.197885,
+    "lng": -73.421852
    },
    "klass": "house",
    "tier": 5,
    "why": "Same town, sold in the last 3 years",
-   "km": 6.482596365502727,
-   "ppsf": 513.2218024824609
+   "km": null,
+   "ppsf": 465.59751681324366
+  },
+  {
+   "mls": "24186677",
+   "slug": "56-chipmunk-lane-wilton-connecticut-24186677",
+   "address": {
+    "line": "56 Chipmunk Lane",
+    "unit": null,
+    "lineWithUnit": "56 Chipmunk Lane",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2268.0,
+   "acres": 1.0,
+   "price": 1050000.0,
+   "date": "2026-08-10",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.161263,
+    "lng": -73.424764
+   },
+   "klass": "house",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": null,
+   "ppsf": 462.962962962963
+  },
+  {
+   "mls": "24168476",
+   "slug": "8-dorado-court-wilton-connecticut-24168476",
+   "address": {
+    "line": "8 Dorado Court",
+    "unit": null,
+    "lineWithUnit": "8 Dorado Court",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2771.0,
+   "acres": 2.0,
+   "price": 1390000.0,
+   "date": "2026-08-07",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.238648,
+    "lng": -73.438697
+   },
+   "klass": "house",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": null,
+   "ppsf": 501.623962468423
+  },
+  {
+   "mls": "24182497",
+   "slug": "49-heather-lane-wilton-connecticut-24182497",
+   "address": {
+    "line": "49 Heather Lane",
+    "unit": null,
+    "lineWithUnit": "49 Heather Lane",
+    "city": "Wilton",
+    "state": "Connecticut",
+    "zip": "06897"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2171.0,
+   "acres": 1.0,
+   "price": 1255000.0,
+   "date": "2026-08-06",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.18466,
+    "lng": -73.398915
+   },
+   "klass": "house",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": null,
+   "ppsf": 578.0746199907877
   }
  ]
 }

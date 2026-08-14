@@ -92,10 +92,10 @@
  },
  "nearby": {
   "schools": {
-   "elementary": "AS PER BOE",
-   "middle": "AS PER BOE",
-   "high": "AS PER BOE",
-   "lookup": null
+   "elementary": null,
+   "middle": null,
+   "high": null,
+   "lookup": "https://www.stamfordpublicschools.org/"
   },
   "grocery": [
    {
@@ -136,32 +136,60 @@
  },
  "comps": [
   {
-   "mls": "24149354",
-   "slug": "118-summer-street-stamford-connecticut-24149354",
+   "mls": "24180832",
+   "slug": "700-summer-street-stamford-connecticut-24180832",
    "address": {
-    "line": "118 Summer Street",
-    "unit": "Unit 2B",
-    "lineWithUnit": "118 Summer Street Unit 2B",
+    "line": "700 Summer Street",
+    "unit": "Unit 6C",
+    "lineWithUnit": "700 Summer Street Unit 6C",
     "city": "Stamford",
     "state": "Connecticut",
     "zip": "06901"
    },
-   "beds": 2.0,
+   "beds": 1.0,
    "baths": 1.0,
-   "sqft": 983.0,
+   "sqft": 889.0,
    "acres": null,
-   "price": 2700.0,
-   "date": "2026-03-30",
+   "price": 2400.0,
+   "date": "2026-08-13",
    "listingType": "rent",
    "geo": {
-    "lat": 41.054213,
-    "lng": -73.540866
+    "lat": 41.057985,
+    "lng": -73.540723
    },
    "klass": "rental",
    "tier": 3,
    "why": "Within a 15-minute walk, sold in the last year",
-   "km": 0.5729388485189648,
-   "ppsf": 2.7466937945066126
+   "km": 0.19949402606951747,
+   "ppsf": 2.699662542182227
+  },
+  {
+   "mls": "24158992",
+   "slug": "700-summer-street-stamford-connecticut-24158992",
+   "address": {
+    "line": "700 Summer Street",
+    "unit": "Apt 4A",
+    "lineWithUnit": "700 Summer Street Apt 4A",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06901"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 872.0,
+   "acres": null,
+   "price": 2300.0,
+   "date": "2026-04-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.057985,
+    "lng": -73.540723
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.19949402606951747,
+   "ppsf": 2.6376146788990824
   },
   {
    "mls": "24150917",
@@ -192,34 +220,6 @@
    "ppsf": 2.9981203007518795
   },
   {
-   "mls": "24166098",
-   "slug": "25-forest-street-stamford-connecticut-24166098",
-   "address": {
-    "line": "25 Forest Street",
-    "unit": "Unit 7F",
-    "lineWithUnit": "25 Forest Street Unit 7F",
-    "city": "Stamford",
-    "state": "Connecticut",
-    "zip": "06901"
-   },
-   "beds": 1.0,
-   "baths": 1.0,
-   "sqft": 875.0,
-   "acres": null,
-   "price": 3000.0,
-   "date": "2026-04-17",
-   "listingType": "rent",
-   "geo": {
-    "lat": 41.056534,
-    "lng": -73.536469
-   },
-   "klass": "rental",
-   "tier": 3,
-   "why": "Within a 15-minute walk, sold in the last year",
-   "km": 0.5833650465152459,
-   "ppsf": 3.4285714285714284
-  },
-  {
    "mls": "24175452",
    "slug": "15-renwick-street-stamford-connecticut-24175452",
    "address": {
@@ -248,32 +248,32 @@
    "ppsf": 2.3966165413533833
   },
   {
-   "mls": "24161661",
-   "slug": "25-forest-street-stamford-connecticut-24161661",
+   "mls": "24181017",
+   "slug": "23-dolsen-place-stamford-connecticut-24181017",
    "address": {
-    "line": "25 Forest Street",
-    "unit": "Unit 7K",
-    "lineWithUnit": "25 Forest Street Unit 7K",
+    "line": "23 Dolsen Place",
+    "unit": null,
+    "lineWithUnit": "23 Dolsen Place",
     "city": "Stamford",
     "state": "Connecticut",
     "zip": "06901"
    },
    "beds": 2.0,
-   "baths": 2.0,
-   "sqft": 1267.0,
-   "acres": null,
-   "price": 3800.0,
-   "date": "2026-05-29",
+   "baths": 3.0,
+   "sqft": 1300.0,
+   "acres": 0.37,
+   "price": 3250.0,
+   "date": "2026-08-01",
    "listingType": "rent",
    "geo": {
-    "lat": 41.056534,
-    "lng": -73.536469
+    "lat": 41.060319,
+    "lng": -73.538654
    },
    "klass": "rental",
    "tier": 3,
    "why": "Within a 15-minute walk, sold in the last year",
-   "km": 0.5833650465152459,
-   "ppsf": 2.999210734017364
+   "km": 0.33986363720919627,
+   "ppsf": 2.5
   }
  ]
 }

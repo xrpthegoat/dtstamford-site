@@ -57,10 +57,6 @@
  ],
  "primaryPhotoOnly": false,
  "updated": "2026-08-14T13:06:09",
- "geo": {
-  "lat": 41.042936,
-  "lng": -73.606033
- },
  "facts": {
   "dom": 15,
   "listed": "2026-07-29",
@@ -97,6 +93,7 @@
   "energy": "Active Solar"
  },
  "indexable": false,
+ "geo": null,
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
   "attribution": "Listing data provided courtesy of SmartMLS."
@@ -107,183 +104,148 @@
    "middle": "Central",
    "high": "Greenwich",
    "lookup": null
-  },
-  "grocery": [
-   {
-    "n": "Balducci's",
-    "mi": 1.01,
-    "lat": 41.041558,
-    "lng": -73.586758
-   },
-   {
-    "n": "Whole Foods Market",
-    "mi": 1.15,
-    "lat": 41.033196,
-    "lng": -73.623936
-   }
-  ],
-  "pharmacy": {
-   "n": "CVS Pharmacy",
-   "mi": 0.46,
-   "lat": 41.037458,
-   "lng": -73.600959,
-   "walk": 9,
-   "chain": "CVS"
-  },
-  "train": {
-   "n": "Cos Cob",
-   "mi": 0.95,
-   "lat": 41.029862,
-   "lng": -73.600101,
-   "line": "Metro-North Railroad"
-  },
-  "bus": {
-   "n": "Bus stop",
-   "mi": 1.98,
-   "lat": 41.047469,
-   "lng": -73.568525
   }
  },
  "comps": [
   {
-   "mls": "24133496",
-   "slug": "1-prescott-lane-greenwich-connecticut-24133496",
+   "mls": "24165781",
+   "slug": "530-round-hill-road-greenwich-connecticut-24165781",
    "address": {
-    "line": "1 Prescott Lane",
+    "line": "530 Round Hill Road",
     "unit": null,
-    "lineWithUnit": "1 Prescott Lane",
+    "lineWithUnit": "530 Round Hill Road",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06831"
+   },
+   "beds": 6.0,
+   "baths": 7.0,
+   "sqft": 6216.0,
+   "acres": 4.37,
+   "price": 6900000.0,
+   "date": "2026-08-06",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.11194,
+    "lng": -73.6695
+   },
+   "klass": "house",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": null,
+   "ppsf": 1110.03861003861
+  },
+  {
+   "mls": "24185753",
+   "slug": "17-kenilworth-terrace-greenwich-connecticut-24185753",
+   "address": {
+    "line": "17 Kenilworth Terrace",
+    "unit": null,
+    "lineWithUnit": "17 Kenilworth Terrace",
     "city": "Greenwich",
     "state": "Connecticut",
     "zip": "06830"
    },
-   "beds": 4.0,
-   "baths": 4.0,
-   "sqft": 3912.0,
-   "acres": 0.24,
-   "price": 3800000.0,
-   "date": "2026-04-06",
+   "beds": 6.0,
+   "baths": 5.0,
+   "sqft": 6012.0,
+   "acres": 1.17,
+   "price": 4450000.0,
+   "date": "2026-08-06",
    "listingType": "sale",
    "geo": {
-    "lat": 41.037109,
-    "lng": -73.63313
+    "lat": 41.057536,
+    "lng": -73.532008
    },
    "klass": "house",
-   "tier": 4,
-   "why": "Within about a mile and a half, sold in the last 2 years",
-   "km": 2.3631562325730786,
-   "ppsf": 971.3701431492842
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": null,
+   "ppsf": 740.1862940785096
   },
   {
-   "mls": "24167767",
-   "slug": "185-valley-road-greenwich-connecticut-24167767",
+   "mls": "24163978",
+   "slug": "33-cliffdale-road-greenwich-connecticut-24163978",
    "address": {
-    "line": "185 Valley Road",
+    "line": "33 Cliffdale Road",
     "unit": null,
-    "lineWithUnit": "185 Valley Road",
+    "lineWithUnit": "33 Cliffdale Road",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06831"
+   },
+   "beds": 5.0,
+   "baths": 5.0,
+   "sqft": 4872.0,
+   "acres": 4.01,
+   "price": 4260000.0,
+   "date": "2026-08-04",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.08247,
+    "lng": -73.69158
+   },
+   "klass": "house",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": null,
+   "ppsf": 874.384236453202
+  },
+  {
+   "mls": "24143732",
+   "slug": "681-river-road-greenwich-connecticut-24143732",
+   "address": {
+    "line": "681 River Road",
+    "unit": null,
+    "lineWithUnit": "681 River Road",
     "city": "Greenwich",
     "state": "Connecticut",
     "zip": "06807"
    },
    "beds": 4.0,
-   "baths": 4.0,
-   "sqft": 3569.0,
-   "acres": 0.73,
-   "price": 3000000.0,
-   "date": "2026-07-07",
+   "baths": 5.0,
+   "sqft": 3826.0,
+   "acres": 2.32,
+   "price": 2445000.0,
+   "date": "2026-07-24",
    "listingType": "sale",
    "geo": {
-    "lat": 41.050881,
-    "lng": -73.586622
+    "lat": 41.068317,
+    "lng": -73.576096
    },
    "klass": "house",
-   "tier": 4,
-   "why": "Within about a mile and a half, sold in the last 2 years",
-   "km": 1.8520891958792962,
-   "ppsf": 840.5715886803026
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": null,
+   "ppsf": 639.0486147412441
   },
   {
-   "mls": "24149962",
-   "slug": "103-connecticut-avenue-greenwich-connecticut-24149962",
+   "mls": "24178567",
+   "slug": "22-mallard-drive-greenwich-connecticut-24178567",
    "address": {
-    "line": "103 Connecticut Avenue",
+    "line": "22 Mallard Drive",
     "unit": null,
-    "lineWithUnit": "103 Connecticut Avenue",
+    "lineWithUnit": "22 Mallard Drive",
     "city": "Greenwich",
     "state": "Connecticut",
     "zip": "06830"
    },
    "beds": 4.0,
-   "baths": 5.0,
-   "sqft": 3341.0,
-   "acres": 0.08,
-   "price": 3890000.0,
-   "date": "2026-04-08",
+   "baths": 4.0,
+   "sqft": 3106.0,
+   "acres": 0.29,
+   "price": 2850000.0,
+   "date": "2026-07-24",
    "listingType": "sale",
    "geo": {
-    "lat": 41.028223,
-    "lng": -73.621623
-   },
-   "klass": "house",
-   "tier": 4,
-   "why": "Within about a mile and a half, sold in the last 2 years",
-   "km": 2.0943641120698,
-   "ppsf": 1164.3220592636935
-  },
-  {
-   "mls": "24178864",
-   "slug": "6-wyngate-road-greenwich-connecticut-24178864",
-   "address": {
-    "line": "6 Wyngate Road",
-    "unit": null,
-    "lineWithUnit": "6 Wyngate Road",
-    "city": "Greenwich",
-    "state": "Connecticut",
-    "zip": "06830"
-   },
-   "beds": 5.0,
-   "baths": 3.0,
-   "sqft": 3679.0,
-   "acres": 1.11,
-   "price": 3857000.0,
-   "date": "2026-07-15",
-   "listingType": "sale",
-   "geo": {
-    "lat": 41.063103,
-    "lng": -73.610179
-   },
-   "klass": "house",
-   "tier": 4,
-   "why": "Within about a mile and a half, sold in the last 2 years",
-   "km": 2.269256457735942,
-   "ppsf": 1048.3827126936667
-  },
-  {
-   "mls": "24053927",
-   "slug": "201-shore-road-greenwich-connecticut-24053927",
-   "address": {
-    "line": "201 Shore Road",
-    "unit": null,
-    "lineWithUnit": "201 Shore Road",
-    "city": "Greenwich",
-    "state": "Connecticut",
-    "zip": "06830"
-   },
-   "beds": 5.0,
-   "baths": 5.0,
-   "sqft": 3598.0,
-   "acres": 0.62,
-   "price": 2025000.0,
-   "date": "2026-05-18",
-   "listingType": "sale",
-   "geo": {
-    "lat": 41.018843,
-    "lng": -73.629262
+    "lat": 41.035792,
+    "lng": -73.615648
    },
    "klass": "house",
    "tier": 5,
    "why": "Same town, sold in the last 3 years",
-   "km": 3.3126491851560114,
-   "ppsf": 562.8126737076153
+   "km": null,
+   "ppsf": 917.5788795878944
   }
  ]
 }

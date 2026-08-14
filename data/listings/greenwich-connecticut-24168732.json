@@ -57,10 +57,6 @@
  ],
  "primaryPhotoOnly": false,
  "updated": "2026-05-11T14:45:40",
- "geo": {
-  "lat": 41.08183,
-  "lng": -73.68251
- },
  "facts": {
   "dom": 95,
   "listed": "2026-05-11",
@@ -98,6 +94,7 @@
   "tour": "https://tour.realtyplans.com/sites/enqojpgk/unbranded"
  },
  "indexable": false,
+ "geo": null,
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
   "attribution": "Listing data provided courtesy of SmartMLS."
@@ -108,43 +105,37 @@
    "middle": "Western",
    "high": "Greenwich",
    "lookup": null
-  },
-  "grocery": [
-   {
-    "n": "Stop & Shop",
-    "mi": 3.03,
-    "lat": 41.039617,
-    "lng": -73.666969
-   },
-   {
-    "n": "Cherry Blossom Farm",
-    "mi": 3.43,
-    "lat": 41.125223,
-    "lng": -73.714398
-   }
-  ],
-  "pharmacy": {
-   "n": "CVS Pharmacy",
-   "mi": 3.52,
-   "lat": 41.12739,
-   "lng": -73.712689,
-   "chain": "CVS"
-  },
-  "train": {
-   "n": "Greenwich",
-   "mi": 5.12,
-   "lat": 41.021446,
-   "lng": -73.625634,
-   "line": "Metro-North Railroad"
-  },
-  "bus": {
-   "n": "Westchester County Airport Terminal",
-   "mi": 1.43,
-   "lat": 41.06879,
-   "lng": -73.703787
   }
  },
  "comps": [
+  {
+   "mls": "24185753",
+   "slug": "17-kenilworth-terrace-greenwich-connecticut-24185753",
+   "address": {
+    "line": "17 Kenilworth Terrace",
+    "unit": null,
+    "lineWithUnit": "17 Kenilworth Terrace",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06830"
+   },
+   "beds": 6.0,
+   "baths": 5.0,
+   "sqft": 6012.0,
+   "acres": 1.17,
+   "price": 4450000.0,
+   "date": "2026-08-06",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.057536,
+    "lng": -73.532008
+   },
+   "klass": "house",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": null,
+   "ppsf": 740.1862940785096
+  },
   {
    "mls": "24163978",
    "slug": "33-cliffdale-road-greenwich-connecticut-24163978",
@@ -168,122 +159,91 @@
     "lng": -73.69158
    },
    "klass": "house",
-   "tier": 3,
-   "why": "Within a 15-minute walk, sold in the last year",
-   "km": 0.7635275133891468,
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": null,
    "ppsf": 874.384236453202
   },
   {
-   "mls": "24167416",
-   "slug": "47-will-merry-lane-greenwich-connecticut-24167416",
+   "mls": "24162737",
+   "slug": "greenwich-connecticut-24162737",
    "address": {
-    "line": "47 Will Merry Lane",
+    "line": null,
     "unit": null,
-    "lineWithUnit": "47 Will Merry Lane",
+    "lineWithUnit": null,
     "city": "Greenwich",
     "state": "Connecticut",
-    "zip": "06831"
-   },
-   "beds": 5.0,
-   "baths": 4.0,
-   "sqft": 4880.0,
-   "acres": 2.25,
-   "price": 2700000.0,
-   "date": "2026-06-15",
-   "listingType": "sale",
-   "geo": {
-    "lat": 41.087842,
-    "lng": -73.659469
-   },
-   "klass": "house",
-   "tier": 4,
-   "why": "Within about a mile and a half, sold in the last 2 years",
-   "km": 2.043543874803117,
-   "ppsf": 553.2786885245902
-  },
-  {
-   "mls": "24133496",
-   "slug": "1-prescott-lane-greenwich-connecticut-24133496",
-   "address": {
-    "line": "1 Prescott Lane",
-    "unit": null,
-    "lineWithUnit": "1 Prescott Lane",
-    "city": "Greenwich",
-    "state": "Connecticut",
-    "zip": "06830"
-   },
-   "beds": 4.0,
-   "baths": 4.0,
-   "sqft": 3912.0,
-   "acres": 0.24,
-   "price": 3800000.0,
-   "date": "2026-04-06",
-   "listingType": "sale",
-   "geo": {
-    "lat": 41.037109,
-    "lng": -73.63313
-   },
-   "klass": "house",
-   "tier": 5,
-   "why": "Same town, sold in the last 3 years",
-   "km": 6.470677185865828,
-   "ppsf": 971.3701431492842
-  },
-  {
-   "mls": "24053927",
-   "slug": "201-shore-road-greenwich-connecticut-24053927",
-   "address": {
-    "line": "201 Shore Road",
-    "unit": null,
-    "lineWithUnit": "201 Shore Road",
-    "city": "Greenwich",
-    "state": "Connecticut",
-    "zip": "06830"
-   },
-   "beds": 5.0,
-   "baths": 5.0,
-   "sqft": 3598.0,
-   "acres": 0.62,
-   "price": 2025000.0,
-   "date": "2026-05-18",
-   "listingType": "sale",
-   "geo": {
-    "lat": 41.018843,
-    "lng": -73.629262
-   },
-   "klass": "house",
-   "tier": 5,
-   "why": "Same town, sold in the last 3 years",
-   "km": 8.306098400068304,
-   "ppsf": 562.8126737076153
-  },
-  {
-   "mls": "24151904",
-   "slug": "107-stonehedge-drive-north-greenwich-connecticut-24151904",
-   "address": {
-    "line": "107 Stonehedge Drive North",
-    "unit": null,
-    "lineWithUnit": "107 Stonehedge Drive North",
-    "city": "Greenwich",
-    "state": "Connecticut",
-    "zip": "06831"
+    "zip": "06870"
    },
    "beds": 4.0,
    "baths": 3.0,
-   "sqft": 3814.0,
-   "acres": 1.0,
-   "price": 2000000.0,
-   "date": "2026-03-13",
+   "sqft": 2965.0,
+   "acres": 0.34,
+   "price": 3875000.0,
+   "date": "2026-07-31",
+   "listingType": "sale",
+   "geo": {},
+   "klass": "house",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": null,
+   "ppsf": 1306.9139966273187
+  },
+  {
+   "mls": "24143732",
+   "slug": "681-river-road-greenwich-connecticut-24143732",
+   "address": {
+    "line": "681 River Road",
+    "unit": null,
+    "lineWithUnit": "681 River Road",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06807"
+   },
+   "beds": 4.0,
+   "baths": 5.0,
+   "sqft": 3826.0,
+   "acres": 2.32,
+   "price": 2445000.0,
+   "date": "2026-07-24",
    "listingType": "sale",
    "geo": {
-    "lat": 41.048259,
-    "lng": -73.677405
+    "lat": 41.068317,
+    "lng": -73.576096
    },
    "klass": "house",
    "tier": 5,
    "why": "Same town, sold in the last 3 years",
-   "km": 3.7573796476314048,
-   "ppsf": 524.3838489774515
+   "km": null,
+   "ppsf": 639.0486147412441
+  },
+  {
+   "mls": "24178567",
+   "slug": "22-mallard-drive-greenwich-connecticut-24178567",
+   "address": {
+    "line": "22 Mallard Drive",
+    "unit": null,
+    "lineWithUnit": "22 Mallard Drive",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06830"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 3106.0,
+   "acres": 0.29,
+   "price": 2850000.0,
+   "date": "2026-07-24",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.035792,
+    "lng": -73.615648
+   },
+   "klass": "house",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": null,
+   "ppsf": 917.5788795878944
   }
  ]
 }

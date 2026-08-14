@@ -54,10 +54,6 @@
  ],
  "primaryPhotoOnly": false,
  "updated": "2026-08-04T16:48:04",
- "geo": {
-  "lat": 41.042842,
-  "lng": -73.533427
- },
  "facts": {
   "dom": 11,
   "listed": "2026-08-03",
@@ -91,6 +87,7 @@
   "directWaterfront": "0"
  },
  "indexable": false,
+ "geo": null,
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
   "attribution": "Listing data provided courtesy of SmartMLS."
@@ -101,183 +98,148 @@
    "middle": "Dolan",
    "high": "Stamford",
    "lookup": null
-  },
-  "grocery": [
-   {
-    "n": "ShopRite",
-    "mi": 0.64,
-    "lat": 41.048301,
-    "lng": -73.523464
-   },
-   {
-    "n": "Target",
-    "mi": 0.96,
-    "lat": 41.055148,
-    "lng": -73.541856
-   }
-  ],
-  "pharmacy": {
-   "n": "Walgreens",
-   "mi": 2.13,
-   "lat": 41.043804,
-   "lng": -73.574255,
-   "chain": "Walgreens"
-  },
-  "train": {
-   "n": "Stamford",
-   "mi": 0.53,
-   "lat": 41.046904,
-   "lng": -73.542025,
-   "walk": 11,
-   "line": "Amtrak;Metro-North Railroad;CTrail"
-  },
-  "bus": {
-   "n": "Bus stop",
-   "mi": 0.63,
-   "lat": 41.050588,
-   "lng": -73.539681
   }
  },
  "comps": [
   {
-   "mls": "24148039",
-   "slug": "105-harbor-drive-stamford-connecticut-24148039",
+   "mls": "24194946",
+   "slug": "80-lawn-avenue-stamford-connecticut-24194946",
    "address": {
-    "line": "105 Harbor Drive",
-    "unit": "Apt 107",
-    "lineWithUnit": "105 Harbor Drive Apt 107",
+    "line": "80 lawn Avenue",
+    "unit": "Unit 13",
+    "lineWithUnit": "80 lawn Avenue Unit 13",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1240.0,
+   "acres": null,
+   "price": 3400.0,
+   "date": "2026-08-13",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.058666,
+    "lng": -73.518668
+   },
+   "klass": "rental",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": null,
+   "ppsf": 2.7419354838709675
+  },
+  {
+   "mls": "24195373",
+   "slug": "41-frisbie-street-stamford-connecticut-24195373",
+   "address": {
+    "line": "41 Frisbie Street",
+    "unit": null,
+    "lineWithUnit": "41 Frisbie Street",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06906"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1544.0,
+   "acres": 0.13,
+   "price": 4100.0,
+   "date": "2026-08-12",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.067023,
+    "lng": -73.525318
+   },
+   "klass": "rental",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": null,
+   "ppsf": 2.655440414507772
+  },
+  {
+   "mls": "24187796",
+   "slug": "21-whitmore-lane-stamford-connecticut-24187796",
+   "address": {
+    "line": "21 Whitmore Lane",
+    "unit": "Unit 1",
+    "lineWithUnit": "21 Whitmore Lane Unit 1",
     "city": "Stamford",
     "state": "Connecticut",
     "zip": "06902"
    },
    "beds": 2.0,
    "baths": 3.0,
-   "sqft": 1450.0,
+   "sqft": 1400.0,
    "acres": null,
-   "price": 4100.0,
-   "date": "2026-04-01",
+   "price": 3600.0,
+   "date": "2026-08-11",
    "listingType": "rent",
    "geo": {
-    "lat": 41.037318,
-    "lng": -73.530622
+    "lat": 41.049409,
+    "lng": -73.564989
    },
    "klass": "rental",
-   "tier": 3,
-   "why": "Within a 15-minute walk, sold in the last year",
-   "km": 0.6577501488027533,
-   "ppsf": 2.8275862068965516
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": null,
+   "ppsf": 2.5714285714285716
   },
   {
-   "mls": "24157967",
-   "slug": "239-henry-street-stamford-connecticut-24157967",
+   "mls": "24188904",
+   "slug": "16-burwood-avenue-stamford-connecticut-24188904",
    "address": {
-    "line": "239 Henry Street",
-    "unit": "#3",
-    "lineWithUnit": "239 Henry Street #3",
-    "city": "Stamford",
-    "state": "Connecticut",
-    "zip": "06902"
-   },
-   "beds": 3.0,
-   "baths": 4.0,
-   "sqft": 1962.0,
-   "acres": 0.28,
-   "price": 6000.0,
-   "date": "2026-05-10",
-   "listingType": "rent",
-   "geo": {
-    "lat": 41.04389,
-    "lng": -73.53399
-   },
-   "klass": "rental",
-   "tier": 3,
-   "why": "Within a 15-minute walk, sold in the last year",
-   "km": 0.12573425917910394,
-   "ppsf": 3.058103975535168
-  },
-  {
-   "mls": "24133811",
-   "slug": "123-harbor-drive-stamford-connecticut-24133811",
-   "address": {
-    "line": "123 Harbor Drive",
-    "unit": "Apt 512",
-    "lineWithUnit": "123 Harbor Drive Apt 512",
-    "city": "Stamford",
-    "state": "Connecticut",
-    "zip": "06902"
-   },
-   "beds": 3.0,
-   "baths": 3.0,
-   "sqft": 2172.0,
-   "acres": null,
-   "price": 6000.0,
-   "date": "2026-06-01",
-   "listingType": "rent",
-   "geo": {
-    "lat": 41.037834,
-    "lng": -73.53239
-   },
-   "klass": "rental",
-   "tier": 3,
-   "why": "Within a 15-minute walk, sold in the last year",
-   "km": 0.56361493375956,
-   "ppsf": 2.7624309392265194
-  },
-  {
-   "mls": "24145256",
-   "slug": "48-lanell-drive-stamford-connecticut-24145256",
-   "address": {
-    "line": "48 Lanell Drive",
-    "unit": null,
-    "lineWithUnit": "48 Lanell Drive",
+    "line": "16 Burwood Avenue",
+    "unit": "Unit 2",
+    "lineWithUnit": "16 Burwood Avenue Unit 2",
     "city": "Stamford",
     "state": "Connecticut",
     "zip": "06902"
    },
    "beds": 3.0,
    "baths": 2.0,
-   "sqft": 2050.0,
-   "acres": 0.17,
-   "price": 5500.0,
-   "date": "2026-06-01",
+   "sqft": 1653.0,
+   "acres": 0.14,
+   "price": 3999.0,
+   "date": "2026-08-06",
    "listingType": "rent",
    "geo": {
-    "lat": 41.036078,
-    "lng": -73.525232
+    "lat": 41.03245,
+    "lng": -73.55301
    },
    "klass": "rental",
-   "tier": 3,
-   "why": "Within a 15-minute walk, sold in the last year",
-   "km": 1.0188647211793909,
-   "ppsf": 2.682926829268293
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": null,
+   "ppsf": 2.4192377495462796
   },
   {
-   "mls": "24162163",
-   "slug": "73-harbor-drive-stamford-connecticut-24162163",
+   "mls": "24194472",
+   "slug": "2435-bedford-street-stamford-connecticut-24194472",
    "address": {
-    "line": "73 Harbor Drive",
-    "unit": "Unit 412",
-    "lineWithUnit": "73 Harbor Drive Unit 412",
+    "line": "2435 Bedford Street",
+    "unit": "Unit 21CC",
+    "lineWithUnit": "2435 Bedford Street Unit 21CC",
     "city": "Stamford",
     "state": "Connecticut",
-    "zip": "06902"
+    "zip": "06905"
    },
-   "beds": 3.0,
-   "baths": 3.0,
-   "sqft": 1665.0,
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1419.0,
    "acres": null,
-   "price": 6500.0,
-   "date": "2026-07-01",
+   "price": 3600.0,
+   "date": "2026-08-04",
    "listingType": "rent",
    "geo": {
-    "lat": 41.038242,
-    "lng": -73.530919
+    "lat": 41.070549,
+    "lng": -73.541509
    },
    "klass": "rental",
-   "tier": 3,
-   "why": "Within a 15-minute walk, sold in the last year",
-   "km": 0.5530573187094429,
-   "ppsf": 3.903903903903904
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": null,
+   "ppsf": 2.536997885835095
   }
  ]
 }

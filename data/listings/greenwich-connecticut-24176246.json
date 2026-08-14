@@ -57,10 +57,6 @@
  ],
  "primaryPhotoOnly": false,
  "updated": "2026-07-06T23:22:17",
- "geo": {
-  "lat": 41.026967,
-  "lng": -73.560318
- },
  "facts": {
   "dom": 89,
   "listed": "2026-05-17",
@@ -91,6 +87,7 @@
   "directWaterfront": "0"
  },
  "indexable": false,
+ "geo": null,
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
   "attribution": "Listing data provided courtesy of SmartMLS."
@@ -100,43 +97,7 @@
    "elementary": "Old Greenwich",
    "middle": null,
    "high": "Greenwich",
-   "lookup": "https://www.greenwichschools.org/departments/registration"
-  },
-  "grocery": [
-   {
-    "n": "Kings",
-    "mi": 0.51,
-    "lat": 41.032411,
-    "lng": -73.56691,
-    "walk": 10
-   },
-   {
-    "n": "Acme",
-    "mi": 1.39,
-    "lat": 41.04254,
-    "lng": -73.577297
-   }
-  ],
-  "pharmacy": {
-   "n": "Walgreens",
-   "mi": 1.37,
-   "lat": 41.043804,
-   "lng": -73.574255,
-   "chain": "Walgreens"
-  },
-  "train": {
-   "n": "Old Greenwich",
-   "mi": 0.59,
-   "lat": 41.033377,
-   "lng": -73.567877,
-   "walk": 12,
-   "line": "Metro-North Railroad"
-  },
-  "bus": {
-   "n": "Bus stop",
-   "mi": 1.47,
-   "lat": 41.047427,
-   "lng": -73.568247
+   "lookup": "https://www.greenwichschools.org/"
   }
  },
  "comps": [
@@ -163,10 +124,94 @@
     "lng": -73.576429
    },
    "klass": "rental",
-   "tier": 4,
-   "why": "Within about a mile and a half, sold in the last 2 years",
-   "km": 2.3761261851824016,
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": null,
    "ppsf": 2.6399155227032733
+  },
+  {
+   "mls": "24186333",
+   "slug": "195-s-water-street-greenwich-connecticut-24186333",
+   "address": {
+    "line": "195 S Water Street",
+    "unit": "Unit North",
+    "lineWithUnit": "195 S Water Street Unit North",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06830"
+   },
+   "beds": 4.0,
+   "baths": 5.0,
+   "sqft": 3750.0,
+   "acres": null,
+   "price": 9500.0,
+   "date": "2026-08-01",
+   "listingType": "rent",
+   "geo": {
+    "lat": 40.997135,
+    "lng": -73.65814
+   },
+   "klass": "rental",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": null,
+   "ppsf": 2.533333333333333
+  },
+  {
+   "mls": "24184691",
+   "slug": "88-orchard-street-greenwich-connecticut-24184691",
+   "address": {
+    "line": "88 Orchard Street",
+    "unit": null,
+    "lineWithUnit": "88 Orchard Street",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06807"
+   },
+   "beds": 5.0,
+   "baths": 4.0,
+   "sqft": 3827.0,
+   "acres": 0.5,
+   "price": 11000.0,
+   "date": "2026-07-30",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.045482,
+    "lng": -73.601964
+   },
+   "klass": "rental",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": null,
+   "ppsf": 2.8743140841390122
+  },
+  {
+   "mls": "24186251",
+   "slug": "35-dartmouth-road-greenwich-connecticut-24186251",
+   "address": {
+    "line": "35 Dartmouth Road",
+    "unit": null,
+    "lineWithUnit": "35 Dartmouth Road",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06807"
+   },
+   "beds": 4.0,
+   "baths": 5.0,
+   "sqft": 3402.0,
+   "acres": 2.05,
+   "price": 17500.0,
+   "date": "2026-07-30",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.062686,
+    "lng": -73.590537
+   },
+   "klass": "rental",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": null,
+   "ppsf": 5.1440329218107
   },
   {
    "mls": "24167409",
@@ -191,94 +236,10 @@
     "lng": -73.58777
    },
    "klass": "rental",
-   "tier": 4,
-   "why": "Within about a mile and a half, sold in the last 2 years",
-   "km": 2.363750552922468,
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": null,
    "ppsf": 4.814814814814815
-  },
-  {
-   "mls": "24114506",
-   "slug": "greenwich-connecticut-24114506",
-   "address": {
-    "line": null,
-    "unit": null,
-    "lineWithUnit": null,
-    "city": "Greenwich",
-    "state": "Connecticut",
-    "zip": "06830"
-   },
-   "beds": 5.0,
-   "baths": 4.0,
-   "sqft": 3500.0,
-   "acres": 1.2,
-   "price": 15500.0,
-   "date": "2026-03-27",
-   "listingType": "rent",
-   "geo": {
-    "lat": 41.020529,
-    "lng": -73.607722
-   },
-   "klass": "rental",
-   "tier": 5,
-   "why": "Same town, sold in the last 3 years",
-   "km": 4.040624887992388,
-   "ppsf": 4.428571428571429
-  },
-  {
-   "mls": "24176245",
-   "slug": "24-orchard-place-greenwich-connecticut-24176245",
-   "address": {
-    "line": "24 Orchard Place",
-    "unit": "Unit B",
-    "lineWithUnit": "24 Orchard Place Unit B",
-    "city": "Greenwich",
-    "state": "Connecticut",
-    "zip": "06830"
-   },
-   "beds": 5.0,
-   "baths": 5.0,
-   "sqft": 3427.0,
-   "acres": 0.05,
-   "price": 19000.0,
-   "date": "2026-05-26",
-   "listingType": "rent",
-   "geo": {
-    "lat": 41.020979,
-    "lng": -73.618312
-   },
-   "klass": "rental",
-   "tier": 5,
-   "why": "Same town, sold in the last 3 years",
-   "km": 4.910430397459031,
-   "ppsf": 5.544207761890867
-  },
-  {
-   "mls": "24180105",
-   "slug": "185-s-water-street-greenwich-connecticut-24180105",
-   "address": {
-    "line": "185 S Water Street",
-    "unit": null,
-    "lineWithUnit": "185 S Water Street",
-    "city": "Greenwich",
-    "state": "Connecticut",
-    "zip": "06830"
-   },
-   "beds": 5.0,
-   "baths": 6.0,
-   "sqft": 4000.0,
-   "acres": null,
-   "price": 13000.0,
-   "date": "2026-06-15",
-   "listingType": "rent",
-   "geo": {
-    "lat": 40.997137,
-    "lng": -73.658139
-   },
-   "klass": "rental",
-   "tier": 5,
-   "why": "Same town, sold in the last 3 years",
-   "km": 8.852526075349534,
-   "ppsf": 3.25
   }
  ]
 }

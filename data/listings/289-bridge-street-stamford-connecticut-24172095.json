@@ -105,20 +105,20 @@
    "elementary": "Stillmeadow",
    "middle": null,
    "high": "Westhill",
-   "lookup": "https://www.stamfordpublicschools.org/school-finder"
+   "lookup": "https://www.stamfordpublicschools.org/"
   },
   "grocery": [
-   {
-    "n": "Bev-Max",
-    "mi": 0.64,
-    "lat": 41.068152,
-    "lng": -73.545451
-   },
    {
     "n": "Stop & Shop",
     "mi": 0.66,
     "lat": 41.067985,
     "lng": -73.544961
+   },
+   {
+    "n": "Whole Foods Market",
+    "mi": 0.76,
+    "lat": 41.074787,
+    "lng": -73.550452
    }
   ],
   "pharmacy": {
@@ -145,60 +145,32 @@
  },
  "comps": [
   {
-   "mls": "24180915",
-   "slug": "9-old-north-stamford-road-stamford-connecticut-24180915",
+   "mls": "24183339",
+   "slug": "102-old-barn-road-west-stamford-connecticut-24183339",
    "address": {
-    "line": "9 Old North Stamford Road",
-    "unit": "Unit 35G",
-    "lineWithUnit": "9 Old North Stamford Road Unit 35G",
+    "line": "102 Old Barn Road West",
+    "unit": null,
+    "lineWithUnit": "102 Old Barn Road West",
     "city": "Stamford",
     "state": "Connecticut",
     "zip": "06905"
    },
-   "beds": 1.0,
-   "baths": 3.0,
-   "sqft": 1916.0,
-   "acres": null,
-   "price": 2700.0,
-   "date": "2026-06-03",
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1414.0,
+   "acres": 0.2,
+   "price": 4500.0,
+   "date": "2026-06-19",
    "listingType": "rent",
    "geo": {
-    "lat": 41.070557,
-    "lng": -73.54574
+    "lat": 41.071616,
+    "lng": -73.556107
    },
    "klass": "rental",
    "tier": 3,
    "why": "Within a 15-minute walk, sold in the last year",
-   "km": 1.1218213911873813,
-   "ppsf": 1.4091858037578289
-  },
-  {
-   "mls": "24169551",
-   "slug": "49-woodside-street-stamford-connecticut-24169551",
-   "address": {
-    "line": "49 Woodside Street",
-    "unit": null,
-    "lineWithUnit": "49 Woodside Street",
-    "city": "Stamford",
-    "state": "Connecticut",
-    "zip": "06902"
-   },
-   "beds": 1.0,
-   "baths": 1.0,
-   "sqft": 2160.0,
-   "acres": 0.08,
-   "price": 1900.0,
-   "date": "2026-06-05",
-   "listingType": "rent",
-   "geo": {
-    "lat": 41.06225,
-    "lng": -73.543182
-   },
-   "klass": "rental",
-   "tier": 3,
-   "why": "Within a 15-minute walk, sold in the last year",
-   "km": 1.1896629613961236,
-   "ppsf": 0.8796296296296297
+   "km": 0.7398739423999153,
+   "ppsf": 3.1824611032531824
   },
   {
    "mls": "24169832",
@@ -229,6 +201,34 @@
    "ppsf": 2.8368794326241136
   },
   {
+   "mls": "24180915",
+   "slug": "9-old-north-stamford-road-stamford-connecticut-24180915",
+   "address": {
+    "line": "9 Old North Stamford Road",
+    "unit": "Unit 35G",
+    "lineWithUnit": "9 Old North Stamford Road Unit 35G",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06905"
+   },
+   "beds": 1.0,
+   "baths": 3.0,
+   "sqft": 1916.0,
+   "acres": null,
+   "price": 2700.0,
+   "date": "2026-06-03",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.070557,
+    "lng": -73.54574
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.1218213911873813,
+   "ppsf": 1.4091858037578289
+  },
+  {
    "mls": "24178813",
    "slug": "1611-washington-boulevard-stamford-connecticut-24178813",
    "address": {
@@ -257,32 +257,32 @@
    "ppsf": 2.203065134099617
   },
   {
-   "mls": "24183339",
-   "slug": "102-old-barn-road-west-stamford-connecticut-24183339",
+   "mls": "24169551",
+   "slug": "49-woodside-street-stamford-connecticut-24169551",
    "address": {
-    "line": "102 Old Barn Road West",
+    "line": "49 Woodside Street",
     "unit": null,
-    "lineWithUnit": "102 Old Barn Road West",
+    "lineWithUnit": "49 Woodside Street",
     "city": "Stamford",
     "state": "Connecticut",
-    "zip": "06905"
+    "zip": "06902"
    },
-   "beds": 3.0,
-   "baths": 2.0,
-   "sqft": 1414.0,
-   "acres": 0.2,
-   "price": 4500.0,
-   "date": "2026-06-19",
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 2160.0,
+   "acres": 0.08,
+   "price": 1900.0,
+   "date": "2026-06-05",
    "listingType": "rent",
    "geo": {
-    "lat": 41.071616,
-    "lng": -73.556107
+    "lat": 41.06225,
+    "lng": -73.543182
    },
    "klass": "rental",
    "tier": 3,
    "why": "Within a 15-minute walk, sold in the last year",
-   "km": 0.7398739423999153,
-   "ppsf": 3.1824611032531824
+   "km": 1.1896629613961236,
+   "ppsf": 0.8796296296296297
   }
  ]
 }

@@ -75,7 +75,7 @@
    "elementary": null,
    "middle": null,
    "high": null,
-   "lookup": "https://www.stamfordpublicschools.org/school-finder"
+   "lookup": "https://www.stamfordpublicschools.org/"
   },
   "grocery": [
    {
@@ -86,11 +86,10 @@
     "walk": 6
    },
    {
-    "n": "Bev-Max",
-    "mi": 0.34,
-    "lat": 41.068152,
-    "lng": -73.545451,
-    "walk": 7
+    "n": "Target",
+    "mi": 0.64,
+    "lat": 41.055148,
+    "lng": -73.541856
    }
   ],
   "pharmacy": {
@@ -142,34 +141,6 @@
    "tier": 3,
    "why": "Within a 15-minute walk, sold in the last year",
    "km": 0.28342678968489016,
-   "ppsf": null
-  },
-  {
-   "mls": "24149789",
-   "slug": "stamford-connecticut-24149789",
-   "address": {
-    "line": null,
-    "unit": null,
-    "lineWithUnit": null,
-    "city": "Stamford",
-    "state": "Connecticut",
-    "zip": "06907"
-   },
-   "beds": null,
-   "baths": null,
-   "sqft": null,
-   "acres": 0.69,
-   "price": 4000.0,
-   "date": "2026-07-28",
-   "listingType": "rent",
-   "geo": {
-    "lat": 41.078996,
-    "lng": -73.520479
-   },
-   "klass": "commercial",
-   "tier": 4,
-   "why": "Within about a mile and a half, sold in the last 2 years",
-   "km": 2.3795842250611305,
    "ppsf": null
   },
   {
@@ -255,6 +226,31 @@
    "why": "Same town, sold in the last 3 years",
    "km": 5.082743188244247,
    "ppsf": 0.020975609756097562
+  },
+  {
+   "mls": "24149789",
+   "slug": "stamford-connecticut-24149789",
+   "address": {
+    "line": null,
+    "unit": null,
+    "lineWithUnit": null,
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06907"
+   },
+   "beds": null,
+   "baths": null,
+   "sqft": null,
+   "acres": 0.69,
+   "price": 4000.0,
+   "date": "2026-07-28",
+   "listingType": "rent",
+   "geo": {},
+   "klass": "commercial",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": null,
+   "ppsf": null
   }
  ]
 }

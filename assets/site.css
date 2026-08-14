@@ -287,3 +287,14 @@ footer .col a:hover{color:#fff}
 .author-creds a{color:var(--gold-l,#eed6a3);text-decoration:none}
 .author-creds a:hover{text-decoration:underline}
 @media(max-width:560px){.author-box{flex-direction:column;text-align:center;align-items:center}}
+
+/* Live-answer box on the question pages (2026-08-14). Deliberately quiet — a tinted panel, not a
+   loud callout: the value is that the numbers are real and dated, not that they shout. */
+.answer-box{border:1px solid var(--line);border-radius:16px;padding:20px 22px;margin:0 0 26px;
+  background:rgba(29,95,209,.06)}
+.answer-box h2{margin:0 0 12px;font-size:1.15rem}
+.answer-box p{margin:0 0 11px;line-height:1.65}
+.answer-box p:last-child{margin-bottom:0}
+.answer-box b{color:var(--fg)}
+.answer-src{font-size:.82rem;color:var(--muted);border-top:1px solid var(--line);padding-top:11px;margin-top:14px!important}
+.answer-src a{color:var(--muted);text-decoration:underline}

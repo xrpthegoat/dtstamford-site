@@ -41,7 +41,7 @@
     <nav class="nav-links">
       <a href="/homes/">Buy</a>
       <a href="/rentals/">Rent</a>
-      <a href="/sold/">Sold</a>
+      <a href="/sold/">Sold</a><a href="/services/sell-your-home-stamford-ct.html">Sell</a>
       <a href="/neighborhoods.html">Neighborhoods</a>
       <a href="/stamford-market.html">Market Trends</a>
       <a href="/buyer-guides.html">Guides</a>
@@ -63,12 +63,13 @@
     <nav class="mmenu-links" aria-label="Mobile">
       <a href="/stamford-market.html"><span class="ix">01</span><span class="lb">Market</span><span class="ar" aria-hidden="true">→</span></a>
       <a href="/homes-for-sale-stamford.html"><span class="ix">02</span><span class="lb">Homes for Sale</span><span class="ar" aria-hidden="true">→</span></a>
-      <a href="/neighborhoods.html"><span class="ix">03</span><span class="lb">Neighborhoods</span><span class="ar" aria-hidden="true">→</span></a>
-      <a href="/living-in-stamford.html"><span class="ix">04</span><span class="lb">Living</span><span class="ar" aria-hidden="true">→</span></a>
-      <a href="/live-map.html"><span class="ix">05</span><span class="lb">Events Map</span><span class="ar" aria-hidden="true">→</span></a>
-      <a href="/blog.html"><span class="ix">06</span><span class="lb">Blog</span><span class="ar" aria-hidden="true">→</span></a>
-      <a href="/compare.html"><span class="ix">07</span><span class="lb">Compare</span><span class="ar" aria-hidden="true">→</span></a>
-      <a href="/contact.html"><span class="ix">08</span><span class="lb">Contact</span><span class="ar" aria-hidden="true">→</span></a>
+      <a href="/services/sell-your-home-stamford-ct.html"><span class="ix">03</span><span class="lb">Sell</span><span class="ar" aria-hidden="true">→</span></a>
+      <a href="/neighborhoods.html"><span class="ix">04</span><span class="lb">Neighborhoods</span><span class="ar" aria-hidden="true">→</span></a>
+      <a href="/living-in-stamford.html"><span class="ix">05</span><span class="lb">Living</span><span class="ar" aria-hidden="true">→</span></a>
+      <a href="/live-map.html"><span class="ix">06</span><span class="lb">Events Map</span><span class="ar" aria-hidden="true">→</span></a>
+      <a href="/blog.html"><span class="ix">07</span><span class="lb">Blog</span><span class="ar" aria-hidden="true">→</span></a>
+      <a href="/compare.html"><span class="ix">08</span><span class="lb">Compare</span><span class="ar" aria-hidden="true">→</span></a>
+      <a href="/contact.html"><span class="ix">09</span><span class="lb">Contact</span><span class="ar" aria-hidden="true">→</span></a>
     </nav>
     <div class="mmenu-foot">
       <a class="btn btn-gold" href="tel:2038833399">Call 203·883·3399 <span aria-hidden="true">↗</span></a>
@@ -111,7 +112,7 @@
 
   <h2>Pricing your home: live data, not guesswork</h2>
   <p>Most pricing mistakes come from stale information — a report pulled last month, or a Zestimate that's never seen your kitchen. My site tracks the Stamford market from a live MLS feed that refreshes every 3 hours. Right now there are <!--LIVESTAT:total-->721<!--/LIVESTAT--> active listings in Stamford, and the median asking price for homes for sale is <!--LIVESTAT:medianSale-->$2.1M<!--/LIVESTAT-->. That's the market your home will compete in the week it lists — and it's the data your price gets built from.</p>
-  <p>The starting point is a <strong>free CMA</strong> (comparative market analysis): recent sales of homes like yours, in your part of Stamford, adjusted for condition and features. Want a read on your number before committing to anything? <a href="/how-much-is-my-house-worth-in-stamford-ct.html">Get your free home valuation here</a> — no obligation attached.</p>
+  <p>The starting point is a <strong>free CMA</strong> (comparative market analysis): recent sales of homes like yours, in your part of Stamford, adjusted for condition and features. Want a read on your number before committing to anything? <a href="#valuation-form">Get your free home valuation here</a> — no obligation attached.</p>
 
   <h2>How I do it differently</h2>
   <p>Two things, honestly. First, the <strong>live data</strong>: because my market feed re-bakes every 3 hours, I'm reading current inventory and asking prices when we set your strategy — not quoting a quarterly PDF. Second, <strong>straight answers</strong>: if your target price is above what the data supports, I'll tell you before it costs you weeks on market. If a cheap fix will earn back multiples at sale, I'll tell you that too. You get the numbers and the reasoning, and you make the calls.</p>
@@ -133,7 +134,50 @@
 
   <h2 id="ask">Thinking about selling?</h2>
   <p>Start with the free CMA — it costs nothing and tells you exactly where your home stands in today's market. Call or text <a href="tel:2038833399"><strong>203-883-3399</strong></a>, email <a href="mailto:John@dtstamford.com">John@dtstamford.com</a>, or take five minutes to see what's competing with your home right now.</p>
-  <p><a href="/how-much-is-my-house-worth-in-stamford-ct.html"><strong>→ Get your free CMA</strong></a> · <a href="/search.html">Browse the live market →</a> · <a href="/about.html">About John →</a></p>
+  <p><a href="#valuation-form"><strong>→ Get your free CMA</strong></a> · <a href="/search.html">Browse the live market →</a> · <a href="/about.html">About John →</a></p>
+
+  <!-- HOME VALUATION FORM — same Web3Forms mechanics as /contact.html (invisible hCaptcha verified
+       server-side + swipe-send control); only the hidden subject differs so the lead's origin page
+       shows in the email. The "Get your free CMA" CTAs on this page anchor here. -->
+  <div class="tool" id="valuation-form">
+    <h3>Start with your free CMA</h3>
+    <p class="sub">Tell me about your property and I'll send a personalized market valuation.</p>
+    <form name="home-valuation" method="POST" action="https://api.web3forms.com/submit">
+      <input type="hidden" name="access_key" value="2b2b377e-df45-443d-94ff-5abfa2eb6284">
+      <input type="hidden" name="subject" value="Valuation request — sell page">
+      <input type="hidden" name="from_name" value="dtstamford.com">
+      <input type="hidden" name="redirect" value="https://dtstamford.com/thanks.html">
+      <input type="checkbox" name="botcheck" class="hidden" style="display:none" tabindex="-1" autocomplete="off">
+      <div class="fld"><label for="v_addr">Property address</label><input id="v_addr" name="address" placeholder="123 Bedford St, Stamford, CT" required></div>
+      <div class="grid2">
+        <div class="fld"><label for="v_type">Property type</label>
+          <select id="v_type" name="property_type">
+            <option>Single-family home</option><option>Condo / Co-op</option><option>Multi-family</option><option>Townhouse</option><option>Other</option>
+          </select>
+        </div>
+        <div class="fld"><label for="v_time">Timeline</label>
+          <select id="v_time" name="timeline">
+            <option>Just curious</option><option>Within 3 months</option><option>3–6 months</option><option>6–12 months</option>
+          </select>
+        </div>
+      </div>
+      <div class="grid2">
+        <div class="fld"><label for="v_name">Your name</label><input id="v_name" name="name" required></div>
+        <div class="fld"><label for="v_phone">Phone</label><input id="v_phone" name="phone" type="tel" inputmode="numeric" autocomplete="tel" pattern="[0-9()+.\s-]{7,}" title="Please enter a valid phone number (digits only)."></div>
+      </div>
+      <div class="fld"><label for="v_email">Email</label><input id="v_email" name="email" type="email" required></div>
+      <div class="fld"><label for="v_notes">Anything else? (optional)</label><textarea id="v_notes" name="notes" rows="3"></textarea></div>
+      <div class="h-captcha" data-captcha="true" data-theme="dark" data-size="invisible" data-callback="dtsCaptchaDone"></div>
+      <button class="btn btn-gold" type="submit">Get my free CMA <span class="arr">→</span></button>
+    </form>
+    <script>
+    /* Phone fields accept only digits + basic phone punctuation, so a name/word can't be submitted
+       as a phone number. Strips invalid chars live; the pattern attribute also blocks submit. */
+    (function(){document.querySelectorAll('input[type="tel"]').forEach(function(el){
+      el.addEventListener('input',function(){var v=el.value.replace(/[^0-9()+.\s-]/g,'');if(v!==el.value)el.value=v;});
+    });})();
+    </script>
+  </div>
 
   <div class="author-box" itemscope itemtype="https://schema.org/Person">
     <img class="author-photo" src="/assets/john-restrepo-stamford-ct-real-estate-agent-headshot.jpg" alt="John Restrepo — Stamford CT real estate agent" width="72" height="72" loading="lazy" itemprop="image">
@@ -151,7 +195,7 @@
     <p>Pro photos, MLS + Zillow + Realtor.com syndication, and a price built from live Stamford data — starting with a free CMA.</p>
     <div class="cta-row">
       <a class="btn btn-gold" href="tel:2038833399">Call 203·883·3399 <span class="arr">→</span></a>
-      <a class="btn btn-out" href="/how-much-is-my-house-worth-in-stamford-ct.html">Get your free CMA</a>
+      <a class="btn btn-out" href="#valuation-form">Get your free CMA</a>
     </div>
   </div>
 </section>
@@ -170,6 +214,17 @@
         <a href="/blog.html">Blog</a>
         <a href="/faq.html">FAQ</a>
       </div>
+      <div class="col fcol-services"><h4>Services</h4>
+        <a href="/services/sell-your-home-stamford-ct.html">Sell Your Home</a>
+        <a href="/services/free-home-valuation-stamford-ct.html">Free Home Valuation</a>
+        <a href="/services/buyers-agent-stamford-ct.html">Buyer&#39;s Agent</a>
+        <a href="/services/first-time-home-buyers-stamford-ct.html">First-Time Home Buyers</a>
+        <a href="/services/apartment-rentals-stamford-ct.html">Apartment Rentals</a>
+        <a href="/services/relocation-to-stamford-ct.html">Relocation to Stamford</a>
+        <a href="/services/downtown-stamford-condos.html">Downtown Stamford Condos</a>
+        <a href="/services/investment-property-stamford-ct.html">Investment Property</a>
+        <a href="/services/luxury-waterfront-homes-stamford-ct.html">Luxury &amp; Waterfront Homes</a>
+      </div>
       <div class="col"><h4>Contact</h4>
         <a href="tel:2038833399">203·883·3399</a>
         <a href="mailto:John@dtstamford.com">John@dtstamford.com</a>
@@ -178,6 +233,7 @@
       </div>
     </div>
     <div class="fbot"><span>© 2026 Downtown Stamford · John Restrepo</span><span>Real Estate Made Simple.</span></div>
+    <div class="fbot" style="border-top:0;padding-top:0;margin-top:10px"><span>John Restrepo · Licensed CT Real Estate Salesperson RES.0817347 · Brokered by Jarah E. Tuttle, Licensed CT Real Estate Broker (REB.0756860)</span><span>Equal Housing Opportunity</span></div>
   </div>
 </footer>
 <div class="callbar"><a class="btn btn-gold" href="tel:2038833399">Call John</a><a class="btn btn-out" href="sms:2038833399">Text</a></div>
@@ -246,5 +302,10 @@
   },3000);
 })();
 </script>
+<!-- Web3Forms hCaptcha renderer + slide-to-send control for the valuation form — same pair
+     /contact.html loads. The captcha is invisible; swipe-send.js runs hcaptcha.execute() when the
+     slide completes and only then POSTs. Server-side token verification at Web3Forms unchanged. -->
+<script src="https://web3forms.com/client/script.js" async defer></script>
+<script src="/assets/swipe-send.js" defer></script>
 </body>
 </html>

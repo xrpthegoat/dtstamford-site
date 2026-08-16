@@ -69,6 +69,9 @@ const f = l => l._facts || {};
 const blob = l => l._blob || '';
 const num = v => { const n = parseFloat(v); return Number.isFinite(n) ? n : null; };
 const listy = (v, re) => typeof v === 'string' && re.test(v);
+// One sold test for the whole file (mirrors app.js isSold) — keep()'s sold-only guard and
+// soldInfo() must never disagree about which records are history.
+const isSoldRec = l => { const s = String((l && l.status) || '').toLowerCase(); return s.includes('closed') || s.includes('sold'); };
 
 const WANTS = {
   pool:       { label: 'a pool', needsFacts: true, test: l => (num(f(l).pool) > 0 || listy(f(l).poolDesc, /./) || /\bpool\b/.test(blob(l))) ? { w: 3, why: 'has a pool' } : null },
@@ -105,7 +108,12 @@ const WANTS = {
    --------------------------------------------------------------------------- */
 function parse(text) {
   const s = ' ' + text.toLowerCase().replace(/[’']/g, "'") + ' ';
-  const out = { raw: text.trim(), wants: [], excl: [], types: [], cities: [], hood: null, minSqft: 0, maxDays: 0, maxHoa: null, beds: null, baths: null, priceMin: null, priceMax: null, listingType: null, maxTrainMin: 0 };
+  const out = { raw: text.trim(), wants: [], excl: [], types: [], cities: [], hood: null, minSqft: 0, maxDays: 0, maxHoa: null, beds: null, baths: null, priceMin: null, priceMax: null, listingType: null, maxTrainMin: 0, sold: false };
+
+  /* ---- sold / closed HISTORY. Closed records are comps, not inventory (app.js showSold defaults
+         off) — only an explicit ask ("what sold on Cove Road", "sale prices") brings them in, and
+         the answer is then framed as history, never as homes to go see. ---- */
+  if (/\bsold\b|\bclosed sales?\b|\bsale prices?\b|\bsales history\b|recently closed|what did .{1,60}(sell|close|go) for/.test(s)) out.sold = true;
 
   /* ---- money. "700k" / "$1.2m" / "3500" / "3,500 a month" ---- */
   const dollars = m => {
@@ -223,6 +231,10 @@ function build(p, factsReady) {
   return {
     text: p.raw,
     keep(l) {
+      // A sold question answers with sale history ONLY. showSold merely lets closed records
+      // through app.js's base filter (it is an include-toggle, not sold-only) — without this
+      // guard the "these already sold" lede would count and list active homes too.
+      if (p.sold && !isSoldRec(l)) return false;
       if (p.hood && (!l.geo || KM(l.geo, p.hood) > p.hood.km)) return false;
       if (p.minSqft && !(l.sqft >= p.minSqft)) return false;
       if (p.maxDays && !(l.daysOnMarket != null && l.daysOnMarket <= p.maxDays)) return false;
@@ -307,9 +319,28 @@ function addrOf(l) {
 }
 const esc = s => String(s == null ? '' : s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 
+/* Sale-history facts for a closed hit — same sold test as app.js isSold(). closeDate/closePrice
+   ride on the index for closed records; an older index bake without them degrades to plain "sold". */
+function soldInfo(l) {
+  if (!isSoldRec(l)) return null;
+  let when = null, whenLong = null;
+  if (l.closeDate) {
+    const d = new Date(String(l.closeDate).slice(0, 10) + 'T12:00:00');
+    if (!isNaN(d)) {
+      when = d.toLocaleDateString('en-US', { month: 'short', year: 'numeric' });
+      whenLong = d.toLocaleDateString('en-US', { month: 'long', year: 'numeric' });
+    }
+  }
+  const price = l.closePrice != null ? l.closePrice : null;
+  const phrase = whenLong && price != null ? `sold in ${whenLong} for ${money(price)}`
+    : whenLong ? `sold in ${whenLong}`
+    : price != null ? `sold for ${money(price)}` : 'sold';
+  return { when, phrase, price };
+}
+
 function chipsFor(p, factsReady, effType) {
   const c = [];
-  c.push(effType === 'rent' ? 'Rentals' : 'For sale');
+  c.push(p.sold ? 'Sold — sale history' : (effType === 'rent' ? 'Rentals' : 'For sale'));
   if (p.cities.length) c.push(p.cities.join(' + '));
   if (p.hood) c.push(p.hood.name);
   if (p.priceMin && p.priceMax) c.push(`${money(p.priceMin)}–${money(p.priceMax)}`);
@@ -372,6 +403,10 @@ function apply(p, factsReady) {
     types: (p.listingType || S.state.type) === 'rent' ? [] : p.types,
     cities: p.cities,
     maxTrainMin: p.maxTrainMin,
+    // Closed listings are history, not inventory: every AI answer excludes them unless the
+    // question explicitly asked about sold homes — then the real Sold toggle flips on so the
+    // bar tells the truth (and Clear/reset flips it back off).
+    showSold: !!p.sold,
     sort: 'ai',
     ai
   });
@@ -402,7 +437,7 @@ function relaxation(p) {
       priceMin: alt.priceMin || 0, priceMax: alt.priceMax || 0,
       beds: alt.beds || 0, baths: alt.baths || 0,
       types: effType === 'rent' ? [] : alt.types, cities: alt.cities,
-      maxTrainMin: alt.maxTrainMin, ai: build(alt, _factsState === 'ready')
+      maxTrainMin: alt.maxTrainMin, showSold: !!alt.sold, ai: build(alt, _factsState === 'ready')
     });
     if (n > 0) return { ...t, n, alt };
   }
@@ -431,19 +466,24 @@ function renderAnswer(p, ai, n, factsReady) {
   let html = '';
   if (n > 0) {
     const top = topMatches(ai, 3);
-    html = `<p class="ai-lede"><b>${n}</b> ${noun} match — they're on the map and in the list now, best match first.</p>
+    // A sold answer is HISTORY: say so in the lede, badge each hit SOLD with its close date, and
+    // lead its line with what it closed for — never "worth a look" language.
+    const lede = p.sold
+      ? `<b>${n}</b> ${noun} in the sale history match — these already sold, so they're pricing context, not homes you can tour. They're on the map and in the list now.`
+      : `<b>${n}</b> ${noun} match — they're on the map and in the list now, best match first.`;
+    html = `<p class="ai-lede">${lede}</p>
       <div class="ai-chips">${chips}</div>
-      ${top.length ? `<div class="ai-top">${top.map(t => `
+      ${top.length ? `<div class="ai-top">${top.map(t => { const h = p.sold ? soldInfo(t.l) : null; return `
         <button class="ai-hit" type="button" data-mls="${esc(t.l.mls)}">
-          <span class="ai-hit-price">${effType === 'rent' ? money(t.l.price) + '<i>/mo</i>' : money(t.l.price)}</span>
-          <span class="ai-hit-addr">${esc(addrOf(t.l))}</span>
-          <span class="ai-hit-why">${t.why.map(w => esc(w)).join(' · ') || `${t.l.beds || 0} bd · ${t.l.baths || 0} ba`}</span>
-        </button>`).join('')}</div>` : ''}
+          <span class="ai-hit-price">${money(h && h.price != null ? h.price : t.l.price)}${effType === 'rent' ? '<i>/mo</i>' : ''}</span>
+          <span class="ai-hit-addr">${h ? `<span class="badge sold">SOLD${h.when ? ' · ' + esc(h.when) : ''}</span> ` : ''}${esc(addrOf(t.l))}</span>
+          <span class="ai-hit-why">${h ? esc(h.phrase) + (t.why.length ? ' · ' : '') : ''}${t.why.map(w => esc(w)).join(' · ') || (h ? '' : `${t.l.beds || 0} bd · ${t.l.baths || 0} ba`)}</span>
+        </button>`; }).join('')}</div>` : ''}
       <p class="ai-foot">Not quite it? Add a detail and ask again, or adjust the filters above — they're yours now.
         <button class="ai-clear" type="button" data-ai-clear>Clear</button></p>`;
   } else {
     const r = relaxation(p);
-    html = `<p class="ai-lede">Nothing matches all of that right now — Stamford inventory is tight.</p>
+    html = `<p class="ai-lede">${p.sold ? 'No recorded sales match all of that in the feed I have.' : 'Nothing matches all of that right now — Stamford inventory is tight.'}</p>
       <div class="ai-chips">${chips}</div>
       ${r ? `<p class="ai-foot"><button class="ai-relax" type="button" data-relax>Show ${r.n} without ${esc(r.label)}</button></p>`
           : `<p class="ai-foot">Tell John exactly what you want and he'll set up a live alert: <a href="tel:2038833399">203·883·3399</a>
@@ -502,7 +542,7 @@ function clearAI() {
   sheet.classList.remove('has-answer');
   _last = null;
   input.value = '';
-  S.applyFilters({ ai: null, sort: 'new', priceMin: 0, priceMax: 0, beds: 0, baths: 0, types: [], cities: [], maxTrainMin: 0, q: '' });
+  S.applyFilters({ ai: null, sort: 'new', priceMin: 0, priceMax: 0, beds: 0, baths: 0, types: [], cities: [], maxTrainMin: 0, q: '', showSold: false });
   body.innerHTML = idleHTML();
   btn.classList.remove('is-on');
 }
@@ -520,7 +560,7 @@ function looksLikeQuestion(v) {
   // the leading number alone was wrong: it also swallowed "2 bedroom under 3000 a month".
   if (/^\d+\s+.+\b(?:st|street|ave|avenue|rd|road|ln|lane|dr|drive|ct|court|pl|place|blvd|boulevard|way|ter|terrace|cir|circle|hwy|pkwy|row)\b\.?$/i.test(s)) return false;
   // A digit alone isn't enough ("Stamford CT 06902"); it takes an actual want word.
-  return /under|over|below|with|without|near|walk|commut|bed|bath|pet|dog|cat|garage|parking|laundry|pool|yard|quiet|budget|month|\$|sq ?ft|square feet|hoa|train|view|waterfront|renovat|elevator|fireplace|basement|acre|cul.?de.?sac|move.?in|just listed/i.test(s);
+  return /under|over|below|with|without|near|walk|commut|bed|bath|pet|dog|cat|garage|parking|laundry|pool|yard|quiet|budget|month|\$|sq ?ft|square feet|hoa|train|view|waterfront|renovat|elevator|fireplace|basement|acre|cul.?de.?sac|move.?in|just listed|\bsold\b|sale price|sell for/i.test(s);
 }
 
 function boot() {

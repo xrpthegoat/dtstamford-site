@@ -102,6 +102,8 @@
 .lcard .ph img{width:100%;height:100%;object-fit:cover;display:block}
 .lcard .badge{position:absolute;top:10px;left:10px;background:rgba(6,6,8,.72);backdrop-filter:blur(6px);border:1px solid var(--line);color:#fff;
   font-size:.68rem;font-family:var(--mono);letter-spacing:.05em;padding:4px 8px;border-radius:7px}
+.lcard .badge.sold{background:rgba(112,26,26,.82);border-color:rgba(224,122,122,.45);color:#ffdede}
+.modal .soldnote{background:rgba(112,26,26,.18);border:1px solid rgba(224,122,122,.35);color:#ffdede;border-radius:10px;padding:9px 12px;font-size:.83rem;margin:0 0 14px}
 .lcard .sv{position:absolute;top:9px;right:9px;width:32px;height:32px;border-radius:9px;border:1px solid var(--line);background:rgba(6,6,8,.6);
   backdrop-filter:blur(6px);cursor:pointer;display:grid;place-items:center;color:#cfd0d8;transition:all .15s ease}
 .lcard .sv:hover{color:var(--goldl);border-color:rgba(203,171,104,.5)}.lcard .sv.on{color:var(--gold);border-color:var(--gold)}
@@ -200,7 +202,7 @@
     <nav class="nav-links" aria-label="Primary">
       <a href="homes/">Buy</a>
       <a href="rentals/">Rent</a>
-      <a href="sold/">Sold</a>
+      <a href="sold/">Sold</a><a href="/services/sell-your-home-stamford-ct.html">Sell</a>
       <a href="neighborhoods.html">Neighborhoods</a>
       <a href="stamford-market.html">Market Trends</a>
       <a href="buyer-guides.html">Guides</a>
@@ -215,7 +217,7 @@
   <div class="mmenu-scrim" id="mmScrim"></div>
   <aside class="mmenu-panel" role="dialog" aria-modal="true" aria-label="Menu">
     <nav class="mmenu-links" aria-label="Mobile">
-      <a href="/">Home</a><a href="homes/">Buy</a><a href="rentals/">Rent</a>
+      <a href="/">Home</a><a href="homes/">Buy</a><a href="rentals/">Rent</a><a href="/services/sell-your-home-stamford-ct.html">Sell</a>
       <a href="neighborhoods.html">Neighborhoods</a>
       <a href="stamford-market.html">Market Trends</a><a href="blog.html">Blog</a><a href="contact.html">Contact</a>
     </nav>
@@ -319,7 +321,9 @@
 
   <footer class="aihs-foot">
     <div class="col" id="idxLegal"></div>
-  </footer>
+  
+<div class="fbot"><span>John Restrepo · Licensed CT Real Estate Salesperson RES.0817347 · Brokered by Jarah E. Tuttle, Licensed CT Real Estate Broker (REB.0756860)</span><span>Equal Housing Opportunity</span></div>
+</footer>
 </main>
 
 <div class="mscrim" id="mscrim"><div class="modal" id="modal"></div></div>
@@ -354,6 +358,22 @@ const esc = s => String(s == null ? '' : s).replace(/[&<>"]/g, m => ({ '&':'&amp
 const money = n => n == null ? '—' : '$' + Math.round(n).toLocaleString();
 const money0 = n => n == null ? '—' : '$' + Math.round(n).toLocaleString();
 
+/* ---------- status: sold homes are HISTORY, never inventory ----------
+   ~8 of every 9 records in listings.json are status Closed. Same sold test as
+   search.html's app.js isSold() / genlistings.py is_closed() — one definition,
+   or a sold home gets pitched as available on whichever page disagrees. */
+const isSold = l => { const s = String((l && l.status) || '').toLowerCase(); return s.includes('closed') || s.includes('sold'); };
+const isAvail = l => { const s = String((l && l.status) || '').toLowerCase(); return !s || /active|coming/.test(s); };
+const availListings = () => State.listings.filter(isAvail);
+function soldWhen(l){ if (!l || !l.closeDate) return null; const d = new Date(l.closeDate + 'T12:00:00'); return isNaN(d) ? null : d.toLocaleDateString('en-US', { month:'long', year:'numeric' }); }
+function soldPhrase(l){
+  const when = soldWhen(l), p = l.closePrice;
+  if (when && p != null) return `sold in ${when} for ${money(p)}`;
+  if (when) return `sold in ${when}`;
+  if (p != null) return `sold for ${money(p)}`;
+  return 'sold';
+}
+
 /* =====================================================================
    STATE + MEMORY
    ===================================================================== */
@@ -380,6 +400,10 @@ const Data = {
   search(f) {
     const wants = new Set(f.wants || []);
     const scored = State.listings
+      // Default: only what a buyer can still act on (Active / Coming Soon). Closed records come in
+      // ONLY when the question explicitly asked about sold homes — and then ONLY closed records,
+      // presented as sale history (see f.sold in Modules.search / cardEl).
+      .filter(l => f.sold ? isSold(l) : isAvail(l))
       .filter(l => !f.listingType || l.listingType === f.listingType)
       .map(l => {
         const t = Feat.text(l), st = Geo.station(l.geo);
@@ -399,6 +423,9 @@ const Data = {
         // always surface the commute fact when relevant
         if ((wants.has('train') || wants.has('nyc')) && st) reasons.unshift(st.walkMin <= 18 ? `${st.walkMin}-min walk to Stamford Station` : `${st.driveMin} min to Stamford Station`);
         if (!reasons.length) reasons.push(Feat.headline(l, st));
+        // A closed record leads with what actually happened — "sold in March 2026 for $X" —
+        // never with a pitch that reads like it's still on the market.
+        if (f.sold) reasons.unshift(soldPhrase(l));
         return { listing: l, score, reasons: [...new Set(reasons)].slice(0, 4) };
       })
       .filter(Boolean)
@@ -468,7 +495,10 @@ const NLU = {
   hoods: ['downtown','harbor point','south end','shippan','springdale','glenbrook','cove','north stamford','waterside','belltown','newfield','westover','turn of river'],
   parse(text) {
     const s = ' ' + text.toLowerCase() + ' ';
-    const out = { wants: [], avoid: [], priceMax: null, priceMin: null, beds: null, baths: null, type: null, neighborhood: null, listingType: null, raw: text };
+    const out = { wants: [], avoid: [], priceMax: null, priceMin: null, beds: null, baths: null, type: null, neighborhood: null, listingType: null, sold: false, raw: text };
+
+    // sold / closed HISTORY — only an explicit ask flips this; it is per-question, never remembered
+    if (/\bsold\b|\bclosed sales?\b|\bsale prices?\b|\bsales history\b|recently closed|what did .{1,60}(sell|close|go) for/.test(s)) out.sold = true;
 
     // price
     const num = m => { let n = parseFloat(m.replace(/[,$\s]/g, '')); if (/m/i.test(m)) n *= 1e6; else if (/k/i.test(m)) n *= 1e3; else if (n < 10000) n *= 1000; return n; };
@@ -580,18 +610,26 @@ const Brain = {
     search(turn){
       mergePrefs(turn.nlu);
       const f = prefsToFilters();
+      f.sold = !!turn.nlu.sold;      // per-question: "what sold nearby" must not stick to the next search
       let res = Data.search(f);
       const n = res.length;
       let html, ask = null;
       if (!n) {
-        html = `<p>I don't have a listing that hits <em class="em">every</em> box right now — inventory in Stamford is tight. `+
-               `Want me to loosen one thing? Often the fastest unlock is nudging the budget up a little or dropping a nice-to-have. `+
-               `Tell me which matters most and I'll re-run it.</p>`;
+        html = f.sold
+          ? `<p>No recorded sales in my feed match all of that. Try naming the street or town, or loosen a detail, and I'll re-check the sale history.</p>`
+          : `<p>I don't have a listing that hits <em class="em">every</em> box right now — inventory in Stamford is tight. `+
+            `Want me to loosen one thing? Often the fastest unlock is nudging the budget up a little or dropping a nice-to-have. `+
+            `Tell me which matters most and I'll re-run it.</p>`;
       } else {
         const top = res.slice(0, 4);
-        State.lastResults = top.map(r=>r.listing);
+        // Sold results never become lastResults: the invest/rental modules and the analysis
+        // buttons from an EARLIER answer all read lastResults, and a closed comp must not get
+        // re-pitched as an investment or "easiest to rent" candidate one question later.
+        if (!f.sold) State.lastResults = top.map(r=>r.listing);
         html = `<p>${leadLine(f, n)}</p>`;
-        // ONE smart follow-up, only when it truly helps and hasn't been asked
+        // ONE smart follow-up, only when it truly helps and hasn't been asked — and never on a
+        // sold-history answer, where shopping questions would re-pitch closed homes as inventory.
+        if (f.sold) return { html, results: top, ask: null, analysis: false };
         if (f.priceMax == null && f.priceMin == null && !State.asked.price && n > 3) { ask = 'What price range are you comfortable with?'; State.asked.price = 1; }
         else if (!f.neighborhood && !State.asked.place && spread(top) && !State.asked.price) { ask = 'Would you rather be close to downtown, or have more land further out?'; State.asked.place = 1; }
         return { html, results: top, ask, analysis: n>1 };
@@ -617,7 +655,7 @@ const Brain = {
 
     /* ---------- INVESTMENT (functional) ---------- */
     invest(turn){
-      const pool = (State.lastResults.length? State.lastResults : State.listings).slice(0,8);
+      const pool = (State.lastResults.length? State.lastResults : availListings()).slice(0,8);
       const ranked = pool.map(l=>({ l, ...capRate(l) })).sort((a,b)=>b.cap-a.cap).slice(0,3);
       const rows = ranked.map(x=>`<div class="row"><div class="q">${esc(x.l.address.line)}</div><div class="a">${x.cap.toFixed(1)}% cap<small>~${money(x.rent)}/mo rent · ${money(x.l.price)}</small></div></div>`).join('');
       return { html:
@@ -628,7 +666,7 @@ const Brain = {
 
     /* ---------- RENTAL (functional) ---------- */
     rental(turn){
-      const l = State.lastResults[0] || State.listings[0];
+      const l = State.lastResults[0] || availListings()[0];
       if (!l) return { html:`<p>Show me a home first and I'll estimate what it would rent for.</p>` };
       const rent = Math.round(l.sqft*CONFIG.rentPerSqftMo/50)*50;
       return { html:
@@ -639,7 +677,7 @@ const Brain = {
 
     /* ---------- MARKET (functional, from the dataset) ---------- */
     market(){
-      const arr = State.listings; const med = medianPrice();
+      const arr = availListings(); const med = medianPrice();   // "active listings" must not count the closed archive
       const pps = median(arr.map(l=>l.price/l.sqft).filter(Boolean));
       const dom = median(arr.map(l=>l.daysOnMarket).filter(x=>x!=null));
       return { html:
@@ -674,7 +712,7 @@ const Brain = {
 
     /* ---------- OFFER (honest scaffold) ---------- */
     offer(){
-      const dom = Math.round(median(State.listings.map(l=>l.daysOnMarket).filter(x=>x!=null))||20);
+      const dom = Math.round(median(availListings().map(l=>l.daysOnMarket).filter(x=>x!=null))||20);
       return { html:`<p>Offer strategy is deal-specific, so the real answer comes once we pick a home — but the shape of this market: homes are moving in about <strong>${dom} days</strong> and many go at or above ask. On a fresh, well-priced listing you usually lead strong with clean terms; on something that's sat, there's room. Point me at a specific listing and I'll give you a concrete play. (Full <em class="em">Offer Strategy AI</em> is on the roadmap.)</p>` };
     },
 
@@ -711,8 +749,10 @@ function normalizeFilters(f){
     beds:f.beds??null, baths:f.baths??null, type:f.type||null,
     neighborhood:(f.neighborhood||'').toLowerCase()||null, listingType:f.listingType||null };
 }
-function medianPrice(){ return median(State.listings.map(l=>l.price)) || 700000; }
-function medianTax(){ return median(State.listings.map(l=>l.taxAnnual).filter(Boolean)) || 10500; }
+/* Medians describe TODAY'S market, so they run on available inventory — with the closed
+   archive in listings.json (~8 of 9 records) an all-records median is mostly history. */
+function medianPrice(){ return median(availListings().map(l=>l.price)) || 700000; }
+function medianTax(){ return median(availListings().map(l=>l.taxAnnual).filter(Boolean)) || 10500; }
 function median(a){ a=a.filter(x=>x!=null).sort((x,y)=>x-y); return a.length? (a.length%2? a[(a.length-1)/2] : (a[a.length/2-1]+a[a.length/2])/2) : null; }
 function capRate(l){ const rent = Math.round(l.sqft*CONFIG.rentPerSqftMo); const gross = rent*12;
   const exp = (l.taxAnnual||medianTax()) + (l.hoa||0)*12 + gross*0.12; const cap = (gross-exp)/l.price*100; return { cap, rent }; }
@@ -722,6 +762,8 @@ function leadLine(f, n){
   const bits = [];
   if (f.type==='condo') bits.push('condos'); else if (f.type==='house') bits.push('houses'); else if (f.type==='multi') bits.push('multi-families'); else bits.push('homes');
   if (f.priceMax) bits.splice(bits.length,0,'under '+money(f.priceMax));
+  // Sold results are history, not inventory — say so up front, and never pitch them as "worth a look".
+  if (f.sold) return `Here's the sale history — <strong>${n}</strong> ${bits.join(' ')} that already <em class="em">sold</em>. These aren't available anymore; each card shows what it actually closed for. Want me to pull what's on the market now instead?`;
   const want = f.wants[0];
   const tail = { train:'walkable to the train', nyc:'built for the NYC commute', waterfront:'on the water', privacy:'with real privacy',
     movein:'that are move-in ready', dogs:'with room for the dogs', office:'with a proper office', yard:'with a big yard' }[want] || '';
@@ -750,22 +792,29 @@ function renderResults(container, items){
 function cardEl(r){
   const l = r.listing, st = Geo.station(l.geo), a = l.address || {};
   const on = State.saved.has(l.mls) ? ' on' : '';
+  const sold = isSold(l);
+  // Sold card: SOLD badge with the close date, close price where the feed carries it, and no
+  // tour CTA — a sold comp reads as history, never as a home you can go see.
+  const badge = sold
+    ? `SOLD${soldWhen(l) ? ' · ' + esc(soldWhen(l)) : ''}`
+    : (l.daysOnMarket!=null?l.daysOnMarket+' days on market':esc(l.status||'Active'));
+  const priceShown = sold && l.closePrice != null ? l.closePrice : l.price;
   const c = el('div','lcard');
   c.innerHTML =
     `<div class="ph">
        <img alt="${esc(a.line)}" loading="lazy">
-       <span class="badge">${l.daysOnMarket!=null?l.daysOnMarket+' days on market':esc(l.status||'Active')}</span>
+       <span class="badge${sold?' sold':''}">${badge}</span>
        <button class="sv${on}" data-mls="${esc(l.mls)}" aria-label="Save">♥</button>
      </div>
      <div class="bd">
-       <div class="price">${money(l.price)}${l.listingType==='rent'?'<span style="font-size:.9rem;color:#9a9ba6">/mo</span>':''}</div>
+       <div class="price">${money(priceShown)}${l.listingType==='rent'?'<span style="font-size:.9rem;color:#9a9ba6">/mo</span>':''}${sold?`<span style="font-size:.78rem;color:#9a9ba6;font-weight:400"> ${l.closePrice!=null?'sale price':'last asking'}</span>`:''}</div>
        <div class="addr">${esc(a.line)}<br><span class="nb">${esc([a.neighborhood,a.city,a.zip].filter(Boolean).join(' · '))}</span></div>
        <div class="specs">
          <span>${l.beds} bd</span><span>${l.baths} ba</span><span>${(l.sqft||0).toLocaleString()} sqft</span>
          ${l.hoa?`<span>HOA ${money(l.hoa)}/mo</span>`:'<span>No HOA</span>'}
          ${st?`<span>${st.walkMin<=18?st.walkMin+'-min walk':st.driveMin+' min'} to train</span>`:''}
        </div>
-       <div class="why"><b>Why it fits:</b> ${esc(r.reasons.join(' · '))}.</div>
+       <div class="why"><b>${sold?'Sale history:':'Why it fits:'}</b> ${esc(r.reasons.join(' · '))}.</div>
        <div class="fin">
          <span>Taxes <em>${l.taxAnnual?money(l.taxAnnual)+'/yr':'—'}</em></span>
          <span>Built <em>${l.yearBuilt||'—'}</em></span>
@@ -773,7 +822,7 @@ function cardEl(r){
        </div>
        <div class="acts">
          <a class="primary" href="#" data-detail="${esc(l.mls)}">View Details</a>
-         <a class="ghost" href="contact.html">Schedule Tour</a>
+         ${sold?`<a class="ghost" href="contact.html">Ask about this sale</a>`:`<a class="ghost" href="contact.html">Schedule Tour</a>`}
          <button class="ghost" data-save="${esc(l.mls)}">${State.saved.has(l.mls)?'Saved':'Save'}</button>
        </div>
      </div>`;
@@ -854,7 +903,7 @@ function analyse(kind){
     rows = items.map(l=>({l, c:(l.taxAnnual||medianTax()) + (l.hoa||0)*12 + (2026-(l.yearBuilt||2000))*180})).sort((a,b)=>a.c-b.c)
       .map(x=>`<div class="row"><div class="q">${esc(x.l.address.line)}</div><div class="a">~${money(x.c)}/yr<small>tax + HOA + upkeep</small></div></div>`).join(''); }
   else { title='Best resale value (newer + below-median $/sqft)';
-    const pps = median(State.listings.map(l=>l.price/l.sqft));
+    const pps = median(availListings().map(l=>l.price/l.sqft));
     rows = items.map(l=>({l, s:(l.yearBuilt-1990)/5 + (pps-(l.price/l.sqft))/20})).sort((a,b)=>b.s-a.s)
       .map(x=>`<div class="row"><div class="q">${esc(x.l.address.line)}</div><div class="a">$${Math.round(x.l.price/x.l.sqft)}/sqft<small>built ${x.l.yearBuilt}</small></div></div>`).join(''); }
   const b = addMsg('ai', `<p><strong>${title}.</strong> Ranked best-first:</p><div class="ana">${rows}</div>`);
@@ -864,13 +913,14 @@ function analyse(kind){
 /* ---------- detail modal ---------- */
 function openDetail(mls){
   const l = State.listings.find(x=>x.mls===mls); if (!l) return;
-  const a=l.address||{}, st=Geo.station(l.geo);
+  const a=l.address||{}, st=Geo.station(l.geo), sold=isSold(l);
   $('#modal').innerHTML =
     `<div class="mph"><img alt="${esc(a.line)}" data-mph="1">
        <button class="mx" id="mClose" aria-label="Close">×</button></div>
      <div class="mbd">
-       <h3>${money(l.price)}${l.listingType==='rent'?'/mo':''}</h3>
+       <h3>${money(sold && l.closePrice != null ? l.closePrice : l.price)}${l.listingType==='rent'?'/mo':''}</h3>
        <div class="msub">${esc(a.line)} · ${esc([a.neighborhood,a.city,a.zip].filter(Boolean).join(', '))}</div>
+       ${sold?`<p class="soldnote"><strong>SOLD</strong> — this home ${esc(soldPhrase(l))}. It's shown as sale history, not an available listing.</p>`:''}
        <div class="mgrid">
          <div class="c"><div class="l">Beds</div><div class="v">${l.beds}</div></div>
          <div class="c"><div class="l">Baths</div><div class="v">${l.baths}</div></div>
@@ -881,7 +931,7 @@ function openDetail(mls){
        </div>
        ${(l.features&&l.features.length)?`<div class="feats">${l.features.map(f=>`<span>${esc(f)}</span>`).join('')}</div>`:''}
        <p class="rmk">${esc(l.remarks||'')}</p>
-       <div class="macts"><a class="primary" href="contact.html">Schedule a Tour</a><a class="ghost" href="tel:2038833399">Call John</a></div>
+       <div class="macts">${sold?`<a class="primary" href="contact.html">Ask about this sale</a>`:`<a class="primary" href="contact.html">Schedule a Tour</a>`}<a class="ghost" href="tel:2038833399">Call John</a></div>
        <p style="color:#54555f;font-size:.7rem;margin-top:14px">${esc(l.attribution||'Courtesy of SmartMLS.')}</p>
      </div>`;
   const mimg = $('#modal img[data-mph]');

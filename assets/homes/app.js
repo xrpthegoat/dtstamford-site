@@ -318,7 +318,8 @@ function addrParts(l) {
 function mlsAttrib(l) {
   const at = (l && l.attribution) || {};
   if (!at.office) return '';
-  const contact = at.agentPhone || at.agentEmail || '';
+  // OFFICE phone only — agentEmail left the public feed 2026-08-16 (personal contact data).
+  const contact = at.agentPhone || '';
   const agent = [at.agent, contact].filter(Boolean).join(' · ');
   return `<div class="idx-attrib">Listing courtesy of <strong>${esc(at.office)}</strong>` +
          (agent ? ` — ${esc(agent)}` : '') + `</div>`;

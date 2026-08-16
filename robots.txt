@@ -1,44 +1,36 @@
 # Downtown Stamford Realty — dtstamford.com
 User-agent: *
-Allow: /
-# Live IDX inventory: the /homes/ listing hub + per-listing pages, and the
-# JSON feeds under /data/ that power the search app, are all crawlable.
+# /data/ is the search app's own backing store, not a crawl surface. Browser
+# fetches are unaffected; this only stops crawler bulk-harvest of the raw JSON.
+# The two AGGREGATE market-stats files stay crawlable: they are the published
+# CC-BY open dataset (see /market-data.html) and contain no per-listing records.
+# Specific rules first: modern parsers use longest-match, older ones first-match.
+Allow: /data/stats.json
+Allow: /data/stats-history.csv
+Disallow: /data/
+# Live IDX inventory: the /homes/ listing hub + per-listing pages are crawlable.
 Allow: /homes/
-Allow: /data/
+Allow: /
 
 # Explicitly welcome the major AI / answer-engine crawlers so the site can be
 # read and cited by ChatGPT, Perplexity, Claude, Gemini, and AI Overviews.
+# One shared group (RFC 9309 stacked User-agent lines): a named group REPLACES
+# the * group entirely for that bot, so the /data/ rule must be repeated here
+# or every explicitly-welcomed crawler would still bulk-harvest the raw JSON.
 User-agent: GPTBot
-Allow: /
-
 User-agent: OAI-SearchBot
-Allow: /
-
 User-agent: ChatGPT-User
-Allow: /
-
 User-agent: PerplexityBot
-Allow: /
-
 User-agent: Perplexity-User
-Allow: /
-
 User-agent: ClaudeBot
-Allow: /
-
 User-agent: Claude-SearchBot
-Allow: /
-
 User-agent: Claude-User
-Allow: /
-
 User-agent: Google-Extended
-Allow: /
-
 User-agent: Applebot-Extended
-Allow: /
-
 User-agent: meta-externalagent
+Allow: /data/stats.json
+Allow: /data/stats-history.csv
+Disallow: /data/
 Allow: /
 
 # Deep AI digest (entity dossier + live market data, regenerated every ~3h):

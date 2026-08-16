@@ -298,3 +298,6 @@ footer .col a:hover{color:#fff}
 .answer-box b{color:var(--fg)}
 .answer-src{font-size:.82rem;color:var(--muted);border-top:1px solid var(--line);padding-top:11px;margin-top:14px!important}
 .answer-src a{color:var(--muted);text-decoration:underline}
+
+/* fcol-services: widen footer grid when the Services column is present (batch add-chrome) */
+@media(min-width:761px){footer .fgrid:has(.fcol-services){grid-template-columns:1.6fr 1fr 1fr 1fr}}

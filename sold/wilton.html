@@ -17,7 +17,8 @@
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..700&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://smartmls-assets.cdn-connectmls.com">
+<link rel="preload" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..700&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..700&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap"></noscript>
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/icon-32.png">
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png">
 <link rel="manifest" href="/site.webmanifest">
@@ -25,12 +26,12 @@
 <link rel="stylesheet" href="/assets/homes/app.css">
 <style>
 .idx-hero{padding:clamp(96px,12vw,140px) 0 24px}
-.idx-crumbs{font-family:var(--mono);font-size:.68rem;letter-spacing:.06em;text-transform:uppercase;color:var(--faint);margin-bottom:18px}
+.idx-crumbs{font-family:var(--mono);font-size:.75rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin-bottom:18px}
 .idx-crumbs a:hover{color:var(--gold-l)}
 /* Status pill — colour-coded by market state (2026-08-02): green = available, amber = under
    contract, cyan = coming soon. Tokens live here so the hub cards and detail hero share them. */
 :root{--st-on:#5fd39a;--st-uc:#f0a44e;--st-ucs:#f5c168;--st-soon:#6fc9ea}
-.idx-status{display:inline-flex;align-items:center;gap:7px;font-family:var(--mono);font-size:.62rem;letter-spacing:.14em;text-transform:uppercase;color:var(--gold-l);border:1px solid var(--line);border-radius:999px;padding:6px 13px;margin-bottom:14px;background:rgba(255,255,255,.03)}
+.idx-status{display:inline-flex;align-items:center;gap:7px;font-family:var(--mono);font-size:.66rem;letter-spacing:.14em;text-transform:uppercase;color:var(--gold-l);border:1px solid var(--line);border-radius:999px;padding:6px 13px;margin-bottom:14px;background:rgba(255,255,255,.03)}
 .idx-status .dot{width:6px;height:6px;border-radius:50%;background:currentColor;flex:none;box-shadow:0 0 0 3px color-mix(in srgb,currentColor 18%,transparent)}
 .st-on{color:var(--st-on);border-color:color-mix(in srgb,var(--st-on) 34%,transparent);background:color-mix(in srgb,var(--st-on) 9%,transparent)}
 .st-uc{color:var(--st-uc);border-color:color-mix(in srgb,var(--st-uc) 34%,transparent);background:color-mix(in srgb,var(--st-uc) 9%,transparent)}
@@ -41,7 +42,7 @@
 .idx-cta-call{font-size:1.06rem;padding:17px 22px;letter-spacing:-.01em}
 .idx-cta-call b{font-weight:800;white-space:nowrap}
 .idx-cta-text{font-size:.99rem;padding:15px 22px}
-.idx-price-sub{margin-top:7px;font-family:var(--mono);font-size:.74rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.idx-price-sub{margin-top:7px;font-family:var(--mono);font-size:.75rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
 /* This is an h1, not a div (2026-08-09): every one of the 4,397 listing pages previously had NO
    h1 at all — the first heading was "About this home" — so the strongest on-page relevance signal
    was missing sitewide, on exactly the pages meant to rank for an address. The ADDRESS is what the
@@ -65,11 +66,11 @@
    value its own padding + underline (tall rows with stray rules). */
 .idx-facts>div{padding:14px 16px;border-bottom:1px solid var(--line-2);border-right:1px solid var(--line-2);min-width:0;overflow-wrap:anywhere}
 .idx-facts>div:nth-child(2n){border-right:0}
-.idx-facts .k{font-family:var(--mono);font-size:.62rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.idx-facts .k{font-family:var(--mono);font-size:.75rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
 .idx-facts .v{color:#fff;font-size:1.02rem;margin-top:3px;line-height:1.35}
 /* What's nearby: the distance sits under the place name, quiet, so the NAME is what scans. */
 .idx-nb-gct{display:block;font-family:var(--mono);font-size:.68rem;letter-spacing:.04em;color:var(--gold-l);margin-top:3px}
-.idx-nb-d{display:block;font-family:var(--mono);font-size:.62rem;letter-spacing:.06em;color:var(--muted);margin-top:3px;text-transform:none}
+.idx-nb-d{display:block;font-family:var(--mono);font-size:.66rem;letter-spacing:.06em;color:var(--muted);margin-top:3px;text-transform:none}
 .idx-nb-note{font-size:.74rem;color:var(--muted);margin:-8px 0 22px;line-height:1.5}
 .idx-cmp-sub{color:var(--muted);font-size:.82rem;margin:-6px 0 10px}
 .idx-cmp-sum{font-size:.95rem;margin:0 0 12px;color:#dfe6f0}
@@ -77,9 +78,9 @@
 .idx-cmp td{padding:12px 14px;border-bottom:1px solid var(--line-2);vertical-align:top}
 .idx-cmp tr:last-child td{border-bottom:0}
 .idx-cmp a{color:#fff;text-decoration:none;border-bottom:1px solid rgba(255,255,255,.22)}
-.idx-cmp-m{display:block;font-family:var(--mono);font-size:.6rem;letter-spacing:.06em;color:var(--muted);margin-top:4px}
+.idx-cmp-m{display:block;font-family:var(--mono);font-size:.66rem;letter-spacing:.06em;color:var(--muted);margin-top:4px}
 .idx-cmp-p{text-align:right;white-space:nowrap;color:#fff;font-size:1.02rem}
-.idx-cmp-k{display:inline-block;font-family:var(--mono);font-size:.56rem;letter-spacing:.08em;text-transform:uppercase;margin-top:5px}
+.idx-cmp-k{display:inline-block;font-family:var(--mono);font-size:.66rem;letter-spacing:.08em;text-transform:uppercase;margin-top:5px}
 .idx-cmp-k.sold{color:#7ee0b0}
 .idx-cmp-k.ask{color:var(--muted)}
 /* Status "chip" inside the STATUS fact cell (John 2026-08-04): a colored pulsing dot next to the
@@ -134,10 +135,10 @@
 .nb-mapwrap{border:1px solid var(--line);border-radius:16px;padding:12px;background:rgba(255,255,255,.015)}
 .nb-map{width:100%;height:auto;display:block;border-radius:12px}
 .nb-legend{display:flex;flex-wrap:wrap;gap:8px 14px;margin-top:10px}
-.nb-key{display:inline-flex;align-items:center;gap:6px;font-family:var(--mono);font-size:.62rem;
+.nb-key{display:inline-flex;align-items:center;gap:6px;font-family:var(--mono);font-size:.66rem;
   letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
 .nb-key i{width:9px;height:9px;border-radius:50%;display:inline-block}
-.nb-mapnote{color:var(--faint);font-size:.7rem;line-height:1.5;margin:8px 0 0}
+.nb-mapnote{color:var(--muted);font-size:.75rem;line-height:1.5;margin:8px 0 0}
 @media(max-width:900px){.idx-nb-grid{grid-template-columns:1fr}}
 .idx-sibs-note{color:var(--muted);font-size:.86rem;margin:-6px 0 12px}
 .idx-sibs{list-style:none;padding:0;margin:0 0 26px;display:grid;
@@ -154,7 +155,7 @@
 .idx-cta p{color:var(--fg-soft);font-size:.95rem;margin-bottom:16px}
 .idx-cta .btn{width:100%;justify-content:center;margin-bottom:10px}
 .idx-remarks{color:var(--fg-soft);font-size:1.06rem;line-height:1.7;margin:8px 0 4px;white-space:pre-line}
-.idx-attrib{font-family:var(--mono);font-size:.72rem;line-height:1.6;color:var(--fg-soft);border-top:1px solid var(--line-2);margin-top:36px;padding-top:18px}
+.idx-attrib{font-family:var(--mono);font-size:.75rem;line-height:1.6;color:var(--fg-soft);border-top:1px solid var(--line-2);margin-top:36px;padding-top:18px}
 .idx-attrib strong{color:#fff}
 .idx-sibs{list-style:none;margin:10px 0 0;padding:0}
 .idx-sibs li{border-bottom:1px solid var(--line-2)}
@@ -164,7 +165,7 @@
   border:1px solid var(--line);border-left:2px solid var(--gold-d);border-radius:10px;background:rgba(255,255,255,.02)}
 .sold-note strong{color:var(--fg-soft)}
 .sold-note a{color:var(--gold-l);text-decoration:none;border-bottom:1px solid rgba(203,171,104,.35)}
-.sold-townnav{font-family:var(--mono);font-size:.72rem;line-height:2.1;color:var(--muted);margin:6px 0 18px}
+.sold-townnav{font-family:var(--mono);font-size:.75rem;line-height:2.1;color:var(--muted);margin:6px 0 18px}
 .sold-townnav a{color:var(--fg-soft);text-decoration:none;border-bottom:1px solid rgba(255,255,255,.14)}
 .sold-townnav a:hover{color:#fff}
 .sold-town{margin:0 0 34px}
@@ -177,20 +178,20 @@
 .sold-addr{color:#fff;font-size:.97rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .sold-meta{font-family:var(--mono);font-size:.66rem;letter-spacing:.05em;text-transform:uppercase;color:var(--muted)}
 .sold-price{font-family:var(--disp);font-size:1.05rem;color:#fff;white-space:nowrap}
-.sold-when{font-family:var(--mono);font-size:.66rem;color:var(--muted);white-space:nowrap;min-width:5.5em;text-align:right}
+.sold-when{font-family:var(--mono);font-size:.75rem;color:var(--muted);white-space:nowrap;min-width:5.5em;text-align:right}
 .sold-more{font-family:var(--mono);font-size:.68rem;color:var(--muted);margin:10px 2px 0}
 @media(max-width:640px){.sold-row{grid-template-columns:1fr auto;row-gap:2px}.sold-when{grid-column:2;text-align:right}}
 
 </style>
 <body id="top">
-<header><div class="wrap nav"><a class="brand" href="/"><img class="logo" src="/assets/logo-white.png" alt="Downtown Stamford"><span class="wordmark">Downtown Stamford</span></a><nav class="nav-links"><a href="/homes/">Buy</a><a href="/rentals/">Rent</a><a href="/sold/">Sold</a><a href="/neighborhoods.html">Neighborhoods</a><a href="/stamford-market.html">Market Trends</a><a href="/buyer-guides.html">Guides</a><a href="/blog.html">Blog</a><a href="/contact.html">Contact</a></nav><a class="btn-call" href="tel:2038833399">Call 203·883·3399</a></div></header>
+<a class="skip" href="#main">Skip to content</a><header><div class="wrap nav"><a class="brand" href="/"><img class="logo" src="/assets/logo-white.png" alt="Downtown Stamford"><span class="wordmark">Downtown Stamford</span></a><nav class="nav-links"><a href="/homes/">Buy</a><a href="/rentals/">Rent</a><a href="/sold/">Sold</a><a href="/neighborhoods.html">Neighborhoods</a><a href="/stamford-market.html">Market Trends</a><a href="/buyer-guides.html">Guides</a><a href="/blog.html">Blog</a><a href="/contact.html">Contact</a></nav><a class="btn-call" href="tel:2038833399">Call 203·883·3399</a><button class="navtoggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu"><span></span><span></span><span></span></button></div></header>
 <section class="idx-hero"><div class="wrap">
   <div class="idx-crumbs"><a href="/">Home</a> / <a href="/sold/">Recently Sold</a> / Wilton</div>
   <span class="idx-status">Closed MLS records</span>
   <h1 class="idx-price" style="font-size:clamp(1.7rem,4vw,2.6rem)">Recently sold in Wilton <span style="color:var(--muted)">(489)</span></h1>
   <p class="idx-addr">Every sold closing this site's MLS data carries for Wilton — newest first, each linking to the home's own page.</p>
 </div></section>
-<main class="wrap">
+<main id="main" class="wrap">
 <ul class="sold-list">
 <li class="sold-row"><a href="/homes/28-new-street-wilton-connecticut-24179106.html"><span class="sold-addr">28 New Street</span><span class="sold-meta">3 bed · 2 bath</span></a><span class="sold-price">$747,500</span><span class="sold-when">2026-08-14</span></li>
 <li class="sold-row"><a href="/homes/63-cannon-road-wilton-connecticut-24170769.html"><span class="sold-addr">63 Cannon Road</span><span class="sold-meta">4 bed · 3 bath</span></a><span class="sold-price">$875,000</span><span class="sold-when">2026-08-14</span></li>
@@ -688,8 +689,34 @@
 <footer><div class="wrap"><div class="fgrid">
 <div class="col"><div class="fbrand"><img src="/assets/logo-white.png" alt="Downtown Stamford logo"><span class="wm">Downtown Stamford</span></div>
 <p>Real estate made simple. Helping Stamford, CT buy, sell, and rent with real exposure and real results.</p></div>
-<div class="col"><h4>Explore</h4><a href="/homes-for-sale-stamford.html">Homes for Sale in Stamford</a><a href="/stamford-apartments-for-rent.html">Stamford Apartments for Rent</a><a href="/homes/">All Listings</a><a href="/sold/">Recently Sold</a><a href="/neighborhoods.html">Neighborhoods</a><a href="/blog.html">Blog</a><a href="/contact.html">Contact</a></div>
-<div class="col"><h4>Contact</h4><a href="tel:2038833399">203·883·3399</a><a href="mailto:John@dtstamford.com">John@dtstamford.com</a><p>Stamford, Connecticut</p><p>Jarah Tuttle LLC</p></div>
-</div><div class="fbot"><span>© 2026 Downtown Stamford · John Restrepo</span><span>Real Estate Made Simple.</span></div></div></footer>
+<div class="col"><h2>Explore</h2><a href="/homes-for-sale-stamford.html">Homes for Sale in Stamford</a><a href="/stamford-apartments-for-rent.html">Stamford Apartments for Rent</a><a href="/homes/">All Listings</a><a href="/sold/">Recently Sold</a><a href="/neighborhoods.html">Neighborhoods</a><a href="/blog.html">Blog</a><a href="/contact.html">Contact</a></div>
+<div class="col"><h2>Contact</h2><a href="tel:2038833399">203·883·3399</a><a href="mailto:John@dtstamford.com">John@dtstamford.com</a><p>Stamford, Connecticut</p><p>Jarah Tuttle LLC</p></div>
+</div><div class="fbot"><span>© 2026 Downtown Stamford · John Restrepo</span><span>Real Estate Made Simple.</span></div></div></footer><div class="mmenu" id="mobileMenu" aria-hidden="true"><div class="mmenu-scrim" id="mmScrim"></div><aside class="mmenu-panel" id="mmPanel" role="dialog" aria-modal="true" aria-label="Menu"><div class="mmenu-head"><span class="mtitle">Downtown Stamford</span><button class="mclose" id="mmClose" aria-label="Close menu">✕</button></div><nav class="mmenu-links" aria-label="Mobile"><a href="/"><span class="ix">⌂</span><span class="lb">Home</span><span class="ar" aria-hidden="true">→</span></a><a href="/homes/"><span class="ix">01</span><span class="lb">Buy</span><span class="ar" aria-hidden="true">→</span></a><a href="/rentals/"><span class="ix">02</span><span class="lb">Rent</span><span class="ar" aria-hidden="true">→</span></a><a href="/sold/"><span class="ix">03</span><span class="lb">Sold</span><span class="ar" aria-hidden="true">→</span></a><a href="/neighborhoods.html"><span class="ix">04</span><span class="lb">Neighborhoods</span><span class="ar" aria-hidden="true">→</span></a><a href="/stamford-market.html"><span class="ix">05</span><span class="lb">Market Trends</span><span class="ar" aria-hidden="true">→</span></a><a href="/buyer-guides.html"><span class="ix">06</span><span class="lb">Guides</span><span class="ar" aria-hidden="true">→</span></a><a href="/blog.html"><span class="ix">07</span><span class="lb">Blog</span><span class="ar" aria-hidden="true">→</span></a><a href="/contact.html"><span class="ix">08</span><span class="lb">Contact</span><span class="ar" aria-hidden="true">→</span></a></nav><div class="mmenu-foot"><a class="btn btn-gold" href="tel:2038833399">Call 203·883·3399 <span aria-hidden="true">↗</span></a></div></aside></div><script>
+(function(){
+  var mt=document.getElementById('navToggle'),mm=document.getElementById('mobileMenu'),
+      mp=document.getElementById('mmPanel'),msc=document.getElementById('mmScrim'),mcl=document.getElementById('mmClose');
+  if(!mt||!mm||!mp)return;
+  function setMenu(open){
+    mt.setAttribute('aria-expanded',open);mm.setAttribute('aria-hidden',!open);
+    mm.classList.toggle('open',open);mt.setAttribute('aria-label',open?'Close menu':'Open menu');
+    document.body.style.overflow=open?'hidden':'';
+    if(!open){mm.classList.remove('dragging');mp.style.transform='';}
+  }
+  mt.addEventListener('click',function(){setMenu(!mm.classList.contains('open'));});
+  if(mcl)mcl.addEventListener('click',function(){setMenu(false);});
+  if(msc)msc.addEventListener('click',function(){setMenu(false);});
+  mm.querySelectorAll('.mmenu-links a,.mmenu-foot a').forEach(function(a){
+    a.addEventListener('click',function(){setMenu(false);});
+  });
+  addEventListener('keydown',function(e){if(e.key==='Escape'&&mm.classList.contains('open'))setMenu(false);});
+  addEventListener('resize',function(){if(innerWidth>1000&&mm.classList.contains('open'))setMenu(false);});
+  var sx=0,sy=0,dx=0,drag=false;
+  mp.addEventListener('touchstart',function(e){var t=e.touches[0];sx=t.clientX;sy=t.clientY;dx=0;drag=false;},{passive:true});
+  mp.addEventListener('touchmove',function(e){var t=e.touches[0],mx=t.clientX-sx,my=t.clientY-sy;
+    if(!drag){if(Math.abs(mx)>10&&Math.abs(mx)>Math.abs(my)){drag=true;mm.classList.add('dragging');}else return;}
+    dx=Math.max(0,mx);mp.style.transform='translateX('+dx+'px)';},{passive:true});
+  mp.addEventListener('touchend',function(){if(!drag)return;mm.classList.remove('dragging');if(dx>90)setMenu(false);else mp.style.transform='';drag=false;dx=0;});
+})();
+</script>
 </body>
 </html>

@@ -17,19 +17,21 @@
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..700&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-<link rel="icon" href="/assets/logo-black.png">
-<link rel="apple-touch-icon" href="/assets/logo-black.png">
+<link rel="preconnect" href="https://smartmls-assets.cdn-connectmls.com">
+<link rel="preload" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..700&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..700&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap"></noscript>
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/icon-32.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
 <link rel="stylesheet" href="/assets/site.css">
 <link rel="stylesheet" href="/assets/homes/app.css">
 <style>
 .idx-hero{padding:clamp(96px,12vw,140px) 0 24px}
-.idx-crumbs{font-family:var(--mono);font-size:.68rem;letter-spacing:.06em;text-transform:uppercase;color:var(--faint);margin-bottom:18px}
+.idx-crumbs{font-family:var(--mono);font-size:.75rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin-bottom:18px}
 .idx-crumbs a:hover{color:var(--gold-l)}
 /* Status pill — colour-coded by market state (2026-08-02): green = available, amber = under
    contract, cyan = coming soon. Tokens live here so the hub cards and detail hero share them. */
 :root{--st-on:#5fd39a;--st-uc:#f0a44e;--st-ucs:#f5c168;--st-soon:#6fc9ea}
-.idx-status{display:inline-flex;align-items:center;gap:7px;font-family:var(--mono);font-size:.62rem;letter-spacing:.14em;text-transform:uppercase;color:var(--gold-l);border:1px solid var(--line);border-radius:999px;padding:6px 13px;margin-bottom:14px;background:rgba(255,255,255,.03)}
+.idx-status{display:inline-flex;align-items:center;gap:7px;font-family:var(--mono);font-size:.66rem;letter-spacing:.14em;text-transform:uppercase;color:var(--gold-l);border:1px solid var(--line);border-radius:999px;padding:6px 13px;margin-bottom:14px;background:rgba(255,255,255,.03)}
 .idx-status .dot{width:6px;height:6px;border-radius:50%;background:currentColor;flex:none;box-shadow:0 0 0 3px color-mix(in srgb,currentColor 18%,transparent)}
 .st-on{color:var(--st-on);border-color:color-mix(in srgb,var(--st-on) 34%,transparent);background:color-mix(in srgb,var(--st-on) 9%,transparent)}
 .st-uc{color:var(--st-uc);border-color:color-mix(in srgb,var(--st-uc) 34%,transparent);background:color-mix(in srgb,var(--st-uc) 9%,transparent)}
@@ -40,7 +42,7 @@
 .idx-cta-call{font-size:1.06rem;padding:17px 22px;letter-spacing:-.01em}
 .idx-cta-call b{font-weight:800;white-space:nowrap}
 .idx-cta-text{font-size:.99rem;padding:15px 22px}
-.idx-price-sub{margin-top:7px;font-family:var(--mono);font-size:.74rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.idx-price-sub{margin-top:7px;font-family:var(--mono);font-size:.75rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
 /* This is an h1, not a div (2026-08-09): every one of the 4,397 listing pages previously had NO
    h1 at all — the first heading was "About this home" — so the strongest on-page relevance signal
    was missing sitewide, on exactly the pages meant to rank for an address. The ADDRESS is what the
@@ -64,11 +66,11 @@
    value its own padding + underline (tall rows with stray rules). */
 .idx-facts>div{padding:14px 16px;border-bottom:1px solid var(--line-2);border-right:1px solid var(--line-2);min-width:0;overflow-wrap:anywhere}
 .idx-facts>div:nth-child(2n){border-right:0}
-.idx-facts .k{font-family:var(--mono);font-size:.62rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.idx-facts .k{font-family:var(--mono);font-size:.75rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
 .idx-facts .v{color:#fff;font-size:1.02rem;margin-top:3px;line-height:1.35}
 /* What's nearby: the distance sits under the place name, quiet, so the NAME is what scans. */
 .idx-nb-gct{display:block;font-family:var(--mono);font-size:.68rem;letter-spacing:.04em;color:var(--gold-l);margin-top:3px}
-.idx-nb-d{display:block;font-family:var(--mono);font-size:.62rem;letter-spacing:.06em;color:var(--muted);margin-top:3px;text-transform:none}
+.idx-nb-d{display:block;font-family:var(--mono);font-size:.66rem;letter-spacing:.06em;color:var(--muted);margin-top:3px;text-transform:none}
 .idx-nb-note{font-size:.74rem;color:var(--muted);margin:-8px 0 22px;line-height:1.5}
 .idx-cmp-sub{color:var(--muted);font-size:.82rem;margin:-6px 0 10px}
 .idx-cmp-sum{font-size:.95rem;margin:0 0 12px;color:#dfe6f0}
@@ -76,9 +78,9 @@
 .idx-cmp td{padding:12px 14px;border-bottom:1px solid var(--line-2);vertical-align:top}
 .idx-cmp tr:last-child td{border-bottom:0}
 .idx-cmp a{color:#fff;text-decoration:none;border-bottom:1px solid rgba(255,255,255,.22)}
-.idx-cmp-m{display:block;font-family:var(--mono);font-size:.6rem;letter-spacing:.06em;color:var(--muted);margin-top:4px}
+.idx-cmp-m{display:block;font-family:var(--mono);font-size:.66rem;letter-spacing:.06em;color:var(--muted);margin-top:4px}
 .idx-cmp-p{text-align:right;white-space:nowrap;color:#fff;font-size:1.02rem}
-.idx-cmp-k{display:inline-block;font-family:var(--mono);font-size:.56rem;letter-spacing:.08em;text-transform:uppercase;margin-top:5px}
+.idx-cmp-k{display:inline-block;font-family:var(--mono);font-size:.66rem;letter-spacing:.08em;text-transform:uppercase;margin-top:5px}
 .idx-cmp-k.sold{color:#7ee0b0}
 .idx-cmp-k.ask{color:var(--muted)}
 /* Status "chip" inside the STATUS fact cell (John 2026-08-04): a colored pulsing dot next to the
@@ -133,10 +135,10 @@
 .nb-mapwrap{border:1px solid var(--line);border-radius:16px;padding:12px;background:rgba(255,255,255,.015)}
 .nb-map{width:100%;height:auto;display:block;border-radius:12px}
 .nb-legend{display:flex;flex-wrap:wrap;gap:8px 14px;margin-top:10px}
-.nb-key{display:inline-flex;align-items:center;gap:6px;font-family:var(--mono);font-size:.62rem;
+.nb-key{display:inline-flex;align-items:center;gap:6px;font-family:var(--mono);font-size:.66rem;
   letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
 .nb-key i{width:9px;height:9px;border-radius:50%;display:inline-block}
-.nb-mapnote{color:var(--faint);font-size:.7rem;line-height:1.5;margin:8px 0 0}
+.nb-mapnote{color:var(--muted);font-size:.75rem;line-height:1.5;margin:8px 0 0}
 @media(max-width:900px){.idx-nb-grid{grid-template-columns:1fr}}
 .idx-sibs-note{color:var(--muted);font-size:.86rem;margin:-6px 0 12px}
 .idx-sibs{list-style:none;padding:0;margin:0 0 26px;display:grid;
@@ -153,7 +155,7 @@
 .idx-cta p{color:var(--fg-soft);font-size:.95rem;margin-bottom:16px}
 .idx-cta .btn{width:100%;justify-content:center;margin-bottom:10px}
 .idx-remarks{color:var(--fg-soft);font-size:1.06rem;line-height:1.7;margin:8px 0 4px;white-space:pre-line}
-.idx-attrib{font-family:var(--mono);font-size:.72rem;line-height:1.6;color:var(--fg-soft);border-top:1px solid var(--line-2);margin-top:36px;padding-top:18px}
+.idx-attrib{font-family:var(--mono);font-size:.75rem;line-height:1.6;color:var(--fg-soft);border-top:1px solid var(--line-2);margin-top:36px;padding-top:18px}
 .idx-attrib strong{color:#fff}
 .idx-sibs{list-style:none;margin:10px 0 0;padding:0}
 .idx-sibs li{border-bottom:1px solid var(--line-2)}
@@ -167,7 +169,7 @@
 .idx-more:hover{background:rgba(10,10,14,.92);border-color:var(--gold)}
 .idx-more:focus-visible{outline:2px solid var(--gold-l);outline-offset:3px}
 .idx-more svg{flex:none;opacity:.9}
-@media(max-width:560px){.idx-more{right:10px;bottom:10px;padding:9px 13px;font-size:.6rem;gap:7px}}
+@media(max-width:560px){.idx-more{right:10px;bottom:10px;padding:9px 13px;font-size:.66rem;gap:7px}}
 /* Gutter. The shared .photo-fs lets a landscape photo fill the viewport edge-to-edge (measured:
    1280x853 image inside a 1280x860 overlay), which leaves NO backdrop to click — click-outside-to-
    close was unreachable — and floats the arrows/counter on top of the picture. Scoped to .idx-fs so
@@ -192,9 +194,9 @@
 .ph-table td{padding:11px 8px;border-bottom:1px solid var(--line);font-size:.93rem;vertical-align:top}
 .ph-table tr:last-child td{border-bottom:0}
 .ph-date{color:var(--muted);font-family:var(--mono);font-size:.78rem;white-space:nowrap;width:104px}
-.ph-mls{color:var(--faint);font-family:var(--mono);font-size:.72rem;text-align:right;white-space:nowrap}
+.ph-mls{color:var(--muted);font-family:var(--mono);font-size:.75rem;text-align:right;white-space:nowrap}
 .ph-this{color:var(--gold-l);font-family:var(--mono);font-size:.7rem;letter-spacing:.04em}
-.ph-ask{color:var(--faint);font-family:var(--mono);font-size:.7rem;letter-spacing:.03em}
+.ph-ask{color:var(--muted);font-family:var(--mono);font-size:.75rem;letter-spacing:.03em}
 .pr-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(168px,1fr));gap:1px;
   background:var(--line);border:1px solid var(--line);border-radius:14px;overflow:hidden;margin:0 0 26px}
 .pr-cell{background:var(--bg2,#0a0a0d);padding:13px 15px;display:flex;flex-direction:column;gap:4px}
@@ -206,7 +208,7 @@
 .pr-sale-d{font-family:var(--mono);font-size:.72rem;letter-spacing:.04em;color:var(--muted);flex:0 0 88px}
 .pr-sale-p{font-size:.98rem;color:var(--fg);font-variant-numeric:tabular-nums}
 .pr-sale-t{margin-left:auto;font-family:var(--mono);font-size:.66rem;letter-spacing:.08em;
-  text-transform:uppercase;color:var(--faint)}
+  text-transform:uppercase;color:var(--muted)}
 @media(max-width:560px){.ph-date{width:86px;font-size:.72rem}.ph-mls{display:none}
   .pr-sale-d{flex:0 0 74px}.pr-sale-t{display:none}}
 
@@ -215,7 +217,7 @@
   border:1px solid var(--line);background:rgba(255,255,255,.03)}
 .cmp-sum b{color:var(--fg)}
 .cmp-list{list-style:none;margin:0 0 26px;padding:0}
-.cmp-why{font-family:var(--mono);font-size:.64rem;letter-spacing:.13em;text-transform:uppercase;
+.cmp-why{font-family:var(--mono);font-size:.66rem;letter-spacing:.13em;text-transform:uppercase;
   color:var(--gold-l);margin:16px 0 7px;padding-top:11px;border-top:1px solid var(--line)}
 .cmp-why:first-child{margin-top:0;padding-top:0;border-top:0}
 .cmp-row{display:flex;align-items:baseline;justify-content:space-between;gap:16px;padding:10px 2px;
@@ -233,10 +235,10 @@
 
 </style>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@graph": [{"@type": "RealEstateListing", "@id": "https://dtstamford.com/homes/8-gillies-lane-norwalk-connecticut-24109058.html#listing", "name": "8 Gillies Lane, Norwalk, Connecticut", "url": "https://dtstamford.com/homes/8-gillies-lane-norwalk-connecticut-24109058.html", "datePosted": "2025-11-10T14:00:31", "dateModified": "2025-11-10T14:00:31", "image": ["https://smartmls-assets.cdn-connectmls.com/pics/39A76184A4BBAEE0E0631A01100A7DE4/HD_1752239624526_IMG_4524.JPEG"], "description": "Beautiful custom-built, solid-brick, updated, charming Cape Cod with great character - Set slightly above road on private 1/3 acre on quiet low-traffic cul-de-sac close to Oak Hills Park Golf Course off North Taylor Ave. Spacious private fenced backyard nicely sectioned to enjoy and entertain all guests: Grilling & Dining Social area / Play area / Relaxing Hang-out-with-friends (possible Firepit) area. Wonderfully convenient to shopping, schools, parks, restaurants, SoNo and Rowayton dining/entertainment, beaches, marinas, golf courses, 3 train stations, Merritt Pkwy/I-95 and much more! Living Room with wood-burning Fireplace, Formal Dining Room/French Doors to backyard Picnic/Gathering area, newly remodeled Kitchen, Primary Suite fills the entire upper level; primary bath renovations include marble tile and radiant heat floors. Family Room with bar, craft room and laundry room complete the lower level. Hardwood floors, 1 car garage attached and large terraced private back yard with spacious deck, garden and play area - great for entertaining. Updates include new fence 2015; electrical upgrade to 200 amps 2016; updated Kitchen 2016; new roof 2018; new foam insulation 2018; new rear door and storm door 2020; new split system 2022; new French drains and sump 2024. Come, see and fall in Love with this beautiful home; schedule a showing today!", "identifier": {"@type": "PropertyValue", "name": "MLS", "value": "24109058"}, "offers": {"@id": "https://dtstamford.com/homes/8-gillies-lane-norwalk-connecticut-24109058.html#offer"}, "about": {"@id": "https://dtstamford.com/homes/8-gillies-lane-norwalk-connecticut-24109058.html#residence"}, "provider": {"@id": "https://dtstamford.com/#agent"}}, {"@type": "Offer", "@id": "https://dtstamford.com/homes/8-gillies-lane-norwalk-connecticut-24109058.html#offer", "priceCurrency": "USD", "availability": "https://schema.org/SoldOut", "price": 675000, "availabilityEnds": "2025-11-03", "offeredBy": {"@id": "https://dtstamford.com/#agent"}}, {"@type": "SingleFamilyResidence", "@id": "https://dtstamford.com/homes/8-gillies-lane-norwalk-connecticut-24109058.html#residence", "numberOfBedrooms": 3, "numberOfBathroomsTotal": 2, "floorSize": {"@type": "QuantitativeValue", "value": 1927, "unitCode": "FTK"}, "yearBuilt": 1939, "address": {"@type": "PostalAddress", "streetAddress": "8 Gillies Lane", "addressLocality": "Norwalk", "addressRegion": "Connecticut", "postalCode": "06854"}, "geo": {"@type": "GeoCoordinates", "latitude": 41.109738, "longitude": -73.437189}, "amenityFeature": [{"@type": "LocationFeatureSpecification", "name": "Heating", "value": "Oil · Hot Water,Radiant,Zoned"}, {"@type": "LocationFeatureSpecification", "name": "Cooling", "value": "Ceiling Fans,Central Air,Split System,Window Unit"}, {"@type": "LocationFeatureSpecification", "name": "Water Source", "value": "Public Water Connected"}, {"@type": "LocationFeatureSpecification", "name": "Sewer", "value": "Public Sewer Connected"}, {"@type": "LocationFeatureSpecification", "name": "Parking", "value": "Attached Garage,Paved,Off Street Parking,Driveway"}, {"@type": "LocationFeatureSpecification", "name": "Laundry", "value": "Lower Level"}, {"@type": "LocationFeatureSpecification", "name": "Flood Zone", "value": false}]}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://dtstamford.com/"}, {"@type": "ListItem", "position": 2, "name": "Recently Sold", "item": "https://dtstamford.com/sold/"}, {"@type": "ListItem", "position": 3, "name": "8 Gillies Lane", "item": "https://dtstamford.com/homes/8-gillies-lane-norwalk-connecticut-24109058.html"}]}, {"@type": ["RealEstateAgent", "Person"], "@id": "https://dtstamford.com/#agent", "name": "John Restrepo", "alternateName": "Downtown Stamford", "url": "https://dtstamford.com/about.html", "telephone": "+12038833399", "areaServed": "Stamford, CT"}, {"@type": "ImageObject", "@id": "https://dtstamford.com/homes/8-gillies-lane-norwalk-connecticut-24109058.html#primaryImage", "contentUrl": "https://smartmls-assets.cdn-connectmls.com/pics/39A76184A4BBAEE0E0631A01100A7DE4/HD_1752239624526_IMG_4524.JPEG", "caption": "8 Gillies Lane, Norwalk, Connecticut"}]}
+{"@context": "https://schema.org", "@graph": [{"@type": "RealEstateListing", "@id": "https://dtstamford.com/homes/8-gillies-lane-norwalk-connecticut-24109058.html#listing", "name": "8 Gillies Lane, Norwalk, Connecticut", "url": "https://dtstamford.com/homes/8-gillies-lane-norwalk-connecticut-24109058.html", "datePosted": "2025-11-10T14:00:31", "dateModified": "2025-11-10T14:00:31", "image": ["https://smartmls-assets.cdn-connectmls.com/pics/39A76184A4BBAEE0E0631A01100A7DE4/HD_1752239624526_IMG_4524.JPEG"], "description": "Beautiful custom-built, solid-brick, updated, charming Cape Cod with great character - Set slightly above road on private 1/3 acre on quiet low-traffic cul-de-sac close to Oak Hills Park Golf Course off North Taylor Ave. Spacious private fenced backyard nicely sectioned to enjoy and entertain all guests: Grilling & Dining Social area / Play area / Relaxing Hang-out-with-friends (possible Firepit) area. Wonderfully convenient to shopping, schools, parks, restaurants, SoNo and Rowayton dining/entertainment, beaches, marinas, golf courses, 3 train stations, Merritt Pkwy/I-95 and much more! Living Room with wood-burning Fireplace, Formal Dining Room/French Doors to backyard Picnic/Gathering area, newly remodeled Kitchen, Primary Suite fills the entire upper level; primary bath renovations include marble tile and radiant heat floors. Family Room with bar, craft room and laundry room complete the lower level. Hardwood floors, 1 car garage attached and large terraced private back yard with spacious deck, garden and play area - great for entertaining. Updates include new fence 2015; electrical upgrade to 200 amps 2016; updated Kitchen 2016; new roof 2018; new foam insulation 2018; new rear door and storm door 2020; new split system 2022; new French drains and sump 2024. Come, see and fall in Love with this beautiful home; schedule a showing today!", "identifier": {"@type": "PropertyValue", "name": "MLS", "value": "24109058"}, "offers": {"@id": "https://dtstamford.com/homes/8-gillies-lane-norwalk-connecticut-24109058.html#offer"}, "about": {"@id": "https://dtstamford.com/homes/8-gillies-lane-norwalk-connecticut-24109058.html#residence"}, "provider": {"@id": "https://dtstamford.com/#agent"}}, {"@type": "Offer", "@id": "https://dtstamford.com/homes/8-gillies-lane-norwalk-connecticut-24109058.html#offer", "priceCurrency": "USD", "availability": "https://schema.org/SoldOut", "price": 675000, "availabilityEnds": "2025-11-03", "offeredBy": {"@id": "https://dtstamford.com/#agent"}}, {"@type": "SingleFamilyResidence", "@id": "https://dtstamford.com/homes/8-gillies-lane-norwalk-connecticut-24109058.html#residence", "numberOfBedrooms": 3, "numberOfBathroomsTotal": 2, "floorSize": {"@type": "QuantitativeValue", "value": 1927, "unitCode": "FTK"}, "yearBuilt": 1939, "address": {"@type": "PostalAddress", "streetAddress": "8 Gillies Lane", "addressLocality": "Norwalk", "addressRegion": "Connecticut", "postalCode": "06854"}, "geo": {"@type": "GeoCoordinates", "latitude": 41.109738, "longitude": -73.437189}, "amenityFeature": [{"@type": "LocationFeatureSpecification", "name": "Heating", "value": "Oil · Hot Water,Radiant,Zoned"}, {"@type": "LocationFeatureSpecification", "name": "Cooling", "value": "Ceiling Fans,Central Air,Split System,Window Unit"}, {"@type": "LocationFeatureSpecification", "name": "Water Source", "value": "Public Water Connected"}, {"@type": "LocationFeatureSpecification", "name": "Sewer", "value": "Public Sewer Connected"}, {"@type": "LocationFeatureSpecification", "name": "Parking", "value": "Attached Garage,Paved,Off Street Parking,Driveway"}, {"@type": "LocationFeatureSpecification", "name": "Laundry", "value": "Lower Level"}, {"@type": "LocationFeatureSpecification", "name": "Flood Zone", "value": false}]}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://dtstamford.com/"}, {"@type": "ListItem", "position": 2, "name": "Recently Sold", "item": "https://dtstamford.com/sold/"}, {"@type": "ListItem", "position": 3, "name": "8 Gillies Lane", "item": "https://dtstamford.com/homes/8-gillies-lane-norwalk-connecticut-24109058.html"}]}, {"@type": ["RealEstateAgent", "Person"], "@id": "https://dtstamford.com/#agent", "name": "John Restrepo – Downtown Stamford", "alternateName": ["John Restrepo", "Jhonatan Restrepo", "Downtown Stamford"], "url": "https://dtstamford.com/about.html", "telephone": "+12038833399", "areaServed": "Stamford, CT"}, {"@type": "ImageObject", "@id": "https://dtstamford.com/homes/8-gillies-lane-norwalk-connecticut-24109058.html#primaryImage", "contentUrl": "https://smartmls-assets.cdn-connectmls.com/pics/39A76184A4BBAEE0E0631A01100A7DE4/HD_1752239624526_IMG_4524.JPEG", "caption": "8 Gillies Lane, Norwalk, Connecticut"}]}
 </script>
 <body id="top">
-<header><div class="wrap nav"><a class="brand" href="/"><img class="logo" src="/assets/logo-white.png" alt="Downtown Stamford"><span class="wordmark">Downtown Stamford</span></a><nav class="nav-links"><a href="/homes/">Buy</a><a href="/rentals/">Rent</a><a href="/sold/">Sold</a><a href="/neighborhoods.html">Neighborhoods</a><a href="/stamford-market.html">Market Trends</a><a href="/buyer-guides.html">Guides</a><a href="/blog.html">Blog</a><a href="/contact.html">Contact</a></nav><a class="btn-call" href="tel:2038833399">Call 203·883·3399</a></div></header>
+<a class="skip" href="#main">Skip to content</a><header><div class="wrap nav"><a class="brand" href="/"><img class="logo" src="/assets/logo-white.png" alt="Downtown Stamford"><span class="wordmark">Downtown Stamford</span></a><nav class="nav-links"><a href="/homes/">Buy</a><a href="/rentals/">Rent</a><a href="/sold/">Sold</a><a href="/neighborhoods.html">Neighborhoods</a><a href="/stamford-market.html">Market Trends</a><a href="/buyer-guides.html">Guides</a><a href="/blog.html">Blog</a><a href="/contact.html">Contact</a></nav><a class="btn-call" href="tel:2038833399">Call 203·883·3399</a><button class="navtoggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu"><span></span><span></span><span></span></button></div></header>
 <section class="idx-hero"><div class="wrap">
   <div class="idx-crumbs"><a href="/">Home</a> / <a href="/sold/">Recently Sold</a> / Norwalk</div>
   <span class="idx-status "><span class="dot"></span>Closed<span class="st-sep"> · For Sale</span></span>
@@ -249,10 +251,10 @@
     <span><b>Single Family For Sale</b></span>
     <span>Built <b>1939</b></span>
   </div>
-  <div class="idx-gallery" id="idxGallery" data-alt="8 Gillies Lane, Norwalk, Connecticut"><button type="button" class="idx-shot lead" data-i="0" aria-label="Open photo 1 of 1 full screen"><img src="https://smartmls-assets.cdn-connectmls.com/pics/39A76184A4BBAEE0E0631A01100A7DE4/HD_1752239624526_IMG_4524.JPEG" alt="8 Gillies Lane, Norwalk, Connecticut photo 1" loading="eager" decoding="async"></button></div>
+  <div class="idx-gallery" id="idxGallery" data-alt="8 Gillies Lane, Norwalk, Connecticut"><button type="button" class="idx-shot lead" data-i="0" aria-label="Open photo 1 of 1 full screen"><img src="https://smartmls-assets.cdn-connectmls.com/pics/39A76184A4BBAEE0E0631A01100A7DE4/HD_1752239624526_IMG_4524.JPEG" alt="8 Gillies Lane, Norwalk, Connecticut photo 1" loading="eager" fetchpriority="high" decoding="async" onerror="this.onerror=null;this.src='/assets/stamford-ct-single-family-home-exterior.jpg'"></button></div>
   <script type="application/json" id="idx-photos">["https://smartmls-assets.cdn-connectmls.com/pics/39A76184A4BBAEE0E0631A01100A7DE4/HD_1752239624526_IMG_4524.JPEG"]</script>
 </div></section>
-<main class="wrap idx-body">
+<main id="main" class="wrap idx-body">
   <div class="idx-main">
     <h2>About this home</h2>
     <p class="idx-remarks">Beautiful custom-built, solid-brick, updated, charming Cape Cod with great character - Set slightly above road on private 1/3 acre on quiet low-traffic cul-de-sac close to Oak Hills Park Golf Course off North Taylor Ave. Spacious private fenced backyard nicely sectioned to enjoy and entertain all guests: Grilling &amp; Dining Social area / Play area / Relaxing Hang-out-with-friends (possible Firepit) area. Wonderfully convenient to shopping, schools, parks, restaurants, SoNo and Rowayton dining/entertainment, beaches, marinas, golf courses, 3 train stations, Merritt Pkwy/I-95 and much more! Living Room with wood-burning Fireplace, Formal Dining Room/French Doors to backyard Picnic/Gathering area, newly remodeled Kitchen, Primary Suite fills the entire upper level; primary bath renovations include marble tile and radiant heat floors. Family Room with bar, craft room and laundry room complete the lower level. Hardwood floors, 1 car garage attached and large terraced private back yard with spacious deck, garden and play area - great for entertaining. Updates include new fence 2015; electrical upgrade to 200 amps 2016; updated Kitchen 2016; new roof 2018; new foam insulation 2018; new rear door and storm door 2020; new split system 2022; new French drains and sump 2024. Come, see and fall in Love with this beautiful home; schedule a showing today!</p>
@@ -306,9 +308,35 @@
 <footer><div class="wrap"><div class="fgrid">
 <div class="col"><div class="fbrand"><img src="/assets/logo-white.png" alt="Downtown Stamford logo"><span class="wm">Downtown Stamford</span></div>
 <p>Real estate made simple. Helping Stamford, CT buy, sell, and rent with real exposure and real results.</p></div>
-<div class="col"><h4>Explore</h4><a href="/homes-for-sale-stamford.html">Homes for Sale in Stamford</a><a href="/stamford-apartments-for-rent.html">Stamford Apartments for Rent</a><a href="/homes/">All Listings</a><a href="/sold/">Recently Sold</a><a href="/neighborhoods.html">Neighborhoods</a><a href="/blog.html">Blog</a><a href="/contact.html">Contact</a></div>
-<div class="col"><h4>Contact</h4><a href="tel:2038833399">203·883·3399</a><a href="mailto:John@dtstamford.com">John@dtstamford.com</a><p>Stamford, Connecticut</p><p>Jarah Tuttle LLC</p></div>
-</div><div class="fbot"><span>© 2026 Downtown Stamford · John Restrepo</span><span>Real Estate Made Simple.</span></div></div></footer>
+<div class="col"><h2>Explore</h2><a href="/homes-for-sale-stamford.html">Homes for Sale in Stamford</a><a href="/stamford-apartments-for-rent.html">Stamford Apartments for Rent</a><a href="/homes/">All Listings</a><a href="/sold/">Recently Sold</a><a href="/neighborhoods.html">Neighborhoods</a><a href="/blog.html">Blog</a><a href="/contact.html">Contact</a></div>
+<div class="col"><h2>Contact</h2><a href="tel:2038833399">203·883·3399</a><a href="mailto:John@dtstamford.com">John@dtstamford.com</a><p>Stamford, Connecticut</p><p>Jarah Tuttle LLC</p></div>
+</div><div class="fbot"><span>© 2026 Downtown Stamford · John Restrepo</span><span>Real Estate Made Simple.</span></div></div></footer><div class="mmenu" id="mobileMenu" aria-hidden="true"><div class="mmenu-scrim" id="mmScrim"></div><aside class="mmenu-panel" id="mmPanel" role="dialog" aria-modal="true" aria-label="Menu"><div class="mmenu-head"><span class="mtitle">Downtown Stamford</span><button class="mclose" id="mmClose" aria-label="Close menu">✕</button></div><nav class="mmenu-links" aria-label="Mobile"><a href="/"><span class="ix">⌂</span><span class="lb">Home</span><span class="ar" aria-hidden="true">→</span></a><a href="/homes/"><span class="ix">01</span><span class="lb">Buy</span><span class="ar" aria-hidden="true">→</span></a><a href="/rentals/"><span class="ix">02</span><span class="lb">Rent</span><span class="ar" aria-hidden="true">→</span></a><a href="/sold/"><span class="ix">03</span><span class="lb">Sold</span><span class="ar" aria-hidden="true">→</span></a><a href="/neighborhoods.html"><span class="ix">04</span><span class="lb">Neighborhoods</span><span class="ar" aria-hidden="true">→</span></a><a href="/stamford-market.html"><span class="ix">05</span><span class="lb">Market Trends</span><span class="ar" aria-hidden="true">→</span></a><a href="/buyer-guides.html"><span class="ix">06</span><span class="lb">Guides</span><span class="ar" aria-hidden="true">→</span></a><a href="/blog.html"><span class="ix">07</span><span class="lb">Blog</span><span class="ar" aria-hidden="true">→</span></a><a href="/contact.html"><span class="ix">08</span><span class="lb">Contact</span><span class="ar" aria-hidden="true">→</span></a></nav><div class="mmenu-foot"><a class="btn btn-gold" href="tel:2038833399">Call 203·883·3399 <span aria-hidden="true">↗</span></a></div></aside></div><script>
+(function(){
+  var mt=document.getElementById('navToggle'),mm=document.getElementById('mobileMenu'),
+      mp=document.getElementById('mmPanel'),msc=document.getElementById('mmScrim'),mcl=document.getElementById('mmClose');
+  if(!mt||!mm||!mp)return;
+  function setMenu(open){
+    mt.setAttribute('aria-expanded',open);mm.setAttribute('aria-hidden',!open);
+    mm.classList.toggle('open',open);mt.setAttribute('aria-label',open?'Close menu':'Open menu');
+    document.body.style.overflow=open?'hidden':'';
+    if(!open){mm.classList.remove('dragging');mp.style.transform='';}
+  }
+  mt.addEventListener('click',function(){setMenu(!mm.classList.contains('open'));});
+  if(mcl)mcl.addEventListener('click',function(){setMenu(false);});
+  if(msc)msc.addEventListener('click',function(){setMenu(false);});
+  mm.querySelectorAll('.mmenu-links a,.mmenu-foot a').forEach(function(a){
+    a.addEventListener('click',function(){setMenu(false);});
+  });
+  addEventListener('keydown',function(e){if(e.key==='Escape'&&mm.classList.contains('open'))setMenu(false);});
+  addEventListener('resize',function(){if(innerWidth>1000&&mm.classList.contains('open'))setMenu(false);});
+  var sx=0,sy=0,dx=0,drag=false;
+  mp.addEventListener('touchstart',function(e){var t=e.touches[0];sx=t.clientX;sy=t.clientY;dx=0;drag=false;},{passive:true});
+  mp.addEventListener('touchmove',function(e){var t=e.touches[0],mx=t.clientX-sx,my=t.clientY-sy;
+    if(!drag){if(Math.abs(mx)>10&&Math.abs(mx)>Math.abs(my)){drag=true;mm.classList.add('dragging');}else return;}
+    dx=Math.max(0,mx);mp.style.transform='translateX('+dx+'px)';},{passive:true});
+  mp.addEventListener('touchend',function(){if(!drag)return;mm.classList.remove('dragging');if(dx>90)setMenu(false);else mp.style.transform='';drag=false;dx=0;});
+})();
+</script>
 <script src="/assets/homes/gallery-fs.js" defer></script>
 <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "fcdcc63885554c618f3fea8816534803"}'></script><!-- End Cloudflare Web Analytics -->
 </body>

@@ -188,6 +188,27 @@ h1.idx-price{margin:0;font-size:clamp(1.7rem,4vw,2.6rem);line-height:1.12;max-wi
 .hub-pager .pn{min-width:auto;padding:8px 14px}
 .hub-pager .pn[aria-disabled=true]{opacity:.35;pointer-events:none}
 .hub-pager-note{flex-basis:100%;color:var(--muted);letter-spacing:.05em;text-transform:uppercase;font-size:.66rem;margin-top:2px}
+/* Search-first band (John, 2026-08-17): a real search box + one-tap chips that land IN the live
+   map with the criteria applied. Counts bake per run from the same subset the click shows. */
+.hub-sband{border:1px solid var(--line);border-radius:20px;background:rgba(255,255,255,.02);padding:18px 18px 14px;margin:2px 0 26px}
+.hub-sform{display:flex;gap:10px;flex-wrap:wrap}
+.hub-sq{flex:1 1 260px;min-width:0;background:rgba(255,255,255,.04);border:1px solid var(--line);border-radius:14px;padding:13px 16px;color:#fff;font-size:1rem;outline:none;transition:border-color .2s}
+.hub-sq:focus{border-color:var(--gold-d)}
+.hub-sq::placeholder{color:var(--muted)}
+.hub-sgo{flex:0 0 auto;background:var(--gold-l);color:#0a0a0e;font-weight:700;border:0;border-radius:14px;padding:13px 20px;cursor:pointer;font-size:.95rem;font-family:inherit;transition:transform .2s}
+.hub-sgo:hover{transform:translateY(-1px)}
+.hub-chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.hub-chip{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);border-radius:999px;padding:7px 13px;color:var(--fg-soft);text-decoration:none;font-size:.85rem;transition:border-color .2s,color .2s,background .2s}
+.hub-chip b{color:var(--gold-l);font-weight:600}
+.hub-chip:hover{border-color:var(--gold-d);color:#fff;background:rgba(203,171,104,.07)}
+.hub-chip-sm{padding:5px 11px;font-size:.78rem}
+.hub-facts{display:flex;flex-wrap:wrap;gap:16px;margin-top:14px;font-family:var(--mono);font-size:.7rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.hub-facts b{color:#fff;font-weight:600}
+.hub-facts-upd{margin-left:auto}
+.hub-browse{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin-top:12px}
+.hub-browse-l{font-family:var(--mono);font-size:.66rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-right:2px}
+@media(max-width:560px){.hub-sgo{flex:1 1 100%}.hub-facts-upd{margin-left:0}}
+
 </style>
 <body id="top">
 <a class="skip" href="#main">Skip to content</a><header><div class="wrap nav"><a class="brand" href="/"><img class="logo" src="/assets/logo-white.png" alt="Downtown Stamford"><span class="wordmark">Downtown Stamford</span></a><nav class="nav-links"><a href="/homes/">Buy</a><a href="/rentals/">Rent</a><a href="/sold/">Sold</a><a href="/neighborhoods.html">Neighborhoods</a><a href="/stamford-market.html">Market Trends</a><a href="/buyer-guides.html">Guides</a><a href="/blog.html">Blog</a><a href="/contact.html">Contact</a></nav><a class="btn-call" href="tel:2038833399">Call 203·883·3399</a><button class="navtoggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu"><span></span><span></span><span></span></button></div></header>
@@ -198,29 +219,14 @@ h1.idx-price{margin:0;font-size:clamp(1.7rem,4vw,2.6rem);line-height:1.12;max-wi
   <p class="idx-addr">Every active rental in the Stamford area, straight from the local MLS — 631 listings. Prefer the map? <a href="/search.html?t=rent">Open the live search</a>.</p>
 </div></section>
 <main id="main" class="wrap">
+<section class="hub-sband" aria-label="Search these listings on the live map">
+<form class="hub-sform" action="/search.html" method="get" role="search"><input type="hidden" name="t" value="rent"><input class="hub-sq" type="search" name="q" placeholder="Address, MLS #, neighborhood - or a town" aria-label="Search by address, MLS number or place"><button class="hub-sgo" type="submit">Search the live map <span aria-hidden="true">&#8599;</span></button></form>
+<div class="hub-chips"><a class="hub-chip" href="/search.html?t=rent&amp;pmax=1800"><b>32</b> under $1,800</a><a class="hub-chip" href="/search.html?t=rent&amp;pmax=2200"><b>97</b> under $2,200</a><a class="hub-chip" href="/search.html?t=rent&amp;pmax=3000"><b>239</b> under $3,000</a><a class="hub-chip" href="/search.html?t=rent&amp;bd=2"><b>426</b> 2+ beds</a><a class="hub-chip" href="/search.html?t=rent&amp;bd=3"><b>264</b> 3+ beds</a><a class="hub-chip" href="/search.html?t=rent&amp;ty=Townhouse"><b>70</b> townhouses</a><a class="hub-chip" href="/search.html?t=rent&amp;train=10">10 min walk to train</a></div>
+<div class="hub-facts"><span><b>631</b> for rent</span><span>median <b>$3,715/mo</b></span><span><b>78</b> new this week</span><span><a class="hub-chip hub-chip-sm" href="/homes/">see homes for sale</a></span><span class="hub-facts-upd">refreshed every 3 hours</span></div>
+<div class="hub-browse"><span class="hub-browse-l">Neighborhoods</span><a class="hub-chip hub-chip-sm" href="/search.html?t=rent&amp;n=downtown"><b>76</b> Downtown</a><a class="hub-chip hub-chip-sm" href="/search.html?t=rent&amp;n=harbor-point"><b>23</b> Harbor Point</a><a class="hub-chip hub-chip-sm" href="/search.html?t=rent&amp;n=shippan"><b>5</b> Shippan</a><a class="hub-chip hub-chip-sm" href="/search.html?t=rent&amp;n=cove"><b>11</b> Cove</a><a class="hub-chip hub-chip-sm" href="/search.html?t=rent&amp;n=waterside"><b>28</b> Waterside</a><a class="hub-chip hub-chip-sm" href="/search.html?t=rent&amp;n=springdale"><b>18</b> Springdale</a><a class="hub-chip hub-chip-sm" href="/search.html?t=rent&amp;n=glenbrook"><b>50</b> Glenbrook</a><a class="hub-chip hub-chip-sm" href="/search.html?t=rent&amp;n=belltown"><b>22</b> Belltown</a><a class="hub-chip hub-chip-sm" href="/search.html?t=rent&amp;n=newfield"><b>11</b> Newfield</a><a class="hub-chip hub-chip-sm" href="/search.html?t=rent&amp;n=turn-of-river"><b>8</b> Turn of River</a><a class="hub-chip hub-chip-sm" href="/search.html?t=rent&amp;n=north-stamford"><b>15</b> North Stamford</a><a class="hub-chip hub-chip-sm" href="/search.html?t=rent&amp;n=westover"><b>4</b> Westover</a></div>
+<div class="hub-browse"><span class="hub-browse-l">Towns</span><a class="hub-chip hub-chip-sm" href="/search.html?t=rent&amp;ci=Stamford"><b>256</b> Stamford</a><a class="hub-chip hub-chip-sm" href="/search.html?t=rent&amp;ci=Norwalk"><b>156</b> Norwalk</a><a class="hub-chip hub-chip-sm" href="/search.html?t=rent&amp;ci=Westport"><b>75</b> Westport</a><a class="hub-chip hub-chip-sm" href="/search.html?t=rent&amp;ci=Greenwich"><b>62</b> Greenwich</a><a class="hub-chip hub-chip-sm" href="/search.html?t=rent&amp;ci=New%20Canaan"><b>33</b> New Canaan</a><a class="hub-chip hub-chip-sm" href="/search.html?t=rent&amp;ci=Darien"><b>29</b> Darien</a><a class="hub-chip hub-chip-sm" href="/search.html?t=rent&amp;ci=Wilton"><b>19</b> Wilton</a><a class="hub-chip hub-chip-sm" href="/search.html?t=rent&amp;ci=Weston"><b>1</b> Weston</a></div>
+</section>
 <div class="lgrid">
-<a class="lcard" href="/homes/132-summer-street-stamford-connecticut-24197663.html">
-  <img src="/assets/thumbs/24197663.jpg" alt="132 Summer Street, Stamford" width="640" height="480" loading="eager" fetchpriority="high" decoding="async" onerror="this.onerror=null;this.src='https://smartmls-assets.cdn-connectmls.com/pics/5876773C1A8EE4D0E063E201100A30F1/HD_SMARTMLS_1785555442676_DSC_2977.JPEG'">
-  <div class="lcard-b">
-    <div class="lcard-price">$2,000/mo</div>
-    <div class="lcard-addr">132 Summer Street</div>
-    <div class="lcard-sub">Stamford</div>
-    <div class="lcard-meta">1 bd · 1 ba · 761 sqft · Residential Rental</div>
-    <div class="lcard-status st-on"><span class="dot"></span>Active</div>
-    <div class="lcard-attrib">Listing courtesy of <strong>William Raveis Real Estate</strong></div>
-  </div>
-</a>
-<a class="lcard" href="/homes/1273-hope-street-stamford-connecticut-24197913.html">
-  <img src="/assets/thumbs/24197913.jpg" alt="1273 Hope Street, Stamford" width="640" height="480" loading="eager" fetchpriority="high" decoding="async" onerror="this.onerror=null;this.src='https://smartmls-assets.cdn-connectmls.com/pics/588D06F61568764FE063E201100A7387/HD_SMARTMLS_1769061233783_House.JPEG'">
-  <div class="lcard-b">
-    <div class="lcard-price">$1,900/mo</div>
-    <div class="lcard-addr">1273 Hope Street</div>
-    <div class="lcard-sub">Stamford</div>
-    <div class="lcard-meta">1 bd · 1 ba · 1,543 sqft · Residential Rental</div>
-    <div class="lcard-status st-on"><span class="dot"></span>Active</div>
-    <div class="lcard-attrib">Listing courtesy of <strong>Pinnacle R.E.&amp; Management Srvc</strong></div>
-  </div>
-</a>
 <a class="lcard" href="/homes/61-kenilworth-drive-west-stamford-connecticut-24199498.html">
   <img src="/assets/thumbs/24199498.jpg" alt="61 Kenilworth Drive West, Stamford" width="640" height="480" loading="eager" fetchpriority="high" decoding="async" onerror="this.onerror=null;this.src='https://smartmls-assets.cdn-connectmls.com/pics/590AC55609071C2AE063E201100A1EE8/HD_1786807556052_IMG_3761.JPEG'">
   <div class="lcard-b">
@@ -244,7 +250,7 @@ h1.idx-price{margin:0;font-size:clamp(1.7rem,4vw,2.6rem);line-height:1.12;max-wi
   </div>
 </a>
 <a class="lcard" href="/homes/113-dogwood-lane-stamford-connecticut-24194350.html">
-  <img src="/assets/thumbs/24194350.jpg" alt="113 Dogwood Lane, Stamford" width="640" height="480" loading="lazy" decoding="async" onerror="this.onerror=null;this.src='https://smartmls-assets.cdn-connectmls.com/pics/5762C02E2838C92BE0631A01100AE5E3/HD_1784932276967_DSC_1361_HDR_Edit.JPEG'">
+  <img src="/assets/thumbs/24194350.jpg" alt="113 Dogwood Lane, Stamford" width="640" height="480" loading="eager" fetchpriority="high" decoding="async" onerror="this.onerror=null;this.src='https://smartmls-assets.cdn-connectmls.com/pics/5762C02E2838C92BE0631A01100AE5E3/HD_1784932276967_DSC_1361_HDR_Edit.JPEG'">
   <div class="lcard-b">
     <div class="lcard-price">$6,500/mo</div>
     <div class="lcard-addr">113 Dogwood Lane</div>
@@ -255,7 +261,7 @@ h1.idx-price{margin:0;font-size:clamp(1.7rem,4vw,2.6rem);line-height:1.12;max-wi
   </div>
 </a>
 <a class="lcard" href="/homes/68-leonard-street-stamford-connecticut-24199609.html">
-  <img src="/assets/thumbs/24199609.jpg" alt="68 Leonard Street, Stamford" width="640" height="480" loading="lazy" decoding="async" onerror="this.onerror=null;this.src='https://smartmls-assets.cdn-connectmls.com/pics/591F4EE293D635D0E063E201100AD4FB/HD_HD_1666026822170_170529727_1_CL.JPEG'">
+  <img src="/assets/thumbs/24199609.jpg" alt="68 Leonard Street, Stamford" width="640" height="480" loading="eager" fetchpriority="high" decoding="async" onerror="this.onerror=null;this.src='https://smartmls-assets.cdn-connectmls.com/pics/591F4EE293D635D0E063E201100AD4FB/HD_HD_1666026822170_170529727_1_CL.JPEG'">
   <div class="lcard-b">
     <div class="lcard-price">$3,500/mo</div>
     <div class="lcard-addr">68 Leonard Street</div>
@@ -362,6 +368,28 @@ h1.idx-price{margin:0;font-size:clamp(1.7rem,4vw,2.6rem);line-height:1.12;max-wi
     <div class="lcard-meta">1 bd · 1 ba · 575 sqft · Residential Rental</div>
     <div class="lcard-status st-on"><span class="dot"></span>Active</div>
     <div class="lcard-attrib">Listing courtesy of <strong>Modern Day Real Estate</strong></div>
+  </div>
+</a>
+<a class="lcard" href="/homes/1385-washington-boulevard-stamford-connecticut-24197789.html">
+  <img src="/assets/thumbs/24197789.jpg" alt="1385 Washington Boulevard, Stamford" width="640" height="480" loading="lazy" decoding="async" onerror="this.onerror=null;this.src='https://smartmls-assets.cdn-connectmls.com/pics/587B20E83372133DE063E201100AFAC1/HD_1786145365446_1385_Washington_Blvd_Stamford_CT___unit_4_3.JPEG'">
+  <div class="lcard-b">
+    <div class="lcard-price">$4,150/mo</div>
+    <div class="lcard-addr">1385 Washington Boulevard</div>
+    <div class="lcard-sub">Stamford</div>
+    <div class="lcard-meta">2 bd · 3 ba · 1,100 sqft · Residential Rental</div>
+    <div class="lcard-status st-uc"><span class="dot"></span>Under Contract</div>
+    <div class="lcard-attrib">Listing courtesy of <strong>Brown Harris Stevens</strong></div>
+  </div>
+</a>
+<a class="lcard" href="/homes/24-northill-street-stamford-connecticut-24183321.html">
+  <img src="/assets/thumbs/24183321.jpg" alt="24 Northill Street, Stamford" width="640" height="480" loading="lazy" decoding="async" onerror="this.onerror=null;this.src='https://smartmls-assets.cdn-connectmls.com/pics/592F7CEE07708C5CE063E201100A2E36/HD_1786969241101_F9AB5288_1EE9_463F_B02C_3EB305BAA143.JPEG'">
+  <div class="lcard-b">
+    <div class="lcard-price">$2,900/mo</div>
+    <div class="lcard-addr">24 Northill Street</div>
+    <div class="lcard-sub">Stamford</div>
+    <div class="lcard-meta">2 bd · 1 ba · 2,168 sqft · Residential Rental</div>
+    <div class="lcard-status st-on"><span class="dot"></span>Active</div>
+    <div class="lcard-attrib">Listing courtesy of <strong>Keller Williams Prestige Prop.</strong></div>
   </div>
 </a>
 <a class="lcard" href="/homes/1188-king-street-greenwich-connecticut-24160958.html">

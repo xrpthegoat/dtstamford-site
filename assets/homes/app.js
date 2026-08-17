@@ -325,7 +325,8 @@ function mlsAttrib(l) {
          (agent ? ` — ${esc(agent)}` : '') + `</div>`;
 }
 
-// Map a short filter label to the MLS's verbose propertyType string — plus facts.style for
+// Map a short filter label to the MLS's verbose propertyType string — plus the style field
+// (facts.style in listings.json, top-level `style` in the light index) for
 // townhouses: SmartMLS has NO townhouse propertyType (they ship as Single Family / Condo / Rental
 // with facts.style "Townhouse", 1,739 of them), so a propertyType-only test returns zero forever.
 function propMatches(label, pt, style) {
@@ -435,7 +436,7 @@ function filtered() {
     // The filter chips are short labels ("Single Family", "Condo"); the MLS propertyType is verbose
     // ("Single Family For Sale", "Condo/Co-Op For Sale"). Match by substring, not equality, or the
     // type filter silently returns nothing against real feed data.
-    if (state.types.length && !state.types.some(t => propMatches(t, l.propertyType, l.facts && l.facts.style))) return false;
+    if (state.types.length && !state.types.some(t => propMatches(t, l.propertyType, (l.facts && l.facts.style) || l.style))) return false;
     if (state.cities.length && !state.cities.includes(l.address && l.address.city)) return false;
     // Max walk-minutes to nearest train. trainMinFor is memoized (l._trainMin) -> O(1) after the first
     // pass, and only evaluated when the filter is active (no cost when maxTrainMin is 0/Any).

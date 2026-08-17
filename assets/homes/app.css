@@ -57,7 +57,9 @@ html{overflow-x:hidden;overscroll-behavior:none}
 .fb-ico{color:var(--muted);flex:none}
 .fb-search input{flex:1;background:none;border:0;outline:none;color:var(--fg);font-family:var(--sans);
   font-size:.92rem;padding:12px 0;min-width:0}
-.fb-search input::placeholder{color:var(--faint)}
+.fb-search input::placeholder{color:var(--muted)}
+/* a11y: gold ring on the search box while typing (reads as a border, no layout shift) */
+.fb-search:focus-within{border-radius:999px;box-shadow:inset 0 0 0 1px var(--gold)}
 
 .fb-seg{display:inline-flex;padding:3px;border-radius:999px;background:rgba(255,255,255,.04);border:1px solid var(--line);flex:none}
 .seg-btn{padding:8px 16px;border:0;background:none;color:var(--muted);font-family:var(--sans);font-weight:600;
@@ -83,7 +85,7 @@ html{overflow-x:hidden;overscroll-behavior:none}
 @keyframes fltPulse{0%,100%{box-shadow:0 0 0 0 rgba(203,171,104,0)}50%{box-shadow:0 0 0 4px rgba(203,171,104,.18),0 0 12px 2px rgba(203,171,104,.28)}}
 .drop-btn.has-val,.fb-filters-btn.has-val{animation:fltPulse 2.2s ease-in-out infinite}
 .fsheet .drop-btn.has-val{animation:none}
-.chev{font-size:.6rem;color:var(--muted);transition:transform .3s var(--ease)}
+.chev{font-size:.66rem;color:var(--muted);transition:transform .3s var(--ease)}
 .drop.is-active .chev{transform:rotate(180deg)}
 /* z-index sits above the header (100) so an open panel is never clipped by it, even
    when the filter bar is stuck directly under the header on scroll */
@@ -101,15 +103,15 @@ html{overflow-x:hidden;overscroll-behavior:none}
 .drop.is-active .drop-panel{opacity:1;transform:none;pointer-events:auto}
 .dp-narrow{min-width:180px}
 .dp-row{display:flex;align-items:flex-end;gap:10px}
-.dp-row label{flex:1;display:flex;flex-direction:column;gap:6px;font-family:var(--mono);font-size:.62rem;
+.dp-row label{flex:1;display:flex;flex-direction:column;gap:6px;font-family:var(--mono);font-size:.66rem;
   letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
-.dp-dash{color:var(--faint);padding-bottom:12px}
+.dp-dash{color:var(--muted);padding-bottom:12px}
 .drop-panel select{appearance:none;-webkit-appearance:none;background:rgba(255,255,255,.04);border:1px solid var(--line);
   color:var(--fg);font-family:var(--sans);font-size:.9rem;padding:11px 12px;border-radius:12px;cursor:pointer;width:100%;
   color-scheme:dark}   /* render the native option list dark, so white option text isn't white-on-white */
 .drop-panel select option{background:#14141a;color:#f5f5f7}
 .drop-panel select:focus{outline:none;border-color:var(--gold-d)}
-.dp-label{font-family:var(--mono);font-size:.62rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin:16px 0 9px}
+.dp-label{font-family:var(--mono);font-size:.66rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin:16px 0 9px}
 .pill-row{display:flex;gap:7px;flex-wrap:wrap}
 .pillx{padding:9px 14px;border-radius:11px;border:1px solid var(--line);background:rgba(255,255,255,.03);
   color:var(--fg-soft);font-family:var(--sans);font-size:.82rem;font-weight:500;cursor:pointer;transition:all .2s}
@@ -132,13 +134,13 @@ html{overflow-x:hidden;overscroll-behavior:none}
   background:linear-gradient(180deg,var(--gold-l),var(--gold));color:#161006}
 .fb-badge{display:inline-flex;align-items:center;gap:6px;padding:8px 12px;border-radius:999px;cursor:pointer;
   border:1px solid var(--gold-d);background:rgba(203,171,104,.12);color:var(--gold-l);font-family:var(--mono);
-  font-size:.62rem;letter-spacing:.08em;text-transform:uppercase;transition:background .2s,transform .2s;flex:none}
+  font-size:.66rem;letter-spacing:.08em;text-transform:uppercase;transition:background .2s,transform .2s;flex:none}
 .fb-badge[hidden]{display:none}
 .fb-badge:hover{background:rgba(203,171,104,.2);transform:translateY(-1px)}
 .fb-badge span{display:inline-flex;align-items:center;justify-content:center;min-width:16px;height:16px;padding:0 4px;
-  border-radius:50%;background:var(--gold);color:#161006;font-weight:700;font-size:.62rem}
+  border-radius:50%;background:var(--gold);color:#161006;font-weight:700;font-size:.66rem}
 .fb-reset{display:inline-flex;align-items:center;border-radius:999px;border:1px solid var(--line);background:rgba(255,255,255,.03);
-  color:var(--muted);font-family:var(--mono);font-size:.64rem;letter-spacing:.12em;
+  color:var(--muted);font-family:var(--mono);font-size:.66rem;letter-spacing:.12em;
   text-transform:uppercase;cursor:pointer;padding:9px 14px;transition:color .2s,border-color .2s,background .2s;flex:none}
 .fb-reset:hover{color:var(--fg);border-color:rgba(255,255,255,.22)}
 .fb-saved{display:inline-flex;align-items:center;gap:7px;padding:9px 14px;border-radius:999px;cursor:pointer;
@@ -183,7 +185,7 @@ html{overflow-x:hidden;overscroll-behavior:none}
 .sa-signin{display:inline-flex;align-items:center;gap:8px}
 .sa-signin .g-g{flex:none}
 .fb-viewtoggle{display:inline-flex;padding:3px;border-radius:999px;background:rgba(255,255,255,.04);border:1px solid var(--line);flex:none}
-.vt-btn{padding:8px 13px;border:0;background:none;color:var(--muted);font-family:var(--mono);font-size:.64rem;letter-spacing:.1em;
+.vt-btn{padding:8px 13px;border:0;background:none;color:var(--muted);font-family:var(--mono);font-size:.66rem;letter-spacing:.1em;
   text-transform:uppercase;border-radius:999px;cursor:pointer;transition:all .2s}
 .vt-btn.is-on{color:var(--fg);background:rgba(255,255,255,.08)}
 
@@ -211,7 +213,7 @@ html{overflow-x:hidden;overscroll-behavior:none}
 .ai-sheet.is-open{opacity:1;transform:translateX(-50%) translateY(0);pointer-events:auto}
 .ai-sheet[hidden]{display:none}
 .ai-head{display:flex;align-items:center;gap:10px;margin-bottom:12px}
-.ai-eyebrow{font-family:var(--mono);font-size:.62rem;letter-spacing:.16em;text-transform:uppercase;color:var(--gold-l)}
+.ai-eyebrow{font-family:var(--mono);font-size:.66rem;letter-spacing:.16em;text-transform:uppercase;color:var(--gold-l)}
 .ai-eyebrow .dot{display:inline-block;width:6px;height:6px;border-radius:50%;background:var(--gold);margin-right:7px;vertical-align:middle}
 .ai-x{margin-left:auto;width:30px;height:30px;border-radius:50%;border:1px solid var(--line);background:rgba(255,255,255,.03);
   color:var(--muted);font-size:.9rem;line-height:1;cursor:pointer;transition:color .2s,border-color .2s}
@@ -221,7 +223,7 @@ html{overflow-x:hidden;overscroll-behavior:none}
 .ai-box:focus-within{border-color:rgba(203,171,104,.5)}
 .ai-box textarea{flex:1;min-height:24px;max-height:120px;resize:none;border:0;outline:none;background:none;color:var(--fg);
   font-family:var(--sans);font-size:.95rem;line-height:1.5}
-.ai-box textarea::placeholder{color:var(--faint)}
+.ai-box textarea::placeholder{color:var(--muted)}
 .ai-send{flex:none;width:38px;height:38px;border-radius:50%;border:0;cursor:pointer;color:#161006;
   background:linear-gradient(180deg,var(--gold-l),var(--gold));font-size:1rem;line-height:1;
   box-shadow:0 10px 22px -14px rgba(203,171,104,.9);transition:transform .2s var(--ease)}
@@ -232,7 +234,7 @@ html{overflow-x:hidden;overscroll-behavior:none}
 .ai-lede{font-size:.92rem;line-height:1.6;color:var(--fg-soft)}
 .ai-lede b{color:var(--gold-l);font-weight:700}
 .ai-chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:11px}
-.ai-chip{font-family:var(--mono);font-size:.64rem;letter-spacing:.05em;color:var(--fg-soft);
+.ai-chip{font-family:var(--mono);font-size:.66rem;letter-spacing:.05em;color:var(--fg-soft);
   border:1px solid var(--line);border-radius:20px;padding:5px 10px;background:rgba(255,255,255,.03)}
 .ai-top{display:flex;flex-direction:column;gap:8px;margin-top:14px}
 .ai-hit{display:grid;grid-template-columns:auto 1fr;gap:2px 12px;text-align:left;width:100%;cursor:pointer;
@@ -242,7 +244,7 @@ html{overflow-x:hidden;overscroll-behavior:none}
 .ai-hit-price{grid-row:1/3;align-self:center;font-family:var(--disp);font-size:1.02rem;font-weight:700;color:var(--fg)}
 .ai-hit-price i{font-style:normal;font-size:.68rem;color:var(--muted);font-weight:500}
 .ai-hit-addr{font-size:.84rem;color:var(--fg-soft);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-.ai-hit-why{font-family:var(--mono);font-size:.63rem;letter-spacing:.03em;color:var(--gold-l);
+.ai-hit-why{font-family:var(--mono);font-size:.66rem;letter-spacing:.03em;color:var(--gold-l);
   overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .ai-egs{display:flex;flex-wrap:wrap;gap:7px;margin-top:12px}
 .ai-eg{cursor:pointer;font-family:var(--sans);font-size:.79rem;color:var(--fg-soft);border:1px solid var(--line);
@@ -308,7 +310,7 @@ html{overflow-x:hidden;overscroll-behavior:none}
 .rh-count{font-family:var(--disp);font-size:1.05rem;color:var(--fg)}
 .rh-count strong{color:var(--gold-l)}
 .rh-loc{color:var(--muted);font-weight:400}
-.rh-updated{font-family:var(--mono);font-size:.62rem;letter-spacing:.08em;text-transform:uppercase;color:var(--faint);white-space:nowrap}
+.rh-updated{font-family:var(--mono);font-size:.75rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);white-space:nowrap}
 /* .sample-note sets display:flex, which overrode the browser's [hidden]{display:none}, so the
    "preview data" banner stayed visible over the LIVE feed even though JS correctly set .hidden.
    This higher-specificity rule restores the hidden behaviour. */
@@ -350,7 +352,7 @@ html{overflow-x:hidden;overscroll-behavior:none}
 .card-media img{width:100%;height:100%;object-fit:cover;transition:transform .7s var(--ease)}
 .card:hover .card-media img{transform:scale(1.05)}
 .card-badges{position:absolute;top:12px;left:12px;display:flex;gap:6px;z-index:2}
-.badge{font-family:var(--mono);font-size:.6rem;letter-spacing:.1em;text-transform:uppercase;padding:5px 9px;border-radius:7px;
+.badge{font-family:var(--mono);font-size:.66rem;letter-spacing:.1em;text-transform:uppercase;padding:5px 9px;border-radius:7px;
   background:rgba(6,6,8,.7);backdrop-filter:blur(8px);color:var(--fg);border:1px solid var(--line)}
 .badge.new{background:linear-gradient(180deg,var(--action-l),var(--action));color:#fff;border-color:transparent}
 .badge.soon{background:linear-gradient(180deg,var(--gold-l),var(--gold));color:#161006;border-color:transparent}
@@ -385,18 +387,18 @@ html{overflow-x:hidden;overscroll-behavior:none}
 .card-addr{font-size:.88rem;color:var(--fg-soft);line-height:1.4}
 /* One quiet meta line (days listed · year · commute), replacing the heavy commute band + broker footer. */
 .card-meta{display:flex;align-items:center;flex-wrap:wrap;gap:6px;margin-top:8px;
-  font-family:var(--mono);font-size:.6rem;letter-spacing:.06em;text-transform:uppercase;color:var(--faint)}
+  font-family:var(--mono);font-size:.75rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
 .card-meta .dot{color:var(--line-2);font-style:normal}
 /* Required MLS attribution — present on every card, kept deliberately quiet. */
-.idx-attrib{font-size:.68rem;color:var(--faint);line-height:1.4;margin-top:8px}
-.idx-attrib strong{color:var(--muted);font-weight:600}
-.d-commute{display:inline-flex;align-items:center;gap:6px;font-family:var(--mono);font-size:.64rem;letter-spacing:.08em;
+.idx-attrib{font-size:.75rem;color:var(--muted);line-height:1.4;margin-top:8px}
+.idx-attrib strong{color:var(--fg-soft);font-weight:600}
+.d-commute{display:inline-flex;align-items:center;gap:6px;font-family:var(--mono);font-size:.66rem;letter-spacing:.08em;
   text-transform:uppercase;color:var(--gold-l);padding:5px 10px;border-radius:8px;border:1px solid rgba(203,171,104,.3);
   background:rgba(203,171,104,.06);margin-bottom:10px}
 
 /* ---------- MAP MARKERS ---------- */
 .leaflet-container{background:#0a0a0d;font-family:var(--sans)}
-.leaflet-control-attribution{background:rgba(6,6,8,.7)!important;color:var(--faint)!important;font-size:9px!important}
+.leaflet-control-attribution{background:rgba(6,6,8,.7)!important;color:var(--muted)!important;font-size:12px!important}
 .leaflet-control-attribution a{color:var(--muted)!important}
 .leaflet-bar a{background:rgba(16,16,20,.9)!important;color:var(--fg)!important;border-color:var(--line)!important}
 /* Dark pill (fits the dark map) but with a GOLD outline + soft shadow so each price still pops — the
@@ -412,7 +414,7 @@ html{overflow-x:hidden;overscroll-behavior:none}
 /* Sold pins drop the gold outline entirely and sit visually behind live ones. Placed after .fav so a
    saved sold home still reads as sold — the map is the one place with no card text to disambiguate. */
 .price-pin.sold{background:rgba(20,24,33,.9);border-color:var(--sold-d);color:var(--sold-l);font-weight:500}
-.price-pin.sold::after{content:"·SOLD";font-size:.58rem;letter-spacing:.06em;opacity:.8;margin-left:4px}
+.price-pin.sold::after{content:"·SOLD";font-size:.66rem;letter-spacing:.06em;opacity:.8;margin-left:4px}
 .cluster-pin{background:linear-gradient(180deg,var(--gold-l),var(--gold));color:#161006;font-weight:700;font-family:var(--sans);
   border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 8px 22px -8px rgba(203,171,104,.8);border:2px solid rgba(255,255,255,.3)}
 /* Marker-cluster count bubbles. Replaces the unreadable 1,100-pin blob with one gold circle per
@@ -451,8 +453,8 @@ html{overflow-x:hidden;overscroll-behavior:none}
 .empty-emoji{font-size:2.4rem;margin-bottom:14px}
 .empty h3{font-size:1.4rem;color:#fff;margin-bottom:10px}
 .empty p{color:var(--fg-soft);margin-bottom:22px;line-height:1.6}
-.idx-legal{margin:34px 4px 0;padding-top:18px;border-top:1px solid var(--line-2);font-size:.72rem;color:var(--faint);line-height:1.6}
-.idx-legal strong{color:var(--muted);font-weight:600}
+.idx-legal{margin:34px 4px 0;padding-top:18px;border-top:1px solid var(--line-2);font-size:.75rem;color:var(--muted);line-height:1.6}
+.idx-legal strong{color:var(--fg-soft);font-weight:600}
 
 /* ---------- DETAIL DRAWER ---------- */
 .drawer-scrim{position:fixed;inset:0;z-index:200;background:rgba(4,4,6,.66);backdrop-filter:blur(3px);opacity:0;transition:opacity .35s}
@@ -496,7 +498,7 @@ html{overflow-x:hidden;overscroll-behavior:none}
 .d-specs{display:flex;gap:20px;margin:14px 0;flex-wrap:wrap}
 .d-spec{display:flex;flex-direction:column;gap:2px}
 .d-spec b{font-family:var(--disp);font-size:1.3rem;color:#fff}
-.d-spec span{font-family:var(--mono);font-size:.6rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.d-spec span{font-family:var(--mono);font-size:.75rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
 .d-addr{font-size:1.05rem;color:var(--fg);margin:4px 0 2px}
 .d-hood{font-family:var(--mono);font-size:.66rem;letter-spacing:.14em;text-transform:uppercase;color:var(--gold-l);margin-bottom:18px}
 .d-badges{display:flex;flex-wrap:wrap;align-items:center;gap:7px;margin:16px 0}
@@ -523,8 +525,8 @@ html{overflow-x:hidden;overscroll-behavior:none}
 .d-feats{display:flex;flex-wrap:wrap;gap:8px}
 .d-feat{padding:7px 13px;border-radius:9px;border:1px solid var(--line);background:rgba(255,255,255,.03);font-size:.82rem;color:var(--fg-soft)}
 .d-map{height:200px;border-radius:14px;overflow:hidden;border:1px solid var(--line)}
-.d-legal{margin-top:22px;padding-top:16px;border-top:1px solid var(--line-2);font-size:.72rem;color:var(--faint);line-height:1.6}
-.d-seo-link{display:inline-block;margin-top:10px;font-family:var(--mono);font-size:.64rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.d-legal{margin-top:22px;padding-top:16px;border-top:1px solid var(--line-2);font-size:.75rem;color:var(--muted);line-height:1.6}
+.d-seo-link{display:inline-block;margin-top:10px;font-family:var(--mono);font-size:.66rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
 .d-seo-link:hover{color:var(--gold-l)}
 
 /* skeleton */
@@ -675,8 +677,8 @@ html{overflow-x:hidden;overscroll-behavior:none}
 .load-more-btn[disabled]{cursor:default;opacity:.55;pointer-events:none}
 
 /* progress line under the button: "Showing 48 of 1,686" */
-.load-more-count{font-family:var(--mono);font-size:.62rem;letter-spacing:.1em;text-transform:uppercase;color:var(--faint)}
-.load-more-count strong{color:var(--muted);font-weight:600}
+.load-more-count{font-family:var(--mono);font-size:.75rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.load-more-count strong{color:var(--fg-soft);font-weight:600}
 
 /* auto-fetch spinner shown while the next page's observer callback runs */
 .load-more.is-loading .load-more-btn{color:transparent;position:relative}
@@ -718,7 +720,7 @@ html{overflow-x:hidden;overscroll-behavior:none}
 .hub-head{max-width:1560px;margin:0 auto;padding:8px 4px 0;display:flex;align-items:baseline;
   justify-content:space-between;gap:16px;flex-wrap:wrap}
 .hub-head h1{font-family:var(--disp);font-size:1.5rem;color:var(--fg);letter-spacing:-.01em}
-.hub-head .hub-count{font-family:var(--mono);font-size:.64rem;letter-spacing:.1em;text-transform:uppercase;color:var(--faint)}
+.hub-head .hub-count{font-family:var(--mono);font-size:.75rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
 .hub-head .hub-count strong{color:var(--gold-l);font-weight:600}
 
 /* ============================================================
@@ -841,7 +843,7 @@ html{overflow-x:hidden;overscroll-behavior:none}
   color:#dbe2ec; background:rgba(255,255,255,.045); border:1px solid rgba(255,255,255,.09);
   border-radius:8px; padding:3px 9px; max-width:100%; }
 /* the label, not an emoji — "Laundry · Main Level" reads; "🧺 Main Level" does not say what it is */
-.card-chip i{ font-style:normal; font-size:.63rem; font-weight:700; letter-spacing:.08em;
+.card-chip i{ font-style:normal; font-size:.66rem; font-weight:700; letter-spacing:.08em;
   text-transform:uppercase; color:#8792a3; }
 .card-chip.is-no{ border-color:rgba(255,93,115,.3); }
 .card-chip.is-no i{ color:#e08594; }
@@ -860,7 +862,7 @@ html{overflow-x:hidden;overscroll-behavior:none}
    deliberately: gold is the call, teal is the tour, so this had to be neither. */
 .d-fullcta{ display:inline-flex; align-items:center; gap:6px; margin-left:auto;
   padding:5px 11px; border-radius:8px; text-decoration:none;
-  font-family:var(--mono); font-size:.64rem; letter-spacing:.1em; text-transform:uppercase;
+  font-family:var(--mono); font-size:.66rem; letter-spacing:.1em; text-transform:uppercase;
   font-weight:700; color:#bfe4f2; white-space:nowrap;
   background:rgba(64,180,224,.11); border:1px solid rgba(64,180,224,.38); }
 .d-fullcta:hover{ background:rgba(64,180,224,.2); border-color:rgba(64,180,224,.62); color:#e2f5fd; }

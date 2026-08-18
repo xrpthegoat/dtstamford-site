@@ -606,9 +606,17 @@
         .btn-pulse:hover{animation-play-state:paused}
         @media(prefers-reduced-motion:reduce){.btn-pulse{animation:none}}
       </style>
+      <!-- Hero + sticky bar, decided together (John, 2026-08-15). On a phone the hero pills and the
+           sticky callbar stack in the same viewport, so they are ONE set of four, not two sets of two:
+             hero      = Text John (gold)  + Free valuation (outline)
+             sticky    = Text John (gold)  + Search Homes (outline, pulsing)
+           Search Homes lives in the sticky bar because it should be reachable at every scroll depth,
+           and it keeps the pulse. Magic Search is not a button anywhere here any more: it IS the bar on
+           search.html and has its own indexed H2 section further down — SEO-neutral, since the old
+           Magic button was search.html?ai=1, a query-param twin of the same page. -->
       <div class="cta-row rv d3">
-        <a class="btn btn-gold" href="/contact.html">Free valuation <span class="ic" aria-hidden="true">↗</span></a>
-        <a class="btn btn-out btn-pulse" href="search.html">Search Homes <span class="ic" aria-hidden="true">↗</span></a>
+        <a class="btn btn-gold" href="sms:2038833399">Text John <span class="ic" aria-hidden="true">↗</span></a>
+        <a class="btn btn-out" href="/contact.html">Free valuation <span class="ic" aria-hidden="true">↗</span></a>
       </div>
     </div>
     <div class="scrollcue">Scroll</div>
@@ -1233,9 +1241,13 @@
   </div>
 </footer>
 
+<!-- ONE button (John, 2026-08-15). Magic Search is not a button anywhere on this page any more: it IS
+     the search bar on search.html, and it has its own indexed section with an H2 further down this
+     page — which is where a crawler can actually read it. A second pill here reintroduced the
+     "two searches?" confusion the 2026-08-10 move removed. -->
 <div class="callbar">
   <a class="btn btn-gold" href="sms:2038833399">Text John <span class="ic" aria-hidden="true">↗</span></a>
-  <a class="btn btn-out" href="search.html?ai=1">Magic Search <span class="ic" aria-hidden="true">↗</span></a>
+  <a class="btn btn-out btn-pulse" href="search.html">Search Homes <span class="ic" aria-hidden="true">↗</span></a>
 </div>
 
 <script>

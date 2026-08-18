@@ -933,3 +933,24 @@ html{overflow-x:hidden;overscroll-behavior:none}
   font-family:var(--mono);font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;color:var(--gold-l)}
 .chk-more-btn:hover{color:var(--fg)}
 .chk-more[hidden]{display:none}
+
+
+/* ── "Filters" flashes so people find the custom search (John, 2026-08-15) ──────────────────────
+   A FLASH, not a pulse: two hard blinks, a long pause, repeat. Deliberately unlike the slow breathing
+   `fltPulse` above, which already means "you have filters applied" — two different messages must not
+   share one animation. It runs three rounds (~15s) and stops on its own, and filters-sheet.js kills it
+   the moment the button is tapped and never brings it back on a later visit. An animation that nags
+   forever stops being a hint and becomes a bug report. */
+@keyframes fltFlash{
+  0%,  100%{ border-color:rgba(255,255,255,.14); background:rgba(255,255,255,.03); color:var(--muted); box-shadow:none }
+  4%      { border-color:var(--gold-l); background:rgba(203,171,104,.3); color:#fff;
+             box-shadow:0 0 0 4px rgba(203,171,104,.26), 0 0 22px rgba(203,171,104,.55) }
+  12%     { border-color:rgba(255,255,255,.14); background:rgba(255,255,255,.03); color:var(--muted); box-shadow:none }
+  18%     { border-color:var(--gold-l); background:rgba(203,171,104,.3); color:#fff;
+             box-shadow:0 0 0 4px rgba(203,171,104,.26), 0 0 22px rgba(203,171,104,.55) }
+  26%     { border-color:rgba(255,255,255,.14); background:rgba(255,255,255,.03); color:var(--muted); box-shadow:none }
+}
+.fb-filters-btn.is-flashing{ animation:fltFlash 5s ease-in-out 3 }
+/* once he HAS filters on, .has-val's own pulse owns the button — never run both at once */
+.fb-filters-btn.has-val.is-flashing{ animation:fltPulse 2.2s ease-in-out infinite }
+@media(prefers-reduced-motion:reduce){ .fb-filters-btn.is-flashing{ animation:none } }

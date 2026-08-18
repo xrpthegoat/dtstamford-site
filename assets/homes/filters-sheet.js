@@ -24,6 +24,24 @@ const sheet = $('#filterSheet');
 const scrim = $('#filterScrim');
 const body = $('#fsheetBody');
   let lockedScrollY = 0;      // where the results were when the panel opened
+
+  /* Flash the Filters button once, for someone who has never opened it — the custom search is the
+     best thing on this page and it looked like furniture. Killed permanently on the first tap, and
+     remembered, so a returning visitor is never nagged. Anyone who arrives with filters already in the
+     URL clearly knows about them, so they never see it either. localStorage can throw in private mode,
+     hence the guards — a storage failure must not cost the flash OR break the page. */
+  const FLASH_SEEN = 'dts_filters_seen';
+  function stopFlash(remember) {
+    btn.classList.remove('is-flashing');
+    if (remember) { try { localStorage.setItem(FLASH_SEEN, '1'); } catch (_) {} }
+  }
+  function maybeFlash() {
+    let seen = false;
+    try { seen = localStorage.getItem(FLASH_SEEN) === '1'; } catch (_) {}
+    if (seen) return;
+    if (/[?&](ci|bd|ba|pmin|pmax|ht)=/.test(location.search)) return;   // already filtering — no hint needed
+    btn.classList.add('is-flashing');
+  }
 const bar = document.querySelector('.fb-group-filters');
 
 if (btn && sheet && scrim && body && bar) {
@@ -101,6 +119,7 @@ if (btn && sheet && scrim && body && bar) {
     void sheet.offsetHeight;
     scrim.classList.add('is-open');
     sheet.classList.add('is-open');
+    stopFlash(true);                       // he found it — never flash again on this device
     open = true;
     btn.setAttribute('aria-expanded', 'true');
     /* iOS ignores body{overflow:hidden} for TOUCH scrolling — the page keeps moving under the panel,
@@ -132,6 +151,7 @@ if (btn && sheet && scrim && body && bar) {
   }
 
   btn.addEventListener('click', () => (open ? closeSheet() : openSheet()));
+  maybeFlash();     // last: everything it depends on is wired by here
   scrim.addEventListener('click', closeSheet);
   $('#fsheetApply') && $('#fsheetApply').addEventListener('click', closeSheet);
   document.addEventListener('keydown', e => { if (e.key === 'Escape' && open) closeSheet(); });

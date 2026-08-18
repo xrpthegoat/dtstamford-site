@@ -333,11 +333,20 @@ function propMatches(label, pt, style) {
   pt = (pt || '').toLowerCase();
   style = (style || '').toLowerCase();
   const l = label.toLowerCase();
-  if (l === 'condo') return pt.includes('condo') || pt.includes('co-op');
+  // Rentals ALL carry propertyType "Residential Rental" (or "Commercial For Lease"); the dwelling
+  // kind lives in the style field ("Colonial", "Apartment", "High Rise", "Townhouse"…). So for a
+  // rental we ALSO test style — OR'd in, never replacing the propertyType test, so sale chips are
+  // unaffected (a Condo sale must not match Single Family just because its style is "Ranch").
+  const rental = pt.includes('rental') || pt.includes('lease');
+  const styleHouse = /colonial|cape|ranch|split|contemporary|tudor|victorian|farm|antique|colonial|cottage|bungalow|saltbox|craftsman|garrison|modern|raised ranch/.test(style);
+  const styleApt = /apartment|high rise|mid rise|flat|garden|studio|penthouse/.test(style);
+  const styleTown = /town|row house|half duplex/.test(style);
+  const styleMulti = /duplex|triplex|units? on different|side-by-side/.test(style);
+  if (l === 'condo') return pt.includes('condo') || pt.includes('co-op') || (rental && styleApt && !styleTown);
   if (l === 'co-op') return pt.includes('co-op');
-  if (l === 'multi-family') return pt.includes('multi-family') || pt.includes('multi family');
-  if (l === 'single family') return pt.includes('single family');
-  if (l === 'townhouse') return pt.includes('town') || style.includes('town');
+  if (l === 'multi-family') return pt.includes('multi-family') || pt.includes('multi family') || (rental && styleMulti);
+  if (l === 'single family') return pt.includes('single family') || (rental && styleHouse && !styleTown);
+  if (l === 'townhouse') return pt.includes('town') || styleTown;
   if (l === 'land') return pt.includes('land') || pt.includes('lot');
   return pt.includes(l);
 }
@@ -374,7 +383,10 @@ async function load() {
     if (!res.ok) res = await fetch(DATA_URL);
     if (!res.ok) throw new Error('HTTP ' + res.status);
     const data = await res.json();
-    state.all = (data.listings || []).filter(l => l && l.geo && Number.isFinite(l.geo.lat));
+    // Keep every listing with an address record — INCLUDING the ~88 address-withheld ones that
+    // carry no geo (§12.2.3). They used to be dropped here, which made them unsearchable even by
+    // MLS#. The map/bounds/circle/drawer code below now null-guards geo instead.
+    state.all = (data.listings || []).filter(l => l && l.address);
     state.meta = data.meta || {};
   } catch (err) {
     state.all = [];
@@ -440,15 +452,24 @@ function filtered() {
     if (state.cities.length && !state.cities.includes(l.address && l.address.city)) return false;
     // Max walk-minutes to nearest train. trainMinFor is memoized (l._trainMin) -> O(1) after the first
     // pass, and only evaluated when the filter is active (no cost when maxTrainMin is 0/Any).
-    if (state.maxTrainMin && trainMinFor(l) > state.maxTrainMin) return false;
+    if (state.maxTrainMin && (!l.geo || trainMinFor(l) > state.maxTrainMin)) return false;
     if (q) {
-      const hay = `${l.mls || ''} ${l.address.line || ''} ${l.address.city} ${l.address.neighborhood || ''} ${l.address.zip || ''}`.toLowerCase();
-      if (!hay.includes(q)) return false;
+      // Tokenized address/MLS match. Uses lineWithUnit (unit included), city, state, "ct", zip and
+      // MLS#, strips punctuation on BOTH sides, and requires every typed word to appear (any order)
+      // — so "44 strawberry", "strawberry hill 44", "44 strawberry hill ave" all hit the same
+      // "44 Strawberry Hill Avenue" record. Pure-number tokens match on a word boundary so a house
+      // number can't accidentally match inside an MLS number.
+      const a = l.address || {};
+      const hay = `${a.lineWithUnit || a.line || ''} ${a.city || ''} ${a.state || ''} ct ${a.zip || ''} ${l.mls || ''}`
+        .toLowerCase().replace(/[^a-z0-9\s]/g, ' ').replace(/\s+/g, ' ');
+      const toks = q.replace(/[^a-z0-9\s]/g, ' ').split(/\s+/).filter(Boolean);
+      const ok = toks.every(t => /^\d+$/.test(t) ? new RegExp('\\b' + t + '\\b').test(hay) : hay.includes(t));
+      if (!ok) return false;
     }
-    if (state.bounds && !state.bounds.contains([l.geo.lat, l.geo.lng])) return false;
+    if (state.bounds && (!l.geo || !state.bounds.contains([l.geo.lat, l.geo.lng]))) return false;
     // Draw-a-circle area filter. Mutually exclusive with state.bounds (setCircle nulls bounds); shares
     // haversineM with the train filter so the cutoff equals the drawn L.circle's edge exactly.
-    if (state.circle && haversineM(state.circle.lat, state.circle.lng, l.geo.lat, l.geo.lng) > state.circle.radius) return false;
+    if (state.circle && (!l.geo || haversineM(state.circle.lat, state.circle.lng, l.geo.lat, l.geo.lng) > state.circle.radius)) return false;
     if (state.savedOnly && !state.favs.has(l.mls)) return false;
     // AI hard excludes ("no HOA", "not in a flood zone", "must be waterfront"). Soft wants are
     // handled by the 'ai' sort below, so a near-miss still shows — just lower down.
@@ -590,12 +611,60 @@ let _io = null;
 let _pageList = [];
 let _pageShown = 0;
 
+// Switch the Buy/Rent tab for real (state + seg chrome + price selects), the way the seg buttons do.
+function applyTabView(type) {
+  if (!type || state.type === type) return;
+  state.type = type;
+  $$('.seg-btn').forEach(b => { const on = b.dataset.type === type; b.classList.toggle('is-on', on); b.setAttribute('aria-selected', on); });
+  buildPriceSelects();
+}
+
+// Empty state. A search that finds nothing on THIS tab almost always has matches on another tab or
+// in sold history (the "44 Strawberry" case: a rental building searched on the Buy tab). Rather than
+// a dead end, count the other views with the same query — using the app's own preview() so the
+// numbers are exactly what a click produces — and offer one-tap jumps. Falls back to the plain
+// "no match / set an alert" message when there is genuinely nothing anywhere.
+function renderEmpty() {
+  const empty = $('#empty');
+  const base = { showSold: false, priceMin: 0, priceMax: 0, bounds: null, circle: null };
+  const nSale = preview(Object.assign({}, base, { type: 'sale' }));
+  const nRent = preview(Object.assign({}, base, { type: 'rent' }));
+  const nSoldSale = Math.max(0, preview(Object.assign({}, base, { type: 'sale', showSold: true })) - nSale);
+  const nSoldRent = Math.max(0, preview(Object.assign({}, base, { type: 'rent', showSold: true })) - nRent);
+  const nSold = nSoldSale + nSoldRent;
+  const other = state.type === 'sale' ? nRent : nSale;
+  const otherType = state.type === 'sale' ? 'rent' : 'sale';
+  const otherLabel = state.type === 'sale' ? 'for rent' : 'for sale';
+  const btnCss = 'display:inline-block;margin:6px 8px 0 0;padding:10px 16px;border-radius:999px;border:1px solid var(--line-2,#33343a);background:rgba(255,255,255,.04);color:#fff;font:600 14px/1 var(--sans,sans-serif);cursor:pointer';
+  const jumps = [];
+  if (other > 0) jumps.push(`<button type="button" class="empty-jump" data-jump="tab" data-type="${otherType}" style="${btnCss}">${other} ${otherLabel} \u2192</button>`);
+  if (!state.showSold && nSold > 0) jumps.push(`<button type="button" class="empty-jump" data-jump="sold" style="${btnCss}">${nSold} sold \u2192</button>`);
+  if (state.q && jumps.length) {
+    const thisLabel = state.type === 'rent' ? 'for rent' : 'for sale';
+    empty.innerHTML = `<div class="empty-emoji">\uD83D\uDD0E</div>`
+      + `<h3>0 ${thisLabel} for \u201c${esc(state.q)}\u201d</h3>`
+      + `<p>\u2014 but this search has matches elsewhere:</p>`
+      + `<div class="empty-actions">${jumps.join('')}</div>`;
+    empty.querySelectorAll('.empty-jump').forEach(b => b.addEventListener('click', () => {
+      state.priceMin = 0; state.priceMax = 0; state.bounds = null; state.circle = null;
+      if (b.dataset.jump === 'sold') { state.showSold = true; applyTabView(nSoldSale >= nSoldRent ? 'sale' : 'rent'); }
+      else { applyTabView(b.dataset.type); }
+      syncFilterChrome(); render();
+    }));
+  } else {
+    empty.innerHTML = `<div class="empty-emoji">\uD83D\uDD2D</div>`
+      + `<h3>No homes match those filters</h3>`
+      + `<p>Try widening your price range or clearing a filter. Or tell John exactly what you want and he'll set up a live alert.</p>`
+      + `<a class="btn btn-gold" href="homes-for-sale-stamford.html#alerts">Set up a listing alert <span class="arr">\u2192</span></a>`;
+  }
+}
+
 function renderCards(list) {
   const wrap = $('#cards'), empty = $('#empty');
   if (_io) { _io.disconnect(); _io = null; }   // tear down any observer from the previous filter set
   wrap.innerHTML = '';
   wireCardsOnce();                              // delegation lives on the container, wire before/after fill
-  if (!list.length) { empty.hidden = false; return; }
+  if (!list.length) { renderEmpty(); empty.hidden = false; return; }
   empty.hidden = true;
   _pageList = list;
   _pageShown = 0;
@@ -1085,6 +1154,7 @@ function renderMarkers(list) {
   const pts = [];
   const batch = [];
   list.forEach(l => {
+    if (!l.geo || !Number.isFinite(l.geo.lat)) return;   // withheld-address listing: no map pin
     const compact = l.listingType === 'rent'
       ? '$' + (l.price >= 1000 ? (l.price / 1000).toFixed(1).replace(/\.0$/, '') + 'k' : l.price)
       : (l.price >= 1e6 ? '$' + (l.price / 1e6).toFixed(l.price >= 1e7 ? 0 : 2).replace(/\.?0+$/, '') + 'M' : '$' + Math.round(l.price / 1000) + 'k');
@@ -1265,12 +1335,18 @@ function renderDrawer(l) {
   $('#dShare') && $('#dShare').addEventListener('click', () => shareListing(l, $('#dShare')));
   $('#dImg') && $('#dImg').addEventListener('click', () => openFS(photos, gi));   // tap photo → full-screen viewer
 
-  // mini map
-  const dm = L.map('dMap', { zoomControl: false, attributionControl: false, dragging: false, scrollWheelZoom: false, doubleClickZoom: false })
-    .setView([l.geo.lat, l.geo.lng], 14);
-  L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', { subdomains: 'abcd' }).addTo(dm);
-  L.marker([l.geo.lat, l.geo.lng], { icon: L.divIcon({ className: '', html: `<div class="price-pin hi">${esc(l.address.line)}</div>` }) }).addTo(dm);
-  setTimeout(() => dm.invalidateSize(), 80);
+  // mini map — address-withheld listings have no geo, so skip it and hide the container.
+  const _dMapEl = document.getElementById('dMap');
+  if (l.geo && Number.isFinite(l.geo.lat)) {
+    if (_dMapEl) _dMapEl.style.display = '';
+    const dm = L.map('dMap', { zoomControl: false, attributionControl: false, dragging: false, scrollWheelZoom: false, doubleClickZoom: false })
+      .setView([l.geo.lat, l.geo.lng], 14);
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', { subdomains: 'abcd' }).addTo(dm);
+    L.marker([l.geo.lat, l.geo.lng], { icon: L.divIcon({ className: '', html: `<div class="price-pin hi">${esc(l.address.lineWithUnit || l.address.line || l.address.city)}</div>` }) }).addTo(dm);
+    setTimeout(() => dm.invalidateSize(), 80);
+  } else if (_dMapEl) {
+    _dMapEl.style.display = 'none';
+  }
 
   $('#scrim').hidden = false;
   requestAnimationFrame(() => { $('#scrim').classList.add('show'); $('#drawer').classList.add('show'); });

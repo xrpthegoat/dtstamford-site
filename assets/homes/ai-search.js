@@ -398,9 +398,9 @@ function apply(p, factsReady) {
     priceMax: p.priceMax || 0,
     beds: p.beds == null ? 0 : p.beds,
     baths: p.baths == null ? 0 : p.baths,
-    // Every rental in this feed is propertyType "Residential Rental", so a home-type
-    // filter on a rent search would return nothing. Sale searches only.
-    types: (p.listingType || S.state.type) === 'rent' ? [] : p.types,
+    // Rentals are classified by their style field now (propMatches maps it), so a home-type
+    // filter works on rent as well as sale — pass it straight through.
+    types: p.types,
     cities: p.cities,
     maxTrainMin: p.maxTrainMin,
     // Closed listings are history, not inventory: every AI answer excludes them unless the
@@ -436,7 +436,7 @@ function relaxation(p) {
       type: effType, q: '', bounds: null,
       priceMin: alt.priceMin || 0, priceMax: alt.priceMax || 0,
       beds: alt.beds || 0, baths: alt.baths || 0,
-      types: effType === 'rent' ? [] : alt.types, cities: alt.cities,
+      types: alt.types, cities: alt.cities,
       maxTrainMin: alt.maxTrainMin, showSold: !!alt.sold, ai: build(alt, _factsState === 'ready')
     });
     if (n > 0) return { ...t, n, alt };

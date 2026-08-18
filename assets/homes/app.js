@@ -420,10 +420,38 @@ function buildTypeChecks() {
 }
 // City multi-select — the distinct towns actually present in the feed (Stamford, Norwalk, …), sorted.
 // A buyer open to "Stamford OR Norwalk" checks both and sees the combined results.
+/* PINNED FIRST, then alphabetical (John, 2026-08-15). Straight A-Z buried Stamford — the town this
+   whole site is about — six rows down under Brookfield, Darien, Fairfield, Greenwich, Monroe, and the
+   list is long enough that he had to scroll a 210px box to reach it. His three real markets now sit at
+   the top in his order, everything else follows A-Z behind a "See more" toggle, so the common case is
+   one tap and the long tail is still one tap away. A pinned town that is not in the feed today is
+   simply skipped — the list never advertises a filter that would return nothing. */
+const CITY_PINS = ['Stamford', 'Norwalk', 'Greenwich'];
 function buildCityChecks() {
-  const cities = [...new Set(state.all.map(l => l.address && l.address.city).filter(Boolean))].sort();
-  $('#cityCol').innerHTML = cities.map(c =>
-    `<label class="chk"><input type="checkbox" value="${esc(c)}"> ${esc(c)}</label>`).join('');
+  const all = [...new Set(state.all.map(l => l.address && l.address.city).filter(Boolean))].sort();
+  const pinned = CITY_PINS.filter(c => all.includes(c));
+  const rest = all.filter(c => !pinned.includes(c));
+  const row = c => `<label class="chk"><input type="checkbox" value="${esc(c)}"> ${esc(c)}</label>`;
+  $('#cityCol').innerHTML =
+    pinned.map(row).join('') +
+    (rest.length
+      ? `<div class="chk-more" hidden>${rest.map(row).join('')}</div>` +
+        `<button type="button" class="chk-more-btn" aria-expanded="false">See ${rest.length} more</button>`
+      : '');
+  syncCityMore();
+}
+/* A city restored from a shared link (?ci=Darien) can land INSIDE the collapsed group, which would
+   leave the filter active with nothing on screen to show for it — the results silently narrowed and
+   no visible checkbox ticked. If anything hidden is checked, the group opens itself. */
+function syncCityMore() {
+  const box = document.querySelector('#cityCol .chk-more');
+  const btn = document.querySelector('#cityCol .chk-more-btn');
+  if (!box || !btn) return;
+  if (box.querySelector('input:checked') && box.hidden) {
+    box.hidden = false;
+    btn.setAttribute('aria-expanded', 'true');
+    btn.textContent = 'Show fewer';
+  }
 }
 function buildPriceSelects() {
   const steps = state.type === 'rent' ? RENT_STEPS : SALE_STEPS;
@@ -1617,6 +1645,16 @@ function wireControls() {
   $('#typeCol').addEventListener('change', () => {
     state.types = $$('#typeCol input:checked').map(i => i.value); render();
   });
+  // "See more" — delegated on the column because buildCityChecks() replaces its innerHTML on every
+  // Buy/Rent switch, which would strip a listener bound to the button itself.
+  $('#cityCol').addEventListener('click', (e) => {
+    const b = e.target.closest('.chk-more-btn'); if (!b) return;
+    const box = b.previousElementSibling; if (!box) return;
+    const opening = box.hidden;
+    box.hidden = !opening;
+    b.setAttribute('aria-expanded', String(opening));
+    b.textContent = opening ? 'Show fewer' : `See ${box.children.length} more`;
+  });
   $('#cityCol').addEventListener('change', () => {
     state.cities = $$('#cityCol input:checked').map(i => i.value); render();
   });
@@ -1785,7 +1823,7 @@ function readURL() {
   if (p.get('bd')) { state.beds = +p.get('bd'); $$('#bedsRow .pillx').forEach(x => x.classList.toggle('is-on', x.dataset.beds === p.get('bd'))); }
   if (p.get('ba')) { state.baths = +p.get('ba'); $$('#bathsRow .pillx').forEach(x => x.classList.toggle('is-on', x.dataset.baths === p.get('ba'))); }
   if (p.get('ty')) { state.types = p.get('ty').split(','); $$('#typeCol input').forEach(i => i.checked = state.types.includes(i.value)); }
-  if (p.get('ci')) { state.cities = p.get('ci').split(','); $$('#cityCol input').forEach(i => i.checked = state.cities.includes(i.value)); }
+  if (p.get('ci')) { state.cities = p.get('ci').split(','); $$('#cityCol input').forEach(i => i.checked = state.cities.includes(i.value)); syncCityMore(); }
   if (p.get('train')) { state.maxTrainMin = +p.get('train'); $$('#trainCol .radx').forEach(x => x.classList.toggle('is-on', x.dataset.train === p.get('train'))); }
   if (p.get('sold') === '1') state.showSold = true;   // chrome is synced by syncFilterChrome on first render
   if (p.get('s')) { state.sort = p.get('s'); $$('#sortCol .radx').forEach(x => x.classList.toggle('is-on', x.dataset.sort === state.sort)); }

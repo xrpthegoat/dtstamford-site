@@ -23,6 +23,7 @@ const btn = $('#filtersBtn');
 const sheet = $('#filterSheet');
 const scrim = $('#filterScrim');
 const body = $('#fsheetBody');
+  let lockedScrollY = 0;      // where the results were when the panel opened
 const bar = document.querySelector('.fb-group-filters');
 
 if (btn && sheet && scrim && body && bar) {
@@ -102,7 +103,15 @@ if (btn && sheet && scrim && body && bar) {
     sheet.classList.add('is-open');
     open = true;
     btn.setAttribute('aria-expanded', 'true');
+    /* iOS ignores body{overflow:hidden} for TOUCH scrolling — the page keeps moving under the panel,
+       which is exactly what John hit. position:fixed is the only lock Safari honours, so pin the body
+       at its current offset and put it back on close (otherwise the page jumps to the top every time
+       the filters are dismissed). overflow:hidden stays for desktop wheel scroll. */
+    lockedScrollY = window.scrollY;
     document.body.style.overflow = 'hidden';
+    document.body.style.position = 'fixed';
+    document.body.style.top = -lockedScrollY + 'px';
+    document.body.style.width = '100%';
     syncApply();
   }
 
@@ -113,6 +122,10 @@ if (btn && sheet && scrim && body && bar) {
     open = false;
     btn.setAttribute('aria-expanded', 'false');
     document.body.style.overflow = '';
+    document.body.style.position = '';
+    document.body.style.top = '';
+    document.body.style.width = '';
+    window.scrollTo(0, lockedScrollY);      // restore exactly where he was in the results
     const done = () => { if (!open) { sheet.hidden = true; scrim.hidden = true; } };
     sheet.addEventListener('transitionend', done, { once: true });
     setTimeout(done, 500);                 // transitionend can be skipped if the tab is hidden

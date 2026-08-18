@@ -740,7 +740,7 @@ html{overflow-x:hidden;overscroll-behavior:none}
 .fb-fcount{display:inline-flex;align-items:center;justify-content:center;min-width:18px;height:18px;
   padding:0 5px;border-radius:999px;background:var(--gold);color:#161006;font-size:.68rem;font-weight:700}
 
-.fsheet-scrim{position:fixed;inset:0;z-index:180;background:rgba(0,0,0,.6);
+.fsheet-scrim{position:fixed;inset:0;z-index:180;background:rgba(0,0,0,.6);touch-action:none;
   backdrop-filter:blur(3px);-webkit-backdrop-filter:blur(3px);
   opacity:0;transition:opacity .3s var(--ease)}
 .fsheet-scrim.is-open{opacity:1}
@@ -752,7 +752,14 @@ html{overflow-x:hidden;overscroll-behavior:none}
    behind Safari's toolbar, which is what used to push the Apply button off-screen. `vh` stays first as
    the fallback for engines without dvh. The panel is capped a second way, against the viewport minus the
    top/bottom gaps, so on a short phone it shrinks rather than pushing past the edge. */
+/* THE WHOLE PANEL SCROLLS (John, 2026-08-15). Before, only .fsheet-body was a scroller and the header
+   + lens rows were flex:none outside it, so a swipe starting on "Filters" / "Sold" / "Saved" hit a
+   non-scrollable area and chained straight through to the results behind. (body{overflow:hidden} is
+   set on open, but that has never stopped touch scrolling on iOS.) Now the panel itself is the single
+   scroller, the head and foot are sticky inside it, and overscroll-behavior:contain stops any swipe
+   from reaching the page underneath — so a drag anywhere in the card moves the filters, never the list. */
 .fsheet{position:fixed;z-index:190;left:auto;right:10px;bottom:14px;display:flex;flex-direction:column;
+  overflow-y:auto;overscroll-behavior:contain;-webkit-overflow-scrolling:touch;touch-action:pan-y;
   width:min(360px,86vw);
   max-height:72vh;max-height:min(72dvh,calc(100dvh - 96px));
   border-radius:22px;
@@ -767,7 +774,8 @@ html{overflow-x:hidden;overscroll-behavior:none}
 .fsheet.is-open{transform:translateX(0)}
 /* the grab bar said "drag me down"; this panel does not come from the bottom any more */
 .fsheet-grab{display:none}
-.fsheet-head{display:flex;align-items:center;justify-content:space-between;padding:16px 18px 12px;flex:none}
+.fsheet-head{display:flex;align-items:center;justify-content:space-between;padding:16px 18px 12px;flex:none;
+  position:sticky;top:0;z-index:3;background:rgba(14,14,18,.98);border-radius:21px 21px 0 0}
 .fsheet-title{font-family:var(--disp);font-size:1.15rem;color:var(--fg)}
 .fsheet-clear{background:none;border:0;color:var(--muted);font-family:var(--mono);font-size:.7rem;
   letter-spacing:.12em;text-transform:uppercase;cursor:pointer;padding:6px 2px}
@@ -779,9 +787,8 @@ html{overflow-x:hidden;overscroll-behavior:none}
 .fsheet-lenses .fb-saved{width:100%;justify-content:flex-start;gap:10px;padding:14px 16px;
   border-radius:14px;font-size:.95rem;min-height:0}
 .fsheet-lenses .fb-saved.is-on{border-color:var(--gold-d);color:var(--gold-l);background:rgba(203,171,104,.1)}
-.fsheet-body{flex:1 1 auto;overflow-y:auto;overscroll-behavior:contain;
-  -webkit-overflow-scrolling:touch;padding:0 18px 8px}
-.fsheet-foot{flex:none;padding:12px 18px 14px;border-radius:0 0 21px 21px;
+.fsheet-body{flex:1 0 auto;overflow:visible;padding:0 18px 8px}
+.fsheet-foot{flex:none;position:sticky;bottom:0;z-index:3;padding:12px 18px 14px;border-radius:0 0 21px 21px;
   border-top:1px solid var(--line);background:rgba(10,10,13,.7)}
 .fsheet-apply{width:100%;border:0;cursor:pointer;border-radius:999px;padding:16px 20px;
   font-family:var(--sans);font-weight:700;font-size:1rem;color:#161006;
@@ -804,7 +811,7 @@ html{overflow-x:hidden;overscroll-behavior:none}
   border:0;background:none;box-shadow:none;backdrop-filter:none;-webkit-backdrop-filter:none}
 .fsheet .dp-actions{display:none}          /* the sheet has one Apply; per-panel Done is noise */
 .fsheet .dp-label{margin-top:4px}
-.fsheet .check-col{max-height:210px;overflow-y:auto;overscroll-behavior:contain}
+.fsheet .check-col{max-height:none;overflow:visible}
 
 @media(max-width:760px){
   .fb-filters-btn{display:inline-flex}
@@ -919,3 +926,10 @@ html{overflow-x:hidden;overscroll-behavior:none}
 /* No percentage clamp: at two-up card width, 50% left room for the LABEL and almost none for the
    value ("PARKING Unde…"). Chips size to content and a long one simply takes its own line. */
 .card-chip{ max-width:100%; }
+
+
+/* "See more" cities — a quiet text control, not another filter chip */
+.chk-more-btn{margin-top:6px;background:none;border:0;cursor:pointer;padding:8px 2px;
+  font-family:var(--mono);font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;color:var(--gold-l)}
+.chk-more-btn:hover{color:var(--fg)}
+.chk-more[hidden]{display:none}

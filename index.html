@@ -241,9 +241,16 @@
      step more opaque and a hair lighter, so it reads as PART of the bar, not a sticker on it. Text stays
      the page's foreground grey; the only warmth is the same faint gold hairline Events Now wears, so
      the two pills read as siblings. Hover lifts it exactly the way Events Now lifts. */
-  .btn-nav-val{background:rgba(24,24,30,.82);color:var(--fg);border-color:rgba(255,255,255,.14);font-weight:600;
-    box-shadow:inset 0 1px 0 rgba(255,255,255,.06),0 1px 2px rgba(0,0,0,.35)}
-  .btn-nav-val:hover{background:rgba(34,34,42,.9);border-color:rgba(238,214,163,.4);color:var(--fg);transform:translateY(-1px)}
+  /* Take 2. The flat grey read as dead weight next to Events Now. This is the SAME material as the
+     nav bar itself — a translucent white wash over the blur rather than an opaque grey block — so it
+     catches the photo behind it the way the bar does, with a crisp hairline and a top highlight to
+     lift it off the glass. No gold in the resting state; the hairline warms to gold on hover so the
+     two pills still read as one family. */
+  .btn-nav-val{background:linear-gradient(180deg,rgba(255,255,255,.085),rgba(255,255,255,.045));
+    color:var(--fg);border-color:rgba(255,255,255,.2);font-weight:600;
+    box-shadow:inset 0 1px 0 rgba(255,255,255,.11),0 2px 10px -4px rgba(0,0,0,.6)}
+  .btn-nav-val:hover{background:linear-gradient(180deg,rgba(255,255,255,.14),rgba(255,255,255,.075));
+    border-color:rgba(238,214,163,.5);color:#fff;transform:translateY(-1px)}
   @media(max-width:520px){
     .btn-events{padding:9px 13px;font-size:.74rem;gap:7px}
     .nav-right{gap:7px}
@@ -352,7 +359,12 @@
      the crop on the theatre + street. iPad/desktop (>760px) unchanged. */
   @media(max-width:760px){
     .hero{min-height:84vh}
-    .hero-media .img{top:0;left:0;width:100%;height:100%;object-position:center 45%;transform:none!important}
+    /* The photo was shot LANDSCAPE and this frame is portrait, so `cover` has to crop the sides hard.
+       Painting it into a box 10% shorter than the hero means `cover` scales it down 10% too, which
+       gives back ~120px of the street either side. John asked for exactly this and accepted the lift
+       at the bottom — the hero's own gradient (::after, inset:0) fades to near-black down there, so
+       the uncovered strip reads as the existing vignette rather than a gap. */
+    .hero-media .img{top:0;left:0;width:100%;height:90%;object-position:center 45%;transform:none!important}
     .hero-media .hfill{display:none}
   }
 

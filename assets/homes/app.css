@@ -745,28 +745,34 @@ html{overflow-x:hidden;overscroll-behavior:none}
   opacity:0;transition:opacity .3s var(--ease)}
 .fsheet-scrim.is-open{opacity:1}
 
-.fsheet{position:fixed;z-index:190;left:0;right:0;bottom:0;display:flex;flex-direction:column;
-  /* 86vh was the bug AND too tall. On iOS `vh` measures the LARGE viewport — the one behind Safari's
-     toolbar — so 86vh reached past the visible area and clipped the bottom of the sheet, which is
-     where the Apply button lives. dvh tracks the *visible* viewport, so nothing is ever cut off; vh
-     stays first as the fallback for anything that lacks dvh. 72% (John) also leaves a real band of
-     results showing above it, so the sheet reads as a popup over the list rather than a new screen. */
-  max-height:72vh;max-height:72dvh;border-radius:26px 26px 0 0;
-  border:1px solid var(--line);border-bottom:0;background:rgba(14,14,18,.98);
+/* A card that slides in from the RIGHT, floating clear of three edges (John, 2026-08-15) — not the
+   full-width bottom sheet it was. Docking it right and inset leaves the list visible on the left, above
+   AND below, so the results read as still being there rather than replaced by a new screen.
+   Height still tops out at 72% of the VISIBLE viewport: `dvh`, because iOS `vh` measures the viewport
+   behind Safari's toolbar, which is what used to push the Apply button off-screen. `vh` stays first as
+   the fallback for engines without dvh. The panel is capped a second way, against the viewport minus the
+   top/bottom gaps, so on a short phone it shrinks rather than pushing past the edge. */
+.fsheet{position:fixed;z-index:190;left:auto;right:10px;bottom:14px;display:flex;flex-direction:column;
+  width:min(360px,86vw);
+  max-height:72vh;max-height:min(72dvh,calc(100dvh - 96px));
+  border-radius:22px;
+  border:1px solid var(--line);background:rgba(14,14,18,.98);
   backdrop-filter:saturate(160%) blur(24px);-webkit-backdrop-filter:saturate(160%) blur(24px);
-  box-shadow:0 -30px 70px -30px rgba(0,0,0,.95),inset 0 1px 0 rgba(255,255,255,.06);
-  transform:translateY(102%);
+  box-shadow:-26px 0 70px -30px rgba(0,0,0,.95),0 20px 50px -24px rgba(0,0,0,.85),inset 0 1px 0 rgba(255,255,255,.06);
+  /* slides along X now; the extra 18px clears its own right-hand gap so it starts fully off-screen */
+  transform:translateX(calc(100% + 18px));
   /* Spring-ish easing: overshoots slightly then settles — the reason a native sheet feels alive
      where a linear slide feels like a div moving. */
   transition:transform .42s cubic-bezier(.16,1.02,.3,1)}
-.fsheet.is-open{transform:translateY(0)}
-.fsheet-grab{width:38px;height:4px;border-radius:99px;background:rgba(255,255,255,.22);margin:10px auto 4px;flex:none}
-.fsheet-head{display:flex;align-items:center;justify-content:space-between;padding:6px 20px 12px;flex:none}
+.fsheet.is-open{transform:translateX(0)}
+/* the grab bar said "drag me down"; this panel does not come from the bottom any more */
+.fsheet-grab{display:none}
+.fsheet-head{display:flex;align-items:center;justify-content:space-between;padding:16px 18px 12px;flex:none}
 .fsheet-title{font-family:var(--disp);font-size:1.15rem;color:var(--fg)}
 .fsheet-clear{background:none;border:0;color:var(--muted);font-family:var(--mono);font-size:.7rem;
   letter-spacing:.12em;text-transform:uppercase;cursor:pointer;padding:6px 2px}
 .fsheet-clear:hover{color:var(--fg)}
-.fsheet-lenses{flex:none;padding:0 20px 4px;display:flex;flex-direction:column;gap:8px}
+.fsheet-lenses{flex:none;padding:0 18px 4px;display:flex;flex-direction:column;gap:8px}
 .fsheet-lenses:empty{display:none}
 /* Sold/Saved are lenses, not filters — full-width rows above the filter list, visually separated
    so nobody reads "Sold" as another price-style narrowing control. */
@@ -774,8 +780,8 @@ html{overflow-x:hidden;overscroll-behavior:none}
   border-radius:14px;font-size:.95rem;min-height:0}
 .fsheet-lenses .fb-saved.is-on{border-color:var(--gold-d);color:var(--gold-l);background:rgba(203,171,104,.1)}
 .fsheet-body{flex:1 1 auto;overflow-y:auto;overscroll-behavior:contain;
-  -webkit-overflow-scrolling:touch;padding:0 20px 8px}
-.fsheet-foot{flex:none;padding:12px 20px calc(16px + env(safe-area-inset-bottom));
+  -webkit-overflow-scrolling:touch;padding:0 18px 8px}
+.fsheet-foot{flex:none;padding:12px 18px 14px;border-radius:0 0 21px 21px;
   border-top:1px solid var(--line);background:rgba(10,10,13,.7)}
 .fsheet-apply{width:100%;border:0;cursor:pointer;border-radius:999px;padding:16px 20px;
   font-family:var(--sans);font-weight:700;font-size:1rem;color:#161006;

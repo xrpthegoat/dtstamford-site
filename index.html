@@ -285,8 +285,8 @@
   /* HERO */
   .hero{position:relative;min-height:100dvh;display:flex;align-items:flex-end;overflow:hidden}
   .hero-media{position:absolute;inset:0;z-index:0}
-  .hero-media .hfill{position:absolute;inset:0;z-index:0;background:#0d0b12 url("assets/stamford-ct-downtown-veterans-park-dusk-800w.webp") center 20%/cover;transform:scale(1.2);filter:blur(32px) brightness(.6) saturate(1.05)}
-  .hero-media .img{position:absolute;top:-5%;left:0;width:100%;height:110%;object-fit:cover;object-position:center 20%;background:transparent;will-change:transform}
+  .hero-media .hfill{position:absolute;inset:0;z-index:0;background:#0d0b12 url("assets/stamford-ct-downtown-avon-theatre-sunset-ext.webp") center 32%/cover;transform:scale(1.2);filter:blur(32px) brightness(.6) saturate(1.05)}
+  .hero-media .img{position:absolute;top:-5%;left:0;width:100%;height:110%;object-fit:cover;object-position:center 32%;background:transparent;will-change:transform}
   .hero-media::after{content:"";position:absolute;inset:0;background:
     linear-gradient(180deg,rgba(6,6,8,.55),rgba(6,6,8,.04) 30%,rgba(6,6,8,.72) 78%,var(--bg) 99%)}
   .hero-media::before{content:"";position:absolute;inset:0;z-index:1;background:radial-gradient(120% 80% at 80% 0%,transparent 40%,rgba(6,6,8,.4))}
@@ -570,14 +570,12 @@
   <!-- HERO -->
   <section class="hero">
     <div class="hero-media" data-parallax><div class="hfill" aria-hidden="true"></div><picture>
-      <!-- John's own shot (2026-08-18): downtown at dusk — Veterans Park + the Government Center on Main St, the skyline catching the last light.
-           MOBILE (<=760px): 3:4 portrait crop centred on the tower. First matching source wins, so these MUST precede the desktop sources. -->
-      <source type="image/avif" media="(max-width:760px)" srcset="assets/stamford-ct-downtown-veterans-park-dusk-portrait.avif" width="1125" height="1500">
-      <source type="image/webp" media="(max-width:760px)" srcset="assets/stamford-ct-downtown-veterans-park-dusk-portrait.webp" width="1125" height="1500">
-      <source media="(max-width:760px)" srcset="assets/stamford-ct-downtown-veterans-park-dusk-portrait.jpg" width="1125" height="1500">
-      <!-- DESKTOP/TABLET (>760px): full 4:3 frame, CSS cover + object-position picks the crop -->
-      <source type="image/avif" srcset="assets/stamford-ct-downtown-veterans-park-dusk.avif"><source type="image/webp" srcset="assets/stamford-ct-downtown-veterans-park-dusk.webp">
-      <img class="img" src="assets/stamford-ct-downtown-veterans-park-dusk.jpg" alt="Downtown Stamford, CT at dusk — Veterans Park and the Government Center on Main Street, the skyline catching the last light — Stamford real estate agent John Restrepo" title="Stamford real estate agent — Downtown Stamford, CT at dusk" width="2000" height="1500" fetchpriority="high">
+      <!-- MOBILE (<=760px): vertical crop of the same Avon Theatre sunset scene. First matching source wins, so these MUST precede the desktop webp source. -->
+      <source type="image/webp" media="(max-width:760px)" srcset="assets/stamford-ct-downtown-avon-theatre-sunset-vertical.webp" width="1800" height="2299">
+      <source media="(max-width:760px)" srcset="assets/stamford-ct-downtown-avon-theatre-sunset-vertical.webp" width="1800" height="2299">
+      <!-- DESKTOP/TABLET (>760px): existing wide hero -->
+      <source type="image/avif" srcset="assets/stamford-ct-downtown-avon-theatre-sunset-ext.avif"><source type="image/webp" srcset="assets/stamford-ct-downtown-avon-theatre-sunset-ext.webp">
+      <img class="img" src="assets/stamford-ct-downtown-avon-theatre-sunset-ext.webp" alt="Downtown Stamford, CT at sunset by the historic Avon Theatre — Stamford real estate agent John Restrepo" title="Stamford real estate agent — Downtown Stamford, CT" width="1800" height="2291" fetchpriority="high">
     </picture></div>
     <div class="wrap">
       <span class="eyebrow rv"><span class="dot"></span> Stamford · Connecticut</span>

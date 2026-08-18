@@ -391,7 +391,7 @@
   .meet p{color:var(--fg-soft);margin-bottom:18px;font-size:1.06rem;max-width:52ch}
   .meet p strong{color:#fff;font-weight:600}
   .meet .sign{font-family:var(--disp);font-size:1.18rem;color:var(--gold-l);margin-top:12px}
-  @media(max-width:860px){.meet .row{grid-template-columns:1fr;gap:40px}.portrait{max-width:420px}}
+  @media(max-width:860px){.meet .row{grid-template-columns:1fr;gap:40px}.portrait{max-width:420px}.portrait:has(.cut){aspect-ratio:auto;max-width:460px}.portrait .cut{position:relative}.portrait .cut .img{position:static;inset:auto;width:100%;height:auto;object-fit:contain;display:block;filter:drop-shadow(0 30px 50px rgba(0,0,0,.55))}.portrait .cut .pin{position:static;display:block;margin-top:14px;padding-left:2px;color:var(--fg-soft)}}
 
   /* SERVICES — bezel bento */
   .svc{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
@@ -875,13 +875,13 @@
   <section class="block meet" id="about">
     <div class="wrap row">
       <div class="portrait rv" data-parallax-child>
-        <div class="bezel"><div class="core">
+        <div class="cut">
           <picture>
-            <source type="image/avif" srcset="assets/john-restrepo-stamford-ct-realtor.avif"><source type="image/webp" srcset="assets/john-restrepo-stamford-ct-realtor.webp">
-            <img class="img" src="assets/john-restrepo-stamford-ct-realtor.webp" alt="John Restrepo — Stamford CT real estate agent" title="John Restrepo — Stamford real estate agent" width="1100" height="1375" loading="lazy">
+            <source type="image/webp" srcset="assets/john-restrepo-stamford-portrait-cut.webp">
+            <img class="img" src="assets/john-restrepo-stamford-portrait-cut.png" alt="John Restrepo — Stamford CT real estate agent" title="John Restrepo — Stamford real estate agent" width="1100" height="1100" loading="lazy">
           </picture>
           <span class="pin">John Restrepo · Jarah Tuttle LLC</span>
-        </div></div>
+        </div>
       </div>
       <div>
         <span class="tag rv"><span class="i">/ 04</span>Meet your real estate agent</span>

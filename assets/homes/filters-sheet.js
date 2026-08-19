@@ -30,15 +30,21 @@ const body = $('#fsheetBody');
      remembered, so a returning visitor is never nagged. Anyone who arrives with filters already in the
      URL clearly knows about them, so they never see it either. localStorage can throw in private mode,
      hence the guards — a storage failure must not cost the flash OR break the page. */
+  /* "Seen" EXPIRES (John, 2026-08-19: "the filters button isn't flashing anymore" — it had remembered
+     his own first tap forever). A first-time visitor gets the flash; someone who tapped it and comes back
+     within a week does not (that would be nagging); after a week they get one more nudge, because a
+     returning visitor a month later is a fresh visit. ?flash=1 forces it regardless, for checking. */
   const FLASH_SEEN = 'dts_filters_seen';
+  const FLASH_TTL_MS = 7 * 24 * 3600 * 1000;
   function stopFlash(remember) {
     btn.classList.remove('is-flashing');
-    if (remember) { try { localStorage.setItem(FLASH_SEEN, '1'); } catch (_) {} }
+    if (remember) { try { localStorage.setItem(FLASH_SEEN, String(Date.now())); } catch (_) {} }
   }
   function maybeFlash() {
-    let seen = false;
-    try { seen = localStorage.getItem(FLASH_SEEN) === '1'; } catch (_) {}
-    if (seen) return;
+    if (/[?&]flash=1\b/.test(location.search)) { btn.classList.add('is-flashing'); return; }
+    let seenAt = 0;
+    try { const v = localStorage.getItem(FLASH_SEEN); seenAt = v === '1' ? Date.now() : (parseInt(v, 10) || 0); } catch (_) {}
+    if (seenAt && Date.now() - seenAt < FLASH_TTL_MS) return;
     if (/[?&](ci|bd|ba|pmin|pmax|ht)=/.test(location.search)) return;   // already filtering — no hint needed
     btn.classList.add('is-flashing');
   }
@@ -63,6 +69,12 @@ if (btn && sheet && scrim && body && bar) {
     lensesTail = document.createElement('div');
     lensesTail.className = 'fsheet-lenses fsheet-lenses-tail';
     lensesTail.id = 'fsheetLensesTail';
+    // its caption travels WITH the button (John): the sold sentence used to sit at the top, three
+    // scrolls away from the thing it described
+    const cap = document.createElement('div');
+    cap.className = 'fsheet-tail-cap';
+    cap.textContent = 'Add homes that already closed to the results — what\u2019s live stays, side by side.';
+    lensesTail.appendChild(cap);
     body.appendChild(lensesTail);
     return lensesTail;
   }

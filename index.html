@@ -216,7 +216,7 @@
   /* floating glass island nav */
   header{position:fixed;top:0;left:0;right:0;z-index:80;display:flex;justify-content:center;padding:18px 16px;pointer-events:none;transition:padding .5s var(--spring)}
   header.solid{padding-top:12px}
-  .nav{pointer-events:auto;display:flex;align-items:center;justify-content:space-between;gap:20px;width:100%;max-width:1120px;height:62px;padding:0 12px 0 22px;
+  .nav{pointer-events:auto;display:flex;align-items:center;justify-content:space-between;gap:20px;width:100%;max-width:1300px;height:62px;padding:0 12px 0 22px;
     border-radius:999px;border:1px solid var(--line);background:rgba(11,11,14,.55);backdrop-filter:saturate(170%) blur(20px);-webkit-backdrop-filter:saturate(170%) blur(20px);
     box-shadow:0 10px 44px -22px rgba(0,0,0,.9),inset 0 1px 0 rgba(255,255,255,.06);transition:background .5s,box-shadow .5s,transform .5s var(--spring)}
   header.solid .nav{background:rgba(9,9,12,.72);box-shadow:0 14px 50px -22px rgba(0,0,0,1),inset 0 1px 0 rgba(255,255,255,.07)}
@@ -263,7 +263,11 @@
   .btn-events .livedot{position:relative;width:8px;height:8px;border-radius:50%;background:var(--gold-l);flex:0 0 auto;box-shadow:0 0 8px 1px rgba(238,214,163,.75)}
   .btn-events .livedot::after{content:"";position:absolute;inset:-4px;border-radius:50%;border:1px solid var(--gold-l);animation:elive 1.9s var(--spring) infinite}
   @keyframes elive{0%{transform:scale(.5);opacity:.9}100%{transform:scale(1.9);opacity:0}}
-  @media(max-width:1080px){.nav-links{display:none}}
+  /* 1280, not 1080 (John, 2026-08-19). The homepage nav's contents measure 1241px, so at 1081-1280 the
+     links overlapped the wordmark and "Market Trends" wrapped — and because .nav was ALSO capped at
+     1120px it never had room even on a 1920px monitor. Cap raised below; breakpoint raised here so the
+     hamburger covers every width that cannot fit the links. .navtoggle moves with it. */
+  @media(max-width:1280px){.nav-links{display:none}}
   @media(max-width:600px){.brand .wordmark{display:none}}
 
   /* hamburger */
@@ -273,7 +277,7 @@
   .navtoggle[aria-expanded="true"] span:nth-child(1){top:22px;transform:rotate(45deg)}
   .navtoggle[aria-expanded="true"] span:nth-child(2){opacity:0}
   .navtoggle[aria-expanded="true"] span:nth-child(3){top:22px;transform:rotate(-45deg)}
-  @media(max-width:1080px){.navtoggle{display:block}}
+  @media(max-width:1280px){.navtoggle{display:block}}
 
   /* mobile drawer menu + swipe-to-close */
   .mmenu{position:fixed;inset:0;z-index:90;visibility:hidden;transition:visibility .55s}

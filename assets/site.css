@@ -86,7 +86,11 @@ header .nav{max-width:1120px;width:100%;margin:0 auto;padding:0 12px 0 22px;heig
 .btn-call{display:inline-flex;align-items:center;gap:9px;padding:11px 20px;font-family:var(--sans);font-size:.8rem;font-weight:600;letter-spacing:0;text-transform:none;white-space:nowrap;
   background:linear-gradient(180deg,var(--gold-l),var(--gold));color:#161006;border-radius:999px;box-shadow:0 1px 0 rgba(255,255,255,.4) inset,0 16px 38px -22px rgba(203,171,104,.85);transition:box-shadow .4s,transform .4s var(--ease)}
 .btn-call:hover{box-shadow:0 1px 0 rgba(255,255,255,.5) inset,0 22px 52px -20px rgba(203,171,104,.95)}
-@media(max-width:1000px){.nav-links{display:none}.brand .wordmark{display:none}}
+/* 1160, not 1000 (John, 2026-08-19: nav collides at in-between widths). The desktop nav's contents
+   measure 1103.8px border-box, so it needs vw >= 1136px; below that the links overlapped the wordmark
+   and "MARKET TRENDS" wrapped to two lines. 1160 leaves headroom. The sibling rules for .navtoggle /
+   .btn-call move with it — they are one breakpoint, and splitting them shows both navs at once. */
+@media(max-width:1160px){.nav-links{display:none}.brand .wordmark{display:none}}
 
 /* page hero */
 .phero{padding:clamp(96px,13vw,150px) 0 clamp(44px,6vw,74px);border-bottom:1px solid var(--line-2);position:relative;overflow:hidden}
@@ -218,7 +222,7 @@ footer .col .social a:hover,.social a:hover{border-color:var(--gold);color:var(-
 .navtoggle[aria-expanded="true"] span:nth-child(1){top:22px;transform:rotate(45deg)}
 .navtoggle[aria-expanded="true"] span:nth-child(2){opacity:0}
 .navtoggle[aria-expanded="true"] span:nth-child(3){top:22px;transform:rotate(-45deg)}
-@media(max-width:1000px){.navtoggle{display:block}.nav .btn-call{display:none}}
+@media(max-width:1160px){.navtoggle{display:block}.nav .btn-call{display:none}}
 /* mobile drawer menu — right-side, swipe-to-close, animated */
 .mmenu{position:fixed;inset:0;z-index:130;visibility:hidden;transition:visibility .55s}
 .mmenu.open{visibility:visible}
@@ -254,7 +258,10 @@ footer .col .social a:hover,.social a:hover{border-color:var(--gold);color:var(-
 .mmenu-social{display:flex;gap:9px}
 .mmenu-social a{width:40px;height:40px;border:1px solid var(--line);border-radius:999px;display:grid;place-items:center;color:#cfd0d6;transition:border-color .3s,color .3s,transform .4s var(--ease)}
 .mmenu-social a:hover{border-color:var(--gold);color:var(--gold-l);transform:translateY(-3px)}
-@media(min-width:1001px){.mmenu{display:none}}
+/* MUST track the hamburger breakpoint above: this hides the drawer on desktop, and if it stayed at
+   1001 while the hamburger showed to 1160, the button would be visible but the menu unopenable in the
+   1001-1160 band — the exact "stuck menu" class of bug fixed this morning. */
+@media(min-width:1161px){.mmenu{display:none}}
 
 /* neighborhood hero (generated map-motif) */
 .nhero{position:relative;overflow:hidden;padding:clamp(112px,15vw,180px) 0 clamp(48px,7vw,78px);border-bottom:1px solid var(--line-2)}

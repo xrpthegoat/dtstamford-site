@@ -73,7 +73,7 @@ if (btn && sheet && scrim && body && bar) {
     // scrolls away from the thing it described
     const cap = document.createElement('div');
     cap.className = 'fsheet-tail-cap';
-    cap.textContent = 'Add homes that already closed to the results — what\u2019s live stays, side by side.';
+    cap.textContent = 'Show closed sales alongside what\u2019s live.';
     lensesTail.appendChild(cap);
     body.appendChild(lensesTail);
     return lensesTail;

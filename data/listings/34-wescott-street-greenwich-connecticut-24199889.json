@@ -76,6 +76,7 @@
   "pets": "Restrictions",
   "petsInfo": "Call Agent",
   "schoolElementary": "North Mianus",
+  "schoolMiddle": "Eastern",
   "schoolHigh": "Greenwich",
   "appliances": "Oven/Range,Microwave,Range Hood,Refrigerator,Freezer,Dishwasher,Washer,Gas Dryer,Wine Chiller",
   "basement": "Full,Fully Finished",
@@ -90,7 +91,8 @@
   "zoning": "per town",
   "lotDescription": "Lightly Wooded,Treed,Dry,Professionally Landscaped",
   "waterfront": "Not Applicable",
-  "directWaterfront": "0"
+  "directWaterfront": "0",
+  "energy": "Extra Insulation,Programmable Thermostat,Thermopane Windows"
  },
  "indexable": true,
  "meta": {
@@ -100,9 +102,9 @@
  "nearby": {
   "schools": {
    "elementary": "North Mianus",
-   "middle": null,
+   "middle": "Eastern",
    "high": "Greenwich",
-   "lookup": "https://www.greenwichschools.org/"
+   "lookup": null
   },
   "grocery": [
    {

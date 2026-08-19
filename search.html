@@ -381,7 +381,20 @@
 <script type="module" src="assets/homes/filters-sheet.js?v=1787115673"></script>
 <script>
 /* mobile menu (matches site.js pattern) */
-(function(){var t=document.getElementById('navToggle'),m=document.getElementById('mobileMenu');if(t&&m){t.addEventListener('click',function(){var o=m.classList.toggle('open');t.setAttribute('aria-expanded',o);m.setAttribute('aria-hidden',!o);});}})();
+/* Mobile menu (fixed 2026-08-19). The old one-liner wired ONLY the hamburger toggle — the X, the
+   scrim, Escape and tapping a link were never connected — and the hamburger sits BEHIND the open
+   panel, so once open there was no way out (John: "you're basically stuck"). This mirrors the
+   homepage's setMenu() exactly, so every page closes the same four ways. */
+(function(){var t=document.getElementById('navToggle'),m=document.getElementById('mobileMenu');if(!t||!m)return;
+var p=document.getElementById('mmPanel'),s=document.getElementById('mmScrim'),c=document.getElementById('mmClose');
+function setMenu(open){t.setAttribute('aria-expanded',open);m.setAttribute('aria-hidden',!open);m.classList.toggle('open',open);
+t.setAttribute('aria-label',open?'Close menu':'Open menu');document.body.style.overflow=open?'hidden':'';if(!open&&p){p.style.transform='';}}
+t.addEventListener('click',function(){setMenu(!m.classList.contains('open'));});
+if(c)c.addEventListener('click',function(){setMenu(false);});
+if(s)s.addEventListener('click',function(){setMenu(false);});
+m.querySelectorAll('.mmenu-links a').forEach(function(a){a.addEventListener('click',function(){setMenu(false);});});
+addEventListener('keydown',function(e){if(e.key==='Escape'&&m.classList.contains('open'))setMenu(false);});
+addEventListener('resize',function(){if(innerWidth>1080&&m.classList.contains('open'))setMenu(false);});})();
 </script>
 <!-- The neighborhood deep-link shim that used to live here (a DOM-driven ?n= / ?type= patch
      that typed the neighborhood NAME into the #q box) was removed 2026-08-09. Filtering by

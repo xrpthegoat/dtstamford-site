@@ -183,9 +183,14 @@ footer{background:#050507;border-top:1px solid var(--line);padding:64px 0 32px;c
 footer h2,footer h4{color:#fff;font-family:var(--mono);font-size:.66rem;letter-spacing:.16em;text-transform:uppercase;margin-bottom:16px;font-weight:700;line-height:1.06}
 footer .col a,footer .col p{display:block;font-size:.92rem;margin-bottom:10px}
 footer .col a:hover{color:#fff}
-.social{display:flex;gap:10px;margin-top:18px}
-.social a{width:42px;height:42px;border:1px solid var(--line);border-radius:999px;display:grid;place-items:center;font-family:var(--mono);font-size:.66rem;color:#cfd0d6;transition:transform .5s var(--ease),border-color .3s,color .3s}
-.social a:hover{border-color:var(--gold);color:var(--gold-l);transform:translateY(-3px)}
+.social{display:flex;gap:9px;margin-top:18px}
+/* `footer .col a` (0,1,2) outranks `.social a` (0,1,1) no matter the order, so its display:block killed
+   the grid centring and every icon sat in the TOP-LEFT of its circle — the "disproportionate" footer
+   icons (John, 2026-08-19). Selector now carries the same weight. Sized and animated exactly like the
+   hamburger's .mmenu-social, which John likes: 40px circle, lift on hover. */
+footer .col .social a,.social a{width:40px;height:40px;margin:0;border:1px solid var(--line);border-radius:999px;display:grid;place-items:center;color:#cfd0d6;transition:border-color .3s,color .3s,transform .4s var(--ease)}
+footer .col .social a:hover,.social a:hover{border-color:var(--gold);color:var(--gold-l);transform:translateY(-3px)}
+.social a svg{display:block}
 .fbot{border-top:1px solid var(--line);padding-top:24px;font-family:var(--mono);font-size:.75rem;color:var(--muted);display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px}
 @media(max-width:760px){.fgrid{grid-template-columns:1fr;gap:28px}}
 

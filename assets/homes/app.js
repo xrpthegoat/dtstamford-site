@@ -947,7 +947,13 @@ function cardHTML(l) {
   return `<article class="card${isSold(l) ? ' is-sold' : ''}" data-mls="${l.mls}">
     <div class="card-media">
       <img src="${esc(photos[idx])}" alt="${esc(addrFull(l))}" loading="lazy" decoding="async" onerror="this.src='assets/stamford-ct-single-family-home-exterior.jpg'">
-      <div class="card-badges">${b ? `<span class="badge ${b.cls}">${b.txt}</span>` : ''}${(() => {
+      <div class="card-badges">${(l.listingType === 'rent' && l.availability)
+        /* AT THE TOP (John, 2026-08-19: "date available at the top so people are aware") — a badge on
+           the photo rather than a line under the address, because for a renter "can I move in?" ranks
+           with the price. Rentals only: the index carries it only for 'rent', and this re-checks the
+           type so a feed change cannot leak it onto a for-sale card. Value is pre-normalised. */
+        ? `<span class="badge badge-avail${/^now$/i.test(l.availability) ? ' is-now' : ''}">${esc(String(l.availability).trim() === 'Now' ? 'Available now' : 'Avail. ' + l.availability)}</span>`
+        : ''}${b ? `<span class="badge ${b.cls}">${b.txt}</span>` : ''}${(() => {
         const d = domOf(l); if (d == null) return '';
         return `<span class="badge badge-dom" title="${isSold(l) ? `Sold after ${d} days on market` : `${d} days on market`}">${isSold(l) ? `Sold ${d}d` : (d === 0 ? 'New today' : `${d}d`)}</span>`;
       })()}</div>
@@ -993,11 +999,6 @@ function cardMeta(l) {
   // The day-count now rides as a badge on the photo (top-left), so repeating it here just made the
   // card say the same thing twice.
   if (isSold(l) && domOf(l) == null) bits.push('Sold');
-  // RENTALS ONLY (John, 2026-08-19: "be really careful this is for rentals only"). The MLS field is
-  // free text an agent typed — "Immediate", "ASAP", "June 1, 2026", "Negotiable" — so it is printed
-  // verbatim, never parsed as a date, and the index only carries it for listingType === 'rent'.
-  // Guarding on the type here TOO, so a future index change can't leak it onto a for-sale card.
-  if (l.listingType === 'rent' && l.availability) bits.push(`Available ${String(l.availability).trim()}`);
   if (l.yearBuilt) bits.push(`Built ${l.yearBuilt}`);
   bits.push('~50 min to NYC');
   return bits.map(b => `<span>${esc(b)}</span>`).join('<i class="dot">·</i>');

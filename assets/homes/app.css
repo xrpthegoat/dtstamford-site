@@ -975,3 +975,10 @@ html{overflow-x:hidden;overscroll-behavior:none}
 .fsheet-lenses-tail:empty{display:none}
 
 .fsheet-tail-cap{font-size:.78rem;line-height:1.5;color:var(--muted);margin-bottom:9px}
+
+/* "Available now" / "Avail. Sep 1, 2026" — rentals only, on the photo beside the New/days badges
+   (John, 2026-08-19: "date available at the top so people are aware"). Green when it is ready NOW,
+   neutral for a future date: "can I move in today" is the question a renter is actually scanning for. */
+.badge-avail{ white-space:nowrap; flex:0 0 auto; background:rgba(9,12,18,.78); color:#cfe0f5;
+  border:1px solid rgba(255,255,255,.22); backdrop-filter:blur(6px); }
+.badge-avail.is-now{ color:#0f1a12; background:linear-gradient(180deg,#7ee6a4,#4cc47c); border-color:transparent; }

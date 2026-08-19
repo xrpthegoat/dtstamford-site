@@ -314,3 +314,10 @@ footer .col .social a:hover,.social a:hover{border-color:var(--gold);color:var(-
 
 /* fcol-services: widen footer grid when the Services column is present (batch add-chrome) */
 @media(min-width:761px){footer .fgrid:has(.fcol-services){grid-template-columns:1.6fr 1fr 1fr 1fr}}
+
+/* Legal row, the last line of every footer (John, 2026-08-19): Privacy · Terms · Accessibility on the
+   left, the MLS + Fair Housing attribution on the right. Quieter than the row above it — it is the
+   fine print, not the sign-off. */
+.flegal{border-top:0;padding-top:0;margin-top:10px;font-size:.7rem;color:var(--faint)}
+.flegal a{color:var(--muted);text-decoration:none;transition:color .25s}
+.flegal a:hover{color:var(--gold-l)}

@@ -954,3 +954,15 @@ html{overflow-x:hidden;overscroll-behavior:none}
 /* once he HAS filters on, .has-val's own pulse owns the button — never run both at once */
 .fb-filters-btn.has-val.is-flashing{ animation:fltPulse 2.2s ease-in-out infinite }
 @media(prefers-reduced-motion:reduce){ .fb-filters-btn.is-flashing{ animation:none } }
+
+
+/* ── filter sheet: the voice line above the lenses (John, 2026-08-19) ─────────────────────────────
+   Display-face headline in the site's gold accent, one calm sentence under it. Kept short on purpose:
+   it is a caption for the two buttons beneath, not a paragraph the eye has to get past. */
+.fsheet-voice{padding:2px 18px 12px}
+/* same face and gold-highlight grammar as the page's own "Describe your dream home." (.rh-title /
+   .rh-hl) — the brand is Plus Jakarta Sans throughout, there is no serif on this site */
+.fsheet-voice-h{font-family:var(--disp,var(--sans));font-size:1.22rem;font-weight:700;line-height:1.15;letter-spacing:-.02em;color:var(--fg)}
+.fsheet-voice-h em{font-style:normal;color:var(--gold-l)}
+.fsheet-voice-s{margin-top:6px;font-size:.78rem;line-height:1.5;color:var(--muted)}
+.fsheet-voice-s b{color:var(--fg);font-weight:600}

@@ -806,9 +806,9 @@
   <section class="liveinv" id="liveInv" aria-label="Stamford homes for sale and rent right now">
     <div class="wrap">
       <div class="li-counts">
-        <a class="li-stat" href="search.html?type=sale"><span class="li-n" id="liSale">1,089</span><span class="li-l">homes for sale</span></a>
+        <a class="li-stat" href="search.html?type=sale"><span class="li-n" id="liSale">1,087</span><span class="li-l">homes for sale</span></a>
         <span class="li-div" aria-hidden="true"></span>
-        <a class="li-stat" href="search.html?t=rent"><span class="li-n" id="liRent">617</span><span class="li-l">for rent</span></a>
+        <a class="li-stat" href="search.html?t=rent"><span class="li-n" id="liRent">619</span><span class="li-l">for rent</span></a>
         <span class="li-div" aria-hidden="true"></span>
         <a class="li-stat" href="search.html"><span class="li-n" id="liTotal">1,706</span><span class="li-l">in Stamford &amp; nearby</span></a>
       </div>
@@ -818,14 +818,14 @@
           <span class="li-band-lbl">For sale</span>
           <a class="li-chip" href="search.html?pmax=300000"><b id="lbSale300">84</b> under $300K</a>
           <a class="li-chip" href="search.html?pmax=600000"><b id="lbSale600">273</b> under $600K</a>
-          <a class="li-chip" href="search.html?pmax=1000000"><b id="lbSale1m">547</b> under $1M</a>
-          <span class="li-med" id="lbMedSale">Stamford median asking $694K</span>
+          <a class="li-chip" href="search.html?pmax=1000000"><b id="lbSale1m">546</b> under $1M</a>
+          <span class="li-med" id="lbMedSale">Stamford median asking $692K</span>
         </div>
         <div class="li-band-row">
           <span class="li-band-lbl">For rent</span>
           <a class="li-chip" href="search.html?t=rent&amp;pmax=1800"><b id="lbRent18">32</b> under $1,800</a>
           <a class="li-chip" href="search.html?t=rent&amp;pmax=2200"><b id="lbRent22">93</b> under $2,200</a>
-          <a class="li-chip" href="search.html?t=rent&amp;pmax=3000"><b id="lbRent30">235</b> under $3,000</a>
+          <a class="li-chip" href="search.html?t=rent&amp;pmax=3000"><b id="lbRent30">236</b> under $3,000</a>
           <span class="li-med" id="lbMedRent">Stamford median $3,000/mo</span>
         </div>
       </div>
@@ -843,6 +843,7 @@
       if(!s) return;
       var set=function(id,v){ var e=document.getElementById(id); if(e) e.textContent=Number(v||0).toLocaleString('en-US'); };
       set('liSale',s.forSale); set('liRent',s.forRent); set('liTotal',s.total);
+      set('stSold',s.soldComps);          // the /03 stat card — keeps itself honest every refresh
       document.getElementById('liveInv').hidden=false;
       // price bands + medians (recomputed server-side every refresh)
       var setT=function(id,v){var e=document.getElementById(id); if(e) e.textContent=Number(v||0).toLocaleString('en-US');};
@@ -934,7 +935,13 @@
     <div class="wrap grid">
       <div class="bezel stat-w rv"><div class="core stat"><div class="k">/ 01 — Experience</div><div class="n"><span class="cv">Since 2020</span></div><div class="l">Licensed CT real estate agent · 25+ years combined across the team</div></div></div>
       <div class="bezel stat-w rv d1"><div class="core stat"><div class="k">/ 02 — Rating</div><div class="n"><span class="cv">5.0</span><span class="u">★</span></div><div class="l">Star rating across 92 Google reviews</div></div></div>
-      <div class="bezel stat-w rv d2"><div class="core stat"><div class="k">/ 03 — Live Data</div><div class="n"><span class="cv">3</span><span class="u">h</span></div><div class="l">Live MLS feed — listings on this site refresh every 3 hours</div></div></div>
+      <!-- Was "3h — listings refresh every 3 hours" (John, 2026-08-19: as far as a visitor is concerned
+           the site is just live; refresh cadence is plumbing, not a selling point). Replaced with the
+           thing no other agent site around here offers: every CLOSED sale, searchable, so you can see
+           what homes actually sold for instead of only what sellers are asking.
+           The number is fed from data/stats.json (s.soldComps) by the same set() helper the live
+           inventory uses, so it can never go stale; the markup value is only the pre-fetch fallback. -->
+      <div class="bezel stat-w rv d2"><div class="core stat"><div class="k">/ 03 — Track Record</div><div class="n"><span class="cv" id="stSold">11,565</span></div><div class="l">Closed sales you can search — see what homes actually sold for, not just asking prices</div></div></div>
     </div>
   </section>
 

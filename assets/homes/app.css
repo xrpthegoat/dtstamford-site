@@ -966,3 +966,10 @@ html{overflow-x:hidden;overscroll-behavior:none}
 .fsheet-voice-h em{font-style:normal;color:var(--gold-l)}
 .fsheet-voice-s{margin-top:6px;font-size:.78rem;line-height:1.5;color:var(--muted)}
 .fsheet-voice-s b{color:var(--fg);font-weight:600}
+
+/* the bottom lens slot: a hairline above it so "Include sold" reads as its own section after the
+   filters, not as one more chip in the last group */
+/* inside the scroll body, which already pads 18px — so no side padding of its own, or the button
+   sits inset from the filters above it */
+.fsheet-lenses-tail{margin-top:6px;padding:12px 0 4px;border-top:1px solid var(--line)}
+.fsheet-lenses-tail:empty{display:none}

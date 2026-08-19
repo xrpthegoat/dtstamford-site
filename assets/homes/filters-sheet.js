@@ -53,6 +53,19 @@ if (btn && sheet && scrim && body && bar) {
      lenses rather than filters, so they land in their own strip above the filter list. Their
      home in the bar is .fb-group-view, and they must be put back in their original order. */
   const lenses = $('#fsheetLenses');
+  /* Bottom lens slot (John, 2026-08-19: "include sold at the bottom, just saved up top"). It is created
+     INSIDE the scroll body, after the filters, so it scrolls with them — a static div under the body was
+     a second pinned footer that ate panel height and never actually sat "at the bottom of the filters".
+     Saved (everyday) leads at the top; Include sold (expert) is the last thing you reach. */
+  let lensesTail = null;
+  function tailSlot() {
+    if (lensesTail && lensesTail.isConnected) return lensesTail;
+    lensesTail = document.createElement('div');
+    lensesTail.className = 'fsheet-lenses fsheet-lenses-tail';
+    lensesTail.id = 'fsheetLensesTail';
+    body.appendChild(lensesTail);
+    return lensesTail;
+  }
   const viewGroup = document.querySelector('.fb-group-view');
   const soldBtn = $('#soldBtn');
   const savedBtn = $('#savedBtn');
@@ -61,9 +74,12 @@ if (btn && sheet && scrim && body && bar) {
   function intoSheet() {
     const d = drops();
     if (d && d.parentElement !== body) body.appendChild(d);
-    if (lenses) {
-      [soldBtn, savedBtn].forEach(b => { if (b && b.parentElement !== lenses) lenses.appendChild(b); });
-    }
+    // Saved up top (the everyday lens); Include sold BELOW the filters (the expert toggle) — John,
+    // 2026-08-19. Falls back to the top slot if the tail is ever missing, so nothing can vanish.
+    if (lenses && savedBtn && savedBtn.parentElement !== lenses) lenses.appendChild(savedBtn);
+    // the drops were just appended to body above; the tail must come AFTER them, so (re)append it last
+    const tail = tailSlot(); body.appendChild(tail);
+    if (soldBtn && soldBtn.parentElement !== tail) tail.appendChild(soldBtn);
   }
   function intoBar() {
     const d = drops();

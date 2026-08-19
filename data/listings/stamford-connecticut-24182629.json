@@ -44,6 +44,7 @@
   "parking": "Detached Garage",
   "garages": "2",
   "pets": "No",
+  "availability": "Immediately",
   "schoolElementary": "Per Board of Ed",
   "schoolHigh": "Per Board of Ed",
   "fireplaces": 0.0,
@@ -71,6 +72,34 @@
   }
  },
  "comps": [
+  {
+   "mls": "24193818",
+   "slug": "18-elm-tree-place-stamford-connecticut-24193818",
+   "address": {
+    "line": "18 Elm Tree Place",
+    "unit": "Unit 2nd floor",
+    "lineWithUnit": "18 Elm Tree Place Unit 2nd floor",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06906"
+   },
+   "beds": 3.0,
+   "baths": 1.0,
+   "sqft": 1143.0,
+   "acres": 0.24,
+   "price": 3500.0,
+   "date": "2026-08-19",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.071871,
+    "lng": -73.522623
+   },
+   "klass": "rental",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": null,
+   "ppsf": 3.062117235345582
+  },
   {
    "mls": "24175993",
    "slug": "28-hamilton-court-stamford-connecticut-24175993",
@@ -182,34 +211,6 @@
    "why": "Same town, sold in the last 3 years",
    "km": null,
    "ppsf": 2.52212389380531
-  },
-  {
-   "mls": "24189685",
-   "slug": "25-forest-street-stamford-connecticut-24189685",
-   "address": {
-    "line": "25 Forest Street",
-    "unit": "Unit 7F",
-    "lineWithUnit": "25 Forest Street Unit 7F",
-    "city": "Stamford",
-    "state": "Connecticut",
-    "zip": "06901"
-   },
-   "beds": 1.0,
-   "baths": 1.0,
-   "sqft": 875.0,
-   "acres": null,
-   "price": 2800.0,
-   "date": "2026-08-15",
-   "listingType": "rent",
-   "geo": {
-    "lat": 41.056534,
-    "lng": -73.536469
-   },
-   "klass": "rental",
-   "tier": 5,
-   "why": "Same town, sold in the last 3 years",
-   "km": null,
-   "ppsf": 3.2
   }
  ]
 }

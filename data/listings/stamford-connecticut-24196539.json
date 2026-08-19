@@ -68,6 +68,7 @@
   "laundryLoc": "Lower Level",
   "pets": "Restrictions",
   "petsInfo": "Per owner discretion",
+  "availability": "Immediately",
   "schoolElementary": "Springdale",
   "schoolMiddle": "Dolan",
   "schoolHigh": "Stamford",
@@ -100,6 +101,34 @@
   }
  },
  "comps": [
+  {
+   "mls": "24193818",
+   "slug": "18-elm-tree-place-stamford-connecticut-24193818",
+   "address": {
+    "line": "18 Elm Tree Place",
+    "unit": "Unit 2nd floor",
+    "lineWithUnit": "18 Elm Tree Place Unit 2nd floor",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06906"
+   },
+   "beds": 3.0,
+   "baths": 1.0,
+   "sqft": 1143.0,
+   "acres": 0.24,
+   "price": 3500.0,
+   "date": "2026-08-19",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.071871,
+    "lng": -73.522623
+   },
+   "klass": "rental",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": null,
+   "ppsf": 3.062117235345582
+  },
   {
    "mls": "24185079",
    "slug": "73-crestwood-drive-stamford-connecticut-24185079",
@@ -211,34 +240,6 @@
    "why": "Same town, sold in the last 3 years",
    "km": null,
    "ppsf": 2.655440414507772
-  },
-  {
-   "mls": "24187796",
-   "slug": "21-whitmore-lane-stamford-connecticut-24187796",
-   "address": {
-    "line": "21 Whitmore Lane",
-    "unit": "Unit 1",
-    "lineWithUnit": "21 Whitmore Lane Unit 1",
-    "city": "Stamford",
-    "state": "Connecticut",
-    "zip": "06902"
-   },
-   "beds": 2.0,
-   "baths": 3.0,
-   "sqft": 1400.0,
-   "acres": null,
-   "price": 3600.0,
-   "date": "2026-08-11",
-   "listingType": "rent",
-   "geo": {
-    "lat": 41.049409,
-    "lng": -73.564989
-   },
-   "klass": "rental",
-   "tier": 5,
-   "why": "Same town, sold in the last 3 years",
-   "km": null,
-   "ppsf": 2.5714285714285716
   }
  ]
 }

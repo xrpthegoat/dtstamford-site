@@ -993,6 +993,11 @@ function cardMeta(l) {
   // The day-count now rides as a badge on the photo (top-left), so repeating it here just made the
   // card say the same thing twice.
   if (isSold(l) && domOf(l) == null) bits.push('Sold');
+  // RENTALS ONLY (John, 2026-08-19: "be really careful this is for rentals only"). The MLS field is
+  // free text an agent typed — "Immediate", "ASAP", "June 1, 2026", "Negotiable" — so it is printed
+  // verbatim, never parsed as a date, and the index only carries it for listingType === 'rent'.
+  // Guarding on the type here TOO, so a future index change can't leak it onto a for-sale card.
+  if (l.listingType === 'rent' && l.availability) bits.push(`Available ${String(l.availability).trim()}`);
   if (l.yearBuilt) bits.push(`Built ${l.yearBuilt}`);
   bits.push('~50 min to NYC');
   return bits.map(b => `<span>${esc(b)}</span>`).join('<i class="dot">·</i>');

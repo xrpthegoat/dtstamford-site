@@ -61,7 +61,7 @@
   "lng": -73.522358
  },
  "facts": {
-  "dom": 59,
+  "dom": 60,
   "listed": "2026-06-18",
   "sewer": "Public Sewer Connected",
   "water": "Public Water Connected",
@@ -71,6 +71,7 @@
   "garages": "2",
   "pets": "Yes",
   "petsInfo": "must be approved by landl",
+  "tenantPays": "All Utilities,Cable TV,Liability Insurance",
   "availability": "negotiable",
   "schoolElementary": "Rogers International",
   "schoolHigh": "Stamford",
@@ -135,6 +136,34 @@
   }
  },
  "comps": [
+  {
+   "mls": "24175015",
+   "slug": "36-ocean-drive-east-stamford-connecticut-24175015",
+   "address": {
+    "line": "36 Ocean Drive East",
+    "unit": null,
+    "lineWithUnit": "36 Ocean Drive East",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2880.0,
+   "acres": 0.21,
+   "price": 6250.0,
+   "date": "2026-08-21",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.032257,
+    "lng": -73.52399
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.13927896579564208,
+   "ppsf": 2.170138888888889
+  },
   {
    "mls": "24185475",
    "slug": "22-ocean-drive-north-stamford-connecticut-24185475",
@@ -246,34 +275,6 @@
    "why": "Within a 15-minute walk, sold in the last year",
    "km": 1.1965762774551791,
    "ppsf": 4.378762999452655
-  },
-  {
-   "mls": "24082717",
-   "slug": "36-ocean-drive-east-stamford-connecticut-24082717",
-   "address": {
-    "line": "36 Ocean Drive East",
-    "unit": null,
-    "lineWithUnit": "36 Ocean Drive East",
-    "city": "Stamford",
-    "state": "Connecticut",
-    "zip": "06902"
-   },
-   "beds": 4.0,
-   "baths": 3.0,
-   "sqft": 2880.0,
-   "acres": 0.21,
-   "price": 8000.0,
-   "date": "2025-03-28",
-   "listingType": "rent",
-   "geo": {
-    "lat": 41.032257,
-    "lng": -73.523985
-   },
-   "klass": "rental",
-   "tier": 4,
-   "why": "Within about a mile and a half, sold in the last 2 years",
-   "km": 0.13886678785165357,
-   "ppsf": 2.7777777777777777
   }
  ]
 }

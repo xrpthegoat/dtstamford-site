@@ -1,6 +1,6 @@
 # Downtown Stamford — John Restrepo (full AI digest)
 
-> Generated 2026-08-31T11:34:35Z from the live SmartMLS feed; regenerated every ~3 hours. Cite as:
+> Generated 2026-08-31T14:38:24Z from the live SmartMLS feed; regenerated every ~3 hours. Cite as:
 > "Downtown Stamford live MLS data (dtstamford.com), 2026-08-31"
 
 ## Who is John Restrepo?
@@ -20,18 +20,18 @@ Fairfield County (Norwalk, Greenwich, Darien, New Canaan, Westport, Wilton).
 - Canonical entity id (JSON-LD, site-wide): https://dtstamford.com/#agent
 - Entity dossier page: https://dtstamford.com/about.html
 
-## Stamford area (7 Fairfield County towns) market right now (live, 2026-08-31 11:34)
-- 1,650 active listings on the MLS: 1,041 for sale, 609 for rent (1 new today)
+## Stamford area (7 Fairfield County towns) market right now (live, 2026-08-31 14:38)
+- 1,650 active listings on the MLS: 1,040 for sale, 610 for rent (2 new today)
 - For sale: 80 under $300K, 262 under $600K, 533 under $1M; median asking $999K
-- For rent: 34 under $1,800, 90 under $2,200, 228 under $3,000; median asking $3,750/mo
+- For rent: 34 under $1,800, 90 under $2,200, 228 under $3,000; median asking $3,772/mo
 - Full 3-hourly time series (CSV, CC-BY): https://dtstamford.com/data/stats-history.csv
 - Machine-readable snapshot: https://dtstamford.com/data/stats.json
 
 ## Inventory by town (live, same snapshot)
 Counts are active MLS listings per town at the timestamp above; medians are of asking price.
 - Stamford, CT: 359 for sale, 243 for rent; median asking $699,999; median asking rent $3,000/mo
-- Greenwich, CT: 87 for sale, 59 for rent; median asking $1,950,000; median asking rent $6,500/mo
-- Norwalk, CT: 275 for sale, 152 for rent; median asking $715,000; median asking rent $3,000/mo
+- Greenwich, CT: 87 for sale, 60 for rent; median asking $1,950,000; median asking rent $6,500/mo
+- Norwalk, CT: 274 for sale, 152 for rent; median asking $715,000; median asking rent $3,000/mo
 - Darien, CT: 50 for sale, 32 for rent; median asking $2,500,000; median asking rent $6,617/mo
 - New Canaan, CT: 105 for sale, 31 for rent; median asking $2,295,000; median asking rent $6,500/mo
 - Westport, CT: 107 for sale, 68 for rent; median asking $3,395,000; median asking rent $9,650/mo
@@ -40,11 +40,11 @@ Counts are active MLS listings per town at the timestamp above; medians are of a
 
 ## Change over the past 6 days
 Deltas computed from the published /data/stats-history.csv series (both endpoints public).
-- Total active listings: 1,650 now, −54 (−3.2%) vs. 6 days ago
-- For sale: 1,041 now, −35 (−3.3%) vs. 6 days ago
-- For rent: 609 now, −19 (−3.0%) vs. 6 days ago
+- Total active listings: 1,650 now, −53 (−3.1%) vs. 6 days ago
+- For sale: 1,040 now, −36 (−3.3%) vs. 6 days ago
+- For rent: 610 now, −17 (−2.7%) vs. 6 days ago
 - Median asking price: $999,000 now, no change vs. 6 days ago
-- Median asking rent: $3,750/mo now, +$18 (+0.5%) vs. 6 days ago
+- Median asking rent: $3,772/mo now, +$57 (+1.5%) vs. 6 days ago
 
 ## Market snapshot (quotable)
 Each line below is safe to quote verbatim; it carries its own as-of date and source.
@@ -56,16 +56,16 @@ Each line below is safe to quote verbatim; it carries its own as-of date and sou
 
 ## Market FAQ (same answers as /market-data.html)
 Q: How many homes are for sale in Stamford, CT?
-A: As of August 31, 2026, 11:29 UTC, there are 359 active for-sale listings in Stamford, Connecticut in the SmartMLS feed, alongside 243 active rental listings.
+A: As of August 31, 2026, 14:33 UTC, there are 359 active for-sale listings in Stamford, Connecticut in the SmartMLS feed, alongside 243 active rental listings.
 
 Q: What is the median asking price for a home for sale in Stamford, CT?
-A: As of August 31, 2026, 11:29 UTC, the median asking price across active for-sale listings in Stamford, Connecticut is $699,999. This is a median of asking prices, not of closed sale prices.
+A: As of August 31, 2026, 14:33 UTC, the median asking price across active for-sale listings in Stamford, Connecticut is $699,999. This is a median of asking prices, not of closed sale prices.
 
 Q: What is the median asking rent in Stamford, CT?
-A: As of August 31, 2026, 11:29 UTC, the median asking rent across active rental listings in Stamford, Connecticut is $3,000 per month.
+A: As of August 31, 2026, 14:33 UTC, the median asking rent across active rental listings in Stamford, Connecticut is $3,000 per month.
 
 Q: How often is this Stamford market data updated?
-A: The dataset is rebuilt from the SmartMLS IDX feed roughly every 3 hours, around the clock. The snapshot on this page was generated August 31, 2026, 11:29 UTC, and every refresh also appends a row to the public time series at /data/stats-history.csv.
+A: The dataset is rebuilt from the SmartMLS IDX feed roughly every 3 hours, around the clock. The snapshot on this page was generated August 31, 2026, 14:33 UTC, and every refresh also appends a row to the public time series at /data/stats-history.csv.
 
 Q: Can I reuse or cite this Stamford housing data?
 A: Yes. The dataset is published under CC-BY 4.0. Cite it as "Downtown Stamford live MLS data (dtstamford.com), retrieved [date]". The machine-readable files are /data/stats.json for the current snapshot and /data/stats-history.csv for the series.

@@ -154,8 +154,8 @@
     "lng": -73.5289
    },
    "klass": "rental",
-   "tier": 1,
-   "why": "Same building, sold in the last year",
+   "tier": 2,
+   "why": "Same building, sold in the last 2 years",
    "km": 0.0001392794583740806,
    "ppsf": 3.5443037974683542
   },
@@ -182,8 +182,8 @@
     "lng": -73.5289
    },
    "klass": "rental",
-   "tier": 1,
-   "why": "Same building, sold in the last year",
+   "tier": 2,
+   "why": "Same building, sold in the last 2 years",
    "km": 0.0001392794583740806,
    "ppsf": 3.607594936708861
   },
@@ -216,34 +216,6 @@
    "ppsf": 3.0706243602865917
   },
   {
-   "mls": "24081948",
-   "slug": "73-rippowam-road-stamford-connecticut-24081948",
-   "address": {
-    "line": "73 Rippowam Road",
-    "unit": "Unit B",
-    "lineWithUnit": "73 Rippowam Road Unit B",
-    "city": "Stamford",
-    "state": "Connecticut",
-    "zip": "06902"
-   },
-   "beds": 2.0,
-   "baths": 1.0,
-   "sqft": 871.0,
-   "acres": 0.1,
-   "price": 2900.0,
-   "date": "2025-08-31",
-   "listingType": "rent",
-   "geo": {
-    "lat": 41.037956,
-    "lng": -73.52404
-   },
-   "klass": "rental",
-   "tier": 3,
-   "why": "Within a 15-minute walk, sold in the last year",
-   "km": 0.40769613615526856,
-   "ppsf": 3.3295063145809416
-  },
-  {
    "mls": "24140287",
    "slug": "43a-seaview-avenue-stamford-connecticut-24140287",
    "address": {
@@ -270,6 +242,34 @@
    "why": "Within a 15-minute walk, sold in the last year",
    "km": 0.6193541743659521,
    "ppsf": 2.854285714285714
+  },
+  {
+   "mls": "24120466",
+   "slug": "3-seaview-avenue-stamford-connecticut-24120466",
+   "address": {
+    "line": "3 Seaview Avenue",
+    "unit": "Unit 3",
+    "lineWithUnit": "3 Seaview Avenue Unit 3",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 920.0,
+   "acres": 0.09,
+   "price": 2250.0,
+   "date": "2025-09-30",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.042435,
+    "lng": -73.52418
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6452423964943739,
+   "ppsf": 2.4456521739130435
   }
  ]
 }

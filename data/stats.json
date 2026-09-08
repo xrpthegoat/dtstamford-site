@@ -1,13 +1,13 @@
 {
- "generatedAt": "2026-09-08T05:43:55Z",
+ "generatedAt": "2026-09-08T08:32:51Z",
  "date": "2026-09-08",
- "total": 1594,
+ "total": 1597,
  "soldComps": 11583,
- "forSale": 1022,
+ "forSale": 1025,
  "forRent": 572,
- "active": 1098,
- "comingSoon": 25,
- "newTodayCount": 3,
+ "active": 1100,
+ "comingSoon": 26,
+ "newTodayCount": 6,
  "newToday": [
   {
    "mls": "24189079",
@@ -16,6 +16,30 @@
    "address": "78 Hardesty Road",
    "city": "Stamford",
    "price": 2500000.0,
+   "listingType": "sale",
+   "beds": 5,
+   "baths": 6.0,
+   "withheld": false
+  },
+  {
+   "mls": "24199787",
+   "slug": "287-hamilton-avenue-stamford-connecticut-24199787",
+   "url": "homes/287-hamilton-avenue-stamford-connecticut-24199787.html",
+   "address": "287 Hamilton Avenue",
+   "city": "Stamford",
+   "price": 200000.0,
+   "listingType": "sale",
+   "beds": 1,
+   "baths": 1.0,
+   "withheld": false
+  },
+  {
+   "mls": "24178727",
+   "slug": "248-turtle-back-road-new-canaan-connecticut-24178727",
+   "url": "homes/248-turtle-back-road-new-canaan-connecticut-24178727.html",
+   "address": "248 Turtle Back Road",
+   "city": "New Canaan",
+   "price": 4000000.0,
    "listingType": "sale",
    "beds": 5,
    "baths": 6.0,
@@ -44,36 +68,48 @@
    "beds": 5,
    "baths": 5.0,
    "withheld": false
+  },
+  {
+   "mls": "24205136",
+   "slug": "146-westport-road-wilton-connecticut-24205136",
+   "url": "homes/146-westport-road-wilton-connecticut-24205136.html",
+   "address": "146 Westport Road",
+   "city": "Wilton",
+   "price": 895000.0,
+   "listingType": "sale",
+   "beds": 3,
+   "baths": 4.0,
+   "withheld": false
   }
  ],
  "refreshHours": 3,
  "saleBands": {
-  "u300k": 82,
-  "u600k": 260,
-  "u1m": 541
+  "u300k": 83,
+  "u600k": 261,
+  "u1m": 543
  },
  "rentBands": {
   "u1800": 29,
   "u2200": 84,
   "u3000": 215
  },
- "medianSale": 987000,
+ "medianSale": 985000.0,
  "medianRent": 3732,
- "medianSaleStamford": 729900.0,
+ "medianSaleStamford": 729450,
  "medianRentStamford": 2950,
- "stamfordSaleCount": 369,
+ "stamfordSaleCount": 370,
  "medianSoldStamford": 725000,
  "stamfordSoldCount": 1186,
  "stamfordRentCount": 224,
  "medianDomStamford": 21,
  "towns": {
-  "Stamford": 593,
+  "Stamford": 594,
   "Greenwich": 145,
   "Norwalk": 416,
   "Darien": 73,
-  "New Canaan": 122,
+  "New Canaan": 123,
   "Westport": 161,
   "Fairfield": 1,
-  "Wilton": 83
+  "Wilton": 84
  }
 }

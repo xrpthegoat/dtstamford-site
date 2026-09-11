@@ -4,12 +4,12 @@
  "status": "Active",
  "listingType": "rent",
  "propertyType": "Residential Rental",
- "price": 5600.0,
+ "price": 4800.0,
  "closePrice": null,
  "closeDate": null,
  "beds": 2.0,
  "baths": 2.0,
- "sqft": 905.0,
+ "sqft": 1300.0,
  "yearBuilt": 1986.0,
  "acres": null,
  "address": {
@@ -55,7 +55,7 @@
   "https://smartmls-assets.cdn-connectmls.com/pics/578C7D8BD0D7F5DAE0631A01100AEC19/HD_1785120304136_2026_07_26_22_44_45_51_Old_Kings_Highway___File_Explorer.JPEG"
  ],
  "primaryPhotoOnly": false,
- "updated": "2026-08-26T16:25:56",
+ "updated": "2026-09-11T14:00:20",
  "geo": {
   "lat": 41.045959,
   "lng": -73.572333
@@ -148,60 +148,32 @@
  },
  "comps": [
   {
-   "mls": "24164904",
-   "slug": "51-old-kings-highway-greenwich-connecticut-24164904",
+   "mls": "24166765",
+   "slug": "14-amherst-road-greenwich-connecticut-24166765",
    "address": {
-    "line": "51 Old Kings Highway",
-    "unit": "Unit 12",
-    "lineWithUnit": "51 Old Kings Highway Unit 12",
+    "line": "14 Amherst Road",
+    "unit": null,
+    "lineWithUnit": "14 Amherst Road",
     "city": "Greenwich",
     "state": "Connecticut",
-    "zip": "06870"
+    "zip": "06878"
    },
-   "beds": 2.0,
+   "beds": 3.0,
    "baths": 2.0,
-   "sqft": 905.0,
-   "acres": null,
-   "price": 4000.0,
-   "date": "2026-04-16",
+   "sqft": 1470.0,
+   "acres": 0.19,
+   "price": 6150.0,
+   "date": "2026-05-04",
    "listingType": "rent",
    "geo": {
-    "lat": 41.045959,
-    "lng": -73.572333
-   },
-   "klass": "rental",
-   "tier": 1,
-   "why": "Same building, sold in the last year",
-   "km": 0.0,
-   "ppsf": 4.419889502762431
-  },
-  {
-   "mls": "24151269",
-   "slug": "1465-east-putnam-avenue-greenwich-connecticut-24151269",
-   "address": {
-    "line": "1465 East Putnam Avenue",
-    "unit": "Unit 532",
-    "lineWithUnit": "1465 East Putnam Avenue Unit 532",
-    "city": "Greenwich",
-    "state": "Connecticut",
-    "zip": "06870"
-   },
-   "beds": 1.0,
-   "baths": 1.0,
-   "sqft": 784.0,
-   "acres": null,
-   "price": 2900.0,
-   "date": "2026-04-27",
-   "listingType": "rent",
-   "geo": {
-    "lat": 41.046842,
-    "lng": -73.570312
+    "lat": 41.04789,
+    "lng": -73.57201
    },
    "klass": "rental",
    "tier": 3,
    "why": "Within a 15-minute walk, sold in the last year",
-   "km": 0.1958690262166256,
-   "ppsf": 3.6989795918367347
+   "km": 0.21641917371421046,
+   "ppsf": 4.183673469387755
   },
   {
    "mls": "24184767",
@@ -232,6 +204,62 @@
    "ppsf": 4.188948306595365
   },
   {
+   "mls": "24157455",
+   "slug": "15-richmond-drive-greenwich-connecticut-24157455",
+   "address": {
+    "line": "15 Richmond Drive",
+    "unit": null,
+    "lineWithUnit": "15 Richmond Drive",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06870"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1435.0,
+   "acres": 0.14,
+   "price": 8250.0,
+   "date": "2026-03-23",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.040874,
+    "lng": -73.56964
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6088627028230513,
+   "ppsf": 5.7491289198606275
+  },
+  {
+   "mls": "24194354",
+   "slug": "21-neil-lane-greenwich-connecticut-24194354",
+   "address": {
+    "line": "21 Neil Lane",
+    "unit": "Unit B",
+    "lineWithUnit": "21 Neil Lane Unit B",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06878"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1200.0,
+   "acres": 0.21,
+   "price": 4500.0,
+   "date": "2026-08-12",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.042138,
+    "lng": -73.580106
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.778111787786096,
+   "ppsf": 3.75
+  },
+  {
    "mls": "24064559",
    "slug": "1381-east-putnam-avenue-greenwich-connecticut-24064559",
    "address": {
@@ -258,34 +286,6 @@
    "why": "Within about a mile and a half, sold in the last 2 years",
    "km": 0.13861230966467966,
    "ppsf": 4.090909090909091
-  },
-  {
-   "mls": "24061762",
-   "slug": "1465-east-putnam-avenue-greenwich-connecticut-24061762",
-   "address": {
-    "line": "1465 East Putnam Avenue",
-    "unit": "Apt 431",
-    "lineWithUnit": "1465 East Putnam Avenue Apt 431",
-    "city": "Greenwich",
-    "state": "Connecticut",
-    "zip": "06870"
-   },
-   "beds": 1.0,
-   "baths": 1.0,
-   "sqft": 784.0,
-   "acres": null,
-   "price": 2600.0,
-   "date": "2024-12-17",
-   "listingType": "rent",
-   "geo": {
-    "lat": 41.046842,
-    "lng": -73.570312
-   },
-   "klass": "rental",
-   "tier": 4,
-   "why": "Within about a mile and a half, sold in the last 2 years",
-   "km": 0.1958690262166256,
-   "ppsf": 3.316326530612245
   }
  ]
 }

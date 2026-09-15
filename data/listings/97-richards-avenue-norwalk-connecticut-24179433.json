@@ -61,7 +61,7 @@
   "lng": -73.453366
  },
  "facts": {
-  "dom": 95,
+  "dom": 96,
   "listed": "2026-06-11",
   "floodZone": "1",
   "sewer": "Public Sewer Connected",
@@ -152,6 +152,34 @@
   }
  },
  "comps": [
+  {
+   "mls": "24194505",
+   "slug": "97-richards-avenue-norwalk-connecticut-24194505",
+   "address": {
+    "line": "97 Richards Avenue",
+    "unit": "Unit A12",
+    "lineWithUnit": "97 Richards Avenue Unit A12",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1196.0,
+   "acres": null,
+   "price": 385000.0,
+   "date": "2026-09-09",
+   "listingType": "sale",
+   "geo": {
+    "lat": 41.094805,
+    "lng": -73.453366
+   },
+   "klass": "condo",
+   "tier": 1,
+   "why": "Same building, sold in the last year",
+   "km": 0.0,
+   "ppsf": 321.90635451505017
+  },
   {
    "mls": "24111600",
    "slug": "97-richards-avenue-norwalk-connecticut-24111600",
@@ -263,34 +291,6 @@
    "why": "Same building, sold in the last year",
    "km": 0.0004022607929326627,
    "ppsf": 292.6421404682274
-  },
-  {
-   "mls": "24098137",
-   "slug": "97-richards-avenue-norwalk-connecticut-24098137",
-   "address": {
-    "line": "97 Richards Avenue",
-    "unit": "Apt E2",
-    "lineWithUnit": "97 Richards Avenue Apt E2",
-    "city": "Norwalk",
-    "state": "Connecticut",
-    "zip": "06854"
-   },
-   "beds": 2.0,
-   "baths": 2.0,
-   "sqft": 1196.0,
-   "acres": null,
-   "price": 360000.0,
-   "date": "2025-07-03",
-   "listingType": "sale",
-   "geo": {
-    "lat": 41.094805,
-    "lng": -73.453366
-   },
-   "klass": "condo",
-   "tier": 2,
-   "why": "Same building, sold in the last 2 years",
-   "km": 0.0,
-   "ppsf": 301.0033444816053
   }
  ]
 }

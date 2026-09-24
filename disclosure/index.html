@@ -1,0 +1,5289 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Seller Disclosure | Downtown Stamford</title>
+<meta name="description" content="Answer Connecticut’s Residential Property Condition Report one question at a time, then sign and download the official form already filled in.">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#08080a">
+<link rel="icon" href="brand/logo-gold.webp">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..700&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap">
+<style>
+/* Disclosure Wizard — calm, legible, phone-first. Tokens on :root; dark mode mirrors them. */
+:root {
+  --bg: #f6f4ef;
+  --surface: #ffffff;
+  --surface-2: #fbfaf7;
+  --ink: #1d2733;
+  --muted: #5b6673;
+  --faint: #8a939c;
+  --line: #e3dfd6;
+  --line-strong: #cfc9bd;
+  --accent: #1f5f4f;
+  --accent-hover: #184c3f;
+  --accent-ink: #ffffff;
+  --accent-soft: #e5efe9;
+  --focus: #2f7fd1;
+  --warn-bg: #fdf3e2;
+  --warn-ink: #7a4a0c;
+  --st-yes-bg: #fbeedd; --st-yes: #8a4b0f;
+  --st-no-bg: #e5efe9;  --st-no: #1f5f4f;
+  --st-unk-bg: #e6e9f7; --st-unk: #3d4b8a;
+  --st-na-bg: #eceae4;  --st-na: #555a60;
+  --paper: #fdfcf9;
+  --radius: 14px;
+  --shadow: 0 1px 2px rgba(29, 39, 51, .05), 0 8px 24px rgba(29, 39, 51, .06);
+  --serif: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
+  --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #14181d; --surface: #1c2229; --surface-2: #192027; --ink: #e8e6e1; --muted: #a0a9b3; --faint: #7a848e;
+    --line: #2c343d; --line-strong: #3a444e; --accent: #6fbfa6; --accent-hover: #86cdb6; --accent-ink: #0d1a16;
+    --accent-soft: #1f3530; --focus: #6aa8ff; --warn-bg: #3a2c16; --warn-ink: #f2c98a;
+    --st-yes-bg: #3b2a17; --st-yes: #f0b877; --st-no-bg: #1f3530; --st-no: #86cdb6;
+    --st-unk-bg: #262c48; --st-unk: #a9b5ef; --st-na-bg: #2a2e33; --st-na: #b4b9bf;
+    --shadow: 0 1px 2px rgba(0,0,0,.3), 0 8px 24px rgba(0,0,0,.25);
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #14181d; --surface: #1c2229; --surface-2: #192027; --ink: #e8e6e1; --muted: #a0a9b3; --faint: #7a848e;
+  --line: #2c343d; --line-strong: #3a444e; --accent: #6fbfa6; --accent-hover: #86cdb6; --accent-ink: #0d1a16;
+  --accent-soft: #1f3530; --focus: #6aa8ff; --warn-bg: #3a2c16; --warn-ink: #f2c98a;
+  --st-yes-bg: #3b2a17; --st-yes: #f0b877; --st-no-bg: #1f3530; --st-no: #86cdb6;
+  --st-unk-bg: #262c48; --st-unk: #a9b5ef; --st-na-bg: #2a2e33; --st-na: #b4b9bf;
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0; background: var(--bg); color: var(--ink);
+  font: 16px/1.5 var(--sans); min-height: 100dvh;
+}
+button, input, textarea, select { font: inherit; color: inherit; }
+:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; border-radius: 8px; }
+[hidden] { display: none !important; }
+
+/* ── top bar ── */
+.topbar {
+  position: sticky; top: env(safe-area-inset-top, 0px); z-index: 20; display: flex; align-items: center; justify-content: space-between;
+  gap: 12px; padding: 10px 16px;
+  background: color-mix(in srgb, var(--bg) 88%, transparent); backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--line); flex-wrap: wrap;
+}
+.brand { flex: 1 1 0; display: flex; align-items: center; gap: 10px; font-weight: 600; font-size: 15px; letter-spacing: .01em; min-width: 0; }
+.brand span:last-child { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.brand-mark {
+  width: 26px; height: 26px; border-radius: 7px; flex: none;
+  background: var(--accent) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M8 15.5 16 9l8 6.5V24H8z' fill='none' stroke='white' stroke-width='2.2' stroke-linejoin='round'/%3E%3Cpath d='m12.5 18.5 2.6 2.6 4.6-5' fill='none' stroke='white' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center/26px no-repeat;
+}
+.topbar-right { flex: none; display: flex; align-items: center; gap: 6px; position: relative; }
+.saved { font-size: 13px; color: var(--muted); white-space: nowrap; }
+@media (max-width: 480px) { .saved-long { display: none; } }
+.icon-btn {
+  display: inline-grid; place-items: center; width: 40px; height: 40px; border-radius: 10px;
+  border: 1px solid transparent; background: transparent; cursor: pointer; fill: currentColor; color: var(--ink);
+}
+.icon-btn:hover { background: var(--surface); border-color: var(--line); }
+.menu {
+  position: absolute; right: 0; top: 46px; min-width: 240px; background: var(--surface);
+  border: 1px solid var(--line); border-radius: 12px; box-shadow: var(--shadow); padding: 6px; z-index: 30;
+}
+.menu button {
+  display: block; width: 100%; text-align: left; padding: 10px 12px; border: 0; border-radius: 8px;
+  background: transparent; cursor: pointer; font-size: 15px;
+}
+.menu button:hover { background: var(--surface-2); }
+.menu .danger { color: #b3261e; }
+
+/* ── progress ── */
+.progress { flex-basis: 100%; padding: 2px 0 2px; }
+.progress-meta { display: flex; justify-content: space-between; gap: 12px; font-size: 13px; color: var(--muted); margin-bottom: 6px; }
+.progress-meta span { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+#progress-count { flex: none; font-variant-numeric: tabular-nums; }
+.eta-short { display: none; }
+@media (max-width: 480px) { .eta-long { display: none; } .eta-short { display: inline; } }
+.progress-track { height: 4px; border-radius: 4px; background: var(--line); overflow: hidden; }
+.progress-fill { height: 100%; width: 0; background: var(--accent); border-radius: 4px; transition: width .35s ease; }
+
+/* ── layout ── */
+.layout { max-width: 1080px; margin: 0 auto; padding: 16px; display: grid; grid-template-columns: 1fr; gap: 28px; }
+.sidebar { display: none; }
+@media (min-width: 960px) {
+  .layout.with-sidebar { grid-template-columns: 240px 1fr; padding-top: 24px; }
+  .layout.with-sidebar .sidebar { display: block; position: sticky; top: 112px; align-self: start; }
+}
+.screen { max-width: 680px; width: 100%; margin: 0 auto; outline: none; }
+.layout.with-sidebar .screen { margin: 0; }
+
+.side-list { list-style: none; margin: 0; padding: 0; }
+.side-list li + li { margin-top: 2px; }
+.side-item {
+  display: flex; align-items: center; justify-content: space-between; gap: 8px; width: 100%; text-align: left;
+  padding: 9px 12px; border: 0; border-radius: 10px; background: transparent; cursor: pointer; font-size: 14px; color: var(--muted);
+}
+.side-item:hover { background: var(--surface); color: var(--ink); }
+.side-item.current { background: var(--surface); color: var(--ink); font-weight: 600; box-shadow: inset 3px 0 0 var(--accent); }
+.side-count { font-size: 12px; color: var(--faint); font-variant-numeric: tabular-nums; }
+.side-item.done .side-count { color: var(--accent); }
+
+/* ── cards & type ── */
+.card {
+  background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius);
+  box-shadow: var(--shadow); padding: 28px;
+}
+@media (max-width: 600px) { .card { padding: 20px 18px; border-radius: 12px; } }
+.eyebrow { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; font-size: 13px; color: var(--muted); margin: 0 0 10px; }
+.qnum {
+  display: inline-block; font-weight: 700; font-size: 12px; letter-spacing: .04em; color: var(--accent);
+  background: var(--accent-soft); padding: 3px 8px; border-radius: 999px; font-variant-numeric: tabular-nums;
+}
+h1, h2, h3 { margin: 0; }
+.q-title { font-family: var(--serif); font-weight: 600; font-size: 26px; line-height: 1.28; letter-spacing: -.005em; text-wrap: pretty; }
+@media (max-width: 600px) { .q-title { font-size: 22px; } }
+.help { color: var(--muted); margin: 10px 0 0; font-size: 15.5px; }
+.official { margin: 14px 0 0; font-size: 14px; color: var(--muted); }
+.official summary { cursor: pointer; color: var(--accent); font-weight: 500; list-style: none; display: inline-flex; align-items: center; gap: 6px; }
+.official summary::-webkit-details-marker { display: none; }
+.official summary::before { content: "›"; display: inline-block; transition: transform .15s; font-size: 18px; line-height: 1; }
+.official[open] summary::before { transform: rotate(90deg); }
+.official blockquote { margin: 10px 0 0; padding: 10px 14px; border-left: 3px solid var(--line-strong); background: var(--surface-2); border-radius: 0 8px 8px 0; font-family: var(--serif); font-size: 15px; color: var(--ink); }
+
+/* ── answers ── */
+.block { margin-top: 22px; }
+.block-label { display: block; font-weight: 600; font-size: 15px; margin-bottom: 8px; }
+.status-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin-top: 22px; }
+@media (max-width: 520px) { .status-grid { grid-template-columns: repeat(2, 1fr); } }
+.opt {
+  position: relative; display: flex; align-items: center; justify-content: center; gap: 8px; min-height: 56px;
+  padding: 12px 14px; border: 1.5px solid var(--line-strong); border-radius: 12px; background: var(--surface);
+  cursor: pointer; font-weight: 600; font-size: 16px; text-align: center; transition: border-color .12s, background .12s, transform .06s;
+}
+.opt:hover { border-color: var(--accent); }
+.opt:active { transform: scale(.985); }
+.opt[aria-checked="true"], .opt[aria-pressed="true"] { border-color: var(--accent); background: var(--accent-soft); color: var(--ink); }
+.opt[aria-checked="true"]::after, .opt[aria-pressed="true"]::after {
+  content: ""; position: absolute; top: 7px; right: 8px; width: 16px; height: 16px; border-radius: 50%;
+  background: var(--accent) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='m4.5 8.2 2.3 2.3 4.7-5' fill='none' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center/16px no-repeat;
+}
+.kbd { font-size: 11px; font-weight: 600; color: var(--faint); border: 1px solid var(--line); border-radius: 5px; padding: 0 5px; line-height: 17px; }
+@media (hover: none), (max-width: 700px) { .kbd { display: none; } }
+
+.choice-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 8px; }
+.choice-grid .opt { justify-content: flex-start; text-align: left; font-weight: 500; min-height: 50px; padding-right: 30px; }
+@media (max-width: 520px) { .choice-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } .choice-grid .opt { min-height: 48px; font-size: 15px; padding: 10px 28px 10px 12px; } }
+
+.followup { margin-top: 22px; padding-top: 20px; border-top: 1px dashed var(--line-strong); animation: rise .22s ease both; }
+@keyframes rise { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+
+.field { margin-top: 16px; }
+.field:first-child, .field-row .field { margin-top: 0; }
+.field-row { margin-top: 16px; }
+.field label.lbl { display: block; font-weight: 600; font-size: 15px; margin-bottom: 6px; }
+.field .note { font-size: 14px; color: var(--muted); margin: 6px 0 0; }
+.input, .textarea {
+  width: 100%; padding: 12px 14px; border: 1.5px solid var(--line-strong); border-radius: 10px; background: var(--surface);
+  font-size: 16px; transition: border-color .12s, box-shadow .12s;
+}
+.textarea { min-height: 110px; resize: vertical; line-height: 1.45; }
+.input:focus, .textarea:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 22%, transparent); }
+.input:disabled { opacity: .55; }
+.field-row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+@media (max-width: 460px) { .field-row { grid-template-columns: 1fr; } }
+.toggle { display: inline-flex; align-items: center; gap: 8px; margin-top: 8px; font-size: 15px; color: var(--muted); cursor: pointer; }
+.toggle input { width: 18px; height: 18px; accent-color: var(--accent); }
+.attach-note { display: flex; gap: 10px; margin-top: 12px; padding: 10px 12px; border-radius: 10px; background: var(--warn-bg); color: var(--warn-ink); font-size: 14px; }
+
+/* ── nav ── */
+.nav { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-top: 22px; }
+.nav-right { display: flex; align-items: center; gap: 10px; margin-left: auto; }
+.btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 48px; padding: 0 20px;
+  border-radius: 12px; border: 1.5px solid transparent; font-weight: 600; font-size: 16px; cursor: pointer; text-decoration: none;
+}
+.btn-primary { background: var(--accent); color: var(--accent-ink); }
+.btn-primary:hover { background: var(--accent-hover); }
+.btn-ghost { background: transparent; color: var(--ink); border-color: var(--line-strong); }
+.btn-ghost:hover { background: var(--surface); }
+.btn-link { background: none; border: 0; color: var(--muted); padding: 0 6px; min-height: 44px; cursor: pointer; font-size: 15px; text-decoration: underline; text-underline-offset: 3px; }
+.btn-lg { min-height: 56px; padding: 0 26px; font-size: 17px; }
+.btn[disabled] { opacity: .5; cursor: not-allowed; }
+.nudge { margin-top: 14px; font-size: 14.5px; color: var(--warn-ink); background: var(--warn-bg); padding: 10px 12px; border-radius: 10px; }
+
+/* ── agent card + gate ── */
+.agent { display: flex; align-items: center; gap: 14px; margin-top: 22px; padding: 14px 16px; border: 1px solid var(--line); border-radius: 14px; background: var(--surface-2); }
+.agent-photo { width: 56px; height: 56px; border-radius: 50%; object-fit: cover; object-position: top; flex: none; background: var(--line); }
+.agent-text { display: grid; gap: 1px; min-width: 0; font-size: 14px; color: var(--muted); }
+.agent-text b { color: var(--ink); font-size: 16px; }
+.agent-brk { font-size: 12.5px; }
+.agent-call { margin-left: auto; white-space: nowrap; font-weight: 600; color: var(--accent); text-decoration: none; font-variant-numeric: tabular-nums; }
+@media (max-width: 460px) { .agent { flex-wrap: wrap; } .agent-call { margin-left: 70px; } }
+.gate { max-width: 520px; margin: 24px auto 0; }
+.gate-input { font-size: 22px; letter-spacing: .18em; text-transform: uppercase; font-variant-numeric: tabular-nums; }
+.brand-mark.has-logo { background-color: transparent; background-size: contain; background-position: center; }
+
+/* ── welcome ── */
+.hero-title { font-family: var(--serif); font-size: 36px; line-height: 1.15; font-weight: 600; letter-spacing: -.01em; text-wrap: balance; }
+@media (max-width: 600px) { .hero-title { font-size: 29px; } }
+.lede { font-size: 17.5px; color: var(--muted); margin: 14px 0 0; }
+.facts { list-style: none; padding: 0; margin: 24px 0 0; display: grid; gap: 14px; }
+.facts li { display: grid; grid-template-columns: 32px 1fr; gap: 12px; align-items: start; }
+.facts .ic { width: 32px; height: 32px; border-radius: 9px; background: var(--accent-soft); color: var(--accent); display: grid; place-items: center; }
+.facts b { display: block; }
+.facts span { color: var(--muted); font-size: 15px; }
+.important { margin-top: 22px; padding: 14px 16px; border-radius: 12px; background: var(--surface-2); border: 1px solid var(--line); font-size: 15px; }
+.resume { margin-top: 24px; padding: 16px; border-radius: 12px; background: var(--accent-soft); display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; }
+
+/* ── review ── */
+.review-sec { margin-top: 26px; }
+.review-sec h2 { font-family: var(--serif); font-size: 20px; font-weight: 600; margin-bottom: 8px; display: flex; justify-content: space-between; align-items: baseline; }
+.rows { border: 1px solid var(--line); border-radius: 12px; overflow: hidden; background: var(--surface); }
+.row { display: grid; grid-template-columns: 46px 1fr auto; gap: 12px; padding: 14px; border-top: 1px solid var(--line); align-items: start; }
+.row:first-child { border-top: 0; }
+.row.missing { background: var(--warn-bg); }
+.row-n { font-weight: 700; font-size: 13px; color: var(--muted); font-variant-numeric: tabular-nums; padding-top: 2px; }
+.row-q { font-size: 15px; }
+.row-a { margin-top: 6px; display: flex; flex-wrap: wrap; gap: 6px 10px; align-items: baseline; font-size: 14.5px; }
+.row-a .detail { color: var(--muted); white-space: pre-wrap; overflow-wrap: anywhere; }
+.row-a .derived { color: var(--muted); font-style: italic; }
+.chip { display: inline-block; font-size: 12.5px; font-weight: 700; padding: 2px 9px; border-radius: 999px; letter-spacing: .02em; }
+.chip.yes { background: var(--st-yes-bg); color: var(--st-yes); }
+.chip.no { background: var(--st-no-bg); color: var(--st-no); }
+.chip.unk { background: var(--st-unk-bg); color: var(--st-unk); }
+.chip.na { background: var(--st-na-bg); color: var(--st-na); }
+.chip.todo { background: var(--warn-bg); color: var(--warn-ink); }
+.edit { font-size: 14px; color: var(--accent); background: none; border: 0; cursor: pointer; padding: 4px 2px; font-weight: 600; }
+.summary-box { display: flex; flex-wrap: wrap; gap: 10px 18px; margin-top: 16px; font-size: 14.5px; color: var(--muted); }
+.todo-list { margin: 14px 0 0; padding: 14px 16px; border-radius: 12px; background: var(--warn-bg); color: var(--warn-ink); }
+.todo-list ul { margin: 8px 0 0; padding-left: 18px; }
+.todo-list button { vertical-align: top; background: none; border: 0; padding: 0; color: inherit; text-decoration: underline; cursor: pointer; font-size: 15px; text-align: left; }
+.generate { margin-top: 28px; }
+.confirm { display: flex; gap: 12px; align-items: flex-start; padding: 14px 16px; border: 1px solid var(--line); border-radius: 12px; background: var(--surface); cursor: pointer; }
+.confirm input { width: 20px; height: 20px; margin-top: 2px; accent-color: var(--accent); flex: none; }
+.done-steps { margin: 16px 0 0; padding-left: 20px; }
+.done-steps li { margin-top: 8px; }
+
+/* ── sheet dialog ── */
+.sheet { border: 1px solid var(--line); border-radius: 16px; padding: 0; width: min(440px, calc(100vw - 32px)); background: var(--surface); color: var(--ink); box-shadow: var(--shadow); }
+.sheet::backdrop { background: rgba(10, 14, 18, .45); }
+.sheet-head { display: flex; justify-content: space-between; align-items: center; padding: 14px 16px 8px; }
+.sheet-head h2 { font-size: 18px; }
+#sections-list { padding: 0 8px 12px; }
+
+/* ── signing ── */
+.signer { margin-top: 26px; padding-top: 20px; border-top: 1px solid var(--line); }
+.signer-name { font-family: var(--serif); font-size: 19px; font-weight: 600; margin-bottom: 12px; }
+.pad-row { display: grid; grid-template-columns: minmax(0, 2fr) minmax(0, 1fr); gap: 14px; }
+@media (max-width: 560px) { .pad-row { grid-template-columns: 1fr; } .pad-ini { max-width: 240px; } }
+.pad-head { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 6px; }
+.pad-head .lbl { font-weight: 600; font-size: 15px; }
+.pad-head .btn-link { min-height: 32px; font-size: 14px; }
+/* a signature pad is paper in both themes, so the navy ink always reads */
+.pad {
+  display: block; width: 100%; height: 150px; border-radius: 12px; border: 1.5px dashed var(--line-strong);
+  background-color: var(--paper); cursor: crosshair; touch-action: none; user-select: none; -webkit-user-select: none;
+  background-image: linear-gradient(#c9c2b3, #c9c2b3); background-repeat: no-repeat;
+  background-size: calc(100% - 36px) 1px; background-position: 18px calc(100% - 36px);
+}
+.pad-ini .pad { height: 150px; }
+.pad-hint { margin: 6px 0 0; font-size: 13px; color: var(--muted); }
+.ask form { padding: 20px; display: grid; gap: 18px; }
+.ask p { margin: 0; font-size: 16px; }
+.ask-actions { display: flex; justify-content: flex-end; gap: 10px; flex-wrap: wrap; }
+
+.noscript { padding: 24px; text-align: center; }
+.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+}
+
+/* themes/dts.css — dtstamford.com: the site's own system (near-black ground, gold, Bricolage
+   Grotesque display, Plus Jakarta Sans body), taken from deploy/assets/site.css. The site is
+   dark-only, so this theme commits to dark in every state.
+   The `:root:not(#dts)` selector is deliberate: it outranks styles.css's
+   `:root:not([data-theme="light"])` dark block (0,2,0) so these tokens win in all three theme
+   states (system, explicit light, explicit dark). */
+:root:not(#dts) {
+  --bg: #08080a;
+  --surface: #111114;
+  --surface-2: #16161a;
+  --ink: #f5f5f7;
+  --muted: #a9aab4;
+  --faint: #6c6d77;
+  --line: rgba(255, 255, 255, .09);
+  --line-strong: rgba(255, 255, 255, .2);
+  --accent: #cbab68;
+  --accent-hover: #eed6a3;
+  --accent-ink: #15110a;
+  --accent-soft: rgba(203, 171, 104, .13);
+  --focus: #4a86f0;
+  --warn-bg: rgba(238, 180, 80, .11);
+  --warn-ink: #f0cb8c;
+  --st-yes-bg: rgba(240, 184, 119, .14); --st-yes: #f3c48e;
+  --st-no-bg: rgba(134, 205, 182, .13);  --st-no: #9bd8c3;
+  --st-unk-bg: rgba(169, 181, 239, .14); --st-unk: #b7c1f2;
+  --st-na-bg: rgba(255, 255, 255, .07);  --st-na: #b9bac2;
+  --paper: #fbf8f1;
+  --radius: 20px;
+  --shadow: 0 1px 0 rgba(255, 255, 255, .04) inset, 0 24px 48px -12px rgba(0, 0, 0, .55);
+  --serif: "Bricolage Grotesque", "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+  --sans: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  color-scheme: dark;
+}
+body {
+  background:
+    radial-gradient(1100px 520px at 50% -180px, rgba(203, 171, 104, .12), transparent 70%),
+    var(--bg);
+  background-attachment: fixed;
+}
+.topbar { background: color-mix(in srgb, var(--bg) 82%, transparent); }
+.brand { font-family: var(--serif); font-size: 17px; letter-spacing: -.005em; }
+.brand-mark.has-logo { width: 30px; height: 30px; border-radius: 0; }
+.q-title, .hero-title, .review-sec h2, .signer-name { letter-spacing: -.02em; font-weight: 600; }
+.hero-title { font-size: 40px; line-height: 1.08; }
+@media (max-width: 600px) { .hero-title { font-size: 31px; } }
+.eyebrow { font-family: "Space Mono", ui-monospace, Menlo, monospace; font-size: 11.5px; letter-spacing: .08em; text-transform: uppercase; }
+.qnum { font-family: "Space Mono", ui-monospace, Menlo, monospace; letter-spacing: .02em; }
+.opt { background: var(--surface-2); }
+.opt[aria-checked="true"], .opt[aria-pressed="true"] { box-shadow: 0 0 0 1px var(--accent) inset; }
+.btn-primary { box-shadow: 0 10px 24px -10px rgba(203, 171, 104, .55); }
+.progress-fill { background: linear-gradient(90deg, #8f7638, #cbab68 60%, #eed6a3); }
+.official blockquote { font-family: var(--sans); }
+.menu .danger { color: #ff8a80; }
+
+</style>
+</head>
+<body>
+<header class="topbar">
+    <div class="brand"><span class="brand-mark" aria-hidden="true"></span><span id="brand-team"></span></div>
+    <div class="topbar-right">
+      <span id="saved" class="saved" aria-live="polite"></span>
+      <button id="menu-btn" class="icon-btn" aria-haspopup="menu" aria-expanded="false" aria-label="More options">
+        <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><circle cx="5" cy="12" r="1.8"/><circle cx="12" cy="12" r="1.8"/><circle cx="19" cy="12" r="1.8"/></svg>
+      </button>
+      <div id="menu" class="menu" role="menu" hidden>
+        <button role="menuitem" data-act="sections">Jump to a section</button>
+        <button role="menuitem" data-act="export">Save my answers to a file</button>
+        <button role="menuitem" data-act="import">Load answers from a file</button>
+        <button role="menuitem" data-act="reset" class="danger">Start over</button>
+      </div>
+      <input id="import-file" type="file" accept="application/json,.json" hidden>
+    </div>
+    <div class="progress" id="progress" hidden>
+      <div class="progress-meta"><span id="progress-section"></span><span id="progress-count"></span></div>
+      <div class="progress-track"><div class="progress-fill" id="progress-fill"></div></div>
+    </div>
+  </header>
+
+
+  <div class="layout">
+    <nav class="sidebar" id="sidebar" aria-label="Sections"></nav>
+    <main id="screen" class="screen" tabindex="-1"></main>
+  </div>
+
+  <dialog id="sections-dialog" class="sheet">
+    <div class="sheet-head"><h2>Sections</h2><button class="icon-btn" data-close aria-label="Close">✕</button></div>
+    <div id="sections-list"></div>
+  </dialog>
+
+  <dialog id="ask" class="sheet ask" aria-labelledby="ask-msg">
+    <form method="dialog">
+      <p id="ask-msg"></p>
+      <div class="ask-actions">
+        <button id="ask-cancel" value="cancel" class="btn btn-ghost">Cancel</button>
+        <button id="ask-ok" value="ok" class="btn btn-primary">OK</button>
+      </div>
+    </form>
+  </dialog>
+
+  <noscript><p class="noscript">This questionnaire needs JavaScript turned on.</p></noscript>
+<script src="vendor/pdf-lib.min.js"></script>
+<script type="module">
+const BRAND = {
+ "agent": "John Restrepo",
+ "role": "Licensed real estate agent · RES.0817347",
+ "brokerage": "Jarah Tuttle LLC",
+ "phone": "(203) 883-3399",
+ "email": "John@dtstamford.com",
+ "logo": "brand/logo-gold.webp",
+ "photo": "brand/john-restrepo.webp",
+ "team": "Downtown Stamford",
+ "contactLine": "Questions while you fill this out? Reach out to your agent any time."
+};
+const ACCESS = {"salt":"668d5556874b5a2782754ff235036263","hash":"ae82e1b0272620a316a4c1819bce2e31818b5d08c347a49d038ec00cebbec6ed","iterations":150000,"hint":"John sent you a code with the link to this questionnaire."};
+
+// ── pdfmap.js ──
+// GENERATED by tools/build-map.py from tools/probe.json — do not hand-edit.
+// Coordinates are pdf-lib points, origin bottom-left; rule y = the baseline to write on.
+const PDFMAP = {
+ "slots": {
+  "q1": {
+   "page": 0,
+   "rules": [
+    {
+     "x0": 246.4,
+     "x1": 567.5,
+     "y": 386.6,
+     "label": "1) Name of seller(s):",
+     "src": "rule"
+    },
+    {
+     "x0": 171.7,
+     "x1": 567.5,
+     "y": 369.3,
+     "label": "",
+     "src": "rule"
+    }
+   ]
+  },
+  "q2": {
+   "page": 0,
+   "rules": [
+    {
+     "x0": 326.3,
+     "x1": 567.5,
+     "y": 352.0,
+     "label": "2) Street address, municipality, zip code:",
+     "src": "rule"
+    },
+    {
+     "x0": 171.7,
+     "x1": 567.5,
+     "y": 334.9,
+     "label": "",
+     "src": "rule"
+    }
+   ]
+  },
+  "q3": {
+   "page": 0,
+   "rules": [
+    {
+     "x0": 311.2,
+     "x1": 567.5,
+     "y": 268.5,
+     "label": "3) What year was the structure built?",
+     "src": "rule"
+    }
+   ]
+  },
+  "q4": {
+   "page": 0,
+   "box": {
+    "yes": [
+     32.39,
+     252.72
+    ],
+    "no": [
+     59.27,
+     252.72
+    ],
+    "unk": [
+     86.03,
+     252.72
+    ],
+    "na": [
+     112.91,
+     252.72
+    ]
+   },
+   "rules": [
+    {
+     "x0": 347.0,
+     "x1": 422.0,
+     "y": 249.3,
+     "label": "\u0000 \u0000 4) How long have you occupied the property?",
+     "src": "underscore"
+    }
+   ]
+  },
+  "q5": {
+   "page": 0,
+   "box": {
+    "yes": [
+     32.39,
+     235.44
+    ],
+    "no": [
+     59.27,
+     235.44
+    ],
+    "unk": [
+     86.03,
+     235.44
+    ],
+    "na": [
+     112.91,
+     235.44
+    ]
+   },
+   "rules": [
+    {
+     "x0": 300.8,
+     "x1": 567.5,
+     "y": 216.7,
+     "label": "encroachments? If yes, explain:",
+     "src": "rule"
+    },
+    {
+     "x0": 171.7,
+     "x1": 567.5,
+     "y": 199.5,
+     "label": "",
+     "src": "rule"
+    },
+    {
+     "x0": 171.7,
+     "x1": 567.5,
+     "y": 182.2,
+     "label": "",
+     "src": "rule"
+    }
+   ]
+  },
+  "q6": {
+   "page": 0,
+   "box": {
+    "yes": [
+     32.39,
+     166.44
+    ],
+    "no": [
+     59.27,
+     166.44
+    ],
+    "unk": [
+     86.03,
+     166.44
+    ],
+    "na": [
+     112.91,
+     166.44
+    ]
+   },
+   "rules": [
+    {
+     "x0": 474.2,
+     "x1": 567.5,
+     "y": 147.7,
+     "label": "t limited to, any easement or right of way? If yes, explain:",
+     "src": "rule"
+    },
+    {
+     "x0": 171.7,
+     "x1": 567.5,
+     "y": 130.5,
+     "label": "",
+     "src": "rule"
+    },
+    {
+     "x0": 171.7,
+     "x1": 567.5,
+     "y": 113.2,
+     "label": "",
+     "src": "rule"
+    }
+   ]
+  },
+  "q7": {
+   "page": 0,
+   "box": {
+    "yes": [
+     32.39,
+     97.44
+    ],
+    "no": [
+     59.27,
+     97.44
+    ],
+    "unk": [
+     86.03,
+     97.44
+    ],
+    "na": [
+     112.91,
+     97.44
+    ]
+   },
+   "rules": [
+    {
+     "x0": 495.8,
+     "x1": 567.5,
+     "y": 96.0,
+     "label": "ood hazard area or an inland wetlands area? If yes, explain:",
+     "src": "rule"
+    },
+    {
+     "x0": 171.7,
+     "x1": 567.5,
+     "y": 78.7,
+     "label": "",
+     "src": "rule"
+    },
+    {
+     "x0": 171.7,
+     "x1": 567.5,
+     "y": 61.5,
+     "label": "",
+     "src": "rule"
+    }
+   ]
+  },
+  "q8": {
+   "page": 1,
+   "box": {
+    "yes": [
+     32.39,
+     713.28
+    ],
+    "no": [
+     59.27,
+     713.28
+    ],
+    "unk": [
+     86.03,
+     713.28
+    ],
+    "na": [
+     112.91,
+     713.28
+    ]
+   },
+   "rules": [
+    {
+     "x0": 487.7,
+     "x1": 567.5,
+     "y": 694.5,
+     "label": "ent of Energy and Environmental Protection? If yes, explain:",
+     "src": "rule"
+    },
+    {
+     "x0": 171.7,
+     "x1": 567.5,
+     "y": 677.2,
+     "label": "",
+     "src": "rule"
+    },
+    {
+     "x0": 171.7,
+     "x1": 567.5,
+     "y": 660.0,
+     "label": "",
+     "src": "rule"
+    },
+    {
+     "x0": 171.7,
+     "x1": 567.5,
+     "y": 642.8,
+     "label": "",
+     "src": "rule"
+    }
+   ]
+  },
+  "q9": {
+   "page": 1,
+   "box": {
+    "yes": [
+     32.39,
+     627.0
+    ],
+    "no": [
+     59.27,
+     627.0
+    ],
+    "unk": [
+     86.03,
+     627.0
+    ],
+    "na": [
+     112.91,
+     627.0
+    ]
+   },
+   "rules": [
+    {
+     "x0": 171.7,
+     "x1": 567.5,
+     "y": 573.8,
+     "label": "",
+     "src": "rule"
+    },
+    {
+     "x0": 171.7,
+     "x1": 567.5,
+     "y": 556.5,
+     "label": "",
+     "src": "rule"
+    },
+    {
+     "x0": 171.7,
+     "x1": 567.5,
+     "y": 539.2,
+     "label": "",
+     "src": "rule"
+    }
+   ]
+  },
+  "q10": {
+   "page": 1,
+   "box": {
+    "yes": [
+     32.39,
+     523.56
+    ],
+    "no": [
+     59.27,
+     523.56
+    ],
+    "unk": [
+     86.03,
+     523.56
+    ],
+    "na": [
+     112.91,
+     523.56
+    ]
+   },
+   "rules": [
+    {
+     "x0": 479.6,
+     "x1": 567.5,
+     "y": 504.8,
+     "label": "n the National Register of Historic Places? If yes, explain:",
+     "src": "rule"
+    },
+    {
+     "x0": 171.7,
+     "x1": 567.5,
+     "y": 487.5,
+     "label": "",
+     "src": "rule"
+    },
+    {
+     "x0": 171.7,
+     "x1": 567.5,
+     "y": 470.2,
+     "label": "",
+     "src": "rule"
+    }
+   ]
+  },
+  "q11": {
+   "page": 1,
+   "box": {
+    "yes": [
+     32.39,
+     420.0
+    ],
+    "no": [
+     59.27,
+     420.0
+    ],
+    "unk": [
+     86.03,
+     420.0
+    ],
+    "na": [
+     112.91,
+     420.0
+    ]
+   },
+   "rules": [
+    {
+     "x0": 423.1,
+     "x1": 567.5,
+     "y": 418.5,
+     "label": "property located in a special tax district? If yes, explain:",
+     "src": "rule"
+    },
+    {
+     "x0": 171.7,
+     "x1": 567.5,
+     "y": 401.2,
+     "label": "",
+     "src": "rule"
+    },
+    {
+     "x0": 171.7,
+     "x1": 567.5,
+     "y": 384.1,
+     "label": "",
+     "src": "rule"
+    }
+   ]
+  },
+  "q12": {
+   "page": 1,
+   "box": {
+    "yes": [
+     32.39,
+     368.28
+    ],
+    "no": [
+     59.27,
+     368.28
+    ],
+    "unk": [
+     86.03,
+     368.28
+    ],
+    "na": [
+     112.91,
+     368.28
+    ]
+   },
+   "rules": [
+    {
+     "x0": 206.4,
+     "x1": 567.5,
+     "y": 332.2,
+     "label": "explain:",
+     "src": "rule"
+    },
+    {
+     "x0": 171.7,
+     "x1": 567.5,
+     "y": 315.1,
+     "label": "",
+     "src": "rule"
+    },
+    {
+     "x0": 171.7,
+     "x1": 567.5,
+     "y": 297.8,
+     "label": "",
+     "src": "rule"
+    }
+   ]
+  },
+  "q13": {
+   "page": 1,
+   "box": {
+    "yes": [
+     32.39,
+     282.0
+    ],
+    "no": [
+     59.27,
+     282.0
+    ],
+    "unk": [
+     86.03,
+     282.0
+    ],
+    "na": [
+     112.91,
+     282.0
+    ]
+   },
+   "rules": [
+    {
+     "x0": 336.1,
+     "x1": 567.5,
+     "y": 263.2,
+     "label": "association dues or fees? Please explain:",
+     "src": "rule"
+    },
+    {
+     "x0": 171.7,
+     "x1": 567.5,
+     "y": 246.1,
+     "label": "",
+     "src": "rule"
+    },
+    {
+     "x0": 171.7,
+     "x1": 567.5,
+     "y": 228.8,
+     "label": "",
+     "src": "rule"
+    }
+   ]
+  },
+  "q14": {
+   "page": 1,
+   "box": {
+    "yes": [
+     32.39,
+     213.0
+    ],
+    "no": [
+     59.27,
+     213.0
+    ],
+    "unk": [
+     86.03,
+     213.0
+    ],
+    "na": [
+     112.91,
+     213.0
+    ]
+   },
+   "rules": [
+    {
+     "x0": 206.4,
+     "x1": 567.5,
+     "y": 177.1,
+     "label": "explain:",
+     "src": "rule"
+    },
+    {
+     "x0": 171.7,
+     "x1": 567.5,
+     "y": 159.8,
+     "label": "",
+     "src": "rule"
+    },
+    {
+     "x0": 171.7,
+     "x1": 567.5,
+     "y": 142.5,
+     "label": "",
+     "src": "rule"
+    }
+   ]
+  },
+  "q15": {
+   "page": 2,
+   "box": {
+    "yes": [
+     32.39,
+     713.28
+    ],
+    "no": [
+     59.27,
+     713.28
+    ],
+    "unk": [
+     86.03,
+     713.28
+    ],
+    "na": [
+     112.91,
+     713.28
+    ]
+   },
+   "rules": [
+    {
+     "x0": 428.9,
+     "x1": 567.4,
+     "y": 588.2,
+     "label": "\u0000 Fire alarm system \u0000 Other:",
+     "src": "rule"
+    },
+    {
+     "x0": 400.8,
+     "x1": 567.4,
+     "y": 570.9,
+     "label": "\u0000 Satellite dish antenna",
+     "src": "rule"
+    }
+   ],
+   "inline": {
+    "propane": [
+     174.7,
+     608.28
+    ],
+    "water_heater": [
+     174.7,
+     590.4
+    ],
+    "security_alarm": [
+     174.7,
+     572.41
+    ],
+    "fire_alarm": [
+     174.71,
+     644.28
+    ],
+    "satellite": [
+     174.71,
+     626.28
+    ],
+    "water_treatment": [
+     385.79,
+     644.28
+    ],
+    "solar": [
+     385.79,
+     626.28
+    ],
+    "appliances": [
+     385.79,
+     608.28
+    ],
+    "other": [
+     385.79,
+     590.4
+    ]
+   }
+  },
+  "q16": {
+   "page": 2,
+   "box": {
+    "yes": [
+     32.39,
+     505.32
+    ],
+    "no": [
+     59.27,
+     505.32
+    ],
+    "unk": [
+     86.03,
+     505.32
+    ],
+    "na": [
+     112.91,
+     505.32
+    ]
+   },
+   "rules": [
+    {
+     "x0": 220.1,
+     "x1": 325.1,
+     "y": 501.9,
+     "label": "\u0000 \u0000 \u0000 \u0000 16) Fuel types?",
+     "src": "underscore"
+    },
+    {
+     "x0": 206.4,
+     "x1": 567.5,
+     "y": 486.6,
+     "label": "explain:",
+     "src": "rule"
+    },
+    {
+     "x0": 171.7,
+     "x1": 567.5,
+     "y": 469.3,
+     "label": "",
+     "src": "rule"
+    }
+   ]
+  },
+  "q17": {
+   "page": 2,
+   "box": {
+    "yes": [
+     32.39,
+     453.6
+    ],
+    "no": [
+     59.27,
+     453.6
+    ],
+    "unk": [
+     86.03,
+     453.6
+    ],
+    "na": [
+     112.91,
+     453.6
+    ]
+   },
+   "rules": [
+    {
+     "x0": 265.1,
+     "x1": 395.1,
+     "y": 450.1,
+     "label": "\u0000 \u0000 \u0000 \u0000 17) Hot water heater type?",
+     "src": "underscore"
+    },
+    {
+     "x0": 418.9,
+     "x1": 469.0,
+     "y": 450.1,
+     "label": "17) Hot water heater type? __________________________ Age:",
+     "src": "underscore"
+    },
+    {
+     "x0": 302.9,
+     "x1": 567.5,
+     "y": 434.8,
+     "label": "water problems? If yes, explain:",
+     "src": "rule"
+    },
+    {
+     "x0": 171.7,
+     "x1": 567.5,
+     "y": 417.6,
+     "label": "",
+     "src": "rule"
+    }
+   ]
+  },
+  "q18": {
+   "page": 2,
+   "box": {
+    "yes": [
+     32.39,
+     401.76
+    ],
+    "no": [
+     59.27,
+     401.76
+    ],
+    "unk": [
+     86.03,
+     401.76
+    ],
+    "na": [
+     112.91,
+     401.76
+    ]
+   },
+   "rules": [
+    {
+     "x0": 428.9,
+     "x1": 483.9,
+     "y": 398.3,
+     "label": "re an underground storage tank? If yes, list the age of tank",
+     "src": "underscore"
+    },
+    {
+     "x0": 540.7,
+     "x1": 567.5,
+     "y": 400.3,
+     "label": "tank? If yes, list the age of tank ___________ and location:",
+     "src": "rule"
+    },
+    {
+     "x0": 171.7,
+     "x1": 567.5,
+     "y": 383.1,
+     "label": "",
+     "src": "rule"
+    },
+    {
+     "x0": 171.7,
+     "x1": 567.5,
+     "y": 365.8,
+     "label": "",
+     "src": "rule"
+    }
+   ]
+  },
+  "q19": {
+   "page": 2,
+   "box": {
+    "yes": [
+     32.39,
+     350.04
+    ],
+    "no": [
+     59.27,
+     350.04
+    ],
+    "unk": [
+     86.03,
+     350.04
+    ],
+    "na": [
+     112.91,
+     350.04
+    ]
+   },
+   "rules": [
+    {
+     "x0": 506.9,
+     "x1": 567.5,
+     "y": 348.6,
+     "label": "problems with the underground storage tank? If yes, explain:",
+     "src": "rule"
+    },
+    {
+     "x0": 171.7,
+     "x1": 567.5,
+     "y": 331.3,
+     "label": "",
+     "src": "rule"
+    },
+    {
+     "x0": 171.7,
+     "x1": 567.5,
+     "y": 314.1,
+     "label": "",
+     "src": "rule"
+    }
+   ]
+  },
+  "q20": {
+   "page": 2,
+   "box": {
+    "yes": [
+     32.39,
+     298.32
+    ],
+    "no": [
+     59.27,
+     298.32
+    ],
+    "unk": [
+     86.03,
+     298.32
+    ],
+    "na": [
+     112.91,
+     298.32
+    ]
+   },
+   "rules": [
+    {
+     "x0": 319.3,
+     "x1": 444.3,
+     "y": 260.3,
+     "label": "If yes, what was the date of removal",
+     "src": "underscore"
+    },
+    {
+     "x0": 493.2,
+     "x1": 567.5,
+     "y": 245.1,
+     "label": "erson or business who removed such underground storage tank?",
+     "src": "rule"
+    },
+    {
+     "x0": 171.7,
+     "x1": 567.5,
+     "y": 227.8,
+     "label": "",
+     "src": "rule"
+    }
+   ],
+   "inline": {
+    "yes": [
+     394.94,
+     281.69
+    ],
+    "no": [
+     428.24,
+     281.69
+    ]
+   }
+  },
+  "q21": {
+   "page": 2,
+   "box": {
+    "yes": [
+     32.39,
+     177.6
+    ],
+    "no": [
+     59.27,
+     177.6
+    ],
+    "unk": [
+     86.03,
+     177.6
+    ],
+    "na": [
+     112.91,
+     177.6
+    ]
+   },
+   "rules": [
+    {
+     "x0": 396.1,
+     "x1": 567.5,
+     "y": 176.1,
+     "label": "21) Air conditioning type: \uf080 Central; \uf080 Window; \uf080 Other:",
+     "src": "rule"
+    },
+    {
+     "x0": 433.4,
+     "x1": 567.5,
+     "y": 158.8,
+     "label": "you aware of any air conditioning problems? If yes, explain:",
+     "src": "rule"
+    },
+    {
+     "x0": 171.7,
+     "x1": 567.5,
+     "y": 141.6,
+     "label": "",
+     "src": "rule"
+    },
+    {
+     "x0": 171.7,
+     "x1": 567.5,
+     "y": 124.4,
+     "label": "",
+     "src": "rule"
+    }
+   ],
+   "inline": {
+    "central": [
+     267.21,
+     178.25
+    ],
+    "window": [
+     312.21,
+     178.25
+    ],
+    "other": [
+     361.89,
+     178.25
+    ]
+   }
+  },
+  "q22": {
+   "page": 2,
+   "box": {
+    "yes": [
+     32.39,
+     108.6
+    ],
+    "no": [
+     59.27,
+     108.6
+    ],
+    "unk": [
+     86.03,
+     108.6
+    ],
+    "na": [
+     112.91,
+     108.6
+    ]
+   },
+   "rules": [
+    {
+     "x0": 349.8,
+     "x1": 567.5,
+     "y": 107.1,
+     "label": "\u0000 22) Plumbing system problems? If yes, explain:",
+     "src": "rule"
+    },
+    {
+     "x0": 171.7,
+     "x1": 567.5,
+     "y": 89.8,
+     "label": "",
+     "src": "rule"
+    },
+    {
+     "x0": 171.7,
+     "x1": 567.5,
+     "y": 72.6,
+     "label": "",
+     "src": "rule"
+    }
+   ]
+  },
+  "q23": {
+   "page": 3,
+   "box": {
+    "yes": [
+     32.39,
+     713.28
+    ],
+    "no": [
+     59.27,
+     713.28
+    ],
+    "unk": [
+     86.03,
+     713.28
+    ],
+    "na": [
+     112.91,
+     713.28
+    ]
+   },
+   "rules": [
+    {
+     "x0": 349.2,
+     "x1": 567.5,
+     "y": 711.8,
+     "label": "\u0000 23) Electrical system problems? If yes, explain:",
+     "src": "rule"
+    },
+    {
+     "x0": 171.7,
+     "x1": 567.5,
+     "y": 694.5,
+     "label": "",
+     "src": "rule"
+    },
+    {
+     "x0": 171.7,
+     "x1": 567.5,
+     "y": 677.2,
+     "label": "",
+     "src": "rule"
+    }
+   ]
+  },
+  "q24": {
+   "page": 3,
+   "box": {
+    "yes": [
+     32.39,
+     661.44
+    ],
+    "no": [
+     59.27,
+     661.44
+    ],
+    "unk": [
+     86.03,
+     661.44
+    ],
+    "na": [
+     112.91,
+     661.44
+    ]
+   },
+   "rules": [
+    {
+     "x0": 386.0,
+     "x1": 567.5,
+     "y": 660.0,
+     "label": "24) Electronic security system problems? If yes, explain:",
+     "src": "rule"
+    },
+    {
+     "x0": 171.7,
+     "x1": 567.5,
+     "y": 642.8,
+     "label": "",
+     "src": "rule"
+    },
+    {
+     "x0": 171.7,
+     "x1": 567.5,
+     "y": 625.5,
+     "label": "",
+     "src": "rule"
+    }
+   ]
+  },
+  "q25": {
+   "page": 3,
+   "box": {
+    "yes": [
+     32.39,
+     609.72
+    ],
+    "no": [
+     59.27,
+     609.72
+    ],
+    "unk": [
+     86.03,
+     609.72
+    ],
+    "na": [
+     112.91,
+     609.72
+    ]
+   },
+   "rules": [
+    {
+     "x0": 269.0,
+     "x1": 293.9,
+     "y": 589.1,
+     "label": "the number of detectors",
+     "src": "underscore"
+    },
+    {
+     "x0": 535.4,
+     "x1": 567.5,
+     "y": 591.1,
+     "label": "__ and whether there have been problems with such detectors:",
+     "src": "rule"
+    },
+    {
+     "x0": 171.7,
+     "x1": 567.5,
+     "y": 573.8,
+     "label": "",
+     "src": "rule"
+    },
+    {
+     "x0": 171.7,
+     "x1": 567.5,
+     "y": 556.5,
+     "label": "",
+     "src": "rule"
+    }
+   ]
+  },
+  "q26": {
+   "page": 3,
+   "box": {
+    "yes": [
+     32.39,
+     540.72
+    ],
+    "no": [
+     59.27,
+     540.72
+    ],
+    "unk": [
+     86.03,
+     540.72
+    ],
+    "na": [
+     112.91,
+     540.72
+    ]
+   },
+   "rules": [
+    {
+     "x0": 365.0,
+     "x1": 567.5,
+     "y": 539.2,
+     "label": "\u0000 26) Fire sprinkler system problems? If yes, explain:",
+     "src": "rule"
+    },
+    {
+     "x0": 171.7,
+     "x1": 567.5,
+     "y": 522.1,
+     "label": "",
+     "src": "rule"
+    },
+    {
+     "x0": 171.7,
+     "x1": 567.5,
+     "y": 504.8,
+     "label": "",
+     "src": "rule"
+    }
+   ]
+  },
+  "q27": {
+   "page": 3,
+   "box": {
+    "yes": [
+     32.39,
+     439.92
+    ],
+    "no": [
+     59.27,
+     439.92
+    ],
+    "unk": [
+     86.03,
+     439.92
+    ],
+    "na": [
+     112.91,
+     439.92
+    ]
+   },
+   "rules": [
+    {
+     "x0": 433.2,
+     "x1": 567.5,
+     "y": 438.4,
+     "label": "mestic water system type: \uf080 Public; \uf080 Private well; \uf080 Other:",
+     "src": "rule"
+    }
+   ],
+   "inline": {
+    "public": [
+     294.09,
+     440.57
+    ],
+    "private": [
+     335.25,
+     440.57
+    ],
+    "other": [
+     398.85,
+     440.57
+    ]
+   }
+  },
+  "q28": {
+   "page": 3,
+   "rules": []
+  },
+  "q28a": {
+   "page": 3,
+   "box": {
+    "yes": [
+     32.39,
+     405.36
+    ],
+    "no": [
+     59.27,
+     405.36
+    ],
+    "unk": [
+     86.03,
+     405.36
+    ],
+    "na": [
+     112.91,
+     405.36
+    ]
+   },
+   "rules": [
+    {
+     "x0": 229.0,
+     "x1": 269.0,
+     "y": 384.7,
+     "label": "metered?",
+     "src": "underscore"
+    },
+    {
+     "x0": 427.4,
+     "x1": 492.5,
+     "y": 384.7,
+     "label": "metered? ________ Provide the amount of the expense/fee",
+     "src": "underscore"
+    },
+    {
+     "x0": 189.7,
+     "x1": 567.5,
+     "y": 369.4,
+     "label": "",
+     "src": "rule"
+    },
+    {
+     "x0": 189.7,
+     "x1": 567.5,
+     "y": 352.2,
+     "label": "",
+     "src": "rule"
+    }
+   ]
+  },
+  "q28b": {
+   "page": 3,
+   "box": {
+    "yes": [
+     32.39,
+     336.36
+    ],
+    "no": [
+     59.27,
+     336.36
+    ],
+    "unk": [
+     86.03,
+     336.36
+    ],
+    "na": [
+     112.91,
+     336.36
+    ]
+   },
+   "rules": [
+    {
+     "x0": 434.8,
+     "x1": 567.5,
+     "y": 334.9,
+     "label": "Are there unpaid water charges? If yes, state amount unpaid:",
+     "src": "rule"
+    }
+   ]
+  },
+  "q29": {
+   "page": 3,
+   "box": {
+    "yes": [
+     32.39,
+     301.92
+    ],
+    "no": [
+     59.27,
+     301.92
+    ],
+    "unk": [
+     86.03,
+     301.92
+    ],
+    "na": [
+     112.91,
+     301.92
+    ]
+   },
+   "rules": [
+    {
+     "x0": 317.8,
+     "x1": 567.5,
+     "y": 265.9,
+     "label": "describe results of such testing:",
+     "src": "rule"
+    },
+    {
+     "x0": 189.7,
+     "x1": 567.5,
+     "y": 248.7,
+     "label": "",
+     "src": "rule"
+    },
+    {
+     "x0": 189.7,
+     "x1": 567.5,
+     "y": 231.4,
+     "label": "",
+     "src": "rule"
+    }
+   ]
+  },
+  "q30": {
+   "page": 3,
+   "box": {
+    "yes": [
+     32.39,
+     215.64
+    ],
+    "no": [
+     59.27,
+     215.64
+    ],
+    "unk": [
+     86.03,
+     215.64
+    ],
+    "na": [
+     112.91,
+     215.64
+    ]
+   },
+   "rules": [
+    {
+     "x0": 393.6,
+     "x1": 567.5,
+     "y": 196.9,
+     "label": "quality, quantity, recovery, or pressure? If yes, explain:",
+     "src": "rule"
+    },
+    {
+     "x0": 171.7,
+     "x1": 567.5,
+     "y": 179.7,
+     "label": "",
+     "src": "rule"
+    },
+    {
+     "x0": 171.7,
+     "x1": 567.5,
+     "y": 162.4,
+     "label": "",
+     "src": "rule"
+    }
+   ]
+  },
+  "q31": {
+   "page": 3,
+   "box": {
+    "yes": [
+     32.39,
+     97.56
+    ],
+    "no": [
+     59.27,
+     97.56
+    ],
+    "unk": [
+     86.03,
+     97.56
+    ],
+    "na": [
+     112.91,
+     97.56
+    ]
+   },
+   "rules": [
+    {
+     "x0": 465.6,
+     "x1": 567.5,
+     "y": 96.1,
+     "label": "sposal system type: \uf080 Public; \uf080 Septic; \uf080 Cesspool; \uf080 Other:",
+     "src": "rule"
+    },
+    {
+     "x0": 171.7,
+     "x1": 567.5,
+     "y": 78.8,
+     "label": "",
+     "src": "rule"
+    }
+   ],
+   "inline": {
+    "public": [
+     297.45,
+     98.21
+    ],
+    "septic": [
+     338.61,
+     98.21
+    ],
+    "cesspool": [
+     379.17,
+     98.21
+    ],
+    "other": [
+     431.37,
+     98.21
+    ]
+   }
+  },
+  "q32": {
+   "page": 4,
+   "rules": []
+  },
+  "q32a": {
+   "page": 4,
+   "box": {
+    "yes": [
+     32.39,
+     696.0
+    ],
+    "no": [
+     59.27,
+     696.0
+    ],
+    "unk": [
+     86.03,
+     696.0
+    ],
+    "na": [
+     112.91,
+     696.0
+    ]
+   },
+   "rules": [
+    {
+     "x0": 488.0,
+     "x1": 567.5,
+     "y": 694.5,
+     "label": "te charge made for sewer use? If yes, is it flat or metered?",
+     "src": "rule"
+    },
+    {
+     "x0": 189.7,
+     "x1": 567.5,
+     "y": 677.2,
+     "label": "",
+     "src": "rule"
+    }
+   ]
+  },
+  "q32b": {
+   "page": 4,
+   "box": {
+    "yes": [
+     32.39,
+     661.44
+    ],
+    "no": [
+     59.27,
+     661.44
+    ],
+    "unk": [
+     86.03,
+     661.44
+    ],
+    "na": [
+     112.91,
+     661.44
+    ]
+   },
+   "rules": [
+    {
+     "x0": 327.2,
+     "x1": 417.2,
+     "y": 658.0,
+     "label": "\u0000 \u0000 b) If it is a flat amount, state amount",
+     "src": "underscore"
+    },
+    {
+     "x0": 479.4,
+     "x1": 567.5,
+     "y": 660.0,
+     "label": " flat amount, state amount __________________ and due dates:",
+     "src": "rule"
+    },
+    {
+     "x0": 189.7,
+     "x1": 567.5,
+     "y": 642.8,
+     "label": "",
+     "src": "rule"
+    }
+   ]
+  },
+  "q32c": {
+   "page": 4,
+   "box": {
+    "yes": [
+     32.39,
+     627.0
+    ],
+    "no": [
+     59.27,
+     627.0
+    ],
+    "unk": [
+     86.03,
+     627.0
+    ],
+    "na": [
+     112.91,
+     627.0
+    ]
+   },
+   "rules": [
+    {
+     "x0": 437.8,
+     "x1": 567.5,
+     "y": 625.5,
+     "label": "re there any unpaid sewer charges? If yes, state the amount:",
+     "src": "rule"
+    }
+   ]
+  },
+  "q33": {
+   "page": 4,
+   "rules": []
+  },
+  "q33a": {
+   "page": 4,
+   "box": {
+    "yes": [
+     32.39,
+     592.56
+    ],
+    "no": [
+     59.27,
+     592.56
+    ],
+    "unk": [
+     86.03,
+     592.56
+    ],
+    "na": [
+     112.91,
+     592.56
+    ]
+   },
+   "rules": [
+    {
+     "x0": 299.6,
+     "x1": 567.5,
+     "y": 591.1,
+     "label": "\u0000 \u0000 \u0000 a) Name of service company:",
+     "src": "rule"
+    }
+   ]
+  },
+  "q33b": {
+   "page": 4,
+   "box": {
+    "yes": [
+     32.39,
+     575.28
+    ],
+    "no": [
+     59.27,
+     575.28
+    ],
+    "unk": [
+     86.03,
+     575.28
+    ],
+    "na": [
+     112.91,
+     575.28
+    ]
+   },
+   "rules": [
+    {
+     "x0": 265.1,
+     "x1": 390.1,
+     "y": 571.8,
+     "label": "\u0000 \u0000 \u0000 \u0000 b) Date last pumped:",
+     "src": "underscore"
+    },
+    {
+     "x0": 189.7,
+     "x1": 567.5,
+     "y": 556.5,
+     "label": "",
+     "src": "rule"
+    }
+   ]
+  },
+  "q33c": {
+   "page": 4,
+   "box": {
+    "yes": [
+     32.39,
+     540.72
+    ],
+    "no": [
+     59.27,
+     540.72
+    ],
+    "unk": [
+     86.03,
+     540.72
+    ],
+    "na": [
+     112.91,
+     540.72
+    ]
+   },
+   "rules": [
+    {
+     "x0": 431.3,
+     "x1": 567.5,
+     "y": 539.2,
+     "label": " For any sewage system, are there problems? If yes, explain:",
+     "src": "rule"
+    },
+    {
+     "x0": 189.7,
+     "x1": 567.5,
+     "y": 522.1,
+     "label": "",
+     "src": "rule"
+    },
+    {
+     "x0": 189.7,
+     "x1": 567.5,
+     "y": 504.8,
+     "label": "",
+     "src": "rule"
+    },
+    {
+     "x0": 189.7,
+     "x1": 567.5,
+     "y": 487.5,
+     "label": "",
+     "src": "rule"
+    },
+    {
+     "x0": 189.7,
+     "x1": 567.5,
+     "y": 470.2,
+     "label": "",
+     "src": "rule"
+    }
+   ]
+  },
+  "q34": {
+   "page": 4,
+   "box": {
+    "yes": [
+     32.39,
+     405.36
+    ],
+    "no": [
+     59.27,
+     405.36
+    ],
+    "unk": [
+     86.03,
+     405.36
+    ],
+    "na": [
+     112.91,
+     405.36
+    ]
+   },
+   "rules": [
+    {
+     "x0": 453.6,
+     "x1": 567.5,
+     "y": 403.9,
+     "label": " insulation or building materials present? If yes, location:",
+     "src": "rule"
+    },
+    {
+     "x0": 171.7,
+     "x1": 567.5,
+     "y": 386.7,
+     "label": "",
+     "src": "rule"
+    }
+   ]
+  },
+  "q35": {
+   "page": 4,
+   "box": {
+    "yes": [
+     32.39,
+     370.92
+    ],
+    "no": [
+     59.27,
+     370.92
+    ],
+    "unk": [
+     86.03,
+     370.92
+    ],
+    "na": [
+     112.91,
+     370.92
+    ]
+   },
+   "rules": [
+    {
+     "x0": 324.0,
+     "x1": 567.5,
+     "y": 369.4,
+     "label": "\u0000 \u0000 35) Is lead paint present? If yes, location:",
+     "src": "rule"
+    },
+    {
+     "x0": 171.7,
+     "x1": 567.5,
+     "y": 352.2,
+     "label": "",
+     "src": "rule"
+    }
+   ]
+  },
+  "q36": {
+   "page": 4,
+   "box": {
+    "yes": [
+     32.39,
+     336.36
+    ],
+    "no": [
+     59.27,
+     336.36
+    ],
+    "unk": [
+     86.03,
+     336.36
+    ],
+    "na": [
+     112.91,
+     336.36
+    ]
+   },
+   "rules": [
+    {
+     "x0": 342.2,
+     "x1": 567.5,
+     "y": 334.9,
+     "label": "\u0000 \u0000 36) Is lead plumbing present? If yes, location:",
+     "src": "rule"
+    },
+    {
+     "x0": 171.7,
+     "x1": 567.5,
+     "y": 317.7,
+     "label": "",
+     "src": "rule"
+    }
+   ]
+  },
+  "q37": {
+   "page": 4,
+   "box": {
+    "yes": [
+     32.39,
+     252.84
+    ],
+    "no": [
+     59.27,
+     252.84
+    ],
+    "unk": [
+     86.03,
+     252.84
+    ],
+    "na": [
+     112.91,
+     252.84
+    ]
+   },
+   "rules": [
+    {
+     "x0": 376.6,
+     "x1": 567.5,
+     "y": 251.4,
+     "label": "37) Is the foundation made of concrete? If no, explain:",
+     "src": "rule"
+    },
+    {
+     "x0": 171.7,
+     "x1": 567.5,
+     "y": 234.1,
+     "label": "",
+     "src": "rule"
+    }
+   ]
+  },
+  "q38": {
+   "page": 4,
+   "box": {
+    "yes": [
+     32.39,
+     218.28
+    ],
+    "no": [
+     59.27,
+     218.28
+    ],
+    "unk": [
+     86.03,
+     218.28
+    ],
+    "na": [
+     112.91,
+     218.28
+    ]
+   },
+   "rules": [
+    {
+     "x0": 387.8,
+     "x1": 567.5,
+     "y": 216.8,
+     "label": "38) Foundation/slab problems or settling? If yes, explain:",
+     "src": "rule"
+    },
+    {
+     "x0": 171.7,
+     "x1": 567.5,
+     "y": 199.5,
+     "label": "",
+     "src": "rule"
+    },
+    {
+     "x0": 171.7,
+     "x1": 567.5,
+     "y": 182.4,
+     "label": "",
+     "src": "rule"
+    }
+   ]
+  },
+  "q39": {
+   "page": 4,
+   "box": {
+    "yes": [
+     32.39,
+     166.56
+    ],
+    "no": [
+     59.27,
+     166.56
+    ],
+    "unk": [
+     86.03,
+     166.56
+    ],
+    "na": [
+     112.91,
+     166.56
+    ]
+   },
+   "rules": [
+    {
+     "x0": 510.5,
+     "x1": 567.5,
+     "y": 165.1,
+     "label": "ge/dampness? If yes, explain amount, frequency and location:",
+     "src": "rule"
+    },
+    {
+     "x0": 171.7,
+     "x1": 567.5,
+     "y": 147.8,
+     "label": "",
+     "src": "rule"
+    }
+   ]
+  },
+  "q40": {
+   "page": 4,
+   "box": {
+    "yes": [
+     32.39,
+     132.0
+    ],
+    "no": [
+     59.27,
+     132.0
+    ],
+    "unk": [
+     86.03,
+     132.0
+    ],
+    "na": [
+     112.91,
+     132.0
+    ]
+   },
+   "rules": [
+    {
+     "x0": 329.2,
+     "x1": 567.5,
+     "y": 130.5,
+     "label": "\u0000 \u0000 40) Sump pump problems? If yes, explain:",
+     "src": "rule"
+    },
+    {
+     "x0": 171.7,
+     "x1": 567.5,
+     "y": 113.4,
+     "label": "",
+     "src": "rule"
+    },
+    {
+     "x0": 171.7,
+     "x1": 567.5,
+     "y": 96.1,
+     "label": "",
+     "src": "rule"
+    }
+   ]
+  },
+  "q41": {
+   "page": 5,
+   "box": {
+    "yes": [
+     32.39,
+     713.28
+    ],
+    "no": [
+     59.27,
+     713.28
+    ],
+    "unk": [
+     86.03,
+     713.28
+    ],
+    "na": [
+     112.91,
+     713.28
+    ]
+   },
+   "rules": [
+    {
+     "x0": 345.8,
+     "x1": 567.5,
+     "y": 642.8,
+     "label": "testing and describe results of such testing:",
+     "src": "rule"
+    },
+    {
+     "x0": 171.7,
+     "x1": 567.5,
+     "y": 625.5,
+     "label": "",
+     "src": "rule"
+    },
+    {
+     "x0": 171.7,
+     "x1": 567.5,
+     "y": 608.2,
+     "label": "",
+     "src": "rule"
+    },
+    {
+     "x0": 171.7,
+     "x1": 567.5,
+     "y": 591.1,
+     "label": "",
+     "src": "rule"
+    },
+    {
+     "x0": 171.7,
+     "x1": 567.5,
+     "y": 573.8,
+     "label": "",
+     "src": "rule"
+    }
+   ]
+  },
+  "q42": {
+   "page": 5,
+   "box": {
+    "yes": [
+     32.39,
+     558.0
+    ],
+    "no": [
+     59.27,
+     558.0
+    ],
+    "unk": [
+     86.03,
+     558.0
+    ],
+    "na": [
+     112.91,
+     558.0
+    ]
+   },
+   "rules": [
+    {
+     "x0": 171.7,
+     "x1": 567.5,
+     "y": 522.1,
+     "label": "",
+     "src": "rule"
+    },
+    {
+     "x0": 171.7,
+     "x1": 567.5,
+     "y": 504.8,
+     "label": "",
+     "src": "rule"
+    }
+   ]
+  },
+  "q43": {
+   "page": 5,
+   "box": {
+    "yes": [
+     32.39,
+     489.0
+    ],
+    "no": [
+     59.27,
+     489.0
+    ],
+    "unk": [
+     86.03,
+     489.0
+    ],
+    "na": [
+     112.91,
+     489.0
+    ]
+   },
+   "rules": [
+    {
+     "x0": 224.8,
+     "x1": 567.5,
+     "y": 470.2,
+     "label": "yes, explain:",
+     "src": "rule"
+    },
+    {
+     "x0": 171.7,
+     "x1": 567.5,
+     "y": 453.1,
+     "label": "",
+     "src": "rule"
+    },
+    {
+     "x0": 171.7,
+     "x1": 567.5,
+     "y": 435.8,
+     "label": "",
+     "src": "rule"
+    }
+   ]
+  },
+  "q44": {
+   "page": 5,
+   "box": {
+    "yes": [
+     32.39,
+     420.0
+    ],
+    "no": [
+     59.27,
+     420.0
+    ],
+    "unk": [
+     86.03,
+     420.0
+    ],
+    "na": [
+     112.91,
+     420.0
+    ]
+   },
+   "rules": [
+    {
+     "x0": 216.8,
+     "x1": 376.7,
+     "y": 416.5,
+     "label": "\u0000 \u0000 \u0000 \u0000 44) Roof type:",
+     "src": "underscore"
+    },
+    {
+     "x0": 403.4,
+     "x1": 567.5,
+     "y": 418.5,
+     "label": "44) Roof type: ________________________________; Age:",
+     "src": "rule"
+    }
+   ]
+  },
+  "q45": {
+   "page": 5,
+   "box": {
+    "yes": [
+     32.39,
+     402.72
+    ],
+    "no": [
+     59.27,
+     402.72
+    ],
+    "unk": [
+     86.03,
+     402.72
+    ],
+    "na": [
+     112.91,
+     402.72
+    ]
+   },
+   "rules": [
+    {
+     "x0": 283.9,
+     "x1": 567.5,
+     "y": 401.2,
+     "label": "\u0000 \u0000 \u0000 \u0000 45) Roof leaks? If yes, explain:",
+     "src": "rule"
+    },
+    {
+     "x0": 171.7,
+     "x1": 567.5,
+     "y": 384.1,
+     "label": "",
+     "src": "rule"
+    }
+   ]
+  },
+  "q46": {
+   "page": 5,
+   "box": {
+    "yes": [
+     32.39,
+     368.28
+    ],
+    "no": [
+     59.27,
+     368.28
+    ],
+    "unk": [
+     86.03,
+     368.28
+    ],
+    "na": [
+     112.91,
+     368.28
+    ]
+   },
+   "rules": [
+    {
+     "x0": 340.2,
+     "x1": 567.5,
+     "y": 366.8,
+     "label": "\u0000 \u0000 46) Exterior siding problems? If yes, explain:",
+     "src": "rule"
+    },
+    {
+     "x0": 171.7,
+     "x1": 567.5,
+     "y": 349.5,
+     "label": "",
+     "src": "rule"
+    }
+   ]
+  },
+  "q47": {
+   "page": 5,
+   "box": {
+    "yes": [
+     32.39,
+     333.72
+    ],
+    "no": [
+     59.27,
+     333.72
+    ],
+    "unk": [
+     86.03,
+     333.72
+    ],
+    "na": [
+     112.91,
+     333.72
+    ]
+   },
+   "rules": [
+    {
+     "x0": 437.4,
+     "x1": 567.5,
+     "y": 332.2,
+     "label": "ey, fireplace, wood or coal stove problems? If yes, explain:",
+     "src": "rule"
+    },
+    {
+     "x0": 171.7,
+     "x1": 567.5,
+     "y": 315.1,
+     "label": "",
+     "src": "rule"
+    }
+   ]
+  },
+  "q48": {
+   "page": 5,
+   "box": {
+    "yes": [
+     32.39,
+     299.28
+    ],
+    "no": [
+     59.27,
+     299.28
+    ],
+    "unk": [
+     86.03,
+     299.28
+    ],
+    "na": [
+     112.91,
+     299.28
+    ]
+   },
+   "rules": [
+    {
+     "x0": 322.8,
+     "x1": 567.5,
+     "y": 297.8,
+     "label": "\u0000 \u0000 48) Patio/deck problems? If yes, explain:",
+     "src": "rule"
+    },
+    {
+     "x0": 171.7,
+     "x1": 567.5,
+     "y": 280.5,
+     "label": "",
+     "src": "rule"
+    }
+   ]
+  },
+  "q49": {
+   "page": 5,
+   "box": {
+    "yes": [
+     32.39,
+     264.72
+    ],
+    "no": [
+     59.27,
+     264.72
+    ],
+    "unk": [
+     86.03,
+     264.72
+    ],
+    "na": [
+     112.91,
+     264.72
+    ]
+   },
+   "rules": [
+    {
+     "x0": 454.1,
+     "x1": 567.5,
+     "y": 263.2,
+     "label": "ck is constructed of wood, is the wood treated or untreated?",
+     "src": "rule"
+    },
+    {
+     "x0": 171.7,
+     "x1": 567.5,
+     "y": 246.1,
+     "label": "",
+     "src": "rule"
+    }
+   ]
+  },
+  "q50": {
+   "page": 5,
+   "box": {
+    "yes": [
+     32.39,
+     230.28
+    ],
+    "no": [
+     59.27,
+     230.28
+    ],
+    "unk": [
+     86.03,
+     230.28
+    ],
+    "na": [
+     112.91,
+     230.28
+    ]
+   },
+   "rules": [
+    {
+     "x0": 320.0,
+     "x1": 567.5,
+     "y": 228.8,
+     "label": "\u0000 \u0000 \u0000 50) Driveway problems? If yes, explain:",
+     "src": "rule"
+    },
+    {
+     "x0": 171.7,
+     "x1": 567.5,
+     "y": 211.5,
+     "label": "",
+     "src": "rule"
+    }
+   ]
+  },
+  "q51": {
+   "page": 5,
+   "box": {
+    "yes": [
+     32.39,
+     195.84
+    ],
+    "no": [
+     59.27,
+     195.84
+    ],
+    "unk": [
+     86.03,
+     195.84
+    ],
+    "na": [
+     112.91,
+     195.84
+    ]
+   },
+   "rules": [
+    {
+     "x0": 341.0,
+     "x1": 567.5,
+     "y": 194.4,
+     "label": "\u0000 \u0000 51) Water drainage problems? If yes, explain:",
+     "src": "rule"
+    },
+    {
+     "x0": 171.7,
+     "x1": 567.5,
+     "y": 177.1,
+     "label": "",
+     "src": "rule"
+    }
+   ]
+  },
+  "q52": {
+   "page": 5,
+   "box": {
+    "yes": [
+     32.39,
+     161.28
+    ],
+    "no": [
+     59.27,
+     161.28
+    ],
+    "unk": [
+     86.03,
+     161.28
+    ],
+    "na": [
+     112.91,
+     161.28
+    ]
+   },
+   "rules": [
+    {
+     "x0": 412.2,
+     "x1": 567.5,
+     "y": 159.8,
+     "label": "terior floor, wall and/or ceiling problems? If yes, explain:",
+     "src": "rule"
+    },
+    {
+     "x0": 171.7,
+     "x1": 567.5,
+     "y": 142.5,
+     "label": "",
+     "src": "rule"
+    }
+   ]
+  },
+  "q53": {
+   "page": 5,
+   "box": {
+    "yes": [
+     32.39,
+     126.84
+    ],
+    "no": [
+     59.27,
+     126.84
+    ],
+    "unk": [
+     86.03,
+     126.84
+    ],
+    "na": [
+     112.91,
+     126.84
+    ]
+   },
+   "rules": [
+    {
+     "x0": 347.3,
+     "x1": 567.5,
+     "y": 125.4,
+     "label": "\u0000 \u0000 53) Fire and/or smoke damage? If yes, explain:",
+     "src": "rule"
+    },
+    {
+     "x0": 171.7,
+     "x1": 567.5,
+     "y": 108.1,
+     "label": "",
+     "src": "rule"
+    }
+   ]
+  },
+  "q54": {
+   "page": 5,
+   "box": {
+    "yes": [
+     32.39,
+     92.28
+    ],
+    "no": [
+     59.27,
+     92.28
+    ],
+    "unk": [
+     86.03,
+     92.28
+    ],
+    "na": [
+     112.91,
+     92.28
+    ]
+   },
+   "rules": [
+    {
+     "x0": 444.6,
+     "x1": 567.5,
+     "y": 90.8,
+     "label": "nsect, rodent or pest infestation problems? If yes, explain:",
+     "src": "rule"
+    },
+    {
+     "x0": 171.7,
+     "x1": 567.5,
+     "y": 73.5,
+     "label": "",
+     "src": "rule"
+    }
+   ]
+  },
+  "q55": {
+   "page": 6,
+   "box": {
+    "yes": [
+     32.39,
+     713.28
+    ],
+    "no": [
+     59.27,
+     713.28
+    ],
+    "unk": [
+     86.03,
+     713.28
+    ],
+    "na": [
+     112.91,
+     713.28
+    ]
+   },
+   "rules": [
+    {
+     "x0": 364.2,
+     "x1": 567.5,
+     "y": 711.8,
+     "label": "\u0000 55) Rot or water damage problems? If yes, explain:",
+     "src": "rule"
+    },
+    {
+     "x0": 171.7,
+     "x1": 567.5,
+     "y": 694.5,
+     "label": "",
+     "src": "rule"
+    }
+   ]
+  },
+  "q56": {
+   "page": 6,
+   "box": {
+    "yes": [
+     32.39,
+     678.72
+    ],
+    "no": [
+     59.27,
+     678.72
+    ],
+    "unk": [
+     86.03,
+     678.72
+    ],
+    "na": [
+     112.91,
+     678.72
+    ]
+   },
+   "rules": [
+    {
+     "x0": 359.0,
+     "x1": 473.9,
+     "y": 675.3,
+     "label": "\u0000 56) Is(Are) the structure(s) insulated? If yes, type:",
+     "src": "underscore"
+    },
+    {
+     "x0": 516.6,
+     "x1": 567.5,
+     "y": 677.2,
+     "label": " insulated? If yes, type: _______________________; location:",
+     "src": "rule"
+    },
+    {
+     "x0": 171.7,
+     "x1": 567.5,
+     "y": 660.0,
+     "label": "",
+     "src": "rule"
+    }
+   ]
+  },
+  "q57": {
+   "page": 6,
+   "box": {
+    "yes": [
+     32.39,
+     644.28
+    ],
+    "no": [
+     59.27,
+     644.28
+    ],
+    "unk": [
+     86.03,
+     644.28
+    ],
+    "na": [
+     112.91,
+     644.28
+    ]
+   },
+   "rules": [
+    {
+     "x0": 171.7,
+     "x1": 567.5,
+     "y": 608.2,
+     "label": "",
+     "src": "rule"
+    },
+    {
+     "x0": 171.7,
+     "x1": 567.5,
+     "y": 591.1,
+     "label": "",
+     "src": "rule"
+    },
+    {
+     "x0": 171.7,
+     "x1": 567.5,
+     "y": 573.8,
+     "label": "",
+     "src": "rule"
+    },
+    {
+     "x0": 171.7,
+     "x1": 567.5,
+     "y": 556.5,
+     "label": "",
+     "src": "rule"
+    }
+   ]
+  },
+  "q58": {
+   "page": 6,
+   "box": {
+    "yes": [
+     32.39,
+     540.72
+    ],
+    "no": [
+     59.27,
+     540.72
+    ],
+    "unk": [
+     86.03,
+     540.72
+    ],
+    "na": [
+     112.91,
+     540.72
+    ]
+   },
+   "rules": [
+    {
+     "x0": 397.7,
+     "x1": 567.5,
+     "y": 539.2,
+     "label": ") Is there a radon control system in place? If yes, explain:",
+     "src": "rule"
+    },
+    {
+     "x0": 171.7,
+     "x1": 567.5,
+     "y": 522.1,
+     "label": "",
+     "src": "rule"
+    }
+   ]
+  },
+  "q59": {
+   "page": 6,
+   "box": {
+    "yes": [
+     32.39,
+     506.28
+    ],
+    "no": [
+     59.27,
+     506.28
+    ],
+    "unk": [
+     86.03,
+     506.28
+    ],
+    "na": [
+     112.91,
+     506.28
+    ]
+   },
+   "rules": [
+    {
+     "x0": 511.4,
+     "x1": 567.5,
+     "y": 504.8,
+     "label": "em been in place in the previous 12 months? If yes, explain:",
+     "src": "rule"
+    },
+    {
+     "x0": 171.7,
+     "x1": 567.5,
+     "y": 487.5,
+     "label": "",
+     "src": "rule"
+    },
+    {
+     "x0": 171.7,
+     "x1": 567.5,
+     "y": 470.2,
+     "label": "",
+     "src": "rule"
+    },
+    {
+     "x0": 171.7,
+     "x1": 567.5,
+     "y": 453.1,
+     "label": "",
+     "src": "rule"
+    }
+   ]
+  },
+  "q60": {
+   "page": 6,
+   "box": {
+    "yes": [
+     32.39,
+     388.2
+    ],
+    "no": [
+     59.27,
+     388.2
+    ],
+    "unk": [
+     86.03,
+     388.2
+    ],
+    "na": [
+     112.91,
+     388.2
+    ]
+   },
+   "rules": [
+    {
+     "x0": 222.8,
+     "x1": 567.5,
+     "y": 369.4,
+     "label": "which zone:",
+     "src": "rule"
+    }
+   ]
+  },
+  "q61": {
+   "page": 6,
+   "box": {
+    "yes": [
+     32.39,
+     353.64
+    ],
+    "no": [
+     59.27,
+     353.64
+    ],
+    "unk": [
+     86.03,
+     353.64
+    ],
+    "na": [
+     112.91,
+     353.64
+    ]
+   },
+   "rules": [
+    {
+     "x0": 387.8,
+     "x1": 567.5,
+     "y": 300.4,
+     "label": "assistance program for flood damage to the property?",
+     "src": "rule"
+    },
+    {
+     "x0": 171.7,
+     "x1": 567.5,
+     "y": 283.2,
+     "label": "",
+     "src": "rule"
+    },
+    {
+     "x0": 171.7,
+     "x1": 567.5,
+     "y": 265.9,
+     "label": "",
+     "src": "rule"
+    },
+    {
+     "x0": 171.7,
+     "x1": 567.5,
+     "y": 248.7,
+     "label": "",
+     "src": "rule"
+    }
+   ]
+  },
+  "q62": {
+   "page": 6,
+   "box": {
+    "yes": [
+     32.39,
+     232.92
+    ],
+    "no": [
+     59.27,
+     232.92
+    ],
+    "unk": [
+     86.03,
+     232.92
+    ],
+    "na": [
+     112.91,
+     232.92
+    ]
+   },
+   "rules": [
+    {
+     "x0": 436.9,
+     "x1": 567.5,
+     "y": 231.4,
+     "label": " a current flood insurance policy in effect on the property?",
+     "src": "rule"
+    },
+    {
+     "x0": 171.7,
+     "x1": 567.5,
+     "y": 214.2,
+     "label": "",
+     "src": "rule"
+    },
+    {
+     "x0": 171.7,
+     "x1": 567.5,
+     "y": 196.9,
+     "label": "",
+     "src": "rule"
+    }
+   ]
+  },
+  "q63": {
+   "page": 6,
+   "box": {
+    "yes": [
+     32.39,
+     181.2
+    ],
+    "no": [
+     59.27,
+     181.2
+    ],
+    "unk": [
+     86.03,
+     181.2
+    ],
+    "na": [
+     112.91,
+     181.2
+    ]
+   },
+   "rules": [
+    {
+     "x0": 481.1,
+     "x1": 567.5,
+     "y": 179.7,
+     "label": "Emergency Management Agency elevation certificate available?",
+     "src": "rule"
+    },
+    {
+     "x0": 171.7,
+     "x1": 567.5,
+     "y": 162.4,
+     "label": "",
+     "src": "rule"
+    }
+   ]
+  },
+  "q64": {
+   "page": 6,
+   "box": {
+    "yes": [
+     32.39,
+     146.64
+    ],
+    "no": [
+     59.27,
+     146.64
+    ],
+    "unk": [
+     86.03,
+     146.64
+    ],
+    "na": [
+     112.91,
+     146.64
+    ]
+   },
+   "rules": [
+    {
+     "x0": 438.0,
+     "x1": 567.5,
+     "y": 145.2,
+     "label": " seller ever filed a claim for flood damage to the property?",
+     "src": "rule"
+    },
+    {
+     "x0": 171.7,
+     "x1": 567.5,
+     "y": 127.9,
+     "label": "",
+     "src": "rule"
+    },
+    {
+     "x0": 171.7,
+     "x1": 567.5,
+     "y": 110.7,
+     "label": "",
+     "src": "rule"
+    }
+   ]
+  },
+  "q65": {
+   "page": 7,
+   "box": {
+    "yes": [
+     32.39,
+     713.28
+    ],
+    "no": [
+     59.27,
+     713.28
+    ],
+    "unk": [
+     86.03,
+     713.28
+    ],
+    "na": [
+     112.91,
+     713.28
+    ]
+   },
+   "rules": [
+    {
+     "x0": 333.2,
+     "x1": 567.5,
+     "y": 694.5,
+     "label": "due to seepage or a natural flood event?",
+     "src": "rule"
+    },
+    {
+     "x0": 171.7,
+     "x1": 567.5,
+     "y": 677.2,
+     "label": "",
+     "src": "rule"
+    },
+    {
+     "x0": 171.7,
+     "x1": 567.5,
+     "y": 660.0,
+     "label": "",
+     "src": "rule"
+    }
+   ]
+  }
+ },
+ "extras": {
+  "footer": {
+   "1": {
+    "x0": 101.9,
+    "x1": 291.8,
+    "y": 15.5
+   },
+   "2": {
+    "x0": 101.9,
+    "x1": 291.8,
+    "y": 15.5
+   },
+   "3": {
+    "x0": 101.9,
+    "x1": 291.8,
+    "y": 15.5
+   },
+   "4": {
+    "x0": 101.9,
+    "x1": 291.8,
+    "y": 15.5
+   },
+   "5": {
+    "x0": 101.9,
+    "x1": 291.8,
+    "y": 15.5
+   },
+   "6": {
+    "x0": 101.9,
+    "x1": 291.8,
+    "y": 15.5
+   },
+   "7": {
+    "x0": 101.9,
+    "x1": 291.8,
+    "y": 15.5
+   },
+   "8": {
+    "x0": 101.9,
+    "x1": 291.8,
+    "y": 15.5
+   }
+  },
+  "addl_pages": {
+   "page": 7,
+   "x0": 151.8,
+   "x1": 181.7,
+   "y": 614.2
+  },
+  "print_name": [
+   {
+    "page": 8,
+    "x0": 414.4,
+    "x1": 566.6,
+    "y": 296.4
+   },
+   {
+    "page": 8,
+    "x0": 414.4,
+    "x1": 566.6,
+    "y": 261.4
+   }
+  ],
+  "signature": [
+   {
+    "page": 8,
+    "x0": 229.8,
+    "x1": 382.6,
+    "y": 296.4,
+    "top": 497.6
+   },
+   {
+    "page": 8,
+    "x0": 229.8,
+    "x1": 382.6,
+    "y": 261.4,
+    "top": 532.6
+   }
+  ],
+  "sign_date": [
+   {
+    "page": 8,
+    "x0": 72.2,
+    "x1": 198.4,
+    "y": 296.4
+   },
+   {
+    "page": 8,
+    "x0": 72.2,
+    "x1": 198.4,
+    "y": 261.4
+   }
+  ],
+  "initials": {
+   "0": {
+    "x0": 372.0,
+    "x1": 397.1,
+    "y": 15.3
+   },
+   "1": {
+    "x0": 372.0,
+    "x1": 397.1,
+    "y": 15.3
+   },
+   "2": {
+    "x0": 372.0,
+    "x1": 397.1,
+    "y": 15.3
+   },
+   "3": {
+    "x0": 372.0,
+    "x1": 397.1,
+    "y": 15.3
+   },
+   "4": {
+    "x0": 372.0,
+    "x1": 397.1,
+    "y": 15.3
+   },
+   "5": {
+    "x0": 372.0,
+    "x1": 397.1,
+    "y": 15.3
+   },
+   "6": {
+    "x0": 372.0,
+    "x1": 397.1,
+    "y": 15.3
+   },
+   "7": {
+    "x0": 372.0,
+    "x1": 397.1,
+    "y": 15.3
+   }
+  }
+ }
+};
+
+
+// ── form-schema.js ──
+// form-schema.js — the ONE definition of the CT Residential Property Condition Report (rev 07/2025).
+//
+// Every question carries three things that must never drift apart:
+//   ask / help   the plain-English wording the seller sees in the wizard
+//   official     the state form's exact wording (shown under "Exact wording on the state form")
+//   pdf          where the answer is printed — a slot in pdfmap.js plus rule indexes inside it
+//
+// The wizard never answers for the seller: no status has a default. The form's own instruction 3 —
+// "Your real estate licensee cannot complete this form on your behalf" — is why. The only derived
+// answers are N/A marks that follow directly from something the seller already said (public water →
+// the well question is N/A); each one is shown on the review screen with its reason and can be changed.
+//
+// Answer keys: a question's status is answers[id] ('yes' | 'no' | 'unk' | 'na'); its explanation is
+// answers[id + '_x']; any extra field is answers[field.id].
+
+const STATUS = [
+  { v: 'yes', label: 'Yes', key: 'y' },
+  { v: 'no', label: 'No', key: 'n' },
+  { v: 'unk', label: 'Unknown', key: 'u' },
+  { v: 'na', label: 'N/A', key: 'a' },
+];
+
+const SECTIONS = [
+  { id: 'A', title: 'You & the property' },
+  { id: 'B', title: 'General information' },
+  { id: 'C', title: 'Leased equipment' },
+  { id: 'D', title: 'Heating, plumbing & electrical' },
+  { id: 'E', title: 'Water' },
+  { id: 'F', title: 'Sewage' },
+  { id: 'G', title: 'Asbestos & lead' },
+  { id: 'H', title: 'Building & structure' },
+  { id: 'I', title: 'Flood risk' },
+];
+
+const ATTACH = 'If you have a written report, keep a copy handy — you will attach it to the form when you send it to your agent.';
+const isPublicWater = (a) => a.q27 === 'public';
+const isWell = (a) => a.q27 === 'private';
+const waterKnown = (a) => !!a.q27 && a.q27 !== 'unk';
+const sewerKnown = (a) => !!a.q31 && a.q31 !== 'unk';
+const isPublicSewer = (a) => a.q31 === 'public';
+const isPrivateSewer = (a) => ['septic', 'cesspool', 'other'].includes(a.q31);
+
+// Standard yes/no/unknown/N/A question with an explanation when the answer is Yes.
+const yn = (n, sec, ask, official, extra = {}) => ({
+  id: `q${n}`, n: String(n), sec, ask, official, status: true,
+  // `explain: null` = no free-text box (the question's own fields carry the detail instead)
+  explain: extra.explain === null ? null : { on: ['yes'], label: 'Please explain', ...(extra.explain || {}) },
+  pdf: { slot: `q${n}`, ...(extra.pdf || {}) },
+  ...Object.fromEntries(Object.entries(extra).filter(([k]) => !['explain', 'pdf'].includes(k))),
+});
+
+const QUESTIONS = [
+  // ── A. SUBJECT PROPERTY ────────────────────────────────────────────────────────────────────
+  {
+    id: 'identity', n: '1–2', sec: 'A', kind: 'identity',
+    ask: 'Who is selling, and which property is this?',
+    help: 'This goes on page 1 and at the bottom of every page of the form.',
+    official: '1) Name of seller(s): 2) Street address, municipality, zip code:',
+    fields: [
+      { id: 'seller1', label: 'Seller full name', kind: 'text', required: true, autocomplete: 'name' },
+      { id: 'seller2', label: 'Second seller (optional)', kind: 'text' },
+      { id: 'street', label: 'Street address', kind: 'text', required: true, autocomplete: 'address-line1', placeholder: 'e.g. 25 Main Street, Unit 4' },
+      { id: 'city', label: 'Town / city', kind: 'text', required: true, autocomplete: 'address-level2', half: true },
+      { id: 'zip', label: 'ZIP code', kind: 'text', required: true, autocomplete: 'postal-code', inputmode: 'numeric', half: true, maxlength: 10 },
+    ],
+  },
+
+  // ── B. GENERAL INFORMATION ─────────────────────────────────────────────────────────────────
+  {
+    id: 'q3', n: '3', sec: 'B', kind: 'fields',
+    ask: 'What year was the house built?',
+    help: 'Your best knowledge is fine. If you truly don’t know, tick “I don’t know”.',
+    official: 'What year was the structure built?',
+    fields: [
+      { id: 'q3_year', label: 'Year built', kind: 'text', inputmode: 'numeric', maxlength: 12, placeholder: 'e.g. 1962', unknownToggle: 'I don’t know' },
+    ],
+    pdf: { slot: 'q3', write: [{ field: 'q3_year', rule: 0 }] },
+  },
+  {
+    id: 'q4', n: '4', sec: 'B', kind: 'fields',
+    ask: 'How long have you lived in the property?',
+    help: 'If you have never lived there (for example it’s a rental or an estate), choose “Never lived there”.',
+    official: 'How long have you occupied the property? If not applicable, indicate with N/A.',
+    fields: [
+      { id: 'q4_len', label: 'How long', kind: 'text', maxlength: 30, placeholder: 'e.g. 12 years', naToggle: 'Never lived there (N/A)' },
+    ],
+    pdf: { slot: 'q4', write: [{ field: 'q4_len', rule: 0 }] },
+  },
+  yn(5, 'B', 'Does anyone else claim to own any part of your property?',
+    'Does anyone else claim to own any part of your property, including, but not limited to, any encroachments? If yes, explain:',
+    { help: 'Including encroachments — for example a neighbor’s fence, driveway or shed that sits on your land.' }),
+  yn(6, 'B', 'Does anyone else have — or claim — a right to use any part of your property?',
+    'Does anyone other than you have or claim to have any right to use any part of your property, including, but not limited to, any easement or right of way? If yes, explain:',
+    { help: 'For example an easement, a shared driveway, a utility right-of-way, or a path neighbors use.' }),
+  yn(7, 'B', 'Is the property in a flood hazard area or an inland wetlands area?',
+    'Is the property in a flood hazard area or an inland wetlands area? If yes, explain:'),
+  yn(8, 'B', 'Is there a dam on the property that is (or must be) registered with the state DEEP?',
+    'Are you aware of the presence of a dam on the property that has been or is required to be registered with the Department of Energy and Environmental Protection? If yes, explain:'),
+  yn(9, 'B', 'Do you have reason to believe the town may charge an assessment for improvements?',
+    'Do you have any reason to believe that the municipality in which the subject property is located may impose any assessment for purposes such as sewer installation, sewer improvements, water main installation, water main improvements, sidewalks or other improvements? If yes, explain:',
+    { help: 'For example new sewer or water lines, water-main work, or sidewalks.' }),
+  yn(10, 'B', 'Is the property in a village district or historic district, or on the National Register of Historic Places?',
+    'Is the property located in a municipally designated village district, municipally designated historic district, or listed on the National Register of Historic Places? If yes, explain:',
+    { help: 'Your town’s village district or historic district commission can tell you, if you’re unsure.' }),
+  yn(11, 'B', 'Is the property in a special tax district?',
+    'Is the property located in a special tax district? If yes, explain:'),
+  yn(12, 'B', 'Is the property subject to any land-use restrictions beyond normal zoning?',
+    'Is the property subject to any type of land use restrictions, other than those contained within the property’s chain of title or that are necessary to comply with state laws or municipal zoning? If yes, explain:',
+    { help: 'Not counting restrictions in your deed/title or ordinary state and town zoning rules.' }),
+  yn(13, 'B', 'Is the property part of a condo, co-op or other common interest community?',
+    'Is the property located in a common interest community? If yes, is it subject to any community or association dues or fees? Please explain:',
+    { explain: { label: 'Association name and the dues or fees (for example “$350 a month common charges”)' } }),
+  yn(14, 'B', 'Do you know of any litigation, government action, orders or liens involving a release of a hazardous substance on the property?',
+    'Do you have any knowledge of prior or pending litigation, government agency or administrative actions, orders or liens on the property related to the release of any hazardous substance? If yes, explain:',
+    { help: 'Past or pending.' }),
+
+  // ── C. LEASED EQUIPMENT ────────────────────────────────────────────────────────────────────
+  yn(15, 'C', 'Is any equipment at the property leased or rented, so a buyer would have to take over the agreement or replace the equipment?',
+    'Does the property include any leased or rented equipment that would necessitate or oblige either of the following: the assignment or transfer of the lease or rental agreement(s) to the buyer or the replacement or substitution of the equipment by the buyer? If yes, indicate by checking all items that apply: ☐ Propane fuel tank ☐ Water heater ☐ Security alarm system ☐ Fire alarm system ☐ Satellite dish antenna ☐ Water treatment system ☐ Solar devices ☐ Major appliances ☐ Other:',
+    {
+      explain: null,
+      fields: [
+        {
+          id: 'q15_items', label: 'Check everything that’s leased or rented', kind: 'multi', showOn: ['yes'],
+          options: [
+            { v: 'propane', label: 'Propane fuel tank' },
+            { v: 'water_heater', label: 'Water heater' },
+            { v: 'security_alarm', label: 'Security alarm system' },
+            { v: 'fire_alarm', label: 'Fire alarm system' },
+            { v: 'satellite', label: 'Satellite dish antenna' },
+            { v: 'water_treatment', label: 'Water treatment system' },
+            { v: 'solar', label: 'Solar devices' },
+            { v: 'appliances', label: 'Major appliances' },
+            { v: 'other', label: 'Other' },
+          ],
+        },
+        { id: 'q15_other', label: 'What other equipment?', kind: 'text', showIf: (a) => a.q15 === 'yes' && (a.q15_items || []).includes('other') },
+      ],
+      pdf: { inlineMulti: 'q15_items', write: [{ field: 'q15_other', flow: [0, 1] }] },
+    }),
+
+  // ── D. MECHANICAL / UTILITY SYSTEMS ────────────────────────────────────────────────────────
+  yn(16, 'D', 'Are you aware of any problems with the heating system?',
+    'Fuel types? Are you aware of any heating system problems? If yes, explain:',
+    {
+      pre: [
+        {
+          id: 'q16_fuel', label: 'First — what fuel heats the house? (check all that apply)', kind: 'multi',
+          options: [
+            { v: 'Oil', label: 'Oil' }, { v: 'Natural gas', label: 'Natural gas' }, { v: 'Propane', label: 'Propane' },
+            { v: 'Electric', label: 'Electric' }, { v: 'Heat pump', label: 'Heat pump' }, { v: 'Wood', label: 'Wood / pellet' },
+            { v: 'Solar', label: 'Solar' }, { v: 'Other', label: 'Other' },
+          ],
+        },
+        { id: 'q16_fuel_other', label: 'Other fuel', kind: 'text', showIf: (a) => (a.q16_fuel || []).includes('Other') },
+      ],
+      pdf: { write: [{ join: ['q16_fuel', 'q16_fuel_other'], rule: 0 }], flow: [1, 2] },
+    }),
+  yn(17, 'D', 'Are you aware of any hot-water problems?',
+    'Hot water heater type? Age: Are you aware of any hot water problems? If yes, explain:',
+    {
+      pre: [
+        {
+          id: 'q17_type', label: 'Water heater type', kind: 'choice', other: true,
+          options: [
+            { v: 'Gas tank', label: 'Gas tank' }, { v: 'Oil-fired tank', label: 'Oil-fired tank' },
+            { v: 'Electric tank', label: 'Electric tank' }, { v: 'Tankless / on-demand', label: 'Tankless / on-demand' },
+            { v: 'Boiler coil (indirect)', label: 'Part of the boiler' }, { v: 'Heat pump', label: 'Heat pump' },
+            { v: 'Unknown', label: 'Don’t know' },
+          ],
+        },
+        { id: 'q17_age', label: 'Approximate age', kind: 'text', maxlength: 20, placeholder: 'e.g. 6 years', unknownToggle: 'Don’t know' },
+      ],
+      pdf: { write: [{ field: 'q17_type', rule: 0 }, { field: 'q17_age', rule: 1 }], flow: [2, 3] },
+    }),
+  yn(18, 'D', 'Is there an underground storage tank (for example an old buried oil tank)?',
+    'Is there an underground storage tank? If yes, list the age of tank and location:',
+    {
+      explain: null,
+      fields: [
+        { id: 'q18_age', label: 'Age of the tank', kind: 'text', maxlength: 20, showOn: ['yes'], unknownToggle: 'Don’t know' },
+        { id: 'q18_loc', label: 'Where is it?', kind: 'text', showOn: ['yes'], placeholder: 'e.g. under the side lawn by the driveway' },
+      ],
+      pdf: { write: [{ field: 'q18_age', rule: 0 }, { field: 'q18_loc', flow: [1, 2, 3] }] },
+    }),
+  yn(19, 'D', 'Are you aware of any problems with the underground storage tank?',
+    'Are you aware of any problems with the underground storage tank? If yes, explain:',
+    { autoNA: (a) => a.q18 === 'no' ? 'You said there is no underground storage tank (question 18).' : null }),
+  yn(20, 'D', 'While you’ve owned the property, has there ever been an underground storage tank on it?',
+    'During the time you have owned the property, has there ever been an underground storage tank located on the property? If yes, has it been removed? ☐ Yes ☐ No If yes, what was the date of removal and what was the name and address of the person or business who removed such underground storage tank? Provide any and all written documentation of such removal within your control or possession by attaching a copy of such documentation to this form.',
+    {
+      explain: null,
+      fields: [
+        { id: 'q20_removed', label: 'Has it been removed?', kind: 'choice', showOn: ['yes'], options: [{ v: 'yes', label: 'Yes, removed', inline: 'yes' }, { v: 'no', label: 'No', inline: 'no' }] },
+        { id: 'q20_date', label: 'Date it was removed', kind: 'text', maxlength: 30, showIf: (a) => a.q20 === 'yes' && a.q20_removed === 'yes' },
+        { id: 'q20_by', label: 'Name and address of the company or person who removed it', kind: 'longtext', showIf: (a) => a.q20 === 'yes' && a.q20_removed === 'yes', note: 'The state form asks you to attach any removal paperwork you have (closure report, fire marshal sign-off, receipts).' },
+      ],
+      pdf: { inlineChoice: 'q20_removed', write: [{ field: 'q20_date', rule: 0 }, { field: 'q20_by', flow: [1, 2] }] },
+    }),
+  yn(21, 'D', 'Are you aware of any air-conditioning problems?',
+    'Air conditioning type: ☐ Central; ☐ Window; ☐ Other: Are you aware of any air conditioning problems? If yes, explain:',
+    {
+      pre: [
+        {
+          id: 'q21_type', label: 'First — what air conditioning does the house have? (check all that apply)', kind: 'multi',
+          options: [
+            { v: 'central', label: 'Central', inline: 'central' }, { v: 'window', label: 'Window units', inline: 'window' },
+            { v: 'other', label: 'Other (e.g. ductless mini-split)', inline: 'other' }, { v: 'none', label: 'No air conditioning', exclusive: true },
+          ],
+        },
+        { id: 'q21_other', label: 'Other type', kind: 'text', showIf: (a) => (a.q21_type || []).includes('other') },
+      ],
+      autoNA: (a) => (a.q21_type || []).includes('none') ? 'You said the house has no air conditioning.' : null,
+      keepScreen: true,
+      pdf: { inlineMulti: 'q21_type', write: [{ field: 'q21_other', rule: 0, orNone: 'q21_type' }], flow: [1, 2, 3] },
+    }),
+  yn(22, 'D', 'Are you aware of any plumbing problems?', 'Plumbing system problems? If yes, explain:'),
+  yn(23, 'D', 'Are you aware of any electrical problems?', 'Electrical system problems? If yes, explain:'),
+  yn(24, 'D', 'Are you aware of any problems with an electronic security system?', 'Electronic security system problems? If yes, explain:',
+    { help: 'If there is no security system, choose N/A.' }),
+  yn(25, 'D', 'Are there carbon-monoxide or smoke detectors in the home?',
+    'Are there carbon monoxide or smoke detectors located in the dwelling on the property? If yes, state the number of detectors and whether there have been problems with such detectors:',
+    {
+      explain: null,
+      fields: [
+        { id: 'q25_count', label: 'How many detectors?', kind: 'text', inputmode: 'numeric', maxlength: 5, showOn: ['yes'] },
+        { id: 'q25_prob', label: 'Have there been problems with them?', kind: 'choice', showOn: ['yes'], options: [{ v: 'no', label: 'No problems' }, { v: 'yes', label: 'Yes' }] },
+        { id: 'q25_px', label: 'What problems?', kind: 'longtext', showIf: (a) => a.q25 === 'yes' && a.q25_prob === 'yes' },
+      ],
+      pdf: { write: [{ field: 'q25_count', rule: 0 }, { field: 'q25_prob_text', flow: [1, 2, 3] }] },
+    }),
+  yn(26, 'D', 'Are you aware of any fire-sprinkler problems?', 'Fire sprinkler system problems? If yes, explain:',
+    { help: 'If there is no sprinkler system, choose N/A.' }),
+
+  // ── E. WATER SYSTEM ────────────────────────────────────────────────────────────────────────
+  {
+    id: 'q27', n: '27', sec: 'E', kind: 'fields',
+    ask: 'Where does the house get its water?',
+    official: 'Domestic water system type: ☐ Public; ☐ Private well; ☐ Other:',
+    fields: [
+      {
+        id: 'q27', label: 'Water system', kind: 'choice',
+        options: [
+          { v: 'public', label: 'Public / town water', inline: 'public' },
+          { v: 'private', label: 'Private well', inline: 'private' },
+          { v: 'other', label: 'Other', inline: 'other' },
+          { v: 'unk', label: 'Don’t know' },
+        ],
+      },
+      { id: 'q27_other', label: 'Describe the water system', kind: 'text', showIf: (a) => a.q27 === 'other' },
+    ],
+    pdf: { slot: 'q27', inlineChoice: 'q27', unkBox: 'q27', write: [{ field: 'q27_other', rule: 0 }] },
+  },
+  yn('28a', 'E', 'Is there a separate fee for water usage?',
+    'If public water: Is there a separate expense/fee for water usage? If yes, is the expense/fee for water usage flat or metered? Provide the amount of the expense/fee and explain:',
+    {
+      showIf: (a) => !waterKnown(a) || isPublicWater(a),
+      autoNA: (a) => waterKnown(a) && !isPublicWater(a) ? 'This question is only for homes on public water.' : null,
+      explain: { on: ['yes'], label: 'Anything else about the fee (optional)', optional: true },
+      fields: [
+        { id: 'q28a_type', label: 'Flat or metered?', kind: 'choice', showOn: ['yes'], options: [{ v: 'Flat', label: 'Flat' }, { v: 'Metered', label: 'Metered' }] },
+        { id: 'q28a_amt', label: 'Amount of the fee', kind: 'text', maxlength: 30, showOn: ['yes'], placeholder: 'e.g. $180 per quarter' },
+      ],
+      pdf: { write: [{ field: 'q28a_type', rule: 0 }, { field: 'q28a_amt', rule: 1 }], flow: [2, 3] },
+    }),
+  yn('28b', 'E', 'Are there unpaid water charges?', 'If public water: Are there unpaid water charges? If yes, state amount unpaid:',
+    {
+      showIf: (a) => !waterKnown(a) || isPublicWater(a),
+      autoNA: (a) => waterKnown(a) && !isPublicWater(a) ? 'This question is only for homes on public water.' : null,
+      explain: { on: ['yes'], label: 'Amount unpaid' }, pdf: { flow: [0] },
+    }),
+  yn(29, 'E', 'Has the well water been tested for contaminants or volatile organic compounds (VOCs)?',
+    'If private well: Has the well water been tested for contaminants/volatile organic compounds? If yes, attach a copy of the report. If no report is available, provide name of entity that performed testing and describe results of such testing:',
+    {
+      showIf: (a) => !waterKnown(a) || isWell(a),
+      autoNA: (a) => waterKnown(a) && !isWell(a) ? 'This question is only for homes with a private well.' : null,
+      explain: { label: 'Who did the testing, and what were the results?', note: ATTACH + ' If you are attaching the report you can write “See attached report.”' },
+    }),
+  yn(30, 'E', 'Are you aware of any problems with the well, or with water quality, quantity, recovery or pressure?',
+    'If public water or private well: Are you aware of any problems with the well or with the water quality, quantity, recovery, or pressure? If yes, explain:',
+    { autoNA: (a) => a.q27 === 'other' ? 'This question is only for public water or a private well.' : null }),
+
+  // ── F. SEWAGE DISPOSAL SYSTEM ──────────────────────────────────────────────────────────────
+  {
+    id: 'q31', n: '31', sec: 'F', kind: 'fields',
+    ask: 'How is the house’s sewage handled?',
+    official: 'Sewage disposal system type: ☐ Public; ☐ Septic; ☐ Cesspool; ☐ Other:',
+    fields: [
+      {
+        id: 'q31', label: 'Sewage system', kind: 'choice',
+        options: [
+          { v: 'public', label: 'Public / town sewer', inline: 'public' },
+          { v: 'septic', label: 'Septic system', inline: 'septic' },
+          { v: 'cesspool', label: 'Cesspool', inline: 'cesspool' },
+          { v: 'other', label: 'Other', inline: 'other' },
+          { v: 'unk', label: 'Don’t know' },
+        ],
+      },
+      { id: 'q31_other', label: 'Describe the sewage system', kind: 'text', showIf: (a) => a.q31 === 'other' },
+    ],
+    pdf: { slot: 'q31', inlineChoice: 'q31', unkBox: 'q31', write: [{ field: 'q31_other', flow: [0, 1] }] },
+  },
+  yn('32a', 'F', 'Is there a separate charge for sewer use?',
+    'If public sewer: Is there a separate charge made for sewer use? If yes, is it flat or metered?',
+    {
+      showIf: (a) => !sewerKnown(a) || isPublicSewer(a),
+      autoNA: (a) => sewerKnown(a) && !isPublicSewer(a) ? 'This question is only for homes on public sewer.' : null,
+      explain: null,
+      fields: [{ id: 'q32a_type', label: 'Flat or metered?', kind: 'choice', showOn: ['yes'], options: [{ v: 'Flat', label: 'Flat amount' }, { v: 'Metered', label: 'Metered' }] }],
+      pdf: { write: [{ field: 'q32a_type', flow: [0, 1] }] },
+    }),
+  {
+    id: 'q32b', n: '32b', sec: 'F', kind: 'fields',
+    ask: 'What is the flat sewer charge, and when is it due?',
+    official: 'If public sewer: If it is a flat amount, state amount and due dates:',
+    showIf: (a) => (!sewerKnown(a) || isPublicSewer(a)) && a.q32a === 'yes' && a.q32a_type === 'Flat',
+    autoNA: (a) => {
+      if (sewerKnown(a) && !isPublicSewer(a)) return 'This question is only for homes on public sewer.';
+      if (a.q32a === 'no' || a.q32a === 'na') return 'You said there is no separate sewer charge (question 32a).';
+      if (a.q32a === 'yes' && a.q32a_type === 'Metered') return 'You said the sewer charge is metered, not flat.';
+      return null;
+    },
+    fields: [
+      { id: 'q32b_amt', label: 'Amount', kind: 'text', maxlength: 30, placeholder: 'e.g. $450 per year' },
+      { id: 'q32b_due', label: 'Due date(s)', kind: 'text', placeholder: 'e.g. July 1 and January 1' },
+    ],
+    pdf: { slot: 'q32b', write: [{ field: 'q32b_amt', rule: 0 }, { field: 'q32b_due', flow: [1, 2] }] },
+  },
+  yn('32c', 'F', 'Are there any unpaid sewer charges?', 'If public sewer: Are there any unpaid sewer charges? If yes, state the amount:',
+    {
+      showIf: (a) => !sewerKnown(a) || isPublicSewer(a),
+      autoNA: (a) => sewerKnown(a) && !isPublicSewer(a) ? 'This question is only for homes on public sewer.' : null,
+      explain: { on: ['yes'], label: 'Amount unpaid' }, pdf: { flow: [0] },
+    }),
+  {
+    id: 'q33a', n: '33a', sec: 'F', kind: 'fields',
+    ask: 'Who services your septic / private system?',
+    official: 'If private: Name of service company:',
+    showIf: (a) => !sewerKnown(a) || isPrivateSewer(a),
+    autoNA: (a) => isPublicSewer(a) ? 'This question is only for private systems (septic, cesspool, other).' : null,
+    fields: [{ id: 'q33a_co', label: 'Service company name', kind: 'text', unknownToggle: 'Don’t know' }],
+    pdf: { slot: 'q33a', write: [{ field: 'q33a_co', rule: 0 }] },
+  },
+  {
+    id: 'q33b', n: '33b', sec: 'F', kind: 'fields',
+    ask: 'When was the system last pumped, and how often has it been pumped while you’ve owned it?',
+    official: 'If private: Date last pumped: Frequency of pumping during ownership:',
+    showIf: (a) => !sewerKnown(a) || isPrivateSewer(a),
+    autoNA: (a) => isPublicSewer(a) ? 'This question is only for private systems (septic, cesspool, other).' : null,
+    fields: [
+      { id: 'q33b_date', label: 'Date last pumped', kind: 'text', maxlength: 30, placeholder: 'e.g. May 2024', unknownToggle: 'Don’t know' },
+      { id: 'q33b_freq', label: 'How often during your ownership', kind: 'text', placeholder: 'e.g. every 3 years' },
+    ],
+    pdf: { slot: 'q33b', write: [{ field: 'q33b_date', rule: 0 }, { field: 'q33b_freq', flow: [1] }] },
+  },
+  yn('33c', 'F', 'Are there problems with the sewage system (of any type)?', 'For any sewage system, are there problems? If yes, explain:'),
+
+  // ── G. ASBESTOS / LEAD ─────────────────────────────────────────────────────────────────────
+  yn(34, 'G', 'Are asbestos insulation or building materials present?', 'Are asbestos insulation or building materials present? If yes, location:',
+    { explain: { label: 'Where?' } }),
+  yn(35, 'G', 'Is lead paint present?', 'Is lead paint present? If yes, location:',
+    { explain: { label: 'Where?' }, help: 'Homes built before 1978 also need the separate federal lead-based paint disclosure — your agent will give you that form.' }),
+  yn(36, 'G', 'Is lead plumbing present?', 'Is lead plumbing present? If yes, location:', { explain: { label: 'Where?' } }),
+
+  // ── H. BUILDING / STRUCTURE / IMPROVEMENTS ─────────────────────────────────────────────────
+  yn(37, 'H', 'Is the foundation made of concrete?', 'Is the foundation made of concrete? If no, explain:',
+    { explain: { on: ['no'], label: 'What is the foundation made of?' } }),
+  yn(38, 'H', 'Are you aware of foundation or slab problems, or settling?', 'Foundation/slab problems or settling? If yes, explain:'),
+  yn(39, 'H', 'Has the basement had water seepage or dampness?', 'Basement water seepage/dampness? If yes, explain amount, frequency and location:',
+    { explain: { label: 'How much water, how often, and where?' }, help: 'If there is no basement, choose N/A.' }),
+  yn(40, 'H', 'Are you aware of any sump-pump problems?', 'Sump pump problems? If yes, explain:', { help: 'If there is no sump pump, choose N/A.' }),
+  yn(41, 'H', 'Do you know of any testing or inspection of the foundation by a licensed professional?',
+    'Do you have knowledge of any testing or inspection done by a licensed professional related to a foundation on the property? If yes, disclose the testing or inspection method, the areas or locations that were tested or inspected, the results of such testing or inspection and attach a copy of the report concerning such testing or inspection. If no report is available, provide name of entity that performed testing and describe results of such testing:',
+    { explain: { label: 'The method, which areas were tested or inspected, and the results. If there’s no report, who did it?', note: ATTACH } }),
+  yn(42, 'H', 'Do you know of any repairs to the foundation?',
+    'Do you have knowledge of any repairs related to a foundation on the property? If yes, describe such repairs, disclose the areas repaired and attach a copy of the report concerning such repairs:',
+    { explain: { label: 'What was repaired, and where?', note: ATTACH } }),
+  yn(43, 'H', 'Do you know of any pyrrhotite in the foundation?',
+    'Do you have any knowledge related to the presence of pyrrhotite in a foundation on the property? If yes, explain:',
+    { help: 'Pyrrhotite is a mineral in some concrete (mostly from one quarry in north-central/eastern CT) that can make foundations crack over time.' }),
+  {
+    id: 'q44', n: '44', sec: 'H', kind: 'fields',
+    ask: 'What kind of roof does the house have, and how old is it?',
+    official: 'Roof type: ; Age:',
+    fields: [
+      {
+        id: 'q44_type', label: 'Roof type', kind: 'choice', other: true,
+        options: [
+          { v: 'Asphalt shingle', label: 'Asphalt shingle' }, { v: 'Slate', label: 'Slate' }, { v: 'Wood shake', label: 'Wood shake' },
+          { v: 'Metal', label: 'Metal' }, { v: 'Flat / rubber membrane', label: 'Flat / rubber' }, { v: 'Tile', label: 'Tile' },
+          { v: 'Unknown', label: 'Don’t know' },
+        ],
+      },
+      { id: 'q44_age', label: 'Approximate age', kind: 'text', maxlength: 30, placeholder: 'e.g. about 12 years (replaced 2013)', unknownToggle: 'Don’t know' },
+    ],
+    pdf: { slot: 'q44', write: [{ field: 'q44_type', rule: 0 }, { field: 'q44_age', rule: 1 }] },
+  },
+  yn(45, 'H', 'Has the roof leaked?', 'Roof leaks? If yes, explain:', { help: 'Include past leaks and whether/how they were repaired.' }),
+  yn(46, 'H', 'Are you aware of exterior siding problems?', 'Exterior siding problems? If yes, explain:'),
+  yn(47, 'H', 'Are you aware of problems with a chimney, fireplace, or wood or coal stove?', 'Chimney, fireplace, wood or coal stove problems? If yes, explain:',
+    { help: 'If there’s none of these, choose N/A.' }),
+  yn(48, 'H', 'Are you aware of patio or deck problems?', 'Patio/deck problems? If yes, explain:', { help: 'If there’s no patio or deck, choose N/A.' }),
+  {
+    id: 'q49', n: '49', sec: 'H', kind: 'fields',
+    ask: 'If the patio or deck is wood — is the wood treated or untreated?',
+    official: 'If patio/deck is constructed of wood, is the wood treated or untreated?',
+    fields: [{
+      id: 'q49', label: 'Deck / patio wood', kind: 'choice',
+      options: [
+        { v: 'Treated', label: 'Treated' }, { v: 'Untreated', label: 'Untreated' },
+        { v: 'unk', label: 'Don’t know' }, { v: 'na', label: 'No wood patio or deck' },
+      ],
+    }],
+    pdf: { slot: 'q49', statusFrom: 'q49', write: [{ field: 'q49_text', flow: [0, 1] }] },
+  },
+  yn(50, 'H', 'Are you aware of driveway problems?', 'Driveway problems? If yes, explain:'),
+  yn(51, 'H', 'Are you aware of water drainage problems?', 'Water drainage problems? If yes, explain:', { help: 'For example water pooling near the house or running toward the foundation.' }),
+  yn(52, 'H', 'Are you aware of problems with interior floors, walls or ceilings?', 'Interior floor, wall and/or ceiling problems? If yes, explain:'),
+  yn(53, 'H', 'Has there been fire or smoke damage?', 'Fire and/or smoke damage? If yes, explain:'),
+  yn(54, 'H', 'Have there been termite, insect, rodent or other pest problems?', 'Termite, insect, rodent or pest infestation problems? If yes, explain:',
+    { help: 'Include past problems and any treatment.' }),
+  yn(55, 'H', 'Have there been rot or water-damage problems?', 'Rot or water damage problems? If yes, explain:'),
+  yn(56, 'H', 'Is the house insulated?', 'Is(Are) the structure(s) insulated? If yes, type: ; location:',
+    {
+      explain: null,
+      fields: [
+        { id: 'q56_type', label: 'Type of insulation', kind: 'text', showOn: ['yes'], placeholder: 'e.g. fiberglass batts, blown-in cellulose, spray foam', unknownToggle: 'Don’t know' },
+        { id: 'q56_loc', label: 'Where?', kind: 'text', showOn: ['yes'], placeholder: 'e.g. attic and exterior walls' },
+      ],
+      pdf: { write: [{ field: 'q56_type', rule: 0 }, { field: 'q56_loc', flow: [1, 2] }] },
+    }),
+  yn(57, 'H', 'Has the house been tested for radon?',
+    'Has a test for radon been performed? If yes, attach copy of the report. If no report is available, provide the name of entity that performed the testing and describe the results of such testing:',
+    { explain: { label: 'Who tested, when, and what were the results?', note: ATTACH + ' If you are attaching the report you can write “See attached report.”' } }),
+  yn(58, 'H', 'Is there a radon control (mitigation) system in place?', 'Is there a radon control system in place? If yes, explain:'),
+  yn(59, 'H', 'Has a radon control system been in place in the previous 12 months?', 'Has a radon control system been in place in the previous 12 months? If yes, explain:'),
+
+  // ── I. FLOOD RISK AWARENESS ────────────────────────────────────────────────────────────────
+  yn(60, 'I', 'Is the property in a FEMA-designated floodplain?',
+    'Is the property located in a Federal Emergency Management Agency designated floodplain? If yes, which zone:',
+    { explain: { label: 'Which flood zone? (e.g. AE)' }, help: 'You can look up your address on FEMA’s Flood Map Service Center at msc.fema.gov.', pdf: { flow: [0] } }),
+  yn(61, 'I', 'Have you — or any previous owner you know of — received federal or state disaster assistance for flood damage to the property?',
+    'During the time that the seller has owned the property, has the seller received assistance or is the seller aware of any previous owners receiving assistance from the Federal Emergency Management Agency, the United States Small Business Administration or any other federal or state disaster assistance program for flood damage to the property?',
+    { help: 'From FEMA, the Small Business Administration, or any other federal or state disaster program.' }),
+  yn(62, 'I', 'Is there a current flood insurance policy on the property?', 'Is there a current flood insurance policy in effect on the property?',
+    { explain: { label: 'Details (optional — e.g. insurer)', optional: true } }),
+  yn(63, 'I', 'Is a FEMA elevation certificate available?', 'Is a Federal Emergency Management Agency elevation certificate available?',
+    { explain: { label: 'Details (optional)', optional: true } }),
+  yn(64, 'I', 'Have you ever filed a claim for flood damage to the property?', 'Has the seller ever filed a claim for flood damage to the property?'),
+  yn(65, 'I', 'Has any structure on the property had water penetration or damage from seepage or a natural flood?',
+    'If there is a structure on the property, has the structure experienced any water penetration or damage due to seepage or a natural flood event?'),
+];
+
+// ── derived answer text ───────────────────────────────────────────────────────────────────────
+// A few PDF lines print text that is assembled from several wizard inputs.
+function derived(a) {
+  const d = {};
+  if (a.q25 === 'yes') {
+    d.q25_prob_text = a.q25_prob === 'no' ? 'No problems.' : a.q25_prob === 'yes' ? (a.q25_px || '') : '';
+  }
+  if (a.q49 === 'Treated' || a.q49 === 'Untreated') d.q49_text = a.q49;
+  return d;
+}
+
+// Status for questions that have no Yes/No buttons of their own, but whose row of boxes the form
+// still prints: "Don't know" → UNK, N/A choices → N/A. Everything else leaves the boxes empty.
+function boxStatus(q, a) {
+  if (q.status) return a[q.id] || null;
+  if (q.id === 'q4') return a.q4_len_na ? 'na' : null;
+  if (q.pdf?.unkBox && a[q.pdf.unkBox] === 'unk') return 'unk';
+  if (q.pdf?.statusFrom) {
+    const v = a[q.pdf.statusFrom];
+    return v === 'unk' || v === 'na' ? v : null;
+  }
+  return null;
+}
+
+
+// ── logic.js ──
+// logic.js — the rules both the wizard and the PDF engine read, so what the seller SEES answered is
+// exactly what gets PRINTED. A field hidden by a later change (Yes → No) is inactive here, and an
+// inactive field is never printed even though its old text is still in the saved answers.
+
+
+const OTHER = '__other';
+
+/** Derived-N/A reason for a question, or null. */
+function autoNA(q, a) {
+  return q.autoNA ? q.autoNA(a) : null;
+}
+
+/** Is this question asked as its own wizard screen right now? */
+function isAsked(q, a) {
+  if (a[`${q.id}__override`]) return true;   // seller chose "answer it anyway" on a derived N/A
+  // keepScreen: the derived N/A only covers the Yes/No part; the screen itself still holds the
+  // answer that caused it (Q21's "No air conditioning"), so it must stay reachable.
+  if (autoNA(q, a)) return !!q.keepScreen;
+  return q.showIf ? !!q.showIf(a) : true;
+}
+
+/** Effective status after derived N/A. */
+function statusOf(q, a) {
+  // Derived N/A ticks the N/A box even on rows without Yes/No buttons (32b, 33a, 33b) — the review
+  // screen tells the seller "N/A", so the form must say the same. Rows with no boxes ignore it.
+  if (autoNA(q, a) && !a[`${q.id}__override`]) return 'na';
+  return q.status ? (a[q.id] || null) : boxStatus(q, a);
+}
+
+const derivedNA = (q, a) => !!autoNA(q, a) && !a[`${q.id}__override`];
+
+function explainActive(q, a) {
+  return !!(q.explain && isAsked(q, a) && !derivedNA(q, a) && q.explain.on.includes(a[q.id]));
+}
+
+function fieldActive(q, f, a, isPre = false) {
+  if (!isAsked(q, a) && !q.pdf?.forceFields) return false;
+  if (isPre) return f.showIf ? !!f.showIf(a) : true;
+  if (derivedNA(q, a)) return false;
+  if (f.showOn && !f.showOn.includes(a[q.id])) return false;
+  if (f.showIf && !f.showIf(a)) return false;
+  return true;
+}
+
+function allFields(q) {
+  return [...(q.pre || []).map((f) => [f, true]), ...(q.fields || []).map((f) => [f, false])];
+}
+
+/** The text a field prints on the form, or '' when it prints nothing. */
+function fieldText(f, a) {
+  if (a[`${f.id}_unk`]) return 'Unknown';
+  if (a[`${f.id}_na`]) return 'N/A';
+  const v = a[f.id];
+  if (v == null || v === '') return '';
+  if (f.kind === 'choice') {
+    if (v === OTHER) return (a[`${f.id}_other`] || '').trim();
+    if (v === 'unk' || v === 'na') return '';
+    return String(v);
+  }
+  if (f.kind === 'multi') {
+    return (v || []).map((x) => (f.options.find((o) => o.v === x) || {}).label || x).join(', ');
+  }
+  return String(v).trim();
+}
+
+/** Is a question fully answered (status chosen, required detail given)? */
+function missing(q, a) {
+  const out = [];
+  if (!isAsked(q, a)) return out;
+  if (q.kind === 'identity') {
+    for (const f of q.fields) if (f.required && !(a[f.id] || '').trim()) out.push(f.label);
+    return out;
+  }
+  if (q.status && !a[q.id] && !derivedNA(q, a)) out.push('Answer');
+  if (explainActive(q, a) && !q.explain.optional && !(a[`${q.id}_x`] || '').trim()) out.push(q.explain.label);
+  for (const [f, pre] of allFields(q)) {
+    if (!fieldActive(q, f, a, pre)) continue;
+    if (f.optional || f.id === 'seller2') continue;
+    const has = a[`${f.id}_unk`] || a[`${f.id}_na`] ||
+      (Array.isArray(a[f.id]) ? a[f.id].length : (a[f.id] != null && String(a[f.id]).trim() !== ''));
+    if (!has) out.push(f.label);
+    else if (f.kind === 'choice' && a[f.id] === OTHER && !(a[`${f.id}_other`] || '').trim()) out.push(`${f.label} (other)`);
+  }
+  return out;
+}
+
+/** Everything the PDF engine prints for one question, already resolved against visibility. */
+function printPlan(q, a) {
+  const d = { ...a, ...derived(a) };
+  const plan = { slot: q.pdf?.slot || q.id, status: statusOf(q, a), writes: [], inline: [] };
+  if (!q.pdf) return plan;
+  const active = new Map(allFields(q).map(([f, pre]) => [f.id, fieldActive(q, f, a, pre) ? f : null]));
+  const fieldById = new Map(allFields(q).map(([f]) => [f.id, f]));
+
+  for (const w of q.pdf.write || []) {
+    let text = '';
+    if (w.join) {
+      const [multiId, otherId] = w.join;
+      const f = active.get(multiId);
+      if (f) text = (a[multiId] || []).map((v) => (v === 'Other' ? (a[otherId] || '').trim() : v)).filter(Boolean).join(', ');
+    } else if (fieldById.has(w.field)) {
+      const f = active.get(w.field);
+      if (f) text = fieldText(f, a);
+      if (!f && w.orNone && (a[w.orNone] || []).includes('none')) text = 'None';
+    } else {
+      // derived text (q25_prob_text, q49_text) — only when the question itself is asked
+      if (isAsked(q, a)) text = d[w.field] || '';
+    }
+    if (text) plan.writes.push({ ...w, text });
+  }
+  if (explainActive(q, a)) {
+    const text = (a[`${q.id}_x`] || '').trim();
+    if (text) plan.writes.push({ flow: q.pdf.flow || null, text, explain: true });
+  }
+  for (const key of [q.pdf.inlineMulti, q.pdf.inlineChoice].filter(Boolean)) {
+    const f = active.get(key) || (q.fields || []).find((x) => x.id === key && isAsked(q, a));
+    if (!f) continue;
+    const vals = Array.isArray(a[key]) ? a[key] : [a[key]];
+    for (const v of vals) {
+      const opt = f.options.find((o) => o.v === v);
+      const box = opt?.inline || (q.pdf.inlineMulti === key && opt && !opt.exclusive ? opt.v : null);
+      if (box) plan.inline.push(box);
+    }
+  }
+  return plan;
+}
+
+
+
+// ── fill.js ──
+// fill.js — print the seller's answers onto the official DCP PDF (pages 1-9; the Foundation
+// Condition Report on pages 10-12 is a separate form and is dropped).
+//
+// Runs in the browser (PDFLib = window.PDFLib) and in Node for the placement tests
+// (PDFLib = await import('pdf-lib')). Nothing here fetches or sends anything.
+//
+// Guarantees:
+//  • text never runs past its printed line — it shrinks to MIN_SIZE, then wraps to the next line of
+//    the same answer, then (if the answer still doesn't fit) the full text moves to an ADDENDUM page
+//    and the form says "(continued on Addendum, item N)";
+//  • signature, date and initials lines are written ONLY from the seller's own drawn signature and
+//    initials when they sign in the wizard (`sign`), dated the moment they sign; buyer lines never;
+//  • the page-8 "number of additional pages attached" counts the addendum pages plus any the seller
+//    says they are attaching.
+
+
+const SIZE = 9.5;
+const MIN_SIZE = 7;
+const PAD = 2;               // gap between the printed label/rule start and our first glyph
+const COLS = { yes: 'yes', no: 'no', unk: 'unk', na: 'na' };
+
+async function fillRPCR({ PDFLib, templateBytes, answers: a, extraPages = 0, sign = null }) {
+  const { PDFDocument, StandardFonts, rgb } = PDFLib;
+  const doc = await PDFDocument.load(templateBytes);
+  while (doc.getPageCount() > 9) doc.removePage(doc.getPageCount() - 1);
+  const font = await doc.embedFont(StandardFonts.Helvetica);
+  const bold = await doc.embedFont(StandardFonts.HelveticaBold);
+  const ink = rgb(0.05, 0.16, 0.45);
+  const pages = doc.getPages();
+  const charset = new Set(font.getCharacterSet());
+  const addendum = [];
+  const report = { boxes: 0, lines: 0, overflow: [] };
+
+  const clean = (s) => Array.from(String(s || '').replace(/[\u2028\u2029\t]/g, ' '))
+    .map((ch) => (ch === '\n' || charset.has(ch.codePointAt(0)) ? ch : ch === '\u2019' ? "'" : '?')).join('');
+
+  const width = (s, size, f = font) => f.widthOfTextAtSize(s, size);
+
+  function mark(page, [x, y]) {
+    const p = pages[page], r = 3.1;
+    p.drawLine({ start: { x: x - r, y: y - r }, end: { x: x + r, y: y + r }, thickness: 1.1, color: ink });
+    p.drawLine({ start: { x: x - r, y: y + r }, end: { x: x + r, y: y - r }, thickness: 1.1, color: ink });
+    report.boxes++;
+  }
+
+  // Write `text` across `rules` in order. Returns true when it all fit.
+  function flow(page, rules, text) {
+    text = clean(text).trim();
+    if (!text) return true;
+    // Single line: shrink before giving up.
+    if (rules.length === 1 && !text.includes('\n')) {
+      const r = rules[0], room = r.x1 - r.x0 - PAD * 2;
+      let size = SIZE;
+      while (size > MIN_SIZE && width(text, size) > room) size -= 0.25;
+      if (width(text, size) <= room) {
+        pages[page].drawText(text, { x: r.x0 + PAD, y: r.y, size, font, color: ink });
+        report.lines++;
+        return true;
+      }
+    }
+    // Multi-line: step the size down a little before giving up to the addendum (8pt is still
+    // comfortably legible on the printed form). An answer that can't sit wholly on a short stub
+    // ("and location: ___") starts on the next full line instead of stranding one word up there.
+    const stub = rules.length > 1 && rules[0].x1 - rules[0].x0 < 70 && width(text, SIZE) > rules[0].x1 - rules[0].x0 - PAD * 2;
+    const tries = stub ? [1, 0] : [0];
+    for (const from of tries) {
+      const use = rules.slice(from);
+      for (const size of [SIZE, 8.75, 8]) {
+        const lines = wrap(text, use.map((r) => r.x1 - r.x0 - PAD * 2), size);
+        if (!lines) continue;
+        lines.forEach((ln, i) => { if (ln) pages[page].drawText(ln, { x: use[i].x0 + PAD, y: use[i].y, size, font, color: ink }); });
+        report.lines += lines.length;
+        return true;
+      }
+    }
+    return false;
+  }
+
+  // Greedy word-wrap into lines of the given widths; null if it doesn't fit. A word that won't fit on
+  // a short stub (the 27pt "and location: ___" blank) leaves that stub empty and starts on the next line.
+  function wrap(text, widths, size) {
+    const out = [];
+    let li = 0;
+    for (const para of text.split('\n')) {
+      let cur = '';
+      for (const w of para.split(/\s+/).filter(Boolean)) {
+        for (;;) {
+          if (li >= widths.length) return null;
+          const trial = cur ? `${cur} ${w}` : w;
+          if (width(trial, size) <= widths[li]) { cur = trial; break; }
+          out.push(cur); cur = ''; li++;
+        }
+      }
+      if (li >= widths.length) return null;
+      out.push(cur); li++;
+    }
+    return out;
+  }
+
+  // Too long for the printed lines: short pointer on the form, full text on the addendum.
+  function overflow(page, rules, text, q) {
+    const item = q.n;
+    // cite the STATE FORM's wording on a legal addendum, not the wizard's plain-English rewording
+    const title = (q.official || q.ask).replace(/^(If [^:]+:\s*)/, '').split(/(?<=[?:])\s/)[0].replace(/[:]$/, '');
+    addendum.push({ item, title, text: clean(text).trim() });
+    const note = `(continued on Addendum, item ${item})`;
+    const widths = rules.map((r) => r.x1 - r.x0 - PAD * 2);
+    // Keep as much of the answer as fits ahead of the pointer so the form still reads naturally.
+    const words = clean(text).replace(/\s+/g, ' ').trim().split(' ');
+    for (let n = words.length - 1; n >= 0; n--) {
+      const lead = n ? `${words.slice(0, n).join(' ')}… ` : '';
+      const lines = wrap(lead + note, widths, SIZE);
+      if (lines) {
+        lines.forEach((ln, i) => pages[page].drawText(ln, { x: rules[i].x0 + PAD, y: rules[i].y, size: SIZE, font, color: ink }));
+        report.lines += lines.length;
+        report.overflow.push(item);
+        return;
+      }
+    }
+    // Not even the pointer fits (a 27pt stub): print it smaller on the first line.
+    const r = rules[0];
+    pages[page].drawText(`see Add. ${item}`, { x: r.x0 + PAD, y: r.y, size: MIN_SIZE, font, color: ink });
+    report.overflow.push(item);
+  }
+
+  // ── identity: Q1, Q2, footers, page-9 print names ──
+  const sellers = [a.seller1, a.seller2].map((s) => (s || '').trim()).filter(Boolean);
+  const street = (a.street || '').trim();
+  const city = (a.city || '').trim(), zip = (a.zip || '').trim();
+  const cityLine = city || zip ? [city, `CT ${zip}`.trim()].filter(Boolean).join(', ') : '';
+  const fullAddr = [street, cityLine].filter(Boolean).join(', ');
+  const idq = QUESTIONS.find((q) => q.kind === 'identity');
+  const s = PDFMAP.slots;
+  if (sellers.length && !flow(s.q1.page, s.q1.rules, sellers.join(' and '))) overflow(s.q1.page, s.q1.rules, sellers.join(' and '), idq);
+  if (fullAddr && !flow(s.q2.page, s.q2.rules, fullAddr)) overflow(s.q2.page, s.q2.rules, fullAddr, idq);
+  for (const [pi, r] of Object.entries(PDFMAP.extras.footer)) if (fullAddr) flow(Number(pi), [r], fullAddr);
+  PDFMAP.extras.print_name.forEach((r, i) => { if (sellers[i]) flow(r.page, [r], sellers[i]); });
+
+  // ── every question ──
+  for (const q of QUESTIONS) {
+    if (q.kind === 'identity') continue;
+    const plan = printPlan(q, a);
+    const slot = s[plan.slot];
+    if (!slot) throw new Error(`no PDF slot for ${q.id}`);
+    if (plan.status && slot.box) mark(slot.page, slot.box[COLS[plan.status]]);
+    for (const key of plan.inline) {
+      const at = slot.inline?.[key];
+      if (!at) throw new Error(`no inline box "${key}" in ${plan.slot}`);
+      mark(slot.page, at);
+    }
+    for (const w of plan.writes) {
+      const idx = w.rule != null ? [w.rule] : (w.flow || slot.rules.map((_, i) => i));
+      const rules = idx.map((i) => slot.rules[i]);
+      if (rules.some((r) => !r)) throw new Error(`${q.id}: rule index out of range ${idx}`);
+      if (!flow(slot.page, rules, w.text)) overflow(slot.page, rules, w.text, q);
+    }
+  }
+
+  // ── addendum pages ──
+  const add = addendum.length ? drawAddendum(doc, { font, bold, ink, clean, width, addendum, sellers, fullAddr }) : { count: 0, initials: [], dates: [] };
+  const addPages = add.count;
+  const totalExtra = addPages + Math.max(0, Number(extraPages) || 0);
+  if (totalExtra > 0) {
+    const r = PDFMAP.extras.addl_pages;
+    flow(r.page, [r], String(totalExtra));
+  }
+
+  // ── the seller's own signature, only when they signed in the wizard ──
+  let signed = 0;
+  if (sign?.sellers?.length) {
+    const when = new Date(sign.at);
+    const dateStr = `${String(when.getMonth() + 1).padStart(2, '0')}/${String(when.getDate()).padStart(2, '0')}/${when.getFullYear()}`;
+    const E = PDFMAP.extras;
+    const marks = [];
+    for (const sg of sign.sellers.slice(0, 2)) {
+      marks.push({ name: sg.name, sig: await doc.embedPng(sg.signature), ini: await doc.embedPng(sg.initials) });
+    }
+    // page 9 Seller's Certification: signature on its line (16pt tall so it clears the "Signature"
+    // caption under the row above), the date on the Date line
+    marks.forEach((m, i) => {
+      const r = E.signature[i];
+      placeImage(pages[r.page], m.sig, r.x0 + 4, r.y - 1.5, r.x1 - r.x0 - 8, 16);
+      const d = E.sign_date[i];
+      flow(d.page, [d], dateStr);
+    });
+    // initials on every "Seller Initials____" blank: pages 1-8 and each addendum page. A second
+    // seller's initials sit directly above the first — the blank is only 25pt wide.
+    const spots = [...Object.entries(E.initials).map(([p, r]) => ({ page: pages[Number(p)], ...r })), ...add.initials];
+    for (const sp of spots) marks.forEach((m, i) => placeImage(sp.page, m.ini, sp.x0 + 1, sp.y - 1.5 + i * 11, sp.x1 - sp.x0 - 2, 10.5));
+    for (const d of add.dates) d.page.drawText(dateStr, { x: d.x, y: d.y, size: 10, font, color: ink });
+    signingRecord(doc, { font, bold, ink, clean, width, marks, when, fullAddr, consent: sign.consent, formPages: 9 + addPages });
+    signed = marks.length;
+  }
+
+  doc.setTitle(`Residential Property Condition Report — ${fullAddr || 'draft'}`);
+  doc.setProducer('Disclosure Wizard (answers overlaid on the official CT DCP form, rev 07/2025)');
+  const bytes = await doc.save();
+  return { bytes, report: { ...report, addendumPages: addPages, additionalPagesPrinted: totalExtra, signed } };
+}
+
+// Fit an image inside maxW x maxH, bottom-left at (x, y), keeping its proportions.
+function placeImage(page, img, x, y, maxW, maxH) {
+  const s = Math.min(maxW / img.width, maxH / img.height);
+  page.drawImage(img, { x, y, width: img.width * s, height: img.height * s });
+}
+
+// A plain record of who signed and when, appended after the form (not counted as an "additional
+// page" on page 8 — it explains no item, it documents the signing).
+function signingRecord(doc, { font, bold, ink, clean, width, marks, when, fullAddr, consent, formPages }) {
+  const W = 612, H = 792, M = 54;
+  const page = doc.addPage([W, H]);
+  let y = H - M;
+  const line = (t, size = 10.5, f = font, color) => {
+    for (const ln of wrapFree(clean(t), W - 2 * M, size, f, width)) { page.drawText(ln, { x: M, y, size, font: f, ...(color ? { color } : {}) }); y -= size + 4; }
+  };
+  line('ELECTRONIC SIGNATURE RECORD', 13, bold);
+  y -= 4;
+  line('Document: Residential Property Condition Report — State of Connecticut, Department of Consumer Protection (revised 07/2025).');
+  line(`Property: ${fullAddr}`);
+  line(`Pages signed: ${formPages} (the report${formPages > 9 ? ' and its addendum' : ''}). This record page is not part of the report.`);
+  const stamp = when.toLocaleString('en-US', { year: 'numeric', month: 'long', day: 'numeric', hour: 'numeric', minute: '2-digit', timeZoneName: 'short' });
+  y -= 8;
+  for (const m of marks) {
+    page.drawLine({ start: { x: M, y: y + 6 }, end: { x: W - M, y: y + 6 }, thickness: 0.5 });
+    y -= 10;
+    line(`Signed by: ${m.name}`, 11, bold);
+    line(`Signed: ${stamp}, on the signer's own device.`);
+    line('Signature:');
+    placeImage(page, m.sig, M + 70, y - 22, 220, 40); y -= 46;
+    line('Initials:');
+    placeImage(page, m.ini, M + 70, y - 8, 90, 24); y -= 28;
+  }
+  y -= 6;
+  page.drawLine({ start: { x: M, y: y + 6 }, end: { x: W - M, y: y + 6 }, thickness: 0.5 });
+  y -= 10;
+  line('Consent to sign electronically, agreed by each signer before signing:', 10.5, bold);
+  line(`“${consent}”`, 10.5, font, ink);
+  y -= 6;
+  line('Each signer drew their own signature and initials. They were placed on the Seller’s Certification (page 9), dated the day of signing, and on the “Seller Initials” line of every page. The buyer’s lines were left blank.', 9.5);
+}
+
+function drawAddendum(doc, { font, bold, ink, clean, width, addendum, sellers, fullAddr }) {
+  const W = 612, H = 792, M = 54, LH = 14, SIZE = 10.5;
+  const made = [], dates = [], initials = [];
+  let page, y;
+  const newPage = () => {
+    page = doc.addPage([W, H]);
+    made.push(page);
+    y = H - M;
+    page.drawText('ADDENDUM TO RESIDENTIAL PROPERTY CONDITION REPORT', { x: M, y, size: 12, font: bold });
+    y -= 18;
+    page.drawText(`Property address: ${clean(fullAddr)}`, { x: M, y, size: 10, font });
+    y -= 14;
+    page.drawText(`Seller(s): ${clean(sellers.join(' and '))}`, { x: M, y, size: 10, font });
+    // a drawn rule, not underscores, so a date written on it later reads cleanly
+    const dx = W - M - 150;
+    page.drawText('Date:', { x: dx, y, size: 10, font });
+    page.drawLine({ start: { x: dx + width('Date: ', 10), y: y - 2 }, end: { x: W - M, y: y - 2 }, thickness: 0.6 });
+    dates.push({ page, x: dx + width('Date: ', 10) + 3, y: y + 0.5 });
+    y -= 10;
+    page.drawLine({ start: { x: M, y }, end: { x: W - M, y }, thickness: 0.6 });
+    y -= 20;
+  };
+  newPage();
+  for (const e of addendum) {
+    const head = `Item ${e.item} — ${clean(e.title)}`;
+    const body = wrapFree(e.text, W - 2 * M, SIZE, font, width);
+    const headLines = wrapFree(head, W - 2 * M, 10.5, bold, width);
+    if (y - (headLines.length + Math.min(body.length, 3)) * LH < M + 40) newPage();
+    for (const hl of headLines) { page.drawText(hl, { x: M, y, size: 10.5, font: bold }); y -= LH; }
+    y -= 2;
+    for (const ln of body) {
+      if (y < M + 40) newPage();
+      if (ln) page.drawText(ln, { x: M, y, size: SIZE, font, color: ink });
+      y -= LH;
+    }
+    y -= 10;
+  }
+  made.forEach((p, i) => {
+    p.drawText(`Addendum page ${i + 1} of ${made.length}`, { x: M, y: 36, size: 9, font });
+    const fx = W - M - width('Seller Initials_____   Buyer Initials_____', 9);
+    p.drawText('Seller Initials_____   Buyer Initials_____', { x: fx, y: 36, size: 9, font });
+    const ix = fx + width('Seller Initials', 9);
+    initials.push({ page: p, x0: ix, x1: ix + width('_____', 9), y: 37.5 });
+  });
+  return { count: made.length, initials, dates };
+}
+
+function wrapFree(text, maxW, size, font, width) {
+  const out = [];
+  for (const para of String(text).split('\n')) {
+    let cur = '';
+    for (const w of para.split(/\s+/).filter(Boolean)) {
+      const t = cur ? `${cur} ${w}` : w;
+      if (width(t, size, font) <= maxW) { cur = t; continue; }
+      if (cur) out.push(cur);
+      // hard-break a single over-long token
+      let rest = w;
+      while (width(rest, size, font) > maxW) {
+        let k = rest.length;
+        while (k > 1 && width(rest.slice(0, k), size, font) > maxW) k--;
+        out.push(rest.slice(0, k)); rest = rest.slice(k);
+      }
+      cur = rest;
+    }
+    out.push(cur);
+  }
+  return out;
+}
+
+
+// ── app.js ──
+// app.js — the wizard. One question per screen, branches hidden until they apply, autosaved to this
+// device, then a review screen and the filled official PDF. Nothing leaves the browser.
+
+
+const STORE = 'ct-rpcr-wizard:v1';
+const ATTACH_Q = new Set(['q20', 'q29', 'q41', 'q42', 'q57']);   // the form asks for a copy of a report
+const $ = (sel, root = document) => root.querySelector(sel);
+const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+const statusLabel = (v) => (STATUS.find((s) => s.v === v) || {}).label || '';
+
+// ── state ──
+let state = load() || { answers: {}, at: 'welcome', extraPages: 0, confirmed: false, updated: null };
+const A = () => state.answers;
+let fromReview = false;
+let pdfBytes = null;   // last generated PDF; cleared whenever an answer changes
+
+function load() {
+  try { const raw = localStorage.getItem(STORE); return raw ? JSON.parse(raw) : null; } catch { return null; }
+}
+let saveTimer = null;
+// Every change is saved: at once on each screen change (and when the tab is hidden or closed),
+// and within a quarter-second while someone types — so closing the tab never loses a page.
+function save(now = false) {
+  state.updated = new Date().toISOString();
+  clearTimeout(saveTimer);
+  const write = () => {
+    try {
+      localStorage.setItem(STORE, JSON.stringify(state));
+      $('#saved').innerHTML = 'Saved<span class="saved-long"> on this device</span>';
+    } catch {
+      $('#saved').textContent = 'Not saved — use “Save my answers to a file”';
+    }
+  };
+  if (now) write(); else saveTimer = setTimeout(write, 250);
+}
+document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'hidden') save(true); });
+window.addEventListener('pagehide', () => save(true));
+
+// ── screens ──
+const Q = new Map(QUESTIONS.map((q) => [q.id, q]));
+function screens() {
+  return ['welcome', ...QUESTIONS.filter((q) => isAsked(q, A())).map((q) => q.id), 'review'];
+}
+function questionScreens() { return screens().filter((s) => Q.has(s)); }
+
+function go(id, { focus = true } = {}) {
+  state.at = id;
+  save(true);
+  render();
+  window.scrollTo({ top: 0, behavior: 'instant' in window ? 'instant' : 'auto' });
+  if (focus) {
+    // Synchronous on purpose: the DOM is already there, and a deferred focus loses the first
+    // keystrokes of someone typing fast (timers are also throttled in background tabs).
+    // Text-only screens (year built, identity…) get the cursor straight away; tap screens focus the title.
+    const textOnly = !$('#screen .status-grid') && !$('#screen .choice-grid');
+    const input = textOnly && $('#screen .card .input:not([disabled]), #screen .card .textarea');
+    (input || $('#screen h1') || $('#screen')).focus?.({ preventScroll: true });
+  }
+}
+function next() {
+  const list = screens();
+  let i = list.indexOf(state.at);
+  if (i === -1) {
+    // the current question stopped applying (e.g. an earlier answer changed): resume after it
+    const order = QUESTIONS.map((q) => q.id);
+    const pos = order.indexOf(state.at);
+    const after = order.slice(pos + 1).find((id) => list.includes(id));
+    return go(after || 'review');
+  }
+  go(list[Math.min(i + 1, list.length - 1)]);
+}
+function back() {
+  const list = screens();
+  const i = list.indexOf(state.at);
+  go(list[Math.max(0, i - 1)]);
+}
+
+// ── rendering ──
+function render() {
+  const at = state.at;
+  const screen = $('#screen');
+  const layout = $('.layout');
+  const inQ = Q.has(at);
+  layout.classList.toggle('with-sidebar', inQ || at === 'review');
+  $('#progress').hidden = !inQ;
+  if (at === 'welcome') screen.innerHTML = renderWelcome();
+  else if (at === 'review') screen.innerHTML = renderReview();
+  else if (at === 'sign') { screen.innerHTML = renderSign(); mountPads(); }
+  else if (inQ) screen.innerHTML = renderQuestion(Q.get(at));
+  else { state.at = 'welcome'; screen.innerHTML = renderWelcome(); }
+  renderProgress();
+  renderSidebar();
+}
+
+function renderProgress() {
+  const q = Q.get(state.at);
+  if (!q) return;
+  const qs = questionScreens();
+  const i = qs.indexOf(q.id);
+  const sec = SECTIONS.find((s) => s.id === q.sec);
+  $('#progress-section').textContent = `${sec.id}. ${sec.title}`;
+  const left = Math.max(1, Math.round(((qs.length - i - 1) * 20) / 60));   // ~20 s a question
+  $('#progress-count').innerHTML = i + 1 >= qs.length ? `${qs.length} of ${qs.length} · last one`
+    : `${i + 1} of ${qs.length}<span class="eta-long"> · about ${left} min left</span><span class="eta-short"> · ~${left} min</span>`;
+  $('#progress-fill').style.width = `${Math.round(((i + 1) / qs.length) * 100)}%`;
+}
+
+function sectionStats(secId) {
+  const qs = QUESTIONS.filter((q) => q.sec === secId && isAsked(q, A()));
+  const done = qs.filter((q) => !missing(q, A()).length).length;
+  return { total: qs.length, done };
+}
+
+function sectionListHTML() {
+  const cur = Q.get(state.at)?.sec;
+  const items = SECTIONS.map((s) => {
+    const st = sectionStats(s.id);
+    const cls = ['side-item', cur === s.id ? 'current' : '', st.total && st.done === st.total ? 'done' : ''].join(' ');
+    return `<li><button class="${cls}" data-sec="${s.id}"><span>${s.id}. ${esc(s.title)}</span><span class="side-count">${st.done}/${st.total}</span></button></li>`;
+  }).join('');
+  const rv = state.at === 'review' ? 'current' : '';
+  return `<ul class="side-list">${items}<li><button class="side-item ${rv}" data-go="review"><span>Review &amp; create form</span><span class="side-count">→</span></button></li></ul>`;
+}
+function renderSidebar() { $('#sidebar').innerHTML = sectionListHTML(); }
+
+function renderWelcome() {
+  const hasProgress = Object.keys(A()).length > 0;
+  const resumeAt = Q.get(state.lastQ);
+  const resume = hasProgress ? `
+    <div class="resume">
+      <div><b>Welcome back.</b><br><span class="help" style="margin:0">Your answers are saved on this device${resumeAt ? ` — you were on question ${esc(resumeAt.n)}` : ''}.</span></div>
+      <button class="btn btn-primary" data-act="resume">Continue</button>
+    </div>` : '';
+  return `
+  <section class="card">
+    <p class="eyebrow">Connecticut · Residential Property Condition Report</p>
+    <h1 class="hero-title" tabindex="-1">Your property disclosure, one question at a time.</h1>
+    <p class="lede">Connecticut requires sellers to complete this report before a buyer signs a contract. Answer here in plain English and we’ll put your answers on the official state form — then you can sign it right here.</p>
+    ${agentCard()}
+    ${resume}
+    <ul class="facts">
+      <li><span class="ic">${icon('clock')}</span><div><b>About 20–30 minutes</b><span>Most answers are a single tap. You can stop and come back any time.</span></div></li>
+      <li><span class="ic">${icon('lock')}</span><div><b>Private to this device</b><span>Your answers are saved in this browser only — nothing is sent anywhere until you choose to share the finished form.</span></div></li>
+      <li><span class="ic">${icon('doc')}</span><div><b>The official form, filled in and signed</b><span>At the end you sign with your finger or mouse and download the state’s own 9-page form (revised 07/2025) with your answers, signature and initials on it.</span></div></li>
+    </ul>
+    <div class="important">
+      <b>Answer from your own knowledge.</b> You must answer every question, and “Unknown” is a perfectly good answer when you don’t know.
+      By law your real estate agent can’t fill this out for you — but they can explain what a question means.
+    </div>
+    <div class="nav"><span></span><div class="nav-right">
+      ${hasProgress ? '<button class="btn btn-ghost" data-act="reset">Start over</button>' : '<button class="btn btn-primary btn-lg" data-act="start">Get started</button>'}
+    </div></div>
+  </section>`;
+}
+
+function agentCard() {
+  if (!BRAND.agent) return '';
+  const tel = BRAND.phone.replace(/[^\d+]/g, '');
+  return `<div class="agent">
+    ${BRAND.photo ? `<img class="agent-photo" src="${esc(BRAND.photo)}" alt="" width="56" height="56">` : ''}
+    <div class="agent-text"><b>${esc(BRAND.agent)}</b><span>${esc(BRAND.role)}</span>${BRAND.brokerage ? `<span class="agent-brk">${esc(BRAND.brokerage)}</span>` : ''}</div>
+    ${BRAND.phone ? `<a class="agent-call" href="tel:${esc(tel)}">${esc(BRAND.phone)}</a>` : ''}
+  </div>`;
+}
+
+function contactHTML() {
+  if (!BRAND.agent) return BRAND.contactLine ? `<p class="help">${esc(BRAND.contactLine)}</p>` : '';
+  const tel = BRAND.phone.replace(/[^\d+]/g, '');
+  return `<p class="help">Questions? Call or text ${esc(BRAND.agent.split(' ')[0])} at <a href="tel:${esc(tel)}">${esc(BRAND.phone)}</a>${BRAND.email ? ` or email <a href="mailto:${esc(BRAND.email)}">${esc(BRAND.email)}</a>` : ''}.</p>`;
+}
+
+function icon(name) {
+  const p = {
+    clock: '<circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/>',
+    lock: '<rect x="5" y="10.5" width="14" height="9.5" rx="2"/><path d="M8 10.5V8a4 4 0 0 1 8 0v2.5"/>',
+    doc: '<path d="M7 3.5h7l4 4V20a.5.5 0 0 1-.5.5h-10A.5.5 0 0 1 7 20z"/><path d="M13.5 3.5V8H18M9.5 12.5h5M9.5 16h5"/>',
+    clip: '<path d="m15.5 7-6.8 6.8a2 2 0 0 0 2.8 2.8l7-7a4 4 0 0 0-5.6-5.6l-7 7a6 6 0 0 0 8.5 8.5l6-6"/>',
+  }[name];
+  return `<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${p}</svg>`;
+}
+
+function renderQuestion(q) {
+  const a = A();
+  state.lastQ = q.id;
+  const sec = SECTIONS.find((s) => s.id === q.sec);
+  const head = `
+    <p class="eyebrow"><span class="qnum">Q${esc(q.n)}</span><span>${esc(sec.title)}</span></p>
+    <h1 class="q-title" tabindex="-1">${esc(q.ask)}</h1>
+    ${q.help ? `<p class="help">${esc(q.help)}</p>` : ''}
+    ${q.official ? `<details class="official"><summary>Exact wording on the state form</summary><blockquote>${esc(q.official)}</blockquote></details>` : ''}`;
+
+  let body = '';
+  if (q.kind === 'identity') {
+    body = `<div class="block">${renderIdentity(q)}</div>`;
+  } else {
+    const pre = (q.pre || []).filter((f) => fieldActive(q, f, a, true));
+    if (pre.length) body += `<div class="block">${pre.map((f) => renderField(f)).join('')}</div>`;
+    if (q.status && autoNA(q, a) && q.keepScreen && !a[`${q.id}__override`]) {
+      body += `<p class="help" style="margin-top:18px">So “${esc(q.ask)}” is marked <b>N/A</b> on the form.</p>`;
+    } else if (q.status) {
+      const label = q.pre ? `<span class="block-label" id="st-${q.id}" style="margin-top:22px;display:block">Now, your answer to the question above:</span>` : '';
+      body += `${q.pre ? label : ''}<div class="status-grid" role="radiogroup" aria-label="Your answer" ${q.pre ? `aria-labelledby="st-${q.id}"` : ''} style="${q.pre ? 'margin-top:8px' : ''}">
+        ${STATUS.map((s) => `<button class="opt" role="radio" aria-checked="${a[q.id] === s.v}" data-status="${s.v}">${s.label} <span class="kbd">${s.key.toUpperCase()}</span></button>`).join('')}
+      </div>`;
+    }
+    const follow = [];
+    if (q.status) {
+      for (const f of q.fields || []) if (fieldActive(q, f, a)) follow.push(renderField(f));
+      if (explainActive(q, a)) follow.push(renderExplain(q));
+    } else {
+      for (const f of q.fields || []) if (fieldActive(q, f, a)) follow.push(renderField(f));
+    }
+    if (q.status && follow.length) body += `<div class="followup">${follow.join('')}</div>`;
+    else if (!q.status) body += `<div class="block">${follow.join('')}</div>`;
+    if (ATTACH_Q.has(q.id) && a[q.id] === 'yes' && !q.explain?.note) {
+      body += `<div class="attach-note">${icon('clip')}<span>The state form asks you to attach a copy of any paperwork for this. Keep it handy — you’ll include it when you send the form to your agent.</span></div>`;
+    }
+  }
+
+  const miss = missing(q, a);
+  const nav = `
+    <div class="nav">
+      <button class="btn btn-ghost" data-act="back">Back</button>
+      <div class="nav-right">
+        ${fromReview ? '<button class="btn btn-ghost" data-act="to-review">Back to review</button>' : ''}
+        ${miss.length && q.kind !== 'identity' ? '<button class="btn-link" data-act="skip">Skip for now</button>' : ''}
+        <button class="btn btn-primary" data-act="next">Continue</button>
+      </div>
+    </div>
+    <p class="nudge" id="nudge" hidden></p>`;
+  return `<section class="card">${head}${body}</section>${nav}`;
+}
+
+function renderIdentity(q) {
+  const a = A();
+  const f = (id) => q.fields.find((x) => x.id === id);
+  const input = (fd) => `
+    <div class="field">
+      <label class="lbl" for="f-${fd.id}">${esc(fd.label)}</label>
+      <input class="input" id="f-${fd.id}" data-field="${fd.id}" value="${esc(a[fd.id] || '')}"
+        ${fd.autocomplete ? `autocomplete="${fd.autocomplete}"` : ''} ${fd.inputmode ? `inputmode="${fd.inputmode}"` : ''}
+        ${fd.maxlength ? `maxlength="${fd.maxlength}"` : ''} ${fd.placeholder ? `placeholder="${esc(fd.placeholder)}"` : ''}>
+    </div>`;
+  return `${input(f('seller1'))}${input(f('seller2'))}${input(f('street'))}
+    <div class="field-row">${input(f('city'))}${input(f('zip'))}</div>`;
+}
+
+function renderField(f) {
+  const a = A();
+  const id = `f-${f.id}`;
+  const note = f.note ? `<p class="note">${esc(f.note)}</p>` : '';
+  if (f.kind === 'choice' || f.kind === 'multi') {
+    const multi = f.kind === 'multi';
+    const cur = multi ? (a[f.id] || []) : a[f.id];
+    const opts = [...f.options, ...(f.other ? [{ v: OTHER, label: 'Other' }] : [])];
+    const btns = opts.map((o) => {
+      const on = multi ? cur.includes(o.v) : cur === o.v;
+      return `<button class="opt" ${multi ? `aria-pressed="${on}"` : `role="radio" aria-checked="${on}"`} data-choice="${f.id}" data-v="${esc(o.v)}" data-multi="${multi ? 1 : ''}">${esc(o.label)}</button>`;
+    }).join('');
+    const other = f.other && cur === OTHER
+      ? `<div class="field"><label class="lbl" for="${id}-o">Describe</label><input class="input" id="${id}-o" data-field="${f.id}_other" value="${esc(a[`${f.id}_other`] || '')}"></div>` : '';
+    return `<div class="field"><span class="block-label" id="${id}-l">${esc(f.label)}</span>
+      <div class="choice-grid" ${multi ? '' : 'role="radiogroup"'} aria-labelledby="${id}-l">${btns}</div>${other}${note}</div>`;
+  }
+  const flag = f.unknownToggle ? `${f.id}_unk` : f.naToggle ? `${f.id}_na` : null;
+  const flagged = flag && a[flag];
+  const control = f.kind === 'longtext'
+    ? `<textarea class="textarea" id="${id}" data-field="${f.id}" rows="3">${esc(a[f.id] || '')}</textarea>`
+    : `<input class="input" id="${id}" data-field="${f.id}" value="${esc(flagged ? '' : a[f.id] || '')}" ${flagged ? 'disabled' : ''}
+        ${f.inputmode ? `inputmode="${f.inputmode}"` : ''} ${f.maxlength ? `maxlength="${f.maxlength}"` : ''} ${f.placeholder ? `placeholder="${esc(f.placeholder)}"` : ''}>`;
+  const tog = flag ? `<label class="toggle"><input type="checkbox" data-flag="${flag}" ${flagged ? 'checked' : ''}> ${esc(f.unknownToggle || f.naToggle)}</label>` : '';
+  return `<div class="field"><label class="lbl" for="${id}">${esc(f.label)}</label>${control}${tog}${note}</div>`;
+}
+
+function renderExplain(q) {
+  const a = A();
+  const note = q.explain.note ? `<div class="attach-note">${icon('clip')}<span>${esc(q.explain.note)}</span></div>` : '';
+  return `<div class="field"><label class="lbl" for="x-${q.id}">${esc(q.explain.label)}${q.explain.optional ? ' <span class="help" style="font-weight:400">(optional)</span>' : ''}</label>
+    <textarea class="textarea" id="x-${q.id}" data-field="${q.id}_x" rows="3" placeholder="Describe what you know — dates, who did the work, and what was done help buyers most.">${esc(a[`${q.id}_x`] || '')}</textarea>${note}</div>`;
+}
+
+// ── review ──
+function answerLines(q) {
+  const a = A();
+  const out = [];
+  const reason = autoNA(q, a);
+  if (reason && !a[`${q.id}__override`] && !q.keepScreen) return { chip: 'na', lines: [], derived: reason };
+  if (q.kind === 'identity') {
+    out.push([a.seller1, a.seller2].filter(Boolean).join(' and '));
+    out.push([a.street, a.city, a.zip].filter(Boolean).join(', '));
+    return { chip: null, lines: out.filter(Boolean) };
+  }
+  for (const [f, pre] of allFields(q)) {
+    if (!fieldActive(q, f, a, pre)) continue;
+    let t = fieldText(f, a);
+    if (f.kind === 'choice' && (a[f.id] === 'unk')) t = 'Don’t know';
+    if (f.kind === 'choice' && (a[f.id] === 'na')) t = 'Not applicable';
+    if (t) out.push(`${f.label.replace(/^First — /, '').replace(/\s*\(check all that apply\)/, '')}: ${t}`);
+  }
+  if (explainActive(q, a) && (a[`${q.id}_x`] || '').trim()) out.push(a[`${q.id}_x`].trim());
+  return { chip: q.status ? a[q.id] || null : statusOf(q, a), lines: out };
+}
+
+function renderReview() {
+  const a = A();
+  const todo = QUESTIONS.filter((q) => isAsked(q, a) && missing(q, a).length);
+  const counts = { yes: 0, no: 0, unk: 0, na: 0 };
+  for (const q of QUESTIONS) { const s = statusOf(q, a); if (s && q.status) counts[s]++; }
+
+  const secs = SECTIONS.map((s) => {
+    const rows = QUESTIONS.filter((q) => q.sec === s.id && (isAsked(q, a) || autoNA(q, a))).map((q) => {
+      const { chip, lines, derived } = answerLines(q);
+      const miss = isAsked(q, a) ? missing(q, a) : [];
+      const chipHtml = miss.length ? '<span class="chip todo">Needs answer</span>' : chip ? `<span class="chip ${chip}">${statusLabel(chip)}</span>` : '';
+      const detail = derived
+        ? `<span class="derived">N/A — ${esc(derived)}</span> <button class="edit" data-override="${q.id}">Answer it anyway</button>`
+        : lines.map((l) => `<span class="detail">${esc(l)}</span>`).join('');
+      return `<div class="row ${miss.length ? 'missing' : ''}">
+        <div class="row-n">${esc(q.n)}</div>
+        <div><div class="row-q">${esc(q.ask)}</div><div class="row-a">${chipHtml}${detail}</div></div>
+        <div>${derived ? '' : `<button class="edit" data-edit="${q.id}">Edit</button>`}</div>
+      </div>`;
+    }).join('');
+    return rows ? `<section class="review-sec"><h2>${s.id}. ${esc(s.title)}</h2><div class="rows">${rows}</div></section>` : '';
+  }).join('');
+
+  const todoHtml = todo.length ? `
+    <div class="todo-list"><b>${todo.length} question${todo.length > 1 ? 's' : ''} still need${todo.length > 1 ? '' : 's'} an answer.</b> The state form requires every question to be answered.
+      <ul>${todo.slice(0, 12).map((q) => `<li><button data-edit="${q.id}">Q${esc(q.n)} — ${esc(q.ask)}</button></li>`).join('')}${todo.length > 12 ? `<li>…and ${todo.length - 12} more</li>` : ''}</ul>
+    </div>` : '';
+
+  const attach = QUESTIONS.filter((q) => ATTACH_Q.has(q.id) && statusOf(q, a) === 'yes');
+  const done = pdfBytes ? `
+    <section class="card generate" id="done">
+      <h2 class="q-title" style="font-size:22px">Your unsigned form is ready.</h2>
+      <p class="help">Open it and read every page carefully — it’s your statement to the buyer.</p>
+      <div class="nav" style="justify-content:flex-start;gap:10px;flex-wrap:wrap">
+        <button class="btn btn-primary" data-act="download">Download the PDF</button>
+      </div>
+      <p class="nudge" id="dl-msg" hidden></p>
+      <ol class="done-steps">
+        <li>Review each page. Changed your mind? Edit any answer above and create the form again.</li>
+        <li>Initial the bottom of pages 1–8 and sign and date the Seller’s Certification on page 9 — or go back and choose “Continue to sign” to sign it here.</li>
+        ${attach.length ? `<li>Attach the paperwork the form asks for: ${attach.map((q) => `Q${q.n}`).join(', ')}.</li>` : ''}
+        <li>Send the signed form (and any attachments) to your agent.</li>
+      </ol>
+      ${contactHTML()}
+    </section>` : '';
+
+  return `
+  <section class="card">
+    <p class="eyebrow">Almost done</p>
+    <h1 class="q-title" tabindex="-1">Review your answers</h1>
+    <p class="help">Check everything below. Tap Edit to change an answer. When it all looks right, create your form at the bottom.</p>
+    <div class="summary-box"><span><b>${counts.yes}</b> Yes</span><span><b>${counts.no}</b> No</span><span><b>${counts.unk}</b> Unknown</span><span><b>${counts.na}</b> N/A</span></div>
+    ${todoHtml}
+  </section>
+  ${secs}
+  <section class="card generate">
+    <div class="field">
+      <label class="lbl" for="extra-pages">Are you attaching other pages — reports, receipts, test results? How many pages?</label>
+      <input class="input" id="extra-pages" data-extra inputmode="numeric" maxlength="3" value="${esc(state.extraPages || 0)}" style="max-width:120px">
+      <p class="note">Printed on page 8 as “number of additional pages attached”, together with any addendum pages we create for long answers.</p>
+    </div>
+    <label class="confirm" style="margin-top:18px"><input type="checkbox" data-confirm ${state.confirmed ? 'checked' : ''}>
+      <span>I have reviewed my answers and they are true and accurate to the best of my knowledge. I understand I still need to sign the official form.</span></label>
+    <div class="nav">
+      <button class="btn btn-ghost" data-act="back">Back</button>
+      <div class="nav-right">
+        <button class="btn btn-ghost" data-act="generate" data-gated ${state.confirmed ? '' : 'disabled'}>Unsigned PDF</button>
+        <button class="btn btn-primary btn-lg" data-act="to-sign" data-gated ${state.confirmed ? '' : 'disabled'}>Continue to sign</button>
+      </div>
+    </div>
+    <p class="note">Sign here with your finger or mouse, or download it unsigned to sign on paper or through your agent’s e-signature.</p>
+    <p class="nudge" id="gen-msg" hidden></p>
+  </section>
+  ${done}`;
+}
+
+function fileName() {
+  const st = (A().street || 'property').replace(/[^\w\s#.-]/g, '').trim();
+  return `Property Condition Report - ${st}.pdf`;
+}
+
+async function generate() {
+  const a = A();
+  const todo = QUESTIONS.filter((q) => isAsked(q, a) && missing(q, a).length);
+  const msg = $('#gen-msg');
+  if (todo.length && !(await askConfirm(`${todo.length} question${todo.length > 1 ? 's' : ''} still need${todo.length > 1 ? '' : 's'} an answer and will be left blank on the form. Create it anyway?`, 'Create it anyway'))) return;
+  const btn = document.querySelector('[data-act="generate"]');
+  btn.disabled = true; btn.textContent = 'Creating…';
+  const label = 'Unsigned PDF';
+  try {
+    if (!window.PDFLib) throw new Error('The PDF tool did not load. Check your connection and reload the page.');
+    const templateBytes = await template();
+    const { bytes, report } = await fillRPCR({ PDFLib: window.PDFLib, templateBytes, answers: a, extraPages: state.extraPages });
+    pdfBytes = bytes;
+    window.__lastReport = report;
+    render();
+    setTimeout(() => $('#done')?.scrollIntoView({ behavior: 'smooth', block: 'start' }), 0);
+  } catch (e) {
+    msg.hidden = false; msg.textContent = e.message || String(e);
+    btn.disabled = false; btn.textContent = label;
+  }
+}
+
+// ── events ──
+document.addEventListener('click', (e) => {
+  const t = e.target.closest('button, [data-act], a');
+  if (!t) {
+    if (!e.target.closest('#menu, #menu-btn')) closeMenu();
+    return;
+  }
+  const a = A();
+  const q = Q.get(state.at);
+
+  if (t.dataset.status && q) {
+    a[q.id] = t.dataset.status;
+    pdfDirty();
+    save(); render();
+    const needsMore = missing(q, a).length > 0 || (q.fields || []).some((f) => fieldActive(q, f, a)) || explainActive(q, a);
+    if (!needsMore) setTimeout(() => { if (state.at === q.id && a[q.id] === t.dataset.status) next(); }, 260);
+    else setTimeout(() => $('#screen .followup input:not([disabled]), #screen .followup textarea')?.focus(), 0);
+    return;
+  }
+  if (t.dataset.choice) {
+    const fid = t.dataset.choice, v = t.dataset.v;
+    const f = findField(fid);
+    if (t.dataset.multi) {
+      let cur = new Set(a[fid] || []);
+      const opt = f?.options.find((o) => o.v === v);
+      if (cur.has(v)) cur.delete(v);
+      else {
+        if (opt?.exclusive) cur = new Set();
+        else for (const o of f?.options || []) if (o.exclusive) cur.delete(o.v);
+        cur.add(v);
+      }
+      a[fid] = [...cur];
+    } else {
+      a[fid] = v;
+    }
+    pdfDirty(); save(); render();
+    const again = document.querySelector(`[data-choice="${CSS.escape(fid)}"][data-v="${CSS.escape(v)}"]`);
+    again?.focus({ preventScroll: true });
+    if (v === OTHER) setTimeout(() => document.getElementById(`f-${fid}-o`)?.focus(), 0);
+    return;
+  }
+  if (t.dataset.sec) {
+    const first = QUESTIONS.find((x) => x.sec === t.dataset.sec && isAsked(x, a));
+    closeSections();
+    if (first) go(first.id);
+    return;
+  }
+  if (t.dataset.go) { closeSections(); fromReview = false; return go(t.dataset.go); }
+  if (t.dataset.edit) { fromReview = true; return go(t.dataset.edit); }
+  if (t.dataset.override) { a[`${t.dataset.override}__override`] = true; fromReview = true; pdfDirty(); return go(t.dataset.override); }
+  if (t.hasAttribute('data-close')) return closeSections();
+  if (t.dataset.clear) {
+    strokes[t.dataset.clear] = [];
+    const c = document.getElementById(t.dataset.clear); if (c) redrawPad(c);
+    signedBytes = null; updateSignUI();
+    return;
+  }
+
+  switch (t.dataset.act) {
+    case 'start': return go('identity');
+    case 'resume': return go(state.lastQ && screens().includes(state.lastQ) ? state.lastQ : 'identity');
+    case 'next': {
+      const miss = q ? missing(q, a) : [];
+      if (miss.length && q?.kind === 'identity') {
+        const n = $('#nudge'); n.hidden = false; n.textContent = `Please fill in: ${miss.join(', ')}.`; return;
+      }
+      if (miss.length) {
+        const n = $('#nudge'); n.hidden = false;
+        n.textContent = q.status && !a[q.id] ? 'Choose an answer — “Unknown” is fine if you don’t know. Or tap “Skip for now” and come back to it.' : `Still needed: ${miss.join(', ')}. Or tap “Skip for now”.`;
+        return;
+      }
+      return fromReview ? (fromReview = false, go('review')) : next();
+    }
+    case 'skip': return fromReview ? (fromReview = false, go('review')) : next();
+    case 'back': return back();
+    case 'to-review': fromReview = false; return go('review');
+    case 'generate': return generate();
+    case 'sections': closeMenu(); return openSections();
+    case 'export': closeMenu(); return exportAnswers();
+    case 'import': closeMenu(); return $('#import-file').click();
+    case 'download': return downloadPdf();
+    case 'download-signed': return downloadPdf(signedBytes, fileName().replace(/\.pdf$/, ' - signed.pdf'));
+    case 'sign-generate': return signAndGenerate();
+    case 'to-sign': {
+      const todo = QUESTIONS.filter((x) => isAsked(x, a) && missing(x, a).length);
+      if (!todo.length) return go('sign');
+      askConfirm(`${todo.length} question${todo.length > 1 ? 's' : ''} still need${todo.length > 1 ? '' : 's'} an answer and will be blank on the form you sign. Continue anyway?`, 'Continue to sign')
+        .then((yes) => { if (yes) go('sign'); });
+      return;
+    }
+    case 'reset':
+      closeMenu();
+      askConfirm('Erase all your answers on this device and start over?', 'Erase and start over').then((yes) => {
+        if (!yes) return;
+        state = { answers: {}, at: 'welcome', extraPages: 0, confirmed: false, updated: null };
+        try { localStorage.removeItem(STORE); } catch {}
+        pdfDirty(); fromReview = false; render(); $('#saved').textContent = '';
+      });
+      return;
+  }
+  if (t.id === 'menu-btn') return toggleMenu();
+});
+
+document.addEventListener('input', (e) => {
+  const el = e.target;
+  if (el.dataset.field) {
+    A()[el.dataset.field] = el.value;
+    pdfDirty(); save();
+    // identity feeds the sidebar counts; cheap enough to refresh it without re-rendering the form
+    renderSidebar();
+    const skip = document.querySelector('[data-act="skip"]');
+    if (skip && Q.get(state.at) && !missing(Q.get(state.at), A()).length) skip.remove();
+    return;
+  }
+  if (el.hasAttribute('data-extra')) { state.extraPages = Math.max(0, parseInt(el.value, 10) || 0); pdfDirty(); save(); }
+});
+
+document.addEventListener('change', (e) => {
+  const el = e.target;
+  if (el.dataset.flag) {
+    A()[el.dataset.flag] = el.checked;
+    const fid = el.dataset.flag.replace(/_(unk|na)$/, '');
+    if (el.checked) delete A()[fid];
+    pdfDirty(); save(); render();
+    if (!el.checked) setTimeout(() => document.getElementById(`f-${fid}`)?.focus(), 0);
+  }
+  if (el.hasAttribute('data-consent')) { signConsent = el.checked; updateSignUI(); }
+  if (el.hasAttribute('data-confirm')) {
+    state.confirmed = el.checked; save();
+    document.querySelectorAll('[data-gated]').forEach((b) => { b.disabled = !el.checked; });
+  }
+  if (el.id === 'import-file' && el.files[0]) importAnswers(el.files[0]);
+});
+
+document.addEventListener('keydown', (e) => {
+  const q = Q.get(state.at);
+  const typing = /^(INPUT|TEXTAREA|SELECT)$/.test(document.activeElement?.tagName);
+  if (e.key === 'Escape') { closeMenu(); return; }
+  if (!q || typing || e.metaKey || e.ctrlKey || e.altKey) {
+    if (q && e.key === 'Enter' && document.activeElement?.tagName === 'INPUT' && document.activeElement.type !== 'checkbox') {
+      e.preventDefault(); document.querySelector('[data-act="next"]')?.click();
+    }
+    return;
+  }
+  const s = STATUS.find((x) => x.key === e.key.toLowerCase());
+  if (s && q.status) { e.preventDefault(); document.querySelector(`[data-status="${s.v}"]`)?.click(); return; }
+  if (e.key === 'Enter' && !e.target.closest('button')) { e.preventDefault(); document.querySelector('[data-act="next"]')?.click(); }
+});
+
+function findField(id) {
+  for (const q of QUESTIONS) for (const [f] of allFields(q)) if (f.id === id) return f;
+  return null;
+}
+function pdfDirty() { pdfBytes = null; signedBytes = null; }
+
+// ── menu / sections sheet ──
+function toggleMenu() { const m = $('#menu'); const open = m.hidden; m.hidden = !open; $('#menu-btn').setAttribute('aria-expanded', String(open)); }
+function closeMenu() { $('#menu').hidden = true; $('#menu-btn').setAttribute('aria-expanded', 'false'); }
+function openSections() { $('#sections-list').innerHTML = sectionListHTML(); $('#sections-dialog').showModal(); }
+function closeSections() { const d = $('#sections-dialog'); if (d.open) d.close(); }
+
+// ── export / import ──
+async function exportAnswers() {
+  const json = JSON.stringify({ kind: 'ct-rpcr-answers', version: 1, saved: new Date().toISOString(), ...state }, null, 1);
+  const res = await saveFile(`disclosure-answers-${(A().street || 'draft').replace(/\W+/g, '-')}.json`, new Blob([json], { type: 'application/json' }));
+  if (res !== 'saved') await askConfirm(res, 'OK', null);
+}
+
+async function downloadPdf(bytes = pdfBytes, name = fileName()) {
+  const msg = $('#dl-msg');
+  if (!bytes) return;
+  const res = await saveFile(name, new Blob([bytes], { type: 'application/pdf' }));
+  msg.hidden = res === 'saved';
+  if (res !== 'saved') msg.textContent = res;
+}
+
+let templateCache = null;
+async function template() {
+  if (!templateCache) {
+    const res = await fetch('assets/ct-rpcr-2025-07-official.pdf');
+    if (!res.ok) throw new Error(`Could not load the state form (${res.status}). Check your connection and try again.`);
+    templateCache = await res.arrayBuffer();
+  }
+  return templateCache.slice(0);
+}
+
+// ── e-signature ──
+// Signatures and initials are held in memory only — never written to this device's storage — so
+// nobody who opens the page later on a shared computer can reuse them.
+const INK = '#0d2973';
+const CONSENT_ONE = 'I agree to sign this report electronically. The signature and initials I drew are my own, and I intend them to be my signature and initials on this report.';
+const CONSENT_TWO = 'Each of us agrees to sign this report electronically. The signature and initials each of us drew are our own, and we intend them to be our signatures and initials on this report.';
+const strokes = {};           // canvas id → [[ [x, y], … ], …] in CSS pixels
+let signConsent = false;
+let signedBytes = null;
+const signers = () => [A().seller1, A().seller2].map((x) => (x || '').trim()).filter(Boolean);
+const fmtDate = (d) => `${String(d.getMonth() + 1).padStart(2, '0')}/${String(d.getDate()).padStart(2, '0')}/${d.getFullYear()}`;
+const hasInk = (id) => (strokes[id] || []).reduce((n, st) => n + st.length, 0) >= 3;
+function signReady() {
+  const n = signers().length;
+  if (!n || !signConsent) return false;
+  for (let i = 0; i < n; i++) if (!hasInk(`sig-${i}`) || !hasInk(`ini-${i}`)) return false;
+  return true;
+}
+
+function padHTML(id, label, kind) {
+  return `<div class="pad-field pad-${kind}">
+    <div class="pad-head"><span class="lbl" id="${id}-l">${label}</span><button type="button" class="btn-link" data-clear="${id}">Clear</button></div>
+    <canvas id="${id}" class="pad" role="img" aria-labelledby="${id}-l"></canvas>
+    <p class="pad-hint">${kind === 'sig' ? 'Sign above the line — finger, stylus or mouse' : 'Initials'}</p>
+  </div>`;
+}
+
+function renderSign() {
+  const names = signers();
+  const two = names.length > 1;
+  const pads = names.map((n, i) => `
+    <section class="signer">
+      <h2 class="signer-name">${esc(n)}</h2>
+      <div class="pad-row">${padHTML(`sig-${i}`, 'Signature', 'sig')}${padHTML(`ini-${i}`, 'Initials', 'ini')}</div>
+    </section>`).join('');
+  const attach = QUESTIONS.filter((q) => ATTACH_Q.has(q.id) && statusOf(q, A()) === 'yes');
+  const done = signedBytes ? `
+    <section class="card generate" id="signed-done">
+      <h2 class="q-title" style="font-size:22px">Signed — your report is ready.</h2>
+      <p class="help">Your signature is on page 9, your initials are at the bottom of every page, and a signature record is added at the end.</p>
+      <div class="nav" style="justify-content:flex-start;gap:10px;flex-wrap:wrap">
+        <button class="btn btn-primary" data-act="download-signed">Download the signed PDF</button>
+      </div>
+      <p class="nudge" id="dl-msg" hidden></p>
+      <ol class="done-steps">
+        <li>Open it and look over every page.</li>
+        ${attach.length ? `<li>Attach the paperwork the form asks for: ${attach.map((q) => `Q${q.n}`).join(', ')}.</li>` : ''}
+        <li>Send it (and any attachments) to your agent. The buyer signs their own section later.</li>
+      </ol>
+      ${contactHTML()}
+    </section>` : '';
+  return `
+  <section class="card">
+    <p class="eyebrow">Last step</p>
+    <h1 class="q-title" tabindex="-1">Sign your report</h1>
+    <p class="help">${two ? 'Each seller signs and initials once.' : 'Sign and initial once.'} The signature goes on the Seller’s Certification on page 9, dated today (${fmtDate(new Date())}), and the initials go at the bottom of every page. The buyer’s lines stay blank for the buyer.</p>
+    ${names.length ? pads : '<p class="nudge">Add the seller’s name first (question 1).</p>'}
+    <label class="confirm" style="margin-top:22px"><input type="checkbox" id="sign-consent" data-consent ${signConsent ? 'checked' : ''}>
+      <span>${esc(two ? CONSENT_TWO : CONSENT_ONE)}</span></label>
+    <div class="nav">
+      <button class="btn btn-ghost" data-act="to-review">Back to review</button>
+      <button class="btn btn-primary btn-lg" data-act="sign-generate" ${signReady() ? '' : 'disabled'}>Sign and create my form</button>
+    </div>
+    <p class="nudge" id="sign-msg" hidden></p>
+  </section>
+  ${done}`;
+}
+
+function drawStrokes(ctx, list, scale = 1, ox = 0, oy = 0, weight = 2.4) {
+  ctx.lineCap = 'round'; ctx.lineJoin = 'round'; ctx.strokeStyle = INK; ctx.fillStyle = INK; ctx.lineWidth = weight * scale;
+  for (const st of list) {
+    const P = st.map(([x, y]) => [(x - ox) * scale, (y - oy) * scale]);
+    if (P.length === 1) { ctx.beginPath(); ctx.arc(P[0][0], P[0][1], 1.4 * scale, 0, Math.PI * 2); ctx.fill(); continue; }
+    ctx.beginPath(); ctx.moveTo(P[0][0], P[0][1]);
+    for (let i = 1; i < P.length - 1; i++) ctx.quadraticCurveTo(P[i][0], P[i][1], (P[i][0] + P[i + 1][0]) / 2, (P[i][1] + P[i + 1][1]) / 2);
+    ctx.lineTo(P[P.length - 1][0], P[P.length - 1][1]);
+    ctx.stroke();
+  }
+}
+function redrawPad(c) {
+  const ctx = c.getContext('2d');
+  ctx.save(); ctx.setTransform(1, 0, 0, 1, 0, 0); ctx.clearRect(0, 0, c.width, c.height); ctx.restore();
+  drawStrokes(ctx, strokes[c.id] || []);
+}
+function mountPads() {
+  const dpr = Math.max(1, window.devicePixelRatio || 1);
+  document.querySelectorAll('canvas.pad').forEach((c) => {
+    const r = c.getBoundingClientRect();
+    c.width = Math.max(1, Math.round(r.width * dpr)); c.height = Math.max(1, Math.round(r.height * dpr));
+    c.getContext('2d').setTransform(dpr, 0, 0, dpr, 0, 0);
+    strokes[c.id] ||= [];
+    redrawPad(c);
+    if (c.dataset.bound) return;
+    c.dataset.bound = '1';
+    let cur = null;
+    const pt = (e) => { const b = c.getBoundingClientRect(); return [e.clientX - b.left, e.clientY - b.top]; };
+    c.addEventListener('pointerdown', (e) => {
+      e.preventDefault(); c.setPointerCapture?.(e.pointerId);
+      cur = [pt(e)]; strokes[c.id].push(cur); redrawPad(c);
+    });
+    c.addEventListener('pointermove', (e) => {
+      if (!cur) return;
+      e.preventDefault();
+      for (const ev of (e.getCoalescedEvents ? e.getCoalescedEvents() : [e])) cur.push(pt(ev));
+      redrawPad(c);
+    });
+    const end = () => { if (!cur) return; cur = null; signedBytes = null; updateSignUI(); };
+    c.addEventListener('pointerup', end);
+    c.addEventListener('pointercancel', end);
+    c.addEventListener('lostpointercapture', end);
+  });
+}
+let resizeTimer = null;
+window.addEventListener('resize', () => { clearTimeout(resizeTimer); resizeTimer = setTimeout(() => { if (state.at === 'sign') mountPads(); }, 120); });
+
+function updateSignUI() {
+  const b = document.querySelector('[data-act="sign-generate"]');
+  if (b) b.disabled = !signReady();
+  const d = document.getElementById('signed-done');
+  if (d && !signedBytes) d.remove();
+}
+
+// Trim a pad's ink to its bounding box and export a high-resolution transparent PNG.
+async function padPng(id) {
+  const list = strokes[id] || [];
+  const pts = list.flat();
+  const xs = pts.map((p) => p[0]), ys = pts.map((p) => p[1]);
+  const m = 4, x0 = Math.min(...xs) - m, y0 = Math.min(...ys) - m;
+  const w = Math.max(...xs) - x0 + m, h = Math.max(...ys) - y0 + m, S = 4;
+  const cv = document.createElement('canvas');
+  cv.width = Math.ceil(w * S); cv.height = Math.ceil(h * S);
+  drawStrokes(cv.getContext('2d'), list, S, x0, y0, 3.4);   // heavier than on screen: it prints small
+  const blob = await new Promise((resolve) => cv.toBlob(resolve, 'image/png'));
+  return new Uint8Array(await blob.arrayBuffer());
+}
+
+async function signAndGenerate() {
+  const names = signers();
+  const msg = $('#sign-msg');
+  const btn = document.querySelector('[data-act="sign-generate"]');
+  btn.disabled = true; btn.textContent = 'Signing…';
+  try {
+    if (!window.PDFLib) throw new Error('The PDF tool did not load. Check your connection and reload the page.');
+    const sellers = [];
+    for (let i = 0; i < names.length; i++) sellers.push({ name: names[i], signature: await padPng(`sig-${i}`), initials: await padPng(`ini-${i}`) });
+    const { bytes, report } = await fillRPCR({
+      PDFLib: window.PDFLib, templateBytes: await template(), answers: A(), extraPages: state.extraPages,
+      sign: { at: new Date(), consent: names.length > 1 ? CONSENT_TWO : CONSENT_ONE, sellers },
+    });
+    signedBytes = bytes;
+    window.__lastReport = report;
+    render();
+    setTimeout(() => $('#signed-done')?.scrollIntoView({ behavior: 'smooth', block: 'start' }), 0);
+  } catch (e) {
+    msg.hidden = false; msg.textContent = e.message || String(e);
+    btn.disabled = false; btn.textContent = 'Sign and create my form';
+  }
+}
+
+// Hand a file to the viewer. Inside a claude.ai Artifact the frame can't download anything itself,
+// so it goes through the platform's `downloads` capability (the viewer confirms the save); anywhere
+// else (the plain static site) an ordinary download link does it. Returns 'saved' or a message.
+async function saveFile(filename, blob) {
+  const downloads = window.claude?.use ? await window.claude.use('downloads').catch(() => null) : null;
+  if (downloads) {
+    try {
+      await downloads.save({ filename, data: blob });
+      return 'saved';
+    } catch (e) {
+      if (e?.code === 'declined') return 'Download cancelled. Tap the button again when you’re ready.';
+      if (e?.code === 'rate_limited') return 'A download is already waiting for you to confirm it.';
+      return 'This page can’t save files here. Open it in a web browser to download the form.';
+    }
+  }
+  const url = URL.createObjectURL(blob);
+  const link = Object.assign(document.createElement('a'), { href: url, download: filename });
+  document.body.append(link); link.click(); link.remove();
+  setTimeout(() => URL.revokeObjectURL(url), 4000);
+  return 'saved';
+}
+
+// In-page replacement for the browser's native dialogs, which sandboxed viewers silently refuse.
+// Resolves true for the OK button; `cancel: null` makes it a one-button notice.
+function askConfirm(message, ok = 'OK', cancel = 'Cancel') {
+  const d = $('#ask');
+  $('#ask-msg').textContent = message;
+  $('#ask-ok').textContent = ok;
+  $('#ask-cancel').hidden = cancel === null;
+  if (cancel) $('#ask-cancel').textContent = cancel;
+  d.returnValue = '';
+  d.showModal();
+  $('#ask-ok').focus();
+  return new Promise((resolve) => d.addEventListener('close', () => resolve(d.returnValue === 'ok'), { once: true }));
+}
+async function importAnswers(file) {
+  try {
+    const data = JSON.parse(await file.text());
+    if (data.kind !== 'ct-rpcr-answers' || typeof data.answers !== 'object') throw new Error('That file is not a saved answers file from this questionnaire.');
+    if (Object.keys(A()).length && !(await askConfirm('Replace the answers on this device with the ones in this file?', 'Replace my answers'))) return;
+    state = { answers: data.answers, at: data.at || 'review', extraPages: data.extraPages || 0, confirmed: false, lastQ: data.lastQ, updated: null };
+    pdfDirty(); save(); go(state.at);
+  } catch (e) {
+    await askConfirm(e.message || 'Could not read that file.', 'OK', null);
+  } finally {
+    $('#import-file').value = '';
+  }
+}
+
+// ── access gate ──
+// A PBKDF2 hash of the code is all the page holds. A visitor unlocks once per device (remembered),
+// or arrives through the agent's link, which carries ?code= and is stripped from the address bar.
+const ACCESS_KEY = 'ct-rpcr-access';
+async function codeMatches(code) {
+  const enc = new TextEncoder();
+  const hex = (b) => [...new Uint8Array(b)].map((x) => x.toString(16).padStart(2, '0')).join('');
+  const salt = new Uint8Array(ACCESS.salt.match(/../g).map((h) => parseInt(h, 16)));
+  const key = await crypto.subtle.importKey('raw', enc.encode(code.trim().toUpperCase()), 'PBKDF2', false, ['deriveBits']);
+  const bits = await crypto.subtle.deriveBits({ name: 'PBKDF2', hash: 'SHA-256', salt, iterations: ACCESS.iterations }, key, 256);
+  return hex(bits) === ACCESS.hash;
+}
+function rememberAccess() { try { localStorage.setItem(ACCESS_KEY, ACCESS.hash); } catch {} }
+async function hasAccess() {
+  if (!ACCESS) return true;
+  try { if (localStorage.getItem(ACCESS_KEY) === ACCESS.hash) return true; } catch {}
+  const url = new URL(location.href);
+  const code = url.searchParams.get('code');
+  if (code) {
+    url.searchParams.delete('code');
+    history.replaceState(null, '', url.pathname + url.search + url.hash);
+    if (await codeMatches(code)) { rememberAccess(); return true; }
+  }
+  return false;
+}
+function renderGate(wrong = false) {
+  document.querySelector('.layout').classList.remove('with-sidebar');
+  $('#progress').hidden = true;
+  $('#screen').innerHTML = `
+  <section class="card gate">
+    <p class="eyebrow">${esc(BRAND.team)}</p>
+    <h1 class="q-title" tabindex="-1">Enter your access code</h1>
+    <p class="help">${esc(ACCESS.hint || 'Your agent sent you a code with the link to this questionnaire.')}</p>
+    <form id="gate-form" class="block" autocomplete="off">
+      <label class="lbl" for="gate-code" style="display:block;font-weight:600;margin-bottom:6px">Access code</label>
+      <input class="input gate-input" id="gate-code" autocapitalize="characters" spellcheck="false" inputmode="text" maxlength="24" required>
+      ${wrong ? '<p class="nudge" role="alert">That code didn’t match. Check the message from your agent and try again.</p>' : ''}
+      <div class="nav"><span></span><button class="btn btn-primary btn-lg" type="submit">Unlock</button></div>
+    </form>
+    ${agentCard()}
+  </section>`;
+  $('#gate-code').focus();
+  $('#gate-form').addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const btn = e.submitter || $('#gate-form button'); btn.disabled = true; btn.textContent = 'Checking…';
+    if (await codeMatches($('#gate-code').value)) { rememberAccess(); render(); }
+    else renderGate(true);
+  });
+}
+
+// ── boot ──
+$('#brand-team').textContent = BRAND.team;
+if (BRAND.logo) { const m = document.querySelector('.brand-mark'); m.classList.add('has-logo'); m.style.backgroundImage = `url("${BRAND.logo}")`; }
+if (state.updated) $('#saved').innerHTML = 'Saved<span class="saved-long"> on this device</span>';
+hasAccess().then((ok) => (ok ? render() : renderGate()));
+
+</script>
+</body>
+</html>

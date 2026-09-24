@@ -4520,7 +4520,11 @@ function render() {
   else { state.at = 'welcome'; screen.innerHTML = renderWelcome(); }
   renderProgress();
   renderSidebar();
+  fillAgentPhoto();
 }
+// Set in script, not as a templated src attribute in markup: dtstamford's integrity checker scans
+// the page for src/href values and reads a template placeholder as a missing file.
+function fillAgentPhoto() { document.querySelectorAll('[data-agent-photo]').forEach((img) => { img.src = BRAND.photo; }); }
 
 function renderProgress() {
   const q = Q.get(state.at);
@@ -4587,7 +4591,7 @@ function agentCard() {
   if (!BRAND.agent) return '';
   const tel = BRAND.phone.replace(/[^\d+]/g, '');
   return `<div class="agent">
-    ${BRAND.photo ? `<img class="agent-photo" src="${esc(BRAND.photo)}" alt="" width="56" height="56">` : ''}
+    ${BRAND.photo ? '<img class="agent-photo" data-agent-photo alt="" width="56" height="56">' : ''}
     <div class="agent-text"><b>${esc(BRAND.agent)}</b><span>${esc(BRAND.role)}</span>${BRAND.brokerage ? `<span class="agent-brk">${esc(BRAND.brokerage)}</span>` : ''}</div>
     ${BRAND.phone ? `<a class="agent-call" href="tel:${esc(tel)}">${esc(BRAND.phone)}</a>` : ''}
   </div>`;
@@ -5269,6 +5273,7 @@ function renderGate(wrong = false) {
     </form>
     ${agentCard()}
   </section>`;
+  fillAgentPhoto();
   $('#gate-code').focus();
   $('#gate-form').addEventListener('submit', async (e) => {
     e.preventDefault();

@@ -295,6 +295,11 @@ h1, h2, h3 { margin: 0; }
 }
 .pad-ini .pad { height: 150px; }
 .pad-hint { margin: 6px 0 0; font-size: 13px; color: var(--muted); }
+.send-status { margin: 14px 0 0; padding: 12px 14px; border-radius: 12px; font-size: 15px; background: var(--surface-2); border: 1px solid var(--line); }
+.send-status.busy { color: var(--muted); }
+.send-status.ok { background: var(--st-no-bg); color: var(--st-no); border-color: transparent; font-weight: 600; }
+.send-status.warn { background: var(--warn-bg); color: var(--warn-ink); border-color: transparent; }
+.send-status a { color: inherit; }
 .ask form { padding: 20px; display: grid; gap: 18px; }
 .ask p { margin: 0; font-size: 16px; }
 .ask-actions { display: flex; justify-content: flex-end; gap: 10px; flex-wrap: wrap; }
@@ -416,6 +421,7 @@ const BRAND = {
  "email": "John@dtstamford.com",
  "logo": "brand/logo-gold.webp",
  "photo": "brand/john-restrepo.webp",
+ "submitUrl": "https://files.stamford-homes.com/disclosure/submit",
  "team": "Downtown Stamford",
  "contactLine": "Questions while you fill this out? Reach out to your agent any time."
 };
@@ -3570,7 +3576,9 @@ const QUESTIONS = [
     official: '1) Name of seller(s): 2) Street address, municipality, zip code:',
     fields: [
       { id: 'seller1', label: 'Seller full name', kind: 'text', required: true, autocomplete: 'name' },
+      { id: 'seller1_email', label: 'Your email — we’ll send you the signed copy', kind: 'email', autocomplete: 'email', inputmode: 'email', autoSend: true },
       { id: 'seller2', label: 'Second seller (optional)', kind: 'text' },
+      { id: 'seller2_email', label: 'Second seller’s email (optional)', kind: 'email', inputmode: 'email', autoSend: true },
       { id: 'street', label: 'Street address', kind: 'text', required: true, autocomplete: 'address-line1', placeholder: 'e.g. 25 Main Street, Unit 4' },
       { id: 'city', label: 'Town / city', kind: 'text', required: true, autocomplete: 'address-level2', half: true },
       { id: 'zip', label: 'ZIP code', kind: 'text', required: true, autocomplete: 'postal-code', inputmode: 'numeric', half: true, maxlength: 10 },
@@ -4577,7 +4585,9 @@ function renderWelcome() {
     ${resume}
     <ul class="facts">
       <li><span class="ic">${icon('clock')}</span><div><b>About 20–30 minutes</b><span>Most answers are a single tap. You can stop and come back any time.</span></div></li>
-      <li><span class="ic">${icon('lock')}</span><div><b>Private to this device</b><span>Your answers are saved in this browser only — nothing is sent anywhere until you choose to share the finished form.</span></div></li>
+      <li><span class="ic">${icon('lock')}</span><div>${BRAND.submitUrl
+        ? `<b>Private while you work</b><span>Your answers stay in this browser while you fill it out. When you sign, the signed form is emailed to you and to ${esc((BRAND.agent || 'your agent').split(' ')[0])}.</span>`
+        : '<b>Private to this device</b><span>Your answers are saved in this browser only — nothing is sent anywhere until you choose to share the finished form.</span>'}</div></li>
       <li><span class="ic">${icon('doc')}</span><div><b>The official form, filled in and signed</b><span>At the end you sign with your finger or mouse and download the state’s own 9-page form (revised 07/2025) with your answers, signature and initials on it.</span></div></li>
     </ul>
     <div class="important">
@@ -4674,11 +4684,12 @@ function renderIdentity(q) {
   const input = (fd) => `
     <div class="field">
       <label class="lbl" for="f-${fd.id}">${esc(fd.label)}</label>
-      <input class="input" id="f-${fd.id}" data-field="${fd.id}" value="${esc(a[fd.id] || '')}"
+      <input class="input" id="f-${fd.id}" data-field="${fd.id}" value="${esc(a[fd.id] || '')}" type="${fd.kind === 'email' ? 'email' : 'text'}"
         ${fd.autocomplete ? `autocomplete="${fd.autocomplete}"` : ''} ${fd.inputmode ? `inputmode="${fd.inputmode}"` : ''}
         ${fd.maxlength ? `maxlength="${fd.maxlength}"` : ''} ${fd.placeholder ? `placeholder="${esc(fd.placeholder)}"` : ''}>
     </div>`;
-  return `${input(f('seller1'))}${input(f('seller2'))}${input(f('street'))}
+  const mail = (id) => (BRAND.submitUrl ? input(f(id)) : '');
+  return `${input(f('seller1'))}${mail('seller1_email')}${input(f('seller2'))}${mail('seller2_email')}${input(f('street'))}
     <div class="field-row">${input(f('city'))}${input(f('zip'))}</div>`;
 }
 
@@ -4904,6 +4915,11 @@ document.addEventListener('click', (e) => {
     case 'resume': return go(state.lastQ && screens().includes(state.lastQ) ? state.lastQ : 'identity');
     case 'next': {
       const miss = q ? missing(q, a) : [];
+      if (q?.kind === 'identity' && BRAND.submitUrl) {
+        const bad = [['seller1_email', true], ['seller2_email', false]]
+          .filter(([id, req]) => (a[id] || '').trim() ? !EMAIL_OK.test(a[id].trim()) : req);
+        if (bad.length) miss.push(bad.some(([id]) => id === 'seller1_email') ? 'your email (so we can send you the signed copy)' : 'the second seller’s email');
+      }
       if (miss.length && q?.kind === 'identity') {
         const n = $('#nudge'); n.hidden = false; n.textContent = `Please fill in: ${miss.join(', ')}.`; return;
       }
@@ -5067,6 +5083,7 @@ function renderSign() {
     <section class="card generate" id="signed-done">
       <h2 class="q-title" style="font-size:22px">Signed — your report is ready.</h2>
       <p class="help">Your signature is on page 9, your initials are at the bottom of every page, and a signature record is added at the end.</p>
+      ${BRAND.submitUrl ? `<p class="send-status ${sendState.cls}" id="send-status" role="status">${sendState.html}</p>` : ''}
       <div class="nav" style="justify-content:flex-start;gap:10px;flex-wrap:wrap">
         <button class="btn btn-primary" data-act="download-signed">Download the signed PDF</button>
       </div>
@@ -5074,7 +5091,7 @@ function renderSign() {
       <ol class="done-steps">
         <li>Open it and look over every page.</li>
         ${attach.length ? `<li>Attach the paperwork the form asks for: ${attach.map((q) => `Q${q.n}`).join(', ')}.</li>` : ''}
-        <li>Send it (and any attachments) to your agent. The buyer signs their own section later.</li>
+        <li>${sendState.cls === 'ok' ? 'Nothing else to send — you and ' + esc((BRAND.agent || 'your agent').split(' ')[0]) + ' both have it.' : 'Send it (and any attachments) to your agent.'} The buyer signs their own section later.</li>
       </ol>
       ${contactHTML()}
     </section>` : '';
@@ -5093,6 +5110,52 @@ function renderSign() {
     <p class="nudge" id="sign-msg" hidden></p>
   </section>
   ${done}`;
+}
+
+// ── automatic copy to the seller + agent ──
+// The page hands the signed PDF to the agent's office (Hive Mind, through its public tunnel), which
+// files it with the deal and emails it To: the seller(s), Cc: the agent. If that fails for any reason
+// the seller still has the Download button and is told to email it themselves — never a silent drop.
+const EMAIL_OK = /^[^\s@<>"',;]+@[^\s@<>"',;]+\.[A-Za-z]{2,}$/;
+let sendState = { cls: '', html: '' };
+function setSendState(cls, html) {
+  sendState = { cls, html };
+  const el = document.getElementById('send-status');
+  if (el) { el.className = 'send-status ' + cls; el.innerHTML = html; }
+  const step = document.querySelector('#signed-done .done-steps li:last-child');
+  if (step && cls === 'ok') step.textContent = 'Nothing else to send — you and ' + (BRAND.agent || 'your agent').split(' ')[0] + ' both have it. The buyer signs their own section later.';
+}
+async function submitSigned(bytes, names) {
+  const a = A();
+  const who = (BRAND.agent || 'your agent').split(' ')[0];
+  const sellers = names.map((name, i) => ({ name, email: String((i === 0 ? a.seller1_email : a.seller2_email) || '').trim() }));
+  const address = [a.street, a.city, ['CT', a.zip].filter(Boolean).join(' ')].map((x) => (x || '').trim()).filter(Boolean).join(', ');
+  try {
+    const pdf = await new Promise((resolve, reject) => {
+      const fr = new FileReader();
+      fr.onload = () => resolve(String(fr.result).split(',')[1]);
+      fr.onerror = () => reject(fr.error);
+      fr.readAsDataURL(new Blob([bytes], { type: 'application/pdf' }));
+    });
+    const ctl = new AbortController();
+    const timer = setTimeout(() => ctl.abort(), 120000);
+    const res = await fetch(BRAND.submitUrl, {
+      method: 'POST', headers: { 'content-type': 'application/json' }, signal: ctl.signal,
+      body: JSON.stringify({ pdf, filename: fileName().replace(/\.pdf$/, ' - signed.pdf'), address, sellers }),
+    });
+    clearTimeout(timer);
+    const j = await res.json().catch(() => ({}));
+    if (!res.ok || !j.ok) throw new Error(j.error || ('HTTP ' + res.status));
+    if (j.emailed) {
+      const to = (j.to || []).map(esc).join(' and ');
+      setSendState('ok', '✓ Emailed to ' + (to || 'you') + ' and to ' + esc(who) + '. Check your inbox (and spam folder) in a minute.');
+    } else {
+      setSendState('warn', esc(who) + ' received your signed form, but the email to you didn’t go out. Download your copy below.');
+    }
+  } catch (e) {
+    setSendState('warn', 'We couldn’t send it automatically. Please download it below and email it to ' + esc(who)
+      + (BRAND.email ? ' at <a href="mailto:' + esc(BRAND.email) + '">' + esc(BRAND.email) + '</a>' : '') + '.');
+  }
 }
 
 function drawStrokes(ctx, list, scale = 1, ox = 0, oy = 0, weight = 2.4) {
@@ -5178,8 +5241,10 @@ async function signAndGenerate() {
     });
     signedBytes = bytes;
     window.__lastReport = report;
+    if (BRAND.submitUrl) sendState = { cls: 'busy', html: 'Emailing a copy to you and ' + esc((BRAND.agent || 'your agent').split(' ')[0]) + '…' };
     render();
     setTimeout(() => $('#signed-done')?.scrollIntoView({ behavior: 'smooth', block: 'start' }), 0);
+    if (BRAND.submitUrl) submitSigned(bytes, names);
   } catch (e) {
     msg.hidden = false; msg.textContent = e.message || String(e);
     btn.disabled = false; btn.textContent = 'Sign and create my form';

@@ -11,7 +11,7 @@ const DATA_URL = 'data/listings.json';
 // Per-listing detail file, lazy-fetched on drawer open to hydrate photos[] + remarks the index omits.
 const detailURL = slug => `data/listings/${encodeURIComponent(slug)}.json`;
 const PHONE = '2038833399';
-const EMAIL = 'John@dtstamford.com';
+const EMAIL = 'john@stamford-homes.com';
 const PAGE_SIZE = 24;      // cards rendered per IntersectionObserver page
 const PLACEHOLDER_PHOTO = 'assets/stamford-ct-single-family-home-exterior.jpg';
 

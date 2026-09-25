@@ -1307,11 +1307,24 @@ function renderDrawer(l) {
   // and the person looking at a sold comp is usually pricing their OWN home, which is a listing lead,
   // not a showing request. The close price is deliberately absent from the public feed
   // (mls-sync.py:142), so the CTA asks John rather than pretending the page knows it.
-  const mailBody = encodeURIComponent(sold
+  /* TEXT FIRST (John 2026-09-24: "shouldnt it be a text i prefer a text"). This drawer was the last
+     mailto CTA on a listing — the per-listing pages already text (genlistings idx-cta-text) — so every
+     "Tour request: <address>" email in his Apple mailbox came from right here. Two reasons text wins:
+     a tap opens Messages with the whole message written (no compose screen, no typing), and a text
+     lands in his phone → the outbox pipeline, where an email to John@dtstamford.com is invisible to it.
+     Same wording as the listing pages, plus the "(sent from dtstamford.com)" line his lead catcher
+     reads as the source. Desktop keeps the mailto — an sms: link does nothing on a PC with no
+     Messages app, and that is where a real share of this traffic sits. */
+  const ctaText = sold
     ? `Hi John, I saw that ${addrFull(l)} (MLS #${l.mls}) sold. What did it actually close at, and what would that mean for a home like mine nearby?`
-    : `Hi John, I'm interested in ${addrFull(l)} (MLS #${l.mls}, ${money(l.price)}). Can we set up a tour?`);
+    : `Hi John, I'd like to see ${addrFull(l)} (MLS #${l.mls}, ${money(l.price)}). When are you free for a showing?`;
+  const mailBody = encodeURIComponent(ctaText);
+  const smsHref = `sms:${PHONE_SMS}?&body=` + encodeURIComponent(`${ctaText}\n\n(sent from dtstamford.com)`);
   const ctaSubject = sold ? 'Sold comp: ' + addrFull(l) : 'Tour request: ' + addrFull(l);
   const ctaLabel = sold ? 'Ask what it sold for' : 'Request a tour';
+  const ctaTextLabel = sold ? 'Text John about this' : 'Text John for a tour';
+  // coarse pointer + no hover = a phone or tablet, the only devices where sms: is guaranteed to work
+  const canText = (() => { try { return window.matchMedia('(hover: none) and (pointer: coarse)').matches; } catch (_) { return false; } })();
 
   $('#drawerBody').innerHTML = `
     <div class="d-gallery">
@@ -1345,7 +1358,9 @@ function renderDrawer(l) {
           <span class="d-callcta-t">Call John</span>
           <span class="d-callcta-s">Schedule a tour or ask about this property</span>
           <span class="d-callcta-arrow" aria-hidden="true">→</span></a>
-        <a class="btn btn-act" href="mailto:${EMAIL}?subject=${encodeURIComponent(ctaSubject)}&body=${mailBody}">${ctaLabel}</a>
+        ${canText
+          ? `<a class="btn btn-act d-cta-text" href="${smsHref}">${ctaTextLabel}</a>`
+          : `<a class="btn btn-act" href="mailto:${EMAIL}?subject=${encodeURIComponent(ctaSubject)}&body=${mailBody}">${ctaLabel}</a>`}
         <button class="btn btn-out" data-fav="${esc(l.mls)}">${fav ? '♥ Saved' : '♡ Save'}</button>
         <button class="btn btn-out d-cta-share" id="dShare" aria-label="Share this listing" title="Share this listing"><svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v13M8 7l4-4 4 4M5 12v7a2 2 0 002 2h10a2 2 0 002-2v-7"/></svg></button>
       </div>

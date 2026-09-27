@@ -14,8 +14,8 @@
  "acres": 0.19,
  "address": {
   "line": "1093 Shippan Avenue",
-  "unit": null,
-  "lineWithUnit": "1093 Shippan Avenue",
+  "unit": "Unit 1",
+  "lineWithUnit": "1093 Shippan Avenue Unit 1",
   "city": "Stamford",
   "state": "Connecticut",
   "zip": "06902"
@@ -138,6 +138,34 @@
  },
  "comps": [
   {
+   "mls": "24116904",
+   "slug": "1093-shippan-avenue-stamford-connecticut-24116904",
+   "address": {
+    "line": "1093 Shippan Avenue",
+    "unit": null,
+    "lineWithUnit": "1093 Shippan Avenue",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 2000.0,
+   "acres": 10.0,
+   "price": 6000.0,
+   "date": "2025-09-02",
+   "listingType": "rent",
+   "geo": {
+    "lat": 41.037273,
+    "lng": -73.52783
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.0,
+   "ppsf": 3.0
+  },
+  {
    "mls": "24158743",
    "slug": "1124-shippan-avenue-stamford-connecticut-24158743",
    "address": {
@@ -248,34 +276,6 @@
    "why": "Within a 15-minute walk, sold in the last year",
    "km": 0.28059227147377763,
    "ppsf": 3.903903903903904
-  },
-  {
-   "mls": "24156738",
-   "slug": "90-iroquois-road-stamford-connecticut-24156738",
-   "address": {
-    "line": "90 Iroquois Road",
-    "unit": "Unit A",
-    "lineWithUnit": "90 Iroquois Road Unit A",
-    "city": "Stamford",
-    "state": "Connecticut",
-    "zip": "06902"
-   },
-   "beds": 3.0,
-   "baths": 3.0,
-   "sqft": 1500.0,
-   "acres": 0.12,
-   "price": 4300.0,
-   "date": "2026-08-01",
-   "listingType": "rent",
-   "geo": {
-    "lat": 41.037663,
-    "lng": -73.52379
-   },
-   "klass": "rental",
-   "tier": 3,
-   "why": "Within a 15-minute walk, sold in the last year",
-   "km": 0.34160727265884844,
-   "ppsf": 2.8666666666666667
   }
  ]
 }

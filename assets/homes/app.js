@@ -1067,13 +1067,18 @@ function toggleFav(mls) {
 }
 
 /* ---------- map ---------- */
+// Shared by the search and drawer maps. Browser caching and referrers use their defaults.
+function addBaseMap(target) {
+  return L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+    maxNativeZoom: 19, maxZoom: 20,
+    className: 'dts-map-tiles',
+  }).addTo(target);
+}
 function initMap() {
   map = L.map('map', { zoomControl: true, attributionControl: true, scrollWheelZoom: true })
     .setView([41.053, -73.538], 12);
-  L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
-    attribution: '&copy; OpenStreetMap &copy; CARTO',
-    subdomains: 'abcd', maxZoom: 20,
-  }).addTo(map);
+  addBaseMap(map);
   // Clustered markers. 1,100+ price pins on one screen was an unreadable dark blob; clustering
   // collapses dense areas into one count bubble that satisfyingly breaks apart as you zoom in.
   // Falls back to a plain layer group if the plugin didn't load (offline / CDN blocked).
@@ -1388,9 +1393,9 @@ function renderDrawer(l) {
   const _dMapEl = document.getElementById('dMap');
   if (l.geo && Number.isFinite(l.geo.lat)) {
     if (_dMapEl) _dMapEl.style.display = '';
-    const dm = L.map('dMap', { zoomControl: false, attributionControl: false, dragging: false, scrollWheelZoom: false, doubleClickZoom: false })
+    const dm = L.map('dMap', { zoomControl: false, attributionControl: true, dragging: false, scrollWheelZoom: false, doubleClickZoom: false })
       .setView([l.geo.lat, l.geo.lng], 14);
-    L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', { subdomains: 'abcd' }).addTo(dm);
+    addBaseMap(dm);
     L.marker([l.geo.lat, l.geo.lng], { icon: L.divIcon({ className: '', html: `<div class="price-pin hi">${esc(l.address.lineWithUnit || l.address.line || l.address.city)}</div>` }) }).addTo(dm);
     setTimeout(() => dm.invalidateSize(), 80);
   } else if (_dMapEl) {

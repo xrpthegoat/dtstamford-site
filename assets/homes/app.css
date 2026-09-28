@@ -397,6 +397,8 @@ html{overflow-x:hidden;overscroll-behavior:none}
   background:rgba(203,171,104,.06);margin-bottom:10px}
 
 /* ---------- MAP MARKERS ---------- */
+/* Style only base tiles: gold pins, labels and controls retain their colors. */
+.dts-map-tiles{filter:invert(1) hue-rotate(180deg) saturate(.25) brightness(.85) contrast(.9)}
 .leaflet-container{background:#0a0a0d;font-family:var(--sans)}
 .leaflet-control-attribution{background:rgba(6,6,8,.7)!important;color:var(--muted)!important;font-size:12px!important}
 .leaflet-control-attribution a{color:var(--muted)!important}

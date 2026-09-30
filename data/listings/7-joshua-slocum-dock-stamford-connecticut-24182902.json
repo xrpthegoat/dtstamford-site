@@ -93,6 +93,9 @@
   "waterfront": "Harbor,L. I. Sound Frontage,Dock or Mooring",
   "directWaterfront": "1"
  },
+ "leasePriceDesc": "Per Month",
+ "rentPeriod": "month",
+ "rentalDuration": "Yearly Unfurnished",
  "indexable": true,
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
@@ -159,6 +162,7 @@
    "price": 16000.0,
    "date": "2026-06-09",
    "listingType": "rent",
+   "rentPeriod": "month",
    "geo": {
     "lat": 41.028718,
     "lng": -73.547512
@@ -187,6 +191,7 @@
    "price": 13500.0,
    "date": "2026-06-02",
    "listingType": "rent",
+   "rentPeriod": "month",
    "geo": {
     "lat": 41.030534,
     "lng": -73.545417
@@ -215,6 +220,7 @@
    "price": 3460.0,
    "date": "2026-05-01",
    "listingType": "rent",
+   "rentPeriod": "month",
    "geo": {
     "lat": 41.032005,
     "lng": -73.549978
@@ -243,6 +249,7 @@
    "price": 9800.0,
    "date": "2026-04-30",
    "listingType": "rent",
+   "rentPeriod": "month",
    "geo": {
     "lat": 41.032109,
     "lng": -73.545978
@@ -254,32 +261,33 @@
    "ppsf": 2.9687973341411693
   },
   {
-   "mls": "24007365",
-   "slug": "16-joshua-slocum-dock-stamford-connecticut-24007365",
+   "mls": "24182663",
+   "slug": "87-dolphin-cove-quay-stamford-connecticut-24182663",
    "address": {
-    "line": "16 Joshua Slocum Dock",
+    "line": "87 Dolphin Cove Quay",
     "unit": null,
-    "lineWithUnit": "16 Joshua Slocum Dock",
+    "lineWithUnit": "87 Dolphin Cove Quay",
     "city": "Stamford",
     "state": "Connecticut",
     "zip": "06902"
    },
-   "beds": 3.0,
+   "beds": 4.0,
    "baths": 3.0,
-   "sqft": 2274.0,
-   "acres": null,
-   "price": 16500.0,
-   "date": "2024-11-25",
+   "sqft": 2115.0,
+   "acres": 0.26,
+   "price": 10500.0,
+   "date": "2026-09-17",
    "listingType": "rent",
+   "rentPeriod": "month",
    "geo": {
-    "lat": 41.029335,
-    "lng": -73.54799
+    "lat": 41.02851,
+    "lng": -73.547436
    },
    "klass": "rental",
    "tier": 4,
    "why": "Within about a mile and a half, sold in the last 2 years",
-   "km": 0.03440333169837822,
-   "ppsf": 7.255936675461742
+   "km": 0.12295659608050215,
+   "ppsf": 4.964539007092198
   }
  ]
 }

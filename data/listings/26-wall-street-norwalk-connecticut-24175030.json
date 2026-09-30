@@ -59,6 +59,9 @@
   "zoning": "CD-4",
   "roadFrontage": "State Road"
  },
+ "leasePriceDesc": "Per SqFt/Per Year",
+ "rentPeriod": "sqft-year",
+ "rentalDuration": null,
  "indexable": true,
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
@@ -110,34 +113,5 @@
    "walk": 4
   }
  },
- "comps": [
-  {
-   "mls": "24115594",
-   "slug": "666-main-avenue-norwalk-connecticut-24115594",
-   "address": {
-    "line": "666 Main Avenue",
-    "unit": "Unit AR7",
-    "lineWithUnit": "666 Main Avenue Unit AR7",
-    "city": "Norwalk",
-    "state": "Connecticut",
-    "zip": "06851"
-   },
-   "beds": null,
-   "baths": null,
-   "sqft": 6417.0,
-   "acres": null,
-   "price": 7000.0,
-   "date": "2025-07-30",
-   "listingType": "rent",
-   "geo": {
-    "lat": 41.16031,
-    "lng": -73.418144
-   },
-   "klass": "commercial",
-   "tier": 5,
-   "why": "Same town, sold in the last 3 years",
-   "km": 4.664933570500368,
-   "ppsf": 1.0908524232507402
-  }
- ]
+ "comps": []
 }

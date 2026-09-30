@@ -831,9 +831,9 @@
         </div>
         <div class="li-band-row">
           <span class="li-band-lbl">For rent</span>
-          <a class="li-chip" href="search.html?t=rent&amp;pmax=1800"><b id="lbRent18">32</b> under $1,800</a>
-          <a class="li-chip" href="search.html?t=rent&amp;pmax=2200"><b id="lbRent22">99</b> under $2,200</a>
-          <a class="li-chip" href="search.html?t=rent&amp;pmax=3000"><b id="lbRent30">224</b> under $3,000</a>
+          <a class="li-chip" href="search.html?t=rent&amp;pmax=1800"><b id="lbRent18">23</b> under $1,800</a>
+          <a class="li-chip" href="search.html?t=rent&amp;pmax=2200"><b id="lbRent22">89</b> under $2,200</a>
+          <a class="li-chip" href="search.html?t=rent&amp;pmax=3000"><b id="lbRent30">213</b> under $3,000</a>
           <span class="li-med" id="lbMedRent">Stamford median $3,100/mo</span>
         </div>
       </div>
@@ -843,9 +843,10 @@
       </div>
     </div>
   </section>
-  <script>
+  <script type="module">
+  import { rentSuffix } from "./assets/homes/rental-pricing.js?v=20260930";
   (function(){
-    var money=function(n,rent){ if(n==null) return ''; var s='$'+Math.round(n).toLocaleString('en-US'); return rent?s+'/mo':s; };
+    var money=function(n,rent){ if(n==null) return ''; var s='$'+Math.round(n).toLocaleString('en-US'); return s; };
     var esc=function(s){ return String(s==null?'':s).replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];}); };
     fetch('data/stats.json?v='+Date.now()).then(function(r){ return r.ok?r.json():null; }).then(function(s){
       if(!s) return;
@@ -886,7 +887,7 @@
           // href comes from stats.json's c.url; fallback is split so the integrity verifier
           // (which flags any quoted "*.html" literal in a page) never sees a fake link here.
           a.setAttribute('href', c.url || ('homes/'+c.slug+'.ht'+'ml'));
-          a.innerHTML='<div class="lc-price">'+esc(money(c.price,rent))+'</div>'
+          a.innerHTML='<div class="lc-price">'+esc(money(c.price)+rentSuffix(c))+'</div>'
             +'<div class="lc-addr">'+esc(c.address)+'</div>'
             +'<div class="lc-meta">'+esc(meta)+'</div>';
           track.appendChild(a);

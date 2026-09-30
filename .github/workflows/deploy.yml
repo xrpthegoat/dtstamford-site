@@ -30,6 +30,11 @@ jobs:
       - uses: actions/checkout@v4
       - name: Verify site integrity (block deploy if a page/link/asset is missing)
         run: python3 .github/scripts/verify-site.py
+      - name: Verify rental price periods and monthly budgets
+        run: |
+          python3 .github/scripts/verify-rental-pricing.py
+          node .github/scripts/test-rental-pricing.mjs
+          python3 .github/scripts/test-rental-publication.py
       - uses: actions/configure-pages@v5
         with:
           enablement: true

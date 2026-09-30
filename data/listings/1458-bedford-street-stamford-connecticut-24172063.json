@@ -71,6 +71,9 @@
   "lotDescription": "Corner Lot,Level Lot",
   "roadFrontage": "State Road,Paved Road"
  },
+ "leasePriceDesc": "Per Month",
+ "rentPeriod": "month",
+ "rentalDuration": null,
  "indexable": true,
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
@@ -139,6 +142,7 @@
    "price": 2000.0,
    "date": "2026-05-01",
    "listingType": "rent",
+   "rentPeriod": "month",
    "geo": {
     "lat": 41.066626,
     "lng": -73.542808
@@ -148,34 +152,6 @@
    "why": "Within a 15-minute walk, sold in the last year",
    "km": 0.32423590712222367,
    "ppsf": null
-  },
-  {
-   "mls": "24066237",
-   "slug": "929-bedford-street-stamford-connecticut-24066237",
-   "address": {
-    "line": "929 Bedford Street",
-    "unit": null,
-    "lineWithUnit": "929 Bedford Street",
-    "city": "Stamford",
-    "state": "Connecticut",
-    "zip": "06905"
-   },
-   "beds": null,
-   "baths": null,
-   "sqft": 4000.0,
-   "acres": 0.93,
-   "price": 50.0,
-   "date": "2025-03-01",
-   "listingType": "rent",
-   "geo": {
-    "lat": 41.061443,
-    "lng": -73.5376
-   },
-   "klass": "commercial",
-   "tier": 4,
-   "why": "Within about a mile and a half, sold in the last 2 years",
-   "km": 0.4082832511799509,
-   "ppsf": 0.0125
   },
   {
    "mls": "24158568",
@@ -195,6 +171,7 @@
    "price": 4250.0,
    "date": "2026-06-15",
    "listingType": "rent",
+   "rentPeriod": "month",
    "geo": {
     "lat": 41.10466,
     "lng": -73.550903
@@ -223,6 +200,7 @@
    "price": 4000.0,
    "date": "2026-07-28",
    "listingType": "rent",
+   "rentPeriod": "month",
    "geo": {},
    "klass": "commercial",
    "tier": 5,

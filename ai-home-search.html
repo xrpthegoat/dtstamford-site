@@ -334,7 +334,8 @@
 <div class="mscrim" id="mscrim"><div class="modal" id="modal"></div></div>
 <div class="toast" id="toast"></div>
 
-<script>
+<script type="module">
+import { rentSuffix, monthlyPrice } from "./assets/homes/rental-pricing.js?v=20260930";
 /* ============================================================================
    AI Home Search — dtstamford.com
    Modular conversational real-estate assistant over the SAME data as search.html
@@ -414,6 +415,7 @@ const Data = {
         const t = Feat.text(l), st = Geo.station(l.geo);
         let score = 0; const reasons = [];
         // hard-ish numeric filters (soft: near-misses still rank, just lower)
+        if ((f.priceMax != null || f.priceMin != null) && monthlyPrice(l) == null) return null;
         if (f.priceMax != null) { if (l.price <= f.priceMax) { score += 3; } else if (l.price <= f.priceMax * 1.08) { score += 0.5; reasons.push('slightly over budget'); } else return null; }
         if (f.priceMin != null && l.price >= f.priceMin) score += 1;
         if (f.beds != null) { if (l.beds >= f.beds) score += 2; else return null; }
@@ -662,7 +664,7 @@ const Brain = {
     invest(turn){
       const pool = (State.lastResults.length? State.lastResults : availListings()).slice(0,8);
       const ranked = pool.map(l=>({ l, ...capRate(l) })).sort((a,b)=>b.cap-a.cap).slice(0,3);
-      const rows = ranked.map(x=>`<div class="row"><div class="q">${esc(x.l.address.line)}</div><div class="a">${x.cap.toFixed(1)}% cap<small>~${money(x.rent)}/mo rent · ${money(x.l.price)}</small></div></div>`).join('');
+      const rows = ranked.map(x=>`<div class="row"><div class="q">${esc(x.l.address.line)}</div><div class="a">${x.cap.toFixed(1)}% cap<small>~${money(x.rent)}/mo rent · ${money(x.l.price)}${esc(rentSuffix(x.l))}</small></div></div>`).join('');
       return { html:
         `<p>Here's a quick <strong>investment read</strong> on the strongest candidates — estimated cap rate (net yield) using a ${'~$'+CONFIG.rentPerSqftMo}/sq ft rent proxy, taxes, and HOA. Higher = better cash yield:</p>`+
         `<div class="ana">${rows}</div>`+
@@ -673,6 +675,7 @@ const Brain = {
     rental(turn){
       const l = State.lastResults[0] || availListings()[0];
       if (!l) return { html:`<p>Show me a home first and I'll estimate what it would rent for.</p>` };
+      if (l.listingType === 'rent') return { html: `<p>The listed rent for <strong>${esc(l.address.line)}</strong> is <strong>${money(l.price)}${esc(rentSuffix(l))}</strong>.</p>` };
       const rent = Math.round(l.sqft*CONFIG.rentPerSqftMo/50)*50;
       return { html:
         `<p><strong>${esc(l.address.line)}</strong> (${l.sqft.toLocaleString()} sq ft) would likely rent around <strong>${money(rent)}/mo</strong> in this market. `+
@@ -812,7 +815,7 @@ function cardEl(r){
        <button class="sv${on}" data-mls="${esc(l.mls)}" aria-label="Save">♥</button>
      </div>
      <div class="bd">
-       <div class="price">${money(priceShown)}${l.listingType==='rent'?'<span style="font-size:.9rem;color:#9a9ba6">/mo</span>':''}${sold?`<span style="font-size:.78rem;color:#9a9ba6;font-weight:400"> ${l.closePrice!=null?'sale price':'last asking'}</span>`:''}</div>
+       <div class="price">${money(priceShown)}${esc(rentSuffix(l))}${sold?`<span style="font-size:.78rem;color:#9a9ba6;font-weight:400"> ${l.closePrice!=null?'sale price':'last asking'}</span>`:''}</div>
        <div class="addr">${esc(a.line)}<br><span class="nb">${esc([a.neighborhood,a.city,a.zip].filter(Boolean).join(' · '))}</span></div>
        <div class="specs">
          <span>${l.beds} bd</span><span>${l.baths} ba</span><span>${(l.sqft||0).toLocaleString()} sqft</span>
@@ -900,7 +903,7 @@ function analyse(kind){
   const st = l => Geo.station(l.geo);
   if (kind==='commute'){ title='Best commute to the train';
     rows = items.map(l=>({l, v: st(l)? st(l).walkMin : 999})).sort((a,b)=>a.v-b.v)
-      .map(x=>`<div class="row"><div class="q">${esc(x.l.address.line)}</div><div class="a">${x.v<999?x.v+'-min walk':'—'}<small>${money(x.l.price)}</small></div></div>`).join(''); }
+      .map(x=>`<div class="row"><div class="q">${esc(x.l.address.line)}</div><div class="a">${x.v<999?x.v+'-min walk':'—'}<small>${money(x.l.price)}${esc(rentSuffix(x.l))}</small></div></div>`).join(''); }
   else if (kind==='rent'){ title='Easiest to rent out';
     rows = items.map(l=>({l, ...capRate(l), walk: st(l)?st(l).walkMin:99})).sort((a,b)=>(b.cap-a.cap)||(a.walk-b.walk))
       .map(x=>`<div class="row"><div class="q">${esc(x.l.address.line)}</div><div class="a">~${money(x.rent)}/mo<small>${x.cap.toFixed(1)}% cap · ${x.walk}-min to train</small></div></div>`).join(''); }
@@ -923,7 +926,7 @@ function openDetail(mls){
     `<div class="mph"><img alt="${esc(a.line)}" data-mph="1">
        <button class="mx" id="mClose" aria-label="Close">×</button></div>
      <div class="mbd">
-       <h3>${money(sold && l.closePrice != null ? l.closePrice : l.price)}${l.listingType==='rent'?'/mo':''}</h3>
+       <h3>${money(sold && l.closePrice != null ? l.closePrice : l.price)}${esc(rentSuffix(l))}</h3>
        <div class="msub">${esc(a.line)} · ${esc([a.neighborhood,a.city,a.zip].filter(Boolean).join(', '))}</div>
        ${sold?`<p class="soldnote"><strong>SOLD</strong> — this home ${esc(soldPhrase(l))}. It's shown as sale history, not an available listing.</p>`:''}
        <div class="mgrid">

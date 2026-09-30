@@ -61,6 +61,9 @@
   "zoning": "CL",
   "lotDescription": "Level Lot"
  },
+ "leasePriceDesc": "Per Month",
+ "rentPeriod": "month",
+ "rentalDuration": null,
  "indexable": true,
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
@@ -129,6 +132,7 @@
    "price": 2000.0,
    "date": "2026-05-01",
    "listingType": "rent",
+   "rentPeriod": "month",
    "geo": {
     "lat": 41.066626,
     "lng": -73.542808
@@ -138,34 +142,6 @@
    "why": "Within a 15-minute walk, sold in the last year",
    "km": 1.1257326183891996,
    "ppsf": null
-  },
-  {
-   "mls": "24066237",
-   "slug": "929-bedford-street-stamford-connecticut-24066237",
-   "address": {
-    "line": "929 Bedford Street",
-    "unit": null,
-    "lineWithUnit": "929 Bedford Street",
-    "city": "Stamford",
-    "state": "Connecticut",
-    "zip": "06905"
-   },
-   "beds": null,
-   "baths": null,
-   "sqft": 4000.0,
-   "acres": 0.93,
-   "price": 50.0,
-   "date": "2025-03-01",
-   "listingType": "rent",
-   "geo": {
-    "lat": 41.061443,
-    "lng": -73.5376
-   },
-   "klass": "commercial",
-   "tier": 4,
-   "why": "Within about a mile and a half, sold in the last 2 years",
-   "km": 0.5942285798327847,
-   "ppsf": 0.0125
   },
   {
    "mls": "24145712",
@@ -185,6 +161,7 @@
    "price": 2000.0,
    "date": "2026-04-26",
    "listingType": "rent",
+   "rentPeriod": "month",
    "geo": {
     "lat": 41.048339,
     "lng": -73.553303
@@ -213,6 +190,7 @@
    "price": 1500.0,
    "date": "2025-03-25",
    "listingType": "rent",
+   "rentPeriod": "month",
    "geo": {
     "lat": 41.076843,
     "lng": -73.53429
@@ -241,6 +219,7 @@
    "price": 2700.0,
    "date": "2025-11-12",
    "listingType": "rent",
+   "rentPeriod": "month",
    "geo": {
     "lat": 41.077007,
     "lng": -73.53099
@@ -250,6 +229,35 @@
    "why": "Within about a mile and a half, sold in the last 2 years",
    "km": 2.407044333269779,
    "ppsf": 3.3834586466165413
+  },
+  {
+   "mls": "24157764",
+   "slug": "241-long-ridge-road-stamford-connecticut-24157764",
+   "address": {
+    "line": "241 Long Ridge Road",
+    "unit": null,
+    "lineWithUnit": "241 Long Ridge Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": null,
+   "baths": null,
+   "sqft": 1072.0,
+   "acres": 0.16,
+   "price": 2300.0,
+   "date": "2026-04-16",
+   "listingType": "rent",
+   "rentPeriod": "month",
+   "geo": {
+    "lat": 41.079132,
+    "lng": -73.553381
+   },
+   "klass": "commercial",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 2.7192418495313526,
+   "ppsf": 2.1455223880597014
   }
  ]
 }

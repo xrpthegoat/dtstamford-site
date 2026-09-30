@@ -94,6 +94,9 @@
   "waterfront": "Dock or Mooring,Beach Rights,Water Community,View",
   "directWaterfront": "0"
  },
+ "leasePriceDesc": "Per Month",
+ "rentPeriod": "month",
+ "rentalDuration": "Yearly Unfurnished",
  "indexable": true,
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
@@ -160,6 +163,7 @@
    "price": 10500.0,
    "date": "2026-09-17",
    "listingType": "rent",
+   "rentPeriod": "month",
    "geo": {
     "lat": 41.02851,
     "lng": -73.547436
@@ -188,6 +192,7 @@
    "price": 3460.0,
    "date": "2026-05-01",
    "listingType": "rent",
+   "rentPeriod": "month",
    "geo": {
     "lat": 41.032005,
     "lng": -73.549978
@@ -197,34 +202,6 @@
    "why": "Within a 15-minute walk, sold in the last year",
    "km": 0.7229632721009529,
    "ppsf": 1.43687707641196
-  },
-  {
-   "mls": "24007365",
-   "slug": "16-joshua-slocum-dock-stamford-connecticut-24007365",
-   "address": {
-    "line": "16 Joshua Slocum Dock",
-    "unit": null,
-    "lineWithUnit": "16 Joshua Slocum Dock",
-    "city": "Stamford",
-    "state": "Connecticut",
-    "zip": "06902"
-   },
-   "beds": 3.0,
-   "baths": 3.0,
-   "sqft": 2274.0,
-   "acres": null,
-   "price": 16500.0,
-   "date": "2024-11-25",
-   "listingType": "rent",
-   "geo": {
-    "lat": 41.029335,
-    "lng": -73.54799
-   },
-   "klass": "rental",
-   "tier": 4,
-   "why": "Within about a mile and a half, sold in the last 2 years",
-   "km": 0.41530105180835175,
-   "ppsf": 7.255936675461742
   },
   {
    "mls": "24039257",
@@ -244,6 +221,7 @@
    "price": 3600.0,
    "date": "2024-09-30",
    "listingType": "rent",
+   "rentPeriod": "month",
    "geo": {
     "lat": 41.03245,
     "lng": -73.54917
@@ -272,6 +250,7 @@
    "price": 4300.0,
    "date": "2026-06-24",
    "listingType": "rent",
+   "rentPeriod": "month",
    "geo": {
     "lat": 41.032445,
     "lng": -73.549535
@@ -281,6 +260,35 @@
    "why": "Within about a mile and a half, sold in the last 2 years",
    "km": 0.7656159670157884,
    "ppsf": 2.388888888888889
+  },
+  {
+   "mls": "24114598",
+   "slug": "570-fairfield-avenue-stamford-connecticut-24114598",
+   "address": {
+    "line": "570 Fairfield Avenue",
+    "unit": null,
+    "lineWithUnit": "570 Fairfield Avenue",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1792.0,
+   "acres": 0.13,
+   "price": 4300.0,
+   "date": "2025-09-16",
+   "listingType": "rent",
+   "rentPeriod": "month",
+   "geo": {
+    "lat": 41.033166,
+    "lng": -73.553353
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 0.9369644149487504,
+   "ppsf": 2.3995535714285716
   }
  ]
 }

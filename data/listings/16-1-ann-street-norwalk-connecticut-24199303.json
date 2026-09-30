@@ -82,6 +82,9 @@
   "lotDescription": "Dry,Level Lot",
   "roadFrontage": "Municipal Street"
  },
+ "leasePriceDesc": "Per Month",
+ "rentPeriod": "month",
+ "rentalDuration": null,
  "indexable": true,
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
@@ -149,6 +152,7 @@
    "price": 2800.0,
    "date": "2026-03-03",
    "listingType": "rent",
+   "rentPeriod": "month",
    "geo": {
     "lat": 41.117251,
     "lng": -73.41835
@@ -158,34 +162,6 @@
    "why": "Within about a mile and a half, sold in the last 2 years",
    "km": 1.7647861674111691,
    "ppsf": 0.5316119232959939
-  },
-  {
-   "mls": "24170270",
-   "slug": "106-main-street-norwalk-connecticut-24170270",
-   "address": {
-    "line": "106 Main Street",
-    "unit": null,
-    "lineWithUnit": "106 Main Street",
-    "city": "Norwalk",
-    "state": "Connecticut",
-    "zip": "06851"
-   },
-   "beds": null,
-   "baths": null,
-   "sqft": 5100.0,
-   "acres": null,
-   "price": 15.0,
-   "date": "2026-07-22",
-   "listingType": "rent",
-   "geo": {
-    "lat": 41.12241,
-    "lng": -73.414639
-   },
-   "klass": "commercial",
-   "tier": 4,
-   "why": "Within about a mile and a half, sold in the last 2 years",
-   "km": 2.358175210939893,
-   "ppsf": 0.0029411764705882353
   },
   {
    "mls": "24115594",
@@ -205,6 +181,7 @@
    "price": 7000.0,
    "date": "2025-07-30",
    "listingType": "rent",
+   "rentPeriod": "month",
    "geo": {
     "lat": 41.16031,
     "lng": -73.418144

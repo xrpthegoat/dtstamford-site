@@ -1,3 +1,4 @@
+import { rentSuffix } from './rental-pricing.js?v=20260930';
 /* ============================================================================
    ai-search.js — "Magic Search" (plain English), INSIDE the map search
    ============================================================================
@@ -475,7 +476,7 @@ function renderAnswer(p, ai, n, factsReady) {
       <div class="ai-chips">${chips}</div>
       ${top.length ? `<div class="ai-top">${top.map(t => { const h = p.sold ? soldInfo(t.l) : null; return `
         <button class="ai-hit" type="button" data-mls="${esc(t.l.mls)}">
-          <span class="ai-hit-price">${money(h && h.price != null ? h.price : t.l.price)}${effType === 'rent' ? '<i>/mo</i>' : ''}</span>
+          <span class="ai-hit-price">${money(h && h.price != null ? h.price : t.l.price)}${esc(rentSuffix(t.l))}</span>
           <span class="ai-hit-addr">${h ? `<span class="badge sold">SOLD${h.when ? ' · ' + esc(h.when) : ''}</span> ` : ''}${esc(addrOf(t.l))}</span>
           <span class="ai-hit-why">${h ? esc(h.phrase) + (t.why.length ? ' · ' : '') : ''}${t.why.map(w => esc(w)).join(' · ') || (h ? '' : `${t.l.beds || 0} bd · ${t.l.baths || 0} ba`)}</span>
         </button>`; }).join('')}</div>` : ''}

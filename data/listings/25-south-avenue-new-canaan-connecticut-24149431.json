@@ -55,6 +55,9 @@
   "zoning": "RETA",
   "roadFrontage": "State Road,Paved Road"
  },
+ "leasePriceDesc": "Per SqFt/Per Year",
+ "rentPeriod": "sqft-year",
+ "rentalDuration": null,
  "indexable": true,
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
@@ -119,6 +122,7 @@
    "price": 36.0,
    "date": "2026-08-07",
    "listingType": "rent",
+   "rentPeriod": "sqft-year",
    "geo": {
     "lat": 41.146123,
     "lng": -73.493309

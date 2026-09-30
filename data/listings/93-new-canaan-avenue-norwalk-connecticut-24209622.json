@@ -54,6 +54,9 @@
   "zoning": "NB",
   "roadFrontage": "State Road"
  },
+ "leasePriceDesc": "Per Month",
+ "rentPeriod": "month",
+ "rentalDuration": null,
  "indexable": true,
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
@@ -120,6 +123,7 @@
    "price": 3700.0,
    "date": "2024-12-31",
    "listingType": "rent",
+   "rentPeriod": "month",
    "geo": {
     "lat": 41.136489,
     "lng": -73.427159
@@ -129,34 +133,6 @@
    "why": "Within about a mile and a half, sold in the last 2 years",
    "km": 1.1390001850591973,
    "ppsf": 1.6263736263736264
-  },
-  {
-   "mls": "24053692",
-   "slug": "10-commerce-street-norwalk-connecticut-24053692",
-   "address": {
-    "line": "10 Commerce Street",
-    "unit": null,
-    "lineWithUnit": "10 Commerce Street",
-    "city": "Norwalk",
-    "state": "Connecticut",
-    "zip": "06850"
-   },
-   "beds": null,
-   "baths": null,
-   "sqft": 2250.0,
-   "acres": 0.07,
-   "price": 22.0,
-   "date": "2025-01-25",
-   "listingType": "rent",
-   "geo": {
-    "lat": 41.11773,
-    "lng": -73.412493
-   },
-   "klass": "commercial",
-   "tier": 4,
-   "why": "Within about a mile and a half, sold in the last 2 years",
-   "km": 1.9790832956755466,
-   "ppsf": 0.009777777777777778
   }
  ]
 }

@@ -55,6 +55,9 @@
   "zoning": "CD4",
   "roadFrontage": "State Road"
  },
+ "leasePriceDesc": "Per SqFt/Per Year",
+ "rentPeriod": "sqft-year",
+ "rentalDuration": null,
  "indexable": true,
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
@@ -107,62 +110,6 @@
  },
  "comps": [
   {
-   "mls": "24075958",
-   "slug": "64-wall-street-norwalk-connecticut-24075958",
-   "address": {
-    "line": "64 Wall Street",
-    "unit": null,
-    "lineWithUnit": "64 Wall Street",
-    "city": "Norwalk",
-    "state": "Connecticut",
-    "zip": "06850"
-   },
-   "beds": null,
-   "baths": null,
-   "sqft": 995.0,
-   "acres": 0.44,
-   "price": 1600.0,
-   "date": "2025-08-21",
-   "listingType": "rent",
-   "geo": {
-    "lat": 41.117925,
-    "lng": -73.413895
-   },
-   "klass": "commercial",
-   "tier": 4,
-   "why": "Within about a mile and a half, sold in the last 2 years",
-   "km": 0.2616258005738574,
-   "ppsf": 1.6080402010050252
-  },
-  {
-   "mls": "24081956",
-   "slug": "71-east-avenue-norwalk-connecticut-24081956",
-   "address": {
-    "line": "71 East Avenue",
-    "unit": "Unit M",
-    "lineWithUnit": "71 East Avenue Unit M",
-    "city": "Norwalk",
-    "state": "Connecticut",
-    "zip": "06851"
-   },
-   "beds": null,
-   "baths": null,
-   "sqft": 900.0,
-   "acres": null,
-   "price": 1700.0,
-   "date": "2025-05-01",
-   "listingType": "rent",
-   "geo": {
-    "lat": 41.11915,
-    "lng": -73.407166
-   },
-   "klass": "commercial",
-   "tier": 4,
-   "why": "Within about a mile and a half, sold in the last 2 years",
-   "km": 0.5188077361324261,
-   "ppsf": 1.8888888888888888
-  },
-  {
    "mls": "24013345",
    "slug": "111-east-avenue-norwalk-connecticut-24013345",
    "address": {
@@ -180,6 +127,7 @@
    "price": 19.0,
    "date": "2025-05-16",
    "listingType": "rent",
+   "rentPeriod": "sqft-year",
    "geo": {
     "lat": 41.114189,
     "lng": -73.407286
@@ -208,6 +156,7 @@
    "price": 19.0,
    "date": "2025-01-10",
    "listingType": "rent",
+   "rentPeriod": "sqft-year",
    "geo": {
     "lat": 41.114189,
     "lng": -73.407286
@@ -219,32 +168,33 @@
    "ppsf": 0.015833333333333335
   },
   {
-   "mls": "24194057",
-   "slug": "168-east-avenue-norwalk-connecticut-24194057",
+   "mls": "24036685",
+   "slug": "26-fitch-street-norwalk-connecticut-24036685",
    "address": {
-    "line": "168 East Avenue",
-    "unit": "Unit Garage",
-    "lineWithUnit": "168 East Avenue Unit Garage",
+    "line": "26 Fitch Street",
+    "unit": null,
+    "lineWithUnit": "26 Fitch Street",
     "city": "Norwalk",
     "state": "Connecticut",
-    "zip": "06851"
+    "zip": "06855"
    },
    "beds": null,
    "baths": null,
-   "sqft": 900.0,
-   "acres": 0.4,
-   "price": 950.0,
-   "date": "2026-08-05",
+   "sqft": 1247.0,
+   "acres": null,
+   "price": 24.0,
+   "date": "2025-01-01",
    "listingType": "rent",
+   "rentPeriod": "sqft-year",
    "geo": {
-    "lat": 41.10928,
-    "lng": -73.40718
+    "lat": 41.105505,
+    "lng": -73.401522
    },
    "klass": "commercial",
    "tier": 4,
    "why": "Within about a mile and a half, sold in the last 2 years",
-   "km": 1.316502093954414,
-   "ppsf": 1.0555555555555556
+   "km": 1.9060048080011442,
+   "ppsf": 0.019246190858059342
   }
  ]
 }

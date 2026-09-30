@@ -161,6 +161,7 @@
         <div class="drop" data-drop="price">
           <button class="drop-btn" aria-haspopup="true" aria-expanded="false"><span class="drop-lbl">Price</span><span class="chev">▾</span></button>
           <div class="drop-panel" role="dialog" aria-label="Price">
+            <p style="font-size:12px;color:var(--muted)">Rental budgets apply to confirmed monthly rates. Other periods remain visible without a budget.</p>
             <div class="dp-row">
               <label>Min<select id="priceMin"></select></label>
               <span class="dp-dash">—</span>
@@ -373,9 +374,9 @@
 
 <script src="assets/vendor/leaflet/leaflet.js"></script>
 <script src="assets/vendor/leaflet/leaflet.markercluster.js"></script>
-<script type="module" src="assets/homes/app.js?v=20260928-map"></script>
+<script type="module" src="assets/homes/app.js?v=20260930-rental-period"></script>
 <!-- Ask AI. Loads after app.js on purpose — it drives that app's filters through window.DTSSearch. -->
-<script type="module" src="assets/homes/ai-search.js?v=1787073848"></script>
+<script type="module" src="assets/homes/ai-search.js?v=20260930-rental-period"></script>
 <!-- Phone filter sheet. Loads after app.js: it relocates that app's real .fb-drops element
      rather than duplicating any filter logic. -->
 <script type="module" src="assets/homes/filters-sheet.js?v=1787115673"></script>

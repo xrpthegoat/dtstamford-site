@@ -1,3 +1,4 @@
+import { rentSuffix, withinBudget, comparePrice } from './rental-pricing.js?v=20260930';
 /* ============================================================
    dtstamford.com — Mini-Zillow search app
    Vanilla ES module. Reads /data/listings.json (written by idx-sync).
@@ -6,10 +7,10 @@
 
 // Prefer the light index (grid+map payload: primaryPhoto only, no photos[]/remarks) and fall back to
 // the full listings.json if the index 404s, so the page never blanks during a migration/partial deploy.
-const INDEX_URL = 'data/listings-index.json';
-const DATA_URL = 'data/listings.json';
+const INDEX_URL = 'data/listings-index.json?v=20260930-rental-period';
+const DATA_URL = 'data/listings.json?v=20260930-rental-period';
 // Per-listing detail file, lazy-fetched on drawer open to hydrate photos[] + remarks the index omits.
-const detailURL = slug => `data/listings/${encodeURIComponent(slug)}.json`;
+const detailURL = slug => `data/listings/${encodeURIComponent(slug)}.json?v=20260930-rental-period`;
 const PHONE = '2038833399';
 const EMAIL = 'john@stamford-homes.com';
 const PAGE_SIZE = 24;      // cards rendered per IntersectionObserver page
@@ -270,7 +271,7 @@ const $ = (s, r = document) => r.querySelector(s);
 const $$ = (s, r = document) => [...r.querySelectorAll(s)];
 const money = n => '$' + Math.round(n).toLocaleString('en-US');
 const priceLabel = l => l.listingType === 'rent'
-  ? `${money(l.price)}<span class="per">/mo</span>`
+  ? `${money(l.price)}<span class="per">${esc(rentSuffix(l))}</span>`
   : money(l.price);
 const esc = s => String(s == null ? '' : s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 // The MLS feed arrives HTML-entity-encoded ("chef&apos;s kitchen") — decode common entities so text
@@ -469,8 +470,7 @@ function filtered() {
     // Sold first + cheapest: with IDX_CLOSED=1 this drops ~61% of the feed before any other test runs.
     if (!state.showSold && isSold(l)) return false;
     if (l.listingType !== state.type) return false;
-    if (state.priceMin && l.price < state.priceMin) return false;
-    if (state.priceMax && l.price > state.priceMax) return false;
+    if (!withinBudget(l, state.priceMin, state.priceMax)) return false;
     if (state.beds && (l.beds || 0) < state.beds) return false;
     if (state.baths && (l.baths || 0) < state.baths) return false;
     // The filter chips are short labels ("Single Family", "Condo"); the MLS propertyType is verbose
@@ -507,8 +507,8 @@ function filtered() {
   const s = state.sort;
   const cmp = (a, b) =>
     s === 'ai' && state.ai ? state.ai.score(b) - state.ai.score(a) :
-    s === 'price-asc' ? a.price - b.price :
-    s === 'price-desc' ? b.price - a.price :
+    s === 'price-asc' ? comparePrice(a, b) :
+    s === 'price-desc' ? comparePrice(a, b, true) :
     s === 'beds' ? (b.beds || 0) - (a.beds || 0) :
     s === 'sqft' ? (b.sqft || 0) - (a.sqft || 0) :
     s === 'status' ? statusRank(a) - statusRank(b) :
@@ -870,12 +870,12 @@ function factGroups(l) {
   const f = F(l), sold = isSold(l), psf = ppsf(l);
   const row = (k, v) => (v == null || v === '' ? null : [k, v]);
   const cost = [
-    // priceLabel() returns HTML for rentals (a <span class="per">/mo</span>), but every fact
+    // priceLabel() returns HTML for rentals (a <span class="per">${esc(rentSuffix(l))}</span>), but every fact
     // value is passed through esc() when the row is rendered — so the markup was printed as
-    // literal text: '$3,350<span class="per">/mo</span>'. Fact rows are plain text by
+    // literal text: '$3,350<span class="per">${esc(rentSuffix(l))}</span>'. Fact rows are plain text by
     // contract; give this one a plain string and let esc() do its job.
     row(isRental(l) ? 'Rent' : 'Price',
-        l.price ? money(l.price) + (isRental(l) ? '/mo' : '') : null),
+        l.price ? money(l.price) + rentSuffix(l) : null),
     row('Price / sqft', psf ? '$' + psf : null),
     row('HOA / common charges', hoaText(l)),
     row('Includes', mlsList(f.hoaIncludes, 4)),
@@ -1201,7 +1201,7 @@ function renderMarkers(list) {
     // A sold pin must not read as an available home at map zoom, where there is no card to explain it.
     const sold = isSold(l) ? ' sold' : '';
     const icon = L.divIcon({
-      className: '', html: `<div class="price-pin${fav}${sold}" data-mls="${esc(l.mls)}">${compact}</div>`,
+      className: '', html: `<div class="price-pin${fav}${sold}" data-mls="${esc(l.mls)}">${compact}${esc(rentSuffix(l))}</div>`,
       iconSize: null,
     });
     const m = L.marker([l.geo.lat, l.geo.lng], { icon, riseOnHover: true });
@@ -1322,7 +1322,7 @@ function renderDrawer(l) {
      Messages app, and that is where a real share of this traffic sits. */
   const ctaText = sold
     ? `Hi John, I saw that ${addrFull(l)} (MLS #${l.mls}) sold. What did it actually close at, and what would that mean for a home like mine nearby?`
-    : `Hi John, I'd like to see ${addrFull(l)} (MLS #${l.mls}, ${money(l.price)}). When are you free for a showing?`;
+    : `Hi John, I'd like to see ${addrFull(l)} (MLS #${l.mls}, ${money(l.price)}${rentSuffix(l)}). When are you free for a showing?`;
   const mailBody = encodeURIComponent(ctaText);
   const smsHref = `sms:${PHONE_SMS}?&body=` + encodeURIComponent(`${ctaText}\n\n(sent from dtstamford.com)`);
   const ctaSubject = sold ? 'Sold comp: ' + addrFull(l) : 'Tour request: ' + addrFull(l);

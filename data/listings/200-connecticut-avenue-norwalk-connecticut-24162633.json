@@ -77,6 +77,9 @@
   "tour": "https://www.200ct.com/offices/5d",
   "tourBranded": "https://www.200ct.com"
  },
+ "leasePriceDesc": "Per Month",
+ "rentPeriod": "month",
+ "rentalDuration": null,
  "indexable": true,
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
@@ -129,62 +132,6 @@
  },
  "comps": [
   {
-   "mls": "24029735",
-   "slug": "12-south-main-street-norwalk-connecticut-24029735",
-   "address": {
-    "line": "12 South Main Street",
-    "unit": "Unit 201",
-    "lineWithUnit": "12 South Main Street Unit 201",
-    "city": "Norwalk",
-    "state": "Connecticut",
-    "zip": "06854"
-   },
-   "beds": null,
-   "baths": null,
-   "sqft": 1969.0,
-   "acres": 0.09,
-   "price": 23.0,
-   "date": "2025-01-14",
-   "listingType": "rent",
-   "geo": {
-    "lat": 41.09857,
-    "lng": -73.41856
-   },
-   "klass": "commercial",
-   "tier": 4,
-   "why": "Within about a mile and a half, sold in the last 2 years",
-   "km": 1.3179176845020597,
-   "ppsf": 0.011681056373793804
-  },
-  {
-   "mls": "24053692",
-   "slug": "10-commerce-street-norwalk-connecticut-24053692",
-   "address": {
-    "line": "10 Commerce Street",
-    "unit": null,
-    "lineWithUnit": "10 Commerce Street",
-    "city": "Norwalk",
-    "state": "Connecticut",
-    "zip": "06850"
-   },
-   "beds": null,
-   "baths": null,
-   "sqft": 2250.0,
-   "acres": 0.07,
-   "price": 22.0,
-   "date": "2025-01-25",
-   "listingType": "rent",
-   "geo": {
-    "lat": 41.11773,
-    "lng": -73.412493
-   },
-   "klass": "commercial",
-   "tier": 4,
-   "why": "Within about a mile and a half, sold in the last 2 years",
-   "km": 2.1960272594652452,
-   "ppsf": 0.009777777777777778
-  },
-  {
    "mls": "24039719",
    "slug": "5-silver-street-norwalk-connecticut-24039719",
    "address": {
@@ -202,6 +149,7 @@
    "price": 3700.0,
    "date": "2024-12-31",
    "listingType": "rent",
+   "rentPeriod": "month",
    "geo": {
     "lat": 41.136489,
     "lng": -73.427159

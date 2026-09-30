@@ -72,6 +72,9 @@
   "lotDescription": "Dry,Sloping Lot,Cleared",
   "roadFrontage": "State Road"
  },
+ "leasePriceDesc": "Per Month",
+ "rentPeriod": "month",
+ "rentalDuration": null,
  "indexable": true,
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
@@ -138,6 +141,7 @@
    "price": 1700.0,
    "date": "2025-05-01",
    "listingType": "rent",
+   "rentPeriod": "month",
    "geo": {
     "lat": 41.11915,
     "lng": -73.407166
@@ -147,62 +151,6 @@
    "why": "Same town, sold in the last 3 years",
    "km": 3.2315597643386,
    "ppsf": 1.8888888888888888
-  },
-  {
-   "mls": "24075958",
-   "slug": "64-wall-street-norwalk-connecticut-24075958",
-   "address": {
-    "line": "64 Wall Street",
-    "unit": null,
-    "lineWithUnit": "64 Wall Street",
-    "city": "Norwalk",
-    "state": "Connecticut",
-    "zip": "06850"
-   },
-   "beds": null,
-   "baths": null,
-   "sqft": 995.0,
-   "acres": 0.44,
-   "price": 1600.0,
-   "date": "2025-08-21",
-   "listingType": "rent",
-   "geo": {
-    "lat": 41.117925,
-    "lng": -73.413895
-   },
-   "klass": "commercial",
-   "tier": 5,
-   "why": "Same town, sold in the last 3 years",
-   "km": 3.5777549037722904,
-   "ppsf": 1.6080402010050252
-  },
-  {
-   "mls": "24013383",
-   "slug": "111-east-avenue-norwalk-connecticut-24013383",
-   "address": {
-    "line": "111 East Avenue",
-    "unit": "Unit 325",
-    "lineWithUnit": "111 East Avenue Unit 325",
-    "city": "Norwalk",
-    "state": "Connecticut",
-    "zip": "06851"
-   },
-   "beds": null,
-   "baths": null,
-   "sqft": 650.0,
-   "acres": 0.79,
-   "price": 19.0,
-   "date": "2024-12-18",
-   "listingType": "rent",
-   "geo": {
-    "lat": 41.114189,
-    "lng": -73.407286
-   },
-   "klass": "commercial",
-   "tier": 5,
-   "why": "Same town, sold in the last 3 years",
-   "km": 3.7601406493201393,
-   "ppsf": 0.02923076923076923
   },
   {
    "mls": "24194057",
@@ -222,6 +170,7 @@
    "price": 950.0,
    "date": "2026-08-05",
    "listingType": "rent",
+   "rentPeriod": "month",
    "geo": {
     "lat": 41.10928,
     "lng": -73.40718
@@ -250,6 +199,7 @@
    "price": 1400.0,
    "date": "2025-01-18",
    "listingType": "rent",
+   "rentPeriod": "month",
    "geo": {
     "lat": 41.10928,
     "lng": -73.40718
@@ -259,6 +209,35 @@
    "why": "Same town, sold in the last 3 years",
    "km": 4.284245419274041,
    "ppsf": 2.3333333333333335
+  },
+  {
+   "mls": "24067368",
+   "slug": "70-south-main-street-norwalk-connecticut-24067368",
+   "address": {
+    "line": "70 South Main Street",
+    "unit": "Unit D",
+    "lineWithUnit": "70 South Main Street Unit D",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": null,
+   "baths": null,
+   "sqft": 1000.0,
+   "acres": null,
+   "price": 1554.0,
+   "date": "2025-09-19",
+   "listingType": "rent",
+   "rentPeriod": "month",
+   "geo": {
+    "lat": 41.098608,
+    "lng": -73.41887
+   },
+   "klass": "commercial",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 5.713553603807913,
+   "ppsf": 1.554
   }
  ]
 }

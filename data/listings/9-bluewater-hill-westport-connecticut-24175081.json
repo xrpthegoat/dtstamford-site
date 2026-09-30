@@ -95,6 +95,9 @@
   "directWaterfront": "0",
   "energy": "Generator"
  },
+ "leasePriceDesc": "Per Month",
+ "rentPeriod": "month",
+ "rentalDuration": "Yearly Unfurnished,Yearly Furnished,Flexible Terms Unfurnished,Flexible Terms Furnished",
  "indexable": true,
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
@@ -161,6 +164,7 @@
    "price": 19000.0,
    "date": "2026-06-21",
    "listingType": "rent",
+   "rentPeriod": "month",
    "geo": {
     "lat": 41.112247,
     "lng": -73.35299
@@ -189,6 +193,7 @@
    "price": 20000.0,
    "date": "2026-03-24",
    "listingType": "rent",
+   "rentPeriod": "month",
    "geo": {
     "lat": 41.117966,
     "lng": -73.35827
@@ -198,34 +203,6 @@
    "why": "Within a 15-minute walk, sold in the last year",
    "km": 1.0445734962421862,
    "ppsf": 3.3562678301728477
-  },
-  {
-   "mls": "24115041",
-   "slug": "2-bluewater-hill-south-westport-connecticut-24115041",
-   "address": {
-    "line": "2 Bluewater Hill South",
-    "unit": null,
-    "lineWithUnit": "2 Bluewater Hill South",
-    "city": "Westport",
-    "state": "Connecticut",
-    "zip": "06880"
-   },
-   "beds": 6.0,
-   "baths": 6.0,
-   "sqft": 5190.0,
-   "acres": 1.0,
-   "price": 16000.0,
-   "date": "2025-08-14",
-   "listingType": "rent",
-   "geo": {
-    "lat": 41.10939,
-    "lng": -73.34825
-   },
-   "klass": "rental",
-   "tier": 4,
-   "why": "Within about a mile and a half, sold in the last 2 years",
-   "km": 0.2268339896897835,
-   "ppsf": 3.0828516377649327
   },
   {
    "mls": "24049016",
@@ -245,6 +222,7 @@
    "price": 19000.0,
    "date": "2024-10-22",
    "listingType": "rent",
+   "rentPeriod": "month",
    "geo": {
     "lat": 41.117966,
     "lng": -73.35827
@@ -273,6 +251,7 @@
    "price": 12500.0,
    "date": "2024-11-19",
    "listingType": "rent",
+   "rentPeriod": "month",
    "geo": {
     "lat": 41.12052,
     "lng": -73.34751
@@ -282,6 +261,35 @@
    "why": "Within about a mile and a half, sold in the last 2 years",
    "km": 1.0735863357783624,
    "ppsf": 2.5
+  },
+  {
+   "mls": "24140482",
+   "slug": "4-vani-court-westport-connecticut-24140482",
+   "address": {
+    "line": "4 Vani Court",
+    "unit": null,
+    "lineWithUnit": "4 Vani Court",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 5.0,
+   "baths": 6.0,
+   "sqft": 4347.0,
+   "acres": 0.21,
+   "price": 12500.0,
+   "date": "2026-04-01",
+   "listingType": "rent",
+   "rentPeriod": "month",
+   "geo": {
+    "lat": 41.12019,
+    "lng": -73.362378
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.4618504985763396,
+   "ppsf": 2.8755463538072235
   }
  ]
 }

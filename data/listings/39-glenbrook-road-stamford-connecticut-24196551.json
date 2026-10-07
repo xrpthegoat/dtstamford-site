@@ -4,7 +4,7 @@
  "status": "Active",
  "listingType": "rent",
  "propertyType": "Residential Rental",
- "price": 2175.0,
+ "price": 2150.0,
  "leasePriceDesc": "Per Month",
  "rentPeriod": "month",
  "rentalDuration": "Yearly Unfurnished",
@@ -51,7 +51,7 @@
   "https://smartmls-assets.cdn-connectmls.com/pics/582B1E256FC32460E0631A01100A7A5A/HD_HD_1653375046988_170010679_16.JPEG"
  ],
  "primaryPhotoOnly": false,
- "updated": "2026-08-31T17:05:50",
+ "updated": "2026-10-07T16:43:46",
  "geo": {
   "lat": 41.056465,
   "lng": -73.52858
@@ -134,6 +134,35 @@
   }
  },
  "comps": [
+  {
+   "mls": "24195013",
+   "slug": "39-glenbrook-road-stamford-connecticut-24195013",
+   "address": {
+    "line": "39 Glenbrook Road",
+    "unit": "Unit 2R",
+    "lineWithUnit": "39 Glenbrook Road Unit 2R",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 932.0,
+   "acres": null,
+   "price": 2195.0,
+   "date": "2026-10-06",
+   "listingType": "rent",
+   "rentPeriod": "month",
+   "geo": {
+    "lat": 41.05644,
+    "lng": -73.52849
+   },
+   "klass": "rental",
+   "tier": 1,
+   "why": "Same building, sold in the last year",
+   "km": 0.008042051018639076,
+   "ppsf": 2.3551502145922747
+  },
   {
    "mls": "24191835",
    "slug": "39-glenbrook-road-stamford-connecticut-24191835",
@@ -249,35 +278,6 @@
    "why": "Same building, sold in the last year",
    "km": 0.013164190562795126,
    "ppsf": 2.2532188841201717
-  },
-  {
-   "mls": "24151625",
-   "slug": "39-glenbrook-road-stamford-connecticut-24151625",
-   "address": {
-    "line": "39 Glenbrook Road",
-    "unit": "Apt 1H",
-    "lineWithUnit": "39 Glenbrook Road Apt 1H",
-    "city": "Stamford",
-    "state": "Connecticut",
-    "zip": "06902"
-   },
-   "beds": 1.0,
-   "baths": 1.0,
-   "sqft": 835.0,
-   "acres": null,
-   "price": 1900.0,
-   "date": "2026-03-20",
-   "listingType": "rent",
-   "rentPeriod": "month",
-   "geo": {
-    "lat": 41.056555,
-    "lng": -73.528682
-   },
-   "klass": "rental",
-   "tier": 1,
-   "why": "Same building, sold in the last year",
-   "km": 0.013164190562795126,
-   "ppsf": 2.2754491017964074
   }
  ]
 }

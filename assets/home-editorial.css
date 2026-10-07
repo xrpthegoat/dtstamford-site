@@ -23,7 +23,8 @@
 .home-editorial .hero-media::before { background: linear-gradient(90deg,rgba(5,12,8,.37),transparent 85%); }
 .home-editorial .hero-media::after { background: linear-gradient(180deg,rgba(5,9,7,.28),rgba(5,9,7,.15) 22%,rgba(5,9,7,.75) 75%,#090c0b 100%); }
 .home-editorial .hero .wrap { padding-top: 120px; padding-bottom: 50px; }
-.home-editorial .hero .rv { opacity: 1; transform: none; filter: none; }
+/* Keep content visible before JavaScript, observers, or scrolling. */
+.home-editorial .rv { opacity: 1; transform: none; filter: none; }
 .home-editorial .hero .eyebrow { padding: 0; border: 0; border-radius: 0; background: none; box-shadow: none; color: #f4ead4; letter-spacing: .22em; font-size: .67rem; }
 .home-editorial .hero .eyebrow .dot { width: 5px; height: 5px; box-shadow: none; }
 .home-editorial .hero h1 { max-width: none; margin-top: 24px; font-weight: 500; }

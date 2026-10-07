@@ -5,6 +5,9 @@
  "listingType": "rent",
  "propertyType": "Residential Rental",
  "price": 10000.0,
+ "leasePriceDesc": "Per Month",
+ "rentPeriod": "month",
+ "rentalDuration": "Yearly Unfurnished,Flexible Terms Unfurnished",
  "closePrice": null,
  "closeDate": null,
  "beds": 4.0,
@@ -61,7 +64,7 @@
   "lng": -73.474732
  },
  "facts": {
-  "dom": 7,
+  "dom": 13,
   "listed": "2026-09-23",
   "sewer": "Septic",
   "water": "Public Water Connected",
@@ -91,9 +94,6 @@
   "directWaterfront": "0",
   "energy": "Thermopane Windows"
  },
- "leasePriceDesc": "Per Month",
- "rentPeriod": "month",
- "rentalDuration": "Yearly Unfurnished,Flexible Terms Unfurnished",
  "indexable": true,
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
@@ -137,35 +137,6 @@
  },
  "comps": [
   {
-   "mls": "24099275",
-   "slug": "39-whiffle-tree-lane-new-canaan-connecticut-24099275",
-   "address": {
-    "line": "39 Whiffle Tree Lane",
-    "unit": null,
-    "lineWithUnit": "39 Whiffle Tree Lane",
-    "city": "New Canaan",
-    "state": "Connecticut",
-    "zip": "06840"
-   },
-   "beds": 4.0,
-   "baths": 3.0,
-   "sqft": 2864.0,
-   "acres": 1.0,
-   "price": 8000.0,
-   "date": "2025-09-29",
-   "listingType": "rent",
-   "rentPeriod": "month",
-   "geo": {
-    "lat": 41.125241,
-    "lng": -73.479802
-   },
-   "klass": "rental",
-   "tier": 3,
-   "why": "Within a 15-minute walk, sold in the last year",
-   "km": 0.5929116996020047,
-   "ppsf": 2.793296089385475
-  },
-  {
    "mls": "24068364",
    "slug": "457-white-oak-shade-road-new-canaan-connecticut-24068364",
    "address": {
@@ -193,6 +164,35 @@
    "why": "Within about a mile and a half, sold in the last 2 years",
    "km": 0.06762216159226334,
    "ppsf": 2.4018084204577566
+  },
+  {
+   "mls": "24099275",
+   "slug": "39-whiffle-tree-lane-new-canaan-connecticut-24099275",
+   "address": {
+    "line": "39 Whiffle Tree Lane",
+    "unit": null,
+    "lineWithUnit": "39 Whiffle Tree Lane",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2864.0,
+   "acres": 1.0,
+   "price": 8000.0,
+   "date": "2025-09-29",
+   "listingType": "rent",
+   "rentPeriod": "month",
+   "geo": {
+    "lat": 41.125241,
+    "lng": -73.479802
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 0.5929116996020047,
+   "ppsf": 2.793296089385475
   },
   {
    "mls": "24046325",

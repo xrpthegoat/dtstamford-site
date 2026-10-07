@@ -5,6 +5,9 @@
  "listingType": "rent",
  "propertyType": "Residential Rental",
  "price": 6025.0,
+ "leasePriceDesc": "Per Month",
+ "rentPeriod": "month",
+ "rentalDuration": "Yearly Unfurnished",
  "closePrice": null,
  "closeDate": null,
  "beds": 3.0,
@@ -61,7 +64,7 @@
   "lng": -73.415823
  },
  "facts": {
-  "dom": 373,
+  "dom": 379,
   "listed": "2025-09-22",
   "sewer": "Public Sewer In Street",
   "water": "Public Water Connected",
@@ -89,9 +92,6 @@
   "waterfront": "Not Applicable",
   "directWaterfront": "0"
  },
- "leasePriceDesc": "Per Month",
- "rentPeriod": "month",
- "rentalDuration": "Yearly Unfurnished",
  "indexable": true,
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
@@ -160,35 +160,6 @@
    "acres": null,
    "price": 2895.0,
    "date": "2026-02-11",
-   "listingType": "rent",
-   "rentPeriod": "month",
-   "geo": {
-    "lat": 41.112694,
-    "lng": -73.4182
-   },
-   "klass": "rental",
-   "tier": 3,
-   "why": "Within a 15-minute walk, sold in the last year",
-   "km": 0.2661499074668236,
-   "ppsf": 2.1444444444444444
-  },
-  {
-   "mls": "24121117",
-   "slug": "15-arch-street-norwalk-connecticut-24121117",
-   "address": {
-    "line": "15 Arch Street",
-    "unit": "Unit A2",
-    "lineWithUnit": "15 Arch Street Unit A2",
-    "city": "Norwalk",
-    "state": "Connecticut",
-    "zip": "06850"
-   },
-   "beds": 2.0,
-   "baths": 2.0,
-   "sqft": 1350.0,
-   "acres": null,
-   "price": 2895.0,
-   "date": "2025-09-18",
    "listingType": "rent",
    "rentPeriod": "month",
    "geo": {
@@ -287,6 +258,35 @@
    "why": "Within a 15-minute walk, sold in the last year",
    "km": 0.6424505891377549,
    "ppsf": 2.2058823529411766
+  },
+  {
+   "mls": "24149106",
+   "slug": "142-east-avenue-norwalk-connecticut-24149106",
+   "address": {
+    "line": "142 East Avenue",
+    "unit": "Unit A103",
+    "lineWithUnit": "142 East Avenue Unit A103",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 1481.0,
+   "acres": null,
+   "price": 3295.0,
+   "date": "2026-03-11",
+   "listingType": "rent",
+   "rentPeriod": "month",
+   "geo": {
+    "lat": 41.111768,
+    "lng": -73.408205
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6424505891377549,
+   "ppsf": 2.224848075624578
   }
  ]
 }

@@ -5,6 +5,9 @@
  "listingType": "rent",
  "propertyType": "Residential Rental",
  "price": 2539.0,
+ "leasePriceDesc": "Per Month",
+ "rentPeriod": "month",
+ "rentalDuration": "Yearly Unfurnished",
  "closePrice": null,
  "closeDate": null,
  "beds": 2.0,
@@ -61,7 +64,7 @@
   "lng": -73.53754
  },
  "facts": {
-  "dom": 36,
+  "dom": 42,
   "listed": "2026-08-25",
   "sewer": "Public Sewer Connected",
   "water": "Public Water Connected",
@@ -91,9 +94,6 @@
   "waterfront": "Not Applicable",
   "directWaterfront": "0"
  },
- "leasePriceDesc": "Per Month",
- "rentPeriod": "month",
- "rentalDuration": "Yearly Unfurnished",
  "indexable": true,
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
@@ -172,6 +172,35 @@
    "why": "Within a 15-minute walk, sold in the last year",
    "km": 0.0,
    "ppsf": 2.545714285714286
+  },
+  {
+   "mls": "24210681",
+   "slug": "589-bedford-street-stamford-connecticut-24210681",
+   "address": {
+    "line": "589 Bedford Street",
+    "unit": "Unit 403",
+    "lineWithUnit": "589 Bedford Street Unit 403",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06901"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 1076.0,
+   "acres": 0.26,
+   "price": 2700.0,
+   "date": "2026-10-06",
+   "listingType": "rent",
+   "rentPeriod": "month",
+   "geo": {
+    "lat": 41.059174,
+    "lng": -73.537224
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.0680809933805887,
+   "ppsf": 2.509293680297398
   },
   {
    "mls": "24202455",
@@ -259,35 +288,6 @@
    "why": "Within a 15-minute walk, sold in the last year",
    "km": 0.08370118562672103,
    "ppsf": 3.522727272727273
-  },
-  {
-   "mls": "24133011",
-   "slug": "444-bedford-street-stamford-connecticut-24133011",
-   "address": {
-    "line": "444 Bedford Street",
-    "unit": "Apt 5R",
-    "lineWithUnit": "444 Bedford Street Apt 5R",
-    "city": "Stamford",
-    "state": "Connecticut",
-    "zip": "06901"
-   },
-   "beds": 2.0,
-   "baths": 1.0,
-   "sqft": 880.0,
-   "acres": null,
-   "price": 2250.0,
-   "date": "2026-01-03",
-   "listingType": "rent",
-   "rentPeriod": "month",
-   "geo": {
-    "lat": 41.058212,
-    "lng": -73.5384
-   },
-   "klass": "rental",
-   "tier": 3,
-   "why": "Within a 15-minute walk, sold in the last year",
-   "km": 0.08460490513027356,
-   "ppsf": 2.5568181818181817
   }
  ]
 }

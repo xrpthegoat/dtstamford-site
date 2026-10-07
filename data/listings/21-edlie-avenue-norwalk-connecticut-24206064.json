@@ -5,6 +5,9 @@
  "listingType": "rent",
  "propertyType": "Residential Rental",
  "price": 2800.0,
+ "leasePriceDesc": "Per Month",
+ "rentPeriod": "month",
+ "rentalDuration": "Yearly Unfurnished",
  "closePrice": null,
  "closeDate": null,
  "beds": 2.0,
@@ -47,7 +50,7 @@
   "lng": -73.407599
  },
  "facts": {
-  "dom": 12,
+  "dom": 18,
   "listed": "2026-09-18",
   "sewer": "Public Sewer Connected",
   "water": "Public Water Connected",
@@ -75,9 +78,6 @@
   "waterfront": "Beach Rights",
   "directWaterfront": "0"
  },
- "leasePriceDesc": "Per Month",
- "rentPeriod": "month",
- "rentalDuration": "Yearly Unfurnished",
  "indexable": true,
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
@@ -186,35 +186,6 @@
    "ppsf": 2.735042735042735
   },
   {
-   "mls": "24107703",
-   "slug": "5-myrtle-street-norwalk-connecticut-24107703",
-   "address": {
-    "line": "5 Myrtle Street",
-    "unit": "#1",
-    "lineWithUnit": "5 Myrtle Street #1",
-    "city": "Norwalk",
-    "state": "Connecticut",
-    "zip": "06855"
-   },
-   "beds": 2.0,
-   "baths": 1.0,
-   "sqft": 884.0,
-   "acres": 0.13,
-   "price": 3000.0,
-   "date": "2025-09-09",
-   "listingType": "rent",
-   "rentPeriod": "month",
-   "geo": {
-    "lat": 41.106133,
-    "lng": -73.4043
-   },
-   "klass": "rental",
-   "tier": 3,
-   "why": "Within a 15-minute walk, sold in the last year",
-   "km": 0.2771375520540665,
-   "ppsf": 3.3936651583710407
-  },
-  {
    "mls": "24157798",
    "slug": "6-pleasant-street-norwalk-connecticut-24157798",
    "address": {
@@ -271,6 +242,35 @@
    "why": "Within a 15-minute walk, sold in the last year",
    "km": 0.37415976497562076,
    "ppsf": 2.9904306220095696
+  },
+  {
+   "mls": "24146617",
+   "slug": "9-winfield-street-norwalk-connecticut-24146617",
+   "address": {
+    "line": "9 Winfield Street",
+    "unit": "Unit 1",
+    "lineWithUnit": "9 Winfield Street Unit 1",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06855"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 1258.0,
+   "acres": 0.13,
+   "price": 2000.0,
+   "date": "2026-02-15",
+   "listingType": "rent",
+   "rentPeriod": "month",
+   "geo": {
+    "lat": 41.103995,
+    "lng": -73.403294
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.4212567759629333,
+   "ppsf": 1.589825119236884
   }
  ]
 }

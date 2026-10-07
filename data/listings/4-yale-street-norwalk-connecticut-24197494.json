@@ -1,10 +1,13 @@
 {
  "mls": "24197494",
  "slug": "4-yale-street-norwalk-connecticut-24197494",
- "status": "Active",
+ "status": "Under Contract",
  "listingType": "rent",
  "propertyType": "Residential Rental",
  "price": 2300.0,
+ "leasePriceDesc": "Per Month",
+ "rentPeriod": "month",
+ "rentalDuration": "Yearly Unfurnished",
  "closePrice": null,
  "closeDate": null,
  "beds": 1.0,
@@ -55,13 +58,13 @@
   "https://smartmls-assets.cdn-connectmls.com/pics/5873A3D3D1100D48E063E201100A6DD8/HD_1786111696454_2D_Floor_Plan_for_4_Yale_Street.JPEG"
  ],
  "primaryPhotoOnly": false,
- "updated": "2026-09-25T20:44:47",
+ "updated": "2026-10-03T12:25:01",
  "geo": {
   "lat": 41.12752,
   "lng": -73.400233
  },
  "facts": {
-  "dom": 47,
+  "dom": 49,
   "listed": "2026-08-07",
   "sewer": "Public Sewer Connected",
   "water": "Public Water Connected",
@@ -86,9 +89,6 @@
   "waterfront": "Beach Rights",
   "directWaterfront": "0"
  },
- "leasePriceDesc": "Per Month",
- "rentPeriod": "month",
- "rentalDuration": "Yearly Unfurnished",
  "indexable": true,
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
@@ -139,35 +139,6 @@
   }
  },
  "comps": [
-  {
-   "mls": "24101971",
-   "slug": "7-margaret-street-norwalk-connecticut-24101971",
-   "address": {
-    "line": "7 Margaret Street",
-    "unit": "Unit 2",
-    "lineWithUnit": "7 Margaret Street Unit 2",
-    "city": "Norwalk",
-    "state": "Connecticut",
-    "zip": "06851"
-   },
-   "beds": 2.0,
-   "baths": 1.0,
-   "sqft": 650.0,
-   "acres": 0.2,
-   "price": 1900.0,
-   "date": "2025-09-25",
-   "listingType": "rent",
-   "rentPeriod": "month",
-   "geo": {
-    "lat": 41.12982,
-    "lng": -73.398834
-   },
-   "klass": "rental",
-   "tier": 3,
-   "why": "Within a 15-minute walk, sold in the last year",
-   "km": 0.2813130878074351,
-   "ppsf": 2.923076923076923
-  },
   {
    "mls": "24180654",
    "slug": "193-westport-avenue-norwalk-connecticut-24180654",
@@ -283,6 +254,35 @@
    "why": "Within a 15-minute walk, sold in the last year",
    "km": 0.48439622120887404,
    "ppsf": 3.104575163398693
+  },
+  {
+   "mls": "24184792",
+   "slug": "1-walter-avenue-norwalk-connecticut-24184792",
+   "address": {
+    "line": "1 Walter Avenue",
+    "unit": "Unit 23",
+    "lineWithUnit": "1 Walter Avenue Unit 23",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 574.0,
+   "acres": null,
+   "price": 1900.0,
+   "date": "2026-08-05",
+   "listingType": "rent",
+   "rentPeriod": "month",
+   "geo": {
+    "lat": 41.123485,
+    "lng": -73.398049
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.484530809032511,
+   "ppsf": 3.3101045296167246
   }
  ]
 }

@@ -5,6 +5,9 @@
  "listingType": "rent",
  "propertyType": "Residential Rental",
  "price": 2000.0,
+ "leasePriceDesc": "Per Month",
+ "rentPeriod": "month",
+ "rentalDuration": "Yearly Unfurnished",
  "closePrice": null,
  "closeDate": null,
  "beds": 1.0,
@@ -46,7 +49,7 @@
   "lng": -73.362434
  },
  "facts": {
-  "dom": 7,
+  "dom": 13,
   "listed": "2026-09-23",
   "sewer": "Public Sewer Connected",
   "water": "Public Water Connected",
@@ -74,9 +77,6 @@
   "waterfront": "Beach Rights",
   "directWaterfront": "0"
  },
- "leasePriceDesc": "Per Month",
- "rentPeriod": "month",
- "rentalDuration": "Yearly Unfurnished",
  "indexable": true,
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
@@ -119,6 +119,35 @@
   }
  },
  "comps": [
+  {
+   "mls": "24199021",
+   "slug": "37-richmondville-avenue-westport-connecticut-24199021",
+   "address": {
+    "line": "37 Richmondville Avenue",
+    "unit": "Unit 1",
+    "lineWithUnit": "37 Richmondville Avenue Unit 1",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 576.0,
+   "acres": 0.24,
+   "price": 2225.0,
+   "date": "2026-10-05",
+   "listingType": "rent",
+   "rentPeriod": "month",
+   "geo": {
+    "lat": 41.153849,
+    "lng": -73.365692
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.4500295697927241,
+   "ppsf": 3.8628472222222223
+  },
   {
    "mls": "24187531",
    "slug": "37-richmondville-avenue-westport-connecticut-24187531",
@@ -234,35 +263,6 @@
    "why": "Within about a mile and a half, sold in the last 2 years",
    "km": 0.8220642699214434,
    "ppsf": 4.5
-  },
-  {
-   "mls": "24145265",
-   "slug": "18-riverside-avenue-westport-connecticut-24145265",
-   "address": {
-    "line": "18 Riverside Avenue",
-    "unit": "Unit 2nd floor",
-    "lineWithUnit": "18 Riverside Avenue Unit 2nd floor",
-    "city": "Westport",
-    "state": "Connecticut",
-    "zip": "06880"
-   },
-   "beds": 0.0,
-   "baths": 1.0,
-   "sqft": 350.0,
-   "acres": 0.05,
-   "price": 1950.0,
-   "date": "2026-01-30",
-   "listingType": "rent",
-   "rentPeriod": "month",
-   "geo": {
-    "lat": 41.140044,
-    "lng": -73.364462
-   },
-   "klass": "rental",
-   "tier": 4,
-   "why": "Within about a mile and a half, sold in the last 2 years",
-   "km": 1.1892953576635488,
-   "ppsf": 5.571428571428571
   }
  ]
 }

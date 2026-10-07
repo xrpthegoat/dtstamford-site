@@ -5,6 +5,9 @@
  "listingType": "rent",
  "propertyType": "Residential Rental",
  "price": 4200.0,
+ "leasePriceDesc": "Per Month",
+ "rentPeriod": "month",
+ "rentalDuration": "Yearly Unfurnished",
  "closePrice": null,
  "closeDate": null,
  "beds": 2.0,
@@ -61,7 +64,7 @@
   "lng": -73.655426
  },
  "facts": {
-  "dom": 64,
+  "dom": 70,
   "listed": "2026-07-28",
   "sewer": "Public Sewer Connected",
   "water": "Public Water Connected",
@@ -92,9 +95,6 @@
   "waterfront": "Beach Rights",
   "directWaterfront": "0"
  },
- "leasePriceDesc": "Per Month",
- "rentPeriod": "month",
- "rentalDuration": "Yearly Unfurnished",
  "indexable": true,
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
@@ -175,35 +175,6 @@
    "ppsf": 4.486133768352365
   },
   {
-   "mls": "24123811",
-   "slug": "2-sherman-avenue-greenwich-connecticut-24123811",
-   "address": {
-    "line": "2 Sherman Avenue",
-    "unit": "Unit East",
-    "lineWithUnit": "2 Sherman Avenue Unit East",
-    "city": "Greenwich",
-    "state": "Connecticut",
-    "zip": "06830"
-   },
-   "beds": 3.0,
-   "baths": 3.0,
-   "sqft": 1690.0,
-   "acres": 0.25,
-   "price": 4950.0,
-   "date": "2025-09-14",
-   "listingType": "rent",
-   "rentPeriod": "month",
-   "geo": {
-    "lat": 41.01165,
-    "lng": -73.65425
-   },
-   "klass": "rental",
-   "tier": 3,
-   "why": "Within a 15-minute walk, sold in the last year",
-   "km": 0.5274802029657308,
-   "ppsf": 2.9289940828402368
-  },
-  {
    "mls": "24157454",
    "slug": "18-wessels-place-greenwich-connecticut-24157454",
    "address": {
@@ -260,6 +231,35 @@
    "why": "Within a 15-minute walk, sold in the last year",
    "km": 0.5854004440912571,
    "ppsf": 2.923076923076923
+  },
+  {
+   "mls": "24196860",
+   "slug": "34-church-street-west-greenwich-connecticut-24196860",
+   "address": {
+    "line": "34 Church Street West",
+    "unit": "Unit 2",
+    "lineWithUnit": "34 Church Street West Unit 2",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06830"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 1978.0,
+   "acres": 0.21,
+   "price": 2350.0,
+   "date": "2026-10-05",
+   "listingType": "rent",
+   "rentPeriod": "month",
+   "geo": {
+    "lat": 41.00184,
+    "lng": -73.657458
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5975009637348802,
+   "ppsf": 1.1880687563195147
   },
   {
    "mls": "24140092",

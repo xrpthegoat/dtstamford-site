@@ -5,6 +5,9 @@
  "listingType": "rent",
  "propertyType": "Residential Rental",
  "price": 2300.0,
+ "leasePriceDesc": "Per Month",
+ "rentPeriod": "month",
+ "rentalDuration": "Yearly Unfurnished",
  "closePrice": null,
  "closeDate": null,
  "beds": 1.0,
@@ -61,7 +64,7 @@
   "lng": -73.51767
  },
  "facts": {
-  "dom": 8,
+  "dom": 14,
   "listed": "2026-09-22",
   "sewer": "Public Sewer Connected",
   "water": "Public Water Connected",
@@ -93,9 +96,6 @@
   "waterfront": "Not Applicable",
   "directWaterfront": "0"
  },
- "leasePriceDesc": "Per Month",
- "rentPeriod": "month",
- "rentalDuration": "Yearly Unfurnished",
  "indexable": true,
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
@@ -146,6 +146,35 @@
   }
  },
  "comps": [
+  {
+   "mls": "24186357",
+   "slug": "947-hope-street-stamford-connecticut-24186357",
+   "address": {
+    "line": "947 Hope Street",
+    "unit": "Unit 302",
+    "lineWithUnit": "947 Hope Street Unit 302",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06907"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 700.0,
+   "acres": null,
+   "price": 2300.0,
+   "date": "2026-10-01",
+   "listingType": "rent",
+   "rentPeriod": "month",
+   "geo": {
+    "lat": 41.091248,
+    "lng": -73.51767
+   },
+   "klass": "rental",
+   "tier": 1,
+   "why": "Same building, sold in the last year",
+   "km": 0.0,
+   "ppsf": 3.2857142857142856
+  },
   {
    "mls": "24148325",
    "slug": "947-hope-street-stamford-connecticut-24148325",
@@ -205,35 +234,6 @@
    "ppsf": 3.0230978260869565
   },
   {
-   "mls": "24107292",
-   "slug": "947-hope-street-stamford-connecticut-24107292",
-   "address": {
-    "line": "947 Hope Street",
-    "unit": "Unit 302",
-    "lineWithUnit": "947 Hope Street Unit 302",
-    "city": "Stamford",
-    "state": "Connecticut",
-    "zip": "06907"
-   },
-   "beds": 1.0,
-   "baths": 1.0,
-   "sqft": 700.0,
-   "acres": null,
-   "price": 2250.0,
-   "date": "2025-09-15",
-   "listingType": "rent",
-   "rentPeriod": "month",
-   "geo": {
-    "lat": 41.091248,
-    "lng": -73.51767
-   },
-   "klass": "rental",
-   "tier": 1,
-   "why": "Same building, sold in the last year",
-   "km": 0.0,
-   "ppsf": 3.2142857142857144
-  },
-  {
    "mls": "24127697",
    "slug": "947-hope-street-stamford-connecticut-24127697",
    "address": {
@@ -263,12 +263,12 @@
    "ppsf": 3.2269021739130435
   },
   {
-   "mls": "24088834",
-   "slug": "947-hope-street-stamford-connecticut-24088834",
+   "mls": "24107292",
+   "slug": "947-hope-street-stamford-connecticut-24107292",
    "address": {
     "line": "947 Hope Street",
-    "unit": "Unit 303",
-    "lineWithUnit": "947 Hope Street Unit 303",
+    "unit": "Unit 302",
+    "lineWithUnit": "947 Hope Street Unit 302",
     "city": "Stamford",
     "state": "Connecticut",
     "zip": "06907"
@@ -277,8 +277,8 @@
    "baths": 1.0,
    "sqft": 700.0,
    "acres": null,
-   "price": 2200.0,
-   "date": "2025-06-05",
+   "price": 2250.0,
+   "date": "2025-09-15",
    "listingType": "rent",
    "rentPeriod": "month",
    "geo": {
@@ -289,7 +289,7 @@
    "tier": 2,
    "why": "Same building, sold in the last 2 years",
    "km": 0.0,
-   "ppsf": 3.142857142857143
+   "ppsf": 3.2142857142857144
   }
  ]
 }

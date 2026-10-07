@@ -5,6 +5,9 @@
  "listingType": "rent",
  "propertyType": "Residential Rental",
  "price": 5995.0,
+ "leasePriceDesc": "Per Month",
+ "rentPeriod": "month",
+ "rentalDuration": "Yearly Furnished,Flexible Terms Furnished",
  "closePrice": null,
  "closeDate": null,
  "beds": 2.0,
@@ -61,7 +64,7 @@
   "lng": -73.530186
  },
  "facts": {
-  "dom": 54,
+  "dom": 60,
   "listed": "2026-08-06",
   "floodZone": "0",
   "sewer": "Public Sewer Connected",
@@ -96,9 +99,6 @@
   "waterfront": "Harbor,Walk to Water,View",
   "directWaterfront": "1"
  },
- "leasePriceDesc": "Per Month",
- "rentPeriod": "month",
- "rentalDuration": "Yearly Furnished,Flexible Terms Furnished",
  "indexable": true,
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
@@ -177,64 +177,6 @@
    "ppsf": 3.0706243602865917
   },
   {
-   "mls": "24120461",
-   "slug": "3-seaview-avenue-stamford-connecticut-24120461",
-   "address": {
-    "line": "3 Seaview Avenue",
-    "unit": "Unit 2",
-    "lineWithUnit": "3 Seaview Avenue Unit 2",
-    "city": "Stamford",
-    "state": "Connecticut",
-    "zip": "06902"
-   },
-   "beds": 2.0,
-   "baths": 1.0,
-   "sqft": 1050.0,
-   "acres": 0.09,
-   "price": 3250.0,
-   "date": "2025-09-30",
-   "listingType": "rent",
-   "rentPeriod": "month",
-   "geo": {
-    "lat": 41.042435,
-    "lng": -73.52418
-   },
-   "klass": "rental",
-   "tier": 3,
-   "why": "Within a 15-minute walk, sold in the last year",
-   "km": 0.6035408230619675,
-   "ppsf": 3.0952380952380953
-  },
-  {
-   "mls": "24120466",
-   "slug": "3-seaview-avenue-stamford-connecticut-24120466",
-   "address": {
-    "line": "3 Seaview Avenue",
-    "unit": "Unit 3",
-    "lineWithUnit": "3 Seaview Avenue Unit 3",
-    "city": "Stamford",
-    "state": "Connecticut",
-    "zip": "06902"
-   },
-   "beds": 1.0,
-   "baths": 1.0,
-   "sqft": 920.0,
-   "acres": 0.09,
-   "price": 2250.0,
-   "date": "2025-09-30",
-   "listingType": "rent",
-   "rentPeriod": "month",
-   "geo": {
-    "lat": 41.042435,
-    "lng": -73.52418
-   },
-   "klass": "rental",
-   "tier": 3,
-   "why": "Within a 15-minute walk, sold in the last year",
-   "km": 0.6035408230619675,
-   "ppsf": 2.4456521739130435
-  },
-  {
    "mls": "24158009",
    "slug": "41-elmcroft-road-stamford-connecticut-24158009",
    "address": {
@@ -264,33 +206,91 @@
    "ppsf": 2.6843100189035916
   },
   {
-   "mls": "24118911",
-   "slug": "3-seaview-avenue-stamford-connecticut-24118911",
+   "mls": "24102417",
+   "slug": "70-dyke-lane-stamford-connecticut-24102417",
    "address": {
-    "line": "3 Seaview Avenue",
-    "unit": "Unit 1",
-    "lineWithUnit": "3 Seaview Avenue Unit 1",
+    "line": "70 Dyke Lane",
+    "unit": null,
+    "lineWithUnit": "70 Dyke Lane",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1000.0,
+   "acres": 0.11,
+   "price": 3200.0,
+   "date": "2025-12-29",
+   "listingType": "rent",
+   "rentPeriod": "month",
+   "geo": {
+    "lat": 41.037946,
+    "lng": -73.539565
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8040878022169572,
+   "ppsf": 3.2
+  },
+  {
+   "mls": "24165579",
+   "slug": "816-pacific-street-stamford-connecticut-24165579",
+   "address": {
+    "line": "816 Pacific Street",
+    "unit": "Unit 2nd Floor",
+    "lineWithUnit": "816 Pacific Street Unit 2nd Floor",
     "city": "Stamford",
     "state": "Connecticut",
     "zip": "06902"
    },
    "beds": 2.0,
-   "baths": 1.0,
-   "sqft": 1114.0,
-   "acres": 0.09,
-   "price": 3250.0,
-   "date": "2025-09-30",
+   "baths": 2.0,
+   "sqft": 1240.0,
+   "acres": 0.11,
+   "price": 2850.0,
+   "date": "2026-07-27",
    "listingType": "rent",
    "rentPeriod": "month",
    "geo": {
-    "lat": 41.042435,
-    "lng": -73.524174
+    "lat": 41.04001,
+    "lng": -73.54072
    },
    "klass": "rental",
    "tier": 3,
    "why": "Within a 15-minute walk, sold in the last year",
-   "km": 0.6039608580552964,
-   "ppsf": 2.9174147217235187
+   "km": 0.8857098981651443,
+   "ppsf": 2.2983870967741935
+  },
+  {
+   "mls": "24170460",
+   "slug": "100-commons-park-north-stamford-connecticut-24170460",
+   "address": {
+    "line": "100 Commons Park North",
+    "unit": "Unit 1312",
+    "lineWithUnit": "100 Commons Park North Unit 1312",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 896.0,
+   "acres": null,
+   "price": 3160.0,
+   "date": "2026-08-27",
+   "listingType": "rent",
+   "rentPeriod": "month",
+   "geo": {
+    "lat": 41.042053,
+    "lng": -73.54127
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9737763132486327,
+   "ppsf": 3.5267857142857144
   }
  ]
 }

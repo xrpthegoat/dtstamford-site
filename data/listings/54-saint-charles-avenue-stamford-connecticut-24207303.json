@@ -5,6 +5,9 @@
  "listingType": "rent",
  "propertyType": "Residential Rental",
  "price": 6200.0,
+ "leasePriceDesc": "Per Month",
+ "rentPeriod": "month",
+ "rentalDuration": "Yearly Unfurnished,Yearly Furnished",
  "closePrice": null,
  "closeDate": null,
  "beds": 4.0,
@@ -61,7 +64,7 @@
   "lng": -73.523383
  },
  "facts": {
-  "dom": 12,
+  "dom": 18,
   "listed": "2026-09-18",
   "sewer": "Public Sewer Connected",
   "water": "Public Water Connected",
@@ -93,9 +96,6 @@
   "waterfront": "Not Applicable",
   "directWaterfront": "0"
  },
- "leasePriceDesc": "Per Month",
- "rentPeriod": "month",
- "rentalDuration": "Yearly Unfurnished,Yearly Furnished",
  "indexable": true,
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
@@ -173,6 +173,35 @@
    "why": "Within a 15-minute walk, sold in the last year",
    "km": 0.34377322008921096,
    "ppsf": 2.0239190432382705
+  },
+  {
+   "mls": "24201794",
+   "slug": "763-hope-street-stamford-connecticut-24201794",
+   "address": {
+    "line": "763 Hope Street",
+    "unit": null,
+    "lineWithUnit": "763 Hope Street",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06907"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 2200.0,
+   "acres": 0.05,
+   "price": 3700.0,
+   "date": "2026-09-30",
+   "listingType": "rent",
+   "rentPeriod": "month",
+   "geo": {
+    "lat": 41.085136,
+    "lng": -73.519012
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.36740050652547657,
+   "ppsf": 1.6818181818181819
   },
   {
    "mls": "24183778",
@@ -260,35 +289,6 @@
    "why": "Within a 15-minute walk, sold in the last year",
    "km": 0.8176711670326174,
    "ppsf": 2.129120879120879
-  },
-  {
-   "mls": "24169818",
-   "slug": "22-hastings-lane-stamford-connecticut-24169818",
-   "address": {
-    "line": "22 Hastings Lane",
-    "unit": null,
-    "lineWithUnit": "22 Hastings Lane",
-    "city": "Stamford",
-    "state": "Connecticut",
-    "zip": "06905"
-   },
-   "beds": 4.0,
-   "baths": 3.0,
-   "sqft": 2982.0,
-   "acres": 0.41,
-   "price": 7500.0,
-   "date": "2026-05-08",
-   "listingType": "rent",
-   "rentPeriod": "month",
-   "geo": {
-    "lat": 41.085907,
-    "lng": -73.533259
-   },
-   "klass": "rental",
-   "tier": 3,
-   "why": "Within a 15-minute walk, sold in the last year",
-   "km": 0.8297319607371688,
-   "ppsf": 2.515090543259557
   }
  ]
 }

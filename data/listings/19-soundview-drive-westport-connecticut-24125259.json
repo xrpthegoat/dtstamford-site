@@ -5,6 +5,9 @@
  "listingType": "rent",
  "propertyType": "Residential Rental",
  "price": 19750.0,
+ "leasePriceDesc": "Per Month",
+ "rentPeriod": "month",
+ "rentalDuration": "Yearly Furnished,Flexible Terms Furnished,Short Term Furnished,Academic Year Furnished",
  "closePrice": null,
  "closeDate": null,
  "beds": 4.0,
@@ -61,7 +64,7 @@
   "lng": -73.34997
  },
  "facts": {
-  "dom": 105,
+  "dom": 111,
   "listed": "2026-06-17",
   "sewer": "Public Sewer Connected",
   "water": "Public Water Connected",
@@ -95,9 +98,6 @@
   "waterfront": "L. I. Sound Frontage,Beach,Walk to Water,Beach Rights,Water Community,View",
   "directWaterfront": "1"
  },
- "leasePriceDesc": "Per Month",
- "rentPeriod": "month",
- "rentalDuration": "Yearly Furnished,Flexible Terms Furnished,Short Term Furnished,Academic Year Furnished",
  "indexable": true,
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
@@ -168,35 +168,6 @@
    "why": "Within a 15-minute walk, sold in the last year",
    "km": 0.07098718255063699,
    "ppsf": 5.2246603970741905
-  },
-  {
-   "mls": "24139713",
-   "slug": "29-soundview-drive-westport-connecticut-24139713",
-   "address": {
-    "line": "29 Soundview Drive",
-    "unit": null,
-    "lineWithUnit": "29 Soundview Drive",
-    "city": "Westport",
-    "state": "Connecticut",
-    "zip": "06880"
-   },
-   "beds": 4.0,
-   "baths": 4.0,
-   "sqft": 1900.0,
-   "acres": 0.1,
-   "price": 17500.0,
-   "date": "2025-09-01",
-   "listingType": "rent",
-   "rentPeriod": "month",
-   "geo": {
-    "lat": 41.10778,
-    "lng": -73.34893
-   },
-   "klass": "rental",
-   "tier": 3,
-   "why": "Within a 15-minute walk, sold in the last year",
-   "km": 0.10064601077932671,
-   "ppsf": 9.210526315789474
   },
   {
    "mls": "24176335",
@@ -284,6 +255,35 @@
    "why": "Within a 15-minute walk, sold in the last year",
    "km": 0.9185035766742288,
    "ppsf": 8.333333333333334
+  },
+  {
+   "mls": "24038645",
+   "slug": "29-soundview-drive-westport-connecticut-24038645",
+   "address": {
+    "line": "29 Soundview Drive",
+    "unit": null,
+    "lineWithUnit": "29 Soundview Drive",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 1900.0,
+   "acres": 0.1,
+   "price": 25000.0,
+   "date": "2025-07-01",
+   "listingType": "rent",
+   "rentPeriod": "month",
+   "geo": {
+    "lat": 41.107782,
+    "lng": -73.348932
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 0.10061262133498942,
+   "ppsf": 13.157894736842104
   }
  ]
 }

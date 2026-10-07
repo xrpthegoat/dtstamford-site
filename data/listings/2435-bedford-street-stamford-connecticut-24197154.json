@@ -5,6 +5,9 @@
  "listingType": "rent",
  "propertyType": "Residential Rental",
  "price": 3600.0,
+ "leasePriceDesc": "Per Month",
+ "rentPeriod": "month",
+ "rentalDuration": "Yearly Unfurnished",
  "closePrice": null,
  "closeDate": null,
  "beds": 2.0,
@@ -96,9 +99,6 @@
   "directWaterfront": "0",
   "energy": "Thermopane Windows"
  },
- "leasePriceDesc": "Per Month",
- "rentPeriod": "month",
- "rentalDuration": "Yearly Unfurnished",
  "indexable": true,
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
@@ -268,33 +268,33 @@
    "ppsf": 2.6074700493305145
   },
   {
-   "mls": "24049731",
-   "slug": "2435-bedford-street-stamford-connecticut-24049731",
+   "mls": "24164640",
+   "slug": "2437-bedford-street-stamford-connecticut-24164640",
    "address": {
-    "line": "2435 Bedford Street",
-    "unit": "Unit 21-DD",
-    "lineWithUnit": "2435 Bedford Street Unit 21-DD",
+    "line": "2437 Bedford Street",
+    "unit": "Unit F21",
+    "lineWithUnit": "2437 Bedford Street Unit F21",
     "city": "Stamford",
     "state": "Connecticut",
     "zip": "06905"
    },
-   "beds": 2.0,
+   "beds": 1.0,
    "baths": 2.0,
-   "sqft": 1419.0,
+   "sqft": 1069.0,
    "acres": null,
-   "price": 3600.0,
-   "date": "2024-10-05",
+   "price": 3000.0,
+   "date": "2026-06-01",
    "listingType": "rent",
    "rentPeriod": "month",
    "geo": {
-    "lat": 41.070549,
-    "lng": -73.541509
+    "lat": 41.070187,
+    "lng": -73.54405
    },
    "klass": "rental",
-   "tier": 2,
-   "why": "Same building, sold in the last 2 years",
-   "km": 0.19179335977296041,
-   "ppsf": 2.536997885835095
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.1518853503490683,
+   "ppsf": 2.8063610851262863
   }
  ]
 }

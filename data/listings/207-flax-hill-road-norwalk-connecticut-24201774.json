@@ -5,6 +5,9 @@
  "listingType": "rent",
  "propertyType": "Residential Rental",
  "price": 1750.0,
+ "leasePriceDesc": "Per Month",
+ "rentPeriod": "month",
+ "rentalDuration": "Yearly Unfurnished",
  "closePrice": null,
  "closeDate": null,
  "beds": 1.0,
@@ -43,7 +46,7 @@
   "lng": -73.42592
  },
  "facts": {
-  "dom": 37,
+  "dom": 43,
   "listed": "2026-08-24",
   "sewer": "Public Sewer Connected",
   "water": "Public Water Connected",
@@ -72,9 +75,6 @@
   "directWaterfront": "0",
   "energy": "Ridge Vents"
  },
- "leasePriceDesc": "Per Month",
- "rentPeriod": "month",
- "rentalDuration": "Yearly Unfurnished",
  "indexable": true,
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
@@ -241,33 +241,33 @@
    "ppsf": 3.8200339558573853
   },
   {
-   "mls": "24114408",
-   "slug": "61-washington-street-norwalk-connecticut-24114408",
+   "mls": "24145165",
+   "slug": "14-16-north-main-street-norwalk-connecticut-24145165",
    "address": {
-    "line": "61 Washington Street",
-    "unit": "Unit 2F",
-    "lineWithUnit": "61 Washington Street Unit 2F",
+    "line": "14-16 North Main Street",
+    "unit": null,
+    "lineWithUnit": "14-16 North Main Street",
     "city": "Norwalk",
     "state": "Connecticut",
     "zip": "06854"
    },
    "beds": 0.0,
    "baths": 1.0,
-   "sqft": 600.0,
+   "sqft": 525.0,
    "acres": 0.23,
-   "price": 2100.0,
-   "date": "2025-09-16",
+   "price": 1850.0,
+   "date": "2026-01-15",
    "listingType": "rent",
    "rentPeriod": "month",
    "geo": {
-    "lat": 41.099167,
-    "lng": -73.419044
+    "lat": 41.099474,
+    "lng": -73.41912
    },
    "klass": "rental",
    "tier": 3,
    "why": "Within a 15-minute walk, sold in the last year",
-   "km": 0.6238880334965266,
-   "ppsf": 3.5
+   "km": 0.6320121324527016,
+   "ppsf": 3.5238095238095237
   }
  ]
 }

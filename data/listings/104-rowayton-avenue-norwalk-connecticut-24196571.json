@@ -5,6 +5,9 @@
  "listingType": "rent",
  "propertyType": "Residential Rental",
  "price": 2500.0,
+ "leasePriceDesc": "Per Month",
+ "rentPeriod": "month",
+ "rentalDuration": "Yearly Unfurnished",
  "closePrice": null,
  "closeDate": null,
  "beds": 1.0,
@@ -51,7 +54,7 @@
   "lng": -73.44371
  },
  "facts": {
-  "dom": 58,
+  "dom": 64,
   "listed": "2026-08-03",
   "sewer": "Public Sewer Connected",
   "water": "Public Water Connected",
@@ -82,9 +85,6 @@
   "waterfront": "Walk to Water,Beach Rights,Water Community,Access",
   "directWaterfront": "0"
  },
- "leasePriceDesc": "Per Month",
- "rentPeriod": "month",
- "rentalDuration": "Yearly Unfurnished",
  "indexable": true,
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
@@ -250,33 +250,33 @@
    "ppsf": 6.070640176600442
   },
   {
-   "mls": "24175533",
-   "slug": "12-jacob-street-norwalk-connecticut-24175533",
+   "mls": "24199014",
+   "slug": "75-roton-avenue-norwalk-connecticut-24199014",
    "address": {
-    "line": "12 Jacob Street",
+    "line": "75 Roton Avenue",
     "unit": null,
-    "lineWithUnit": "12 Jacob Street",
+    "lineWithUnit": "75 Roton Avenue",
     "city": "Norwalk",
     "state": "Connecticut",
     "zip": "06853"
    },
-   "beds": 1.0,
+   "beds": 2.0,
    "baths": 1.0,
-   "sqft": 940.0,
-   "acres": 0.31,
-   "price": 4700.0,
-   "date": "2026-08-29",
+   "sqft": 800.0,
+   "acres": 0.15,
+   "price": 4200.0,
+   "date": "2026-10-05",
    "listingType": "rent",
    "rentPeriod": "month",
    "geo": {
-    "lat": 41.074013,
-    "lng": -73.446966
+    "lat": 41.061348,
+    "lng": -73.44159
    },
    "klass": "rental",
-   "tier": 4,
-   "why": "Within about a mile and a half, sold in the last 2 years",
-   "km": 1.0279807945912758,
-   "ppsf": 5.0
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.4534864190807973,
+   "ppsf": 5.25
   }
  ]
 }

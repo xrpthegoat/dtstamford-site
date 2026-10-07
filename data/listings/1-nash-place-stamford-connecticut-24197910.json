@@ -5,6 +5,9 @@
  "listingType": "rent",
  "propertyType": "Residential Rental",
  "price": 5400.0,
+ "leasePriceDesc": "Per Month",
+ "rentPeriod": "month",
+ "rentalDuration": "Yearly Unfurnished",
  "closePrice": null,
  "closeDate": null,
  "beds": 4.0,
@@ -92,9 +95,6 @@
   "waterfront": "Not Applicable",
   "directWaterfront": "0"
  },
- "leasePriceDesc": "Per Month",
- "rentPeriod": "month",
- "rentalDuration": "Yearly Unfurnished",
  "indexable": true,
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
@@ -232,35 +232,6 @@
    "ppsf": 2.0287621982537236
   },
   {
-   "mls": "24124426",
-   "slug": "31-faucett-street-stamford-connecticut-24124426",
-   "address": {
-    "line": "31 Faucett Street",
-    "unit": null,
-    "lineWithUnit": "31 Faucett Street",
-    "city": "Stamford",
-    "state": "Connecticut",
-    "zip": "06906"
-   },
-   "beds": 3.0,
-   "baths": 2.0,
-   "sqft": 1770.0,
-   "acres": 0.11,
-   "price": 4000.0,
-   "date": "2025-09-27",
-   "listingType": "rent",
-   "rentPeriod": "month",
-   "geo": {
-    "lat": 41.06773,
-    "lng": -73.52506
-   },
-   "klass": "rental",
-   "tier": 3,
-   "why": "Within a 15-minute walk, sold in the last year",
-   "km": 0.41783625374804934,
-   "ppsf": 2.2598870056497176
-  },
-  {
    "mls": "24144089",
    "slug": "61-rock-spring-road-stamford-connecticut-24144089",
    "address": {
@@ -288,6 +259,35 @@
    "why": "Within a 15-minute walk, sold in the last year",
    "km": 0.5209303552737504,
    "ppsf": 1.872299567930869
+  },
+  {
+   "mls": "24139666",
+   "slug": "160-glenbrook-road-stamford-connecticut-24139666",
+   "address": {
+    "line": "160 Glenbrook Road",
+    "unit": "Unit 1A",
+    "lineWithUnit": "160 Glenbrook Road Unit 1A",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 3.0,
+   "baths": 4.0,
+   "sqft": 1856.0,
+   "acres": null,
+   "price": 4300.0,
+   "date": "2026-02-15",
+   "listingType": "rent",
+   "rentPeriod": "month",
+   "geo": {
+    "lat": 41.059864,
+    "lng": -73.52779
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5306518656081983,
+   "ppsf": 2.3168103448275863
   }
  ]
 }

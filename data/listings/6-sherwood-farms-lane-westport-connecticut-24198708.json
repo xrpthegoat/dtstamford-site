@@ -5,6 +5,9 @@
  "listingType": "rent",
  "propertyType": "Residential Rental",
  "price": 10500.0,
+ "leasePriceDesc": "Per Month",
+ "rentPeriod": "month",
+ "rentalDuration": "Flexible Terms Unfurnished,Two Years",
  "closePrice": null,
  "closeDate": null,
  "beds": 4.0,
@@ -57,7 +60,7 @@
   "lng": -73.334778
  },
  "facts": {
-  "dom": 49,
+  "dom": 55,
   "listed": "2026-08-12",
   "sewer": "Public Sewer Connected",
   "water": "Public Water Connected",
@@ -90,9 +93,6 @@
   "waterfront": "Not Applicable",
   "directWaterfront": "0"
  },
- "leasePriceDesc": "Per Month",
- "rentPeriod": "month",
- "rentalDuration": "Flexible Terms Unfurnished,Two Years",
  "indexable": true,
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
@@ -163,6 +163,35 @@
    "why": "Within a 15-minute walk, sold in the last year",
    "km": 0.28973454285548966,
    "ppsf": 2.6607538802660753
+  },
+  {
+   "mls": "24201687",
+   "slug": "8-kirock-place-westport-connecticut-24201687",
+   "address": {
+    "line": "8 Kirock Place",
+    "unit": null,
+    "lineWithUnit": "8 Kirock Place",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 5.0,
+   "baths": 4.0,
+   "sqft": 3923.0,
+   "acres": 0.31,
+   "price": 9750.0,
+   "date": "2026-10-01",
+   "listingType": "rent",
+   "rentPeriod": "month",
+   "geo": {
+    "lat": 41.133464,
+    "lng": -73.329396
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7271179778420558,
+   "ppsf": 2.4853428498598014
   },
   {
    "mls": "24118216",
@@ -250,35 +279,6 @@
    "why": "Within a 15-minute walk, sold in the last year",
    "km": 0.8613563613059673,
    "ppsf": 2.649804275820536
-  },
-  {
-   "mls": "24114052",
-   "slug": "112-hillspoint-road-westport-connecticut-24114052",
-   "address": {
-    "line": "112 Hillspoint Road",
-    "unit": null,
-    "lineWithUnit": "112 Hillspoint Road",
-    "city": "Westport",
-    "state": "Connecticut",
-    "zip": "06880"
-   },
-   "beds": 4.0,
-   "baths": 4.0,
-   "sqft": 3558.0,
-   "acres": 1.12,
-   "price": 9000.0,
-   "date": "2026-01-21",
-   "listingType": "rent",
-   "rentPeriod": "month",
-   "geo": {
-    "lat": 41.124234,
-    "lng": -73.346412
-   },
-   "klass": "rental",
-   "tier": 3,
-   "why": "Within a 15-minute walk, sold in the last year",
-   "km": 1.0757774884121778,
-   "ppsf": 2.5295109612141653
   }
  ]
 }

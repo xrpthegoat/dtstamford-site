@@ -5,6 +5,9 @@
  "listingType": "rent",
  "propertyType": "Residential Rental",
  "price": 1395.0,
+ "leasePriceDesc": "Per Month",
+ "rentPeriod": "month",
+ "rentalDuration": "Yearly Unfurnished",
  "closePrice": null,
  "closeDate": null,
  "beds": 0.0,
@@ -47,7 +50,7 @@
   "lng": -73.4273
  },
  "facts": {
-  "dom": 83,
+  "dom": 89,
   "listed": "2026-07-09",
   "sewer": "Public Sewer Connected",
   "water": "Public Water Connected",
@@ -76,9 +79,6 @@
   "waterfront": "Not Applicable",
   "directWaterfront": "0"
  },
- "leasePriceDesc": "Per Month",
- "rentPeriod": "month",
- "rentalDuration": "Yearly Unfurnished",
  "indexable": true,
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
@@ -218,35 +218,6 @@
    "ppsf": 3.5
   },
   {
-   "mls": "24116398",
-   "slug": "289-main-avenue-norwalk-connecticut-24116398",
-   "address": {
-    "line": "289 Main Avenue",
-    "unit": "Unit 23",
-    "lineWithUnit": "289 Main Avenue Unit 23",
-    "city": "Norwalk",
-    "state": "Connecticut",
-    "zip": "06851"
-   },
-   "beds": 0.0,
-   "baths": 1.0,
-   "sqft": 400.0,
-   "acres": 0.42,
-   "price": 1575.0,
-   "date": "2025-09-22",
-   "listingType": "rent",
-   "rentPeriod": "month",
-   "geo": {
-    "lat": 41.13481,
-    "lng": -73.42484
-   },
-   "klass": "rental",
-   "tier": 3,
-   "why": "Within a 15-minute walk, sold in the last year",
-   "km": 0.34395386973330966,
-   "ppsf": 3.9375
-  },
-  {
    "mls": "24180390",
    "slug": "289-main-avenue-norwalk-connecticut-24180390",
    "address": {
@@ -274,6 +245,35 @@
    "why": "Within a 15-minute walk, sold in the last year",
    "km": 0.7306335335007026,
    "ppsf": 3.5
+  },
+  {
+   "mls": "24116398",
+   "slug": "289-main-avenue-norwalk-connecticut-24116398",
+   "address": {
+    "line": "289 Main Avenue",
+    "unit": "Unit 23",
+    "lineWithUnit": "289 Main Avenue Unit 23",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 0.0,
+   "baths": 1.0,
+   "sqft": 400.0,
+   "acres": 0.42,
+   "price": 1575.0,
+   "date": "2025-09-22",
+   "listingType": "rent",
+   "rentPeriod": "month",
+   "geo": {
+    "lat": 41.13481,
+    "lng": -73.42484
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 0.34395386973330966,
+   "ppsf": 3.9375
   }
  ]
 }

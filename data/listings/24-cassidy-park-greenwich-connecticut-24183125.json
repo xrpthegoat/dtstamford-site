@@ -5,6 +5,9 @@
  "listingType": "rent",
  "propertyType": "Residential Rental",
  "price": 8000.0,
+ "leasePriceDesc": "Per Month",
+ "rentPeriod": "month",
+ "rentalDuration": "Yearly Unfurnished",
  "closePrice": null,
  "closeDate": null,
  "beds": 4.0,
@@ -51,7 +54,7 @@
   "lng": -73.632823
  },
  "facts": {
-  "dom": 111,
+  "dom": 117,
   "listed": "2026-06-11",
   "sewer": "Public Sewer Connected",
   "water": "Public Water Connected",
@@ -80,9 +83,6 @@
   "waterfront": "Not Applicable",
   "directWaterfront": "0"
  },
- "leasePriceDesc": "Per Month",
- "rentPeriod": "month",
- "rentalDuration": "Yearly Unfurnished",
  "indexable": true,
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
@@ -154,6 +154,35 @@
    "tier": 3,
    "why": "Within a 15-minute walk, sold in the last year",
    "km": 0.6182736627040414,
+   "ppsf": 5.800464037122969
+  },
+  {
+   "mls": "24209271",
+   "slug": "106-patterson-avenue-greenwich-connecticut-24209271",
+   "address": {
+    "line": "106 Patterson Avenue",
+    "unit": null,
+    "lineWithUnit": "106 Patterson Avenue",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06830"
+   },
+   "beds": 5.0,
+   "baths": 5.0,
+   "sqft": 3448.0,
+   "acres": 0.39,
+   "price": 20000.0,
+   "date": "2026-10-06",
+   "listingType": "rent",
+   "rentPeriod": "month",
+   "geo": {
+    "lat": 41.039124,
+    "lng": -73.62817
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6183932042214713,
    "ppsf": 5.800464037122969
   },
   {
@@ -242,35 +271,6 @@
    "why": "Within about a mile and a half, sold in the last 2 years",
    "km": 0.7891226099489954,
    "ppsf": 2.399595857539783
-  },
-  {
-   "mls": "24049665",
-   "slug": "80-brookside-drive-greenwich-connecticut-24049665",
-   "address": {
-    "line": "80 Brookside Drive",
-    "unit": null,
-    "lineWithUnit": "80 Brookside Drive",
-    "city": "Greenwich",
-    "state": "Connecticut",
-    "zip": "06831"
-   },
-   "beds": 5.0,
-   "baths": 5.0,
-   "sqft": 4155.0,
-   "acres": 0.29,
-   "price": 10600.0,
-   "date": "2024-12-21",
-   "listingType": "rent",
-   "rentPeriod": "month",
-   "geo": {
-    "lat": 41.027267,
-    "lng": -73.632761
-   },
-   "klass": "rental",
-   "tier": 4,
-   "why": "Within about a mile and a half, sold in the last 2 years",
-   "km": 0.8387594544825832,
-   "ppsf": 2.5511432009626955
   }
  ]
 }

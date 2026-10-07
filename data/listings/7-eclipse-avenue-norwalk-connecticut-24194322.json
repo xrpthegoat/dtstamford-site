@@ -5,6 +5,9 @@
  "listingType": "rent",
  "propertyType": "Residential Rental",
  "price": 2600.0,
+ "leasePriceDesc": "Per Month",
+ "rentPeriod": "month",
+ "rentalDuration": "Yearly Unfurnished",
  "closePrice": null,
  "closeDate": null,
  "beds": 2.0,
@@ -50,7 +53,7 @@
   "lng": -73.414312
  },
  "facts": {
-  "dom": 66,
+  "dom": 72,
   "listed": "2026-07-26",
   "sewer": "Public Sewer Connected",
   "water": "Public Water Connected",
@@ -82,9 +85,6 @@
   "waterfront": "Not Applicable",
   "directWaterfront": "0"
  },
- "leasePriceDesc": "Per Month",
- "rentPeriod": "month",
- "rentalDuration": "Yearly Unfurnished",
  "indexable": true,
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
@@ -223,35 +223,6 @@
    "ppsf": 1.6666666666666667
   },
   {
-   "mls": "24108974",
-   "slug": "16-1-2-west-main-street-norwalk-connecticut-24108974",
-   "address": {
-    "line": "16-1/2 West Main Street",
-    "unit": null,
-    "lineWithUnit": "16-1/2 West Main Street",
-    "city": "Norwalk",
-    "state": "Connecticut",
-    "zip": "06851"
-   },
-   "beds": 3.0,
-   "baths": 1.0,
-   "sqft": 1197.0,
-   "acres": 0.13,
-   "price": 3200.0,
-   "date": "2025-09-01",
-   "listingType": "rent",
-   "rentPeriod": "month",
-   "geo": {
-    "lat": 41.12375,
-    "lng": -73.41789
-   },
-   "klass": "rental",
-   "tier": 3,
-   "why": "Within a 15-minute walk, sold in the last year",
-   "km": 0.33781952060794185,
-   "ppsf": 2.6733500417710943
-  },
-  {
    "mls": "24136225",
    "slug": "12-west-rocks-road-norwalk-connecticut-24136225",
    "address": {
@@ -279,6 +250,35 @@
    "why": "Within a 15-minute walk, sold in the last year",
    "km": 0.33813939702160434,
    "ppsf": 2.9471544715447155
+  },
+  {
+   "mls": "24178778",
+   "slug": "15-west-main-street-norwalk-connecticut-24178778",
+   "address": {
+    "line": "15 West Main Street",
+    "unit": "Unit J201",
+    "lineWithUnit": "15 West Main Street Unit J201",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1240.0,
+   "acres": null,
+   "price": 3200.0,
+   "date": "2026-06-05",
+   "listingType": "rent",
+   "rentPeriod": "month",
+   "geo": {
+    "lat": 41.123185,
+    "lng": -73.417889
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.3709553668390775,
+   "ppsf": 2.5806451612903225
   }
  ]
 }

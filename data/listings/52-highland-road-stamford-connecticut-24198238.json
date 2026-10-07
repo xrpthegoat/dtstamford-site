@@ -5,6 +5,9 @@
  "listingType": "rent",
  "propertyType": "Residential Rental",
  "price": 2250.0,
+ "leasePriceDesc": "Per Month",
+ "rentPeriod": "month",
+ "rentalDuration": "Yearly Unfurnished",
  "closePrice": null,
  "closeDate": null,
  "beds": 1.0,
@@ -48,7 +51,7 @@
   "lng": -73.53189
  },
  "facts": {
-  "dom": 45,
+  "dom": 51,
   "listed": "2026-08-16",
   "sewer": "Public Sewer Connected",
   "water": "Public Water Connected",
@@ -76,9 +79,6 @@
   "waterfront": "Not Applicable",
   "directWaterfront": "0"
  },
- "leasePriceDesc": "Per Month",
- "rentPeriod": "month",
- "rentalDuration": "Yearly Unfurnished",
  "indexable": true,
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
@@ -129,6 +129,35 @@
   }
  },
  "comps": [
+  {
+   "mls": "24196457",
+   "slug": "82-forest-street-stamford-connecticut-24196457",
+   "address": {
+    "line": "82 Forest Street",
+    "unit": "Unit A5",
+    "lineWithUnit": "82 Forest Street Unit A5",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06901"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 585.0,
+   "acres": null,
+   "price": 2100.0,
+   "date": "2026-10-01",
+   "listingType": "rent",
+   "rentPeriod": "month",
+   "geo": {
+    "lat": 41.056864,
+    "lng": -73.534259
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.21257791588599761,
+   "ppsf": 3.58974358974359
+  },
   {
    "mls": "24177523",
    "slug": "86-grove-street-stamford-connecticut-24177523",
@@ -244,35 +273,6 @@
    "why": "Within a 15-minute walk, sold in the last year",
    "km": 0.22548203353560697,
    "ppsf": 4.061895551257253
-  },
-  {
-   "mls": "24186937",
-   "slug": "39-glenbrook-road-stamford-connecticut-24186937",
-   "address": {
-    "line": "39 Glenbrook Road",
-    "unit": "Unit 2W",
-    "lineWithUnit": "39 Glenbrook Road Unit 2W",
-    "city": "Stamford",
-    "state": "Connecticut",
-    "zip": "06902"
-   },
-   "beds": 0.0,
-   "baths": 1.0,
-   "sqft": 477.0,
-   "acres": null,
-   "price": 1695.0,
-   "date": "2026-07-29",
-   "listingType": "rent",
-   "rentPeriod": "month",
-   "geo": {
-    "lat": 41.056555,
-    "lng": -73.528682
-   },
-   "klass": "rental",
-   "tier": 3,
-   "why": "Within a 15-minute walk, sold in the last year",
-   "km": 0.29063632853992977,
-   "ppsf": 3.5534591194968552
   }
  ]
 }

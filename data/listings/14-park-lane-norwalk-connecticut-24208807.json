@@ -61,7 +61,7 @@
   "lng": -73.409416
  },
  "facts": {
-  "dom": 8,
+  "dom": 14,
   "listed": "2026-09-22",
   "sewer": "Public Sewer Connected",
   "water": "Public Water Connected",
@@ -137,6 +137,35 @@
   }
  },
  "comps": [
+  {
+   "mls": "24191420",
+   "slug": "17-oliver-street-norwalk-connecticut-24191420",
+   "address": {
+    "line": "17 Oliver Street",
+    "unit": null,
+    "lineWithUnit": "17 Oliver Street",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1924.0,
+   "acres": 0.09,
+   "price": 1749000.0,
+   "date": "2026-10-02",
+   "listingType": "sale",
+   "rentPeriod": null,
+   "geo": {
+    "lat": 41.082299,
+    "lng": -73.409322
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.056042823016252415,
+   "ppsf": 909.0436590436591
+  },
   {
    "mls": "24127353",
    "slug": "8-oliver-street-norwalk-connecticut-24127353",
@@ -252,35 +281,6 @@
    "why": "Within a 15-minute walk, sold in the last year",
    "km": 0.7680410676449538,
    "ppsf": 461.3095238095238
-  },
-  {
-   "mls": "24168360",
-   "slug": "47-shorefront-park-norwalk-connecticut-24168360",
-   "address": {
-    "line": "47 Shorefront Park",
-    "unit": null,
-    "lineWithUnit": "47 Shorefront Park",
-    "city": "Norwalk",
-    "state": "Connecticut",
-    "zip": "06854"
-   },
-   "beds": 3.0,
-   "baths": 2.0,
-   "sqft": 1796.0,
-   "acres": 0.17,
-   "price": 1150000.0,
-   "date": "2026-06-11",
-   "listingType": "sale",
-   "rentPeriod": null,
-   "geo": {
-    "lat": 41.090699,
-    "lng": -73.412753
-   },
-   "klass": "house",
-   "tier": 3,
-   "why": "Within a 15-minute walk, sold in the last year",
-   "km": 0.9219915079243333,
-   "ppsf": 640.3118040089087
   }
  ]
 }

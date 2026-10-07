@@ -5,6 +5,9 @@
  "listingType": "rent",
  "propertyType": "Residential Rental",
  "price": 2295.0,
+ "leasePriceDesc": "Per Month",
+ "rentPeriod": "month",
+ "rentalDuration": "Yearly Unfurnished",
  "closePrice": null,
  "closeDate": null,
  "beds": 2.0,
@@ -56,7 +59,7 @@
   "lng": -73.422485
  },
  "facts": {
-  "dom": 6,
+  "dom": 12,
   "listed": "2026-09-24",
   "sewer": "Public Sewer Connected",
   "water": "Public Water Connected",
@@ -87,9 +90,6 @@
   "waterfront": "Not Applicable",
   "directWaterfront": "0"
  },
- "leasePriceDesc": "Per Month",
- "rentPeriod": "month",
- "rentalDuration": "Yearly Unfurnished",
  "indexable": true,
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
@@ -229,35 +229,6 @@
    "ppsf": 2.583187390542907
   },
   {
-   "mls": "24119719",
-   "slug": "11-bedford-avenue-norwalk-connecticut-24119719",
-   "address": {
-    "line": "11 Bedford Avenue",
-    "unit": "Unit N3",
-    "lineWithUnit": "11 Bedford Avenue Unit N3",
-    "city": "Norwalk",
-    "state": "Connecticut",
-    "zip": "06850"
-   },
-   "beds": 2.0,
-   "baths": 1.0,
-   "sqft": 940.0,
-   "acres": null,
-   "price": 2500.0,
-   "date": "2025-09-10",
-   "listingType": "rent",
-   "rentPeriod": "month",
-   "geo": {
-    "lat": 41.115295,
-    "lng": -73.42145
-   },
-   "klass": "rental",
-   "tier": 3,
-   "why": "Within a 15-minute walk, sold in the last year",
-   "km": 0.20847376079202,
-   "ppsf": 2.6595744680851063
-  },
-  {
    "mls": "24201180",
    "slug": "11-bedford-avenue-norwalk-connecticut-24201180",
    "address": {
@@ -285,6 +256,35 @@
    "why": "Within a 15-minute walk, sold in the last year",
    "km": 0.20878434023814307,
    "ppsf": 2.823529411764706
+  },
+  {
+   "mls": "24136561",
+   "slug": "11-bedford-avenue-norwalk-connecticut-24136561",
+   "address": {
+    "line": "11 Bedford Avenue",
+    "unit": "Apt J1",
+    "lineWithUnit": "11 Bedford Avenue Apt J1",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 856.0,
+   "acres": null,
+   "price": 2250.0,
+   "date": "2026-01-19",
+   "listingType": "rent",
+   "rentPeriod": "month",
+   "geo": {
+    "lat": 41.115296,
+    "lng": -73.421444
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.20878434023814307,
+   "ppsf": 2.628504672897196
   }
  ]
 }

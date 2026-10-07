@@ -5,6 +5,9 @@
  "listingType": "rent",
  "propertyType": "Residential Rental",
  "price": 2150.0,
+ "leasePriceDesc": "Per Month",
+ "rentPeriod": "month",
+ "rentalDuration": "Yearly Unfurnished",
  "closePrice": null,
  "closeDate": null,
  "beds": 1.0,
@@ -61,7 +64,7 @@
   "lng": -73.404576
  },
  "facts": {
-  "dom": 9,
+  "dom": 15,
   "listed": "2026-09-21",
   "floodZone": "0",
   "sewer": "Public Sewer Connected",
@@ -94,9 +97,6 @@
   "directWaterfront": "0",
   "energy": "Energy Star Rated,Extra Insulation,Ridge Vents"
  },
- "leasePriceDesc": "Per Month",
- "rentPeriod": "month",
- "rentalDuration": "Yearly Unfurnished",
  "indexable": true,
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
@@ -146,93 +146,6 @@
   }
  },
  "comps": [
-  {
-   "mls": "24124954",
-   "slug": "288-east-avenue-norwalk-connecticut-24124954",
-   "address": {
-    "line": "288 East Avenue",
-    "unit": "Unit 2",
-    "lineWithUnit": "288 East Avenue Unit 2",
-    "city": "Norwalk",
-    "state": "Connecticut",
-    "zip": "06855"
-   },
-   "beds": 1.0,
-   "baths": 1.0,
-   "sqft": 850.0,
-   "acres": 0.2,
-   "price": 2195.0,
-   "date": "2025-09-16",
-   "listingType": "rent",
-   "rentPeriod": "month",
-   "geo": {
-    "lat": 41.09958,
-    "lng": -73.4053
-   },
-   "klass": "rental",
-   "tier": 3,
-   "why": "Within a 15-minute walk, sold in the last year",
-   "km": 0.1371309935944635,
-   "ppsf": 2.5823529411764707
-  },
-  {
-   "mls": "24124955",
-   "slug": "288-east-avenue-norwalk-connecticut-24124955",
-   "address": {
-    "line": "288 East Avenue",
-    "unit": "Unit 1",
-    "lineWithUnit": "288 East Avenue Unit 1",
-    "city": "Norwalk",
-    "state": "Connecticut",
-    "zip": "06855"
-   },
-   "beds": 1.0,
-   "baths": 1.0,
-   "sqft": 670.0,
-   "acres": 0.2,
-   "price": 1795.0,
-   "date": "2025-09-24",
-   "listingType": "rent",
-   "rentPeriod": "month",
-   "geo": {
-    "lat": 41.099613,
-    "lng": -73.405304
-   },
-   "klass": "rental",
-   "tier": 3,
-   "why": "Within a 15-minute walk, sold in the last year",
-   "km": 0.140576305738588,
-   "ppsf": 2.6791044776119404
-  },
-  {
-   "mls": "24087023",
-   "slug": "276-east-avenue-norwalk-connecticut-24087023",
-   "address": {
-    "line": "276 East Avenue",
-    "unit": "Unit 1",
-    "lineWithUnit": "276 East Avenue Unit 1",
-    "city": "Norwalk",
-    "state": "Connecticut",
-    "zip": "06855"
-   },
-   "beds": 1.0,
-   "baths": 1.0,
-   "sqft": 700.0,
-   "acres": 0.16,
-   "price": 1800.0,
-   "date": "2025-09-01",
-   "listingType": "rent",
-   "rentPeriod": "month",
-   "geo": {
-    "lat": 41.100292,
-    "lng": -73.40473
-   },
-   "klass": "rental",
-   "tier": 3,
-   "why": "Within a 15-minute walk, sold in the last year",
-   "km": 0.20256381856920502,
-   "ppsf": 2.5714285714285716
-  },
   {
    "mls": "24191129",
    "slug": "265-east-avenue-norwalk-connecticut-24191129",
@@ -290,6 +203,93 @@
    "why": "Within a 15-minute walk, sold in the last year",
    "km": 0.23871438346281976,
    "ppsf": 2.3333333333333335
+  },
+  {
+   "mls": "24204264",
+   "slug": "3-betts-place-norwalk-connecticut-24204264",
+   "address": {
+    "line": "3 Betts Place",
+    "unit": "Unit 2",
+    "lineWithUnit": "3 Betts Place Unit 2",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06855"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 550.0,
+   "acres": 0.14,
+   "price": 2100.0,
+   "date": "2026-10-01",
+   "listingType": "rent",
+   "rentPeriod": "month",
+   "geo": {
+    "lat": 41.100158,
+    "lng": -73.407514
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.3093061910635989,
+   "ppsf": 3.8181818181818183
+  },
+  {
+   "mls": "24172850",
+   "slug": "3-betts-place-norwalk-connecticut-24172850",
+   "address": {
+    "line": "3 Betts Place",
+    "unit": "Unit 4",
+    "lineWithUnit": "3 Betts Place Unit 4",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06855"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 800.0,
+   "acres": null,
+   "price": 2250.0,
+   "date": "2026-05-26",
+   "listingType": "rent",
+   "rentPeriod": "month",
+   "geo": {
+    "lat": 41.10016,
+    "lng": -73.40752
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.3098410072193331,
+   "ppsf": 2.8125
+  },
+  {
+   "mls": "24190151",
+   "slug": "38-gregory-boulevard-norwalk-connecticut-24190151",
+   "address": {
+    "line": "38 Gregory Boulevard",
+    "unit": null,
+    "lineWithUnit": "38 Gregory Boulevard",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06855"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 896.0,
+   "acres": 0.17,
+   "price": 3400.0,
+   "date": "2026-08-14",
+   "listingType": "rent",
+   "rentPeriod": "month",
+   "geo": {
+    "lat": 41.099301,
+    "lng": -73.401006
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.3129592000577048,
+   "ppsf": 3.794642857142857
   }
  ]
 }

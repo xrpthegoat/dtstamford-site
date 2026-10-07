@@ -5,11 +5,14 @@
  "listingType": "rent",
  "propertyType": "Residential Rental",
  "price": 16500.0,
+ "leasePriceDesc": "Per Month",
+ "rentPeriod": "month",
+ "rentalDuration": "Yearly Unfurnished",
  "closePrice": null,
  "closeDate": null,
  "beds": 4.0,
  "baths": 5.0,
- "sqft": 4200.0,
+ "sqft": 4550.0,
  "yearBuilt": 2019.0,
  "acres": 0.19,
  "address": {
@@ -61,7 +64,7 @@
   "lng": -73.580758
  },
  "facts": {
-  "dom": 99,
+  "dom": 105,
   "listed": "2026-06-23",
   "sewer": "Public Sewer Connected",
   "water": "Public Water Connected",
@@ -96,9 +99,6 @@
   "directWaterfront": "0",
   "energy": "Extra Insulation,Programmable Thermostat,Thermopane Windows"
  },
- "leasePriceDesc": "Per Month",
- "rentPeriod": "month",
- "rentalDuration": "Yearly Unfurnished",
  "indexable": true,
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
@@ -267,33 +267,33 @@
    "ppsf": 2.6595744680851063
   },
   {
-   "mls": "24150496",
-   "slug": "92-valley-road-greenwich-connecticut-24150496",
+   "mls": "24024839",
+   "slug": "18-meyer-place-greenwich-connecticut-24024839",
    "address": {
-    "line": "92 Valley Road",
-    "unit": "Unit A",
-    "lineWithUnit": "92 Valley Road Unit A",
+    "line": "18 Meyer Place",
+    "unit": null,
+    "lineWithUnit": "18 Meyer Place",
     "city": "Greenwich",
     "state": "Connecticut",
-    "zip": "06807"
+    "zip": "06878"
    },
-   "beds": 5.0,
-   "baths": 3.0,
-   "sqft": 3000.0,
-   "acres": null,
-   "price": 7035.0,
-   "date": "2026-03-24",
+   "beds": 6.0,
+   "baths": 6.0,
+   "sqft": 3800.0,
+   "acres": 0.4,
+   "price": 10000.0,
+   "date": "2024-10-25",
    "listingType": "rent",
    "rentPeriod": "month",
    "geo": {
-    "lat": 41.044882,
-    "lng": -73.590877
+    "lat": 41.036488,
+    "lng": -73.58572
    },
    "klass": "rental",
    "tier": 4,
    "why": "Within about a mile and a half, sold in the last 2 years",
-   "km": 0.8562625768611984,
-   "ppsf": 2.345
+   "km": 0.9188202772181183,
+   "ppsf": 2.6315789473684212
   }
  ]
 }

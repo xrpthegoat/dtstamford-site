@@ -4,7 +4,10 @@
  "status": "Active",
  "listingType": "rent",
  "propertyType": "Residential Rental",
- "price": 4200.0,
+ "price": 3876.0,
+ "leasePriceDesc": "Per Month",
+ "rentPeriod": "month",
+ "rentalDuration": "Yearly Unfurnished",
  "closePrice": null,
  "closeDate": null,
  "beds": 3.0,
@@ -55,13 +58,13 @@
   "https://smartmls-assets.cdn-connectmls.com/pics/5B8A4E04B4DCEF94E063E201100A2907/HD_1789496664809_77_Ely_Photo_04.JPEG"
  ],
  "primaryPhotoOnly": false,
- "updated": "2026-09-12T12:42:37",
+ "updated": "2026-09-30T19:21:14",
  "geo": {
   "lat": 41.092805,
   "lng": -73.423928
  },
  "facts": {
-  "dom": 28,
+  "dom": 34,
   "listed": "2026-09-02",
   "sewer": "Public Sewer Connected",
   "water": "Public Water In Street",
@@ -88,9 +91,6 @@
   "waterfront": "Not Applicable",
   "directWaterfront": "0"
  },
- "leasePriceDesc": "Per Month",
- "rentPeriod": "month",
- "rentalDuration": "Yearly Unfurnished",
  "indexable": true,
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
@@ -228,35 +228,6 @@
    "ppsf": 2.450229709035222
   },
   {
-   "mls": "24126765",
-   "slug": "188-flax-hill-road-norwalk-connecticut-24126765",
-   "address": {
-    "line": "188 Flax Hill Road",
-    "unit": "Apt A1",
-    "lineWithUnit": "188 Flax Hill Road Apt A1",
-    "city": "Norwalk",
-    "state": "Connecticut",
-    "zip": "06854"
-   },
-   "beds": 2.0,
-   "baths": 2.0,
-   "sqft": 1138.0,
-   "acres": null,
-   "price": 2600.0,
-   "date": "2025-09-25",
-   "listingType": "rent",
-   "rentPeriod": "month",
-   "geo": {
-    "lat": 41.096897,
-    "lng": -73.423999
-   },
-   "klass": "rental",
-   "tier": 3,
-   "why": "Within a 15-minute walk, sold in the last year",
-   "km": 0.45504853764022407,
-   "ppsf": 2.2847100175746924
-  },
-  {
    "mls": "24195457",
    "slug": "169-south-main-street-norwalk-connecticut-24195457",
    "address": {
@@ -284,6 +255,35 @@
    "why": "Within a 15-minute walk, sold in the last year",
    "km": 0.4788720142691336,
    "ppsf": 3.025064822817632
+  },
+  {
+   "mls": "24157859",
+   "slug": "178-flax-hill-road-norwalk-connecticut-24157859",
+   "address": {
+    "line": "178 Flax Hill Road",
+    "unit": "Apt C203",
+    "lineWithUnit": "178 Flax Hill Road Apt C203",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1130.0,
+   "acres": null,
+   "price": 2900.0,
+   "date": "2026-05-18",
+   "listingType": "rent",
+   "rentPeriod": "month",
+   "geo": {
+    "lat": 41.097427,
+    "lng": -73.42413
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5142216363475789,
+   "ppsf": 2.566371681415929
   }
  ]
 }

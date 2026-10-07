@@ -5,6 +5,9 @@
  "listingType": "rent",
  "propertyType": "Residential Rental",
  "price": 5073.0,
+ "leasePriceDesc": "Per Month",
+ "rentPeriod": "month",
+ "rentalDuration": "Yearly Unfurnished",
  "closePrice": null,
  "closeDate": null,
  "beds": 2.0,
@@ -61,7 +64,7 @@
   "lng": -73.49935
  },
  "facts": {
-  "dom": 14,
+  "dom": 20,
   "listed": "2026-09-16",
   "sewer": "Public Sewer Connected",
   "water": "Public Water Connected",
@@ -87,9 +90,6 @@
   "waterfront": "Not Applicable",
   "directWaterfront": "0"
  },
- "leasePriceDesc": "Per Month",
- "rentPeriod": "month",
- "rentalDuration": "Yearly Unfurnished",
  "indexable": true,
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
@@ -200,35 +200,6 @@
    "ppsf": 5.523964256701868
   },
   {
-   "mls": "24072963",
-   "slug": "340-heights-road-darien-connecticut-24072963",
-   "address": {
-    "line": "340 Heights Road",
-    "unit": "Unit 202",
-    "lineWithUnit": "340 Heights Road Unit 202",
-    "city": "Darien",
-    "state": "Connecticut",
-    "zip": "06820"
-   },
-   "beds": 2.0,
-   "baths": 3.0,
-   "sqft": 1407.0,
-   "acres": null,
-   "price": 7400.0,
-   "date": "2025-09-01",
-   "listingType": "rent",
-   "rentPeriod": "month",
-   "geo": {
-    "lat": 41.06952,
-    "lng": -73.49885
-   },
-   "klass": "rental",
-   "tier": 3,
-   "why": "Within a 15-minute walk, sold in the last year",
-   "km": 0.213207399648441,
-   "ppsf": 5.259417199715707
-  },
-  {
    "mls": "24171326",
    "slug": "440-heights-road-darien-connecticut-24171326",
    "address": {
@@ -285,6 +256,35 @@
    "why": "Within a 15-minute walk, sold in the last year",
    "km": 0.21322761107016025,
    "ppsf": 5.562742561448901
+  },
+  {
+   "mls": "24161107",
+   "slug": "340-heights-road-darien-connecticut-24161107",
+   "address": {
+    "line": "340 Heights Road",
+    "unit": "Unit 316",
+    "lineWithUnit": "340 Heights Road Unit 316",
+    "city": "Darien",
+    "state": "Connecticut",
+    "zip": "06820"
+   },
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 1492.0,
+   "acres": null,
+   "price": 9250.0,
+   "date": "2026-04-15",
+   "listingType": "rent",
+   "rentPeriod": "month",
+   "geo": {
+    "lat": 41.069534,
+    "lng": -73.498392
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.22539663959061315,
+   "ppsf": 6.1997319034852545
   }
  ]
 }

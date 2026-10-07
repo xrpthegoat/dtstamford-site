@@ -54,7 +54,7 @@
   "lng": -73.488943
  },
  "facts": {
-  "dom": 24,
+  "dom": 30,
   "listed": "2026-09-06",
   "sewer": "Public Sewer Connected",
   "water": "Public Water Connected",
@@ -128,6 +128,35 @@
   }
  },
  "comps": [
+  {
+   "mls": "24194638",
+   "slug": "63-oak-street-new-canaan-connecticut-24194638",
+   "address": {
+    "line": "63 Oak Street",
+    "unit": null,
+    "lineWithUnit": "63 Oak Street",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 5.0,
+   "baths": 4.0,
+   "sqft": 2352.0,
+   "acres": 0.21,
+   "price": 1600000.0,
+   "date": "2026-10-01",
+   "listingType": "sale",
+   "rentPeriod": null,
+   "geo": {
+    "lat": 41.141136,
+    "lng": -73.48825
+   },
+   "klass": "multi",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6559532176377345,
+   "ppsf": 680.2721088435375
+  },
   {
    "mls": "24164026",
    "slug": "55-new-norwalk-road-new-canaan-connecticut-24164026",
@@ -243,35 +272,6 @@
    "why": "Within about a mile and a half, sold in the last 2 years",
    "km": 1.1956437771667847,
    "ppsf": 651.0416666666666
-  },
-  {
-   "mls": "24081607",
-   "slug": "22-old-stamford-road-new-canaan-connecticut-24081607",
-   "address": {
-    "line": "22 Old Stamford Road",
-    "unit": null,
-    "lineWithUnit": "22 Old Stamford Road",
-    "city": "New Canaan",
-    "state": "Connecticut",
-    "zip": "06840"
-   },
-   "beds": 4.0,
-   "baths": 4.0,
-   "sqft": 2352.0,
-   "acres": 0.25,
-   "price": 1500000.0,
-   "date": "2025-04-22",
-   "listingType": "sale",
-   "rentPeriod": null,
-   "geo": {
-    "lat": 41.136857,
-    "lng": -73.494363
-   },
-   "klass": "multi",
-   "tier": 4,
-   "why": "Within about a mile and a half, sold in the last 2 years",
-   "km": 1.2169843472911046,
-   "ppsf": 637.7551020408164
   }
  ]
 }

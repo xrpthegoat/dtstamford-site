@@ -1,10 +1,13 @@
 {
  "mls": "24206089",
  "slug": "6-6-van-buskirk-avenue-stamford-connecticut-24206089",
- "status": "Active",
+ "status": "Under Contract",
  "listingType": "rent",
  "propertyType": "Residential Rental",
  "price": 3500.0,
+ "leasePriceDesc": "Per Month",
+ "rentPeriod": "month",
+ "rentalDuration": "Yearly Unfurnished",
  "closePrice": null,
  "closeDate": null,
  "beds": 3.0,
@@ -54,13 +57,13 @@
   "https://smartmls-assets.cdn-connectmls.com/pics/5B2232778328EFD1E0631A01100A2E2D/HD_1789053556936_2nd_floor_4_van_buskirk_avenue_apt__4_stamford_with_dim.JPEG"
  ],
  "primaryPhotoOnly": false,
- "updated": "2026-09-10T15:33:03",
+ "updated": "2026-10-06T19:10:34",
  "geo": {
   "lat": 41.049517,
   "lng": -73.517896
  },
  "facts": {
-  "dom": 20,
+  "dom": 26,
   "listed": "2026-09-10",
   "sewer": "Public Sewer Connected",
   "water": "Public Water Connected",
@@ -92,9 +95,6 @@
   "waterfront": "Beach Rights",
   "directWaterfront": "0"
  },
- "leasePriceDesc": "Per Month",
- "rentPeriod": "month",
- "rentalDuration": "Yearly Unfurnished",
  "indexable": true,
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
@@ -144,35 +144,6 @@
   }
  },
  "comps": [
-  {
-   "mls": "24109532",
-   "slug": "4-van-buskirk-avenue-stamford-connecticut-24109532",
-   "address": {
-    "line": "4 Van Buskirk Avenue",
-    "unit": null,
-    "lineWithUnit": "4 Van Buskirk Avenue",
-    "city": "Stamford",
-    "state": "Connecticut",
-    "zip": "06902"
-   },
-   "beds": 3.0,
-   "baths": 2.0,
-   "sqft": 993.0,
-   "acres": 0.09,
-   "price": 3300.0,
-   "date": "2025-09-01",
-   "listingType": "rent",
-   "rentPeriod": "month",
-   "geo": {
-    "lat": 41.049517,
-    "lng": -73.517896
-   },
-   "klass": "rental",
-   "tier": 3,
-   "why": "Within a 15-minute walk, sold in the last year",
-   "km": 0.0,
-   "ppsf": 3.323262839879154
-  },
   {
    "mls": "24131100",
    "slug": "7-dale-street-stamford-connecticut-24131100",
@@ -288,6 +259,35 @@
    "why": "Within a 15-minute walk, sold in the last year",
    "km": 0.182920343319381,
    "ppsf": 2.4661016949152543
+  },
+  {
+   "mls": "24162048",
+   "slug": "38-soundview-avenue-stamford-connecticut-24162048",
+   "address": {
+    "line": "38 Soundview Avenue",
+    "unit": "Unit B",
+    "lineWithUnit": "38 Soundview Avenue Unit B",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1127.0,
+   "acres": 0.17,
+   "price": 3500.0,
+   "date": "2026-05-01",
+   "listingType": "rent",
+   "rentPeriod": "month",
+   "geo": {
+    "lat": 41.048068,
+    "lng": -73.520704
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.2853198412951414,
+   "ppsf": 3.1055900621118013
   }
  ]
 }

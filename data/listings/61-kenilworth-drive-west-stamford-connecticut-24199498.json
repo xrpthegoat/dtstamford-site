@@ -5,6 +5,9 @@
  "listingType": "rent",
  "propertyType": "Residential Rental",
  "price": 6500.0,
+ "leasePriceDesc": "Per Month",
+ "rentPeriod": "month",
+ "rentalDuration": "Yearly Unfurnished",
  "closePrice": null,
  "closeDate": null,
  "beds": 4.0,
@@ -60,13 +63,14 @@
   "lng": -73.512306
  },
  "facts": {
-  "dom": 46,
+  "dom": 52,
   "listed": "2026-08-15",
   "sewer": "Public Sewer Connected",
   "water": "Public Water Connected",
   "heatType": "Gas on Gas",
   "cooling": "Central Air",
-  "pets": "No",
+  "pets": "Yes",
+  "petsInfo": "Ask dependent on owner ap",
   "tenantPays": "All Utilities,Cable TV,Credit Check,Electricity,Heat,Hot Water,Liability Insurance,Snow Removal,Water",
   "availability": "October 1, 2026",
   "schoolElementary": "Per Board of Ed",
@@ -84,9 +88,6 @@
   "waterfront": "Walk to Water,Beach Rights,Water Community",
   "directWaterfront": "0"
  },
- "leasePriceDesc": "Per Month",
- "rentPeriod": "month",
- "rentalDuration": "Yearly Unfurnished",
  "indexable": true,
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
@@ -252,33 +253,33 @@
    "ppsf": 2.8180039138943247
   },
   {
-   "mls": "24110257",
-   "slug": "52-dora-street-stamford-connecticut-24110257",
+   "mls": "24111109",
+   "slug": "50-beach-view-drive-stamford-connecticut-24111109",
    "address": {
-    "line": "52 Dora Street",
+    "line": "50 Beach View Drive",
     "unit": null,
-    "lineWithUnit": "52 Dora Street",
+    "lineWithUnit": "50 Beach View Drive",
     "city": "Stamford",
     "state": "Connecticut",
     "zip": "06902"
    },
-   "beds": 3.0,
+   "beds": 4.0,
    "baths": 2.0,
-   "sqft": 2076.0,
-   "acres": 0.19,
-   "price": 4800.0,
-   "date": "2025-09-02",
+   "sqft": 2004.0,
+   "acres": 0.3,
+   "price": 7000.0,
+   "date": "2025-10-07",
    "listingType": "rent",
    "rentPeriod": "month",
    "geo": {
-    "lat": 41.05079,
-    "lng": -73.508119
+    "lat": 41.04066,
+    "lng": -73.510929
    },
    "klass": "rental",
-   "tier": 3,
-   "why": "Within a 15-minute walk, sold in the last year",
-   "km": 1.1308166882303758,
-   "ppsf": 2.3121387283236996
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 0.12644180224171978,
+   "ppsf": 3.493013972055888
   }
  ]
 }

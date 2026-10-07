@@ -61,7 +61,7 @@
   "lng": -73.403695
  },
  "facts": {
-  "dom": 5,
+  "dom": 11,
   "listed": "2026-09-25",
   "sewer": "Public Sewer Connected",
   "water": "Public Water Connected",
@@ -148,6 +148,35 @@
   }
  },
  "comps": [
+  {
+   "mls": "24099304",
+   "slug": "26-cove-avenue-norwalk-connecticut-24099304",
+   "address": {
+    "line": "26 Cove Avenue",
+    "unit": "Apt 3B",
+    "lineWithUnit": "26 Cove Avenue Apt 3B",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06855"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1628.0,
+   "acres": null,
+   "price": 675000.0,
+   "date": "2026-10-01",
+   "listingType": "sale",
+   "rentPeriod": null,
+   "geo": {
+    "lat": 41.095985,
+    "lng": -73.403695
+   },
+   "klass": "condo",
+   "tier": 1,
+   "why": "Same building, sold in the last year",
+   "km": 0.0,
+   "ppsf": 414.6191646191646
+  },
   {
    "mls": "24127139",
    "slug": "26-cove-avenue-norwalk-connecticut-24127139",
@@ -263,35 +292,6 @@
    "why": "Within a 15-minute walk, sold in the last year",
    "km": 0.9141710689141382,
    "ppsf": 582.6271186440678
-  },
-  {
-   "mls": "24121290",
-   "slug": "199-gregory-boulevard-norwalk-connecticut-24121290",
-   "address": {
-    "line": "199 Gregory Boulevard",
-    "unit": "Apt D2",
-    "lineWithUnit": "199 Gregory Boulevard Apt D2",
-    "city": "Norwalk",
-    "state": "Connecticut",
-    "zip": "06855"
-   },
-   "beds": 3.0,
-   "baths": 3.0,
-   "sqft": 1652.0,
-   "acres": null,
-   "price": 950000.0,
-   "date": "2026-01-22",
-   "listingType": "sale",
-   "rentPeriod": null,
-   "geo": {
-    "lat": 41.088442,
-    "lng": -73.399356
-   },
-   "klass": "condo",
-   "tier": 3,
-   "why": "Within a 15-minute walk, sold in the last year",
-   "km": 0.9141710689141382,
-   "ppsf": 575.0605326876513
   }
  ]
 }

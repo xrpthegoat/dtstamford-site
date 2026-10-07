@@ -5,6 +5,9 @@
  "listingType": "rent",
  "propertyType": "Residential Rental",
  "price": 5500.0,
+ "leasePriceDesc": "Per Month",
+ "rentPeriod": "month",
+ "rentalDuration": "Yearly Unfurnished",
  "closePrice": null,
  "closeDate": null,
  "beds": 3.0,
@@ -90,9 +93,6 @@
   "waterfront": "Not Applicable",
   "directWaterfront": "0"
  },
- "leasePriceDesc": "Per Month",
- "rentPeriod": "month",
- "rentalDuration": "Yearly Unfurnished",
  "indexable": true,
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
@@ -143,6 +143,35 @@
   }
  },
  "comps": [
+  {
+   "mls": "24208820",
+   "slug": "77-havemeyer-lane-stamford-connecticut-24208820",
+   "address": {
+    "line": "77 Havemeyer Lane",
+    "unit": "Unit 218",
+    "lineWithUnit": "77 Havemeyer Lane Unit 218",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1400.0,
+   "acres": null,
+   "price": 5700.0,
+   "date": "2026-10-06",
+   "listingType": "rent",
+   "rentPeriod": "month",
+   "geo": {
+    "lat": 41.05578,
+    "lng": -73.56746
+   },
+   "klass": "rental",
+   "tier": 1,
+   "why": "Same building, sold in the last year",
+   "km": 0.2076005827885873,
+   "ppsf": 4.071428571428571
+  },
   {
    "mls": "24143000",
    "slug": "77-havemeyer-lane-stamford-connecticut-24143000",
@@ -258,35 +287,6 @@
    "why": "Within a 15-minute walk, sold in the last year",
    "km": 0.5247424332701605,
    "ppsf": 2.7807250221043325
-  },
-  {
-   "mls": "24130943",
-   "slug": "40-stoneridge-circle-stamford-connecticut-24130943",
-   "address": {
-    "line": "40 Stoneridge Circle",
-    "unit": "Unit 40",
-    "lineWithUnit": "40 Stoneridge Circle Unit 40",
-    "city": "Stamford",
-    "state": "Connecticut",
-    "zip": "06902"
-   },
-   "beds": 2.0,
-   "baths": 2.0,
-   "sqft": 1131.0,
-   "acres": null,
-   "price": 3025.0,
-   "date": "2025-10-20",
-   "listingType": "rent",
-   "rentPeriod": "month",
-   "geo": {
-    "lat": 41.05832,
-    "lng": -73.56046
-   },
-   "klass": "rental",
-   "tier": 3,
-   "why": "Within a 15-minute walk, sold in the last year",
-   "km": 0.5247424332701605,
-   "ppsf": 2.674624226348364
   }
  ]
 }

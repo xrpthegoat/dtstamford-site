@@ -5,6 +5,9 @@
  "listingType": "rent",
  "propertyType": "Residential Rental",
  "price": 5500.0,
+ "leasePriceDesc": "Per Month",
+ "rentPeriod": "month",
+ "rentalDuration": "Yearly Unfurnished",
  "closePrice": null,
  "closeDate": null,
  "beds": 3.0,
@@ -59,7 +62,7 @@
   "lng": -73.482358
  },
  "facts": {
-  "dom": 41,
+  "dom": 47,
   "listed": "2026-08-20",
   "sewer": "Septic",
   "water": "Public Water Connected",
@@ -92,9 +95,6 @@
   "waterfront": "River",
   "directWaterfront": "1"
  },
- "leasePriceDesc": "Per Month",
- "rentPeriod": "month",
- "rentalDuration": "Yearly Unfurnished",
  "indexable": true,
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
@@ -196,35 +196,6 @@
    "ppsf": 1.8909090909090909
   },
   {
-   "mls": "24110522",
-   "slug": "24-white-oak-shade-road-new-canaan-connecticut-24110522",
-   "address": {
-    "line": "24 White Oak Shade Road",
-    "unit": null,
-    "lineWithUnit": "24 White Oak Shade Road",
-    "city": "New Canaan",
-    "state": "Connecticut",
-    "zip": "06840"
-   },
-   "beds": 4.0,
-   "baths": 3.0,
-   "sqft": 2430.0,
-   "acres": 1.19,
-   "price": 8550.0,
-   "date": "2025-09-04",
-   "listingType": "rent",
-   "rentPeriod": "month",
-   "geo": {
-    "lat": 41.136086,
-    "lng": -73.478891
-   },
-   "klass": "rental",
-   "tier": 3,
-   "why": "Within a 15-minute walk, sold in the last year",
-   "km": 0.5113036256909402,
-   "ppsf": 3.5185185185185186
-  },
-  {
    "mls": "24176416",
    "slug": "51-hawthorne-road-new-canaan-connecticut-24176416",
    "address": {
@@ -281,6 +252,35 @@
    "why": "Within a 15-minute walk, sold in the last year",
    "km": 0.5952381078341212,
    "ppsf": 3.1666666666666665
+  },
+  {
+   "mls": "24153334",
+   "slug": "40-church-street-new-canaan-connecticut-24153334",
+   "address": {
+    "line": "40 Church Street",
+    "unit": null,
+    "lineWithUnit": "40 Church Street",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 3.0,
+   "baths": 4.0,
+   "sqft": 2804.0,
+   "acres": 0.22,
+   "price": 9500.0,
+   "date": "2026-04-15",
+   "listingType": "rent",
+   "rentPeriod": "month",
+   "geo": {
+    "lat": 41.143158,
+    "lng": -73.49032
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7603433755916725,
+   "ppsf": 3.3880171184022823
   }
  ]
 }

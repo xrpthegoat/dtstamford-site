@@ -4,7 +4,10 @@
  "status": "Active",
  "listingType": "rent",
  "propertyType": "Residential Rental",
- "price": 6100.0,
+ "price": 6000.0,
+ "leasePriceDesc": "Per Month",
+ "rentPeriod": "month",
+ "rentalDuration": "Winter Furnished,Short Term Furnished",
  "closePrice": null,
  "closeDate": null,
  "beds": 3.0,
@@ -55,13 +58,13 @@
   "https://smartmls-assets.cdn-connectmls.com/pics/5B37CA56AFCFF606E0631A01100A2D69/HD_1789149152900_26.JPEG"
  ],
  "primaryPhotoOnly": false,
- "updated": "2026-09-29T17:10:32",
+ "updated": "2026-10-02T21:04:12",
  "geo": {
   "lat": 41.079746,
   "lng": -73.418335
  },
  "facts": {
-  "dom": 19,
+  "dom": 25,
   "listed": "2026-09-11",
   "floodZone": "0",
   "sewer": "Septic",
@@ -96,9 +99,6 @@
   "directWaterfront": "0",
   "energy": "Thermopane Windows"
  },
- "leasePriceDesc": "Per Month",
- "rentPeriod": "month",
- "rentalDuration": "Winter Furnished,Short Term Furnished",
  "indexable": true,
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
@@ -142,35 +142,6 @@
  },
  "comps": [
   {
-   "mls": "24100364",
-   "slug": "34-dock-road-norwalk-connecticut-24100364",
-   "address": {
-    "line": "34 Dock Road",
-    "unit": null,
-    "lineWithUnit": "34 Dock Road",
-    "city": "Norwalk",
-    "state": "Connecticut",
-    "zip": "06854"
-   },
-   "beds": 3.0,
-   "baths": 3.0,
-   "sqft": 1981.0,
-   "acres": 0.31,
-   "price": 6100.0,
-   "date": "2025-09-15",
-   "listingType": "rent",
-   "rentPeriod": "month",
-   "geo": {
-    "lat": 41.078514,
-    "lng": -73.419655
-   },
-   "klass": "rental",
-   "tier": 3,
-   "why": "Within a 15-minute walk, sold in the last year",
-   "km": 0.17609176898499942,
-   "ppsf": 3.0792529025744573
-  },
-  {
    "mls": "24155362",
    "slug": "25-channel-avenue-norwalk-connecticut-24155362",
    "address": {
@@ -200,8 +171,8 @@
    "ppsf": 6.680026720106881
   },
   {
-   "mls": "24042545",
-   "slug": "34-dock-road-norwalk-connecticut-24042545",
+   "mls": "24100364",
+   "slug": "34-dock-road-norwalk-connecticut-24100364",
    "address": {
     "line": "34 Dock Road",
     "unit": null,
@@ -214,8 +185,8 @@
    "baths": 3.0,
    "sqft": 1981.0,
    "acres": 0.31,
-   "price": 6250.0,
-   "date": "2024-10-01",
+   "price": 6100.0,
+   "date": "2025-09-15",
    "listingType": "rent",
    "rentPeriod": "month",
    "geo": {
@@ -226,7 +197,7 @@
    "tier": 4,
    "why": "Within about a mile and a half, sold in the last 2 years",
    "km": 0.17609176898499942,
-   "ppsf": 3.154972236244321
+   "ppsf": 3.0792529025744573
   },
   {
    "mls": "24102257",
@@ -285,6 +256,35 @@
    "why": "Within about a mile and a half, sold in the last 2 years",
    "km": 0.8282033876736724,
    "ppsf": 1.0050251256281406
+  },
+  {
+   "mls": "24087620",
+   "slug": "8-park-lane-norwalk-connecticut-24087620",
+   "address": {
+    "line": "8 Park Lane",
+    "unit": null,
+    "lineWithUnit": "8 Park Lane",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2730.0,
+   "acres": 0.18,
+   "price": 15972.0,
+   "date": "2025-05-21",
+   "listingType": "rent",
+   "rentPeriod": "month",
+   "geo": {
+    "lat": 41.083098,
+    "lng": -73.409389
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 0.8373486775616594,
+   "ppsf": 5.85054945054945
   }
  ]
 }

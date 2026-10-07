@@ -5,6 +5,9 @@
  "listingType": "rent",
  "propertyType": "Residential Rental",
  "price": 3950.0,
+ "leasePriceDesc": "Per Month",
+ "rentPeriod": "month",
+ "rentalDuration": "Yearly Unfurnished",
  "closePrice": null,
  "closeDate": null,
  "beds": 3.0,
@@ -53,7 +56,7 @@
   "lng": -73.43444
  },
  "facts": {
-  "dom": 14,
+  "dom": 20,
   "listed": "2026-09-16",
   "sewer": "Public Sewer Connected",
   "water": "Public Water Connected",
@@ -83,9 +86,6 @@
   "waterfront": "Not Applicable",
   "directWaterfront": "0"
  },
- "leasePriceDesc": "Per Month",
- "rentPeriod": "month",
- "rentalDuration": "Yearly Unfurnished",
  "indexable": true,
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
@@ -135,6 +135,35 @@
   }
  },
  "comps": [
+  {
+   "mls": "24203393",
+   "slug": "71-silvermine-avenue-norwalk-connecticut-24203393",
+   "address": {
+    "line": "71 Silvermine Avenue",
+    "unit": null,
+    "lineWithUnit": "71 Silvermine Avenue",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1548.0,
+   "acres": 0.19,
+   "price": 3700.0,
+   "date": "2026-10-01",
+   "listingType": "rent",
+   "rentPeriod": "month",
+   "geo": {
+    "lat": 41.132313,
+    "lng": -73.434326
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.1733935691119964,
+   "ppsf": 2.3901808785529717
+  },
   {
    "mls": "24178946",
    "slug": "7-bartlett-manor-norwalk-connecticut-24178946",
@@ -250,35 +279,6 @@
    "why": "Within a 15-minute walk, sold in the last year",
    "km": 0.8755205369118852,
    "ppsf": 2.5308241401687215
-  },
-  {
-   "mls": "24166900",
-   "slug": "2-maplewood-terrace-norwalk-connecticut-24166900",
-   "address": {
-    "line": "2 Maplewood Terrace",
-    "unit": "Unit 1",
-    "lineWithUnit": "2 Maplewood Terrace Unit 1",
-    "city": "Norwalk",
-    "state": "Connecticut",
-    "zip": "06851"
-   },
-   "beds": 3.0,
-   "baths": 1.0,
-   "sqft": 1203.0,
-   "acres": 0.12,
-   "price": 2600.0,
-   "date": "2026-05-01",
-   "listingType": "rent",
-   "rentPeriod": "month",
-   "geo": {
-    "lat": 41.131723,
-    "lng": -73.422885
-   },
-   "klass": "rental",
-   "tier": 3,
-   "why": "Within a 15-minute walk, sold in the last year",
-   "km": 0.9737159404653107,
-   "ppsf": 2.1612635078969245
   }
  ]
 }

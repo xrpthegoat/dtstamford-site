@@ -5,6 +5,9 @@
  "listingType": "rent",
  "propertyType": "Residential Rental",
  "price": 19000.0,
+ "leasePriceDesc": "Per Month",
+ "rentPeriod": "month",
+ "rentalDuration": "Winter Unfurnished,Winter Furnished,Short Term Furnished",
  "closePrice": null,
  "closeDate": null,
  "beds": 5.0,
@@ -61,7 +64,7 @@
   "lng": -73.401796
  },
  "facts": {
-  "dom": 75,
+  "dom": 81,
   "listed": "2026-07-17",
   "sewer": "Public Sewer Connected",
   "water": "Public Water Connected",
@@ -94,9 +97,6 @@
   "waterfront": "Harbor,Access",
   "directWaterfront": "1"
  },
- "leasePriceDesc": "Per Month",
- "rentPeriod": "month",
- "rentalDuration": "Winter Unfurnished,Winter Furnished,Short Term Furnished",
  "indexable": true,
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
@@ -204,6 +204,35 @@
    "ppsf": 0.5038529934795495
   },
   {
+   "mls": "24203849",
+   "slug": "266-east-avenue-norwalk-connecticut-24203849",
+   "address": {
+    "line": "266 East Avenue",
+    "unit": "Unit 3",
+    "lineWithUnit": "266 East Avenue Unit 3",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06855"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 3031.0,
+   "acres": 0.16,
+   "price": 1500.0,
+   "date": "2026-10-01",
+   "listingType": "rent",
+   "rentPeriod": "month",
+   "geo": {
+    "lat": 41.100753,
+    "lng": -73.404294
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8792570900377639,
+   "ppsf": 0.4948861761794787
+  },
+  {
    "mls": "24096258",
    "slug": "29-fifth-street-norwalk-connecticut-24096258",
    "address": {
@@ -260,35 +289,6 @@
    "why": "Within about a mile and a half, sold in the last 2 years",
    "km": 0.2148501967990407,
    "ppsf": 1.9568690095846646
-  },
-  {
-   "mls": "24068984",
-   "slug": "26-3rd-street-norwalk-connecticut-24068984",
-   "address": {
-    "line": "26 3rd Street",
-    "unit": null,
-    "lineWithUnit": "26 3rd Street",
-    "city": "Norwalk",
-    "state": "Connecticut",
-    "zip": "06855"
-   },
-   "beds": 3.0,
-   "baths": 4.0,
-   "sqft": 2860.0,
-   "acres": 0.17,
-   "price": 5600.0,
-   "date": "2025-01-23",
-   "listingType": "rent",
-   "rentPeriod": "month",
-   "geo": {
-    "lat": 41.09675,
-    "lng": -73.40053
-   },
-   "klass": "rental",
-   "tier": 4,
-   "why": "Within about a mile and a half, sold in the last 2 years",
-   "km": 0.4224032780133667,
-   "ppsf": 1.9580419580419581
   }
  ]
 }

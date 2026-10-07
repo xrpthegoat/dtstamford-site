@@ -5,6 +5,9 @@
  "listingType": "rent",
  "propertyType": "Residential Rental",
  "price": 6800.0,
+ "leasePriceDesc": "Per Month",
+ "rentPeriod": "month",
+ "rentalDuration": "Yearly Unfurnished",
  "closePrice": null,
  "closeDate": null,
  "beds": 3.0,
@@ -59,7 +62,7 @@
   "lng": -73.667536
  },
  "facts": {
-  "dom": 121,
+  "dom": 127,
   "listed": "2026-06-01",
   "sewer": "Public Sewer Connected",
   "water": "Public Water Connected",
@@ -91,9 +94,6 @@
   "waterfront": "Not Applicable",
   "directWaterfront": "0"
  },
- "leasePriceDesc": "Per Month",
- "rentPeriod": "month",
- "rentalDuration": "Yearly Unfurnished",
  "indexable": true,
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
@@ -202,35 +202,6 @@
    "ppsf": 2.8947368421052633
   },
   {
-   "mls": "24112147",
-   "slug": "60-greenwich-hills-drive-greenwich-connecticut-24112147",
-   "address": {
-    "line": "60 Greenwich Hills Drive",
-    "unit": "Unit 60",
-    "lineWithUnit": "60 Greenwich Hills Drive Unit 60",
-    "city": "Greenwich",
-    "state": "Connecticut",
-    "zip": "06831"
-   },
-   "beds": 3.0,
-   "baths": 3.0,
-   "sqft": 1900.0,
-   "acres": null,
-   "price": 5500.0,
-   "date": "2025-09-01",
-   "listingType": "rent",
-   "rentPeriod": "month",
-   "geo": {
-    "lat": 41.02632,
-    "lng": -73.66494
-   },
-   "klass": "rental",
-   "tier": 3,
-   "why": "Within a 15-minute walk, sold in the last year",
-   "km": 0.9951808103918305,
-   "ppsf": 2.8947368421052633
-  },
-  {
    "mls": "24060591",
    "slug": "43-glenville-street-greenwich-connecticut-24060591",
    "address": {
@@ -287,6 +258,35 @@
    "why": "Within about a mile and a half, sold in the last 2 years",
    "km": 0.34969990088001085,
    "ppsf": 3.66120218579235
+  },
+  {
+   "mls": "24110144",
+   "slug": "35-homestead-road-greenwich-connecticut-24110144",
+   "address": {
+    "line": "35 Homestead Road",
+    "unit": null,
+    "lineWithUnit": "35 Homestead Road",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06831"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2525.0,
+   "acres": 0.37,
+   "price": 6800.0,
+   "date": "2025-08-28",
+   "listingType": "rent",
+   "rentPeriod": "month",
+   "geo": {
+    "lat": 41.03344,
+    "lng": -73.662025
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 0.49581932434075854,
+   "ppsf": 2.6930693069306932
   }
  ]
 }

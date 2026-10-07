@@ -5,6 +5,9 @@
  "listingType": "rent",
  "propertyType": "Residential Rental",
  "price": 13000.0,
+ "leasePriceDesc": "Per Month",
+ "rentPeriod": "month",
+ "rentalDuration": "Yearly Furnished,Summer Furnished,Flexible Terms Furnished,Academic Year Furnished",
  "closePrice": null,
  "closeDate": null,
  "beds": 5.0,
@@ -61,7 +64,7 @@
   "lng": -73.371508
  },
  "facts": {
-  "dom": 29,
+  "dom": 35,
   "listed": "2026-09-01",
   "sewer": "Public Sewer Connected",
   "water": "Public Water Connected",
@@ -93,9 +96,6 @@
   "waterfront": "L. I. Sound Frontage,Beach,Beach Rights,View",
   "directWaterfront": "1"
  },
- "leasePriceDesc": "Per Month",
- "rentPeriod": "month",
- "rentalDuration": "Yearly Furnished,Summer Furnished,Flexible Terms Furnished,Academic Year Furnished",
  "indexable": true,
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
@@ -203,35 +203,6 @@
    "ppsf": 5.016722408026756
   },
   {
-   "mls": "24116752",
-   "slug": "16-island-way-westport-connecticut-24116752",
-   "address": {
-    "line": "16 Island Way",
-    "unit": null,
-    "lineWithUnit": "16 Island Way",
-    "city": "Westport",
-    "state": "Connecticut",
-    "zip": "06880"
-   },
-   "beds": 4.0,
-   "baths": 4.0,
-   "sqft": 2990.0,
-   "acres": 0.26,
-   "price": 16000.0,
-   "date": "2025-09-02",
-   "listingType": "rent",
-   "rentPeriod": "month",
-   "geo": {
-    "lat": 41.098152,
-    "lng": -73.37205
-   },
-   "klass": "rental",
-   "tier": 3,
-   "why": "Within a 15-minute walk, sold in the last year",
-   "km": 0.23679378975887003,
-   "ppsf": 5.351170568561873
-  },
-  {
    "mls": "24189168",
    "slug": "108-harbor-road-westport-connecticut-24189168",
    "address": {
@@ -261,33 +232,62 @@
    "ppsf": 3.952569169960474
   },
   {
-   "mls": "24105944",
-   "slug": "108-harbor-road-westport-connecticut-24105944",
+   "mls": "24139939",
+   "slug": "52-shorehaven-road-westport-connecticut-24139939",
    "address": {
-    "line": "108 Harbor Road",
+    "line": "52 Shorehaven Road",
     "unit": null,
-    "lineWithUnit": "108 Harbor Road",
+    "lineWithUnit": "52 Shorehaven Road",
     "city": "Westport",
     "state": "Connecticut",
-    "zip": "06880"
+    "zip": "06855"
    },
-   "beds": 5.0,
+   "beds": 3.0,
    "baths": 3.0,
-   "sqft": 2783.0,
-   "acres": 0.26,
-   "price": 13000.0,
-   "date": "2025-09-02",
+   "sqft": 3131.0,
+   "acres": 0.89,
+   "price": 22000.0,
+   "date": "2026-03-03",
    "listingType": "rent",
    "rentPeriod": "month",
    "geo": {
-    "lat": 41.099064,
-    "lng": -73.37207
+    "lat": 41.097112,
+    "lng": -73.383199
    },
    "klass": "rental",
    "tier": 3,
    "why": "Within a 15-minute walk, sold in the last year",
-   "km": 0.33711271971655876,
-   "ppsf": 4.671218109953288
+   "km": 0.9866009076494573,
+   "ppsf": 7.026509102523155
+  },
+  {
+   "mls": "24178049",
+   "slug": "6-plover-lane-westport-connecticut-24178049",
+   "address": {
+    "line": "6 Plover Lane",
+    "unit": null,
+    "lineWithUnit": "6 Plover Lane",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 4.0,
+   "baths": 6.0,
+   "sqft": 3540.0,
+   "acres": 0.29,
+   "price": 15500.0,
+   "date": "2026-06-01",
+   "listingType": "rent",
+   "rentPeriod": "month",
+   "geo": {
+    "lat": 41.102738,
+    "lng": -73.379301
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9886729271155811,
+   "ppsf": 4.378531073446328
   }
  ]
 }

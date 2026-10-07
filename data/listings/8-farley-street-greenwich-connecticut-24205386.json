@@ -5,6 +5,9 @@
  "listingType": "rent",
  "propertyType": "Residential Rental",
  "price": 8000.0,
+ "leasePriceDesc": "Per Month",
+ "rentPeriod": "month",
+ "rentalDuration": "Yearly Unfurnished",
  "closePrice": null,
  "closeDate": null,
  "beds": 3.0,
@@ -61,7 +64,7 @@
   "lng": -73.632489
  },
  "facts": {
-  "dom": 6,
+  "dom": 12,
   "listed": "2026-09-09",
   "floodZone": "0",
   "sewer": "Public Sewer Connected",
@@ -90,9 +93,6 @@
   "waterfront": "Beach Rights",
   "directWaterfront": "0"
  },
- "leasePriceDesc": "Per Month",
- "rentPeriod": "month",
- "rentalDuration": "Yearly Unfurnished",
  "indexable": true,
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
@@ -165,35 +165,6 @@
    "why": "Within a 15-minute walk, sold in the last year",
    "km": 0.9486342007137958,
    "ppsf": 4.411764705882353
-  },
-  {
-   "mls": "24045111",
-   "slug": "11-lafayette-court-greenwich-connecticut-24045111",
-   "address": {
-    "line": "11 Lafayette Court",
-    "unit": "Apt 1D",
-    "lineWithUnit": "11 Lafayette Court Apt 1D",
-    "city": "Greenwich",
-    "state": "Connecticut",
-    "zip": "06830"
-   },
-   "beds": 2.0,
-   "baths": 3.0,
-   "sqft": 1580.0,
-   "acres": null,
-   "price": 6500.0,
-   "date": "2024-10-03",
-   "listingType": "rent",
-   "rentPeriod": "month",
-   "geo": {
-    "lat": 41.031656,
-    "lng": -73.628463
-   },
-   "klass": "rental",
-   "tier": 4,
-   "why": "Within about a mile and a half, sold in the last 2 years",
-   "km": 0.44288456272400056,
-   "ppsf": 4.113924050632911
   },
   {
    "mls": "24105140",
@@ -281,6 +252,35 @@
    "why": "Within about a mile and a half, sold in the last 2 years",
    "km": 1.165409155522406,
    "ppsf": 4.166666666666667
+  },
+  {
+   "mls": "24098656",
+   "slug": "160-east-elm-streets-greenwich-connecticut-24098656",
+   "address": {
+    "line": "160 East Elm Streets",
+    "unit": "Unit C2",
+    "lineWithUnit": "160 East Elm Streets Unit C2",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06830"
+   },
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 1400.0,
+   "acres": null,
+   "price": 4950.0,
+   "date": "2025-06-16",
+   "listingType": "rent",
+   "rentPeriod": "month",
+   "geo": {
+    "lat": 41.029575,
+    "lng": -73.61924
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.226087866967073,
+   "ppsf": 3.5357142857142856
   }
  ]
 }

@@ -4,7 +4,10 @@
  "status": "Active",
  "listingType": "rent",
  "propertyType": "Residential Rental",
- "price": 2095.0,
+ "price": 1999.0,
+ "leasePriceDesc": "Per Month",
+ "rentPeriod": "month",
+ "rentalDuration": "Yearly Unfurnished",
  "closePrice": null,
  "closeDate": null,
  "beds": 1.0,
@@ -43,13 +46,13 @@
   "https://smartmls-assets.cdn-connectmls.com/pics/5B8A4E04B4DCEF94E063E201100A2907/HD_1789496498435_77_Ely_Photo_Set4_12.JPEG"
  ],
  "primaryPhotoOnly": false,
- "updated": "2026-08-31T13:19:58",
+ "updated": "2026-09-30T19:20:17",
  "geo": {
   "lat": 41.09383,
   "lng": -73.41955
  },
  "facts": {
-  "dom": 49,
+  "dom": 55,
   "listed": "2026-08-12",
   "sewer": "Public Sewer Connected",
   "water": "Public Water Connected",
@@ -77,9 +80,6 @@
   "waterfront": "Not Applicable",
   "directWaterfront": "0"
  },
- "leasePriceDesc": "Per Month",
- "rentPeriod": "month",
- "rentalDuration": "Yearly Unfurnished",
  "indexable": true,
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
@@ -246,22 +246,22 @@
    "ppsf": 4.0
   },
   {
-   "mls": "24148632",
-   "slug": "49-day-street-norwalk-connecticut-24148632",
+   "mls": "24208632",
+   "slug": "49-day-street-norwalk-connecticut-24208632",
    "address": {
     "line": "49 Day Street",
-    "unit": "Apt 404",
-    "lineWithUnit": "49 Day Street Apt 404",
+    "unit": "Unit 307",
+    "lineWithUnit": "49 Day Street Unit 307",
     "city": "Norwalk",
     "state": "Connecticut",
     "zip": "06854"
    },
-   "beds": 1.0,
+   "beds": 0.0,
    "baths": 1.0,
-   "sqft": 528.0,
+   "sqft": 400.0,
    "acres": null,
-   "price": 2100.0,
-   "date": "2026-03-01",
+   "price": 1800.0,
+   "date": "2026-10-02",
    "listingType": "rent",
    "rentPeriod": "month",
    "geo": {
@@ -272,7 +272,7 @@
    "tier": 3,
    "why": "Within a 15-minute walk, sold in the last year",
    "km": 0.17517639309248775,
-   "ppsf": 3.977272727272727
+   "ppsf": 4.5
   }
  ]
 }

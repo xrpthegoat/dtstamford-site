@@ -5,6 +5,9 @@
  "listingType": "rent",
  "propertyType": "Residential Rental",
  "price": 10500.0,
+ "leasePriceDesc": "Per Month",
+ "rentPeriod": "month",
+ "rentalDuration": "Academic Year Furnished",
  "closePrice": null,
  "closeDate": null,
  "beds": 2.0,
@@ -61,7 +64,7 @@
   "lng": -73.345468
  },
  "facts": {
-  "dom": 139,
+  "dom": 145,
   "listed": "2026-05-14",
   "floodZone": "1",
   "sewer": "Public Sewer Connected",
@@ -92,9 +95,6 @@
   "directWaterfront": "1",
   "energy": "Programmable Thermostat"
  },
- "leasePriceDesc": "Per Month",
- "rentPeriod": "month",
- "rentalDuration": "Academic Year Furnished",
  "indexable": true,
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
@@ -196,35 +196,6 @@
    "ppsf": 13.42882721575649
   },
   {
-   "mls": "24139713",
-   "slug": "29-soundview-drive-westport-connecticut-24139713",
-   "address": {
-    "line": "29 Soundview Drive",
-    "unit": null,
-    "lineWithUnit": "29 Soundview Drive",
-    "city": "Westport",
-    "state": "Connecticut",
-    "zip": "06880"
-   },
-   "beds": 4.0,
-   "baths": 4.0,
-   "sqft": 1900.0,
-   "acres": 0.1,
-   "price": 17500.0,
-   "date": "2025-09-01",
-   "listingType": "rent",
-   "rentPeriod": "month",
-   "geo": {
-    "lat": 41.10778,
-    "lng": -73.34893
-   },
-   "klass": "rental",
-   "tier": 3,
-   "why": "Within a 15-minute walk, sold in the last year",
-   "km": 0.7891215828356513,
-   "ppsf": 9.210526315789474
-  },
-  {
    "mls": "24176825",
    "slug": "10-danbury-avenue-westport-connecticut-24176825",
    "address": {
@@ -281,6 +252,35 @@
    "why": "Within a 15-minute walk, sold in the last year",
    "km": 0.8069700131577136,
    "ppsf": 5.716798592788039
+  },
+  {
+   "mls": "24198792",
+   "slug": "12-danbury-avenue-westport-connecticut-24198792",
+   "address": {
+    "line": "12 Danbury Avenue",
+    "unit": null,
+    "lineWithUnit": "12 Danbury Avenue",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 4.0,
+   "baths": 5.0,
+   "sqft": 2274.0,
+   "acres": 0.11,
+   "price": 28667.0,
+   "date": "2026-08-12",
+   "listingType": "rent",
+   "rentPeriod": "month",
+   "geo": {
+    "lat": 41.107994,
+    "lng": -73.350044
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8069700131577136,
+   "ppsf": 12.60642040457344
   }
  ]
 }

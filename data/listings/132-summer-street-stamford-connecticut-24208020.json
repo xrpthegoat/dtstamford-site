@@ -5,6 +5,9 @@
  "listingType": "rent",
  "propertyType": "Residential Rental",
  "price": 1999.0,
+ "leasePriceDesc": "Per Month",
+ "rentPeriod": "month",
+ "rentalDuration": "Yearly Unfurnished",
  "closePrice": null,
  "closeDate": null,
  "beds": 1.0,
@@ -57,7 +60,7 @@
   "lng": -73.540978
  },
  "facts": {
-  "dom": 12,
+  "dom": 18,
   "listed": "2026-09-18",
   "sewer": "Public Sewer Connected",
   "water": "Public Water Connected",
@@ -87,9 +90,6 @@
   "waterfront": "Walk to Water",
   "directWaterfront": "0"
  },
- "leasePriceDesc": "Per Month",
- "rentPeriod": "month",
- "rentalDuration": "Yearly Unfurnished",
  "indexable": true,
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
@@ -171,33 +171,33 @@
    "ppsf": 2.628120893561104
   },
   {
-   "mls": "24113120",
-   "slug": "191-summer-street-stamford-connecticut-24113120",
+   "mls": "24209148",
+   "slug": "211-main-street-stamford-connecticut-24209148",
    "address": {
-    "line": "191 Summer Street",
-    "unit": "Unit 4",
-    "lineWithUnit": "191 Summer Street Unit 4",
+    "line": "211 Main Street",
+    "unit": "Unit 3A",
+    "lineWithUnit": "211 Main Street Unit 3A",
     "city": "Stamford",
     "state": "Connecticut",
     "zip": "06901"
    },
    "beds": 1.0,
    "baths": 1.0,
-   "sqft": 700.0,
-   "acres": null,
-   "price": 2450.0,
-   "date": "2025-09-08",
+   "sqft": 500.0,
+   "acres": 0.05,
+   "price": 2000.0,
+   "date": "2026-10-02",
    "listingType": "rent",
    "rentPeriod": "month",
    "geo": {
-    "lat": 41.054618,
-    "lng": -73.540355
+    "lat": 41.052834,
+    "lng": -73.54168
    },
    "klass": "rental",
    "tier": 3,
    "why": "Within a 15-minute walk, sold in the last year",
-   "km": 0.12638784831651798,
-   "ppsf": 3.5
+   "km": 0.1019871645276941,
+   "ppsf": 4.0
   },
   {
    "mls": "24167252",

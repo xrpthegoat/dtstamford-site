@@ -5,6 +5,9 @@
  "listingType": "rent",
  "propertyType": "Residential Rental",
  "price": 1900.0,
+ "leasePriceDesc": "Per Month",
+ "rentPeriod": "month",
+ "rentalDuration": "Yearly Unfurnished",
  "closePrice": null,
  "closeDate": null,
  "beds": 0.0,
@@ -45,7 +48,7 @@
   "lng": -73.519368
  },
  "facts": {
-  "dom": 15,
+  "dom": 21,
   "listed": "2026-09-15",
   "sewer": "Public Sewer Connected",
   "water": "Public Water Connected",
@@ -74,9 +77,6 @@
   "waterfront": "Not Applicable",
   "directWaterfront": "0"
  },
- "leasePriceDesc": "Per Month",
- "rentPeriod": "month",
- "rentalDuration": "Yearly Unfurnished",
  "indexable": true,
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
@@ -121,6 +121,35 @@
   }
  },
  "comps": [
+  {
+   "mls": "24195993",
+   "slug": "27-northill-street-stamford-connecticut-24195993",
+   "address": {
+    "line": "27 Northill Street",
+    "unit": "Unit 3A",
+    "lineWithUnit": "27 Northill Street Unit 3A",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06907"
+   },
+   "beds": null,
+   "baths": 1.0,
+   "sqft": 508.0,
+   "acres": null,
+   "price": 1800.0,
+   "date": "2026-10-01",
+   "listingType": "rent",
+   "rentPeriod": "month",
+   "geo": {
+    "lat": 41.09355,
+    "lng": -73.519368
+   },
+   "klass": "rental",
+   "tier": 1,
+   "why": "Same building, sold in the last year",
+   "km": 0.0,
+   "ppsf": 3.543307086614173
+  },
   {
    "mls": "24126211",
    "slug": "27-northill-street-stamford-connecticut-24126211",
@@ -236,35 +265,6 @@
    "why": "Same building, sold in the last 2 years",
    "km": 0.011405636929345044,
    "ppsf": 3.225806451612903
-  },
-  {
-   "mls": "24185635",
-   "slug": "27-northill-street-stamford-connecticut-24185635",
-   "address": {
-    "line": "27 Northill Street",
-    "unit": "Unit 3M",
-    "lineWithUnit": "27 Northill Street Unit 3M",
-    "city": "Stamford",
-    "state": "Connecticut",
-    "zip": "06907"
-   },
-   "beds": 1.0,
-   "baths": 1.0,
-   "sqft": 574.0,
-   "acres": null,
-   "price": 1950.0,
-   "date": "2026-07-28",
-   "listingType": "rent",
-   "rentPeriod": "month",
-   "geo": {
-    "lat": 41.09355,
-    "lng": -73.519368
-   },
-   "klass": "rental",
-   "tier": 3,
-   "why": "Within a 15-minute walk, sold in the last year",
-   "km": 0.0,
-   "ppsf": 3.397212543554007
   }
  ]
 }

@@ -5,6 +5,9 @@
  "listingType": "rent",
  "propertyType": "Residential Rental",
  "price": 22000.0,
+ "leasePriceDesc": "Per Month",
+ "rentPeriod": "month",
+ "rentalDuration": "Yearly Unfurnished,Two Years,Three Years,Four Years",
  "closePrice": null,
  "closeDate": null,
  "beds": 5.0,
@@ -61,7 +64,7 @@
   "lng": -73.492546
  },
  "facts": {
-  "dom": 57,
+  "dom": 63,
   "listed": "2026-08-04",
   "floodZone": "0",
   "sewer": "Public Sewer Connected",
@@ -94,9 +97,6 @@
   "waterfront": "Not Applicable",
   "directWaterfront": "0"
  },
- "leasePriceDesc": "Per Month",
- "rentPeriod": "month",
- "rentalDuration": "Yearly Unfurnished,Two Years,Three Years,Four Years",
  "indexable": true,
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
@@ -139,35 +139,6 @@
   }
  },
  "comps": [
-  {
-   "mls": "24115546",
-   "slug": "88-summer-street-new-canaan-connecticut-24115546",
-   "address": {
-    "line": "88 Summer Street",
-    "unit": null,
-    "lineWithUnit": "88 Summer Street",
-    "city": "New Canaan",
-    "state": "Connecticut",
-    "zip": "06840"
-   },
-   "beds": 5.0,
-   "baths": 5.0,
-   "sqft": 4014.0,
-   "acres": 0.46,
-   "price": 11500.0,
-   "date": "2025-09-26",
-   "listingType": "rent",
-   "rentPeriod": "month",
-   "geo": {
-    "lat": 41.149094,
-    "lng": -73.487045
-   },
-   "klass": "rental",
-   "tier": 3,
-   "why": "Within a 15-minute walk, sold in the last year",
-   "km": 0.8547927564378346,
-   "ppsf": 2.8649725959143
-  },
   {
    "mls": "24149085",
    "slug": "61-bittersweet-lane-new-canaan-connecticut-24149085",
@@ -283,6 +254,35 @@
    "why": "Within about a mile and a half, sold in the last 2 years",
    "km": 0.4823832304844191,
    "ppsf": 2.5387493319080705
+  },
+  {
+   "mls": "24115546",
+   "slug": "88-summer-street-new-canaan-connecticut-24115546",
+   "address": {
+    "line": "88 Summer Street",
+    "unit": null,
+    "lineWithUnit": "88 Summer Street",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 5.0,
+   "baths": 5.0,
+   "sqft": 4014.0,
+   "acres": 0.46,
+   "price": 11500.0,
+   "date": "2025-09-26",
+   "listingType": "rent",
+   "rentPeriod": "month",
+   "geo": {
+    "lat": 41.149094,
+    "lng": -73.487045
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 0.8547927564378346,
+   "ppsf": 2.8649725959143
   }
  ]
 }

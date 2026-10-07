@@ -5,6 +5,9 @@
  "listingType": "rent",
  "propertyType": "Residential Rental",
  "price": 8500.0,
+ "leasePriceDesc": "Per Month",
+ "rentPeriod": "month",
+ "rentalDuration": "Yearly Unfurnished",
  "closePrice": null,
  "closeDate": null,
  "beds": 3.0,
@@ -61,7 +64,7 @@
   "lng": -73.546342
  },
  "facts": {
-  "dom": 49,
+  "dom": 55,
   "listed": "2026-08-12",
   "sewer": "Public Sewer Connected",
   "water": "Public Water Connected",
@@ -90,9 +93,6 @@
   "waterfront": "Walk to Water",
   "directWaterfront": "0"
  },
- "leasePriceDesc": "Per Month",
- "rentPeriod": "month",
- "rentalDuration": "Yearly Unfurnished",
  "indexable": true,
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
@@ -229,35 +229,6 @@
    "ppsf": 4.964539007092198
   },
   {
-   "mls": "24114598",
-   "slug": "570-fairfield-avenue-stamford-connecticut-24114598",
-   "address": {
-    "line": "570 Fairfield Avenue",
-    "unit": null,
-    "lineWithUnit": "570 Fairfield Avenue",
-    "city": "Stamford",
-    "state": "Connecticut",
-    "zip": "06902"
-   },
-   "beds": 3.0,
-   "baths": 3.0,
-   "sqft": 1792.0,
-   "acres": 0.13,
-   "price": 4300.0,
-   "date": "2025-09-16",
-   "listingType": "rent",
-   "rentPeriod": "month",
-   "geo": {
-    "lat": 41.033166,
-    "lng": -73.553353
-   },
-   "klass": "rental",
-   "tier": 3,
-   "why": "Within a 15-minute walk, sold in the last year",
-   "km": 0.6009526649379847,
-   "ppsf": 2.3995535714285716
-  },
-  {
    "mls": "24124710",
    "slug": "900-pacific-street-stamford-connecticut-24124710",
    "address": {
@@ -285,6 +256,35 @@
    "why": "Within a 15-minute walk, sold in the last year",
    "km": 0.7197956966954852,
    "ppsf": 3.9484356894553883
+  },
+  {
+   "mls": "24119444",
+   "slug": "1-harbor-point-road-stamford-connecticut-24119444",
+   "address": {
+    "line": "1 Harbor Point Road",
+    "unit": "Unit 1",
+    "lineWithUnit": "1 Harbor Point Road Unit 1",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 2204.0,
+   "acres": null,
+   "price": 13000.0,
+   "date": "2026-02-06",
+   "listingType": "rent",
+   "rentPeriod": "month",
+   "geo": {
+    "lat": 41.039778,
+    "lng": -73.543401
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8936979369279906,
+   "ppsf": 5.898366606170599
   }
  ]
 }

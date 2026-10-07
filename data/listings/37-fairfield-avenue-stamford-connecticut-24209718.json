@@ -5,6 +5,9 @@
  "listingType": "rent",
  "propertyType": "Residential Rental",
  "price": 3250.0,
+ "leasePriceDesc": "Per Month",
+ "rentPeriod": "month",
+ "rentalDuration": "Yearly Unfurnished",
  "closePrice": null,
  "closeDate": null,
  "beds": 2.0,
@@ -57,7 +60,7 @@
   "lng": -73.55177
  },
  "facts": {
-  "dom": 5,
+  "dom": 11,
   "listed": "2026-09-25",
   "sewer": "Public Sewer Connected",
   "water": "Public Water Connected",
@@ -89,9 +92,6 @@
   "directWaterfront": "0",
   "energy": "Energy Star Rated,Thermopane Windows"
  },
- "leasePriceDesc": "Per Month",
- "rentPeriod": "month",
- "rentalDuration": "Yearly Unfurnished",
  "indexable": true,
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
@@ -142,6 +142,35 @@
   }
  },
  "comps": [
+  {
+   "mls": "24200208",
+   "slug": "49-fairgate-drive-stamford-connecticut-24200208",
+   "address": {
+    "line": "49 Fairgate Drive",
+    "unit": null,
+    "lineWithUnit": "49 Fairgate Drive",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1188.0,
+   "acres": null,
+   "price": 3100.0,
+   "date": "2026-09-30",
+   "listingType": "rent",
+   "rentPeriod": "month",
+   "geo": {
+    "lat": 41.049946,
+    "lng": -73.55177
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.0,
+   "ppsf": 2.6094276094276094
+  },
   {
    "mls": "24178424",
    "slug": "22-fairgate-drive-stamford-connecticut-24178424",
@@ -257,35 +286,6 @@
    "why": "Within a 15-minute walk, sold in the last year",
    "km": 0.14802408325637798,
    "ppsf": 2.0859671302149176
-  },
-  {
-   "mls": "24160882",
-   "slug": "94-liberty-street-stamford-connecticut-24160882",
-   "address": {
-    "line": "94 Liberty Street",
-    "unit": "Unit 12",
-    "lineWithUnit": "94 Liberty Street Unit 12",
-    "city": "Stamford",
-    "state": "Connecticut",
-    "zip": "06902"
-   },
-   "beds": 2.0,
-   "baths": 2.0,
-   "sqft": 1300.0,
-   "acres": null,
-   "price": 3150.0,
-   "date": "2026-08-01",
-   "listingType": "rent",
-   "rentPeriod": "month",
-   "geo": {
-    "lat": 41.051128,
-    "lng": -73.55429
-   },
-   "klass": "rental",
-   "tier": 3,
-   "why": "Within a 15-minute walk, sold in the last year",
-   "km": 0.24885511452224382,
-   "ppsf": 2.423076923076923
   }
  ]
 }

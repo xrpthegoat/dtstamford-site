@@ -5,6 +5,9 @@
  "listingType": "rent",
  "propertyType": "Residential Rental",
  "price": 2950.0,
+ "leasePriceDesc": "Per Month",
+ "rentPeriod": "month",
+ "rentalDuration": "Yearly Unfurnished",
  "closePrice": null,
  "closeDate": null,
  "beds": 2.0,
@@ -48,7 +51,7 @@
   "lng": -73.531654
  },
  "facts": {
-  "dom": 26,
+  "dom": 32,
   "listed": "2026-09-04",
   "floodZone": "0",
   "sewer": "Public Sewer Connected",
@@ -81,9 +84,6 @@
   "directWaterfront": "0",
   "energy": "Thermopane Windows"
  },
- "leasePriceDesc": "Per Month",
- "rentPeriod": "month",
- "rentalDuration": "Yearly Unfurnished",
  "indexable": true,
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
@@ -134,35 +134,6 @@
   }
  },
  "comps": [
-  {
-   "mls": "24115014",
-   "slug": "300-broad-street-stamford-connecticut-24115014",
-   "address": {
-    "line": "300 Broad Street",
-    "unit": "Unit 905",
-    "lineWithUnit": "300 Broad Street Unit 905",
-    "city": "Stamford",
-    "state": "Connecticut",
-    "zip": "06902"
-   },
-   "beds": 2.0,
-   "baths": 2.0,
-   "sqft": 867.0,
-   "acres": null,
-   "price": 2800.0,
-   "date": "2025-09-01",
-   "listingType": "rent",
-   "rentPeriod": "month",
-   "geo": {
-    "lat": 41.055737,
-    "lng": -73.531395
-   },
-   "klass": "rental",
-   "tier": 3,
-   "why": "Within a 15-minute walk, sold in the last year",
-   "km": 0.06093314665732303,
-   "ppsf": 3.229527104959631
-  },
   {
    "mls": "24174647",
    "slug": "33-pleasant-street-stamford-connecticut-24174647",
@@ -278,6 +249,35 @@
    "why": "Within a 15-minute walk, sold in the last year",
    "km": 0.10188319567557937,
    "ppsf": 2.694300518134715
+  },
+  {
+   "mls": "24196549",
+   "slug": "43-highland-road-stamford-connecticut-24196549",
+   "address": {
+    "line": "43 Highland Road",
+    "unit": "Unit 43",
+    "lineWithUnit": "43 Highland Road Unit 43",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 1.0,
+   "baths": 2.0,
+   "sqft": 985.0,
+   "acres": null,
+   "price": 2650.0,
+   "date": "2026-09-01",
+   "listingType": "rent",
+   "rentPeriod": "month",
+   "geo": {
+    "lat": 41.057356,
+    "lng": -73.532831
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.15776963557050996,
+   "ppsf": 2.6903553299492384
   }
  ]
 }

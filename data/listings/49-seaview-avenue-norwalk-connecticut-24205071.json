@@ -5,6 +5,9 @@
  "listingType": "rent",
  "propertyType": "Residential Rental",
  "price": 3800.0,
+ "leasePriceDesc": "Per Month",
+ "rentPeriod": "month",
+ "rentalDuration": "Yearly Unfurnished",
  "closePrice": null,
  "closeDate": null,
  "beds": 1.0,
@@ -61,7 +64,7 @@
   "lng": -73.4072
  },
  "facts": {
-  "dom": 23,
+  "dom": 29,
   "listed": "2026-09-07",
   "floodZone": "0",
   "sewer": "Public Sewer Connected",
@@ -94,9 +97,6 @@
   "directWaterfront": "1",
   "energy": "Thermopane Windows"
  },
- "leasePriceDesc": "Per Month",
- "rentPeriod": "month",
- "rentalDuration": "Yearly Unfurnished",
  "indexable": true,
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
@@ -146,6 +146,35 @@
   }
  },
  "comps": [
+  {
+   "mls": "24204264",
+   "slug": "3-betts-place-norwalk-connecticut-24204264",
+   "address": {
+    "line": "3 Betts Place",
+    "unit": "Unit 2",
+    "lineWithUnit": "3 Betts Place Unit 2",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06855"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 550.0,
+   "acres": 0.14,
+   "price": 2100.0,
+   "date": "2026-10-01",
+   "listingType": "rent",
+   "rentPeriod": "month",
+   "geo": {
+    "lat": 41.100158,
+    "lng": -73.407514
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.05244495303127556,
+   "ppsf": 3.8181818181818183
+  },
   {
    "mls": "24172850",
    "slug": "3-betts-place-norwalk-connecticut-24172850",
@@ -205,91 +234,62 @@
    "ppsf": 3.6153846153846154
   },
   {
-   "mls": "24107031",
-   "slug": "37-seaview-avenue-norwalk-connecticut-24107031",
+   "mls": "24146909",
+   "slug": "29-seaview-avenue-norwalk-connecticut-24146909",
    "address": {
-    "line": "37 Seaview Avenue",
-    "unit": "Unit 4",
-    "lineWithUnit": "37 Seaview Avenue Unit 4",
+    "line": "29 Seaview Avenue",
+    "unit": "Unit A3",
+    "lineWithUnit": "29 Seaview Avenue Unit A3",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06855"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 575.0,
+   "acres": 0.21,
+   "price": 1875.0,
+   "date": "2026-01-15",
+   "listingType": "rent",
+   "rentPeriod": "month",
+   "geo": {
+    "lat": 41.099824,
+    "lng": -73.409666
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.20679656208154315,
+   "ppsf": 3.260869565217391
+  },
+  {
+   "mls": "24148184",
+   "slug": "4-van-zant-street-norwalk-connecticut-24148184",
+   "address": {
+    "line": "4 Van Zant Street",
+    "unit": "Unit A5",
+    "lineWithUnit": "4 Van Zant Street Unit A5",
     "city": "Norwalk",
     "state": "Connecticut",
     "zip": "06855"
    },
    "beds": 2.0,
    "baths": 1.0,
-   "sqft": 800.0,
-   "acres": 0.18,
-   "price": 2375.0,
-   "date": "2025-09-24",
+   "sqft": 704.0,
+   "acres": null,
+   "price": 2100.0,
+   "date": "2026-03-01",
    "listingType": "rent",
    "rentPeriod": "month",
    "geo": {
-    "lat": 41.099805,
-    "lng": -73.408843
+    "lat": 41.100555,
+    "lng": -73.41007
    },
    "klass": "rental",
    "tier": 3,
    "why": "Within a 15-minute walk, sold in the last year",
-   "km": 0.13780719364030483,
-   "ppsf": 2.96875
-  },
-  {
-   "mls": "24124955",
-   "slug": "288-east-avenue-norwalk-connecticut-24124955",
-   "address": {
-    "line": "288 East Avenue",
-    "unit": "Unit 1",
-    "lineWithUnit": "288 East Avenue Unit 1",
-    "city": "Norwalk",
-    "state": "Connecticut",
-    "zip": "06855"
-   },
-   "beds": 1.0,
-   "baths": 1.0,
-   "sqft": 670.0,
-   "acres": 0.2,
-   "price": 1795.0,
-   "date": "2025-09-24",
-   "listingType": "rent",
-   "rentPeriod": "month",
-   "geo": {
-    "lat": 41.099613,
-    "lng": -73.405304
-   },
-   "klass": "rental",
-   "tier": 3,
-   "why": "Within a 15-minute walk, sold in the last year",
-   "km": 0.15959989738059305,
-   "ppsf": 2.6791044776119404
-  },
-  {
-   "mls": "24124954",
-   "slug": "288-east-avenue-norwalk-connecticut-24124954",
-   "address": {
-    "line": "288 East Avenue",
-    "unit": "Unit 2",
-    "lineWithUnit": "288 East Avenue Unit 2",
-    "city": "Norwalk",
-    "state": "Connecticut",
-    "zip": "06855"
-   },
-   "beds": 1.0,
-   "baths": 1.0,
-   "sqft": 850.0,
-   "acres": 0.2,
-   "price": 2195.0,
-   "date": "2025-09-16",
-   "listingType": "rent",
-   "rentPeriod": "month",
-   "geo": {
-    "lat": 41.09958,
-    "lng": -73.4053
-   },
-   "klass": "rental",
-   "tier": 3,
-   "why": "Within a 15-minute walk, sold in the last year",
-   "km": 0.16032471210166144,
-   "ppsf": 2.5823529411764707
+   "km": 0.25660240698929965,
+   "ppsf": 2.9829545454545454
   }
  ]
 }

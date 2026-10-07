@@ -5,6 +5,9 @@
  "listingType": "rent",
  "propertyType": "Residential Rental",
  "price": 2300.0,
+ "leasePriceDesc": "Per Month",
+ "rentPeriod": "month",
+ "rentalDuration": "Yearly Unfurnished",
  "closePrice": null,
  "closeDate": null,
  "beds": 1.0,
@@ -29,6 +32,7 @@
  },
  "remarks": "NEW PRICE - SoNo Loft Living with Garage Parking  Now offered at $2,300 per month, this sun-filled loft-style residence combines classic SoNo character with a surprisingly private layout. Unlike many open lofts, Unit 2-H features a separate bedroom area divided from the living space by a wall-providing added privacy without sacrificing its bright, airy feel.  Southern exposure, hardwood floors, exposed brick and stainless-steel appliances add warmth and character throughout. One garage parking space is included-an exceptional convenience in the heart of downtown.  Located on the second floor of a walk-up building, the apartment is just steps from Washington Street restaurants, cafes, nightlife, shopping and the waterfront, with the South Norwalk train station nearby.  Highlights:  * $2,300 per month * Separate bedroom area * Southern exposure * Hardwood floors and exposed brick * Stainless-steel appliances * One garage parking space included * Second-floor walk-up * Convenient to Metro-North and the waterfront  Park the car. Drop the keys. Walk to dinner. Welcome to SoNo.",
  "photos": [
+  "https://smartmls-assets.cdn-connectmls.com/pics/590438FA5D9D2C8AE063E201100A5704/HD_1786720852283_IMG_5473.JPEG",
   "https://smartmls-assets.cdn-connectmls.com/pics/597FD54A7EB3AA5EE063E201100ABCE6/HD_1787257615457_83_Washington_2H_Virtually_Staged_Bedroom.JPEG",
   "https://smartmls-assets.cdn-connectmls.com/pics/597FD54A7EB3AA5EE063E201100ABCE6/HD_1787257607242_DEE663A6_A172_4E32_8BD6_4E900F8C3031.JPEG",
   "https://smartmls-assets.cdn-connectmls.com/pics/597FD54A7EB3AA5EE063E201100ABCE6/HD_1787257617102_IMG_5516.JPEG",
@@ -38,7 +42,6 @@
   "https://smartmls-assets.cdn-connectmls.com/pics/597FD54A7EB3AA5EE063E201100ABCE6/HD_1787257611237_IMG_5519.JPEG",
   "https://smartmls-assets.cdn-connectmls.com/pics/597FD54A7EB3AA5EE063E201100ABCE6/HD_1787257613084_IMG_5518.JPEG",
   "https://smartmls-assets.cdn-connectmls.com/pics/597FD54A7EB3AA5EE063E201100ABCE6/HD_1787257608968_IMG_5520.JPEG",
-  "https://smartmls-assets.cdn-connectmls.com/pics/590438FA5D9D2C8AE063E201100A5704/HD_1786720852283_IMG_5473.JPEG",
   "https://smartmls-assets.cdn-connectmls.com/pics/590438FA5D9D2C8AE063E201100A5704/HD_1786720861237_IMG_5476.JPEG",
   "https://smartmls-assets.cdn-connectmls.com/pics/590438FA5D9D2C8AE063E201100A5704/HD_1786720855997_IMG_5474.JPEG",
   "https://smartmls-assets.cdn-connectmls.com/pics/590438FA5D9D2C8AE063E201100A5704/HD_1786720858828_IMG_5475.JPEG"
@@ -50,7 +53,7 @@
   "lng": -73.418029
  },
  "facts": {
-  "dom": 47,
+  "dom": 53,
   "listed": "2026-08-14",
   "sewer": "Public Sewer Connected",
   "water": "Public Water Connected",
@@ -81,9 +84,6 @@
   "waterfront": "Not Applicable",
   "directWaterfront": "0"
  },
- "leasePriceDesc": "Per Month",
- "rentPeriod": "month",
- "rentalDuration": "Yearly Unfurnished",
  "indexable": true,
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
@@ -221,35 +221,6 @@
    "ppsf": 3.683385579937304
   },
   {
-   "mls": "24121859",
-   "slug": "83-washington-street-norwalk-connecticut-24121859",
-   "address": {
-    "line": "83 Washington Street",
-    "unit": "Unit 2I",
-    "lineWithUnit": "83 Washington Street Unit 2I",
-    "city": "Norwalk",
-    "state": "Connecticut",
-    "zip": "06854"
-   },
-   "beds": 1.0,
-   "baths": 1.0,
-   "sqft": 704.0,
-   "acres": null,
-   "price": 2200.0,
-   "date": "2025-09-03",
-   "listingType": "rent",
-   "rentPeriod": "month",
-   "geo": {
-    "lat": 41.0993,
-    "lng": -73.417984
-   },
-   "klass": "rental",
-   "tier": 1,
-   "why": "Same building, sold in the last year",
-   "km": 0.00690299093170097,
-   "ppsf": 3.125
-  },
-  {
    "mls": "24142014",
    "slug": "83-washington-street-norwalk-connecticut-24142014",
    "address": {
@@ -277,6 +248,35 @@
    "why": "Same building, sold in the last 2 years",
    "km": 0.0,
    "ppsf": 3.2941176470588234
+  },
+  {
+   "mls": "24043928",
+   "slug": "83-washington-street-norwalk-connecticut-24043928",
+   "address": {
+    "line": "83 Washington Street",
+    "unit": "Unit 3B",
+    "lineWithUnit": "83 Washington Street Unit 3B",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 648.0,
+   "acres": null,
+   "price": 2000.0,
+   "date": "2024-12-15",
+   "listingType": "rent",
+   "rentPeriod": "month",
+   "geo": {
+    "lat": 41.099248,
+    "lng": -73.418029
+   },
+   "klass": "rental",
+   "tier": 2,
+   "why": "Same building, sold in the last 2 years",
+   "km": 0.0,
+   "ppsf": 3.0864197530864197
   }
  ]
 }

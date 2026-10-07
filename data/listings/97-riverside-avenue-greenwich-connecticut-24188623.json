@@ -5,6 +5,9 @@
  "listingType": "rent",
  "propertyType": "Residential Rental",
  "price": 15000.0,
+ "leasePriceDesc": "Per Month",
+ "rentPeriod": "month",
+ "rentalDuration": "Yearly Unfurnished",
  "closePrice": null,
  "closeDate": null,
  "beds": 3.0,
@@ -59,7 +62,7 @@
   "lng": -73.587572
  },
  "facts": {
-  "dom": 90,
+  "dom": 96,
   "listed": "2026-07-02",
   "sewer": "Public Sewer Connected",
   "water": "Public Water Connected",
@@ -90,9 +93,6 @@
   "waterfront": "Not Applicable",
   "directWaterfront": "0"
  },
- "leasePriceDesc": "Per Month",
- "rentPeriod": "month",
- "rentalDuration": "Yearly Unfurnished",
  "indexable": true,
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
@@ -143,35 +143,6 @@
   }
  },
  "comps": [
-  {
-   "mls": "24111862",
-   "slug": "75-strickland-road-greenwich-connecticut-24111862",
-   "address": {
-    "line": "75 Strickland Road",
-    "unit": "Unit D",
-    "lineWithUnit": "75 Strickland Road Unit D",
-    "city": "Greenwich",
-    "state": "Connecticut",
-    "zip": "06807"
-   },
-   "beds": 4.0,
-   "baths": 3.0,
-   "sqft": 3372.0,
-   "acres": 0.73,
-   "price": 9500.0,
-   "date": "2025-09-28",
-   "listingType": "rent",
-   "rentPeriod": "month",
-   "geo": {
-    "lat": 41.031807,
-    "lng": -73.59836
-   },
-   "klass": "rental",
-   "tier": 3,
-   "why": "Within a 15-minute walk, sold in the last year",
-   "km": 0.9394503503722119,
-   "ppsf": 2.8173190984578884
-  },
   {
    "mls": "24174811",
    "slug": "20-orchard-street-greenwich-connecticut-24174811",
@@ -287,6 +258,35 @@
    "why": "Within about a mile and a half, sold in the last 2 years",
    "km": 0.5120401314156564,
    "ppsf": 2.6595744680851063
+  },
+  {
+   "mls": "24109546",
+   "slug": "25-summit-road-greenwich-connecticut-24109546",
+   "address": {
+    "line": "25 Summit Road",
+    "unit": null,
+    "lineWithUnit": "25 Summit Road",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06878"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2489.0,
+   "acres": 0.28,
+   "price": 10000.0,
+   "date": "2025-10-01",
+   "listingType": "rent",
+   "rentPeriod": "month",
+   "geo": {
+    "lat": 41.030834,
+    "lng": -73.57781
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 0.8947548467285084,
+   "ppsf": 4.017677782241864
   }
  ]
 }

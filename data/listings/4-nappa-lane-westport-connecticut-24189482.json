@@ -5,6 +5,9 @@
  "listingType": "rent",
  "propertyType": "Residential Rental",
  "price": 12000.0,
+ "leasePriceDesc": "Per Month",
+ "rentPeriod": "month",
+ "rentalDuration": "Yearly Unfurnished",
  "closePrice": null,
  "closeDate": null,
  "beds": 4.0,
@@ -61,7 +64,7 @@
   "lng": -73.356172
  },
  "facts": {
-  "dom": 82,
+  "dom": 88,
   "listed": "2026-07-07",
   "sewer": "Public Sewer Connected",
   "water": "Public Water Connected",
@@ -90,9 +93,6 @@
   "waterfront": "Beach Rights",
   "directWaterfront": "0"
  },
- "leasePriceDesc": "Per Month",
- "rentPeriod": "month",
- "rentalDuration": "Yearly Unfurnished",
  "indexable": true,
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
@@ -229,35 +229,6 @@
    "ppsf": 4.453911696359412
   },
   {
-   "mls": "24115025",
-   "slug": "15-keyser-road-westport-connecticut-24115025",
-   "address": {
-    "line": "15 Keyser Road",
-    "unit": null,
-    "lineWithUnit": "15 Keyser Road",
-    "city": "Westport",
-    "state": "Connecticut",
-    "zip": "06880"
-   },
-   "beds": 3.0,
-   "baths": 3.0,
-   "sqft": 2268.0,
-   "acres": 0.43,
-   "price": 8500.0,
-   "date": "2025-09-12",
-   "listingType": "rent",
-   "rentPeriod": "month",
-   "geo": {
-    "lat": 41.125733,
-    "lng": -73.362197
-   },
-   "klass": "rental",
-   "tier": 3,
-   "why": "Within a 15-minute walk, sold in the last year",
-   "km": 0.5223609017539614,
-   "ppsf": 3.747795414462081
-  },
-  {
    "mls": "24155993",
    "slug": "188-compo-road-south-westport-connecticut-24155993",
    "address": {
@@ -285,6 +256,35 @@
    "why": "Within a 15-minute walk, sold in the last year",
    "km": 0.622028040612429,
    "ppsf": 3.4789644012944985
+  },
+  {
+   "mls": "24114052",
+   "slug": "112-hillspoint-road-westport-connecticut-24114052",
+   "address": {
+    "line": "112 Hillspoint Road",
+    "unit": null,
+    "lineWithUnit": "112 Hillspoint Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 4.0,
+   "baths": 4.0,
+   "sqft": 3558.0,
+   "acres": 1.12,
+   "price": 9000.0,
+   "date": "2026-01-21",
+   "listingType": "rent",
+   "rentPeriod": "month",
+   "geo": {
+    "lat": 41.124234,
+    "lng": -73.346412
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8713423460388996,
+   "ppsf": 2.5295109612141653
   }
  ]
 }

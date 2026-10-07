@@ -5,6 +5,9 @@
  "listingType": "rent",
  "propertyType": "Residential Rental",
  "price": 11500.0,
+ "leasePriceDesc": "Per Month",
+ "rentPeriod": "month",
+ "rentalDuration": "Yearly Unfurnished",
  "closePrice": null,
  "closeDate": null,
  "beds": 5.0,
@@ -55,7 +58,7 @@
   "lng": -73.559437
  },
  "facts": {
-  "dom": 54,
+  "dom": 60,
   "listed": "2026-08-04",
   "floodZone": "0",
   "sewer": "Public Sewer Connected",
@@ -85,9 +88,6 @@
   "waterfront": "Not Applicable",
   "directWaterfront": "0"
  },
- "leasePriceDesc": "Per Month",
- "rentPeriod": "month",
- "rentalDuration": "Yearly Unfurnished",
  "indexable": true,
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
@@ -197,6 +197,35 @@
    "ppsf": 1.630695443645084
   },
   {
+   "mls": "24205688",
+   "slug": "386-westover-road-stamford-connecticut-24205688",
+   "address": {
+    "line": "386 Westover Road",
+    "unit": null,
+    "lineWithUnit": "386 Westover Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 4.0,
+   "baths": 7.0,
+   "sqft": 7342.0,
+   "acres": 1.0,
+   "price": 15500.0,
+   "date": "2026-10-06",
+   "listingType": "rent",
+   "rentPeriod": "month",
+   "geo": {
+    "lat": 41.069083,
+    "lng": -73.571735
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.4204322602551467,
+   "ppsf": 2.1111413783710162
+  },
+  {
    "mls": "24181529",
    "slug": "376-westover-road-stamford-connecticut-24181529",
    "address": {
@@ -226,62 +255,33 @@
    "ppsf": 2.7144408251900107
   },
   {
-   "mls": "24185202",
-   "slug": "98-east-lane-stamford-connecticut-24185202",
+   "mls": "24177755",
+   "slug": "82-westover-avenue-stamford-connecticut-24177755",
    "address": {
-    "line": "98 East Lane",
+    "line": "82 Westover Avenue",
     "unit": null,
-    "lineWithUnit": "98 East Lane",
-    "city": "Stamford",
-    "state": "Connecticut",
-    "zip": "06905"
-   },
-   "beds": 3.0,
-   "baths": 3.0,
-   "sqft": 4640.0,
-   "acres": 0.95,
-   "price": 6300.0,
-   "date": "2026-07-08",
-   "listingType": "rent",
-   "rentPeriod": "month",
-   "geo": {
-    "lat": 41.073284,
-    "lng": -73.539876
-   },
-   "klass": "rental",
-   "tier": 4,
-   "why": "Within about a mile and a half, sold in the last 2 years",
-   "km": 1.717171978126767,
-   "ppsf": 1.3577586206896552
-  },
-  {
-   "mls": "24164676",
-   "slug": "10-linden-place-stamford-connecticut-24164676",
-   "address": {
-    "line": "10 Linden Place",
-    "unit": "Unit 1B",
-    "lineWithUnit": "10 Linden Place Unit 1B",
+    "lineWithUnit": "82 Westover Avenue",
     "city": "Stamford",
     "state": "Connecticut",
     "zip": "06902"
    },
-   "beds": 2.0,
-   "baths": 1.0,
-   "sqft": 5412.0,
-   "acres": 0.2,
-   "price": 2600.0,
-   "date": "2026-06-14",
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 4349.0,
+   "acres": 1.27,
+   "price": 8150.0,
+   "date": "2026-10-01",
    "listingType": "rent",
    "rentPeriod": "month",
    "geo": {
-    "lat": 41.060326,
-    "lng": -73.54481
+    "lat": 41.070405,
+    "lng": -73.57539
    },
    "klass": "rental",
    "tier": 4,
    "why": "Within about a mile and a half, sold in the last 2 years",
-   "km": 2.3042690836251176,
-   "ppsf": 0.4804138950480414
+   "km": 1.574002380702883,
+   "ppsf": 1.8739940216141642
   }
  ]
 }

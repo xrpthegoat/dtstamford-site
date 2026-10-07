@@ -5,6 +5,9 @@
  "listingType": "rent",
  "propertyType": "Residential Rental",
  "price": 12750.0,
+ "leasePriceDesc": "Per Month",
+ "rentPeriod": "month",
+ "rentalDuration": "Yearly Unfurnished",
  "closePrice": null,
  "closeDate": null,
  "beds": 4.0,
@@ -61,7 +64,7 @@
   "lng": -73.36324
  },
  "facts": {
-  "dom": 79,
+  "dom": 85,
   "listed": "2026-07-13",
   "floodZone": "0",
   "sewer": "Public Sewer Connected",
@@ -94,9 +97,6 @@
   "waterfront": "Beach Rights",
   "directWaterfront": "0"
  },
- "leasePriceDesc": "Per Month",
- "rentPeriod": "month",
- "rentalDuration": "Yearly Unfurnished",
  "indexable": true,
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
@@ -174,35 +174,6 @@
    "why": "Within a 15-minute walk, sold in the last year",
    "km": 0.19025653626418904,
    "ppsf": 2.8755463538072235
-  },
-  {
-   "mls": "24105705",
-   "slug": "187-compo-road-south-westport-connecticut-24105705",
-   "address": {
-    "line": "187 Compo Road South",
-    "unit": null,
-    "lineWithUnit": "187 Compo Road South",
-    "city": "Westport",
-    "state": "Connecticut",
-    "zip": "06880"
-   },
-   "beds": 4.0,
-   "baths": 4.0,
-   "sqft": 4503.0,
-   "acres": 0.33,
-   "price": 12000.0,
-   "date": "2025-09-15",
-   "listingType": "rent",
-   "rentPeriod": "month",
-   "geo": {
-    "lat": 41.123319,
-    "lng": -73.360873
-   },
-   "klass": "rental",
-   "tier": 3,
-   "why": "Within a 15-minute walk, sold in the last year",
-   "km": 0.5602110710469806,
-   "ppsf": 2.664890073284477
   },
   {
    "mls": "24155986",
@@ -290,6 +261,35 @@
    "why": "Within about a mile and a half, sold in the last 2 years",
    "km": 0.1386894060912275,
    "ppsf": 2.816020025031289
+  },
+  {
+   "mls": "24070080",
+   "slug": "24-narrow-rocks-road-westport-connecticut-24070080",
+   "address": {
+    "line": "24 Narrow Rocks Road",
+    "unit": null,
+    "lineWithUnit": "24 Narrow Rocks Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 5.0,
+   "baths": 5.0,
+   "sqft": 4069.0,
+   "acres": 1.27,
+   "price": 12500.0,
+   "date": "2025-05-01",
+   "listingType": "rent",
+   "rentPeriod": "month",
+   "geo": {
+    "lat": 41.118755,
+    "lng": -73.35973
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 0.2944879348412629,
+   "ppsf": 3.0720078643401325
   }
  ]
 }

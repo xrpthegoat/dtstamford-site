@@ -5,6 +5,9 @@
  "listingType": "rent",
  "propertyType": "Residential Rental",
  "price": 3300.0,
+ "leasePriceDesc": "Per Month",
+ "rentPeriod": "month",
+ "rentalDuration": "Yearly Unfurnished",
  "closePrice": null,
  "closeDate": null,
  "beds": 3.0,
@@ -52,7 +55,7 @@
   "lng": -73.520886
  },
  "facts": {
-  "dom": 29,
+  "dom": 35,
   "listed": "2026-09-01",
   "sewer": "Public Sewer Connected",
   "water": "Public Water Connected",
@@ -83,9 +86,6 @@
   "waterfront": "Not Applicable",
   "directWaterfront": "0"
  },
- "leasePriceDesc": "Per Month",
- "rentPeriod": "month",
- "rentalDuration": "Yearly Unfurnished",
  "indexable": true,
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
@@ -194,35 +194,6 @@
    "ppsf": 2.7333333333333334
   },
   {
-   "mls": "24117438",
-   "slug": "199-wardwell-street-stamford-connecticut-24117438",
-   "address": {
-    "line": "199 Wardwell Street",
-    "unit": "Apt 3",
-    "lineWithUnit": "199 Wardwell Street Apt 3",
-    "city": "Stamford",
-    "state": "Connecticut",
-    "zip": "06902"
-   },
-   "beds": 2.0,
-   "baths": 2.0,
-   "sqft": 1600.0,
-   "acres": null,
-   "price": 3500.0,
-   "date": "2025-09-16",
-   "listingType": "rent",
-   "rentPeriod": "month",
-   "geo": {
-    "lat": 41.047782,
-    "lng": -73.520344
-   },
-   "klass": "rental",
-   "tier": 3,
-   "why": "Within a 15-minute walk, sold in the last year",
-   "km": 0.09148303396964984,
-   "ppsf": 2.1875
-  },
-  {
    "mls": "24177081",
    "slug": "24-east-avenue-stamford-connecticut-24177081",
    "address": {
@@ -279,6 +250,35 @@
    "why": "Within a 15-minute walk, sold in the last year",
    "km": 0.42748316577063994,
    "ppsf": 2.2080185938407904
+  },
+  {
+   "mls": "24151552",
+   "slug": "202-soundview-avenue-stamford-connecticut-24151552",
+   "address": {
+    "line": "202 Soundview Avenue",
+    "unit": "Unit 60",
+    "lineWithUnit": "202 Soundview Avenue Unit 60",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1889.0,
+   "acres": null,
+   "price": 3650.0,
+   "date": "2026-03-01",
+   "listingType": "rent",
+   "rentPeriod": "month",
+   "geo": {
+    "lat": 41.045123,
+    "lng": -73.516489
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.42748316577063994,
+   "ppsf": 1.9322392800423505
   }
  ]
 }

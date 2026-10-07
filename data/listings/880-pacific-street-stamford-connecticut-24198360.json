@@ -5,6 +5,9 @@
  "listingType": "rent",
  "propertyType": "Residential Rental",
  "price": 3465.0,
+ "leasePriceDesc": "Per Month",
+ "rentPeriod": "month",
+ "rentalDuration": "Yearly Unfurnished,Short Term Unfurnished,Short Term Furnished",
  "closePrice": null,
  "closeDate": null,
  "beds": 1.0,
@@ -53,7 +56,7 @@
   "lng": -73.54236
  },
  "facts": {
-  "dom": 50,
+  "dom": 56,
   "listed": "2026-08-11",
   "sewer": "Public Sewer Connected",
   "water": "Public Water Connected",
@@ -85,9 +88,6 @@
   "waterfront": "Harbor,Walk to Water,Beach Rights",
   "directWaterfront": "1"
  },
- "leasePriceDesc": "Per Month",
- "rentPeriod": "month",
- "rentalDuration": "Yearly Unfurnished,Short Term Unfurnished,Short Term Furnished",
  "indexable": true,
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
@@ -276,8 +276,8 @@
     "lng": -73.54236
    },
    "klass": "rental",
-   "tier": 1,
-   "why": "Same building, sold in the last year",
+   "tier": 2,
+   "why": "Same building, sold in the last 2 years",
    "km": 0.0,
    "ppsf": 4.2926490984743415
   }

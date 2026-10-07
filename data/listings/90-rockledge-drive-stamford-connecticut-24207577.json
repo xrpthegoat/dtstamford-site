@@ -56,7 +56,7 @@
   "lng": -73.520358
  },
  "facts": {
-  "dom": 16,
+  "dom": 22,
   "listed": "2026-09-14",
   "sewer": "Public Sewer Connected",
   "water": "Public Water Connected",
@@ -136,6 +136,35 @@
   }
  },
  "comps": [
+  {
+   "mls": "24194554",
+   "slug": "3-westminster-road-stamford-connecticut-24194554",
+   "address": {
+    "line": "3 Westminster Road",
+    "unit": null,
+    "lineWithUnit": "3 Westminster Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1804.0,
+   "acres": 0.23,
+   "price": 1475000.0,
+   "date": "2026-10-02",
+   "listingType": "sale",
+   "rentPeriod": null,
+   "geo": {
+    "lat": 41.024334,
+    "lng": -73.523044
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.680952347403655,
+   "ppsf": 817.6274944567627
+  },
   {
    "mls": "24193270",
    "slug": "16-westminster-road-stamford-connecticut-24193270",
@@ -251,35 +280,6 @@
    "why": "Within about a mile and a half, sold in the last 2 years",
    "km": 0.5920810317790494,
    "ppsf": 596.5783664459161
-  },
-  {
-   "mls": "24076811",
-   "slug": "46-stamford-avenue-stamford-connecticut-24076811",
-   "address": {
-    "line": "46 Stamford Avenue",
-    "unit": null,
-    "lineWithUnit": "46 Stamford Avenue",
-    "city": "Stamford",
-    "state": "Connecticut",
-    "zip": "06902"
-   },
-   "beds": 5.0,
-   "baths": 2.0,
-   "sqft": 1701.0,
-   "acres": 0.3,
-   "price": 900000.0,
-   "date": "2025-06-23",
-   "listingType": "sale",
-   "rentPeriod": null,
-   "geo": {
-    "lat": 41.031275,
-    "lng": -73.527955
-   },
-   "klass": "house",
-   "tier": 4,
-   "why": "Within about a mile and a half, sold in the last 2 years",
-   "km": 0.650209663648308,
-   "ppsf": 529.1005291005291
   }
  ]
 }

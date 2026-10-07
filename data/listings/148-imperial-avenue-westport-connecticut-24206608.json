@@ -5,6 +5,9 @@
  "listingType": "rent",
  "propertyType": "Residential Rental",
  "price": 3500.0,
+ "leasePriceDesc": "Per Month",
+ "rentPeriod": "month",
+ "rentalDuration": "Winter Furnished,Short Term Furnished",
  "closePrice": null,
  "closeDate": null,
  "beds": 2.0,
@@ -54,7 +57,7 @@
   "lng": -73.36454
  },
  "facts": {
-  "dom": 19,
+  "dom": 25,
   "listed": "2026-09-11",
   "floodZone": "0",
   "sewer": "Septic",
@@ -88,9 +91,6 @@
   "waterfront": "Beach Rights",
   "directWaterfront": "0"
  },
- "leasePriceDesc": "Per Month",
- "rentPeriod": "month",
- "rentalDuration": "Winter Furnished,Short Term Furnished",
  "indexable": true,
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
@@ -227,6 +227,35 @@
    "ppsf": 8.846153846153847
   },
   {
+   "mls": "24175700",
+   "slug": "251-riverside-avenue-westport-connecticut-24175700",
+   "address": {
+    "line": "251 Riverside Avenue",
+    "unit": "Unit 101A - Main Level",
+    "lineWithUnit": "251 Riverside Avenue Unit 101A - Main Level",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 1420.0,
+   "acres": null,
+   "price": 10000.0,
+   "date": "2026-09-01",
+   "listingType": "rent",
+   "rentPeriod": "month",
+   "geo": {
+    "lat": 41.131784,
+    "lng": -73.367883
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.5833113035039685,
+   "ppsf": 7.042253521126761
+  },
+  {
    "mls": "24175707",
    "slug": "251-riverside-avenue-westport-connecticut-24175707",
    "address": {
@@ -254,35 +283,6 @@
    "why": "Within a 15-minute walk, sold in the last year",
    "km": 0.5833113035039685,
    "ppsf": 7.051282051282051
-  },
-  {
-   "mls": "24184256",
-   "slug": "5-treadwell-avenue-westport-connecticut-24184256",
-   "address": {
-    "line": "5 Treadwell Avenue",
-    "unit": null,
-    "lineWithUnit": "5 Treadwell Avenue",
-    "city": "Westport",
-    "state": "Connecticut",
-    "zip": "06880"
-   },
-   "beds": 3.0,
-   "baths": 2.0,
-   "sqft": 1552.0,
-   "acres": 0.32,
-   "price": 4950.0,
-   "date": "2026-07-29",
-   "listingType": "rent",
-   "rentPeriod": "month",
-   "geo": {
-    "lat": 41.124499,
-    "lng": -73.373105
-   },
-   "klass": "rental",
-   "tier": 3,
-   "why": "Within a 15-minute walk, sold in the last year",
-   "km": 0.776959899462811,
-   "ppsf": 3.189432989690722
   }
  ]
 }

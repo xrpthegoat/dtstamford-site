@@ -5,6 +5,9 @@
  "listingType": "rent",
  "propertyType": "Residential Rental",
  "price": 2900.0,
+ "leasePriceDesc": "Per Month",
+ "rentPeriod": "month",
+ "rentalDuration": "Yearly Unfurnished",
  "closePrice": null,
  "closeDate": null,
  "beds": 2.0,
@@ -49,7 +52,7 @@
   "lng": -73.531269
  },
  "facts": {
-  "dom": 99,
+  "dom": 105,
   "listed": "2026-06-23",
   "sewer": "Public Sewer In Street",
   "water": "Public Water Connected",
@@ -78,9 +81,6 @@
   "directWaterfront": "0",
   "tourBranded": "https://youtu.be/xAggo8ygZSU"
  },
- "leasePriceDesc": "Per Month",
- "rentPeriod": "month",
- "rentalDuration": "Yearly Unfurnished",
  "indexable": true,
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
@@ -159,35 +159,6 @@
    "why": "Same building, sold in the last year",
    "km": 0.0,
    "ppsf": 3.257142857142857
-  },
-  {
-   "mls": "24115014",
-   "slug": "300-broad-street-stamford-connecticut-24115014",
-   "address": {
-    "line": "300 Broad Street",
-    "unit": "Unit 905",
-    "lineWithUnit": "300 Broad Street Unit 905",
-    "city": "Stamford",
-    "state": "Connecticut",
-    "zip": "06902"
-   },
-   "beds": 2.0,
-   "baths": 2.0,
-   "sqft": 867.0,
-   "acres": null,
-   "price": 2800.0,
-   "date": "2025-09-01",
-   "listingType": "rent",
-   "rentPeriod": "month",
-   "geo": {
-    "lat": 41.055737,
-    "lng": -73.531395
-   },
-   "klass": "rental",
-   "tier": 1,
-   "why": "Same building, sold in the last year",
-   "km": 0.021171608309239486,
-   "ppsf": 3.229527104959631
   },
   {
    "mls": "24083206",
@@ -275,6 +246,35 @@
    "why": "Same building, sold in the last 2 years",
    "km": 0.0,
    "ppsf": 2.8604382929642447
+  },
+  {
+   "mls": "24059334",
+   "slug": "300-broad-street-stamford-connecticut-24059334",
+   "address": {
+    "line": "300 Broad Street",
+    "unit": "Unit 405",
+    "lineWithUnit": "300 Broad Street Unit 405",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06901"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 867.0,
+   "acres": null,
+   "price": 2650.0,
+   "date": "2025-01-02",
+   "listingType": "rent",
+   "rentPeriod": "month",
+   "geo": {
+    "lat": 41.055572,
+    "lng": -73.531269
+   },
+   "klass": "rental",
+   "tier": 2,
+   "why": "Same building, sold in the last 2 years",
+   "km": 0.0,
+   "ppsf": 3.0565167243367934
   }
  ]
 }

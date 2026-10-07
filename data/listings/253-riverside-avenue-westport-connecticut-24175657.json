@@ -4,7 +4,10 @@
  "status": "Active",
  "listingType": "rent",
  "propertyType": "Residential Rental",
- "price": 10500.0,
+ "price": 9500.0,
+ "leasePriceDesc": "Per Month",
+ "rentPeriod": "month",
+ "rentalDuration": "Yearly Unfurnished,Two Years",
  "closePrice": null,
  "closeDate": null,
  "beds": 2.0,
@@ -52,13 +55,13 @@
   "https://smartmls-assets.cdn-connectmls.com/pics/51DB677E59528844E063E201100ADBB6/HD_1778860678883_Floor_plans_unit_101__102.JPEG"
  ],
  "primaryPhotoOnly": false,
- "updated": "2026-09-08T11:58:19",
+ "updated": "2026-10-05T15:35:34",
  "geo": {
   "lat": 41.131648,
   "lng": -73.368001
  },
  "facts": {
-  "dom": 103,
+  "dom": 109,
   "listed": "2026-05-18",
   "sewer": "Public Sewer Connected",
   "water": "Public Water Connected",
@@ -90,9 +93,6 @@
   "directWaterfront": "1",
   "energy": "Energy Star Rated,Programmable Thermostat,Storm Doors,Storm Windows"
  },
- "leasePriceDesc": "Per Month",
- "rentPeriod": "month",
- "rentalDuration": "Yearly Unfurnished,Two Years",
  "indexable": true,
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
@@ -169,6 +169,35 @@
    "why": "Same building, sold in the last year",
    "km": 0.0,
    "ppsf": 8.846153846153847
+  },
+  {
+   "mls": "24175700",
+   "slug": "251-riverside-avenue-westport-connecticut-24175700",
+   "address": {
+    "line": "251 Riverside Avenue",
+    "unit": "Unit 101A - Main Level",
+    "lineWithUnit": "251 Riverside Avenue Unit 101A - Main Level",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 1420.0,
+   "acres": null,
+   "price": 10000.0,
+   "date": "2026-09-01",
+   "listingType": "rent",
+   "rentPeriod": "month",
+   "geo": {
+    "lat": 41.131784,
+    "lng": -73.367883
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.01806539966930823,
+   "ppsf": 7.042253521126761
   },
   {
    "mls": "24175707",
@@ -256,35 +285,6 @@
    "why": "Within a 15-minute walk, sold in the last year",
    "km": 0.2545144902442537,
    "ppsf": 3.627968337730871
-  },
-  {
-   "mls": "24122874",
-   "slug": "148-imperial-avenue-westport-connecticut-24122874",
-   "address": {
-    "line": "148 Imperial Avenue",
-    "unit": "Unit 1",
-    "lineWithUnit": "148 Imperial Avenue Unit 1",
-    "city": "Westport",
-    "state": "Connecticut",
-    "zip": "06880"
-   },
-   "beds": 2.0,
-   "baths": 1.0,
-   "sqft": 1286.0,
-   "acres": 0.31,
-   "price": 3200.0,
-   "date": "2025-11-01",
-   "listingType": "rent",
-   "rentPeriod": "month",
-   "geo": {
-    "lat": 41.127182,
-    "lng": -73.36454
-   },
-   "klass": "rental",
-   "tier": 3,
-   "why": "Within a 15-minute walk, sold in the last year",
-   "km": 0.5750095897952168,
-   "ppsf": 2.488335925349922
   }
  ]
 }

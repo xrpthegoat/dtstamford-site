@@ -5,6 +5,9 @@
  "listingType": "rent",
  "propertyType": "Residential Rental",
  "price": 4800.0,
+ "leasePriceDesc": "Per Month",
+ "rentPeriod": "month",
+ "rentalDuration": "Yearly Unfurnished",
  "closePrice": null,
  "closeDate": null,
  "beds": 3.0,
@@ -50,7 +53,7 @@
   "lng": -73.515161
  },
  "facts": {
-  "dom": 91,
+  "dom": 97,
   "listed": "2026-06-17",
   "sewer": "Public Sewer Connected",
   "water": "Public Water Connected",
@@ -75,9 +78,6 @@
   "waterfront": "Not Applicable",
   "directWaterfront": "0"
  },
- "leasePriceDesc": "Per Month",
- "rentPeriod": "month",
- "rentalDuration": "Yearly Unfurnished",
  "indexable": true,
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
@@ -148,35 +148,6 @@
    "why": "Within a 15-minute walk, sold in the last year",
    "km": 0.719815268445838,
    "ppsf": 2.3076923076923075
-  },
-  {
-   "mls": "24108315",
-   "slug": "1312-hope-street-stamford-connecticut-24108315",
-   "address": {
-    "line": "1312 Hope Street",
-    "unit": "Unit 2",
-    "lineWithUnit": "1312 Hope Street Unit 2",
-    "city": "Stamford",
-    "state": "Connecticut",
-    "zip": "06907"
-   },
-   "beds": 4.0,
-   "baths": 2.0,
-   "sqft": 1625.0,
-   "acres": 0.37,
-   "price": 3900.0,
-   "date": "2025-09-01",
-   "listingType": "rent",
-   "rentPeriod": "month",
-   "geo": {
-    "lat": 41.102096,
-    "lng": -73.516598
-   },
-   "klass": "rental",
-   "tier": 3,
-   "why": "Within a 15-minute walk, sold in the last year",
-   "km": 0.7198968482197888,
-   "ppsf": 2.4
   },
   {
    "mls": "24154341",
@@ -264,6 +235,35 @@
    "why": "Within a 15-minute walk, sold in the last year",
    "km": 0.8899709890436006,
    "ppsf": 1.4583333333333333
+  },
+  {
+   "mls": "24197913",
+   "slug": "1273-hope-street-stamford-connecticut-24197913",
+   "address": {
+    "line": "1273 Hope Street",
+    "unit": "Unit 1",
+    "lineWithUnit": "1273 Hope Street Unit 1",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06907"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 1543.0,
+   "acres": 0.19,
+   "price": 1900.0,
+   "date": "2026-10-01",
+   "listingType": "rent",
+   "rentPeriod": "month",
+   "geo": {
+    "lat": 41.10042,
+    "lng": -73.51654
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9035379553991978,
+   "ppsf": 1.2313674659753726
   }
  ]
 }

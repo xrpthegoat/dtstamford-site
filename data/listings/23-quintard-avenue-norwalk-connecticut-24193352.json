@@ -5,6 +5,9 @@
  "listingType": "rent",
  "propertyType": "Residential Rental",
  "price": 2800.0,
+ "leasePriceDesc": "Per Month",
+ "rentPeriod": "month",
+ "rentalDuration": "Yearly Unfurnished",
  "closePrice": null,
  "closeDate": null,
  "beds": 2.0,
@@ -52,7 +55,7 @@
   "lng": -73.414154
  },
  "facts": {
-  "dom": 68,
+  "dom": 74,
   "listed": "2026-07-24",
   "sewer": "Public Sewer Connected",
   "water": "Public Water Connected",
@@ -78,9 +81,6 @@
   "waterfront": "Walk to Water,Beach Rights,Water Community,Harbor",
   "directWaterfront": "0"
  },
- "leasePriceDesc": "Per Month",
- "rentPeriod": "month",
- "rentalDuration": "Yearly Unfurnished",
  "indexable": true,
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
@@ -247,33 +247,33 @@
    "ppsf": 5.287009063444109
   },
   {
-   "mls": "24111553",
-   "slug": "22-baxter-drive-norwalk-connecticut-24111553",
+   "mls": "24146096",
+   "slug": "49-day-street-norwalk-connecticut-24146096",
    "address": {
-    "line": "22 Baxter Drive",
-    "unit": null,
-    "lineWithUnit": "22 Baxter Drive",
+    "line": "49 Day Street",
+    "unit": "Unit 301",
+    "lineWithUnit": "49 Day Street Unit 301",
     "city": "Norwalk",
     "state": "Connecticut",
     "zip": "06854"
    },
-   "beds": 2.0,
-   "baths": 2.0,
-   "sqft": 1324.0,
-   "acres": 0.14,
-   "price": 6750.0,
-   "date": "2025-09-18",
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 832.0,
+   "acres": null,
+   "price": 2500.0,
+   "date": "2026-01-30",
    "listingType": "rent",
    "rentPeriod": "month",
    "geo": {
-    "lat": 41.08628,
-    "lng": -73.4119
+    "lat": 41.094154,
+    "lng": -73.4175
    },
    "klass": "rental",
    "tier": 3,
    "why": "Within a 15-minute walk, sold in the last year",
-   "km": 0.4913290701922914,
-   "ppsf": 5.098187311178248
+   "km": 0.5066524391658764,
+   "ppsf": 3.0048076923076925
   }
  ]
 }

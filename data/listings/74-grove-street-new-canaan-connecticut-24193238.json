@@ -5,6 +5,9 @@
  "listingType": "rent",
  "propertyType": "Residential Rental",
  "price": 3900.0,
+ "leasePriceDesc": "Per Month",
+ "rentPeriod": "month",
+ "rentalDuration": "Yearly Unfurnished",
  "closePrice": null,
  "closeDate": null,
  "beds": 3.0,
@@ -53,7 +56,7 @@
   "lng": -73.49813
  },
  "facts": {
-  "dom": 71,
+  "dom": 77,
   "listed": "2026-07-21",
   "floodZone": "0",
   "sewer": "Public Sewer Connected",
@@ -85,9 +88,6 @@
   "waterfront": "Water Community",
   "directWaterfront": "0"
  },
- "leasePriceDesc": "Per Month",
- "rentPeriod": "month",
- "rentalDuration": "Yearly Unfurnished",
  "indexable": true,
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
@@ -162,35 +162,6 @@
    "why": "Within a 15-minute walk, sold in the last year",
    "km": 0.13410454022690246,
    "ppsf": 6.222222222222222
-  },
-  {
-   "mls": "24110553",
-   "slug": "110-north-richmond-hill-road-new-canaan-connecticut-24110553",
-   "address": {
-    "line": "110 North Richmond Hill Road",
-    "unit": null,
-    "lineWithUnit": "110 North Richmond Hill Road",
-    "city": "New Canaan",
-    "state": "Connecticut",
-    "zip": "06840"
-   },
-   "beds": 1.0,
-   "baths": 1.0,
-   "sqft": 875.0,
-   "acres": 0.43,
-   "price": 2200.0,
-   "date": "2025-09-03",
-   "listingType": "rent",
-   "rentPeriod": "month",
-   "geo": {
-    "lat": 41.141955,
-    "lng": -73.499104
-   },
-   "klass": "rental",
-   "tier": 3,
-   "why": "Within a 15-minute walk, sold in the last year",
-   "km": 0.22284069316359545,
-   "ppsf": 2.5142857142857142
   },
   {
    "mls": "24188538",
@@ -278,6 +249,35 @@
    "why": "Within a 15-minute walk, sold in the last year",
    "km": 0.4238044286481136,
    "ppsf": 3.002018163471241
+  },
+  {
+   "mls": "24175726",
+   "slug": "54-main-street-new-canaan-connecticut-24175726",
+   "address": {
+    "line": "54 Main Street",
+    "unit": null,
+    "lineWithUnit": "54 Main Street",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 1347.0,
+   "acres": null,
+   "price": 7500.0,
+   "date": "2026-08-17",
+   "listingType": "rent",
+   "rentPeriod": "month",
+   "geo": {
+    "lat": 41.148605,
+    "lng": -73.49375
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.6462224392329171,
+   "ppsf": 5.567928730512249
   }
  ]
 }

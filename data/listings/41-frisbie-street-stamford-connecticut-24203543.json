@@ -5,6 +5,9 @@
  "listingType": "rent",
  "propertyType": "Residential Rental",
  "price": 4000.0,
+ "leasePriceDesc": "Per Month",
+ "rentPeriod": "month",
+ "rentalDuration": "Yearly Unfurnished",
  "closePrice": null,
  "closeDate": null,
  "beds": 3.0,
@@ -60,7 +63,7 @@
   "lng": -73.525318
  },
  "facts": {
-  "dom": 29,
+  "dom": 35,
   "listed": "2026-09-01",
   "sewer": "Public Sewer Connected",
   "water": "Public Water Connected",
@@ -89,9 +92,6 @@
   "waterfront": "Not Applicable",
   "directWaterfront": "0"
  },
- "leasePriceDesc": "Per Month",
- "rentPeriod": "month",
- "rentalDuration": "Yearly Unfurnished",
  "indexable": true,
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
@@ -141,35 +141,6 @@
   }
  },
  "comps": [
-  {
-   "mls": "24124426",
-   "slug": "31-faucett-street-stamford-connecticut-24124426",
-   "address": {
-    "line": "31 Faucett Street",
-    "unit": null,
-    "lineWithUnit": "31 Faucett Street",
-    "city": "Stamford",
-    "state": "Connecticut",
-    "zip": "06906"
-   },
-   "beds": 3.0,
-   "baths": 2.0,
-   "sqft": 1770.0,
-   "acres": 0.11,
-   "price": 4000.0,
-   "date": "2025-09-27",
-   "listingType": "rent",
-   "rentPeriod": "month",
-   "geo": {
-    "lat": 41.06773,
-    "lng": -73.52506
-   },
-   "klass": "rental",
-   "tier": 3,
-   "why": "Within a 15-minute walk, sold in the last year",
-   "km": 0.08153594479557558,
-   "ppsf": 2.2598870056497176
-  },
   {
    "mls": "24152158",
    "slug": "54-morris-street-stamford-connecticut-24152158",
@@ -285,6 +256,35 @@
    "why": "Within a 15-minute walk, sold in the last year",
    "km": 0.26636099544612724,
    "ppsf": 2.127659574468085
+  },
+  {
+   "mls": "24128385",
+   "slug": "53-treat-avenue-stamford-connecticut-24128385",
+   "address": {
+    "line": "53 Treat Avenue",
+    "unit": "Unit 2",
+    "lineWithUnit": "53 Treat Avenue Unit 2",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06906"
+   },
+   "beds": 3.0,
+   "baths": 1.0,
+   "sqft": 1200.0,
+   "acres": 0.2,
+   "price": 3400.0,
+   "date": "2025-11-01",
+   "listingType": "rent",
+   "rentPeriod": "month",
+   "geo": {
+    "lat": 41.065975,
+    "lng": -73.528175
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.26636099544612724,
+   "ppsf": 2.8333333333333335
   }
  ]
 }

@@ -5,6 +5,9 @@
  "listingType": "rent",
  "propertyType": "Residential Rental",
  "price": 2395.0,
+ "leasePriceDesc": "Per Month",
+ "rentPeriod": "month",
+ "rentalDuration": "Yearly Unfurnished",
  "closePrice": null,
  "closeDate": null,
  "beds": 1.0,
@@ -44,7 +47,7 @@
   "lng": -73.513733
  },
  "facts": {
-  "dom": 70,
+  "dom": 76,
   "listed": "2026-07-22",
   "floodZone": "0",
   "sewer": "Public Sewer Connected",
@@ -75,9 +78,6 @@
   "waterfront": "Not Applicable",
   "directWaterfront": "0"
  },
- "leasePriceDesc": "Per Month",
- "rentPeriod": "month",
- "rentalDuration": "Yearly Unfurnished",
  "indexable": true,
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
@@ -214,6 +214,35 @@
    "ppsf": 3.8596491228070176
   },
   {
+   "mls": "24200492",
+   "slug": "59-courtland-avenue-stamford-connecticut-24200492",
+   "address": {
+    "line": "59 Courtland Avenue",
+    "unit": "Unit C-5",
+    "lineWithUnit": "59 Courtland Avenue Unit C-5",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 870.0,
+   "acres": null,
+   "price": 2875.0,
+   "date": "2026-10-01",
+   "listingType": "rent",
+   "rentPeriod": "month",
+   "geo": {
+    "lat": 41.060718,
+    "lng": -73.513609
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.22063341955959087,
+   "ppsf": 3.3045977011494254
+  },
+  {
    "mls": "24198775",
    "slug": "8-hamilton-court-stamford-connecticut-24198775",
    "address": {
@@ -241,35 +270,6 @@
    "why": "Within a 15-minute walk, sold in the last year",
    "km": 0.2288873116631955,
    "ppsf": 2.5393939393939395
-  },
-  {
-   "mls": "24196846",
-   "slug": "13-hamilton-court-stamford-connecticut-24196846",
-   "address": {
-    "line": "13 Hamilton Court",
-    "unit": "Unit C",
-    "lineWithUnit": "13 Hamilton Court Unit C",
-    "city": "Stamford",
-    "state": "Connecticut",
-    "zip": "06902"
-   },
-   "beds": 1.0,
-   "baths": 1.0,
-   "sqft": 825.0,
-   "acres": 4.48,
-   "price": 2275.0,
-   "date": "2026-08-26",
-   "listingType": "rent",
-   "rentPeriod": "month",
-   "geo": {
-    "lat": 41.0623,
-    "lng": -73.511055
-   },
-   "klass": "rental",
-   "tier": 3,
-   "why": "Within a 15-minute walk, sold in the last year",
-   "km": 0.2288873116631955,
-   "ppsf": 2.757575757575758
   }
  ]
 }

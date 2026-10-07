@@ -5,6 +5,9 @@
  "listingType": "rent",
  "propertyType": "Residential Rental",
  "price": 4950.0,
+ "leasePriceDesc": "Per Month",
+ "rentPeriod": "month",
+ "rentalDuration": "Yearly Unfurnished",
  "closePrice": null,
  "closeDate": null,
  "beds": 3.0,
@@ -61,7 +64,7 @@
   "lng": -73.52783
  },
  "facts": {
-  "dom": 41,
+  "dom": 47,
   "listed": "2026-08-20",
   "sewer": "Public Sewer Connected",
   "water": "Public Water Connected",
@@ -89,9 +92,6 @@
   "waterfront": "Walk to Water,Beach Rights,Water Community,Access",
   "directWaterfront": "0"
  },
- "leasePriceDesc": "Per Month",
- "rentPeriod": "month",
- "rentalDuration": "Yearly Unfurnished",
  "indexable": true,
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
@@ -140,35 +140,6 @@
   }
  },
  "comps": [
-  {
-   "mls": "24116904",
-   "slug": "1093-shippan-avenue-stamford-connecticut-24116904",
-   "address": {
-    "line": "1093 Shippan Avenue",
-    "unit": null,
-    "lineWithUnit": "1093 Shippan Avenue",
-    "city": "Stamford",
-    "state": "Connecticut",
-    "zip": "06902"
-   },
-   "beds": 3.0,
-   "baths": 2.0,
-   "sqft": 2000.0,
-   "acres": 10.0,
-   "price": 6000.0,
-   "date": "2025-09-02",
-   "listingType": "rent",
-   "rentPeriod": "month",
-   "geo": {
-    "lat": 41.037273,
-    "lng": -73.52783
-   },
-   "klass": "rental",
-   "tier": 3,
-   "why": "Within a 15-minute walk, sold in the last year",
-   "km": 0.0,
-   "ppsf": 3.0
-  },
   {
    "mls": "24158743",
    "slug": "1124-shippan-avenue-stamford-connecticut-24158743",
@@ -284,6 +255,35 @@
    "why": "Within a 15-minute walk, sold in the last year",
    "km": 0.28059227147377763,
    "ppsf": 3.903903903903904
+  },
+  {
+   "mls": "24156738",
+   "slug": "90-iroquois-road-stamford-connecticut-24156738",
+   "address": {
+    "line": "90 Iroquois Road",
+    "unit": "Unit A",
+    "lineWithUnit": "90 Iroquois Road Unit A",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 3.0,
+   "baths": 3.0,
+   "sqft": 1500.0,
+   "acres": 0.12,
+   "price": 4300.0,
+   "date": "2026-08-01",
+   "listingType": "rent",
+   "rentPeriod": "month",
+   "geo": {
+    "lat": 41.037663,
+    "lng": -73.52379
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.34160727265884844,
+   "ppsf": 2.8666666666666667
   }
  ]
 }

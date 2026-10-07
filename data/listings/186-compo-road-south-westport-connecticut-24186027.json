@@ -5,6 +5,9 @@
  "listingType": "rent",
  "propertyType": "Residential Rental",
  "price": 11500.0,
+ "leasePriceDesc": "Per Month",
+ "rentPeriod": "month",
+ "rentalDuration": "Yearly Unfurnished",
  "closePrice": null,
  "closeDate": null,
  "beds": 3.0,
@@ -61,7 +64,7 @@
   "lng": -73.361429
  },
  "facts": {
-  "dom": 79,
+  "dom": 85,
   "listed": "2026-07-13",
   "sewer": "Septic",
   "water": "Public Water Connected",
@@ -93,9 +96,6 @@
   "directWaterfront": "0",
   "energy": "Generator"
  },
- "leasePriceDesc": "Per Month",
- "rentPeriod": "month",
- "rentalDuration": "Yearly Unfurnished",
  "indexable": true,
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
@@ -145,35 +145,6 @@
   }
  },
  "comps": [
-  {
-   "mls": "24115025",
-   "slug": "15-keyser-road-westport-connecticut-24115025",
-   "address": {
-    "line": "15 Keyser Road",
-    "unit": null,
-    "lineWithUnit": "15 Keyser Road",
-    "city": "Westport",
-    "state": "Connecticut",
-    "zip": "06880"
-   },
-   "beds": 3.0,
-   "baths": 3.0,
-   "sqft": 2268.0,
-   "acres": 0.43,
-   "price": 8500.0,
-   "date": "2025-09-12",
-   "listingType": "rent",
-   "rentPeriod": "month",
-   "geo": {
-    "lat": 41.125733,
-    "lng": -73.362197
-   },
-   "klass": "rental",
-   "tier": 3,
-   "why": "Within a 15-minute walk, sold in the last year",
-   "km": 0.26749049772650896,
-   "ppsf": 3.747795414462081
-  },
   {
    "mls": "24130694",
    "slug": "16-mortar-rock-road-westport-connecticut-24130694",
@@ -262,33 +233,62 @@
    "ppsf": 3.236245954692557
   },
   {
-   "mls": "24073530",
-   "slug": "28-narrow-rocks-road-westport-connecticut-24073530",
+   "mls": "24184256",
+   "slug": "5-treadwell-avenue-westport-connecticut-24184256",
    "address": {
-    "line": "28 Narrow Rocks Road",
+    "line": "5 Treadwell Avenue",
     "unit": null,
-    "lineWithUnit": "28 Narrow Rocks Road",
+    "lineWithUnit": "5 Treadwell Avenue",
     "city": "Westport",
     "state": "Connecticut",
     "zip": "06880"
    },
    "beds": 3.0,
    "baths": 2.0,
-   "sqft": 2472.0,
-   "acres": 0.64,
-   "price": 9500.0,
-   "date": "2025-09-01",
+   "sqft": 1552.0,
+   "acres": 0.32,
+   "price": 4950.0,
+   "date": "2026-07-29",
    "listingType": "rent",
    "rentPeriod": "month",
    "geo": {
-    "lat": 41.118233,
-    "lng": -73.35962
+    "lat": 41.124499,
+    "lng": -73.373105
    },
    "klass": "rental",
    "tier": 3,
    "why": "Within a 15-minute walk, sold in the last year",
-   "km": 0.5939761010081287,
-   "ppsf": 3.843042071197411
+   "km": 0.9856363242532773,
+   "ppsf": 3.189432989690722
+  },
+  {
+   "mls": "24175707",
+   "slug": "251-riverside-avenue-westport-connecticut-24175707",
+   "address": {
+    "line": "251 Riverside Avenue",
+    "unit": "Unit 251 A - 2nd floor",
+    "lineWithUnit": "251 Riverside Avenue Unit 251 A - 2nd floor",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880"
+   },
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 1560.0,
+   "acres": null,
+   "price": 11000.0,
+   "date": "2026-07-31",
+   "listingType": "rent",
+   "rentPeriod": "month",
+   "geo": {
+    "lat": 41.131784,
+    "lng": -73.367883
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0778381576609326,
+   "ppsf": 7.051282051282051
   }
  ]
 }

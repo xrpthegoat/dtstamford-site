@@ -5,6 +5,9 @@
  "listingType": "rent",
  "propertyType": "Residential Rental",
  "price": 5400.0,
+ "leasePriceDesc": "Per Month",
+ "rentPeriod": "month",
+ "rentalDuration": "Yearly Unfurnished",
  "closePrice": null,
  "closeDate": null,
  "beds": 3.0,
@@ -59,7 +62,7 @@
   "lng": -73.55092
  },
  "facts": {
-  "dom": 16,
+  "dom": 22,
   "listed": "2026-09-14",
   "sewer": "Public Sewer Connected",
   "water": "Public Water Connected",
@@ -91,9 +94,6 @@
   "waterfront": "Not Applicable",
   "directWaterfront": "0"
  },
- "leasePriceDesc": "Per Month",
- "rentPeriod": "month",
- "rentalDuration": "Yearly Unfurnished",
  "indexable": true,
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
@@ -262,12 +262,12 @@
    "ppsf": 1.7741935483870968
   },
   {
-   "mls": "24203557",
-   "slug": "1385-washington-boulevard-stamford-connecticut-24203557",
+   "mls": "24206699",
+   "slug": "1385-washington-boulevard-stamford-connecticut-24206699",
    "address": {
     "line": "1385 Washington Boulevard",
-    "unit": "Unit 6",
-    "lineWithUnit": "1385 Washington Boulevard Unit 6",
+    "unit": "Unit 7",
+    "lineWithUnit": "1385 Washington Boulevard Unit 7",
     "city": "Stamford",
     "state": "Connecticut",
     "zip": "06902"
@@ -276,8 +276,8 @@
    "baths": 4.0,
    "sqft": 2800.0,
    "acres": 0.21,
-   "price": 5500.0,
-   "date": "2026-09-09",
+   "price": 5100.0,
+   "date": "2026-10-02",
    "listingType": "rent",
    "rentPeriod": "month",
    "geo": {
@@ -288,7 +288,7 @@
    "tier": 3,
    "why": "Within a 15-minute walk, sold in the last year",
    "km": 1.0695324114645968,
-   "ppsf": 1.9642857142857142
+   "ppsf": 1.8214285714285714
   }
  ]
 }

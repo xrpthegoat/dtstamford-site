@@ -1,10 +1,13 @@
 {
  "mls": "24201221",
  "slug": "172-heritage-hill-road-new-canaan-connecticut-24201221",
- "status": "Under Contract - Continue to Show",
+ "status": "Under Contract",
  "listingType": "rent",
  "propertyType": "Residential Rental",
  "price": 2500.0,
+ "leasePriceDesc": "Per Month",
+ "rentPeriod": "month",
+ "rentalDuration": "Yearly Unfurnished",
  "closePrice": null,
  "closeDate": null,
  "beds": 1.0,
@@ -41,13 +44,13 @@
   "https://smartmls-assets.cdn-connectmls.com/pics/59A613D50E08A1B2E0631A01100A20A0/HD_1787430379972_Bath.JPEG"
  ],
  "primaryPhotoOnly": false,
- "updated": "2026-09-28T21:04:50",
+ "updated": "2026-10-05T15:02:23",
  "geo": {
   "lat": 41.153805,
   "lng": -73.495285
  },
  "facts": {
-  "dom": 37,
+  "dom": 42,
   "listed": "2026-08-24",
   "sewer": "Public Sewer Connected",
   "water": "Public Water Connected",
@@ -76,9 +79,6 @@
   "waterfront": "Not Applicable",
   "directWaterfront": "0"
  },
- "leasePriceDesc": "Per Month",
- "rentPeriod": "month",
- "rentalDuration": "Yearly Unfurnished",
  "indexable": true,
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
@@ -124,35 +124,6 @@
   }
  },
  "comps": [
-  {
-   "mls": "24117908",
-   "slug": "40-seminary-street-new-canaan-connecticut-24117908",
-   "address": {
-    "line": "40 Seminary Street",
-    "unit": "Unit A",
-    "lineWithUnit": "40 Seminary Street Unit A",
-    "city": "New Canaan",
-    "state": "Connecticut",
-    "zip": "06840"
-   },
-   "beds": 1.0,
-   "baths": 1.0,
-   "sqft": 600.0,
-   "acres": 0.21,
-   "price": 3100.0,
-   "date": "2025-09-01",
-   "listingType": "rent",
-   "rentPeriod": "month",
-   "geo": {
-    "lat": 41.146724,
-    "lng": -73.497178
-   },
-   "klass": "rental",
-   "tier": 3,
-   "why": "Within a 15-minute walk, sold in the last year",
-   "km": 0.8031656229949538,
-   "ppsf": 5.166666666666667
-  },
   {
    "mls": "24138371",
    "slug": "43-hoyt-street-new-canaan-connecticut-24138371",
@@ -239,6 +210,35 @@
    "why": "Within a 15-minute walk, sold in the last year",
    "km": 1.116903162790202,
    "ppsf": 4.634146341463414
+  },
+  {
+   "mls": "24117908",
+   "slug": "40-seminary-street-new-canaan-connecticut-24117908",
+   "address": {
+    "line": "40 Seminary Street",
+    "unit": "Unit A",
+    "lineWithUnit": "40 Seminary Street Unit A",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 600.0,
+   "acres": 0.21,
+   "price": 3100.0,
+   "date": "2025-09-01",
+   "listingType": "rent",
+   "rentPeriod": "month",
+   "geo": {
+    "lat": 41.146724,
+    "lng": -73.497178
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 0.8031656229949538,
+   "ppsf": 5.166666666666667
   },
   {
    "mls": "24177121",

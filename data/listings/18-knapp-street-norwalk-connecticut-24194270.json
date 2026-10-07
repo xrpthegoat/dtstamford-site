@@ -5,6 +5,9 @@
  "listingType": "rent",
  "propertyType": "Residential Rental",
  "price": 2000.0,
+ "leasePriceDesc": "Per Month",
+ "rentPeriod": "month",
+ "rentalDuration": "Yearly Unfurnished",
  "closePrice": null,
  "closeDate": null,
  "beds": 1.0,
@@ -44,7 +47,7 @@
   "lng": -73.42402
  },
  "facts": {
-  "dom": 61,
+  "dom": 67,
   "listed": "2026-07-31",
   "sewer": "Public Sewer Connected",
   "water": "Public Water Connected",
@@ -75,9 +78,6 @@
   "waterfront": "Not Applicable",
   "directWaterfront": "0"
  },
- "leasePriceDesc": "Per Month",
- "rentPeriod": "month",
- "rentalDuration": "Yearly Unfurnished",
  "indexable": true,
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
@@ -214,6 +214,35 @@
    "ppsf": 4.0
   },
   {
+   "mls": "24208632",
+   "slug": "49-day-street-norwalk-connecticut-24208632",
+   "address": {
+    "line": "49 Day Street",
+    "unit": "Unit 307",
+    "lineWithUnit": "49 Day Street Unit 307",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06854"
+   },
+   "beds": 0.0,
+   "baths": 1.0,
+   "sqft": 400.0,
+   "acres": null,
+   "price": 1800.0,
+   "date": "2026-10-02",
+   "listingType": "rent",
+   "rentPeriod": "month",
+   "geo": {
+    "lat": 41.094153,
+    "lng": -73.417504
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.9869056000434643,
+   "ppsf": 4.5
+  },
+  {
    "mls": "24140707",
    "slug": "55-bouton-street-norwalk-connecticut-24140707",
    "address": {
@@ -241,35 +270,6 @@
    "why": "Within about a mile and a half, sold in the last 2 years",
    "km": 0.49998424360259275,
    "ppsf": 3.515625
-  },
-  {
-   "mls": "24112121",
-   "slug": "55-bouton-street-norwalk-connecticut-24112121",
-   "address": {
-    "line": "55 Bouton Street",
-    "unit": "Unit 2",
-    "lineWithUnit": "55 Bouton Street Unit 2",
-    "city": "Norwalk",
-    "state": "Connecticut",
-    "zip": "06854"
-   },
-   "beds": 2.0,
-   "baths": 1.0,
-   "sqft": 512.0,
-   "acres": 0.21,
-   "price": 1750.0,
-   "date": "2025-08-06",
-   "listingType": "rent",
-   "rentPeriod": "month",
-   "geo": {
-    "lat": 41.08956,
-    "lng": -73.428688
-   },
-   "klass": "rental",
-   "tier": 4,
-   "why": "Within about a mile and a half, sold in the last 2 years",
-   "km": 0.49998424360259275,
-   "ppsf": 3.41796875
   }
  ]
 }

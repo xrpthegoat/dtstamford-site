@@ -5,6 +5,9 @@
  "listingType": "rent",
  "propertyType": "Residential Rental",
  "price": 2400.0,
+ "leasePriceDesc": "Per Month",
+ "rentPeriod": "month",
+ "rentalDuration": "Yearly Furnished",
  "closePrice": null,
  "closeDate": null,
  "beds": 2.0,
@@ -50,7 +53,7 @@
  "primaryPhotoOnly": false,
  "updated": "2026-09-09T10:39:36",
  "facts": {
-  "dom": 21,
+  "dom": 27,
   "listed": "2026-09-09",
   "sewer": "Public Sewer Connected",
   "water": "Public Water Connected",
@@ -77,9 +80,6 @@
   "waterfront": "Access",
   "directWaterfront": "0"
  },
- "leasePriceDesc": "Per Month",
- "rentPeriod": "month",
- "rentalDuration": "Yearly Furnished",
  "indexable": false,
  "geo": null,
  "meta": {
@@ -96,149 +96,149 @@
  },
  "comps": [
   {
-   "mls": "24187996",
-   "slug": "4-mckinley-street-norwalk-connecticut-24187996",
+   "mls": "24206850",
+   "slug": "11-phillips-street-norwalk-connecticut-24206850",
    "address": {
-    "line": "4 McKinley Street",
+    "line": "11 Phillips Street",
+    "unit": "Unit B",
+    "lineWithUnit": "11 Phillips Street Unit B",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 1097.0,
+   "acres": 0.12,
+   "price": 2500.0,
+   "date": "2026-10-05",
+   "listingType": "rent",
+   "rentPeriod": "month",
+   "geo": {
+    "lat": 41.109571,
+    "lng": -73.427102
+   },
+   "klass": "rental",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": null,
+   "ppsf": 2.2789425706472195
+  },
+  {
+   "mls": "24199014",
+   "slug": "75-roton-avenue-norwalk-connecticut-24199014",
+   "address": {
+    "line": "75 Roton Avenue",
     "unit": null,
-    "lineWithUnit": "4 McKinley Street",
+    "lineWithUnit": "75 Roton Avenue",
     "city": "Norwalk",
     "state": "Connecticut",
     "zip": "06853"
    },
-   "beds": 1.0,
-   "baths": 2.0,
-   "sqft": 804.0,
-   "acres": 0.12,
-   "price": 4100.0,
-   "date": "2026-09-28",
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 800.0,
+   "acres": 0.15,
+   "price": 4200.0,
+   "date": "2026-10-05",
    "listingType": "rent",
    "rentPeriod": "month",
    "geo": {
-    "lat": 41.06529,
-    "lng": -73.44352
+    "lat": 41.061348,
+    "lng": -73.44159
    },
    "klass": "rental",
    "tier": 5,
    "why": "Same town, sold in the last 3 years",
    "km": null,
-   "ppsf": 5.099502487562189
+   "ppsf": 5.25
   },
   {
-   "mls": "24198030",
-   "slug": "84-west-avenue-norwalk-connecticut-24198030",
+   "mls": "24209092",
+   "slug": "454-main-avenue-norwalk-connecticut-24209092",
    "address": {
-    "line": "84 West Avenue",
-    "unit": "Unit C3",
-    "lineWithUnit": "84 West Avenue Unit C3",
+    "line": "454 Main Avenue",
+    "unit": "Unit 1",
+    "lineWithUnit": "454 Main Avenue Unit 1",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 900.0,
+   "acres": null,
+   "price": 2400.0,
+   "date": "2026-10-05",
+   "listingType": "rent",
+   "rentPeriod": "month",
+   "geo": {
+    "lat": 41.149955,
+    "lng": -73.425085
+   },
+   "klass": "rental",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": null,
+   "ppsf": 2.6666666666666665
+  },
+  {
+   "mls": "24203531",
+   "slug": "32-haviland-street-norwalk-connecticut-24203531",
+   "address": {
+    "line": "32 Haviland Street",
+    "unit": "Unit 203",
+    "lineWithUnit": "32 Haviland Street Unit 203",
     "city": "Norwalk",
     "state": "Connecticut",
     "zip": "06854"
    },
-   "beds": 1.0,
+   "beds": 0.0,
    "baths": 1.0,
-   "sqft": 1200.0,
-   "acres": 0.77,
-   "price": 1600.0,
-   "date": "2026-09-27",
+   "sqft": 595.0,
+   "acres": null,
+   "price": 2009.0,
+   "date": "2026-10-05",
    "listingType": "rent",
    "rentPeriod": "month",
    "geo": {
-    "lat": 41.1048,
-    "lng": -73.42003
+    "lat": 41.097824,
+    "lng": -73.41655
    },
    "klass": "rental",
    "tier": 5,
    "why": "Same town, sold in the last 3 years",
    "km": null,
-   "ppsf": 1.3333333333333333
+   "ppsf": 3.376470588235294
   },
   {
-   "mls": "24208256",
-   "slug": "71-aiken-street-norwalk-connecticut-24208256",
+   "mls": "24206981",
+   "slug": "6-silvermine-avenue-norwalk-connecticut-24206981",
    "address": {
-    "line": "71 Aiken Street",
-    "unit": "Unit O3",
-    "lineWithUnit": "71 Aiken Street Unit O3",
+    "line": "6 Silvermine Avenue",
+    "unit": "Unit 5",
+    "lineWithUnit": "6 Silvermine Avenue Unit 5",
     "city": "Norwalk",
     "state": "Connecticut",
-    "zip": "06851"
+    "zip": "06850"
    },
    "beds": 1.0,
-   "baths": 1.0,
-   "sqft": 739.0,
+   "baths": 2.0,
+   "sqft": 721.0,
    "acres": null,
    "price": 2100.0,
-   "date": "2026-09-27",
+   "date": "2026-10-03",
    "listingType": "rent",
    "rentPeriod": "month",
    "geo": {
-    "lat": 41.136093,
-    "lng": -73.41951
+    "lat": 41.127598,
+    "lng": -73.43057
    },
    "klass": "rental",
    "tier": 5,
    "why": "Same town, sold in the last 3 years",
    "km": null,
-   "ppsf": 2.841677943166441
-  },
-  {
-   "mls": "24208708",
-   "slug": "266-main-avenue-norwalk-connecticut-24208708",
-   "address": {
-    "line": "266 Main Avenue",
-    "unit": "Unit 5",
-    "lineWithUnit": "266 Main Avenue Unit 5",
-    "city": "Norwalk",
-    "state": "Connecticut",
-    "zip": "06851"
-   },
-   "beds": 1.0,
-   "baths": 1.0,
-   "sqft": 700.0,
-   "acres": null,
-   "price": 1750.0,
-   "date": "2026-09-27",
-   "listingType": "rent",
-   "rentPeriod": "month",
-   "geo": {
-    "lat": 41.132175,
-    "lng": -73.423444
-   },
-   "klass": "rental",
-   "tier": 5,
-   "why": "Same town, sold in the last 3 years",
-   "km": null,
-   "ppsf": 2.5
-  },
-  {
-   "mls": "24197123",
-   "slug": "26-loundsbury-avenue-norwalk-connecticut-24197123",
-   "address": {
-    "line": "26 Loundsbury Avenue",
-    "unit": "Unit 2",
-    "lineWithUnit": "26 Loundsbury Avenue Unit 2",
-    "city": "Norwalk",
-    "state": "Connecticut",
-    "zip": "06851"
-   },
-   "beds": 2.0,
-   "baths": 1.0,
-   "sqft": 1000.0,
-   "acres": 0.11,
-   "price": 2595.0,
-   "date": "2026-09-26",
-   "listingType": "rent",
-   "rentPeriod": "month",
-   "geo": {
-    "lat": 41.12291,
-    "lng": -73.42092
-   },
-   "klass": "rental",
-   "tier": 5,
-   "why": "Same town, sold in the last 3 years",
-   "km": null,
-   "ppsf": 2.595
+   "ppsf": 2.912621359223301
   }
  ]
 }

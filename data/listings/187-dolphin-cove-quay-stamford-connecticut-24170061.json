@@ -5,6 +5,9 @@
  "listingType": "rent",
  "propertyType": "Residential Rental",
  "price": 12000.0,
+ "leasePriceDesc": "Per Month",
+ "rentPeriod": "month",
+ "rentalDuration": "Yearly Unfurnished",
  "closePrice": null,
  "closeDate": null,
  "beds": 4.0,
@@ -94,9 +97,6 @@
   "waterfront": "Dock or Mooring,Beach Rights,Water Community,View",
   "directWaterfront": "0"
  },
- "leasePriceDesc": "Per Month",
- "rentPeriod": "month",
- "rentalDuration": "Yearly Unfurnished",
  "indexable": true,
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
@@ -204,35 +204,6 @@
    "ppsf": 1.43687707641196
   },
   {
-   "mls": "24039257",
-   "slug": "100-burwood-avenue-stamford-connecticut-24039257",
-   "address": {
-    "line": "100 Burwood Avenue",
-    "unit": "#Left",
-    "lineWithUnit": "100 Burwood Avenue #Left",
-    "city": "Stamford",
-    "state": "Connecticut",
-    "zip": "06902"
-   },
-   "beds": 3.0,
-   "baths": 2.0,
-   "sqft": 2080.0,
-   "acres": null,
-   "price": 3600.0,
-   "date": "2024-09-30",
-   "listingType": "rent",
-   "rentPeriod": "month",
-   "geo": {
-    "lat": 41.03245,
-    "lng": -73.54917
-   },
-   "klass": "rental",
-   "tier": 4,
-   "why": "Within about a mile and a half, sold in the last 2 years",
-   "km": 0.7629714540631897,
-   "ppsf": 1.7307692307692308
-  },
-  {
    "mls": "24183135",
    "slug": "92-burwood-avenue-stamford-connecticut-24183135",
    "address": {
@@ -289,6 +260,35 @@
    "why": "Within about a mile and a half, sold in the last 2 years",
    "km": 0.9369644149487504,
    "ppsf": 2.3995535714285716
+  },
+  {
+   "mls": "24089899",
+   "slug": "27-wells-avenue-stamford-connecticut-24089899",
+   "address": {
+    "line": "27 Wells Avenue",
+    "unit": null,
+    "lineWithUnit": "27 Wells Avenue",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 2104.0,
+   "acres": 0.23,
+   "price": 6500.0,
+   "date": "2025-04-29",
+   "listingType": "rent",
+   "rentPeriod": "month",
+   "geo": {
+    "lat": 41.035172,
+    "lng": -73.549017
+   },
+   "klass": "rental",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 1.0641674854394465,
+   "ppsf": 3.0893536121673004
   }
  ]
 }

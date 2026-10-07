@@ -5,6 +5,9 @@
  "listingType": "rent",
  "propertyType": "Residential Rental",
  "price": 3200.0,
+ "leasePriceDesc": "Per Month",
+ "rentPeriod": "month",
+ "rentalDuration": "Yearly Unfurnished",
  "closePrice": null,
  "closeDate": null,
  "beds": 3.0,
@@ -47,7 +50,7 @@
   "lng": -73.424902
  },
  "facts": {
-  "dom": 6,
+  "dom": 12,
   "listed": "2026-09-24",
   "sewer": "Public Sewer Connected",
   "water": "Public Water Connected",
@@ -75,9 +78,6 @@
   "waterfront": "Beach Rights",
   "directWaterfront": "0"
  },
- "leasePriceDesc": "Per Month",
- "rentPeriod": "month",
- "rentalDuration": "Yearly Unfurnished",
  "indexable": true,
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
@@ -216,35 +216,6 @@
    "ppsf": 2.0833333333333335
   },
   {
-   "mls": "24122617",
-   "slug": "9-glenwood-avenue-norwalk-connecticut-24122617",
-   "address": {
-    "line": "9 Glenwood Avenue",
-    "unit": "Unit 3",
-    "lineWithUnit": "9 Glenwood Avenue Unit 3",
-    "city": "Norwalk",
-    "state": "Connecticut",
-    "zip": "06854"
-   },
-   "beds": 2.0,
-   "baths": 2.0,
-   "sqft": 1200.0,
-   "acres": null,
-   "price": 2600.0,
-   "date": "2025-09-17",
-   "listingType": "rent",
-   "rentPeriod": "month",
-   "geo": {
-    "lat": 41.106777,
-    "lng": -73.42833
-   },
-   "klass": "rental",
-   "tier": 3,
-   "why": "Within a 15-minute walk, sold in the last year",
-   "km": 0.40398983550434747,
-   "ppsf": 2.1666666666666665
-  },
-  {
    "mls": "24186819",
    "slug": "16-glenwood-avenue-norwalk-connecticut-24186819",
    "address": {
@@ -272,6 +243,35 @@
    "why": "Within a 15-minute walk, sold in the last year",
    "km": 0.4298036871100976,
    "ppsf": 1.916
+  },
+  {
+   "mls": "24157850",
+   "slug": "60-connecticut-avenue-norwalk-connecticut-24157850",
+   "address": {
+    "line": "60 Connecticut Avenue",
+    "unit": "Unit 3",
+    "lineWithUnit": "60 Connecticut Avenue Unit 3",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1450.0,
+   "acres": 0.36,
+   "price": 2995.0,
+   "date": "2026-04-20",
+   "listingType": "rent",
+   "rentPeriod": "month",
+   "geo": {
+    "lat": 41.107742,
+    "lng": -73.42251
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.4397319972461067,
+   "ppsf": 2.06551724137931
   }
  ]
 }

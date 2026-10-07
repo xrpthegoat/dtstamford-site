@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
 /* Downtown Stamford — shared warm, photographic presentation for content pages. */
 :root{
-  --bg:#090c0b; --bg2:#101412; --fg:#f7f4ee; --fg-soft:#c9cdc6; --muted:#a1aaa2; --faint:#757e77;
-  --line:rgba(240,234,222,.15); --line-2:rgba(240,234,222,.07);
+  --bg:#060608; --bg2:#0a0a0d; --fg:#f5f5f7; --fg-soft:#c0c1cb; --muted:#83848f; --faint:#565761;
+  --line:rgba(255,255,255,.09); --line-2:rgba(255,255,255,.05);
   /* --action was a teal-green (#0e6b5c) John disliked. Now a deep azure: it reads as an ACTION
      against the gold rather than competing with it, and it is the same token everywhere, so
      the tour button, the selected filter pills, the checked boxes and the NEW badge all move
      together. 5.8:1 on white text (AA) and 3.5:1 against the page ground — both verified. */
-  --gold:#cbb482; --gold-l:#ecdbb5; --gold-d:#8f7638; --action:#1d5fd1; --action-l:#4a86f0;
+  --gold:#cbab68; --gold-l:#eed6a3; --gold-d:#8f7638; --action:#1d5fd1; --action-l:#4a86f0;
   --sans:"Plus Jakarta Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
   --disp:"Bricolage Grotesque","Plus Jakarta Sans",sans-serif;
   --mono:"Space Mono",ui-monospace,Menlo,monospace;
@@ -33,8 +33,8 @@ body{font-family:var(--sans);background:var(--bg);color:var(--fg);line-height:1.
 /* ambient futuristic backdrop (CSS-only, no markup) */
 body::before{content:"";position:fixed;inset:0;z-index:-2;pointer-events:none;
   background:
-    radial-gradient(58vw 46vw at 84% -8%, rgba(203,180,130,.06), transparent 60%),
-    radial-gradient(60vw 60vw at 50% 118%, rgba(203,180,130,.04), transparent 62%),
+    radial-gradient(58vw 46vw at 84% -8%, rgba(203,171,104,.06), transparent 60%),
+    radial-gradient(60vw 60vw at 50% 118%, rgba(203,171,104,.04), transparent 62%),
     var(--bg);}
 body::after{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;opacity:.025;
   background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.5'/%3E%3C/svg%3E");}
@@ -165,7 +165,7 @@ figcaption{font-family:var(--mono);font-size:.7rem;letter-spacing:.04em;color:va
 .journal-hub .phero h1{font-weight:500;font-size:clamp(2.8rem,6vw,4.5rem);max-width:none;line-height:1.1}
 .journal-hub .phero .lead{font-size:1.05rem;line-height:1.7}
 .journal-hub .jf{font-family:var(--sans);text-transform:none;letter-spacing:0;font-size:.9rem;padding:12px 20px;min-height:44px;color:var(--fg-soft)}
-.journal-hub .jf.active{color:#171b16;background:var(--gold-l)}
+.journal-hub .jf.active{color:#161006;background:var(--gold-l)}
 .journal-hub .journal-intro h2{font-size:1.8rem;line-height:1.2;margin:0 0 16px}
 .journal-hub .journal-intro p{font-size:1rem;max-width:76ch;line-height:1.8;margin-bottom:20px}
 .journal-hub .journal-topics{display:flex;flex-wrap:wrap;gap:12px 24px;font-size:.9rem;margin-bottom:30px}
@@ -173,7 +173,7 @@ figcaption{font-family:var(--mono);font-size:.7rem;letter-spacing:.04em;color:va
 .journal-hub .journal-directory summary{color:var(--gold-l);cursor:pointer;font-size:.9rem;padding-block:8px}
 .journal-hub .journal-directory .journal-topics{margin-top:16px;margin-bottom:0}
 .journal-hub .jgrid{gap:24px;margin-top:0}
-.journal-hub .jcard{background:#131915;border-radius:12px;box-shadow:none;transition:border-color .2s}
+.journal-hub .jcard{background:rgba(255,255,255,.035);border-radius:12px;box-shadow:none;transition:border-color .2s}
 .journal-hub .jcard:hover{transform:none;border-color:var(--gold)}
 .journal-hub .jthumb picture{display:block;width:100%;height:100%}
 .journal-hub .jbody{padding:24px}
@@ -201,17 +201,17 @@ figcaption{font-family:var(--mono);font-size:.7rem;letter-spacing:.04em;color:va
 .inventory-hub .idx-title-detail{display:block;font-family:var(--sans);font-size:1rem;letter-spacing:0;line-height:1.5;color:var(--gold-l);margin-top:17px}
 .inventory-hub .idx-addr{font-size:1rem;line-height:1.75;max-width:78ch;margin-top:14px;color:var(--fg-soft)}
 .inventory-hub .idx-addr a{text-decoration:underline;text-underline-offset:4px;color:var(--gold-l)}
-.inventory-hub .hub-sband{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:24px;padding:24px;border-radius:16px;background:#131915;margin:0 0 32px;border-color:var(--line)}
+.inventory-hub .hub-sband{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:24px;padding:24px;border-radius:16px;background:rgba(255,255,255,.02);margin:0 0 32px;border-color:var(--line)}
 .inventory-hub .hub-sform{gap:12px;grid-column:1/-1}
 .inventory-hub .hub-quick{grid-column:1;grid-row:3}
 .inventory-hub .hub-facts{grid-column:1/-1;grid-row:2}
-.inventory-hub .hub-sq{font-family:var(--sans);font-size:1rem;padding:16px 18px;border-radius:9px;border-color:#4d574e;background:#202821;color:var(--fg);min-height:54px}
-.inventory-hub .hub-sq::placeholder{color:#b8c1b6}
+.inventory-hub .hub-sq{font-family:var(--sans);font-size:1rem;padding:16px 18px;border-radius:9px;border-color:var(--line);background:rgba(255,255,255,.04);color:var(--fg);min-height:54px}
+.inventory-hub .hub-sq::placeholder{color:var(--muted)}
 .inventory-hub .hub-sq:focus{border-color:var(--gold-l);outline:2px solid var(--gold-l);outline-offset:2px}
 .inventory-hub .hub-sgo{font-size:.9rem;border-radius:9px;padding:16px 24px;min-height:54px;background:var(--gold-l)}
 .inventory-hub .hub-chips{gap:10px;margin-top:20px}
-.inventory-hub .hub-chip{border-radius:8px;font-size:.85rem;min-height:42px;padding:9px 13px;background:#19221b;border-color:#39473b;line-height:1.4}
-.inventory-hub .hub-chip:hover{background:#253229;border-color:var(--gold);color:#fff}
+.inventory-hub .hub-chip{border-radius:8px;font-size:.85rem;min-height:42px;padding:9px 13px;background:transparent;border-color:var(--line);line-height:1.4}
+.inventory-hub .hub-chip:hover{background:rgba(203,171,104,.07);border-color:var(--gold-d);color:#fff}
 .inventory-hub .hub-facts{font-family:var(--sans);font-size:.85rem;letter-spacing:0;text-transform:none;gap:12px 24px;align-items:center;margin-top:22px;padding-top:20px;border-top:1px solid var(--line);color:var(--fg-soft)}
 .inventory-hub .hub-facts b{color:var(--fg)}
 .inventory-hub .hub-facts-upd{font-size:.75rem;color:var(--muted)}
@@ -225,7 +225,7 @@ figcaption{font-family:var(--mono);font-size:.7rem;letter-spacing:.04em;color:va
 .inventory-hub .hub-browse-l{flex-basis:100%;font-family:var(--sans);font-size:.85rem;letter-spacing:0;text-transform:none;margin-bottom:3px;color:var(--fg-soft)}
 .inventory-hub .hub-chip-sm{font-size:.85rem;min-height:42px}
 .inventory-hub .lgrid{grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;padding:0 0 32px}
-.inventory-hub .lcard{border-radius:12px;background:#131915;transition:border-color .2s}
+.inventory-hub .lcard{border-radius:12px;background:rgba(255,255,255,.02);transition:border-color .2s}
 .inventory-hub .lcard:hover{transform:none;border-color:var(--gold)}
 .inventory-hub .lcard img{aspect-ratio:3/2;object-fit:cover}
 .inventory-hub .lcard-b{padding:20px}

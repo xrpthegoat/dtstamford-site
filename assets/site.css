@@ -1,18 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
-/* Downtown Stamford — shared styles for content pages (premium dark-luxe system) */
+/* Downtown Stamford — shared warm, photographic presentation for content pages. */
 :root{
-  --bg:#060608; --bg2:#0a0a0d; --fg:#f5f5f7; --fg-soft:#c0c1cb; --muted:#83848f; --faint:#565761;
-  --line:rgba(255,255,255,.09); --line-2:rgba(255,255,255,.05);
+  --bg:#090c0b; --bg2:#101412; --fg:#f7f4ee; --fg-soft:#c9cdc6; --muted:#a1aaa2; --faint:#757e77;
+  --line:rgba(240,234,222,.15); --line-2:rgba(240,234,222,.07);
   /* --action was a teal-green (#0e6b5c) John disliked. Now a deep azure: it reads as an ACTION
      against the gold rather than competing with it, and it is the same token everywhere, so
      the tour button, the selected filter pills, the checked boxes and the NEW badge all move
      together. 5.8:1 on white text (AA) and 3.5:1 against the page ground — both verified. */
-  --gold:#cbab68; --gold-l:#eed6a3; --gold-d:#8f7638; --action:#1d5fd1; --action-l:#4a86f0;
+  --gold:#cbb482; --gold-l:#ecdbb5; --gold-d:#8f7638; --action:#1d5fd1; --action-l:#4a86f0;
   --sans:"Plus Jakarta Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
   --disp:"Bricolage Grotesque","Plus Jakarta Sans",sans-serif;
   --mono:"Space Mono",ui-monospace,Menlo,monospace;
   --ease:cubic-bezier(.32,.72,0,1);
-  --r:22px;
+  --r:16px;
 }
 *{box-sizing:border-box;margin:0;padding:0}
 html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
@@ -33,11 +33,10 @@ body{font-family:var(--sans);background:var(--bg);color:var(--fg);line-height:1.
 /* ambient futuristic backdrop (CSS-only, no markup) */
 body::before{content:"";position:fixed;inset:0;z-index:-2;pointer-events:none;
   background:
-    radial-gradient(58vw 46vw at 84% -8%, rgba(203,171,104,.15), transparent 60%),
-    radial-gradient(42vw 38vw at 6% 4%, rgba(133,178,214,.055), transparent 58%),
-    radial-gradient(60vw 60vw at 50% 118%, rgba(203,171,104,.09), transparent 62%),
+    radial-gradient(58vw 46vw at 84% -8%, rgba(203,180,130,.06), transparent 60%),
+    radial-gradient(60vw 60vw at 50% 118%, rgba(203,180,130,.04), transparent 62%),
     var(--bg);}
-body::after{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;opacity:.05;
+body::after{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;opacity:.025;
   background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.5'/%3E%3C/svg%3E");}
 a{color:inherit;text-decoration:none}
 img{display:block;max-width:100%}

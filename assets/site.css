@@ -146,6 +146,126 @@ figcaption{font-family:var(--mono);font-size:.7rem;letter-spacing:.04em;color:va
 
 /* tool/form */
 #valuation-form,#inquiry-form{scroll-margin-top:112px}
+
+/* Readable shared surfaces. Keep the site's existing gold brand and blue action tokens. */
+.nav-links{font-family:var(--sans);font-size:.79rem;letter-spacing:0;text-transform:none;gap:20px;color:var(--fg-soft)}
+.wrap.prose,.narrow.prose{padding-inline:28px}
+.prose{line-height:1.8}
+.prose h2{line-height:1.15}
+.prose h3{line-height:1.25}
+.prose figure img[src*="real-estate-agent-headshot"]:not(.author-photo){aspect-ratio:4/5;object-fit:cover;object-position:52% 50%}
+.prose figure:has(img[src*="real-estate-agent-headshot"]){max-width:560px}
+.author-info a.author-name{color:var(--fg);font-weight:600;text-decoration:underline;text-underline-offset:4px;border:0}
+.prose .article-paths{margin-top:42px;padding:24px 0;border-top:1px solid var(--line)}
+.prose .article-paths h2{font-size:1.35rem;margin:0 0 18px;line-height:1.25}
+.article-paths .article-path-links{display:flex;flex-wrap:wrap;gap:14px 24px;font-size:.9rem}
+
+/* Journal: matching dark surfaces, readable filters and editorial card hierarchy. */
+.journal-hub .phero{padding:64px 0 40px}
+.journal-hub .phero h1{font-weight:500;font-size:clamp(2.8rem,6vw,4.5rem);max-width:none;line-height:1.1}
+.journal-hub .phero .lead{font-size:1.05rem;line-height:1.7}
+.journal-hub .jf{font-family:var(--sans);text-transform:none;letter-spacing:0;font-size:.9rem;padding:12px 20px;min-height:44px;color:var(--fg-soft)}
+.journal-hub .jf.active{color:#171b16;background:var(--gold-l)}
+.journal-hub .journal-intro h2{font-size:1.8rem;line-height:1.2;margin:0 0 16px}
+.journal-hub .journal-intro p{font-size:1rem;max-width:76ch;line-height:1.8;margin-bottom:20px}
+.journal-hub .journal-topics{display:flex;flex-wrap:wrap;gap:12px 24px;font-size:.9rem;margin-bottom:30px}
+.journal-hub .journal-directory{margin-bottom:28px}
+.journal-hub .journal-directory summary{color:var(--gold-l);cursor:pointer;font-size:.9rem;padding-block:8px}
+.journal-hub .journal-directory .journal-topics{margin-top:16px;margin-bottom:0}
+.journal-hub .jgrid{gap:24px;margin-top:0}
+.journal-hub .jcard{background:#131915;border-radius:12px;box-shadow:none;transition:border-color .2s}
+.journal-hub .jcard:hover{transform:none;border-color:var(--gold)}
+.journal-hub .jthumb picture{display:block;width:100%;height:100%}
+.journal-hub .jbody{padding:24px}
+.journal-hub .jkind{font-family:var(--sans);font-size:.72rem;letter-spacing:.05em;margin-bottom:13px;color:var(--gold-l)}
+.journal-hub .jcard h3{font-size:1.35rem;line-height:1.3;font-weight:500;margin:0 0 12px}
+.journal-hub .jcard p{font-size:.9rem;line-height:1.7;color:var(--fg-soft)}
+.journal-hub .jmeta{font-family:var(--sans);font-size:.8rem;letter-spacing:0;color:var(--muted);padding-top:20px}
+@media(max-width:600px){
+ .journal-hub .phero{padding:44px 0 30px}
+ .journal-hub .phero h1{font-size:2.35rem}
+ .journal-hub .jfilter{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+ .journal-hub .jf{padding:11px 15px;font-size:.82rem}
+ .journal-hub .journal-intro h2{font-size:1.6rem}
+ .journal-hub .journal-topics{gap:12px 20px}
+ .journal-hub .jbody{padding:22px}
+}
+
+/* Inventory collection pages: generous type, one clear search, optional location browsing.
+   The listings, pagination, filters, attribution and structured data remain server rendered. */
+.inventory-hub .wrap{max-width:1320px;padding-inline:clamp(24px,4vw,60px)}
+.inventory-hub .idx-hero{padding:44px 0 28px}
+.inventory-hub .idx-crumbs{font-family:var(--sans);text-transform:none;letter-spacing:0;font-size:.85rem;margin-bottom:20px}
+.inventory-hub .idx-status{font-family:var(--sans);font-size:.75rem;letter-spacing:.08em;border:0;padding:0;background:none;margin-bottom:15px}
+.inventory-hub h1.idx-price{font-size:clamp(2.3rem,4.5vw,3.8rem);line-height:1.08;font-weight:500;letter-spacing:-.045em;max-width:25ch}
+.inventory-hub .idx-title-detail{display:block;font-family:var(--sans);font-size:1rem;letter-spacing:0;line-height:1.5;color:var(--gold-l);margin-top:17px}
+.inventory-hub .idx-addr{font-size:1rem;line-height:1.75;max-width:78ch;margin-top:14px;color:var(--fg-soft)}
+.inventory-hub .idx-addr a{text-decoration:underline;text-underline-offset:4px;color:var(--gold-l)}
+.inventory-hub .hub-sband{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:24px;padding:24px;border-radius:16px;background:#131915;margin:0 0 32px;border-color:var(--line)}
+.inventory-hub .hub-sform{gap:12px;grid-column:1/-1}
+.inventory-hub .hub-quick{grid-column:1;grid-row:3}
+.inventory-hub .hub-facts{grid-column:1/-1;grid-row:2}
+.inventory-hub .hub-sq{font-family:var(--sans);font-size:1rem;padding:16px 18px;border-radius:9px;border-color:#4d574e;background:#202821;color:var(--fg);min-height:54px}
+.inventory-hub .hub-sq::placeholder{color:#b8c1b6}
+.inventory-hub .hub-sq:focus{border-color:var(--gold-l);outline:2px solid var(--gold-l);outline-offset:2px}
+.inventory-hub .hub-sgo{font-size:.9rem;border-radius:9px;padding:16px 24px;min-height:54px;background:var(--gold-l)}
+.inventory-hub .hub-chips{gap:10px;margin-top:20px}
+.inventory-hub .hub-chip{border-radius:8px;font-size:.85rem;min-height:42px;padding:9px 13px;background:#19221b;border-color:#39473b;line-height:1.4}
+.inventory-hub .hub-chip:hover{background:#253229;border-color:var(--gold);color:#fff}
+.inventory-hub .hub-facts{font-family:var(--sans);font-size:.85rem;letter-spacing:0;text-transform:none;gap:12px 24px;align-items:center;margin-top:22px;padding-top:20px;border-top:1px solid var(--line);color:var(--fg-soft)}
+.inventory-hub .hub-facts b{color:var(--fg)}
+.inventory-hub .hub-facts-upd{font-size:.75rem;color:var(--muted)}
+.inventory-hub .hub-facts .hub-chip{background:none;min-height:36px;font-size:.8rem}
+.inventory-hub .hub-locations,.inventory-hub .hub-quick{border-top:1px solid var(--line);margin-top:20px;padding-top:16px;min-width:0}
+.inventory-hub .hub-locations summary,.inventory-hub .hub-quick summary{display:flex;align-items:center;justify-content:space-between;gap:12px;cursor:pointer;color:var(--fg-soft);font-size:.92rem;min-height:36px;list-style:none}
+.inventory-hub summary::-webkit-details-marker{display:none}
+.inventory-hub summary::after{content:"+";font-size:1.4rem;color:var(--gold-l)}
+.inventory-hub details[open] summary::after{content:"−"}
+.inventory-hub .hub-browse{gap:10px;margin-top:20px}
+.inventory-hub .hub-browse-l{flex-basis:100%;font-family:var(--sans);font-size:.85rem;letter-spacing:0;text-transform:none;margin-bottom:3px;color:var(--fg-soft)}
+.inventory-hub .hub-chip-sm{font-size:.85rem;min-height:42px}
+.inventory-hub .lgrid{grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;padding:0 0 32px}
+.inventory-hub .lcard{border-radius:12px;background:#131915;transition:border-color .2s}
+.inventory-hub .lcard:hover{transform:none;border-color:var(--gold)}
+.inventory-hub .lcard img{aspect-ratio:3/2;object-fit:cover}
+.inventory-hub .lcard-b{padding:20px}
+.inventory-hub .lcard-price{font-size:1.7rem;font-weight:500;line-height:1.2}
+.inventory-hub .lcard-addr{font-size:1rem;line-height:1.55;margin-top:10px}
+.inventory-hub .lcard-sub{font-family:var(--sans);font-size:.8rem;letter-spacing:0;text-transform:none;margin-top:3px}
+.inventory-hub .lcard-meta{font-size:.9rem;line-height:1.6;margin-top:12px}
+.inventory-hub .lcard-attrib{font-family:var(--sans);font-size:.75rem;letter-spacing:0;line-height:1.65;margin-top:16px;padding-top:14px}
+.inventory-hub .hub-pager{font-family:var(--sans);font-size:.85rem;gap:9px}
+.inventory-hub .hub-pager a,.inventory-hub .hub-pager .cur{min-width:44px;min-height:44px;display:inline-flex;align-items:center;justify-content:center}
+.inventory-hub .hub-pager-note{font-family:var(--sans);font-size:.85rem;letter-spacing:0;text-transform:none;margin-top:12px}
+.inventory-hub .hub-nbhd{font-size:.9rem;line-height:2!important}
+.inventory-hub .hub-nbhd a{color:var(--gold-l);text-decoration:underline;text-underline-offset:3px}
+@media(max-width:900px){
+ .inventory-hub .lgrid{grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+ .inventory-hub .idx-hero{padding-top:44px}
+ .inventory-hub .hub-facts-upd{margin-left:0}
+}
+@media(max-width:600px){
+ .wrap.prose,.narrow.prose{padding-inline:24px}
+ .inventory-hub .idx-hero{padding:38px 0 24px}
+ .inventory-hub h1.idx-price{font-size:clamp(2rem,8vw,2.35rem);max-width:100%;line-height:1.12}
+ .inventory-hub .idx-title-detail{font-size:.85rem;margin-top:14px}
+ .inventory-hub .idx-addr{font-size:.9rem;line-height:1.7}
+ .inventory-hub .hub-sband{grid-template-columns:1fr;padding:18px;margin-bottom:24px}
+ .inventory-hub .hub-locations,.inventory-hub .hub-quick{grid-column:1;grid-row:auto;margin-top:14px;padding-top:10px}
+ .inventory-hub .hub-sform{flex-direction:column;gap:10px}
+ .inventory-hub .hub-sq{flex:0 0 auto;width:100%;padding:14px;font-size:1rem}
+ .inventory-hub .hub-sgo{flex:0 0 auto;width:100%;padding:14px;font-size:.9rem}
+ .inventory-hub .hub-chips{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin-top:18px}
+ .inventory-hub .hub-chip{font-size:.78rem;padding:9px 10px;min-height:44px}
+ .inventory-hub .hub-chip:last-child:nth-child(odd){grid-column:1/-1}
+ .inventory-hub .hub-facts{font-size:.8rem;gap:10px 14px;margin-top:18px;padding-top:18px}
+ .inventory-hub .hub-facts-upd{flex-basis:100%;font-size:.75rem}
+ .inventory-hub .hub-locations summary,.inventory-hub .hub-quick summary{font-size:.84rem;min-height:44px}
+ .inventory-hub .hub-browse .hub-chip{font-size:.82rem}
+ .inventory-hub .lgrid{grid-template-columns:1fr;gap:20px}
+ .inventory-hub .lcard-b{padding:20px}
+ .inventory-hub .lcard-price{font-size:1.7rem}
+}
 .tool{background:rgba(255,255,255,.035);border:1px solid var(--line);border-radius:var(--r);padding:clamp(24px,4vw,40px);margin:30px 0;box-shadow:inset 0 1px 0 rgba(255,255,255,.05)}
 .tool h3{font-size:1.45rem;color:#fff;margin-bottom:6px}
 .tool .sub{color:var(--muted);font-size:.95rem;margin-bottom:22px}
@@ -328,3 +448,17 @@ footer .col .social a:hover,.social a:hover{border-color:var(--gold);color:var(-
 .flegal{border-top:0;padding-top:0;margin-top:10px;font-size:.7rem;color:var(--faint)}
 .flegal a{color:var(--muted);text-decoration:none;transition:color .25s}
 .flegal a:hover{color:var(--gold-l)}
+
+/* Readable article headlines and long source links at every screen size. */
+.prose a{overflow-wrap:anywhere}
+.journal-article .phero{padding:52px 0 38px}
+.journal-article .phero h1{font-size:clamp(2rem,4vw,3.4rem);line-height:1.13;max-width:26ch;font-weight:500}
+.journal-article .phero .lead{font-size:1.05rem;line-height:1.7;max-width:66ch}
+.journal-article .crumbs{font-family:var(--sans);font-size:.75rem;letter-spacing:0;text-transform:none;line-height:1.6}
+.journal-article .updated{font-family:var(--sans);font-size:.8rem;letter-spacing:0;text-transform:none}
+@media(max-width:600px){
+ .journal-article .phero{padding:36px 0 28px}
+ .journal-article .phero h1{font-size:1.9rem;line-height:1.16;max-width:none}
+ .journal-article .phero .lead{font-size:.95rem;margin-top:18px}
+ .journal-article .crumbs{font-size:.7rem;margin-bottom:18px}
+}

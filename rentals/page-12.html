@@ -23,7 +23,7 @@
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/icon-32.png">
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png">
 <link rel="manifest" href="/site.webmanifest">
-<link rel="stylesheet" href="/assets/site.css">
+<link rel="stylesheet" href="/assets/site.css?v=20261007b">
 <link rel="stylesheet" href="/assets/homes/app.css">
 <style>
 .idx-hero{padding:clamp(96px,12vw,140px) 0 24px}
@@ -210,21 +210,23 @@ h1.idx-price{margin:0;font-size:clamp(1.7rem,4vw,2.6rem);line-height:1.12;max-wi
 @media(max-width:560px){.hub-sgo{flex:1 1 100%}.hub-facts-upd{margin-left:0}}
 
 </style>
-<body id="top">
+<body id="top" class="inventory-hub">
 <a class="skip" href="#main">Skip to content</a><header><div class="wrap nav"><a class="brand" href="/"><img class="logo" src="/assets/logo-white.png" alt="Downtown Stamford"><span class="wordmark">Downtown Stamford</span></a><nav class="nav-links"><a href="/homes/">Buy</a><a href="/rentals/">Rent</a><a href="/sold/">Sold</a><a href="/neighborhoods.html">Neighborhoods</a><a href="/stamford-market.html">Market Trends</a><a href="/buyer-guides.html">Guides</a><a href="/blog.html">Blog</a><a href="/contact.html">Contact</a></nav><a class="btn-call" href="tel:2038833399">Call 203·883·3399</a><button class="navtoggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu"><span></span><span></span><span></span></button></div></header>
 <section class="idx-hero"><div class="wrap">
   <div class="idx-crumbs"><a href="/">Home</a> / Rentals</div>
   <span class="idx-status">Live from the MLS</span>
-  <h1 class="idx-price">Apartments &amp; homes for rent in Stamford, CT — live MLS rentals</h1>
+  <h1 class="idx-price">Apartments &amp; homes for rent in Stamford, CT <span class="idx-title-detail">— live MLS rentals</span></h1>
   <p class="idx-addr">Every active rental in the Stamford area, straight from the local MLS — 590 listings. Prefer the map? <a href="/search.html?t=rent">Open the live search</a>.</p>
 </div></section>
 <main id="main" class="wrap">
 <section class="hub-sband" aria-label="Search these listings on the live map">
 <form class="hub-sform" action="/search.html" method="get" role="search"><input type="hidden" name="t" value="rent"><input class="hub-sq" type="search" name="q" placeholder="Address, MLS #, neighborhood - or a town" aria-label="Search by address, MLS number or place"><button class="hub-sgo" type="submit">Search the live map <span aria-hidden="true">&#8599;</span></button></form>
-<div class="hub-chips"><a class="hub-chip" href="/search.html?t=rent&amp;pmax=1800"><b>23</b> under $1,800/mo</a><a class="hub-chip" href="/search.html?t=rent&amp;pmax=2200"><b>89</b> under $2,200/mo</a><a class="hub-chip" href="/search.html?t=rent&amp;pmax=3000"><b>213</b> under $3,000/mo</a><a class="hub-chip" href="/search.html?t=rent&amp;bd=2"><b>396</b> 2+ beds</a><a class="hub-chip" href="/search.html?t=rent&amp;bd=3"><b>237</b> 3+ beds</a><a class="hub-chip" href="/search.html?t=rent&amp;ty=Townhouse"><b>62</b> townhouses</a><a class="hub-chip" href="/search.html?t=rent&amp;train=10">10 min walk to train</a></div>
+<details class="hub-quick"><summary>Filter by budget, bedrooms &amp; more</summary><div class="hub-chips"><a class="hub-chip" href="/search.html?t=rent&amp;pmax=1800"><b>23</b> under $1,800/mo</a><a class="hub-chip" href="/search.html?t=rent&amp;pmax=2200"><b>89</b> under $2,200/mo</a><a class="hub-chip" href="/search.html?t=rent&amp;pmax=3000"><b>213</b> under $3,000/mo</a><a class="hub-chip" href="/search.html?t=rent&amp;bd=2"><b>396</b> 2+ beds</a><a class="hub-chip" href="/search.html?t=rent&amp;bd=3"><b>237</b> 3+ beds</a><a class="hub-chip" href="/search.html?t=rent&amp;ty=Townhouse"><b>62</b> townhouses</a><a class="hub-chip" href="/search.html?t=rent&amp;train=10">10 min walk to train</a></div></details>
 <div class="hub-facts"><span><b>590</b> for rent</span><span>monthly listings: median <b>$3,600/mo</b></span><span><b>52</b> new this week</span><span><a class="hub-chip hub-chip-sm" href="/homes/">see homes for sale</a></span><span class="hub-facts-upd">refreshed every 3 hours</span></div>
+<details class="hub-locations"><summary>Browse by neighborhood or town</summary>
 <div class="hub-browse"><span class="hub-browse-l">Neighborhoods</span><a class="hub-chip hub-chip-sm" href="/search.html?t=rent&amp;n=downtown"><b>71</b> Downtown</a><a class="hub-chip hub-chip-sm" href="/search.html?t=rent&amp;n=harbor-point"><b>16</b> Harbor Point</a><a class="hub-chip hub-chip-sm" href="/search.html?t=rent&amp;n=shippan"><b>6</b> Shippan</a><a class="hub-chip hub-chip-sm" href="/search.html?t=rent&amp;n=cove"><b>15</b> Cove</a><a class="hub-chip hub-chip-sm" href="/search.html?t=rent&amp;n=waterside"><b>20</b> Waterside</a><a class="hub-chip hub-chip-sm" href="/search.html?t=rent&amp;n=springdale"><b>25</b> Springdale</a><a class="hub-chip hub-chip-sm" href="/search.html?t=rent&amp;n=glenbrook"><b>47</b> Glenbrook</a><a class="hub-chip hub-chip-sm" href="/search.html?t=rent&amp;n=belltown"><b>17</b> Belltown</a><a class="hub-chip hub-chip-sm" href="/search.html?t=rent&amp;n=newfield"><b>8</b> Newfield</a><a class="hub-chip hub-chip-sm" href="/search.html?t=rent&amp;n=turn-of-river"><b>2</b> Turn of River</a><a class="hub-chip hub-chip-sm" href="/search.html?t=rent&amp;n=north-stamford"><b>12</b> North Stamford</a><a class="hub-chip hub-chip-sm" href="/search.html?t=rent&amp;n=westover"><b>4</b> Westover</a></div>
 <div class="hub-browse"><span class="hub-browse-l">Towns</span><a class="hub-chip hub-chip-sm" href="/search.html?t=rent&amp;ci=Stamford"><b>240</b> Stamford</a><a class="hub-chip hub-chip-sm" href="/search.html?t=rent&amp;ci=Norwalk"><b>152</b> Norwalk</a><a class="hub-chip hub-chip-sm" href="/search.html?t=rent&amp;ci=Westport"><b>62</b> Westport</a><a class="hub-chip hub-chip-sm" href="/search.html?t=rent&amp;ci=Greenwich"><b>59</b> Greenwich</a><a class="hub-chip hub-chip-sm" href="/search.html?t=rent&amp;ci=Darien"><b>26</b> Darien</a><a class="hub-chip hub-chip-sm" href="/search.html?t=rent&amp;ci=New%20Canaan"><b>26</b> New Canaan</a><a class="hub-chip hub-chip-sm" href="/search.html?t=rent&amp;ci=Wilton"><b>25</b> Wilton</a></div>
+</details>
 </section>
 <div class="lgrid">
 <a class="lcard" href="/homes/10-fernwood-road-westport-connecticut-24200093.html">

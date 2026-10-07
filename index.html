@@ -556,7 +556,7 @@
   @media(max-width:1080px){.callbar{display:flex}body{padding-bottom:76px}}
 </style>
 <link rel="alternate" type="application/rss+xml" title="The Stamford Journal" href="/feed.xml">
-<link rel="stylesheet" href="assets/home-editorial.css?v=20261007">
+<link rel="stylesheet" href="assets/home-editorial.css?v=20261007b">
 <!-- Google Analytics: REMOVED 2026-08-11. The tag shipped with the placeholder ID
      G-XXXXXXXXXX, so every homepage view fetched googletagmanager and reported to an
      account that does not exist — a real request, a real render-blocking cost, zero data,
@@ -578,11 +578,11 @@
       <span class="wordmark">Downtown Stamford</span>
     </a>
     <nav class="nav-links" aria-label="Primary">
-      <a href="homes/">Buy</a>
-      <a href="rentals/">Rent</a>
+      <div class="nav-group"><a href="homes/">Buy</a><details class="nav-resources"><summary aria-label="Buy resources"><span aria-hidden="true">⌄</span></summary><nav class="nav-mega" aria-label="Buy resources"><a href="homes/"><strong>Home search</strong><span>Browse current MLS listings</span></a><a href="stamford-condos-for-sale.html"><strong>Condos for sale</strong><span>Explore Stamford condos</span></a><a href="buyer-guides.html"><strong>Buyers guides</strong><span>Understand the buying process</span></a><a href="how-much-does-it-cost-to-buy-a-house-in-stamford-ct.html"><strong>Buying costs</strong><span>Plan your down payment and closing costs</span></a></nav></details></div>
+      <div class="nav-group"><a href="rentals/">Rent</a><details class="nav-resources"><summary aria-label="Rent resources"><span aria-hidden="true">⌄</span></summary><nav class="nav-mega" aria-label="Rent resources"><a href="rentals/"><strong>Rental listings</strong><span>Browse apartments and homes</span></a><a href="stamford-apartments-for-rent.html"><strong>Stamford rental guide</strong><span>Learn about the local rental market</span></a><a href="stamford-rental-application-checklist.html"><strong>Application checklist</strong><span>Prepare for your next rental</span></a><a href="renting-vs-buying-stamford-ct.html"><strong>Rent or buy</strong><span>Compare the two options</span></a></nav></details></div>
       <a href="sold/">Sold</a>
       <a href="services/sell-your-home-stamford-ct.html">Sell</a>
-      <a href="neighborhoods.html">Neighborhoods</a>
+      <div class="nav-group"><a href="neighborhoods.html">Neighborhoods</a><details class="nav-resources"><summary aria-label="Neighborhoods resources"><span aria-hidden="true">⌄</span></summary><nav class="nav-mega" aria-label="Neighborhoods resources"><a href="neighborhoods.html"><strong>All neighborhoods</strong><span>Explore Stamford by area</span></a><a href="downtown-stamford-homes-for-sale.html"><strong>Downtown</strong><span>Homes in downtown Stamford</span></a><a href="harbor-point-stamford-homes-for-sale.html"><strong>Harbor Point</strong><span>Homes in the South End</span></a><a href="glenbrook-stamford-homes-for-sale.html"><strong>Glenbrook</strong><span>Explore current neighborhood listings</span></a><a href="springdale-stamford-homes-for-sale.html"><strong>Springdale</strong><span>Explore current neighborhood listings</span></a><a href="north-stamford-homes-for-sale.html"><strong>North Stamford</strong><span>Explore current neighborhood listings</span></a></nav></details></div>
       <a href="stamford-market.html">Market Trends</a>
       <a href="buyer-guides.html">Guides</a>
       <a href="blog.html">Blog</a>
@@ -965,8 +965,8 @@
       <div class="portrait rv" data-parallax-child>
         <div class="cut">
           <picture>
-            <source type="image/webp" srcset="assets/john-restrepo-stamford-portrait-cut.webp">
-            <img class="img" src="assets/john-restrepo-stamford-portrait-cut.png" alt="John Restrepo — Stamford CT real estate agent" title="John Restrepo — Stamford real estate agent" width="1100" height="1100" loading="lazy">
+            <source type="image/avif" srcset="assets/john-restrepo-stamford-ct-real-estate-agent-headshot.avif"><source type="image/webp" srcset="assets/john-restrepo-stamford-ct-real-estate-agent-headshot.webp">
+            <img class="img" src="assets/john-restrepo-stamford-ct-real-estate-agent-headshot.jpg" alt="John Restrepo — Stamford CT real estate agent" title="John Restrepo — Stamford real estate agent" width="1100" height="1100" loading="lazy">
           </picture>
           <span class="pin">John Restrepo · Jarah Tuttle LLC</span>
         </div>
@@ -1431,5 +1431,6 @@
 })();
 </script>
 <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "fcdcc63885554c618f3fea8816534803"}'></script><!-- End Cloudflare Web Analytics -->
+<script src="assets/home-navigation.js" defer></script>
 </body>
 </html>

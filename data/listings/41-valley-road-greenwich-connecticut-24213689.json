@@ -7,7 +7,7 @@
  "price": 5600.0,
  "leasePriceDesc": "Per Month",
  "rentPeriod": "month",
- "rentalDuration": "Yearly Furnished",
+ "rentalDuration": "Yearly Furnished,Summer Furnished,Winter Furnished,Short Term Furnished",
  "closePrice": null,
  "closeDate": null,
  "beds": 1.0,
@@ -17,8 +17,8 @@
  "acres": 0.19,
  "address": {
   "line": "41 Valley Road",
-  "unit": null,
-  "lineWithUnit": "41 Valley Road",
+  "unit": "Unit COTTAGE",
+  "lineWithUnit": "41 Valley Road Unit COTTAGE",
   "city": "Greenwich",
   "state": "Connecticut",
   "zip": "06831"
@@ -30,7 +30,7 @@
   "agent": "Antonio LaRocca",
   "agentPhone": "(203) 324-3802"
  },
- "remarks": "**FULLY FURNISHED 1-BEDROOM IN COS COB * AVAILABLE NOW**  Welcome to this charming, beautifully maintained one-bedroom apartment in the heart of Cos Cob. Just steps from local restaurants and coffee shops, this inviting home offers comfort and convenience in one of Greenwich's vibrant village neighborhoods.  Enjoy a full kitchen with quality appliances, a spacious living area with a sectional sofa and Smart TV, and a generous bedroom featuring a king-sized bed and plenty of room to unwind.  The shared, fenced-in patio is thoughtfully partitioned to provide a sense of privacy-perfect for relaxing outdoors. Includes one driveway parking space, with additional street parking available.  Conveniently located near Route 1, Cos Cob Park, and Montgomery Pinetum Park, with Greenwich Avenue's shopping and dining just a short drive away.  **Fully furnished and ready for you to move in!**",
+ "remarks": "**FULLY FURNISHED 1-BEDROOM IN COS COB * AVAILABLE NOW**  Welcome to this charming, beautifully maintained one-bedroom apartment in the heart of Cos Cob. Just steps from local restaurants and coffee shops, this inviting home offers comfort and convenience in one of Greenwich's vibrant village neighborhoods.  Enjoy a full kitchen with quality appliances, a spacious living area with a sectional sofa and Smart TV, and a generous bedroom featuring a king-sized bed and plenty of room to unwind.  The shared, fenced-in patio is thoughtfully partitioned to provide a sense of privacy-perfect for relaxing outdoors. Includes one driveway parking space, with additional street parking available.  Conveniently located near Route 1, Cos Cob Park, and Montgomery Pinetum Park, with Greenwich Avenue's shopping and dining just a short drive away.  **Fully furnished and ready for you to move in!** AVAILABLE SHORT TERM, CALL FOR PRICING",
  "photos": [
   "https://smartmls-assets.cdn-connectmls.com/pics/5D98DBE96235E95EE063E201100A3C75/HD_1791799139072_IMG_20250814_WA0000.JPEG",
   "https://smartmls-assets.cdn-connectmls.com/pics/5D98DBE96235E95EE063E201100A3C75/HD_1791799138674_IMG_20250813_WA0002.JPEG",
@@ -147,149 +147,62 @@
  },
  "comps": [
   {
-   "mls": "24184691",
-   "slug": "88-orchard-street-greenwich-connecticut-24184691",
+   "mls": "24054382",
+   "slug": "60-oak-ridge-street-greenwich-connecticut-24054382",
    "address": {
-    "line": "88 Orchard Street",
-    "unit": null,
-    "lineWithUnit": "88 Orchard Street",
-    "city": "Greenwich",
-    "state": "Connecticut",
-    "zip": "06807"
-   },
-   "beds": 5.0,
-   "baths": 4.0,
-   "sqft": 3827.0,
-   "acres": 0.5,
-   "price": 11000.0,
-   "date": "2026-07-30",
-   "listingType": "rent",
-   "rentPeriod": "month",
-   "geo": {
-    "lat": 41.045482,
-    "lng": -73.601964
-   },
-   "klass": "rental",
-   "tier": 3,
-   "why": "Within a 15-minute walk, sold in the last year",
-   "km": 0.7919620792715144,
-   "ppsf": 2.8743140841390122
-  },
-  {
-   "mls": "24189268",
-   "slug": "30-brookridge-drive-greenwich-connecticut-24189268",
-   "address": {
-    "line": "30 Brookridge Drive",
-    "unit": null,
-    "lineWithUnit": "30 Brookridge Drive",
+    "line": "60 Oak Ridge Street",
+    "unit": "Unit 3N",
+    "lineWithUnit": "60 Oak Ridge Street Unit 3N",
     "city": "Greenwich",
     "state": "Connecticut",
     "zip": "06830"
    },
-   "beds": 4.0,
-   "baths": 6.0,
-   "sqft": 4972.0,
-   "acres": 3.02,
-   "price": 23500.0,
-   "date": "2026-08-17",
-   "listingType": "rent",
-   "rentPeriod": "month",
-   "geo": {
-    "lat": 41.040706,
-    "lng": -73.608295
-   },
-   "klass": "rental",
-   "tier": 3,
-   "why": "Within a 15-minute walk, sold in the last year",
-   "km": 1.1806229245640898,
-   "ppsf": 4.726468222043443
-  },
-  {
-   "mls": "24095012",
-   "slug": "176-valley-road-greenwich-connecticut-24095012",
-   "address": {
-    "line": "176 Valley Road",
-    "unit": null,
-    "lineWithUnit": "176 Valley Road",
-    "city": "Greenwich",
-    "state": "Connecticut",
-    "zip": "06807"
-   },
-   "beds": 4.0,
-   "baths": 4.0,
-   "sqft": 3763.0,
-   "acres": 0.36,
-   "price": 8300.0,
-   "date": "2025-11-15",
-   "listingType": "rent",
-   "rentPeriod": "month",
-   "geo": {
-    "lat": 41.05075,
-    "lng": -73.58754
-   },
-   "klass": "rental",
-   "tier": 3,
-   "why": "Within a 15-minute walk, sold in the last year",
-   "km": 1.1841770645869698,
-   "ppsf": 2.2056869519000797
-  },
-  {
-   "mls": "24150496",
-   "slug": "92-valley-road-greenwich-connecticut-24150496",
-   "address": {
-    "line": "92 Valley Road",
-    "unit": "Unit A",
-    "lineWithUnit": "92 Valley Road Unit A",
-    "city": "Greenwich",
-    "state": "Connecticut",
-    "zip": "06807"
-   },
-   "beds": 5.0,
-   "baths": 3.0,
-   "sqft": 3000.0,
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 4350.0,
    "acres": null,
-   "price": 7035.0,
-   "date": "2026-03-24",
+   "price": 2700.0,
+   "date": "2024-12-20",
    "listingType": "rent",
    "rentPeriod": "month",
    "geo": {
-    "lat": 41.044882,
-    "lng": -73.590877
+    "lat": 41.022205,
+    "lng": -73.635345
    },
    "klass": "rental",
-   "tier": 4,
-   "why": "Within about a mile and a half, sold in the last 2 years",
-   "km": 0.4812885007378132,
-   "ppsf": 2.345
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 4.0533260657627155,
+   "ppsf": 0.6206896551724138
   },
   {
-   "mls": "24150499",
-   "slug": "92-valley-road-greenwich-connecticut-24150499",
+   "mls": "24124676",
+   "slug": "60-pemberwick-road-greenwich-connecticut-24124676",
    "address": {
-    "line": "92 Valley Road",
-    "unit": "Unit B",
-    "lineWithUnit": "92 Valley Road Unit B",
+    "line": "60 Pemberwick Road",
+    "unit": "#3",
+    "lineWithUnit": "60 Pemberwick Road #3",
     "city": "Greenwich",
     "state": "Connecticut",
-    "zip": "06807"
+    "zip": "06831"
    },
-   "beds": 5.0,
-   "baths": 3.0,
-   "sqft": 3000.0,
-   "acres": null,
-   "price": 7870.0,
-   "date": "2026-02-16",
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 3914.0,
+   "acres": 0.17,
+   "price": 3500.0,
+   "date": "2025-11-01",
    "listingType": "rent",
    "rentPeriod": "month",
    "geo": {
-    "lat": 41.044882,
-    "lng": -73.590877
+    "lat": 41.018011,
+    "lng": -73.654899
    },
    "klass": "rental",
-   "tier": 4,
-   "why": "Within about a mile and a half, sold in the last 2 years",
-   "km": 0.4812885007378132,
-   "ppsf": 2.6233333333333335
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": 5.712774596234394,
+   "ppsf": 0.8942258559018906
   }
  ]
 }

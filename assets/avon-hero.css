@@ -26,3 +26,25 @@
  .home-editorial .hero--avon .hero-promise{font-size:clamp(2rem,8vw,3rem)}
  .home-editorial .hero--avon h1{margin-top:18px}
 }
+
+/* One continuous opening: the uncropped image is a backdrop, not a spacer.
+   Intrinsic image dimensions remain intact; only opacity fades into the page.
+   Content stays in normal flow so zoom, wrapping and open credits cannot collide. */
+.home-editorial .avon-portrait{position:relative;isolation:isolate;margin:0;width:100%;--avon-fade-end:clamp(700px,100vw,1450px)}
+.home-editorial .avon-portrait .avon-image-frame{position:absolute;inset:0 0 auto;z-index:-1;min-height:0;pointer-events:none;mask-image:linear-gradient(to bottom,#000 0px,#000 calc(var(--avon-fade-end)*.3),rgba(0,0,0,.72) calc(var(--avon-fade-end)*.55),rgba(0,0,0,.24) calc(var(--avon-fade-end)*.8),transparent var(--avon-fade-end));-webkit-mask-image:linear-gradient(to bottom,#000 0px,#000 calc(var(--avon-fade-end)*.3),rgba(0,0,0,.72) calc(var(--avon-fade-end)*.55),rgba(0,0,0,.24) calc(var(--avon-fade-end)*.8),transparent var(--avon-fade-end))}
+.home-editorial .avon-portrait .avon-image-frame::after{background:linear-gradient(90deg,rgba(6,6,8,.46),rgba(6,6,8,.08) 85%)}
+.home-editorial .avon-portrait .avon-image-frame picture::after{content:none}
+.home-editorial .hero--avon{display:block}
+.home-editorial .hero--avon>.wrap{padding-bottom:clamp(24px,4vw,64px)}
+.home-editorial .hero--avon .hero-agent{bottom:64px}
+body.home-editorial .avon-portrait .magicsearch,body.home-editorial .avon-portrait .home-market{background:transparent;border-top:0}
+body.home-editorial .avon-portrait .magicsearch{padding-top:clamp(24px,3.2vw,48px)}
+.home-editorial .avon-portrait figcaption{background:transparent;position:relative;padding-top:8px;padding-bottom:28px}
+@media(max-width:760px){
+ .home-editorial .avon-portrait{--avon-fade-end:calc(80px + 127.72vw)}
+ .home-editorial .hero--avon>.wrap{padding-bottom:12px}
+}
+/* Fluid across the former phone breakpoint: no sudden vertical jump at 760px. */
+.home-editorial .avon-portrait{--avon-fade-end:clamp(580px,100vw,1450px)}
+.home-editorial .avon-portrait .avon-image-frame{padding-top:clamp(0px,calc(160px - 12vw),80px)}
+.home-editorial .hero--avon>.wrap{padding-top:clamp(220px,18vw,260px);padding-bottom:clamp(12px,calc(6vw - 12px),64px)}

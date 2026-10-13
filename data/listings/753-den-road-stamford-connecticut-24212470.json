@@ -1,6 +1,6 @@
 {
  "mls": "24212470",
- "slug": "stamford-connecticut-24212470",
+ "slug": "753-den-road-stamford-connecticut-24212470",
  "status": "Active",
  "listingType": "sale",
  "propertyType": "Single Family For Sale",
@@ -13,14 +13,14 @@
  "yearBuilt": 1928.0,
  "acres": 1.03,
  "address": {
-  "line": null,
+  "line": "753 Den Road",
   "unit": null,
-  "lineWithUnit": null,
+  "lineWithUnit": "753 Den Road",
   "city": "Stamford",
   "state": "Connecticut",
   "zip": "06903"
  },
- "addressWithheld": true,
+ "addressWithheld": false,
  "attribution": {
   "office": "eXp Realty",
   "officeId": "EXPC01",
@@ -56,6 +56,10 @@
  ],
  "primaryPhotoOnly": false,
  "updated": "2026-10-13T04:05:02",
+ "geo": {
+  "lat": 41.117244,
+  "lng": -73.573573
+ },
  "facts": {
   "dom": 0,
   "listed": "2026-10-07",
@@ -90,8 +94,7 @@
   "waterfront": "Not Applicable",
   "directWaterfront": "0"
  },
- "indexable": false,
- "geo": null,
+ "indexable": true,
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
   "attribution": "Listing data provided courtesy of SmartMLS."
@@ -102,153 +105,181 @@
    "middle": null,
    "high": null,
    "lookup": "https://www.stamfordpublicschools.org/"
+  },
+  "grocery": [
+   {
+    "n": "Acme",
+    "mi": 1.51,
+    "lat": 41.109839,
+    "lng": -73.546342
+   },
+   {
+    "n": "Trader Joe's",
+    "mi": 1.54,
+    "lat": 41.106913,
+    "lng": -73.547298
+   }
+  ],
+  "pharmacy": {
+   "n": "CVS Pharmacy",
+   "mi": 3.21,
+   "lat": 41.094568,
+   "lng": -73.519663,
+   "chain": "CVS"
+  },
+  "train": {
+   "n": "Springdale",
+   "mi": 3.5,
+   "lat": 41.089013,
+   "lng": -73.517777,
+   "line": "Metro-North Railroad"
   }
  },
  "comps": [
   {
-   "mls": "24192844",
-   "slug": "39-emma-road-stamford-connecticut-24192844",
+   "mls": "24123969",
+   "slug": "1489-long-ridge-road-stamford-connecticut-24123969",
    "address": {
-    "line": "39 Emma Road",
+    "line": "1489 Long Ridge Road",
     "unit": null,
-    "lineWithUnit": "39 Emma Road",
-    "city": "Stamford",
-    "state": "Connecticut",
-    "zip": "06905"
-   },
-   "beds": 5.0,
-   "baths": 2.0,
-   "sqft": 2090.0,
-   "acres": 0.19,
-   "price": 670000.0,
-   "date": "2026-10-12",
-   "listingType": "sale",
-   "rentPeriod": null,
-   "geo": {
-    "lat": 41.094385,
-    "lng": -73.549474
-   },
-   "klass": "house",
-   "tier": 5,
-   "why": "Same town, sold in the last 3 years",
-   "km": null,
-   "ppsf": 320.57416267942585
-  },
-  {
-   "mls": "24202881",
-   "slug": "163-cedarwood-road-stamford-connecticut-24202881",
-   "address": {
-    "line": "163 Cedarwood Road",
-    "unit": null,
-    "lineWithUnit": "163 Cedarwood Road",
+    "lineWithUnit": "1489 Long Ridge Road",
     "city": "Stamford",
     "state": "Connecticut",
     "zip": "06903"
    },
    "beds": 3.0,
-   "baths": 3.0,
-   "sqft": 2304.0,
-   "acres": 1.0,
-   "price": 1000000.0,
-   "date": "2026-10-09",
-   "listingType": "sale",
-   "rentPeriod": null,
-   "geo": {
-    "lat": 41.149038,
-    "lng": -73.544024
-   },
-   "klass": "house",
-   "tier": 5,
-   "why": "Same town, sold in the last 3 years",
-   "km": null,
-   "ppsf": 434.02777777777777
-  },
-  {
-   "mls": "24169890",
-   "slug": "26-melrose-place-stamford-connecticut-24169890",
-   "address": {
-    "line": "26 Melrose Place",
-    "unit": null,
-    "lineWithUnit": "26 Melrose Place",
-    "city": "Stamford",
-    "state": "Connecticut",
-    "zip": "06902"
-   },
-   "beds": 2.0,
    "baths": 2.0,
-   "sqft": 1604.0,
-   "acres": 0.12,
-   "price": 620000.0,
-   "date": "2026-10-09",
+   "sqft": 1969.0,
+   "acres": 1.0,
+   "price": 500000.0,
+   "date": "2025-10-23",
    "listingType": "sale",
    "rentPeriod": null,
    "geo": {
-    "lat": 41.035423,
-    "lng": -73.552755
+    "lat": 41.11873,
+    "lng": -73.571853
    },
    "klass": "house",
-   "tier": 5,
-   "why": "Same town, sold in the last 3 years",
-   "km": null,
-   "ppsf": 386.53366583541145
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.2192324737454268,
+   "ppsf": 253.93600812595227
   },
   {
-   "mls": "24191011",
-   "slug": "22-lenox-avenue-stamford-connecticut-24191011",
+   "mls": "24170029",
+   "slug": "1566-long-ridge-road-stamford-connecticut-24170029",
    "address": {
-    "line": "22 Lenox Avenue",
+    "line": "1566 Long Ridge Road",
     "unit": null,
-    "lineWithUnit": "22 Lenox Avenue",
+    "lineWithUnit": "1566 Long Ridge Road",
     "city": "Stamford",
     "state": "Connecticut",
-    "zip": "06906"
+    "zip": "06903"
    },
    "beds": 4.0,
    "baths": 3.0,
-   "sqft": 1980.0,
-   "acres": 0.4,
-   "price": 1025000.0,
-   "date": "2026-10-08",
+   "sqft": 1603.0,
+   "acres": 1.17,
+   "price": 585000.0,
+   "date": "2026-08-31",
    "listingType": "sale",
    "rentPeriod": null,
    "geo": {
-    "lat": 41.068739,
-    "lng": -73.514939
+    "lat": 41.121299,
+    "lng": -73.573911
    },
    "klass": "house",
-   "tier": 5,
-   "why": "Same town, sold in the last 3 years",
-   "km": null,
-   "ppsf": 517.6767676767677
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.4517835128283069,
+   "ppsf": 364.9407361197754
   },
   {
-   "mls": "24195716",
-   "slug": "26-birchwood-road-stamford-connecticut-24195716",
+   "mls": "24170063",
+   "slug": "33-butternut-lane-stamford-connecticut-24170063",
    "address": {
-    "line": "26 Birchwood Road",
+    "line": "33 Butternut Lane",
     "unit": null,
-    "lineWithUnit": "26 Birchwood Road",
+    "lineWithUnit": "33 Butternut Lane",
     "city": "Stamford",
     "state": "Connecticut",
-    "zip": "06907"
+    "zip": "06903"
    },
    "beds": 3.0,
-   "baths": 3.0,
-   "sqft": 1500.0,
-   "acres": 0.24,
-   "price": 732500.0,
-   "date": "2026-10-08",
+   "baths": 4.0,
+   "sqft": 1914.0,
+   "acres": 1.42,
+   "price": 1195000.0,
+   "date": "2026-09-25",
    "listingType": "sale",
    "rentPeriod": null,
    "geo": {
-    "lat": 41.089311,
-    "lng": -73.523037
+    "lat": 41.12441,
+    "lng": -73.575673
    },
    "klass": "house",
-   "tier": 5,
-   "why": "Same town, sold in the last 3 years",
-   "km": null,
-   "ppsf": 488.3333333333333
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.8160088049766681,
+   "ppsf": 624.3469174503657
+  },
+  {
+   "mls": "24187050",
+   "slug": "132-webbs-hill-road-stamford-connecticut-24187050",
+   "address": {
+    "line": "132 Webbs Hill Road",
+    "unit": null,
+    "lineWithUnit": "132 Webbs Hill Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
+   },
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1933.0,
+   "acres": 1.4,
+   "price": 1125000.0,
+   "date": "2026-09-14",
+   "listingType": "sale",
+   "rentPeriod": null,
+   "geo": {
+    "lat": 41.108484,
+    "lng": -73.569045
+   },
+   "klass": "house",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 1.0453251933614156,
+   "ppsf": 581.9968960165546
+  },
+  {
+   "mls": "24078822",
+   "slug": "44-malibu-road-stamford-connecticut-24078822",
+   "address": {
+    "line": "44 Malibu Road",
+    "unit": null,
+    "lineWithUnit": "44 Malibu Road",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903"
+   },
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 2302.0,
+   "acres": 1.0,
+   "price": 1500000.0,
+   "date": "2025-07-07",
+   "listingType": "sale",
+   "rentPeriod": null,
+   "geo": {
+    "lat": 41.119484,
+    "lng": -73.579673
+   },
+   "klass": "house",
+   "tier": 4,
+   "why": "Within about a mile and a half, sold in the last 2 years",
+   "km": 0.5684635687625211,
+   "ppsf": 651.6072980017376
   }
  ]
 }

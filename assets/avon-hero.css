@@ -1,0 +1,25 @@
+/* The selected 4300 × 5492 artwork is always displayed whole, without cover cropping or parallax. */
+.home-editorial .hero--avon{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(30px,5vw,72px);max-width:1320px;margin:auto;padding:120px clamp(24px,4.5vw,72px) 56px;min-height:0;overflow:visible;align-items:center}
+.home-editorial .hero--avon>.wrap{grid-column:1;grid-row:1;padding:0;min-width:0;width:100%}
+.home-editorial .hero--avon .hero-location{font-size:clamp(4rem,7.6vw,6.5rem)}
+.home-editorial .hero--avon .hero-promise{font-size:clamp(2rem,3.5vw,3rem)}
+.home-editorial .hero--avon .hero-agent{position:relative;inset:auto;margin-top:30px;max-width:100%;width:315px}
+.home-editorial .hero--avon .scrollcue{display:none}
+.avon-portrait{grid-column:2;grid-row:1;margin:0;min-width:0;align-self:start}
+.avon-image-link,.avon-image-link picture{display:block}
+.avon-photo{display:block;width:100%;height:auto;aspect-ratio:4300/5492;object-fit:contain;position:static;transform:none;filter:none}
+.avon-image-link{outline-offset:6px}
+.avon-portrait figcaption{padding-top:12px;font-size:.7rem;line-height:1.6;color:var(--fg-soft)}
+.avon-portrait figcaption span{color:var(--muted)}
+.avon-portrait figcaption a{text-decoration:underline;text-underline-offset:3px}
+.avon-portrait details{margin-top:6px;color:var(--muted)}
+.avon-portrait summary{cursor:pointer}
+.avon-portrait details p{font-size:.75rem;line-height:1.6;margin-top:10px}
+@media(max-width:760px){
+ .home-editorial .hero--avon{display:flex;flex-direction:column;gap:30px;padding:112px 20px 40px}
+ .avon-portrait{width:100%;max-width:540px}
+ .home-editorial .hero--avon>.wrap{max-width:540px}
+ .home-editorial .hero--avon .hero-location{font-size:clamp(3.7rem,16vw,5.8rem)}
+ .home-editorial .hero--avon .hero-promise{font-size:clamp(2rem,8vw,3rem)}
+ .home-editorial .hero--avon h1{margin-top:18px}
+}

@@ -474,3 +474,9 @@ header .nav-search-listings:focus-visible,header .header-search-shortcut:focus-v
 /* Match the homepage's frosted menu while keeping links legible. */
 .mmenu-panel{background:rgba(18,18,23,.90);backdrop-filter:blur(24px) saturate(115%);-webkit-backdrop-filter:blur(24px) saturate(115%);border-color:rgba(255,255,255,.16);box-shadow:0 20px 60px rgba(0,0,0,.35)}
 .mmenu-scrim{background:rgba(4,4,6,.38)}
+
+/* Make the live listing search the primary navigation action. */
+header .nav-links .nav-search-listings,header .header-search-shortcut{background:#ead19b;color:#211b12;border:1px solid #f2ddb3;border-radius:999px;padding:11px 15px;font-weight:700;line-height:1.2;box-shadow:0 3px 14px rgba(234,209,155,.16);text-decoration:none}
+header .nav-links .nav-search-listings:hover,header .header-search-shortcut:hover{background:#f5e2b9;color:#211b12;box-shadow:0 4px 20px rgba(234,209,155,.25)}
+header .nav-links .nav-search-listings::after{display:none}
+@media(max-width:640px){header .header-search-shortcut{padding:11px 12px;font-size:.72rem}}

@@ -4,7 +4,7 @@
 <!-- EVERY same-site path here is ROOT-relative on purpose (2026-08-14). GitHub Pages
      serves this one file for ANY missing URL, and a browser resolves a RELATIVE path
      against the URL the visitor actually requested — so a 404 at /homes/whatever asked
-     for /homes/assets/site.css, got another 404, and rendered the page as unstyled
+     for /homes/assets/site.css?v=20261013buyer, got another 404, and rendered the page as unstyled
      Times New Roman with dead recovery links. Aged-out listing URLs make that the most
      common 404 on the site. Keep these absolute. -->
 
@@ -24,14 +24,14 @@
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/icon-32.png">
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png">
 <link rel="manifest" href="/site.webmanifest">
-<link rel="stylesheet" href="/assets/site.css">
+<link rel="stylesheet" href="/assets/site.css?v=20261013buyer">
 </head>
 <body id="top">
 <a class="skip" href="#main">Skip to content</a>
 <header>
   <div class="wrap nav">
     <a class="brand" href="/"><picture><source type="image/avif" srcset="/assets/logo-white.avif"><source type="image/webp" srcset="/assets/logo-white.webp"><img class="logo" src="/assets/logo-white.png" alt="Downtown Stamford logo" width="180" height="160"></picture><span class="wordmark">Downtown Stamford</span></a>
-    <nav class="nav-links" aria-label="Primary">
+    <a class="header-search-shortcut" href="/search.html">Search listings ↗</a><nav class="nav-links" aria-label="Primary"><a class="nav-search-listings" href="/search.html">Search listings</a>
       <a href="/search.html">Buy</a>
       <a href="/search.html?t=rent">Rent</a>
       <a href="/sold/">Sold</a><a href="/services/sell-your-home-stamford-ct.html">Sell</a>
@@ -53,7 +53,7 @@
       <span class="mtitle">Downtown Stamford</span>
       <button class="mclose" id="mmClose" aria-label="Close menu">✕</button>
     </div>
-    <nav class="mmenu-links" aria-label="Mobile">
+    <nav class="mmenu-links" aria-label="Mobile"><a class="mobile-search-listings" href="/search.html"><span class="ix" aria-hidden="true">⌕</span><span class="lb">Search listings</span><span class="ar" aria-hidden="true">→</span></a>
       <a href="/"><span class="ix">⌂</span><span class="lb">Home</span><span class="ar" aria-hidden="true">→</span></a>
       <a href="/search.html"><span class="ix">01</span><span class="lb">Buy</span><span class="ar" aria-hidden="true">→</span></a>
       <a href="/search.html?t=rent"><span class="ix">02</span><span class="lb">Rent</span><span class="ar" aria-hidden="true">→</span></a>

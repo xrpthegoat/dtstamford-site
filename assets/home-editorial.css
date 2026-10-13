@@ -181,3 +181,15 @@
   .home-editorial .callbar .btn { min-width: 0; padding: 9px 8px; gap: 6px; font-size: .72rem; }
   .home-editorial .callbar .ic { width: 26px; height: 26px; font-size: .8rem; }
 }
+
+/* Direct MLS search stays distinct from the buyer education hub. */
+header .nav-links .nav-search-listings{color:var(--gold,#e7cc8e);white-space:nowrap;font-weight:700}
+header .header-search-shortcut{display:none;color:var(--gold,#e7cc8e);font-size:.78rem;font-weight:700;white-space:nowrap;text-decoration:none;padding:10px 0}
+@media(min-width:1161px) and (max-width:1390px){header .brand .wordmark{display:none}header .nav-links{gap:16px}}
+@media(max-width:1160px){header .header-search-shortcut{display:inline-flex;margin-left:auto}header .nav{gap:14px}}
+header .nav-search-listings:focus-visible,header .header-search-shortcut:focus-visible{outline:2px solid #e7cc8e;outline-offset:5px}
+.mmenu-links .mobile-search-listings{color:var(--gold,#e7cc8e)}
+
+@media(min-width:1201px) and (max-width:1390px){.home-editorial header .brand .wordmark{display:none}.home-editorial .nav-links{gap:14px}}
+@media(max-width:1200px){.home-editorial header .header-search-shortcut{display:inline-flex;margin-left:auto}}
+@media(max-width:640px){.home-editorial .nav-right .btn-nav-val{display:none}.home-editorial header .nav{gap:10px}.home-editorial .header-search-shortcut{font-size:.72rem}}

@@ -462,3 +462,11 @@ footer .col .social a:hover,.social a:hover{border-color:var(--gold);color:var(-
  .journal-article .phero .lead{font-size:.95rem;margin-top:18px}
  .journal-article .crumbs{font-size:.7rem;margin-bottom:18px}
 }
+
+/* Direct MLS search stays distinct from the buyer education hub. */
+header .nav-links .nav-search-listings{color:var(--gold,#e7cc8e);white-space:nowrap;font-weight:700}
+header .header-search-shortcut{display:none;color:var(--gold,#e7cc8e);font-size:.78rem;font-weight:700;white-space:nowrap;text-decoration:none;padding:10px 0}
+@media(min-width:1161px) and (max-width:1390px){header .brand .wordmark{display:none}header .nav-links{gap:16px}}
+@media(max-width:1160px){header .header-search-shortcut{display:inline-flex;margin-left:auto}header .nav{gap:14px}}
+header .nav-search-listings:focus-visible,header .header-search-shortcut:focus-visible{outline:2px solid #e7cc8e;outline-offset:5px}
+.mmenu-links .mobile-search-listings{color:var(--gold,#e7cc8e)}

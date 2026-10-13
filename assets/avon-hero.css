@@ -1,25 +1,28 @@
-/* The selected 4300 × 5492 artwork is always displayed whole, without cover cropping or parallax. */
-.home-editorial .hero--avon{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(30px,5vw,72px);max-width:1320px;margin:auto;padding:120px clamp(24px,4.5vw,72px) 56px;min-height:0;overflow:visible;align-items:center}
-.home-editorial .hero--avon>.wrap{grid-column:1;grid-row:1;padding:0;min-width:0;width:100%}
-.home-editorial .hero--avon .hero-location{font-size:clamp(4rem,7.6vw,6.5rem)}
-.home-editorial .hero--avon .hero-promise{font-size:clamp(2rem,3.5vw,3rem)}
-.home-editorial .hero--avon .hero-agent{position:relative;inset:auto;margin-top:30px;max-width:100%;width:315px}
-.home-editorial .hero--avon .scrollcue{display:none}
-.avon-portrait{grid-column:2;grid-row:1;margin:0;min-width:0;align-self:start}
-.avon-image-link,.avon-image-link picture{display:block}
+/* Full-width selected artwork: natural image height preserves the entire 4300 × 5492 composition. */
+.home-editorial .hero--avon{display:grid;grid-template-columns:minmax(0,1fr);min-height:0;max-width:none;margin:0;padding:0;overflow:visible;align-items:start}
+.avon-portrait{grid-area:1/1;margin:0;min-width:0;width:100%}
+.avon-image-frame{display:block;position:relative;min-height:max(720px,96svh);background:#060608;outline-offset:-6px}
+.avon-image-frame picture{display:block}
 .avon-photo{display:block;width:100%;height:auto;aspect-ratio:4300/5492;object-fit:contain;position:static;transform:none;filter:none}
-.avon-image-link{outline-offset:6px}
-.avon-portrait figcaption{padding-top:12px;font-size:.7rem;line-height:1.6;color:var(--fg-soft)}
+.avon-image-frame::after{content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(90deg,rgba(6,6,8,.46),rgba(6,6,8,.08) 85%),linear-gradient(180deg,rgba(6,6,8,.16),transparent 65%,rgba(6,6,8,.25))}
+.home-editorial .hero--avon>.wrap{grid-area:1/1;position:relative;z-index:2;width:100%;padding-top:clamp(150px,14vw,220px);padding-bottom:80px;align-self:start;pointer-events:none}
+.home-editorial .hero--avon>.wrap a{pointer-events:auto}
+.home-editorial .hero--avon .hero-agent{bottom:80px}
+.home-editorial .hero--avon .hero-location,.home-editorial .hero--avon .hero-promise{text-shadow:0 2px 24px rgba(0,0,0,.2)}
+.home-editorial .hero--avon .sub{color:#f0f0f3;text-shadow:0 1px 12px rgba(0,0,0,.65)}
+.home-editorial .hero--avon .scrollcue{display:none}
+.avon-portrait figcaption{padding:14px clamp(24px,4.5vw,72px) 20px;font-size:.7rem;line-height:1.6;color:var(--fg-soft);background:var(--bg)}
 .avon-portrait figcaption span{color:var(--muted)}
 .avon-portrait figcaption a{text-decoration:underline;text-underline-offset:3px}
-.avon-portrait details{margin-top:6px;color:var(--muted)}
+.avon-portrait details{margin-top:6px;color:var(--muted);max-width:650px}
 .avon-portrait summary{cursor:pointer}
 .avon-portrait details p{font-size:.75rem;line-height:1.6;margin-top:10px}
 @media(max-width:760px){
- .home-editorial .hero--avon{display:flex;flex-direction:column;gap:30px;padding:112px 20px 40px}
- .avon-portrait{width:100%;max-width:540px}
- .home-editorial .hero--avon>.wrap{max-width:540px}
- .home-editorial .hero--avon .hero-location{font-size:clamp(3.7rem,16vw,5.8rem)}
+ .avon-image-frame{min-height:max(720px,94svh);padding-top:80px}
+ .avon-image-frame::after{background:none}
+ .avon-image-frame picture{position:relative}
+ .avon-image-frame picture::after{content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(180deg,rgba(6,6,8,.05),rgba(6,6,8,.2) 35%,rgba(6,6,8,.7) 75%,#060608 100%)}
+ .home-editorial .hero--avon>.wrap{padding-top:clamp(220px,60vw,390px);padding-bottom:50px}
  .home-editorial .hero--avon .hero-promise{font-size:clamp(2rem,8vw,3rem)}
  .home-editorial .hero--avon h1{margin-top:18px}
 }

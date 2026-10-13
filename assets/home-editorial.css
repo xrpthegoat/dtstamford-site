@@ -193,3 +193,7 @@ header .nav-search-listings:focus-visible,header .header-search-shortcut:focus-v
 @media(min-width:1201px) and (max-width:1390px){.home-editorial header .brand .wordmark{display:none}.home-editorial .nav-links{gap:14px}}
 @media(max-width:1200px){.home-editorial header .header-search-shortcut{display:inline-flex;margin-left:auto}}
 @media(max-width:640px){.home-editorial .nav-right .btn-nav-val{display:none}.home-editorial header .nav{gap:10px}.home-editorial .header-search-shortcut{font-size:.72rem}}
+
+/* Softer frosted navigation surfaces, with readable text over the hero. */
+.home-editorial .nav-mega,.home-editorial .mmenu-panel{background:rgba(18,18,23,.90);backdrop-filter:blur(24px) saturate(115%);-webkit-backdrop-filter:blur(24px) saturate(115%);border-color:rgba(255,255,255,.16);box-shadow:0 20px 60px rgba(0,0,0,.35)}
+.home-editorial .mmenu-scrim{background:rgba(4,4,6,.38)}

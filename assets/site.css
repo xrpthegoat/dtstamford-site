@@ -470,3 +470,7 @@ header .header-search-shortcut{display:none;color:var(--gold,#e7cc8e);font-size:
 @media(max-width:1160px){header .header-search-shortcut{display:inline-flex;margin-left:auto}header .nav{gap:14px}}
 header .nav-search-listings:focus-visible,header .header-search-shortcut:focus-visible{outline:2px solid #e7cc8e;outline-offset:5px}
 .mmenu-links .mobile-search-listings{color:var(--gold,#e7cc8e)}
+
+/* Match the homepage's frosted menu while keeping links legible. */
+.mmenu-panel{background:rgba(18,18,23,.90);backdrop-filter:blur(24px) saturate(115%);-webkit-backdrop-filter:blur(24px) saturate(115%);border-color:rgba(255,255,255,.16);box-shadow:0 20px 60px rgba(0,0,0,.35)}
+.mmenu-scrim{background:rgba(4,4,6,.38)}

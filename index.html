@@ -65,6 +65,7 @@
     { "@type": "Place", "name": "Fairfield County, CT" }
   ],
   "image": [
+    { "@id": "https://dtstamford.com/#john-restrepo-headshot" },
     "https://dtstamford.com/assets/stamford-realtor-john-restrepo-downtown-stamford.jpg",
     "https://dtstamford.com/assets/john-restrepo-stamford-ct-realtor.jpg",
     "https://dtstamford.com/assets/downtown-stamford-ct-landmark-square-skyline.jpg"
@@ -108,15 +109,27 @@
   "@type": "Person",
   "@id": "https://dtstamford.com/#agent",
   "name": "John Restrepo",
-  "alternateName": ["Jhonatan Restrepo"],
-  "jobTitle": "Real Estate Agent",
+  "alternateName": [
+    "Jhonatan Restrepo"
+  ],
+  "jobTitle": "Licensed Connecticut Real Estate Agent",
   "url": "https://dtstamford.com/",
-  "image": "https://dtstamford.com/assets/john-restrepo-stamford-ct-realtor.jpg",
+  "image": {
+    "@id": "https://dtstamford.com/#john-restrepo-headshot"
+  },
   "telephone": "+1-203-883-3399",
   "email": "john@stamford-homes.com",
-  "worksFor": { "@type": "Organization", "name": "Jarah Tuttle LLC" },
+  "worksFor": {
+    "@type": "Organization",
+    "name": "Jarah Tuttle LLC"
+  },
   "areaServed": "Stamford, Connecticut",
-  "knowsAbout": ["Stamford real estate", "Home selling", "Apartment rentals", "First-time home buyers"],
+  "knowsAbout": [
+    "Stamford real estate",
+    "Home selling",
+    "Apartment rentals",
+    "First-time home buyers"
+  ],
   "sameAs": [
     "https://www.instagram.com/downtownstamford",
     "https://www.facebook.com/Stamfordrealtornear",
@@ -124,7 +137,30 @@
     "https://share.google/3kMvIQotODXfVBbiR",
     "https://www.zillow.com/profile/downtownstamford",
     "https://www.linkedin.com/in/stamfordrealestate/"
-  ]
+  ],
+  "description": "John Restrepo is a licensed Connecticut real estate agent with Jarah Tuttle LLC, helping buyers, sellers and renters in Stamford and Fairfield County.",
+  "subjectOf": {
+    "@id": "https://dtstamford.com/#john-restrepo-headshot"
+  },
+  "mainEntityOfPage": "https://dtstamford.com/about.html",
+  "knowsLanguage": [
+    "English",
+    "Spanish"
+  ],
+  "hasCredential": {
+    "@type": "EducationalOccupationalCredential",
+    "name": "Connecticut Real Estate Salesperson License RES.0817347",
+    "credentialCategory": "Real Estate Salesperson License",
+    "identifier": "RES.0817347",
+    "validFrom": "2020-12-04",
+    "validThrough": "2028-05-31",
+    "url": "https://data.ct.gov/resource/7y8e-cawe.json?fullcredentialcode=RES.0817347",
+    "recognizedBy": {
+      "@type": "GovernmentOrganization",
+      "name": "Connecticut Department of Consumer Protection",
+      "url": "https://portal.ct.gov/dcp"
+    }
+  }
 }
 </script>
 <script type="application/ld+json">
@@ -569,7 +605,8 @@
      Cloudflare Web Analytics (beacon on 4,495 pages, real token) is the live source.
      To add GA properly: paste the real G- id from analytics.google.com > Admin > Data
      Streams. Do not re-add a placeholder. -->
-<script type="application/ld+json">{
+<script type="application/ld+json">
+{
   "@context": "https://schema.org",
   "@graph": [
     {
@@ -625,11 +662,44 @@
       "name": "Stamford CT Real Estate — John Restrepo",
       "primaryImageOfPage": {
         "@id": "https://dtstamford.com/#avon-photo"
-      }
+      },
+      "about": {
+        "@id": "https://dtstamford.com/#agent"
+      },
+      "image": [
+        {
+          "@id": "https://dtstamford.com/#avon-photo"
+        },
+        {
+          "@id": "https://dtstamford.com/#john-restrepo-headshot"
+        }
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://dtstamford.com/#john-restrepo-headshot",
+      "name": "John Restrepo — Stamford, CT Real Estate Agent",
+      "contentUrl": "https://dtstamford.com/assets/john-restrepo-stamford-ct-real-estate-agent-headshot.jpg",
+      "url": "https://dtstamford.com/assets/john-restrepo-stamford-ct-real-estate-agent-headshot.jpg",
+      "thumbnailUrl": "https://dtstamford.com/assets/john-restrepo-stamford-ct-real-estate-agent-headshot-480w.jpg",
+      "encodingFormat": "image/jpeg",
+      "width": 1536,
+      "height": 1024,
+      "caption": "John Restrepo · Licensed Connecticut real estate agent in Stamford, CT · Jarah Tuttle LLC · CT license RES.0817347",
+      "description": "Professional portrait of John Restrepo, also known as Jhonatan Restrepo, a licensed Connecticut real estate salesperson with Jarah Tuttle LLC. He helps buyers, sellers and renters in Stamford and Fairfield County.",
+      "about": {
+        "@id": "https://dtstamford.com/#agent"
+      },
+      "isPartOf": {
+        "@id": "https://dtstamford.com/#webpage"
+      },
+      "representativeOfPage": false
     }
   ]
-}</script>
+}
+</script>
 <link rel="stylesheet" href="assets/home-motion.css?v=20261014c">
+<link rel="stylesheet" href="assets/home-agent.css?v=20261014identity">
 </head>
 <body id="top" class="home-editorial">
 <a class="skip" href="#main">Skip to content</a>
@@ -749,7 +819,7 @@
         <a class="hero-valuation" href="contact.html#valuation-form">Free valuation <span aria-hidden="true">↗</span></a>
       </div>
       <a class="hero-agent" href="#about" aria-label="Meet John Restrepo, your Stamford real estate agent">
-        <picture><source type="image/avif" srcset="assets/john-restrepo-stamford-ct-real-estate-agent-headshot.avif"><img src="assets/john-restrepo-stamford-ct-real-estate-agent-headshot.webp" alt="John Restrepo — Stamford CT real estate agent" width="1100" height="1375" decoding="async"></picture>
+        <picture><source type="image/avif" srcset="assets/john-restrepo-stamford-ct-real-estate-agent-headshot-480w.avif 480w, assets/john-restrepo-stamford-ct-real-estate-agent-headshot-800w.avif 800w, assets/john-restrepo-stamford-ct-real-estate-agent-headshot.avif 1536w" sizes="88px"><source type="image/webp" srcset="assets/john-restrepo-stamford-ct-real-estate-agent-headshot-480w.webp 480w, assets/john-restrepo-stamford-ct-real-estate-agent-headshot-800w.webp 800w, assets/john-restrepo-stamford-ct-real-estate-agent-headshot.webp 1536w" sizes="88px"><img src="assets/john-restrepo-stamford-ct-real-estate-agent-headshot.jpg" srcset="assets/john-restrepo-stamford-ct-real-estate-agent-headshot-480w.jpg 480w, assets/john-restrepo-stamford-ct-real-estate-agent-headshot-800w.jpg 800w, assets/john-restrepo-stamford-ct-real-estate-agent-headshot.jpg 1536w" sizes="88px" alt="John Restrepo, licensed Connecticut real estate agent with Jarah Tuttle LLC in Stamford" width="1536" height="1024" decoding="async"></picture>
         <span class="hero-agent-copy"><span class="hero-agent-kicker">Meet your real estate agent</span><strong>John Restrepo</strong><span>Jarah Tuttle LLC</span><span class="hero-agent-arrow" aria-hidden="true">↗</span></span>
       </a>
       <button class="home-motion-toggle" type="button" aria-pressed="false" hidden><span aria-hidden="true">Ⅱ</span><span class="home-motion-label">Pause motion</span></button>
@@ -1083,20 +1153,20 @@
   <!-- MEET JOHN -->
   <section class="block meet" id="about">
     <div class="wrap row">
-      <div class="portrait rv" data-parallax-child>
-        <div class="cut">
-          <picture>
-            <source type="image/avif" srcset="assets/john-restrepo-stamford-ct-real-estate-agent-headshot.avif"><source type="image/webp" srcset="assets/john-restrepo-stamford-ct-real-estate-agent-headshot.webp">
-            <img class="img" src="assets/john-restrepo-stamford-ct-real-estate-agent-headshot.jpg" alt="John Restrepo — Stamford CT real estate agent" title="John Restrepo — Stamford real estate agent" width="1100" height="1100" loading="lazy">
-          </picture>
-          <span class="pin">John Restrepo · Jarah Tuttle LLC</span>
-        </div>
-      </div>
+      <figure class="portrait rv agent-portrait" id="john-restrepo-photo" data-parallax-child>
+        <div class="cut"><picture><source type="image/avif" srcset="assets/john-restrepo-stamford-ct-real-estate-agent-headshot-480w.avif 480w, assets/john-restrepo-stamford-ct-real-estate-agent-headshot-800w.avif 800w, assets/john-restrepo-stamford-ct-real-estate-agent-headshot.avif 1536w" sizes="(max-width: 600px) calc(100vw - 48px), (max-width: 860px) 460px, 42vw"><source type="image/webp" srcset="assets/john-restrepo-stamford-ct-real-estate-agent-headshot-480w.webp 480w, assets/john-restrepo-stamford-ct-real-estate-agent-headshot-800w.webp 800w, assets/john-restrepo-stamford-ct-real-estate-agent-headshot.webp 1536w" sizes="(max-width: 600px) calc(100vw - 48px), (max-width: 860px) 460px, 42vw"><img class="img" src="assets/john-restrepo-stamford-ct-real-estate-agent-headshot.jpg" srcset="assets/john-restrepo-stamford-ct-real-estate-agent-headshot-480w.jpg 480w, assets/john-restrepo-stamford-ct-real-estate-agent-headshot-800w.jpg 800w, assets/john-restrepo-stamford-ct-real-estate-agent-headshot.jpg 1536w" sizes="(max-width: 600px) calc(100vw - 48px), (max-width: 860px) 460px, 42vw" alt="John Restrepo, licensed Connecticut real estate agent with Jarah Tuttle LLC in Stamford" width="1536" height="1024" loading="lazy" decoding="async"></picture></div>
+        <figcaption class="agent-photo-caption">
+          <a href="about.html"><strong>John Restrepo</strong></a>
+          <span>Licensed Connecticut real estate agent · Stamford, CT</span>
+          <span>Jarah Tuttle LLC · CT license RES.0817347</span>
+          <a class="agent-credentials" href="about.html">View John's credentials &amp; local experience <span aria-hidden="true">↗</span></a>
+        </figcaption>
+      </figure>
       <div>
         <span class="tag rv"><span class="i">/ 04</span>Meet your real estate agent</span>
         <h2 class="rv d1">Why work with John Restrepo as your Stamford real estate agent?</h2>
-        <p class="rv d2">Because a <strong>Stamford real estate agent</strong> who works one city knows what a countywide agent can't — what the fees cover, how fast each building moves, which ones take dogs. I'm in them every week: Downtown, Harbor Point, Shippan, Springdale, North Stamford. Condos, rentals and houses.</p>
-        <p class="rv d2"><strong>5.0 across 92 Google reviews</strong>, <strong>25+ years combined</strong> on our team. List with me and your home gets <strong>the largest real estate Instagram following in Stamford</strong>, professional photography and premium Zillow placement. This site runs on a live MLS feed refreshed every three hours — today's market, not a portal's week-old copy.</p>
+        <p class="rv d2 agent-intro"><strong>John Restrepo is a licensed Connecticut real estate agent in Stamford</strong> with Jarah Tuttle LLC, helping buyers, sellers and renters in Stamford and Fairfield County. My local work covers Downtown Stamford, Harbor Point, Shippan, Springdale, Glenbrook and North Stamford — from condos and apartments to single-family homes.</p>
+        <p class="rv d2">For sellers, my marketing includes <strong>professional photography, MLS exposure and social media promotion</strong>. For buyers and renters, I help compare neighborhoods, buildings and available homes using this site's live MLS search.</p>
         <p class="rv d2">Text me and I'll text back. I'll tell you when a place isn't right for you, even when it costs me the deal. <span lang="es">Hablo español.</span></p>
         <div class="sign rv d3">— John Restrepo · Licensed CT real estate agent RES.0817347</div>
       </div>

@@ -1,0 +1,10 @@
+/* Portrait identity stays readable HTML beside the photo. */
+.home-editorial .meet .agent-portrait{margin:0;min-width:0;aspect-ratio:auto}
+.home-editorial .agent-photo-caption{position:relative;z-index:1;padding:20px 0 0;font-family:var(--sans);font-size:13px;line-height:1.7;color:var(--fg-soft)}
+.home-editorial .agent-photo-caption>a:first-child{display:inline-block;color:#f5f5f7;text-decoration:none;margin-bottom:5px}
+.home-editorial .agent-photo-caption strong{font:500 23px/1.2 var(--disp);letter-spacing:-.02em}
+.home-editorial .agent-photo-caption>span{display:block}
+.home-editorial .agent-photo-caption .agent-credentials{display:inline-flex;gap:14px;align-items:center;margin-top:12px;padding:6px 0;color:var(--gold-l);font-size:12px;text-decoration:none;border-bottom:1px solid #eed6a340}
+.home-editorial .agent-photo-caption a:hover{color:#fff}
+.home-editorial .agent-photo-caption a:focus-visible{outline:2px solid var(--gold-l);outline-offset:5px}
+@media(max-width:600px){.home-editorial .agent-photo-caption{font-size:12px;padding-top:16px}.home-editorial .agent-photo-caption strong{font-size:21px}}

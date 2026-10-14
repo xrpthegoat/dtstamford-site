@@ -559,7 +559,7 @@
 <link rel="stylesheet" href="assets/home-editorial.css?v=20261013searchcta">
 <link rel="stylesheet" href="assets/home-market.css?v=20261013a">
 <link rel="stylesheet" href="assets/home-tools.css?v=20261013b">
-<script src="assets/home-market.js?v=20261013a" defer></script>
+<script src="assets/home-market.js?v=20261014c" defer></script>
 <link rel="stylesheet" href="assets/avon-hero.css?v=20261013c">
 <!-- Google Analytics: REMOVED 2026-08-11. The tag shipped with the placeholder ID
      G-XXXXXXXXXX, so every homepage view fetched googletagmanager and reported to an
@@ -628,7 +628,7 @@
     }
   ]
 }</script>
-<link rel="stylesheet" href="assets/home-depth.css?v=20261014">
+<link rel="stylesheet" href="assets/home-motion.css?v=20261014c">
 </head>
 <body id="top" class="home-editorial">
 <a class="skip" href="#main">Skip to content</a>
@@ -751,6 +751,7 @@
         <picture><source type="image/avif" srcset="assets/john-restrepo-stamford-ct-real-estate-agent-headshot.avif"><img src="assets/john-restrepo-stamford-ct-real-estate-agent-headshot.webp" alt="John Restrepo — Stamford CT real estate agent" width="1100" height="1375" decoding="async"></picture>
         <span class="hero-agent-copy"><span class="hero-agent-kicker">Meet your real estate agent</span><strong>John Restrepo</strong><span>Jarah Tuttle LLC</span><span class="hero-agent-arrow" aria-hidden="true">↗</span></span>
       </a>
+      <button class="home-motion-toggle" type="button" aria-pressed="false" hidden><span aria-hidden="true">Ⅱ</span><span class="home-motion-label">Pause motion</span></button>
     </div>
     <div class="scrollcue">Scroll</div>
   </section>
@@ -1001,7 +1002,6 @@
 
   <section class="home-tools" id="guided-tools" aria-labelledby="tools-title">
     <div class="wrap">
-      <div class="depth-intro"><div class="depth-scene" aria-hidden="true"><div class="depth-city"><span class="depth-ground"></span><span class="depth-building depth-building-1"><i></i><b></b><em></em></span><span class="depth-building depth-building-2"><i></i><b></b><em></em></span><span class="depth-building depth-building-3"><i></i><b></b><em></em></span></div></div><div class="depth-caption"><span>YOUR NEXT CHAPTER, TAKING SHAPE.</span><button class="depth-toggle" type="button" aria-pressed="false" hidden>Pause 3D motion</button></div></div>
       <div class="tools-heading"><div><p class="tools-eyebrow">A little guidance. A clear next step.</p><h2 id="tools-title">Less paperwork.<br><span>More moving forward.</span></h2></div><p>Simple, guided tools for the next part of your move. Start where you are — I’m here when you need a hand.</p></div>
       <div class="tools-grid">
         <article class="tool-card">
@@ -1457,16 +1457,7 @@
   var hdr=document.getElementById('hdr');
   addEventListener('scroll',function(){hdr.classList.toggle('solid',scrollY>30);},{passive:true});
 
-  // reveal — IntersectionObserver blur-fade
   var reduceM=matchMedia('(prefers-reduced-motion:reduce)').matches;
-  var rvs=[].slice.call(document.querySelectorAll('.rv'));
-  if('IntersectionObserver' in window && !reduceM){
-    var rio=new IntersectionObserver(function(es){
-      es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');rio.unobserve(e.target);}});
-    },{threshold:.12,rootMargin:'0px 0px -8% 0px'});
-    rvs.forEach(function(el){rio.observe(el);});
-  }else{rvs.forEach(function(el){el.classList.add('in');});}
-
   // stat count-up
   function countUp(el){
     var to=parseFloat(el.getAttribute('data-count')),cv=el.querySelector('.cv');
@@ -1489,21 +1480,7 @@
     stats.forEach(function(s){sio.observe(s);});
   }else{stats.forEach(countUp);}
 
-  // subtle parallax — hero image only (transform-only, one node = smooth)
-  var pNodes=[].slice.call(document.querySelectorAll('.hero-media .img'));
-  var pt=false;
-  function parallax(){
-    var vh=innerHeight;
-    pNodes.forEach(function(img){
-      var r=img.parentElement.getBoundingClientRect();
-      if(r.bottom<-200||r.top>vh+200)return;
-      var prog=(r.top+r.height/2-vh/2)/vh;
-      img.style.transform='translate3d(0,'+(prog*-5)+'%,0)';
-    });
-    pt=false;
-  }
-  addEventListener('scroll',function(){if(!pt){pt=true;requestAnimationFrame(parallax);}},{passive:true});
-  addEventListener('resize',parallax);parallax();
+
 
   // mobile drawer menu + swipe-to-close
   var mt=document.getElementById('navToggle'),mm=document.getElementById('mobileMenu'),
@@ -1544,6 +1521,7 @@
   var i=0;
   var FADE=550;                                  // must match the CSS opacity transition (.5s + buffer)
   setInterval(function(){
+    if(document.hidden || document.documentElement.classList.contains('home-motion-paused') || matchMedia('(prefers-reduced-motion:reduce)').matches) return;
     ff[i].classList.remove('on');                // fade the current fact fully OUT first
     var next=(i+1)%ff.length;
     setTimeout(function(){ ff[next].classList.add('on'); i=next; }, FADE);  // then fade the next one in — no overlap
@@ -1552,6 +1530,6 @@
 </script>
 <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "fcdcc63885554c618f3fea8816534803"}'></script><!-- End Cloudflare Web Analytics -->
 <script src="assets/home-navigation.js" defer></script>
-<script src="assets/home-depth.js?v=20261014" defer></script>
+<script src="assets/home-motion.js?v=20261014c" defer></script>
 </body>
 </html>

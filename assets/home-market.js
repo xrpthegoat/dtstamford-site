@@ -23,16 +23,6 @@
   }
 
   if (!('IntersectionObserver' in window)) return;
-  // Content is never hidden waiting for JS; animate once when it is already entering view.
-  const entrance = new IntersectionObserver(entries => {
-    for (const entry of entries) {
-      if (!entry.isIntersecting) continue;
-      if (!reducedMotion.matches) entry.target.classList.add('market-enter');
-      entrance.unobserve(entry.target);
-    }
-  }, { threshold: 0.12 });
-  document.querySelectorAll('.market-panel, .statement-copy, .home-statement .sa-fig').forEach(el => entrance.observe(el));
-
   if (rail) {
     const visibility = new IntersectionObserver(entries => {
       rail.classList.toggle('is-offscreen', !entries[0].isIntersecting);

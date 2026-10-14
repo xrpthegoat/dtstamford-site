@@ -1,0 +1,36 @@
+/* Content-led motion. Nothing depends on animation to become readable. */
+.home-editorial .home-motion-toggle{display:inline-flex;align-items:center;gap:8px;position:relative;z-index:3;pointer-events:auto;margin-top:22px;padding:8px 0;min-height:44px;border:0;background:transparent;color:#d4c6aa;font:11px var(--sans);cursor:pointer;text-shadow:0 1px 8px #0008}
+.home-editorial .home-motion-toggle[hidden]{display:none}
+.home-editorial .home-motion-toggle:hover{color:#fff}
+.home-editorial .home-motion-toggle:focus-visible{outline:2px solid var(--gold-l);outline-offset:6px;border-radius:2px}
+.home-editorial .home-motion-toggle>span:first-child{width:14px;font-size:14px}
+.home-editorial .motion-word{display:inline-block;transform-origin:50% 100%;vertical-align:baseline}
+/* Disable the older blur layer and market entrance: one module controls each reveal. */
+.home-editorial .rv,.home-editorial .rv.in{opacity:1;filter:none;transform:none;transition:none}
+body.home-editorial .market-enter{animation:none}
+.motion-enabled .avon-image-frame,.motion-enabled .hero--avon>.wrap,
+.motion-enabled .sa-fig,.motion-enabled .frame .img{translate:0 var(--motion-y,0px)}
+.motion-enabled .hero--avon>.wrap{transition:none}
+.motion-enabled .sa-fig-b{position:relative;z-index:1}
+.home-editorial .btn,.home-editorial .tool-link,.home-editorial .ms-bar button{translate:var(--mag-x,0px) var(--mag-y,0px);transition:translate .25s cubic-bezier(.2,.75,.25,1),background .25s,box-shadow .3s,border-color .25s}
+.home-editorial .btn:hover{box-shadow:0 8px 28px #0004}
+.home-editorial .btn .ic{transition:transform .35s cubic-bezier(.2,.75,.25,1),background .25s}
+.home-editorial .btn:hover .ic{transform:rotate(-12deg) translate(1px,-1px)}
+.home-editorial .tool-card{position:relative;isolation:isolate;transition:transform .45s cubic-bezier(.2,.75,.25,1),border-color .3s,box-shadow .45s}
+.home-editorial .tool-card::after{content:"";position:absolute;inset:0;z-index:-1;border-radius:inherit;pointer-events:none;background:radial-gradient(360px circle at var(--light-x,50%) var(--light-y,0%),#eed6a313,transparent 70%);opacity:0;transition:opacity .4s}
+.home-editorial .tool-card:hover::after{opacity:1}
+.home-editorial .tool-card:hover,.home-editorial .tool-card:focus-within{transform:translateY(-6px);box-shadow:0 18px 45px #0005}
+.home-editorial .tool-card .tool-symbol{transition:transform .45s cubic-bezier(.2,.75,.25,1)}
+.home-editorial .tool-card:hover .tool-symbol{transform:translate(3px,-3px)}
+.home-motion-paused .avon-image-frame,.home-motion-paused .hero--avon>.wrap,
+.home-motion-paused .sa-fig,.home-motion-paused .frame .img,
+.home-motion-paused .btn,.home-motion-paused .tool-link,.home-motion-paused .ms-bar button{translate:none!important}
+.home-motion-paused .li-mq,.home-motion-paused .btn-pulse{animation-play-state:paused!important}
+.home-motion-paused .tool-card:hover,.home-motion-paused .tool-card:focus-within,.home-motion-paused .btn:hover .ic,.home-motion-paused .tool-card:hover .tool-symbol{transform:none}
+@media(prefers-reduced-motion:reduce){
+ .motion-enabled .avon-image-frame,.motion-enabled .hero--avon>.wrap,.motion-enabled .sa-fig,.motion-enabled .frame .img,.home-editorial .btn,.home-editorial .tool-link,.home-editorial .ms-bar button{translate:none!important}
+ .home-editorial .motion-word{transform:none!important;opacity:1!important}
+ .home-editorial .home-motion-toggle{display:none}
+ .home-editorial .tool-card,.home-editorial .btn .ic{transition:none}
+ .home-editorial .tool-card:hover,.home-editorial .tool-card:focus-within,.home-editorial .btn:hover .ic,.home-editorial .tool-card:hover .tool-symbol{transform:none}
+}

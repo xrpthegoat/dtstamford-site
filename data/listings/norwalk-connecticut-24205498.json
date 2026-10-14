@@ -4,7 +4,7 @@
  "status": "Active",
  "listingType": "rent",
  "propertyType": "Residential Rental",
- "price": 2400.0,
+ "price": 2300.0,
  "leasePriceDesc": "Per Month",
  "rentPeriod": "month",
  "rentalDuration": "Yearly Furnished",
@@ -51,7 +51,7 @@
   "https://smartmls-assets.cdn-connectmls.com/pics/5AFDFFDF428AD510E063E201100A2659/HD_1788899481486_16475775_8621_4C15_A1B9_B10C672B20CA.JPEG"
  ],
  "primaryPhotoOnly": false,
- "updated": "2026-09-09T10:39:36",
+ "updated": "2026-10-14T15:10:34",
  "facts": {
   "dom": 35,
   "listed": "2026-09-09",
@@ -95,6 +95,35 @@
   }
  },
  "comps": [
+  {
+   "mls": "24205349",
+   "slug": "14-center-avenue-norwalk-connecticut-24205349",
+   "address": {
+    "line": "14 Center Avenue",
+    "unit": "Unit 1S",
+    "lineWithUnit": "14 Center Avenue Unit 1S",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 600.0,
+   "acres": 0.16,
+   "price": 1925.0,
+   "date": "2026-10-14",
+   "listingType": "rent",
+   "rentPeriod": "month",
+   "geo": {
+    "lat": 41.127096,
+    "lng": -73.418604
+   },
+   "klass": "rental",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": null,
+   "ppsf": 3.2083333333333335
+  },
   {
    "mls": "24207192",
    "slug": "37-ferris-avenue-norwalk-connecticut-24207192",
@@ -210,35 +239,6 @@
    "why": "Same town, sold in the last 3 years",
    "km": null,
    "ppsf": 2.2789425706472195
-  },
-  {
-   "mls": "24199014",
-   "slug": "75-roton-avenue-norwalk-connecticut-24199014",
-   "address": {
-    "line": "75 Roton Avenue",
-    "unit": null,
-    "lineWithUnit": "75 Roton Avenue",
-    "city": "Norwalk",
-    "state": "Connecticut",
-    "zip": "06853"
-   },
-   "beds": 2.0,
-   "baths": 1.0,
-   "sqft": 800.0,
-   "acres": 0.15,
-   "price": 4200.0,
-   "date": "2026-10-05",
-   "listingType": "rent",
-   "rentPeriod": "month",
-   "geo": {
-    "lat": 41.061348,
-    "lng": -73.44159
-   },
-   "klass": "rental",
-   "tier": 5,
-   "why": "Same town, sold in the last 3 years",
-   "km": null,
-   "ppsf": 5.25
   }
  ]
 }

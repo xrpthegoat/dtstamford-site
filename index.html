@@ -472,7 +472,8 @@
   .g-12{grid-column:span 12;aspect-ratio:24/9}
   .f-skyline .img{object-position:center 60%}
   .f-downtown .img{object-position:center 30%}
-  .f-summer .img{object-position:center 42%}
+  .f-night{aspect-ratio:2/1}
+  .f-night .img{object-position:center 16%}
   @media(max-width:760px){.gal{grid-template-columns:1fr}.g-7,.g-5,.g-4,.g-12{grid-column:span 1;aspect-ratio:3/2}}
 
   /* NEIGHBORHOODS */
@@ -1171,11 +1172,12 @@
           <source type="image/avif" srcset="assets/stamford-ct-downtown-veterans-park-dusk.avif"><source type="image/webp" srcset="assets/stamford-ct-downtown-veterans-park-dusk.webp">
           <img class="img" src="assets/stamford-ct-downtown-veterans-park-dusk.webp" alt="Downtown Stamford, CT at dusk — Veterans Park and the Government Center on Main Street, photographed by Stamford real estate agent John Restrepo" title="Stamford real estate agent — Downtown Stamford at dusk" width="2000" height="1500" loading="lazy">
         </picture><span class="cap">Stamford, block by block</span></div>
-        <div class="frame g-12 f-summer rv d1" data-parallax-child><picture>
-          <source type="image/webp" media="(max-width:760px)" srcset="assets/summer-street-stamford-ct-new-construction-800w.webp">
-          <source type="image/avif" srcset="assets/summer-street-stamford-ct-new-construction.avif"><source type="image/webp" srcset="assets/summer-street-stamford-ct-new-construction.webp">
-          <picture><source type="image/avif" srcset="assets/summer-street-stamford-ct-new-construction.avif"><source type="image/webp" srcset="assets/summer-street-stamford-ct-new-construction.webp"><img class="img" src="assets/summer-street-stamford-ct-new-construction.jpg" alt="Summer Street in downtown Stamford, CT — new apartment construction rising over tree-lined blocks; the streets your local Stamford real estate agent near me, John Restrepo, works every day" title="Stamford real estate agent near me — Summer Street, Downtown Stamford" width="1900" height="1425" loading="lazy"></picture>
-        </picture><span class="cap">Summer Street · new homes rising</span></div>
+        <div class="frame g-12 f-night rv d1" id="downtown-at-night" data-parallax-child><picture>
+          <source type="image/avif" media="(max-width:760px)" srcset="assets/stamford/downtown-stamford-ct-night-800w.avif">
+          <source type="image/webp" media="(max-width:760px)" srcset="assets/stamford/downtown-stamford-ct-night-800w.webp">
+          <source type="image/avif" srcset="assets/stamford/downtown-stamford-ct-night.avif"><source type="image/webp" srcset="assets/stamford/downtown-stamford-ct-night.webp">
+          <img class="img" src="assets/stamford/downtown-stamford-ct-night.jpg" alt="A cityscape with illuminated buildings and traffic lights in Downtown Stamford, CT" title="Downtown Stamford at Night" width="2400" height="1800" loading="lazy" decoding="async">
+        </picture><span class="cap">Downtown Stamford · after dark</span></div>
       </div>
     </div>
   </section>

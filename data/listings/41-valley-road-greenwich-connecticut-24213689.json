@@ -12,7 +12,7 @@
  "closeDate": null,
  "beds": 1.0,
  "baths": 1.0,
- "sqft": 4185.0,
+ "sqft": 850.0,
  "yearBuilt": 1940.0,
  "acres": 0.19,
  "address": {
@@ -71,8 +71,7 @@
   "heatFuel": "Natural Gas",
   "heatType": "Hot Air",
   "cooling": "Central Air",
-  "parking": "Driveway",
-  "parkingSpaces": "1",
+  "parkingSpaces": "0",
   "laundry": "Main Level",
   "laundryLoc": "In unit",
   "pets": "Restrictions",
@@ -147,62 +146,149 @@
  },
  "comps": [
   {
-   "mls": "24054382",
-   "slug": "60-oak-ridge-street-greenwich-connecticut-24054382",
+   "mls": "24183550",
+   "slug": "7-bible-street-greenwich-connecticut-24183550",
    "address": {
-    "line": "60 Oak Ridge Street",
-    "unit": "Unit 3N",
-    "lineWithUnit": "60 Oak Ridge Street Unit 3N",
+    "line": "7 Bible Street",
+    "unit": "Unit 1",
+    "lineWithUnit": "7 Bible Street Unit 1",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06807"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 800.0,
+   "acres": 0.1,
+   "price": 2950.0,
+   "date": "2026-07-03",
+   "listingType": "rent",
+   "rentPeriod": "month",
+   "geo": {
+    "lat": 41.04252,
+    "lng": -73.59561
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.17091237018648334,
+   "ppsf": 3.6875
+  },
+  {
+   "mls": "24146895",
+   "slug": "152-river-rd-extension-greenwich-connecticut-24146895",
+   "address": {
+    "line": "152 River Rd Extension",
+    "unit": "Unit 3",
+    "lineWithUnit": "152 River Rd Extension Unit 3",
     "city": "Greenwich",
     "state": "Connecticut",
     "zip": "06830"
    },
    "beds": 2.0,
    "baths": 1.0,
-   "sqft": 4350.0,
-   "acres": null,
+   "sqft": 800.0,
+   "acres": 0.28,
    "price": 2700.0,
-   "date": "2024-12-20",
+   "date": "2026-02-26",
    "listingType": "rent",
    "rentPeriod": "month",
    "geo": {
-    "lat": 41.022205,
-    "lng": -73.635345
+    "lat": 41.04375,
+    "lng": -73.5911
    },
    "klass": "rental",
-   "tier": 5,
-   "why": "Same town, sold in the last 3 years",
-   "km": 4.0533260657627155,
-   "ppsf": 0.6206896551724138
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.3730665244239128,
+   "ppsf": 3.375
   },
   {
-   "mls": "24124676",
-   "slug": "60-pemberwick-road-greenwich-connecticut-24124676",
+   "mls": "24113162",
+   "slug": "5-christiano-street-greenwich-connecticut-24113162",
    "address": {
-    "line": "60 Pemberwick Road",
-    "unit": "#3",
-    "lineWithUnit": "60 Pemberwick Road #3",
+    "line": "5 Christiano Street",
+    "unit": "Unit 2",
+    "lineWithUnit": "5 Christiano Street Unit 2",
     "city": "Greenwich",
     "state": "Connecticut",
-    "zip": "06831"
+    "zip": "06807"
    },
    "beds": 2.0,
    "baths": 1.0,
-   "sqft": 3914.0,
-   "acres": 0.17,
-   "price": 3500.0,
-   "date": "2025-11-01",
+   "sqft": 800.0,
+   "acres": 0.23,
+   "price": 2500.0,
+   "date": "2025-11-08",
    "listingType": "rent",
    "rentPeriod": "month",
    "geo": {
-    "lat": 41.018011,
-    "lng": -73.654899
+    "lat": 41.046207,
+    "lng": -73.59434
    },
    "klass": "rental",
-   "tier": 5,
-   "why": "Same town, sold in the last 3 years",
-   "km": 5.712774596234394,
-   "ppsf": 0.8942258559018906
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.537018165273212,
+   "ppsf": 3.125
+  },
+  {
+   "mls": "24195203",
+   "slug": "98-valley-road-greenwich-connecticut-24195203",
+   "address": {
+    "line": "98 Valley Road",
+    "unit": "Unit 15",
+    "lineWithUnit": "98 Valley Road Unit 15",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06807"
+   },
+   "beds": 2.0,
+   "baths": 1.0,
+   "sqft": 1008.0,
+   "acres": null,
+   "price": 4300.0,
+   "date": "2026-09-15",
+   "listingType": "rent",
+   "rentPeriod": "month",
+   "geo": {
+    "lat": 41.0456,
+    "lng": -73.590758
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.553140953139584,
+   "ppsf": 4.265873015873016
+  },
+  {
+   "mls": "24140466",
+   "slug": "100-east-putnam-avenue-greenwich-connecticut-24140466",
+   "address": {
+    "line": "100 East Putnam Avenue",
+    "unit": "Unit 304",
+    "lineWithUnit": "100 East Putnam Avenue Unit 304",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06807"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 955.0,
+   "acres": 0.76,
+   "price": 5900.0,
+   "date": "2026-03-02",
+   "listingType": "rent",
+   "rentPeriod": "month",
+   "geo": {
+    "lat": 41.03711,
+    "lng": -73.60184
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.7942781992424299,
+   "ppsf": 6.178010471204188
   }
  ]
 }

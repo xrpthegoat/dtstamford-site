@@ -53,7 +53,7 @@
  "primaryPhotoOnly": false,
  "updated": "2026-10-14T15:10:34",
  "facts": {
-  "dom": 46,
+  "dom": 47,
   "listed": "2026-09-09",
   "sewer": "Public Sewer Connected",
   "water": "Public Water Connected",
@@ -95,6 +95,35 @@
   }
  },
  "comps": [
+  {
+   "mls": "24207936",
+   "slug": "19-1st-street-norwalk-connecticut-24207936",
+   "address": {
+    "line": "19 1st Street",
+    "unit": "Unit 2nd fl Front",
+    "lineWithUnit": "19 1st Street Unit 2nd fl Front",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06855"
+   },
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 725.0,
+   "acres": 0.27,
+   "price": 2150.0,
+   "date": "2026-10-26",
+   "listingType": "rent",
+   "rentPeriod": "month",
+   "geo": {
+    "lat": 41.098474,
+    "lng": -73.404576
+   },
+   "klass": "rental",
+   "tier": 5,
+   "why": "Same town, sold in the last 3 years",
+   "km": null,
+   "ppsf": 2.9655172413793105
+  },
   {
    "mls": "24207537",
    "slug": "23-1-2-1st-street-norwalk-connecticut-24207537",
@@ -210,35 +239,6 @@
    "why": "Same town, sold in the last 3 years",
    "km": null,
    "ppsf": 3.3666666666666667
-  },
-  {
-   "mls": "24202809",
-   "slug": "31-high-street-norwalk-connecticut-24202809",
-   "address": {
-    "line": "31 High Street",
-    "unit": "Unit 4-2C",
-    "lineWithUnit": "31 High Street Unit 4-2C",
-    "city": "Norwalk",
-    "state": "Connecticut",
-    "zip": "06851"
-   },
-   "beds": 1.0,
-   "baths": 1.0,
-   "sqft": 643.0,
-   "acres": null,
-   "price": 2375.0,
-   "date": "2026-10-19",
-   "listingType": "rent",
-   "rentPeriod": "month",
-   "geo": {
-    "lat": 41.120617,
-    "lng": -73.41285
-   },
-   "klass": "rental",
-   "tier": 5,
-   "why": "Same town, sold in the last 3 years",
-   "km": null,
-   "ppsf": 3.6936236391912907
   }
  ]
 }

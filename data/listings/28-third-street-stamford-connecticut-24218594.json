@@ -1,6 +1,6 @@
 {
  "mls": "24218594",
- "slug": "stamford-connecticut-24218594",
+ "slug": "28-third-street-stamford-connecticut-24218594",
  "status": "Active",
  "listingType": "rent",
  "propertyType": "Residential Rental",
@@ -16,14 +16,14 @@
  "yearBuilt": 1998.0,
  "acres": null,
  "address": {
-  "line": null,
-  "unit": null,
-  "lineWithUnit": null,
+  "line": "28 Third Street",
+  "unit": "Unit 26",
+  "lineWithUnit": "28 Third Street Unit 26",
   "city": "Stamford",
   "state": "Connecticut",
   "zip": "06905"
  },
- "addressWithheld": true,
+ "addressWithheld": false,
  "attribution": {
   "office": "The Bridge Realty Inc.",
   "officeId": "12987",
@@ -48,6 +48,10 @@
  ],
  "primaryPhotoOnly": false,
  "updated": "2026-11-02T16:48:47",
+ "geo": {
+  "lat": 41.064739,
+  "lng": -73.542082
+ },
  "facts": {
   "dom": 1,
   "listed": "2026-11-02",
@@ -77,10 +81,10 @@
   "newConstruction": "No/Resale",
   "zoning": "RMF",
   "lotDescription": "Level Lot",
+  "waterfront": "Not Applicable",
   "directWaterfront": "0"
  },
- "indexable": false,
- "geo": null,
+ "indexable": true,
  "meta": {
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
   "attribution": "Listing data provided courtesy of SmartMLS."
@@ -91,153 +95,189 @@
    "middle": null,
    "high": null,
    "lookup": "https://www.stamfordpublicschools.org/"
+  },
+  "grocery": [
+   {
+    "n": "Stop & Shop",
+    "mi": 0.27,
+    "lat": 41.067985,
+    "lng": -73.544961,
+    "walk": 5
+   },
+   {
+    "n": "Target",
+    "mi": 0.66,
+    "lat": 41.055148,
+    "lng": -73.541856
+   }
+  ],
+  "pharmacy": {
+   "n": "CVS Pharmacy",
+   "mi": 0.74,
+   "lat": 41.073653,
+   "lng": -73.549971,
+   "chain": "CVS"
+  },
+  "train": {
+   "n": "Stamford",
+   "mi": 1.23,
+   "lat": 41.046904,
+   "lng": -73.542025,
+   "line": "Amtrak;Metro-North Railroad;CTrail"
+  },
+  "bus": {
+   "n": "Bedford St @ Third St",
+   "mi": 0.05,
+   "lat": 41.065278,
+   "lng": -73.541328,
+   "walk": 1
   }
  },
  "comps": [
   {
-   "mls": "24202541",
-   "slug": "15-whitmore-lane-stamford-connecticut-24202541",
+   "mls": "24171968",
+   "slug": "1500-bedford-street-stamford-connecticut-24171968",
    "address": {
-    "line": "15 Whitmore Lane",
-    "unit": null,
-    "lineWithUnit": "15 Whitmore Lane",
+    "line": "1500 Bedford Street",
+    "unit": "Unit 202",
+    "lineWithUnit": "1500 Bedford Street Unit 202",
     "city": "Stamford",
     "state": "Connecticut",
-    "zip": "06902"
+    "zip": "06905"
    },
-   "beds": 2.0,
-   "baths": 1.0,
-   "sqft": 816.0,
-   "acres": 0.14,
-   "price": 3200.0,
-   "date": "2026-11-02",
+   "beds": 1.0,
+   "baths": 2.0,
+   "sqft": 849.0,
+   "acres": null,
+   "price": 2650.0,
+   "date": "2026-10-27",
    "listingType": "rent",
    "rentPeriod": "month",
    "geo": {
-    "lat": 41.049232,
-    "lng": -73.564989
+    "lat": 41.064379,
+    "lng": -73.541212
    },
    "klass": "rental",
-   "tier": 5,
-   "why": "Same town, sold in the last 3 years",
-   "km": null,
-   "ppsf": 3.9215686274509802
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.08320140431017216,
+   "ppsf": 3.121319199057715
   },
   {
-   "mls": "24211263",
-   "slug": "66-ocean-drive-east-stamford-connecticut-24211263",
+   "mls": "24164177",
+   "slug": "1887-summer-street-stamford-connecticut-24164177",
    "address": {
-    "line": "66 Ocean Drive East",
+    "line": "1887 Summer Street",
     "unit": null,
-    "lineWithUnit": "66 Ocean Drive East",
+    "lineWithUnit": "1887 Summer Street",
     "city": "Stamford",
     "state": "Connecticut",
-    "zip": "06902"
+    "zip": "06905"
    },
-   "beds": 2.0,
+   "beds": 1.0,
    "baths": 1.0,
-   "sqft": 986.0,
-   "acres": 0.32,
-   "price": 4250.0,
-   "date": "2026-11-01",
+   "sqft": 1000.0,
+   "acres": 0.19,
+   "price": 1900.0,
+   "date": "2026-05-21",
    "listingType": "rent",
    "rentPeriod": "month",
    "geo": {
-    "lat": 41.03241584,
-    "lng": -73.5220826
+    "lat": 41.065524,
+    "lng": -73.543851
    },
    "klass": "rental",
-   "tier": 5,
-   "why": "Same town, sold in the last 3 years",
-   "km": null,
-   "ppsf": 4.310344827586207
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.17208806726999198,
+   "ppsf": 1.9
   },
   {
-   "mls": "24212789",
-   "slug": "44-highview-avenue-stamford-connecticut-24212789",
+   "mls": "24167197",
+   "slug": "1872-bedford-street-stamford-connecticut-24167197",
    "address": {
-    "line": "44 Highview Avenue",
+    "line": "1872 Bedford Street",
     "unit": "Unit 2",
-    "lineWithUnit": "44 Highview Avenue Unit 2",
+    "lineWithUnit": "1872 Bedford Street Unit 2",
     "city": "Stamford",
     "state": "Connecticut",
-    "zip": "06907"
+    "zip": "06905"
    },
-   "beds": 1.0,
-   "baths": 1.0,
-   "sqft": 650.0,
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 900.0,
    "acres": 0.17,
-   "price": 2100.0,
-   "date": "2026-11-01",
+   "price": 3300.0,
+   "date": "2026-05-01",
    "listingType": "rent",
    "rentPeriod": "month",
    "geo": {
-    "lat": 41.09722,
-    "lng": -73.516054
+    "lat": 41.066486,
+    "lng": -73.5428
    },
    "klass": "rental",
-   "tier": 5,
-   "why": "Same town, sold in the last 3 years",
-   "km": null,
-   "ppsf": 3.230769230769231
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.20337001372233662,
+   "ppsf": 3.6666666666666665
   },
   {
-   "mls": "24194651",
-   "slug": "98-southfield-avenue-stamford-connecticut-24194651",
+   "mls": "24180770",
+   "slug": "7-fourth-street-stamford-connecticut-24180770",
    "address": {
-    "line": "98 Southfield Avenue",
-    "unit": "Unit 105",
-    "lineWithUnit": "98 Southfield Avenue Unit 105",
+    "line": "7 Fourth Street",
+    "unit": "Unit 5F",
+    "lineWithUnit": "7 Fourth Street Unit 5F",
     "city": "Stamford",
     "state": "Connecticut",
-    "zip": "06902"
+    "zip": "06905"
    },
-   "beds": 1.0,
+   "beds": 2.0,
    "baths": 1.0,
-   "sqft": 800.0,
+   "sqft": 905.0,
    "acres": null,
    "price": 2850.0,
-   "date": "2026-11-01",
+   "date": "2026-06-30",
    "listingType": "rent",
    "rentPeriod": "month",
    "geo": {
-    "lat": 41.03593,
-    "lng": -73.545935
+    "lat": 41.06438,
+    "lng": -73.54488
    },
    "klass": "rental",
-   "tier": 5,
-   "why": "Same town, sold in the last 3 years",
-   "km": null,
-   "ppsf": 3.5625
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.23795001473547697,
+   "ppsf": 3.149171270718232
   },
   {
-   "mls": "24209057",
-   "slug": "803-cove-road-stamford-connecticut-24209057",
+   "mls": "24191693",
+   "slug": "7-fourth-street-stamford-connecticut-24191693",
    "address": {
-    "line": "803 Cove Road",
-    "unit": "Unit 1",
-    "lineWithUnit": "803 Cove Road Unit 1",
+    "line": "7 Fourth Street",
+    "unit": "Unit 3H",
+    "lineWithUnit": "7 Fourth Street Unit 3H",
     "city": "Stamford",
     "state": "Connecticut",
-    "zip": "06902"
+    "zip": "06905"
    },
-   "beds": 1.0,
+   "beds": 2.0,
    "baths": 1.0,
-   "sqft": 800.0,
-   "acres": 0.18,
-   "price": 2100.0,
-   "date": "2026-11-01",
+   "sqft": 1064.0,
+   "acres": null,
+   "price": 3000.0,
+   "date": "2026-07-28",
    "listingType": "rent",
    "rentPeriod": "month",
    "geo": {
-    "lat": 41.0487,
-    "lng": -73.51082
+    "lat": 41.064379,
+    "lng": -73.544883
    },
    "klass": "rental",
-   "tier": 5,
-   "why": "Same town, sold in the last 3 years",
-   "km": null,
-   "ppsf": 2.625
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.2382166286359192,
+   "ppsf": 2.819548872180451
   }
  ]
 }

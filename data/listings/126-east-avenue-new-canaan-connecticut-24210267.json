@@ -54,7 +54,7 @@
   "lng": -73.48667
  },
  "facts": {
-  "dom": 37,
+  "dom": 38,
   "listed": "2026-09-28",
   "sewer": "Public Sewer Connected",
   "water": "Public Water Connected",
@@ -126,6 +126,35 @@
   }
  },
  "comps": [
+  {
+   "mls": "24197645",
+   "slug": "123-east-avenue-new-canaan-connecticut-24197645",
+   "address": {
+    "line": "123 East Avenue",
+    "unit": null,
+    "lineWithUnit": "123 East Avenue",
+    "city": "New Canaan",
+    "state": "Connecticut",
+    "zip": "06840"
+   },
+   "beds": 4.0,
+   "baths": 2.0,
+   "sqft": 1875.0,
+   "acres": 0.26,
+   "price": 6500.0,
+   "date": "2026-11-01",
+   "listingType": "rent",
+   "rentPeriod": "month",
+   "geo": {
+    "lat": 41.147382,
+    "lng": -73.486858
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.04509105614703552,
+   "ppsf": 3.466666666666667
+  },
   {
    "mls": "24186269",
    "slug": "140-east-avenue-new-canaan-connecticut-24186269",
@@ -241,35 +270,6 @@
    "why": "Within a 15-minute walk, sold in the last year",
    "km": 0.27762847293771925,
    "ppsf": 2.358490566037736
-  },
-  {
-   "mls": "24116174",
-   "slug": "190-main-street-new-canaan-connecticut-24116174",
-   "address": {
-    "line": "190 Main Street",
-    "unit": null,
-    "lineWithUnit": "190 Main Street",
-    "city": "New Canaan",
-    "state": "Connecticut",
-    "zip": "06840"
-   },
-   "beds": 3.0,
-   "baths": 4.0,
-   "sqft": 2000.0,
-   "acres": 0.29,
-   "price": 7900.0,
-   "date": "2026-04-10",
-   "listingType": "rent",
-   "rentPeriod": "month",
-   "geo": {
-    "lat": 41.144985,
-    "lng": -73.49066
-   },
-   "klass": "rental",
-   "tier": 3,
-   "why": "Within a 15-minute walk, sold in the last year",
-   "km": 0.45493966596722857,
-   "ppsf": 3.95
   }
  ]
 }

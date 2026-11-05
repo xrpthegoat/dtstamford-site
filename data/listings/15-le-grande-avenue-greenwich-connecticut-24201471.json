@@ -55,7 +55,7 @@
   "lng": -73.6184
  },
  "facts": {
-  "dom": 72,
+  "dom": 73,
   "listed": "2026-08-24",
   "floodZone": "0",
   "sewer": "Public Sewer Connected",
@@ -130,6 +130,35 @@
   }
  },
  "comps": [
+  {
+   "mls": "24217666",
+   "slug": "156-east-elm-street-greenwich-connecticut-24217666",
+   "address": {
+    "line": "156 East Elm Street",
+    "unit": "Unit E4",
+    "lineWithUnit": "156 East Elm Street Unit E4",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06830"
+   },
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 1392.0,
+   "acres": null,
+   "price": 5000.0,
+   "date": "2026-11-04",
+   "listingType": "rent",
+   "rentPeriod": "month",
+   "geo": {
+    "lat": 41.02947,
+    "lng": -73.61901
+   },
+   "klass": "rental",
+   "tier": 3,
+   "why": "Within a 15-minute walk, sold in the last year",
+   "km": 0.3605848300360985,
+   "ppsf": 3.5919540229885056
+  },
   {
    "mls": "24137355",
    "slug": "156-east-elm-streets-greenwich-connecticut-24137355",
@@ -245,35 +274,6 @@
    "why": "Within a 15-minute walk, sold in the last year",
    "km": 0.641958408722135,
    "ppsf": 1.8518518518518519
-  },
-  {
-   "mls": "24153412",
-   "slug": "40-orchard-place-greenwich-connecticut-24153412",
-   "address": {
-    "line": "40 Orchard Place",
-    "unit": "Unit 2",
-    "lineWithUnit": "40 Orchard Place Unit 2",
-    "city": "Greenwich",
-    "state": "Connecticut",
-    "zip": "06830"
-   },
-   "beds": 2.0,
-   "baths": 1.0,
-   "sqft": 1348.0,
-   "acres": 0.29,
-   "price": 3800.0,
-   "date": "2026-04-06",
-   "listingType": "rent",
-   "rentPeriod": "month",
-   "geo": {
-    "lat": 41.02043,
-    "lng": -73.61815
-   },
-   "klass": "rental",
-   "tier": 3,
-   "why": "Within a 15-minute walk, sold in the last year",
-   "km": 0.6486055824744844,
-   "ppsf": 2.8189910979228485
   }
  ]
 }

@@ -61,7 +61,7 @@
   "lng": -73.436813
  },
  "facts": {
-  "dom": 65,
+  "dom": 66,
   "listed": "2026-08-31",
   "sewer": "Public Sewer Connected",
   "water": "Public Water Connected",
@@ -148,6 +148,35 @@
   }
  },
  "comps": [
+  {
+   "mls": "24202310",
+   "slug": "12-camelot-drive-norwalk-connecticut-24202310",
+   "address": {
+    "line": "12 Camelot Drive",
+    "unit": "Unit F1",
+    "lineWithUnit": "12 Camelot Drive Unit F1",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06850"
+   },
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 896.0,
+   "acres": null,
+   "price": 325000.0,
+   "date": "2026-11-02",
+   "listingType": "sale",
+   "rentPeriod": null,
+   "geo": {
+    "lat": 41.119728,
+    "lng": -73.436813
+   },
+   "klass": "condo",
+   "tier": 1,
+   "why": "Same building, sold in the last year",
+   "km": 0.0,
+   "ppsf": 362.7232142857143
+  },
   {
    "mls": "24189590",
    "slug": "12-camelot-drive-norwalk-connecticut-24189590",
@@ -263,35 +292,6 @@
    "why": "Within a 15-minute walk, sold in the last year",
    "km": 0.35316494543079185,
    "ppsf": 461.53846153846155
-  },
-  {
-   "mls": "24192827",
-   "slug": "115-fillow-street-norwalk-connecticut-24192827",
-   "address": {
-    "line": "115 Fillow Street",
-    "unit": "Unit 43",
-    "lineWithUnit": "115 Fillow Street Unit 43",
-    "city": "Norwalk",
-    "state": "Connecticut",
-    "zip": "06850"
-   },
-   "beds": 1.0,
-   "baths": 1.0,
-   "sqft": 780.0,
-   "acres": null,
-   "price": 322000.0,
-   "date": "2026-11-03",
-   "listingType": "sale",
-   "rentPeriod": null,
-   "geo": {
-    "lat": 41.116642,
-    "lng": -73.437813
-   },
-   "klass": "condo",
-   "tier": 3,
-   "why": "Within a 15-minute walk, sold in the last year",
-   "km": 0.3532244601111757,
-   "ppsf": 412.8205128205128
   }
  ]
 }

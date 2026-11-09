@@ -1,12 +1,12 @@
 {
  "meta": {
-  "syncedAt": "2026-11-09T12:37:17Z",
-  "count": 13316,
+  "syncedAt": "2026-11-09T15:36:53Z",
+  "count": 13315,
   "source": "smartmls-rets",
   "attribution": "Listing data provided courtesy of SmartMLS.",
   "disclaimer": "Listing data is provided courtesy of SmartMLS. Information is deemed reliable but not guaranteed accurate by the MLS. IDX information is provided exclusively for consumers' personal, non-commercial use and may not be used for any purpose other than to identify prospective properties consumers may be interested in purchasing.",
   "refreshHours": 3,
-  "generatedAt": "2026-11-09T12:40:20Z"
+  "generatedAt": "2026-11-09T15:40:00Z"
  },
  "listings": [
   {
@@ -92099,8 +92099,8 @@
     "lat": 41.053772,
     "lng": -73.55498
    },
-   "primaryPhoto": null,
-   "photoCount": 0,
+   "primaryPhoto": "https://smartmls-assets.cdn-connectmls.com/pics/49EB6861FF00830EE0631A01100A8B57/HD_1753390560929_20250718_141313_CL.JPEG",
+   "photoCount": 1,
    "updated": "2026-03-02T21:06:07",
    "daysOnMarket": 21,
    "indexable": true,
@@ -115308,6 +115308,44 @@
    "closePrice": 295000.0
   },
   {
+   "mls": "24158734",
+   "slug": "77-havemeyer-lane-stamford-connecticut-24158734",
+   "listingType": "sale",
+   "status": "Closed",
+   "price": 1795000.0,
+   "beds": 3.0,
+   "baths": 5.0,
+   "sqft": 3595.0,
+   "propertyType": "Condo/Co-Op For Sale",
+   "address": {
+    "line": "77 Havemeyer Lane",
+    "unit": "Unit 58",
+    "lineWithUnit": "77 Havemeyer Lane Unit 58",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902",
+    "neighborhood": null
+   },
+   "addressWithheld": false,
+   "geo": {
+    "lat": 41.055644,
+    "lng": -73.564879
+   },
+   "primaryPhoto": "https://smartmls-assets.cdn-connectmls.com/pics/4CD57E2874E45C4CE0631A01100A8CA0/HD_1773331302342_DJI_20250807012919_0426_D.JPEG",
+   "photoCount": 1,
+   "updated": "2026-05-11T19:57:13",
+   "daysOnMarket": 25,
+   "indexable": true,
+   "laundry": "Main Level",
+   "parking": "Attached Garage",
+   "sewer": "Public Sewer Connected",
+   "fuel": "Natural Gas",
+   "pets": "Restrictions",
+   "style": "Townhouse",
+   "closeDate": "2026-05-11",
+   "closePrice": 1940000.0
+  },
+  {
    "mls": "24158738",
    "slug": "17-rockfield-drive-stamford-connecticut-24158738",
    "listingType": "rent",
@@ -118577,71 +118615,6 @@
    "style": "Units on different Floors,Other"
   },
   {
-   "mls": "24153082",
-   "slug": "lot-6-south-brook-drive-stamford-connecticut-24153082",
-   "listingType": "sale",
-   "status": "Active",
-   "price": 525000.0,
-   "beds": null,
-   "baths": null,
-   "sqft": null,
-   "propertyType": "Lots and Land For Sale",
-   "address": {
-    "line": "Lot #6 South Brook Drive",
-    "unit": null,
-    "lineWithUnit": "Lot #6 South Brook Drive",
-    "city": "Stamford",
-    "state": "Connecticut",
-    "zip": "06904",
-    "neighborhood": null
-   },
-   "addressWithheld": false,
-   "geo": {
-    "lat": 41.14404,
-    "lng": -73.60858
-   },
-   "primaryPhoto": "https://smartmls-assets.cdn-connectmls.com/pics/4A9814F4B7F71A62E063E201100A3293/HD_1770866312758_Lot__13_5.JPEG",
-   "photoCount": 11,
-   "updated": "2026-02-06T21:14:53",
-   "daysOnMarket": 277,
-   "indexable": true,
-   "sewer": "Septic"
-  },
-  {
-   "mls": "24150725",
-   "slug": "6a-south-brook-drive-stamford-connecticut-24150725",
-   "listingType": "sale",
-   "status": "Active",
-   "price": 2175000.0,
-   "beds": 4.0,
-   "baths": 3.0,
-   "sqft": 3782.0,
-   "propertyType": "Single Family For Sale",
-   "address": {
-    "line": "6A South Brook Drive",
-    "unit": null,
-    "lineWithUnit": "6A South Brook Drive",
-    "city": "Stamford",
-    "state": "Connecticut",
-    "zip": "06903",
-    "neighborhood": null
-   },
-   "addressWithheld": false,
-   "geo": {
-    "lat": 41.144356,
-    "lng": -73.60855
-   },
-   "primaryPhoto": "https://smartmls-assets.cdn-connectmls.com/pics/49107FB68D302EDDE063E201100A1874/HD_1769195262148_LLC__AD_Rendering__3.JPEG",
-   "photoCount": 24,
-   "updated": "2026-01-23T22:04:47",
-   "daysOnMarket": 290,
-   "indexable": true,
-   "parking": "Attached Garage",
-   "sewer": "Septic",
-   "fuel": "Electric",
-   "style": "Farm House,Modern"
-  },
-  {
    "mls": "24143609",
    "slug": "186-stillwater-avenue-stamford-connecticut-24143609",
    "listingType": "sale",
@@ -118711,6 +118684,71 @@
    "sewer": "Public Sewer Connected",
    "fuel": "Electric,Oil",
    "style": "Split Level"
+  },
+  {
+   "mls": "24153082",
+   "slug": "lot-6-south-brook-drive-stamford-connecticut-24153082",
+   "listingType": "sale",
+   "status": "Active",
+   "price": 525000.0,
+   "beds": null,
+   "baths": null,
+   "sqft": null,
+   "propertyType": "Lots and Land For Sale",
+   "address": {
+    "line": "Lot #6 South Brook Drive",
+    "unit": null,
+    "lineWithUnit": "Lot #6 South Brook Drive",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06904",
+    "neighborhood": null
+   },
+   "addressWithheld": false,
+   "geo": {
+    "lat": 41.14404,
+    "lng": -73.60858
+   },
+   "primaryPhoto": "https://smartmls-assets.cdn-connectmls.com/pics/4A9814F4B7F71A62E063E201100A3293/HD_1770866312758_Lot__13_5.JPEG",
+   "photoCount": 11,
+   "updated": "2026-02-06T21:14:53",
+   "daysOnMarket": 277,
+   "indexable": true,
+   "sewer": "Septic"
+  },
+  {
+   "mls": "24150725",
+   "slug": "6a-south-brook-drive-stamford-connecticut-24150725",
+   "listingType": "sale",
+   "status": "Active",
+   "price": 2175000.0,
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 3782.0,
+   "propertyType": "Single Family For Sale",
+   "address": {
+    "line": "6A South Brook Drive",
+    "unit": null,
+    "lineWithUnit": "6A South Brook Drive",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06903",
+    "neighborhood": null
+   },
+   "addressWithheld": false,
+   "geo": {
+    "lat": 41.144356,
+    "lng": -73.60855
+   },
+   "primaryPhoto": "https://smartmls-assets.cdn-connectmls.com/pics/49107FB68D302EDDE063E201100A1874/HD_1769195262148_LLC__AD_Rendering__3.JPEG",
+   "photoCount": 24,
+   "updated": "2026-01-23T22:04:47",
+   "daysOnMarket": 290,
+   "indexable": true,
+   "parking": "Attached Garage",
+   "sewer": "Septic",
+   "fuel": "Electric",
+   "style": "Farm House,Modern"
   },
   {
    "mls": "24159254",
@@ -130637,44 +130675,6 @@
    "style": "Townhouse",
    "closeDate": "2026-06-03",
    "closePrice": 269000.0
-  },
-  {
-   "mls": "24158734",
-   "slug": "77-havemeyer-lane-stamford-connecticut-24158734",
-   "listingType": "sale",
-   "status": "Closed",
-   "price": 1795000.0,
-   "beds": 3.0,
-   "baths": 5.0,
-   "sqft": 3595.0,
-   "propertyType": "Condo/Co-Op For Sale",
-   "address": {
-    "line": "77 Havemeyer Lane",
-    "unit": "Unit 58",
-    "lineWithUnit": "77 Havemeyer Lane Unit 58",
-    "city": "Stamford",
-    "state": "Connecticut",
-    "zip": "06902",
-    "neighborhood": null
-   },
-   "addressWithheld": false,
-   "geo": {
-    "lat": 41.055644,
-    "lng": -73.564879
-   },
-   "primaryPhoto": "https://smartmls-assets.cdn-connectmls.com/pics/4CD57E2874E45C4CE0631A01100A8CA0/HD_1773331302342_DJI_20250807012919_0426_D.JPEG",
-   "photoCount": 1,
-   "updated": "2026-05-11T19:57:13",
-   "daysOnMarket": 25,
-   "indexable": true,
-   "laundry": "Main Level",
-   "parking": "Attached Garage",
-   "sewer": "Public Sewer Connected",
-   "fuel": "Natural Gas",
-   "pets": "Restrictions",
-   "style": "Townhouse",
-   "closeDate": "2026-05-11",
-   "closePrice": 1940000.0
   },
   {
    "mls": "24158966",
@@ -153385,46 +153385,6 @@
    "closePrice": 550000.0
   },
   {
-   "mls": "24206772",
-   "slug": "31-ralsey-road-south-stamford-connecticut-24206772",
-   "listingType": "rent",
-   "status": "Active",
-   "price": 17000.0,
-   "rentPeriod": "month",
-   "leasePriceDesc": "Per Month",
-   "rentalDuration": "Yearly Furnished,Flexible Terms Furnished,Short Term Furnished,Academic Year Furnished",
-   "beds": 4.0,
-   "baths": 3.0,
-   "sqft": 2925.0,
-   "propertyType": "Residential Rental",
-   "address": {
-    "line": "31 Ralsey Road South",
-    "unit": null,
-    "lineWithUnit": "31 Ralsey Road South",
-    "city": "Stamford",
-    "state": "Connecticut",
-    "zip": "06902",
-    "neighborhood": null
-   },
-   "addressWithheld": false,
-   "geo": {
-    "lat": 41.030722,
-    "lng": -73.531278
-   },
-   "primaryPhoto": "https://smartmls-assets.cdn-connectmls.com/pics/5B5427473143FDADE0631A01100A9C90/HD_1789321337674_DJI_20260911122300_0243_D.JPEG",
-   "photoCount": 24,
-   "updated": "2026-09-15T13:09:54",
-   "daysOnMarket": 55,
-   "indexable": true,
-   "laundry": "Main Level",
-   "parking": "Attached Garage",
-   "sewer": "Public Sewer Connected",
-   "fuel": "Natural Gas",
-   "pets": "Restrictions",
-   "tenantPays": "Electricity, Heat, Snow Removal",
-   "style": "Cape Cod"
-  },
-  {
    "mls": "24135246",
    "slug": "15-cedar-heights-road-stamford-connecticut-24135246",
    "listingType": "rent",
@@ -168658,40 +168618,6 @@
    "style": "Ranch,Mid Rise",
    "closeDate": "2026-10-06",
    "closePrice": 2195.0
-  },
-  {
-   "mls": "24196928",
-   "slug": "15-muriel-drive-stamford-connecticut-24196928",
-   "listingType": "sale",
-   "status": "Active",
-   "price": 725000.0,
-   "beds": 3.0,
-   "baths": 1.0,
-   "sqft": 1448.0,
-   "propertyType": "Single Family For Sale",
-   "address": {
-    "line": "15 Muriel Drive",
-    "unit": null,
-    "lineWithUnit": "15 Muriel Drive",
-    "city": "Stamford",
-    "state": "Connecticut",
-    "zip": "06907",
-    "neighborhood": null
-   },
-   "addressWithheld": false,
-   "geo": {
-    "lat": 41.099053,
-    "lng": -73.524362
-   },
-   "primaryPhoto": "https://smartmls-assets.cdn-connectmls.com/pics/5844E2E0C1CF58A9E0631A01100A39F4/HD_1785939330784_05_30_HudsonCP_15MurielDr.JPEG",
-   "photoCount": 24,
-   "updated": "2026-08-05T22:14:37",
-   "daysOnMarket": 96,
-   "indexable": true,
-   "parking": "Detached Garage",
-   "sewer": "Public Sewer Connected",
-   "fuel": "Oil",
-   "style": "Ranch"
   },
   {
    "mls": "24182502",
@@ -184826,42 +184752,6 @@
    "closePrice": 230000.0
   },
   {
-   "mls": "24217201",
-   "slug": "71-strawberry-hill-avenue-stamford-connecticut-24217201",
-   "listingType": "sale",
-   "status": "Active",
-   "price": 237500.0,
-   "beds": 1.0,
-   "baths": 1.0,
-   "sqft": 725.0,
-   "propertyType": "Condo/Co-Op For Sale",
-   "address": {
-    "line": "71 Strawberry Hill Avenue",
-    "unit": "#906",
-    "lineWithUnit": "71 Strawberry Hill Avenue #906",
-    "city": "Stamford",
-    "state": "Connecticut",
-    "zip": "06902",
-    "neighborhood": null
-   },
-   "addressWithheld": false,
-   "geo": {
-    "lat": 41.063067,
-    "lng": -73.532222
-   },
-   "primaryPhoto": "https://smartmls-assets.cdn-connectmls.com/pics/5F0277EE0E683C2EE0631A01100A44BB/HD_1793364191447_untitled_19.JPEG",
-   "photoCount": 24,
-   "updated": "2026-11-01T04:05:10",
-   "daysOnMarket": 8,
-   "indexable": true,
-   "laundry": "Common Laundry Area — Lower level of the building",
-   "parking": "Paved,Off Street Parking,Assigned Parking",
-   "sewer": "Public Sewer Connected",
-   "fuel": "Natural Gas",
-   "pets": "Restrictions",
-   "style": "Apartment"
-  },
-  {
    "mls": "24162193",
    "slug": "50-glenbrook-road-stamford-connecticut-24162193",
    "listingType": "sale",
@@ -187605,7 +187495,7 @@
     "lat": 41.065245,
     "lng": -73.554118
    },
-   "primaryPhoto": "https://smartmls-assets.cdn-connectmls.com/pics/5E4AC3B07FD46327E063E201100A6308/HD_1792523161046_ext_7.JPEG",
+   "primaryPhoto": "https://smartmls-assets.cdn-connectmls.com/pics/5E4AC3B07FD46327E063E201100A6308/HD_1792523170781_0_78.JPEG",
    "photoCount": 24,
    "updated": "2026-10-16T04:05:04",
    "daysOnMarket": 24,
@@ -187951,40 +187841,6 @@
    "availability": "Flexible",
    "tenantPays": "Electricity, Internet, Liability Insurance",
    "style": "Townhouse"
-  },
-  {
-   "mls": "24205693",
-   "slug": "14-stanton-drive-stamford-connecticut-24205693",
-   "listingType": "sale",
-   "status": "Active",
-   "price": 1050000.0,
-   "beds": 3.0,
-   "baths": 2.0,
-   "sqft": 1706.0,
-   "propertyType": "Single Family For Sale",
-   "address": {
-    "line": "14 Stanton Drive",
-    "unit": null,
-    "lineWithUnit": "14 Stanton Drive",
-    "city": "Stamford",
-    "state": "Connecticut",
-    "zip": "06902",
-    "neighborhood": null
-   },
-   "addressWithheld": false,
-   "geo": {
-    "lat": 41.078229,
-    "lng": -73.56075
-   },
-   "primaryPhoto": "https://smartmls-assets.cdn-connectmls.com/pics/5D5ACA3679C2D219E063E201100A1665/HD_1791504172851_Chat_Front_House.JPEG",
-   "photoCount": 21,
-   "updated": "2026-11-08T21:39:48",
-   "daysOnMarket": 26,
-   "indexable": true,
-   "laundry": "Main Level",
-   "sewer": "Public Sewer Connected",
-   "fuel": "Propane",
-   "style": "Farm House"
   },
   {
    "mls": "24138517",
@@ -188413,42 +188269,6 @@
    "sewer": "Public Sewer Connected",
    "fuel": "Natural Gas",
    "style": "Colonial"
-  },
-  {
-   "mls": "24218618",
-   "slug": "94-southfield-avenue-stamford-connecticut-24218618",
-   "listingType": "sale",
-   "status": "Coming Soon",
-   "price": 785000.0,
-   "beds": 2.0,
-   "baths": 3.0,
-   "sqft": 1845.0,
-   "propertyType": "Condo/Co-Op For Sale",
-   "address": {
-    "line": "94 Southfield Avenue",
-    "unit": "Unit 1404",
-    "lineWithUnit": "94 Southfield Avenue Unit 1404",
-    "city": "Stamford",
-    "state": "Connecticut",
-    "zip": "06902",
-    "neighborhood": null
-   },
-   "addressWithheld": false,
-   "geo": {
-    "lat": 41.037357,
-    "lng": -73.545941
-   },
-   "primaryPhoto": "https://smartmls-assets.cdn-connectmls.com/pics/5F760F68F210226CE0631A01100A5ABE/HD_1793808029385_DSC00001.JPEG",
-   "photoCount": 24,
-   "updated": "2026-11-09T00:47:26",
-   "daysOnMarket": null,
-   "indexable": true,
-   "laundry": "Main Level — Same floor as bedrooms.",
-   "parking": "Detached Garage,Assigned Parking",
-   "sewer": "Public Sewer Connected",
-   "fuel": "Natural Gas",
-   "pets": "Yes",
-   "style": "Townhouse"
   },
   {
    "mls": "24197880",
@@ -189757,6 +189577,115 @@
    "style": "Townhouse"
   },
   {
+   "mls": "24200796",
+   "slug": "35-west-broad-street-stamford-connecticut-24200796",
+   "listingType": "sale",
+   "status": "Closed",
+   "price": 579000.0,
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1414.0,
+   "propertyType": "Condo/Co-Op For Sale",
+   "address": {
+    "line": "35 West Broad Street",
+    "unit": "Unit 107",
+    "lineWithUnit": "35 West Broad Street Unit 107",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902",
+    "neighborhood": null
+   },
+   "addressWithheld": false,
+   "geo": {
+    "lat": 41.055748,
+    "lng": -73.54646
+   },
+   "primaryPhoto": "https://smartmls-assets.cdn-connectmls.com/pics/597FD54A7EB3AA5EE063E201100ABCE6/HD_1787249427557_West_Broad_Enhanced_Front.JPEG",
+   "photoCount": 1,
+   "updated": "2026-11-03T21:30:52",
+   "daysOnMarket": 49,
+   "indexable": true,
+   "laundry": "Main Level — Laundry room in unit",
+   "parking": "Parking Garage",
+   "sewer": "Public Sewer Connected",
+   "fuel": "Natural Gas",
+   "floodZone": "0",
+   "pets": "Restrictions",
+   "style": "Apartment",
+   "closeDate": "2026-11-03",
+   "closePrice": 570000.0
+  },
+  {
+   "mls": "24219081",
+   "slug": "35-west-broad-street-stamford-connecticut-24219081",
+   "listingType": "sale",
+   "status": "Coming Soon",
+   "price": 530000.0,
+   "beds": 2.0,
+   "baths": 2.0,
+   "sqft": 1148.0,
+   "propertyType": "Condo/Co-Op For Sale",
+   "address": {
+    "line": "35 West Broad Street",
+    "unit": "Unit 124",
+    "lineWithUnit": "35 West Broad Street Unit 124",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902",
+    "neighborhood": null
+   },
+   "addressWithheld": false,
+   "geo": {
+    "lat": 41.76371,
+    "lng": -72.685097
+   },
+   "primaryPhoto": "https://smartmls-assets.cdn-connectmls.com/pics/5F666162512DBB91E0631A01100A096E/HD_1793764906498_IMG_3243.JPEG",
+   "photoCount": 10,
+   "updated": "2026-11-04T04:38:53",
+   "daysOnMarket": null,
+   "indexable": true,
+   "laundry": "Main Level — Located in the unit on the main level",
+   "parking": "Unit Garage,Parking Garage,Off Street Parking,Unassigned Parking,Assigned Parking",
+   "sewer": "Public Sewer Connected",
+   "fuel": "Natural Gas",
+   "pets": "Yes",
+   "style": "Ranch"
+  },
+  {
+   "mls": "24205693",
+   "slug": "14-stanton-drive-stamford-connecticut-24205693",
+   "listingType": "sale",
+   "status": "Active",
+   "price": 1050000.0,
+   "beds": 3.0,
+   "baths": 2.0,
+   "sqft": 1706.0,
+   "propertyType": "Single Family For Sale",
+   "address": {
+    "line": "14 Stanton Drive",
+    "unit": null,
+    "lineWithUnit": "14 Stanton Drive",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902",
+    "neighborhood": null
+   },
+   "addressWithheld": false,
+   "geo": {
+    "lat": 41.078229,
+    "lng": -73.56075
+   },
+   "primaryPhoto": "https://smartmls-assets.cdn-connectmls.com/pics/5D5ACA3679C2D219E063E201100A1665/HD_1791504172851_Chat_Front_House.JPEG",
+   "photoCount": 21,
+   "updated": "2026-11-08T21:39:48",
+   "daysOnMarket": 26,
+   "indexable": true,
+   "laundry": "Main Level",
+   "sewer": "Public Sewer Connected",
+   "fuel": "Propane",
+   "style": "Farm House"
+  },
+  {
    "mls": "24212319",
    "slug": "1-strawberry-hill-court-stamford-connecticut-24212319",
    "listingType": "rent",
@@ -189834,58 +189763,53 @@
    "style": "Colonial"
   },
   {
-   "mls": "24200796",
-   "slug": "35-west-broad-street-stamford-connecticut-24200796",
+   "mls": "24196928",
+   "slug": "15-muriel-drive-stamford-connecticut-24196928",
    "listingType": "sale",
-   "status": "Closed",
-   "price": 579000.0,
+   "status": "Under Contract",
+   "price": 725000.0,
    "beds": 3.0,
-   "baths": 2.0,
-   "sqft": 1414.0,
-   "propertyType": "Condo/Co-Op For Sale",
+   "baths": 1.0,
+   "sqft": 1448.0,
+   "propertyType": "Single Family For Sale",
    "address": {
-    "line": "35 West Broad Street",
-    "unit": "Unit 107",
-    "lineWithUnit": "35 West Broad Street Unit 107",
+    "line": "15 Muriel Drive",
+    "unit": null,
+    "lineWithUnit": "15 Muriel Drive",
     "city": "Stamford",
     "state": "Connecticut",
-    "zip": "06902",
+    "zip": "06907",
     "neighborhood": null
    },
    "addressWithheld": false,
    "geo": {
-    "lat": 41.055748,
-    "lng": -73.54646
+    "lat": 41.099053,
+    "lng": -73.524362
    },
-   "primaryPhoto": "https://smartmls-assets.cdn-connectmls.com/pics/597FD54A7EB3AA5EE063E201100ABCE6/HD_1787249427557_West_Broad_Enhanced_Front.JPEG",
-   "photoCount": 1,
-   "updated": "2026-11-03T21:30:52",
-   "daysOnMarket": 49,
+   "primaryPhoto": "https://smartmls-assets.cdn-connectmls.com/pics/5844E2E0C1CF58A9E0631A01100A39F4/HD_1785939330784_05_30_HudsonCP_15MurielDr.JPEG",
+   "photoCount": 24,
+   "updated": "2026-11-09T13:32:12",
+   "daysOnMarket": 96,
    "indexable": true,
-   "laundry": "Main Level — Laundry room in unit",
-   "parking": "Parking Garage",
+   "parking": "Detached Garage",
    "sewer": "Public Sewer Connected",
-   "fuel": "Natural Gas",
-   "floodZone": "0",
-   "pets": "Restrictions",
-   "style": "Apartment",
-   "closeDate": "2026-11-03",
-   "closePrice": 570000.0
+   "fuel": "Oil",
+   "style": "Ranch"
   },
   {
-   "mls": "24219081",
-   "slug": "35-west-broad-street-stamford-connecticut-24219081",
+   "mls": "24217201",
+   "slug": "71-strawberry-hill-avenue-stamford-connecticut-24217201",
    "listingType": "sale",
-   "status": "Coming Soon",
-   "price": 530000.0,
-   "beds": 2.0,
-   "baths": 2.0,
-   "sqft": 1148.0,
+   "status": "Active",
+   "price": 237500.0,
+   "beds": 1.0,
+   "baths": 1.0,
+   "sqft": 725.0,
    "propertyType": "Condo/Co-Op For Sale",
    "address": {
-    "line": "35 West Broad Street",
-    "unit": "Unit 124",
-    "lineWithUnit": "35 West Broad Street Unit 124",
+    "line": "71 Strawberry Hill Avenue",
+    "unit": "#906",
+    "lineWithUnit": "71 Strawberry Hill Avenue #906",
     "city": "Stamford",
     "state": "Connecticut",
     "zip": "06902",
@@ -189893,20 +189817,56 @@
    },
    "addressWithheld": false,
    "geo": {
-    "lat": 41.76371,
-    "lng": -72.685097
+    "lat": 41.063067,
+    "lng": -73.532222
    },
-   "primaryPhoto": "https://smartmls-assets.cdn-connectmls.com/pics/5F666162512DBB91E0631A01100A096E/HD_1793764906498_IMG_3243.JPEG",
-   "photoCount": 10,
-   "updated": "2026-11-04T04:38:53",
+   "primaryPhoto": "https://smartmls-assets.cdn-connectmls.com/pics/5F0277EE0E683C2EE0631A01100A44BB/HD_1793364191447_untitled_19.JPEG",
+   "photoCount": 24,
+   "updated": "2026-11-01T04:05:00",
+   "daysOnMarket": 8,
+   "indexable": true,
+   "laundry": "Common Laundry Area — Lower level of the building",
+   "parking": "Paved,Off Street Parking,Assigned Parking",
+   "sewer": "Public Sewer Connected",
+   "fuel": "Natural Gas",
+   "pets": "Restrictions",
+   "style": "Apartment"
+  },
+  {
+   "mls": "24218618",
+   "slug": "94-southfield-avenue-stamford-connecticut-24218618",
+   "listingType": "sale",
+   "status": "Coming Soon",
+   "price": 785000.0,
+   "beds": 2.0,
+   "baths": 3.0,
+   "sqft": 1845.0,
+   "propertyType": "Condo/Co-Op For Sale",
+   "address": {
+    "line": "94 Southfield Avenue",
+    "unit": "Unit 1404",
+    "lineWithUnit": "94 Southfield Avenue Unit 1404",
+    "city": "Stamford",
+    "state": "Connecticut",
+    "zip": "06902",
+    "neighborhood": null
+   },
+   "addressWithheld": false,
+   "geo": {
+    "lat": 41.037357,
+    "lng": -73.545941
+   },
+   "primaryPhoto": "https://smartmls-assets.cdn-connectmls.com/pics/5F760F68F210226CE0631A01100A5ABE/HD_1793808029385_DSC00001.JPEG",
+   "photoCount": 24,
+   "updated": "2026-11-09T00:47:26",
    "daysOnMarket": null,
    "indexable": true,
-   "laundry": "Main Level — Located in the unit on the main level",
-   "parking": "Unit Garage,Parking Garage,Off Street Parking,Unassigned Parking,Assigned Parking",
+   "laundry": "Main Level — Same floor as bedrooms.",
+   "parking": "Detached Garage,Assigned Parking",
    "sewer": "Public Sewer Connected",
    "fuel": "Natural Gas",
    "pets": "Yes",
-   "style": "Ranch"
+   "style": "Townhouse"
   },
   {
    "mls": "24037299",
@@ -234857,42 +234817,6 @@
    "style": "Mid Rise,Antique"
   },
   {
-   "mls": "24219268",
-   "slug": "8-shore-road-greenwich-connecticut-24219268",
-   "listingType": "sale",
-   "status": "Active",
-   "price": 1750000.0,
-   "beds": 4.0,
-   "baths": 3.0,
-   "sqft": 1804.0,
-   "propertyType": "Single Family For Sale",
-   "address": {
-    "line": "8 Shore Road",
-    "unit": null,
-    "lineWithUnit": "8 Shore Road",
-    "city": "Greenwich",
-    "state": "Connecticut",
-    "zip": "06870",
-    "neighborhood": null
-   },
-   "addressWithheld": false,
-   "geo": {
-    "lat": 41.027862,
-    "lng": -73.556014
-   },
-   "primaryPhoto": "https://smartmls-assets.cdn-connectmls.com/pics/5FA2D87E689A02F8E0631A01100A69F0/HD_1794056937051_1a.JPEG",
-   "photoCount": 21,
-   "updated": "2026-11-07T16:25:24",
-   "daysOnMarket": 2,
-   "indexable": true,
-   "laundry": "Main Level — in kitchen",
-   "parking": "Tandem,Attached Garage,Covered Garage,Unpaved",
-   "sewer": "Public Sewer Connected",
-   "fuel": "Gas In Street",
-   "floodZone": "1",
-   "style": "Antique"
-  },
-  {
    "mls": "24215923",
    "slug": "39-sawmill-lane-greenwich-connecticut-24215923",
    "listingType": "sale",
@@ -235429,6 +235353,42 @@
    "sewer": "Public Sewer Connected",
    "fuel": "Natural Gas",
    "style": "Colonial,Modern"
+  },
+  {
+   "mls": "24219268",
+   "slug": "8-shore-road-greenwich-connecticut-24219268",
+   "listingType": "sale",
+   "status": "Active",
+   "price": 1750000.0,
+   "beds": 4.0,
+   "baths": 3.0,
+   "sqft": 1804.0,
+   "propertyType": "Single Family For Sale",
+   "address": {
+    "line": "8 Shore Road",
+    "unit": null,
+    "lineWithUnit": "8 Shore Road",
+    "city": "Greenwich",
+    "state": "Connecticut",
+    "zip": "06870",
+    "neighborhood": null
+   },
+   "addressWithheld": false,
+   "geo": {
+    "lat": 41.027862,
+    "lng": -73.556014
+   },
+   "primaryPhoto": "https://smartmls-assets.cdn-connectmls.com/pics/5FA2D87E689A02F8E0631A01100A69F0/HD_1794056937051_1a.JPEG",
+   "photoCount": 24,
+   "updated": "2026-11-07T16:25:24",
+   "daysOnMarket": 2,
+   "indexable": true,
+   "laundry": "Main Level — in kitchen",
+   "parking": "Tandem,Attached Garage,Covered Garage,Unpaved",
+   "sewer": "Public Sewer Connected",
+   "fuel": "Gas In Street",
+   "floodZone": "1",
+   "style": "Antique"
   },
   {
    "mls": "24055865",
@@ -375214,42 +375174,6 @@
    "style": "Cape Cod"
   },
   {
-   "mls": "24218836",
-   "slug": "50-aiken-street-norwalk-connecticut-24218836",
-   "listingType": "sale",
-   "status": "Active",
-   "price": 405000.0,
-   "beds": 1.0,
-   "baths": 2.0,
-   "sqft": 1016.0,
-   "propertyType": "Condo/Co-Op For Sale",
-   "address": {
-    "line": "50 Aiken Street",
-    "unit": "Unit 481",
-    "lineWithUnit": "50 Aiken Street Unit 481",
-    "city": "Norwalk",
-    "state": "Connecticut",
-    "zip": "06851",
-    "neighborhood": null
-   },
-   "addressWithheld": false,
-   "geo": {
-    "lat": 41.133678,
-    "lng": -73.421675
-   },
-   "primaryPhoto": "https://smartmls-assets.cdn-connectmls.com/pics/5F61C416266A6B68E0631A01100A91BB/HD_1793719006986_aiken_st_norwalk_28.JPEG",
-   "photoCount": 24,
-   "updated": "2026-11-03T21:46:22",
-   "daysOnMarket": 6,
-   "indexable": true,
-   "laundry": "Main Level — Laundry In Unit",
-   "parking": "Paved,Parking Lot,Unassigned Parking",
-   "sewer": "Public Sewer Connected",
-   "fuel": "Oil",
-   "pets": "Restrictions",
-   "style": "Ranch"
-  },
-  {
    "mls": "24219156",
    "slug": "50-aiken-street-norwalk-connecticut-24219156",
    "listingType": "sale",
@@ -375542,6 +375466,42 @@
    "fuel": "Natural Gas",
    "pets": "Yes",
    "style": "Ranch,Mid Rise"
+  },
+  {
+   "mls": "24218836",
+   "slug": "50-aiken-street-norwalk-connecticut-24218836",
+   "listingType": "sale",
+   "status": "Active",
+   "price": 405000.0,
+   "beds": 1.0,
+   "baths": 2.0,
+   "sqft": 1016.0,
+   "propertyType": "Condo/Co-Op For Sale",
+   "address": {
+    "line": "50 Aiken Street",
+    "unit": "Unit 481",
+    "lineWithUnit": "50 Aiken Street Unit 481",
+    "city": "Norwalk",
+    "state": "Connecticut",
+    "zip": "06851",
+    "neighborhood": null
+   },
+   "addressWithheld": false,
+   "geo": {
+    "lat": 41.133678,
+    "lng": -73.421675
+   },
+   "primaryPhoto": "https://smartmls-assets.cdn-connectmls.com/pics/5F61C416266A6B68E0631A01100A91BB/HD_1793719006986_aiken_st_norwalk_28.JPEG",
+   "photoCount": 24,
+   "updated": "2026-11-03T21:46:22",
+   "daysOnMarket": 6,
+   "indexable": true,
+   "laundry": "Main Level — Laundry In Unit",
+   "parking": "Paved,Parking Lot,Unassigned Parking",
+   "sewer": "Public Sewer Connected",
+   "fuel": "Oil",
+   "pets": "Restrictions",
+   "style": "Ranch"
   },
   {
    "mls": "24215792",
@@ -491277,7 +491237,7 @@
     "lat": 41.14312,
     "lng": -73.380066
    },
-   "primaryPhoto": "https://smartmls-assets.cdn-connectmls.com/pics/59CBAF38A4962820E0631A01100AE96A/HD_SMARTMLS_1779896601933_35_020.JPEG",
+   "primaryPhoto": "https://smartmls-assets.cdn-connectmls.com/pics/59CBAF38A4962820E0631A01100AE96A/HD_SMARTMLS_1779894481249_2_001.JPEG",
    "photoCount": 24,
    "updated": "2026-10-13T11:20:35",
    "daysOnMarket": 74,
@@ -494345,39 +494305,6 @@
    "style": "Colonial"
   },
   {
-   "mls": "24219726",
-   "slug": "1a-driftwood-point-road-westport-connecticut-24219726",
-   "listingType": "sale",
-   "status": "Active",
-   "price": 11995000.0,
-   "beds": 4.0,
-   "baths": 6.0,
-   "sqft": 5600.0,
-   "propertyType": "Single Family For Sale",
-   "address": {
-    "line": "1A Driftwood Point Road",
-    "unit": null,
-    "lineWithUnit": "1A Driftwood Point Road",
-    "city": "Westport",
-    "state": "Connecticut",
-    "zip": "06880",
-    "neighborhood": null
-   },
-   "addressWithheld": false,
-   "geo": {
-    "lat": 41.105914,
-    "lng": -73.379263
-   },
-   "primaryPhoto": "https://smartmls-assets.cdn-connectmls.com/pics/5FA0678045A2B048E0631A01100ABCD4/HD_1793995842907_IMG_0768__edited_.JPEG",
-   "photoCount": 17,
-   "updated": "2026-11-06T20:31:09",
-   "daysOnMarket": 4,
-   "indexable": true,
-   "sewer": "Septic",
-   "fuel": "Natural Gas",
-   "style": "Colonial"
-  },
-  {
    "mls": "24172635",
    "slug": "8-pleasant-valley-lane-westport-connecticut-24172635",
    "listingType": "sale",
@@ -494699,6 +494626,39 @@
    "style": "Colonial,Farm House",
    "closeDate": "2026-10-23",
    "closePrice": 3350000.0
+  },
+  {
+   "mls": "24219726",
+   "slug": "1a-driftwood-point-road-westport-connecticut-24219726",
+   "listingType": "sale",
+   "status": "Active",
+   "price": 11995000.0,
+   "beds": 4.0,
+   "baths": 6.0,
+   "sqft": 5600.0,
+   "propertyType": "Single Family For Sale",
+   "address": {
+    "line": "1A Driftwood Point Road",
+    "unit": null,
+    "lineWithUnit": "1A Driftwood Point Road",
+    "city": "Westport",
+    "state": "Connecticut",
+    "zip": "06880",
+    "neighborhood": null
+   },
+   "addressWithheld": false,
+   "geo": {
+    "lat": 41.105914,
+    "lng": -73.379263
+   },
+   "primaryPhoto": "https://smartmls-assets.cdn-connectmls.com/pics/5FA0678045A2B048E0631A01100ABCD4/HD_1793995842907_IMG_0768__edited_.JPEG",
+   "photoCount": 17,
+   "updated": "2026-11-06T20:31:09",
+   "daysOnMarket": 4,
+   "indexable": true,
+   "sewer": "Septic",
+   "fuel": "Natural Gas",
+   "style": "Colonial"
   },
   {
    "mls": "24022931",

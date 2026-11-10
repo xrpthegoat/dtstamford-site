@@ -2,7 +2,7 @@
 (() => {
   const root = document.documentElement;
   const toggle = document.querySelector('.home-motion-toggle');
-  if (!toggle || !Element.prototype.animate) return;
+  if (!Element.prototype.animate) return;
   const reduced = matchMedia('(prefers-reduced-motion: reduce)');
   const fine = matchMedia('(hover: hover) and (pointer: fine)');
   const small = matchMedia('(max-width: 760px)');
@@ -60,13 +60,15 @@
   }
   function sync() {
     root.classList.toggle('home-motion-paused', paused || reduced.matches);
-    toggle.hidden = reduced.matches;
-    toggle.setAttribute('aria-pressed', String(paused));
-    toggle.querySelector('.home-motion-label').textContent = paused ? 'Resume motion' : 'Pause motion';
-    toggle.firstElementChild.textContent = paused ? '▷' : 'Ⅱ';
+    if (toggle) {
+      toggle.hidden = reduced.matches;
+      toggle.setAttribute('aria-pressed', String(paused));
+      toggle.querySelector('.home-motion-label').textContent = paused ? 'Resume motion' : 'Pause motion';
+      toggle.firstElementChild.textContent = paused ? '▷' : 'Ⅱ';
+    }
     if (!enabled()) reset(); else schedule();
   }
-  toggle.addEventListener('click', () => {
+  toggle?.addEventListener('click', () => {
     paused = !paused;
     try { sessionStorage.setItem('dts-home-motion-paused', String(paused)); } catch (_) {}
     sync();

@@ -75,3 +75,24 @@ body.home-editorial .agent-photo-caption { padding:18px 0 0; }
   body .mmenu-links a .lb { font-size:12px; overflow-wrap:normal; }
   body .mmenu-links a:not(.mobile-search-listings) .ar { display:none; }
 }
+/* Selected editorial wordmark; original symbol remains its own untouched image. */
+body header .brand { flex:0 0 auto; gap:10px; }
+body header .brand .wordmark { display:block; max-width:none; width:120px; line-height:0; }
+body header .brand .brand-wordmark { display:block; width:100%; height:auto; }
+body header .header-search-shortcut { gap:7px; }
+body header .header-search-shortcut svg { flex:0 0 16px; }
+@media(max-width:640px) {
+  body header .nav, body.home-editorial header .nav { gap:8px; padding-inline:12px; }
+  body header .brand { flex:1 1 auto; gap:8px; }
+  body header .brand picture { display:block; flex:0 0 auto; }
+  body header .brand .logo { width:28px; height:auto; flex:0 0 28px; }
+  body header .brand .wordmark { width:112px; flex:0 0 112px; max-width:none; }
+  body header .header-search-shortcut { min-width:80px; min-height:44px; padding:10px; font-size:12px; border-radius:10px; }
+  body header .navtoggle { border-radius:10px; }
+}
+@media(max-width:359px) {
+  body header .brand .logo { width:25px; flex-basis:25px; }
+  body header .brand .wordmark { width:104px; flex-basis:104px; }
+  body header .brand { gap:7px; }
+  body header .header-search-shortcut { min-width:76px; padding-inline:8px; gap:5px; }
+}

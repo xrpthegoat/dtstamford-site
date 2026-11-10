@@ -1,0 +1,96 @@
+/* Approved Studio presentation. Content, image sources, app state and interactions stay intact. */
+body:not(.home-editorial){
+ --sans:'Plus Jakarta Sans',Arial,sans-serif;--disp:'Plus Jakarta Sans',Arial,sans-serif;
+ --mono:'Plus Jakarta Sans',Arial,sans-serif;--bg:#060608;--bg2:#101012;--bg-2:#101012;
+ --fg:#f5f3ed;--fg-soft:#c8c6c0;--muted:#aaa8a1;--line:rgba(255,255,255,.12);
+ --gold-l:#eed6a3;--r:16px;--card-r:16px;
+ font-family:var(--sans);
+}
+body:not(.home-editorial) :is(h1,h2,h3,h4){font-family:var(--disp);letter-spacing:-.04em;font-weight:500;text-wrap:pretty}
+body:not(.home-editorial) h1{line-height:1.12}
+body:not(.home-editorial) :is(h2,h3){line-height:1.22}
+body:not(.home-editorial) :is(.eyebrow,.tag,.kicker,.k,.meta,.breadcrumbs,.crumb,.section-label){font-family:var(--sans);letter-spacing:.1em}
+body:not(.home-editorial) :is(.btn,.btn-call,.go,.btn-mini){font-family:var(--sans);font-weight:600;letter-spacing:0;border-radius:12px;box-shadow:none}
+body:not(.home-editorial) :is(.btn-gold,.btn-call,.btn-mini){background:var(--gold-l);color:#211b10}
+body:not(.home-editorial) .btn-out{background:#ffffff04;border-color:#ffffff30}
+body:not(.home-editorial) :is(.bezel,.panel,.jcard,.guide-card,.tool-card,.listing-card){border-radius:16px;box-shadow:none}
+body:not(.home-editorial) :is(.bezel>.core,.panel){background:#101012;border-color:var(--line)}
+body:not(.home-editorial) :is(.nav,.mmenu-panel){border-color:#ffffff25}
+body:not(.home-editorial) .nav{border-radius:10px;background:rgba(11,11,14,.88);box-shadow:none}
+body:not(.home-editorial) .nav-links{font-family:var(--sans);font-size:.72rem;letter-spacing:.015em}
+body:not(.home-editorial) .nav-search-listings{border-radius:10px;background:var(--gold-l);box-shadow:none}
+body:not(.home-editorial) :is(input,select,textarea){font-family:var(--sans)}
+body:not(.home-editorial) :is(.prose,.article-body,.content) p{line-height:1.8}
+body:not(.home-editorial) :is(.jcard,.guide-card){border-color:var(--line);background:#101012}
+body:not(.home-editorial) :is(.jcard h2,.jcard h3,.guide-card h3){font-weight:500;letter-spacing:-.035em}
+body:not(.home-editorial) :is(.pill,.chip){font-family:var(--sans);letter-spacing:0}
+/* Search: one clear toolbar, neutral cards, matching type. Keep app-owned sizing,
+   scrolling, dropdown positioning, stacking contexts and hidden states unchanged. */
+body.app-body .search-intro{padding:24px 24px 18px}
+body.app-body .si-inner{max-width:1560px}
+body.app-body .search-intro .rh-title{font:500 clamp(28px,3.5vw,48px)/1.15 var(--sans);letter-spacing:-.045em;max-width:none}
+body.app-body .rh-hl{color:var(--gold-l)}
+body.app-body .filterbar{padding-inline:20px;background:rgba(6,6,8,.96);backdrop-filter:blur(12px)}
+body.app-body .fb-inner{border-radius:16px;background:#111113;border-color:#ffffff20;box-shadow:none;padding:10px;gap:12px}
+body.app-body .fb-search{border-radius:10px;background:#08080a;border:1px solid #ffffff12;padding-inline:10px}
+body.app-body .fb-search:focus-within{border-radius:10px;border-color:var(--gold);box-shadow:none}
+body.app-body .fb-search input{font-size:14px;line-height:1.5}
+body.app-body :is(.fb-seg,.view-switch,.viewseg){border-radius:10px;box-shadow:none}
+body.app-body :is(.seg-btn,.drop-btn,.fb-saved,.fb-reset,.fb-filters-btn,.view-btn,.btn-mini){border-radius:9px;box-shadow:none;letter-spacing:0;font-family:var(--sans)}
+body.app-body :is(.seg-btn.is-on,.btn-mini){background:var(--gold-l);color:#211b10}
+body.app-body :is(.drop-btn,.fb-saved,.fb-reset,.fb-filters-btn){background:#ffffff04;border-color:#ffffff22}
+body.app-body :is(.drop-btn:hover,.fb-saved:hover,.fb-filters-btn:hover){border-color:#eed6a388}
+body.app-body :is(.drop-panel,.fsheet,.ai-sheet){background:#131315;border-color:#ffffff26;border-radius:16px;box-shadow:0 20px 60px #0008}
+body.app-body :is(.dp-row label,.dp-label,.dp-clear,.fb-badge,.fsheet h3){font-family:var(--sans);letter-spacing:.04em}
+body.app-body .results{padding-inline:24px}
+body.app-body .results-head{padding-block:18px 14px;border-bottom:1px solid var(--line);margin-bottom:18px}
+body.app-body .cards{gap:20px}
+body.app-body .card{background:#111113;border-color:#ffffff1c;border-radius:16px;box-shadow:none}
+body.app-body .card:hover{transform:translateY(-2px);border-color:#eed6a366;box-shadow:0 8px 24px #0004}
+body.app-body .card-body{padding:20px}
+body.app-body .card-price{font:600 26px/1.15 var(--sans);letter-spacing:-.045em}
+body.app-body .card-specs{font-size:13px;margin:12px 0 10px}
+body.app-body .card-addr{font-size:13px;line-height:1.65;color:#e2dfd8}
+body.app-body .card-meta{font-family:var(--sans);font-size:11px;letter-spacing:.01em;text-transform:none;color:var(--muted)}
+body.app-body .badge{font-family:var(--sans);letter-spacing:.02em;border-radius:6px;font-size:10px;font-weight:600}
+body.app-body .card-fav{width:40px;height:40px;background:rgba(8,8,10,.8);border-color:#ffffff45}
+body.app-body .drawer{background:#101012}
+body.app-body .drawer :is(h1,h2,h3,.d-price){font-family:var(--sans);letter-spacing:-.04em}
+body.app-body .mapwrap{border-color:#ffffff22}
+/* Retain status colors and meaning for new, sold and under-contract listings. */
+body.app-body .card.is-sold .card-price{color:var(--sold-l)}
+@media(min-width:1100px){body.app-body .app[data-view="list"] .cards{grid-template-columns:repeat(auto-fill,minmax(300px,1fr))}}
+@media(max-width:760px){
+ body:not(.home-editorial) .nav{border-radius:0}
+ body.app-body .search-intro{padding:16px 16px 10px}
+ body.app-body .search-intro .rh-title{font-size:27px;line-height:1.18;letter-spacing:-.04em}
+ body.app-body .filterbar{padding-inline:10px}
+ body.app-body .fb-inner{padding:8px;border-radius:12px;gap:8px}
+ body.app-body .fb-search input{font-size:16px}
+ body.app-body .results{padding-inline:14px}
+ body.app-body .results-head{padding-block:12px;margin-bottom:14px;gap:10px}
+ body.app-body .cards{gap:16px}
+ body.app-body .card-body{padding:17px}
+ body.app-body .card-price{font-size:25px}
+ body.app-body .card-fav{min-width:44px;min-height:44px}
+ body.app-body :is(.seg-btn,.fb-filters-btn,.fb-saved,.view-btn){min-height:44px}
+ body.app-body .fsheet{border-radius:16px}
+}
+/* The shared marketing card has padding; listing photos must remain edge-to-edge. */
+body.app-body .card{padding:0}
+/* Opaque Studio surfaces avoid overlapping blur layers over photos and headings. */
+body.app-body :is(.nav,.filterbar,.fb-inner){backdrop-filter:none;-webkit-backdrop-filter:none}
+@media(min-width:1001px){
+ body.app-body{display:flex;flex-direction:column;height:100dvh;min-height:0}
+ body.app-body>header,body.app-body>.search-intro,body.app-body>.filterbar{flex-shrink:0}
+ body.app-body>.app{flex:1;min-height:0;height:auto}
+}
+@media(max-width:760px){
+ body.app-body .results-head{flex-direction:column;align-items:flex-start;gap:4px}
+ body.app-body .results-head>*{max-width:100%}
+}
+@media(max-width:640px){
+ body:not(.home-editorial) header .nav{padding:10px 12px;gap:8px}
+ body:not(.home-editorial) header .brand{flex:0 0 auto}
+}
+body:not(.home-editorial) header .nav{backdrop-filter:none;-webkit-backdrop-filter:none}

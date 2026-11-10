@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Practice classifying failed HTTP requests in n8n with an original workflow and six sample responses.">
+<title>Free n8n HTTP Retry Lab | Kill the Busywork</title>
+<style>
+:root{color-scheme:dark;font:17px/1.65 system-ui,sans-serif;background:#10121e;color:#eef1ff}
+main{max-width:700px;margin:8vh auto;padding:0 1.5rem 3rem}
+a{color:#ffc870;text-underline-offset:.2em}
+h1{font-size:clamp(2.3rem,6vw,3.6rem);line-height:1.1;margin:.7rem 0 1.3rem}
+.eyebrow{font-size:.8rem;letter-spacing:.13em;font-weight:700;color:#ffc870;text-transform:uppercase}
+.download{display:inline-block;background:#ffc870;color:#10121e;border-radius:.5rem;padding:.65rem 1rem;font-weight:700}
+</style>
+<main>
+<a href="../">Kill the Busywork</a>
+<p class="eyebrow">Free n8n workflow</p>
+<h1>Which HTTP failures should you retry?</h1>
+<p>Run six sample responses through a retry decision in n8n. See when to honor <code>Retry-After</code>, stop after the attempt limit, or stop because replaying a request could repeat a side effect.</p>
+<p><a class="download" href="http-retry-lab.json" download>Download workflow JSON</a></p>
+<h2>Try the lab</h2>
+<ol>
+<li>Import the JSON file into a blank n8n workflow.</li>
+<li>Run it manually, then open the output of <strong>Retry Decision</strong>.</li>
+<li>Compare the 429 with a 30-second wait, the 503 retry candidate, and the four cases that stop.</li>
+</ol>
+<p>The lab uses sample data and makes no HTTP calls. A retry candidate is a decision you can inspect. The lab does not replay requests.</p>
+<p><a href="https://docs.n8n.io/workflows/export-import/">n8n import instructions</a> · <a href="https://www.rfc-editor.org/rfc/rfc9110.html#name-retry-after">HTTP Retry-After reference</a></p>
+</main>
+</html>

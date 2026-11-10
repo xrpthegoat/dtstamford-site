@@ -1,0 +1,71 @@
+{
+  "name": "Kill the Busywork - HTTP retry decision lab",
+  "nodes": [
+    {
+      "parameters": {},
+      "id": "8d307aec-396b-4486-81d3-5b53aa51b187",
+      "name": "Manual Trigger",
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        0,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "return [\n  {\n    \"json\": {\n      \"status\": 429,\n      \"attempt\": 1,\n      \"safeToReplay\": true,\n      \"retryAfter\": \"30\"\n    }\n  },\n  {\n    \"json\": {\n      \"status\": 503,\n      \"attempt\": 2,\n      \"safeToReplay\": true\n    }\n  },\n  {\n    \"json\": {\n      \"status\": 400,\n      \"attempt\": 1,\n      \"safeToReplay\": true\n    }\n  },\n  {\n    \"json\": {\n      \"status\": 503,\n      \"attempt\": 1,\n      \"safeToReplay\": false\n    }\n  },\n  {\n    \"json\": {\n      \"status\": 503,\n      \"attempt\": 3,\n      \"safeToReplay\": true\n    }\n  },\n  {\n    \"json\": {\n      \"status\": 429,\n      \"attempt\": 1,\n      \"safeToReplay\": true,\n      \"retryAfter\": \"3600\"\n    }\n  }\n];"
+      },
+      "id": "15625719-b246-4c0d-8178-c29c26d62212",
+      "name": "Sample Responses",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        240,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "const RETRYABLE = new Set([408, 429, 500, 502, 503, 504]);\n\nfunction retryAfterMs(header, now) {\n  if (typeof header !== 'string') return null;\n  const text = header.trim();\n  if (/^\\d+$/.test(text)) {\n    const delay = Number(text) * 1000;\n    return Number.isFinite(delay) ? delay : null;\n  }\n  if (!/^[A-Z][a-z]{2}, \\d{2} [A-Z][a-z]{2} \\d{4} \\d{2}:\\d{2}:\\d{2} GMT$/.test(text)) {\n    return null;\n  }\n  const time = Date.parse(text);\n  return Number.isFinite(time) ? Math.max(0, time - now) : null;\n}\n\nreturn $input.all().map(({json}) => {\n  const {status, attempt, safeToReplay, retryAfter} = json;\n  const stop = reason => ({json: {status, action: 'stop', reason}});\n  if (!Number.isInteger(status) || status < 100 || status > 599 ||\n      !Number.isInteger(attempt) || attempt < 1) return stop('invalid_input');\n  if (!RETRYABLE.has(status)) return stop('status_outside_retry_policy');\n  if (safeToReplay !== true) return stop('replay_not_confirmed_safe');\n  if (attempt >= 3) return stop('attempt_limit');\n  const delay = Math.max(2 ** attempt * 1000, retryAfterMs(retryAfter, Date.now()) ?? 0);\n  if (delay > 120000) return stop('wait_exceeds_local_budget');\n  return {json: {status, action: 'retry_candidate', delayMs: delay}};\n});\n"
+      },
+      "id": "b585710c-9b17-4fd6-a563-36231c011ae2",
+      "name": "Retry Decision",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        480,
+        0
+      ]
+    }
+  ],
+  "connections": {
+    "Manual Trigger": {
+      "main": [
+        [
+          {
+            "node": "Sample Responses",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Sample Responses": {
+      "main": [
+        [
+          {
+            "node": "Retry Decision",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "tags": []
+}

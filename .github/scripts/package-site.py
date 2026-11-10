@@ -13,6 +13,7 @@ import re
 import shutil
 import subprocess
 import sys
+from reviews import PAGES as REVIEW_PAGES, render as render_reviews, validate as validate_reviews
 
 
 class Styles(HTMLParser):
@@ -56,6 +57,9 @@ def package(root, output):
     names = subprocess.check_output(['git', 'ls-files', '-z'], cwd=root).decode().split('\0')
     names = [n for n in names if n and not n.startswith('.github/')
              and n not in ('.gitignore', 'AGENTS.md', 'CLAUDE.md')]
+    review_data = None
+    if REVIEW_PAGES.intersection(names):
+        review_data = validate_reviews(json.loads((root / 'data/google-reviews.json').read_text()))
     blocks, counts, pages = {}, collections.Counter(), {}
     for name in names:
         path = root / name
@@ -78,7 +82,10 @@ def package(root, output):
         target = output / name
         target.parent.mkdir(parents=True, exist_ok=True)
         if name not in pages:
-            shutil.copyfile(root / name, target)
+            if name in REVIEW_PAGES:
+                target.write_text(render_reviews(name, (root / name).read_text(), review_data))
+            else:
+                shutil.copyfile(root / name, target)
             continue
         original = text = pages[name]
         replacements = []
@@ -93,6 +100,8 @@ def package(root, output):
         if restored != original:
             raise AssertionError('Non-style content changed: ' + name)
         changed += text != original
+        if name in REVIEW_PAGES:
+            text = render_reviews(name, text, review_data)
         target.write_text(text)
     total = sum(p.stat().st_size for p in output.rglob('*') if p.is_file())
     if total > 950_000_000:

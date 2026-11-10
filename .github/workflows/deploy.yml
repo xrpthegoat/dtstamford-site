@@ -31,6 +31,7 @@ jobs:
           python3 .github/scripts/test-rental-publication.py
       - name: Package below the GitHub Pages size limit
         run: |
+          python3 .github/scripts/test-reviews.py
           python3 .github/scripts/test-package-site.py
           python3 .github/scripts/package-site.py . "$RUNNER_TEMP/pages-site"
           cd "$RUNNER_TEMP/pages-site"

@@ -384,6 +384,7 @@ async function load() {
     if (!res.ok) res = await fetch(DATA_URL);
     if (!res.ok) throw new Error('HTTP ' + res.status);
     const data = await res.json();
+    if (!data || !Array.isArray(data.listings)) throw new Error('Invalid listing feed');
     // Keep every listing with an address record — INCLUDING the ~88 address-withheld ones that
     // carry no geo (§12.2.3). They used to be dropped here, which made them unsearchable even by
     // MLS#. The map/bounds/circle/drawer code below now null-guards geo instead.
@@ -410,7 +411,12 @@ async function load() {
   // string — the earlier `!== 'rets'` check left the demo banner up over live SmartMLS data.
   const src = (state.meta && state.meta.source) || 'none';
   const isLive = /rets|reso|smartmls/i.test(src);
-  if (note) note.hidden = isLive;
+  if (note) {
+    note.hidden = isLive && !state.meta.error;
+    note.innerHTML = note.hidden ? '' : 'Live listings are temporarily unavailable. Please refresh, or <a href="/homes/">browse the full property index</a>.';
+  }
+  const guide = $('#searchGuide');
+  if (guide) guide.open = !!state.meta.error || !isLive;
   renderLegal();
 }
 
@@ -532,6 +538,7 @@ function filtered() {
 function render() {
   const list = filtered();
   renderHead(list);
+  if (state.meta.error) $('#count').textContent = '—';
   renderCards(list);
   renderMarkers(list);
   renderSavedActions(list);   // the "Saved" view's action bar: text John, share, get alerts
@@ -692,6 +699,7 @@ function renderCards(list) {
   if (_io) { _io.disconnect(); _io = null; }   // tear down any observer from the previous filter set
   wrap.innerHTML = '';
   wireCardsOnce();                              // delegation lives on the container, wire before/after fill
+  if (state.meta.error) { empty.hidden = true; return; }
   if (!list.length) { renderEmpty(); empty.hidden = false; return; }
   empty.hidden = true;
   _pageList = list;

@@ -57,7 +57,7 @@
 <link rel="stylesheet" href="/assets/studio-site.css?v=20261110site">
 </head>
 <body id="top" class="app-body">
-<a class="skip" href="#main">Skip to content</a>
+<a class="skip" href="#app">Skip to content</a>
 
 <header>
   <div class="wrap nav">
@@ -274,17 +274,16 @@
 </div>
 
 <!-- ============ APP ============ -->
-<main class="app" id="app" data-view="split" id="main">
+<main class="app" id="app" data-view="split">
   <section class="results" id="results" aria-label="Listings">
     <h1 class="sr-only">Search Stamford, CT Homes for Sale &amp; Rentals — Live MLS Map</h1>
     <div class="results-head">
       <div class="rh-count"><strong id="count">—</strong> <span id="countLabel">homes</span> <span class="rh-loc" id="locLabel"></span></div>
       <div class="rh-updated" id="updated"></div>
     </div>
-    <div class="sample-note" id="sampleNote" hidden>
-      <span class="dot"></span> Live listings are temporarily unavailable — the feed is reloading. Refresh in a moment, or <a href="/homes/">browse the full listing index</a>.
-    </div>
+    <div class="sample-note" id="sampleNote" hidden></div>
     <div class="saved-actions" id="savedActions" hidden></div>
+<details id="searchGuide" open style="margin:0 0 16px;padding:12px 16px;border:1px solid var(--line,#ddd);border-radius:12px"><summary>Explore Stamford homes and rentals</summary><p>Find homes for sale and apartments for rent in Stamford and nearby Fairfield County towns. Use the map and filters to compare asking prices, bedrooms, property types, and walking distance to the train. Switch between buying and renting before setting your budget; rental prices are shown with their rental period.</p><p>Browse <a href="/homes-for-sale-stamford.html">Stamford homes for sale</a>, <a href="/rentals/">rental listings</a>, or <a href="/stamford-condos-for-sale.html">condos for sale</a>. The <a href="/neighborhoods.html">neighborhood guides</a> cover areas including Downtown, Harbor Point, Glenbrook, and North Stamford. Compare location and commute alongside the property's details, availability, and total monthly cost.</p><p>The interactive map needs JavaScript. The browse links above and <a href="/homes/">full property index</a> work without it. Open a property to review its listing details and contact John about availability or a showing.</p></details>
     <div class="cards" id="cards" aria-live="polite"></div>
     <noscript>
       <div class="idx-attrib" style="padding:14px 4px">
@@ -303,12 +302,7 @@
         <a href="cove-stamford-homes-for-sale.html">Cove</a>.</p>
       </div>
     </noscript>
-    <div class="empty" id="empty" hidden>
-      <div class="empty-emoji">🔭</div>
-      <h3>No homes match those filters</h3>
-      <p>Try widening your price range or clearing a filter. Or tell John exactly what you want and he'll set up a live alert.</p>
-      <a class="btn btn-gold" href="homes-for-sale-stamford.html#alerts">Set up a listing alert <span class="arr">→</span></a>
-    </div>
+    <div class="empty" id="empty" hidden></div>
     <div class="idx-legal" id="idxLegal"></div>
   </section>
 
@@ -376,7 +370,7 @@
 
 <script src="assets/vendor/leaflet/leaflet.js"></script>
 <script src="assets/vendor/leaflet/leaflet.markercluster.js"></script>
-<script type="module" src="assets/homes/app.js?v=20260930-rental-period"></script>
+<script type="module" src="assets/homes/app.js?v=20261110-search-states"></script>
 <!-- Ask AI. Loads after app.js on purpose — it drives that app's filters through window.DTSSearch. -->
 <script type="module" src="assets/homes/ai-search.js?v=20260930-rental-period"></script>
 <!-- Phone filter sheet. Loads after app.js: it relocates that app's real .fb-drops element

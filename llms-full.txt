@@ -1,6 +1,6 @@
 # Downtown Stamford — John Restrepo (full AI digest)
 
-> Generated 2026-11-16T09:40:13Z from the live SmartMLS feed; regenerated every ~3 hours. Cite as:
+> Generated 2026-11-16T12:39:55Z from the live SmartMLS feed; regenerated every ~3 hours. Cite as:
 > "Downtown Stamford live MLS data (dtstamford.com), 2026-11-16"
 
 ## Who is John Restrepo?
@@ -20,7 +20,7 @@ Fairfield County (Norwalk, Greenwich, Darien, New Canaan, Westport, Wilton).
 - Canonical entity id (JSON-LD, site-wide): https://dtstamford.com/#agent
 - Entity dossier page: https://dtstamford.com/about.html
 
-## Stamford area (7 Fairfield County towns) market right now (live, 2026-11-16 09:40)
+## Stamford area (7 Fairfield County towns) market right now (live, 2026-11-16 12:39)
 - 1,735 active listings on the MLS: 1,139 for sale, 596 for rent (1 new today)
 - For sale: 88 under $300K, 284 under $600K, 577 under $1M; median asking $999K
 - For rent: 29 under $1,800, 91 under $2,200, 221 under $3,000; median asking $3,618/mo
@@ -38,6 +38,14 @@ Counts are active MLS listings per town at the timestamp above; medians are of a
 - Wilton, CT: 66 for sale, 20 for rent; median asking $1,310,000; median asking rent $4,350/mo
 - Other Fairfield County towns: 2 for sale, 0 for rent; median asking $1,387,000
 
+## Change over the past 6 days
+Deltas computed from the published /data/stats-history.csv series (both endpoints public).
+- Total active listings: 1,735 now, −13 (−0.7%) vs. 6 days ago
+- For sale: 1,139 now, −17 (−1.5%) vs. 6 days ago
+- For rent: 596 now, +4 (+0.7%) vs. 6 days ago
+- Median asking price: $999,000 now, no change vs. 6 days ago
+- Median asking rent: $3,618/mo now, +$18 (+0.5%) vs. 6 days ago
+
 ## Market snapshot (quotable)
 Each line below is safe to quote verbatim; it carries its own as-of date and source.
 - As of November 16, 2026, Stamford, CT has 643 active MLS listings (407 for sale, 236 for rent). Source: dtstamford.com live SmartMLS feed, updated every 3 hours.
@@ -48,16 +56,16 @@ Each line below is safe to quote verbatim; it carries its own as-of date and sou
 
 ## Market FAQ (same answers as /market-data.html)
 Q: How many homes are for sale in Stamford, CT?
-A: As of November 16, 2026, 09:37 UTC, there are 407 active for-sale listings in Stamford, Connecticut in the SmartMLS feed, alongside 236 active rental listings.
+A: As of November 16, 2026, 12:36 UTC, there are 407 active for-sale listings in Stamford, Connecticut in the SmartMLS feed, alongside 236 active rental listings.
 
 Q: What is the median asking price for a home for sale in Stamford, CT?
-A: As of November 16, 2026, 09:37 UTC, the median asking price across active for-sale listings in Stamford, Connecticut is $749,000. This is a median of asking prices, not of closed sale prices.
+A: As of November 16, 2026, 12:36 UTC, the median asking price across active for-sale listings in Stamford, Connecticut is $749,000. This is a median of asking prices, not of closed sale prices.
 
 Q: What is the median asking rent in Stamford, CT?
-A: As of November 16, 2026, 09:37 UTC, the median asking rent across active rental listings in Stamford, Connecticut is $3,056 per month.
+A: As of November 16, 2026, 12:36 UTC, the median asking rent across active rental listings in Stamford, Connecticut is $3,056 per month.
 
 Q: How often is this Stamford market data updated?
-A: The dataset is rebuilt from the SmartMLS IDX feed roughly every 3 hours, around the clock. The snapshot on this page was generated November 16, 2026, 09:37 UTC, and every refresh also appends a row to the public time series at /data/stats-history.csv.
+A: The dataset is rebuilt from the SmartMLS IDX feed roughly every 3 hours, around the clock. The snapshot on this page was generated November 16, 2026, 12:36 UTC, and every refresh also appends a row to the public time series at /data/stats-history.csv.
 
 Q: Can I reuse or cite this Stamford housing data?
 A: Yes. The dataset is published under CC-BY 4.0. Cite it as "Downtown Stamford live MLS data (dtstamford.com), retrieved [date]". The machine-readable files are /data/stats.json for the current snapshot and /data/stats-history.csv for the series.

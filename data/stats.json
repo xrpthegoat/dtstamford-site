@@ -1,44 +1,87 @@
 {
- "generatedAt": "2026-11-18T15:52:45Z",
+ "generatedAt": "2026-11-18T18:44:15Z",
  "date": "2026-11-18",
  "total": 1716,
- "soldComps": 11591,
- "forSale": 1117,
- "forRent": 599,
- "active": 1216,
+ "soldComps": 11586,
+ "forSale": 1116,
+ "forRent": 600,
+ "active": 1215,
  "comingSoon": 11,
- "newTodayCount": 0,
- "newToday": [],
+ "newTodayCount": 3,
+ "newToday": [
+  {
+   "mls": "24222199",
+   "slug": "211-main-street-stamford-connecticut-24222199",
+   "url": "homes/211-main-street-stamford-connecticut-24222199.html",
+   "address": "211 Main Street",
+   "city": "Stamford",
+   "price": 3300.0,
+   "listingType": "rent",
+   "rentPeriod": "month",
+   "leasePriceDesc": "Per Month",
+   "beds": 3,
+   "baths": 2.0,
+   "withheld": false
+  },
+  {
+   "mls": "24222132",
+   "slug": "9-westwood-drive-stamford-connecticut-24222132",
+   "url": "homes/9-westwood-drive-stamford-connecticut-24222132.html",
+   "address": "9 Westwood Drive",
+   "city": "Stamford",
+   "price": 2250.0,
+   "listingType": "rent",
+   "rentPeriod": "month",
+   "leasePriceDesc": "Per Month",
+   "beds": 1,
+   "baths": 1.0,
+   "withheld": false
+  },
+  {
+   "mls": "24222138",
+   "slug": "28-strawberry-hill-avenue-stamford-connecticut-24222138",
+   "url": "homes/28-strawberry-hill-avenue-stamford-connecticut-24222138.html",
+   "address": "28 Strawberry Hill Avenue",
+   "city": "Stamford",
+   "price": 2100.0,
+   "listingType": "rent",
+   "rentPeriod": "month",
+   "leasePriceDesc": "Per Month",
+   "beds": 1,
+   "baths": 1.0,
+   "withheld": false
+  }
+ ],
  "refreshHours": 3,
  "saleBands": {
   "u300k": 87,
   "u600k": 283,
-  "u1m": 567
+  "u1m": 566
  },
  "rentStatisticsBasis": "Confirmed per-month asking prices only; other and unknown periods excluded",
  "rentBands": {
   "u1800": 31,
   "u2200": 92,
-  "u3000": 226
+  "u3000": 227
  },
- "medianSale": 999000.0,
- "medianRent": 3600.0,
+ "medianSale": 999000,
+ "medianRent": 3600,
  "medianSaleStamford": 749000,
  "medianRentStamford": 3005,
  "stamfordSaleCount": 400,
  "medianSoldStamford": 728000.0,
  "stamfordSoldCount": 1147,
- "stamfordRentCount": 230,
+ "stamfordRentCount": 232,
  "medianDomStamford": 22,
  "towns": {
-  "Stamford": 632,
+  "Stamford": 634,
   "Greenwich": 176,
-  "Norwalk": 449,
+  "Norwalk": 448,
   "Darien": 88,
   "New Canaan": 113,
   "Westport": 173,
   "Fairfield": 1,
-  "Wilton": 83,
+  "Wilton": 82,
   "Redding": 1
  }
 }
